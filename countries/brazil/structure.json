@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "referenceYear": 2023,
+  "currency": "BRL",
+  "scale": "million",
+  "taxToGdp": 32,
+  "basis": "Collecting government",
+  "levels": [
+    { "key": "central", "label": "Union", "folioLevelIds": ["federal"], "share": 45.4 },
+    { "key": "regional", "label": "States and Federal District", "folioLevelIds": ["states"], "share": 23 },
+    { "key": "local", "label": "Municipalities", "folioLevelIds": ["municipalities"], "share": 6.4 },
+    { "key": "social-security", "label": "Social security funds (INSS and similar)", "folioLevelIds": [], "share": 25.2 }
+  ],
+  "totalByType": { "income": 940529, "socialSecurity": 874486, "payroll": 0, "property": 167650, "goodsServices": 1415025, "other": 76567 },
+  "sourceIds": ["oecd-rs-lac-2025-note", "oecd-rs-lac-2025-levels"],
+  "subnational": {
+    "ownSourceTaxShareOfRevenue": 43.6,
+    "grantsShareOfRevenue": 44.8,
+    "year": 2020,
+    "sourceId": "sng-wofi-profile",
+    "note": "States: tax 62.4%, grants 25%. Municipalities: grants 70.2%. Constitutionally shared federal taxes (FPE, FPM) count as grants."
+  },
+  "notes": [
+    "The LAC country note folds payroll taxes into \"other taxes\"; payroll is shown as zero and \"other\" carries both.",
+    "OECD LAC 2026 (data for 2024) shows central 44.7%, states 26.6%, local 6.3%, social security 22.4%."
+  ]
+}

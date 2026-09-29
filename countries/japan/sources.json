@@ -1,0 +1,301 @@
+{
+  "sources": [
+    {
+      "id": "mof-tax-revenue-fy2025",
+      "org": "Ministry of Finance Japan (財務省)",
+      "title": "令和7年度 8年5月末 租税及び印紙収入、収入額調 (FY2025 tax and stamp revenue, preliminary settlement)",
+      "url": "https://www.mof.go.jp/tax_policy/reference/taxes_and_stamp_revenues/202605.pdf",
+      "kind": "budget-report",
+      "language": "ja",
+      "publishedDate": "2026-07-03",
+      "periodCovered": "FY2025 (1 Apr 2025 – 31 Mar 2026)",
+      "accessed": "2026-09-28",
+      "note": "General-account tax and stamp revenue by tax, ¥ million, 決算額(概数) = preliminary settlement (total ¥84,222,606 million, announced 3 Jul 2026). The Japan Times/Jiji report the same total as ¥84,222.6 billion."
+    },
+    {
+      "id": "mic-local-finance-2026",
+      "org": "Ministry of Internal Affairs and Communications (総務省)",
+      "title": "令和8年版 地方財政白書 – 資料編 第11表・第13表 (Local Public Finance White Paper 2026: revenue and local tax tables, FY2024 settlement)",
+      "url": "https://www.soumu.go.jp/menu_seisaku/hakusyo/chihou/r08data/2026data/r08czs01-02.html",
+      "kind": "statistics",
+      "language": "ja",
+      "publishedDate": null,
+      "periodCovered": "FY2024 (1 Apr 2024 – 31 Mar 2025) settlement",
+      "accessed": "2026-09-28",
+      "note": "CSV tables s-011-1 (revenue), s-013-1 (local tax summary), s-013-2 (prefectural taxes), s-013-4 (municipal taxes), amounts in ¥ million. Prefecture and municipality totals are 'net' of overlaps; Tokyo collects municipal-type taxes for its 23 special wards and reports them in the prefecture column."
+    },
+    {
+      "id": "ipss-ss-cost-2023",
+      "org": "National Institute of Population and Social Security Research (国立社会保障・人口問題研究所)",
+      "title": "令和5(2023)年度 社会保障費用統計 – 概要 (Social Security Expenditure Statistics FY2023)",
+      "url": "https://www.ipss.go.jp/ss-cost/j/fsss-R05/fsss_R05.html",
+      "kind": "statistics",
+      "language": "ja",
+      "publishedDate": "2025-07-29",
+      "periodCovered": "FY2023 (1 Apr 2023 – 31 Mar 2024)",
+      "accessed": "2026-09-28",
+      "note": "Social insurance contributions ¥80,110.1 billion (insured persons ¥42,022.5 bn + employers ¥38,087.6 bn), ILO standard. Latest edition available at the check date."
+    },
+    {
+      "id": "mof-tax-reform-fy2026",
+      "org": "Ministry of Finance Japan (財務省)",
+      "title": "令和8年度税制改正の大綱の概要 (FY2026 Tax Reform Outline, Cabinet decision of 26 December 2025)",
+      "url": "https://www.mof.go.jp/tax_policy/tax_reform/outline/fy2026/08taikou_gaiyou.htm",
+      "kind": "guidance",
+      "language": "ja",
+      "publishedDate": "2025-12-26",
+      "accessed": "2026-09-28",
+      "note": "Creates the defence special income tax from 1 Jan 2027 (1%), cuts the reconstruction surtax from 2.1% to 1% and extends it to 2047, and indexes the basic deduction to prices."
+    },
+    {
+      "id": "mof-defense-tax-2025",
+      "org": "Ministry of Finance Japan (財務省)",
+      "title": "防衛力強化に係る財源確保のための税制措置 (令和7年度税制改正)",
+      "url": "https://www.mof.go.jp/tax_policy/publication/brochure/zeisei2025/05.html",
+      "kind": "guidance",
+      "language": "ja",
+      "publishedDate": "2025-03-31",
+      "accessed": "2026-09-28",
+      "note": "Defence special corporation tax from 1 Apr 2026 (4% of corporation tax above ¥5 million); tobacco tax steps from 2026–2029."
+    },
+    {
+      "id": "nta-gasoline-special-rate",
+      "org": "National Tax Agency (国税庁)",
+      "title": "揮発油税等の特例税率の廃止について",
+      "url": "https://www.nta.go.jp/information/other/data/r07/kihatsu/index.htm",
+      "kind": "tax-agency",
+      "language": "ja",
+      "publishedDate": null,
+      "accessed": "2026-09-28",
+      "note": "Abolition of the special (provisional) rate of the gasoline tax and local gasoline tax on 31 December 2025."
+    },
+    {
+      "id": "tokyo-diesel-2026",
+      "org": "Tokyo Metropolitan Bureau of Taxation (東京都主税局)",
+      "title": "軽油引取税の当分の間税率（旧暫定税率）の廃止について",
+      "url": "https://www.tax.metro.tokyo.lg.jp/information/update/r8/04/20260401",
+      "kind": "tax-agency",
+      "language": "ja",
+      "publishedDate": "2026-04-01",
+      "accessed": "2026-09-28",
+      "note": "Abolition of the provisional rate of the prefectural diesel delivery tax on 1 April 2026 (¥32.1 to ¥15 per litre)."
+    },
+    {
+      "id": "jp-constitution",
+      "org": "e-Gov Law Search (Digital Agency)",
+      "title": "日本国憲法 (Constitution of Japan) – arts. 30, 84, 92–94",
+      "url": "https://laws.e-gov.go.jp/law/321CONSTITUTION",
+      "kind": "legal",
+      "language": "ja",
+      "publishedDate": null,
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": "jp-income-tax-act",
+      "org": "e-Gov Law Search (Digital Agency)",
+      "title": "所得税法 (Income Tax Act, Act No. 33 of 1965)",
+      "url": "https://laws.e-gov.go.jp/law/340AC0000000033",
+      "kind": "legal",
+      "language": "ja",
+      "publishedDate": null,
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": "jp-corporation-tax-act",
+      "org": "e-Gov Law Search (Digital Agency)",
+      "title": "法人税法 (Corporation Tax Act, Act No. 34 of 1965)",
+      "url": "https://laws.e-gov.go.jp/law/340AC0000000034",
+      "kind": "legal",
+      "language": "ja",
+      "publishedDate": null,
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": "jp-consumption-tax-act",
+      "org": "e-Gov Law Search (Digital Agency)",
+      "title": "消費税法 (Consumption Tax Act, Act No. 108 of 1988)",
+      "url": "https://laws.e-gov.go.jp/law/363AC0000000108",
+      "kind": "legal",
+      "language": "ja",
+      "publishedDate": null,
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": "jp-inheritance-tax-act",
+      "org": "e-Gov Law Search (Digital Agency)",
+      "title": "相続税法 (Inheritance Tax Act, Act No. 73 of 1950) – covers inheritance and gift tax",
+      "url": "https://laws.e-gov.go.jp/law/325AC0000000073",
+      "kind": "legal",
+      "language": "ja",
+      "publishedDate": null,
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": "jp-liquor-tax-act",
+      "org": "e-Gov Law Search (Digital Agency)",
+      "title": "酒税法 (Liquor Tax Act, Act No. 6 of 1953)",
+      "url": "https://laws.e-gov.go.jp/law/328AC0000000006",
+      "kind": "legal",
+      "language": "ja",
+      "publishedDate": null,
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": "jp-tobacco-tax-act",
+      "org": "e-Gov Law Search (Digital Agency)",
+      "title": "たばこ税法 (Tobacco Tax Act, Act No. 72 of 1984)",
+      "url": "https://laws.e-gov.go.jp/law/359AC0000000072",
+      "kind": "legal",
+      "language": "ja",
+      "publishedDate": null,
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": "jp-gasoline-tax-act",
+      "org": "e-Gov Law Search (Digital Agency)",
+      "title": "揮発油税法 (Gasoline Tax Act, Act No. 55 of 1957)",
+      "url": "https://laws.e-gov.go.jp/law/332AC0000000055",
+      "kind": "legal",
+      "language": "ja",
+      "publishedDate": null,
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": "jp-petroleum-coal-tax-act",
+      "org": "e-Gov Law Search (Digital Agency)",
+      "title": "石油石炭税法 (Petroleum and Coal Tax Act, Act No. 25 of 1978)",
+      "url": "https://laws.e-gov.go.jp/law/353AC0000000025",
+      "kind": "legal",
+      "language": "ja",
+      "publishedDate": null,
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": "jp-vehicle-tonnage-act",
+      "org": "e-Gov Law Search (Digital Agency)",
+      "title": "自動車重量税法 (Motor Vehicle Tonnage Tax Act, Act No. 89 of 1971)",
+      "url": "https://laws.e-gov.go.jp/law/346AC0000000089",
+      "kind": "legal",
+      "language": "ja",
+      "publishedDate": null,
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": "jp-customs-act",
+      "org": "e-Gov Law Search (Digital Agency)",
+      "title": "関税法 (Customs Act, Act No. 61 of 1954)",
+      "url": "https://laws.e-gov.go.jp/law/329AC0000000061",
+      "kind": "legal",
+      "language": "ja",
+      "publishedDate": null,
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": "jp-customs-tariff-law",
+      "org": "e-Gov Law Search (Digital Agency)",
+      "title": "関税定率法 (Customs Tariff Law, Act No. 54 of 1910)",
+      "url": "https://laws.e-gov.go.jp/law/343AC0000000054",
+      "kind": "legal",
+      "language": "ja",
+      "publishedDate": null,
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": "jp-stamp-tax-act",
+      "org": "e-Gov Law Search (Digital Agency)",
+      "title": "印紙税法 (Stamp Tax Act, Act No. 23 of 1967)",
+      "url": "https://laws.e-gov.go.jp/law/342AC0000000023",
+      "kind": "legal",
+      "language": "ja",
+      "publishedDate": null,
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": "jp-reconstruction-act",
+      "org": "e-Gov Law Search (Digital Agency)",
+      "title": "東日本大震災からの復興のための施策を実施するために必要な財源の確保に関する特別措置法 (Act No. 117 of 2011) – reconstruction special income tax",
+      "url": "https://laws.e-gov.go.jp/law/423AC0000000117",
+      "kind": "legal",
+      "language": "ja",
+      "publishedDate": null,
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": "jp-defense-funding-act",
+      "org": "e-Gov Law Search (Digital Agency)",
+      "title": "防衛力強化に必要な財源の確保に関する特別措置法 (Act No. 69 of 2023) – defence special corporation tax",
+      "url": "https://laws.e-gov.go.jp/law/505AC0000000069",
+      "kind": "legal",
+      "language": "ja",
+      "publishedDate": "2023-06-16",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": "jp-local-tax-act",
+      "org": "e-Gov Law Search (Digital Agency)",
+      "title": "地方税法 (Local Tax Act, Act No. 226 of 1950)",
+      "url": "https://laws.e-gov.go.jp/law/325AC0000000226",
+      "kind": "legal",
+      "language": "ja",
+      "publishedDate": null,
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": "jp-local-autonomy-act",
+      "org": "e-Gov Law Search (Digital Agency)",
+      "title": "地方自治法 (Local Autonomy Act, Act No. 67 of 1947)",
+      "url": "https://laws.e-gov.go.jp/law/322AC0000000067",
+      "kind": "legal",
+      "language": "ja",
+      "publishedDate": null,
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": "jp-social-insurance-laws",
+      "org": "Ministry of Health, Labour and Welfare (厚生労働省)",
+      "title": "社会保険制度 (Employees' Pension Insurance, Health Insurance, Long-term Care and Employment Insurance)",
+      "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iryouhoken/index.html",
+      "kind": "guidance",
+      "language": "ja",
+      "publishedDate": null,
+      "accessed": "2026-09-28",
+      "note": "Ministry overview pages for the social-insurance schemes; premium rates are set by each scheme's statute (Health Insurance Act, Employees' Pension Insurance Act, Employment Insurance Act, Long-Term Care Insurance Act)."
+    },
+    {
+      "id": "oecd-rs-2025-subsectors",
+      "org": "OECD",
+      "language": "en",
+      "kind": "international",
+      "accessed": "2026-09-29",
+      "title": "Revenue Statistics 2025, Table 6.20: Japan, tax revenues by sub-sectors of government",
+      "url": "https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en/full-report/tax-revenues-by-subsectors-of-general-government_f9e88332.html",
+      "publishedDate": "2025-12-09",
+      "periodCovered": "Calendar year 2023 (national currency)",
+      "note": "Harmonised OECD classification of taxes (1000–6000) split by collecting sub-sector of general government. Used for the cross-country profile and for parts of the national total that have no national-source breakdown."
+    },
+    {
+      "id": "oecd-rs-2025-levels",
+      "org": "OECD",
+      "language": "en",
+      "kind": "international",
+      "accessed": "2026-09-29",
+      "title": "Revenue Statistics 2025, Chapter 3: Tax levels and tax structures (Tables 3.1 and 3.4)",
+      "url": "https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en/full-report/tax-levels-and-tax-structures-1965-2024_2033f3ea.html",
+      "publishedDate": "2025-12-09",
+      "periodCovered": "Calendar year 2023",
+      "note": "Total tax revenue as % of GDP and tax structure as % of total taxation, for all OECD members."
+    },
+    {
+      "id": "sng-wofi-profile",
+      "org": "OECD and United Cities and Local Governments (SNG-WOFI)",
+      "title": "World Observatory on Subnational Government Finance and Investment – country profile: Japan",
+      "url": "https://www.sng-wofi.org/country_profiles/japan.html",
+      "kind": "international",
+      "language": "en",
+      "publishedDate": "2022-10-24",
+      "periodCovered": "2019",
+      "accessed": "2026-09-29",
+      "note": "Subnational government revenue by category (tax revenue, grants and subsidies, tariffs and fees, property income, other) as % of total subnational revenue, 2022 edition."
+    }
+  ]
+}

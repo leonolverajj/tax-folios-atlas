@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "id": "new-zealand",
+  "iso3": "NZL",
+  "isoNumeric": "554",
+  "names": { "en": "New Zealand", "native": "Aotearoa", "nativeLang": "mi" },
+  "accent": "#6aa0ff",
+  "flag": ["#00247d", "#ffffff", "#cc142b"],
+  "structure": {
+    "version": 1,
+    "referenceYear": 2023,
+    "currency": "NZD",
+    "scale": "million",
+    "taxToGdp": 33.7,
+    "basis": "Collecting government",
+    "levels": [
+      {
+        "key": "central",
+        "label": "Central government",
+        "folioLevelIds": [],
+        "total": 132494,
+        "byType": { "income": 83614, "socialSecurity": 0, "payroll": 0, "property": 198, "goodsServices": 48682, "other": 0 }
+      },
+      {
+        "key": "local",
+        "label": "Local governments",
+        "folioLevelIds": [],
+        "total": 9201,
+        "byType": { "income": 0, "socialSecurity": 0, "payroll": 0, "property": 8199, "goodsServices": 1002, "other": 0 }
+      }
+    ],
+    "sourceIds": ["oecd-rs-2025-subsectors", "oecd-rs-2025-levels"],
+    "subnational": {
+      "ownSourceTaxShareOfRevenue": 55.8,
+      "grantsShareOfRevenue": 22,
+      "year": 2020,
+      "sourceId": "sng-wofi-profile",
+      "note": "Tariffs and fees 18%, property income 4.1%, other 0% of subnational revenue."
+    },
+    "notes": []
+  },
+  "sources": [
+    {
+      "id": "oecd-rs-2025-subsectors",
+      "org": "OECD",
+      "title": "Revenue Statistics 2025, Table 6.27: New Zealand, tax revenues by sub-sectors of government",
+      "url": "https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en/full-report/tax-revenues-by-subsectors-of-general-government_f9e88332.html",
+      "kind": "international",
+      "language": "en",
+      "publishedDate": "2025-12-09",
+      "periodCovered": "Calendar year 2023 (national currency)",
+      "accessed": "2026-09-29",
+      "note": "Harmonised OECD classification of taxes (1000–6000) split by collecting sub-sector of general government."
+    },
+    {
+      "id": "oecd-rs-2025-levels",
+      "org": "OECD",
+      "title": "Revenue Statistics 2025, Chapter 3: Tax levels and tax structures (Table 3.1)",
+      "url": "https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en/full-report/tax-levels-and-tax-structures-1965-2024_2033f3ea.html",
+      "kind": "international",
+      "language": "en",
+      "publishedDate": "2025-12-09",
+      "periodCovered": "Calendar year 2023",
+      "accessed": "2026-09-29",
+      "note": "Total tax revenue as % of GDP."
+    },
+    {
+      "id": "sng-wofi-profile",
+      "org": "OECD and United Cities and Local Governments (SNG-WOFI)",
+      "title": "World Observatory on Subnational Government Finance and Investment – country profile: New Zealand",
+      "url": "https://www.sng-wofi.org/country_profiles/new_zealand.html",
+      "kind": "international",
+      "language": "en",
+      "publishedDate": "2022-10-24",
+      "periodCovered": "2020",
+      "accessed": "2026-09-29",
+      "note": "Subnational government revenue by category as % of total subnational revenue, 2022 edition."
+    }
+  ]
+}

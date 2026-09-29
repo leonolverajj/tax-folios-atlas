@@ -1,0 +1,103 @@
+{
+  "id": "mexico",
+  "iso3": "MEX",
+  "isoNumeric": "484",
+  "names": { "en": "Mexico", "native": "México", "nativeLang": "es-MX" },
+  "currency": { "code": "MXN", "symbol": "$", "name": "Mexican peso" },
+  "summary": "Mexico is a federation of 31 states and Mexico City with about 2,470 municipalities and 16 Mexico City boroughs. In practice tax power is highly centralised: through the National Fiscal Coordination System the states cede most broad tax bases to the federation and receive a share of federal revenue (participaciones), so income tax, VAT and excise taxes are federal, while states and municipalities keep payroll, vehicle, lodging and property taxes and their own fees.",
+  "structureNote": "Mexico City has state-like powers and its boroughs (alcaldías) are treated as municipal governments. The 'derechos' (fees) are a constitutional species of contribution paid for public services or for using public assets; the federal government also collects oil income through the Fondo Mexicano del Petróleo. Transfers from the federation (participaciones, aportaciones) are the largest revenue of most states but are not taxes and are not drawn as cores.",
+  "theme": {
+    "accent": "#ff8a5c",
+    "accent2": "#2fd4c0",
+    "motif": "sierra-belt",
+    "motifNote": "The Sierra Madre ranges converging on the volcanic belt, with the Tropic of Cancer crossing Mexico's own outline.",
+    "mapLabel": { "lon": -102, "lat": 23.5 }
+  },
+  "levels": [
+    {
+      "id": "federal",
+      "branch": "national",
+      "names": { "official": "Federación (Gobierno Federal)", "native": "Federación", "common": "Federal government" },
+      "description": "The federal government, through the SHCP and the tax agency SAT. It levies income tax, VAT, excise taxes, customs duties, federal fees and oil-related revenues; the IMSS and ISSSTE collect social-security contributions.",
+      "fiscalPower": "Congress legislates the main taxes (Constitution arts. 73, fr. VII and XXIX) and the states have agreed to coordination that reserves most tax bases to the federation in exchange for participaciones (Ley de Coordinación Fiscal).",
+      "legalRefs": [{ "sourceId": "cpeum", "locator": "arts. 31-IV, 73 fr. VII and XXIX" }, { "sourceId": "lcf" }],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "states",
+      "branch": "regional",
+      "names": {
+        "official": "Entidades federativas (31 Estados y la Ciudad de México)",
+        "native": "Entidades federativas",
+        "common": "States and Mexico City"
+      },
+      "description": "The 31 states and Mexico City. Their own taxes are limited to payroll, vehicle ownership or use, lodging, entertainment and similar levies, plus fees (derechos); most of their money is federal transfers.",
+      "fiscalPower": "Residual powers under Constitution art. 124, limited by art. 73 and by the coordination agreements: states that adhere to the national system give up parallel taxes on the same bases as VAT and income tax.",
+      "legalRefs": [{ "sourceId": "cpeum", "locator": "arts. 124, 117 fr. IV–IX" }, { "sourceId": "lcf" }],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "municipalities",
+      "branch": "local",
+      "names": { "official": "Municipios y alcaldías de la Ciudad de México", "native": "Municipios", "common": "Municipalities" },
+      "description": "About 2,470 municipalities and the 16 Mexico City boroughs. Their main taxes are the property tax (predial) and the property-transfer tax, plus fees for water, street lighting and permits.",
+      "fiscalPower": "Constitution art. 115 fr. IV: municipalities administer their property-tax base and receive its yield; state congresses approve municipal revenue laws and rates.",
+      "legalRefs": [{ "sourceId": "cpeum", "locator": "art. 115 fr. IV" }],
+      "checkedOn": "2026-09-28"
+    }
+  ],
+  "supportingSourceIds": ["shcp-4t-2025", "lif-2026", "lisan", "inegi-efipem-2024"],
+  "denominators": [
+    {
+      "id": "federal-taxes-contributions",
+      "label": "Federal taxes and social security contributions itemised in the public account, 2025",
+      "definition": "Sum of the federal taxes and contributions for which the Cuenta Pública reports an amount: income tax (ISR), VAT (IVA), IEPS on fuels and other goods, import duties, the new-vehicle tax (ISAN) and IMSS/ISSSTE contributions. Leaves out oil revenue, federal fees (derechos), and the non-tax income of PEMEX, CFE and other public entities.",
+      "levelIds": ["federal"],
+      "amount": 5900704.2,
+      "scale": "million",
+      "currency": "MXN",
+      "period": { "label": "2025", "kind": "calendar-year", "start": "2025-01-01", "end": "2025-12-31" },
+      "sourceId": "cp-2025-ingresos",
+      "locator": "Executed (recaudado) total, table 'Pronóstico de la Ley de Ingresos … principales indicadores' (LIF 8,055,649.3 vs executed 8,228,666.3)",
+      "calculation": "Sum of the itemised lines: 2,888,702.1 + 1,499,451.4 + 444,357.1 + 226,913.7 + 173,618.7 + 18,022.5 + 649,638.7 = 5,900,704.2 (MXN millions). For context, total budgetary revenue of the public sector was MXN 8,228,666.3 million including oil and other non-tax income.",
+      "caveat": "Small federal taxes that the source does not itemise (surcharges, accessories, minor levies) are not in this sum, so shares are slightly overstated. Cash basis, 2025 preliminary account.",
+      "accessed": "2026-09-29"
+    },
+    {
+      "id": "state-taxes-oecd-2023",
+      "label": "State taxes (collecting government), 2023",
+      "definition": "Tax revenue collected by state governments, OECD classification, before revenue sharing. The taxes themselves (payroll, vehicle ownership, lodging) have no national-source breakdown here, so they are not drawn as cores.",
+      "levelIds": [],
+      "aggregateOnly": true,
+      "amount": 256362,
+      "scale": "million",
+      "currency": "MXN",
+      "period": { "label": "2023", "kind": "calendar-year", "start": "2023-01-01", "end": "2023-12-31" },
+      "sourceId": "oecd-rs-2025-subsectors",
+      "locator": "Table 6.25 Mexico – State/Regional – Total tax revenue (collecting government)",
+      "caveat": "Two years older than the federal figures. Federal revenue-sharing transfers to states are not tax collections and are not included.",
+      "accessed": "2026-09-29"
+    },
+    {
+      "id": "local-taxes-oecd-2023",
+      "label": "Municipal taxes (collecting government), 2023",
+      "definition": "Tax revenue collected by municipalities, OECD classification. Mostly property taxes; no national-source breakdown here, so no cores.",
+      "levelIds": [],
+      "aggregateOnly": true,
+      "amount": 97450,
+      "scale": "million",
+      "currency": "MXN",
+      "period": { "label": "2023", "kind": "calendar-year", "start": "2023-01-01", "end": "2023-12-31" },
+      "sourceId": "oecd-rs-2025-subsectors",
+      "locator": "Table 6.25 Mexico – Local government – Total tax revenue (collecting government)",
+      "caveat": "Two years older than the federal figures.",
+      "accessed": "2026-09-29"
+    }
+  ],
+  "sizing": {
+    "label": "Taxes and social security contributions of all levels of government",
+    "definition": "Itemised federal taxes and IMSS/ISSSTE contributions (2025) + state taxes (OECD, 2023) + municipal taxes (OECD, 2023). Excludes oil revenue, federal and local fees, and revenue-sharing transfers from the federation to states and municipalities.",
+    "componentIds": ["federal-taxes-contributions", "state-taxes-oecd-2023", "local-taxes-oecd-2023"]
+  },
+  "researchStatus": "partial"
+}

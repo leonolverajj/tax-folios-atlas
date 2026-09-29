@@ -1,0 +1,513 @@
+{
+  "instruments": [
+    {
+      "id": "fed-individual-income-tax",
+      "parentId": "federal",
+      "levelId": "federal",
+      "category": "tax",
+      "family": "income-personal",
+      "status": "current",
+      "names": { "official": "Federal individual income tax (Internal Revenue Code §1 et seq.)", "common": "Individual income tax", "abbreviation": "Individual income tax" },
+      "taxes": { "base": "Taxable income of U.S. citizens and residents (worldwide) and U.S.-source income of non-residents: wages, business profits, interest, dividends, capital gains, retirement distributions.", "payer": "Individuals; employers withhold on wages." },
+      "rate": {
+        "kind": "progressive",
+        "headline": "10% – 37% (seven brackets, made permanent in 2025)",
+        "details": [
+          "Rates of 10%, 12%, 22%, 24%, 32%, 35% and 37%; bracket thresholds differ by filing status and are indexed each year (Rev. Proc. 2025-32 for 2026).",
+          "2026 standard deduction: $16,100 single; $32,200 married filing jointly; $24,150 head of household.",
+          "Long-term capital gains and qualified dividends are taxed separately at 0%, 15% or 20%, plus a 3.8% net investment income tax for higher incomes."
+        ],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "The largest federal revenue source. The One, Big, Beautiful Bill Act (July 2025) made the 2017 rate structure permanent instead of letting it expire at the end of 2025.",
+      "exceptions": ["Most states also tax income; the federal tax is separate and additional.", "Many credits, deductions and phase-outs change the amount actually owed."],
+      "legalRefs": [
+        { "sourceId": "usc-title-26", "locator": "26 U.S.C. §1 (tax imposed), §63 (taxable income)" },
+        { "sourceId": "irs-2026-adjustments" },
+        { "sourceId": "irs-rates" }
+      ],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "fed-corporate-income-tax",
+      "parentId": "federal",
+      "levelId": "federal",
+      "category": "tax",
+      "family": "income-corporate",
+      "status": "current",
+      "names": { "official": "Federal corporate income tax (Internal Revenue Code §11)", "common": "Corporate income tax", "abbreviation": "Corporate income tax" },
+      "taxes": { "base": "Taxable income of corporations organised in the United States (worldwide income, with foreign tax credits) and U.S.-source income of foreign corporations.", "payer": "C corporations." },
+      "rate": {
+        "kind": "flat",
+        "headline": "21% flat",
+        "details": ["Flat 21% rate on taxable income since 2018.", "A 15% corporate alternative minimum tax applies to very large corporations (over $1 billion of average financial-statement income)."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "A single-rate tax on corporate profits. Revenue fluctuates with profits and with depreciation rules, which the 2025 legislation loosened.",
+      "exceptions": ["Pass-through businesses (partnerships, S corporations, sole proprietorships) are taxed under the individual income tax instead.", "State corporate taxes are additional."],
+      "legalRefs": [{ "sourceId": "usc-title-26", "locator": "26 U.S.C. §11(b) (21% rate), §55 (alternative minimum tax)" }],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "fed-social-security",
+      "parentId": "federal",
+      "levelId": "federal",
+      "category": "social-contribution",
+      "family": "social-security",
+      "status": "current",
+      "names": { "official": "Old-Age, Survivors and Disability Insurance payroll taxes (FICA and SECA)", "common": "Social Security payroll tax", "abbreviation": "Social Security" },
+      "taxes": { "base": "Wages and self-employment earnings up to the annual contribution and benefit base ($184,500 in 2026).", "payer": "Employees and employers (6.2% each); self-employed pay 12.4%." },
+      "rate": {
+        "kind": "flat",
+        "headline": "6.2% employee + 6.2% employer (12.4% combined), up to $184,500 (2026)",
+        "details": ["Self-Employment Contributions Act (SECA) rate is 12.4% for OASDI.", "Only earnings up to the wage base are taxed."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "A contribution credited to the Old-Age and Survivors Insurance and Disability Insurance trust funds, which pay Social Security benefits. Legally an excise/payroll tax, but earmarked and tied to benefit entitlement.",
+      "exceptions": ["Some state and local government employees are outside Social Security.", "Railroad workers have a separate system (Railroad Retirement Tax Act)."],
+      "legalRefs": [
+        { "sourceId": "usc-title-26", "locator": "26 U.S.C. §§3101(a), 3111(a) (FICA OASDI), §1401(a) (SECA)" },
+        { "sourceId": "ssa-cbb" },
+        { "sourceId": "irs-tc751" }
+      ],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "fed-medicare",
+      "parentId": "federal",
+      "levelId": "federal",
+      "category": "social-contribution",
+      "family": "social-security",
+      "status": "current",
+      "names": { "official": "Hospital Insurance (Medicare Part A) payroll taxes (FICA and SECA)", "common": "Medicare payroll tax", "abbreviation": "Medicare" },
+      "taxes": { "base": "All wages and self-employment earnings, with no wage cap.", "payer": "Employees and employers (1.45% each); self-employed pay 2.9%; higher earners pay an additional 0.9%." },
+      "rate": {
+        "kind": "flat",
+        "headline": "1.45% employee + 1.45% employer (2.9%), plus 0.9% above $200,000",
+        "details": ["Additional Medicare Tax of 0.9% on earnings above $200,000 (single) or $250,000 (joint), paid by the employee only.", "A separate 3.8% net investment income tax is collected through the individual income tax."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "A contribution credited to the Hospital Insurance trust fund that pays for Medicare Part A.",
+      "exceptions": ["Medicare Parts B and D are financed mainly by general revenue and premiums, not this tax."],
+      "legalRefs": [
+        { "sourceId": "usc-title-26", "locator": "26 U.S.C. §§3101(b), 3111(b) (FICA HI), §1401(b) (SECA HI), §3101(b)(2) (additional tax)" },
+        { "sourceId": "irs-tc751" }
+      ],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "fed-unemployment-insurance",
+      "parentId": "federal",
+      "levelId": "federal",
+      "category": "insurance-premium",
+      "family": "social-security",
+      "status": "current",
+      "names": { "official": "Unemployment insurance taxes (Federal Unemployment Tax Act and state unemployment taxes deposited to the Unemployment Trust Fund)", "common": "Unemployment insurance taxes", "abbreviation": "Unemployment insurance" },
+      "taxes": { "base": "Employers' payroll up to a wage base ($7,000 federal; states set higher bases).", "payer": "Employers (in a few states also employees)." },
+      "rate": {
+        "kind": "range",
+        "headline": "Federal 6.0% (0.6% after state-credit); state rates vary by employer",
+        "details": ["FUTA: 6.0% on the first $7,000 of each worker's wages, with a credit of up to 5.4% for state contributions, leaving 0.6% in most states.", "State unemployment taxes: each state sets wage bases and experience-rated rates for each employer."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "Financing for unemployment benefits. Most receipts in the Treasury statement are state taxes deposited into the federal Unemployment Trust Fund, so this core mixes one federal and fifty state programmes.",
+      "exceptions": ["State rates change annually with each employer's layoff experience and the trust-fund balance."],
+      "legalRefs": [{ "sourceId": "usc-title-26", "locator": "26 U.S.C. §§3301–3302 (FUTA rate and credit)" }],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "fed-excise-taxes",
+      "parentId": "federal",
+      "levelId": "federal",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Federal excise taxes (fuels, tobacco, alcohol, air transportation, trucks and other)", "common": "Federal excise taxes", "abbreviation": "Excise taxes" },
+      "taxes": { "base": "Specific goods and activities: motor fuels, tobacco, alcohol, air tickets and cargo, heavy trucks, health-insurance-related fees and others.", "payer": "Producers, importers or sellers; passed on to consumers." },
+      "rate": {
+        "kind": "mechanism",
+        "headline": "Specific and ad valorem rates by product",
+        "details": ["Gasoline 18.4¢ and diesel 24.4¢ per gallon; cigarettes about $1.01 per pack; air passenger tickets 7.5% (domestic).", "Several excise taxes fund trust funds (Highway, Airport and Airway, Black Lung)."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "Taxes on specific products. Many rates are fixed in dollars and are not indexed to inflation, so their revenue share has declined over decades.",
+      "exceptions": ["The list of taxed items is long; see Subtitle D of the Internal Revenue Code."],
+      "legalRefs": [{ "sourceId": "usc-title-26", "locator": "26 U.S.C. Subtitle D and E, e.g. §4081 (fuels), §5701 (tobacco), §5001 (spirits), §4261 (air transportation)" }],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "fed-estate-gift",
+      "parentId": "federal",
+      "levelId": "federal",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "Federal estate and gift taxes (Internal Revenue Code Chapters 11–12)", "common": "Estate and gift taxes", "abbreviation": "Estate & gift" },
+      "taxes": { "base": "Value of large estates at death and of large lifetime gifts above the exclusion.", "payer": "The estate (executor) or the donor." },
+      "rate": {
+        "kind": "flat",
+        "headline": "40% top rate above a $15 million exclusion (2026)",
+        "details": ["The basic exclusion amount is $15,000,000 per person from 2026 (permanent, indexed after 2026).", "Amounts above the exclusion are taxed on a graduated scale reaching 40%."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "A wealth-transfer tax paid by very few estates.",
+      "exceptions": ["Transfers to a spouse and to charities are deductible; some states levy their own estate or inheritance taxes."],
+      "legalRefs": [{ "sourceId": "usc-title-26", "locator": "26 U.S.C. §2001 (estate tax rates), §2010 (unified credit), §2502 (gift tax)" }],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "fed-customs-duties",
+      "parentId": "federal",
+      "levelId": "federal",
+      "category": "customs-duty",
+      "family": "trade",
+      "status": "transitional",
+      "statusNote": "The IEEPA tariffs behind the FY2025 increase were ended on 24 February 2026 after the Supreme Court's ruling of 20 February 2026 (Learning Resources v. Trump). A temporary Section 122 surcharge (24 Feb–24 Jul 2026) was replaced in late July 2026 by Section 301 'forced-labour' duties of 10% or 12.5% on 60 economies; Section 232 sectoral tariffs continue. Refunds of IEEPA duties are being litigated.",
+      "names": { "official": "Customs duties and import tariffs (Tariff Act; Harmonized Tariff Schedule; Sections 122, 232, 301)", "common": "Customs duties (tariffs)", "abbreviation": "Customs duties" },
+      "taxes": { "base": "Value of imported goods by tariff classification and origin.", "payer": "Importers of record; passed on in prices." },
+      "rate": {
+        "kind": "mechanism",
+        "headline": "HTSUS rates plus changing additional tariffs (Sections 232, 301 and others)",
+        "details": [
+          "Baseline (MFN) rates are set line by line in the Harmonized Tariff Schedule and are mostly low.",
+          "IEEPA tariffs: terminated 24 Feb 2026 after the Supreme Court held IEEPA does not authorise tariffs.",
+          "Section 301 forced-labour action (July 2026): 10% for economies that ban or commit to ban forced-labour imports, 12.5% for the rest, covering 60 economies.",
+          "Section 232 tariffs on steel, aluminium and other sectors and earlier Section 301 tariffs on China are separate authorities."
+        ],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "Duties collected at the border by Customs and Border Protection. Revenue jumped from $77 billion in FY2024 to $195 billion in FY2025 as additional tariffs took effect; the legal basis and level of those tariffs have changed repeatedly in 2026.",
+      "exceptions": ["Trade agreements, exclusions and product-specific orders change the applicable rate; check the HTSUS and CBP notices."],
+      "legalRefs": [
+        { "sourceId": "usitc-hts" },
+        { "sourceId": "usc-title-19", "locator": "19 U.S.C. §1202 (HTSUS), §1862 (Section 232), §2411 (Section 301)" },
+        { "sourceId": "scotus-learning-resources" },
+        { "sourceId": "ustr-301-forced-labor" },
+        { "sourceId": "fr-301-forced-labor" }
+      ],
+      "checkedOn": "2026-09-28"
+    },
+
+    {
+      "id": "state-individual-income-tax",
+      "parentId": "states",
+      "levelId": "states",
+      "category": "tax",
+      "family": "income-personal",
+      "status": "current",
+      "names": { "official": "State individual income taxes", "common": "State individual income tax", "abbreviation": "State income tax" },
+      "taxes": { "base": "Income of residents (and non-residents' in-state income) as defined by each state, usually starting from federal adjusted gross income.", "payer": "Individuals; employers withhold." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Varies by state – 41 states plus DC tax broad income; about 2.5% to 13.3% top rates",
+        "details": ["Eight states levy no broad-based income tax (AK, FL, NV, NH, SD, TN, TX, WY).", "About 15 states use a single flat rate; the others use graduated brackets, with California's top rate at 13.3%."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "The largest state tax by revenue after sales taxes, and the one that varies most between states.",
+      "exceptions": ["Washington taxes capital gains only; some states tax only interest, dividends or specific income."],
+      "legalRefs": [
+        { "sourceId": "us-constitution-amend10" },
+        { "sourceId": "ca-rtc", "locator": "Personal Income Tax Law (California example)" },
+        { "sourceId": "tf-state-income-2026" }
+      ],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "state-general-sales-tax",
+      "parentId": "states",
+      "levelId": "states",
+      "category": "tax",
+      "family": "general-consumption",
+      "status": "current",
+      "names": { "official": "State general sales and use taxes", "common": "State sales tax", "abbreviation": "State sales tax" },
+      "taxes": { "base": "Retail sales of tangible goods and, in many states, some services; use tax on items bought out of state.", "payer": "Consumers; sellers collect." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Varies by state – 45 states plus DC levy one; state rates from 2.9% to 7.25%",
+        "details": ["Five states (AK, DE, MT, NH, OR) have no state sales tax; Alaska allows local ones.", "Local sales taxes add to the state rate; combined rates can exceed 10%."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "A tax on retail purchases. Since South Dakota v. Wayfair (2018), states can require remote sellers with enough economic activity to collect the tax.",
+      "exceptions": ["Food, medicine and services are exempt or taxed at lower rates in many states."],
+      "legalRefs": [
+        { "sourceId": "scotus-wayfair" },
+        { "sourceId": "tx-tax-code-151", "locator": "Texas example" },
+        { "sourceId": "tf-sales-2026" }
+      ],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "state-corporate-income-tax",
+      "parentId": "states",
+      "levelId": "states",
+      "category": "tax",
+      "family": "income-corporate",
+      "status": "current",
+      "names": { "official": "State corporation net income and franchise taxes", "common": "State corporate income tax", "abbreviation": "State corporate tax" },
+      "taxes": { "base": "Net income of corporations apportioned to the state (Census category T41).", "payer": "Corporations." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Varies by state – flat and graduated rates; some states use gross-receipts taxes instead",
+        "details": ["Most states levy a corporate income tax; a few (e.g. Nevada, Texas, Washington) use gross-receipts or similar taxes instead."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "State taxes on business profits, apportioned by each state's own formula.",
+      "exceptions": ["Not every state has one; gross-receipts taxes are not counted in this Census category."],
+      "legalRefs": [
+        { "sourceId": "us-constitution-amend10" },
+        { "sourceId": "ca-rtc", "locator": "Corporation Tax Law (California example)" }
+      ],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "state-motor-fuel-tax",
+      "parentId": "states",
+      "levelId": "states",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "State motor fuels taxes", "common": "State motor fuel tax", "abbreviation": "Motor fuel tax" },
+      "taxes": { "base": "Gallons of gasoline, diesel and other motor fuels.", "payer": "Distributors; passed on to drivers." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Varies by state – cents per gallon, some indexed",
+        "details": ["Each state sets its own per-gallon rates, and some adjust them with inflation or fuel prices."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "Fuel taxes that mostly finance roads. Federal fuel excise taxes (18.4¢ gasoline) are additional.",
+      "exceptions": ["Electric-vehicle registration fees are increasingly used to replace lost fuel-tax revenue."],
+      "legalRefs": [{ "sourceId": "tx-tax-code-162", "locator": "Texas example" }],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "state-selective-excise",
+      "parentId": "states",
+      "levelId": "states",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "State selective sales taxes: alcohol, tobacco, insurance premiums, utilities, amusements, sports betting and other", "common": "Selective excise taxes", "abbreviation": "Selective excise" },
+      "taxes": { "base": "Specific products and activities (Census items T10–T12, T15, T16, T18 and T19).", "payer": "Producers, sellers, insurers and consumers." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Varies by state and product",
+        "details": ["Includes tobacco, alcohol, insurance premium taxes (a large item), public-utility taxes, amusement and gambling taxes, sports-betting taxes and taxes on cannabis and other products."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "Product-specific taxes that sit beside the general sales tax. Motor fuels are shown in their own core.",
+      "exceptions": ["The category 'other selective sales' includes taxes on cannabis, sugary drinks and similar items."],
+      "legalRefs": [
+        { "sourceId": "tx-tax-code-154", "locator": "Texas cigarette tax example" },
+        { "sourceId": "census-stc-techdoc-2024", "locator": "Definition of items T10–T19" }
+      ],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "state-property-tax",
+      "parentId": "states",
+      "levelId": "states",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "State property taxes", "common": "State property tax", "abbreviation": "State property tax" },
+      "taxes": { "base": "Assessed value of property where a state itself levies a tax (Census item T01 for states).", "payer": "Property owners." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Varies by state – most property tax is local",
+        "details": ["Only a few states levy a state-level property tax; local governments collect the vast majority of property taxes."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "A small state-level item; property tax is mostly a local tax in the United States.",
+      "exceptions": ["Some states levy statewide school property taxes that appear as state revenue."],
+      "legalRefs": [{ "sourceId": "tx-property-tax-code", "locator": "Texas example framework" }],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "state-license-taxes",
+      "parentId": "states",
+      "levelId": "states",
+      "category": "fee",
+      "family": "other",
+      "status": "current",
+      "names": { "official": "State license taxes (motor vehicle, corporate, occupation and business, hunting and fishing and other)", "common": "License taxes & fees", "abbreviation": "License taxes" },
+      "taxes": { "base": "Permission to own a vehicle, operate a business or profession, or hunt and fish (Census items T20–T29).", "payer": "License holders." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Varies by state and licence type",
+        "details": ["Motor vehicle registration and licence taxes are the largest part."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "Charges for licences and permits that the Census Bureau counts as taxes.",
+      "exceptions": ["Some are set to recover administrative cost; others are revenue-raising."],
+      "legalRefs": [{ "sourceId": "census-stc-techdoc-2024", "locator": "Definition of items T20–T29" }],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "state-severance-tax",
+      "parentId": "states",
+      "levelId": "states",
+      "category": "tax",
+      "family": "resource",
+      "status": "current",
+      "names": { "official": "State severance taxes on oil, gas, coal and minerals", "common": "Severance taxes", "abbreviation": "Severance" },
+      "taxes": { "base": "Value or volume of natural resources extracted within the state.", "payer": "Producers." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Varies by state and resource",
+        "details": ["Rates are percentages of value or per-unit amounts and differ widely; oil-producing states rely on them heavily."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "Taxes on extracting natural resources. Royalties paid to states for their own lands are non-tax revenue and are not included.",
+      "exceptions": ["Rates often depend on well type, price and production level."],
+      "legalRefs": [{ "sourceId": "tx-tax-code-202", "locator": "Texas oil production tax example" }],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "state-other-taxes",
+      "parentId": "states",
+      "levelId": "states",
+      "category": "tax",
+      "family": "other",
+      "status": "current",
+      "names": { "official": "Other state taxes: death and gift, documentary and stock transfer, and other", "common": "Estate, transfer & other taxes", "abbreviation": "Other state taxes" },
+      "taxes": { "base": "Estates, property transfers and other taxes not classified elsewhere (Census items T50, T51 and T99).", "payer": "Estates, buyers and sellers." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Varies by state",
+        "details": ["Several states levy estate or inheritance taxes; many charge real-estate transfer (documentary) taxes."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "A miscellaneous group of smaller state taxes.",
+      "exceptions": ["Exemption thresholds for state estate taxes are far lower than the federal $15 million."],
+      "legalRefs": [{ "sourceId": "ny-tax-law-art31", "locator": "New York real estate transfer tax example" }],
+      "checkedOn": "2026-09-28"
+    },
+
+    {
+      "id": "local-property-tax",
+      "parentId": "local",
+      "levelId": "local",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "Local property taxes (counties, municipalities, townships, school districts and special districts)", "common": "Local property tax", "abbreviation": "Property tax" },
+      "taxes": { "base": "Assessed value of land and buildings (and in some places business personal property).", "payer": "Property owners." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Varies by jurisdiction – millage set by each taxing unit",
+        "details": ["Each county, city, school district and special district sets its own rate; a parcel's bill combines several.", "Many states cap rate or assessment growth (for example California's Proposition 13)."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "The main local tax. School districts alone raise about 45% of it (Census, FY2024).",
+      "exceptions": ["Homestead exemptions and caps vary; some states equalise school funding across districts."],
+      "legalRefs": [
+        { "sourceId": "tx-property-tax-code", "locator": "Texas example" },
+        { "sourceId": "ca-const-13a", "locator": "California example" }
+      ],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "local-sales-tax",
+      "parentId": "local",
+      "levelId": "local",
+      "category": "tax",
+      "family": "general-consumption",
+      "status": "current",
+      "names": { "official": "Local general sales and use taxes", "common": "Local sales tax", "abbreviation": "Local sales tax" },
+      "taxes": { "base": "Retail sales within the city, county or district, usually on the same base as the state tax.", "payer": "Consumers; sellers collect." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Varies by locality – from a fraction of a percent to about 5%",
+        "details": ["Authorised by state law; about 38 states permit local sales taxes.", "The combined state-and-local rate is what the customer pays."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "Local add-ons to the state sales tax, used by cities, counties and transit or special districts.",
+      "exceptions": ["Some states (e.g. Louisiana, Colorado) have many overlapping local rates and separate local administrations."],
+      "legalRefs": [
+        { "sourceId": "tx-tax-code-321", "locator": "Texas example" },
+        { "sourceId": "tf-sales-2026" }
+      ],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "local-income-taxes",
+      "parentId": "local",
+      "levelId": "local",
+      "category": "tax",
+      "family": "income-mixed",
+      "status": "current",
+      "names": { "official": "Local individual and corporation income and wage taxes", "common": "Local income & wage taxes", "abbreviation": "Local income tax" },
+      "taxes": { "base": "Wages, net profits and (in a few places) corporate income within the locality.", "payer": "Residents, workers and businesses." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Varies by locality – levied in a minority of states",
+        "details": ["Allowed in a minority of states, including Ohio, Pennsylvania, Michigan, Kentucky, Maryland, Indiana and New York (New York City)."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "Municipal earnings taxes and county income taxes. Many cities tax people who work there but live elsewhere.",
+      "exceptions": ["Rates and bases differ, and Ohio municipalities can coordinate through state-set rules."],
+      "legalRefs": [{ "sourceId": "oh-orc-718", "locator": "Ohio municipal income tax example" }],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "local-selective-sales",
+      "parentId": "local",
+      "levelId": "local",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Local selective sales and gross receipts taxes (utilities, hotels, motor fuel, amusements and others)", "common": "Local selective sales taxes", "abbreviation": "Selective sales" },
+      "taxes": { "base": "Specific services and products such as public utilities, lodging, entertainment and tobacco (Census items T10–T19).", "payer": "Customers and businesses." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Varies by locality",
+        "details": ["Utility gross-receipts taxes and lodging (hotel) taxes are the largest parts."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "Local taxes on particular services rather than all retail sales.",
+      "exceptions": ["Only some states allow them."],
+      "legalRefs": [{ "sourceId": "census-stc-techdoc-2024", "locator": "Definition of items T10–T19 (also used for local governments)" }],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "local-license-taxes",
+      "parentId": "local",
+      "levelId": "local",
+      "category": "fee",
+      "family": "other",
+      "status": "current",
+      "names": { "official": "Local license taxes and business licence charges", "common": "Local licence taxes", "abbreviation": "Licence taxes" },
+      "taxes": { "base": "Business licences, occupation and other permits classified by the Census Bureau as license taxes.", "payer": "Licence holders." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Varies by locality",
+        "details": ["Set by ordinance under state law."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "Charges for the right to do business or hold a licence.",
+      "exceptions": ["Some are revenue taxes on gross receipts rather than flat fees."],
+      "legalRefs": [{ "sourceId": "census-stc-techdoc-2024", "locator": "Definition of items T20–T29" }],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "local-other-taxes",
+      "parentId": "local",
+      "levelId": "local",
+      "category": "tax",
+      "family": "other",
+      "status": "current",
+      "names": { "official": "Other local taxes: documentary and transfer taxes, death and gift, severance and other", "common": "Transfer & other local taxes", "abbreviation": "Other local taxes" },
+      "taxes": { "base": "Real-estate transfers and other taxes not classified elsewhere (Census items T50, T51, T53, T99).", "payer": "Buyers, sellers and others." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Varies by locality",
+        "details": ["Some cities (e.g. New York City, Philadelphia) levy their own real-estate transfer taxes."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "A residual category of smaller local taxes.",
+      "exceptions": ["Not available in every state."],
+      "legalRefs": [{ "sourceId": "ny-tax-law-art31", "locator": "New York example (state and city transfer taxes)" }],
+      "checkedOn": "2026-09-28"
+    }
+  ]
+}

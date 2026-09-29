@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "referenceYear": 2023,
+  "currency": "CAD",
+  "scale": "million",
+  "taxToGdp": 34.8,
+  "basis": "Collecting government",
+  "levels": [
+    {
+      "key": "central",
+      "label": "Federal government",
+      "folioLevelIds": ["federal"],
+      "total": 441352,
+      "byType": { "income": 324560, "socialSecurity": 30294, "payroll": 0, "property": 0, "goodsServices": 86498, "other": 0 }
+    },
+    {
+      "key": "regional",
+      "label": "Provinces and territories",
+      "folioLevelIds": ["provincial"],
+      "total": 387821,
+      "byType": { "income": 196036, "socialSecurity": 16515, "payroll": 22086, "property": 17661, "goodsServices": 135523, "other": 0 }
+    },
+    {
+      "key": "local",
+      "label": "Municipalities",
+      "folioLevelIds": ["municipal"],
+      "total": 86192,
+      "byType": { "income": 0, "socialSecurity": 0, "payroll": 0, "property": 83173, "goodsServices": 1623, "other": 1396 }
+    },
+    {
+      "key": "social-security",
+      "label": "Social security funds (CPP, QPP and similar)",
+      "folioLevelIds": [],
+      "total": 105165,
+      "byType": { "income": 0, "socialSecurity": 105165, "payroll": 0, "property": 0, "goodsServices": 0, "other": 0 },
+      "note": "Federal Employment Insurance premiums are attributed to the federal government in this classification; the Canada and Québec Pension Plans are the social security funds."
+    }
+  ],
+  "sourceIds": ["oecd-rs-2025-subsectors", "oecd-rs-2025-levels"],
+  "subnational": {
+    "ownSourceTaxShareOfRevenue": 50.3,
+    "grantsShareOfRevenue": 30.5,
+    "year": 2020,
+    "sourceId": "sng-wofi-profile",
+    "note": "Provinces: tax 55.5%, grants 23.8%. Municipalities: tax 37.3%, grants 47.3%."
+  },
+  "notes": []
+}

@@ -1,0 +1,12 @@
+node_modules/
+dist/
+*.log
+.DS_Store
+Thumbs.db
+
+# layout editor safety copies (kept locally, never published)
+**/.layout-backups/
+
+# generated packages and scratch output
+deploy/github-pages-site/
+docs/workflow/*-panel.png

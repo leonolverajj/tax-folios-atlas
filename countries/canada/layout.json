@@ -1,0 +1,130 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "canada": {
+      "x": 800,
+      "y": 510
+    },
+    "federal": {
+      "x": 498,
+      "y": 419
+    },
+    "fed-personal-income-tax": {
+      "x": 298,
+      "y": 721
+    },
+    "fed-non-resident-tax": {
+      "x": 300,
+      "y": 568
+    },
+    "fed-fuel-excise": {
+      "x": 299,
+      "y": 442
+    },
+    "fed-atsc": {
+      "x": 410,
+      "y": 275
+    },
+    "fed-ei-premiums": {
+      "x": 564,
+      "y": 217
+    },
+    "fed-fuel-charge": {
+      "x": 767,
+      "y": 181
+    },
+    "fed-corporate-income-tax": {
+      "x": 145,
+      "y": 670
+    },
+    "fed-gst-hst": {
+      "x": 116,
+      "y": 431
+    },
+    "fed-excise-duties": {
+      "x": 254,
+      "y": 219
+    },
+    "fed-customs-duties": {
+      "x": 578,
+      "y": 85
+    },
+    "fed-cpp": {
+      "x": 956,
+      "y": 70
+    },
+    "provincial": {
+      "x": 1107,
+      "y": 426
+    },
+    "prov-personal-income-tax": {
+      "x": 927,
+      "y": 194
+    },
+    "prov-sales-taxes": {
+      "x": 1136,
+      "y": 261
+    },
+    "prov-property-taxes": {
+      "x": 1305,
+      "y": 386
+    },
+    "prov-sin-taxes": {
+      "x": 1310,
+      "y": 535
+    },
+    "prov-wcb-premiums": {
+      "x": 1302,
+      "y": 677
+    },
+    "prov-corporate-income-tax": {
+      "x": 1170,
+      "y": 131
+    },
+    "prov-payroll-taxes": {
+      "x": 1461,
+      "y": 340
+    },
+    "prov-fuel-taxes": {
+      "x": 1474,
+      "y": 618
+    },
+    "prov-royalties": {
+      "x": 1319,
+      "y": 846
+    },
+    "municipal": {
+      "x": 819,
+      "y": 725
+    },
+    "mun-property-taxes": {
+      "x": 1173,
+      "y": 747
+    },
+    "mun-land-transfer-tax": {
+      "x": 1048,
+      "y": 803
+    },
+    "mun-development-charges": {
+      "x": 935,
+      "y": 905
+    },
+    "mun-user-fees": {
+      "x": 700,
+      "y": 905
+    },
+    "mun-licences-permits": {
+      "x": 600,
+      "y": 815
+    },
+    "mun-accommodation-tax": {
+      "x": 455,
+      "y": 880
+    }
+  },
+  "radii": {}
+}

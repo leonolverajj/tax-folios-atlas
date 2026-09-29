@@ -1,0 +1,125 @@
+{
+  "id": "canada",
+  "iso3": "CAN",
+  "isoNumeric": "124",
+  "names": { "en": "Canada", "native": "Canada", "nativeLang": "en/fr" },
+  "currency": { "code": "CAD", "symbol": "C$", "name": "Canadian dollar" },
+  "summary": "Canada is a federation with three orders of government. Parliament may raise money 'by any mode or system of taxation'; provinces and territories levy 'direct taxation within the province' and own their natural resources; municipalities exist only as creatures of provincial law and rely mainly on property taxes and user charges.",
+  "structureNote": "Federal, provincial/territorial and municipal orders follow the Constitution Act, 1867 (ss. 91(3), 92(2), 92(8), 109). Indigenous governments with taxing powers (for example First Nations property taxation under the First Nations Fiscal Management Act) are noted under the municipal level rather than drawn as a fourth level.",
+  "theme": {
+    "accent": "#5fe0c8",
+    "accent2": "#8f7cff",
+    "motif": "aurora",
+    "motifNote": "Auroral ribbons over the boreal Shield with glacial-lake speckle, drawn on Canada's own conic-projected outline.",
+    "mapLabel": { "lon": -100, "lat": 60 }
+  },
+  "levels": [
+    {
+      "id": "federal",
+      "branch": "national",
+      "names": { "official": "Government of Canada", "native": "Gouvernement du Canada", "common": "Federal government" },
+      "description": "The national order of government. It taxes income, sales and imports, runs Employment Insurance and (outside Québec) the Canada Pension Plan, and shares revenue with provinces through transfers.",
+      "fiscalPower": "Unlimited power of taxation (Constitution Act, 1867 s. 91(3)); collects personal and corporate income tax, GST/HST, customs and excise, and premiums/contributions for EI and the CPP.",
+      "legalRefs": [{ "sourceId": "law-constitution-1867", "locator": "s. 91(3) – 'the raising of Money by any Mode or System of Taxation'" }],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "provincial",
+      "branch": "regional",
+      "names": {
+        "official": "Provincial and territorial governments (10 provinces, 3 territories)",
+        "native": "Gouvernements provinciaux et territoriaux",
+        "common": "Provinces & territories"
+      },
+      "description": "Ten provinces with constitutionally protected powers and three territories whose powers are delegated by Parliament. They run health, education and social programmes and levy their own income, sales, payroll, fuel and property-related taxes.",
+      "fiscalPower": "Direct taxation within the province (s. 92(2)), ownership of provincial natural resources and royalties (s. 109, s. 92A). Territories tax under powers delegated by federal statute.",
+      "legalRefs": [
+        {
+          "sourceId": "law-constitution-1867",
+          "locator": "s. 92(2) direct taxation within the province; s. 109 lands, mines, minerals and royalties; s. 92A non-renewable natural resources"
+        }
+      ],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "municipal",
+      "branch": "local",
+      "names": { "official": "Municipalities and other local governments", "native": "Municipalités", "common": "Municipal governments" },
+      "description": "Cities, towns, counties and regional districts. They have no independent constitutional taxing power; each may tax only as its province's municipal legislation allows, chiefly through property taxes, user charges and a few provincially authorised levies.",
+      "fiscalPower": "Powers delegated by the province (Constitution Act, 1867 s. 92(8) 'Municipal Institutions in the Province'), e.g. Ontario's Municipal Act, 2001 and City of Toronto Act, 2006; Québec's Act respecting municipal taxation.",
+      "legalRefs": [
+        { "sourceId": "law-constitution-1867", "locator": "s. 92(8) municipal institutions in the province" },
+        { "sourceId": "law-on-municipal-act", "locator": "Ontario example – provisions on municipal taxation" }
+      ],
+      "checkedOn": "2026-09-28"
+    }
+  ],
+  "supportingSourceIds": ["pac-2025-v1-s3", "afr-2025", "statcan-daily-2025-11-21"],
+  "denominators": [
+    {
+      "id": "federal-tax-contributions",
+      "label": "Federal taxes and Employment Insurance premiums, FY2024-25",
+      "definition": "Total tax revenues (income taxes, GST, energy taxes, customs duties, other excise taxes and duties) + Employment Insurance premiums + pollution pricing proceeds, from the consolidated statement of revenues and expenses. Leaves out non-tax revenue (Crown-corporation profits, investment income, fees and other program revenues: C$49,164.4 million) and the Canada and Québec Pension Plan accounts.",
+      "levelIds": ["federal"],
+      "amount": 461786.7,
+      "scale": "million",
+      "currency": "CAD",
+      "period": { "label": "FY2024-25", "kind": "fiscal-year", "start": "2024-04-01", "end": "2025-03-31" },
+      "sourceId": "pac-2025-v2-s1",
+      "locator": "Consolidated statement of revenues and expenses – Total tax revenues + Employment insurance premiums + Pollution pricing proceeds",
+      "calculation": "Published lines: 416,704.7 + 31,530.2 + 13,551.8 = 461,786.7 (C$ millions). Total revenues 510,951.1 minus other (non-tax) revenues 49,164.4.",
+      "caveat": "Accrual-basis consolidated figures; the FY2025-26 audited Public Accounts had not been tabled at the date checked.",
+      "accessed": "2026-09-29"
+    },
+    {
+      "id": "cpp-contributions",
+      "label": "Canada Pension Plan contributions, FY2023-24",
+      "definition": "Contributions (base and additional CPP) paid into the CPP Account. The plan is outside the federal budgetary accounts; it is the largest social-security scheme in Canada outside Québec.",
+      "levelIds": ["federal"],
+      "amount": 81600,
+      "scale": "million",
+      "currency": "CAD",
+      "period": { "label": "FY2023-24", "kind": "fiscal-year", "start": "2023-04-01", "end": "2024-03-31" },
+      "sourceId": "esdc-cpp-annual-2024",
+      "locator": "Annual report highlights: 'CPP contributions totalled $81.6 billion'",
+      "caveat": "One year older than the federal tax figures. The Québec Pension Plan and Québec parental insurance contributions are not itemised, so the national total is understated by that amount.",
+      "accessed": "2026-09-29"
+    },
+    {
+      "id": "provincial-tax-contributions",
+      "label": "Taxes and social contributions of provincial and territorial governments, 2024 reference year",
+      "definition": "Sum over the 13 provinces and territories of Statistics Canada's 'Taxes [11]' (401,768) and 'Social contributions [12]' (15,228). Leaves out federal transfers, resource royalties and other property income, sales of goods and services.",
+      "levelIds": ["provincial"],
+      "amount": 416996,
+      "scale": "million",
+      "currency": "CAD",
+      "period": { "label": "2024 ref. year", "kind": "fiscal-year", "start": "2024-04-01", "end": "2025-03-31" },
+      "sourceId": "statcan-10100017",
+      "locator": "Rows 'Taxes [11]' and 'Social contributions [12]', 'Transactions and other economic flows', reference year 2024, summed over 13 geographies",
+      "calculation": "Sum of the 13 jurisdictions; duplicate rows shown under Stocks were excluded. 401,768 + 15,228 = 416,996 (C$ millions).",
+      "caveat": "Statistics Canada classification differs from provincial public accounts (e.g. some government-owned entities and workers' compensation boards are treated differently).",
+      "accessed": "2026-09-29"
+    },
+    {
+      "id": "local-tax-contributions",
+      "label": "Taxes of municipal and local governments, 2024 reference year",
+      "definition": "Sum over the 13 provinces and territories of Statistics Canada's 'Taxes [11]' for municipalities and other local public administrations (there are no local social contributions). Leaves out user fees, transfers and other revenue.",
+      "levelIds": ["municipal"],
+      "amount": 80162,
+      "scale": "million",
+      "currency": "CAD",
+      "period": { "label": "2024 ref. year", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "statcan-10100020",
+      "locator": "Row 'Taxes [11]', 'Transactions and other economic flows', reference year 2024, summed over 13 geographies",
+      "calculation": "Sum of the 13 jurisdictions; duplicate Stocks rows excluded.",
+      "caveat": "Local governments' fiscal year is normally the calendar year, unlike the provinces (year ending 31 March).",
+      "accessed": "2026-09-29"
+    }
+  ],
+  "sizing": {
+    "label": "Taxes and compulsory social contributions of all levels of government",
+    "definition": "Federal taxes and EI premiums (FY2024-25) + Canada Pension Plan contributions (FY2023-24) + provincial and territorial taxes and social contributions (2024) + municipal taxes (2024). Excludes non-tax revenue, resource royalties, user fees and transfers between governments.",
+    "componentIds": ["federal-tax-contributions", "cpp-contributions", "provincial-tax-contributions", "local-tax-contributions"]
+  },
+  "researchStatus": "researched"
+}

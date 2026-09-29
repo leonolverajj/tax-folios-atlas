@@ -1,0 +1,407 @@
+{
+  "instruments": [
+    {
+      "id": "nat-iva",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "general-consumption",
+      "status": "current",
+      "statusNote": "A bill sent to the Assembly in February 2026 would show the IVA separately on invoices (tax-exclusive pricing), fixing its effective rate at 13% instead of about 14.94%. It had not been confirmed as law at the check date.",
+      "names": { "official": "Impuesto al Valor Agregado (IVA)", "native": "Impuesto al Valor Agregado", "common": "Value-added tax (IVA)", "abbreviation": "IVA" },
+      "taxes": { "base": "Habitual sales of movable goods, services and works contracts, leasing and definitive imports.", "payer": "Consumers; businesses charge and credit it against tax on purchases." },
+      "rate": {
+        "kind": "flat",
+        "headline": "13% of the net sale price",
+        "details": ["The 13% is currently included in the invoice price, so the effective rate is about 14.94% of the price before tax.", "Exports and certain imports of capital goods are exempt."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "The largest tax in Bolivia. The figure used here is the SIN's domestic VAT; VAT on imports is collected by customs.",
+      "exceptions": ["Numerous exemptions apply to books, diplomatic imports, exports and some tourism services."],
+      "legalRefs": [
+        { "sourceId": "ley-843", "locator": "Title I (IVA)" },
+        { "sourceId": "sin-cuadro-impuestos" },
+        { "sourceId": "sin-iva-bill-2026" }
+      ],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "nat-iue",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "income-corporate",
+      "status": "current",
+      "names": { "official": "Impuesto sobre las Utilidades de las Empresas (IUE)", "native": "Impuesto sobre las Utilidades de las Empresas", "common": "Business-profit tax (IUE)", "abbreviation": "IUE" },
+      "taxes": { "base": "Net taxable profit of public and private companies, including sole proprietorships, and profits of foreign beneficiaries.", "payer": "Companies and business owners." },
+      "rate": {
+        "kind": "flat",
+        "headline": "25% of net taxable profit; higher for some sectors",
+        "details": ["Additional rates apply to financial entities and mining companies.", "Remittances of profits abroad bear 12.5% (IUE-BE).", "The IUE paid is a credit against the IT."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "The corporate income tax. Collections grew sharply in 2025 (about 44% in January–October).",
+      "exceptions": ["Public universities, non-profits and some regional promotion zones are exempt."],
+      "legalRefs": [
+        { "sourceId": "ley-843", "locator": "Title III (IUE)" },
+        { "sourceId": "sin-cuadro-impuestos" }
+      ],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "nat-it",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "general-consumption",
+      "status": "current",
+      "names": { "official": "Impuesto a las Transacciones (IT)", "native": "Impuesto a las Transacciones", "common": "Transactions tax (IT)", "abbreviation": "IT" },
+      "taxes": { "base": "Gross income earned from commerce, industry, professions, rental of goods, works and services.", "payer": "All natural and legal persons carrying out the taxed activity." },
+      "rate": {
+        "kind": "flat",
+        "headline": "3% of gross income",
+        "details": ["Creditable against the IUE, so it works as a minimum tax on turnover."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "A turnover tax typical of Bolivia's reliance on indirect taxes.",
+      "exceptions": ["Wages, exports, interest on savings and some public services are excluded."],
+      "legalRefs": [
+        { "sourceId": "ley-843", "locator": "Title III (IT)" },
+        { "sourceId": "sin-cuadro-impuestos" }
+      ],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "nat-rc-iva",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "income-personal",
+      "status": "current",
+      "names": { "official": "Régimen Complementario al Impuesto al Valor Agregado (RC-IVA)", "native": "Régimen Complementario al IVA", "common": "Personal income tax (RC-IVA)", "abbreviation": "RC-IVA" },
+      "taxes": { "base": "Income of individuals from capital and work (salaried and independent), net of allowances.", "payer": "Individuals; employers withhold from salaries." },
+      "rate": {
+        "kind": "flat",
+        "headline": "13% of taxable income, offset by IVA on invoices",
+        "details": ["Taxpayers credit 13% of the invoices they collect, which mostly cancels the tax, giving it a monitoring function.", "Decree 5503 of December 2025 lets taxpayers discount an extra 20% of the IVA on 'Made in Bolivia' purchases until December 2027."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "Bolivia's personal income tax; it collects little because invoices offset it.",
+      "exceptions": ["Wages up to a threshold of minimum-wage multiples are not taxed."],
+      "legalRefs": [
+        { "sourceId": "ley-843", "locator": "Title III (RC-IVA)" },
+        { "sourceId": "mefp-alivio-tributario" }
+      ],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "nat-ice",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Impuesto a los Consumos Específicos (ICE)", "native": "Impuesto a los Consumos Específicos", "common": "Excise tax (ICE)", "abbreviation": "ICE" },
+      "taxes": { "base": "Alcohol, tobacco, soft drinks, vehicles and other specific goods.", "payer": "Producers and importers." },
+      "rate": {
+        "kind": "mechanism",
+        "headline": "Ad valorem or specific rates by product",
+        "details": ["Rates are listed by product in the law and its regulations."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "The selective excise tax on consumption goods.",
+      "exceptions": ["Exports are excluded."],
+      "legalRefs": [
+        { "sourceId": "ley-843", "locator": "Title V (ICE)" },
+        { "sourceId": "sin-cuadro-impuestos" }
+      ],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "nat-idh",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "resource",
+      "status": "current",
+      "names": { "official": "Impuesto Directo a los Hidrocarburos (IDH)", "native": "Impuesto Directo a los Hidrocarburos", "common": "Direct hydrocarbons tax (IDH)", "abbreviation": "IDH" },
+      "taxes": { "base": "Wellhead value of hydrocarbon production.", "payer": "Oil and gas producers." },
+      "rate": {
+        "kind": "flat",
+        "headline": "32% of production value (plus 18% royalties and participations)",
+        "details": ["The 32% IDH sits on top of 18% royalties and participations (11% departmental, 1% national compensatory, 6% for the state company YPFB), making a 50% take on upstream production."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "A legal 'tax' on hydrocarbons, functionally a resource rent. Its proceeds are shared with departments, municipalities and universities.",
+      "exceptions": ["Distribution of proceeds follows the Hydrocarbons Law and later decrees."],
+      "legalRefs": [{ "sourceId": "ley-3058" }],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "nat-iehd",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "transitional",
+      "statusNote": "The fuel-subsidy removal in Decreto Supremo 5503 (December 2025) changed fuel pricing and the fiscal role of the IEHD; check the current fuel price schedule before relying on any amount.",
+      "names": { "official": "Impuesto Especial a los Hidrocarburos y sus Derivados (IEHD)", "native": "Impuesto Especial a los Hidrocarburos y sus Derivados", "common": "Fuel excise (IEHD)", "abbreviation": "IEHD" },
+      "taxes": { "base": "Sales of gasoline, diesel and other hydrocarbon derivatives in the domestic market, by volume.", "payer": "Producers and importers of fuels." },
+      "rate": {
+        "kind": "specific",
+        "headline": "Fixed boliviano amount per litre by product",
+        "details": ["Set by decree and shared with departments and other beneficiaries."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "A per-litre tax on fuels that, until 2025, was small because fuel prices were subsidised.",
+      "exceptions": ["Special regimes for some uses such as aviation."],
+      "legalRefs": [
+        { "sourceId": "ley-843", "locator": "Title III (IEHD)" },
+        { "sourceId": "mefp-alivio-tributario" }
+      ],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "nat-itf",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "property",
+      "status": "transitional",
+      "statusNote": "The government announced the elimination of the ITF in November 2025 and the SIN reported on 14 April 2026 that RND 102600000013 abrogated its regulation, ending withholding on US-dollar bank operations. Confirm whether the underlying Law 3446 has been repealed.",
+      "names": { "official": "Impuesto a las Transacciones Financieras (ITF)", "native": "Impuesto a las Transacciones Financieras", "common": "Financial transactions tax (ITF)", "abbreviation": "ITF" },
+      "taxes": { "base": "Debits and credits in foreign-currency accounts above a threshold.", "payer": "Account holders; banks withhold." },
+      "rate": {
+        "kind": "flat",
+        "headline": "Small percentage of US-dollar operations – being eliminated",
+        "details": ["Historically 0.15%–0.20% of foreign-currency transactions over the threshold."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "A tax on dollar transactions introduced to encourage the use of bolivianos.",
+      "exceptions": ["Transactions in bolivianos were not taxed."],
+      "legalRefs": [
+        { "sourceId": "ley-3446" },
+        { "sourceId": "sin-itf-2026" }
+      ],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "nat-igf",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "property",
+      "status": "transitional",
+      "statusNote": "Law 1357 (2020) is the statute in the SIN's October 2025 table of taxes in force. The government announced its elimination in November 2025; a repeal proposal was still before the Legislative Assembly in March 2026. Verify the current status.",
+      "names": { "official": "Impuesto a las Grandes Fortunas (IGF)", "native": "Impuesto a las Grandes Fortunas", "common": "Large fortunes tax (IGF)", "abbreviation": "IGF" },
+      "taxes": { "base": "Net wealth of individuals above Bs 30 million on 31 December.", "payer": "Very wealthy resident and non-resident individuals." },
+      "rate": {
+        "kind": "progressive",
+        "headline": "1.4% / 1.9% / 2.4% above Bs 30 million",
+        "details": ["1.4% on net wealth from Bs 30,000,001 to 40 million; 1.9% from 40,000,001 to 50 million; 2.4% above 50 million."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "A wealth tax created in 2020 that only a few hundred people were liable for.",
+      "exceptions": ["Legal entities are excluded."],
+      "legalRefs": [
+        { "sourceId": "ley-1357" },
+        { "sourceId": "sin-cuadro-impuestos" }
+      ],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "nat-aduana",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "customs-duty",
+      "family": "trade",
+      "status": "current",
+      "names": { "official": "Gravamen Arancelario Consolidado (aranceles de importación)", "native": "Gravamen Arancelario", "common": "Import tariffs", "abbreviation": "Tariffs" },
+      "taxes": { "base": "Customs value of imported goods by tariff item.", "payer": "Importers." },
+      "rate": {
+        "kind": "range",
+        "headline": "Ad valorem rates by tariff item",
+        "details": ["Preferential rates apply within the Andean Community, Mercosur agreements and other trade agreements."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "Duties collected by the Aduana Nacional, separate from the SIN.",
+      "exceptions": ["Exemptions for capital goods and inputs in some sectors."],
+      "legalRefs": [{ "sourceId": "cpe-2009", "locator": "art. 323 (taxes at the central level)" }],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "nat-seguridad-social",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "social-contribution",
+      "family": "social-security",
+      "status": "current",
+      "names": { "official": "Aportes a la seguridad social de largo y corto plazo (pensiones y salud)", "native": "Aportes a la seguridad social", "common": "Social security contributions", "abbreviation": "Social security" },
+      "taxes": { "base": "Salaries of insured workers.", "payer": "Employers and workers." },
+      "rate": {
+        "kind": "range",
+        "headline": "Employer and worker shares set by the Pensions Law and the health-insurance regime",
+        "details": ["Long-term pensions are managed by the Gestora Pública de la Seguridad Social; short-term health insurance by the Caja Nacional de Salud and other funds."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "Compulsory contributions that are not taxes; they are not administered by the SIN.",
+      "exceptions": ["Independent workers have separate contribution rules."],
+      "legalRefs": [{ "sourceId": "ley-065" }],
+      "checkedOn": "2026-09-28"
+    },
+
+    {
+      "id": "dep-regalias",
+      "parentId": "departmental",
+      "levelId": "departmental",
+      "category": "royalty",
+      "family": "resource",
+      "status": "current",
+      "names": { "official": "Regalías departamentales por hidrocarburos y minería", "native": "Regalías departamentales", "common": "Departmental royalties", "abbreviation": "Royalties" },
+      "taxes": { "base": "Value of hydrocarbons and minerals extracted in the department.", "payer": "Producers." },
+      "rate": {
+        "kind": "flat",
+        "headline": "11% of hydrocarbon production value; mining royalty by mineral and price",
+        "details": ["The 11% departmental hydrocarbon royalty goes to the producing department; the mining royalty (regalía minera) percentages depend on the mineral and its price under the Mining Law."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "The main own revenue of producing departments. It is payment for state-owned resources, not a tax.",
+      "exceptions": ["Non-producing departments receive compensatory transfers instead."],
+      "legalRefs": [
+        { "sourceId": "ley-3058", "locator": "royalty provisions" },
+        { "sourceId": "ley-535", "locator": "mining royalty" }
+      ],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "dep-own-taxes",
+      "parentId": "departmental",
+      "levelId": "departmental",
+      "category": "tax",
+      "family": "other",
+      "status": "current",
+      "names": { "official": "Impuestos departamentales autorizados por la Ley 154 (transmisión gratuita de bienes; propiedad de aeronaves y embarcaciones)", "native": "Impuestos departamentales", "common": "Departmental own taxes", "abbreviation": "Departmental taxes" },
+      "taxes": { "base": "Inheritance and donations of registrable assets; ownership of motor vehicles for air and water navigation.", "payer": "Heirs, donees and owners." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Set by each department if it creates the tax",
+        "details": ["Ley 154 lets departments create these taxes; few have done so."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "Departments have almost no own tax base; these are the only taxes the law assigns to them.",
+      "exceptions": ["A department cannot tax bases assigned to the central or municipal domains."],
+      "legalRefs": [{ "sourceId": "ley-154", "locator": "provisions on departmental-domain taxes" }],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "dep-tasas",
+      "parentId": "departmental",
+      "levelId": "departmental",
+      "category": "fee",
+      "family": "other",
+      "status": "current",
+      "names": { "official": "Tasas y patentes departamentales", "native": "Tasas y patentes departamentales", "common": "Departmental fees and patents", "abbreviation": "Fees" },
+      "taxes": { "base": "Services and licences provided by the departmental government.", "payer": "Users." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Varies by department and service",
+        "details": ["Set by departmental law within the limits of Ley 154 and Ley 031."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "Minor charges for departmental services.",
+      "exceptions": ["Fees must relate to an actual service."],
+      "legalRefs": [{ "sourceId": "ley-031" }],
+      "checkedOn": "2026-09-28"
+    },
+
+    {
+      "id": "mun-ipbi",
+      "parentId": "municipal",
+      "levelId": "municipal",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "Impuesto a la Propiedad de Bienes Inmuebles (IPBI)", "native": "Impuesto a la Propiedad de Bienes Inmuebles", "common": "Real-estate property tax (IPBI)", "abbreviation": "IPBI" },
+      "taxes": { "base": "Assessed value of urban and rural real estate.", "payer": "Owners." },
+      "rate": {
+        "kind": "progressive",
+        "headline": "Progressive scale of about 0.35% to 1.5% of assessed value",
+        "details": ["The scale is set in law and applied by municipalities; low-value homes are exempt."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "The municipal property tax.",
+      "exceptions": ["State property, churches and other institutions are exempt."],
+      "legalRefs": [
+        { "sourceId": "ley-843", "locator": "Title IV (IPBI)" },
+        { "sourceId": "ley-154" }
+      ],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "mun-ipva",
+      "parentId": "municipal",
+      "levelId": "municipal",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Impuesto a la Propiedad de Vehículos Automotores (IPVA)", "native": "Impuesto a la Propiedad de Vehículos Automotores", "common": "Vehicle property tax (IPVA)", "abbreviation": "IPVA" },
+      "taxes": { "base": "Depreciated value of registered land motor vehicles.", "payer": "Vehicle owners." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Percentage of vehicle value set in the tax scale",
+        "details": ["Applies the scale of Ley 843 to the taxable value, with depreciation by age."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "An annual municipal tax on vehicle ownership.",
+      "exceptions": ["Public transport and some vehicles get reductions."],
+      "legalRefs": [
+        { "sourceId": "ley-843", "locator": "Title IV (IPVA)" },
+        { "sourceId": "ley-154" }
+      ],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "mun-imt",
+      "parentId": "municipal",
+      "levelId": "municipal",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "Impuesto Municipal a las Transferencias de Inmuebles y Vehículos Automotores (IMT)", "native": "Impuesto Municipal a las Transferencias", "common": "Property and vehicle transfer tax (IMT)", "abbreviation": "IMT" },
+      "taxes": { "base": "Onerous transfers of real estate and vehicles.", "payer": "The seller (or as set by the municipal law)." },
+      "rate": {
+        "kind": "flat",
+        "headline": "3% on real estate; 1.5% on vehicles",
+        "details": ["Municipalities that have not passed their own IMT law leave transfers to be taxed under the IT."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "A municipal tax on transfers of property.",
+      "exceptions": ["Inheritance and gifts follow other rules."],
+      "legalRefs": [
+        { "sourceId": "ley-843", "locator": "Title IV (IMT)" },
+        { "sourceId": "ley-154" }
+      ],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "mun-tasas-patentes",
+      "parentId": "municipal",
+      "levelId": "municipal",
+      "category": "fee",
+      "family": "other",
+      "status": "current",
+      "names": { "official": "Tasas y patentes municipales", "native": "Tasas y patentes municipales", "common": "Municipal fees and patents", "abbreviation": "Fees & patents" },
+      "taxes": { "base": "Municipal services (waste, cemeteries, markets) and licences to operate businesses.", "payer": "Users and businesses." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Varies by municipality and service",
+        "details": ["Set by municipal law."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "Charges for municipal services and business licences, called tasas and patentes.",
+      "exceptions": ["Must be tied to a service or licence."],
+      "legalRefs": [{ "sourceId": "ley-031" }],
+      "checkedOn": "2026-09-28"
+    }
+  ]
+}

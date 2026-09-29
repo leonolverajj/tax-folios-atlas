@@ -1,0 +1,27 @@
+{
+  "nodes": {
+    "mexico": { "label": "México", "sublabel": "Fiscal folio", "glyph": "globe" },
+    "federal": { "label": "Federación", "sublabel": "Federal", "glyph": "landmark" },
+    "states": { "label": "Estados", "sublabel": "31 states + CDMX", "glyph": "city" },
+    "municipalities": { "label": "Municipios", "sublabel": "≈ 2,470", "glyph": "town" },
+
+    "fed-isr": { "label": "ISR", "sublabel": "Income tax", "glyph": "person" },
+    "fed-iva": { "label": "IVA", "sublabel": "Value-added tax", "glyph": "cart" },
+    "fed-ieps-fuels": { "label": "IEPS fuels", "sublabel": "Gasoline · diesel", "glyph": "flame" },
+    "fed-ieps-other": { "label": "IEPS other", "sublabel": "Tobacco · sugar · gaming", "glyph": "smoke" },
+    "fed-importaciones": { "label": "Import tariffs", "sublabel": "IGI", "glyph": "ship" },
+    "fed-isan": { "label": "ISAN", "sublabel": "New vehicles", "glyph": "car" },
+    "fed-derechos": { "label": "Federal derechos", "sublabel": "Fees", "glyph": "stamp" },
+    "fed-hidrocarburos": { "label": "Oil revenue", "sublabel": "Fondo Mexicano del Petróleo", "glyph": "oil" },
+    "fed-cuotas-seguridad-social": { "label": "IMSS · ISSSTE", "sublabel": "Social contributions", "glyph": "shield" },
+
+    "state-nominas": { "label": "Payroll tax", "sublabel": "ISN", "glyph": "ledger" },
+    "state-tenencia": { "label": "Tenencia", "sublabel": "Vehicle ownership", "glyph": "car" },
+    "state-hospedaje": { "label": "Lodging tax", "sublabel": "Hospedaje", "glyph": "bed" },
+    "state-derechos": { "label": "State derechos", "sublabel": "Fees", "glyph": "stamp" },
+
+    "mun-predial": { "label": "Predial", "sublabel": "Property tax", "glyph": "house" },
+    "mun-adquisicion-inmuebles": { "label": "Acquisition tax", "sublabel": "ISABI", "glyph": "key" },
+    "mun-derechos": { "label": "Municipal derechos", "sublabel": "Water · lighting", "glyph": "water" }
+  }
+}

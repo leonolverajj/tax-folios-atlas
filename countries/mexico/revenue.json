@@ -1,0 +1,78 @@
+{
+  "groups": [
+    {
+      "title": "Public-sector budgetary revenue 2025 – Cuenta Pública 2025, Tomo I, Ingresos Presupuestarios (MXN millions, executed)",
+      "defaults": {
+        "denominatorId": "federal-taxes-contributions",
+        "scale": "million",
+        "currency": "MXN",
+        "period": { "label": "2025", "kind": "calendar-year", "start": "2025-01-01", "end": "2025-12-31" },
+        "basis": "Cash basis, executed revenue ('recaudado') as reported in the public account",
+        "sourceId": "cp-2025-ingresos",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-09-28"
+      },
+      "observations": [
+        {
+          "nodeId": "fed-isr",
+          "amount": 2888702.1,
+          "locator": "Ingresos del Gobierno Federal, 2024-2025 › Ingresos tributarios › Sistema Renta (recaudado 2025)",
+          "coverageNote": "'Sistema Renta' also includes small residual amounts of legacy income-based taxes."
+        },
+        { "nodeId": "fed-iva", "amount": 1499451.4, "locator": "Ingresos tributarios › IVA (recaudado 2025)" },
+        { "nodeId": "fed-ieps-fuels", "amount": 444357.1, "locator": "Ingresos tributarios › IEPS › Gasolinas (recaudado 2025)" },
+        { "nodeId": "fed-ieps-other", "amount": 226913.7, "locator": "Ingresos tributarios › IEPS › Otros (recaudado 2025)" },
+        { "nodeId": "fed-importaciones", "amount": 173618.7, "locator": "Ingresos tributarios › Importación (recaudado 2025)" },
+        { "nodeId": "fed-isan", "amount": 18022.5, "locator": "Ingresos tributarios › ISAN (recaudado 2025)" },
+        {
+          "nodeId": "fed-cuotas-seguridad-social",
+          "amount": 649638.7,
+          "locator": "Ingresos totales de las entidades de control directo y empresas públicas, RECAUDADO 2025 › Cuotas a seguridad social (IMSS 603,127.4 + ISSSTE 46,511.3)",
+          "calculation": "603,127.4 + 46,511.3 = 649,638.7",
+          "caveat": "Collected by IMSS and ISSSTE, not by the tax agency; counted in public-sector but not in federal-government revenue."
+        }
+      ]
+    },
+    {
+      "title": "Non-tax federal revenue – outside the tax total",
+      "defaults": {
+        "scale": "million",
+        "currency": "MXN",
+        "period": { "label": "2025", "kind": "calendar-year", "start": "2025-01-01", "end": "2025-12-31" },
+        "basis": "Cash basis, executed revenue ('recaudado') as reported in the public account",
+        "sourceId": "cp-2025-ingresos",
+        "role": "informational",
+        "coverage": "exact",
+        "accessed": "2026-09-28"
+      },
+      "observations": [
+        {
+          "nodeId": "fed-derechos",
+          "amount": 138723.1,
+          "locator": "Ingresos no tributarios › Derechos (recaudado 2025)",
+          "caveat": "Federal fees and oil revenue are non-tax income, so they lie outside the national total and keep the neutral size. Includes derechos on water, mining and other assets; excludes oil-related payments, which are in the oil-revenue core."
+        },
+        {
+          "nodeId": "fed-hidrocarburos",
+          "amount": 239783.2,
+          "locator": "Ingresos petroleros del Gobierno Federal: Fondo Mexicano del Petróleo 239,823.2 + ISR contratistas y asignatarios (40.0) (recaudado 2025)",
+          "calculation": "239,823.2 − 40.0 = 239,783.2",
+          "caveat": "Federal fees and oil revenue are non-tax income, so they lie outside the national total and keep the neutral size. Revenue from PEMEX's own sales of oil is counted separately in public-sector revenue and is not part of this core."
+        }
+      ]
+    }
+  ],
+  "unavailable": [
+    {
+      "nodeId": "state-nominas",
+      "reason": "State and municipal revenue by tax is published by INEGI (EFIPEM 2024) in interactive tabulations that this atlas has not extracted; no reliable national total is shown rather than an estimate."
+    },
+    { "nodeId": "state-tenencia", "reason": "Not separately available in the tables consulted; only some states levy it." },
+    { "nodeId": "state-hospedaje", "reason": "Not extracted from INEGI's EFIPEM tabulations; see the source link." },
+    { "nodeId": "state-derechos", "reason": "Not extracted from INEGI's EFIPEM tabulations; see the source link." },
+    { "nodeId": "mun-predial", "reason": "Not extracted from INEGI's EFIPEM tabulations; see the source link." },
+    { "nodeId": "mun-adquisicion-inmuebles", "reason": "Not extracted from INEGI's EFIPEM tabulations; see the source link." },
+    { "nodeId": "mun-derechos", "reason": "Not extracted from INEGI's EFIPEM tabulations; see the source link." }
+  ]
+}

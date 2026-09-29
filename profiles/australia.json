@@ -1,0 +1,87 @@
+{
+  "version": 1,
+  "id": "australia",
+  "iso3": "AUS",
+  "isoNumeric": "036",
+  "names": { "en": "Australia", "native": "Australia", "nativeLang": "en" },
+  "accent": "#5fa8ff",
+  "flag": ["#00247d", "#ffffff", "#cf142b"],
+  "structure": {
+    "version": 1,
+    "referenceYear": 2023,
+    "currency": "AUD",
+    "scale": "million",
+    "taxToGdp": 29.9,
+    "basis": "Collecting government",
+    "levels": [
+      {
+        "key": "central",
+        "label": "Federal government",
+        "folioLevelIds": [],
+        "total": 644727,
+        "byType": { "income": 495494, "socialSecurity": 0, "payroll": 1912, "property": 15, "goodsServices": 147306, "other": 0 }
+      },
+      {
+        "key": "regional",
+        "label": "State / regional governments",
+        "folioLevelIds": [],
+        "total": 130482,
+        "byType": { "income": 0, "socialSecurity": 0, "payroll": 38822, "property": 54177, "goodsServices": 37483, "other": 0 }
+      },
+      {
+        "key": "local",
+        "label": "Local governments",
+        "folioLevelIds": [],
+        "total": 23100,
+        "byType": { "income": 0, "socialSecurity": 0, "payroll": 0, "property": 23100, "goodsServices": 0, "other": 0 }
+      }
+    ],
+    "sourceIds": ["oecd-rs-2025-subsectors", "oecd-rs-2025-levels"],
+    "subnational": {
+      "ownSourceTaxShareOfRevenue": 32.6,
+      "grantsShareOfRevenue": 45.7,
+      "year": 2020,
+      "sourceId": "sng-wofi-profile",
+      "note": "Tariffs and fees 12.8%, property income 9%, other 0% of subnational revenue."
+    },
+    "notes": []
+  },
+  "sources": [
+    {
+      "id": "oecd-rs-2025-subsectors",
+      "org": "OECD",
+      "title": "Revenue Statistics 2025, Table 6.1: Australia, tax revenues by sub-sectors of government",
+      "url": "https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en/full-report/tax-revenues-by-subsectors-of-general-government_f9e88332.html",
+      "kind": "international",
+      "language": "en",
+      "publishedDate": "2025-12-09",
+      "periodCovered": "Calendar year 2023 (national currency)",
+      "accessed": "2026-09-29",
+      "note": "Harmonised OECD classification of taxes (1000–6000) split by collecting sub-sector of general government."
+    },
+    {
+      "id": "oecd-rs-2025-levels",
+      "org": "OECD",
+      "title": "Revenue Statistics 2025, Chapter 3: Tax levels and tax structures (Table 3.1)",
+      "url": "https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en/full-report/tax-levels-and-tax-structures-1965-2024_2033f3ea.html",
+      "kind": "international",
+      "language": "en",
+      "publishedDate": "2025-12-09",
+      "periodCovered": "Calendar year 2023",
+      "accessed": "2026-09-29",
+      "note": "Total tax revenue as % of GDP."
+    },
+    {
+      "id": "sng-wofi-profile",
+      "org": "OECD and United Cities and Local Governments (SNG-WOFI)",
+      "title": "World Observatory on Subnational Government Finance and Investment – country profile: Australia",
+      "url": "https://www.sng-wofi.org/country_profiles/australia.html",
+      "kind": "international",
+      "language": "en",
+      "publishedDate": "2022-10-24",
+      "periodCovered": "2020",
+      "accessed": "2026-09-29",
+      "note": "Subnational government revenue by category as % of total subnational revenue, 2022 edition."
+    }
+  ]
+}

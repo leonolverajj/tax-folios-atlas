@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "referenceYear": 2023,
+  "currency": "BOB",
+  "scale": "million",
+  "taxToGdp": 23.9,
+  "basis": "All levels of government",
+  "levels": [
+    {
+      "key": "central",
+      "label": "Central government",
+      "folioLevelIds": ["central", "departmental"],
+      "share": 71.4,
+      "note": "The source gives no separate regional column; departmental taxes are inside the central figure."
+    },
+    { "key": "local", "label": "Municipalities", "folioLevelIds": ["municipal"], "share": 4.5 },
+    { "key": "social-security", "label": "Social security funds", "folioLevelIds": [], "share": 24.1 }
+  ],
+  "totalByType": { "income": 9008, "socialSecurity": 17908, "payroll": 0, "property": 570, "goodsServices": 38386, "other": 8548 },
+  "sourceIds": ["oecd-rs-lac-2025-note", "oecd-rs-lac-2025-levels"],
+  "subnational": {
+    "ownSourceTaxShareOfRevenue": null,
+    "grantsShareOfRevenue": null,
+    "year": 2020,
+    "sourceId": "sng-wofi-profile",
+    "note": "Not comparable: the observatory counts nationally shared taxes (for example the VAT share, 24.1% of subnational tax revenue) as tax revenue (57.6% tax, 18.2% grants), yet states that more than 80% of subnational revenue corresponds to transfers made by the central government."
+  },
+  "notes": ["The LAC country note folds payroll taxes into \"other taxes\"; payroll is shown as zero and \"other\" carries both."]
+}

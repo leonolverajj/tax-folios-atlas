@@ -1,0 +1,157 @@
+{
+  "groups": [
+    {
+      "title": "National general-account tax and stamp revenue, FY2025 (¥ millions) – Ministry of Finance, 令和7年度 8年5月末 租税及び印紙収入、収入額調, 決算額(概数)",
+      "defaults": {
+        "denominatorId": "national-general-account-tax",
+        "scale": "million",
+        "currency": "JPY",
+        "period": { "label": "FY2025", "kind": "fiscal-year", "start": "2025-04-01", "end": "2026-03-31" },
+        "basis": "Cash revenue of the national general account (preliminary settlement)",
+        "sourceId": "mof-tax-revenue-fy2025",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-09-28"
+      },
+      "observations": [
+        {
+          "nodeId": "nat-income-tax",
+          "amount": 25256520,
+          "locator": "所得税 計: 源泉分 20,540,543 + 申告分 4,715,977",
+          "calculation": "20,540,543 + 4,715,977 = 25,256,520",
+          "caveat": "Excludes the 2.1% reconstruction special income tax, which is credited to a special account (shown in its own core)."
+        },
+        { "nodeId": "nat-corporation-tax", "amount": 21744992, "locator": "法人税" },
+        {
+          "nodeId": "nat-consumption-tax",
+          "amount": 26027750,
+          "locator": "消費税",
+          "caveat": "National portion only (7.8 points of the 10% rate). The 2.2-point local consumption tax is a prefectural tax."
+        },
+        {
+          "nodeId": "nat-inheritance-gift",
+          "amount": 3859255,
+          "locator": "相続税",
+          "coverageNote": "The Ministry's '相続税' line covers both inheritance and gift taxes, which are governed by the same Act."
+        },
+        { "nodeId": "nat-liquor-tax", "amount": 1109676, "locator": "酒税" },
+        {
+          "nodeId": "nat-tobacco-tax",
+          "amount": 1011974,
+          "locator": "たばこ税",
+          "coverageNote": "National tobacco tax; the special tobacco tax is listed separately by the Ministry as a reference item."
+        },
+        {
+          "nodeId": "nat-gasoline-tax",
+          "amount": 1847948,
+          "locator": "揮発油税",
+          "caveat": "Includes nine months at the old special rate (abolished 31 December 2025); FY2026 revenue will be lower."
+        },
+        { "nodeId": "nat-petroleum-coal-tax", "amount": 580652, "locator": "石油石炭税" },
+        {
+          "nodeId": "nat-vehicle-tonnage-tax",
+          "amount": 403112,
+          "locator": "自動車重量税",
+          "coverageNote": "General-account share; the portion transferred to municipalities is a separate reference line."
+        },
+        { "nodeId": "nat-customs", "amount": 909651, "locator": "関税" },
+        { "nodeId": "nat-stamp-duty", "amount": 1048798, "locator": "印紙収入" }
+      ]
+    },
+    {
+      "title": "Special-account national taxes – outside the general-account total",
+      "defaults": {
+        "role": "informational",
+        "scale": "million",
+        "currency": "JPY",
+        "period": { "label": "FY2025", "kind": "fiscal-year", "start": "2025-04-01", "end": "2026-03-31" },
+        "basis": "Cash revenue, preliminary settlement (reference items of the Ministry's table)",
+        "sourceId": "mof-tax-revenue-fy2025",
+        "coverage": "exact",
+        "accessed": "2026-09-28"
+      },
+      "observations": [
+        {
+          "nodeId": "nat-reconstruction-surtax",
+          "amount": 526687,
+          "locator": "(参考) 復興特別所得税",
+          "caveat": "Not part of the general-account total used for sizing, so no share is shown."
+        }
+      ]
+    },
+    {
+      "title": "Social insurance premiums – IPSS Social Security Expenditure Statistics FY2023",
+      "defaults": { "role": "sizing", "scale": "trillion", "currency": "JPY", "accessed": "2026-09-28", "denominatorId": "social-insurance-premiums" },
+      "observations": [
+        {
+          "nodeId": "nat-social-insurance",
+          "amount": 80.1101,
+          "period": { "label": "FY2023", "kind": "fiscal-year", "start": "2023-04-01", "end": "2024-03-31" },
+          "basis": "Social security revenue by source, ILO standard: social insurance contributions (insured persons ¥42.02 trillion + employers ¥38.09 trillion)",
+          "sourceId": "ipss-ss-cost-2023",
+          "locator": "概要: 社会保障財源 – 社会保険料 80兆1,101億円",
+          "coverage": "exact",
+          "caveat": "Premiums are not taxes but are compulsory and are counted in the national total. FY2023 is the latest edition and is two fiscal years older than the tax figures."
+        }
+      ]
+    },
+    {
+      "title": "Prefectural taxes, FY2024 – MIC Local Public Finance White Paper 2026, Table 13 part 2 (¥ millions, revenue received)",
+      "defaults": {
+        "denominatorId": "prefectural-tax-total",
+        "scale": "million",
+        "currency": "JPY",
+        "period": { "label": "FY2024", "kind": "fiscal-year", "start": "2024-04-01", "end": "2025-03-31" },
+        "basis": "Revenue received (収入額) by prefectures, settlement basis",
+        "sourceId": "mic-local-finance-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-09-28"
+      },
+      "observations": [
+        { "nodeId": "pref-inhabitant-tax", "amount": 5976262, "locator": "道府県民税 (個人分 5,386,160 + 法人分 590,101)" },
+        { "nodeId": "pref-enterprise-tax", "amount": 6134978, "locator": "事業税 (個人分 240,581 + 法人分 5,894,397)" },
+        {
+          "nodeId": "pref-local-consumption-tax",
+          "amount": 6914286,
+          "locator": "地方消費税 (譲渡割 4,700,867 + 貨物割 2,213,419)",
+          "caveat": "Includes the half that prefectures transfer to their municipalities."
+        },
+        { "nodeId": "pref-automobile-tax", "amount": 1663070, "locator": "自動車税 (環境性能割 161,642 + 種別割 1,501,428)" },
+        {
+          "nodeId": "pref-diesel-tax",
+          "amount": 899910,
+          "locator": "軽油引取税",
+          "caveat": "FY2024 at the old provisional rate (¥32.1 per litre), abolished 1 April 2026."
+        },
+        { "nodeId": "pref-real-estate-acquisition-tax", "amount": 454585, "locator": "不動産取得税" },
+        { "nodeId": "pref-tobacco-tax", "amount": 149134, "locator": "道府県たばこ税" }
+      ]
+    },
+    {
+      "title": "Municipal taxes, FY2024 – MIC Local Public Finance White Paper 2026, Table 13 part 4 (¥ millions, revenue received)",
+      "defaults": {
+        "denominatorId": "municipal-tax-total",
+        "scale": "million",
+        "currency": "JPY",
+        "period": { "label": "FY2024", "kind": "fiscal-year", "start": "2024-04-01", "end": "2025-03-31" },
+        "basis": "Revenue received (収入額) by municipalities including Tokyo's special-ward taxes collected by the metropolis",
+        "sourceId": "mic-local-finance-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-09-28"
+      },
+      "observations": [
+        { "nodeId": "mun-inhabitant-tax", "amount": 10733358, "locator": "市町村民税 (個人均等割 200,574 + 所得割 8,187,266 + 法人均等割 466,726 + 法人税割 1,878,793)" },
+        { "nodeId": "mun-fixed-assets-tax", "amount": 10079510, "locator": "固定資産税 (土地 3,769,969 + 家屋 4,282,879 + 償却資産 1,938,237 + 交付金 88,424)" },
+        { "nodeId": "mun-city-planning-tax", "amount": 1442621, "locator": "都市計画税" },
+        { "nodeId": "mun-tobacco-tax", "amount": 913230, "locator": "市町村たばこ税" },
+        { "nodeId": "mun-light-vehicle-tax", "amount": 328299, "locator": "軽自動車税 (環境性能割 22,588 + 種別割 305,711)" }
+      ]
+    }
+  ],
+  "unavailable": [
+    { "nodeId": "nat-defense-corporate-tax", "reason": "In force only from 1 April 2026; no full-year revenue has been published yet." },
+    { "nodeId": "nat-defense-income-tax", "reason": "Takes effect on 1 January 2027; no revenue yet." }
+  ]
+}

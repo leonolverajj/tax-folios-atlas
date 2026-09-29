@@ -1,0 +1,350 @@
+/* ---- folio ornament: joints, studs, glint and the map border (the antique-instrument layer) ---- */
+.edge .joint {
+  fill: #0a1020;
+  stroke: var(--c);
+  stroke-width: 1.2;
+  stroke-opacity: 0.6;
+  pointer-events: none;
+}
+.edge.soft .joint {
+  stroke-opacity: 0.9;
+}
+.edge.lit .joint {
+  fill: var(--c);
+  stroke: #fff;
+  stroke-opacity: 0.75;
+  stroke-width: 0.8;
+}
+.node .stud {
+  fill: #0a1020;
+  stroke: var(--c);
+  stroke-width: 1.1;
+  stroke-opacity: 0.85;
+  pointer-events: none;
+}
+.node.is-selected .stud,
+.node.on-path .stud {
+  fill: var(--c);
+}
+.node .glint {
+  fill: #fff;
+  opacity: 0;
+  pointer-events: none;
+  transform-box: fill-box;
+  transform-origin: center;
+  filter: drop-shadow(0 0 4px var(--c));
+}
+.node.is-selected .glint {
+  opacity: 0.95;
+  animation: twinkle 2.6s ease-in-out infinite;
+}
+@keyframes twinkle {
+  0%,
+  100% {
+    opacity: 0.35;
+    transform: scale(0.8);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.15);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .node.is-selected .glint {
+    animation: none;
+    opacity: 0.9;
+  }
+}
+
+/* an engraved map border around the folio: hairline frame with corner brackets and studs */
+.folio-stage::before {
+  content: '';
+  position: absolute;
+  inset: 7px;
+  z-index: 3;
+  pointer-events: none;
+  border: 1px solid rgba(243, 215, 142, 0.16);
+  border-radius: 6px;
+  background:
+    linear-gradient(var(--gold), var(--gold)) 0 0 / 26px 2px no-repeat,
+    linear-gradient(var(--gold), var(--gold)) 0 0 / 2px 26px no-repeat,
+    linear-gradient(var(--gold), var(--gold)) 100% 0 / 26px 2px no-repeat,
+    linear-gradient(var(--gold), var(--gold)) 100% 0 / 2px 26px no-repeat,
+    linear-gradient(var(--gold), var(--gold)) 0 100% / 26px 2px no-repeat,
+    linear-gradient(var(--gold), var(--gold)) 0 100% / 2px 26px no-repeat,
+    linear-gradient(var(--gold), var(--gold)) 100% 100% / 26px 2px no-repeat,
+    linear-gradient(var(--gold), var(--gold)) 100% 100% / 2px 26px no-repeat;
+  opacity: 0.55;
+}
+.folio-stage::after {
+  content: '';
+  position: absolute;
+  inset: 13px;
+  z-index: 3;
+  pointer-events: none;
+  border: 1px solid rgba(133, 146, 180, 0.12);
+  border-radius: 3px;
+}
+@media (max-width: 719px) {
+  .folio-stage::before,
+  .folio-stage::after {
+    display: none;
+  }
+}
+
+/* Charts in the detail panel. Marks follow the data-viz specs: bars <= 24px, rounded data-end
+   and square baseline, 2px gaps between stacked segments, hairline recessive rules, text in
+   text tokens (never in the series colour). */
+
+.charts .chart {
+  margin: 0 0 20px;
+}
+.charts .chart:last-child {
+  margin-bottom: 4px;
+}
+.chart h4 {
+  margin: 0 0 2px;
+  font-family: var(--font);
+  font-size: 13px;
+  font-weight: 650;
+  letter-spacing: 0.01em;
+  text-transform: none;
+  color: var(--ink);
+}
+.chart figcaption .muted {
+  margin: 0 0 9px;
+  font-size: 12px;
+  line-height: 1.45;
+}
+
+/* ---- stacked composition bar ---- */
+.stack {
+  display: flex;
+  gap: 2px;
+  height: 22px;
+}
+.stack .seg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-basis: 0;
+  min-width: 3px;
+  background: var(--seg);
+  position: relative;
+}
+.stack .seg:first-child {
+  border-radius: 4px 0 0 4px;
+}
+.stack .seg:last-child {
+  border-radius: 0 4px 4px 0;
+}
+.stack .seg:only-child {
+  border-radius: 4px;
+}
+.stack .seg b {
+  font-size: 11px;
+  font-weight: 650;
+  letter-spacing: 0.01em;
+  font-variant-numeric: tabular-nums;
+}
+.seg-hatch,
+.sw-hatch {
+  background-image: repeating-linear-gradient(45deg, rgba(255, 255, 255, 0.16) 0 2px, transparent 2px 6px);
+}
+
+.chart-legend {
+  list-style: none;
+  margin: 9px 0 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(168px, 1fr));
+  gap: 5px 14px;
+  font-size: 12px;
+  color: var(--ink2);
+}
+.chart-legend li {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  min-width: 0;
+}
+.chart-legend .sw {
+  flex: none;
+  width: 10px;
+  height: 10px;
+  border-radius: 3px;
+  background: var(--seg);
+}
+.chart-legend .lg-name {
+  flex: 1 1 auto;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+.chart-legend .lg-val {
+  flex: none;
+  color: var(--ink);
+  font-variant-numeric: tabular-nums;
+}
+
+/* ---- ranked bars ---- */
+.rank {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 2px;
+}
+.rk-row button,
+.rk-row .rk-static {
+  display: grid;
+  grid-template-columns: minmax(104px, 40%) 1fr 52px;
+  align-items: center;
+  gap: 9px;
+  width: 100%;
+  margin: 0;
+  padding: 4px 6px;
+  text-align: left;
+  font: inherit;
+  font-size: 12.5px;
+  color: var(--ink2);
+  background: none;
+  border: 0;
+  border-radius: 7px;
+}
+.rk-row button {
+  cursor: pointer;
+}
+.rk-row button:hover {
+  background: rgba(255, 255, 255, 0.055);
+  color: var(--ink);
+}
+.rk-row button:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 1px;
+}
+.rk-label {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  line-height: 1.25;
+  overflow-wrap: anywhere;
+}
+.rk-label small {
+  color: var(--ink3);
+  font-size: 11px;
+}
+.rk-track {
+  display: block;
+  height: 12px;
+  background: rgba(255, 255, 255, 0.045);
+  border-radius: 0 6px 6px 0;
+  overflow: hidden;
+}
+.rk-track i {
+  display: block;
+  height: 100%;
+  background: var(--seg);
+  border-radius: 0 5px 5px 0;
+}
+.rk-val {
+  text-align: right;
+  color: var(--ink);
+  font-variant-numeric: tabular-nums;
+}
+.rk-row.is-selected .rk-static {
+  color: var(--ink);
+  font-weight: 650;
+  background: rgba(243, 215, 142, 0.09);
+  box-shadow: inset 0 0 0 1px rgba(243, 215, 142, 0.5);
+}
+
+/* ---- table view ---- */
+.chart-data {
+  margin-top: 8px;
+}
+.chart-data summary {
+  cursor: pointer;
+  font-size: 12px;
+  color: var(--ink3);
+  width: max-content;
+}
+.chart-data summary:hover {
+  color: var(--ink2);
+}
+.chart-data table {
+  width: 100%;
+  margin-top: 6px;
+  border-collapse: collapse;
+  font-size: 12px;
+  font-variant-numeric: tabular-nums;
+}
+.chart-data th,
+.chart-data td {
+  padding: 4px 6px;
+  text-align: left;
+  border-bottom: 1px solid var(--line);
+  color: var(--ink2);
+}
+.chart-data thead th {
+  color: var(--ink3);
+  font-weight: 600;
+}
+.chart-data tbody th {
+  font-weight: 500;
+  color: var(--ink);
+}
+
+/* ---- national-total components (country panel) ---- */
+.components {
+  list-style: none;
+  margin: 10px 0 8px;
+  padding: 0;
+  display: grid;
+  gap: 9px;
+}
+.components li {
+  padding: 8px 10px;
+  border: 1px solid var(--line);
+  border-radius: 9px;
+  background: rgba(255, 255, 255, 0.02);
+}
+.components strong {
+  display: block;
+  font-size: 13px;
+  color: var(--ink);
+}
+.components small {
+  display: block;
+  margin-top: 2px;
+  font-size: 12px;
+  line-height: 1.45;
+  color: var(--ink3);
+}
+.components small b {
+  color: var(--ink2);
+  font-weight: 650;
+}
+.components .caveat-inline {
+  color: var(--warn);
+  opacity: 0.85;
+}
+.level-share {
+  margin: 2px 0 6px;
+  font-size: 12px;
+}
+
+@media (max-width: 400px) {
+  .rk-row button,
+  .rk-row .rk-static {
+    grid-template-columns: minmax(90px, 44%) 1fr 46px;
+    gap: 6px;
+  }
+}
+@media (forced-colors: active) {
+  .stack .seg,
+  .rk-track i,
+  .chart-legend .sw {
+    forced-color-adjust: none;
+    border: 1px solid CanvasText;
+  }
+}

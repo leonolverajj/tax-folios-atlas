@@ -1,0 +1,98 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "bolivia": {
+      "x": 800,
+      "y": 500
+    },
+    "central": {
+      "x": 487,
+      "y": 426
+    },
+    "nat-iva": {
+      "x": 541,
+      "y": 785
+    },
+    "nat-it": {
+      "x": 348,
+      "y": 643
+    },
+    "nat-ice": {
+      "x": 290,
+      "y": 479
+    },
+    "nat-iehd": {
+      "x": 369,
+      "y": 308
+    },
+    "nat-igf": {
+      "x": 611,
+      "y": 193
+    },
+    "nat-seguridad-social": {
+      "x": 897,
+      "y": 176
+    },
+    "nat-iue": {
+      "x": 268,
+      "y": 800
+    },
+    "nat-rc-iva": {
+      "x": 106,
+      "y": 499
+    },
+    "nat-idh": {
+      "x": 279,
+      "y": 203
+    },
+    "nat-itf": {
+      "x": 681,
+      "y": 59
+    },
+    "nat-aduana": {
+      "x": 1163,
+      "y": 115
+    },
+    "departmental": {
+      "x": 1093,
+      "y": 397
+    },
+    "dep-regalias": {
+      "x": 1150,
+      "y": 239
+    },
+    "dep-own-taxes": {
+      "x": 1270,
+      "y": 343
+    },
+    "dep-tasas": {
+      "x": 1245,
+      "y": 496
+    },
+    "municipal": {
+      "x": 956,
+      "y": 690
+    },
+    "mun-ipbi": {
+      "x": 1119,
+      "y": 606
+    },
+    "mun-ipva": {
+      "x": 1127,
+      "y": 760
+    },
+    "mun-imt": {
+      "x": 998,
+      "y": 856
+    },
+    "mun-tasas-patentes": {
+      "x": 814,
+      "y": 817
+    }
+  },
+  "radii": {}
+}

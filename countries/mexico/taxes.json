@@ -1,0 +1,353 @@
+{
+  "instruments": [
+    {
+      "id": "fed-isr",
+      "parentId": "federal",
+      "levelId": "federal",
+      "category": "tax",
+      "family": "income-mixed",
+      "status": "current",
+      "names": { "official": "Impuesto sobre la Renta (ISR)", "native": "Impuesto sobre la Renta", "common": "Income tax (ISR)", "abbreviation": "ISR" },
+      "taxes": { "base": "Income of individuals and companies resident in Mexico (worldwide) and Mexican-source income of non-residents.", "payer": "Individuals and companies; employers withhold on wages." },
+      "rate": {
+        "kind": "progressive",
+        "headline": "Individuals 1.92%–35%; companies 30% flat",
+        "details": [
+          "Individuals: monthly and annual tariff with 11 brackets from 1.92% to 35% (LISR art. 96 and 152).",
+          "Companies: 30% of taxable profit; small taxpayers may use RESICO (rates from 1% to 2.5% of income).",
+          "Border regions: a decree continues a 30% reduction of ISR for residents and businesses in the northern and southern border regions (renewed by decree of 31 Dec 2025)."
+        ],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "The largest source of federal tax revenue. In the public accounts ISR appears as the 'Sistema Renta', which also includes minor legacy income-based taxes.",
+      "exceptions": ["Oil contractors and PEMEX are taxed under the Ley de Ingresos sobre Hidrocarburos instead."],
+      "legalRefs": [
+        { "sourceId": "lisr", "locator": "arts. 9 (30% corporate rate), 96 and 152 (individual tariffs)" },
+        { "sourceId": "cp-2025-ingresos", "locator": "Border-region decree note" }
+      ],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "fed-iva",
+      "parentId": "federal",
+      "levelId": "federal",
+      "category": "tax",
+      "family": "general-consumption",
+      "status": "current",
+      "names": { "official": "Impuesto al Valor Agregado (IVA)", "native": "Impuesto al Valor Agregado", "common": "Value-added tax (IVA)", "abbreviation": "IVA" },
+      "taxes": { "base": "Sales of goods, provision of services, temporary use of goods and imports.", "payer": "Consumers; businesses charge and credit it." },
+      "rate": {
+        "kind": "flat",
+        "headline": "16% general; 8% in border regions; 0% on basics and exports",
+        "details": ["Zero rate on basic foods, medicines and exports; exemptions include education, most medical services and housing rents.", "A border-region decree halves the IVA (8%) for the northern and southern borders."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "The federal consumption tax; the second-largest federal tax. VAT revenue on imports rose in 2025 with the higher peso price of imports and anti-smuggling measures.",
+      "exceptions": ["Small taxpayers under RESICO have simplified compliance."],
+      "legalRefs": [
+        { "sourceId": "liva", "locator": "arts. 1, 2 and 2-A" },
+        { "sourceId": "cp-2025-ingresos", "locator": "Border-region decree note" }
+      ],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "fed-ieps-fuels",
+      "parentId": "federal",
+      "levelId": "federal",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Impuesto Especial sobre Producción y Servicios (IEPS) a combustibles automotrices", "native": "IEPS a gasolinas y diésel", "common": "Fuel excise (IEPS)", "abbreviation": "IEPS fuels" },
+      "taxes": { "base": "Sales of gasoline and diesel, by litre.", "payer": "Producers and importers; passed on at the pump." },
+      "rate": {
+        "kind": "mechanism",
+        "headline": "Fixed quota per litre, reduced by weekly fiscal stimuli",
+        "details": ["Quotas per litre by fuel grade are updated each year; when pump prices rise the government applies stimuli that offset the tax, so actual collection varies week by week."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "Federal fuel excise. Its yield is a policy choice as much as a tax: it absorbs price shocks. IEPS on fuels rose 5.2% in real terms in 2025 but was 6.2% below plan.",
+      "exceptions": ["Border regions receive additional stimuli on fuel sales (decree of 31 Dec 2025)."],
+      "legalRefs": [{ "sourceId": "lieps", "locator": "art. 2 fr. I inciso D" }],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "fed-ieps-other",
+      "parentId": "federal",
+      "levelId": "federal",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "IEPS – tabaco, bebidas alcohólicas, bebidas azucaradas, alimentos no básicos, juegos con apuestas y otros", "native": "IEPS distinto de combustibles", "common": "Excise on tobacco, alcohol, sugary drinks and gaming", "abbreviation": "IEPS other" },
+      "taxes": { "base": "Tobacco, alcohol, sugary and sweetened drinks, energy drinks, high-calorie foods, pesticides, gambling and (from 2026) certain video games.", "payer": "Producers, importers and operators; passed on to consumers." },
+      "rate": {
+        "kind": "mechanism",
+        "headline": "Ad valorem and per-litre rates; 2026 increases on sugary drinks, tobacco and gaming",
+        "details": [
+          "2026: quota on sugary and sweetened drinks up from 1.6451 to 3.0818 pesos per litre; cigarettes ad valorem 200% (from 160%) plus a per-cigarette quota of 0.8516 pesos rising to 1.1584 by 2030.",
+          "Gaming and betting, including online, 50% (from 30%); a new tax of up to 8% on violent video games.",
+          "Alcohol: 26.5%, 30% or 53% by alcohol content."
+        ],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "Taxes on products the government wants to discourage. The Paquete Económico 2026 raised several of them; the yield in 2025 fell 3.5% in real terms.",
+      "exceptions": ["A decree gives the national lottery a fiscal stimulus of 40% of the IEPS due on betting and draws (31 Dec 2025)."],
+      "legalRefs": [
+        { "sourceId": "lieps" },
+        { "sourceId": "lif-2026" }
+      ],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "fed-importaciones",
+      "parentId": "federal",
+      "levelId": "federal",
+      "category": "customs-duty",
+      "family": "trade",
+      "status": "current",
+      "statusNote": "From 1 January 2026 tariffs were raised on selected tariff lines for imports from countries with which Mexico has no trade agreement.",
+      "names": { "official": "Impuesto General de Importación (arancel)", "native": "Impuesto General de Importación", "common": "Import tariffs", "abbreviation": "Import tariffs" },
+      "taxes": { "base": "Customs value of imported goods, by tariff classification and origin.", "payer": "Importers." },
+      "rate": {
+        "kind": "range",
+        "headline": "0%–35% in the LIGIE; up to 50% on selected lines from non-treaty countries (2026)",
+        "details": ["Preferential or zero rates under Mexico's free-trade agreements (including USMCA).", "Low-value parcels from non-treaty countries pay a global rate of 17% (USD 50–117) or 19% (USD 117–2,500), according to the 2025 public account."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "Customs duties collected at the border. Collections rose 20% in real terms in 2025, helped by a weaker peso, stricter controls on low-value imports and the rush ahead of 2026 tariff rises.",
+      "exceptions": ["A basic-basket decree exempts many food imports from tariff."],
+      "legalRefs": [{ "sourceId": "ligie" }],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "fed-isan",
+      "parentId": "federal",
+      "levelId": "federal",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Impuesto sobre Automóviles Nuevos (ISAN)", "native": "Impuesto sobre Automóviles Nuevos", "common": "New vehicle tax", "abbreviation": "ISAN" },
+      "taxes": { "base": "Sale or import of new vehicles, by price.", "payer": "Buyers, collected by dealers." },
+      "rate": {
+        "kind": "progressive",
+        "headline": "Progressive tariff by vehicle price",
+        "details": ["Rates rise with price; lower-priced vehicles pay little or nothing."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "A small federal tax on new cars. The federal vehicle-ownership tax (tenencia) was repealed in 2012; some states levy their own.",
+      "exceptions": ["Vehicles for public transport and hybrids/electric may be exempt or reduced."],
+      "legalRefs": [{ "sourceId": "lisan" }],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "fed-derechos",
+      "parentId": "federal",
+      "levelId": "federal",
+      "category": "fee",
+      "family": "other",
+      "status": "current",
+      "names": { "official": "Derechos federales (Ley Federal de Derechos)", "native": "Derechos", "common": "Federal fees (derechos)", "abbreviation": "Federal derechos" },
+      "taxes": { "base": "Use of public assets (water, spectrum, mining concessions) and receipt of federal services (registration, migration, customs procedures).", "payer": "Users of the asset or service." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Tariffs set in the Ley Federal de Derechos by service or asset",
+        "details": ["Includes special mining rights on profits and rights on water extraction; rates are fixed amounts or percentages by item."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "In Mexican law a 'derecho' is a contribution paid for a public service or for using public property, not a tax. Federal derechos rose 6.5% real in 2025.",
+      "exceptions": ["Oil-related derechos are collected through the Fondo Mexicano del Petróleo; see the oil-revenue core."],
+      "legalRefs": [{ "sourceId": "lfd" }],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "fed-hidrocarburos",
+      "parentId": "federal",
+      "levelId": "federal",
+      "category": "royalty",
+      "family": "resource",
+      "status": "current",
+      "names": { "official": "Ingresos petroleros del Gobierno Federal (transferencias del Fondo Mexicano del Petróleo)", "native": "Ingresos petroleros del Gobierno Federal", "common": "Oil revenues (federal)", "abbreviation": "Oil revenue" },
+      "taxes": { "base": "Hydrocarbon production under assignments to PEMEX and contracts with private companies (profit-sharing and royalties).", "payer": "PEMEX (assignments) and contractors." },
+      "rate": {
+        "kind": "mechanism",
+        "headline": "Rates set in the Ley de Ingresos sobre Hidrocarburos and the annual budget law",
+        "details": ["Payments are received by the Fondo Mexicano del Petróleo and then transferred to the federal budget."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "Resource income the state receives as owner of the oil, mainly from PEMEX. It is not a tax. Oil revenue was 14.7% below plan in 2025.",
+      "exceptions": ["PEMEX's own sales revenue is separate and not federal government revenue."],
+      "legalRefs": [{ "sourceId": "lish" }],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "fed-cuotas-seguridad-social",
+      "parentId": "federal",
+      "levelId": "federal",
+      "category": "social-contribution",
+      "family": "social-security",
+      "status": "current",
+      "names": { "official": "Cuotas y aportaciones de seguridad social (IMSS e ISSSTE)", "native": "Cuotas a la seguridad social", "common": "Social security contributions (IMSS & ISSSTE)", "abbreviation": "Social security" },
+      "taxes": { "base": "Salaries subject to contribution (SBC) of private-sector workers (IMSS) and federal public employees (ISSSTE).", "payer": "Employers, workers and, in part, the federal government." },
+      "rate": {
+        "kind": "range",
+        "headline": "Several branches with employer, worker and government shares",
+        "details": ["IMSS covers sickness and maternity, disability and life, retirement, occupational risks and childcare; ISSSTE has its own schedule.", "Employer contributions to the retirement branches rise gradually to 2030 under the 2020 pension reform."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "Compulsory contributions that fund health and pensions. They are collected by the institutes, not the tax agency, and are counted in public-sector budgetary revenue but not in federal government revenue.",
+      "exceptions": ["INFONAVIT housing deposits (5% of wages) and AFORE retirement accounts are separate worker funds."],
+      "legalRefs": [
+        { "sourceId": "lss" },
+        { "sourceId": "lissste" }
+      ],
+      "checkedOn": "2026-09-28"
+    },
+
+    {
+      "id": "state-nominas",
+      "parentId": "states",
+      "levelId": "states",
+      "category": "tax",
+      "family": "payroll",
+      "status": "current",
+      "names": { "official": "Impuesto sobre nóminas y asimilables (impuesto sobre erogaciones por remuneración al trabajo personal)", "native": "Impuesto sobre nóminas", "common": "State payroll tax", "abbreviation": "Payroll tax" },
+      "taxes": { "base": "Total remuneration paid to employees in the state.", "payer": "Employers." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Varies by state – commonly 2% to 4%",
+        "details": ["Mexico City levies 3%; each state sets its own rate and exemptions."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "The most important own-source tax of Mexican states.",
+      "exceptions": ["Some states exempt small employers or new jobs."],
+      "legalRefs": [
+        { "sourceId": "cdmx-codigo-fiscal", "locator": "arts. 156–159 (Mexico City example)" },
+        { "sourceId": "cpeum", "locator": "art. 124" }
+      ],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "state-tenencia",
+      "parentId": "states",
+      "levelId": "states",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Impuestos estatales sobre tenencia o uso de vehículos", "native": "Tenencia vehicular estatal", "common": "State vehicle-ownership taxes", "abbreviation": "Tenencia" },
+      "taxes": { "base": "Ownership or use of vehicles, by value and age.", "payer": "Vehicle owners." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Varies by state – some states charge none",
+        "details": ["The federal tenencia was repealed in 2012; states can keep their own vehicle taxes, and several do, often only for higher-value vehicles."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "An annual vehicle levy where the state chooses to charge one.",
+      "exceptions": ["Vehicle registration fees (derechos) are separate."],
+      "legalRefs": [{ "sourceId": "cdmx-codigo-fiscal", "locator": "arts. 160 ss. (Mexico City example)" }],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "state-hospedaje",
+      "parentId": "states",
+      "levelId": "states",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Impuestos estatales sobre hospedaje, diversiones, espectáculos y loterías", "native": "Impuesto sobre hospedaje", "common": "State lodging and entertainment taxes", "abbreviation": "Lodging tax" },
+      "taxes": { "base": "Hotel stays, entertainment, gambling prizes and similar services.", "payer": "Guests and customers; providers remit." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Varies by state – lodging commonly 2% to 5%",
+        "details": ["Mexico City taxes lodging at 3%."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "Small taxes on tourism and entertainment. State taxes on similar bases must respect coordination rules on VAT.",
+      "exceptions": ["Not every state levies each of these taxes."],
+      "legalRefs": [{ "sourceId": "cdmx-codigo-fiscal", "locator": "arts. 162–164 (lodging, Mexico City example)" }],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "state-derechos",
+      "parentId": "states",
+      "levelId": "states",
+      "category": "fee",
+      "family": "other",
+      "status": "current",
+      "names": { "official": "Derechos estatales (registro público, placas y refrendo, licencias, servicios)", "native": "Derechos estatales", "common": "State fees (derechos)", "abbreviation": "State derechos" },
+      "taxes": { "base": "State services such as vehicle plates and annual renewal, public registries, notary services and licences.", "payer": "Users." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Varies by state and service",
+        "details": ["Fixed fee schedules set in each state's revenue law."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "Charges for state services, often a bigger own-revenue source than many state taxes.",
+      "exceptions": ["Water fees are usually municipal."],
+      "legalRefs": [{ "sourceId": "cpeum", "locator": "arts. 31-IV, 124" }],
+      "checkedOn": "2026-09-28"
+    },
+
+    {
+      "id": "mun-predial",
+      "parentId": "municipalities",
+      "levelId": "municipalities",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "Impuesto predial", "native": "Impuesto predial", "common": "Property tax (predial)", "abbreviation": "Predial" },
+      "taxes": { "base": "Cadastral value of land and buildings.", "payer": "Property owners and possessors." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Varies by municipality – rates approved by the state congress",
+        "details": ["Municipalities administer the tax and keep the revenue; the state congress approves the rates in each year's municipal revenue law."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "The municipal backbone tax. Low cadastral values keep its yield small compared with transfers from the federation.",
+      "exceptions": ["Federal property is immune; many states give discounts to the elderly or for early payment."],
+      "legalRefs": [
+        { "sourceId": "cpeum", "locator": "art. 115 fr. IV, inciso a" },
+        { "sourceId": "cdmx-codigo-fiscal", "locator": "arts. 126–133 (Mexico City example)" }
+      ],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "mun-adquisicion-inmuebles",
+      "parentId": "municipalities",
+      "levelId": "municipalities",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "Impuesto sobre adquisición de bienes inmuebles (traslado de dominio)", "native": "Impuesto sobre adquisición de bienes inmuebles", "common": "Property acquisition tax", "abbreviation": "Acquisition tax" },
+      "taxes": { "base": "Value of real estate transferred by sale, inheritance or similar acts.", "payer": "The acquirer." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Varies by municipality – commonly 2% to 4.5%",
+        "details": ["Set in each state's municipal revenue law."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "A tax on transfers of real estate.",
+      "exceptions": ["Some states apply reductions for first homes."],
+      "legalRefs": [{ "sourceId": "cpeum", "locator": "art. 115 fr. IV, inciso a" }],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "mun-derechos",
+      "parentId": "municipalities",
+      "levelId": "municipalities",
+      "category": "fee",
+      "family": "other",
+      "status": "current",
+      "names": { "official": "Derechos municipales (agua potable, alumbrado público, licencias y permisos, limpia)", "native": "Derechos municipales", "common": "Municipal fees (derechos)", "abbreviation": "Municipal derechos" },
+      "taxes": { "base": "Water supply, street lighting, waste collection, licences and permits.", "payer": "Users and businesses." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Varies by municipality and service",
+        "details": ["Set in municipal revenue laws approved by the state congress."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "Fees for municipal services, the largest own revenue of many municipalities after the property tax.",
+      "exceptions": ["Street-lighting fees (DAP) have been challenged in court where set as a tax on electricity."],
+      "legalRefs": [{ "sourceId": "cpeum", "locator": "art. 115 fr. III and IV inciso c" }],
+      "checkedOn": "2026-09-28"
+    }
+  ]
+}

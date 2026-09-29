@@ -1,0 +1,101 @@
+{
+  "groups": [
+    {
+      "title": "Gross collection of national taxes administered by the DIAN, 2025 (COP millions) – DIAN statistical workbook 'Recaudo anual por tipo de impuesto 1970–2026'",
+      "defaults": {
+        "denominatorId": "dian-gross-collection",
+        "scale": "million",
+        "currency": "COP",
+        "period": { "label": "2025", "kind": "calendar-year", "start": "2025-01-01", "end": "2025-12-31" },
+        "basis": "Gross cash collection (recaudo bruto), current pesos; before refunds and offsets",
+        "sourceId": "dian-recaudo-anual",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-09-28"
+      },
+      "observations": [
+        {
+          "nodeId": "nat-renta",
+          "amount": 137019007.53,
+          "locator": "Row 2025, 'Renta y complementarios': Renta cuotas 33,485,436.56 + Retención en la fuente a título de renta 103,533,570.97",
+          "calculation": "33,485,436.56 + 103,533,570.97 = 137,019,007.53",
+          "coverageNote": "Includes advance payments (anticipo), inheritance-type income tax and remittances reported inside 'Renta y complementarios'."
+        },
+        {
+          "nodeId": "nat-iva",
+          "amount": 116261070.63,
+          "locator": "Row 2025: IVA actividad interna 75,549,126.30 (declaraciones 62,680,128.84 + retención IVA 12,868,997.46) + IVA actividad externa 40,711,944.33",
+          "calculation": "75,549,126.30 + 40,711,944.33 = 116,261,070.63"
+        },
+        { "nodeId": "nat-simple", "amount": 3583799.82, "locator": "Row 2025: Impuesto unificado RST (Simple)" },
+        { "nodeId": "nat-aranceles", "amount": 8582059.49, "locator": "Row 2025: Actividad externa › Arancel" },
+        { "nodeId": "nat-gmf", "amount": 16284428.01, "locator": "Row 2025: G.M.F." },
+        {
+          "nodeId": "nat-patrimonio",
+          "amount": 1239695.44,
+          "locator": "Row 2025: Patrimonio",
+          "caveat": "Collected under the pre-2026 rules; the 2026 collection may differ because of emergency-decree changes and court rulings."
+        },
+        { "nodeId": "nat-consumo", "amount": 4337949.66, "locator": "Row 2025: Impuesto al consumo" },
+        { "nodeId": "nat-gasolina", "amount": 1510307.84, "locator": "Row 2025: Impuesto gasolina y ACPM" },
+        { "nodeId": "nat-carbono", "amount": 345536.84, "locator": "Row 2025: Impuesto al carbono" },
+        {
+          "nodeId": "nat-saludables",
+          "amount": 3324116.27,
+          "locator": "Row 2025: Impuestos saludables – bebidas azucaradas 518,026.68 + comestibles ultraprocesados 2,806,089.60",
+          "calculation": "518,026.68 + 2,806,089.60 = 3,324,116.27"
+        }
+      ]
+    },
+    {
+      "title": "Social security and payroll contributions – OECD Revenue Statistics 2025, calendar year 2023",
+      "defaults": {
+        "scale": "million",
+        "currency": "COP",
+        "period": { "label": "2023", "kind": "calendar-year", "start": "2023-01-01", "end": "2023-12-31" },
+        "basis": "OECD classification of taxes; collecting government",
+        "sourceId": "oecd-rs-2025-subsectors",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-09-29"
+      },
+      "observations": [
+        {
+          "nodeId": "nat-seguridad-social",
+          "denominatorId": "social-security-oecd-2023",
+          "amount": 25378236,
+          "locator": "Table 6.6 Colombia – Social Security Funds – 2000 Social security contributions",
+          "caveat": "Two years older than the DIAN figures; taken from the OECD because the schemes publish no single comparable total."
+        },
+        {
+          "nodeId": "nat-parafiscales",
+          "denominatorId": "parafiscales-oecd-2023",
+          "amount": 5025164,
+          "locator": "Table 6.6 Colombia – Central government – 3000 Taxes on payroll and workforce",
+          "caveat": "Two years older than the DIAN figures."
+        }
+      ]
+    }
+  ],
+  "unavailable": [
+    {
+      "nodeId": "nat-regalias",
+      "reason": "Royalties are budgeted in the biennial Sistema General de Regalías, whose figures follow a different accounting basis; not extracted for this atlas."
+    },
+    {
+      "nodeId": "dep-vehiculos",
+      "reason": "No consolidated official national total of departmental taxes was located; data sit in the Contaduría General de la Nación and DNP fiscal-performance files by department."
+    },
+    { "nodeId": "dep-registro", "reason": "No consolidated official national total of departmental taxes was located." },
+    { "nodeId": "dep-consumo", "reason": "No consolidated official national total of departmental taxes was located." },
+    { "nodeId": "dep-estampillas", "reason": "No consolidated official national total of departmental taxes was located." },
+    {
+      "nodeId": "mun-predial",
+      "reason": "No consolidated official national total of municipal taxes was located; data sit in the Contaduría General de la Nación and DNP files by municipality."
+    },
+    { "nodeId": "mun-ica", "reason": "No consolidated official national total of municipal taxes was located." },
+    { "nodeId": "mun-sobretasa-gasolina", "reason": "No consolidated official national total of municipal taxes was located." },
+    { "nodeId": "mun-alumbrado", "reason": "No consolidated official national total of municipal taxes was located." },
+    { "nodeId": "mun-plusvalia-valorizacion", "reason": "No consolidated official national total of municipal taxes was located." }
+  ]
+}

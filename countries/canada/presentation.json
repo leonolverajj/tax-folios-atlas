@@ -1,0 +1,37 @@
+{
+  "nodes": {
+    "canada": { "label": "Canada", "sublabel": "Fiscal folio", "glyph": "globe" },
+    "federal": { "label": "Federal", "sublabel": "Government of Canada", "glyph": "landmark" },
+    "provincial": { "label": "Provinces & Territories", "sublabel": "10 + 3", "glyph": "city" },
+    "municipal": { "label": "Municipal", "sublabel": "Cities & towns", "glyph": "town" },
+
+    "fed-personal-income-tax": { "label": "Personal income", "sublabel": "PIT", "glyph": "person" },
+    "fed-corporate-income-tax": { "label": "Corporate income", "sublabel": "CIT", "glyph": "factory" },
+    "fed-non-resident-tax": { "label": "Non-resident", "sublabel": "Part XIII", "glyph": "globe" },
+    "fed-gst-hst": { "label": "GST / HST", "sublabel": "Value-added", "glyph": "cart" },
+    "fed-fuel-excise": { "label": "Fuel excise", "sublabel": "Suspended", "glyph": "flame" },
+    "fed-excise-duties": { "label": "Excise duties", "sublabel": "Alcohol · tobacco", "glyph": "wine" },
+    "fed-atsc": { "label": "Air security charge", "sublabel": "ATSC", "glyph": "plane" },
+    "fed-customs-duties": { "label": "Customs duties", "sublabel": "Imports", "glyph": "ship" },
+    "fed-ei-premiums": { "label": "EI premiums", "sublabel": "Insurance", "glyph": "heart" },
+    "fed-cpp": { "label": "CPP", "sublabel": "Pension contributions", "glyph": "shield" },
+    "fed-fuel-charge": { "label": "Fuel charge", "sublabel": "Ended 2025", "glyph": "leaf" },
+
+    "prov-personal-income-tax": { "label": "Personal income", "glyph": "person" },
+    "prov-corporate-income-tax": { "label": "Corporate income", "glyph": "factory" },
+    "prov-sales-taxes": { "label": "PST · QST · HST", "sublabel": "Sales taxes", "glyph": "cart" },
+    "prov-payroll-taxes": { "label": "Payroll taxes", "glyph": "ledger" },
+    "prov-property-taxes": { "label": "Property & transfer", "glyph": "house" },
+    "prov-fuel-taxes": { "label": "Fuel taxes", "glyph": "flame" },
+    "prov-sin-taxes": { "label": "Tobacco · cannabis", "sublabel": "Liquor", "glyph": "smoke" },
+    "prov-royalties": { "label": "Resource royalties", "glyph": "oil" },
+    "prov-wcb-premiums": { "label": "Workers' comp.", "sublabel": "Premiums", "glyph": "shield" },
+
+    "mun-property-taxes": { "label": "Property tax", "glyph": "house" },
+    "mun-land-transfer-tax": { "label": "Land transfer", "glyph": "key" },
+    "mun-development-charges": { "label": "Development charges", "glyph": "gear" },
+    "mun-user-fees": { "label": "User fees", "glyph": "water" },
+    "mun-licences-permits": { "label": "Licences & permits", "glyph": "stamp" },
+    "mun-accommodation-tax": { "label": "Accommodation tax", "glyph": "bed" }
+  }
+}

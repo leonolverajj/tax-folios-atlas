@@ -1,0 +1,210 @@
+{
+  "sources": [
+    {
+      "id": "cp-2025-ingresos",
+      "org": "Secretaría de Hacienda y Crédito Público (SHCP)",
+      "title": "Cuenta Pública 2025, Tomo I – Ingresos Presupuestarios",
+      "url": "https://www.cuentapublica.hacienda.gob.mx/work/models/CP/2025/tomo/I/I50.06.IPP.pdf",
+      "kind": "budget-report",
+      "language": "es-MX",
+      "publishedDate": null,
+      "periodCovered": "Calendar year 2025 (fiscal year = calendar year)",
+      "accessed": "2026-09-28",
+      "note": "Audited public-account edition delivered to Congress in the spring of 2026. Tables 'Ingresos del Gobierno Federal, 2024-2025' (executed 2025) and 'Ingresos totales de las entidades de control directo y empresas públicas del Estado, 2025'. Publication date not stated in the PDF."
+    },
+    {
+      "id": "shcp-4t-2025",
+      "org": "Secretaría de Hacienda y Crédito Público (SHCP)",
+      "title": "Comunicado No. 9 – Informes sobre la Situación Económica, las Finanzas Públicas y la Deuda Pública al cuarto trimestre de 2025",
+      "url": "https://www.gob.mx/shcp/prensa/comunicado-no-9-informes-sobre-la-situacion-economica-las-finanzas-publicas-y-la-deuda-publica-al-cuarto-trimestre-de-2025",
+      "kind": "budget-report",
+      "language": "es-MX",
+      "publishedDate": null,
+      "periodCovered": "2025",
+      "accessed": "2026-09-28",
+      "note": "Reports tax revenue at 15.1% of GDP in 2025 (ISR 8.2% of GDP, IVA 4.2%)."
+    },
+    {
+      "id": "inegi-efipem-2024",
+      "org": "Instituto Nacional de Estadística y Geografía (INEGI)",
+      "title": "Estadística de Finanzas Públicas Estatales y Municipales (EFIPEM) 2024 – información definitiva",
+      "url": "https://www.inegi.org.mx/rnm/index.php/catalog/1120",
+      "kind": "statistics",
+      "language": "es-MX",
+      "publishedDate": "2026-04-29",
+      "periodCovered": "Calendar year 2024",
+      "accessed": "2026-09-28",
+      "note": "Authoritative state and municipal revenue tables by concept, published as interactive tabulations and downloads. Not extracted for this atlas (see data gaps)."
+    },
+    {
+      "id": "cpeum",
+      "org": "Cámara de Diputados (H. Congreso de la Unión)",
+      "title": "Constitución Política de los Estados Unidos Mexicanos (arts. 31-IV, 73, 115-IV, 124)",
+      "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf",
+      "kind": "legal",
+      "language": "es-MX",
+      "publishedDate": null,
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": "lcf",
+      "org": "Cámara de Diputados (H. Congreso de la Unión)",
+      "title": "Ley de Coordinación Fiscal",
+      "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LCF.pdf",
+      "kind": "legal",
+      "language": "es-MX",
+      "publishedDate": null,
+      "accessed": "2026-09-28",
+      "note": "Sets up the national fiscal coordination system: states adhere and receive participaciones and aportaciones in exchange for limiting their own taxes."
+    },
+    {
+      "id": "lisr",
+      "org": "Cámara de Diputados (H. Congreso de la Unión)",
+      "title": "Ley del Impuesto sobre la Renta (LISR)",
+      "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LISR.pdf",
+      "kind": "legal",
+      "language": "es-MX",
+      "publishedDate": null,
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": "liva",
+      "org": "Cámara de Diputados (H. Congreso de la Unión)",
+      "title": "Ley del Impuesto al Valor Agregado (LIVA)",
+      "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LIVA.pdf",
+      "kind": "legal",
+      "language": "es-MX",
+      "publishedDate": null,
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": "lieps",
+      "org": "Cámara de Diputados (H. Congreso de la Unión)",
+      "title": "Ley del Impuesto Especial sobre Producción y Servicios (LIEPS)",
+      "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LIEPS.pdf",
+      "kind": "legal",
+      "language": "es-MX",
+      "publishedDate": null,
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": "ligie",
+      "org": "Cámara de Diputados (H. Congreso de la Unión)",
+      "title": "Ley de los Impuestos Generales de Importación y de Exportación (LIGIE)",
+      "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LIGIE_2022.pdf",
+      "kind": "legal",
+      "language": "es-MX",
+      "publishedDate": null,
+      "accessed": "2026-09-28",
+      "note": "Tariff schedule; 2026 increases on selected lines for countries without trade agreements."
+    },
+    {
+      "id": "lisan",
+      "org": "Cámara de Diputados (H. Congreso de la Unión)",
+      "title": "Ley Federal del Impuesto sobre Automóviles Nuevos (LFISAN)",
+      "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LFISAN.pdf",
+      "kind": "legal",
+      "language": "es-MX",
+      "publishedDate": null,
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": "lfd",
+      "org": "Cámara de Diputados (H. Congreso de la Unión)",
+      "title": "Ley Federal de Derechos (LFD)",
+      "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LFD.pdf",
+      "kind": "legal",
+      "language": "es-MX",
+      "publishedDate": null,
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": "lish",
+      "org": "Cámara de Diputados (H. Congreso de la Unión)",
+      "title": "Ley de Ingresos sobre Hidrocarburos (LIH)",
+      "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LIH.pdf",
+      "kind": "legal",
+      "language": "es-MX",
+      "publishedDate": null,
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": "lss",
+      "org": "Cámara de Diputados (H. Congreso de la Unión)",
+      "title": "Ley del Seguro Social (LSS)",
+      "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LSS.pdf",
+      "kind": "legal",
+      "language": "es-MX",
+      "publishedDate": null,
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": "lissste",
+      "org": "Cámara de Diputados (H. Congreso de la Unión)",
+      "title": "Ley del Instituto de Seguridad y Servicios Sociales de los Trabajadores del Estado (LISSSTE)",
+      "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LISSSTE.pdf",
+      "kind": "legal",
+      "language": "es-MX",
+      "publishedDate": null,
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": "lif-2026",
+      "org": "Cámara de Diputados (H. Congreso de la Unión)",
+      "title": "Ley de Ingresos de la Federación para el Ejercicio Fiscal de 2026",
+      "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LIF_2026.pdf",
+      "kind": "legal",
+      "language": "es-MX",
+      "publishedDate": null,
+      "periodCovered": "2026",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": "cdmx-codigo-fiscal",
+      "org": "Congreso de la Ciudad de México",
+      "title": "Código Fiscal de la Ciudad de México (predial arts. 126–133; impuesto sobre nóminas arts. 156–159; tenencia arts. 160 ss.; hospedaje arts. 162–164)",
+      "url": "https://www.congresocdmx.gob.mx/archivos/legislativas/codigo_fiscal_cdmx.pdf",
+      "kind": "legal",
+      "language": "es-MX",
+      "publishedDate": null,
+      "accessed": "2026-09-28",
+      "note": "Mexico City is one example of a state-level fiscal code; each of the 32 federal entities has its own."
+    },
+    {
+      "id": "oecd-rs-2025-subsectors",
+      "org": "OECD",
+      "language": "en",
+      "kind": "international",
+      "accessed": "2026-09-29",
+      "title": "Revenue Statistics 2025, Table 6.25: Mexico, tax revenues by sub-sectors of government",
+      "url": "https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en/full-report/tax-revenues-by-subsectors-of-general-government_f9e88332.html",
+      "publishedDate": "2025-12-09",
+      "periodCovered": "Calendar year 2023 (national currency)",
+      "note": "Harmonised OECD classification of taxes (1000–6000) split by collecting sub-sector of general government. Used for the cross-country profile and for parts of the national total that have no national-source breakdown."
+    },
+    {
+      "id": "oecd-rs-2025-levels",
+      "org": "OECD",
+      "language": "en",
+      "kind": "international",
+      "accessed": "2026-09-29",
+      "title": "Revenue Statistics 2025, Chapter 3: Tax levels and tax structures (Tables 3.1 and 3.4)",
+      "url": "https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en/full-report/tax-levels-and-tax-structures-1965-2024_2033f3ea.html",
+      "publishedDate": "2025-12-09",
+      "periodCovered": "Calendar year 2023",
+      "note": "Total tax revenue as % of GDP and tax structure as % of total taxation, for all OECD members."
+    },
+    {
+      "id": "sng-wofi-profile",
+      "org": "OECD and United Cities and Local Governments (SNG-WOFI)",
+      "title": "World Observatory on Subnational Government Finance and Investment – country profile: Mexico",
+      "url": "https://www.sng-wofi.org/country_profiles/mexico.html",
+      "kind": "international",
+      "language": "en",
+      "publishedDate": "2022-10-24",
+      "periodCovered": "2020",
+      "accessed": "2026-09-29",
+      "note": "Subnational government revenue by category (tax revenue, grants and subsidies, tariffs and fees, property income, other) as % of total subnational revenue, 2022 edition."
+    }
+  ]
+}

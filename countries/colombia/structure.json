@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "referenceYear": 2023,
+  "currency": "COP",
+  "scale": "million",
+  "taxToGdp": 22.1,
+  "basis": "Collecting government",
+  "levels": [
+    {
+      "key": "central",
+      "label": "National government",
+      "folioLevelIds": ["national"],
+      "total": 268969102,
+      "byType": { "income": 140176582, "socialSecurity": 0, "payroll": 5025164, "property": 14895042, "goodsServices": 107682019, "other": 1190296 }
+    },
+    {
+      "key": "regional",
+      "label": "Departments",
+      "folioLevelIds": ["departmental"],
+      "total": 15111585,
+      "byType": { "income": 0, "socialSecurity": 0, "payroll": 0, "property": 0, "goodsServices": 10712231, "other": 4399354 }
+    },
+    {
+      "key": "local",
+      "label": "Municipalities and districts",
+      "folioLevelIds": ["municipal"],
+      "total": 40340654,
+      "byType": { "income": 0, "socialSecurity": 0, "payroll": 0, "property": 11007128, "goodsServices": 19782614, "other": 9550912 }
+    },
+    {
+      "key": "social-security",
+      "label": "Social security funds",
+      "folioLevelIds": [],
+      "total": 25378236,
+      "byType": { "income": 0, "socialSecurity": 25378236, "payroll": 0, "property": 0, "goodsServices": 0, "other": 0 }
+    }
+  ],
+  "sourceIds": ["oecd-rs-2025-subsectors", "oecd-rs-2025-levels"],
+  "subnational": {
+    "ownSourceTaxShareOfRevenue": 28.6,
+    "grantsShareOfRevenue": 60.2,
+    "year": 2020,
+    "sourceId": "sng-wofi-profile",
+    "note": "Transfers through the General Participation System (SGP) are the main source; 35% goes to departments and 65% to municipalities."
+  },
+  "notes": ["The OECD Latin America edition gives the same 2023 level split: central 76.9%, departments 4.3%, local 11.5%, social security 7.3%."]
+}

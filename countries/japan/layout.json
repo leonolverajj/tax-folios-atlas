@@ -1,0 +1,134 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "japan": {
+      "x": 800,
+      "y": 500
+    },
+    "national": {
+      "x": 487,
+      "y": 426
+    },
+    "nat-income-tax": {
+      "x": 526,
+      "y": 769
+    },
+    "nat-inheritance-gift": {
+      "x": 326,
+      "y": 574
+    },
+    "nat-gasoline-tax": {
+      "x": 329,
+      "y": 393
+    },
+    "nat-customs": {
+      "x": 542,
+      "y": 224
+    },
+    "nat-defense-corporate-tax": {
+      "x": 850,
+      "y": 180
+    },
+    "nat-corporation-tax": {
+      "x": 264,
+      "y": 721
+    },
+    "nat-liquor-tax": {
+      "x": 128,
+      "y": 486
+    },
+    "nat-petroleum-coal-tax": {
+      "x": 289,
+      "y": 218
+    },
+    "nat-stamp-duty": {
+      "x": 656,
+      "y": 76
+    },
+    "nat-defense-income-tax": {
+      "x": 1092,
+      "y": 96
+    },
+    "nat-consumption-tax": {
+      "x": 342,
+      "y": 887
+    },
+    "nat-tobacco-tax": {
+      "x": 68,
+      "y": 675
+    },
+    "nat-vehicle-tonnage-tax": {
+      "x": 85,
+      "y": 311
+    },
+    "nat-reconstruction-surtax": {
+      "x": 346,
+      "y": 48
+    },
+    "nat-social-insurance": {
+      "x": 890,
+      "y": 48
+    },
+    "prefectural": {
+      "x": 1108,
+      "y": 418
+    },
+    "pref-inhabitant-tax": {
+      "x": 1005,
+      "y": 220
+    },
+    "pref-local-consumption-tax": {
+      "x": 1195,
+      "y": 267
+    },
+    "pref-diesel-tax": {
+      "x": 1294,
+      "y": 454
+    },
+    "pref-tobacco-tax": {
+      "x": 1264,
+      "y": 618
+    },
+    "pref-enterprise-tax": {
+      "x": 1285,
+      "y": 143
+    },
+    "pref-automobile-tax": {
+      "x": 1473,
+      "y": 503
+    },
+    "pref-real-estate-acquisition-tax": {
+      "x": 1282,
+      "y": 803
+    },
+    "municipal": {
+      "x": 904,
+      "y": 704
+    },
+    "mun-inhabitant-tax": {
+      "x": 1047,
+      "y": 583
+    },
+    "mun-fixed-assets-tax": {
+      "x": 1090,
+      "y": 728
+    },
+    "mun-city-planning-tax": {
+      "x": 991,
+      "y": 856
+    },
+    "mun-tobacco-tax": {
+      "x": 819,
+      "y": 856
+    },
+    "mun-light-vehicle-tax": {
+      "x": 719,
+      "y": 728
+    }
+  },
+  "radii": {}
+}

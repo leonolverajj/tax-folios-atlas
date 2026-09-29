@@ -1,0 +1,33 @@
+{
+  "nodes": {
+    "colombia": { "label": "Colombia", "sublabel": "Fiscal folio", "glyph": "globe" },
+    "national": { "label": "Nación", "sublabel": "National · DIAN", "glyph": "landmark" },
+    "departmental": { "label": "Departamentos", "sublabel": "32", "glyph": "city" },
+    "municipal": { "label": "Municipios", "sublabel": "≈ 1,100", "glyph": "town" },
+
+    "nat-renta": { "label": "Renta", "sublabel": "Income tax", "glyph": "person" },
+    "nat-iva": { "label": "IVA", "sublabel": "Value-added tax", "glyph": "cart" },
+    "nat-simple": { "label": "SIMPLE", "sublabel": "Small business", "glyph": "factory" },
+    "nat-aranceles": { "label": "Aranceles", "sublabel": "Customs", "glyph": "ship" },
+    "nat-gmf": { "label": "GMF 4×1000", "sublabel": "Bank transactions", "glyph": "bank" },
+    "nat-patrimonio": { "label": "Patrimonio", "sublabel": "Wealth tax", "glyph": "scale" },
+    "nat-consumo": { "label": "Consumo", "sublabel": "Consumption tax", "glyph": "wine" },
+    "nat-gasolina": { "label": "Gasolina · ACPM", "glyph": "flame" },
+    "nat-carbono": { "label": "Carbono", "sublabel": "Carbon tax", "glyph": "leaf" },
+    "nat-saludables": { "label": "Health taxes", "sublabel": "Sugar · ultra-processed", "glyph": "heart" },
+    "nat-seguridad-social": { "label": "Seguridad social", "sublabel": "Pension · health", "glyph": "shield" },
+    "nat-parafiscales": { "label": "Parafiscales", "sublabel": "SENA · ICBF · cajas", "glyph": "ledger" },
+    "nat-regalias": { "label": "Regalías", "sublabel": "Royalties", "glyph": "pickaxe" },
+
+    "dep-vehiculos": { "label": "Vehicles", "glyph": "car" },
+    "dep-registro": { "label": "Registro", "sublabel": "Registration tax", "glyph": "scroll" },
+    "dep-consumo": { "label": "Beer · liquor · tobacco", "glyph": "wine" },
+    "dep-estampillas": { "label": "Estampillas", "sublabel": "Earmarked stamps", "glyph": "stamp" },
+
+    "mun-predial": { "label": "Predial", "sublabel": "Property tax", "glyph": "house" },
+    "mun-ica": { "label": "ICA", "sublabel": "Industry & commerce", "glyph": "coin" },
+    "mun-sobretasa-gasolina": { "label": "Gasoline surcharge", "glyph": "flame" },
+    "mun-alumbrado": { "label": "Alumbrado", "sublabel": "Street lighting", "glyph": "bolt" },
+    "mun-plusvalia-valorizacion": { "label": "Plusvalía", "sublabel": "Land-value levies", "glyph": "key" }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": "brazil",
+  "iso3": "BRA",
+  "isoNumeric": "076",
+  "names": { "en": "Brazil", "native": "Brasil", "nativeLang": "pt-BR" },
+  "currency": { "code": "BRL", "symbol": "R$", "name": "Brazilian real" },
+  "summary": "Brazil is a federation of three autonomous entes federativos: the Union, the 26 states plus the Federal District, and 5,570 municipalities. The Constitution allocates each a list of taxes, and the Union additionally levies 'contribuições sociais' that fund social security. A 2023 constitutional amendment replaces five consumption taxes with a dual VAT (CBS and IBS) and a selective tax between 2026 and 2033.",
+  "structureNote": "The Federal District is both a state and a municipality for tax purposes and is grouped with the states. Brazil's 'contribuições' (PIS/Pasep, Cofins, CSLL, INSS) are constitutionally a separate species of tribute from 'impostos', so they are labelled as social contributions here even though PIS/Cofins operate like a turnover tax.",
+  "theme": {
+    "accent": "#3fdc8b",
+    "accent2": "#ffd84a",
+    "motif": "river-basin",
+    "motifNote": "A branching river-basin network and canopy texture drawn over Brazil's own outline, with the Southern Cross among the stars.",
+    "mapLabel": { "lon": -52, "lat": -11 }
+  },
+  "levels": [
+    {
+      "id": "federal",
+      "branch": "national",
+      "names": { "official": "União (Governo Federal)", "native": "União", "common": "Federal government (União)" },
+      "description": "The national government. It levies income taxes, industrial-product, financial-operation and foreign-trade taxes, and the social contributions that finance social security (INSS, PIS/Pasep, Cofins, CSLL).",
+      "fiscalPower": "Constitution arts. 153 (federal taxes), 149 and 195 (contributions) and 154 (residual power). It shares income-tax and IPI proceeds with states and municipalities through the Fundos de Participação.",
+      "legalRefs": [{ "sourceId": "cf-1988", "locator": "arts. 153, 149, 195" }],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "states",
+      "branch": "regional",
+      "names": { "official": "Estados e Distrito Federal", "native": "Estados e Distrito Federal", "common": "States and Federal District" },
+      "description": "The 26 states and the Federal District. Their main tax is the ICMS, a value-added tax on goods and some services, plus vehicle-ownership (IPVA) and inheritance and gift (ITCMD) taxes.",
+      "fiscalPower": "Constitution art. 155 (ICMS, IPVA, ITCMD) and art. 145 (fees). Each state legislates its own ICMS rates within national rules (LC 87/1996; Senate resolutions).",
+      "legalRefs": [{ "sourceId": "cf-1988", "locator": "art. 155" }],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "municipalities",
+      "branch": "local",
+      "names": { "official": "Municípios", "native": "Municípios", "common": "Municipalities" },
+      "description": "The 5,570 municipalities. They levy the ISS on services, the IPTU on urban property and the ITBI on property transfers, plus fees and a street-lighting contribution.",
+      "fiscalPower": "Constitution art. 156 (ISS, IPTU, ITBI), art. 145 (fees) and art. 149-A (COSIP). Rates are set by municipal law within limits in national complementary law (LC 116/2003 for ISS).",
+      "legalRefs": [{ "sourceId": "cf-1988", "locator": "art. 156" }, { "sourceId": "ec-39-2002", "locator": "art. 149-A" }],
+      "checkedOn": "2026-09-28"
+    }
+  ],
+  "supportingSourceIds": ["rfb-arrecadacao-2025", "ctn", "rfb-dividendos-perguntas", "rfb-reforma-consumo", "confaz"],
+  "denominators": [
+    {
+      "id": "total-tax-burden",
+      "label": "Total tax revenue of all three levels of government, 2024 (Carga Tributária Bruta)",
+      "definition": "Gross tax revenue of the Union, states, Federal District and municipalities on the Receita Federal's budget-based classification: taxes, social contributions (INSS, PIS/Pasep, Cofins, CSLL and others), fees, and civil-servant pension contributions (CPSS/RPPS). Excludes FGTS (R$ 192.2 bn) and the Sistema S contributions (R$ 33.5 bn) under the 2024 methodology.",
+      "levelIds": ["federal", "states", "municipalities"],
+      "amount": 3782085.15,
+      "scale": "million",
+      "currency": "BRL",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "rfb-ctb-2024",
+      "locator": "Tabela TRIB 00: 'Total da Receita Tributária' (32.20% of GDP of R$ 11,744.71 billion)",
+      "calculation": "Published total. Union 2,501,369.73 + states 993,767.21 + municipalities 286,948.20 = 3,782,085.14 (rounding).",
+      "caveat": "Calendar 2024 is the latest year with all three levels on one basis. The Union alone collected R$ 2.886 trillion in 2025 according to Receita's administrative series, which uses a different classification and is not mixed in here.",
+      "accessed": "2026-09-28"
+    }
+  ],
+  "sizing": {
+    "label": "Tax revenue of the Union, states and municipalities (Carga Tributária Bruta)",
+    "definition": "Gross tax revenue of the Union, states, Federal District and municipalities on the Receita Federal's budget-based classification: taxes, social contributions (INSS, PIS/Pasep, Cofins, CSLL and others), fees, and civil-servant pension contributions (CPSS/RPPS). Excludes FGTS (R$ 192.2 bn) and the Sistema S contributions (R$ 33.5 bn) under the 2024 methodology.",
+    "componentIds": ["total-tax-burden"]
+  },
+  "researchStatus": "researched"
+}

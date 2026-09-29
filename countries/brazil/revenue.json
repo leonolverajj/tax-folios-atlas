@@ -1,0 +1,89 @@
+{
+  "groups": [
+    {
+      "title": "Tax revenue of all three levels of government, 2024 – Receita Federal, Carga Tributária no Brasil 2024, Tabela TRIB 00 (R$ millions)",
+      "defaults": {
+        "denominatorId": "total-tax-burden",
+        "scale": "million",
+        "currency": "BRL",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Gross tax revenue on the Receita Federal's budget-based (enfoque orçamentário) classification; FGTS and Sistema S excluded",
+        "sourceId": "rfb-ctb-2024",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-09-28"
+      },
+      "observations": [
+        {
+          "nodeId": "fed-irpf",
+          "amount": 66748.3,
+          "locator": "Tributos do Governo Federal › Imposto de Renda › Pessoas Físicas",
+          "coverage": "subset",
+          "coverageNote": "Only tax paid directly by individuals. Tax withheld at source on wages and other income is reported in the 'Retido na Fonte' line (IRRF core), which mixes individuals and companies.",
+          "caveat": "Because most individual income tax is withheld, this core understates the importance of personal income taxation; see the IRRF core."
+        },
+        {
+          "nodeId": "fed-irrf",
+          "amount": 561911.38,
+          "locator": "Imposto de Renda › Retido na Fonte",
+          "caveat": "Covers withholding on individuals' wages and investment income as well as on companies and payments abroad; the source does not split it by payer."
+        },
+        { "nodeId": "fed-irpj", "amount": 272548.63, "locator": "Imposto de Renda › Pessoas Jurídicas" },
+        { "nodeId": "fed-csll", "amount": 163097.25, "locator": "Orçamento da Seguridade Social › Contribuição Social sobre o Lucro Líquido" },
+        { "nodeId": "fed-pis", "amount": 100914.4, "locator": "Orçamento da Seguridade Social › Contribuição para o PIS/Pasep" },
+        { "nodeId": "fed-cofins", "amount": 353792.52, "locator": "Orçamento da Seguridade Social › Cofins" },
+        {
+          "nodeId": "fed-inss",
+          "amount": 621767.96,
+          "locator": "Orçamento da Seguridade Social › Contribuição para a Previdência Social (RGPS: employer, employee, self-employed and contribution on revenue)"
+        },
+        { "nodeId": "fed-ipi", "amount": 83068.54, "locator": "Orçamento Fiscal › Imposto sobre Produtos Industrializados" },
+        { "nodeId": "fed-iof", "amount": 67455.98, "locator": "Orçamento Fiscal › Imposto sobre Operações Financeiras" },
+        { "nodeId": "fed-comercio-exterior", "amount": 77500.11, "locator": "Orçamento Fiscal › Impostos sobre o Comércio Exterior" },
+        { "nodeId": "fed-itr", "amount": 3250.07, "locator": "Orçamento Fiscal › Imposto Territorial Rural" },
+        {
+          "nodeId": "fed-cide",
+          "amount": 19981.99,
+          "locator": "Demais › Cide Combustíveis 3,396.41 + Cide Remessas 16,585.58",
+          "calculation": "3,396.41 + 16,585.58 = 19,981.99"
+        },
+        { "nodeId": "fed-salario-educacao", "amount": 32684.35, "locator": "Demais › Salário Educação" },
+        { "nodeId": "state-icms", "amount": 801251.68, "locator": "Tributos do Governo Estadual › ICMS" },
+        { "nodeId": "state-ipva", "amount": 84321.28, "locator": "Tributos do Governo Estadual › IPVA" },
+        { "nodeId": "state-itcmd", "amount": 17523.66, "locator": "Tributos do Governo Estadual › ITCD" },
+        {
+          "nodeId": "state-taxas",
+          "amount": 35493.48,
+          "locator": "Tributos do Governo Estadual › Outros Tributos Estaduais",
+          "coverage": "broader",
+          "coverageNote": "The source groups state fees (taxas) with minor state taxes."
+        },
+        { "nodeId": "mun-iss", "amount": 140076.9, "locator": "Tributos do Governo Municipal › ISS" },
+        { "nodeId": "mun-iptu", "amount": 71318.86, "locator": "Tributos do Governo Municipal › IPTU" },
+        { "nodeId": "mun-itbi", "amount": 24363.75, "locator": "Tributos do Governo Municipal › ITBI" },
+        {
+          "nodeId": "mun-taxas-cosip",
+          "amount": 23532.03,
+          "locator": "Tributos do Governo Municipal › Outros Tributos Municipais",
+          "coverage": "broader",
+          "coverageNote": "The source groups municipal fees, COSIP and improvement contributions with minor municipal taxes."
+        }
+      ]
+    }
+  ],
+  "unavailable": [
+    {
+      "nodeId": "fed-cbs",
+      "reason": "Not yet a revenue source: 2026 is a test year with a 0.9% rate that is offset against PIS/Cofins. Collections begin in 2027."
+    },
+    { "nodeId": "fed-is", "reason": "Takes effect in 2027; no collections yet." },
+    {
+      "nodeId": "state-ibs",
+      "reason": "2026 is a test year (0.1% shared with municipalities, offset against other taxes); the IBS replaces the ICMS only from 2029."
+    },
+    {
+      "nodeId": "mun-ibs",
+      "reason": "2026 is a test year (0.1% shared with states, offset against other taxes); the IBS replaces the ISS only from 2029."
+    }
+  ]
+}

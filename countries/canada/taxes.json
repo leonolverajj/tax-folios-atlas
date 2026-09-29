@@ -1,0 +1,666 @@
+{
+  "instruments": [
+    {
+      "id": "fed-personal-income-tax",
+      "parentId": "federal",
+      "levelId": "federal",
+      "category": "tax",
+      "family": "income-personal",
+      "status": "current",
+      "names": { "official": "Federal personal income tax (Income Tax Act, Part I)", "native": "Impôt fédéral sur le revenu des particuliers", "common": "Personal income tax", "abbreviation": "Personal income tax" },
+      "taxes": { "base": "Taxable income of individuals resident in Canada (worldwide income), and of non-residents on Canadian employment, business and certain capital-gains income.", "payer": "Individuals; employers withhold at source through payroll deductions." },
+      "rate": {
+        "kind": "progressive",
+        "headline": "14% – 33% (five brackets, 2026)",
+        "details": [
+          "14% on the first $58,523 of taxable income",
+          "20.5% from $58,523 to $117,045",
+          "26% from $117,045 to $181,440",
+          "29% from $181,440 to $258,482",
+          "33% above $258,482",
+          "The lowest rate fell from 15% to 14% on 1 July 2025 (14.5% blended for the 2025 tax year); thresholds indexed 2.0% for 2026."
+        ],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "The largest federal revenue source. Income is taxed in brackets; credits such as the basic personal amount reduce tax. Provinces and territories add their own income tax on top (see the provincial level).",
+      "exceptions": [
+        "Residents of Québec receive a 16.5% federal abatement of basic federal tax because Québec runs its own income-tax system.",
+        "Provincial and territorial income taxes are levied separately, so combined marginal rates differ by province."
+      ],
+      "legalRefs": [
+        { "sourceId": "law-income-tax-act", "locator": "s. 117(2) (tax payable by individuals – rates and brackets)" },
+        { "sourceId": "cra-rates-2026", "locator": "Federal brackets for the 2026 tax year" }
+      ],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "fed-corporate-income-tax",
+      "parentId": "federal",
+      "levelId": "federal",
+      "category": "tax",
+      "family": "income-corporate",
+      "status": "current",
+      "names": { "official": "Federal corporate income tax (Income Tax Act, Part I)", "native": "Impôt fédéral sur le revenu des sociétés", "common": "Corporate income tax", "abbreviation": "Corporate income tax" },
+      "taxes": { "base": "Taxable income of corporations resident in Canada and Canadian-source business income of non-resident corporations.", "payer": "Corporations." },
+      "rate": {
+        "kind": "flat",
+        "headline": "15% general; 9% small-business rate",
+        "details": [
+          "Basic rate 38%, reduced to 28% by the provincial abatement and to 15% by the general rate reduction.",
+          "Canadian-controlled private corporations pay 9% on active business income up to the $500,000 business limit (small business deduction)."
+        ],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "A flat federal rate applied to corporate taxable income, with a reduced rate for small Canadian-controlled private corporations. Provinces and territories levy their own corporate tax on top.",
+      "exceptions": [
+        "Special rates and credits apply to manufacturing, investment income of private corporations, and certain resource activities.",
+        "Combined federal-provincial rates differ by province."
+      ],
+      "legalRefs": [
+        { "sourceId": "law-income-tax-act", "locator": "s. 123 (rate), s. 123.4 (general rate reduction), s. 125 (small business deduction)" },
+        { "sourceId": "cra-corp-rates" }
+      ],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "fed-non-resident-tax",
+      "parentId": "federal",
+      "levelId": "federal",
+      "category": "tax",
+      "family": "income-mixed",
+      "status": "current",
+      "names": { "official": "Tax on income from Canada of non-residents (Income Tax Act, Part XIII)", "native": "Impôt des non-résidents (partie XIII)", "common": "Non-resident withholding tax", "abbreviation": "Non-resident tax" },
+      "taxes": { "base": "Certain Canadian-source income paid to non-residents: dividends, most rents and royalties, pensions, some interest.", "payer": "Non-resident recipients; the Canadian payer withholds and remits." },
+      "rate": {
+        "kind": "flat",
+        "headline": "25% statutory; reduced by tax treaties",
+        "details": [
+          "Statutory rate is 25% of the gross amount.",
+          "Tax treaties commonly lower the rate on dividends, interest and royalties; most arm's-length interest is exempt."
+        ],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "A withholding tax collected at source on income flowing to foreign residents, so that Canada taxes the return on Canadian assets held abroad.",
+      "exceptions": ["The rate you actually face depends on your country's tax treaty with Canada and on the type of income."],
+      "legalRefs": [{ "sourceId": "law-income-tax-act", "locator": "Part XIII, s. 212 (25% tax on income payable to non-residents)" }],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "fed-gst-hst",
+      "parentId": "federal",
+      "levelId": "federal",
+      "category": "tax",
+      "family": "general-consumption",
+      "status": "current",
+      "names": { "official": "Goods and Services Tax / Harmonized Sales Tax – federal component (Excise Tax Act, Part IX)", "native": "Taxe sur les produits et services (TPS) / taxe de vente harmonisée (TVH)", "common": "GST / HST", "abbreviation": "GST / HST" },
+      "taxes": { "base": "Most supplies of goods and services made in Canada and imports, as a value-added tax with input tax credits.", "payer": "Borne by final consumers; registered businesses collect and remit it." },
+      "rate": {
+        "kind": "flat",
+        "headline": "5% GST; HST 13%–15% in participating provinces",
+        "details": [
+          "5% GST applies nationally.",
+          "HST (5% federal + provincial part): Ontario 13%; Nova Scotia 14% (from 1 Apr 2025); New Brunswick, Newfoundland and Labrador, Prince Edward Island 15%.",
+          "British Columbia, Saskatchewan, Manitoba charge a separate PST; Québec charges the QST; Alberta and the territories charge no provincial sales tax."
+        ],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "A broad consumption tax. The federal government collects the HST in participating provinces and passes the provincial part to the province; only the federal part counts as federal revenue.",
+      "exceptions": [
+        "Zero-rated: basic groceries, prescription drugs, exports. Exempt: most health, education and financial services.",
+        "Revenu Québec administers the GST in Québec on the federal government's behalf."
+      ],
+      "legalRefs": [
+        { "sourceId": "law-excise-tax-act", "locator": "Part IX, s. 165 (imposition of GST/HST)" },
+        { "sourceId": "cra-hst-rates" }
+      ],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "fed-fuel-excise",
+      "parentId": "federal",
+      "levelId": "federal",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "transitional",
+      "statusNote": "Temporarily suspended since 20 April 2026 (enacted by Bill C-30 to 7 Sep 2026); an extension to 31 Jan 2027 with 50% rates until 31 Mar 2027 was announced 2 Sep 2026 and was still at the legislative-proposal stage when checked.",
+      "names": { "official": "Excise tax on gasoline, diesel fuel and aviation fuels (Excise Tax Act, Part III)", "native": "Taxe d'accise sur l'essence, le carburant diesel et les carburants d'aviation", "common": "Federal fuel excise tax", "abbreviation": "Fuel excise" },
+      "taxes": { "base": "Litres of gasoline, diesel and aviation fuels delivered or imported.", "payer": "Fuel producers and importers; passed on in pump prices." },
+      "rate": {
+        "kind": "specific",
+        "headline": "Statutory 10¢/L gasoline, 4¢/L diesel – currently suspended (0¢/L)",
+        "details": [
+          "Statutory rates: 10¢/L gasoline and unleaded aviation gasoline; 11¢/L leaded aviation gasoline; 4¢/L diesel and aviation fuel other than aviation gasoline.",
+          "Suspended (0¢/L) since 20 April 2026.",
+          "Announced schedule: 0¢ until 31 Jan 2027; 50% of statutory rates 1 Feb – 31 Mar 2027; full rates from 1 Apr 2027 (extension not yet enacted at the date checked)."
+        ],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "A per-litre excise on transportation fuels. In 2026 the government temporarily set it to zero as an affordability measure; the revenue shown is the last full fiscal year before the suspension.",
+      "exceptions": ["Provinces levy their own separate fuel taxes; this federal excise is unaffected by them."],
+      "legalRefs": [
+        { "sourceId": "law-excise-tax-act", "locator": "Part III, s. 23 (excise tax on gasoline, diesel fuel and aviation fuels)" },
+        { "sourceId": "fin-fuel-excise-2026-09" },
+        { "sourceId": "fin-c30-2026-06" }
+      ],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "fed-excise-duties",
+      "parentId": "federal",
+      "levelId": "federal",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Excise duties on alcohol, tobacco and cannabis products (Excise Act, 2001)", "native": "Droits d'accise sur l'alcool, le tabac et le cannabis", "common": "Excise duties (alcohol, tobacco, cannabis)", "abbreviation": "Excise duties" },
+      "taxes": { "base": "Production/packaging of spirits, wine, beer, tobacco and cannabis products.", "payer": "Licensed producers and packagers; passed on to consumers." },
+      "rate": {
+        "kind": "specific",
+        "headline": "Per-unit rates set in the Excise Act, 2001",
+        "details": [
+          "Rates are specific (per litre of absolute ethyl alcohol, per cigarette, per gram of cannabis product).",
+          "Alcohol duty rates are adjusted each 1 April; the inflation-linked increase is capped at 2% per year under measures confirmed with Bill C-30 (2026)."
+        ],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "Duties charged when alcohol, tobacco or cannabis products are produced or packaged, in addition to GST/HST and provincial taxes.",
+      "exceptions": ["Reduced alcohol duty rates apply to the first part of small brewers' production."],
+      "legalRefs": [
+        { "sourceId": "law-excise-act-2001", "locator": "Parts 2–5.1 (spirits, wine, beer, tobacco, cannabis)" },
+        { "sourceId": "fin-c30-2026-06" }
+      ],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "fed-atsc",
+      "parentId": "federal",
+      "levelId": "federal",
+      "category": "special-levy",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Air Travellers Security Charge", "native": "Droit pour la sécurité des passagers du transport aérien", "common": "Air Travellers Security Charge", "abbreviation": "ATSC" },
+      "taxes": { "base": "Each chargeable enplanement on commercial air travel.", "payer": "Air travellers; collected by airlines." },
+      "rate": {
+        "kind": "specific",
+        "headline": "$9.46–$9.94 domestic; $16.08–$16.89 transborder; $34.42 international",
+        "details": [
+          "Domestic: $9.46 per enplanement with GST/HST, $9.94 without (max $18.92 / $19.87 per one-way itinerary).",
+          "Transborder (USA): $16.08 with GST/HST, $16.89 without (max $32.16 / $33.77).",
+          "Other international: flat $34.42.",
+          "Rates in force since 1 May 2024."
+        ],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "A per-flight charge earmarked in policy to fund air-travel security, reported by the government within tax revenues.",
+      "exceptions": ["Exemptions exist for certain diplomats, crew, infants under two, and some remote flights."],
+      "legalRefs": [
+        { "sourceId": "law-atsc-act" },
+        { "sourceId": "cra-atsc-rates" }
+      ],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "fed-customs-duties",
+      "parentId": "federal",
+      "levelId": "federal",
+      "category": "customs-duty",
+      "family": "trade",
+      "status": "current",
+      "names": { "official": "Customs import duties (Customs Tariff; Customs Act)", "native": "Droits de douane à l'importation", "common": "Customs import duties", "abbreviation": "Customs duties" },
+      "taxes": { "base": "Value (or quantity) of imported goods by tariff classification and origin.", "payer": "Importers." },
+      "rate": {
+        "kind": "mechanism",
+        "headline": "Schedule of rates by tariff item; many goods duty-free",
+        "details": [
+          "Rates are set line-by-line in the Customs Tariff; preferential or zero rates apply under trade agreements such as CUSMA.",
+          "Temporary surtaxes imposed by order under the Customs Tariff (for example counter-measures on some U.S. and Chinese goods) change frequently; check the CBSA tariff pages for current orders."
+        ],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "Duties collected at the border by the Canada Border Services Agency. Revenue rose in 2025 as counter-tariff surtaxes were introduced; the amount shown is FY2024-25 and only partly reflects them.",
+      "exceptions": ["Origin rules, remission orders and free-trade agreements can reduce or eliminate duty."],
+      "legalRefs": [
+        { "sourceId": "law-customs-tariff", "locator": "Schedule I rates; s. 53 (surtax orders)" },
+        { "sourceId": "cbsa-tariff" }
+      ],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "fed-ei-premiums",
+      "parentId": "federal",
+      "levelId": "federal",
+      "category": "insurance-premium",
+      "family": "social-security",
+      "status": "current",
+      "names": { "official": "Employment Insurance premiums", "native": "Cotisations d'assurance-emploi", "common": "Employment Insurance premiums", "abbreviation": "EI premiums" },
+      "taxes": { "base": "Insurable earnings of employees up to the annual maximum ($68,900 in 2026).", "payer": "Employees and employers (employer pays 1.4 times the employee premium)." },
+      "rate": {
+        "kind": "flat",
+        "headline": "1.63% employee; 2.282% employer (2026)",
+        "details": [
+          "Maximum insurable earnings $68,900; maximum employee premium $1,123.07, employer $1,572.30.",
+          "Québec: 1.30% employee (2026), because the Québec Parental Insurance Plan covers maternity and parental benefits."
+        ],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "An insurance premium, not a general tax: payments fund EI benefits for insured workers who lose work or take leave. Premiums are recorded in federal revenues.",
+      "exceptions": ["Self-employed people may opt in to some EI special benefits.", "Québec residents pay reduced EI premiums and separate QPIP premiums."],
+      "legalRefs": [
+        { "sourceId": "law-ei-act" },
+        { "sourceId": "cra-ei-rates" }
+      ],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "fed-cpp",
+      "parentId": "federal",
+      "levelId": "federal",
+      "category": "social-contribution",
+      "family": "social-security",
+      "status": "current",
+      "statusNote": "Enacted reduction of the base CPP rate from 9.9% to 9.5% (4.95% to 4.75% each side) effective 1 January 2027 (Bill C-30, Royal Assent 18 June 2026).",
+      "names": { "official": "Canada Pension Plan contributions", "native": "Cotisations au Régime de pensions du Canada", "common": "CPP contributions", "abbreviation": "CPP" },
+      "taxes": { "base": "Pensionable earnings between the basic exemption ($3,500) and the annual maximum ($74,600 in 2026), plus second-tier CPP2 earnings up to $85,000.", "payer": "Employees and employers equally; the self-employed pay both shares." },
+      "rate": {
+        "kind": "flat",
+        "headline": "5.95% each on base+first additional; 4% each on CPP2 (2026)",
+        "details": [
+          "2026: 5.95% employee and 5.95% employer on earnings between $3,500 and $74,600 (maximum $4,230.45 each).",
+          "CPP2: 4% employee and 4% employer on earnings from $74,600 to $85,000 (maximum $416.00 each).",
+          "Scheduled: base rate falls from 9.9% to 9.5% combined (4.75% each) from 1 January 2027."
+        ],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "A social-insurance contribution that funds the earnings-related retirement, disability and survivor benefits of the Canada Pension Plan. It sits outside the federal government's budgetary revenues and is invested by CPP Investments.",
+      "exceptions": ["Québec has its own Québec Pension Plan (QPP) with separate contributions administered by Retraite Québec; CPP does not apply to Québec employment."],
+      "legalRefs": [
+        { "sourceId": "law-cpp", "locator": "ss. 8–11 (contributions and contribution rates)" },
+        { "sourceId": "law-bill-c30", "locator": "Division on the base CPP contribution rate" },
+        { "sourceId": "cra-cpp-rates" }
+      ],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "fed-fuel-charge",
+      "parentId": "federal",
+      "levelId": "federal",
+      "category": "special-levy",
+      "family": "specific-consumption",
+      "status": "historical",
+      "statusNote": "Repealed in effect: all fuel-charge rates were set to zero from 1 April 2025. The revenue shown is for FY2024-25, when the charge was still collected.",
+      "names": { "official": "Fuel charge (Greenhouse Gas Pollution Pricing Act, Part 1)", "native": "Redevance sur les combustibles", "common": "Consumer fuel charge (carbon price)", "abbreviation": "Fuel charge" },
+      "taxes": { "base": "Delivery, import or use of fossil fuels in listed provinces, by carbon content.", "payer": "Fuel distributors and importers; passed on to consumers." },
+      "rate": {
+        "kind": "mechanism",
+        "headline": "$0 since 1 April 2025 (was $80/tonne CO₂e in 2024-25)",
+        "details": [
+          "Regulations set all fuel-charge rates to zero after 31 March 2025.",
+          "The government has proposed repealing the fuel-charge framework in phases; the requirement for provinces to have a consumer carbon price has also ended."
+        ],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "The federal consumer carbon price. Proceeds were returned mainly through the Canada Carbon Rebate. It no longer raises revenue, but FY2024-25 revenue is shown because it was the last year of collection.",
+      "exceptions": ["Industrial carbon pricing (output-based pricing systems) is a separate mechanism that continues."],
+      "legalRefs": [
+        { "sourceId": "law-ghgppa", "locator": "Part 1 (fuel charge)" },
+        { "sourceId": "fin-carbon-2025-03" }
+      ],
+      "checkedOn": "2026-09-28"
+    },
+
+    {
+      "id": "prov-personal-income-tax",
+      "parentId": "provincial",
+      "levelId": "provincial",
+      "category": "tax",
+      "family": "income-personal",
+      "status": "current",
+      "names": { "official": "Provincial and territorial personal income taxes", "native": "Impôts provinciaux et territoriaux sur le revenu des particuliers", "common": "Provincial personal income tax", "abbreviation": "Provincial income tax" },
+      "taxes": { "base": "Taxable income of individuals resident in the province or territory on 31 December.", "payer": "Individuals." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Varies by jurisdiction – each sets its own brackets",
+        "details": [
+          "Ten provinces and three territories each set their own progressive brackets, rates and credits.",
+          "Outside Québec the CRA collects provincial income tax on the same return as federal tax; Québec residents file a separate Québec return with Revenu Québec."
+        ],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "Provincial income taxes are levied on top of federal income tax and are a main source of provincial revenue.",
+      "exceptions": ["No single national rate exists – see each province's or territory's schedule of brackets."],
+      "legalRefs": [
+        { "sourceId": "law-constitution-1867", "locator": "s. 92(2)" },
+        { "sourceId": "law-on-taxation-act", "locator": "Part II (example: Ontario)" },
+        { "sourceId": "law-qc-taxation-act", "locator": "Title II (example: Québec)" },
+        { "sourceId": "cra-rates-2026", "locator": "Provincial and territorial rates are listed alongside the federal table" }
+      ],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "prov-corporate-income-tax",
+      "parentId": "provincial",
+      "levelId": "provincial",
+      "category": "tax",
+      "family": "income-corporate",
+      "status": "current",
+      "names": { "official": "Provincial and territorial corporate income taxes", "native": "Impôts provinciaux et territoriaux sur le revenu des sociétés", "common": "Provincial corporate income tax", "abbreviation": "Provincial corporate tax" },
+      "taxes": { "base": "Taxable income of corporations earned through a permanent establishment in the province or territory.", "payer": "Corporations." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Varies by jurisdiction – general rate and lower small-business rate",
+        "details": [
+          "Every jurisdiction has a general rate and a lower rate for income eligible for the federal small business deduction.",
+          "Québec and Alberta administer their own corporate income tax; the CRA collects it for the other provinces and the territories."
+        ],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "A second layer of corporate income tax that adds to the 15% federal rate.",
+      "exceptions": ["Rates and thresholds change often; see the CRA table or each province's finance ministry."],
+      "legalRefs": [
+        { "sourceId": "law-constitution-1867", "locator": "s. 92(2)" },
+        { "sourceId": "cra-corp-rates", "locator": "Provincial and territorial rate table" }
+      ],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "prov-sales-taxes",
+      "parentId": "provincial",
+      "levelId": "provincial",
+      "category": "tax",
+      "family": "general-consumption",
+      "status": "current",
+      "names": { "official": "Provincial sales taxes: PST, Québec sales tax (QST) and the provincial part of the HST", "native": "Taxes de vente provinciales (TVP, TVQ, part provinciale de la TVH)", "common": "Provincial sales taxes", "abbreviation": "PST / QST / HST" },
+      "taxes": { "base": "Retail sales and services (PST) or most supplies (QST, HST) in the province.", "payer": "Final consumers; businesses collect and remit." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Varies: BC 7%, SK 6%, MB 7%, QC 9.975% QST, HST provincial part 8–10%",
+        "details": [
+          "Retail PST: British Columbia 7%, Saskatchewan 6%, Manitoba 7%.",
+          "Québec Sales Tax (QST): 9.975%, a value-added tax administered by Revenu Québec.",
+          "Provincial part of the HST: Ontario 8%, Nova Scotia 9%, New Brunswick, Newfoundland and Labrador and Prince Edward Island 10%.",
+          "Alberta and the three territories levy no general sales tax."
+        ],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "Provincial consumption taxes that sit on top of the 5% GST. The largest single category of provincial 'general taxes on goods and services'.",
+      "exceptions": ["Base and exemptions differ: PSTs tax fewer items than the HST/QST, and rebates and exemptions vary by province."],
+      "legalRefs": [
+        { "sourceId": "law-bc-pst" },
+        { "sourceId": "law-qc-qst" },
+        { "sourceId": "cra-hst-rates" }
+      ],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "prov-payroll-taxes",
+      "parentId": "provincial",
+      "levelId": "provincial",
+      "category": "tax",
+      "family": "payroll",
+      "status": "current",
+      "names": { "official": "Provincial employer payroll taxes (health and post-secondary levies)", "native": "Taxes provinciales sur la masse salariale", "common": "Employer payroll taxes", "abbreviation": "Payroll taxes" },
+      "taxes": { "base": "Employers' total remuneration paid to employees (above an exemption in some provinces).", "payer": "Employers." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Varies by jurisdiction – set by each province",
+        "details": [
+          "Examples: Ontario Employer Health Tax, Québec Health Services Fund contributions, British Columbia Employer Health Tax, Manitoba's Health and Post-Secondary Education Tax Levy.",
+          "Exemption thresholds and rate scales differ; several provinces have none."
+        ],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "Taxes on payrolls used to fund health and education spending. They are separate from EI premiums and CPP contributions.",
+      "exceptions": ["Not levied in every province; small employers are often exempt."],
+      "legalRefs": [
+        { "sourceId": "law-constitution-1867", "locator": "s. 92(2)" },
+        { "sourceId": "law-on-eht", "locator": "Ontario example" }
+      ],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "prov-property-taxes",
+      "parentId": "provincial",
+      "levelId": "provincial",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "Provincial property-related taxes (provincial property taxes and land transfer taxes)", "native": "Taxes provinciales sur la propriété et les transferts immobiliers", "common": "Provincial property & land-transfer taxes", "abbreviation": "Provincial property taxes" },
+      "taxes": { "base": "Assessed property value (education property tax where the province levies it) and the value of land transfers (land transfer tax where levied).", "payer": "Property owners and purchasers." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Varies by jurisdiction – no national rate",
+        "details": [
+          "Some provinces levy provincial or education property taxes (e.g. Ontario, British Columbia, Alberta); others do not.",
+          "Land transfer taxes are provincial in Ontario, British Columbia (property transfer tax), Manitoba and some others; in Québec and Nova Scotia they are municipal."
+        ],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "Statistics Canada groups provincial property taxes and transfer taxes in one category, so the two cannot be separated in the aggregate figure.",
+      "exceptions": ["Rebates, first-time-buyer relief and property classes differ across provinces."],
+      "legalRefs": [
+        { "sourceId": "law-on-ltt", "locator": "Ontario land transfer tax example" },
+        { "sourceId": "law-on-assessment", "locator": "Ontario assessment framework example" }
+      ],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "prov-fuel-taxes",
+      "parentId": "provincial",
+      "levelId": "provincial",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Provincial gasoline and motive fuel taxes", "native": "Taxes provinciales sur les carburants", "common": "Provincial fuel taxes", "abbreviation": "Fuel taxes" },
+      "taxes": { "base": "Litres of gasoline, diesel and other motive fuels sold in the province.", "payer": "Consumers, collected from fuel distributors." },
+      "rate": {
+        "kind": "specific",
+        "headline": "Varies by jurisdiction – cents per litre",
+        "details": [
+          "Each province sets its own per-litre rate, often different for gasoline and diesel and for regions within the province.",
+          "British Columbia's consumer carbon tax and the federal consumer fuel charge were both removed in April 2025."
+        ],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "Per-litre taxes on road fuels that add to the federal excise tax and GST/HST.",
+      "exceptions": ["Rates change with budgets; several provinces have temporarily cut fuel taxes."],
+      "legalRefs": [{ "sourceId": "law-on-fuel-tax", "locator": "Ontario example" }],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "prov-sin-taxes",
+      "parentId": "provincial",
+      "levelId": "provincial",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Provincial tobacco, cannabis and liquor taxes", "native": "Taxes provinciales sur le tabac, le cannabis et les alcools", "common": "Tobacco, cannabis & liquor taxes", "abbreviation": "Tobacco / cannabis / liquor" },
+      "taxes": { "base": "Tobacco products, cannabis products and (in some provinces) alcoholic beverages.", "payer": "Consumers, collected from wholesalers and retailers." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Varies by jurisdiction",
+        "details": [
+          "Tobacco taxes are per-cigarette or ad valorem and differ by province.",
+          "Alcohol is mainly raised through provincial liquor-board mark-ups, which are profits rather than taxes and are excluded here."
+        ],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "Excise-style taxes that supplement the federal excise duties.",
+      "exceptions": ["Statistics Canada reports liquor taxes separately from liquor-board profits."],
+      "legalRefs": [{ "sourceId": "law-on-tobacco-tax", "locator": "Ontario example" }],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "prov-royalties",
+      "parentId": "provincial",
+      "levelId": "provincial",
+      "category": "royalty",
+      "family": "resource",
+      "status": "current",
+      "names": { "official": "Provincial natural resource royalties (oil and gas, minerals, forestry, water power)", "native": "Redevances provinciales sur les ressources naturelles", "common": "Natural resource royalties", "abbreviation": "Royalties" },
+      "taxes": { "base": "Extraction of provincially owned oil, gas, minerals, timber and water power.", "payer": "Resource producers." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Varies by jurisdiction and resource",
+        "details": [
+          "Each province sets its own royalty regime by resource (e.g. price-sensitive oil and gas royalties in Alberta).",
+          "Royalties are payments for use of publicly owned resources, not taxes."
+        ],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "Provinces own the resources within their borders, so resource rent flows to them as royalties rather than through the federal tax system.",
+      "exceptions": ["Royalty formulas change with commodity prices and policy."],
+      "legalRefs": [{ "sourceId": "law-constitution-1867", "locator": "s. 109 (ownership of lands, mines, minerals and royalties); s. 92A" }],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "prov-wcb-premiums",
+      "parentId": "provincial",
+      "levelId": "provincial",
+      "category": "insurance-premium",
+      "family": "social-security",
+      "status": "current",
+      "names": { "official": "Workers' compensation premiums (assessments)", "native": "Cotisations aux commissions des accidents du travail", "common": "Workers' compensation premiums", "abbreviation": "Workers' comp." },
+      "taxes": { "base": "Employers' insured payroll, by industry risk class.", "payer": "Employers." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Varies by jurisdiction and industry class",
+        "details": ["Each provincial and territorial workers' compensation board sets average and class-specific assessment rates annually."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "Insurance premiums that fund no-fault cover for workplace injuries. They are compulsory but are not general taxes.",
+      "exceptions": ["Some occupations and small employers are excluded in certain provinces."],
+      "legalRefs": [{ "sourceId": "law-bc-wca", "locator": "British Columbia example" }],
+      "checkedOn": "2026-09-28"
+    },
+
+    {
+      "id": "mun-property-taxes",
+      "parentId": "municipal",
+      "levelId": "municipal",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "Municipal property taxes (real property taxes, business property taxes and payments in lieu)", "native": "Taxes foncières municipales", "common": "Municipal property tax", "abbreviation": "Property tax" },
+      "taxes": { "base": "Assessed value of land and buildings (real property), with classes such as residential, commercial and industrial.", "payer": "Property owners." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Varies by municipality – mill rate set annually",
+        "details": [
+          "Each council sets a rate (tax per $1,000 of assessed value, or a percentage) by property class within limits set by the province.",
+          "Payments in lieu of taxes are made by governments on exempt properties."
+        ],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "The backbone of Canadian municipal finance. Assessment is often done by a provincial agency (for example MPAC in Ontario) while the municipality sets the rate.",
+      "exceptions": ["Education portions collected with the property tax bill may be remitted to school boards or the province; they can be classified differently."],
+      "legalRefs": [
+        { "sourceId": "law-on-municipal-act", "locator": "Ontario example – provisions on municipal taxation" },
+        { "sourceId": "law-qc-municipal-taxation", "locator": "Québec example" }
+      ],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "mun-land-transfer-tax",
+      "parentId": "municipal",
+      "levelId": "municipal",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "Municipal land transfer taxes (e.g. Toronto Municipal Land Transfer Tax; Québec transfer duties)", "native": "Droits de mutation immobilière", "common": "Municipal land transfer tax", "abbreviation": "Land transfer tax" },
+      "taxes": { "base": "Value of consideration for the transfer of real property.", "payer": "Purchasers." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Varies – only some municipalities may levy it",
+        "details": ["Authorised for the City of Toronto (Municipal Land Transfer Tax), Québec municipalities (transfer duties) and Nova Scotia municipalities (deed transfer tax); other municipalities cannot."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "A one-time tax when property changes hands, charged in addition to any provincial tax.",
+      "exceptions": ["Not available to most Canadian municipalities."],
+      "legalRefs": [
+        { "sourceId": "law-on-toronto-act", "locator": "Toronto example – municipal land transfer tax provisions" },
+        { "sourceId": "law-qc-transfer-duties" }
+      ],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "mun-development-charges",
+      "parentId": "municipal",
+      "levelId": "municipal",
+      "category": "special-levy",
+      "family": "other",
+      "status": "current",
+      "names": { "official": "Development charges and offsite levies", "native": "Redevances d'aménagement", "common": "Development charges", "abbreviation": "Development charges" },
+      "taxes": { "base": "New development and redevelopment, to pay for growth-related infrastructure.", "payer": "Developers and builders, passed on in prices." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Varies by municipality and type of development",
+        "details": ["Set by municipal by-law under provincial enabling legislation (for example Ontario's Development Charges Act, 1997); some provinces restrict or legislate exemptions and discounts."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "Charges earmarked for capital works such as water, roads and transit that serve new development.",
+      "exceptions": ["Recent provincial reforms in several provinces have capped, discounted or exempted some charges."],
+      "legalRefs": [{ "sourceId": "law-on-development-charges", "locator": "Ontario example" }],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "mun-user-fees",
+      "parentId": "municipal",
+      "levelId": "municipal",
+      "category": "fee",
+      "family": "other",
+      "status": "current",
+      "names": { "official": "Municipal user fees, utility charges and sales of goods and services", "native": "Tarifs et frais d'utilisation municipaux", "common": "User fees & utility charges", "abbreviation": "User fees" },
+      "taxes": { "base": "Use of municipal services such as water and wastewater, waste collection, transit fares, recreation and permits.", "payer": "Users of the service." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Varies by municipality and service",
+        "details": ["Fee schedules are set by by-law and usually intended to recover the cost of a service."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "Charges for specific services, not taxes. Together with property tax they are the biggest own-source revenues of municipalities.",
+      "exceptions": ["Water and transit may be run by separate municipal corporations whose revenue is classified elsewhere."],
+      "legalRefs": [{ "sourceId": "law-on-municipal-act", "locator": "Ontario example – fees and charges provisions" }],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "mun-licences-permits",
+      "parentId": "municipal",
+      "levelId": "municipal",
+      "category": "fee",
+      "family": "other",
+      "status": "current",
+      "names": { "official": "Municipal licences, permits and charges for permission to use goods or perform activities", "native": "Permis et licences municipaux", "common": "Licences & permits", "abbreviation": "Licences & permits" },
+      "taxes": { "base": "Business licences, building permits, dog licences and similar authorisations.", "payer": "Licence and permit holders." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Varies by municipality and permit type",
+        "details": ["Fees are set by by-law."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "Statistics Canada classes permission charges as 'taxes on use of goods and on permission to use goods or perform activities', though most are fee-like.",
+      "exceptions": ["Building-permit fees are supposed to be limited to the cost of administering the building code in several provinces."],
+      "legalRefs": [{ "sourceId": "law-on-municipal-act", "locator": "Ontario example – licensing provisions" }],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "mun-accommodation-tax",
+      "parentId": "municipal",
+      "levelId": "municipal",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Municipal accommodation taxes and other taxes on specific services", "native": "Taxe sur l'hébergement et autres taxes sur des services", "common": "Accommodation & similar taxes", "abbreviation": "Accommodation tax" },
+      "taxes": { "base": "Short-term stays in hotels and rentals, and other specific services.", "payer": "Guests; collected by accommodation providers." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Varies – typically a few percent of the room rate",
+        "details": ["Authorised by provincial law in some provinces (for example Ontario's municipal accommodation tax, Toronto's City of Toronto Act, 2006); the rate, base and exemptions differ."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "A small local tax that funds tourism or general municipal services where the province allows it.",
+      "exceptions": ["Not every municipality may levy it."],
+      "legalRefs": [{ "sourceId": "law-on-toronto-act", "locator": "Toronto example – municipal accommodation tax authority" }],
+      "checkedOn": "2026-09-28"
+    }
+  ]
+}
+

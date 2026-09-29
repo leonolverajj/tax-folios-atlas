@@ -1,0 +1,594 @@
+{
+  "instruments": [
+    {
+      "id": "fed-irpf",
+      "parentId": "federal",
+      "levelId": "federal",
+      "category": "tax",
+      "family": "income-personal",
+      "status": "current",
+      "statusNote": "Reformed from 1 January 2026 by Lei 15.270/2025: effective exemption up to R$ 5,000 a month, a minimum tax on very high incomes and a 10% withholding on large dividends.",
+      "names": { "official": "Imposto sobre a Renda das Pessoas Físicas (IRPF) – recolhido diretamente e no ajuste anual", "native": "Imposto sobre a Renda das Pessoas Físicas", "common": "Individual income tax (paid directly)", "abbreviation": "IRPF" },
+      "taxes": { "base": "Income of individuals resident in Brazil: labour, self-employment, rents, capital gains and, since 2026, large dividends and very high total incomes.", "payer": "Individuals (annual declaration; monthly 'carnê-leão' for some income)." },
+      "rate": {
+        "kind": "progressive",
+        "headline": "0% – 27.5% progressive; effectively exempt up to R$ 5,000/month in 2026",
+        "details": [
+          "Monthly table: 0%, 7.5%, 15%, 22.5% and 27.5%, with a 2026 reducer that makes income up to R$ 5,000 a month effectively exempt and phases out at R$ 7,350.",
+          "Minimum tax for individuals with annual income above R$ 600,000: progressive from 0% to 10%, a flat 10% above R$ 1.2 million.",
+          "Dividends: 10% withholding when one company pays one individual more than R$ 50,000 in a month (from January 2026); dividends approved by 31 Dec 2025 stay exempt until 2028."
+        ],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "The core of personal taxation. Most of what employees pay is withheld at source (see IRRF); this core is only the tax individuals pay directly, so it looks small in the revenue data.",
+      "exceptions": ["Simples Nacional and MEI micro-entrepreneurs have separate regimes.", "Non-residents are taxed by withholding at different rates."],
+      "legalRefs": [
+        { "sourceId": "lei-15270-2025" },
+        { "sourceId": "rfb-dividendos-perguntas" },
+        { "sourceId": "cf-1988", "locator": "art. 153, III" }
+      ],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "fed-irrf",
+      "parentId": "federal",
+      "levelId": "federal",
+      "category": "tax",
+      "family": "income-mixed",
+      "status": "current",
+      "names": { "official": "Imposto sobre a Renda Retido na Fonte (IRRF)", "native": "Imposto de Renda Retido na Fonte", "common": "Income tax withheld at source", "abbreviation": "IRRF" },
+      "taxes": { "base": "Wages, pensions, financial-investment income, payments to non-residents and other income on which the payer must withhold tax.", "payer": "The recipient; the payer withholds and remits." },
+      "rate": {
+        "kind": "mechanism",
+        "headline": "Depends on the income type; wages follow the IRPF table",
+        "details": ["Employment income is withheld using the progressive IRPF table.", "Investment income, payments abroad and other types have their own rates set by federal law and regulation."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "Not a separate tax but the way income tax is collected. In Receita's tax-burden statistics it is the largest single line of federal income tax because it captures employees' tax as well as companies' withholdings.",
+      "exceptions": ["Withholding may be final (exclusive) or an advance against the annual liability."],
+      "legalRefs": [
+        { "sourceId": "cf-1988", "locator": "art. 153, III" },
+        { "sourceId": "ctn", "locator": "arts. 43–45 (income tax)" }
+      ],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "fed-irpj",
+      "parentId": "federal",
+      "levelId": "federal",
+      "category": "tax",
+      "family": "income-corporate",
+      "status": "current",
+      "names": { "official": "Imposto sobre a Renda das Pessoas Jurídicas (IRPJ)", "native": "Imposto sobre a Renda das Pessoas Jurídicas", "common": "Corporate income tax", "abbreviation": "IRPJ" },
+      "taxes": { "base": "Profit of companies, under the 'real profit' or 'presumed profit' regimes.", "payer": "Companies." },
+      "rate": {
+        "kind": "flat",
+        "headline": "15% + 10% surtax on profit above R$ 20,000/month (25% top)",
+        "details": ["The 10% additional applies to the part of profit above R$ 240,000 a year.", "Companies in the presumed-profit regime apply the rate to a statutory percentage of revenue; small firms may use the unified Simples Nacional."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "The federal tax on business profits, paired with the CSLL on the same profits.",
+      "exceptions": ["Simples Nacional replaces IRPJ, CSLL, PIS, Cofins, ICMS and ISS with a single monthly payment for small firms."],
+      "legalRefs": [
+        { "sourceId": "lei-9249-1995", "locator": "arts. 3, 15" },
+        { "sourceId": "cf-1988", "locator": "art. 153, III" }
+      ],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "fed-csll",
+      "parentId": "federal",
+      "levelId": "federal",
+      "category": "social-contribution",
+      "family": "income-corporate",
+      "status": "current",
+      "names": { "official": "Contribuição Social sobre o Lucro Líquido (CSLL)", "native": "Contribuição Social sobre o Lucro Líquido", "common": "Social contribution on net profit", "abbreviation": "CSLL" },
+      "taxes": { "base": "Net profit of companies (adjusted).", "payer": "Companies." },
+      "rate": {
+        "kind": "flat",
+        "headline": "9% for most companies; higher for financial institutions",
+        "details": ["Rates for banks and some other financial entities are higher than the general 9%."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "A constitutionally earmarked contribution funding social security. In practice it works like a second income tax on company profits.",
+      "exceptions": ["Rules differ under presumed profit and Simples Nacional."],
+      "legalRefs": [
+        { "sourceId": "lei-7689-1988" },
+        { "sourceId": "cf-1988", "locator": "art. 195, I, c" }
+      ],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "fed-pis",
+      "parentId": "federal",
+      "levelId": "federal",
+      "category": "social-contribution",
+      "family": "general-consumption",
+      "status": "transitional",
+      "statusNote": "Still in force in 2026, but extinguished from 1 January 2027 when the CBS takes its place (LC 214/2025). In 2026 the CBS test rate of 0.9% is levied and offset against PIS/Cofins.",
+      "names": { "official": "Contribuição para o PIS/Pasep", "native": "Contribuição para o PIS/Pasep", "common": "PIS/Pasep contribution", "abbreviation": "PIS/Pasep" },
+      "taxes": { "base": "Gross revenue of companies (non-cumulative or cumulative regime); imports.", "payer": "Companies; passed on in prices." },
+      "rate": {
+        "kind": "flat",
+        "headline": "1.65% non-cumulative; 0.65% cumulative",
+        "details": ["Non-cumulative regime allows credits for inputs; special regimes and zero rates apply to many products."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "A turnover-based contribution that financed workers' programmes; it behaves like a value-added tax and is one of the taxes the 2023 reform replaces.",
+      "exceptions": ["Simples Nacional firms pay it inside the single payment."],
+      "legalRefs": [
+        { "sourceId": "lei-10637-2002" },
+        { "sourceId": "lc-214-2025", "locator": "Transition rules for PIS/Pasep" }
+      ],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "fed-cofins",
+      "parentId": "federal",
+      "levelId": "federal",
+      "category": "social-contribution",
+      "family": "general-consumption",
+      "status": "transitional",
+      "statusNote": "Still in force in 2026, but extinguished from 1 January 2027 when the CBS takes its place (LC 214/2025).",
+      "names": { "official": "Contribuição para o Financiamento da Seguridade Social (Cofins)", "native": "Contribuição para o Financiamento da Seguridade Social", "common": "Cofins contribution", "abbreviation": "Cofins" },
+      "taxes": { "base": "Gross revenue of companies (non-cumulative or cumulative regime); imports.", "payer": "Companies; passed on in prices." },
+      "rate": {
+        "kind": "flat",
+        "headline": "7.6% non-cumulative; 3% cumulative",
+        "details": ["Together with PIS, the non-cumulative burden is 9.25% of revenue before credits.", "Numerous special regimes apply."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "The largest federal consumption-type levy, financing social security. It is being replaced by the CBS.",
+      "exceptions": ["Products under monophasic regimes are taxed once, at the producer or importer."],
+      "legalRefs": [
+        { "sourceId": "lei-10833-2003" },
+        { "sourceId": "cf-1988", "locator": "art. 195, I, b" }
+      ],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "fed-inss",
+      "parentId": "federal",
+      "levelId": "federal",
+      "category": "social-contribution",
+      "family": "social-security",
+      "status": "current",
+      "names": { "official": "Contribuições previdenciárias ao Regime Geral de Previdência Social (INSS)", "native": "Contribuição Previdenciária (RGPS/INSS)", "common": "Social security contributions (INSS)", "abbreviation": "INSS" },
+      "taxes": { "base": "Payroll and earnings up to the contribution ceiling (employee side) and total payroll (employer side); some firms pay on revenue instead.", "payer": "Employees, employers and the self-employed." },
+      "rate": {
+        "kind": "progressive",
+        "headline": "Employee 7.5%–14% (2026); employer 20% of payroll plus other charges",
+        "details": [
+          "Employees 2026: 7.5% up to R$ 1,621.00; 9% to R$ 2,902.84; 12% to R$ 4,354.27; 14% to the ceiling of R$ 8,475.55.",
+          "Employers: 20% of payroll plus a work-accident rate of 1–3% and contributions to third-party entities; some sectors pay a contribution on revenue instead."
+        ],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "Payroll contributions that fund old-age, disability and survivor benefits of the general scheme. Receita includes the contribution on revenue (CPRB) in this line.",
+      "exceptions": ["Civil servants' own pension contributions (CPSS, RPPS) are separate and are not shown as cores.", "FGTS deposits belong to workers and are not counted as tax."],
+      "legalRefs": [
+        { "sourceId": "lei-8212-1991" },
+        { "sourceId": "inss-tabela" },
+        { "sourceId": "cf-1988", "locator": "art. 195, I, a and II" }
+      ],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "fed-ipi",
+      "parentId": "federal",
+      "levelId": "federal",
+      "category": "tax",
+      "family": "general-consumption",
+      "status": "transitional",
+      "statusNote": "Rates are reduced to zero from 2027 for most goods (kept for products that compete with those made in the Zona Franca de Manaus), as the CBS and the Selective Tax take over (LC 214/2025).",
+      "names": { "official": "Imposto sobre Produtos Industrializados (IPI)", "native": "Imposto sobre Produtos Industrializados", "common": "Tax on industrial products", "abbreviation": "IPI" },
+      "taxes": { "base": "Sale of manufactured goods and their import.", "payer": "Manufacturers and importers." },
+      "rate": {
+        "kind": "range",
+        "headline": "0% to several hundred percent by product (TIPI schedule)",
+        "details": ["Rates are listed by tariff code in the TIPI table; luxury and 'harmful' goods bear the highest rates."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "A selective tax on industrial goods whose rates the executive can change quickly, often used for economic policy.",
+      "exceptions": ["Exports are not taxed."],
+      "legalRefs": [
+        { "sourceId": "decreto-7212-2010" },
+        { "sourceId": "cf-1988", "locator": "art. 153, IV" },
+        { "sourceId": "lc-214-2025", "locator": "IPI transition" }
+      ],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "fed-iof",
+      "parentId": "federal",
+      "levelId": "federal",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "Imposto sobre Operações Financeiras (IOF)", "native": "Imposto sobre Operações de Crédito, Câmbio e Seguro, ou relativas a Títulos ou Valores Mobiliários", "common": "Tax on financial operations", "abbreviation": "IOF" },
+      "taxes": { "base": "Credit, foreign-exchange, insurance and securities transactions.", "payer": "Borrowers, buyers of foreign currency, policyholders." },
+      "rate": {
+        "kind": "mechanism",
+        "headline": "Rates by type of operation, set by decree",
+        "details": ["The executive may change IOF rates by decree without waiting for the next year, which makes it a regulatory as well as a revenue instrument."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "A tax on financial transactions that the federal government uses to adjust credit and exchange flows.",
+      "exceptions": ["Many operations are exempt or have zero rates."],
+      "legalRefs": [
+        { "sourceId": "decreto-6306-2007" },
+        { "sourceId": "cf-1988", "locator": "art. 153, V" }
+      ],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "fed-comercio-exterior",
+      "parentId": "federal",
+      "levelId": "federal",
+      "category": "customs-duty",
+      "family": "trade",
+      "status": "current",
+      "names": { "official": "Impostos sobre o Comércio Exterior (Imposto de Importação e Imposto de Exportação)", "native": "Imposto de Importação / Imposto de Exportação", "common": "Import and export duties", "abbreviation": "Import duties" },
+      "taxes": { "base": "Value of imported goods (and, in principle, exports).", "payer": "Importers." },
+      "rate": {
+        "kind": "range",
+        "headline": "0%–35% following the Mercosur common external tariff",
+        "details": ["Import duty rates follow the Tarifa Externa Comum (TEC) with national exceptions.", "The export tax is normally zero."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "Customs duties collected by Receita Federal on imports. Rates are set by the executive under the constitution.",
+      "exceptions": ["Mercosur partner trade and free-trade agreements are duty-free or reduced."],
+      "legalRefs": [
+        { "sourceId": "decreto-6759-2009" },
+        { "sourceId": "cf-1988", "locator": "art. 153, I and II" }
+      ],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "fed-itr",
+      "parentId": "federal",
+      "levelId": "federal",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "Imposto sobre a Propriedade Territorial Rural (ITR)", "native": "Imposto sobre a Propriedade Territorial Rural", "common": "Rural land tax", "abbreviation": "ITR" },
+      "taxes": { "base": "Value of rural land, by property size and degree of use.", "payer": "Owners of rural property." },
+      "rate": {
+        "kind": "range",
+        "headline": "0.03% – 20% of land value",
+        "details": ["Lower rates for small, well-used properties; higher for large, poorly used land."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "A federal tax on rural land, administered by municipalities that may opt to collect it and keep the proceeds.",
+      "exceptions": ["Small properties worked by the family are exempt."],
+      "legalRefs": [{ "sourceId": "lei-9393-1996" }],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "fed-cide",
+      "parentId": "federal",
+      "levelId": "federal",
+      "category": "special-levy",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Contribuições de Intervenção no Domínio Econômico (CIDE-Combustíveis e CIDE-Remessas)", "native": "CIDE-Combustíveis e CIDE-Remessas", "common": "CIDE economic-intervention levies", "abbreviation": "CIDE" },
+      "taxes": { "base": "Fuel sales and imports (CIDE-Combustíveis); payments abroad for royalties, technical services (CIDE-Remessas).", "payer": "Fuel producers and importers; payers of remittances abroad." },
+      "rate": {
+        "kind": "mechanism",
+        "headline": "Fixed amounts per cubic metre of fuel; 10% on certain remittances",
+        "details": ["CIDE-Combustíveis rates are specific amounts per unit and may be reduced by decree.", "CIDE-Remessas is levied on remittances abroad for royalties and technical services."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "Earmarked levies used as regulatory instruments; their revenue funds transport and technology programmes.",
+      "exceptions": ["Rates for fuels have been zero or near zero in some periods."],
+      "legalRefs": [
+        { "sourceId": "lei-10336-2001" },
+        { "sourceId": "lei-10168-2000" }
+      ],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "fed-salario-educacao",
+      "parentId": "federal",
+      "levelId": "federal",
+      "category": "special-levy",
+      "family": "payroll",
+      "status": "current",
+      "names": { "official": "Contribuição Social do Salário-Educação", "native": "Salário-Educação", "common": "Education payroll levy", "abbreviation": "Salário-Educação" },
+      "taxes": { "base": "Total remuneration paid by companies.", "payer": "Companies." },
+      "rate": {
+        "kind": "flat",
+        "headline": "2.5% of payroll",
+        "details": ["Proceeds are earmarked for basic education and shared with states and municipalities."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "An earmarked payroll levy for basic education.",
+      "exceptions": ["Public entities and some non-profit schools are exempt."],
+      "legalRefs": [
+        { "sourceId": "lei-9424-1996", "locator": "art. 15" },
+        { "sourceId": "cf-1988", "locator": "art. 212, §5" }
+      ],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "fed-cbs",
+      "parentId": "federal",
+      "levelId": "federal",
+      "category": "tax",
+      "family": "general-consumption",
+      "status": "scheduled",
+      "statusNote": "Test rate of 0.9% in 2026 (offset against PIS/Cofins); replaces PIS and Cofins from 1 January 2027.",
+      "names": { "official": "Contribuição sobre Bens e Serviços (CBS)", "native": "Contribuição sobre Bens e Serviços", "common": "Federal VAT (CBS)", "abbreviation": "CBS" },
+      "taxes": { "base": "Supply of goods, services and intangibles and imports, non-cumulative with full credits.", "payer": "Borne by consumers; collected along the supply chain." },
+      "rate": {
+        "kind": "mechanism",
+        "headline": "0.9% test rate in 2026; reference rate to be set by Senate resolution",
+        "details": ["From 2027 the CBS replaces PIS/Pasep and Cofins.", "Rates reduced by 30% or 60% (or zero) apply to listed goods and services such as basic foods, health and education.", "A cash-back mechanism returns part of the tax to low-income households."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "The federal half of a dual value-added tax created by Constitutional Amendment 132/2023 and regulated by Complementary Law 214/2025.",
+      "exceptions": ["Special regimes exist for financial services, fuels, real estate and other sectors."],
+      "legalRefs": [
+        { "sourceId": "ec-132-2023" },
+        { "sourceId": "lc-214-2025" },
+        { "sourceId": "rfb-reforma-consumo" }
+      ],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "fed-is",
+      "parentId": "federal",
+      "levelId": "federal",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "scheduled",
+      "statusNote": "Takes effect in 2027; rates are set by law.",
+      "names": { "official": "Imposto Seletivo (IS)", "native": "Imposto Seletivo", "common": "Selective tax", "abbreviation": "IS" },
+      "taxes": { "base": "Production, extraction, sale or import of goods and services harmful to health or the environment.", "payer": "Producers and importers; passed on in prices." },
+      "rate": {
+        "kind": "mechanism",
+        "headline": "Rates set by ordinary law (from 2027)",
+        "details": ["Applies once, at the start of the chain, and replaces part of what the IPI did for harmful goods."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "A 'sin and pollution' tax added by the 2023 reform.",
+      "exceptions": ["Exports of goods are not taxed, except mineral extraction."],
+      "legalRefs": [
+        { "sourceId": "ec-132-2023" },
+        { "sourceId": "lc-214-2025" }
+      ],
+      "checkedOn": "2026-09-28"
+    },
+
+    {
+      "id": "state-icms",
+      "parentId": "states",
+      "levelId": "states",
+      "category": "tax",
+      "family": "general-consumption",
+      "status": "transitional",
+      "statusNote": "In force. Between 2029 and 2032 the ICMS is phased down and replaced by the IBS; it is extinguished in 2033 (EC 132/2023, LC 214/2025).",
+      "names": { "official": "Imposto sobre Operações relativas à Circulação de Mercadorias e sobre Prestações de Serviços de Transporte Interestadual e Intermunicipal e de Comunicação (ICMS)", "native": "ICMS", "common": "State value-added tax (ICMS)", "abbreviation": "ICMS" },
+      "taxes": { "base": "Circulation of goods, and interstate/intermunicipal transport and communication services.", "payer": "Borne by consumers; businesses collect it and take credits." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Varies by state – general internal rate about 17%–23%",
+        "details": ["Each state sets its own rates by product; interstate rates are 4%, 7% or 12%.", "Many states add 1–2% to a poverty-fund surcharge on some goods."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "The single largest tax in Brazil after the federal social contributions; it is levied where goods are consumed and shared with municipalities.",
+      "exceptions": ["A quarter of the revenue is transferred to municipalities.", "Fiscal wars over incentives between states were curbed in 2023–2024."],
+      "legalRefs": [
+        { "sourceId": "lc-87-1996" },
+        { "sourceId": "cf-1988", "locator": "art. 155, II" },
+        { "sourceId": "confaz" }
+      ],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "state-ipva",
+      "parentId": "states",
+      "levelId": "states",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Imposto sobre a Propriedade de Veículos Automotores (IPVA)", "native": "Imposto sobre a Propriedade de Veículos Automotores", "common": "Vehicle ownership tax", "abbreviation": "IPVA" },
+      "taxes": { "base": "Ownership of motor vehicles, on market value.", "payer": "Vehicle owners." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Varies by state – generally 1% to 4% of vehicle value",
+        "details": ["Rates depend on vehicle type, fuel and age; since EC 132/2023 the tax also covers aircraft and boats."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "An annual tax on vehicle ownership; half of the revenue goes to the municipality where the vehicle is registered.",
+      "exceptions": ["Older vehicles and some categories are exempt in many states."],
+      "legalRefs": [
+        { "sourceId": "cf-1988", "locator": "art. 155, III" },
+        { "sourceId": "sp-lei-13296-2008", "locator": "São Paulo example" }
+      ],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "state-itcmd",
+      "parentId": "states",
+      "levelId": "states",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "Imposto sobre Transmissão Causa Mortis e Doação de Quaisquer Bens ou Direitos (ITCMD)", "native": "Imposto sobre Transmissão Causa Mortis e Doação", "common": "Inheritance and gift tax", "abbreviation": "ITCMD" },
+      "taxes": { "base": "Value of assets received by inheritance or gift.", "payer": "Heirs and donees." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Varies by state – capped at 8% by the Senate",
+        "details": ["The Senate's maximum is 8%; since EC 132/2023 rates must be progressive."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "A state tax on wealth transfers; rates and exemptions differ widely.",
+      "exceptions": ["Many states exempt small estates."],
+      "legalRefs": [{ "sourceId": "cf-1988", "locator": "art. 155, I and §1" }],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "state-taxas",
+      "parentId": "states",
+      "levelId": "states",
+      "category": "fee",
+      "family": "other",
+      "status": "current",
+      "names": { "official": "Taxas estaduais e outros tributos estaduais", "native": "Taxas estaduais", "common": "State fees and other levies", "abbreviation": "State fees" },
+      "taxes": { "base": "Use of state services or exercise of police power (registration, licences, courts) and other minor state levies.", "payer": "Users of the service." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Varies by state and service",
+        "details": ["Fees must relate to a specific service and cannot be based on the tax base of a tax."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "Charges for specific public services. Receita's line 'Outros Tributos Estaduais' groups fees with minor taxes.",
+      "exceptions": ["Civil-servant pension contributions (RPPS) are outside this core."],
+      "legalRefs": [
+        { "sourceId": "cf-1988", "locator": "art. 145, II" },
+        { "sourceId": "ctn", "locator": "arts. 77–80 (taxas)" }
+      ],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "state-ibs",
+      "parentId": "states",
+      "levelId": "states",
+      "category": "tax",
+      "family": "general-consumption",
+      "status": "scheduled",
+      "statusNote": "Test rate of 0.1% in 2026 (shared by states and municipalities); replaces the ICMS and ISS gradually from 2029 to 2032 and fully from 2033. Shown once for states and once for municipalities because each sets its own share of the rate.",
+      "names": { "official": "Imposto sobre Bens e Serviços (IBS) – parcela dos Estados e do Distrito Federal", "native": "Imposto sobre Bens e Serviços (IBS) – parcela estadual", "common": "Subnational VAT (IBS) – state share", "abbreviation": "IBS (state)" },
+      "taxes": { "base": "Supply of goods, services and intangibles and imports, non-cumulative and charged where consumed.", "payer": "Borne by consumers; collected along the supply chain." },
+      "rate": {
+        "kind": "mechanism",
+        "headline": "0.1% test rate in 2026; each state sets its share",
+        "details": ["Managed by a national Management Committee (Comitê Gestor do IBS).", "Reduced and zero rates follow the same lists as the CBS."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "The states' half of the new dual VAT, replacing the ICMS.",
+      "exceptions": ["A transitional compensation fund protects state revenue until 2032."],
+      "legalRefs": [
+        { "sourceId": "ec-132-2023" },
+        { "sourceId": "lc-214-2025" }
+      ],
+      "checkedOn": "2026-09-28"
+    },
+
+    {
+      "id": "mun-iss",
+      "parentId": "municipalities",
+      "levelId": "municipalities",
+      "category": "tax",
+      "family": "general-consumption",
+      "status": "transitional",
+      "statusNote": "In force. Phased down and replaced by the IBS between 2029 and 2032; extinguished in 2033.",
+      "names": { "official": "Imposto sobre Serviços de Qualquer Natureza (ISS)", "native": "Imposto sobre Serviços de Qualquer Natureza", "common": "Municipal services tax", "abbreviation": "ISS" },
+      "taxes": { "base": "Price of services on the national list annexed to LC 116/2003.", "payer": "Service providers; passed on to customers." },
+      "rate": {
+        "kind": "range",
+        "headline": "2% to 5% of the service price, set by each municipality",
+        "details": ["The floor of 2% and ceiling of 5% are set by national complementary law."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "The municipalities' largest own tax. It is levied at the provider's or, for some services, the customer's location.",
+      "exceptions": ["Exports of services are exempt; small businesses may pay through Simples Nacional."],
+      "legalRefs": [
+        { "sourceId": "lc-116-2003" },
+        { "sourceId": "cf-1988", "locator": "art. 156, III" }
+      ],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "mun-iptu",
+      "parentId": "municipalities",
+      "levelId": "municipalities",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "Imposto sobre a Propriedade Predial e Territorial Urbana (IPTU)", "native": "Imposto sobre a Propriedade Predial e Territorial Urbana", "common": "Urban property tax", "abbreviation": "IPTU" },
+      "taxes": { "base": "Assessed value of urban land and buildings.", "payer": "Owners, possessors." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Varies by municipality",
+        "details": ["Each municipality sets rates and the property-value schedule; rates can be progressive by value and use."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "The annual tax on city property. It is a smaller share of Brazilian revenue than in many countries because valuations are often out of date.",
+      "exceptions": ["Elderly, low-income owners and non-profit properties may be exempt."],
+      "legalRefs": [
+        { "sourceId": "cf-1988", "locator": "art. 156, I" },
+        { "sourceId": "ctn", "locator": "arts. 32–34" }
+      ],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "mun-itbi",
+      "parentId": "municipalities",
+      "levelId": "municipalities",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "Imposto sobre a Transmissão de Bens Imóveis inter vivos (ITBI)", "native": "Imposto sobre a Transmissão de Bens Imóveis", "common": "Property transfer tax", "abbreviation": "ITBI" },
+      "taxes": { "base": "Transfer of real estate by purchase and similar operations.", "payer": "Usually the buyer." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Varies by municipality – commonly 2% to 4%",
+        "details": ["Set by municipal law on the transaction or assessed value."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "A one-off tax when property changes hands.",
+      "exceptions": ["Transfers to companies as capital and corporate mergers may be immune."],
+      "legalRefs": [{ "sourceId": "cf-1988", "locator": "art. 156, II" }],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "mun-taxas-cosip",
+      "parentId": "municipalities",
+      "levelId": "municipalities",
+      "category": "fee",
+      "family": "other",
+      "status": "current",
+      "names": { "official": "Taxas municipais, contribuição de iluminação pública (COSIP) e outros tributos municipais", "native": "Taxas municipais e COSIP", "common": "Municipal fees and street-lighting contribution", "abbreviation": "Fees & COSIP" },
+      "taxes": { "base": "Municipal services and police power (licences, waste), street lighting and public works.", "payer": "Users, property owners and electricity customers." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Varies by municipality",
+        "details": ["Fees must be tied to a service; the COSIP is charged on electricity bills for street lighting."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "Charges for local services. Receita's line 'Outros Tributos Municipais' groups these with minor taxes and improvement contributions.",
+      "exceptions": ["Civil-servant pension contributions (RPPS) are outside this core."],
+      "legalRefs": [
+        { "sourceId": "ec-39-2002", "locator": "art. 149-A" },
+        { "sourceId": "cf-1988", "locator": "art. 145, II and III" }
+      ],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "mun-ibs",
+      "parentId": "municipalities",
+      "levelId": "municipalities",
+      "category": "tax",
+      "family": "general-consumption",
+      "status": "scheduled",
+      "statusNote": "Test rate of 0.1% in 2026 (shared with states); replaces the ISS gradually from 2029 to 2032 and fully from 2033.",
+      "names": { "official": "Imposto sobre Bens e Serviços (IBS) – parcela dos Municípios", "native": "Imposto sobre Bens e Serviços (IBS) – parcela municipal", "common": "Subnational VAT (IBS) – municipal share", "abbreviation": "IBS (municipal)" },
+      "taxes": { "base": "Same base as the state share: goods, services and intangibles, taxed where consumed.", "payer": "Borne by consumers." },
+      "rate": {
+        "kind": "mechanism",
+        "headline": "0.1% test rate in 2026; each municipality sets its share",
+        "details": ["The total IBS rate charged is the sum of the state and municipal shares set for the destination."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "The municipalities' half of the new dual VAT, replacing the ISS.",
+      "exceptions": ["Municipalities lose autonomy over the tax base, which becomes national."],
+      "legalRefs": [
+        { "sourceId": "ec-132-2023" },
+        { "sourceId": "lc-214-2025" }
+      ],
+      "checkedOn": "2026-09-28"
+    }
+  ]
+}

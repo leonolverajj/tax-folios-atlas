@@ -1,0 +1,36 @@
+{
+  "nodes": {
+    "brazil": { "label": "Brazil", "sublabel": "Fiscal folio", "glyph": "globe" },
+    "federal": { "label": "União", "sublabel": "Federal", "glyph": "landmark" },
+    "states": { "label": "Estados", "sublabel": "26 states + DF", "glyph": "city" },
+    "municipalities": { "label": "Municípios", "sublabel": "5,570", "glyph": "town" },
+
+    "fed-irpf": { "label": "IRPF", "sublabel": "Individual income", "glyph": "person" },
+    "fed-irrf": { "label": "IRRF", "sublabel": "Withheld income tax", "glyph": "ledger" },
+    "fed-irpj": { "label": "IRPJ", "sublabel": "Corporate income", "glyph": "factory" },
+    "fed-csll": { "label": "CSLL", "sublabel": "Net-profit contribution", "glyph": "coin" },
+    "fed-pis": { "label": "PIS/Pasep", "sublabel": "Being replaced", "glyph": "percent" },
+    "fed-cofins": { "label": "Cofins", "sublabel": "Being replaced", "glyph": "cart" },
+    "fed-inss": { "label": "INSS", "sublabel": "Social security", "glyph": "shield" },
+    "fed-ipi": { "label": "IPI", "sublabel": "Industrial products", "glyph": "gear" },
+    "fed-iof": { "label": "IOF", "sublabel": "Financial operations", "glyph": "bank" },
+    "fed-comercio-exterior": { "label": "II / IE", "sublabel": "Import duties", "glyph": "ship" },
+    "fed-itr": { "label": "ITR", "sublabel": "Rural land", "glyph": "wheat" },
+    "fed-cide": { "label": "CIDE", "sublabel": "Fuels · remittances", "glyph": "flame" },
+    "fed-salario-educacao": { "label": "Salário-Educação", "glyph": "book" },
+    "fed-cbs": { "label": "CBS", "sublabel": "New VAT · 2027", "glyph": "percent" },
+    "fed-is": { "label": "IS", "sublabel": "Selective · 2027", "glyph": "smoke" },
+
+    "state-icms": { "label": "ICMS", "sublabel": "State VAT", "glyph": "cart" },
+    "state-ipva": { "label": "IPVA", "sublabel": "Vehicles", "glyph": "car" },
+    "state-itcmd": { "label": "ITCMD", "sublabel": "Inheritance · gifts", "glyph": "scale" },
+    "state-taxas": { "label": "State fees", "sublabel": "Taxas", "glyph": "stamp" },
+    "state-ibs": { "label": "IBS (state)", "sublabel": "New VAT · 2029", "glyph": "percent" },
+
+    "mun-iss": { "label": "ISS", "sublabel": "Services", "glyph": "cart" },
+    "mun-iptu": { "label": "IPTU", "sublabel": "Urban property", "glyph": "house" },
+    "mun-itbi": { "label": "ITBI", "sublabel": "Property transfer", "glyph": "key" },
+    "mun-taxas-cosip": { "label": "Fees & COSIP", "sublabel": "Street lighting", "glyph": "bolt" },
+    "mun-ibs": { "label": "IBS (municipal)", "sublabel": "New VAT · 2029", "glyph": "percent" }
+  }
+}

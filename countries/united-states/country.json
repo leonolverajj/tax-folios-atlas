@@ -1,0 +1,105 @@
+{
+  "id": "united-states",
+  "iso3": "USA",
+  "isoNumeric": "840",
+  "names": { "en": "United States", "native": "United States of America", "nativeLang": "en" },
+  "currency": { "code": "USD", "symbol": "$", "name": "United States dollar" },
+  "summary": "The United States is a federal republic with three fiscal layers. Congress taxes income, payrolls, imports and specific goods; the 50 states (and DC) tax income, sales and specific activities under powers they keep; and roughly 90,000 local governments – counties, cities, towns, school districts and special districts – rely mostly on property taxes.",
+  "structureNote": "Federal, state and local layers follow the Constitution (Article I §8, Sixteenth and Tenth Amendments). Local governments are created by state law, so their taxing powers differ by state. Territories and tribal governments are not drawn.",
+  "theme": {
+    "accent": "#7aa2ff",
+    "accent2": "#ff6f7d",
+    "motif": "survey-grid",
+    "motifNote": "The Public Land Survey township-and-range grid over Albers-projected contour lines of the lower 48, with a time-zone meridian arc.",
+    "mapLabel": { "lon": -99, "lat": 39.5 }
+  },
+  "levels": [
+    {
+      "id": "federal",
+      "branch": "national",
+      "names": { "official": "Federal Government of the United States", "common": "Federal government" },
+      "description": "Congress, the Treasury and the Internal Revenue Service. It levies individual and corporate income taxes, payroll taxes for Social Security, Medicare and unemployment insurance, excise taxes, estate and gift taxes and customs duties.",
+      "fiscalPower": "Congress has the power to lay and collect taxes, duties, imposts and excises (Article I §8) and to tax incomes without apportionment (Sixteenth Amendment). Revenue bills must originate in the House of Representatives.",
+      "legalRefs": [{ "sourceId": "us-constitution-art1", "locator": "Art. I, §8, cl. 1" }, { "sourceId": "us-constitution-amend16" }],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "states",
+      "branch": "regional",
+      "names": { "official": "The fifty States and the District of Columbia", "common": "State governments" },
+      "description": "Fifty sovereign states plus the District of Columbia. They fund education, health, transport and public safety through their own income, sales, excise, license and severance taxes, and share revenue with local governments.",
+      "fiscalPower": "States keep all taxing powers not given to the federal government (Tenth Amendment), subject to the Commerce Clause and their own constitutions. Rates and bases are set by 50 separate tax codes.",
+      "legalRefs": [
+        { "sourceId": "us-constitution-amend10" },
+        { "sourceId": "scotus-wayfair", "locator": "State authority over remote-seller sales tax collection" }
+      ],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "local",
+      "branch": "local",
+      "names": { "official": "Local governments: counties, municipalities, townships, school districts and special districts", "common": "Local governments" },
+      "description": "About 90,000 units – counties, cities, towns and townships, school districts and special-purpose districts. They provide schools, police, fire, roads, water and sanitation, financed chiefly by property taxes, with local sales and income taxes in some states.",
+      "fiscalPower": "Local governments have only the taxing powers their state constitution or statutes grant them (state 'home rule' or 'Dillon's rule'). Some states cap property-tax rates or growth.",
+      "legalRefs": [
+        { "sourceId": "tx-property-tax-code", "locator": "Texas example of a state property-tax framework for local governments" },
+        { "sourceId": "ca-const-13a", "locator": "California example: Proposition 13 limits" }
+      ],
+      "checkedOn": "2026-09-28"
+    }
+  ],
+  "supportingSourceIds": ["census-stc-techdoc-2024", "census-asfin-2024-method", "irs-rp-2025-32", "irs-tc751", "usitc-hts", "fta-tax-rates"],
+  "denominators": [
+    {
+      "id": "federal-total-receipts",
+      "label": "Total federal government receipts, FY2025",
+      "definition": "All receipts of the U.S. Government, net of refunds, on the budget-and-off-budget cash basis: individual and corporation income taxes, social insurance and retirement receipts, excise taxes, estate and gift taxes, customs duties and miscellaneous receipts (including Federal Reserve earnings).",
+      "levelIds": ["federal"],
+      "amount": 5234616.386,
+      "scale": "million",
+      "currency": "USD",
+      "period": { "label": "FY2025", "kind": "fiscal-year", "start": "2024-10-01", "end": "2025-09-30" },
+      "sourceId": "treasury-mts-fy2025",
+      "locator": "MTS Table 4, line 830 'Total -- Receipts', fiscal-year-to-date net receipts through 30 Sep 2025",
+      "calculation": "Published total (5,234,616,386,315 dollars). Components: individual income taxes 2,656,044 + corporation income taxes 452,089 + social insurance and retirement 1,748,294 + excise 105,936 + estate and gift 29,462 + customs 194,866 + miscellaneous 47,925 (million).",
+      "caveat": "FY2025 is the latest complete fiscal year. The Treasury publishes FY2026 month by month (through August 2026 when checked); those partial-year figures are not used, so the customs share here predates the February 2026 end of the IEEPA tariffs.",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": "state-tax-collections",
+      "label": "Total state government tax collections, FY2024",
+      "definition": "All taxes collected by the 50 state governments and DC in Census Bureau categories T01–T99 (property, general and selective sales, licenses, individual and corporation income, death and gift, documentary and stock transfer, severance and other taxes). Excludes local taxes, charges, fees and federal transfers.",
+      "levelIds": ["states"],
+      "amount": 1472039413,
+      "scale": "thousand",
+      "currency": "USD",
+      "period": { "label": "FY2024", "kind": "fiscal-year", "start": "2023-07-01", "end": "2024-06-30" },
+      "sourceId": "census-stc-2024",
+      "locator": "STC FY2024 flat file, column US, sum of items T01, T09, T10–T13, T15, T16, T18, T19, T20–T25, T27–T29, T40, T41, T50, T51, T53, T99",
+      "calculation": "Sum of the 26 published item values (thousands of dollars) = 1,472,039,413.",
+      "caveat": "State fiscal years differ (46 end 30 June; NY 31 March; TX 31 August; AL and MI 30 September); Census treats the year ending in 2024 as FY2024.",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": "local-tax-revenue",
+      "label": "Total local government tax revenue, FY2024",
+      "definition": "All tax revenue (Census items T01–T99) of counties, municipalities, townships, school districts and special districts. Excludes charges, fees, special assessments and intergovernmental transfers.",
+      "levelIds": ["local"],
+      "amount": 887952837,
+      "scale": "thousand",
+      "currency": "USD",
+      "period": { "label": "FY2024", "kind": "fiscal-year", "start": "2023-07-01", "end": "2024-06-30" },
+      "sourceId": "census-asfin-2024",
+      "locator": "Individual Unit File 2024FinEstDAT_07152026modp.txt: sum of items T01–T99 over units with government-type digit 1–5",
+      "calculation": "Sum over 511,362 unit-item records, including Census imputations for non-respondents (thousands of dollars) = 887,952,837.",
+      "caveat": "Includes Census-imputed values for local governments that did not respond; local fiscal years vary and are aligned by Census to the year ending in 2024.",
+      "accessed": "2026-09-28"
+    }
+  ],
+  "sizing": {
+    "label": "Taxes and social insurance contributions of federal, state and local governments",
+    "definition": "Federal receipts (taxes and social insurance, FY2025) + state tax collections (FY2024) + local tax revenue (FY2024). Excludes intergovernmental grants and non-tax revenue such as charges, utilities and insurance-trust income of state and local governments.",
+    "componentIds": ["federal-total-receipts", "state-tax-collections", "local-tax-revenue"]
+  },
+  "researchStatus": "researched"
+}

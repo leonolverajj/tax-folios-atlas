@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "mexico": {
+      "x": 770,
+      "y": 500
+    },
+    "federal": {
+      "x": 481,
+      "y": 393
+    },
+    "fed-isr": {
+      "x": 405,
+      "y": 732
+    },
+    "fed-ieps-fuels": {
+      "x": 263,
+      "y": 542
+    },
+    "fed-importaciones": {
+      "x": 330,
+      "y": 332
+    },
+    "fed-derechos": {
+      "x": 576,
+      "y": 195
+    },
+    "fed-cuotas-seguridad-social": {
+      "x": 892,
+      "y": 180
+    },
+    "fed-iva": {
+      "x": 111,
+      "y": 641
+    },
+    "fed-ieps-other": {
+      "x": 172,
+      "y": 273
+    },
+    "fed-isan": {
+      "x": 658,
+      "y": 58
+    },
+    "fed-hidrocarburos": {
+      "x": 1219,
+      "y": 158
+    },
+    "states": {
+      "x": 1092,
+      "y": 445
+    },
+    "state-nominas": {
+      "x": 1088,
+      "y": 275
+    },
+    "state-tenencia": {
+      "x": 1241,
+      "y": 343
+    },
+    "state-hospedaje": {
+      "x": 1274,
+      "y": 493
+    },
+    "state-derechos": {
+      "x": 1148,
+      "y": 607
+    },
+    "municipalities": {
+      "x": 818,
+      "y": 713
+    },
+    "mun-predial": {
+      "x": 991,
+      "y": 778
+    },
+    "mun-adquisicion-inmuebles": {
+      "x": 857,
+      "y": 879
+    },
+    "mun-derechos": {
+      "x": 694,
+      "y": 864
+    }
+  },
+  "radii": {}
+}

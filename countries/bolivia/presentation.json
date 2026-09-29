@@ -1,0 +1,29 @@
+{
+  "nodes": {
+    "bolivia": { "label": "Bolivia", "sublabel": "Fiscal folio", "glyph": "globe" },
+    "central": { "label": "Nivel central", "sublabel": "Central · SIN", "glyph": "landmark" },
+    "departmental": { "label": "Departamentos", "sublabel": "9 gobernaciones", "glyph": "city" },
+    "municipal": { "label": "Municipios", "sublabel": "≈ 340", "glyph": "town" },
+
+    "nat-iva": { "label": "IVA", "sublabel": "13%", "glyph": "cart" },
+    "nat-iue": { "label": "IUE", "sublabel": "Business profits · 25%", "glyph": "factory" },
+    "nat-it": { "label": "IT", "sublabel": "Transactions · 3%", "glyph": "ledger" },
+    "nat-rc-iva": { "label": "RC-IVA", "sublabel": "Personal income", "glyph": "person" },
+    "nat-ice": { "label": "ICE", "sublabel": "Excise", "glyph": "wine" },
+    "nat-idh": { "label": "IDH", "sublabel": "Hydrocarbons · 32%", "glyph": "oil" },
+    "nat-iehd": { "label": "IEHD", "sublabel": "Fuel excise", "glyph": "flame" },
+    "nat-itf": { "label": "ITF", "sublabel": "Being eliminated", "glyph": "bank" },
+    "nat-igf": { "label": "IGF", "sublabel": "Large fortunes", "glyph": "gem" },
+    "nat-aduana": { "label": "Tariffs", "sublabel": "Aduana Nacional", "glyph": "ship" },
+    "nat-seguridad-social": { "label": "Social security", "sublabel": "Pensions · health", "glyph": "shield" },
+
+    "dep-regalias": { "label": "Regalías", "sublabel": "Royalties", "glyph": "pickaxe" },
+    "dep-own-taxes": { "label": "Own taxes", "sublabel": "Ley 154", "glyph": "scroll" },
+    "dep-tasas": { "label": "Fees", "sublabel": "Tasas · patentes", "glyph": "stamp" },
+
+    "mun-ipbi": { "label": "IPBI", "sublabel": "Property tax", "glyph": "house" },
+    "mun-ipva": { "label": "IPVA", "sublabel": "Vehicles", "glyph": "car" },
+    "mun-imt": { "label": "IMT", "sublabel": "Transfers", "glyph": "key" },
+    "mun-tasas-patentes": { "label": "Fees & patents", "glyph": "stamp" }
+  }
+}

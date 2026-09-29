@@ -1,0 +1,114 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "colombia": {
+      "x": 830,
+      "y": 510
+    },
+    "national": {
+      "x": 517,
+      "y": 436
+    },
+    "nat-renta": {
+      "x": 570,
+      "y": 788
+    },
+    "nat-aranceles": {
+      "x": 365,
+      "y": 623
+    },
+    "nat-consumo": {
+      "x": 358,
+      "y": 396
+    },
+    "nat-saludables": {
+      "x": 580,
+      "y": 228
+    },
+    "nat-regalias": {
+      "x": 918,
+      "y": 190
+    },
+    "nat-iva": {
+      "x": 244,
+      "y": 748
+    },
+    "nat-gmf": {
+      "x": 188,
+      "y": 353
+    },
+    "nat-gasolina": {
+      "x": 634,
+      "y": 85
+    },
+    "nat-seguridad-social": {
+      "x": 1245,
+      "y": 157
+    },
+    "nat-simple": {
+      "x": 383,
+      "y": 913
+    },
+    "nat-patrimonio": {
+      "x": 64,
+      "y": 566
+    },
+    "nat-carbono": {
+      "x": 225,
+      "y": 107
+    },
+    "nat-parafiscales": {
+      "x": 979,
+      "y": 48
+    },
+    "departmental": {
+      "x": 1123,
+      "y": 408
+    },
+    "dep-vehiculos": {
+      "x": 1093,
+      "y": 240
+    },
+    "dep-registro": {
+      "x": 1251,
+      "y": 283
+    },
+    "dep-consumo": {
+      "x": 1308,
+      "y": 433
+    },
+    "dep-estampillas": {
+      "x": 1210,
+      "y": 560
+    },
+    "municipal": {
+      "x": 982,
+      "y": 701
+    },
+    "mun-predial": {
+      "x": 1083,
+      "y": 549
+    },
+    "mun-ica": {
+      "x": 1169,
+      "y": 695
+    },
+    "mun-sobretasa-gasolina": {
+      "x": 1099,
+      "y": 853
+    },
+    "mun-alumbrado": {
+      "x": 929,
+      "y": 864
+    },
+    "mun-plusvalia-valorizacion": {
+      "x": 807,
+      "y": 761
+    }
+  },
+  "radii": {}
+}

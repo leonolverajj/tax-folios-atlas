@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "id": "austria",
+  "iso3": "AUT",
+  "isoNumeric": "040",
+  "names": { "en": "Austria", "native": "Österreich", "nativeLang": "de" },
+  "accent": "#ff5a66",
+  "flag": ["#ed2939", "#ffffff", "#ed2939"],
+  "structure": {
+    "version": 1,
+    "referenceYear": 2023,
+    "currency": "EUR",
+    "scale": "million",
+    "taxToGdp": 42.6,
+    "basis": "Collecting government",
+    "levels": [
+      {
+        "key": "central",
+        "label": "Federal government",
+        "folioLevelIds": [],
+        "total": 132347,
+        "byType": { "income": 60036, "socialSecurity": 9979, "payroll": 6875, "property": 1327, "goodsServices": 53581, "other": 549 }
+      },
+      {
+        "key": "regional",
+        "label": "State / regional governments",
+        "folioLevelIds": [],
+        "total": 3898,
+        "byType": { "income": 951, "socialSecurity": 977, "payroll": 1316, "property": 54, "goodsServices": 488, "other": 112 }
+      },
+      {
+        "key": "local",
+        "label": "Local governments",
+        "folioLevelIds": [],
+        "total": 6297,
+        "byType": { "income": 0, "socialSecurity": 218, "payroll": 4649, "property": 816, "goodsServices": 532, "other": 82 }
+      },
+      {
+        "key": "social-security",
+        "label": "Social security funds",
+        "folioLevelIds": [],
+        "total": 60201,
+        "byType": { "income": 0, "socialSecurity": 60201, "payroll": 0, "property": 0, "goodsServices": 0, "other": 0 }
+      }
+    ],
+    "sourceIds": ["oecd-rs-2025-subsectors", "oecd-rs-2025-levels"],
+    "subnational": {
+      "ownSourceTaxShareOfRevenue": 11.3,
+      "grantsShareOfRevenue": 72.8,
+      "year": 2020,
+      "sourceId": "sng-wofi-profile",
+      "note": "Tariffs and fees 11.8%, property income 2%, other 2.2% of subnational revenue."
+    },
+    "notes": []
+  },
+  "sources": [
+    {
+      "id": "oecd-rs-2025-subsectors",
+      "org": "OECD",
+      "title": "Revenue Statistics 2025, Table 6.2: Austria, tax revenues by sub-sectors of government",
+      "url": "https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en/full-report/tax-revenues-by-subsectors-of-general-government_f9e88332.html",
+      "kind": "international",
+      "language": "en",
+      "publishedDate": "2025-12-09",
+      "periodCovered": "Calendar year 2023 (national currency)",
+      "accessed": "2026-09-29",
+      "note": "Harmonised OECD classification of taxes (1000–6000) split by collecting sub-sector of general government."
+    },
+    {
+      "id": "oecd-rs-2025-levels",
+      "org": "OECD",
+      "title": "Revenue Statistics 2025, Chapter 3: Tax levels and tax structures (Table 3.1)",
+      "url": "https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en/full-report/tax-levels-and-tax-structures-1965-2024_2033f3ea.html",
+      "kind": "international",
+      "language": "en",
+      "publishedDate": "2025-12-09",
+      "periodCovered": "Calendar year 2023",
+      "accessed": "2026-09-29",
+      "note": "Total tax revenue as % of GDP."
+    },
+    {
+      "id": "sng-wofi-profile",
+      "org": "OECD and United Cities and Local Governments (SNG-WOFI)",
+      "title": "World Observatory on Subnational Government Finance and Investment – country profile: Austria",
+      "url": "https://www.sng-wofi.org/country_profiles/austria.html",
+      "kind": "international",
+      "language": "en",
+      "publishedDate": "2022-10-24",
+      "periodCovered": "2020",
+      "accessed": "2026-09-29",
+      "note": "Subnational government revenue by category as % of total subnational revenue, 2022 edition."
+    }
+  ]
+}

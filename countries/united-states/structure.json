@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "referenceYear": 2023,
+  "currency": "USD",
+  "scale": "million",
+  "taxToGdp": 25.6,
+  "basis": "Collecting government",
+  "levels": [
+    {
+      "key": "central",
+      "label": "Federal government",
+      "folioLevelIds": ["federal"],
+      "total": 2951123,
+      "byType": { "income": 2741982, "socialSecurity": 0, "payroll": 0, "property": 34902, "goodsServices": 174239, "other": 0 }
+    },
+    {
+      "key": "regional",
+      "label": "States",
+      "folioLevelIds": ["states"],
+      "total": 1456983,
+      "byType": { "income": 644908, "socialSecurity": 0, "payroll": 3827, "property": 44987, "goodsServices": 763261, "other": 0 }
+    },
+    {
+      "key": "local",
+      "label": "Local governments",
+      "folioLevelIds": ["local"],
+      "total": 1027472,
+      "byType": { "income": 61793, "socialSecurity": 0, "payroll": 0, "property": 725913, "goodsServices": 239765, "other": 0 }
+    },
+    {
+      "key": "social-security",
+      "label": "Social security funds",
+      "folioLevelIds": [],
+      "total": 1670315,
+      "byType": { "income": 0, "socialSecurity": 1670315, "payroll": 0, "property": 0, "goodsServices": 0, "other": 0 },
+      "note": "Social Security, Medicare and unemployment insurance payroll taxes are attributed to the social security funds in this classification, although the folio draws them under the federal level."
+    }
+  ],
+  "sourceIds": ["oecd-rs-2025-subsectors", "oecd-rs-2025-levels"],
+  "subnational": {
+    "ownSourceTaxShareOfRevenue": 49.5,
+    "grantsShareOfRevenue": 27.9,
+    "year": 2020,
+    "sourceId": "sng-wofi-profile",
+    "note": "Tariffs and fees are a further 19.7% of subnational revenue; there is no general federal unconditional or equalisation grant."
+  },
+  "notes": []
+}

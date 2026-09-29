@@ -1,0 +1,130 @@
+{
+  "id": "bolivia",
+  "iso3": "BOL",
+  "isoNumeric": "068",
+  "names": { "en": "Bolivia", "native": "Bolivia (Estado Plurinacional de Bolivia)", "nativeLang": "es-BO" },
+  "currency": { "code": "BOB", "symbol": "Bs", "name": "Bolivian boliviano" },
+  "summary": "Bolivia is a plurinational unitary state with four types of autonomy recognised by the 2009 Constitution: departmental, regional, municipal and indigenous originary peasant. Almost all significant taxes belong to the central level (VAT, transactions tax, business-profit tax, hydrocarbons taxes); departments hold mainly royalties and shares of national revenue, and municipalities levy property, vehicle and property-transfer taxes.",
+  "structureNote": "Ley 154 of 2011 assigns each tax to the central, departmental or municipal domain. Regional and indigenous originary peasant (AIOC) autonomies are recognised by the Constitution but are not modelled as levels here. Revenue sharing (coparticipación tributaria, IDH and IEHD transfers) is not a tax and is not shown as a core.",
+  "theme": {
+    "accent": "#2ec4b6",
+    "accent2": "#e0904a",
+    "motif": "salt-altiplano",
+    "motifNote": "Salt-crust hexagons of the Uyuni flats and stepped Andean ridgelines drawn over Bolivia's own outline.",
+    "mapLabel": { "lon": -64.7, "lat": -16.8 }
+  },
+  "levels": [
+    {
+      "id": "central",
+      "branch": "national",
+      "names": { "official": "Nivel central del Estado", "native": "Nivel central del Estado", "common": "Central government" },
+      "description": "The central level of the plurinational State. Its tax administration is the Servicio de Impuestos Nacionales (SIN); customs are run by the Aduana Nacional. It levies VAT, the transactions tax, business-profit tax, the personal RC-IVA, consumption and hydrocarbon taxes.",
+      "fiscalPower": "The creation of central-domain taxes is an exclusive competence of the central level and cannot be transferred or delegated (Ley 154 de 2011; Constitution arts. 299, 323).",
+      "legalRefs": [{ "sourceId": "ley-154", "locator": "provisions on central-domain taxes" }, { "sourceId": "cpe-2009", "locator": "arts. 299, 323" }],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "departmental",
+      "branch": "regional",
+      "names": { "official": "Gobiernos Autónomos Departamentales (9 departamentos)", "native": "Gobernaciones", "common": "Departmental governments" },
+      "description": "The nine departmental autonomous governments (gobernaciones). They receive royalties from hydrocarbons and mining and transfers from national taxes; Ley 154 lets them create taxes on inheritance and gifts of registrable assets and on ownership of aircraft and vessels.",
+      "fiscalPower": "Departments may create only the taxes that Ley 154 attributes to them, respecting principles of capacity to pay, equality, progressivity and administrative simplicity.",
+      "legalRefs": [{ "sourceId": "ley-154", "locator": "provisions on departmental-domain taxes" }, { "sourceId": "ley-031" }],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "municipal",
+      "branch": "local",
+      "names": { "official": "Gobiernos Autónomos Municipales (municipios)", "native": "Gobiernos Autónomos Municipales", "common": "Municipal governments" },
+      "description": "About 340 autonomous municipalities. They levy the property tax (IPBI), the vehicle tax (IPVA) and the property-transfer tax (IMT), plus municipal fees and patents, and receive 20% of national coparticipable taxes.",
+      "fiscalPower": "Municipal councils create the taxes Ley 154 assigns to the municipal domain (property, vehicles, transfers) and set fees within the law.",
+      "legalRefs": [{ "sourceId": "ley-154", "locator": "provisions on municipal-domain taxes" }, { "sourceId": "ley-031" }],
+      "checkedOn": "2026-09-28"
+    }
+  ],
+  "supportingSourceIds": ["sin-memoria-oct-2025", "sin-cuadro-impuestos", "sin-iva-bill-2026", "sin-itf-2026", "mefp-alivio-tributario"],
+  "denominators": [
+    {
+      "id": "sin-total-2025",
+      "label": "Total tax collection of the Servicio de Impuestos Nacionales, 2025",
+      "definition": "All taxes collected by the SIN in calendar 2025: the domestic-market taxes (IVA, IT, IUE, RC-IVA, ICE and others), plus the hydrocarbon taxes IDH and IEHD and the financial-transactions tax ITF. Excludes customs duties and IVA collected on imports by the Aduana Nacional, social-security contributions and royalties.",
+      "levelIds": ["central"],
+      "amount": 45910,
+      "scale": "million",
+      "currency": "BOB",
+      "period": { "label": "2025", "kind": "calendar-year", "start": "2025-01-01", "end": "2025-12-31" },
+      "sourceId": "sin-recaudacion-2025",
+      "locator": "Press release of 21 Jan 2026: total collection 2025 Bs 45,910 million (Bs 41,524.8 million in 2024, +10.6%)",
+      "calculation": "Published total. Components: IVA 13,655 + IUE 10,722 + IT 7,338 + other taxes 14,195 = 45,910.",
+      "caveat": "Rounded to whole millions by the SIN. The IVA figure here is the SIN's domestic-market VAT; VAT on imports is collected by customs and is not in this total.",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": "sin-total-jan-oct-2025",
+      "label": "SIN collection, January–October 2025",
+      "definition": "Same scope as the annual SIN total, for January to October 2025 (domestic market, ITF, IEHD, IDH).",
+      "levelIds": ["central"],
+      "amount": 38400.3,
+      "scale": "million",
+      "currency": "BOB",
+      "period": { "label": "Jan–Oct 2025", "kind": "calendar-year", "start": "2025-01-01", "end": "2025-10-31" },
+      "sourceId": "sin-memoria-oct-2025",
+      "locator": "Chapter 1: 'A octubre de 2025 … alcanzó los Bs38.400,3 millones'",
+      "calculation": "Published total.",
+      "caveat": "Partial-year figures; used only to show the IDH share, not to size any core.",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": "customs-oecd-2023",
+      "label": "Customs and import duties, 2023",
+      "definition": "Customs and import duties (OECD 5123), collected by the Aduana Nacional and not part of the SIN collection.",
+      "levelIds": ["central"],
+      "aggregateOnly": false,
+      "amount": 4314,
+      "scale": "million",
+      "currency": "BOB",
+      "period": { "label": "2023", "kind": "calendar-year", "start": "2023-01-01", "end": "2023-12-31" },
+      "sourceId": "oecd-rs-lac-2025-note",
+      "locator": "Country note, Summary of the tax structure: Customs and import duties",
+      "caveat": "Two years older than the SIN 2025 collection; taken from the OECD because the Bolivian institutions publish no comparable single figure.",
+      "accessed": "2026-09-29"
+    },
+    {
+      "id": "social-security-oecd-2023",
+      "label": "Social security contributions, 2023",
+      "definition": "Compulsory social security contributions (OECD heading 2000).",
+      "levelIds": ["central"],
+      "aggregateOnly": false,
+      "amount": 17908,
+      "scale": "million",
+      "currency": "BOB",
+      "period": { "label": "2023", "kind": "calendar-year", "start": "2023-01-01", "end": "2023-12-31" },
+      "sourceId": "oecd-rs-lac-2025-note",
+      "locator": "Country note, Summary of the tax structure: Social security contributions",
+      "caveat": "Two years older than the SIN 2025 collection; taken from the OECD because the Bolivian institutions publish no comparable single figure.",
+      "accessed": "2026-09-29"
+    },
+    {
+      "id": "municipal-taxes-oecd-2023",
+      "label": "Municipal taxes, 2023",
+      "definition": "Taxes of municipal governments (mainly property, vehicle and transfer taxes). No national-source breakdown here, so no cores.",
+      "levelIds": [],
+      "aggregateOnly": true,
+      "amount": 3349,
+      "scale": "million",
+      "currency": "BOB",
+      "period": { "label": "2023", "kind": "calendar-year", "start": "2023-01-01", "end": "2023-12-31" },
+      "sourceId": "oecd-rs-lac-2025-levels",
+      "locator": "Table 1.4: local government 4.5% of total tax revenue (BOB 74,419 million)",
+      "calculation": "4.5% × 74,419 = 3,349 (BOB millions), rounded.",
+      "caveat": "Two years older than the SIN 2025 collection; taken from the OECD because the Bolivian institutions publish no comparable single figure.",
+      "accessed": "2026-09-29"
+    }
+  ],
+  "sizing": {
+    "label": "Taxes and compulsory contributions of all levels of government (partial)",
+    "definition": "SIN tax collection (2025) + customs duties, social security contributions and municipal taxes (OECD, 2023). Departmental hydrocarbon royalties and other central revenue that the OECD also counts as taxes are not included, so shares are somewhat overstated.",
+    "componentIds": ["sin-total-2025", "customs-oecd-2023", "social-security-oecd-2023", "municipal-taxes-oecd-2023"]
+  },
+  "researchStatus": "partial"
+}

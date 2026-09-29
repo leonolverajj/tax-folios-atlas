@@ -1,0 +1,87 @@
+{
+  "version": 1,
+  "id": "france",
+  "iso3": "FRA",
+  "isoNumeric": "250",
+  "names": { "en": "France", "native": "France", "nativeLang": "fr" },
+  "accent": "#6aa0ff",
+  "flag": ["#0055a4", "#ffffff", "#ef4135"],
+  "structure": {
+    "version": 1,
+    "referenceYear": 2023,
+    "currency": "EUR",
+    "scale": "million",
+    "taxToGdp": 43.9,
+    "basis": "Collecting government",
+    "levels": [
+      {
+        "key": "central",
+        "label": "Central government",
+        "folioLevelIds": [],
+        "total": 370755,
+        "byType": { "income": 176204, "socialSecurity": 7957, "payroll": 16532, "property": 27236, "goodsServices": 139084, "other": 3742 }
+      },
+      {
+        "key": "local",
+        "label": "Local governments",
+        "folioLevelIds": [],
+        "total": 177380,
+        "byType": { "income": 48, "socialSecurity": 0, "payroll": 11391, "property": 70426, "goodsServices": 83977, "other": 11538 }
+      },
+      {
+        "key": "social-security",
+        "label": "Social security funds",
+        "folioLevelIds": [],
+        "total": 689298,
+        "byType": { "income": 157121, "socialSecurity": 405533, "payroll": 27201, "property": 0, "goodsServices": 90279, "other": 9164 }
+      }
+    ],
+    "sourceIds": ["oecd-rs-2025-subsectors", "oecd-rs-2025-levels"],
+    "subnational": {
+      "ownSourceTaxShareOfRevenue": 50.5,
+      "grantsShareOfRevenue": 33.4,
+      "year": 2020,
+      "sourceId": "sng-wofi-profile",
+      "note": "Tariffs and fees 14.7%, property income 1%, other 0.3% of subnational revenue."
+    },
+    "notes": []
+  },
+  "sources": [
+    {
+      "id": "oecd-rs-2025-subsectors",
+      "org": "OECD",
+      "title": "Revenue Statistics 2025, Table 6.12: France, tax revenues by sub-sectors of government",
+      "url": "https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en/full-report/tax-revenues-by-subsectors-of-general-government_f9e88332.html",
+      "kind": "international",
+      "language": "en",
+      "publishedDate": "2025-12-09",
+      "periodCovered": "Calendar year 2023 (national currency)",
+      "accessed": "2026-09-29",
+      "note": "Harmonised OECD classification of taxes (1000–6000) split by collecting sub-sector of general government."
+    },
+    {
+      "id": "oecd-rs-2025-levels",
+      "org": "OECD",
+      "title": "Revenue Statistics 2025, Chapter 3: Tax levels and tax structures (Table 3.1)",
+      "url": "https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en/full-report/tax-levels-and-tax-structures-1965-2024_2033f3ea.html",
+      "kind": "international",
+      "language": "en",
+      "publishedDate": "2025-12-09",
+      "periodCovered": "Calendar year 2023",
+      "accessed": "2026-09-29",
+      "note": "Total tax revenue as % of GDP."
+    },
+    {
+      "id": "sng-wofi-profile",
+      "org": "OECD and United Cities and Local Governments (SNG-WOFI)",
+      "title": "World Observatory on Subnational Government Finance and Investment – country profile: France",
+      "url": "https://www.sng-wofi.org/country_profiles/france.html",
+      "kind": "international",
+      "language": "en",
+      "publishedDate": "2022-10-24",
+      "periodCovered": "2020",
+      "accessed": "2026-09-29",
+      "note": "Subnational government revenue by category as % of total subnational revenue, 2022 edition."
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "nodes": {
+    "japan": { "label": "Japan", "sublabel": "日本 · Fiscal folio", "glyph": "globe" },
+    "national": { "label": "National", "sublabel": "国", "glyph": "landmark" },
+    "prefectural": { "label": "Prefectures", "sublabel": "都道府県 · 47", "glyph": "city" },
+    "municipal": { "label": "Municipalities", "sublabel": "市町村", "glyph": "town" },
+
+    "nat-income-tax": { "label": "Income tax", "sublabel": "所得税", "glyph": "person" },
+    "nat-corporation-tax": { "label": "Corporation tax", "sublabel": "法人税", "glyph": "factory" },
+    "nat-consumption-tax": { "label": "Consumption tax", "sublabel": "消費税 · 7.8%", "glyph": "cart" },
+    "nat-inheritance-gift": { "label": "Inheritance & gift", "sublabel": "相続税", "glyph": "scale" },
+    "nat-liquor-tax": { "label": "Liquor tax", "sublabel": "酒税", "glyph": "wine" },
+    "nat-tobacco-tax": { "label": "Tobacco tax", "sublabel": "たばこ税", "glyph": "smoke" },
+    "nat-gasoline-tax": { "label": "Gasoline tax", "sublabel": "揮発油税", "glyph": "flame" },
+    "nat-petroleum-coal-tax": { "label": "Petroleum & coal", "sublabel": "石油石炭税", "glyph": "oil" },
+    "nat-vehicle-tonnage-tax": { "label": "Vehicle tonnage", "sublabel": "自動車重量税", "glyph": "car" },
+    "nat-customs": { "label": "Customs", "sublabel": "関税", "glyph": "ship" },
+    "nat-stamp-duty": { "label": "Stamp duty", "sublabel": "印紙税", "glyph": "stamp" },
+    "nat-reconstruction-surtax": { "label": "Reconstruction surtax", "sublabel": "復興特別所得税", "glyph": "gear" },
+    "nat-defense-corporate-tax": { "label": "Defence corp. tax", "sublabel": "防衛特別法人税", "glyph": "shield" },
+    "nat-defense-income-tax": { "label": "Defence income tax", "sublabel": "From Jan 2027", "glyph": "shield" },
+    "nat-social-insurance": { "label": "Social insurance", "sublabel": "社会保険料", "glyph": "heart" },
+
+    "pref-inhabitant-tax": { "label": "Inhabitant tax", "sublabel": "道府県民税", "glyph": "person" },
+    "pref-enterprise-tax": { "label": "Enterprise tax", "sublabel": "事業税", "glyph": "factory" },
+    "pref-local-consumption-tax": { "label": "Local consumption", "sublabel": "地方消費税 · 2.2%", "glyph": "cart" },
+    "pref-automobile-tax": { "label": "Automobile tax", "sublabel": "自動車税", "glyph": "car" },
+    "pref-diesel-tax": { "label": "Diesel tax", "sublabel": "軽油引取税", "glyph": "flame" },
+    "pref-real-estate-acquisition-tax": { "label": "Acquisition tax", "sublabel": "不動産取得税", "glyph": "key" },
+    "pref-tobacco-tax": { "label": "Tobacco (pref.)", "sublabel": "たばこ税", "glyph": "smoke" },
+
+    "mun-inhabitant-tax": { "label": "Inhabitant tax", "sublabel": "市町村民税", "glyph": "person" },
+    "mun-fixed-assets-tax": { "label": "Fixed assets tax", "sublabel": "固定資産税", "glyph": "house" },
+    "mun-city-planning-tax": { "label": "City planning tax", "sublabel": "都市計画税", "glyph": "city" },
+    "mun-tobacco-tax": { "label": "Tobacco (mun.)", "sublabel": "たばこ税", "glyph": "smoke" },
+    "mun-light-vehicle-tax": { "label": "Light vehicle tax", "sublabel": "軽自動車税", "glyph": "car" }
+  }
+}

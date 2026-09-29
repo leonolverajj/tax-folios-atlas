@@ -1,0 +1,124 @@
+{
+  "id": "japan",
+  "iso3": "JPN",
+  "isoNumeric": "392",
+  "names": { "en": "Japan", "native": "日本", "nativeLang": "ja" },
+  "currency": { "code": "JPY", "symbol": "¥", "name": "Japanese yen" },
+  "summary": "Japan is a unitary state with two tiers of local government: 47 prefectures and about 1,740 municipalities (cities, towns, villages) plus Tokyo's 23 special wards. The national government levies the large taxes on income, corporations, consumption, inheritance and specific goods; prefectures and municipalities levy inhabitant taxes, enterprise tax, property taxes and their own consumption-type and vehicle taxes. A large share of local revenue is nevertheless redistributed by national grants.",
+  "structureNote": "Taxes are set by the Diet (Constitution art. 84); local governments levy the taxes the Local Tax Act authorises, within its standard rates. The 10% consumption tax is 7.8% national + 2.2% 'local consumption tax' collected by the national tax authority and paid to prefectures (half of which is passed on to municipalities). Social insurance premiums are not taxes but are shown because they are Japan's largest compulsory payment.",
+  "theme": {
+    "accent": "#ff5468",
+    "accent2": "#7f8cff",
+    "motif": "island-arc",
+    "motifNote": "The volcanic island arc and the Nankai Trough plate boundary, with a solar disc rising over Japan's own outline.",
+    "mapLabel": { "lon": 148, "lat": 37 }
+  },
+  "levels": [
+    {
+      "id": "national",
+      "branch": "national",
+      "names": { "official": "国 (National Government of Japan)", "native": "国", "common": "National government" },
+      "description": "The Diet, Ministry of Finance and National Tax Agency. It levies income tax, corporation tax, consumption tax, inheritance and gift tax, excise taxes, customs duties and stamp duties, plus special surtaxes for reconstruction and defence.",
+      "fiscalPower": "The Diet legislates all taxes (Constitution art. 84). National taxes are collected by the National Tax Agency and Customs; part of income, corporation and consumption taxes is credited to local governments through the local allocation tax and transfers.",
+      "legalRefs": [{ "sourceId": "jp-constitution", "locator": "arts. 30, 84" }],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "prefectural",
+      "branch": "regional",
+      "names": {
+        "official": "都道府県 (47 prefectures: Tokyo Metropolis, Hokkaido, two urban prefectures and 43 prefectures)",
+        "native": "都道府県",
+        "common": "Prefectures"
+      },
+      "description": "The 47 prefectures. Their taxes are the prefectural inhabitant tax, enterprise tax, local consumption tax (prefectural share), automobile tax, diesel delivery tax, real estate acquisition tax and tobacco tax.",
+      "fiscalPower": "Prefectures levy taxes authorised by the Local Tax Act (Constitution arts. 92–94; Local Autonomy Act). Standard rates apply, and some may deviate by ordinance within limits.",
+      "legalRefs": [{ "sourceId": "jp-local-tax-act" }, { "sourceId": "jp-constitution", "locator": "arts. 92–94" }],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "municipal",
+      "branch": "local",
+      "names": { "official": "市町村 (municipalities) and 特別区 (Tokyo's 23 special wards)", "native": "市町村", "common": "Municipalities" },
+      "description": "Cities, towns and villages plus Tokyo's special wards. Their main taxes are the municipal inhabitant tax and the fixed assets tax, with the city planning tax, tobacco tax and light motor vehicle tax.",
+      "fiscalPower": "Municipalities levy taxes authorised by the Local Tax Act. In Tokyo the metropolis collects the fixed assets tax, city planning tax and corporate inhabitant tax in the special wards and shares them with the wards.",
+      "legalRefs": [{ "sourceId": "jp-local-tax-act" }, { "sourceId": "jp-local-autonomy-act" }],
+      "checkedOn": "2026-09-28"
+    }
+  ],
+  "supportingSourceIds": [
+    "mof-tax-reform-fy2026",
+    "mof-defense-tax-2025",
+    "jp-social-insurance-laws",
+    "jp-customs-tariff-law",
+    "jp-vehicle-tonnage-act",
+    "jp-petroleum-coal-tax-act"
+  ],
+  "denominators": [
+    {
+      "id": "national-general-account-tax",
+      "label": "General-account tax and stamp revenue, FY2025",
+      "definition": "Revenue of the national general account from taxes and stamp duties in fiscal year 2025: income tax, corporation tax, inheritance (and gift) tax, consumption tax, excise taxes, customs duties and stamp revenue. Excludes special-account taxes such as the reconstruction special income tax, local corporation tax, special corporate enterprise tax and forest environment tax, which are listed separately as 'reference' items by the Ministry.",
+      "levelIds": ["national"],
+      "amount": 84222606,
+      "scale": "million",
+      "currency": "JPY",
+      "period": { "label": "FY2025", "kind": "fiscal-year", "start": "2025-04-01", "end": "2026-03-31" },
+      "sourceId": "mof-tax-revenue-fy2025",
+      "locator": "Row 一般会計分計, column 決算額(概数)",
+      "calculation": "Published total (¥84,222,606 million = ¥84.2 trillion, a record for the sixth year running).",
+      "caveat": "Preliminary settlement (概数); the final settlement is published later. Because the denominator excludes special-account taxes, cores for those taxes carry an amount but no share.",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": "prefectural-tax-total",
+      "label": "Total prefectural taxes, FY2024",
+      "definition": "Revenue of the prefectural taxes (道府県税) in Table 13 of the Local Public Finance White Paper, including Tokyo's prefectural taxes but excluding the municipal-type taxes that Tokyo collects for its special wards.",
+      "levelIds": ["prefectural"],
+      "amount": 22319135,
+      "scale": "million",
+      "currency": "JPY",
+      "period": { "label": "FY2024", "kind": "fiscal-year", "start": "2024-04-01", "end": "2025-03-31" },
+      "sourceId": "mic-local-finance-2026",
+      "locator": "第13表 その2 道府県税の収入状況, 合計 収入額",
+      "calculation": "Published total.",
+      "caveat": "FY2024 settlement is the latest available; the local consumption tax figure includes the half later transferred to municipalities.",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": "municipal-tax-total",
+      "label": "Total municipal taxes, FY2024",
+      "definition": "Revenue of the municipal taxes (市町村税) in Table 13 of the Local Public Finance White Paper, including the municipal-type taxes collected by Tokyo for its special wards.",
+      "levelIds": ["municipal"],
+      "amount": 23949962,
+      "scale": "million",
+      "currency": "JPY",
+      "period": { "label": "FY2024", "kind": "fiscal-year", "start": "2024-04-01", "end": "2025-03-31" },
+      "sourceId": "mic-local-finance-2026",
+      "locator": "第13表 その4 市町村税, 合計 収入額",
+      "calculation": "Published total.",
+      "caveat": "Includes ¥2,616,891 million of municipal-type taxes that Tokyo Metropolis collected for its special wards.",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": "social-insurance-premiums",
+      "label": "Social insurance premiums (insured persons and employers), FY2023",
+      "definition": "Compulsory premiums for health, long-term care, pensions, employment and workers’ accident insurance, in the ILO-standard social security revenue by source: insured persons ¥42.02 trillion + employers ¥38.09 trillion.",
+      "levelIds": ["national"],
+      "amount": 80.1101,
+      "scale": "trillion",
+      "currency": "JPY",
+      "period": { "label": "FY2023", "kind": "fiscal-year", "start": "2023-04-01", "end": "2024-03-31" },
+      "sourceId": "ipss-ss-cost-2023",
+      "locator": "概要: 社会保障財源 – 社会保険料 80兆1,101億円",
+      "caveat": "Premiums are compulsory contributions, counted in the OECD definition of total taxation. FY2023 is the latest edition and is two fiscal years older than the national tax figures.",
+      "accessed": "2026-09-29"
+    }
+  ],
+  "sizing": {
+    "label": "Taxes and compulsory social insurance premiums of all levels of government and the social insurance schemes",
+    "definition": "National general-account taxes (FY2025) + prefectural taxes (FY2024) + municipal taxes (FY2024) + social insurance premiums (FY2023). Excludes non-tax revenue, local allocation tax and other transfers.",
+    "componentIds": ["national-general-account-tax", "prefectural-tax-total", "municipal-tax-total", "social-insurance-premiums"]
+  },
+  "researchStatus": "researched"
+}

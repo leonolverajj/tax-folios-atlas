@@ -1,0 +1,208 @@
+{
+  "groups": [
+    {
+      "title": "Federal revenues, FY2024-25 – Public Accounts of Canada 2025, Vol. II, Section 1 (amounts published in $ thousands; shown here in $ millions)",
+      "defaults": {
+        "denominatorId": "federal-tax-contributions",
+        "scale": "million",
+        "currency": "CAD",
+        "period": { "label": "FY2024-25", "kind": "fiscal-year", "start": "2024-04-01", "end": "2025-03-31" },
+        "basis": "Full accrual basis, consolidated financial statements of the Government of Canada",
+        "sourceId": "pac-2025-v2-s1",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-09-28"
+      },
+      "observations": [
+        { "nodeId": "fed-personal-income-tax", "amount": 234318.9, "locator": "Tax revenues – Income tax: Personal (also Vol. I Table 3.2: 234,319)" },
+        { "nodeId": "fed-corporate-income-tax", "amount": 96953.5, "locator": "Tax revenues – Income tax: Corporate (also Vol. I Table 3.2: 96,954)" },
+        { "nodeId": "fed-non-resident-tax", "amount": 13528.3, "locator": "Tax revenues – Income tax: Non-resident (also Vol. I Table 3.2: 13,528)" },
+        {
+          "nodeId": "fed-gst-hst",
+          "amount": 52502.8,
+          "locator": "Tax revenues – Other taxes and duties: Goods and services tax (also Vol. I Table 3.2: 52,503)",
+          "caveat": "Federal share only. In HST provinces the provincial part is collected for the province and is not federal revenue. Reported net of GST/HST rebates and credits."
+        },
+        {
+          "nodeId": "fed-fuel-excise",
+          "amount": 5650.1,
+          "locator": "Tax revenues – Excise tax: Gasoline 4,360.7 + Aviation gasoline and diesel fuel 1,289.4 (Vol. I Table 3.2 'Energy taxes': 5,650)",
+          "calculation": "4,360.7 + 1,289.4 = 5,650.1",
+          "caveat": "FY2024-25 is before the April 2026 suspension of this tax; current-year revenue will be far lower."
+        },
+        {
+          "nodeId": "fed-excise-duties",
+          "amount": 5656.5,
+          "locator": "Tax revenues – Other taxes and duties: Excise duties",
+          "coverageNote": "Public Accounts do not itemise alcohol, tobacco and cannabis separately in this line."
+        },
+        { "nodeId": "fed-atsc", "amount": 1159.2, "locator": "Tax revenues – Other taxes and duties: Air travellers security charge" },
+        {
+          "nodeId": "fed-customs-duties",
+          "amount": 6263.9,
+          "locator": "Tax revenues – Other taxes and duties: Customs import duties (Vol. I Table 3.2: 6,264)",
+          "caveat": "Counter-tariff surtaxes began 4 March 2025, so only the final month of FY2024-25 reflects them."
+        },
+        { "nodeId": "fed-ei-premiums", "amount": 31530.2, "locator": "Employment insurance premiums" },
+        {
+          "nodeId": "fed-fuel-charge",
+          "amount": 13551.8,
+          "locator": "Pollution pricing proceeds",
+          "coverage": "broader",
+          "coverageNote": "Pollution pricing proceeds include the fuel charge ($13.5 billion per the Annual Financial Report) plus small industrial pricing proceeds.",
+          "caveat": "The charge was set to zero from 1 April 2025, so this is historical revenue. Most proceeds were returned to households through rebates that are recorded as expenses."
+        }
+      ]
+    },
+    {
+      "title": "Canada Pension Plan – outside federal budgetary revenues",
+      "defaults": { "role": "sizing", "scale": "billion", "currency": "CAD", "accessed": "2026-09-28", "denominatorId": "cpp-contributions" },
+      "observations": [
+        {
+          "nodeId": "fed-cpp",
+          "amount": 81.6,
+          "period": { "label": "FY2023-24", "kind": "fiscal-year", "start": "2023-04-01", "end": "2024-03-31" },
+          "basis": "CPP Account financial statements, total contributions (base and additional CPP)",
+          "sourceId": "esdc-cpp-annual-2024",
+          "locator": "Annual report highlights: 'CPP contributions totalled $81.6 billion'",
+          "coverage": "exact",
+          "caveat": "One fiscal year earlier than the Public Accounts figures because the FY2024-25 CPP annual report was not yet available. Excludes the Québec Pension Plan."
+        }
+      ]
+    },
+    {
+      "title": "Provincial and territorial general government revenue, 2024 reference year – Statistics Canada Table 10-10-0017-01",
+      "defaults": {
+        "denominatorId": "provincial-tax-contributions",
+        "scale": "million",
+        "currency": "CAD",
+        "period": { "label": "2024 ref. year", "kind": "fiscal-year", "start": "2024-04-01", "end": "2025-03-31" },
+        "basis": "Statistics Canada government finance statistics (accrual, general government sector)",
+        "sourceId": "statcan-10100017",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-09-28"
+      },
+      "observations": [
+        {
+          "nodeId": "prov-personal-income-tax",
+          "amount": 158351,
+          "locator": "Taxes on income, profits and capital gains payable by individuals [1111], sum of 13 jurisdictions"
+        },
+        {
+          "nodeId": "prov-corporate-income-tax",
+          "amount": 60709,
+          "locator": "Taxes on income, profits and capital gains payable by corporations and other enterprises [1112], sum of 13 jurisdictions"
+        },
+        { "nodeId": "prov-sales-taxes", "amount": 89726, "locator": "General taxes on goods and services [1141], sum of 13 jurisdictions" },
+        { "nodeId": "prov-payroll-taxes", "amount": 24015, "locator": "Taxes on payroll and workforce [112], sum of 13 jurisdictions" },
+        { "nodeId": "prov-property-taxes", "amount": 15949, "locator": "Taxes on property [113], sum of 13 jurisdictions" },
+        { "nodeId": "prov-fuel-taxes", "amount": 8391, "locator": "Gasoline and motive fuel taxes [1142], sum of 13 jurisdictions" },
+        {
+          "nodeId": "prov-sin-taxes",
+          "amount": 3985,
+          "locator": "Tobacco taxes 2,903 + Cannabis taxes 949 + Liquor taxes 133 [1142], sum of 13 jurisdictions",
+          "calculation": "2,903 + 949 + 133 = 3,985",
+          "caveat": "Excludes remitted liquor-board profits (6,552) and cannabis-sales profits (508), which are not taxes."
+        },
+        {
+          "nodeId": "prov-wcb-premiums",
+          "amount": 12157,
+          "locator": "Contributions to workers' compensation boards [1212], sum of 13 jurisdictions",
+          "caveat": "Statistics Canada classifies workers' compensation premiums as social contributions of the provincial sector; some boards are outside the provincial accounts."
+        }
+      ]
+    },
+    {
+      "title": "Municipal and local government revenue, 2024 reference year – Statistics Canada Table 10-10-0020-01",
+      "defaults": {
+        "denominatorId": "local-tax-contributions",
+        "scale": "million",
+        "currency": "CAD",
+        "period": { "label": "2024 ref. year", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Statistics Canada government finance statistics (accrual, local governments)",
+        "sourceId": "statcan-10100020",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-09-28"
+      },
+      "observations": [
+        {
+          "nodeId": "mun-property-taxes",
+          "amount": 66170,
+          "locator": "Recurrent taxes on immovable property [1131], sum of 13 jurisdictions (includes real property taxes 61,018, business property taxes 313 and payments in lieu 2,796)"
+        },
+        {
+          "nodeId": "mun-land-transfer-tax",
+          "amount": 2352,
+          "locator": "Other taxes on property [1133, 1134, 1136], sum of 13 jurisdictions",
+          "coverage": "broader",
+          "coverageNote": "The published category groups land transfer taxes with other minor property taxes; land transfer taxes alone are not separated."
+        },
+        {
+          "nodeId": "mun-licences-permits",
+          "amount": 10288,
+          "locator": "Taxes on use of goods and on permission to use goods or perform activities [11451, 11452], sum of 13 jurisdictions"
+        },
+        {
+          "nodeId": "mun-accommodation-tax",
+          "amount": 392,
+          "locator": "Taxes on specific services [1144], sum of 13 jurisdictions",
+          "coverage": "broader",
+          "coverageNote": "Taxes on specific services include accommodation taxes and any other service-specific municipal taxes."
+        }
+      ]
+    },
+    {
+      "title": "Provincial resource royalties – not part of the tax total",
+      "defaults": {
+        "scale": "million",
+        "currency": "CAD",
+        "period": { "label": "2024 ref. year", "kind": "fiscal-year", "start": "2024-04-01", "end": "2025-03-31" },
+        "basis": "Statistics Canada government finance statistics (accrual, general government sector)",
+        "sourceId": "statcan-10100017",
+        "role": "informational",
+        "coverage": "exact",
+        "accessed": "2026-09-28"
+      },
+      "observations": [
+        {
+          "nodeId": "prov-royalties",
+          "amount": 27844,
+          "locator": "Oil and gas royalties 24,507 + Forestry 877 + Mineral 687 + Water power 1,773 [1415], sum of 13 jurisdictions",
+          "calculation": "24,507 + 877 + 687 + 1,773 = 27,844",
+          "caveat": "Resource royalties are property income in Statistics Canada’s classification, not taxes, so they lie outside the national total and keep the neutral size."
+        }
+      ]
+    },
+    {
+      "title": "Municipal user fees – not part of the tax total",
+      "defaults": {
+        "scale": "million",
+        "currency": "CAD",
+        "period": { "label": "2024 ref. year", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Statistics Canada government finance statistics (accrual, local governments)",
+        "sourceId": "statcan-10100020",
+        "role": "informational",
+        "coverage": "exact",
+        "accessed": "2026-09-28"
+      },
+      "observations": [
+        {
+          "nodeId": "mun-user-fees",
+          "amount": 31588,
+          "locator": "Sales of goods and services [142], sum of 13 jurisdictions",
+          "coverage": "broader",
+          "coverageNote": "Includes all municipal sales of goods and services (utilities, transit fares, recreation, rentals), not only fees set by by-law.",
+          "caveat": "User fees and utility charges are sales of goods and services, not taxes, so they lie outside the national total and keep the neutral size."
+        }
+      ]
+    }
+  ],
+  "unavailable": [
+    {
+      "nodeId": "mun-development-charges",
+      "reason": "Statistics Canada does not identify development charges as a separate line in its local-government revenue table; they are reported within other revenue categories."
+    }
+  ]
+}

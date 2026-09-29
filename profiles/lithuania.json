@@ -1,0 +1,87 @@
+{
+  "version": 1,
+  "id": "lithuania",
+  "iso3": "LTU",
+  "isoNumeric": "440",
+  "names": { "en": "Lithuania", "native": "Lietuva", "nativeLang": "lt" },
+  "accent": "#ffd23f",
+  "flag": ["#fdb913", "#006a44", "#c1272d"],
+  "structure": {
+    "version": 1,
+    "referenceYear": 2023,
+    "currency": "EUR",
+    "scale": "million",
+    "taxToGdp": 32.1,
+    "basis": "Collecting government",
+    "levels": [
+      {
+        "key": "central",
+        "label": "Central government",
+        "folioLevelIds": [],
+        "total": 15798,
+        "byType": { "income": 7695, "socialSecurity": 0, "payroll": 0, "property": 15, "goodsServices": 8088, "other": 0 }
+      },
+      {
+        "key": "local",
+        "label": "Local governments",
+        "folioLevelIds": [],
+        "total": 250,
+        "byType": { "income": 0, "socialSecurity": 0, "payroll": 0, "property": 205, "goodsServices": 45, "other": 0 }
+      },
+      {
+        "key": "social-security",
+        "label": "Social security funds",
+        "folioLevelIds": [],
+        "total": 7534,
+        "byType": { "income": 0, "socialSecurity": 7527, "payroll": 0, "property": 0, "goodsServices": 8, "other": 0 }
+      }
+    ],
+    "sourceIds": ["oecd-rs-2025-subsectors", "oecd-rs-2025-levels"],
+    "subnational": {
+      "ownSourceTaxShareOfRevenue": 3.6,
+      "grantsShareOfRevenue": 89.7,
+      "year": 2020,
+      "sourceId": "sng-wofi-profile",
+      "note": "Tariffs and fees 5.5%, property income 0.9%, other 0.4% of subnational revenue."
+    },
+    "notes": []
+  },
+  "sources": [
+    {
+      "id": "oecd-rs-2025-subsectors",
+      "org": "OECD",
+      "title": "Revenue Statistics 2025, Table 6.23: Lithuania, tax revenues by sub-sectors of government",
+      "url": "https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en/full-report/tax-revenues-by-subsectors-of-general-government_f9e88332.html",
+      "kind": "international",
+      "language": "en",
+      "publishedDate": "2025-12-09",
+      "periodCovered": "Calendar year 2023 (national currency)",
+      "accessed": "2026-09-29",
+      "note": "Harmonised OECD classification of taxes (1000–6000) split by collecting sub-sector of general government."
+    },
+    {
+      "id": "oecd-rs-2025-levels",
+      "org": "OECD",
+      "title": "Revenue Statistics 2025, Chapter 3: Tax levels and tax structures (Table 3.1)",
+      "url": "https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en/full-report/tax-levels-and-tax-structures-1965-2024_2033f3ea.html",
+      "kind": "international",
+      "language": "en",
+      "publishedDate": "2025-12-09",
+      "periodCovered": "Calendar year 2023",
+      "accessed": "2026-09-29",
+      "note": "Total tax revenue as % of GDP."
+    },
+    {
+      "id": "sng-wofi-profile",
+      "org": "OECD and United Cities and Local Governments (SNG-WOFI)",
+      "title": "World Observatory on Subnational Government Finance and Investment – country profile: Lithuania",
+      "url": "https://www.sng-wofi.org/country_profiles/lithuania.html",
+      "kind": "international",
+      "language": "en",
+      "publishedDate": "2022-10-24",
+      "periodCovered": "2020",
+      "accessed": "2026-09-29",
+      "note": "Subnational government revenue by category as % of total subnational revenue, 2022 edition."
+    }
+  ]
+}

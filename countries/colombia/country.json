@@ -1,0 +1,129 @@
+{
+  "id": "colombia",
+  "iso3": "COL",
+  "isoNumeric": "170",
+  "names": { "en": "Colombia", "native": "Colombia", "nativeLang": "es-CO" },
+  "currency": { "code": "COP", "symbol": "$", "name": "Colombian peso" },
+  "summary": "Colombia is a unitary republic with decentralised territorial entities: 32 departments, the Capital District of Bogotá, and about 1,100 municipalities. Congress alone creates taxes; the national government (through the DIAN) collects income tax, VAT, customs duties and most other national taxes, while departments and municipalities may only levy the taxes that national law authorises and set the rates within limits.",
+  "structureNote": "Colombia is unitary, so the top level is called 'national' rather than 'federal'. Bogotá is a Capital District that exercises both departmental and municipal powers; it is grouped with municipalities here. Social-security and parafiscal contributions and royalties (Sistema General de Regalías) are not administered by the DIAN.",
+  "theme": {
+    "accent": "#f2b632",
+    "accent2": "#3a86d9",
+    "motif": "three-cordilleras",
+    "motifNote": "The three Andean cordilleras fanning out from the Colombian Massif and the equator line, drawn over Colombia's own outline.",
+    "mapLabel": { "lon": -73.5, "lat": 4.5 }
+  },
+  "levels": [
+    {
+      "id": "national",
+      "branch": "national",
+      "names": { "official": "Gobierno Nacional de Colombia", "native": "Nación", "common": "National government" },
+      "description": "The central government. It levies income tax, VAT, customs duties, the financial-transactions tax, wealth tax, consumption taxes, fuel and carbon taxes and health taxes; social-security and payroll (parafiscal) contributions are governed by separate national law.",
+      "fiscalPower": "Only Congress can impose taxes (Constitution arts. 150-12 and 338). The DIAN administers most national taxes and customs. Royalties from non-renewable resources belong to the State and are distributed through the Sistema General de Regalías (arts. 360–361).",
+      "legalRefs": [{ "sourceId": "constitucion-1991", "locator": "arts. 150-12, 338, 360–361" }],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "departmental",
+      "branch": "regional",
+      "names": { "official": "Departamentos (32) y Distrito Capital de Bogotá", "native": "Departamentos", "common": "Departments" },
+      "description": "The 32 departments. Their own taxes are mainly the vehicle tax, registration tax and consumption taxes on beer, liquor and tobacco, plus stamp duties, and they receive national transfers and royalties.",
+      "fiscalPower": "Departmental assemblies may adopt the taxes that national law creates, within the rate limits it sets (Constitution art. 300-4 and Ley 223 de 1995).",
+      "legalRefs": [{ "sourceId": "constitucion-1991", "locator": "art. 300-4" }, { "sourceId": "ley-223-1995" }],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "municipal",
+      "branch": "local",
+      "names": { "official": "Municipios y Distritos", "native": "Municipios", "common": "Municipalities" },
+      "description": "About 1,100 municipalities and special districts. They levy the unified property tax (predial), the industry and commerce tax (ICA), a surcharge on gasoline, street-lighting charges and land-value contributions.",
+      "fiscalPower": "Municipal councils adopt local taxes within the limits of national law (Constitution art. 313-4; Ley 44 de 1990; Ley 14 de 1983).",
+      "legalRefs": [{ "sourceId": "constitucion-1991", "locator": "art. 313-4" }, { "sourceId": "decreto-1333-1986" }],
+      "checkedOn": "2026-09-28"
+    }
+  ],
+  "supportingSourceIds": ["dian-informe-gestion-2025", "uvt-2026", "ley-100-1993"],
+  "denominators": [
+    {
+      "id": "dian-gross-collection",
+      "label": "Total gross collection of taxes administered by the DIAN, 2025",
+      "definition": "Gross cash collection of all national taxes and customs duties administered by the DIAN (domestic activity plus foreign trade plus amounts not yet classified), before refunds and offsets. Excludes social-security and parafiscal contributions, royalties and every departmental and municipal tax.",
+      "levelIds": ["national"],
+      "amount": 294462356.99,
+      "scale": "million",
+      "currency": "COP",
+      "period": { "label": "2025", "kind": "calendar-year", "start": "2025-01-01", "end": "2025-12-31" },
+      "sourceId": "dian-recaudo-anual",
+      "locator": "Row 2025, column 'IV. TOTAL DIAN' (actividad interna 244,842,342.28 + actividad externa 49,294,003.82 + por clasificar 326,010.89)",
+      "calculation": "Published total in COP millions (294,462,356.99).",
+      "caveat": "The DIAN's accounting series reports COP 296,002,207 million for the same year (Informe de Gestión 2025, Table 1); the statistical series used here is the one broken down by tax. Figures are gross, so refunds and offsets are not netted out (net collection was COP 270.4 trillion).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": "regional-taxes-oecd-2023",
+      "label": "Departmental (regional) taxes, 2023",
+      "definition": "Tax revenue of departments, OECD classification (mainly excise-type consumption taxes and vehicle taxes). No national-source breakdown here, so no cores.",
+      "levelIds": [],
+      "aggregateOnly": true,
+      "amount": 15111585,
+      "scale": "million",
+      "currency": "COP",
+      "period": { "label": "2023", "kind": "calendar-year", "start": "2023-01-01", "end": "2023-12-31" },
+      "sourceId": "oecd-rs-2025-subsectors",
+      "locator": "Table 6.6 Colombia – State/Regional – Total tax revenue",
+      "caveat": "Two years older than the DIAN 2025 figures (about 15% nominal growth since), so the parts taken from the OECD are slightly understated relative to the DIAN total.",
+      "accessed": "2026-09-29"
+    },
+    {
+      "id": "local-taxes-oecd-2023",
+      "label": "Municipal taxes, 2023",
+      "definition": "Tax revenue of municipalities and districts, OECD classification (property, industry and commerce tax, others). No national-source breakdown here, so no cores.",
+      "levelIds": [],
+      "aggregateOnly": true,
+      "amount": 40340654,
+      "scale": "million",
+      "currency": "COP",
+      "period": { "label": "2023", "kind": "calendar-year", "start": "2023-01-01", "end": "2023-12-31" },
+      "sourceId": "oecd-rs-2025-subsectors",
+      "locator": "Table 6.6 Colombia – Local government – Total tax revenue",
+      "caveat": "Two years older than the DIAN 2025 figures (about 15% nominal growth since), so the parts taken from the OECD are slightly understated relative to the DIAN total.",
+      "accessed": "2026-09-29"
+    },
+    {
+      "id": "social-security-oecd-2023",
+      "label": "Social security contributions, 2023",
+      "definition": "Compulsory contributions to the public social-security schemes (OECD heading 2000).",
+      "levelIds": ["national"],
+      "aggregateOnly": false,
+      "amount": 25378236,
+      "scale": "million",
+      "currency": "COP",
+      "period": { "label": "2023", "kind": "calendar-year", "start": "2023-01-01", "end": "2023-12-31" },
+      "sourceId": "oecd-rs-2025-subsectors",
+      "locator": "Table 6.6 Colombia – Social Security Funds – Total tax revenue",
+      "caveat": "Two years older than the DIAN 2025 figures (about 15% nominal growth since), so the parts taken from the OECD are slightly understated relative to the DIAN total.",
+      "accessed": "2026-09-29"
+    },
+    {
+      "id": "parafiscales-oecd-2023",
+      "label": "Payroll (parafiscal) contributions, 2023",
+      "definition": "Taxes on payroll and workforce (OECD heading 3000): SENA, ICBF and family compensation funds.",
+      "levelIds": ["national"],
+      "aggregateOnly": false,
+      "amount": 5025164,
+      "scale": "million",
+      "currency": "COP",
+      "period": { "label": "2023", "kind": "calendar-year", "start": "2023-01-01", "end": "2023-12-31" },
+      "sourceId": "oecd-rs-2025-subsectors",
+      "locator": "Table 6.6 Colombia – Central government – 3000 Taxes on payroll and workforce",
+      "caveat": "Two years older than the DIAN 2025 figures (about 15% nominal growth since), so the parts taken from the OECD are slightly understated relative to the DIAN total.",
+      "accessed": "2026-09-29"
+    }
+  ],
+  "sizing": {
+    "label": "Taxes and compulsory contributions of all levels of government",
+    "definition": "DIAN gross collection (2025) + departmental taxes, municipal taxes, social security contributions and payroll contributions (OECD, 2023). Excludes royalties (Sistema General de Regalías), non-tax revenue and transfers.",
+    "componentIds": ["dian-gross-collection", "regional-taxes-oecd-2023", "local-taxes-oecd-2023", "social-security-oecd-2023", "parafiscales-oecd-2023"]
+  },
+  "researchStatus": "partial"
+}

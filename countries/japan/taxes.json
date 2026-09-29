@@ -1,0 +1,580 @@
+{
+  "instruments": [
+    {
+      "id": "nat-income-tax",
+      "parentId": "national",
+      "levelId": "national",
+      "category": "tax",
+      "family": "income-personal",
+      "status": "current",
+      "statusNote": "From 1 January 2027 a new 1% defence special income tax is added, while the 2.1% reconstruction surtax falls to 1% and runs to 2047 (FY2026 tax reform outline, 26 Dec 2025). The total surtax stays at 2.1%.",
+      "names": { "official": "Income Tax (所得税)", "native": "所得税", "common": "Income tax", "abbreviation": "Income tax" },
+      "taxes": { "base": "Income of individuals resident in Japan (worldwide, with special rules for non-permanent residents) and Japanese-source income of non-residents.", "payer": "Individuals; employers withhold on salaries (源泉徴収)." },
+      "rate": {
+        "kind": "progressive",
+        "headline": "5% – 45% in seven brackets (plus a 2.1% surtax)",
+        "details": [
+          "Taxable income up to ¥1.95M: 5%; to ¥3.3M: 10%; to ¥6.95M: 20%; to ¥9M: 23%; to ¥18M: 33%; to ¥40M: 40%; above ¥40M: 45%.",
+          "A reconstruction special income tax of 2.1% of the income tax is added in 2013–2037.",
+          "The basic deduction is being raised and, from the FY2026 reform, indexed to prices; the filing threshold was raised to about ¥1.78 million as a special measure."
+        ],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "The largest national tax together with the consumption tax. Withholding at source collects most of it (about 81% of the FY2025 total); the rest comes from year-end adjustments and self-assessed returns.",
+      "exceptions": ["Capital gains and dividends are mostly taxed separately at flat rates (about 20.315% including local tax)."],
+      "legalRefs": [
+        { "sourceId": "jp-income-tax-act", "locator": "art. 89 (tax rates)" },
+        { "sourceId": "mof-tax-reform-fy2026" }
+      ],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "nat-corporation-tax",
+      "parentId": "national",
+      "levelId": "national",
+      "category": "tax",
+      "family": "income-corporate",
+      "status": "current",
+      "statusNote": "A defence special corporation tax (see its own core) applies from 1 April 2026 in addition to the corporation tax.",
+      "names": { "official": "Corporation Tax (法人税)", "native": "法人税", "common": "Corporation tax", "abbreviation": "Corporation tax" },
+      "taxes": { "base": "Income of domestic corporations (worldwide) and Japanese-source income of foreign corporations.", "payer": "Corporations." },
+      "rate": {
+        "kind": "flat",
+        "headline": "23.2% standard; 15% on the first ¥8 million for small companies",
+        "details": ["Companies with capital of ¥100 million or less pay 15% on the first ¥8 million of annual income.", "Local corporation tax (10.3% of corporation tax), enterprise tax and inhabitant taxes are added; the effective combined rate is about 30%."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "The tax on company profits, which produced record revenue in FY2025 on strong corporate earnings.",
+      "exceptions": ["Tax incentives for R&D, wage increases and investment are provided by special tax measures."],
+      "legalRefs": [{ "sourceId": "jp-corporation-tax-act", "locator": "art. 66 (rates)" }],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "nat-consumption-tax",
+      "parentId": "national",
+      "levelId": "national",
+      "category": "tax",
+      "family": "general-consumption",
+      "status": "current",
+      "names": { "official": "Consumption Tax (消費税, national portion)", "native": "消費税", "common": "Consumption tax (national)", "abbreviation": "Consumption tax" },
+      "taxes": { "base": "Sales of goods and services in Japan and imports (a value-added tax with an invoice system).", "payer": "Consumers; businesses collect and remit." },
+      "rate": {
+        "kind": "flat",
+        "headline": "10% total (7.8% national + 2.2% local); 8% reduced rate",
+        "details": ["Reduced rate of 8% (6.24% national + 1.76% local) for food and non-alcoholic drinks (excluding dining out) and newspaper subscriptions.", "The 2.2% local consumption tax is collected together with the national tax and paid to prefectures (see the prefectural level)."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "The single biggest source of tax revenue in FY2025, at about 31% of general-account tax revenue.",
+      "exceptions": ["Exempt: land, financial services, medical care, education, housing rent. Small businesses under a turnover threshold have special treatment."],
+      "legalRefs": [{ "sourceId": "jp-consumption-tax-act", "locator": "arts. 29 (rate), 30 (tax credit)" }],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "nat-inheritance-gift",
+      "parentId": "national",
+      "levelId": "national",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "Inheritance Tax and Gift Tax (相続税・贈与税)", "native": "相続税・贈与税", "common": "Inheritance & gift tax", "abbreviation": "Inheritance & gift" },
+      "taxes": { "base": "Property acquired by inheritance, bequest or gift above the basic exemptions.", "payer": "Heirs and donees." },
+      "rate": {
+        "kind": "progressive",
+        "headline": "10% – 55%",
+        "details": ["Inheritance: basic deduction of ¥30 million plus ¥6 million for each statutory heir.", "Gifts: annual basic exemption of ¥1.1 million under calendar-year taxation."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "One statute covers both inheritance and gift taxes, so the Ministry reports them together.",
+      "exceptions": ["Special rules for family businesses and agricultural land."],
+      "legalRefs": [{ "sourceId": "jp-inheritance-tax-act" }],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "nat-liquor-tax",
+      "parentId": "national",
+      "levelId": "national",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "statusNote": "Beer-type alcoholic beverages move to a single tax rate on 1 October 2026 under the staged reform of the Liquor Tax Act.",
+      "names": { "official": "Liquor Tax (酒税)", "native": "酒税", "common": "Liquor tax", "abbreviation": "Liquor tax" },
+      "taxes": { "base": "Alcoholic beverages by volume and type (per kilolitre).", "payer": "Producers and importers; passed on to consumers." },
+      "rate": {
+        "kind": "specific",
+        "headline": "Per-kilolitre rates by type and alcohol content",
+        "details": ["Different rates for beer-type, wine, sake, spirits; the beer, 'happoshu' and 'new genre' rates are being unified on 1 October 2026."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "A national excise tax on alcohol.",
+      "exceptions": ["Wine and beer-type rates were adjusted in stages in 2020, 2023 and 2026."],
+      "legalRefs": [{ "sourceId": "jp-liquor-tax-act" }],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "nat-tobacco-tax",
+      "parentId": "national",
+      "levelId": "national",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "statusNote": "Heated-tobacco taxation is being aligned with cigarettes in steps on 1 April and 1 October 2026, and the national rate rises by ¥0.5 per stick in each of 2027, 2028 and 2029 to fund defence.",
+      "names": { "official": "National Tobacco Tax (たばこ税) and Special Tobacco Tax (たばこ特別税)", "native": "たばこ税", "common": "Tobacco tax (national)", "abbreviation": "Tobacco tax" },
+      "taxes": { "base": "Manufactured tobacco by number of sticks (or weight equivalent).", "payer": "Manufacturers and importers." },
+      "rate": {
+        "kind": "specific",
+        "headline": "Fixed yen per 1,000 sticks; prefectural and municipal taxes are added",
+        "details": ["Prefectures and municipalities levy their own tobacco taxes (shown at those levels)."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "An excise tax on tobacco, one of the taxes raised to finance stronger defence capabilities.",
+      "exceptions": ["The special tobacco tax funds the government's past debt of the former Japan National Railways."],
+      "legalRefs": [
+        { "sourceId": "jp-tobacco-tax-act" },
+        { "sourceId": "mof-defense-tax-2025" }
+      ],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "nat-gasoline-tax",
+      "parentId": "national",
+      "levelId": "national",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "transitional",
+      "statusNote": "The special (provisional) rate of the gasoline tax and local gasoline tax was abolished on 31 December 2025. FY2025 revenue includes nine months at the old rate; later years will be lower.",
+      "names": { "official": "Gasoline Tax (揮発油税)", "native": "揮発油税", "common": "Gasoline tax", "abbreviation": "Gasoline tax" },
+      "taxes": { "base": "Gasoline by volume when it leaves the refinery or is imported.", "payer": "Refiners and importers; passed on at the pump." },
+      "rate": {
+        "kind": "specific",
+        "headline": "Yen per litre; the special rate ended on 31 Dec 2025",
+        "details": ["The base rates remain; the special rate that had applied 'for the time being' since the 1970s no longer does.", "A local gasoline tax is levied together and transferred to local governments."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "A national fuel excise. Its abolition of the provisional rate removes a large portion of its revenue from 2026.",
+      "exceptions": ["A prefectural diesel delivery tax had a matching provisional rate abolished on 1 April 2026."],
+      "legalRefs": [
+        { "sourceId": "jp-gasoline-tax-act" },
+        { "sourceId": "nta-gasoline-special-rate" }
+      ],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "nat-petroleum-coal-tax",
+      "parentId": "national",
+      "levelId": "national",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Petroleum and Coal Tax (石油石炭税) including the tax for global warming countermeasures", "native": "石油石炭税", "common": "Petroleum & coal tax", "abbreviation": "Petroleum & coal" },
+      "taxes": { "base": "Crude oil, petroleum products, natural gas and coal on import or extraction, by volume or weight.", "payer": "Importers and extractors." },
+      "rate": {
+        "kind": "specific",
+        "headline": "Yen per kilolitre or tonne, plus a climate surcharge",
+        "details": ["Rates are per kilolitre of crude oil, per tonne of coal and per tonne of gas; a surcharge on top funds global-warming measures."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "A tax on fossil-fuel energy at the source.",
+      "exceptions": ["Some uses (e.g. naphtha for petrochemicals) are exempt or refunded."],
+      "legalRefs": [{ "sourceId": "jp-petroleum-coal-tax-act" }],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "nat-vehicle-tonnage-tax",
+      "parentId": "national",
+      "levelId": "national",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Motor Vehicle Tonnage Tax (自動車重量税)", "native": "自動車重量税", "common": "Vehicle tonnage tax", "abbreviation": "Vehicle tonnage" },
+      "taxes": { "base": "Vehicle weight, paid at vehicle inspection.", "payer": "Vehicle owners." },
+      "rate": {
+        "kind": "specific",
+        "headline": "Yen per 0.5 tonne, by vehicle type and age",
+        "details": ["Reduced rates for eco-friendly vehicles."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "A national tax on vehicle weight; part of the revenue is passed to municipalities as a local transfer tax.",
+      "exceptions": ["Older vehicles pay more."],
+      "legalRefs": [{ "sourceId": "jp-vehicle-tonnage-act" }],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "nat-customs",
+      "parentId": "national",
+      "levelId": "national",
+      "category": "customs-duty",
+      "family": "trade",
+      "status": "current",
+      "names": { "official": "Customs Duties (関税)", "native": "関税", "common": "Customs duties", "abbreviation": "Customs duties" },
+      "taxes": { "base": "Customs value (or quantity) of imported goods by tariff line and origin.", "payer": "Importers." },
+      "rate": {
+        "kind": "range",
+        "headline": "Tariff schedule; low average, preferential rates under trade agreements",
+        "details": ["Rates are set in the Customs Tariff Law and its schedules; most industrial goods face low or zero duty.", "EPAs and FTAs (CPTPP, RCEP, the Japan–US and EU agreements) reduce or eliminate many duties."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "Duties collected by Japan Customs.",
+      "exceptions": ["Agricultural products such as rice and dairy retain high tariffs."],
+      "legalRefs": [
+        { "sourceId": "jp-customs-tariff-law" },
+        { "sourceId": "jp-customs-act" }
+      ],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "nat-stamp-duty",
+      "parentId": "national",
+      "levelId": "national",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "Stamp Tax (印紙税)", "native": "印紙税", "common": "Stamp duty", "abbreviation": "Stamp duty" },
+      "taxes": { "base": "Documents such as contracts, receipts and negotiable instruments listed in the Act.", "payer": "The person who prepares the document." },
+      "rate": {
+        "kind": "specific",
+        "headline": "Fixed amounts by document type and value",
+        "details": ["Paid by affixing revenue stamps or by cash payment."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "An old tax on documents that still raises about ¥1 trillion a year.",
+      "exceptions": ["Electronic contracts are not subject to stamp tax."],
+      "legalRefs": [{ "sourceId": "jp-stamp-tax-act" }],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "nat-reconstruction-surtax",
+      "parentId": "national",
+      "levelId": "national",
+      "category": "special-levy",
+      "family": "income-mixed",
+      "status": "current",
+      "statusNote": "From 2027 the rate falls from 2.1% to 1% and the levy is extended until 2047, alongside a new 1% defence special income tax.",
+      "names": { "official": "Special Income Tax for Reconstruction (復興特別所得税)", "native": "復興特別所得税", "common": "Reconstruction surtax", "abbreviation": "Reconstruction surtax" },
+      "taxes": { "base": "The amount of income tax (a surtax on income tax).", "payer": "Income-tax payers." },
+      "rate": {
+        "kind": "flat",
+        "headline": "2.1% of income tax (2013–2037)",
+        "details": ["Credited to the reconstruction special account rather than the general account."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "A temporary surtax that finances recovery from the 2011 earthquake. It is excluded from the general-account total used for core sizes.",
+      "exceptions": ["Also applies to withholding tax on interest and dividends."],
+      "legalRefs": [
+        { "sourceId": "jp-reconstruction-act" },
+        { "sourceId": "mof-tax-reform-fy2026" }
+      ],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "nat-defense-corporate-tax",
+      "parentId": "national",
+      "levelId": "national",
+      "category": "special-levy",
+      "family": "income-corporate",
+      "status": "current",
+      "statusNote": "In force for business years beginning on or after 1 April 2026; first collections fall in FY2026 and FY2027.",
+      "names": { "official": "Defence Special Corporation Tax (防衛特別法人税)", "native": "防衛特別法人税", "common": "Defence special corporation tax", "abbreviation": "Defence corp. tax" },
+      "taxes": { "base": "The corporation-tax amount above ¥5 million.", "payer": "Corporations." },
+      "rate": {
+        "kind": "flat",
+        "headline": "4% of (corporation tax − ¥5 million)",
+        "details": ["Imposed as a surtax to finance stronger defence capabilities; there is no scheduled end date."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "A new surtax on corporation tax that took effect in 2026.",
+      "exceptions": ["Small companies below the ¥5 million allowance pay nothing."],
+      "legalRefs": [
+        { "sourceId": "jp-defense-funding-act" },
+        { "sourceId": "mof-defense-tax-2025" }
+      ],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "nat-defense-income-tax",
+      "parentId": "national",
+      "levelId": "national",
+      "category": "special-levy",
+      "family": "income-personal",
+      "status": "scheduled",
+      "statusNote": "Takes effect on 1 January 2027 (FY2026 tax reform outline).",
+      "names": { "official": "Defence Special Income Tax (防衛特別所得税)", "native": "防衛特別所得税", "common": "Defence special income tax", "abbreviation": "Defence income tax" },
+      "taxes": { "base": "The amount of income tax (a surtax on income tax).", "payer": "Income-tax payers." },
+      "rate": {
+        "kind": "flat",
+        "headline": "1% of income tax from 1 January 2027",
+        "details": ["Offset by cutting the reconstruction surtax from 2.1% to 1%, so the combined surtax stays at 2.1% for most taxpayers."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "A new surtax to finance defence spending, designed not to raise household burdens at first.",
+      "exceptions": ["Details for withholding tax are set in the implementing regulations."],
+      "legalRefs": [{ "sourceId": "mof-tax-reform-fy2026" }],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "nat-social-insurance",
+      "parentId": "national",
+      "levelId": "national",
+      "category": "insurance-premium",
+      "family": "social-security",
+      "status": "current",
+      "names": { "official": "Social insurance premiums (社会保険料: pension, health, long-term care and employment insurance)", "native": "社会保険料", "common": "Social insurance premiums", "abbreviation": "Social insurance" },
+      "taxes": { "base": "Standard monthly remuneration (and bonuses) of employees; flat premiums for the self-employed.", "payer": "Employees and employers (equal shares for employees' schemes); self-employed people pay their own premiums." },
+      "rate": {
+        "kind": "range",
+        "headline": "Employees' pension 18.3% split equally; health insurance about 10% (varies)",
+        "details": ["Employees' Pension Insurance: 18.3% of standard remuneration, half paid by each side.", "Health insurance rates vary by scheme and prefecture (about 10% on average for Kyokai Kenpo); long-term care and employment insurance add further premiums."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "Premiums, not taxes: they give rights to pensions and care. In FY2023 they totalled ¥80.1 trillion, close to the whole national tax revenue.",
+      "exceptions": ["Rates change annually; child-support levies were added from 2026."],
+      "legalRefs": [{ "sourceId": "jp-social-insurance-laws" }],
+      "checkedOn": "2026-09-28"
+    },
+
+    {
+      "id": "pref-inhabitant-tax",
+      "parentId": "prefectural",
+      "levelId": "prefectural",
+      "category": "tax",
+      "family": "income-mixed",
+      "status": "current",
+      "names": { "official": "Prefectural Inhabitant Tax (道府県民税 / 都民税)", "native": "道府県民税", "common": "Prefectural inhabitant tax", "abbreviation": "Inhabitant tax" },
+      "taxes": { "base": "Individuals' income (income levy and per-capita levy) and corporations' tax (corporate levy).", "payer": "Residents and companies with offices in the prefecture." },
+      "rate": {
+        "kind": "flat",
+        "headline": "4% income levy (standard) plus per-capita levy",
+        "details": ["Standard rates: prefecture 4% + municipality 6% = 10% of taxable income for individuals.", "A corporate income-based levy and a per-capita levy by capital size also apply."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "The prefecture's share of the resident tax, collected together with the municipal share.",
+      "exceptions": ["Prefectures may vary standard rates slightly by ordinance."],
+      "legalRefs": [{ "sourceId": "jp-local-tax-act", "locator": "Chapter 2 (prefectural taxes) – inhabitant tax" }],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "pref-enterprise-tax",
+      "parentId": "prefectural",
+      "levelId": "prefectural",
+      "category": "tax",
+      "family": "income-corporate",
+      "status": "current",
+      "names": { "official": "Enterprise Tax (事業税)", "native": "事業税", "common": "Enterprise tax", "abbreviation": "Enterprise tax" },
+      "taxes": { "base": "Income of businesses; for large corporations also value added and capital ('pro forma standard taxation').", "payer": "Businesses." },
+      "rate": {
+        "kind": "range",
+        "headline": "Income-based rates of about 3.5%–7%; pro forma rates for large firms",
+        "details": ["Rates differ by company size and by type of business; a national 'special corporate enterprise tax' is collected on top and redistributed."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "A prefectural tax on business activity, deductible for corporation tax.",
+      "exceptions": ["Some primary industries and small individual businesses are exempt."],
+      "legalRefs": [{ "sourceId": "jp-local-tax-act", "locator": "Chapter 2 – enterprise tax" }],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "pref-local-consumption-tax",
+      "parentId": "prefectural",
+      "levelId": "prefectural",
+      "category": "tax",
+      "family": "general-consumption",
+      "status": "current",
+      "names": { "official": "Local Consumption Tax (地方消費税)", "native": "地方消費税", "common": "Local consumption tax", "abbreviation": "Local consumption tax" },
+      "taxes": { "base": "The same sales and imports as the consumption tax (levied as 22/78 of national consumption tax).", "payer": "Consumers; collected with the national tax." },
+      "rate": {
+        "kind": "flat",
+        "headline": "2.2% of the price (1.76% on reduced-rate goods)",
+        "details": ["Collected by the National Tax Agency (and Customs on imports), then apportioned to prefectures; half of each prefecture's revenue is transferred to its municipalities."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "The prefectural share of the 10% consumption tax.",
+      "exceptions": ["The figure shown includes the half later transferred to municipalities."],
+      "legalRefs": [{ "sourceId": "jp-local-tax-act", "locator": "Chapter 2 – local consumption tax" }],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "pref-automobile-tax",
+      "parentId": "prefectural",
+      "levelId": "prefectural",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Automobile Tax (自動車税: environmental performance levy and annual levy)", "native": "自動車税", "common": "Automobile tax", "abbreviation": "Automobile tax" },
+      "taxes": { "base": "Ownership of passenger cars (annual, by engine size) and the acquisition price of new registrations (environmental performance levy).", "payer": "Vehicle owners." },
+      "rate": {
+        "kind": "range",
+        "headline": "Annual ¥25,000–¥110,000 by engine size; environmental levy 0%–3%",
+        "details": ["Reduced or exempt for electric and low-emission vehicles."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "The main prefectural vehicle tax.",
+      "exceptions": ["Older vehicles pay a surcharge."],
+      "legalRefs": [{ "sourceId": "jp-local-tax-act", "locator": "Chapter 2 – automobile tax" }],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "pref-diesel-tax",
+      "parentId": "prefectural",
+      "levelId": "prefectural",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "transitional",
+      "statusNote": "The provisional rate of ¥32.1 per litre was abolished on 1 April 2026, leaving ¥15 per litre; the revenue shown is for FY2024 at the old rate.",
+      "names": { "official": "Diesel Delivery Tax (軽油引取税)", "native": "軽油引取税", "common": "Diesel delivery tax", "abbreviation": "Diesel tax" },
+      "taxes": { "base": "Diesel fuel delivered to purchasers.", "payer": "Buyers of diesel fuel." },
+      "rate": {
+        "kind": "specific",
+        "headline": "¥15 per litre since 1 April 2026 (was ¥32.1)",
+        "details": ["Set as yen per kilolitre in the Local Tax Act."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "A prefectural fuel tax that funds roads.",
+      "exceptions": ["Exemptions for agriculture and some machinery."],
+      "legalRefs": [
+        { "sourceId": "jp-local-tax-act" },
+        { "sourceId": "tokyo-diesel-2026" }
+      ],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "pref-real-estate-acquisition-tax",
+      "parentId": "prefectural",
+      "levelId": "prefectural",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "Real Estate Acquisition Tax (不動産取得税)", "native": "不動産取得税", "common": "Real estate acquisition tax", "abbreviation": "Acquisition tax" },
+      "taxes": { "base": "Assessed value of land and buildings acquired.", "payer": "Purchasers." },
+      "rate": {
+        "kind": "flat",
+        "headline": "3% for housing and land; 4% for other buildings",
+        "details": ["Reduced special rates and deductions for housing."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "A one-time tax on acquiring real estate.",
+      "exceptions": ["Inheritance is not taxed."],
+      "legalRefs": [{ "sourceId": "jp-local-tax-act", "locator": "Chapter 2 – real estate acquisition tax" }],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "pref-tobacco-tax",
+      "parentId": "prefectural",
+      "levelId": "prefectural",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Prefectural Tobacco Tax (道府県たばこ税)", "native": "道府県たばこ税", "common": "Prefectural tobacco tax", "abbreviation": "Tobacco (prefectural)" },
+      "taxes": { "base": "Manufactured tobacco sold in the prefecture.", "payer": "Wholesalers and manufacturers." },
+      "rate": {
+        "kind": "specific",
+        "headline": "Fixed yen per 1,000 sticks",
+        "details": ["Levied together with national and municipal tobacco taxes."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "The prefectural component of Japan's tobacco taxes.",
+      "exceptions": ["Heated tobacco is being aligned with cigarettes in stages."],
+      "legalRefs": [{ "sourceId": "jp-local-tax-act", "locator": "Chapter 2 – tobacco tax" }],
+      "checkedOn": "2026-09-28"
+    },
+
+    {
+      "id": "mun-inhabitant-tax",
+      "parentId": "municipal",
+      "levelId": "municipal",
+      "category": "tax",
+      "family": "income-mixed",
+      "status": "current",
+      "names": { "official": "Municipal Inhabitant Tax (市町村民税 / 特別区民税)", "native": "市町村民税", "common": "Municipal inhabitant tax", "abbreviation": "Inhabitant tax" },
+      "taxes": { "base": "Individuals' income (income levy and per-capita levy) and corporations' tax (corporate income levy and per-capita levy).", "payer": "Residents and companies with offices in the municipality." },
+      "rate": {
+        "kind": "flat",
+        "headline": "6% income levy (standard) plus per-capita levy",
+        "details": ["Corporate levy: 7.0%–8.4% of corporation tax plus a per-capita amount by capital and staff."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "The largest municipal tax; individuals' income levy dominates.",
+      "exceptions": ["Tokyo's special wards' corporate inhabitant tax is collected by the metropolis and shared."],
+      "legalRefs": [{ "sourceId": "jp-local-tax-act", "locator": "Chapter 3 (municipal taxes) – inhabitant tax" }],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "mun-fixed-assets-tax",
+      "parentId": "municipal",
+      "levelId": "municipal",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "Fixed Assets Tax (固定資産税)", "native": "固定資産税", "common": "Fixed assets tax", "abbreviation": "Fixed assets tax" },
+      "taxes": { "base": "Assessed value of land, buildings and depreciable business assets as of 1 January.", "payer": "Owners." },
+      "rate": {
+        "kind": "flat",
+        "headline": "1.4% of assessed value (standard rate)",
+        "details": ["Reduced assessed values for homes on residential land.", "Assessed values are revised every three years."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "Japan's property tax and a stable source for municipalities.",
+      "exceptions": ["In Tokyo's 23 wards the metropolis collects it."],
+      "legalRefs": [{ "sourceId": "jp-local-tax-act", "locator": "Chapter 3 – fixed assets tax" }],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "mun-city-planning-tax",
+      "parentId": "municipal",
+      "levelId": "municipal",
+      "category": "special-levy",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "City Planning Tax (都市計画税)", "native": "都市計画税", "common": "City planning tax", "abbreviation": "City planning tax" },
+      "taxes": { "base": "Assessed value of land and buildings in urbanisation areas.", "payer": "Owners." },
+      "rate": {
+        "kind": "range",
+        "headline": "Up to 0.3% of assessed value",
+        "details": ["A purpose tax earmarked for urban planning and land-readjustment projects."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "An earmarked tax paid together with the fixed assets tax in designated areas.",
+      "exceptions": ["Only municipalities with city-planning areas may levy it."],
+      "legalRefs": [{ "sourceId": "jp-local-tax-act", "locator": "Chapter 3 – city planning tax" }],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "mun-tobacco-tax",
+      "parentId": "municipal",
+      "levelId": "municipal",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Municipal Tobacco Tax (市町村たばこ税)", "native": "市町村たばこ税", "common": "Municipal tobacco tax", "abbreviation": "Tobacco (municipal)" },
+      "taxes": { "base": "Manufactured tobacco sold in the municipality.", "payer": "Wholesalers and manufacturers." },
+      "rate": {
+        "kind": "specific",
+        "headline": "Fixed yen per 1,000 sticks",
+        "details": ["Levied together with national and prefectural tobacco taxes."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "The municipal component of Japan's tobacco taxes, larger than the prefectural component.",
+      "exceptions": ["Heated tobacco is being aligned with cigarettes in stages."],
+      "legalRefs": [{ "sourceId": "jp-local-tax-act", "locator": "Chapter 3 – tobacco tax" }],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "mun-light-vehicle-tax",
+      "parentId": "municipal",
+      "levelId": "municipal",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Light Motor Vehicle Tax (軽自動車税)", "native": "軽自動車税", "common": "Light motor vehicle tax", "abbreviation": "Light vehicle tax" },
+      "taxes": { "base": "Ownership of light motor vehicles and motorcycles (annual levy), and acquisition of new ones (environmental performance levy).", "payer": "Owners." },
+      "rate": {
+        "kind": "specific",
+        "headline": "Annual yen amount by vehicle class (¥10,800 for a passenger kei car)",
+        "details": ["Higher for older vehicles, lower for eco-friendly ones."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "The municipal counterpart of the prefectural automobile tax.",
+      "exceptions": ["Not levied on small motorised bicycles beyond a nominal amount."],
+      "legalRefs": [{ "sourceId": "jp-local-tax-act", "locator": "Chapter 3 – light motor vehicle tax" }],
+      "checkedOn": "2026-09-28"
+    }
+  ]
+}

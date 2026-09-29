@@ -1,0 +1,49 @@
+{
+  "name": "tax-folios-atlas",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Tax Folios Atlas — an interactive atlas of how countries organise their tax systems.",
+  "type": "module",
+  "engines": {
+    "node": ">=18.15"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "npm run validate && tsc --noEmit && vite build",
+    "preview": "vite preview --port 4173",
+    "validate": "tsx scripts/validate-data.ts",
+    "layouts:init": "tsx scripts/generate-layouts.ts",
+    "backgrounds": "tsx scripts/generate-backgrounds.ts",
+    "links": "node scripts/check-links.mjs",
+    "verify": "node scripts/verify.mjs",
+    "verify:deploy": "node scripts/verify-deploy.mjs",
+    "package:pages": "node scripts/package-pages.mjs",
+    "checklist": "tsx scripts/update-checklist.ts",
+    "new-country": "tsx scripts/new-country.ts",
+    "roadmap": "tsx scripts/roadmap.ts",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@fontsource-variable/inter": "^5.3.0",
+    "@fontsource/cinzel": "^5.3.0",
+    "d3-geo": "^3.1.1",
+    "topojson-client": "^3.1.0",
+    "world-atlas": "^2.0.2",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/d3-delaunay": "^6.0.4",
+    "@types/d3-geo": "^3.1.0",
+    "@types/geojson": "^7946.0.14",
+    "@types/node": "^18.19.0",
+    "@types/topojson-client": "^3.1.5",
+    "@types/topojson-specification": "^1.0.5",
+    "d3-delaunay": "^6.0.4",
+    "playwright-core": "1.48.2",
+    "sharp": "0.32.6",
+    "tsx": "^4.19.0",
+    "typescript": "~5.6.3",
+    "vite": "^5.4.11",
+    "vitest": "^1.6.1"
+  }
+}

@@ -1,0 +1,246 @@
+{
+  "sources": [
+    {
+      "id": "dian-recaudo-anual",
+      "org": "Dirección de Impuestos y Aduanas Nacionales (DIAN)",
+      "title": "Estadísticas de Recaudo anual por tipo de impuesto 1970–2026 (Subdirección de Estudios Económicos)",
+      "url": "https://www.dian.gov.co/dian/cifras/Paginas/EstadisticasRecaudo.aspx",
+      "kind": "statistics",
+      "language": "es-CO",
+      "publishedDate": "2026-08-25",
+      "periodCovered": "Calendar year 2025 (gross collection, COP millions)",
+      "accessed": "2026-09-28",
+      "note": "Workbook 'Estadisticas-de-recaudo-anual-por-tipo-de-impuesto-1970-2026.xlsx', updated to July 2026 (cut-off 25 August 2026). Gross collection in cash; excludes offsets (compensaciones). Statistical series that may differ from the accounting figures of the Subdirección de Recaudo."
+    },
+    {
+      "id": "dian-informe-gestion-2025",
+      "org": "Dirección de Impuestos y Aduanas Nacionales (DIAN)",
+      "title": "Informe de Gestión DIAN 2025",
+      "url": "https://www.dian.gov.co/atencionciudadano/Documents/Informe-de-Gestion-DIAN-2025-30012026.pdf",
+      "kind": "tax-agency",
+      "language": "es-CO",
+      "publishedDate": "2026-01-30",
+      "periodCovered": "Calendar year 2025",
+      "accessed": "2026-09-28",
+      "note": "Table 1 reports 2025 gross collection of COP 296.0 trillion (accounting series of the Subdirección de Recaudo) against COP 294.5 trillion in the later statistical workbook; the atlas uses the workbook because it details each tax."
+    },
+    {
+      "id": "constitucion-1991",
+      "org": "Senado de la República de Colombia",
+      "title": "Constitución Política de Colombia de 1991 (arts. 150-12, 287, 300-4, 313-4, 338, 360–361)",
+      "url": "https://www.secretariasenado.gov.co/senado/basedoc/constitucion_politica_1991.html",
+      "kind": "legal",
+      "language": "es-CO",
+      "publishedDate": null,
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": "estatuto-tributario",
+      "org": "Senado de la República de Colombia",
+      "title": "Estatuto Tributario (Decreto 624 de 1989, texto actualizado)",
+      "url": "https://www.secretariasenado.gov.co/senado/basedoc/estatuto_tributario.html",
+      "kind": "legal",
+      "language": "es-CO",
+      "publishedDate": null,
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": "ley-2277-2022",
+      "org": "Senado de la República de Colombia",
+      "title": "Ley 2277 de 2022 – Reforma tributaria para la igualdad y la justicia social",
+      "url": "https://www.secretariasenado.gov.co/senado/basedoc/ley_2277_2022.html",
+      "kind": "legal",
+      "language": "es-CO",
+      "publishedDate": "2022-12-13",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": "uvt-2026",
+      "org": "Dirección de Impuestos y Aduanas Nacionales (DIAN)",
+      "title": "Resolución 000238 de 15 de diciembre de 2025 – Unidad de Valor Tributario (UVT) 2026: $52.374",
+      "url": "https://www.dian.gov.co/normatividad/Normatividad/Resoluci%C3%B3n%20000238%20de%2015-12-2025.Pdf",
+      "kind": "legal",
+      "language": "es-CO",
+      "publishedDate": "2025-12-15",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": "decreto-1474-2025",
+      "org": "Presidencia de la República (DAPRE)",
+      "title": "Decreto Legislativo 1474 de 29 de diciembre de 2025 – medidas tributarias de la emergencia económica",
+      "url": "https://dapre.presidencia.gov.co/normativa/normativa/DECRETO%201474%20DEL%2029%20DE%20DICIEMBRE%20DE%202025.pdf",
+      "kind": "legal",
+      "language": "es-CO",
+      "publishedDate": "2025-12-29",
+      "accessed": "2026-09-28",
+      "note": "Declared unconstitutional (inexequible) by the Constitutional Court on 15 April 2026."
+    },
+    {
+      "id": "corte-c079-2026",
+      "org": "Corte Constitucional de Colombia",
+      "title": "Comunicado 15 de 15 de abril de 2026 – Sentencia C-079/26 (inexequibilidad del Decreto 1474 de 2025)",
+      "url": "https://www.corteconstitucional.gov.co/comunicados/Comunicado-15-Abril-15-de-2026.pdf",
+      "kind": "legal",
+      "language": "es-CO",
+      "publishedDate": "2026-04-15",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": "decreto-173-2026",
+      "org": "Ministerio de Hacienda y Crédito Público (compilación DIAN)",
+      "title": "Decreto Legislativo 173 de 2026 – medidas tributarias en el impuesto al patrimonio (segunda emergencia económica)",
+      "url": "https://normograma.dian.gov.co/dian/compilacion/docs/decreto_0173_2026.htm",
+      "kind": "legal",
+      "language": "es-CO",
+      "publishedDate": null,
+      "accessed": "2026-09-28",
+      "note": "Adopted under the emergency declared by Decreto 150 de 2026 (winter floods). The Constitutional Court reviewed the declaration in July 2026 (C-191/26) and is reviewing individual decrees; the wealth-tax rules should be verified before use."
+    },
+    {
+      "id": "ley-100-1993",
+      "org": "Senado de la República de Colombia",
+      "title": "Ley 100 de 1993 – Sistema de Seguridad Social Integral",
+      "url": "https://www.secretariasenado.gov.co/senado/basedoc/ley_0100_1993.html",
+      "kind": "legal",
+      "language": "es-CO",
+      "publishedDate": "1993-12-23",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": "ley-2056-2020",
+      "org": "Senado de la República de Colombia",
+      "title": "Ley 2056 de 2020 – Sistema General de Regalías",
+      "url": "https://www.secretariasenado.gov.co/senado/basedoc/ley_2056_2020.html",
+      "kind": "legal",
+      "language": "es-CO",
+      "publishedDate": "2020-09-30",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": "ley-1607-2012",
+      "org": "Senado de la República de Colombia",
+      "title": "Ley 1607 de 2012 – Impuesto nacional a la gasolina y al ACPM (arts. 167 ss.)",
+      "url": "https://www.secretariasenado.gov.co/senado/basedoc/ley_1607_2012.html",
+      "kind": "legal",
+      "language": "es-CO",
+      "publishedDate": "2012-12-26",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": "ley-1819-2016",
+      "org": "Senado de la República de Colombia",
+      "title": "Ley 1819 de 2016 – Impuesto nacional al carbono; alumbrado público",
+      "url": "https://www.secretariasenado.gov.co/senado/basedoc/ley_1819_2016.html",
+      "kind": "legal",
+      "language": "es-CO",
+      "publishedDate": "2016-12-29",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": "ley-223-1995",
+      "org": "Senado de la República de Colombia",
+      "title": "Ley 223 de 1995 – impuestos de registro y de consumo de cerveza y cigarrillos (departamentales)",
+      "url": "https://www.secretariasenado.gov.co/senado/basedoc/ley_0223_1995.html",
+      "kind": "legal",
+      "language": "es-CO",
+      "publishedDate": "1995-12-20",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": "ley-1816-2016",
+      "org": "Senado de la República de Colombia",
+      "title": "Ley 1816 de 2016 – impuesto al consumo de licores, vinos, aperitivos y similares",
+      "url": "https://www.secretariasenado.gov.co/senado/basedoc/ley_1816_2016.html",
+      "kind": "legal",
+      "language": "es-CO",
+      "publishedDate": "2016-12-19",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": "ley-488-1998",
+      "org": "Senado de la República de Colombia",
+      "title": "Ley 488 de 1998 – impuesto sobre vehículos automotores y sobretasa a la gasolina",
+      "url": "https://www.secretariasenado.gov.co/senado/basedoc/ley_0488_1998.html",
+      "kind": "legal",
+      "language": "es-CO",
+      "publishedDate": "1998-12-24",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": "ley-44-1990",
+      "org": "Senado de la República de Colombia",
+      "title": "Ley 44 de 1990 – Impuesto predial unificado",
+      "url": "https://www.secretariasenado.gov.co/senado/basedoc/ley_0044_1990.html",
+      "kind": "legal",
+      "language": "es-CO",
+      "publishedDate": "1990-12-18",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": "ley-14-1983",
+      "org": "Senado de la República de Colombia",
+      "title": "Ley 14 de 1983 – Impuesto de industria y comercio (ICA)",
+      "url": "https://www.secretariasenado.gov.co/senado/basedoc/ley_0014_1983.html",
+      "kind": "legal",
+      "language": "es-CO",
+      "publishedDate": "1983-07-06",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": "decreto-1333-1986",
+      "org": "Senado de la República de Colombia",
+      "title": "Decreto 1333 de 1986 – Código de Régimen Municipal",
+      "url": "https://www.secretariasenado.gov.co/senado/basedoc/decreto_1333_1986.html",
+      "kind": "legal",
+      "language": "es-CO",
+      "publishedDate": "1986-04-25",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": "ley-388-1997",
+      "org": "Senado de la República de Colombia",
+      "title": "Ley 388 de 1997 – ordenamiento territorial y participación en la plusvalía",
+      "url": "https://www.secretariasenado.gov.co/senado/basedoc/ley_0388_1997.html",
+      "kind": "legal",
+      "language": "es-CO",
+      "publishedDate": "1997-07-18",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": "oecd-rs-2025-subsectors",
+      "org": "OECD",
+      "language": "en",
+      "kind": "international",
+      "accessed": "2026-09-29",
+      "title": "Revenue Statistics 2025, Table 6.6: Colombia, tax revenues by sub-sectors of government",
+      "url": "https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en/full-report/tax-revenues-by-subsectors-of-general-government_f9e88332.html",
+      "publishedDate": "2025-12-09",
+      "periodCovered": "Calendar year 2023 (national currency)",
+      "note": "Harmonised OECD classification of taxes (1000–6000) split by collecting sub-sector of general government. Used for the cross-country profile and for parts of the national total that have no national-source breakdown."
+    },
+    {
+      "id": "oecd-rs-2025-levels",
+      "org": "OECD",
+      "language": "en",
+      "kind": "international",
+      "accessed": "2026-09-29",
+      "title": "Revenue Statistics 2025, Chapter 3: Tax levels and tax structures (Tables 3.1 and 3.4)",
+      "url": "https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en/full-report/tax-levels-and-tax-structures-1965-2024_2033f3ea.html",
+      "publishedDate": "2025-12-09",
+      "periodCovered": "Calendar year 2023",
+      "note": "Total tax revenue as % of GDP and tax structure as % of total taxation, for all OECD members."
+    },
+    {
+      "id": "sng-wofi-profile",
+      "org": "OECD and United Cities and Local Governments (SNG-WOFI)",
+      "title": "World Observatory on Subnational Government Finance and Investment – country profile: Colombia",
+      "url": "https://www.sng-wofi.org/country_profiles/colombia.html",
+      "kind": "international",
+      "language": "en",
+      "publishedDate": "2022-10-24",
+      "periodCovered": "2020",
+      "accessed": "2026-09-29",
+      "note": "Subnational government revenue by category (tax revenue, grants and subsidies, tariffs and fees, property income, other) as % of total subnational revenue, 2022 edition."
+    }
+  ]
+}

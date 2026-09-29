@@ -1,0 +1,87 @@
+{
+  "version": 1,
+  "id": "slovak-republic",
+  "iso3": "SVK",
+  "isoNumeric": "703",
+  "names": { "en": "Slovak Republic", "native": "Slovensko", "nativeLang": "sk" },
+  "accent": "#6aa0ff",
+  "flag": ["#ffffff", "#0b4ea2", "#ee1c25"],
+  "structure": {
+    "version": 1,
+    "referenceYear": 2023,
+    "currency": "EUR",
+    "scale": "million",
+    "taxToGdp": 35.1,
+    "basis": "Collecting government",
+    "levels": [
+      {
+        "key": "central",
+        "label": "Central government",
+        "folioLevelIds": [],
+        "total": 24420,
+        "byType": { "income": 9607, "socialSecurity": 475, "payroll": 0, "property": 0, "goodsServices": 14338, "other": 0 }
+      },
+      {
+        "key": "local",
+        "label": "Local governments",
+        "folioLevelIds": [],
+        "total": 788,
+        "byType": { "income": 0, "socialSecurity": 0, "payroll": 0, "property": 510, "goodsServices": 278, "other": 0 }
+      },
+      {
+        "key": "social-security",
+        "label": "Social security funds",
+        "folioLevelIds": [],
+        "total": 18027,
+        "byType": { "income": 0, "socialSecurity": 18027, "payroll": 0, "property": 0, "goodsServices": 0, "other": 0 }
+      }
+    ],
+    "sourceIds": ["oecd-rs-2025-subsectors", "oecd-rs-2025-levels"],
+    "subnational": {
+      "ownSourceTaxShareOfRevenue": 7,
+      "grantsShareOfRevenue": 81.2,
+      "year": 2020,
+      "sourceId": "sng-wofi-profile",
+      "note": "Tariffs and fees 10.4%, property income 0.6%, other 0.7% of subnational revenue."
+    },
+    "notes": []
+  },
+  "sources": [
+    {
+      "id": "oecd-rs-2025-subsectors",
+      "org": "OECD",
+      "title": "Revenue Statistics 2025, Table 6.31: Slovak Republic, tax revenues by sub-sectors of government",
+      "url": "https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en/full-report/tax-revenues-by-subsectors-of-general-government_f9e88332.html",
+      "kind": "international",
+      "language": "en",
+      "publishedDate": "2025-12-09",
+      "periodCovered": "Calendar year 2023 (national currency)",
+      "accessed": "2026-09-29",
+      "note": "Harmonised OECD classification of taxes (1000–6000) split by collecting sub-sector of general government."
+    },
+    {
+      "id": "oecd-rs-2025-levels",
+      "org": "OECD",
+      "title": "Revenue Statistics 2025, Chapter 3: Tax levels and tax structures (Table 3.1)",
+      "url": "https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en/full-report/tax-levels-and-tax-structures-1965-2024_2033f3ea.html",
+      "kind": "international",
+      "language": "en",
+      "publishedDate": "2025-12-09",
+      "periodCovered": "Calendar year 2023",
+      "accessed": "2026-09-29",
+      "note": "Total tax revenue as % of GDP."
+    },
+    {
+      "id": "sng-wofi-profile",
+      "org": "OECD and United Cities and Local Governments (SNG-WOFI)",
+      "title": "World Observatory on Subnational Government Finance and Investment – country profile: Slovak Republic",
+      "url": "https://www.sng-wofi.org/country_profiles/slovak_republic.html",
+      "kind": "international",
+      "language": "en",
+      "publishedDate": "2022-10-24",
+      "periodCovered": "2020",
+      "accessed": "2026-09-29",
+      "note": "Subnational government revenue by category as % of total subnational revenue, 2022 edition."
+    }
+  ]
+}

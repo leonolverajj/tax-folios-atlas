@@ -1,0 +1,102 @@
+{
+  "groups": [
+    {
+      "title": "SIN collection, calendar 2025 (Bs millions) – SIN press release of 21 January 2026",
+      "defaults": {
+        "denominatorId": "sin-total-2025",
+        "scale": "million",
+        "currency": "BOB",
+        "period": { "label": "2025", "kind": "calendar-year", "start": "2025-01-01", "end": "2025-12-31" },
+        "basis": "Cash collection by the Servicio de Impuestos Nacionales, rounded to whole millions",
+        "sourceId": "sin-recaudacion-2025",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-09-28"
+      },
+      "observations": [
+        {
+          "nodeId": "nat-iva",
+          "amount": 13655,
+          "locator": "Table of taxes: Impuesto al Valor Agregado (29.7% of the total)",
+          "caveat": "Domestic-market IVA collected by the SIN; IVA on imports, collected by customs, is outside this total."
+        },
+        { "nodeId": "nat-iue", "amount": 10722, "locator": "Table of taxes: Impuesto sobre las Utilidades de las Empresas (23.3% of the total)" },
+        { "nodeId": "nat-it", "amount": 7338, "locator": "Table of taxes: Impuesto a las Transacciones (15.9% of the total)" }
+      ]
+    },
+    {
+      "title": "Hydrocarbons tax, January–October 2025 – SIN Memoria Enero–Octubre 2025",
+      "defaults": {
+        "denominatorId": "sin-total-jan-oct-2025",
+        "scale": "million",
+        "currency": "BOB",
+        "period": { "label": "Jan–Oct 2025", "kind": "calendar-year", "start": "2025-01-01", "end": "2025-10-31" },
+        "basis": "Cash collection by the Servicio de Impuestos Nacionales",
+        "sourceId": "sin-memoria-oct-2025",
+        "role": "informational",
+        "coverage": "exact",
+        "accessed": "2026-09-28"
+      },
+      "observations": [
+        {
+          "nodeId": "nat-idh",
+          "amount": 2717.4,
+          "locator": "Chapter 1: 'el Impuesto Directo a los Hidrocarburos (IDH) alcanzó Bs2.717,4 millones, equivalente al 7,1% del total'",
+          "caveat": "Ten-month figure shown against the ten-month total because no full-year IDH amount was located; it does not size the core."
+        }
+      ]
+    },
+    {
+      "title": "Customs and social security – OECD Revenue Statistics in Latin America and the Caribbean 2025, calendar year 2023",
+      "defaults": {
+        "scale": "million",
+        "currency": "BOB",
+        "period": { "label": "2023", "kind": "calendar-year", "start": "2023-01-01", "end": "2023-12-31" },
+        "basis": "OECD classification of taxes; all levels of government",
+        "sourceId": "oecd-rs-lac-2025-note",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-09-29"
+      },
+      "observations": [
+        {
+          "nodeId": "nat-aduana",
+          "denominatorId": "customs-oecd-2023",
+          "amount": 4314,
+          "locator": "Country note, Summary of the tax structure: Customs and import duties",
+          "caveat": "Two years older than the SIN figures."
+        },
+        {
+          "nodeId": "nat-seguridad-social",
+          "denominatorId": "social-security-oecd-2023",
+          "amount": 17908,
+          "locator": "Country note, Summary of the tax structure: Social security contributions",
+          "caveat": "Two years older than the SIN figures."
+        }
+      ]
+    }
+  ],
+  "unavailable": [
+    {
+      "nodeId": "nat-rc-iva",
+      "reason": "Included in the SIN's 'other taxes' (Bs 14,195 million in 2025), which is not broken down by tax in the sources located."
+    },
+    { "nodeId": "nat-ice", "reason": "Included in the SIN's 'other taxes' (Bs 14,195 million in 2025); no separate full-year figure located." },
+    {
+      "nodeId": "nat-iehd",
+      "reason": "Reported only together with the ITF (Bs 1,436.2 million, January–October 2025); no separate full-year figure located."
+    },
+    { "nodeId": "nat-itf", "reason": "Reported only together with the IEHD (Bs 1,436.2 million, January–October 2025) and now being eliminated." },
+    { "nodeId": "nat-igf", "reason": "Included in the SIN's 'other taxes'; no separate figure located." },
+    {
+      "nodeId": "dep-regalias",
+      "reason": "Royalty transfers are reported by the Ministry of Economy and the hydrocarbons and mining regulators; no consolidated 2025 total located."
+    },
+    { "nodeId": "dep-own-taxes", "reason": "Few departments levy these taxes and no consolidated data were located." },
+    { "nodeId": "dep-tasas", "reason": "No consolidated departmental fee data located." },
+    { "nodeId": "mun-ipbi", "reason": "Municipal revenue by tax is not published in a consolidated national table that was located." },
+    { "nodeId": "mun-ipva", "reason": "Municipal revenue by tax is not published in a consolidated national table that was located." },
+    { "nodeId": "mun-imt", "reason": "Municipal revenue by tax is not published in a consolidated national table that was located." },
+    { "nodeId": "mun-tasas-patentes", "reason": "Municipal revenue by tax is not published in a consolidated national table that was located." }
+  ]
+}

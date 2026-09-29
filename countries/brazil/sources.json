@@ -1,0 +1,318 @@
+{
+  "sources": [
+    {
+      "id": "rfb-ctb-2024",
+      "org": "Receita Federal do Brasil (Centro de Estudos Tributários e Aduaneiros)",
+      "title": "Carga Tributária no Brasil 2024 – Análise por Tributos e Bases de Incidência",
+      "url": "https://www.gov.br/receitafederal/pt-br/centrais-de-conteudo/publicacoes/estudos/carga-tributaria/carga-tributaria-no-brasil-2024",
+      "kind": "statistics",
+      "language": "pt-BR",
+      "publishedDate": "2025-12-02",
+      "periodCovered": "Calendar year 2024",
+      "accessed": "2026-09-28",
+      "note": "PDF 'CTB 2024_v2.pdf'. Table TRIB 00 gives revenue by tax and level of government (R$ millions, % of GDP, % of total). Since this edition FGTS and Sistema S are excluded from the tax burden."
+    },
+    {
+      "id": "rfb-arrecadacao-2025",
+      "org": "Receita Federal do Brasil",
+      "title": "Arrecadação Federal – relatórios 2025 (Análise Mensal, incl. dezembro/2025)",
+      "url": "https://www.gov.br/receitafederal/pt-br/centrais-de-conteudo/publicacoes/relatorios/arrecadacao-federal/2025",
+      "kind": "tax-agency",
+      "language": "pt-BR",
+      "publishedDate": "2026-01-22",
+      "periodCovered": "Calendar year 2025",
+      "accessed": "2026-09-28",
+      "note": "Federal collection only (R$ 2.886 trillion in 2025 vs R$ 2.652 trillion in 2024, announced 22 January 2026). Used as context; not mixed with the 2024 all-levels figures. The Receita and Ministry of Finance press-release pages for this announcement answered 'Conteúdo restrito – authentication required' when checked on 2026-09-28, so the public report index is cited instead."
+    },
+    {
+      "id": "cf-1988",
+      "org": "Presidência da República (Planalto)",
+      "title": "Constituição da República Federativa do Brasil de 1988 (Título VI – Da Tributação e do Orçamento, arts. 145–162)",
+      "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+      "kind": "legal",
+      "language": "pt-BR",
+      "publishedDate": null,
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": "ctn",
+      "org": "Presidência da República (Planalto)",
+      "title": "Lei nº 5.172/1966 – Código Tributário Nacional",
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/l5172compilado.htm",
+      "kind": "legal",
+      "language": "pt-BR",
+      "publishedDate": null,
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": "ec-132-2023",
+      "org": "Presidência da República (Planalto)",
+      "title": "Emenda Constitucional nº 132/2023 – Reforma Tributária do consumo (IBS, CBS, Imposto Seletivo)",
+      "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc132.htm",
+      "kind": "legal",
+      "language": "pt-BR",
+      "publishedDate": "2023-12-20",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": "lc-214-2025",
+      "org": "Presidência da República (Planalto)",
+      "title": "Lei Complementar nº 214/2025 – institui IBS, CBS e Imposto Seletivo",
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp214.htm",
+      "kind": "legal",
+      "language": "pt-BR",
+      "publishedDate": "2025-01-16",
+      "accessed": "2026-09-28",
+      "note": "Sets the 2026 test rates (CBS 0.9%, IBS 0.1%) and the 2027–2033 transition."
+    },
+    {
+      "id": "lei-15270-2025",
+      "org": "Presidência da República (Planalto)",
+      "title": "Lei nº 15.270/2025 – isenção do IRPF até R$ 5.000, redutor até R$ 7.350, tributação mínima de altas rendas e retenção sobre dividendos",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15270.htm",
+      "kind": "legal",
+      "language": "pt-BR",
+      "publishedDate": "2025-11-26",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": "rfb-dividendos-perguntas",
+      "org": "Receita Federal do Brasil",
+      "title": "Perguntas e Respostas – tributação de lucros e dividendos e altas rendas (Lei 15.270/2025)",
+      "url": "https://www.gov.br/receitafederal/pt-br/centrais-de-conteudo/publicacoes/perguntas-e-respostas/dirf/manual_padrao_rfb_per_tributacao_cotin_v-19-12-2025.pdf",
+      "kind": "tax-agency",
+      "language": "pt-BR",
+      "publishedDate": "2025-12-19",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": "inss-tabela",
+      "org": "Instituto Nacional do Seguro Social (INSS)",
+      "title": "Tabela de contribuição mensal (empregados, 2026)",
+      "url": "https://www.gov.br/inss/pt-br/direitos-e-deveres/inscricao-e-contribuicao/tabela-de-contribuicao-mensal",
+      "kind": "tax-agency",
+      "language": "pt-BR",
+      "publishedDate": null,
+      "periodCovered": "2026 (Portaria Interministerial MPS/MF nº 13, de 9 jan 2026)",
+      "accessed": "2026-09-28",
+      "note": "2026: 7.5% up to R$ 1,621.00; 9% to R$ 2,902.84; 12% to R$ 4,354.27; 14% to the ceiling of R$ 8,475.55."
+    },
+    {
+      "id": "rfb-reforma-consumo",
+      "org": "Receita Federal do Brasil",
+      "title": "Reforma Tributária do Consumo – programas e atividades",
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/acoes-e-programas/programas-e-atividades/reforma-tributaria-do-consumo",
+      "kind": "guidance",
+      "language": "pt-BR",
+      "publishedDate": null,
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": "lei-9249-1995",
+      "org": "Presidência da República (Planalto)",
+      "title": "Lei nº 9.249/1995 – IRPJ (alíquota de 15% e adicional de 10%)",
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/l9249.htm",
+      "kind": "legal",
+      "language": "pt-BR",
+      "publishedDate": "1995-12-26",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": "lei-7689-1988",
+      "org": "Presidência da República (Planalto)",
+      "title": "Lei nº 7.689/1988 – Contribuição Social sobre o Lucro Líquido (CSLL)",
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/l7689.htm",
+      "kind": "legal",
+      "language": "pt-BR",
+      "publishedDate": "1988-12-15",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": "lei-10637-2002",
+      "org": "Presidência da República (Planalto)",
+      "title": "Lei nº 10.637/2002 – PIS/Pasep não cumulativo",
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/2002/l10637.htm",
+      "kind": "legal",
+      "language": "pt-BR",
+      "publishedDate": "2002-12-30",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": "lei-10833-2003",
+      "org": "Presidência da República (Planalto)",
+      "title": "Lei nº 10.833/2003 – Cofins não cumulativa",
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/2003/l10.833.htm",
+      "kind": "legal",
+      "language": "pt-BR",
+      "publishedDate": "2003-12-29",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": "lei-8212-1991",
+      "org": "Presidência da República (Planalto)",
+      "title": "Lei nº 8.212/1991 – Plano de Custeio da Seguridade Social",
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/l8212cons.htm",
+      "kind": "legal",
+      "language": "pt-BR",
+      "publishedDate": "1991-07-24",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": "decreto-7212-2010",
+      "org": "Presidência da República (Planalto)",
+      "title": "Decreto nº 7.212/2010 – Regulamento do IPI (RIPI)",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/decreto/d7212.htm",
+      "kind": "legal",
+      "language": "pt-BR",
+      "publishedDate": "2010-06-15",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": "decreto-6306-2007",
+      "org": "Presidência da República (Planalto)",
+      "title": "Decreto nº 6.306/2007 – Regulamento do IOF",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2007/decreto/d6306.htm",
+      "kind": "legal",
+      "language": "pt-BR",
+      "publishedDate": "2007-12-14",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": "decreto-6759-2009",
+      "org": "Presidência da República (Planalto)",
+      "title": "Decreto nº 6.759/2009 – Regulamento Aduaneiro (Imposto de Importação e de Exportação)",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2009/decreto/d6759.htm",
+      "kind": "legal",
+      "language": "pt-BR",
+      "publishedDate": "2009-02-05",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": "lei-9393-1996",
+      "org": "Presidência da República (Planalto)",
+      "title": "Lei nº 9.393/1996 – Imposto sobre a Propriedade Territorial Rural (ITR)",
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/l9393.htm",
+      "kind": "legal",
+      "language": "pt-BR",
+      "publishedDate": "1996-12-19",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": "lei-10336-2001",
+      "org": "Presidência da República (Planalto)",
+      "title": "Lei nº 10.336/2001 – CIDE-Combustíveis",
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/leis_2001/l10336.htm",
+      "kind": "legal",
+      "language": "pt-BR",
+      "publishedDate": "2001-12-19",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": "lei-10168-2000",
+      "org": "Presidência da República (Planalto)",
+      "title": "Lei nº 10.168/2000 – CIDE sobre remessas ao exterior (CIDE-Remessas)",
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/l10168.htm",
+      "kind": "legal",
+      "language": "pt-BR",
+      "publishedDate": "2000-12-29",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": "lei-9424-1996",
+      "org": "Presidência da República (Planalto)",
+      "title": "Lei nº 9.424/1996 – Salário-Educação (art. 15)",
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/l9424.htm",
+      "kind": "legal",
+      "language": "pt-BR",
+      "publishedDate": "1996-12-24",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": "lc-87-1996",
+      "org": "Presidência da República (Planalto)",
+      "title": "Lei Complementar nº 87/1996 (Lei Kandir) – normas gerais do ICMS",
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp87.htm",
+      "kind": "legal",
+      "language": "pt-BR",
+      "publishedDate": "1996-09-13",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": "confaz",
+      "org": "Conselho Nacional de Política Fazendária (Confaz)",
+      "title": "Confaz – convênios e legislação do ICMS",
+      "url": "https://www.confaz.fazenda.gov.br/",
+      "kind": "tax-agency",
+      "language": "pt-BR",
+      "publishedDate": null,
+      "accessed": "2026-09-28",
+      "note": "Council of state finance secretaries; each state's ICMS rates are set in state law."
+    },
+    {
+      "id": "sp-lei-13296-2008",
+      "org": "Assembleia Legislativa do Estado de São Paulo",
+      "title": "Lei (SP) nº 13.296/2008 – Imposto sobre a Propriedade de Veículos Automotores (IPVA) – exemplo estadual",
+      "url": "https://www.al.sp.gov.br/repositorio/legislacao/lei/2008/lei-13296-23.12.2008.html",
+      "kind": "legal",
+      "language": "pt-BR",
+      "publishedDate": "2008-12-23",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": "lc-116-2003",
+      "org": "Presidência da República (Planalto)",
+      "title": "Lei Complementar nº 116/2003 – Imposto sobre Serviços de Qualquer Natureza (ISS)",
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
+      "kind": "legal",
+      "language": "pt-BR",
+      "publishedDate": "2003-07-31",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": "ec-39-2002",
+      "org": "Presidência da República (Planalto)",
+      "title": "Emenda Constitucional nº 39/2002 – Contribuição para o Custeio do Serviço de Iluminação Pública (art. 149-A)",
+      "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc39.htm",
+      "kind": "legal",
+      "language": "pt-BR",
+      "publishedDate": "2002-12-19",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": "oecd-rs-lac-2025-note",
+      "org": "OECD",
+      "language": "en",
+      "kind": "international",
+      "accessed": "2026-09-29",
+      "title": "Revenue Statistics in Latin America and the Caribbean 2025: Brazil (country note)",
+      "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/05/revenue-statistics-in-latin-america-and-the-caribbean-2025-country-notes_29961c77/brazil_b08e62db/f6a5cb34-en.pdf",
+      "publishedDate": "2025-05-27",
+      "periodCovered": "Calendar year 2023",
+      "note": "Tax-to-GDP ratio and tax structure by OECD heading, national currency."
+    },
+    {
+      "id": "oecd-rs-lac-2025-levels",
+      "org": "OECD",
+      "language": "en",
+      "kind": "international",
+      "accessed": "2026-09-29",
+      "title": "Revenue Statistics in Latin America and the Caribbean 2025, Table 1.4: attribution of tax revenue to sub-sectors of general government",
+      "url": "https://www.oecd.org/en/publications/revenue-statistics-in-latin-america-and-the-caribbean-2025_7594fbdd-en/full-report/tax-revenue-trends-1990-2023_ee246e3f.html",
+      "publishedDate": "2025-05-27",
+      "periodCovered": "Calendar year 2023",
+      "note": "Share of central, state, local government and social security funds in total tax revenue."
+    },
+    {
+      "id": "sng-wofi-profile",
+      "org": "OECD and United Cities and Local Governments (SNG-WOFI)",
+      "title": "World Observatory on Subnational Government Finance and Investment – country profile: Brazil",
+      "url": "https://www.sng-wofi.org/country_profiles/brazil.html",
+      "kind": "international",
+      "language": "en",
+      "publishedDate": "2022-10-24",
+      "periodCovered": "2020",
+      "accessed": "2026-09-29",
+      "note": "Subnational government revenue by category (tax revenue, grants and subsidies, tariffs and fees, property income, other) as % of total subnational revenue, 2022 edition."
+    }
+  ]
+}

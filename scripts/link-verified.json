@@ -1,0 +1,86 @@
+{
+  "https://www.canada.ca/en/revenue-agency/services/tax/individuals/tax-rates-brackets/current-year.html": {
+    "on": "2026-09-28",
+    "how": "opened with a browser-like fetch client (not the checker) and the expected page content was returned"
+  },
+  "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html": {
+    "on": "2026-09-28",
+    "how": "opened with a browser-like fetch client (not the checker) and the expected page content was returned"
+  },
+  "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/charge-collect-place-supply.html": {
+    "on": "2026-09-28",
+    "how": "opened with a browser-like fetch client (not the checker) and the expected page content was returned"
+  },
+  "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/payroll-deductions-contributions/employment-insurance-ei/ei-premium-rates-maximums.html": {
+    "on": "2026-09-28",
+    "how": "opened with a browser-like fetch client (not the checker) and the expected page content was returned"
+  },
+  "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/atscrates/air-travellers-security-charge-atsc-rates.html": {
+    "on": "2026-09-28",
+    "how": "opened with a browser-like fetch client (not the checker) and the expected page content was returned"
+  },
+  "https://www.canada.ca/en/department-finance/news/2026/06/legislation-passes-to-implement-measures-from-the-spring-economic-update-2026.html": {
+    "on": "2026-09-28",
+    "how": "opened with a browser-like fetch client (not the checker) and the expected page content was returned"
+  },
+  "https://www.tpsgc-pwgsc.gc.ca/recgen/cpc-pac/2025/vol2/s1/ecrc-csre-eng.html": {
+    "on": "2026-09-28",
+    "how": "opened with a browser-like fetch client (not the checker) and the expected page content was returned"
+  },
+  "https://www.tpsgc-pwgsc.gc.ca/recgen/cpc-pac/2025/vol1/s3/rvnu-eng.html": {
+    "on": "2026-09-28",
+    "how": "opened with a browser-like fetch client (not the checker) and the expected page content was returned"
+  },
+  "https://www.economiayfinanzas.gob.bo/node/19055": {
+    "on": "2026-09-28",
+    "how": "opened with a browser-like fetch client (not the checker) and the expected page content was returned"
+  },
+  "https://fiscaldata.treasury.gov/datasets/monthly-treasury-statement/receipts-of-the-u-s-government": {
+    "on": "2026-09-28",
+    "how": "opened with a fetch client; the Monthly Treasury Statement dataset page loads (the checker fails on the site certificate chain)"
+  },
+  "https://www.secretariasenado.gov.co/senado/basedoc/ley_2277_2022.html": {
+    "on": "2026-09-28",
+    "how": "the Senate host refuses connections from the build network; this exact URL is listed by a web search index as the official Senate text"
+  },
+  "https://www.secretariasenado.gov.co/senado/basedoc/ley_2056_2020.html": {
+    "on": "2026-09-28",
+    "how": "the Senate host refuses connections from the build network; this exact URL is listed by a web search index as the official Senate text"
+  },
+  "https://www.secretariasenado.gov.co/senado/basedoc/ley_1816_2016.html": {
+    "on": "2026-09-28",
+    "how": "the Senate host refuses connections from the build network; this exact URL is listed by a web search index as the official Senate text"
+  },
+  "https://www.secretariasenado.gov.co/senado/basedoc/estatuto_tributario.html": {
+    "on": "2026-09-28",
+    "how": "the Senate host refuses connections from the build network; this exact URL is listed by a web search index as the official Senate text"
+  },
+  "https://www.secretariasenado.gov.co/senado/basedoc/ley_1819_2016.html": {
+    "on": "2026-09-28",
+    "how": "the Senate host refuses connections from the build network; this exact URL is listed by a web search index as the official Senate text"
+  },
+  "https://www.secretariasenado.gov.co/senado/basedoc/ley_0488_1998.html": {
+    "on": "2026-09-28",
+    "how": "the Senate host refuses connections from the build network; this exact URL is listed by a web search index as the official Senate text"
+  },
+  "https://www.secretariasenado.gov.co/senado/basedoc/decreto_1333_1986.html": {
+    "on": "2026-09-28",
+    "how": "the Senate host refuses connections from the build network; this exact URL is listed by a web search index as the official Senate text"
+  },
+  "https://www.confaz.fazenda.gov.br/": {
+    "on": "2026-09-28",
+    "how": "the site refuses connections from the build network; listed by a web search index as the official Confaz site and convênio index"
+  },
+  "https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en/full-report/tax-revenues-by-subsectors-of-general-government_f9e88332.html": {
+    "on": "2026-09-29",
+    "how": "opened in a real browser (the checker gets HTTP 403 from the OECD site); the tables cited were read from this page"
+  },
+  "https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en/full-report/tax-levels-and-tax-structures-1965-2024_2033f3ea.html": {
+    "on": "2026-09-29",
+    "how": "opened in a real browser (the checker gets HTTP 403 from the OECD site); the tables cited were read from this page"
+  },
+  "https://www.oecd.org/en/publications/revenue-statistics-in-latin-america-and-the-caribbean-2025_7594fbdd-en/full-report/tax-revenue-trends-1990-2023_ee246e3f.html": {
+    "on": "2026-09-29",
+    "how": "opened in a real browser (the checker gets HTTP 403 from the OECD site); the tables cited were read from this page"
+  }
+}

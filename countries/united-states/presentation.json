@@ -1,0 +1,34 @@
+{
+  "nodes": {
+    "united-states": { "label": "United States", "sublabel": "Fiscal folio", "glyph": "globe" },
+    "federal": { "label": "Federal", "sublabel": "Congress · Treasury · IRS", "glyph": "landmark" },
+    "states": { "label": "States", "sublabel": "50 states + DC", "glyph": "city" },
+    "local": { "label": "Local", "sublabel": "Counties · cities · schools", "glyph": "town" },
+
+    "fed-individual-income-tax": { "label": "Individual income", "sublabel": "IRC §1", "glyph": "person" },
+    "fed-corporate-income-tax": { "label": "Corporate income", "sublabel": "21% flat", "glyph": "factory" },
+    "fed-social-security": { "label": "Social Security", "sublabel": "OASDI payroll", "glyph": "shield" },
+    "fed-medicare": { "label": "Medicare", "sublabel": "HI payroll", "glyph": "heart" },
+    "fed-unemployment-insurance": { "label": "Unemployment ins.", "sublabel": "FUTA + state", "glyph": "ledger" },
+    "fed-excise-taxes": { "label": "Excise taxes", "sublabel": "Fuel · tobacco · air", "glyph": "flame" },
+    "fed-estate-gift": { "label": "Estate & gift", "sublabel": "40% top", "glyph": "scale" },
+    "fed-customs-duties": { "label": "Customs duties", "sublabel": "Tariffs", "glyph": "ship" },
+
+    "state-individual-income-tax": { "label": "Income tax", "glyph": "person" },
+    "state-general-sales-tax": { "label": "Sales tax", "glyph": "cart" },
+    "state-corporate-income-tax": { "label": "Corporate income", "glyph": "factory" },
+    "state-motor-fuel-tax": { "label": "Motor fuel", "glyph": "car" },
+    "state-selective-excise": { "label": "Selective excise", "sublabel": "Alcohol · insurance", "glyph": "wine" },
+    "state-property-tax": { "label": "Property (state)", "glyph": "house" },
+    "state-license-taxes": { "label": "License taxes", "glyph": "stamp" },
+    "state-severance-tax": { "label": "Severance", "glyph": "oil" },
+    "state-other-taxes": { "label": "Transfer & other", "glyph": "key" },
+
+    "local-property-tax": { "label": "Property tax", "glyph": "house" },
+    "local-sales-tax": { "label": "Local sales tax", "glyph": "cart" },
+    "local-income-taxes": { "label": "Local income", "glyph": "person" },
+    "local-selective-sales": { "label": "Utility & selective", "glyph": "bolt" },
+    "local-license-taxes": { "label": "Licences", "glyph": "stamp" },
+    "local-other-taxes": { "label": "Transfer & other", "glyph": "key" }
+  }
+}

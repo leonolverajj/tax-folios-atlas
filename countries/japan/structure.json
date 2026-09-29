@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "referenceYear": 2023,
+  "currency": "JPY",
+  "scale": "billion",
+  "taxToGdp": 33.7,
+  "basis": "Collecting government",
+  "levels": [
+    {
+      "key": "central",
+      "label": "National government",
+      "folioLevelIds": ["national"],
+      "total": 77387,
+      "byType": { "income": 42560, "socialSecurity": 0, "payroll": 0, "property": 4579, "goodsServices": 30243, "other": 5 }
+    },
+    {
+      "key": "local",
+      "label": "Prefectures and municipalities",
+      "folioLevelIds": ["prefectural", "municipal"],
+      "total": 44621,
+      "byType": { "income": 22084, "socialSecurity": 0, "payroll": 0, "property": 11752, "goodsServices": 10294, "other": 491 },
+      "note": "The OECD classification does not separate prefectures (regional) from municipalities (local) for Japan."
+    },
+    {
+      "key": "social-security",
+      "label": "Social insurance schemes",
+      "folioLevelIds": [],
+      "total": 78335,
+      "byType": { "income": 0, "socialSecurity": 78335, "payroll": 0, "property": 0, "goodsServices": 0, "other": 0 }
+    }
+  ],
+  "sourceIds": ["oecd-rs-2025-subsectors", "oecd-rs-2025-levels"],
+  "subnational": {
+    "ownSourceTaxShareOfRevenue": 48.6,
+    "grantsShareOfRevenue": 42.7,
+    "year": 2019,
+    "sourceId": "sng-wofi-profile",
+    "note": "Municipalities are 55% of subnational revenue and prefectures 45%. Includes the local allocation tax as grants."
+  },
+  "notes": []
+}

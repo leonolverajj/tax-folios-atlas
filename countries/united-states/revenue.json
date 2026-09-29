@@ -1,0 +1,142 @@
+{
+  "groups": [
+    {
+      "title": "Federal receipts, FY2025 – Monthly Treasury Statement, Table 4 (net of refunds, dollars converted to $ millions)",
+      "defaults": {
+        "denominatorId": "federal-total-receipts",
+        "scale": "million",
+        "currency": "USD",
+        "period": { "label": "FY2025", "kind": "fiscal-year", "start": "2024-10-01", "end": "2025-09-30" },
+        "basis": "Cash receipts, net of refunds (fiscal year to date at 30 September 2025)",
+        "sourceId": "treasury-mts-fy2025",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-09-28"
+      },
+      "observations": [
+        {
+          "nodeId": "fed-individual-income-tax",
+          "amount": 2656044.447,
+          "locator": "Line 120 Total – Individual Income Taxes (withheld + other − refunds)"
+        },
+        { "nodeId": "fed-corporate-income-tax", "amount": 452089.303, "locator": "Line 130 Corporation Income Taxes" },
+        {
+          "nodeId": "fed-social-security",
+          "amount": 1283735.635,
+          "locator": "Lines 210 + 220: Federal Old-Age and Survivors Insurance Trust Fund 1,097,381.575 + Federal Disability Insurance Trust Fund 186,354.060",
+          "calculation": "1,097,381.575 + 186,354.060 = 1,283,735.635 (equals the Treasury's 'Total – Off-Budget' line)",
+          "caveat": "Trust-fund receipts from FICA and SECA payroll taxes; taxation of benefits is booked in individual income taxes."
+        },
+        {
+          "nodeId": "fed-medicare",
+          "amount": 395350.359,
+          "locator": "Line 229 Total – Federal Hospital Insurance Trust Fund (FICA, SECA and Railroad Retirement Board transfers)",
+          "caveat": "Includes a small transfer from the Railroad Retirement Board."
+        },
+        {
+          "nodeId": "fed-unemployment-insurance",
+          "amount": 54048.57,
+          "locator": "Line 269 Total – Unemployment Insurance (deposits by states, Federal Unemployment Taxes, Railroad Unemployment Taxes)",
+          "caveat": "Mostly state unemployment taxes deposited into the federal Unemployment Trust Fund; FUTA is a smaller part."
+        },
+        {
+          "nodeId": "fed-excise-taxes",
+          "amount": 105936.465,
+          "locator": "Line 314 Total – Excise Taxes (miscellaneous, Airport and Airway Trust Fund, Highway Trust Fund, Black Lung)"
+        },
+        { "nodeId": "fed-estate-gift", "amount": 29462.045, "locator": "Line 350 Estate and Gift Taxes" },
+        {
+          "nodeId": "fed-customs-duties",
+          "amount": 194865.74,
+          "locator": "Line 405 Customs Duties",
+          "caveat": "Reflects tariffs in force during Oct 2024 – Sep 2025, including IEEPA tariffs later ended (24 Feb 2026) and now subject to refund litigation; the FY2025 figure is not reduced for those refunds."
+        }
+      ]
+    },
+    {
+      "title": "State government tax collections, FY2024 – Census Bureau STC flat file (amounts in $ thousands)",
+      "defaults": {
+        "denominatorId": "state-tax-collections",
+        "scale": "thousand",
+        "currency": "USD",
+        "period": { "label": "FY2024", "kind": "fiscal-year", "start": "2023-07-01", "end": "2024-06-30" },
+        "basis": "Taxes collected by state governments (Census Bureau classification), US column",
+        "sourceId": "census-stc-2024",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-09-28"
+      },
+      "observations": [
+        { "nodeId": "state-individual-income-tax", "amount": 479627360, "locator": "T40 Individual Income Taxes" },
+        { "nodeId": "state-general-sales-tax", "amount": 465395016, "locator": "T09 General Sales and Gross Receipts Taxes" },
+        { "nodeId": "state-corporate-income-tax", "amount": 165294651, "locator": "T41 Corporation Net Income Taxes" },
+        { "nodeId": "state-motor-fuel-tax", "amount": 58471778, "locator": "T13 Motor Fuels Sales Tax" },
+        {
+          "nodeId": "state-selective-excise",
+          "amount": 153811002,
+          "locator": "T10 Alcoholic Beverages 8,410,807 + T11 Amusements 11,991,992 + T12 Insurance Premiums 34,963,367 + T15 Public Utilities 13,178,367 + T16 Tobacco 15,663,489 + T18 Sports Betting 2,592,975 + T19 Other Selective 67,010,005",
+          "calculation": "8,410,807 + 11,991,992 + 34,963,367 + 13,178,367 + 15,663,489 + 2,592,975 + 67,010,005 = 153,811,002",
+          "coverage": "exact"
+        },
+        { "nodeId": "state-property-tax", "amount": 24172940, "locator": "T01 Property Taxes" },
+        {
+          "nodeId": "state-license-taxes",
+          "amount": 71480340,
+          "locator": "T20 851,939 + T21 467,703 + T22 9,424,591 + T23 1,991,249 + T24 34,597,810 + T25 3,162,627 + T27 1,366,236 + T28 17,566,956 + T29 2,051,229",
+          "calculation": "Sum of license items T20–T29 (thousands) = 71,480,340"
+        },
+        { "nodeId": "state-severance-tax", "amount": 21929161, "locator": "T53 Severance Taxes" },
+        {
+          "nodeId": "state-other-taxes",
+          "amount": 31857165,
+          "locator": "T50 Death and Gift 6,890,085 + T51 Documentary and Stock Transfer 11,870,866 + T99 Taxes NEC 13,096,214",
+          "calculation": "6,890,085 + 11,870,866 + 13,096,214 = 31,857,165"
+        }
+      ]
+    },
+    {
+      "title": "Local government tax revenue, FY2024 – Census 2024 Annual Survey of State and Local Government Finances, individual unit file (amounts in $ thousands)",
+      "defaults": {
+        "denominatorId": "local-tax-revenue",
+        "scale": "thousand",
+        "currency": "USD",
+        "period": { "label": "FY2024", "kind": "fiscal-year", "start": "2023-07-01", "end": "2024-06-30" },
+        "basis": "Taxes of local governments (counties, municipalities, townships, special districts, school districts), including Census imputations",
+        "sourceId": "census-asfin-2024",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-09-28"
+      },
+      "observations": [
+        { "nodeId": "local-property-tax", "amount": 627889867, "locator": "T01 Property Tax, summed over government types 1–5" },
+        { "nodeId": "local-sales-tax", "amount": 127512548, "locator": "T09 Total General Sales Taxes, summed over government types 1–5" },
+        {
+          "nodeId": "local-income-taxes",
+          "amount": 55026755,
+          "locator": "T40 Individual Income Tax 42,535,956 + T41 Corporation Net Income Tax 12,490,799",
+          "calculation": "42,535,956 + 12,490,799 = 55,026,755"
+        },
+        {
+          "nodeId": "local-selective-sales",
+          "amount": 40524052,
+          "locator": "T10 721,743 + T11 1,125,756 + T12 1,359,513 + T13 1,880,636 + T14 61,961 + T15 14,220,121 + T16 261,713 + T19 20,892,609",
+          "calculation": "Sum of the local selective-sales items T10–T19 (thousands) = 40,524,052",
+          "caveat": "Includes local motor-fuel (T13) and pari-mutuel (T14) taxes, which have no separate core at the local level."
+        },
+        {
+          "nodeId": "local-license-taxes",
+          "amount": 25139565,
+          "locator": "T20 215,292 + T21 133,349 + T22 53,804 + T24 2,188,873 + T25 10,162 + T27 477,090 + T28 9,734,881 + T29 12,326,114",
+          "calculation": "Sum of local license items (thousands)"
+        },
+        {
+          "nodeId": "local-other-taxes",
+          "amount": 11860050,
+          "locator": "T50 247,269 + T51 5,427,011 + T53 67,907 + T99 6,117,863",
+          "calculation": "247,269 + 5,427,011 + 67,907 + 6,117,863 = 11,860,050"
+        }
+      ]
+    }
+  ],
+  "unavailable": []
+}

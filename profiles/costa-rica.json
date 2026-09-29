@@ -1,0 +1,87 @@
+{
+  "version": 1,
+  "id": "costa-rica",
+  "iso3": "CRI",
+  "isoNumeric": "188",
+  "names": { "en": "Costa Rica", "native": "Costa Rica", "nativeLang": "es" },
+  "accent": "#6aa0ff",
+  "flag": ["#002b7f", "#ffffff", "#ce1126"],
+  "structure": {
+    "version": 1,
+    "referenceYear": 2023,
+    "currency": "CRC",
+    "scale": "million",
+    "taxToGdp": 24.9,
+    "basis": "Collecting government",
+    "levels": [
+      {
+        "key": "central",
+        "label": "Central government",
+        "folioLevelIds": [],
+        "total": 7075402,
+        "byType": { "income": 2486519, "socialSecurity": 554243, "payroll": 0, "property": 65393, "goodsServices": 3746704, "other": 222541 }
+      },
+      {
+        "key": "local",
+        "label": "Local governments",
+        "folioLevelIds": [],
+        "total": 325429,
+        "byType": { "income": 0, "socialSecurity": 0, "payroll": 0, "property": 155404, "goodsServices": 169947, "other": 78 }
+      },
+      {
+        "key": "social-security",
+        "label": "Social security funds",
+        "folioLevelIds": [],
+        "total": 4331455,
+        "byType": { "income": 0, "socialSecurity": 3637837, "payroll": 693618, "property": 0, "goodsServices": 0, "other": 0 }
+      }
+    ],
+    "sourceIds": ["oecd-rs-2025-subsectors", "oecd-rs-2025-levels"],
+    "subnational": {
+      "ownSourceTaxShareOfRevenue": 39.5,
+      "grantsShareOfRevenue": 24,
+      "year": 2020,
+      "sourceId": "sng-wofi-profile",
+      "note": "Tariffs and fees 32.6%, property income 2.6%, other 1.3% of subnational revenue."
+    },
+    "notes": ["This is a unitary state: the source reports no regional tax collection."]
+  },
+  "sources": [
+    {
+      "id": "oecd-rs-2025-subsectors",
+      "org": "OECD",
+      "title": "Revenue Statistics 2025, Table 6.7: Costa Rica, tax revenues by sub-sectors of government",
+      "url": "https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en/full-report/tax-revenues-by-subsectors-of-general-government_f9e88332.html",
+      "kind": "international",
+      "language": "en",
+      "publishedDate": "2025-12-09",
+      "periodCovered": "Calendar year 2023 (national currency)",
+      "accessed": "2026-09-29",
+      "note": "Harmonised OECD classification of taxes (1000–6000) split by collecting sub-sector of general government."
+    },
+    {
+      "id": "oecd-rs-2025-levels",
+      "org": "OECD",
+      "title": "Revenue Statistics 2025, Chapter 3: Tax levels and tax structures (Table 3.1)",
+      "url": "https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en/full-report/tax-levels-and-tax-structures-1965-2024_2033f3ea.html",
+      "kind": "international",
+      "language": "en",
+      "publishedDate": "2025-12-09",
+      "periodCovered": "Calendar year 2023",
+      "accessed": "2026-09-29",
+      "note": "Total tax revenue as % of GDP."
+    },
+    {
+      "id": "sng-wofi-profile",
+      "org": "OECD and United Cities and Local Governments (SNG-WOFI)",
+      "title": "World Observatory on Subnational Government Finance and Investment – country profile: Costa Rica",
+      "url": "https://www.sng-wofi.org/country_profiles/costa_rica.html",
+      "kind": "international",
+      "language": "en",
+      "publishedDate": "2022-10-24",
+      "periodCovered": "2020",
+      "accessed": "2026-09-29",
+      "note": "Subnational government revenue by category as % of total subnational revenue, 2022 edition."
+    }
+  ]
+}

@@ -1,0 +1,477 @@
+{
+  "instruments": [
+    {
+      "id": "nat-renta",
+      "parentId": "national",
+      "levelId": "national",
+      "category": "tax",
+      "family": "income-mixed",
+      "status": "current",
+      "names": { "official": "Impuesto sobre la renta y complementarios (personas naturales y jurídicas)", "native": "Impuesto sobre la renta y complementarios", "common": "Income tax (renta)", "abbreviation": "Renta" },
+      "taxes": { "base": "Income of residents (worldwide) and of non-residents from Colombian sources: wages, business profits, capital income and occasional gains.", "payer": "Individuals and companies; withholding at source (retención en la fuente) collects most of it during the year." },
+      "rate": {
+        "kind": "progressive",
+        "headline": "Individuals 0%–39%; companies 35%",
+        "details": [
+          "Individuals: seven UVT-based brackets at 0%, 19%, 28%, 33%, 35%, 37% and 39% (Estatuto Tributario art. 241, as amended by Ley 2277/2022). The 2026 UVT is COP 52,374.",
+          "Companies: general rate of 35%; financial entities pay additional points under Ley 2277/2022.",
+          "Retention (retención en la fuente) is an advance payment, not a separate tax; DIAN's collection statistics report it inside the income-tax total."
+        ],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "The largest national tax. Emergency decree 1474 of December 2025 tried to add a 15% surtax on financial-sector income and change wealth tax; the Constitutional Court struck the whole decree down in April 2026, so the pre-decree rules apply.",
+      "exceptions": ["Special regimes: SIMPLE (separate core), free-trade-zone and the 'régimen de zonas económicas'."],
+      "legalRefs": [
+        { "sourceId": "estatuto-tributario", "locator": "arts. 240 (company rate), 241 (individual table)" },
+        { "sourceId": "ley-2277-2022" },
+        { "sourceId": "uvt-2026" },
+        { "sourceId": "corte-c079-2026" }
+      ],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "nat-iva",
+      "parentId": "national",
+      "levelId": "national",
+      "category": "tax",
+      "family": "general-consumption",
+      "status": "current",
+      "names": { "official": "Impuesto sobre las ventas (IVA)", "native": "Impuesto sobre las ventas – IVA", "common": "Value-added tax (IVA)", "abbreviation": "IVA" },
+      "taxes": { "base": "Sales of goods, provision of services and imports.", "payer": "Consumers; businesses collect it and take credits." },
+      "rate": {
+        "kind": "flat",
+        "headline": "19% general; 5% reduced; 0% on exports",
+        "details": ["Some basic goods are exempt or zero-rated; a 5% reduced rate applies to selected goods and services.", "In January 2026 emergency decree 1474 briefly raised IVA on liquors to 19%; the Constitutional Court annulled it and the earlier rate applies again, with refunds ordered."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "The second-largest national tax. DIAN reports it in three pieces: domestic returns, withholding on IVA and IVA on imports collected by customs; this core adds them together.",
+      "exceptions": ["Many basic foods, medicines and services are excluded or exempt; the lists are in the Estatuto Tributario."],
+      "legalRefs": [
+        { "sourceId": "estatuto-tributario", "locator": "Libro Tercero – arts. 420 ss." },
+        { "sourceId": "corte-c079-2026" }
+      ],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "nat-simple",
+      "parentId": "national",
+      "levelId": "national",
+      "category": "tax",
+      "family": "income-mixed",
+      "status": "current",
+      "names": { "official": "Impuesto unificado bajo el Régimen Simple de Tributación (SIMPLE)", "native": "Régimen Simple de Tributación – SIMPLE", "common": "SIMPLE small-business tax", "abbreviation": "SIMPLE" },
+      "taxes": { "base": "Gross income of small businesses and professionals opting into the regime (income up to 100,000 UVT).", "payer": "Enrolled small taxpayers." },
+      "rate": {
+        "kind": "range",
+        "headline": "Graduated rates by gross income and activity group",
+        "details": ["A single payment replaces income tax and, for enrolled taxpayers, the municipal ICA and the national consumption tax."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "A simplified integrated tax that has grown quickly since 2019.",
+      "exceptions": ["Some professions and high earners cannot opt in."],
+      "legalRefs": [{ "sourceId": "estatuto-tributario", "locator": "arts. 903 ss." }],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "nat-aranceles",
+      "parentId": "national",
+      "levelId": "national",
+      "category": "customs-duty",
+      "family": "trade",
+      "status": "current",
+      "names": { "official": "Derechos de aduana (aranceles)", "native": "Aranceles de aduana", "common": "Customs tariffs", "abbreviation": "Aranceles" },
+      "taxes": { "base": "Customs value of imported goods, by tariff line.", "payer": "Importers." },
+      "rate": {
+        "kind": "range",
+        "headline": "0% to about 40% by tariff line",
+        "details": ["Most industrial inputs face low tariffs; preferential rates apply under Colombia's trade agreements."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "Duties collected by DIAN customs, reported separately from the IVA that is charged at the border.",
+      "exceptions": ["Trade agreements with the United States, the EU, the Pacific Alliance and others reduce or remove duties."],
+      "legalRefs": [{ "sourceId": "constitucion-1991", "locator": "art. 150-19-c (tariff regime set by Congress framework law)" }],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "nat-gmf",
+      "parentId": "national",
+      "levelId": "national",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "Gravamen a los Movimientos Financieros (GMF)", "native": "Gravamen a los Movimientos Financieros – '4 por mil'", "common": "Financial transactions tax (4×1000)", "abbreviation": "GMF" },
+      "taxes": { "base": "Withdrawals and transfers from bank and savings accounts and other financial transactions.", "payer": "Account holders; banks withhold." },
+      "rate": {
+        "kind": "flat",
+        "headline": "0.4% (4 per thousand)",
+        "details": ["One account per person is exempt up to 350 UVT of monthly withdrawals."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "A permanent tax on financial movements, an unusually productive tax in Colombia.",
+      "exceptions": ["Certain government and inter-bank transfers are exempt."],
+      "legalRefs": [{ "sourceId": "estatuto-tributario", "locator": "arts. 870 ss." }],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "nat-patrimonio",
+      "parentId": "national",
+      "levelId": "national",
+      "category": "tax",
+      "family": "property",
+      "status": "transitional",
+      "statusNote": "Rules changed repeatedly in 2026: emergency decree 1474/2025 (annulled by the Constitutional Court in April 2026, C-079/26) and decree 173/2026 adopted under the second emergency (Decreto 150/2026), whose review by the Court is ongoing. Check the current text before relying on any threshold or rate.",
+      "names": { "official": "Impuesto al patrimonio", "native": "Impuesto al patrimonio", "common": "Wealth tax", "abbreviation": "Patrimonio" },
+      "taxes": { "base": "Net worth above 72,000 UVT for individuals on 1 January (about COP 3.8 billion in 2026); 200,000 UVT for certain legal persons.", "payer": "High-net-worth individuals and some companies." },
+      "rate": {
+        "kind": "progressive",
+        "headline": "0.5% – 1.5% of net worth for individuals (baseline Ley 2277/2022)",
+        "details": ["Baseline: 0.5% between 72,000 and 122,000 UVT, 1% from 122,000 to 239,000 UVT and 1.5% above.", "A UVT is COP 52,374 in 2026.", "2026 decrees changed the tax for legal persons; their current validity should be verified."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "A permanent wealth tax created by the 2022 reform. It raises little revenue but is politically prominent.",
+      "exceptions": ["The main residence and shares of some companies are excluded up to limits."],
+      "legalRefs": [
+        { "sourceId": "estatuto-tributario", "locator": "arts. 292-2 ss." },
+        { "sourceId": "ley-2277-2022" },
+        { "sourceId": "decreto-1474-2025", "note": "Annulled by Sentencia C-079/26" },
+        { "sourceId": "decreto-173-2026" },
+        { "sourceId": "corte-c079-2026" }
+      ],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "nat-consumo",
+      "parentId": "national",
+      "levelId": "national",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Impuesto nacional al consumo", "native": "Impuesto nacional al consumo", "common": "National consumption tax", "abbreviation": "Consumption tax" },
+      "taxes": { "base": "Restaurants and bars, mobile telephony and data services, and certain vehicles and other items.", "payer": "Consumers; sellers remit." },
+      "rate": {
+        "kind": "range",
+        "headline": "4%, 8% or 16% depending on the item",
+        "details": ["Restaurants 8%; mobile telephony and data 4%; vehicles 8% or 16% by price."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "A single-stage tax, distinct from IVA, on a short list of consumption goods and services.",
+      "exceptions": ["Restaurants under the SIMPLE regime are exempt from the consumption tax."],
+      "legalRefs": [{ "sourceId": "estatuto-tributario", "locator": "arts. 512-1 ss." }],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "nat-gasolina",
+      "parentId": "national",
+      "levelId": "national",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Impuesto nacional a la gasolina y al ACPM", "native": "Impuesto nacional a la gasolina y al ACPM", "common": "National gasoline and diesel tax", "abbreviation": "Fuel tax" },
+      "taxes": { "base": "Gallons of gasoline and ACPM (diesel) sold or imported.", "payer": "Producers and importers; passed on at the pump." },
+      "rate": {
+        "kind": "specific",
+        "headline": "Fixed peso amount per gallon, adjusted for inflation",
+        "details": ["Set by law and indexed annually; the government has lowered effective yield when adjusting fuel prices."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "A per-gallon national tax. Its collection fell in 2025 alongside a lower yield and price policy.",
+      "exceptions": ["Departments and municipalities also levy surcharges on gasoline."],
+      "legalRefs": [{ "sourceId": "ley-1607-2012", "locator": "arts. 167 ss." }],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "nat-carbono",
+      "parentId": "national",
+      "levelId": "national",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Impuesto nacional al carbono", "native": "Impuesto nacional al carbono", "common": "Carbon tax", "abbreviation": "Carbon tax" },
+      "taxes": { "base": "Carbon content of fossil fuels sold or imported, by tonne of CO₂ equivalent.", "payer": "Producers and importers of fuels." },
+      "rate": {
+        "kind": "specific",
+        "headline": "Peso amount per tonne of CO₂e, indexed annually",
+        "details": ["Companies can offset it by buying certified carbon credits."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "An environmental tax on fossil-fuel emissions.",
+      "exceptions": ["Natural gas and LPG have exemptions."],
+      "legalRefs": [{ "sourceId": "ley-1819-2016", "locator": "arts. 221 ss." }],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "nat-saludables",
+      "parentId": "national",
+      "levelId": "national",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Impuestos saludables: bebidas ultraprocesadas azucaradas y productos comestibles ultraprocesados", "native": "Impuestos saludables", "common": "Health taxes (sugary drinks, ultra-processed foods)", "abbreviation": "Health taxes" },
+      "taxes": { "base": "Sugary drinks by sugar content and ultra-processed foods high in sugar, sodium or saturated fat.", "payer": "Producers and importers; passed on in prices." },
+      "rate": {
+        "kind": "mechanism",
+        "headline": "Ultra-processed foods 20% (from 2025); drinks per 100 ml by sugar content",
+        "details": ["The food tax rose from 10% in 2023 to 15% in 2024 and 20% from 2025.", "Drinks pay a fixed peso amount per 100 ml, indexed to inflation."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "Taxes introduced by the 2022 reform to discourage unhealthy consumption; their revenue was COP 3.3 trillion in 2025.",
+      "exceptions": ["Basic products and some categories are excluded; see the Estatuto Tributario for the current lists."],
+      "legalRefs": [
+        { "sourceId": "ley-2277-2022", "locator": "arts. 513-1 to 513-13" },
+        { "sourceId": "estatuto-tributario", "locator": "arts. 513-1 ss." }
+      ],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "nat-seguridad-social",
+      "parentId": "national",
+      "levelId": "national",
+      "category": "social-contribution",
+      "family": "social-security",
+      "status": "current",
+      "names": { "official": "Cotizaciones al Sistema de Seguridad Social Integral (pensión, salud y riesgos laborales)", "native": "Aportes a seguridad social", "common": "Social security contributions", "abbreviation": "Social security" },
+      "taxes": { "base": "Monthly base salary (IBC) between one minimum wage and 25 minimum wages.", "payer": "Employers, employees and the self-employed." },
+      "rate": {
+        "kind": "range",
+        "headline": "Pension 16% of IBC; health 12.5%; occupational risk by class",
+        "details": ["Pension: 12% employer + 4% employee; health: 8.5% employer + 4% employee, with employer health and parafiscal exemptions for wages under 10 minimum wages."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "Compulsory contributions to pension funds, health insurers and risk insurers. They are administered by the pension and health systems, not the DIAN.",
+      "exceptions": ["The 2024 pension reform (Ley 2381 de 2024) has faced constitutional review; verify its current status before relying on any pension rule."],
+      "legalRefs": [{ "sourceId": "ley-100-1993" }],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "nat-parafiscales",
+      "parentId": "national",
+      "levelId": "national",
+      "category": "special-levy",
+      "family": "payroll",
+      "status": "current",
+      "names": { "official": "Aportes parafiscales (SENA, ICBF y cajas de compensación familiar)", "native": "Aportes parafiscales", "common": "Parafiscal payroll contributions", "abbreviation": "Parafiscales" },
+      "taxes": { "base": "Total payroll of employers.", "payer": "Employers." },
+      "rate": {
+        "kind": "flat",
+        "headline": "9% of payroll: SENA 2%, ICBF 3%, family compensation funds 4%",
+        "details": ["Employers with total payroll under 10 minimum wages per worker are exempt from SENA and ICBF."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "Earmarked contributions for training, child welfare and family subsidies.",
+      "exceptions": ["Non-profit and some other entities are exempt."],
+      "legalRefs": [{ "sourceId": "estatuto-tributario", "locator": "art. 114-1 (exoneration)" }],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "nat-regalias",
+      "parentId": "national",
+      "levelId": "national",
+      "category": "royalty",
+      "family": "resource",
+      "status": "current",
+      "names": { "official": "Regalías por explotación de recursos naturales no renovables (Sistema General de Regalías)", "native": "Regalías – Sistema General de Regalías", "common": "Royalties (SGR)", "abbreviation": "Royalties" },
+      "taxes": { "base": "Value of oil, gas, coal, minerals and other non-renewable resources extracted.", "payer": "Extractive companies." },
+      "rate": {
+        "kind": "mechanism",
+        "headline": "Percentage of production value by resource",
+        "details": ["Royalty rates by resource are set by law (for example a scale for hydrocarbons); the proceeds are distributed to territories through the SGR."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "The State owns subsoil resources, so companies pay royalties, not taxes. The system shares them among producing and non-producing territories.",
+      "exceptions": ["The SGR is a biennial budget separate from the national budget."],
+      "legalRefs": [
+        { "sourceId": "constitucion-1991", "locator": "arts. 360–361" },
+        { "sourceId": "ley-2056-2020" }
+      ],
+      "checkedOn": "2026-09-28"
+    },
+
+    {
+      "id": "dep-vehiculos",
+      "parentId": "departmental",
+      "levelId": "departmental",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Impuesto sobre vehículos automotores", "native": "Impuesto sobre vehículos automotores", "common": "Vehicle tax", "abbreviation": "Vehicle tax" },
+      "taxes": { "base": "Commercial value of vehicles registered in the department.", "payer": "Vehicle owners." },
+      "rate": {
+        "kind": "range",
+        "headline": "1.5%, 2.5% or 3.5% by vehicle value band",
+        "details": ["Departments choose within these legal bands; 20% of revenue is shared with the municipality where the vehicle is registered."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "An annual tax collected by the department.",
+      "exceptions": ["Motorcycles under 125 cc are excluded."],
+      "legalRefs": [{ "sourceId": "ley-488-1998", "locator": "arts. 138 ss." }],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "dep-registro",
+      "parentId": "departmental",
+      "levelId": "departmental",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "Impuesto de registro", "native": "Impuesto de registro", "common": "Registration tax", "abbreviation": "Registration tax" },
+      "taxes": { "base": "Registration of deeds, company documents and other acts before notary and chambers of commerce.", "payer": "Persons requesting registration." },
+      "rate": {
+        "kind": "range",
+        "headline": "0.5% to 1% of the value of registered acts",
+        "details": ["Departmental assemblies set the rate within national limits."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "A tax on registering property and corporate acts.",
+      "exceptions": ["Some public-interest acts are exempt."],
+      "legalRefs": [{ "sourceId": "ley-223-1995", "locator": "arts. 226 ss." }],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "dep-consumo",
+      "parentId": "departmental",
+      "levelId": "departmental",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Impuestos al consumo de cerveza, licores, vinos, aperitivos y cigarrillos", "native": "Impuesto al consumo de cerveza, licores y cigarrillos", "common": "Beer, liquor and tobacco consumption taxes", "abbreviation": "Consumption taxes" },
+      "taxes": { "base": "Beer, spirits, wine and cigarettes sold in the department.", "payer": "Producers and importers; passed on in prices." },
+      "rate": {
+        "kind": "mechanism",
+        "headline": "Set by national law; ad valorem and specific components",
+        "details": ["Departments collect these taxes but the rates are fixed by national law."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "Departmental excise taxes on alcohol and tobacco, an important source of health and education funding.",
+      "exceptions": ["Liquor tax rules changed by Ley 1816 de 2016."],
+      "legalRefs": [
+        { "sourceId": "ley-223-1995", "locator": "beer, cigarettes" },
+        { "sourceId": "ley-1816-2016", "locator": "spirits and wines" }
+      ],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "dep-estampillas",
+      "parentId": "departmental",
+      "levelId": "departmental",
+      "category": "special-levy",
+      "family": "other",
+      "status": "current",
+      "names": { "official": "Estampillas departamentales (pro-cultura, pro-universidad, pro-hospital, etc.)", "native": "Estampillas", "common": "Earmarked stamp duties", "abbreviation": "Estampillas" },
+      "taxes": { "base": "Contracts and administrative acts with the department and its entities.", "payer": "Contractors and applicants." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Varies by department and stamp",
+        "details": ["Each stamp is authorised by a national law and adopted by departmental ordinance with a percentage rate within a legal cap."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "Small earmarked charges on public contracts for culture, universities, hospitals and the elderly.",
+      "exceptions": ["Caps and shares differ by stamp."],
+      "legalRefs": [{ "sourceId": "constitucion-1991", "locator": "arts. 300-4, 338" }],
+      "checkedOn": "2026-09-28"
+    },
+
+    {
+      "id": "mun-predial",
+      "parentId": "municipal",
+      "levelId": "municipal",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "Impuesto predial unificado", "native": "Impuesto predial unificado", "common": "Property tax (predial)", "abbreviation": "Predial" },
+      "taxes": { "base": "Cadastral value of urban and rural property.", "payer": "Property owners." },
+      "rate": {
+        "kind": "range",
+        "headline": "5 to 16 per thousand of cadastral value (0.5%–1.6%)",
+        "details": ["Municipal councils set the rate within the legal band; lower for low-value housing."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "The main municipal property tax; in Bogotá it is the second-largest tax after the ICA.",
+      "exceptions": ["Municipalities update cadastral values on national timetables."],
+      "legalRefs": [{ "sourceId": "ley-44-1990", "locator": "art. 4, rate band as modified by Ley 1450 de 2011 art. 23" }],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "mun-ica",
+      "parentId": "municipal",
+      "levelId": "municipal",
+      "category": "tax",
+      "family": "general-consumption",
+      "status": "current",
+      "names": { "official": "Impuesto de industria y comercio (ICA) y complementarios", "native": "Impuesto de industria y comercio (ICA)", "common": "Industry and commerce tax (ICA)", "abbreviation": "ICA" },
+      "taxes": { "base": "Gross receipts from industrial, commercial and service activities in the municipality.", "payer": "Businesses and professionals." },
+      "rate": {
+        "kind": "range",
+        "headline": "2 to 10 per thousand of gross receipts by activity",
+        "details": ["Municipal councils set rates within national ranges (industry 2–7‰, commerce and services 2–10‰)."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "A tax on business turnover; in cities like Bogotá and Medellín it now raises more than the property tax.",
+      "exceptions": ["Businesses in the SIMPLE regime pay ICA inside the single payment."],
+      "legalRefs": [
+        { "sourceId": "ley-14-1983" },
+        { "sourceId": "decreto-1333-1986", "locator": "arts. 195 ss." }
+      ],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "mun-sobretasa-gasolina",
+      "parentId": "municipal",
+      "levelId": "municipal",
+      "category": "special-levy",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Sobretasa municipal a la gasolina motor", "native": "Sobretasa a la gasolina", "common": "Municipal gasoline surcharge", "abbreviation": "Gasoline surcharge" },
+      "taxes": { "base": "Gasoline sold at retail in the municipality.", "payer": "Consumers; distributors collect." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Set by each municipal council within a legal cap",
+        "details": ["The cap is a percentage of the reference sale price."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "A surcharge earmarked for road and transport investment.",
+      "exceptions": ["Departments levy a corresponding surcharge on diesel (ACPM)."],
+      "legalRefs": [{ "sourceId": "ley-488-1998", "locator": "arts. 55 ss." }],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "mun-alumbrado",
+      "parentId": "municipal",
+      "levelId": "municipal",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Impuesto de alumbrado público", "native": "Impuesto de alumbrado público", "common": "Street-lighting tax", "abbreviation": "Lighting tax" },
+      "taxes": { "base": "Users of public lighting service, usually billed with electricity.", "payer": "Electricity customers and property owners." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Varies by municipality",
+        "details": ["Municipal councils set rates by user category under national rules."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "A local charge to fund public lighting; its legal design has been litigated repeatedly.",
+      "exceptions": ["Bogotá adopted a property-tax surcharge to finance new lighting in 2024."],
+      "legalRefs": [{ "sourceId": "ley-1819-2016", "locator": "arts. 349–353" }],
+      "checkedOn": "2026-09-28"
+    },
+    {
+      "id": "mun-plusvalia-valorizacion",
+      "parentId": "municipal",
+      "levelId": "municipal",
+      "category": "special-levy",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "Participación en plusvalía y contribución de valorización", "native": "Plusvalía y valorización", "common": "Land-value contributions", "abbreviation": "Plusvalía" },
+      "taxes": { "base": "Increases in land value from planning decisions (plusvalía) or public works (valorización).", "payer": "Landowners who benefit." },
+      "rate": {
+        "kind": "range",
+        "headline": "Plusvalía: 30%–50% of the value gain; valorización: cost recovery",
+        "details": ["Municipal councils decide the participation between 30% and 50% of the gain."],
+        "asOf": "2026-09-28"
+      },
+      "explanation": "Special contributions that recover part of the public-created land value; classified as contributions, not taxes.",
+      "exceptions": ["Not applied in every municipality."],
+      "legalRefs": [{ "sourceId": "ley-388-1997", "locator": "arts. 73 ss." }],
+      "checkedOn": "2026-09-28"
+    }
+  ]
+}

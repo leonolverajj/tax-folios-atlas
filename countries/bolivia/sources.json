@@ -1,0 +1,199 @@
+{
+  "sources": [
+    {
+      "id": "sin-recaudacion-2025",
+      "org": "Servicio de Impuestos Nacionales (SIN)",
+      "title": "La recaudación de impuestos creció 10,6% el año 2025",
+      "url": "https://www.impuestos.gob.bo/index.php/nota_prensa/la-recaudacion-de-impuestos-crecio-106-el-ano-2025/",
+      "kind": "tax-agency",
+      "language": "es-BO",
+      "publishedDate": "2026-01-21",
+      "periodCovered": "Calendar year 2025 (Bs millions)",
+      "accessed": "2026-09-28",
+      "note": "Total SIN collection Bs 45,910 million in 2025 (Bs 41,524.8 million in 2024): IVA 13,655 (29.7%), IUE 10,722 (23.3%), IT 7,338 (15.9%), other taxes 14,195 (31.1%). The total includes domestic-market taxes plus IDH, IEHD and ITF (see the SIN memoria)."
+    },
+    {
+      "id": "sin-memoria-oct-2025",
+      "org": "Servicio de Impuestos Nacionales (SIN)",
+      "title": "Memoria Enero–Octubre 2025",
+      "url": "https://www.impuestos.gob.bo/wp-content/uploads/2025/11/105409f7900.pdf",
+      "kind": "tax-agency",
+      "language": "es-BO",
+      "publishedDate": "2025-11-30",
+      "periodCovered": "January–October 2025",
+      "accessed": "2026-09-28",
+      "note": "Chapter 1 'La gestión de recaudaciones': Bs 38,400.3 million collected to October 2025, of which domestic market 89.2%, IEHD + ITF 3.7% (Bs 1,436.2 million) and IDH 7.1% (Bs 2,717.4 million). Publication date approximate (November 2025)."
+    },
+    {
+      "id": "sin-cuadro-impuestos",
+      "org": "Servicio de Impuestos Nacionales (SIN)",
+      "title": "Cuadro General de Impuestos en Vigencia (national taxes, taxable events, rates)",
+      "url": "https://www.impuestos.gob.bo/wp-content/uploads/2025/10/8580c1ef52.pdf",
+      "kind": "tax-agency",
+      "language": "es-BO",
+      "publishedDate": "2025-10-01",
+      "accessed": "2026-09-28",
+      "note": "Confirms IVA 13%, IT 3%, IUE 25%, IGF 1.4%/1.9%/2.4% above Bs 30 million as of the October 2025 edition. Publication date approximate (October 2025)."
+    },
+    {
+      "id": "sin-iva-bill-2026",
+      "org": "Servicio de Impuestos Nacionales (SIN)",
+      "title": "Proyecto de Ley transparenta el IVA y fija tasa efectiva real del 13%",
+      "url": "https://www.impuestos.gob.bo/index.php/nota_prensa/proyecto-de-ley-transparenta-el-iva-y-fija-tasa-efectiva-real-del-13/",
+      "kind": "tax-agency",
+      "language": "es-BO",
+      "publishedDate": "2026-02-19",
+      "accessed": "2026-09-28",
+      "note": "Bill sent to the Legislative Assembly to show IVA separately on invoices (today the 13% is included in the price, an effective rate of about 14.94%). Passage not confirmed at the check date."
+    },
+    {
+      "id": "sin-itf-2026",
+      "org": "Servicio de Impuestos Nacionales (SIN)",
+      "title": "Impuestos ratifica eliminación del ITF en beneficio de la economía de los bolivianos",
+      "url": "https://www.impuestos.gob.bo/index.php/nota_prensa/impuestos-ratifica-eliminacion-del-itf-en-beneficio-de-la-economia-de-los-bolivianos/",
+      "kind": "tax-agency",
+      "language": "es-BO",
+      "publishedDate": "2026-04-14",
+      "accessed": "2026-09-28",
+      "note": "RND 102600000013 abrogated the ITF regulation, ending withholding on US-dollar bank operations."
+    },
+    {
+      "id": "ley-843",
+      "org": "Lexivox (Bolivian legislation repository)",
+      "title": "Ley Nº 843 (Texto Ordenado 2003, 'Ley 843R2') – IVA, IT, IUE, RC-IVA, ICE, IPBI, IPVA, IMT",
+      "url": "https://www.lexivox.org/norms/BO-L-843R2.html",
+      "kind": "legal",
+      "language": "es-BO",
+      "publishedDate": null,
+      "accessed": "2026-09-28",
+      "note": "Consolidated text on a civil-society legal wiki; the authoritative versions are in the Gaceta Oficial de Bolivia and on the SIN site."
+    },
+    {
+      "id": "ley-154",
+      "org": "Servicio de Impuestos Nacionales (SIN) – copy of the Gaceta Oficial text",
+      "title": "Ley Nº 154 de 14 de julio de 2011 – Clasificación y definición de impuestos y regulación para la creación y/o modificación de impuestos de dominio de los gobiernos autónomos",
+      "url": "https://www.impuestos.gob.bo/wp-content/uploads/2025/11/LEY154.pdf",
+      "kind": "legal",
+      "language": "es-BO",
+      "publishedDate": "2011-07-14",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": "ley-1357",
+      "org": "Lexivox (Bolivian legislation repository)",
+      "title": "Ley Nº 1357 de 28 de diciembre de 2020 – Impuesto a las Grandes Fortunas (IGF)",
+      "url": "https://www.lexivox.org/norms/BO-L-N1357.html",
+      "kind": "legal",
+      "language": "es-BO",
+      "publishedDate": "2020-12-28",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": "ley-3446",
+      "org": "Lexivox (Bolivian legislation repository)",
+      "title": "Ley Nº 3446 de 21 de julio de 2006 – Impuesto a las Transacciones Financieras (ITF)",
+      "url": "https://www.lexivox.org/norms/BO-L-N3446.html",
+      "kind": "legal",
+      "language": "es-BO",
+      "publishedDate": "2006-07-21",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": "ley-3058",
+      "org": "Lexivox (Bolivian legislation repository)",
+      "title": "Ley Nº 3058 de 17 de mayo de 2005 – Ley de Hidrocarburos (IDH, regalías y participaciones)",
+      "url": "https://www.lexivox.org/norms/BO-L-N3058.html",
+      "kind": "legal",
+      "language": "es-BO",
+      "publishedDate": "2005-05-17",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": "ley-535",
+      "org": "Lexivox (Bolivian legislation repository)",
+      "title": "Ley Nº 535 de 28 de mayo de 2014 – Ley de Minería y Metalurgia (regalía minera)",
+      "url": "https://www.lexivox.org/norms/BO-L-N535.html",
+      "kind": "legal",
+      "language": "es-BO",
+      "publishedDate": "2014-05-28",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": "ley-031",
+      "org": "Lexivox (Bolivian legislation repository)",
+      "title": "Ley Nº 031 de 19 de julio de 2010 – Ley Marco de Autonomías y Descentralización 'Andrés Ibáñez'",
+      "url": "https://www.lexivox.org/norms/BO-L-N031.html",
+      "kind": "legal",
+      "language": "es-BO",
+      "publishedDate": "2010-07-19",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": "ley-065",
+      "org": "Lexivox (Bolivian legislation repository)",
+      "title": "Ley Nº 065 de 10 de diciembre de 2010 – Ley de Pensiones",
+      "url": "https://www.lexivox.org/norms/BO-L-N065.html",
+      "kind": "legal",
+      "language": "es-BO",
+      "publishedDate": "2010-12-10",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": "cpe-2009",
+      "org": "Lexivox (Bolivian legislation repository)",
+      "title": "Constitución Política del Estado Plurinacional de Bolivia (2009) – arts. 299–305, 320–323, 339–341",
+      "url": "https://www.lexivox.org/norms/BO-CPE-20090207.html",
+      "kind": "legal",
+      "language": "es-BO",
+      "publishedDate": "2009-02-07",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": "mefp-alivio-tributario",
+      "org": "Ministerio de Economía y Finanzas Públicas (Bolivia)",
+      "title": "Gobierno presenta Proyecto de Ley de Transparencia y Alivio Tributario para reactivar la economía formal en Bolivia",
+      "url": "https://www.economiayfinanzas.gob.bo/node/19055",
+      "kind": "guidance",
+      "language": "es-BO",
+      "publishedDate": null,
+      "accessed": "2026-09-28",
+      "note": "Ministry description of the 2026 tax-relief bill (debt forgiveness, payment plans, IVA transparency); related to Decreto Supremo 5503 of December 2025."
+    },
+    {
+      "id": "oecd-rs-lac-2025-note",
+      "org": "OECD",
+      "language": "en",
+      "kind": "international",
+      "accessed": "2026-09-29",
+      "title": "Revenue Statistics in Latin America and the Caribbean 2025: Bolivia (country note)",
+      "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/05/revenue-statistics-in-latin-america-and-the-caribbean-2025-country-notes_29961c77/bolivia_857aa47b/78b0c38c-en.pdf",
+      "publishedDate": "2025-05-27",
+      "periodCovered": "Calendar year 2023",
+      "note": "Tax-to-GDP ratio and tax structure by OECD heading, national currency (BOB millions): income 9,008; social security 17,908; property 570; goods and services 38,386; other 8,548; total 74,419."
+    },
+    {
+      "id": "oecd-rs-lac-2025-levels",
+      "org": "OECD",
+      "language": "en",
+      "kind": "international",
+      "accessed": "2026-09-29",
+      "title": "Revenue Statistics in Latin America and the Caribbean 2025, Table 1.4: attribution of tax revenue to sub-sectors of general government",
+      "url": "https://www.oecd.org/en/publications/revenue-statistics-in-latin-america-and-the-caribbean-2025_7594fbdd-en/full-report/tax-revenue-trends-1990-2023_ee246e3f.html",
+      "publishedDate": "2025-05-27",
+      "periodCovered": "Calendar year 2023",
+      "note": "Bolivia: central government 71.4%, local government 4.5%, social security funds 24.1% of total tax revenue (no separate regional column)."
+    },
+    {
+      "id": "sng-wofi-profile",
+      "org": "OECD and United Cities and Local Governments (SNG-WOFI)",
+      "title": "World Observatory on Subnational Government Finance and Investment – country profile: Bolivia",
+      "url": "https://www.sng-wofi.org/country_profiles/bolivia.html",
+      "kind": "international",
+      "language": "en",
+      "publishedDate": "2022-10-24",
+      "periodCovered": "2020",
+      "accessed": "2026-09-29",
+      "note": "Subnational government revenue by category (tax revenue, grants and subsidies, tariffs and fees, property income, other) as % of total subnational revenue, 2022 edition."
+    }
+  ]
+}

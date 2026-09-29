@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "referenceYear": 2023,
+  "currency": "MXN",
+  "scale": "million",
+  "taxToGdp": 17.7,
+  "basis": "Collecting government (taxes shared with states and municipalities stay with the federation)",
+  "levels": [
+    {
+      "key": "central",
+      "label": "Federal government",
+      "folioLevelIds": ["federal"],
+      "total": 4532837,
+      "byType": { "income": 2514390, "socialSecurity": 0, "payroll": 0, "property": 0, "goodsServices": 1946058, "other": 72390 }
+    },
+    {
+      "key": "regional",
+      "label": "States and Mexico City",
+      "folioLevelIds": ["states"],
+      "total": 256362,
+      "byType": { "income": 0, "socialSecurity": 0, "payroll": 170286, "property": 34547, "goodsServices": 34018, "other": 17510 },
+      "note": "On a beneficiary basis, which adds the federal taxes shared with states (participaciones), state tax revenue would be MXN 1,121,137 million."
+    },
+    {
+      "key": "local",
+      "label": "Municipalities",
+      "folioLevelIds": ["municipalities"],
+      "total": 97450,
+      "byType": { "income": 0, "socialSecurity": 0, "payroll": 2, "property": 77426, "goodsServices": 3038, "other": 16984 },
+      "note": "On a beneficiary basis municipal tax revenue would be MXN 381,590 million."
+    },
+    {
+      "key": "social-security",
+      "label": "Social security funds (IMSS, ISSSTE)",
+      "folioLevelIds": [],
+      "total": 761511,
+      "byType": { "income": 0, "socialSecurity": 761511, "payroll": 0, "property": 0, "goodsServices": 0, "other": 0 }
+    }
+  ],
+  "sourceIds": ["oecd-rs-2025-subsectors", "oecd-rs-2025-levels"],
+  "subnational": {
+    "ownSourceTaxShareOfRevenue": 7.4,
+    "grantsShareOfRevenue": 92.2,
+    "year": 2020,
+    "sourceId": "sng-wofi-profile",
+    "note": "States: tax 6.1%, grants 93.5%. Municipalities: tax 13.7%, grants 85.4%. Shared federal taxes (participaciones) count as grants."
+  },
+  "notes": []
+}

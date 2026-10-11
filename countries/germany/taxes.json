@@ -1,0 +1,643 @@
+{
+  "instruments": [
+    {
+      "id": "de-income-tax",
+      "parentId": "federal",
+      "levelId": "federal",
+      "category": "tax",
+      "family": "income-personal",
+      "status": "current",
+      "names": {
+        "official": "Einkommensteuer (einschließlich Lohnsteuer und Kapitalertragsteuer)",
+        "native": "Einkommensteuer",
+        "common": "Income tax (incl. wage tax)",
+        "abbreviation": "ESt"
+      },
+      "taxes": {
+        "base": "Income of individuals from seven kinds of income (employment, business, self-employment, capital, rent and others), after allowances and deductions.",
+        "payer": "Individuals; employers withhold it from wages (Lohnsteuer) and banks withhold 25% on capital income."
+      },
+      "rate": {
+        "kind": "progressive",
+        "headline": "0%–45% progressive; 25% flat on capital income",
+        "details": [
+          "Tariff from assessment year 2026 (§ 32a EStG): zero up to taxable income of EUR 12,348; the marginal rate then rises from 14% to 42% at EUR 69,879; 45% from EUR 277,826.",
+          "Capital income (interest, dividends, gains) is taxed at a flat 25% withheld at source (Abgeltungsteuer, § 32d), on top of the solidarity surcharge.",
+          "Employees pay through withholding (Lohnsteuer, § 38): the same tax collected during the year, so wage tax is not a separate tax."
+        ],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "Germany’s biggest tax. About two thirds of the revenue is wage tax withheld by employers; the rest comes from assessed income tax, tax on distributed profits and the 25% withholding on capital income. Revenue is shared: the Bund and the Länder each receive half under the Basic Law and the municipalities take a share out of it (in practice about 42.5% Bund, 42.5% Länder, 15% municipalities).",
+      "exceptions": [
+        "Married couples may be taxed jointly by splitting their income (§ 32a(5)).",
+        "Social insurance contributions and many other expenses are deductible within limits (§ 10)."
+      ],
+      "legalRefs": [{ "sourceId": "estg", "locator": "§§ 32a, 32d, 38" }, { "sourceId": "gg", "locator": "Art. 106(3), (5)" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "de-solidarity-surcharge",
+      "parentId": "federal",
+      "levelId": "federal",
+      "category": "tax",
+      "family": "income-mixed",
+      "status": "current",
+      "names": { "official": "Solidaritätszuschlag", "native": "Solidaritätszuschlag", "common": "Solidarity surcharge", "abbreviation": "SolZ" },
+      "taxes": {
+        "base": "The income tax and corporation tax due (a surcharge on the tax, not on income).",
+        "payer": "Individuals above an exemption limit; companies in full; withheld on capital income."
+      },
+      "rate": {
+        "kind": "flat",
+        "headline": "5.5% of income tax and corporation tax due",
+        "details": [
+          "Since 2021 an exemption limit (§ 3 SolzG) frees most income-tax payers; a sliding zone follows (capped at 11.9% of the excess).",
+          "Corporation tax and the withholding tax on capital income bear the full 5.5%."
+        ],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "Introduced to pay for German unification and now levied on higher incomes and on companies. The whole yield goes to the Bund.",
+      "exceptions": ["Most individual taxpayers are exempt since 2021."],
+      "legalRefs": [{ "sourceId": "solzg", "locator": "§§ 1, 3, 4" }, { "sourceId": "gg", "locator": "Art. 106(1)" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "de-corporate-tax",
+      "parentId": "federal",
+      "levelId": "federal",
+      "category": "tax",
+      "family": "income-corporate",
+      "status": "scheduled",
+      "statusNote": "The rate falls by one point a year from 2028: 14% (2028), 13%, 12%, 11%, and 10% from 2032 (§ 23 KStG).",
+      "names": { "official": "Körperschaftsteuer", "native": "Körperschaftsteuer", "common": "Corporation tax", "abbreviation": "KSt" },
+      "taxes": {
+        "base": "Profits of corporations (limited companies, joint-stock companies, cooperatives) and other legal entities.",
+        "payer": "Corporations."
+      },
+      "rate": {
+        "kind": "flat",
+        "headline": "15% (falling to 10% by 2032)",
+        "details": [
+          "15% for assessment periods up to 2027; 14% in 2028, 13% in 2029, 12% in 2030, 11% in 2031 and 10% from 2032.",
+          "Plus the 5.5% solidarity surcharge and the municipal trade tax, which together bring the total burden on retained profits to roughly 30%."
+        ],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "A flat tax on company profits. Revenue is split 50/50 between the Bund and the Länder. Partnerships and sole traders are taxed under income tax instead.",
+      "exceptions": ["Dividends received from other corporations are largely exempt (95% exempt, § 8b)."],
+      "legalRefs": [{ "sourceId": "kstg", "locator": "§ 23" }, { "sourceId": "gg", "locator": "Art. 106(3)" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "de-vat",
+      "parentId": "federal",
+      "levelId": "federal",
+      "category": "tax",
+      "family": "general-consumption",
+      "status": "current",
+      "names": {
+        "official": "Umsatzsteuer (einschließlich Einfuhrumsatzsteuer)",
+        "native": "Umsatzsteuer",
+        "common": "Value-added tax",
+        "abbreviation": "USt"
+      },
+      "taxes": {
+        "base": "Supplies of goods and services by businesses in Germany, intra-EU acquisitions and imports.",
+        "payer": "Consumers bear it; businesses charge it and deduct the VAT they paid."
+      },
+      "rate": {
+        "kind": "flat",
+        "headline": "19% standard; 7% reduced",
+        "details": [
+          "Reduced rate of 7% on food, books, newspapers, passenger transport, cultural events, accommodation and, since 1 January 2026, restaurant and catering services other than drinks (§ 12(2) no. 15 UStG).",
+          "Zero rate on certain photovoltaic installations (§ 12(3)).",
+          "Import VAT is collected by customs and is part of the same tax."
+        ],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "The second-largest tax. Domestic VAT (about three quarters) and import VAT are counted together. The Bund, the Länder and, since 1998, the municipalities share the yield by a formula set in federal law.",
+      "exceptions": [
+        "Exempt supplies include health care, education, rents, financial and insurance services.",
+        "Small businesses under the turnover limits may be exempt (§ 19)."
+      ],
+      "legalRefs": [{ "sourceId": "ustg", "locator": "§ 12" }, { "sourceId": "gg", "locator": "Art. 106(3), (5a)" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "de-energy-tax",
+      "parentId": "federal",
+      "levelId": "federal",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Energiesteuer", "native": "Energiesteuer", "common": "Energy tax (fuels)" },
+      "taxes": {
+        "base": "Petrol, diesel, heating oil, natural gas and other energy products used as fuel or for heating.",
+        "payer": "Producers, importers and suppliers; passed on in the price."
+      },
+      "rate": {
+        "kind": "specific",
+        "headline": "EUR 0.6545 per litre petrol, EUR 0.4704 per litre diesel",
+        "details": [
+          "Rates per 1,000 litres: petrol EUR 654.50, diesel EUR 470.40 (low-sulphur grades, § 2 EnergieStG).",
+          "Natural gas: EUR 31.80 per MWh, or EUR 27.33 per MWh at the reduced rate for heating in 2026."
+        ],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "A per-unit tax on fuels, formerly the mineral oil tax. It is a federal tax: the whole yield goes to the Bund.",
+      "exceptions": ["Reliefs for manufacturing, agriculture and public transport."],
+      "legalRefs": [{ "sourceId": "energiestg", "locator": "§ 2" }, { "sourceId": "gg", "locator": "Art. 106(1)" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "de-electricity-tax",
+      "parentId": "federal",
+      "levelId": "federal",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Stromsteuer", "native": "Stromsteuer", "common": "Electricity tax" },
+      "taxes": { "base": "Electricity taken from the grid by the final consumer.", "payer": "Electricity suppliers; passed on to consumers." },
+      "rate": {
+        "kind": "specific",
+        "headline": "EUR 20.50 per MWh",
+        "details": ["Standard rate of EUR 20.50 per megawatt hour (§ 3 StromStG); reliefs for part of industry and agriculture."],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "A per-kilowatt-hour federal tax on electricity use, introduced in 1999 as part of the ecological tax reform.",
+      "exceptions": ["Electricity from renewable sources fed to the final consumer in the same grid area and small plants are exempt."],
+      "legalRefs": [{ "sourceId": "stromstg", "locator": "§ 3" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "de-tobacco-tax",
+      "parentId": "federal",
+      "levelId": "federal",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Tabaksteuer", "native": "Tabaksteuer", "common": "Tobacco tax" },
+      "taxes": { "base": "Cigarettes, cigars, fine-cut and other tobacco products.", "payer": "Manufacturers and importers; passed on in the price." },
+      "rate": {
+        "kind": "mechanism",
+        "headline": "12.28 cent per cigarette + 19.84% of the retail price",
+        "details": [
+          "Cigarettes in 2026: a charge of 12.28 cent per piece plus 19.84% of the retail price, but at least 25.106 cent per cigarette net of VAT (§ 2 TabStG). The amounts rise stepwise each year to 2026."
+        ],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "A mixed specific and ad valorem excise on tobacco; the Bund keeps all of it.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "tabstg", "locator": "§ 2" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "de-alcohol-tax",
+      "parentId": "federal",
+      "levelId": "federal",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Alkoholsteuer", "native": "Alkoholsteuer", "common": "Spirits tax" },
+      "taxes": {
+        "base": "Spirits and other alcohol above the beer and wine thresholds, by volume of pure alcohol.",
+        "payer": "Distillers and importers; passed on in the price."
+      },
+      "rate": {
+        "kind": "specific",
+        "headline": "EUR 1,303 per hectolitre of pure alcohol",
+        "details": ["Standard rate EUR 1,303 per hectolitre of pure alcohol (§ 2 AlkStG); lower rates for small distilleries."],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "The federal tax on spirits. Wine is not taxed; sparkling wine, intermediate products and alcopops have small taxes of their own (grouped under \"other federal taxes\"); the beer tax goes to the Länder.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "alkstg", "locator": "§ 2" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "de-aviation-tax",
+      "parentId": "federal",
+      "levelId": "federal",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Luftverkehrsteuer", "native": "Luftverkehrsteuer", "common": "Aviation tax" },
+      "taxes": { "base": "Passengers departing from German airports.", "payer": "Airlines; passed on in the ticket price." },
+      "rate": {
+        "kind": "specific",
+        "headline": "EUR 13.03 / 33.01 / 59.43 per departing passenger",
+        "details": [
+          "From 1 July 2026 (§ 11 LuftVStG): EUR 13.03 for destinations in the first country group, EUR 33.01 for the second and EUR 59.43 for the rest.",
+          "The previous rates, in force from 1 May 2024 to 30 June 2026, were EUR 15.53, 39.34 and 70.83; the 2025 revenue shown was raised under those higher rates."
+        ],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "A per-passenger federal tax introduced in 2011. The 2026 reform cuts it back to the pre-2024 level.",
+      "exceptions": ["Transfer passengers, crew and some flights to North Sea islands are exempt or reduced."],
+      "legalRefs": [{ "sourceId": "luftvstg", "locator": "§ 11" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "de-other-federal-taxes",
+      "parentId": "federal",
+      "levelId": "federal",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "Übrige Bundessteuern (Kaffeesteuer, Schaumweinsteuer, Zwischenerzeugnissteuer, Alkopopsteuer u. a.)",
+        "native": "Übrige Bundessteuern",
+        "common": "Other federal taxes"
+      },
+      "taxes": {
+        "base": "Coffee, sparkling wine, intermediate alcohol products and alcopops, the EU energy-crisis levy and a few minor federal taxes.",
+        "payer": "Producers and importers; passed on in the price."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Specific rates per product",
+        "details": ["Each tax has its own statute; none raises more than about 0.06% of national revenue."],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "The remaining federal taxes, grouped because each is far below the size of the other cores: coffee tax EUR 1,038 million, sparkling-wine tax EUR 365 million, the EU energy-crisis contribution EUR 134 million and smaller items.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "gg", "locator": "Art. 106(1)" }, { "sourceId": "destatis-71211" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "de-insurance-tax",
+      "parentId": "federal",
+      "levelId": "federal",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Versicherungsteuer", "native": "Versicherungsteuer", "common": "Insurance premium tax" },
+      "taxes": {
+        "base": "Premiums paid to insurers for most kinds of insurance (but not life, health or most social insurance).",
+        "payer": "Policyholders; insurers remit it."
+      },
+      "rate": {
+        "kind": "flat",
+        "headline": "19% of the premium",
+        "details": [
+          "19% standard (§ 6(1) VersStG); 22% for fire insurance; 3.8% for accident insurance with premium refund; 0.3 per mille of the sum insured for certain crop insurance."
+        ],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "A federal tax on insurance premiums. It is the fifth-largest federal tax.",
+      "exceptions": ["Life, health, pension and most social insurance are exempt."],
+      "legalRefs": [{ "sourceId": "versstg", "locator": "§ 6" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "de-vehicle-tax",
+      "parentId": "federal",
+      "levelId": "federal",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Kraftfahrzeugsteuer", "native": "Kraftfahrzeugsteuer", "common": "Motor vehicle tax" },
+      "taxes": { "base": "Ownership of registered vehicles, by engine size and CO₂ emissions.", "payer": "Vehicle owners." },
+      "rate": {
+        "kind": "mechanism",
+        "headline": "By engine capacity and CO₂ per km",
+        "details": [
+          "Cars: a base amount per 100 cm³ plus a CO₂ component that rises above 95 g/km (§ 9 KraftStG).",
+          "Pure battery-electric cars first registered by 31 December 2030 are exempt for ten years, and no later than 31 December 2035 (§ 3d, as amended from 1 January 2026)."
+        ],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "An annual tax on owning a vehicle, administered by the customs administration since 2014 and transferred to the Bund from the Länder in 2009.",
+      "exceptions": ["Pure electric vehicles are exempt for ten years; vehicles for the disabled and some agricultural vehicles are exempt or reduced."],
+      "legalRefs": [{ "sourceId": "kraftstg", "locator": "§§ 3d, 9" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "de-customs",
+      "parentId": "federal",
+      "levelId": "federal",
+      "category": "customs-duty",
+      "family": "trade",
+      "status": "current",
+      "names": { "official": "Zölle (Gemeinsamer Zolltarif der EU)", "native": "Zölle", "common": "Customs duties" },
+      "taxes": { "base": "Goods imported into the EU customs territory, by tariff heading and origin.", "payer": "Importers." },
+      "rate": {
+        "kind": "range",
+        "headline": "EU Common Customs Tariff",
+        "details": [
+          "Rates are set by the EU, not by Germany; many goods are duty-free under trade agreements.",
+          "Germany keeps 25% of the duties it collects as collection costs and forwards 75% to the EU budget."
+        ],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "Customs duties are an EU competence collected by German customs. Most of the yield is passed to the EU, so the figure shown is the gross collection.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ucc", "locator": "Arts. 4–5, 56" }, { "sourceId": "gg", "locator": "Art. 105(1)" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "de-pension-insurance",
+      "parentId": "federal",
+      "levelId": "federal",
+      "category": "social-contribution",
+      "family": "social-security",
+      "status": "current",
+      "names": {
+        "official": "Beiträge zur gesetzlichen Rentenversicherung",
+        "native": "Rentenversicherung",
+        "common": "Pension insurance contributions",
+        "abbreviation": "GRV"
+      },
+      "taxes": { "base": "Gross wages up to the contribution ceiling (EUR 101,400 a year in 2026).", "payer": "Employees and employers in equal halves." },
+      "rate": {
+        "kind": "flat",
+        "headline": "18.6% of gross wages (9.3% each)",
+        "details": [
+          "Contribution ceiling EUR 101,400 a year (EUR 8,450 a month) in 2026; the rate stays at 18.6%.",
+          "Contributions pay current pensions (pay-as-you-go); the federal budget adds a large grant outside this figure."
+        ],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "The statutory pension scheme (Deutsche Rentenversicherung). It is one of the two largest single flows in the system.",
+      "exceptions": ["Civil servants, most self-employed professionals and some others have separate schemes."],
+      "legalRefs": [{ "sourceId": "sgb-vi", "locator": "§§ 157–158" }, { "sourceId": "bbg-2026" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "de-health-insurance",
+      "parentId": "federal",
+      "levelId": "federal",
+      "category": "social-contribution",
+      "family": "social-security",
+      "status": "current",
+      "names": {
+        "official": "Beiträge zur gesetzlichen Krankenversicherung",
+        "native": "Krankenversicherung",
+        "common": "Health insurance contributions",
+        "abbreviation": "GKV"
+      },
+      "taxes": {
+        "base": "Gross wages and pensions up to the contribution ceiling (EUR 69,750 a year in 2026).",
+        "payer": "Employees and employers in equal halves; members pay on pensions and other income."
+      },
+      "rate": {
+        "kind": "flat",
+        "headline": "14.6% + individual supplement (average 2.9%)",
+        "details": [
+          "General rate 14.6% (§ 241 SGB V), 7.3% each; each fund adds a supplementary rate (the official average for 2026 is 2.9%), also shared equally.",
+          "Contribution ceiling EUR 69,750 a year; above the insurance-obligation limit of EUR 77,400 employees may choose private insurance."
+        ],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "Contributions go to the health fund and the 90-odd statutory health insurers. The largest of the five branches in 2025.",
+      "exceptions": ["Civil servants and the privately insured are outside the scheme."],
+      "legalRefs": [{ "sourceId": "sgb-v", "locator": "§§ 241–242" }, { "sourceId": "bbg-2026" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "de-long-term-care-insurance",
+      "parentId": "federal",
+      "levelId": "federal",
+      "category": "social-contribution",
+      "family": "social-security",
+      "status": "current",
+      "names": {
+        "official": "Beiträge zur sozialen Pflegeversicherung",
+        "native": "Pflegeversicherung",
+        "common": "Long-term care insurance contributions",
+        "abbreviation": "SPV"
+      },
+      "taxes": {
+        "base": "Gross wages up to the health-insurance ceiling (EUR 69,750 in 2026).",
+        "payer": "Employees and employers; childless members pay a surcharge."
+      },
+      "rate": {
+        "kind": "flat",
+        "headline": "3.6% of gross wages (4.2% for the childless)",
+        "details": [
+          "3.6% in 2026, split about equally; members over 23 without children pay 0.6 points more, parents with several children pay less (§ 55 SGB XI)."
+        ],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "Statutory long-term care insurance, created in 1995. Contributions go to the care funds attached to the health insurers.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "sgb-xi", "locator": "§ 55" }, { "sourceId": "bbg-2026" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "de-unemployment-insurance",
+      "parentId": "federal",
+      "levelId": "federal",
+      "category": "social-contribution",
+      "family": "social-security",
+      "status": "current",
+      "names": { "official": "Beiträge zur Arbeitslosenversicherung", "native": "Arbeitslosenversicherung", "common": "Unemployment insurance contributions" },
+      "taxes": { "base": "Gross wages up to the pension ceiling (EUR 101,400 in 2026).", "payer": "Employees and employers in equal halves." },
+      "rate": { "kind": "flat", "headline": "2.6% of gross wages (1.3% each)", "details": ["Rate fixed in § 341(2) SGB III."], "asOf": "2026-10-10" },
+      "explanation": "Contributions to the Federal Employment Agency, which pays unemployment benefit and funds job-placement and training programmes.",
+      "exceptions": ["Civil servants and the self-employed are not covered unless they opt in."],
+      "legalRefs": [{ "sourceId": "sgb-iii", "locator": "§ 341" }, { "sourceId": "bbg-2026" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "de-accident-insurance",
+      "parentId": "federal",
+      "levelId": "federal",
+      "category": "social-contribution",
+      "family": "social-security",
+      "status": "current",
+      "names": { "official": "Beiträge zur gesetzlichen Unfallversicherung", "native": "Unfallversicherung", "common": "Accident insurance contributions" },
+      "taxes": { "base": "Total payroll of the firm, weighted by the risk class of its sector.", "payer": "Employers only." },
+      "rate": {
+        "kind": "varies",
+        "headline": "By payroll and accident risk class",
+        "details": [
+          "Set each year by every accident insurer (Berufsgenossenschaften and public accident funds) from its expenditure; employers alone pay (§ 150 SGB VII)."
+        ],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "Insurance against workplace accidents and occupational disease; the contributions are financed solely by employers.",
+      "exceptions": ["Public-sector accident funds are financed largely by the state and municipalities instead."],
+      "legalRefs": [{ "sourceId": "sgb-vii", "locator": "§§ 150–153" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "de-inheritance-tax",
+      "parentId": "laender",
+      "levelId": "laender",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "Erbschaft- und Schenkungsteuer", "native": "Erbschaftsteuer", "common": "Inheritance and gift tax" },
+      "taxes": { "base": "Value of what is inherited or received as a gift, after personal allowances.", "payer": "The heir or recipient." },
+      "rate": {
+        "kind": "progressive",
+        "headline": "7%–50% by relationship and value",
+        "details": [
+          "Class I (spouse, children): 7% to 30%; class II (siblings, nephews and nieces): 15% to 43%; class III (others): 30% or 50% (§ 19 ErbStG).",
+          "Personal allowances of EUR 500,000 for a spouse and EUR 400,000 for each child (§ 16)."
+        ],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "The Länder keep the whole yield. Revenue rose by about half in 2025: EUR 15.4 billion against EUR 10.0 billion in 2024 (Destatis).",
+      "exceptions": ["Business assets, the family home and agricultural land have large reliefs (§§ 13–13d)."],
+      "legalRefs": [{ "sourceId": "erbstg", "locator": "§§ 16, 19" }, { "sourceId": "gg", "locator": "Art. 106(2)" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "de-real-estate-transfer-tax",
+      "parentId": "laender",
+      "levelId": "laender",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "Grunderwerbsteuer", "native": "Grunderwerbsteuer", "common": "Real-estate transfer tax" },
+      "taxes": { "base": "The purchase price of land and buildings.", "payer": "The buyer." },
+      "rate": {
+        "kind": "range",
+        "headline": "3.5%–6.5% depending on the Land",
+        "details": [
+          "The federal law fixes 3.5% (§ 11 GrEStG) but each Land sets its own rate under Art. 105(2a) GG: from 3.5% (Bavaria, Saxony) to 6.5% (Brandenburg, North Rhine-Westphalia, Saarland, Schleswig-Holstein, Thuringia)."
+        ],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "The one major tax where the Länder set the rate themselves. Revenue rose by 18% in 2025, from EUR 12.7 billion to EUR 15.1 billion (Destatis).",
+      "exceptions": ["Transfers between close relatives and below a small value limit are exempt."],
+      "legalRefs": [{ "sourceId": "grestg", "locator": "§§ 1, 11" }, { "sourceId": "gg", "locator": "Art. 105(2a)" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "de-gambling-taxes",
+      "parentId": "laender",
+      "levelId": "laender",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "Lotterie-, Sportwett-, Rennwett- und Spielautomatensteuern",
+        "native": "Lotterie- und Wettsteuern",
+        "common": "Lottery and betting taxes"
+      },
+      "taxes": {
+        "base": "Lottery tickets, sports and race betting, online poker and virtual slot games.",
+        "payer": "Organisers and operators; passed on to players."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "20% lottery; about 5% of stakes on betting and online games",
+        "details": ["Lottery tax is 20% of the stake; sports betting and online games are taxed at about 5% of stakes (RennwLottG)."],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "The Länder tax gambling under the Race Betting and Lottery Act. Together these taxes yield about EUR 2.5 billion.",
+      "exceptions": ["State lotteries and the football pools are included."],
+      "legalRefs": [{ "sourceId": "rennwlottg" }, { "sourceId": "gg", "locator": "Art. 106(2)" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "de-other-laender-taxes",
+      "parentId": "laender",
+      "levelId": "laender",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Übrige Landessteuern (Feuerschutzsteuer, Biersteuer u. a.)", "native": "Übrige Landessteuern", "common": "Other Länder taxes" },
+      "taxes": {
+        "base": "Fire-insurance premiums (fire-protection tax), beer by volume and a few minor taxes.",
+        "payer": "Insurers and brewers; passed on in the price."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "8% of fire-insurance premiums; per hectolitre of beer",
+        "details": [
+          "Fire-protection tax is levied on premiums of fire insurance (Feuerschutzsteuergesetz); the beer tax is a specific tax per hectolitre of beer whose proceeds go to the Länder."
+        ],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "The remaining Länder taxes: fire-protection tax EUR 773 million, beer tax EUR 540 million. The net-wealth tax (Vermögensteuer) is still on the statute books for the Länder but has not been levied since 1997.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "feuerschstg" }, { "sourceId": "gg", "locator": "Art. 106(2)" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "de-trade-tax",
+      "parentId": "gemeinden",
+      "levelId": "gemeinden",
+      "category": "tax",
+      "family": "income-mixed",
+      "status": "current",
+      "names": { "official": "Gewerbesteuer", "native": "Gewerbesteuer", "common": "Trade tax" },
+      "taxes": {
+        "base": "Profit of a trade or business, with some additions and deductions; sole traders and partnerships have an allowance of EUR 24,500.",
+        "payer": "Businesses (not freelancers)."
+      },
+      "rate": {
+        "kind": "mechanism",
+        "headline": "3.5% of trade profit × the municipality’s multiplier",
+        "details": [
+          "The base rate (Steuermesszahl) is 3.5% (§ 11 GewStG); each municipality sets a multiplier (Hebesatz), so a multiplier of 400% gives 14%.",
+          "Municipalities pass a share of the yield to the Bund and the Länder (Gewerbesteuerumlage); the figure here is the gross yield."
+        ],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "The municipalities’ main own tax and the biggest tax that any level below the Bund controls through its own rate. The yield is gross of the levy passed on to the Bund and the Länder.",
+      "exceptions": ["Profits of freelancers and farmers are not subject; part of the tax can be credited against income tax for individuals."],
+      "legalRefs": [{ "sourceId": "gewstg", "locator": "§§ 11, 16" }, { "sourceId": "gg", "locator": "Art. 106(6)" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "de-property-tax",
+      "parentId": "gemeinden",
+      "levelId": "gemeinden",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "Grundsteuer A, B und C", "native": "Grundsteuer", "common": "Property tax" },
+      "taxes": {
+        "base": "Land and buildings, valued under the reformed system that applies from 1 January 2025.",
+        "payer": "The owner (landlords may pass it on to tenants)."
+      },
+      "rate": {
+        "kind": "mechanism",
+        "headline": "0.31‰–0.34‰ of value × the municipality’s multiplier",
+        "details": [
+          "Base rates (Steuermesszahl) of 0.31‰ for residential property and 0.34‰ for other built and unbuilt land (§ 15 GrStG); each municipality sets the multiplier (Hebesatz).",
+          "Grundsteuer A applies to agricultural land, B to other land and buildings, and municipalities may levy a higher \"C\" rate on unbuilt building land."
+        ],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "The recurrent tax on real estate. The 2025 reform changed how land is valued; several Länder use their own models.",
+      "exceptions": ["Public property, churches and some charitable use are exempt."],
+      "legalRefs": [{ "sourceId": "grstg", "locator": "§§ 13, 15" }, { "sourceId": "gg", "locator": "Art. 106(6)" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "de-local-excises",
+      "parentId": "gemeinden",
+      "levelId": "gemeinden",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "Örtliche Aufwandsteuern (Vergnügungsteuer, Hundesteuer, Zweitwohnungsteuer u. a.)",
+        "native": "Örtliche Steuern",
+        "common": "Local excise taxes"
+      },
+      "taxes": {
+        "base": "Entertainment, dog ownership, second homes, hunting and fishing licences and other local expenditure taxes.",
+        "payer": "Residents and operators."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Set by each municipality",
+        "details": [
+          "Under Art. 105(2a) GG the municipalities may levy local consumption and expenditure taxes that are not similar to federal taxes; rates differ by municipality."
+        ],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "A group of small local taxes: entertainment tax EUR 897 million, dog tax EUR 430 million, second-home tax EUR 284 million and others.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "gg", "locator": "Arts. 105(2a), 106(6)" }],
+      "checkedOn": "2026-10-10"
+    }
+  ]
+}

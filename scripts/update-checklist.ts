@@ -123,7 +123,7 @@ function checklist(id: string): { md: string; due: number; soon: number; rows: n
     if (u.parts.length) feeds.push(`national-total parts: ${u.parts.map((p) => `\`${p.id}\``).join(', ')}`);
     if (u.revenue.length) feeds.push(`revenue of ${u.revenue.length} core(s): ${[...new Set(u.revenue.map((r) => r.nodeId))].slice(0, 8).map((n) => `\`${n}\``).join(', ')}${u.revenue.length > 8 ? ', …' : ''}`);
     if (u.legal.length) feeds.push(`legal/rate basis of ${new Set(u.legal.map((l) => l.id)).size} node(s)`);
-    if (u.structure) feeds.push('`structure.json` (cross-country profile)');
+    if (u.structure) feeds.push('`structure.json` (OECD level shares in the Trees table and the folio charts)');
     if (u.supporting && !feeds.length) feeds.push('cross-check');
     const block = [
       `- [ ] **${s.title}** – ${s.org}`,

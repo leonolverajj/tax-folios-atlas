@@ -1,0 +1,828 @@
+/* Skill trees screen. Same tokens as the folio; each tree sits on an engraved plate. */
+
+#trees-screen {
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding-top: var(--topbar-h);
+}
+
+.trees {
+  --tn-national: var(--c-national);
+  --tn-regional: var(--c-regional);
+  --tn-local: var(--c-local);
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 26px clamp(14px, 3vw, 36px) 72px;
+}
+.trees-loading {
+  padding: 90px 20px;
+  text-align: center;
+  color: var(--ink3);
+}
+
+/* ---- header ---- */
+.trees-head h1 {
+  margin: 0 0 8px;
+  font-family: var(--display);
+  font-size: clamp(26px, 4vw, 40px);
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.trees-head h1 em {
+  font-style: normal;
+  color: var(--gold);
+}
+.trees-head .lead {
+  max-width: 80ch;
+  margin: 0 0 10px;
+  color: var(--ink2);
+  font-size: 14.5px;
+  line-height: 1.55;
+}
+.how-wrap {
+  margin: 0 0 14px;
+}
+.how-wrap > summary {
+  cursor: pointer;
+  width: fit-content;
+  margin-bottom: 8px;
+  padding: 4px 0;
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--gold);
+}
+.how {
+  margin: 0 0 4px;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 10px;
+  max-width: 1100px;
+}
+.how li {
+  padding: 10px 14px;
+  border-left: 2px solid var(--gold2);
+  background: rgba(10, 16, 34, 0.55);
+  border-radius: 0 10px 10px 0;
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--ink2);
+}
+.how b {
+  color: var(--ink);
+}
+
+/* ---- controls ---- */
+.trees-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 22px;
+  align-items: flex-end;
+  margin-bottom: 10px;
+}
+.ctl {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink3);
+}
+.ctl select {
+  min-height: 38px;
+  padding: 4px 10px;
+  border-radius: 10px;
+  border: 1px solid var(--line2);
+  background: rgba(8, 13, 30, 0.9);
+  color: var(--ink);
+  font-size: 13.5px;
+  letter-spacing: 0;
+  text-transform: none;
+}
+.seg {
+  display: inline-flex;
+  border: 1px solid var(--line2);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.seg button {
+  min-height: 38px;
+  padding: 4px 13px;
+  border: 0;
+  border-right: 1px solid var(--line2);
+  background: rgba(8, 13, 30, 0.9);
+  cursor: pointer;
+  font-size: 13px;
+  letter-spacing: 0;
+  text-transform: none;
+}
+.seg button:last-child {
+  border-right: 0;
+}
+.seg button:hover {
+  background: rgba(30, 44, 92, 0.9);
+}
+.seg button[aria-pressed='true'] {
+  background: rgba(243, 215, 142, 0.16);
+  color: var(--gold);
+  font-weight: 650;
+}
+
+.trees-legend ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 16px;
+  margin: 0 0 10px;
+  padding: 0;
+  list-style: none;
+  font-size: 12.5px;
+  color: var(--ink2);
+}
+.trees-legend li {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.trees-legend i,
+.hl-chip i,
+.dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  flex: none;
+}
+.trees-legend i.plain {
+  background: none;
+  border: 1px dashed var(--ink3);
+  width: 9px;
+  height: 9px;
+}
+
+.trees-hl {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  align-items: center;
+  margin-bottom: 4px;
+}
+.hl-label {
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink3);
+  margin-right: 4px;
+}
+.hl-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  min-height: 32px;
+  padding: 3px 12px;
+  border-radius: 999px;
+  border: 1px solid var(--line2);
+  background: rgba(8, 13, 30, 0.86);
+  cursor: pointer;
+  font-size: 12.5px;
+}
+.hl-chip:hover {
+  border-color: var(--gold2);
+}
+.hl-chip[aria-pressed='true'] {
+  border-color: var(--gold);
+  background: rgba(40, 56, 110, 0.9);
+  box-shadow: inset 0 0 0 1px rgba(243, 215, 142, 0.35);
+}
+.hl-note {
+  min-height: 1.4em;
+  margin: 6px 0 14px;
+  font-size: 12.5px;
+}
+
+/* ---- the grid of trees ---- */
+.trees-grid {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(268px, 1fr));
+  gap: 16px;
+}
+.tcard {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--line2);
+  border-radius: 16px;
+  background:
+    radial-gradient(120% 90% at 50% 0%, rgba(40, 60, 130, 0.28), transparent 62%),
+    linear-gradient(180deg, rgba(14, 23, 50, 0.92), rgba(7, 11, 24, 0.94));
+  box-shadow: inset 0 0 0 1px rgba(243, 215, 142, 0.05), 0 12px 30px rgba(0, 0, 0, 0.35);
+  overflow: hidden;
+  transition: border-color 0.15s, transform 0.15s;
+}
+.tcard::before {
+  content: '';
+  position: absolute;
+  inset: 6px;
+  border: 1px solid rgba(243, 215, 142, 0.1);
+  border-radius: 11px;
+  pointer-events: none;
+}
+.tcard:hover,
+.tcard:focus-within {
+  border-color: var(--gold2);
+}
+.tcard-hit {
+  all: unset;
+  display: block;
+  cursor: pointer;
+  padding: 12px 12px 0;
+}
+.tcard-hit:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: -4px;
+  border-radius: 14px;
+}
+.tree {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1;
+  overflow: visible;
+}
+.tcard-foot {
+  padding: 4px 16px 14px;
+}
+.tcard-foot h3 {
+  margin: 0 0 6px;
+  font-family: var(--display);
+  font-size: 15px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.tag {
+  padding: 1px 7px;
+  border-radius: 999px;
+  border: 1px solid rgba(243, 215, 142, 0.5);
+  color: var(--gold);
+  font-family: var(--font);
+  font-size: 9.5px;
+  font-weight: 650;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.facts {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 6px;
+  margin-bottom: 8px;
+}
+.facts div {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.15;
+}
+.facts b {
+  font-size: 20px;
+  font-variant-numeric: tabular-nums;
+  color: var(--gold);
+}
+.facts span {
+  font-size: 10.5px;
+  color: var(--ink3);
+}
+.lvl-bar {
+  display: flex;
+  height: 5px;
+  gap: 2px;
+  border-radius: 3px;
+  overflow: hidden;
+}
+.lvl-bar i {
+  display: block;
+  min-width: 4px;
+}
+.hl-count {
+  min-height: 1.2em;
+  margin: 6px 0 0;
+  font-size: 12px;
+  color: var(--gold);
+}
+.hl-count.none {
+  color: var(--ink3);
+}
+
+/* ---- tree drawing (shared by cards and the large tree) ---- */
+.guide {
+  fill: none;
+  stroke: rgba(160, 180, 230, 0.1);
+  stroke-width: 0.5;
+  stroke-dasharray: 1 2.2;
+}
+.te {
+  stroke-width: 0.7;
+  stroke-opacity: 0.38;
+  pointer-events: none;
+}
+[data-br='national'] {
+  --c: var(--c-national);
+}
+[data-br='regional'] {
+  --c: var(--c-regional);
+}
+[data-br='local'] {
+  --c: var(--c-local);
+}
+[data-br='country'] {
+  --c: var(--c-country);
+}
+.te {
+  stroke: var(--c);
+}
+/* colouring by kind of tax only changes the charges, never the structure (lines, levels, country) */
+.trees[data-color='kind'] .tn-charge[data-head='income'] {
+  --c: var(--h-income);
+}
+.trees[data-color='kind'] .tn-charge[data-head='goodsServices'] {
+  --c: var(--h-goodsServices);
+}
+.trees[data-color='kind'] .tn-charge[data-head='socialSecurity'] {
+  --c: var(--h-socialSecurity);
+}
+.trees[data-color='kind'] .tn-charge[data-head='property'] {
+  --c: var(--h-property);
+}
+.trees[data-color='kind'] .tn-charge[data-head='payroll'] {
+  --c: var(--h-payroll);
+}
+.trees[data-color='kind'] .tn-charge[data-head='other'] {
+  --c: var(--h-other);
+}
+.tn {
+  transition: opacity 0.2s;
+}
+.tn-body {
+  fill: var(--c);
+  fill-opacity: 0.3;
+  stroke: var(--c);
+  stroke-width: 0.9;
+  /* hollow dots must still be clickable in the middle */
+  pointer-events: all;
+}
+.tn-core {
+  fill: var(--c);
+  fill-opacity: 0.85;
+}
+.tn-plain .tn-body {
+  fill: none;
+  stroke-dasharray: 1.2 1.2;
+  stroke-width: 0.8;
+}
+.tn-level .tn-body {
+  fill-opacity: 0.42;
+  stroke-width: 1.3;
+}
+.tn-root .tn-body {
+  fill: var(--a);
+  fill-opacity: 0.22;
+  stroke: var(--gold);
+  stroke-width: 1.4;
+}
+.tn-root .tn-core {
+  fill: var(--gold);
+}
+.tn.is-dim {
+  opacity: 0.1;
+}
+.tn-link {
+  cursor: pointer;
+}
+.tn-link:hover .tn-body {
+  fill-opacity: 0.55;
+  stroke-width: 1.5;
+}
+.tl {
+  fill: var(--ink);
+  paint-order: stroke;
+  stroke: rgba(4, 7, 16, 0.92);
+  stroke-width: 1.5;
+  stroke-linejoin: round;
+  pointer-events: none;
+}
+.tl-level {
+  fill: var(--gold);
+  font-weight: 650;
+}
+.trees[data-hl] .te {
+  stroke-opacity: 0.2;
+}
+
+/* ---- numbers table ---- */
+.trees-numbers {
+  margin-top: 34px;
+}
+.trees-numbers h2,
+.trees-queue h2 {
+  margin: 0 0 4px;
+  font-family: var(--display);
+  font-size: 20px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.trees-numbers .muted,
+.trees-queue .muted {
+  margin: 0 0 10px;
+  font-size: 13px;
+  max-width: 90ch;
+}
+.table-wrap {
+  overflow-x: auto;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+}
+#tr-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+  min-width: 980px;
+}
+#tr-table th,
+#tr-table td {
+  padding: 8px 10px;
+  border-bottom: 1px solid var(--line);
+  text-align: left;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+#tr-table thead th {
+  background: var(--panel2);
+  position: sticky;
+  top: 0;
+}
+#tr-table thead button,
+#tr-table .link {
+  all: unset;
+  cursor: pointer;
+  font-weight: 600;
+}
+#tr-table thead button {
+  color: var(--ink2);
+}
+#tr-table thead button:hover,
+#tr-table .link:hover {
+  color: var(--gold);
+}
+#tr-table thead button:focus-visible,
+#tr-table .link:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 2px;
+}
+#tr-table tbody tr:hover {
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.trees-method {
+  margin-top: 22px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: rgba(10, 16, 34, 0.55);
+}
+.trees-method summary {
+  cursor: pointer;
+  padding: 11px 14px;
+  font-weight: 600;
+  color: var(--ink2);
+}
+.method-body {
+  padding: 2px 16px 14px;
+  font-size: 13.5px;
+  line-height: 1.6;
+  color: var(--ink2);
+  max-width: 100ch;
+}
+.method-body dl {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: 8px 16px;
+  margin: 8px 0;
+}
+.method-body dt {
+  font-weight: 600;
+  color: var(--ink);
+}
+.method-body dd {
+  margin: 0;
+}
+
+.trees-queue {
+  margin-top: 30px;
+}
+.trees-queue ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.trees-queue li {
+  padding: 3px 12px;
+  border-radius: 999px;
+  border: 1px dashed var(--line2);
+  color: var(--ink3);
+  font-size: 12.5px;
+}
+
+/* ---- focus dialog ---- */
+dialog.tree-dialog {
+  width: min(1120px, 96vw);
+  max-width: none;
+  max-height: 92vh;
+  overflow: auto;
+  padding: 22px 26px 26px;
+  background: var(--panel);
+  color: var(--ink);
+  border: 1px solid var(--gold2);
+  border-radius: 18px;
+  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.7);
+}
+dialog.tree-dialog::backdrop {
+  background: rgba(2, 4, 10, 0.78);
+  backdrop-filter: blur(3px);
+}
+.dlg-close {
+  position: absolute;
+  top: 14px;
+  right: 16px;
+  margin: 0;
+  z-index: 2;
+}
+.dlg-grid {
+  display: grid;
+  grid-template-columns: minmax(300px, 1.1fr) minmax(300px, 1fr);
+  gap: 22px;
+  align-items: start;
+}
+.dlg-tree {
+  position: sticky;
+  top: 0;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 10px;
+  background: radial-gradient(100% 80% at 50% 0%, rgba(40, 60, 130, 0.25), transparent 70%), rgba(5, 8, 18, 0.7);
+}
+.dlg-info h2 {
+  margin: 0 0 6px;
+  font-family: var(--display);
+  font-size: 26px;
+  letter-spacing: 0.06em;
+  color: var(--gold);
+}
+.dlg-info h2 small {
+  margin-left: 10px;
+  font-family: var(--font);
+  font-size: 14px;
+  letter-spacing: 0;
+  color: var(--ink3);
+}
+.dlg-info h3 {
+  margin: 18px 0 6px;
+  font-size: 12px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--gold);
+}
+.dlg-sum {
+  margin: 0 0 12px;
+  font-size: 13px;
+  line-height: 1.55;
+  color: var(--ink2);
+}
+.dlg-facts {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  margin: 0;
+}
+.dlg-facts div {
+  padding: 8px 10px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: rgba(14, 23, 50, 0.6);
+}
+.dlg-facts dt {
+  font-size: 10.5px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink3);
+}
+.dlg-facts dd {
+  margin: 2px 0 0;
+  font-size: 12px;
+  color: var(--ink3);
+}
+.dlg-facts dd b {
+  font-size: 22px;
+  color: var(--gold);
+  font-variant-numeric: tabular-nums;
+  margin-right: 4px;
+}
+.dlg-facts dd .dot {
+  margin: 0 4px 0 6px;
+  width: 8px;
+  height: 8px;
+}
+.dot[data-br='national'] {
+  background: var(--c-national);
+}
+.dot[data-br='regional'] {
+  background: var(--c-regional);
+}
+.dot[data-br='local'] {
+  background: var(--c-local);
+}
+.lvl-bar i[data-br] {
+  background: var(--c);
+}
+.cbar {
+  display: flex;
+  height: 12px;
+  gap: 2px;
+  border-radius: 6px;
+  overflow: hidden;
+}
+.cbar i,
+.cbar-key i {
+  display: block;
+}
+.cbar i[data-k='central'],
+.cbar-key i[data-k='central'] {
+  background: var(--c-national);
+}
+.cbar i[data-k='regional'],
+.cbar-key i[data-k='regional'] {
+  background: var(--c-regional);
+}
+.cbar i[data-k='local'],
+.cbar-key i[data-k='local'] {
+  background: var(--c-local);
+}
+.cbar i[data-k='social'],
+.cbar-key i[data-k='social'] {
+  background: #7d8bb3;
+}
+.cbar-key {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 14px;
+  margin: 6px 0 0;
+  padding: 0;
+  list-style: none;
+  font-size: 12px;
+  color: var(--ink2);
+}
+.cbar-key li {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.cbar-key i {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+}
+.cbar-key b {
+  color: var(--ink);
+  font-variant-numeric: tabular-nums;
+}
+.rank {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 5px;
+}
+.rank li {
+  display: grid;
+  grid-template-columns: minmax(120px, 1.3fr) 1fr 52px;
+  gap: 10px;
+  align-items: center;
+  font-size: 12.5px;
+}
+.rk-name {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  color: var(--ink);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.rk-bar {
+  height: 7px;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.06);
+  overflow: hidden;
+}
+.rk-bar i {
+  display: block;
+  height: 100%;
+  background: linear-gradient(90deg, var(--gold2), var(--gold));
+}
+.rk-val {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  color: var(--ink2);
+}
+.dlg-actions {
+  margin: 18px 0 0;
+}
+.dlg-actions .btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+@media (max-width: 860px) {
+  .dlg-grid {
+    grid-template-columns: 1fr;
+  }
+  .dlg-tree {
+    position: static;
+  }
+  dialog.tree-dialog {
+    padding: 16px 14px 20px;
+  }
+}
+@media (max-width: 560px) {
+  .trees {
+    padding-top: 16px;
+  }
+  .trees-controls {
+    gap: 8px 14px;
+  }
+  .seg button {
+    min-height: 36px;
+    padding: 3px 10px;
+    font-size: 12.5px;
+  }
+  .trees-hl {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding-bottom: 6px;
+    scrollbar-width: thin;
+  }
+  .hl-chip,
+  .hl-label {
+    flex: none;
+    white-space: nowrap;
+  }
+  .trees-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  .tcard-hit {
+    padding: 8px 6px 0;
+  }
+  .tcard-foot {
+    padding: 2px 10px 10px;
+  }
+  .tcard-foot h3 {
+    font-size: 12px;
+    letter-spacing: 0.04em;
+  }
+  .facts b {
+    font-size: 16px;
+  }
+  .facts span {
+    font-size: 9.5px;
+  }
+  .dlg-facts {
+    grid-template-columns: 1fr;
+  }
+  .rank li {
+    grid-template-columns: minmax(90px, 1.2fr) 1fr 46px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .tn,
+  .tcard {
+    transition: none;
+  }
+}
+@media (forced-colors: active) {
+  .tn-body {
+    stroke: CanvasText;
+  }
+}

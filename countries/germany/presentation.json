@@ -1,0 +1,33 @@
+{
+  "nodes": {
+    "germany": { "label": "Deutschland", "sublabel": "Fiscal folio", "glyph": "globe" },
+    "federal": { "label": "Bund", "sublabel": "Federal", "glyph": "landmark" },
+    "laender": { "label": "Länder", "sublabel": "16 states", "glyph": "city" },
+    "gemeinden": { "label": "Gemeinden", "sublabel": "Municipalities", "glyph": "town" },
+    "de-income-tax": { "label": "Income tax", "sublabel": "ESt · Lohnsteuer", "glyph": "person" },
+    "de-solidarity-surcharge": { "label": "Solidarity surcharge", "sublabel": "SolZ · 5.5%", "glyph": "percent" },
+    "de-corporate-tax": { "label": "Corporation tax", "sublabel": "KSt · 15%", "glyph": "factory" },
+    "de-vat": { "label": "VAT", "sublabel": "Umsatzsteuer · 19%", "glyph": "cart" },
+    "de-energy-tax": { "label": "Energy tax", "sublabel": "Fuels", "glyph": "flame" },
+    "de-electricity-tax": { "label": "Electricity tax", "sublabel": "Stromsteuer", "glyph": "bolt" },
+    "de-tobacco-tax": { "label": "Tobacco tax", "sublabel": "Tabaksteuer", "glyph": "smoke" },
+    "de-alcohol-tax": { "label": "Spirits tax", "sublabel": "Alkoholsteuer", "glyph": "wine" },
+    "de-aviation-tax": { "label": "Aviation tax", "sublabel": "Luftverkehrsteuer", "glyph": "plane" },
+    "de-other-federal-taxes": { "label": "Other federal taxes", "sublabel": "Coffee · sparkling wine …", "glyph": "stamp" },
+    "de-insurance-tax": { "label": "Insurance tax", "sublabel": "Versicherungsteuer", "glyph": "shield" },
+    "de-vehicle-tax": { "label": "Vehicle tax", "sublabel": "Kfz-Steuer", "glyph": "car" },
+    "de-customs": { "label": "Customs duties", "sublabel": "EU tariff", "glyph": "ship" },
+    "de-pension-insurance": { "label": "Pension insurance", "sublabel": "GRV · 18.6%", "glyph": "shield" },
+    "de-health-insurance": { "label": "Health insurance", "sublabel": "GKV · 14.6% + supp.", "glyph": "heart" },
+    "de-long-term-care-insurance": { "label": "Long-term care", "sublabel": "SPV · 3.6%", "glyph": "bed" },
+    "de-unemployment-insurance": { "label": "Unemployment insurance", "sublabel": "BA · 2.6%", "glyph": "key" },
+    "de-accident-insurance": { "label": "Accident insurance", "sublabel": "Employers only", "glyph": "gear" },
+    "de-inheritance-tax": { "label": "Inheritance tax", "sublabel": "Erbschaftsteuer", "glyph": "key" },
+    "de-real-estate-transfer-tax": { "label": "Real-estate transfer tax", "sublabel": "Grunderwerbsteuer", "glyph": "house" },
+    "de-gambling-taxes": { "label": "Lottery & betting", "sublabel": "Lotterie · Wetten", "glyph": "dice" },
+    "de-other-laender-taxes": { "label": "Other Länder taxes", "sublabel": "Fire protection · beer", "glyph": "stamp" },
+    "de-trade-tax": { "label": "Trade tax", "sublabel": "Gewerbesteuer", "glyph": "factory" },
+    "de-property-tax": { "label": "Property tax", "sublabel": "Grundsteuer", "glyph": "house" },
+    "de-local-excises": { "label": "Local excise taxes", "sublabel": "Dogs · second homes …", "glyph": "stamp" }
+  }
+}

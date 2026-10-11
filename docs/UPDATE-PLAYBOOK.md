@@ -25,6 +25,7 @@ npm run links         # every source URL still answers
 | **Revenue by tax** | `countries/<id>/revenue.json` + the matching part in `country.json` | yearly, when the statistics office publishes | Public accounts, treasury monthly statements, tax-agency annual report |
 | **National-total parts** | `country.json` → `denominators` | with the revenue above | Same release; every part must stay in the same currency and within 30 months of the others |
 | **Harmonised OECD layer** | `countries/<id>/structure.json` and `profiles/<id>.json` | yearly: OECD Revenue Statistics appear each **December** (OECD members) and the Latin America edition each **May** | New edition. Replace **all** countries together, so they keep sharing one reference year |
+| **Provisional figures** | the countries listed under "Countries whose newest figures are provisional" below | when the final release appears | Final results of the statistics office or ministry |
 | **Subnational revenue structure** | `structure.json` → `subnational` | every 2 to 3 years (the observatory's editions) | New OECD/UCLG observatory edition |
 
 ## The routine, step by step
@@ -43,14 +44,26 @@ npm run links         # every source URL still answers
 
 ## The yearly OECD refresh (all countries, one sitting)
 
-The Fiscal Fighters screen compares countries on one reference year. Refresh it as a set:
+The "OECD level" columns of the Trees table and the "Which level gets it" chart of each folio compare countries on one reference year. Refresh them as a set:
 
 1. Read the new tables: Revenue Statistics chapter 6 ("Tax revenues by subsectors of general government"), chapter 3 (tax-to-GDP and tax mix), and the Latin America edition's Table 1.4 for Brazil and Bolivia. Prefer downloading the OECD Data Explorer table as CSV over reading the web page.
-2. For the 33 files in `profiles/` and the 7 `structure.json` files: replace the year, level totals, tax types and tax-to-GDP. Keep the currency and scale that the table states.
+2. For the 23 files in `profiles/` and the 17 `structure.json` files: replace the year, level totals, tax types and tax-to-GDP. Keep the currency and scale that the table states, and the basis text ("OECD attribution to sub-sectors of general government (Interpretative Guide, section A.12)").
 3. `npm run validate` (tax types must add up to each level's total, level shares to 100%).
-4. The tests compare a handful of headline OECD figures (for example Canada's income share of tax, 51.0%); update those constants in `tests/profile.test.ts` to the new edition. That is deliberate: it forces a second look at the numbers.
+4. The tests compare a handful of headline OECD figures (for example Canada's income share of tax, 51.0%); update those constants in `tests/structure.test.ts` to the new edition. That is deliberate: it forces a second look at the numbers.
 
 The first import is preserved in `scripts/archive/` as a record of how the numbers were read and checksummed.
+
+## Countries whose newest figures are provisional
+
+Some folios were built on provisional or soon-to-be-revised figures. The checklist marks each source's `nextExpected` month; the ones to watch first:
+
+- **South Korea**: local taxes are the Ministry of the Interior and Safety's provisional 2025 results; the final per-tax figures are due in October 2026 on Local Finance 365 and replace the figures in `countries/south-korea/revenue.json` and the local denominator. The education tax (5.7 trillion won) comes from a news report of the ministry's results: replace it with the ministry's own table by tax when you read it.
+- **New Zealand**: the council rates are provisional (June 2026 quarter release).
+- **France**: INSEE's 2025 table is provisional.
+- **Chile**: municipal taxes are the OECD's 2023 figures; replace them with 2025 municipal data when the municipal information system (SINIM) publishes it (its 2026 edition is expected in October 2026).
+- **Spain and Switzerland**: parts that are OECD 2023 figures (regional and local taxes in Spain; cantons and communes in Switzerland) are replaced when national statistics itemise them for a more recent year.
+
+The builder scripts in `scripts/build/` hold the same numbers as the JSON files; after changing a country's JSON you do not need to touch them, but if you re-run one it overwrites your JSON edits.
 
 ## Data quality rules the validator enforces (so you don't have to remember them)
 

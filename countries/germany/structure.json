@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "referenceYear": 2023,
+  "currency": "EUR",
+  "scale": "million",
+  "taxToGdp": 37.3,
+  "basis": "OECD attribution to sub-sectors of general government (Interpretative Guide, section A.12): the joint taxes are attributed to each level by its legal share",
+  "levels": [
+    {
+      "key": "central",
+      "label": "Federal government",
+      "folioLevelIds": ["federal"],
+      "total": 447774,
+      "byType": { "income": 201410, "socialSecurity": 0, "payroll": 0, "property": 1622, "goodsServices": 244742, "other": 0 },
+      "note": "Includes the Bund’s share of the joint taxes. The social security funds are shown separately by the OECD; the folio draws them under the federal level."
+    },
+    {
+      "key": "regional",
+      "label": "State / regional governments",
+      "folioLevelIds": ["laender"],
+      "total": 373157,
+      "byType": { "income": 192485, "socialSecurity": 0, "payroll": 0, "property": 23056, "goodsServices": 157616, "other": 0 }
+    },
+    {
+      "key": "local",
+      "label": "Local governments",
+      "folioLevelIds": ["gemeinden"],
+      "total": 140051,
+      "byType": { "income": 116200, "socialSecurity": 0, "payroll": 0, "property": 13927, "goodsServices": 9517, "other": 407 }
+    },
+    {
+      "key": "social-security",
+      "label": "Social security funds",
+      "folioLevelIds": [],
+      "total": 604323,
+      "byType": { "income": 0, "socialSecurity": 604323, "payroll": 0, "property": 0, "goodsServices": 0, "other": 0 }
+    }
+  ],
+  "sourceIds": ["oecd-rs-2025-subsectors", "oecd-rs-2025-levels"],
+  "subnational": {
+    "ownSourceTaxShareOfRevenue": 52,
+    "grantsShareOfRevenue": 32.5,
+    "year": 2020,
+    "sourceId": "sng-wofi-profile",
+    "note": "Tariffs and fees 10.9%, property income 0.8%, other 3.8% of subnational revenue."
+  },
+  "notes": []
+}

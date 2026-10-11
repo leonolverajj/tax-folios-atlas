@@ -12,7 +12,7 @@
     "currency": "PLN",
     "scale": "million",
     "taxToGdp": 34.9,
-    "basis": "Collecting government",
+    "basis": "OECD attribution to sub-sectors of general government (Interpretative Guide, section A.12)",
     "levels": [
       {
         "key": "central",

@@ -1,0 +1,17 @@
+{
+  "nodes": {
+    "chile": { "label": "Chile", "sublabel": "Fiscal folio", "glyph": "globe" },
+    "central": { "label": "Central government", "sublabel": "Gobierno Central", "glyph": "landmark" },
+    "municipal": { "label": "Municipalities", "sublabel": "345 comunas", "glyph": "town" },
+    "cl-income-tax": { "label": "Income tax", "sublabel": "Companies 27%", "glyph": "factory" },
+    "cl-vat": { "label": "VAT", "sublabel": "19%", "glyph": "cart" },
+    "cl-fuel-tax": { "label": "Fuel tax", "sublabel": "Per m³", "glyph": "oil" },
+    "cl-tobacco-tax": { "label": "Tobacco tax", "sublabel": "Cigarettes · cigars", "glyph": "smoke" },
+    "cl-fishing-rights": { "label": "Fishing extraction rights", "sublabel": "Licensed catch", "glyph": "drop" },
+    "cl-stamp-tax": { "label": "Stamp tax", "sublabel": "Credit documents", "glyph": "stamp" },
+    "cl-customs": { "label": "Customs duties", "sublabel": "6% general", "glyph": "ship" },
+    "cl-social-contributions": { "label": "Social contributions", "sublabel": "Health · public pensions", "glyph": "heart" },
+    "cl-property-tax": { "label": "Property tax", "sublabel": "Territorial tax", "glyph": "house" },
+    "cl-municipal-licences": { "label": "Licences & permits", "sublabel": "Patentes · circulation", "glyph": "scroll" }
+  }
+}

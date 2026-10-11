@@ -1,0 +1,30 @@
+{
+  "nodes": {
+    "united-kingdom": { "label": "United Kingdom", "sublabel": "Fiscal folio", "glyph": "globe" },
+    "uk-government": { "label": "UK government", "sublabel": "HMRC · Treasury", "glyph": "landmark" },
+    "devolved-governments": { "label": "Devolved", "sublabel": "Scotland · Wales", "glyph": "city" },
+    "local-authorities": { "label": "Councils", "sublabel": "Local authorities", "glyph": "town" },
+    "uk-income-tax": { "label": "Income tax", "sublabel": "PAYE · self-assessment", "glyph": "person" },
+    "uk-national-insurance": { "label": "National Insurance", "sublabel": "Class 1 · 2 · 4", "glyph": "shield" },
+    "uk-vat": { "label": "VAT", "sublabel": "20%", "glyph": "cart" },
+    "uk-corporation-tax": { "label": "Corporation tax", "sublabel": "25%", "glyph": "factory" },
+    "uk-capital-gains-tax": { "label": "Capital gains tax", "sublabel": "18% · 24%", "glyph": "gem" },
+    "uk-fuel-duty": { "label": "Fuel duty", "sublabel": "Per litre", "glyph": "flame" },
+    "uk-stamp-taxes": { "label": "Stamp taxes", "sublabel": "SDLT · shares", "glyph": "key" },
+    "uk-alcohol-duties": { "label": "Alcohol duty", "sublabel": "By strength", "glyph": "wine" },
+    "uk-insurance-premium-tax": { "label": "Insurance premium tax", "sublabel": "IPT · 12%", "glyph": "heart" },
+    "uk-inheritance-tax": { "label": "Inheritance tax", "sublabel": "IHT · 40%", "glyph": "scroll" },
+    "uk-tobacco-duties": { "label": "Tobacco duty", "sublabel": "Cigarettes", "glyph": "smoke" },
+    "uk-customs-duties": { "label": "Customs duties", "sublabel": "UK Global Tariff", "glyph": "ship" },
+    "uk-air-passenger-duty": { "label": "Air passenger duty", "sublabel": "APD", "glyph": "plane" },
+    "uk-apprenticeship-levy": { "label": "Apprenticeship levy", "sublabel": "0.5%", "glyph": "book" },
+    "uk-betting-gaming": { "label": "Betting & gaming", "sublabel": "Duties", "glyph": "dice" },
+    "uk-sector-levies": { "label": "Sector & green levies", "sublabel": "Energy · banks · digital", "glyph": "bolt" },
+    "uk-vehicle-excise-duty": { "label": "Vehicle excise duty", "sublabel": "Road tax", "glyph": "car" },
+    "uk-scottish-income-tax": { "label": "Scottish income tax", "sublabel": "Scotland", "glyph": "person" },
+    "uk-lbtt": { "label": "Scottish property tax (LBTT)", "sublabel": "Scotland", "glyph": "key" },
+    "uk-ltt": { "label": "Welsh property tax (LTT)", "sublabel": "Wales", "glyph": "key" },
+    "uk-council-tax": { "label": "Council tax", "sublabel": "Domestic property", "glyph": "house" },
+    "uk-business-rates": { "label": "Business rates (England)", "sublabel": "Non-domestic rates", "glyph": "factory" }
+  }
+}

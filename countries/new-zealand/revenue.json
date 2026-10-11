@@ -1,0 +1,96 @@
+{
+  "groups": [
+    {
+      "title": "Taxation revenue 2026 – Financial Statements of the Government, Note 4 (accrual, NZD million)",
+      "defaults": {
+        "denominatorId": "crown-taxes-2026",
+        "scale": "million",
+        "currency": "NZD",
+        "period": { "label": "FY2026", "kind": "fiscal-year", "start": "2025-07-01", "end": "2026-06-30" },
+        "basis": "Accrual basis, net of refunds, core Crown",
+        "sourceId": "fsgnz-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-10"
+      },
+      "observations": [
+        {
+          "nodeId": "nz-income-tax-individuals",
+          "amount": 63575,
+          "locator": "Note 4: Individuals: Source deductions 54,756 + Other persons 11,489 − Refunds 2,670",
+          "calculation": "54,756 + 11,489 − 2,670 = 63,575 (NZD million)"
+        },
+        { "nodeId": "nz-fringe-benefit-tax", "amount": 975, "locator": "Note 4: Individuals › Fringe benefit tax" },
+        {
+          "nodeId": "nz-company-tax",
+          "amount": 17099,
+          "locator": "Note 4: Corporate Tax: Gross companies tax 17,912 − Refunds 813",
+          "calculation": "17,912 − 813 = 17,099 (NZD million)"
+        },
+        {
+          "nodeId": "nz-withholding-taxes",
+          "amount": 4503,
+          "locator": "Note 4: RWT on interest 2,572 + RWT on dividends 1,217 + Non-resident withholding tax 714",
+          "calculation": "2,572 + 1,217 + 714 = 4,503 (NZD million)"
+        },
+        {
+          "nodeId": "nz-gst",
+          "amount": 31206,
+          "locator": "Note 4: Goods and Services Tax: Gross 51,701 − Refunds 20,495",
+          "calculation": "51,701 − 20,495 = 31,206 (NZD million)"
+        },
+        { "nodeId": "nz-fuel-excise", "amount": 2034, "locator": "Note 4: Other Indirect Taxation › Petroleum fuels excise" },
+        { "nodeId": "nz-road-user-charges", "amount": 2106, "locator": "Note 4: Other Indirect Taxation › Road and track user charges" },
+        { "nodeId": "nz-tobacco-excise", "amount": 1317, "locator": "Note 4: Other Indirect Taxation › Tobacco excise" },
+        {
+          "nodeId": "nz-alcohol-excise",
+          "amount": 1242,
+          "locator": "Note 4: Alcohol excise – domestic production 795 + imports 447",
+          "calculation": "795 + 447 = 1,242 (NZD million)"
+        },
+        { "nodeId": "nz-other-duties", "amount": 1018, "locator": "Note 4: Other Indirect Taxation › Other duties, fees and levies" }
+      ]
+    },
+    {
+      "title": "Compulsory levies 2026 – Financial Statements of the Government, Note 4 (accrual, NZD million)",
+      "defaults": {
+        "denominatorId": "crown-levies-2026",
+        "scale": "million",
+        "currency": "NZD",
+        "period": { "label": "FY2026", "kind": "fiscal-year", "start": "2025-07-01", "end": "2026-06-30" },
+        "basis": "Accrual basis, other sovereign revenue",
+        "sourceId": "fsgnz-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-10"
+      },
+      "observations": [
+        { "nodeId": "nz-acc-levies", "amount": 4501, "locator": "Note 4: Other Sovereign Revenue › ACC levies" },
+        { "nodeId": "nz-fire-emergency-levy", "amount": 820, "locator": "Note 4: Other Sovereign Revenue › Fire and emergency levies" },
+        { "nodeId": "nz-natural-hazards-levy", "amount": 914, "locator": "Note 4: Other Sovereign Revenue › Natural Hazards Commission levies" }
+      ]
+    },
+    {
+      "title": "Local authority rates, June year 2026 – Stats NZ (NZD million)",
+      "defaults": {
+        "denominatorId": "council-rates-2026",
+        "scale": "million",
+        "currency": "NZD",
+        "period": { "label": "FY2026 (provisional)", "kind": "fiscal-year", "start": "2025-07-01", "end": "2026-06-30" },
+        "basis": "Actual income, all forms of rates, provisional",
+        "sourceId": "stats-las-2026q2",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-10"
+      },
+      "observations": [
+        {
+          "nodeId": "nz-rates",
+          "amount": 10933.9,
+          "locator": "Table 3 Local authority statistics: Actual income › Rates, June year 2026 (provisional)"
+        }
+      ]
+    }
+  ],
+  "unavailable": []
+}

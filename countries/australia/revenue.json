@@ -1,0 +1,129 @@
+{
+  "groups": [
+    {
+      "title": "Commonwealth taxation 2024-25 – ABS Taxation Revenue, Table 1 ($ million)",
+      "defaults": {
+        "denominatorId": "commonwealth-taxes-2024-25",
+        "scale": "million",
+        "currency": "AUD",
+        "period": { "label": "FY2024-25", "kind": "fiscal-year", "start": "2024-07-01", "end": "2025-06-30" },
+        "basis": "Accrual-based government finance statistics, taxation revenue",
+        "sourceId": "abs-taxation-2024-25",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-10"
+      },
+      "observations": [
+        {
+          "nodeId": "au-personal-income-tax",
+          "amount": 316226,
+          "locator": "Table 1: Income taxes levied on individuals › Personal income tax, 2024-25"
+        },
+        {
+          "nodeId": "au-medicare-levy",
+          "amount": 25663,
+          "locator": "Table 1: Income taxes levied on individuals › Government health insurance levy, 2024-25"
+        },
+        {
+          "nodeId": "au-fringe-benefits-tax",
+          "amount": 5194,
+          "locator": "Table 1: Income taxes levied on individuals › Fringe benefits tax, 2024-25"
+        },
+        { "nodeId": "au-company-tax", "amount": 143659, "locator": "Table 1: Income taxes levied on enterprises › Company income tax, 2024-25" },
+        {
+          "nodeId": "au-super-fund-tax",
+          "amount": 26052,
+          "locator": "Table 1: Income taxes levied on enterprises › Income tax paid by superannuation funds, 2024-25"
+        },
+        {
+          "nodeId": "au-withholding-nonresidents",
+          "amount": 3058,
+          "locator": "Table 1: Income taxes levied on non-residents: Dividend withholding tax 686 + Interest withholding tax 2,372",
+          "calculation": "686 + 2,372 = 3,058 ($m)"
+        },
+        {
+          "nodeId": "au-gst",
+          "amount": 94790,
+          "locator": "Table 1: Taxes on the provision of goods and services › Goods and services tax (GST), 2024-25",
+          "caveat": "All of this revenue is passed on to the states and territories as grants; it is counted once, here."
+        },
+        {
+          "nodeId": "au-excise",
+          "amount": 32136,
+          "locator": "Table 1: Excises and levies › Total excises and levies (crude oil and LPG 25,768 + other excises 5,089 + agricultural production taxes 671 + levies on statutory corporations 608)",
+          "calculation": "25,768 + 5,089 + 671 + 608 = 32,136 ($m)",
+          "caveat": "The ABS does not split fuel, tobacco and alcohol in this table."
+        },
+        { "nodeId": "au-customs", "amount": 11969, "locator": "Table 1: Taxes on international trade, 2024-25" },
+        {
+          "nodeId": "au-other-commonwealth",
+          "amount": 16426,
+          "locator": "Table 1: General taxes (sales taxes) 2,223 + Taxes on employers payroll and labour force 1,725 + Taxes on the use of goods and performance of activities 12,343 + Other income tax levied on enterprises 120 + Taxes on financial and capital transactions 15",
+          "calculation": "2,223 + 1,725 + 12,343 + 120 + 15 = 16,426 ($m)"
+        }
+      ]
+    },
+    {
+      "title": "State and territory taxation 2024-25 – ABS Taxation Revenue, Table 10 ($ million)",
+      "defaults": {
+        "denominatorId": "state-taxes-2024-25",
+        "scale": "million",
+        "currency": "AUD",
+        "period": { "label": "FY2024-25", "kind": "fiscal-year", "start": "2024-07-01", "end": "2025-06-30" },
+        "basis": "Accrual-based government finance statistics, taxation revenue of all states and territories",
+        "sourceId": "abs-taxation-2024-25",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-10"
+      },
+      "observations": [
+        { "nodeId": "au-payroll-tax", "amount": 41700, "locator": "Table 10: Taxes on employers payroll and labour force, 2024-25" },
+        {
+          "nodeId": "au-stamp-duty",
+          "amount": 34447,
+          "locator": "Table 10: Taxes on financial and capital transactions › Stamp duties on conveyances, 2024-25"
+        },
+        { "nodeId": "au-land-tax", "amount": 20002, "locator": "Table 10: Taxes on immovable property › Land taxes, 2024-25" },
+        {
+          "nodeId": "au-motor-vehicle-taxes",
+          "amount": 15548,
+          "locator": "Table 10: Motor vehicle taxes: Stamp duty on vehicle registration 4,628 + Other motor vehicle taxes 10,920",
+          "calculation": "4,628 + 10,920 = 15,548 ($m)"
+        },
+        {
+          "nodeId": "au-gambling-taxes",
+          "amount": 10027,
+          "locator": "Table 10: Taxes on gambling, total, 2024-25 (machines 5,911, private lotteries 1,421, race and sports betting 1,297, casinos 771, government lotteries 583, other 44)"
+        },
+        {
+          "nodeId": "au-insurance-taxes",
+          "amount": 9808,
+          "locator": "Table 10: Taxes on insurance: fire brigade contributions 1,365 + third party insurance taxes 507 + other taxes on insurance 7,937",
+          "calculation": "1,365 + 507 + 7,937 = 9,809; the ABS total is 9,808 ($m)"
+        },
+        {
+          "nodeId": "au-other-state-taxes",
+          "amount": 8290,
+          "locator": "Table 10: Other taxes on property 3,515 + Government borrowing guarantee levies 1,232 + Excises and levies 284 + Other taxes on financial and capital transactions 73 + Franchise taxes 32 + Other taxes on use of goods and performance of activities 3,154",
+          "calculation": "3,515 + 1,232 + 284 + 73 + 32 + 3,154 = 8,290 ($m)"
+        }
+      ]
+    },
+    {
+      "title": "Local government taxation 2024-25 – ABS Taxation Revenue, Table 10 ($ million)",
+      "defaults": {
+        "denominatorId": "local-taxes-2024-25",
+        "scale": "million",
+        "currency": "AUD",
+        "period": { "label": "FY2024-25", "kind": "fiscal-year", "start": "2024-07-01", "end": "2025-06-30" },
+        "basis": "Accrual-based government finance statistics, municipal rates",
+        "sourceId": "abs-taxation-2024-25",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-10"
+      },
+      "observations": [{ "nodeId": "au-council-rates", "amount": 25138, "locator": "Table 10: Taxes on immovable property › Municipal rates, 2024-25" }]
+    }
+  ],
+  "unavailable": []
+}

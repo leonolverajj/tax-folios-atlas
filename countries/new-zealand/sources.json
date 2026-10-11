@@ -1,0 +1,157 @@
+{
+  "sources": [
+    {
+      "id": "oecd-rs-2025-subsectors",
+      "org": "OECD",
+      "title": "Revenue Statistics 2025, Table 6.27: New Zealand, tax revenues by sub-sectors of government",
+      "url": "https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en/full-report/tax-revenues-by-subsectors-of-general-government_f9e88332.html",
+      "kind": "international",
+      "language": "en",
+      "publishedDate": "2025-12-09",
+      "periodCovered": "Calendar year 2023 (national currency)",
+      "accessed": "2026-09-29",
+      "note": "Harmonised OECD classification of taxes (1000–6000) split by collecting sub-sector of general government."
+    },
+    {
+      "id": "oecd-rs-2025-levels",
+      "org": "OECD",
+      "title": "Revenue Statistics 2025, Chapter 3: Tax levels and tax structures (Table 3.1)",
+      "url": "https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en/full-report/tax-levels-and-tax-structures-1965-2024_2033f3ea.html",
+      "kind": "international",
+      "language": "en",
+      "publishedDate": "2025-12-09",
+      "periodCovered": "Calendar year 2023",
+      "accessed": "2026-09-29",
+      "note": "Total tax revenue as % of GDP."
+    },
+    {
+      "id": "sng-wofi-profile",
+      "org": "OECD and United Cities and Local Governments (SNG-WOFI)",
+      "title": "World Observatory on Subnational Government Finance and Investment – country profile: New Zealand",
+      "url": "https://www.sng-wofi.org/country_profiles/new_zealand.html",
+      "kind": "international",
+      "language": "en",
+      "publishedDate": "2022-10-24",
+      "periodCovered": "2020",
+      "accessed": "2026-09-29",
+      "note": "Subnational government revenue by category as % of total subnational revenue, 2022 edition."
+    },
+    {
+      "id": "fsgnz-2026",
+      "org": "The Treasury (New Zealand)",
+      "title": "Financial Statements of the Government of New Zealand for the Year Ended 30 June 2026",
+      "url": "https://www.treasury.govt.nz/publications/year-end/financial-statements-2026",
+      "kind": "budget-report",
+      "language": "en",
+      "publishedDate": "2026-10-08",
+      "periodCovered": "Year ended 30 June 2026",
+      "accessed": "2026-10-10",
+      "nextExpected": "2027-10",
+      "note": "Note 4 gives taxation revenue by source (accrual) in the Excel companion fsgnz-2026.xlsx, sheet \"Fin Stmts - Notes 4-7\". Unaudited at publication."
+    },
+    {
+      "id": "stats-las-2026q2",
+      "org": "Stats NZ",
+      "title": "Local authority statistics: June 2026 quarter",
+      "url": "https://www.stats.govt.nz/information-releases/local-authority-statistics-june-2026-quarter/",
+      "kind": "statistics",
+      "language": "en",
+      "publishedDate": "2026-09-07",
+      "periodCovered": "June year 2026 (provisional)",
+      "accessed": "2026-10-10",
+      "nextExpected": "2027-09",
+      "note": "Table 3: actual income. Rates NZD 10,004.2 million in the June 2025 year and 10,933.9 million (provisional) in the June 2026 year."
+    },
+    {
+      "id": "ita-2007",
+      "org": "New Zealand Parliamentary Counsel Office",
+      "title": "Income Tax Act 2007",
+      "url": "https://legislation.govt.nz/act/public/2007/0097/latest/DLM1512301.html",
+      "kind": "legal",
+      "language": "en",
+      "publishedDate": null,
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "gst-act-1985",
+      "org": "New Zealand Parliamentary Counsel Office",
+      "title": "Goods and Services Tax Act 1985",
+      "url": "https://www.legislation.govt.nz/act/public/1985/0141/latest/whole.html",
+      "kind": "legal",
+      "language": "en",
+      "publishedDate": null,
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "customs-excise-act-2018",
+      "org": "New Zealand Parliamentary Counsel Office",
+      "title": "Customs and Excise Act 2018",
+      "url": "https://www.legislation.govt.nz/act/public/2018/0004/latest/whole.html",
+      "kind": "legal",
+      "language": "en",
+      "publishedDate": null,
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "ruc-act-2012",
+      "org": "New Zealand Parliamentary Counsel Office",
+      "title": "Road User Charges Act 2012",
+      "url": "https://www.legislation.govt.nz/act/public/2012/0001/latest/whole.html",
+      "kind": "legal",
+      "language": "en",
+      "publishedDate": null,
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "acc-act-2001",
+      "org": "New Zealand Parliamentary Counsel Office",
+      "title": "Accident Compensation Act 2001",
+      "url": "https://www.legislation.govt.nz/act/public/2001/0049/latest/whole.html",
+      "kind": "legal",
+      "language": "en",
+      "publishedDate": null,
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "fenz-act-2017",
+      "org": "New Zealand Parliamentary Counsel Office",
+      "title": "Fire and Emergency New Zealand Act 2017",
+      "url": "https://www.legislation.govt.nz/act/public/2017/0017/latest/whole.html",
+      "kind": "legal",
+      "language": "en",
+      "publishedDate": null,
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "nhi-act-2023",
+      "org": "New Zealand Parliamentary Counsel Office",
+      "title": "Natural Hazards Insurance Act 2023",
+      "url": "https://legislation.govt.nz/act/public/2023/1/en/latest/",
+      "kind": "legal",
+      "language": "en",
+      "publishedDate": null,
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "lg-rating-act-2002",
+      "org": "New Zealand Parliamentary Counsel Office",
+      "title": "Local Government (Rating) Act 2002",
+      "url": "https://www.legislation.govt.nz/act/public/2002/0006/latest/whole.html",
+      "kind": "legal",
+      "language": "en",
+      "publishedDate": null,
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "ird-individual-rates",
+      "org": "Inland Revenue",
+      "title": "Tax rates for individuals",
+      "url": "https://www.ird.govt.nz/income-tax/income-tax-for-individuals/tax-codes-and-tax-rates-for-individuals/tax-rates-for-individuals",
+      "kind": "tax-agency",
+      "language": "en",
+      "publishedDate": null,
+      "accessed": "2026-10-10",
+      "note": "From 1 April 2025: 10.5% to NZ$15,600; 17.5% to NZ$53,500; 30% to NZ$78,100; 33% to NZ$180,000; 39% above."
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 # Update checklist – Bolivia
 
-Generated 2026-09-29 by `npm run checklist`. **Do not edit by hand** – edit the sources in `countries/bolivia/sources.json` and re-run it.
+Generated 2026-10-11 by `npm run checklist`. **Do not edit by hand** – edit the sources in `countries/bolivia/sources.json` and re-run it.
 
 Research status: **partial**. 2 source(s) to check or due, 0 coming up, 18 in total.
 
@@ -24,15 +24,15 @@ When you have worked through a row: update the data, set its `accessed` date, ru
 
 - [ ] **Revenue Statistics in Latin America and the Caribbean 2025: Bolivia (country note)** – OECD
   - URL: https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/05/revenue-statistics-in-latin-america-and-the-caribbean-2025-country-notes_29961c77/bolivia_857aa47b/78b0c38c-en.pdf
-  - Feeds: national-total parts: `customs-oecd-2023`, `social-security-oecd-2023`; revenue of 2 core(s): `nat-aduana`, `nat-seguridad-social`; `structure.json` (cross-country profile)
-  - Status: **CHECK** – figures end 2023-12-31 (33 months ago); a newer edition may exist (record `nextExpected` in sources.json once you know). Published 2025-05-27, accessed 2026-09-29, covers Calendar year 2023.
+  - Feeds: national-total parts: `customs-oecd-2023`, `social-security-oecd-2023`; revenue of 2 core(s): `nat-aduana`, `nat-seguridad-social`; `structure.json` (OECD level shares in the Trees table and the folio charts)
+  - Status: **CHECK** – figures end 2023-12-31 (34 months ago); a newer edition may exist (record `nextExpected` in sources.json once you know). Published 2025-05-27, accessed 2026-09-29, covers Calendar year 2023.
   - To do: Open the source, find the newest period, update the amounts in revenue.json (keep the published unit and scale) and the matching part in country.json, update period, locator, `accessed`, then run `npm run validate`.
   - Note: Tax-to-GDP ratio and tax structure by OECD heading, national currency (BOB millions): income 9,008; social security 17,908; property 570; goods and services 38,386; other 8,548; total 74,419.
 
 - [ ] **Revenue Statistics in Latin America and the Caribbean 2025, Table 1.4: attribution of tax revenue to sub-sectors of general government** – OECD
   - URL: https://www.oecd.org/en/publications/revenue-statistics-in-latin-america-and-the-caribbean-2025_7594fbdd-en/full-report/tax-revenue-trends-1990-2023_ee246e3f.html
-  - Feeds: national-total parts: `municipal-taxes-oecd-2023`; `structure.json` (cross-country profile)
-  - Status: **CHECK** – figures end 2023-12-31 (33 months ago); a newer edition may exist (record `nextExpected` in sources.json once you know). Published 2025-05-27, accessed 2026-09-29, covers Calendar year 2023.
+  - Feeds: national-total parts: `municipal-taxes-oecd-2023`; `structure.json` (OECD level shares in the Trees table and the folio charts)
+  - Status: **CHECK** – figures end 2023-12-31 (34 months ago); a newer edition may exist (record `nextExpected` in sources.json once you know). Published 2025-05-27, accessed 2026-09-29, covers Calendar year 2023.
   - To do: Open the source, find the newest period, update the amounts in revenue.json (keep the published unit and scale) and the matching part in country.json, update period, locator, `accessed`, then run `npm run validate`.
   - Note: Bolivia: central government 71.4%, local government 4.5%, social security funds 24.1% of total tax revenue (no separate regional column).
 
@@ -41,7 +41,7 @@ When you have worked through a row: update the data, set its `accessed` date, ru
 
 - [ ] **World Observatory on Subnational Government Finance and Investment – country profile: Bolivia** – OECD and United Cities and Local Governments (SNG-WOFI)
   - URL: https://www.sng-wofi.org/country_profiles/bolivia.html
-  - Feeds: `structure.json` (cross-country profile)
+  - Feeds: `structure.json` (OECD level shares in the Trees table and the folio charts)
   - Status: yearly – OECD Revenue Statistics appear each December (OECD countries) and the Latin America edition each May. Published 2022-10-24, accessed 2026-09-29, covers 2020.
   - To do: Check whether a newer edition exists. If so, replace the year, the level totals/shares and tax types in structure.json for EVERY country together (the layer is only comparable when all countries share one year), then `npm run validate`.
   - Note: Subnational government revenue by category (tax revenue, grants and subsidies, tariffs and fees, property income, other) as % of total subnational revenue, 2022 edition.

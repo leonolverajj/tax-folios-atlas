@@ -1,0 +1,329 @@
+{
+  "instruments": [
+    {
+      "id": "nz-income-tax-individuals",
+      "parentId": "crown",
+      "levelId": "crown",
+      "category": "tax",
+      "family": "income-personal",
+      "status": "current",
+      "names": {
+        "official": "Income tax on individuals (PAYE source deductions and other persons)",
+        "common": "Income tax on individuals",
+        "abbreviation": "PAYE"
+      },
+      "taxes": {
+        "base": "Income of individuals from wages, benefits, business, interest, rents and some overseas income. Capital gains are not taxed (apart from specific rules for property sold within a set period and for certain investments).",
+        "payer": "Individuals; employers deduct it from wages (PAYE), others pay provisional tax and file returns."
+      },
+      "rate": {
+        "kind": "progressive",
+        "headline": "10.5%–39% progressive",
+        "details": [
+          "From 1 April 2025: 10.5% to NZ$15,600; 17.5% to NZ$53,500; 30% to NZ$78,100; 33% to NZ$180,000; 39% above.",
+          "There is no tax-free threshold and no social security contributions; ACC earners’ levies are separate."
+        ],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "The largest tax by far. About 86% is deducted from wages at source (PAYE); the rest is paid by people with other income such as the self-employed and landlords.",
+      "exceptions": ["KiwiSaver contributions and Working for Families credits are handled outside the core tax."],
+      "legalRefs": [{ "sourceId": "ird-individual-rates" }, { "sourceId": "ita-2007" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "nz-fringe-benefit-tax",
+      "parentId": "crown",
+      "levelId": "crown",
+      "category": "tax",
+      "family": "payroll",
+      "status": "current",
+      "names": { "official": "Fringe benefit tax", "common": "Fringe benefit tax", "abbreviation": "FBT" },
+      "taxes": { "base": "Non-cash benefits that employers provide to employees (cars, loans, entertainment, accommodation).", "payer": "Employers." },
+      "rate": {
+        "kind": "mechanism",
+        "headline": "Rates set to match the employee’s tax",
+        "details": ["The employer chooses a flat or an attributed rate that approximates the tax the employee would have paid on the grossed-up value."],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "A tax on the employer that stands in for income tax on benefits that are not paid in cash.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ita-2007" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "nz-company-tax",
+      "parentId": "crown",
+      "levelId": "crown",
+      "category": "tax",
+      "family": "income-corporate",
+      "status": "current",
+      "names": { "official": "Company income tax", "common": "Company tax" },
+      "taxes": {
+        "base": "Net income of companies, with imputation credits to resident shareholders for tax already paid.",
+        "payer": "Companies (and trusts at 39%)."
+      },
+      "rate": {
+        "kind": "flat",
+        "headline": "28% on company profits",
+        "details": ["28% flat; the Investment Boost lets businesses deduct 20% of the cost of new assets immediately from 22 May 2025."],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "Companies pay tax at 28% and pass credits for it to shareholders through the imputation system.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ita-2007" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "nz-withholding-taxes",
+      "parentId": "crown",
+      "levelId": "crown",
+      "category": "tax",
+      "family": "income-mixed",
+      "status": "current",
+      "names": {
+        "official": "Resident withholding tax on interest and dividends; non-resident withholding tax",
+        "common": "Withholding taxes",
+        "abbreviation": "RWT / NRWT"
+      },
+      "taxes": {
+        "base": "Interest and dividends paid to residents, and interest, dividends and royalties paid to non-residents.",
+        "payer": "The recipient; the payer deducts and pays the tax over."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "At the recipient’s rate; set rates for non-residents",
+        "details": [
+          "Residents’ withholding follows their personal rate; non-residents pay 15% on most interest and 30% on unimputed dividends, reduced by tax treaties."
+        ],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "Taxes deducted at source on investment income. Revenue fell in 2026 as deposit rates dropped.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ita-2007" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "nz-gst",
+      "parentId": "crown",
+      "levelId": "crown",
+      "category": "tax",
+      "family": "general-consumption",
+      "status": "current",
+      "names": { "official": "Goods and Services Tax (GST)", "common": "Goods and services tax", "abbreviation": "GST" },
+      "taxes": {
+        "base": "Nearly all supplies of goods and services in New Zealand and imports, with very few exemptions.",
+        "payer": "Consumers; businesses charge it and claim input credits."
+      },
+      "rate": {
+        "kind": "flat",
+        "headline": "15% on almost everything",
+        "details": ["Zero-rated: exports and some land transactions. Exempt: financial services and residential rent. No reduced rates for food."],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "One of the broadest GSTs in the world: a single 15% rate with almost no exceptions. Revenue is net of the large refunds that businesses claim.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "gst-act-1985" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "nz-fuel-excise",
+      "parentId": "crown",
+      "levelId": "crown",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Petroleum fuels excise", "common": "Fuel excise" },
+      "taxes": {
+        "base": "Petrol and other petroleum fuels, by the litre (excise-equivalent duty on imports).",
+        "payer": "Fuel companies and importers; passed on at the pump."
+      },
+      "rate": {
+        "kind": "specific",
+        "headline": "Cents per litre, set by regulation",
+        "details": ["The rate is a fixed amount per litre; the revenue is paid into the National Land Transport Fund."],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "Fuel excise, together with road user charges, pays for land transport.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "customs-excise-act-2018" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "nz-road-user-charges",
+      "parentId": "crown",
+      "levelId": "crown",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Road and track user charges", "common": "Road user charges", "abbreviation": "RUC" },
+      "taxes": {
+        "base": "Distance travelled by diesel and other vehicles not taxed through fuel, by weight and axle configuration.",
+        "payer": "Vehicle owners."
+      },
+      "rate": {
+        "kind": "specific",
+        "headline": "Per 1,000 km by vehicle weight class",
+        "details": ["Charged in advance by distance; heavy vehicles pay more."],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "A distance-based charge that does the work of fuel excise for diesel vehicles and heavy transport.",
+      "exceptions": ["Petrol vehicles pay fuel excise instead."],
+      "legalRefs": [{ "sourceId": "ruc-act-2012" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "nz-tobacco-excise",
+      "parentId": "crown",
+      "levelId": "crown",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Tobacco excise", "common": "Tobacco excise" },
+      "taxes": { "base": "Cigarettes and tobacco products.", "payer": "Manufacturers and importers; passed on in the price." },
+      "rate": {
+        "kind": "specific",
+        "headline": "Per stick or per kilogram of tobacco",
+        "details": ["Rates are adjusted by regulation."],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "Revenue fell from NZD 1,471 million to NZD 1,317 million in the year.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "customs-excise-act-2018" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "nz-alcohol-excise",
+      "parentId": "crown",
+      "levelId": "crown",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Alcohol excise (domestic production and imports)", "common": "Alcohol excise" },
+      "taxes": { "base": "Beer, wine and spirits by volume of alcohol.", "payer": "Brewers, distillers and importers; passed on in the price." },
+      "rate": {
+        "kind": "specific",
+        "headline": "Per litre of alcohol, indexed",
+        "details": ["Rates differ by type of drink and are adjusted each year."],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "Domestic and import excise are shown together.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "customs-excise-act-2018" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "nz-other-duties",
+      "parentId": "crown",
+      "levelId": "crown",
+      "category": "tax",
+      "family": "trade",
+      "status": "current",
+      "names": {
+        "official": "Other duties, fees and levies (customs duty, gaming duties, motor vehicle fees, others)",
+        "common": "Customs duty and other duties"
+      },
+      "taxes": {
+        "base": "Imported goods (customs duty), gambling operators (gaming duties), vehicle registration and licensing, approved issuer levy, cheque duty and energy resource levies.",
+        "payer": "Importers and operators."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Different rate for each",
+        "details": ["The Treasury groups these small items in one line."],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "The remainder of the Crown’s taxation revenue. New Zealand’s tariffs are low and mostly zero, so customs duty is a small part of it.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "customs-excise-act-2018" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "nz-acc-levies",
+      "parentId": "crown",
+      "levelId": "crown",
+      "category": "insurance-premium",
+      "family": "social-security",
+      "status": "current",
+      "names": { "official": "Accident Compensation (ACC) levies", "common": "ACC levies" },
+      "taxes": {
+        "base": "Earnings of employees and the self-employed, employers’ payroll, motor vehicle licences and, for the non-earners’ account, the Crown.",
+        "payer": "Employees (earners’ levy), employers and the self-employed, vehicle owners."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Set each year by regulation",
+        "details": ["Separate levies for earners, employers (by industry risk), motor vehicles and non-earners."],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "No-fault accident insurance for everyone in New Zealand. Levies are collected by Inland Revenue and the Transport Agency and paid to the Accident Compensation Corporation, which pays rehabilitation costs and income support.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "acc-act-2001" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "nz-fire-emergency-levy",
+      "parentId": "crown",
+      "levelId": "crown",
+      "category": "special-levy",
+      "family": "other",
+      "status": "current",
+      "names": { "official": "Fire and Emergency levy", "common": "Fire and Emergency levy" },
+      "taxes": { "base": "Insured property (buildings and contents) and motor vehicles.", "payer": "Policyholders, collected by insurers." },
+      "rate": {
+        "kind": "varies",
+        "headline": "A rate on the sum insured, set by regulation",
+        "details": ["The levy funds Fire and Emergency New Zealand under the 2017 Act."],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "A compulsory levy on property and vehicle insurance that funds the fire and emergency service.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "fenz-act-2017" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "nz-natural-hazards-levy",
+      "parentId": "crown",
+      "levelId": "crown",
+      "category": "special-levy",
+      "family": "other",
+      "status": "current",
+      "names": { "official": "Natural Hazards Commission levy (formerly EQC levy)", "common": "Natural hazards levy" },
+      "taxes": { "base": "Residential buildings insured against fire.", "payer": "Policyholders, collected by insurers." },
+      "rate": {
+        "kind": "varies",
+        "headline": "A rate per NZ$100 of building cover, capped",
+        "details": [
+          "The rate is set by regulation; the commission’s insurers’ guide of March 2025 gives 16 cents per NZ$100 of the building cover cap and a maximum levy of NZ$480 plus GST a year."
+        ],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "A compulsory levy that funds the Commission’s natural-disaster insurance for homes (earthquake, landslip, flood and storm damage).",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "nhi-act-2023" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "nz-rates",
+      "parentId": "councils",
+      "levelId": "councils",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "Rates", "common": "Council rates" },
+      "taxes": {
+        "base": "The land value, capital value or annual value of rateable property, plus uniform charges for services such as water and rubbish.",
+        "payer": "Property owners."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Set by each council in its annual plan",
+        "details": ["General rates on value, a uniform annual general charge (capped by law at 30% of rates) and targeted rates for specific services."],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "The only tax councils levy and the main source of their own revenue. Regional councils set rates that the territorial authorities collect.",
+      "exceptions": ["Land used for schools, churches and conservation can be non-rateable or rebated."],
+      "legalRefs": [{ "sourceId": "lg-rating-act-2002" }],
+      "checkedOn": "2026-10-10"
+    }
+  ]
+}

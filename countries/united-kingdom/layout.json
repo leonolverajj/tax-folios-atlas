@@ -1,0 +1,114 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "united-kingdom": {
+      "x": 800,
+      "y": 500
+    },
+    "uk-government": {
+      "x": 509,
+      "y": 432
+    },
+    "uk-income-tax": {
+      "x": 749,
+      "y": 825
+    },
+    "uk-corporation-tax": {
+      "x": 406,
+      "y": 711
+    },
+    "uk-stamp-taxes": {
+      "x": 289,
+      "y": 497
+    },
+    "uk-inheritance-tax": {
+      "x": 411,
+      "y": 286
+    },
+    "uk-air-passenger-duty": {
+      "x": 706,
+      "y": 176
+    },
+    "uk-sector-levies": {
+      "x": 1059,
+      "y": 215
+    },
+    "uk-national-insurance": {
+      "x": 438,
+      "y": 882
+    },
+    "uk-capital-gains-tax": {
+      "x": 143,
+      "y": 645
+    },
+    "uk-alcohol-duties": {
+      "x": 149,
+      "y": 369
+    },
+    "uk-tobacco-duties": {
+      "x": 465,
+      "y": 124
+    },
+    "uk-apprenticeship-levy": {
+      "x": 925,
+      "y": 59
+    },
+    "uk-vehicle-excise-duty": {
+      "x": 1332,
+      "y": 212
+    },
+    "uk-vat": {
+      "x": 615,
+      "y": 895
+    },
+    "uk-fuel-duty": {
+      "x": 60,
+      "y": 788
+    },
+    "uk-insurance-premium-tax": {
+      "x": 110,
+      "y": 278
+    },
+    "uk-customs-duties": {
+      "x": 503,
+      "y": 32
+    },
+    "uk-betting-gaming": {
+      "x": 1242,
+      "y": 32
+    },
+    "devolved-governments": {
+      "x": 1103,
+      "y": 459
+    },
+    "uk-scottish-income-tax": {
+      "x": 1193,
+      "y": 311
+    },
+    "uk-lbtt": {
+      "x": 1298,
+      "y": 438
+    },
+    "uk-ltt": {
+      "x": 1232,
+      "y": 604
+    },
+    "local-authorities": {
+      "x": 964,
+      "y": 670
+    },
+    "uk-council-tax": {
+      "x": 1148,
+      "y": 708
+    },
+    "uk-business-rates": {
+      "x": 988,
+      "y": 838
+    }
+  },
+  "radii": {}
+}

@@ -1,0 +1,177 @@
+{
+  "sources": [
+    {
+      "id": "oecd-rs-2025-subsectors",
+      "org": "OECD",
+      "title": "Revenue Statistics 2025, Table 6.19: Italy, tax revenues by sub-sectors of government",
+      "url": "https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en/full-report/tax-revenues-by-subsectors-of-general-government_f9e88332.html",
+      "kind": "international",
+      "language": "en",
+      "publishedDate": "2025-12-09",
+      "periodCovered": "Calendar year 2023 (national currency)",
+      "accessed": "2026-09-29",
+      "note": "Harmonised OECD classification of taxes (1000–6000) split by collecting sub-sector of general government."
+    },
+    {
+      "id": "oecd-rs-2025-levels",
+      "org": "OECD",
+      "title": "Revenue Statistics 2025, Chapter 3: Tax levels and tax structures (Table 3.1)",
+      "url": "https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en/full-report/tax-levels-and-tax-structures-1965-2024_2033f3ea.html",
+      "kind": "international",
+      "language": "en",
+      "publishedDate": "2025-12-09",
+      "periodCovered": "Calendar year 2023",
+      "accessed": "2026-09-29",
+      "note": "Total tax revenue as % of GDP."
+    },
+    {
+      "id": "sng-wofi-profile",
+      "org": "OECD and United Cities and Local Governments (SNG-WOFI)",
+      "title": "World Observatory on Subnational Government Finance and Investment – country profile: Italy",
+      "url": "https://www.sng-wofi.org/country_profiles/italy.html",
+      "kind": "international",
+      "language": "en",
+      "publishedDate": "2022-10-24",
+      "periodCovered": "2020",
+      "accessed": "2026-09-29",
+      "note": "Subnational government revenue by category as % of total subnational revenue, 2022 edition."
+    },
+    {
+      "id": "mef-bollettino-2025-12",
+      "org": "Dipartimento delle Finanze, Ministero dell’Economia e delle Finanze",
+      "title": "Bollettino delle entrate tributarie, dicembre 2025 (n. 286)",
+      "url": "https://www.finanze.gov.it/export/sites/finanze/.galleries/Documenti/entrate_tributarie_2025/Bollettino-entrate-Dicembre2025.pdf",
+      "kind": "budget-report",
+      "language": "it",
+      "publishedDate": null,
+      "periodCovered": "January–December 2025",
+      "accessed": "2026-10-10",
+      "nextExpected": "2027-02",
+      "note": "Section I (entrate erariali, text of pp. 3–5) and Section II (entrate degli enti territoriali, pp. 11–12). Appendici statistiche give each tax by month."
+    },
+    {
+      "id": "istat-cen-2026",
+      "org": "Istat",
+      "title": "Conti economici nazionali, anni 2010–2025 (22 September 2026), Prospetto 9",
+      "url": "https://www.istat.it/wp-content/uploads/2026/09/CONTI-ECONOMICI-NAZIONALI_2010-2025-22settembre2026.pdf",
+      "kind": "statistics",
+      "language": "it",
+      "publishedDate": "2026-09-22",
+      "periodCovered": "2010–2025",
+      "accessed": "2026-10-10",
+      "nextExpected": "2027-03",
+      "note": "General government revenues in 2025: direct taxes EUR 345,950 million, indirect taxes 316,787 million, social contributions 305,829 million; tax burden 42.9% of GDP."
+    },
+    {
+      "id": "costituzione",
+      "org": "Senato della Repubblica",
+      "title": "Costituzione della Repubblica Italiana (arts. 23, 53, 117, 119)",
+      "url": "https://www.senato.it/istituzione/la-costituzione",
+      "kind": "legal",
+      "language": "it",
+      "publishedDate": null,
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "tuir",
+      "org": "Normattiva",
+      "title": "D.P.R. 22 dicembre 1986, n. 917 – Testo unico delle imposte sui redditi (TUIR)",
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:presidente.repubblica:decreto:1986-12-22;917",
+      "kind": "legal",
+      "language": "it",
+      "publishedDate": "1986-12-22",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "iva-dpr-633-1972",
+      "org": "Normattiva",
+      "title": "D.P.R. 26 ottobre 1972, n. 633 – Istituzione e disciplina dell’imposta sul valore aggiunto",
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:presidente.repubblica:decreto:1972-10-26;633",
+      "kind": "legal",
+      "language": "it",
+      "publishedDate": "1972-10-26",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "registro-dpr-131-1986",
+      "org": "Normattiva",
+      "title": "D.P.R. 26 aprile 1986, n. 131 – Testo unico delle disposizioni concernenti l’imposta di registro",
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:presidente.repubblica:decreto:1986-04-26;131",
+      "kind": "legal",
+      "language": "it",
+      "publishedDate": "1986-04-26",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "accise-dlgs-504-1995",
+      "org": "Normattiva",
+      "title": "D.Lgs. 26 ottobre 1995, n. 504 – Testo unico delle accise",
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1995-10-26;504",
+      "kind": "legal",
+      "language": "it",
+      "publishedDate": "1995-10-26",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "successioni-dlgs-346-1990",
+      "org": "Normattiva",
+      "title": "D.Lgs. 31 ottobre 1990, n. 346 – Testo unico delle disposizioni concernenti l’imposta sulle successioni e donazioni",
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1990-10-31;346",
+      "kind": "legal",
+      "language": "it",
+      "publishedDate": "1990-10-31",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "irap-dlgs-446-1997",
+      "org": "Normattiva",
+      "title": "D.Lgs. 15 dicembre 1997, n. 446 – Istituzione dell’imposta regionale sulle attività produttive (IRAP)",
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1997-12-15;446",
+      "kind": "legal",
+      "language": "it",
+      "publishedDate": "1997-12-15",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "imu-legge-160-2019",
+      "org": "Normattiva",
+      "title": "Legge 27 dicembre 2019, n. 160 (art. 1, commi 738–783: nuova IMU)",
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2019-12-27;160",
+      "kind": "legal",
+      "language": "it",
+      "publishedDate": "2019-12-27",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "pensioni-legge-335-1995",
+      "org": "Normattiva",
+      "title": "Legge 8 agosto 1995, n. 335 – Riforma del sistema pensionistico obbligatorio e complementare",
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1995-08-08;335",
+      "kind": "legal",
+      "language": "it",
+      "publishedDate": "1995-08-08",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "ade-irpef",
+      "org": "Agenzia delle Entrate",
+      "title": "IRPEF: aliquote e calcolo",
+      "url": "https://www.agenziaentrate.gov.it/portale/imposta-sul-reddito-delle-persone-fisiche-irpef-/aliquote-e-calcolo-dell-irpef",
+      "kind": "tax-agency",
+      "language": "it",
+      "publishedDate": null,
+      "accessed": "2026-10-10",
+      "note": "For 2026 the second bracket falls from 35% to 33% (legge di bilancio 2026, legge 30 dicembre 2025 n. 199): 23% to EUR 28,000, 33% to EUR 50,000, 43% above."
+    },
+    {
+      "id": "mef-manovra-2026",
+      "org": "Ministero dell’Economia e delle Finanze",
+      "title": "Principali misure della legge di bilancio 2026",
+      "url": "https://www.mef.gov.it/focus/Principali-misure-della-legge-di-bilancio-2026/",
+      "kind": "guidance",
+      "language": "it",
+      "publishedDate": null,
+      "accessed": "2026-10-10"
+    }
+  ]
+}

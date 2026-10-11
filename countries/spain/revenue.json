@@ -1,0 +1,174 @@
+{
+  "groups": [
+    {
+      "title": "Taxes managed by the AEAT, 2025 – Cuadro 1.4, accumulated to December (EUR million)",
+      "defaults": {
+        "denominatorId": "state-taxes-2025",
+        "scale": "million",
+        "currency": "EUR",
+        "period": { "label": "2025", "kind": "calendar-year", "start": "2025-01-01", "end": "2025-12-31" },
+        "basis": "Cash basis, net of refunds, before the distribution between administrations",
+        "sourceId": "aeat-imr-2025-12",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-10"
+      },
+      "observations": [
+        {
+          "nodeId": "es-irpf-state",
+          "amount": 68088.396,
+          "locator": "Cuadro 1.4: IRPF TOTAL 142,465,653 less column CC.AA. 74,377,257 (thousand euros)",
+          "calculation": "142,465.653 − 74,377.257 = 68,088.396 (EUR million): State 66,380.255 + municipalities 1,708.141"
+        },
+        { "nodeId": "es-corporate-tax", "amount": 42265.86, "locator": "Cuadro 1.4: Impuesto sobre Sociedades, ESTADO = TOTAL, 2025" },
+        { "nodeId": "es-nonresident-income-tax", "amount": 5397.031, "locator": "Cuadro 1.4: Impuesto Renta no Residentes, 2025" },
+        {
+          "nodeId": "es-vat",
+          "amount": 99532.419,
+          "locator": "Cuadro 1.4: IVA, TOTAL, 2025",
+          "caveat": "Includes EUR 48,803 million passed to the communities and EUR 1,074 million to municipalities as shares."
+        },
+        { "nodeId": "es-hydrocarbon-tax", "amount": 12366.308, "locator": "Cuadro 1.4: Impuestos Especiales: Hidrocarburos, TOTAL, 2025" },
+        { "nodeId": "es-tobacco-tax", "amount": 7339.717, "locator": "Cuadro 1.4: Impuestos Especiales: Labores del Tabaco, TOTAL, 2025" },
+        { "nodeId": "es-electricity-tax", "amount": 1587.412, "locator": "Cuadro 1.4: Impuestos Especiales: Electricidad, TOTAL, 2025" },
+        {
+          "nodeId": "es-alcohol-taxes",
+          "amount": 1152.131,
+          "locator": "Cuadro 1.4: Alcohol 792,798 + Cerveza 335,936 + Productos intermedios 23,397 (thousand euros)",
+          "calculation": "792.798 + 335.936 + 23.397 = 1,152.131 (EUR million)"
+        },
+        { "nodeId": "es-plastics-tax", "amount": 599.127, "locator": "Cuadro 1.4: Envases de Plástico no reutilizables, TOTAL, 2025" },
+        {
+          "nodeId": "es-customs",
+          "amount": 2977.091,
+          "locator": "Cuadro 1.4: Tráfico exterior, 2025",
+          "caveat": "Gross collection, before the share passed to the EU."
+        },
+        { "nodeId": "es-insurance-premium-tax", "amount": 2769.174, "locator": "Cuadro 1.4: Primas de Seguros, 2025" },
+        { "nodeId": "es-bank-margin-tax", "amount": 1422.611, "locator": "Cuadro 1.4: Impuesto sobre intereses y comisiones de EE.FF., 2025" },
+        { "nodeId": "es-environmental-taxes", "amount": 2108.419, "locator": "Cuadro 1.4: Impuestos Medioambientales, 2025" },
+        {
+          "nodeId": "es-other-state-taxes",
+          "amount": 1216.875,
+          "locator": "Cuadro 1.4: ITF 339,150 + Servicios Digitales 409,639 + Juego Estado 43,960 + Gases fluorados 103,603 + Resto Cap. II 10,187 + Resto Cap. I 271,885 + Carbón 9,067 + Líquidos cigarrillos electrónicos 29,568 + Otros −184 (thousand euros)",
+          "calculation": "339.150 + 409.639 + 43.960 + 103.603 + 10.187 + 271.885 + 9.067 + 29.568 − 0.184 = 1,216.875 (EUR million)"
+        }
+      ]
+    },
+    {
+      "title": "Fees (tasas) 2025 – AEAT Cuadro 1.4 (EUR million), outside the national total",
+      "defaults": {
+        "scale": "million",
+        "currency": "EUR",
+        "period": { "label": "2025", "kind": "calendar-year", "start": "2025-01-01", "end": "2025-12-31" },
+        "basis": "Cash basis",
+        "sourceId": "aeat-imr-2025-12",
+        "role": "informational",
+        "coverage": "exact",
+        "accessed": "2026-10-10"
+      },
+      "observations": [
+        {
+          "nodeId": "es-fees",
+          "amount": 2156.001,
+          "locator": "Cuadro 1.4: TOTAL CAPÍTULO III (Tasas), 2025",
+          "caveat": "Fees are outside the national total; shown at neutral size."
+        }
+      ]
+    },
+    {
+      "title": "Social Security contributions 2025 – Ministerio de Inclusión (EUR million)",
+      "defaults": {
+        "denominatorId": "social-security-2025",
+        "scale": "million",
+        "currency": "EUR",
+        "period": { "label": "2025", "kind": "calendar-year", "start": "2025-01-01", "end": "2025-12-31" },
+        "basis": "Budget execution, contributions income",
+        "sourceId": "inclusion-2025",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-10"
+      },
+      "observations": [
+        {
+          "nodeId": "es-social-security",
+          "amount": 176918,
+          "locator": "Ministerio de Inclusión: ingresos por cotizaciones 2025 (EUR 176,918 million)"
+        }
+      ]
+    },
+    {
+      "title": "Autonomic income-tax tariff 2025 – AEAT Cuadro 1.4, column CC.AA. (EUR million)",
+      "defaults": {
+        "denominatorId": "ccaa-irpf-2025",
+        "scale": "million",
+        "currency": "EUR",
+        "period": { "label": "2025", "kind": "calendar-year", "start": "2025-01-01", "end": "2025-12-31" },
+        "basis": "Cash basis, net of refunds",
+        "sourceId": "aeat-imr-2025-12",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-10"
+      },
+      "observations": [{ "nodeId": "es-irpf-autonomic", "amount": 74377.257, "locator": "Cuadro 1.4: IRPF, column CC.AA., 2025" }]
+    },
+    {
+      "title": "Regional taxes 2023 – OECD Revenue Statistics 2025 (EUR million)",
+      "defaults": {
+        "denominatorId": "ccaa-own-taxes-2023",
+        "scale": "million",
+        "currency": "EUR",
+        "period": { "label": "2023", "kind": "calendar-year", "start": "2023-01-01", "end": "2023-12-31" },
+        "basis": "OECD attribution to the State/Regional sub-sector",
+        "sourceId": "oecd-rs-2025-subsectors",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-10"
+      },
+      "observations": [
+        {
+          "nodeId": "es-transfer-tax",
+          "amount": 10678,
+          "locator": "Table 6.33 Spain State/Regional: 4400 Taxes on financial and capital transactions, 2023"
+        },
+        {
+          "nodeId": "es-inheritance-gift-tax",
+          "amount": 3072,
+          "locator": "Table 6.33 Spain State/Regional: 4300 Estate, inheritance and gift taxes, 2023"
+        },
+        { "nodeId": "es-wealth-tax", "amount": 1367, "locator": "Table 6.33 Spain State/Regional: 4200 Recurrent taxes on net wealth, 2023" },
+        {
+          "nodeId": "es-other-ccaa-taxes",
+          "amount": 8605,
+          "locator": "Table 6.33 Spain State/Regional: total non-income taxes 23,722 less 4200 1,367, 4300 3,072, 4400 10,678",
+          "calculation": "23,722 − 1,367 − 3,072 − 10,678 = 8,605 (EUR million)"
+        }
+      ]
+    },
+    {
+      "title": "Local taxes 2023 – OECD Revenue Statistics 2025 (EUR million)",
+      "defaults": {
+        "denominatorId": "local-taxes-2023",
+        "scale": "million",
+        "currency": "EUR",
+        "period": { "label": "2023", "kind": "calendar-year", "start": "2023-01-01", "end": "2023-12-31" },
+        "basis": "OECD attribution to the Local government sub-sector",
+        "sourceId": "oecd-rs-2025-subsectors",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-10"
+      },
+      "observations": [
+        { "nodeId": "es-ibi", "amount": 13928, "locator": "Table 6.33 Spain Local government: 4100 Recurrent taxes on immovable property, 2023" },
+        {
+          "nodeId": "es-other-local-taxes",
+          "amount": 28959,
+          "locator": "Table 6.33 Spain Local government: total 42,887 less 4100 13,928",
+          "calculation": "42,887 − 13,928 = 28,959 (EUR million)",
+          "caveat": "Includes about EUR 3 billion of municipal shares of State taxes that the OECD books as local tax revenue."
+        }
+      ]
+    }
+  ],
+  "unavailable": []
+}

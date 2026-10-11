@@ -181,10 +181,10 @@ export function countryCharts(model: FolioModel): string {
       detail: l.total !== undefined ? formatMoney(l.total, st.scale, st.currency) : undefined,
     }));
     who = stackedBar(
-      'Who collects it',
-      `Share of all tax and social-contribution revenue by collecting government, ${st.referenceYear} (OECD Revenue Statistics). Social security funds are shown apart from the government levels.`,
+      'Which level gets it',
+      `Share of all tax and social-contribution revenue by level of government, ${st.referenceYear} (OECD Revenue Statistics: each tax is attributed to the level that receives it). Social security funds are shown apart from the government levels.`,
       segs,
-      `Who collects the country's tax revenue: ${segs.map((s) => `${s.label} ${formatShare(s.part)}`).join('; ')}`,
+      `Tax revenue by level of government: ${segs.map((s) => `${s.label} ${formatShare(s.part)}`).join('; ')}`,
     );
   }
   return [

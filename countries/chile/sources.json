@@ -1,0 +1,171 @@
+{
+  "sources": [
+    {
+      "id": "oecd-rs-2025-subsectors",
+      "org": "OECD",
+      "title": "Revenue Statistics 2025, Table 6.5: Chile, tax revenues by sub-sectors of government",
+      "url": "https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en/full-report/tax-revenues-by-subsectors-of-general-government_f9e88332.html",
+      "kind": "international",
+      "language": "en",
+      "publishedDate": "2025-12-09",
+      "periodCovered": "Calendar year 2023 (national currency)",
+      "accessed": "2026-09-29",
+      "note": "Harmonised OECD classification of taxes (1000–6000) split by collecting sub-sector of general government."
+    },
+    {
+      "id": "oecd-rs-2025-levels",
+      "org": "OECD",
+      "title": "Revenue Statistics 2025, Chapter 3: Tax levels and tax structures (Table 3.1)",
+      "url": "https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en/full-report/tax-levels-and-tax-structures-1965-2024_2033f3ea.html",
+      "kind": "international",
+      "language": "en",
+      "publishedDate": "2025-12-09",
+      "periodCovered": "Calendar year 2023",
+      "accessed": "2026-09-29",
+      "note": "Total tax revenue as % of GDP."
+    },
+    {
+      "id": "sng-wofi-profile",
+      "org": "OECD and United Cities and Local Governments (SNG-WOFI)",
+      "title": "World Observatory on Subnational Government Finance and Investment – country profile: Chile",
+      "url": "https://www.sng-wofi.org/country_profiles/chile.html",
+      "kind": "international",
+      "language": "en",
+      "publishedDate": "2022-10-24",
+      "periodCovered": "2020",
+      "accessed": "2026-09-29",
+      "note": "Subnational government revenue by category as % of total subnational revenue, 2022 edition."
+    },
+    {
+      "id": "dipres-ejecucion-2025-12",
+      "org": "Dirección de Presupuestos (DIPRES), Ministerio de Hacienda",
+      "title": "Informe de Ejecución del Gobierno Central, Diciembre 2025",
+      "url": "https://www.dipres.gob.cl/598/articles-403882_doc_pdf1.pdf",
+      "kind": "budget-report",
+      "language": "es",
+      "publishedDate": "2026-01-30",
+      "periodCovered": "Calendar year 2025",
+      "accessed": "2026-10-11",
+      "nextExpected": "2027-01",
+      "note": "Page 4: net tax revenue by tax, monthly and accumulated (CLP million). Page 3: revenue of the central government (net taxes 60,644,084; imposiciones previsionales 4,366,802; total 72,606,525). The figures are subject to later revision, as DIPRES states."
+    },
+    {
+      "id": "sinim-revista-2025",
+      "org": "Sistema Nacional de Información Municipal (SINIM), SUBDERE",
+      "title": "Revista SINIM 2025: Gestión municipal 2021–2024",
+      "url": "https://www.sinim.gov.cl/archivos/home/864/REVISTA_SINIM_2025_30-10-2025.pdf",
+      "kind": "statistics",
+      "language": "es",
+      "publishedDate": "2025-10-30",
+      "periodCovered": "Calendar years 2021–2024",
+      "accessed": "2026-10-11",
+      "nextExpected": "2026-10",
+      "note": "Page 8: composition of the Common Municipal Fund: territorial tax 60% (65% for Santiago, Providencia, Las Condes and Vitacura), commercial licences paid in only by those four communes, circulation permits 62.5%. Page 5: municipal own revenue in 2024 includes territorial tax kept by the municipality of 953,402,724 thousand pesos."
+    },
+    {
+      "id": "cl-constitution",
+      "org": "Biblioteca del Congreso Nacional de Chile",
+      "title": "Constitución Política de la República de Chile",
+      "url": "https://www.bcn.cl/leychile/navegar?idNorma=242302",
+      "kind": "legal",
+      "language": "es",
+      "publishedDate": null,
+      "accessed": "2026-10-11"
+    },
+    {
+      "id": "dl-824",
+      "org": "Biblioteca del Congreso Nacional de Chile",
+      "title": "Decreto Ley 824: Ley sobre Impuesto a la Renta",
+      "url": "https://www.bcn.cl/leychile/navegar?idNorma=6368",
+      "kind": "legal",
+      "language": "es",
+      "publishedDate": null,
+      "accessed": "2026-10-11"
+    },
+    {
+      "id": "dl-825",
+      "org": "Biblioteca del Congreso Nacional de Chile",
+      "title": "Decreto Ley 825: Ley sobre Impuesto a las Ventas y Servicios",
+      "url": "https://www.bcn.cl/leychile/navegar?idNorma=6369",
+      "kind": "legal",
+      "language": "es",
+      "publishedDate": null,
+      "accessed": "2026-10-11"
+    },
+    {
+      "id": "ley-18502",
+      "org": "Biblioteca del Congreso Nacional de Chile",
+      "title": "Ley 18.502: impuesto específico a los combustibles",
+      "url": "https://www.bcn.cl/leychile/navegar?idNorma=29903",
+      "kind": "legal",
+      "language": "es",
+      "publishedDate": null,
+      "accessed": "2026-10-11",
+      "note": "Base rates: 6 UTM per cubic metre of gasoline and 1.5 UTM per cubic metre of diesel; Law 20.493 added the variable component (MEPCO)."
+    },
+    {
+      "id": "dl-828",
+      "org": "Servicio de Impuestos Internos (SII)",
+      "title": "Decreto Ley 828: impuesto a los tabacos manufacturados",
+      "url": "https://www.sii.cl/pagina/jurisprudencia/legislacion/basica/tabacos.doc",
+      "kind": "legal",
+      "language": "es",
+      "publishedDate": null,
+      "accessed": "2026-10-11",
+      "note": "Cigarettes: 0.0010304240 UTM per cigarette plus 30% of the retail price per pack, as set by Law 20.780 from 1 October 2014 (SII summary); later amendments not checked."
+    },
+    {
+      "id": "dl-3475",
+      "org": "Biblioteca del Congreso Nacional de Chile",
+      "title": "Decreto Ley 3.475: ley sobre impuesto de timbres y estampillas",
+      "url": "https://www.bcn.cl/leychile/Navegar?idNorma=7137",
+      "kind": "legal",
+      "language": "es",
+      "publishedDate": null,
+      "accessed": "2026-10-11"
+    },
+    {
+      "id": "ley-lgpa-43ter",
+      "org": "Subsecretaría de Pesca y Acuicultura (SUBPESCA)",
+      "title": "Impuesto específico a Licencias Transables de Pesca (Art. 43 ter, Ley General de Pesca y Acuicultura)",
+      "url": "https://www.subpesca.cl/portal/sitio/Actividades-Reguladas/Pesca-industrial/84228:Impuesto-especifico-a-Licencias-Transables-de-Pesca",
+      "kind": "guidance",
+      "language": "es",
+      "publishedDate": null,
+      "accessed": "2026-10-11"
+    },
+    {
+      "id": "aduana-arancel",
+      "org": "Servicio Nacional de Aduanas",
+      "title": "Acuerdos comerciales y ad valorem efectivo",
+      "url": "https://www.aduana.cl/acuerdos-comerciales-y-advalorem-efectivo/aduana/2022-06-28/110649.html",
+      "kind": "tax-agency",
+      "language": "es",
+      "publishedDate": null,
+      "accessed": "2026-10-11",
+      "note": "General tariff 6% ad valorem since 2003; the effective ad valorem rate after trade agreements was 0.71% at the end of 2024."
+    },
+    {
+      "id": "ley-17235",
+      "org": "Servicio de Impuestos Internos (SII)",
+      "title": "Ley 17.235: impuesto territorial",
+      "url": "https://www.sii.cl/pagina/jurisprudencia/ley17235.htm",
+      "kind": "legal",
+      "language": "es",
+      "publishedDate": null,
+      "accessed": "2026-10-11",
+      "note": "Article 7: the rates are fixed by supreme decree of the Ministry of Finance."
+    },
+    {
+      "id": "dl-3063",
+      "org": "Biblioteca del Congreso Nacional de Chile",
+      "title": "Decreto Ley 3.063: ley de rentas municipales",
+      "url": "https://www.bcn.cl/leychile/navegar?idNorma=7054",
+      "kind": "legal",
+      "language": "es",
+      "publishedDate": null,
+      "accessed": "2026-10-11",
+      "note": "Art. 23: commercial, industrial and professional activities pay a municipal licence (patente); permits of circulation are paid in UTM by vehicle type."
+    }
+  ]
+}

@@ -1,0 +1,248 @@
+{
+  "sources": [
+    {
+      "id": "oecd-rs-2025-subsectors",
+      "org": "OECD",
+      "title": "Revenue Statistics 2025, Table 6.1: Australia, tax revenues by sub-sectors of government",
+      "url": "https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en/full-report/tax-revenues-by-subsectors-of-general-government_f9e88332.html",
+      "kind": "international",
+      "language": "en",
+      "publishedDate": "2025-12-09",
+      "periodCovered": "Calendar year 2023 (national currency)",
+      "accessed": "2026-09-29",
+      "note": "Harmonised OECD classification of taxes (1000–6000) split by collecting sub-sector of general government."
+    },
+    {
+      "id": "oecd-rs-2025-levels",
+      "org": "OECD",
+      "title": "Revenue Statistics 2025, Chapter 3: Tax levels and tax structures (Table 3.1)",
+      "url": "https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en/full-report/tax-levels-and-tax-structures-1965-2024_2033f3ea.html",
+      "kind": "international",
+      "language": "en",
+      "publishedDate": "2025-12-09",
+      "periodCovered": "Calendar year 2023",
+      "accessed": "2026-09-29",
+      "note": "Total tax revenue as % of GDP."
+    },
+    {
+      "id": "sng-wofi-profile",
+      "org": "OECD and United Cities and Local Governments (SNG-WOFI)",
+      "title": "World Observatory on Subnational Government Finance and Investment – country profile: Australia",
+      "url": "https://www.sng-wofi.org/country_profiles/australia.html",
+      "kind": "international",
+      "language": "en",
+      "publishedDate": "2022-10-24",
+      "periodCovered": "2020",
+      "accessed": "2026-09-29",
+      "note": "Subnational government revenue by category as % of total subnational revenue, 2022 edition."
+    },
+    {
+      "id": "constitution",
+      "org": "Parliament of Australia",
+      "title": "Commonwealth of Australia Constitution Act (ss. 51, 90, 96, 107)",
+      "url": "https://peo.gov.au/understand-our-parliament/how-parliament-works/the-australian-constitution/the-australian-constitution-online",
+      "kind": "legal",
+      "language": "en",
+      "publishedDate": null,
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "itaa1997",
+      "org": "Federal Register of Legislation",
+      "title": "Income Tax Assessment Act 1997 (Cth)",
+      "url": "https://www.legislation.gov.au/C2004A05138/latest",
+      "kind": "legal",
+      "language": "en",
+      "publishedDate": null,
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "itaa1936",
+      "org": "Federal Register of Legislation",
+      "title": "Income Tax Assessment Act 1936 (Cth)",
+      "url": "https://www.legislation.gov.au/C1936A00027/latest",
+      "kind": "legal",
+      "language": "en",
+      "publishedDate": null,
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "rates-act-1986",
+      "org": "Federal Register of Legislation",
+      "title": "Income Tax Rates Act 1986 (Cth)",
+      "url": "https://www.legislation.gov.au/C2004A03348/latest",
+      "kind": "legal",
+      "language": "en",
+      "publishedDate": null,
+      "accessed": "2026-10-10",
+      "note": "Sets the rates of income tax for individuals, companies and withholding; the 2026-27 resident table (15% first bracket) is in Schedule 7."
+    },
+    {
+      "id": "gst-act",
+      "org": "Federal Register of Legislation",
+      "title": "A New Tax System (Goods and Services Tax) Act 1999 (Cth)",
+      "url": "https://www.legislation.gov.au/C2004A00446/latest",
+      "kind": "legal",
+      "language": "en",
+      "publishedDate": null,
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "fbt-act",
+      "org": "Federal Register of Legislation",
+      "title": "Fringe Benefits Tax Assessment Act 1986 (Cth)",
+      "url": "https://www.legislation.gov.au/C2004A03280/latest",
+      "kind": "legal",
+      "language": "en",
+      "publishedDate": null,
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "customs-tariff-act",
+      "org": "Federal Register of Legislation",
+      "title": "Customs Tariff Act 1995 (Cth)",
+      "url": "https://www.legislation.gov.au/Series/C2004A04997",
+      "kind": "legal",
+      "language": "en",
+      "publishedDate": null,
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "ato-resident-rates",
+      "org": "Australian Taxation Office",
+      "title": "Tax rates – Australian resident",
+      "url": "https://www.ato.gov.au/tax-rates-and-codes/tax-rates-australian-residents",
+      "kind": "tax-agency",
+      "language": "en",
+      "publishedDate": "2026-08-13",
+      "accessed": "2026-10-10",
+      "note": "Resident rates for 2026–27: 15% from $18,201 to $45,000, 30% to $135,000, 37% to $190,000, 45% above; the Medicare levy of 2% is on top."
+    },
+    {
+      "id": "ato-medicare-levy",
+      "org": "Australian Taxation Office",
+      "title": "Medicare levy",
+      "url": "https://www.ato.gov.au/individuals-and-families/medicare-and-private-health-insurance/medicare-levy",
+      "kind": "tax-agency",
+      "language": "en",
+      "publishedDate": null,
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "ato-company-rates",
+      "org": "Australian Taxation Office",
+      "title": "Company tax rates",
+      "url": "https://www.ato.gov.au/tax-rates-and-codes/company-tax-rates",
+      "kind": "tax-agency",
+      "language": "en",
+      "publishedDate": "2026-03-19",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "ato-fbt-rates",
+      "org": "Australian Taxation Office",
+      "title": "Fringe benefits tax – rates and thresholds",
+      "url": "https://www.ato.gov.au/tax-rates-and-codes/fringe-benefits-tax-rates-and-thresholds",
+      "kind": "tax-agency",
+      "language": "en",
+      "publishedDate": "2026-05-20",
+      "accessed": "2026-10-10",
+      "note": "The FBT rate is 47% for the FBT years from 31 March 2023 to 31 March 2027."
+    },
+    {
+      "id": "ato-super-rates",
+      "org": "Australian Taxation Office",
+      "title": "Key super rates and thresholds",
+      "url": "https://www.ato.gov.au/tax-rates-and-codes/key-superannuation-rates-and-thresholds",
+      "kind": "tax-agency",
+      "language": "en",
+      "publishedDate": "2025-08-27",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "ato-excise-fuel",
+      "org": "Australian Taxation Office",
+      "title": "Excise duty rates for fuel and petroleum products",
+      "url": "https://www.ato.gov.au/businesses-and-organisations/gst-excise-and-indirect-taxes/excise-on-fuel-and-petroleum-products/excise-duty-rates-for-fuel-and-petroleum-products",
+      "kind": "tax-agency",
+      "language": "en",
+      "publishedDate": null,
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "ato-excise-alcohol",
+      "org": "Australian Taxation Office",
+      "title": "Excise duty rates for alcohol",
+      "url": "https://www.ato.gov.au/businesses-and-organisations/gst-excise-and-indirect-taxes/excise-on-alcohol/excise-duty-rates-for-alcohol",
+      "kind": "tax-agency",
+      "language": "en",
+      "publishedDate": null,
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "ato-excise-tobacco",
+      "org": "Australian Taxation Office",
+      "title": "Excise duty rates for tobacco",
+      "url": "https://www.ato.gov.au/businesses-and-organisations/gst-excise-and-indirect-taxes/tobacco-and-excise/excise-duty-rates-for-tobacco",
+      "kind": "tax-agency",
+      "language": "en",
+      "publishedDate": null,
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "revenue-nsw-payroll",
+      "org": "Revenue NSW",
+      "title": "Payroll tax thresholds and rates",
+      "url": "https://www.revenue.nsw.gov.au/taxes-duties-levies-royalties/payroll-tax/lodge-and-pay-returns/thresholds-and-rates",
+      "kind": "tax-agency",
+      "language": "en",
+      "publishedDate": null,
+      "accessed": "2026-10-10",
+      "note": "New South Wales, one of eight jurisdictions: 5.45% above an annual threshold of $1,200,000 in 2026-27."
+    },
+    {
+      "id": "revenue-nsw-land-tax",
+      "org": "Revenue NSW",
+      "title": "Land tax thresholds and rates",
+      "url": "https://www.revenue.nsw.gov.au/taxes-duties-levies-royalties/land-tax/understanding-land-tax/thresholds-and-rates",
+      "kind": "tax-agency",
+      "language": "en",
+      "publishedDate": null,
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "revenue-nsw-transfer-duty",
+      "org": "Revenue NSW",
+      "title": "How to calculate transfer duty",
+      "url": "https://www.revenue.nsw.gov.au/taxes-duties-levies-royalties/transfer-duty/understanding-transfer-duty/calculate-transfer-duty",
+      "kind": "tax-agency",
+      "language": "en",
+      "publishedDate": null,
+      "accessed": "2026-10-10",
+      "note": "New South Wales sliding scale up to $5.50 per $100 (premium duty $7 per $100 above $3.87 million) for 2026-27."
+    },
+    {
+      "id": "nsw-lga-1993",
+      "org": "NSW Parliamentary Counsel",
+      "title": "Local Government Act 1993 (NSW)",
+      "url": "https://legislation.nsw.gov.au/view/html/inforce/current/act-1993-030",
+      "kind": "legal",
+      "language": "en",
+      "publishedDate": null,
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "abs-taxation-2024-25",
+      "org": "Australian Bureau of Statistics",
+      "title": "Taxation Revenue, Australia, 2024-25 financial year (data cube 55060DO001)",
+      "url": "https://www.abs.gov.au/statistics/economy/government/taxation-revenue-australia/latest-release",
+      "kind": "statistics",
+      "language": "en",
+      "publishedDate": "2026-04-21",
+      "periodCovered": "Fiscal year to 30 June 2025",
+      "accessed": "2026-10-10",
+      "nextExpected": "2027-04",
+      "note": "Table 1 (Commonwealth) and Table 10 (all states, state and local government), $ million. Headline: all levels $838,974 million, 30.2% of GDP."
+    }
+  ]
+}

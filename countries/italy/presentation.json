@@ -1,0 +1,27 @@
+{
+  "nodes": {
+    "italy": { "label": "Italia", "sublabel": "Fiscal folio", "glyph": "globe" },
+    "state": { "label": "Stato", "sublabel": "State · INPS", "glyph": "landmark" },
+    "regions": { "label": "Regioni", "sublabel": "20 regions", "glyph": "city" },
+    "municipalities": { "label": "Comuni", "sublabel": "≈ 7,900", "glyph": "town" },
+    "it-irpef": { "label": "Income tax (IRPEF)", "sublabel": "23% · 33% · 43%", "glyph": "person" },
+    "it-ires": { "label": "Corporate tax (IRES)", "sublabel": "24%", "glyph": "factory" },
+    "it-substitute-taxes": { "label": "Capital income taxes", "sublabel": "Withholding · substitute", "glyph": "gem" },
+    "it-vat": { "label": "VAT (IVA)", "sublabel": "22%", "glyph": "cart" },
+    "it-stamp-duty": { "label": "Stamp duty", "sublabel": "Bollo", "glyph": "stamp" },
+    "it-registry-taxes": { "label": "Registration taxes", "sublabel": "Registro · ipotecaria", "glyph": "key" },
+    "it-insurance-tax": { "label": "Insurance tax", "sublabel": "Assicurazioni", "glyph": "shield" },
+    "it-licences": { "label": "Licences and concessions", "sublabel": "TV licence · concessions", "glyph": "scroll" },
+    "it-fuel-excise": { "label": "Fuel excise", "sublabel": "Oli minerali", "glyph": "flame" },
+    "it-energy-excises": { "label": "Electricity & gas excise", "sublabel": "Energia · gas", "glyph": "bolt" },
+    "it-tobacco": { "label": "Tobacco tax", "sublabel": "Tabacchi", "glyph": "smoke" },
+    "it-gambling": { "label": "Gambling taxes", "sublabel": "Giochi", "glyph": "dice" },
+    "it-inheritance-gift": { "label": "Inheritance tax", "sublabel": "Successioni", "glyph": "scroll" },
+    "it-other-state-taxes": { "label": "Other State taxes", "sublabel": "Residual", "glyph": "stamp" },
+    "it-social-contributions": { "label": "Social contributions", "sublabel": "INPS · INAIL", "glyph": "shield" },
+    "it-irap": { "label": "IRAP", "sublabel": "Regional business tax", "glyph": "factory" },
+    "it-regional-irpef-surcharge": { "label": "Regional IRPEF surcharge", "sublabel": "Addizionale regionale", "glyph": "percent" },
+    "it-imu": { "label": "Municipal property tax (IMU)", "sublabel": "IMU", "glyph": "house" },
+    "it-municipal-irpef-surcharge": { "label": "Municipal IRPEF surcharge", "sublabel": "Addizionale comunale", "glyph": "percent" }
+  }
+}

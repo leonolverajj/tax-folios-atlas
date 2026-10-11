@@ -1,0 +1,255 @@
+{
+  "instruments": [
+    {
+      "id": "cl-income-tax",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "income-mixed",
+      "status": "current",
+      "names": {
+        "official": "Income tax (first category, second category, global complementary and additional taxes, with the mining royalty)",
+        "native": "Impuesto a la Renta",
+        "common": "Income tax"
+      },
+      "taxes": {
+        "base": "Profits of businesses (first category tax), wages (second category), the total annual income of individuals (global complementary) and income of non-residents from Chile (additional tax).",
+        "payer": "Companies, individuals and non-residents; large mining companies also pay the royalty."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Companies 27%; individuals 0%–40%",
+        "details": [
+          "First category tax: 27% of profits under the general regime, lower for small firms.",
+          "Individuals: progressive from 0% (exempt up to 13.5 annual tax units) to 40%, withheld monthly on wages and settled in the annual return.",
+          "Non-residents: additional tax, generally 35% of the income.",
+          "Mining: DIPRES credits the mining royalty of Law 21,591, in force since 2024, for part of the rise in revenue."
+        ],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "The largest tax. It is collected mostly through monthly payments on account: provisional payments of firms (17.3 trillion pesos) and monthly declared payments (8.7 trillion); the annual return settles the difference. DIPRES separately reports 5.3 trillion pesos of taxes from the ten largest private copper mining companies (up 47% in real terms, credited to the new royalty and the copper price); it does not say in which tax lines they fall.",
+      "exceptions": ["One core: the report does not split the revenue between the four taxes of the income tax law."],
+      "legalRefs": [{ "sourceId": "dl-824" }, { "sourceId": "dipres-ejecucion-2025-12", "locator": "pp. 3–5" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "cl-vat",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "general-consumption",
+      "status": "current",
+      "names": {
+        "official": "Value-added tax (Impuesto al Valor Agregado, IVA)",
+        "native": "Impuesto al Valor Agregado",
+        "common": "VAT",
+        "abbreviation": "IVA"
+      },
+      "taxes": {
+        "base": "Sales of goods and services and imports, with credit for the VAT paid on inputs.",
+        "payer": "Consumers; businesses charge it and remit the balance; customs collects it on imports."
+      },
+      "rate": {
+        "kind": "flat",
+        "headline": "19% on most supplies",
+        "details": ["Exports are zero-rated; some services, such as health and education, are exempt."],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "Nearly half of the net central taxes. The net figure follows from 44.2 trillion pesos of VAT declared, less refunds of 15.2 trillion (mostly to exporters) and a special credit of 0.4 for construction firms.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "dl-825" }, { "sourceId": "dipres-ejecucion-2025-12", "locator": "p. 4" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "cl-fuel-tax",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Specific tax on fuels", "native": "Impuesto específico a los combustibles", "common": "Fuel tax" },
+      "taxes": { "base": "Gasoline and diesel, per cubic metre, on first sale or import.", "payer": "Refiners and importers; passed on at the pump." },
+      "rate": {
+        "kind": "mechanism",
+        "headline": "6 UTM/m³ gasoline, 1.5 UTM/m³ diesel, plus a variable part",
+        "details": [
+          "The base amounts are in monthly tax units (UTM). Law 20,493 adds a variable component (the price stabilisation mechanism, MEPCO) that can raise or lower the tax.",
+          "DIPRES reports the variable part for gasoline moving from −0.072 UTM/m³ in December 2024 to +0.626 in December 2025, and for diesel from −0.194 to +0.520."
+        ],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "The tax moves with the oil price: fuel revenue rose 10.7% in real terms in 2025 as the variable component turned from a rebate to a charge.",
+      "exceptions": ["Firms that pay VAT can recover part of the tax as VAT credit."],
+      "legalRefs": [{ "sourceId": "ley-18502" }, { "sourceId": "dipres-ejecucion-2025-12", "locator": "p. 5" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "cl-tobacco-tax",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Tax on manufactured tobacco", "native": "Impuesto a los tabacos manufacturados", "common": "Tobacco tax" },
+      "taxes": { "base": "Cigarettes, cigars and other manufactured tobacco.", "payer": "Manufacturers and importers; passed on in the price." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Cigarettes: 30% of the retail price plus a specific amount",
+        "details": [
+          "0.0010304240 monthly tax units per cigarette plus 30% of the retail price per pack, the rates set by Law 20,780 from October 2014 (SII); later changes not checked."
+        ],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "Revenue fell 5.7% in real terms in 2025.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "dl-828" }, { "sourceId": "dipres-ejecucion-2025-12", "locator": "p. 4" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "cl-fishing-rights",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "resource",
+      "status": "current",
+      "names": {
+        "official": "Fishing extraction rights (Ley de Pesca)",
+        "native": "Derechos de extracción, Ley de Pesca",
+        "common": "Fishing extraction rights"
+      },
+      "taxes": {
+        "base": "The right to extract fish under the General Fisheries and Aquaculture Act; holders of transferable fishing licences pay a specific tax each July on the tonnes they may extract.",
+        "payer": "Holders of fishing licences."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Per tonne of licensed catch, by statute",
+        "details": ["The unit value is set each year by ministerial resolution."],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "A small levy on the resource that fishing firms use. The report calls the line \"Der. de Extracción Ley de Pesca\" and does not name the provision; the specific tax on licences (Art. 43 ter, Law 20,657) is the most likely content, which is an inference.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ley-lgpa-43ter" }, { "sourceId": "dipres-ejecucion-2025-12", "locator": "p. 4" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "cl-stamp-tax",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "Stamp tax (tax on legal acts)", "native": "Impuesto de timbres y estampillas", "common": "Stamp tax" },
+      "taxes": {
+        "base": "Documents that record legal acts, above all credit operations (loans, bills and notes), charged by the months of the credit’s term.",
+        "payer": "The debtor or the party to the document."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "A percentage per month of credit term, capped",
+        "details": ["Fixed amounts apply to some other documents."],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "Known in the budget as the tax on legal acts.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "dl-3475" }, { "sourceId": "dipres-ejecucion-2025-12", "locator": "p. 4" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "cl-customs",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "customs-duty",
+      "family": "trade",
+      "status": "current",
+      "names": { "official": "Customs duties", "native": "Derechos de aduana", "common": "Customs duties" },
+      "taxes": { "base": "The CIF value of imported goods.", "payer": "Importers." },
+      "rate": {
+        "kind": "flat",
+        "headline": "6% general rate; 0.71% effective",
+        "details": ["Trade agreements remove or cut the duty for partner countries; the effective rate on all imports was 0.71% at the end of 2024."],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "A uniform tariff since 2003, made small in practice by trade agreements.",
+      "exceptions": ["Some farm goods carry specific duties."],
+      "legalRefs": [{ "sourceId": "aduana-arancel" }, { "sourceId": "dipres-ejecucion-2025-12", "locator": "p. 4" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "cl-social-contributions",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "social-contribution",
+      "family": "social-security",
+      "status": "current",
+      "names": {
+        "official": "Social security contributions recorded by the central government (imposiciones previsionales)",
+        "native": "Imposiciones previsionales",
+        "common": "Social security contributions"
+      },
+      "taxes": {
+        "base": "Wages of workers who contribute to public social security bodies, such as the health fund FONASA and the public pension institutions.",
+        "payer": "Workers and, for some schemes, their employers."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Health contribution 7% of taxable pay",
+        "details": [
+          "Pension contributions to public schemes follow each scheme’s rules. Contributions to private pension managers are not part of this revenue."
+        ],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "The only compulsory contributions that appear in the government accounts. DIPRES says they grew 22.4% in December 2025 as fewer workers used the sick-leave subsidy.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "dipres-ejecucion-2025-12", "locator": "pp. 3, 5" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "cl-property-tax",
+      "parentId": "municipal",
+      "levelId": "municipal",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "Territorial tax (property tax)", "native": "Impuesto territorial (contribuciones de bienes raíces)", "common": "Property tax" },
+      "taxes": { "base": "The fiscal assessment (avalúo fiscal) of land and buildings, revalued periodically by the SII.", "payer": "Property owners." },
+      "rate": {
+        "kind": "varies",
+        "headline": "About 1% of the assessment, set by decree",
+        "details": ["The rates are fixed by supreme decree under Law 17,235; homes below a threshold are exempt."],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "The tax is set and collected nationally, and the money goes to municipalities. By law 60% of the revenue (65% for Santiago, Providencia, Las Condes and Vitacura) is pooled in the Common Municipal Fund and redistributed; each municipality keeps the rest.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ley-17235" }, { "sourceId": "sinim-revista-2025", "locator": "p. 8" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "cl-municipal-licences",
+      "parentId": "municipal",
+      "levelId": "municipal",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "Municipal commercial licences and vehicle circulation permits",
+        "native": "Patentes municipales y permisos de circulación",
+        "common": "Licences and permits"
+      },
+      "taxes": {
+        "base": "Licences: every lucrative activity exercised in the commune, charged on the capital of the business. Permits: the annual permit to drive a vehicle, charged by vehicle type.",
+        "payer": "Businesses and vehicle owners."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "By capital (licences) and by vehicle (permits)",
+        "details": ["Set in monthly tax units by the Municipal Revenue Law. Two charges in one core: the OECD reports them together."],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "Two municipal charges that the OECD does not separate. 62.5% of the permit revenue is pooled in the Common Municipal Fund; commercial licences are pooled only for the four richest communes.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "dl-3063", "locator": "Arts. 21, 23" }, { "sourceId": "sinim-revista-2025", "locator": "p. 8" }],
+      "checkedOn": "2026-10-11"
+    }
+  ]
+}

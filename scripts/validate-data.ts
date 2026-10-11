@@ -236,7 +236,7 @@ export function validateBundle(b: CountryBundle): Report {
 
   /* ---- structure.json: the harmonised cross-country layer ---- */
   if (!b.structure) {
-    warn('structure.json is missing: the country cannot appear in the country profile comparison');
+    warn('structure.json is missing: the folio has no OECD level shares for the Trees table and the charts');
   } else {
     const r = validateStructure(b.structure, { sourceIds, folioLevelIds: levelIds, currency: meta.currency.code });
     r.errors.forEach(err);

@@ -1,0 +1,126 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "germany": {
+      "x": 800,
+      "y": 500
+    },
+    "federal": {
+      "x": 509,
+      "y": 432
+    },
+    "de-income-tax": {
+      "x": 669,
+      "y": 796
+    },
+    "de-vat": {
+      "x": 390,
+      "y": 697
+    },
+    "de-tobacco-tax": {
+      "x": 289,
+      "y": 492
+    },
+    "de-other-federal-taxes": {
+      "x": 405,
+      "y": 290
+    },
+    "de-customs": {
+      "x": 686,
+      "y": 185
+    },
+    "de-long-term-care-insurance": {
+      "x": 1019,
+      "y": 192
+    },
+    "de-solidarity-surcharge": {
+      "x": 402,
+      "y": 871
+    },
+    "de-energy-tax": {
+      "x": 138,
+      "y": 635
+    },
+    "de-alcohol-tax": {
+      "x": 149,
+      "y": 344
+    },
+    "de-insurance-tax": {
+      "x": 439,
+      "y": 117
+    },
+    "de-pension-insurance": {
+      "x": 889,
+      "y": 62
+    },
+    "de-unemployment-insurance": {
+      "x": 1284,
+      "y": 179
+    },
+    "de-corporate-tax": {
+      "x": 571,
+      "y": 926
+    },
+    "de-electricity-tax": {
+      "x": 106,
+      "y": 846
+    },
+    "de-aviation-tax": {
+      "x": 72,
+      "y": 492
+    },
+    "de-vehicle-tax": {
+      "x": 115,
+      "y": 146
+    },
+    "de-health-insurance": {
+      "x": 613,
+      "y": 62
+    },
+    "de-accident-insurance": {
+      "x": 1181,
+      "y": 32
+    },
+    "laender": {
+      "x": 1100,
+      "y": 449
+    },
+    "de-inheritance-tax": {
+      "x": 1096,
+      "y": 289
+    },
+    "de-real-estate-transfer-tax": {
+      "x": 1290,
+      "y": 347
+    },
+    "de-gambling-taxes": {
+      "x": 1277,
+      "y": 499
+    },
+    "de-other-laender-taxes": {
+      "x": 1157,
+      "y": 591
+    },
+    "gemeinden": {
+      "x": 954,
+      "y": 674
+    },
+    "de-trade-tax": {
+      "x": 1140,
+      "y": 689
+    },
+    "de-property-tax": {
+      "x": 1078,
+      "y": 815
+    },
+    "de-local-excises": {
+      "x": 914,
+      "y": 840
+    }
+  },
+  "radii": {}
+}

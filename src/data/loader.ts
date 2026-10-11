@@ -10,7 +10,6 @@ import {
   flattenRevenue,
   layoutSchema,
   presentationSchema,
-  profileSchema,
   revenueFileSchema,
   sourcesFileSchema,
   structureSchema,
@@ -18,7 +17,6 @@ import {
   type CountryBundle,
   type CountryMeta,
   type Layout,
-  type ProfileFile,
   type Structure,
 } from './schema';
 
@@ -69,17 +67,41 @@ export function readLayoutDraft(id: string): Layout | null {
   }
 }
 
-const profileLoaders = import.meta.glob('/profiles/*.json', { import: 'default' });
+/**
+ * Countries that have the harmonised OECD layer in `profiles/` but no folio yet: the queue for
+ * the next folios. Only their names are read here (the trees screen lists them as "not drawn yet");
+ * the figures stay in the files until the folio is built.
+ */
+const profileNames = import.meta.glob('/profiles/*.json', { eager: true, import: 'names' }) as Record<string, { en: string }>;
+export const queuedCountries: { id: string; name: string }[] = Object.entries(profileNames)
+  .map(([path, n]) => ({ id: path.split('/').pop()!.replace(/\.json$/, ''), name: n.en }))
+  .filter((c) => !registryById.has(c.id))
+  .sort((a, b) => a.name.localeCompare(b.name));
 
-/** Countries that have the harmonised layer but no folio yet (Fighters screen only). */
-export async function loadProfileFiles(): Promise<ProfileFile[]> {
-  const files = await Promise.all(Object.values(profileLoaders).map((fn) => fn()));
-  return files.map((f) => profileSchema.parse(f));
-}
-
-/** The source registry of one country (used by views that cite sources without loading a whole folio). */
-export async function loadSources(id: string) {
-  return sourcesFileSchema.parse(await pick(sourcesLoaders, id, 'sources.json')()).sources;
+/**
+ * Just what the skill-tree screen needs from a folio: the hierarchy, the revenue and the labels.
+ * It leaves out sources, layout and background so that loading every country stays light.
+ */
+export async function loadTreeBundle(id: string): Promise<CountryBundle> {
+  const meta = registryById.get(id);
+  if (!meta) throw new Error(`Unknown country "${id}"`);
+  const [taxes, revenue, presentation, structure] = await Promise.all([
+    pick(taxesLoaders, id, 'taxes.json')(),
+    pick(revenueLoaders, id, 'revenue.json')(),
+    pick(presentationLoaders, id, 'presentation.json')(),
+    loadStructure(id),
+  ]);
+  const revenueFile = revenueFileSchema.parse(revenue);
+  return {
+    meta,
+    instruments: taxesFileSchema.parse(taxes).instruments,
+    observations: flattenRevenue(revenueFile),
+    unavailable: revenueFile.unavailable,
+    sources: [],
+    presentation: presentationSchema.parse(presentation),
+    layout: { version: 1, canvas: { width: 1600, height: 1000 }, positions: {}, radii: {} },
+    structure,
+  };
 }
 
 /** The harmonised cross-country layer of one country, or undefined if it has none yet. */

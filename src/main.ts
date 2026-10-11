@@ -1,6 +1,7 @@
 import './styles/main.css';
 import './styles/charts.css';
-import './styles/arena.css';
+import './styles/nav.css';
+import './styles/trees.css';
 import '@fontsource/cinzel/latin-500.css';
 import '@fontsource/cinzel/latin-700.css';
 import '@fontsource-variable/inter/wght.css';
@@ -30,7 +31,7 @@ app.innerHTML = `
     </a>
     <nav class="modes" aria-label="Sections">
       <a href="#/" id="mode-atlas" aria-current="page">Atlas</a>
-      <a href="#/fighters" id="mode-fighters">Fighters</a>
+      <a href="#/trees" id="mode-trees">Trees</a>
     </nav>
     <div class="topbar-center" id="topbar-center"></div>
     <div class="topbar-tools" id="topbar-tools">
@@ -77,7 +78,7 @@ app.innerHTML = `
         <div class="detail-panel" id="detail-panel" tabindex="-1"></div>
       </aside>
     </section>
-    <section id="fighters-screen" class="screen" aria-label="Fiscal Fighters" hidden></section>
+    <section id="trees-screen" class="screen" aria-label="Skill trees" hidden></section>
   </main>
   <dialog id="about" aria-labelledby="about-title"></dialog>
   <div id="live-region" class="sr-only" aria-live="polite" aria-atomic="true"></div>`;
@@ -121,31 +122,31 @@ function parseHash() {
   return { country, node, rest, level: params.get('level') };
 }
 
-/* ------------------------------------------------------------- fighters */
-const fightersScreen = $('fighters-screen');
-let arena: import('./fighters/arena').ArenaHandle | null = null;
+/* ---------------------------------------------------------- skill trees */
+const treesScreen = $('trees-screen');
+let trees: import('./trees/view').TreesHandle | null = null;
 
-function setMode(mode: 'atlas' | 'fighters') {
+function setMode(mode: 'atlas' | 'trees') {
   const atlas = $('mode-atlas');
-  const fighters = $('mode-fighters');
+  const treesLink = $('mode-trees');
   if (mode === 'atlas') {
     atlas.setAttribute('aria-current', 'page');
-    fighters.removeAttribute('aria-current');
+    treesLink.removeAttribute('aria-current');
   } else {
-    fighters.setAttribute('aria-current', 'page');
+    treesLink.setAttribute('aria-current', 'page');
     atlas.removeAttribute('aria-current');
   }
 }
 
-function leaveFighters() {
-  if (fightersScreen.hidden) return;
-  fightersScreen.hidden = true;
-  arena?.destroy();
-  arena = null;
+function leaveTrees() {
+  if (treesScreen.hidden) return;
+  treesScreen.hidden = true;
+  trees?.destroy();
+  trees = null;
 }
 
-async function showFighters(a?: string, b?: string) {
-  document.title = 'Fiscal Fighters – Tax Folios Atlas';
+async function showTrees(focus?: string) {
+  document.title = 'Skill trees – Tax Folios Atlas';
   topCenter.innerHTML = '';
   ['btn-outline', 'btn-legend', 'btn-layout'].forEach((id) => ((document.getElementById(id) as HTMLElement).hidden = true));
   if (!folioScreen.hidden) {
@@ -153,20 +154,20 @@ async function showFighters(a?: string, b?: string) {
     teardownSession();
   }
   mapScreen.hidden = true;
-  fightersScreen.hidden = false;
-  setMode('fighters');
-  if (arena) {
-    arena.setParams(a, b);
+  treesScreen.hidden = false;
+  setMode('trees');
+  if (trees) {
+    trees.setFocus(focus);
     return;
   }
-  const { mountArena } = await import('./fighters/arena');
-  arena = await mountArena(fightersScreen, { a, b }, (na, nb) => {
-    const h = `#/fighters${na ? `/${na}` : ''}${nb ? `/${nb}` : ''}`;
+  const { mountTrees } = await import('./trees/view');
+  trees = await mountTrees(treesScreen, { focus }, (id) => {
+    const h = `#/trees${id ? `/${id}` : ''}`;
     currentRoute = h;
     history.replaceState(null, '', h);
   });
-  fightersScreen.scrollTop = 0;
-  announce('Fiscal Fighters. Choose two countries to compare how their tax systems are built.');
+  treesScreen.scrollTop = 0;
+  announce('Skill trees. Every country with a folio drawn as the same kind of tree, so the shape of its tax system can be compared.');
 }
 
 function setHash(country: string, node?: string, level?: string | null, replace = true) {
@@ -214,7 +215,7 @@ $('map-zoom').addEventListener('click', (ev) => {
 
 async function showMap(returnFrom?: string) {
   document.title = 'Tax Folios Atlas – how countries organise their taxes';
-  leaveFighters();
+  leaveTrees();
   setMode('atlas');
   const wasFolio = !folioScreen.hidden;
   topCenter.innerHTML = '';
@@ -277,7 +278,7 @@ async function showFolio(id: string, nodeId?: string, level?: string | null) {
     location.hash = '#/';
     return;
   }
-  leaveFighters();
+  leaveTrees();
   setMode('atlas');
   if (session && session.id === id) {
     if (level !== undefined) applyLevel(level ?? null);
@@ -459,10 +460,10 @@ window.addEventListener('keydown', (ev) => {
 async function route() {
   const h = location.hash;
   if (h === currentRoute && session) return;
-  const { country, node, rest, level } = parseHash();
-  if (country === 'fighters') {
+  const { country, node, level } = parseHash();
+  if (country === 'trees') {
     currentRoute = h;
-    await showFighters(node, rest[0]);
+    await showTrees(node);
     return;
   }
   if (!country) {

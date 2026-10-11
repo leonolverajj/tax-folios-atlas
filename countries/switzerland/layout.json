@@ -1,0 +1,122 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "switzerland": {
+      "x": 800,
+      "y": 500
+    },
+    "confederation": {
+      "x": 509,
+      "y": 432
+    },
+    "ch-direct-federal-tax": {
+      "x": 509,
+      "y": 771
+    },
+    "ch-mineral-oil-tax": {
+      "x": 313,
+      "y": 601
+    },
+    "ch-heavy-vehicle-fee": {
+      "x": 321,
+      "y": 385
+    },
+    "ch-ahv": {
+      "x": 523,
+      "y": 223
+    },
+    "ch-alv": {
+      "x": 822,
+      "y": 171
+    },
+    "ch-vat": {
+      "x": 193,
+      "y": 718
+    },
+    "ch-stamp-duties": {
+      "x": 154,
+      "y": 336
+    },
+    "ch-customs": {
+      "x": 562,
+      "y": 79
+    },
+    "ch-iv": {
+      "x": 1149,
+      "y": 88
+    },
+    "ch-withholding-tax": {
+      "x": 303,
+      "y": 924
+    },
+    "ch-tobacco-tax": {
+      "x": 68,
+      "y": 547
+    },
+    "ch-other-federal-taxes": {
+      "x": 183,
+      "y": 97
+    },
+    "ch-eo": {
+      "x": 881,
+      "y": 32
+    },
+    "cantons": {
+      "x": 1090,
+      "y": 430
+    },
+    "ch-cantonal-income-tax": {
+      "x": 1016,
+      "y": 208
+    },
+    "ch-cantonal-wealth-tax": {
+      "x": 1212,
+      "y": 286
+    },
+    "ch-cantonal-vehicle-taxes": {
+      "x": 1309,
+      "y": 471
+    },
+    "ch-other-cantonal-taxes": {
+      "x": 1253,
+      "y": 653
+    },
+    "ch-cantonal-profit-tax": {
+      "x": 1311,
+      "y": 186
+    },
+    "ch-inheritance-tax": {
+      "x": 1492,
+      "y": 533
+    },
+    "ch-other-cantonal-income": {
+      "x": 1225,
+      "y": 854
+    },
+    "communes": {
+      "x": 876,
+      "y": 694
+    },
+    "ch-communal-income-tax": {
+      "x": 1059,
+      "y": 660
+    },
+    "ch-communal-profit-tax": {
+      "x": 1046,
+      "y": 805
+    },
+    "ch-communal-wealth-tax": {
+      "x": 856,
+      "y": 867
+    },
+    "ch-other-communal-taxes": {
+      "x": 702,
+      "y": 775
+    }
+  },
+  "radii": {}
+}

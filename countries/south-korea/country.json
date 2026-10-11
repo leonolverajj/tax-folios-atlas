@@ -1,0 +1,103 @@
+{
+  "id": "south-korea",
+  "iso3": "KOR",
+  "isoNumeric": "410",
+  "names": { "en": "South Korea", "native": "대한민국", "nativeLang": "ko" },
+  "currency": { "code": "KRW", "symbol": "₩", "name": "South Korean won" },
+  "summary": "South Korea is a unitary state with two tiers of local government (17 provinces and metropolitan cities, and 226 municipalities). The central government legislates and collects almost every large tax: income tax, corporate tax and VAT, with surtaxes for education and rural development. Local governments levy only the taxes the Local Tax Act lists (acquisition and property taxes, a 10% surcharge on income taxes, car tax) and receive a fixed share of VAT as the local consumption tax. Five public social insurance schemes (pensions, health, long-term care, employment and industrial accidents) collect compulsory contributions on top of the taxes.",
+  "structureNote": "The Constitution requires every tax to rest on an Act (Art. 59), and the Local Tax Act is the only source of local taxes: local governments may adjust some rates within a band but cannot create taxes. The Act assigns each local tax to a tier (provinces and metropolitan cities, or municipalities and districts); the folio draws local government as one level, as the OECD does. The five social insurance schemes are public bodies under national law, so they are drawn under the national level. The special pension schemes for public servants, soldiers and private-school staff are not drawn (no 2025 figure was read), and neither are fees, fines or non-tax revenue.",
+  "theme": {
+    "accent": "#ff5a66",
+    "accent2": "#3a6fd8",
+    "motif": "topo",
+    "motifNote": "Topographic contour lines over the outline of South Korea (the generic motif; no bespoke art yet).",
+    "mapLabel": { "lon": 127.9, "lat": 36.4 }
+  },
+  "levels": [
+    {
+      "id": "national",
+      "branch": "national",
+      "names": { "official": "Central government (Republic of Korea)", "native": "중앙정부", "common": "Central government" },
+      "description": "The central government legislates and levies all national taxes. The National Tax Service collects income, corporate, VAT, inheritance and the other internal taxes; the Korea Customs Service collects customs duties and import VAT. It also sets the framework for the local taxes and for the five social insurances, which are run by public bodies.",
+      "fiscalPower": "Constitution Art. 59: the types and rates of taxes are determined by Act. Each national tax has its own Act (Income Tax Act, Corporate Tax Act, Value-Added Tax Act and so on) and the National Tax Basic Act sets the common procedure.",
+      "legalRefs": [{ "sourceId": "kr-constitution", "locator": "Art. 59" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "local",
+      "branch": "local",
+      "names": { "official": "Local governments (provinces, metropolitan cities and municipalities)", "native": "지방자치단체", "common": "Local government" },
+      "description": "Two tiers: 17 upper-tier governments (Seoul, Sejong, 6 metropolitan cities and 9 provinces) and 226 lower-tier municipalities (cities, counties and districts). The Local Tax Act gives each tax to one tier: for example the acquisition and local consumption taxes to the upper tier and the property tax to the lower tier, with different splits inside metropolitan cities.",
+      "fiscalPower": "Local governments may levy only the taxes listed in the Local Tax Act, by ordinance, and may adjust some rates within the band the Act allows (typically up to 50% above or below the standard rate). They cannot create new taxes.",
+      "legalRefs": [{ "sourceId": "local-tax-act" }, { "sourceId": "kr-constitution", "locator": "Art. 117" }],
+      "checkedOn": "2026-10-11"
+    }
+  ],
+  "supportingSourceIds": ["moef-closing-2025"],
+  "denominators": [
+    {
+      "id": "national-taxes-2025",
+      "label": "National taxes, 2025",
+      "definition": "Revenue of the national taxes collected by the National Tax Service and the Korea Customs Service (fourteen when the inheritance tax and the gift tax are counted separately): income tax, corporate tax, inheritance and gift tax, comprehensive real estate holding tax, VAT, individual consumption tax, liquor tax, securities transaction tax, stamp tax, transportation-energy-environment tax, education tax, rural special tax and customs duties, plus arrears of earlier years.",
+      "levelIds": ["national"],
+      "amount": 373.9,
+      "scale": "trillion",
+      "currency": "KRW",
+      "period": { "label": "2025", "kind": "calendar-year", "start": "2025-01-01", "end": "2025-12-31" },
+      "sourceId": "nabo-focus-137",
+      "locator": "Table 1: 2025 national tax revenue, total (actual)",
+      "caveat": "The year-end result of the Ministry of Finance and Economy, 373.9 trillion won, confirmed in its closing release of 10 February 2026. The local consumption tax (the share of VAT transferred to local governments) is not part of it; it appears in the local figure.",
+      "accessed": "2026-10-11"
+    },
+    {
+      "id": "local-taxes-2025",
+      "label": "Local taxes, 2025 (provisional)",
+      "definition": "Revenue of the eleven local taxes of the Local Tax Act: acquisition, registration licence, leisure, tobacco consumption, local consumption, resident, local income, property, car, regional resource facility and local education taxes. Arrears collected for earlier years (1,440 billion won, not assigned to a tax) are left out.",
+      "levelIds": ["local"],
+      "amount": 119460,
+      "scale": "billion",
+      "currency": "KRW",
+      "period": { "label": "2025 (provisional)", "kind": "calendar-year", "start": "2025-01-01", "end": "2025-12-31" },
+      "sourceId": "mois-local-tax-2025",
+      "locator": "Annex: local tax revenue by tax, 2025 (provisional), total 120,900 billion won less prior-year revenue 1,440",
+      "calculation": "12,090 − 144 = 11,946 (units of 10 billion won) → 120,900 − 1,440 = 119,460 billion won",
+      "caveat": "Provisional results published on 24 February 2026; the ministry says the final per-tax figures follow local governments’ settlement of accounts and are due in October 2026 on Local Finance 365. The source rounds each tax to 10 billion won.",
+      "accessed": "2026-10-11"
+    },
+    {
+      "id": "social-insurance-4-2025",
+      "label": "Collections of four social insurances, 2025",
+      "definition": "Contributions collected in 2025 (including arrears of earlier years) for the National Pension, National Health Insurance, Employment Insurance and Industrial Accident Compensation Insurance, employees’ and employers’ shares together.",
+      "levelIds": ["national"],
+      "amount": 173406802,
+      "scale": "million",
+      "currency": "KRW",
+      "period": { "label": "2025", "kind": "calendar-year", "start": "2025-01-01", "end": "2025-12-31" },
+      "sourceId": "nhis-4ins-2025",
+      "locator": "Collections of the four major social insurances by year: 2025 (징수액)",
+      "calculation": "Health 87,166,765 + pension 61,598,139 + employment 17,378,771 + industrial accident 7,263,127 = 173,406,802 (KRW million)",
+      "caveat": "Collected, not billed: current-year collections plus arrears of earlier years. The figures are the schemes’ own disclosure to the public, not the national accounts.",
+      "accessed": "2026-10-11"
+    },
+    {
+      "id": "ltc-insurance-2025",
+      "label": "Long-term care insurance collections, 2025",
+      "definition": "Premiums for long-term care insurance for the elderly collected in 2025 (including arrears), billed together with health insurance.",
+      "levelIds": ["national"],
+      "amount": 11162408,
+      "scale": "million",
+      "currency": "KRW",
+      "period": { "label": "2025", "kind": "calendar-year", "start": "2025-01-01", "end": "2025-12-31" },
+      "sourceId": "nhis-ltc-2025",
+      "locator": "Long-term care collection rates by year: 2025 total (징수액)",
+      "caveat": "The five schemes together come to 184.6 trillion won for 2025. For 2023 the same pages give 172.2 trillion won against the OECD’s 188.7 trillion won of social security contributions; the OECD figure probably includes the special pension schemes for public servants, soldiers and private-school staff, which are not drawn here (not verified).",
+      "accessed": "2026-10-11"
+    }
+  ],
+  "sizing": {
+    "label": "Taxes and compulsory social insurance contributions of all levels of government",
+    "definition": "National taxes + local taxes (provisional) + contributions to the five public social insurances, calendar 2025. Excludes arrears of local taxes not assigned to a tax, the special occupational pension schemes, fees, fines and non-tax revenue.",
+    "componentIds": ["national-taxes-2025", "local-taxes-2025", "social-insurance-4-2025", "ltc-insurance-2025"]
+  },
+  "researchStatus": "researched"
+}

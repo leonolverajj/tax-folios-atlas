@@ -1,0 +1,101 @@
+{
+  "id": "france",
+  "iso3": "FRA",
+  "isoNumeric": "250",
+  "names": { "en": "France", "native": "France", "nativeLang": "fr-FR" },
+  "currency": { "code": "EUR", "symbol": "€", "name": "Euro" },
+  "summary": "France is a unitary state with three layers of local government (regions, départements and some 35,000 communes grouped in intercommunal bodies). The State legislates every tax; the social security system, which is legally separate from the State budget, raises more than a third of all compulsory levies, mostly through wage contributions and the CSG. Local governments have lost most of their own taxes since 2010 (the housing tax and the business value-added tax), and now keep the property taxes plus shares of VAT and fuel tax that the State assigns to them.",
+  "structureNote": "The State and the social security system are drawn together on the national level because the law, the rates and the collection are national, even though their budgets are separate. VAT, the fuel tax and the insurance-contract tax are drawn whole at the State level: the shares that the State assigns to social security and to local governments are transfers that those bodies have no power to change. Local levels carry only the taxes they set or keep: property taxes, the business property contribution and the transport levy for the communes and their groups, the property transfer duties and the vehicle registration tax for the regions and départements. All figures come from one INSEE table for 2025 (provisional); lines the table does not itemise (pharmaceutical rebates of EUR 11.6 billion, the exceptional contributions on large firms and very high incomes, the public broadcasting contribution and uncollectable amounts) are left out, so the itemised lines add up to about EUR 1,283 billion against INSEE’s total of EUR 1,305 billion of compulsory levies.",
+  "theme": {
+    "accent": "#7aa7ff",
+    "accent2": "#ef4135",
+    "motif": "topo",
+    "motifNote": "Topographic contour lines over the outline of metropolitan France (the generic motif; no bespoke art yet).",
+    "mapLabel": { "lon": 2.4, "lat": 46.6 }
+  },
+  "levels": [
+    {
+      "id": "state",
+      "branch": "national",
+      "names": { "official": "État et Sécurité sociale", "native": "État", "common": "State and Social Security" },
+      "description": "The central government, which legislates and collects the taxes (through the DGFiP and the customs service), and the social security system, whose contributions are collected by the URSSAF network. The two have separate budgets but one set of laws.",
+      "fiscalPower": "Article 34 of the Constitution reserves to Parliament the base, rate and collection of every tax; Article 72-2 requires the State to give local governments resources \"of their own\", mostly through shares of national taxes.",
+      "legalRefs": [{ "sourceId": "constitution-1958", "locator": "Arts. 34, 72-2" }, { "sourceId": "cgi" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "regions-departments",
+      "branch": "regional",
+      "names": { "official": "Régions et départements", "native": "Régions et départements", "common": "Regions and départements" },
+      "description": "The 18 regions and the 101 départements, which receive shares of national taxes plus a few taxes they set themselves: the property transfer duties (départements) and the vehicle registration tax (regions).",
+      "fiscalPower": "The General Code of Territorial Authorities and the General Tax Code give each level a defined set of taxes; the regions have almost no rate-setting power left after the 2010–2021 reforms.",
+      "legalRefs": [{ "sourceId": "cgct" }, { "sourceId": "cgi" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "communes",
+      "branch": "local",
+      "names": {
+        "official": "Communes et établissements publics de coopération intercommunale",
+        "native": "Communes et intercommunalités",
+        "common": "Communes and intercommunal groups"
+      },
+      "description": "About 35,000 communes and their intercommunal bodies (métropoles, communautés). They vote the property taxes, the business property contribution and, for transport authorities, the transport levy.",
+      "fiscalPower": "The communes vote their rate within legal ceilings; after the abolition of the housing tax on main residences (2023) the property tax is by far their main tax.",
+      "legalRefs": [{ "sourceId": "cgct" }, { "sourceId": "cgi" }],
+      "checkedOn": "2026-10-10"
+    }
+  ],
+  "supportingSourceIds": ["oecd-rs-2025-levels", "sng-wofi-profile"],
+  "denominators": [
+    {
+      "id": "state-sec-taxes-2025",
+      "label": "Taxes and social contributions assigned to the State and social security, 2025",
+      "definition": "The itemised taxes legislated and collected nationally (income taxes, VAT, excises, wealth, inheritance, payroll and other taxes, the CSG and CRDS) and the effective social contributions, net of tax credits.",
+      "levelIds": ["state"],
+      "amount": 1189543,
+      "scale": "million",
+      "currency": "EUR",
+      "period": { "label": "2025 (provisional)", "kind": "calendar-year", "start": "2025-01-01", "end": "2025-12-31" },
+      "sourceId": "insee-t3217-2025",
+      "locator": "Table 3.217: itemised lines at the State and social-security level",
+      "calculation": "Sum of the lines listed under each core (EUR million)",
+      "caveat": "National accounts basis (accrual), provisional. Includes shares of VAT and other taxes later assigned to local governments. Leaves out pharmaceutical rebates, exceptional contributions and imputed social contributions.",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "regional-taxes-2025",
+      "label": "Taxes of the regions and départements, 2025",
+      "definition": "Property transfer duties, the vehicle registration tax and the overseas octroi de mer.",
+      "levelIds": ["regions-departments"],
+      "amount": 21866,
+      "scale": "million",
+      "currency": "EUR",
+      "period": { "label": "2025 (provisional)", "kind": "calendar-year", "start": "2025-01-01", "end": "2025-12-31" },
+      "sourceId": "insee-t3217-2025",
+      "locator": "Table 3.217: DMTO, taxe sur les certificats d’immatriculation, octroi de mer",
+      "caveat": "Leaves out the shares of national taxes (VAT, fuel tax, insurance tax) that the State assigns to regions and départements.",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "communal-taxes-2025",
+      "label": "Taxes of the communes and intercommunal groups, 2025",
+      "definition": "Property tax, business property contribution, transport levy, second-home housing tax and smaller local taxes.",
+      "levelIds": ["communes"],
+      "amount": 71776,
+      "scale": "million",
+      "currency": "EUR",
+      "period": { "label": "2025 (provisional)", "kind": "calendar-year", "start": "2025-01-01", "end": "2025-12-31" },
+      "sourceId": "insee-t3217-2025",
+      "locator": "Table 3.217: taxe foncière, CFE, versement mobilité, taxe d’habitation, other local taxes",
+      "caveat": "Leaves out the VAT share that replaced the housing tax and the business value-added tax for the communes.",
+      "accessed": "2026-10-10"
+    }
+  ],
+  "sizing": {
+    "label": "Taxes and social contributions of all levels of government",
+    "definition": "The itemised taxes and effective social contributions of INSEE table 3.217 for 2025 (provisional), net of tax credits: about EUR 1,283 billion against INSEE’s total of EUR 1,305 billion of compulsory levies. Excludes imputed contributions, pharmaceutical rebates, exceptional contributions and uncollectable amounts.",
+    "componentIds": ["state-sec-taxes-2025", "regional-taxes-2025", "communal-taxes-2025"]
+  },
+  "researchStatus": "researched"
+}

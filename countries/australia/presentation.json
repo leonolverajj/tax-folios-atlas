@@ -1,0 +1,26 @@
+{
+  "nodes": {
+    "australia": { "label": "Australia", "sublabel": "Fiscal folio", "glyph": "globe" },
+    "commonwealth": { "label": "Commonwealth", "sublabel": "Federal", "glyph": "landmark" },
+    "states": { "label": "States", "sublabel": "6 states + 2 territories", "glyph": "city" },
+    "local-government": { "label": "Councils", "sublabel": "Local government", "glyph": "town" },
+    "au-personal-income-tax": { "label": "Personal income tax", "sublabel": "PAYG · 15%–45%", "glyph": "person" },
+    "au-medicare-levy": { "label": "Medicare levy", "sublabel": "2%", "glyph": "heart" },
+    "au-fringe-benefits-tax": { "label": "Fringe benefits tax", "sublabel": "FBT · 47%", "glyph": "car" },
+    "au-company-tax": { "label": "Company tax", "sublabel": "30% · 25%", "glyph": "factory" },
+    "au-super-fund-tax": { "label": "Super fund tax", "sublabel": "15%", "glyph": "bank" },
+    "au-withholding-nonresidents": { "label": "Withholding (non-resident)", "sublabel": "Dividends · interest", "glyph": "scroll" },
+    "au-gst": { "label": "GST", "sublabel": "10%", "glyph": "cart" },
+    "au-excise": { "label": "Excise duties", "sublabel": "Fuel · tobacco · alcohol", "glyph": "flame" },
+    "au-customs": { "label": "Customs duties", "sublabel": "Import tariffs", "glyph": "ship" },
+    "au-other-commonwealth": { "label": "Other Commonwealth taxes", "sublabel": "Smaller levies", "glyph": "stamp" },
+    "au-payroll-tax": { "label": "Payroll tax", "sublabel": "Employers’ wages", "glyph": "ledger" },
+    "au-stamp-duty": { "label": "Stamp duty", "sublabel": "Property transfers", "glyph": "key" },
+    "au-land-tax": { "label": "Land tax", "sublabel": "Land value", "glyph": "house" },
+    "au-motor-vehicle-taxes": { "label": "Motor vehicle taxes", "sublabel": "Registration · duty", "glyph": "car" },
+    "au-gambling-taxes": { "label": "Gambling taxes", "sublabel": "Machines · lotteries · betting", "glyph": "dice" },
+    "au-insurance-taxes": { "label": "Insurance taxes", "sublabel": "Premium duty · fire levy", "glyph": "shield" },
+    "au-other-state-taxes": { "label": "Other state taxes", "sublabel": "Smaller levies", "glyph": "stamp" },
+    "au-council-rates": { "label": "Council rates", "sublabel": "Land value", "glyph": "town" }
+  }
+}

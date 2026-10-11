@@ -1,8 +1,8 @@
 # Update checklist – United States
 
-Generated 2026-09-29 by `npm run checklist`. **Do not edit by hand** – edit the sources in `countries/united-states/sources.json` and re-run it.
+Generated 2026-10-11 by `npm run checklist`. **Do not edit by hand** – edit the sources in `countries/united-states/sources.json` and re-run it.
 
-Research status: **researched**. 2 source(s) to check or due, 0 coming up, 36 in total.
+Research status: **researched**. 2 source(s) to check or due, 1 coming up, 36 in total.
 
 When you have worked through a row: update the data, set its `accessed` date, run `npm run validate`, `npm test`, `npm run links -- --only=united-states`.
 
@@ -11,21 +11,21 @@ When you have worked through a row: update the data, set its `accessed` date, ru
 - [ ] **Monthly Treasury Statement (MTS), September 2025 – Table 4 Receipts of the United States Government (fiscal year to date = FY2025)** – U.S. Department of the Treasury, Bureau of the Fiscal Service
   - URL: https://fiscaldata.treasury.gov/datasets/monthly-treasury-statement/receipts-of-the-u-s-government
   - Feeds: national-total parts: `federal-total-receipts`; revenue of 8 core(s): `fed-individual-income-tax`, `fed-corporate-income-tax`, `fed-social-security`, `fed-medicare`, `fed-unemployment-insurance`, `fed-excise-taxes`, `fed-estate-gift`, `fed-customs-duties`
-  - Status: current – figures end 2025-09-30. Published n/a, accessed 2026-09-28, covers FY2025 (1 Oct 2024 – 30 Sep 2025).
+  - Status: soon – figures end 2025-09-30 (13 months ago). Published n/a, accessed 2026-09-28, covers FY2025 (1 Oct 2024 – 30 Sep 2025).
   - To do: Open the source, find the newest period, update the amounts in revenue.json (keep the published unit and scale) and the matching part in country.json, update period, locator, `accessed`, then run `npm run validate`.
   - Note: Read through the Fiscal Data API (accounting/mts/mts_table_4, record_fiscal_year 2025, month 09; 'current_fytd_net_rcpt_amt'). Dataset page shows the publisher's 'last updated' date (25 Sep 2026 for the August 2026 statement); FY2026 was not complete at the date checked.
 
 - [ ] **Annual Survey of State Government Tax Collections (STC), FY2024 – flat file (US totals by tax item, $ thousands)** – U.S. Census Bureau
   - URL: https://www.census.gov/data/tables/2024/econ/stc/2024-annual.html
   - Feeds: national-total parts: `state-tax-collections`; revenue of 9 core(s): `state-individual-income-tax`, `state-general-sales-tax`, `state-corporate-income-tax`, `state-motor-fuel-tax`, `state-selective-excise`, `state-property-tax`, `state-license-taxes`, `state-severance-tax`, …
-  - Status: **CHECK** – figures end 2024-06-30 (27 months ago); a newer edition may exist (record `nextExpected` in sources.json once you know). Published 2025-04-15, accessed 2026-09-28, covers FY2024 (state fiscal years ending 1 Jul 2023 – 30 Jun 2024).
+  - Status: **CHECK** – figures end 2024-06-30 (28 months ago); a newer edition may exist (record `nextExpected` in sources.json once you know). Published 2025-04-15, accessed 2026-09-28, covers FY2024 (state fiscal years ending 1 Jul 2023 – 30 Jun 2024).
   - To do: Open the source, find the newest period, update the amounts in revenue.json (keep the published unit and scale) and the matching part in country.json, update period, locator, `accessed`, then run `npm run validate`.
   - Note: Flat file: https://www2.census.gov/programs-surveys/stc/datasets/2024/FY2024-Flat-File.txt. Amounts in thousands of dollars.
 
 - [ ] **2024 Annual Survey of State and Local Government Finances – Individual Unit Files (tax items T01–T99 by government type)** – U.S. Census Bureau
   - URL: https://www.census.gov/programs-surveys/gov-finances/data/datasets.html
   - Feeds: national-total parts: `local-tax-revenue`; revenue of 6 core(s): `local-property-tax`, `local-sales-tax`, `local-income-taxes`, `local-selective-sales`, `local-license-taxes`, `local-other-taxes`
-  - Status: **CHECK** – figures end 2024-06-30 (27 months ago); a newer edition may exist (record `nextExpected` in sources.json once you know). Published 2026-08-04, accessed 2026-09-28, covers FY2024 (fiscal years ending 1 Jul 2023 – 30 Jun 2024).
+  - Status: **CHECK** – figures end 2024-06-30 (28 months ago); a newer edition may exist (record `nextExpected` in sources.json once you know). Published 2026-08-04, accessed 2026-09-28, covers FY2024 (fiscal years ending 1 Jul 2023 – 30 Jun 2024).
   - To do: Open the source, find the newest period, update the amounts in revenue.json (keep the published unit and scale) and the matching part in country.json, update period, locator, `accessed`, then run `npm run validate`.
   - Note: File: https://www2.census.gov/programs-surveys/gov-finances/tables/2024/2024_Individual_Unit_Files.zip (last modified 4 Aug 2026). Local totals are the sum over counties, municipalities, townships, special districts and school districts (government-type digit 1–5 of the unit ID); state totals reproduce the published STC values exactly.
 
@@ -34,21 +34,21 @@ When you have worked through a row: update the data, set its `accessed` date, ru
 
 - [ ] **Revenue Statistics 2025, Table 6.38: United States, tax revenues by sub-sectors of government** – OECD
   - URL: https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en/full-report/tax-revenues-by-subsectors-of-general-government_f9e88332.html
-  - Feeds: `structure.json` (cross-country profile)
+  - Feeds: `structure.json` (OECD level shares in the Trees table and the folio charts)
   - Status: yearly – OECD Revenue Statistics appear each December (OECD countries) and the Latin America edition each May. Published 2025-12-09, accessed 2026-09-29, covers Calendar year 2023 (national currency).
   - To do: Check whether a newer edition exists. If so, replace the year, the level totals/shares and tax types in structure.json for EVERY country together (the layer is only comparable when all countries share one year), then `npm run validate`.
   - Note: Harmonised OECD classification of taxes (1000–6000) split by collecting sub-sector of general government. Used for the cross-country profile and for parts of the national total that have no national-source breakdown.
 
 - [ ] **Revenue Statistics 2025, Chapter 3: Tax levels and tax structures (Tables 3.1 and 3.4)** – OECD
   - URL: https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en/full-report/tax-levels-and-tax-structures-1965-2024_2033f3ea.html
-  - Feeds: `structure.json` (cross-country profile)
+  - Feeds: `structure.json` (OECD level shares in the Trees table and the folio charts)
   - Status: yearly – OECD Revenue Statistics appear each December (OECD countries) and the Latin America edition each May. Published 2025-12-09, accessed 2026-09-29, covers Calendar year 2023.
   - To do: Check whether a newer edition exists. If so, replace the year, the level totals/shares and tax types in structure.json for EVERY country together (the layer is only comparable when all countries share one year), then `npm run validate`.
   - Note: Total tax revenue as % of GDP and tax structure as % of total taxation, for all OECD members.
 
 - [ ] **World Observatory on Subnational Government Finance and Investment – country profile: United States of America** – OECD and United Cities and Local Governments (SNG-WOFI)
   - URL: https://www.sng-wofi.org/country_profiles/united_states_of_america.html
-  - Feeds: `structure.json` (cross-country profile)
+  - Feeds: `structure.json` (OECD level shares in the Trees table and the folio charts)
   - Status: yearly – OECD Revenue Statistics appear each December (OECD countries) and the Latin America edition each May. Published 2022-10-24, accessed 2026-09-29, covers 2020.
   - To do: Check whether a newer edition exists. If so, replace the year, the level totals/shares and tax types in structure.json for EVERY country together (the layer is only comparable when all countries share one year), then `npm run validate`.
   - Note: Subnational government revenue by category (tax revenue, grants and subsidies, tariffs and fees, property income, other) as % of total subnational revenue, 2022 edition.
@@ -164,7 +164,7 @@ When you have worked through a row: update the data, set its `accessed` date, ru
   - To do: Check for amendments since the last check (new law, court ruling, repeal). Update the instruments listed, their `status` and `checkedOn`.
 
 - [ ] **South Dakota v. Wayfair, Inc., 585 U.S. 162 (2018)** – Supreme Court of the United States
-  - URL: https://www.supremecourt.gov/opinions/17pdf/17-494_j4el.pdf
+  - URL: https://www.law.cornell.edu/supremecourt/text/17-494
   - Feeds: legal/rate basis of 2 node(s)
   - Status: current – last checked 2026-09-28. Published 2018-06-21, accessed 2026-09-28.
   - To do: Check for amendments since the last check (new law, court ruling, repeal). Update the instruments listed, their `status` and `checkedOn`.

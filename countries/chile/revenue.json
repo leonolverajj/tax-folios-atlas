@@ -1,0 +1,92 @@
+{
+  "groups": [
+    {
+      "title": "Net taxes 2025 – DIPRES execution report (CLP million)",
+      "defaults": {
+        "denominatorId": "central-taxes-2025",
+        "scale": "million",
+        "currency": "CLP",
+        "period": { "label": "2025", "kind": "calendar-year", "start": "2025-01-01", "end": "2025-12-31" },
+        "basis": "Net tax revenue accumulated to December 2025, cash basis",
+        "sourceId": "dipres-ejecucion-2025-12",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-11"
+      },
+      "observations": [
+        { "nodeId": "cl-income-tax", "amount": 26055529, "locator": "Ingresos tributarios netos, acumulado: Impuestos a la Renta, diciembre 2025" },
+        { "nodeId": "cl-vat", "amount": 28549581, "locator": "Ingresos tributarios netos, acumulado: Impuesto al Valor Agregado, diciembre 2025" },
+        {
+          "nodeId": "cl-fuel-tax",
+          "amount": 2882309,
+          "locator": "Ingresos tributarios netos, acumulado: Impuestos a Productos Específicos › Combustibles, diciembre 2025"
+        },
+        {
+          "nodeId": "cl-tobacco-tax",
+          "amount": 950028,
+          "locator": "Ingresos tributarios netos, acumulado: Impuestos a Productos Específicos › Tabacos, cigarros y cigarrillos, diciembre 2025"
+        },
+        {
+          "nodeId": "cl-fishing-rights",
+          "amount": 70227,
+          "locator": "Ingresos tributarios netos, acumulado: Der. de Extracción Ley de Pesca, diciembre 2025"
+        },
+        {
+          "nodeId": "cl-stamp-tax",
+          "amount": 851524,
+          "locator": "Ingresos tributarios netos, acumulado: Impuestos a los Actos Jurídicos, diciembre 2025"
+        },
+        {
+          "nodeId": "cl-customs",
+          "amount": 611272,
+          "locator": "Ingresos tributarios netos, acumulado: Impuestos al Comercio Exterior, diciembre 2025"
+        }
+      ]
+    },
+    {
+      "title": "Social security contributions 2025 – DIPRES execution report (CLP million)",
+      "defaults": {
+        "denominatorId": "central-contributions-2025",
+        "scale": "million",
+        "currency": "CLP",
+        "period": { "label": "2025", "kind": "calendar-year", "start": "2025-01-01", "end": "2025-12-31" },
+        "basis": "Budget line “imposiciones previsionales”, accumulated to December 2025",
+        "sourceId": "dipres-ejecucion-2025-12",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-11"
+      },
+      "observations": [
+        {
+          "nodeId": "cl-social-contributions",
+          "amount": 4366802,
+          "locator": "Ingresos del Gobierno Central Total, acumulado: Imposiciones previsionales, diciembre 2025"
+        }
+      ]
+    },
+    {
+      "title": "Municipal taxes 2023 – OECD Revenue Statistics, Table 6.5 (CLP million)",
+      "defaults": {
+        "denominatorId": "municipal-taxes-2023",
+        "scale": "million",
+        "currency": "CLP",
+        "period": { "label": "2023", "kind": "calendar-year", "start": "2023-01-01", "end": "2023-12-31" },
+        "basis": "OECD attribution to local government, calendar year 2023",
+        "sourceId": "oecd-rs-2025-subsectors",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-11"
+      },
+      "observations": [
+        { "nodeId": "cl-property-tax", "amount": 2337996, "locator": "Table 6.5 (Chile), local government 2023: taxes on immovable property" },
+        {
+          "nodeId": "cl-municipal-licences",
+          "amount": 2666421,
+          "locator": "Table 6.5 (Chile), local government 2023: taxes on goods and services",
+          "caveat": "The OECD table does not name the taxes in this line; the municipal licence and the circulation permit are the municipal charges that are not property tax."
+        }
+      ]
+    }
+  ],
+  "unavailable": []
+}

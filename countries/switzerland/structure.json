@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "referenceYear": 2023,
+  "currency": "CHF",
+  "scale": "million",
+  "taxToGdp": 26.9,
+  "basis": "OECD attribution to sub-sectors of general government (Interpretative Guide, section A.12)",
+  "levels": [
+    {
+      "key": "central",
+      "label": "Federal government",
+      "folioLevelIds": ["confederation"],
+      "total": 72669,
+      "byType": { "income": 32548, "socialSecurity": 0, "payroll": 0, "property": 1383, "goodsServices": 38669, "other": 69 }
+    },
+    {
+      "key": "regional",
+      "label": "State / regional governments",
+      "folioLevelIds": ["cantons"],
+      "total": 56086,
+      "byType": { "income": 42956, "socialSecurity": 0, "payroll": 0, "property": 9515, "goodsServices": 3166, "other": 449 }
+    },
+    {
+      "key": "local",
+      "label": "Local governments",
+      "folioLevelIds": ["communes"],
+      "total": 34776,
+      "byType": { "income": 28308, "socialSecurity": 0, "payroll": 0, "property": 5650, "goodsServices": 271, "other": 546 }
+    },
+    {
+      "key": "social-security",
+      "label": "Social security funds",
+      "folioLevelIds": [],
+      "total": 53663,
+      "byType": { "income": 0, "socialSecurity": 53663, "payroll": 0, "property": 0, "goodsServices": 0, "other": 0 }
+    }
+  ],
+  "sourceIds": ["oecd-rs-2025-subsectors", "oecd-rs-2025-levels"],
+  "subnational": {
+    "ownSourceTaxShareOfRevenue": 53.3,
+    "grantsShareOfRevenue": 24.3,
+    "year": 2020,
+    "sourceId": "sng-wofi-profile",
+    "note": "Tariffs and fees 17.7%, property income 4.5%, other 0.4% of subnational revenue."
+  },
+  "notes": []
+}

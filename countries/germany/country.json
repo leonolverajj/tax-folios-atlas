@@ -1,0 +1,112 @@
+{
+  "id": "germany",
+  "iso3": "DEU",
+  "isoNumeric": "276",
+  "names": { "en": "Germany", "native": "Deutschland", "nativeLang": "de" },
+  "currency": { "code": "EUR", "symbol": "€", "name": "Euro" },
+  "summary": "Germany is a federation of 16 Länder with more than 10,000 municipalities. Almost all tax law is federal, but the big taxes (income tax, corporation tax and VAT) are \"joint taxes\" whose yield is split between the Bund, the Länder and the municipalities by a constitutional formula; the Länder tax administrations collect most of them. Each level also has taxes of its own, and the largest single flow is not a tax at all: contributions to the self-governing social insurance funds for pensions, health, long-term care, unemployment and accidents.",
+  "structureNote": "The three levels follow the Basic Law (Art. 106). Because the tax law is federal and the big taxes are shared by formula, each tax is drawn once, under the level that levies it by law: the Bund for the joint, federal and customs taxes, the Länder for their own taxes, the municipalities for the trade tax, the property tax and local excises. The text of each core says how its revenue is split. Social insurance funds are public-law bodies outside the government budgets; they rest on federal law (the Social Code), so they are drawn under the federal level. Church tax is collected by the state on behalf of the recognised religious communities and is not a government tax, so it is left out.",
+  "theme": {
+    "accent": "#ffcc33",
+    "accent2": "#c8262e",
+    "motif": "topo",
+    "motifNote": "Topographic contour lines over the outline of Germany (the generic motif; no bespoke art yet).",
+    "mapLabel": { "lon": 10.4, "lat": 51.1 }
+  },
+  "levels": [
+    {
+      "id": "federal",
+      "branch": "national",
+      "names": { "official": "Bund (Bundesrepublik Deutschland)", "native": "Bund", "common": "Federal government" },
+      "description": "The Federal Republic legislates nearly all taxes (concurrent power, Art. 105 GG) and itself receives the federal taxes, customs duties and its share of the joint taxes. Customs administration collects customs, the federal excises, the vehicle tax and import VAT. The statutory social insurance funds are public-law bodies governed by federal law.",
+      "fiscalPower": "Art. 105(1)–(2) GG gives the Bund exclusive power over customs and fiscal monopolies and concurrent power over almost every other tax. Art. 106(1) lists the revenue it keeps (excises such as energy, tobacco and insurance tax, the solidarity surcharge); Art. 106(3) splits income tax, corporation tax and VAT between the Bund and the Länder, with a municipal share (Art. 106(5)–(5a)).",
+      "legalRefs": [{ "sourceId": "gg", "locator": "Arts. 105, 106, 108" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "laender",
+      "branch": "regional",
+      "names": { "official": "Länder (16 federal states)", "native": "Länder", "common": "Länder" },
+      "description": "The 16 states administer the joint taxes through their tax offices on behalf of the Bund, keep their own taxes (inheritance and gift tax, real-estate transfer tax, betting and lottery taxes, fire-protection tax, beer tax) and receive a share of income tax, corporation tax and VAT.",
+      "fiscalPower": "Art. 106(2) GG assigns the Länder the revenue of the inheritance tax, the real-estate transfer tax, the betting and lottery taxes, the beer tax and a few other taxes; Art. 105(2a) lets them set the rate of the real-estate transfer tax. Art. 108(2)–(3) makes their finance administrations the collectors of the joint taxes.",
+      "legalRefs": [{ "sourceId": "gg", "locator": "Arts. 105(2a), 106(2), 108(2)–(3)" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "gemeinden",
+      "branch": "local",
+      "names": { "official": "Gemeinden und Gemeindeverbände", "native": "Gemeinden", "common": "Municipalities" },
+      "description": "More than 10,000 municipalities and the municipal associations. Their own taxes are the trade tax (Gewerbesteuer), the property tax (Grundsteuer) and local excises; they also receive a share of income tax and VAT through the Länder.",
+      "fiscalPower": "Art. 106(6) GG gives the municipalities the revenue of the real-property taxes (Grundsteuer, Gewerbesteuer) and local consumption and expenditure taxes, and the right to set the multiplier (Hebesatz) of the property taxes within the law; Art. 106(5)–(5a) adds shares of income tax and VAT.",
+      "legalRefs": [{ "sourceId": "gg", "locator": "Arts. 28(2), 106(5)–(6)" }],
+      "checkedOn": "2026-10-10"
+    }
+  ],
+  "supportingSourceIds": ["bmas-sozialbudget-2025", "sozialpolitik-aktuell-tabii16"],
+  "denominators": [
+    {
+      "id": "federal-law-taxes-2025",
+      "label": "Joint taxes, federal taxes and customs before distribution, 2025",
+      "definition": "Tax revenue under federal law before it is shared between the Bund, the Länder, the municipalities and the EU: the joint taxes (income tax, corporation tax, VAT), the federal taxes (excises, insurance tax, vehicle tax, solidarity surcharge) and customs duties.",
+      "levelIds": ["federal"],
+      "amount": 861011.71,
+      "scale": "million",
+      "currency": "EUR",
+      "period": { "label": "2025", "kind": "calendar-year", "start": "2025-01-01", "end": "2025-12-31" },
+      "sourceId": "destatis-71211",
+      "locator": "Steuerarten vor der Steuerverteilung, 2025: Gemeinschaftssteuern + Bundessteuern + Zölle",
+      "calculation": "746,339.002 + 108,812.990 + 5,859.720 = 861,011.712 (EUR million; Destatis gives EUR thousand)",
+      "caveat": "Cash receipts. Before distribution: the Länder and municipalities receive large shares of the joint taxes, which are not subtracted here. About three quarters of the customs duties go to the EU budget.",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "laender-taxes-2025",
+      "label": "Länder taxes, 2025",
+      "definition": "Taxes whose revenue the Basic Law assigns to the Länder: inheritance and gift tax, real-estate transfer tax, betting and lottery taxes, fire-protection tax, beer tax.",
+      "levelIds": ["laender"],
+      "amount": 34284.75,
+      "scale": "million",
+      "currency": "EUR",
+      "period": { "label": "2025", "kind": "calendar-year", "start": "2025-01-01", "end": "2025-12-31" },
+      "sourceId": "destatis-71211",
+      "locator": "Steuerarten vor der Steuerverteilung, 2025: Landessteuern",
+      "caveat": "Cash receipts. Leaves out the Länder shares of the joint taxes (counted once, under the federal level).",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "gemeinden-taxes-2025",
+      "label": "Municipal taxes, 2025",
+      "definition": "Taxes whose revenue the Basic Law assigns to the municipalities: trade tax (gross), property tax and local excises.",
+      "levelIds": ["gemeinden"],
+      "amount": 94530.39,
+      "scale": "million",
+      "currency": "EUR",
+      "period": { "label": "2025", "kind": "calendar-year", "start": "2025-01-01", "end": "2025-12-31" },
+      "sourceId": "destatis-71211",
+      "locator": "Steuerarten vor der Steuerverteilung, 2025: Gemeindesteuern",
+      "caveat": "Cash receipts. The trade tax is gross: municipalities pass part of it to the Bund and the Länder (Gewerbesteuerumlage). Leaves out the municipal shares of income tax and VAT.",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "social-insurance-2025",
+      "label": "Contributions to the five statutory social insurance branches, 2025 (estimate)",
+      "definition": "Employee and employer contributions to the statutory pension, health, long-term care, unemployment and accident insurance, as recorded in the Sozialbudget. Leaves out payments of the state into the schemes (federal grants, contributions for child-raising periods and benefit recipients), private insurance and contributions to special systems such as civil-service pensions and occupational schemes.",
+      "levelIds": ["federal"],
+      "amount": 706245,
+      "scale": "million",
+      "currency": "EUR",
+      "period": { "label": "2025 (estimate)", "kind": "estimate", "start": "2025-01-01", "end": "2025-12-31" },
+      "sourceId": "bmas-sozialbudget-2025",
+      "locator": "Tabelle III-1 (2025s), columns \"der Versicherten\" + \"der Arbeitgeber tatsächlich\", rows 11–15",
+      "calculation": "Pension 143,551 + 143,191 = 286,742; health 169,927 + 121,777 = 291,704; long-term care 44,148 + 24,857 = 69,005; accident 1,294 + 15,811 = 17,105; unemployment 19,922 + 21,767 = 41,689; total 706,245 (EUR million)",
+      "caveat": "An estimate for 2025 (data status May 2026). For comparison the OECD records 604,323 million EUR of social security contributions for 2023.",
+      "accessed": "2026-10-10"
+    }
+  ],
+  "sizing": {
+    "label": "Taxes and compulsory social insurance contributions of all levels of government",
+    "definition": "Taxes before distribution among governments (2025, Destatis) + contributions to the five statutory social insurance branches (2025 estimate, BMAS). Excludes church tax (levied by the religious communities), fees, non-tax revenue, grants and transfers between governments and the federal subsidies to social insurance.",
+    "componentIds": ["federal-law-taxes-2025", "laender-taxes-2025", "gemeinden-taxes-2025", "social-insurance-2025"]
+  },
+  "researchStatus": "researched"
+}

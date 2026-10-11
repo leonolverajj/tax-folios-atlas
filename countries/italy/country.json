@@ -1,0 +1,112 @@
+{
+  "id": "italy",
+  "iso3": "ITA",
+  "isoNumeric": "380",
+  "names": { "en": "Italy", "native": "Italia", "nativeLang": "it" },
+  "currency": { "code": "EUR", "symbol": "€", "name": "Euro" },
+  "summary": "Italy is a regional state with 20 regions (five with special status), about 100 provinces and metropolitan cities, and about 7,900 municipalities. The State legislates and collects almost every tax and passes shares to the regions for health and other services. Two regional charges sit on top of the national income tax: the regional and municipal surcharges (addizionali) on IRPEF, and the regional tax on productive activities (IRAP). Municipalities levy the property tax (IMU). Social contributions, paid mainly to the national social insurance institute (INPS), are the second-largest charge.",
+  "structureNote": "The regional and municipal surcharges on IRPEF are drawn as taxes of their own on the regional and municipal branches, because each level sets its own rate, even though they are computed on the same base as the State’s income tax. IRAP (a tax on the net value of production) is regional. The State figures are MEF accruals on a legal-competence basis and include IMU on production buildings reserved to the State and a large residual of smaller taxes; the territorial figures are the regions’ and municipalities’ own taxes and leave out the waste tax (TARI) and the regional vehicle tax, which the MEF bulletin does not monthly monitor. Social contributions come from the national accounts (ISTAT) and include a small imputed element that ISTAT does not separate. The shares of the State’s VAT and fuel excise that regions and special-statute regions receive are transfers and are not drawn.",
+  "theme": {
+    "accent": "#7bd88f",
+    "accent2": "#d9232d",
+    "motif": "topo",
+    "motifNote": "Topographic contour lines over the outline of Italy (the generic motif; no bespoke art yet).",
+    "mapLabel": { "lon": 12.5, "lat": 42.5 }
+  },
+  "levels": [
+    {
+      "id": "state",
+      "branch": "national",
+      "names": { "official": "Stato e enti previdenziali", "native": "Stato", "common": "State and social insurance" },
+      "description": "The central government (collected by the Agenzia delle Entrate and the customs and monopolies agency) and the social insurance institutions, above all INPS, which collect contributions.",
+      "fiscalPower": "Art. 23 of the Constitution requires every tax to rest on a law; Art. 53 requires a progressive system; Art. 117 gives the State exclusive legislation on the tax system of the State and the equalisation of public finances, and shared power on \"coordination\" of the system with the regions.",
+      "legalRefs": [{ "sourceId": "costituzione", "locator": "Arts. 23, 53, 117, 119" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "regions",
+      "branch": "regional",
+      "names": { "official": "Regioni e Province autonome", "native": "Regioni", "common": "Regions" },
+      "description": "The 15 ordinary regions, five special-statute regions and two autonomous provinces. They levy IRAP and a surcharge on the personal income tax, keep a share of VAT and fuel excises through the national health-funding system, and, in the special-statute regions, a larger share of State taxes collected in their territory.",
+      "fiscalPower": "Art. 119 of the Constitution gives regions and municipalities financial autonomy: they set and apply their own taxes and receive shares of State taxes; the surcharge and IRAP rates move within bands set by national law.",
+      "legalRefs": [{ "sourceId": "costituzione", "locator": "Art. 119" }, { "sourceId": "irap-dlgs-446-1997" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "municipalities",
+      "branch": "local",
+      "names": { "official": "Comuni", "native": "Comuni", "common": "Municipalities" },
+      "description": "About 7,900 municipalities. They levy the property tax (IMU), the municipal surcharge on IRPEF and local charges such as the waste tax (TARI) and the tourist tax.",
+      "fiscalPower": "Law 160/2019 (art. 1, paras. 738–783) sets the IMU, which each municipality applies at a rate it decides within legal limits; the municipal surcharge can reach 0.8% (up to 0.9% in some cases).",
+      "legalRefs": [{ "sourceId": "imu-legge-160-2019" }],
+      "checkedOn": "2026-10-10"
+    }
+  ],
+  "supportingSourceIds": ["oecd-rs-2025-levels", "sng-wofi-profile"],
+  "denominators": [
+    {
+      "id": "state-taxes-2025",
+      "label": "State (erariali) tax revenue, 2025",
+      "definition": "All tax revenue of the State by legal competence: income taxes, VAT, excises, stamp and registration duties, gambling, insurance and other taxes, before transfers to regions and municipalities.",
+      "levelIds": ["state"],
+      "amount": 622132,
+      "scale": "million",
+      "currency": "EUR",
+      "period": { "label": "2025", "kind": "calendar-year", "start": "2025-01-01", "end": "2025-12-31" },
+      "sourceId": "mef-bollettino-2025-12",
+      "locator": "Entrate tributarie erariali: accertamenti (competenza giuridica), gennaio-dicembre 2025: total 622,132",
+      "caveat": "Accruals on the legal-competence basis (provisional). The Dipartimento delle Finanze notes that these are revenues net of those arising from assessment and control activity.",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "social-contributions-2025",
+      "label": "Social contributions, 2025",
+      "definition": "Social contributions of the general government accounts, paid mostly to INPS and the other social insurance institutions.",
+      "levelIds": ["state"],
+      "amount": 305829,
+      "scale": "million",
+      "currency": "EUR",
+      "period": { "label": "2025", "kind": "calendar-year", "start": "2025-01-01", "end": "2025-12-31" },
+      "sourceId": "istat-cen-2026",
+      "locator": "Prospetto 9: Contributi sociali, 2025, stime settembre 2026",
+      "caveat": "National accounts (ESA 2010); includes imputed contributions that ISTAT does not separate in this table. For comparison the OECD records EUR 263.0 billion for 2023.",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "regional-taxes-2025",
+      "label": "Regional taxes monitored by the MEF, 2025",
+      "definition": "IRAP and the regional surcharge on IRPEF, as monitored monthly by the Dipartimento delle Finanze.",
+      "levelIds": ["regions"],
+      "amount": 49358,
+      "scale": "million",
+      "currency": "EUR",
+      "period": { "label": "2025", "kind": "calendar-year", "start": "2025-01-01", "end": "2025-12-31" },
+      "sourceId": "mef-bollettino-2025-12",
+      "locator": "Entrate tributarie degli enti territoriali, 2025: IRAP 33,318 + addizionale regionale IRPEF 16,040",
+      "calculation": "33,318 + 16,040 = 49,358 (EUR million)",
+      "caveat": "Leaves out the regional vehicle tax and other regional taxes that are not monitored monthly.",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "municipal-taxes-2025",
+      "label": "Municipal taxes monitored by the MEF, 2025",
+      "definition": "IMU (municipal share), the municipal surcharge on IRPEF and TASI (repealed; arrears only).",
+      "levelIds": ["municipalities"],
+      "amount": 24652,
+      "scale": "million",
+      "currency": "EUR",
+      "period": { "label": "2025", "kind": "calendar-year", "start": "2025-01-01", "end": "2025-12-31" },
+      "sourceId": "mef-bollettino-2025-12",
+      "locator": "Entrate tributarie degli enti territoriali, 2025: IMU–IMIS quota comuni 18,189 + addizionale comunale IRPEF 6,440 + TASI 23",
+      "calculation": "18,189 + 6,440 + 23 = 24,652 (EUR million)",
+      "caveat": "Leaves out the waste tax (TARI) and local fees; IMU on production buildings is reserved to the State and sits in the State residual.",
+      "accessed": "2026-10-10"
+    }
+  ],
+  "sizing": {
+    "label": "Taxes and social contributions of all levels of government",
+    "definition": "State tax revenue + social contributions + regional taxes + municipal taxes, all for calendar year 2025. Excludes fees, TARI, regional vehicle taxes and transfers between governments.",
+    "componentIds": ["state-taxes-2025", "social-contributions-2025", "regional-taxes-2025", "municipal-taxes-2025"]
+  },
+  "researchStatus": "partial"
+}

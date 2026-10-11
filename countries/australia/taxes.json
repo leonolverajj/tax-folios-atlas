@@ -1,0 +1,406 @@
+{
+  "instruments": [
+    {
+      "id": "au-personal-income-tax",
+      "parentId": "commonwealth",
+      "levelId": "commonwealth",
+      "category": "tax",
+      "family": "income-personal",
+      "status": "current",
+      "names": { "official": "Personal income tax", "common": "Personal income tax" },
+      "taxes": {
+        "base": "Taxable income of individuals: wages, business income, investment income and net capital gains, after deductions.",
+        "payer": "Individuals; employers withhold it from wages (PAYG withholding)."
+      },
+      "rate": {
+        "kind": "progressive",
+        "headline": "Residents 0%–45% (15% to 45% above A$18,200)",
+        "details": [
+          "Resident rates for 2026–27: nil to A$18,200; 15% from A$18,201 to A$45,000; 30% to A$135,000; 37% to A$190,000; 45% above. The lowest rate was 16% until 30 June 2026 and falls to 14% from 1 July 2027.",
+          "Non-residents pay 30% from the first dollar up to A$135,000 and the same higher rates above.",
+          "The 2% Medicare levy is charged on top, and shown as a separate core."
+        ],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "The biggest source of Australian revenue, collected by the Commonwealth alone. States left the income tax field in 1942, and there is no state or local income tax.",
+      "exceptions": ["Capital gains are taxed as income, with a 50% discount for assets held over 12 months by individuals."],
+      "legalRefs": [{ "sourceId": "rates-act-1986", "locator": "Schedule 7" }, { "sourceId": "ato-resident-rates" }, { "sourceId": "itaa1997" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "au-medicare-levy",
+      "parentId": "commonwealth",
+      "levelId": "commonwealth",
+      "category": "tax",
+      "family": "income-personal",
+      "status": "current",
+      "names": { "official": "Medicare levy (Government health insurance levy)", "common": "Medicare levy" },
+      "taxes": {
+        "base": "Taxable income of residents (the same base as income tax).",
+        "payer": "Resident individuals; low-income earners are reduced or exempt."
+      },
+      "rate": {
+        "kind": "flat",
+        "headline": "2% of taxable income",
+        "details": ["A surcharge of 1% to 1.5% applies to higher earners without private hospital cover (the Medicare levy surcharge)."],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "A flat levy on top of income tax that helps pay for the public health scheme; legally it goes into general revenue, not a special fund.",
+      "exceptions": ["Reductions and exemptions for low incomes, some foreign residents and certain medical conditions."],
+      "legalRefs": [{ "sourceId": "ato-medicare-levy" }, { "sourceId": "ato-resident-rates" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "au-fringe-benefits-tax",
+      "parentId": "commonwealth",
+      "levelId": "commonwealth",
+      "category": "tax",
+      "family": "payroll",
+      "status": "current",
+      "names": { "official": "Fringe benefits tax (FBT)", "common": "Fringe benefits tax", "abbreviation": "FBT" },
+      "taxes": { "base": "The taxable value of non-cash benefits that employers give employees (cars, loans, entertainment, housing).", "payer": "Employers." },
+      "rate": {
+        "kind": "flat",
+        "headline": "47% of the grossed-up taxable value",
+        "details": ["The FBT year runs from 1 April to 31 March; the rate is 47% from 31 March 2023 to 31 March 2027."],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "The employer, not the employee, pays tax on benefits, at the top personal rate including the Medicare levy.",
+      "exceptions": ["Several exempt benefits (for example work-related items and eligible electric cars) and reductions for charities and hospitals."],
+      "legalRefs": [{ "sourceId": "ato-fbt-rates" }, { "sourceId": "fbt-act" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "au-company-tax",
+      "parentId": "commonwealth",
+      "levelId": "commonwealth",
+      "category": "tax",
+      "family": "income-corporate",
+      "status": "current",
+      "names": { "official": "Company income tax", "common": "Company income tax" },
+      "taxes": { "base": "Taxable income of companies, with imputation credits for dividends paid to resident shareholders.", "payer": "Companies." },
+      "rate": {
+        "kind": "flat",
+        "headline": "30%; 25% for small base-rate entities",
+        "details": ["30% for most companies; 25% for base rate entities, which have aggregated turnover under A$50 million and no more than 80% passive income."],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "The Commonwealth’s second-largest tax. Dividends carry franking credits so that company tax paid is credited to shareholders.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ato-company-rates" }, { "sourceId": "rates-act-1986" }, { "sourceId": "itaa1997" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "au-super-fund-tax",
+      "parentId": "commonwealth",
+      "levelId": "commonwealth",
+      "category": "tax",
+      "family": "income-corporate",
+      "status": "current",
+      "names": { "official": "Income tax paid by superannuation funds", "common": "Tax on superannuation funds" },
+      "taxes": { "base": "Contributions received and investment earnings of superannuation funds.", "payer": "The funds, out of members’ savings." },
+      "rate": {
+        "kind": "flat",
+        "headline": "15% on contributions and earnings",
+        "details": [
+          "Concessional contributions and earnings in the accumulation phase are taxed at 15% inside the fund; earnings backing retirement-phase pensions are tax-free up to the transfer balance cap."
+        ],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "Employers must pay a percentage of wages (the superannuation guarantee, 12% from 1 July 2025) into private funds; the Commonwealth taxes the funds, not the payments themselves.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ato-super-rates" }, { "sourceId": "itaa1997" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "au-withholding-nonresidents",
+      "parentId": "commonwealth",
+      "levelId": "commonwealth",
+      "category": "tax",
+      "family": "income-mixed",
+      "status": "current",
+      "names": { "official": "Withholding taxes on non-residents (dividends and interest)", "common": "Withholding tax (non-residents)" },
+      "taxes": { "base": "Unfranked dividends and interest paid to non-residents.", "payer": "Non-resident recipients; the payer withholds it." },
+      "rate": {
+        "kind": "flat",
+        "headline": "30% dividends; 10% interest",
+        "details": ["30% on unfranked dividends and 10% on interest, usually reduced by tax treaties."],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "A final tax on investment income going abroad.",
+      "exceptions": ["Franked dividends are exempt."],
+      "legalRefs": [{ "sourceId": "itaa1936" }, { "sourceId": "rates-act-1986" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "au-gst",
+      "parentId": "commonwealth",
+      "levelId": "commonwealth",
+      "category": "tax",
+      "family": "general-consumption",
+      "status": "current",
+      "names": { "official": "Goods and services tax (GST)", "common": "Goods and services tax", "abbreviation": "GST" },
+      "taxes": {
+        "base": "Most supplies of goods and services consumed in Australia, and imports.",
+        "payer": "Consumers; businesses charge it and claim credits for the GST they pay."
+      },
+      "rate": {
+        "kind": "flat",
+        "headline": "10% of the price",
+        "details": [
+          "A single rate of 10% (s. 9-70). GST-free supplies include basic food, most health and education services, and exports; financial supplies and residential rent are input-taxed."
+        ],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "The Commonwealth collects the GST but pays all of it to the states and territories as untied grants, distributed by a horizontal equalisation formula.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "gst-act", "locator": "s. 9-70" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "au-excise",
+      "parentId": "commonwealth",
+      "levelId": "commonwealth",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Excise duties and levies (fuel, tobacco, alcohol and others)", "common": "Excise duties and levies" },
+      "taxes": {
+        "base": "Fuel and petroleum products, tobacco and alcohol made in Australia, plus small levies on agricultural production and statutory corporations.",
+        "payer": "Producers and manufacturers; passed on in prices. Imports pay equivalent customs duties."
+      },
+      "rate": {
+        "kind": "specific",
+        "headline": "Per litre or per stick, indexed twice a year",
+        "details": [
+          "Fuel and alcohol rates are indexed to CPI each February and August; tobacco rates to average weekly earnings each March and September.",
+          "Tobacco in 2026: about A$1.55 per cigarette (sticks up to 0.8 g, from 1 September 2026).",
+          "A temporary cut in the fuel excise applied from 1 April 2026; the full rate was restored from 3 August 2026."
+        ],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "A group that the ABS reports together: the largest part is the excise on fuel and tobacco, and spirits and beer bring in the rest. Only the Commonwealth may levy excise (s. 90 of the Constitution).",
+      "exceptions": ["Fuel tax credits refund the excise on fuel used in business off public roads."],
+      "legalRefs": [
+        { "sourceId": "ato-excise-fuel" },
+        { "sourceId": "ato-excise-tobacco" },
+        { "sourceId": "ato-excise-alcohol" },
+        { "sourceId": "constitution", "locator": "s. 90" }
+      ],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "au-customs",
+      "parentId": "commonwealth",
+      "levelId": "commonwealth",
+      "category": "customs-duty",
+      "family": "trade",
+      "status": "current",
+      "names": { "official": "Customs duties on imports", "common": "Customs duties" },
+      "taxes": { "base": "The customs value of imported goods, by tariff classification and origin.", "payer": "Importers." },
+      "rate": {
+        "kind": "range",
+        "headline": "Free or 5% on most goods",
+        "details": [
+          "Rates are set per item in the Customs Tariff; goods from free-trade-agreement partners are often free. Excise-equivalent duties apply to imported fuel, alcohol and tobacco."
+        ],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "Collected by the Australian Border Force at the border. Duty is among the smaller sources because most tariffs are low or zero.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "customs-tariff-act" }, { "sourceId": "constitution", "locator": "s. 90" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "au-other-commonwealth",
+      "parentId": "commonwealth",
+      "levelId": "commonwealth",
+      "category": "tax",
+      "family": "other",
+      "status": "current",
+      "names": {
+        "official": "Other Commonwealth taxes (sales taxes, payroll and labour force, use of goods and activities)",
+        "common": "Other Commonwealth taxes"
+      },
+      "taxes": {
+        "base": "A set of smaller taxes and levies that the ABS groups together, such as the luxury car tax, the wine equalisation tax and the passenger movement charge.",
+        "payer": "Varies by tax."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Different rate for each tax",
+        "details": [
+          "Grouped from three ABS lines: general (sales) taxes 2,223, taxes on employers’ payroll and labour force 1,725 and taxes on the use of goods and performance of activities 12,343, plus 135 of minor items."
+        ],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "The remainder of Commonwealth taxation after the named taxes. The ABS does not break this down further in the table used.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "abs-taxation-2024-25", "locator": "Table 1" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "au-payroll-tax",
+      "parentId": "states",
+      "levelId": "states",
+      "category": "tax",
+      "family": "payroll",
+      "status": "current",
+      "names": { "official": "Payroll tax", "common": "Payroll tax" },
+      "taxes": { "base": "Wages paid by employers above a tax-free threshold (grouped employers are added together).", "payer": "Employers." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Set by each jurisdiction, roughly 5%–7%",
+        "details": ["New South Wales charges 5.45% of wages above A$1.2 million in 2026-27; other states and territories use their own thresholds and rates."],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "The biggest state tax. Each jurisdiction runs its own system under a common model, with extra rules for wages paid across state lines.",
+      "exceptions": ["Charities and some public bodies are exempt; apprentices and trainees have concessions in most jurisdictions."],
+      "legalRefs": [{ "sourceId": "revenue-nsw-payroll" }, { "sourceId": "constitution", "locator": "s. 107" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "au-stamp-duty",
+      "parentId": "states",
+      "levelId": "states",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "Stamp duties on conveyances (transfer duty)", "common": "Stamp duty on property transfers" },
+      "taxes": { "base": "The price of land and buildings (and some business assets) when they change hands.", "payer": "The buyer." },
+      "rate": {
+        "kind": "progressive",
+        "headline": "Sliding scale up to about 5.5%–7%",
+        "details": [
+          "New South Wales in 2026-27: from A$1.25 per A$100 on low values to A$5.50 per A$100 above A$1.29 million, and A$7.00 per A$100 on premium residential land above A$3.87 million."
+        ],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "A large and volatile state tax that moves with the property market. Several states have been replacing it with land tax for first-home buyers.",
+      "exceptions": ["First-home buyer concessions and exemptions vary by state."],
+      "legalRefs": [{ "sourceId": "revenue-nsw-transfer-duty" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "au-land-tax",
+      "parentId": "states",
+      "levelId": "states",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "Land tax", "common": "Land tax" },
+      "taxes": { "base": "The unimproved value of land held above a threshold.", "payer": "Landowners; the main home is exempt." },
+      "rate": {
+        "kind": "progressive",
+        "headline": "Set by each jurisdiction on land value above a threshold",
+        "details": ["New South Wales applies a tax-free threshold of about A$1.08 million and a premium rate band for land above about A$6.6 million."],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "A tax on investment property, vacant land and commercial land. The principal place of residence is not taxed.",
+      "exceptions": ["Primary production land and the main home are exempt."],
+      "legalRefs": [{ "sourceId": "revenue-nsw-land-tax" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "au-motor-vehicle-taxes",
+      "parentId": "states",
+      "levelId": "states",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Motor vehicle taxes (registration, transfer duty on vehicles)", "common": "Motor vehicle taxes" },
+      "taxes": { "base": "Owning and registering vehicles, and transfers of vehicle ownership.", "payer": "Vehicle owners and buyers." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Set by each jurisdiction",
+        "details": ["Registration charges depend on the vehicle and use; stamp duty on registration or transfer is charged on the value."],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "Registration fees and stamp duty on vehicles, as recorded by the ABS in the taxation statistics.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "abs-taxation-2024-25", "locator": "Table 10" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "au-gambling-taxes",
+      "parentId": "states",
+      "levelId": "states",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Taxes on gambling", "common": "Gambling taxes" },
+      "taxes": { "base": "Gaming machines, casinos, lotteries and race and sports betting.", "payer": "Operators; passed on to players." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Set by each jurisdiction on revenue or turnover",
+        "details": ["Gaming-machine taxes are the largest component."],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "States license and tax gambling. Gaming machine taxes bring in about 60% of the total.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "abs-taxation-2024-25", "locator": "Table 10" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "au-insurance-taxes",
+      "parentId": "states",
+      "levelId": "states",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Taxes on insurance (stamp duty on insurance, contributions to fire brigades)", "common": "Insurance taxes" },
+      "taxes": {
+        "base": "Insurance premiums (general, vehicle third-party, life) and insurers’ contributions to fire services.",
+        "payer": "Insurers; passed on to policyholders."
+      },
+      "rate": { "kind": "varies", "headline": "Set by each jurisdiction on premiums", "details": [], "asOf": "2026-10-10" },
+      "explanation": "State duty on insurance premiums and the contributions that insurers pay to fund fire brigades.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "abs-taxation-2024-25", "locator": "Table 10" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "au-other-state-taxes",
+      "parentId": "states",
+      "levelId": "states",
+      "category": "tax",
+      "family": "other",
+      "status": "current",
+      "names": { "official": "Other state and territory taxes", "common": "Other state taxes" },
+      "taxes": {
+        "base": "Other property taxes, government borrowing guarantee levies, franchise taxes, excises and levies, and other taxes on the use of goods and performance of activities.",
+        "payer": "Varies by tax."
+      },
+      "rate": { "kind": "varies", "headline": "Different rate for each tax", "details": [], "asOf": "2026-10-10" },
+      "explanation": "The remainder of state taxation after the named taxes, grouped from the ABS table.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "abs-taxation-2024-25", "locator": "Table 10" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "au-council-rates",
+      "parentId": "local-government",
+      "levelId": "local-government",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "Municipal rates", "common": "Council rates" },
+      "taxes": {
+        "base": "The value of land (and in some states improvements) within the council area.",
+        "payer": "Landowners; landlords may pass them on to tenants."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Set by each council within state limits",
+        "details": [
+          "Councils set a rate in the dollar (and often a minimum charge); several states limit annual increases, for example the NSW rate peg and Victoria’s rate cap."
+        ],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "The one significant tax of local governments, levied on the land value of every property.",
+      "exceptions": ["Crown land, schools, churches and charities are often exempt or rebated."],
+      "legalRefs": [{ "sourceId": "nsw-lga-1993", "locator": "Chapter 15" }],
+      "checkedOn": "2026-10-10"
+    }
+  ]
+}

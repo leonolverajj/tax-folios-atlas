@@ -1,0 +1,130 @@
+{
+  "id": "spain",
+  "iso3": "ESP",
+  "isoNumeric": "724",
+  "names": { "en": "Spain", "native": "España", "nativeLang": "es-ES" },
+  "currency": { "code": "EUR", "symbol": "€", "name": "Euro" },
+  "summary": "Spain is a quasi-federal state with 17 autonomous communities, two autonomous cities and more than 8,000 municipalities. Most big taxes (VAT, corporation tax, excises) belong to the State, and the income tax is split in two: a State scale and an autonomic scale that each community sets for its half. The communities also run the inheritance, wealth and property-transfer taxes under powers the State has ceded, and municipalities levy property, vehicle and business-activity taxes. The Basque Country and Navarre are the exception: under their own agreements (Concierto and Convenio) they collect nearly all taxes themselves and pay the State a quota.",
+  "structureNote": "VAT and the excise duties are drawn whole at the State level: the communities receive 50% of VAT and 58% of the excises as transfers and have no power over them. The income tax is drawn in two cores because the law gives each community its own scale: the autonomic tariff and the State tariff (which includes the small municipal share). The AEAT’s fees (tasas) are shown at neutral size because they are not taxes. The State, social security and autonomic income-tax figures are for 2025; the communities’ own taxes and the local taxes come from the OECD for 2023 because the national statistics for them are not published by tax in a form that could be read for this folio: the 2023 and 2025 parts are 24 months apart. The Basque Country and Navarre collect their own taxes outside the AEAT figures and are not itemised here, so the folio is marked partial.",
+  "theme": {
+    "accent": "#ffc400",
+    "accent2": "#c60b1e",
+    "motif": "topo",
+    "motifNote": "Topographic contour lines over the outline of Spain (the generic motif; no bespoke art yet).",
+    "mapLabel": { "lon": -3.7, "lat": 40.2 }
+  },
+  "levels": [
+    {
+      "id": "state",
+      "branch": "national",
+      "names": { "official": "Estado (Administración General del Estado y Seguridad Social)", "native": "Estado", "common": "State" },
+      "description": "The central government and the Social Security system. The Agencia Tributaria (AEAT) manages the income, corporation, value added and excise taxes for the State and for the communities of the common regime; the Tesorería General de la Seguridad Social collects contributions.",
+      "fiscalPower": "Art. 133 of the Constitution gives the State the original power to establish taxes; Arts. 156–157 let the communities have their own resources and receive ceded taxes; the Ley Orgánica de Financiación de las Comunidades Autónomas (LOFCA) and Ley 22/2009 set which taxes are ceded and which shares go to the communities.",
+      "legalRefs": [{ "sourceId": "constitucion", "locator": "Arts. 31, 133, 156–157" }, { "sourceId": "lofca-ley-22-2009" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "ccaa",
+      "branch": "regional",
+      "names": {
+        "official": "Comunidades Autónomas (17 communities and 2 autonomous cities)",
+        "native": "Comunidades Autónomas",
+        "common": "Autonomous communities"
+      },
+      "description": "The 17 communities set their own scale for the autonomic half of the personal income tax and manage the inheritance and gift tax, wealth tax, transfer tax and stamp duty (ceded by the State), gambling taxes and a handful of taxes of their own. Basque Country and Navarre have their own tax systems.",
+      "fiscalPower": "Ley 22/2009 cedes to the common-regime communities the revenue and, within limits, the regulation of the income-tax autonomic scale, wealth tax, inheritance and gift tax, property transfer tax and stamp duty, gambling taxes and the vehicle registration tax.",
+      "legalRefs": [{ "sourceId": "lofca-ley-22-2009" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "local-entities",
+      "branch": "local",
+      "names": { "official": "Entidades locales (municipios, provincias, islas)", "native": "Entidades locales", "common": "Local governments" },
+      "description": "More than 8,000 municipalities, plus provincial councils and island councils. Municipalities levy the property tax (IBI), the business activities tax (IAE), the vehicle tax (IVTM), the construction tax (ICIO) and the land value increment tax (plusvalía).",
+      "fiscalPower": "The Texto Refundido de la Ley Reguladora de las Haciendas Locales fixes which taxes municipalities must or may levy and the legal range for each rate; municipalities approve the rate by ordinance.",
+      "legalRefs": [{ "sourceId": "trlrhl" }],
+      "checkedOn": "2026-10-10"
+    }
+  ],
+  "supportingSourceIds": ["oecd-rs-2025-levels", "sng-wofi-profile"],
+  "denominators": [
+    {
+      "id": "state-taxes-2025",
+      "label": "Taxes managed by the AEAT other than the autonomic income-tax tariff, 2025",
+      "definition": "Income tax (State tariff and municipal share), corporation tax, non-resident income tax, VAT, excise duties, customs, insurance premium tax, environmental taxes and the newer taxes on banks, financial transactions and digital services, before the State passes shares of VAT and the excises to the communities. Leaves out the fees (tasas) and the autonomic IRPF tariff.",
+      "levelIds": ["state"],
+      "amount": 248822.571,
+      "scale": "million",
+      "currency": "EUR",
+      "period": { "label": "2025", "kind": "calendar-year", "start": "2025-01-01", "end": "2025-12-31" },
+      "sourceId": "aeat-imr-2025-12",
+      "locator": "Cuadro 1.4: TOTAL INGRESOS TRIBUTARIOS 325,355,829 less IRPF CC.AA. 74,377,257 less Capítulo III (tasas) 2,156,001 (thousand euros)",
+      "calculation": "325,355.829 − 74,377.257 − 2,156.001 = 248,822.571 (EUR million)",
+      "caveat": "Cash basis, net of refunds. Includes the 50% of VAT and 58% of excises that the communities and municipalities receive as shares.",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "social-security-2025",
+      "label": "Social Security contributions, 2025",
+      "definition": "Income from contributions to the Social Security system (cotizaciones sociales) paid by employers, employees and the self-employed.",
+      "levelIds": ["state"],
+      "amount": 176918,
+      "scale": "million",
+      "currency": "EUR",
+      "period": { "label": "2025", "kind": "calendar-year", "start": "2025-01-01", "end": "2025-12-31" },
+      "sourceId": "inclusion-2025",
+      "locator": "Nota de prensa 31 March 2026: \"Los ingresos por cotizaciones … 176.918 millones de euros\" in 2025 (167,042 from employed contributors)",
+      "caveat": "The OECD records EUR 185.5 billion of social security contributions for 2023 on its definition, which includes civil-service schemes; the Ministry’s total may not include every unemployment-insurance contribution.",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "ccaa-irpf-2025",
+      "label": "Autonomic tariff of the personal income tax, 2025",
+      "definition": "The part of the personal income tax that belongs to the autonomous communities of the common regime (they set the scale for it).",
+      "levelIds": ["ccaa"],
+      "amount": 74377.257,
+      "scale": "million",
+      "currency": "EUR",
+      "period": { "label": "2025", "kind": "calendar-year", "start": "2025-01-01", "end": "2025-12-31" },
+      "sourceId": "aeat-imr-2025-12",
+      "locator": "Cuadro 1.4: IRPF, column CC.AA., 2025",
+      "caveat": "Cash basis. The communities also receive 50% of VAT and 58% of excise duties, which are drawn at the State level.",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "ccaa-own-taxes-2023",
+      "label": "Regional taxes other than income tax, 2023 (OECD)",
+      "definition": "All taxes of the autonomous communities other than income taxes, by OECD tax code: wealth, inheritance and gift taxes, transfer taxes and stamp duties, taxes on goods and services and others.",
+      "levelIds": ["ccaa"],
+      "amount": 23722,
+      "scale": "million",
+      "currency": "EUR",
+      "period": { "label": "2023", "kind": "calendar-year", "start": "2023-01-01", "end": "2023-12-31" },
+      "sourceId": "oecd-rs-2025-subsectors",
+      "locator": "Table 6.33 Spain – State/Regional, 2023: total tax revenue 86,693 less 1000 taxes on income 62,971",
+      "calculation": "86,693 − 62,971 = 23,722 (EUR million)",
+      "caveat": "The OECD includes the Basque and Navarre provincial governments’ taxes in a different sub-sector; their income taxes are not part of this figure.",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "local-taxes-2023",
+      "label": "Local government taxes, 2023 (OECD)",
+      "definition": "All taxes of municipalities and provincial and island councils by OECD tax code: property, business activity, vehicle, construction and land value taxes and others.",
+      "levelIds": ["local-entities"],
+      "amount": 42887,
+      "scale": "million",
+      "currency": "EUR",
+      "period": { "label": "2023", "kind": "calendar-year", "start": "2023-01-01", "end": "2023-12-31" },
+      "sourceId": "oecd-rs-2025-subsectors",
+      "locator": "Table 6.33 Spain – Local government, 2023: Total tax revenue",
+      "caveat": "The OECD figure also includes the municipal shares of State taxes (about EUR 3 billion in 2025 according to the AEAT), which are counted at the State level as well.",
+      "accessed": "2026-10-10"
+    }
+  ],
+  "sizing": {
+    "label": "Taxes and social security contributions of all levels of government",
+    "definition": "State-level taxes before sharing (2025, AEAT) + Social Security contributions (2025) + the autonomic income-tax tariff (2025) + other regional taxes (2023, OECD) + local taxes (2023, OECD). The 2023 and 2025 parts are 24 months apart. Excludes fees, the Basque and Navarre tax systems, and transfers between governments.",
+    "componentIds": ["state-taxes-2025", "social-security-2025", "ccaa-irpf-2025", "ccaa-own-taxes-2023", "local-taxes-2023"]
+  },
+  "researchStatus": "partial"
+}

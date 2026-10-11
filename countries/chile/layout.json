@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "chile": {
+      "x": 800,
+      "y": 500
+    },
+    "central": {
+      "x": 509,
+      "y": 432
+    },
+    "cl-income-tax": {
+      "x": 801,
+      "y": 830
+    },
+    "cl-fuel-tax": {
+      "x": 309,
+      "y": 593
+    },
+    "cl-fishing-rights": {
+      "x": 523,
+      "y": 222
+    },
+    "cl-customs": {
+      "x": 1130,
+      "y": 248
+    },
+    "cl-vat": {
+      "x": 374,
+      "y": 854
+    },
+    "cl-tobacco-tax": {
+      "x": 157,
+      "y": 331
+    },
+    "cl-stamp-tax": {
+      "x": 867,
+      "y": 54
+    },
+    "cl-social-contributions": {
+      "x": 1482,
+      "y": 417
+    },
+    "municipal": {
+      "x": 1091,
+      "y": 568
+    },
+    "cl-property-tax": {
+      "x": 1263,
+      "y": 500
+    },
+    "cl-municipal-licences": {
+      "x": 1208,
+      "y": 715
+    }
+  },
+  "radii": {}
+}

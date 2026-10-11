@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "referenceYear": 2023,
+  "currency": "GBP",
+  "scale": "million",
+  "taxToGdp": 35,
+  "basis": "OECD attribution to sub-sectors of general government (Interpretative Guide, section A.12); the OECD includes the devolved governments in central government",
+  "levels": [
+    {
+      "key": "central",
+      "label": "Central government",
+      "folioLevelIds": ["uk-government", "devolved-governments"],
+      "total": 721502,
+      "byType": { "income": 377468, "socialSecurity": 0, "payroll": 3794, "property": 54127, "goodsServices": 286113, "other": 0 }
+    },
+    {
+      "key": "local",
+      "label": "Local governments",
+      "folioLevelIds": ["local-authorities"],
+      "total": 45550,
+      "byType": { "income": 0, "socialSecurity": 0, "payroll": 0, "property": 45550, "goodsServices": 0, "other": 0 }
+    },
+    {
+      "key": "social-security",
+      "label": "Social security funds",
+      "folioLevelIds": [],
+      "total": 180922,
+      "byType": { "income": 0, "socialSecurity": 180922, "payroll": 0, "property": 0, "goodsServices": 0, "other": 0 }
+    }
+  ],
+  "sourceIds": ["oecd-rs-2025-subsectors", "oecd-rs-2025-levels"],
+  "subnational": {
+    "ownSourceTaxShareOfRevenue": 16.8,
+    "grantsShareOfRevenue": 67.7,
+    "year": 2020,
+    "sourceId": "sng-wofi-profile",
+    "note": "Tariffs and fees 13.4%, property income 0.8%, other 1.4% of subnational revenue."
+  },
+  "notes": []
+}

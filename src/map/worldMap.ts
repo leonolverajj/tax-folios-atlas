@@ -35,7 +35,7 @@ export class MapView {
   private H = 800;
   private bounds!: Bounds;
   private byId = new Map<string, { meta: CountryMeta; feature: CountryFeature; bbox: Bounds; g: SVGGElement }>();
-  private labels: { el: SVGGElement; x: number; y: number }[] = [];
+  private labels: { el: SVGGElement; x: number; y: number; w: number; area: number; chars: number }[] = [];
   private path = geoPath();
   private ready = false;
   private userMoved = false;
@@ -125,7 +125,7 @@ export class MapView {
       t.textContent = meta.names.en.toUpperCase();
       g.append(t);
       this.labelLayer.append(g);
-      this.labels.push({ el: g, x: p[0], y: p[1] });
+      this.labels.push({ el: g, x: p[0], y: p[1], w: 0, area: (bbox.x1 - bbox.x0) * (bbox.y1 - bbox.y0), chars: meta.names.en.length });
     }
 
     this.tip = document.createElement('div');
@@ -206,8 +206,30 @@ export class MapView {
     const k = this.camera.k;
     for (const l of this.labels) {
       l.el.setAttribute('transform', `translate(${l.x.toFixed(2)} ${l.y.toFixed(2)}) scale(${(1 / k).toFixed(5)})`);
+      if (!l.w) {
+        try {
+          l.w = l.el.getBBox().width;
+        } catch {
+          /* not rendered yet */
+        }
+        if (!l.w) l.w = l.chars * 11;
+      }
+    }
+    // Lettering keeps one size on screen, so neighbouring countries collide at world view. The biggest
+    // country keeps its name; a smaller neighbour shows it once the map is zoomed far enough to make room.
+    const placed: { x0: number; x1: number; y0: number; y1: number }[] = [];
+    for (const l of [...this.labels].sort((a, b) => b.area - a.area)) {
       // Fade the lettering when the country is huge on screen (the shape itself is then the label)
-      l.el.style.opacity = k > 6 ? '0' : '1';
+      if (k > 6) {
+        l.el.style.opacity = '0';
+        continue;
+      }
+      const s = this.camera.toScreen(l.x, l.y);
+      const hw = l.w / 2 + 6;
+      const box = { x0: s.x - hw, x1: s.x + hw, y0: s.y - 9, y1: s.y + 9 };
+      const clash = placed.some((p) => box.x0 < p.x1 && box.x1 > p.x0 && box.y0 < p.y1 && box.y1 > p.y0);
+      if (!clash) placed.push(box);
+      l.el.style.opacity = clash ? '0' : '1';
     }
   }
 

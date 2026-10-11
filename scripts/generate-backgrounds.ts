@@ -19,7 +19,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { createRequire } from 'node:module';
 import sharp from 'sharp';
-import { geoAlbers, geoAzimuthalEqualArea, geoCentroid, geoConicConformal, geoConicEqualArea, geoContains, geoArea, geoMercator, geoPath, geoGraticule, type GeoProjection } from 'd3-geo';
+import { geoAlbers, geoAzimuthalEqualArea, geoBounds, geoCentroid, geoConicConformal, geoConicEqualArea, geoContains, geoArea, geoMercator, geoPath, geoGraticule, type GeoProjection } from 'd3-geo';
 import { Delaunay } from 'd3-delaunay';
 import { feature } from 'topojson-client';
 import type { Feature, MultiPolygon, Polygon } from 'geojson';
@@ -78,6 +78,31 @@ const GEO: Record<string, GeoSpec> = {
   colombia: { projection: () => geoMercator(), keep: (_p, rel) => rel > 0.05 },
   bolivia: { projection: () => geoMercator() },
   japan: { projection: () => geoMercator().angle(-16), keep: (_p, rel) => rel > 0.0004 },
+  // Added with the second batch of folios (2026-10): the outline only; no bespoke motif yet.
+  france: {
+    projection: () => geoConicConformal().parallels([44, 49]).rotate([-3, 0]).center([0, 46.5]),
+    keep: (p) => {
+      const [lon, lat] = geoCentroid(p); // metropolitan France and Corsica; overseas departments are drawn nowhere
+      return lon > -6 && lon < 10 && lat > 41 && lat < 52;
+    },
+  },
+  'united-kingdom': { projection: () => geoConicConformal().parallels([50, 60]).rotate([4, 0]).center([0, 55]), keep: (_p, rel) => rel > 0.0008 },
+  spain: {
+    projection: () => geoConicConformal().parallels([36, 44]).rotate([3.5, 0]).center([0, 40]),
+    keep: (p, rel) => geoCentroid(p)[1] > 35 && rel > 0.001, // Peninsula and Balearics; the Canaries sit 1,800 km away
+  },
+  italy: { projection: () => geoConicConformal().parallels([38, 46]).rotate([-12.5, 0]).center([0, 42]), keep: (_p, rel) => rel > 0.003 },
+  switzerland: { projection: () => geoMercator() },
+  australia: { projection: () => geoConicEqualArea().parallels([-18, -36]).rotate([-134, 0]).center([0, -25]), keep: (_p, rel) => rel > 0.003 },
+  chile: {
+    projection: () => geoMercator(),
+    keep: (p) => geoCentroid(p)[0] > -76, // continental Chile; Easter Island and Juan Fernández are left out
+  },
+  'south-korea': { projection: () => geoMercator(), keep: (_p, rel) => rel > 0.002 },
+  'new-zealand': {
+    projection: () => geoMercator(),
+    keep: (p) => geoCentroid(p)[0] > 160, // North and South Island and neighbours; the Chatham Islands lie across the date line
+  },
 };
 
 /* --------------------------------------------------------------- motifs */
@@ -468,7 +493,14 @@ async function render(id: string) {
   const ringTicks = `<path d="${tickRing(cx, cy, 416, 180, 5, 5, 11)}" stroke-opacity=".3"/><path d="${tickRing(cx, cy, 300, 96, 4, 4, 8)}" stroke-opacity=".22"/>`;
   const cross = `<path d="M${cx - 800} ${cy}H${cx + 800}M${cx} ${cy - 620}V${cy + 620}" stroke-opacity=".07"/>`;
   const grat = geoGraticule().step([5, 5])();
-  const graticulePath = pathGen(grat as never) ?? '';
+  let graticulePath = pathGen(grat as never) ?? '';
+  if (/\d{6,}/.test(graticulePath)) {
+    // A conic projection sends the far hemisphere to coordinates in the millions, which the SVG renderer answers by dropping
+    // the whole drawing. Draw the graticule only around the country in that case.
+    const [[w, s], [e, n]] = geoBounds(geom as never);
+    const ext: [[number, number], [number, number]] = [[Math.max(-180, w - 25), Math.max(-80, s - 20)], [Math.min(180, e + 25), Math.min(85, n + 20)]];
+    graticulePath = pathGen(geoGraticule().step([5, 5]).extent(ext)() as never) ?? '';
+  }
 
   // Stars
   let stars = '';

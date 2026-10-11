@@ -1,0 +1,158 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "france": {
+      "x": 800,
+      "y": 500
+    },
+    "state": {
+      "x": 509,
+      "y": 432
+    },
+    "fr-vat": {
+      "x": 735,
+      "y": 834
+    },
+    "fr-capital-income-levies": {
+      "x": 361,
+      "y": 669
+    },
+    "fr-alcohol": {
+      "x": 321,
+      "y": 385
+    },
+    "fr-payroll-tax": {
+      "x": 639,
+      "y": 187
+    },
+    "fr-customs": {
+      "x": 1071,
+      "y": 204
+    },
+    "fr-income-tax": {
+      "x": 410,
+      "y": 871
+    },
+    "fr-social-contributions": {
+      "x": 108,
+      "y": 496
+    },
+    "fr-inheritance-gift": {
+      "x": 322,
+      "y": 175
+    },
+    "fr-training-levy": {
+      "x": 876,
+      "y": 57
+    },
+    "fr-financial-transactions-tax": {
+      "x": 1394,
+      "y": 265
+    },
+    "fr-corporate-tax": {
+      "x": 716,
+      "y": 926
+    },
+    "fr-ticpe": {
+      "x": 89,
+      "y": 792
+    },
+    "fr-wealth-tax": {
+      "x": 89,
+      "y": 309
+    },
+    "fr-other-payroll-levies": {
+      "x": 508,
+      "y": 32
+    },
+    "fr-environmental-taxes": {
+      "x": 1267,
+      "y": 32
+    },
+    "fr-csg": {
+      "x": 212,
+      "y": 926
+    },
+    "fr-other-energy-excises": {
+      "x": 165,
+      "y": 612
+    },
+    "fr-insurance-taxes": {
+      "x": 85,
+      "y": 32
+    },
+    "fr-c3s": {
+      "x": 979,
+      "y": 32
+    },
+    "fr-other-business-taxes": {
+      "x": 1494,
+      "y": 139
+    },
+    "fr-crds": {
+      "x": 602,
+      "y": 926
+    },
+    "fr-tobacco": {
+      "x": 81,
+      "y": 905
+    },
+    "fr-gambling": {
+      "x": 85,
+      "y": 217
+    },
+    "fr-cvae": {
+      "x": 384,
+      "y": 32
+    },
+    "fr-other-state-taxes": {
+      "x": 1469,
+      "y": 32
+    },
+    "regions-departments": {
+      "x": 1094,
+      "y": 437
+    },
+    "fr-dmto": {
+      "x": 1166,
+      "y": 295
+    },
+    "fr-vehicle-registration": {
+      "x": 1293,
+      "y": 405
+    },
+    "fr-octroi-de-mer": {
+      "x": 1254,
+      "y": 579
+    },
+    "communes": {
+      "x": 1002,
+      "y": 652
+    },
+    "fr-property-tax": {
+      "x": 1062,
+      "y": 509
+    },
+    "fr-business-property-tax": {
+      "x": 1160,
+      "y": 599
+    },
+    "fr-versement-mobilite": {
+      "x": 1151,
+      "y": 756
+    },
+    "fr-housing-tax": {
+      "x": 998,
+      "y": 822
+    },
+    "fr-other-local-taxes": {
+      "x": 841,
+      "y": 742
+    }
+  },
+  "radii": {}
+}

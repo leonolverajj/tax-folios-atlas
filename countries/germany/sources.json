@@ -1,0 +1,333 @@
+{
+  "sources": [
+    {
+      "id": "oecd-rs-2025-subsectors",
+      "org": "OECD",
+      "title": "Revenue Statistics 2025, Table 6.13: Germany, tax revenues by sub-sectors of government",
+      "url": "https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en/full-report/tax-revenues-by-subsectors-of-general-government_f9e88332.html",
+      "kind": "international",
+      "language": "en",
+      "publishedDate": "2025-12-09",
+      "periodCovered": "Calendar year 2023 (national currency)",
+      "accessed": "2026-09-29",
+      "note": "Harmonised OECD classification of taxes (1000–6000) split by collecting sub-sector of general government."
+    },
+    {
+      "id": "oecd-rs-2025-levels",
+      "org": "OECD",
+      "title": "Revenue Statistics 2025, Chapter 3: Tax levels and tax structures (Table 3.1)",
+      "url": "https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en/full-report/tax-levels-and-tax-structures-1965-2024_2033f3ea.html",
+      "kind": "international",
+      "language": "en",
+      "publishedDate": "2025-12-09",
+      "periodCovered": "Calendar year 2023",
+      "accessed": "2026-09-29",
+      "note": "Total tax revenue as % of GDP."
+    },
+    {
+      "id": "sng-wofi-profile",
+      "org": "OECD and United Cities and Local Governments (SNG-WOFI)",
+      "title": "World Observatory on Subnational Government Finance and Investment – country profile: Germany",
+      "url": "https://www.sng-wofi.org/country_profiles/germany.html",
+      "kind": "international",
+      "language": "en",
+      "publishedDate": "2022-10-24",
+      "periodCovered": "2020",
+      "accessed": "2026-09-29",
+      "note": "Subnational government revenue by category as % of total subnational revenue, 2022 edition."
+    },
+    {
+      "id": "gg",
+      "org": "Bundesministerium der Justiz",
+      "title": "Grundgesetz für die Bundesrepublik Deutschland (Basic Law), Arts. 28, 105–108",
+      "url": "https://www.gesetze-im-internet.de/gg/",
+      "kind": "legal",
+      "language": "de",
+      "publishedDate": null,
+      "accessed": "2026-10-10",
+      "note": "The finance constitution: who legislates, collects and receives each tax."
+    },
+    {
+      "id": "estg",
+      "org": "Bundesministerium der Justiz",
+      "title": "Einkommensteuergesetz (EStG)",
+      "url": "https://www.gesetze-im-internet.de/estg/",
+      "kind": "legal",
+      "language": "de",
+      "publishedDate": null,
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "solzg",
+      "org": "Bundesministerium der Justiz",
+      "title": "Solidaritätszuschlaggesetz 1995 (SolzG 1995)",
+      "url": "https://www.gesetze-im-internet.de/solzg_1995/",
+      "kind": "legal",
+      "language": "de",
+      "publishedDate": null,
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "kstg",
+      "org": "Bundesministerium der Justiz",
+      "title": "Körperschaftsteuergesetz (KStG)",
+      "url": "https://www.gesetze-im-internet.de/kstg_1977/",
+      "kind": "legal",
+      "language": "de",
+      "publishedDate": null,
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "ustg",
+      "org": "Bundesministerium der Justiz",
+      "title": "Umsatzsteuergesetz (UStG)",
+      "url": "https://www.gesetze-im-internet.de/ustg_1980/",
+      "kind": "legal",
+      "language": "de",
+      "publishedDate": null,
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "energiestg",
+      "org": "Bundesministerium der Justiz",
+      "title": "Energiesteuergesetz (EnergieStG)",
+      "url": "https://www.gesetze-im-internet.de/energiestg/",
+      "kind": "legal",
+      "language": "de",
+      "publishedDate": null,
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "stromstg",
+      "org": "Bundesministerium der Justiz",
+      "title": "Stromsteuergesetz (StromStG)",
+      "url": "https://www.gesetze-im-internet.de/stromstg/",
+      "kind": "legal",
+      "language": "de",
+      "publishedDate": null,
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "tabstg",
+      "org": "Bundesministerium der Justiz",
+      "title": "Tabaksteuergesetz (TabStG)",
+      "url": "https://www.gesetze-im-internet.de/tabstg_2009/",
+      "kind": "legal",
+      "language": "de",
+      "publishedDate": null,
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "alkstg",
+      "org": "Bundesministerium der Justiz",
+      "title": "Alkoholsteuergesetz (AlkStG)",
+      "url": "https://www.gesetze-im-internet.de/alkstg/",
+      "kind": "legal",
+      "language": "de",
+      "publishedDate": null,
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "luftvstg",
+      "org": "Bundesministerium der Justiz",
+      "title": "Luftverkehrsteuergesetz (LuftVStG)",
+      "url": "https://www.gesetze-im-internet.de/luftvstg/",
+      "kind": "legal",
+      "language": "de",
+      "publishedDate": null,
+      "accessed": "2026-10-10",
+      "note": "The version in force from 1 July 2026 (Second Act amending the Aviation Tax Act) restores the lower rates of § 11(1)."
+    },
+    {
+      "id": "versstg",
+      "org": "Bundesministerium der Justiz",
+      "title": "Versicherungsteuergesetz (VersStG)",
+      "url": "https://www.gesetze-im-internet.de/versstg/",
+      "kind": "legal",
+      "language": "de",
+      "publishedDate": null,
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "kraftstg",
+      "org": "Bundesministerium der Justiz",
+      "title": "Kraftfahrzeugsteuergesetz (KraftStG)",
+      "url": "https://www.gesetze-im-internet.de/kraftstg/",
+      "kind": "legal",
+      "language": "de",
+      "publishedDate": null,
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "ucc",
+      "org": "European Parliament and Council",
+      "title": "Regulation (EU) No 952/2013 laying down the Union Customs Code",
+      "url": "https://eur-lex.europa.eu/eli/reg/2013/952/oj",
+      "kind": "legal",
+      "language": "en",
+      "publishedDate": "2013-10-09",
+      "accessed": "2026-10-10",
+      "note": "Customs duties follow the EU Common Customs Tariff; Germany forwards 75% of what it collects to the EU budget."
+    },
+    {
+      "id": "erbstg",
+      "org": "Bundesministerium der Justiz",
+      "title": "Erbschaftsteuer- und Schenkungsteuergesetz (ErbStG)",
+      "url": "https://www.gesetze-im-internet.de/erbstg_1974/",
+      "kind": "legal",
+      "language": "de",
+      "publishedDate": null,
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "grestg",
+      "org": "Bundesministerium der Justiz",
+      "title": "Grunderwerbsteuergesetz (GrEStG)",
+      "url": "https://www.gesetze-im-internet.de/grestg_1983/",
+      "kind": "legal",
+      "language": "de",
+      "publishedDate": null,
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "rennwlottg",
+      "org": "Bundesministerium der Justiz",
+      "title": "Rennwett- und Lotteriegesetz (RennwLottG)",
+      "url": "https://www.gesetze-im-internet.de/rennwlottg_2021/",
+      "kind": "legal",
+      "language": "de",
+      "publishedDate": null,
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "feuerschstg",
+      "org": "Bundesministerium der Justiz",
+      "title": "Feuerschutzsteuergesetz (FeuerSchStG)",
+      "url": "https://www.gesetze-im-internet.de/feuerschstg_1979/BJNR023530979.html",
+      "kind": "legal",
+      "language": "de",
+      "publishedDate": null,
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "gewstg",
+      "org": "Bundesministerium der Justiz",
+      "title": "Gewerbesteuergesetz (GewStG)",
+      "url": "https://www.gesetze-im-internet.de/gewstg/",
+      "kind": "legal",
+      "language": "de",
+      "publishedDate": null,
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "grstg",
+      "org": "Bundesministerium der Justiz",
+      "title": "Grundsteuergesetz (GrStG)",
+      "url": "https://www.gesetze-im-internet.de/grstg_1973/",
+      "kind": "legal",
+      "language": "de",
+      "publishedDate": null,
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "sgb-vi",
+      "org": "Bundesministerium der Justiz",
+      "title": "Sozialgesetzbuch (SGB) Sechstes Buch – Gesetzliche Rentenversicherung",
+      "url": "https://www.gesetze-im-internet.de/sgb_6/",
+      "kind": "legal",
+      "language": "de",
+      "publishedDate": null,
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "sgb-v",
+      "org": "Bundesministerium der Justiz",
+      "title": "Sozialgesetzbuch (SGB) Fünftes Buch – Gesetzliche Krankenversicherung",
+      "url": "https://www.gesetze-im-internet.de/sgb_5/",
+      "kind": "legal",
+      "language": "de",
+      "publishedDate": null,
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "sgb-xi",
+      "org": "Bundesministerium der Justiz",
+      "title": "Sozialgesetzbuch (SGB) Elftes Buch – Soziale Pflegeversicherung",
+      "url": "https://www.gesetze-im-internet.de/sgb_11/",
+      "kind": "legal",
+      "language": "de",
+      "publishedDate": null,
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "sgb-iii",
+      "org": "Bundesministerium der Justiz",
+      "title": "Sozialgesetzbuch (SGB) Drittes Buch – Arbeitsförderung",
+      "url": "https://www.gesetze-im-internet.de/sgb_3/",
+      "kind": "legal",
+      "language": "de",
+      "publishedDate": null,
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "sgb-vii",
+      "org": "Bundesministerium der Justiz",
+      "title": "Sozialgesetzbuch (SGB) Siebtes Buch – Gesetzliche Unfallversicherung",
+      "url": "https://www.gesetze-im-internet.de/sgb_7/",
+      "kind": "legal",
+      "language": "de",
+      "publishedDate": null,
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "bbg-2026",
+      "org": "Die Bundesregierung",
+      "title": "Beitragsbemessungsgrenzen 2026",
+      "url": "https://www.bundesregierung.de/breg-de/aktuelles/beitragsgemessungsgrenzen-2386514",
+      "kind": "guidance",
+      "language": "de",
+      "publishedDate": null,
+      "accessed": "2026-10-10",
+      "periodCovered": "2026",
+      "note": "Income ceilings for contributions: 101,400 EUR (pension, unemployment) and 69,750 EUR (health, long-term care) a year."
+    },
+    {
+      "id": "destatis-71211",
+      "org": "Statistisches Bundesamt (Destatis)",
+      "title": "GENESIS-Online, Tabelle 71211-0001: Steuereinnahmen – Deutschland, Jahre, Steuerarten vor der Steuerverteilung",
+      "url": "https://genesis.destatis.de/datenbank/online/table/71211-0001",
+      "kind": "statistics",
+      "language": "de",
+      "publishedDate": null,
+      "periodCovered": "Calendar years 1999–2025",
+      "accessed": "2026-10-10",
+      "nextExpected": "2027-02",
+      "note": "Cash tax revenue by tax in EUR thousand, before the distribution between Bund, Länder, municipalities and EU. Table footer: status 21 September 2026."
+    },
+    {
+      "id": "bmas-sozialbudget-2025",
+      "org": "Bundesministerium für Arbeit und Soziales (BMAS)",
+      "title": "Sozialbudget 2025, Tabelle III-1: Leistungen und Finanzierung nach Arten und Institutionen",
+      "url": "https://www.bmas.de/DE/Service/Publikationen/Broschueren/a230-26-sozialbudget-2025.html",
+      "kind": "budget-report",
+      "language": "de",
+      "publishedDate": null,
+      "periodCovered": "2025 (estimate) and 2024 (provisional)",
+      "accessed": "2026-10-10",
+      "nextExpected": "2027-07",
+      "note": "Data status May 2026. Contributions of the insured and employers by social insurance branch."
+    },
+    {
+      "id": "sozialpolitik-aktuell-tabii16",
+      "org": "Institut Arbeit und Qualifikation, Universität Duisburg-Essen",
+      "title": "Sozialpolitik aktuell, Tabelle II.16: Finanzierung des Sozialstaates, Eckdaten 2025",
+      "url": "https://www.sozialpolitik-aktuell.de/files/sozialpolitik-aktuell/_Politikfelder/Finanzierung/Datensammlung/PDF-Dateien/tabII16.pdf",
+      "kind": "statistics",
+      "language": "de",
+      "publishedDate": "2026-09-08",
+      "accessed": "2026-10-10",
+      "periodCovered": "2025 (estimate)",
+      "note": "Compiles the BMAS figures; used as a cross-check of the contributions by branch (sum 706.2 billion EUR)."
+    }
+  ]
+}

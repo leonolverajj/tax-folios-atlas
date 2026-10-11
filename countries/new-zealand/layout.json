@@ -1,0 +1,78 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "new-zealand": {
+      "x": 800,
+      "y": 500
+    },
+    "crown": {
+      "x": 509,
+      "y": 432
+    },
+    "nz-income-tax-individuals": {
+      "x": 841,
+      "y": 745
+    },
+    "nz-withholding-taxes": {
+      "x": 392,
+      "y": 699
+    },
+    "nz-road-user-charges": {
+      "x": 319,
+      "y": 389
+    },
+    "nz-other-duties": {
+      "x": 698,
+      "y": 177
+    },
+    "nz-natural-hazards-levy": {
+      "x": 1162,
+      "y": 267
+    },
+    "nz-fringe-benefit-tax": {
+      "x": 409,
+      "y": 870
+    },
+    "nz-gst": {
+      "x": 154,
+      "y": 335
+    },
+    "nz-tobacco-excise": {
+      "x": 905,
+      "y": 57
+    },
+    "nz-acc-levies": {
+      "x": 1493,
+      "y": 468
+    },
+    "nz-company-tax": {
+      "x": 886,
+      "y": 903
+    },
+    "nz-fuel-excise": {
+      "x": 68,
+      "y": 673
+    },
+    "nz-alcohol-excise": {
+      "x": 332,
+      "y": 32
+    },
+    "nz-fire-emergency-levy": {
+      "x": 1414,
+      "y": 96
+    },
+    "councils": {
+      "x": 1091,
+      "y": 568
+    },
+    "nz-rates": {
+      "x": 1274,
+      "y": 606
+    }
+  },
+  "radii": {}
+}

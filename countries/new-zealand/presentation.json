@@ -1,0 +1,21 @@
+{
+  "nodes": {
+    "new-zealand": { "label": "Aotearoa", "sublabel": "New Zealand", "glyph": "globe" },
+    "crown": { "label": "The Crown", "sublabel": "Central government", "glyph": "landmark" },
+    "councils": { "label": "Councils", "sublabel": "78 local authorities", "glyph": "town" },
+    "nz-income-tax-individuals": { "label": "Individuals’ income tax", "sublabel": "PAYE · 10.5%–39%", "glyph": "person" },
+    "nz-fringe-benefit-tax": { "label": "Fringe benefit tax", "sublabel": "FBT", "glyph": "car" },
+    "nz-company-tax": { "label": "Company tax", "sublabel": "28%", "glyph": "factory" },
+    "nz-withholding-taxes": { "label": "Withholding taxes", "sublabel": "Interest · dividends", "glyph": "coin" },
+    "nz-gst": { "label": "GST", "sublabel": "15%", "glyph": "cart" },
+    "nz-fuel-excise": { "label": "Fuel excise", "sublabel": "Per litre", "glyph": "flame" },
+    "nz-road-user-charges": { "label": "Road user charges", "sublabel": "RUC", "glyph": "car" },
+    "nz-tobacco-excise": { "label": "Tobacco excise", "sublabel": "Cigarettes", "glyph": "smoke" },
+    "nz-alcohol-excise": { "label": "Alcohol excise", "sublabel": "Beer · wine · spirits", "glyph": "wine" },
+    "nz-other-duties": { "label": "Customs and other duties", "sublabel": "Gaming · vehicle fees", "glyph": "ship" },
+    "nz-acc-levies": { "label": "ACC levies", "sublabel": "Accident insurance", "glyph": "heart" },
+    "nz-fire-emergency-levy": { "label": "Fire & emergency levy", "sublabel": "FENZ", "glyph": "flame" },
+    "nz-natural-hazards-levy": { "label": "Natural hazards levy", "sublabel": "NHC (EQC)", "glyph": "house" },
+    "nz-rates": { "label": "Council rates", "sublabel": "Property", "glyph": "town" }
+  }
+}

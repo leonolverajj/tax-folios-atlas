@@ -297,7 +297,7 @@ export function flattenRevenue(file: RevenueFile): Observation[] {
 /* ------------------------------------------------------------ structure */
 /**
  * structure.json: the harmonised, cross-country layer. It holds one reference year of the
- * OECD Revenue Statistics (or the OECD Latin America edition) so that seven countries can be
+ * OECD Revenue Statistics (or the OECD Latin America edition) so that every country can be
  * compared on the same year and definitions, independently of the newer national figures that
  * size the cores. Amounts are in the file's own currency/scale.
  */
@@ -329,7 +329,7 @@ export const structureSchema = z.object({
   currency: z.string().length(3),
   scale: scaleSchema,
   taxToGdp: z.number().min(0).max(100).nullable().describe('Total taxation (incl. social contributions) as % of GDP'),
-  basis: text.describe('Attribution basis, e.g. "collecting government"'),
+  basis: text.describe('Attribution basis, e.g. "OECD attribution to sub-sectors of general government (Interpretative Guide, section A.12)"'),
   levels: z.array(structureLevelSchema).min(1),
   totalByType: byTypeSchema.optional().describe('All levels together, when levels carry no byType'),
   sourceIds: z.array(idSchema).min(1),
@@ -348,7 +348,7 @@ export type Structure = z.infer<typeof structureSchema>;
 
 /**
  * profiles/<id>.json: a country that has the harmonised layer but no folio yet. It appears in the
- * Fighters screen only. When its folio is built, the structure moves to countries/<id>/structure.json.
+ * "Next to be drawn" list of the Trees page only. When its folio is built, the structure moves to countries/<id>/structure.json.
  */
 export const profileSchema = z.object({
   version: z.literal(1),
@@ -357,7 +357,7 @@ export const profileSchema = z.object({
   isoNumeric: z.string().regex(/^\d{3}$/),
   names: z.object({ en: text, native: text, nativeLang: z.string() }),
   accent: hex,
-  flag: z.array(hex).min(2).max(4).describe('Flag colours, used to dress the fighter (decoration only)'),
+  flag: z.array(hex).min(2).max(4).describe('Flag colours (decoration only; kept for a possible future use)'),
   structure: structureSchema,
   sources: z.array(sourceSchema).min(1),
 });

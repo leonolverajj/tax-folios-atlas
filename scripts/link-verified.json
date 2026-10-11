@@ -82,5 +82,53 @@
   "https://www.oecd.org/en/publications/revenue-statistics-in-latin-america-and-the-caribbean-2025_7594fbdd-en/full-report/tax-revenue-trends-1990-2023_ee246e3f.html": {
     "on": "2026-09-29",
     "how": "opened in a real browser (the checker gets HTTP 403 from the OECD site); the tables cited were read from this page"
+  },
+  "https://www.ato.gov.au/tax-rates-and-codes/tax-rates-australian-residents": {
+    "on": "2026-10-11",
+    "how": "opened in the built-in browser (the checker gets HTTP 403); the page loaded with the title \"Tax rates – Australian resident\""
+  },
+  "https://www.ato.gov.au/individuals-and-families/medicare-and-private-health-insurance/medicare-levy": {
+    "on": "2026-10-11",
+    "how": "opened in the built-in browser (the checker gets HTTP 403); the page loaded with the title \"Medicare levy\""
+  },
+  "https://www.ato.gov.au/tax-rates-and-codes/company-tax-rates": {
+    "on": "2026-10-11",
+    "how": "opened in the built-in browser (the checker gets HTTP 403); the page loaded with the title \"Company tax rates\""
+  },
+  "https://www.ato.gov.au/tax-rates-and-codes/fringe-benefits-tax-rates-and-thresholds": {
+    "on": "2026-10-11",
+    "how": "opened in the built-in browser (the checker gets HTTP 403); the page loaded with the title \"Fringe benefits tax - rates and thresholds\""
+  },
+  "https://www.ato.gov.au/tax-rates-and-codes/key-superannuation-rates-and-thresholds": {
+    "on": "2026-10-11",
+    "how": "opened in the built-in browser (the checker gets HTTP 403); the page loaded with the title \"Key super rates and thresholds\""
+  },
+  "https://www.ato.gov.au/businesses-and-organisations/gst-excise-and-indirect-taxes/excise-on-fuel-and-petroleum-products/excise-duty-rates-for-fuel-and-petroleum-products": {
+    "on": "2026-10-11",
+    "how": "opened in the built-in browser (the checker gets HTTP 403); the page loaded with the title \"Excise duty rates for fuel and petroleum products\""
+  },
+  "https://www.ato.gov.au/businesses-and-organisations/gst-excise-and-indirect-taxes/excise-on-alcohol/excise-duty-rates-for-alcohol": {
+    "on": "2026-10-11",
+    "how": "opened in the built-in browser (the checker gets HTTP 403); the page loaded with the title \"Excise duty rates for alcohol\""
+  },
+  "https://www.ato.gov.au/businesses-and-organisations/gst-excise-and-indirect-taxes/tobacco-and-excise/excise-duty-rates-for-tobacco": {
+    "on": "2026-10-11",
+    "how": "opened in the built-in browser (the checker gets HTTP 403); the page loaded with the title \"Excise duty rates for tobacco\""
+  },
+  "https://legislation.nsw.gov.au/view/html/inforce/current/act-1993-030": {
+    "on": "2026-10-11",
+    "how": "opened in the built-in browser (the checker gets HTTP 403); the page loaded with the title \"Local Government Act 1993 No 30 - NSW Legislation\""
+  },
+  "https://www.treasury.govt.nz/publications/year-end/financial-statements-2026": {
+    "on": "2026-10-11",
+    "how": "opened in the built-in browser (the checker gets HTTP 403); the page loaded with the title \"Financial Statements of the Government of New Zealand for the Year Ended 30 June 2026\""
+  },
+  "https://www.dipres.gob.cl/598/articles-403882_doc_pdf1.pdf": {
+    "on": "2026-10-11",
+    "how": "downloaded and read in full (21 pages; the checker fails on the site certificate chain); it is the report Informe de Ejecución del Gobierno Central, Diciembre 2025"
+  },
+  "https://peo.gov.au/understand-our-parliament/how-parliament-works/the-australian-constitution/the-australian-constitution-online": {
+    "on": "2026-10-11",
+    "how": "opened in the built-in browser (the checker gets HTTP 403); the page loaded with the title \"The Australian Constitution online - Parliamentary Education Office\""
   }
 }

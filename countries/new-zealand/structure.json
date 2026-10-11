@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "referenceYear": 2023,
+  "currency": "NZD",
+  "scale": "million",
+  "taxToGdp": 33.7,
+  "basis": "OECD attribution to sub-sectors of general government (Interpretative Guide, section A.12)",
+  "levels": [
+    {
+      "key": "central",
+      "label": "Central government",
+      "folioLevelIds": ["crown"],
+      "total": 132494,
+      "byType": { "income": 83614, "socialSecurity": 0, "payroll": 0, "property": 198, "goodsServices": 48682, "other": 0 }
+    },
+    {
+      "key": "local",
+      "label": "Local governments",
+      "folioLevelIds": ["councils"],
+      "total": 9201,
+      "byType": { "income": 0, "socialSecurity": 0, "payroll": 0, "property": 8199, "goodsServices": 1002, "other": 0 }
+    }
+  ],
+  "sourceIds": ["oecd-rs-2025-subsectors", "oecd-rs-2025-levels"],
+  "subnational": {
+    "ownSourceTaxShareOfRevenue": 55.8,
+    "grantsShareOfRevenue": 22,
+    "year": 2020,
+    "sourceId": "sng-wofi-profile",
+    "note": "Tariffs and fees 18%, property income 4.1%, other 0% of subnational revenue."
+  },
+  "notes": []
+}

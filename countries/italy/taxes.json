@@ -1,0 +1,450 @@
+{
+  "instruments": [
+    {
+      "id": "it-irpef",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "income-personal",
+      "status": "current",
+      "names": { "official": "Imposta sul reddito delle persone fisiche (IRPEF)", "native": "IRPEF", "common": "Personal income tax", "abbreviation": "IRPEF" },
+      "taxes": {
+        "base": "Total income of individuals from employment, pensions, self-employment, property and capital (some capital income is taxed separately).",
+        "payer": "Individuals; employers and pension institutions withhold it."
+      },
+      "rate": {
+        "kind": "progressive",
+        "headline": "23% / 33% / 43%",
+        "details": [
+          "2026: 23% on income up to EUR 28,000; 33% from EUR 28,001 to EUR 50,000 (it was 35% until 2025); 43% above EUR 50,000. The reduction of the middle rate is neutralised for incomes above EUR 200,000.",
+          "Regions and municipalities add their own surcharges on the same base (drawn separately).",
+          "Property rents can opt for a flat 21% (cedolare secca)."
+        ],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "The largest tax by far. Revenue was EUR 231.3 billion in 2025, 1.9% lower than in 2024 because of the rate cut and slower self-assessment payments.",
+      "exceptions": ["Large deductions and tax credits for employees, pensioners, children and housing costs."],
+      "legalRefs": [
+        { "sourceId": "tuir", "locator": "Arts. 11–13" },
+        { "sourceId": "ade-irpef" },
+        { "sourceId": "mef-manovra-2026" },
+        { "sourceId": "costituzione", "locator": "Art. 53" }
+      ],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "it-ires",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "income-corporate",
+      "status": "current",
+      "names": { "official": "Imposta sul reddito delle società (IRES)", "native": "IRES", "common": "Corporate income tax", "abbreviation": "IRES" },
+      "taxes": { "base": "Profit of companies and other entities.", "payer": "Companies." },
+      "rate": {
+        "kind": "flat",
+        "headline": "24%",
+        "details": ["24% since 2017 (banks and some financial institutions pay a surcharge of 3.5%)."],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "Revenue grew 4.3% in 2025 to EUR 60.1 billion.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "tuir", "locator": "Art. 77" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "it-substitute-taxes",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "income-mixed",
+      "status": "current",
+      "names": {
+        "official": "Imposte sostitutive e ritenute sugli interessi e altri redditi di capitale",
+        "native": "Imposte sostitutive",
+        "common": "Substitute taxes on capital income"
+      },
+      "taxes": {
+        "base": "Interest, financial gains and the net assets of pension funds, taxed at source instead of through the annual return.",
+        "payer": "Investors, withheld by banks and brokers."
+      },
+      "rate": {
+        "kind": "flat",
+        "headline": "26% on most financial income; 12.5% on government bonds",
+        "details": [
+          "Interest from banks and bonds EUR 6.6 and 6.9 billion, other withholdings EUR 7.6 billion, substitute tax on gains EUR 6.6 billion and on pension funds EUR 1.5 billion."
+        ],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "Grouped from three lines of the MEF bulletin: the substitute tax and withholding on interest and other capital income (EUR 21.1 billion), the substitute tax on capital income and gains (EUR 6.6 billion) and the substitute tax on pension funds (EUR 1.5 billion).",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "tuir" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "it-vat",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "general-consumption",
+      "status": "current",
+      "names": { "official": "Imposta sul valore aggiunto (IVA)", "native": "IVA", "common": "Value-added tax", "abbreviation": "IVA" },
+      "taxes": { "base": "Supplies of goods and services by businesses and imports.", "payer": "Consumers; businesses charge it and deduct input VAT." },
+      "rate": {
+        "kind": "flat",
+        "headline": "22% standard; 10%, 5% and 4% reduced",
+        "details": [
+          "4% on basic food and books, 5% on some social services, 10% on restaurants, hotels and energy for homes, 22% for everything else. Public bodies pay VAT through the \"split payment\" (EUR 19.1 billion)."
+        ],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "Revenue was EUR 186.8 billion: EUR 168.2 billion from domestic trade and EUR 18.6 billion on imports.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "iva-dpr-633-1972" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "it-stamp-duty",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "other",
+      "status": "current",
+      "names": { "official": "Imposta di bollo", "native": "Imposta di bollo", "common": "Stamp duty" },
+      "taxes": { "base": "Documents, bank and investment accounts, invoices and contracts.", "payer": "The holder or the party requesting the document." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Fixed amounts and a rate on accounts",
+        "details": ["A flat EUR 2 on invoices above EUR 77.47 and EUR 16 on certain documents; 0.2% a year on financial assets."],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "Revenue jumped 24.1% in 2025 (EUR 11.0 billion).",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "registro-dpr-131-1986" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "it-registry-taxes",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": {
+        "official": "Imposta di registro, imposte ipotecarie e catastali",
+        "native": "Registro, ipotecaria e catastale",
+        "common": "Registration and land registry taxes"
+      },
+      "taxes": {
+        "base": "Transfers of property and rights, registered contracts and entries in the land and mortgage registers.",
+        "payer": "The parties to the deed."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "9% on property sales; 2% on a primary residence",
+        "details": ["Registration tax EUR 6.0 billion, mortgage taxes EUR 1.9 billion, cadastral duties EUR 0.7 billion."],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "The State’s taxes on property transfers: sales of homes by private sellers pay the registration tax, usually 9% of the cadastral value (2% for a first home).",
+      "exceptions": ["Sales by VAT-registered sellers pay VAT and small fixed registry taxes instead."],
+      "legalRefs": [{ "sourceId": "registro-dpr-131-1986" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "it-insurance-tax",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Imposta sulle assicurazioni", "native": "Imposta sulle assicurazioni", "common": "Insurance premium tax" },
+      "taxes": { "base": "Premiums of most non-life insurance, notably motor insurance.", "payer": "Insurers; passed on to policyholders." },
+      "rate": {
+        "kind": "flat",
+        "headline": "2.5%–22.25% by line",
+        "details": ["12.5% on motor third-party insurance, 22.25% on fire and theft, lower rates on health and accident cover."],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "EUR 5.3 billion in 2025, up 9.4%.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "registro-dpr-131-1986" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "it-licences",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "other",
+      "status": "current",
+      "names": {
+        "official": "Canoni di abbonamento radio e TV, concessioni governative e tasse automobilistiche erariali",
+        "native": "Canoni e concessioni",
+        "common": "Broadcast licence, concession fees and vehicle charges"
+      },
+      "taxes": {
+        "base": "The television licence (collected in electricity bills), government licences and registers, and a few State vehicle charges.",
+        "payer": "Households, businesses and licence holders."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Fixed charges",
+        "details": ["TV licence EUR 1.9 billion, government concessions EUR 0.7 billion, State vehicle charges EUR 0.3 billion."],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "Small State charges counted in the MEF’s tax totals.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "tuir" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "it-fuel-excise",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "Accisa sui prodotti energetici, loro derivati e prodotti analoghi (oli minerali)",
+        "native": "Accisa sugli oli minerali",
+        "common": "Fuel excise (mineral oils)"
+      },
+      "taxes": { "base": "Petrol, diesel, LPG and other mineral oils, by the litre.", "payer": "Fuel producers and importers; passed on at the pump." },
+      "rate": {
+        "kind": "specific",
+        "headline": "A fixed amount per litre by fuel",
+        "details": ["Rates are adjusted by decree; in 2025–2026 diesel and petrol excises were gradually aligned."],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "The largest Italian excise: EUR 26.3 billion in 2025.",
+      "exceptions": ["Reduced rates for agriculture, taxis and some industry."],
+      "legalRefs": [{ "sourceId": "accise-dlgs-504-1995" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "it-energy-excises",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "Accisa sull’energia elettrica e addizionali; accisa sul gas naturale per combustione",
+        "native": "Accise su elettricità e gas",
+        "common": "Electricity and gas excise"
+      },
+      "taxes": { "base": "Electricity and natural gas consumed.", "payer": "Suppliers; passed on in bills." },
+      "rate": {
+        "kind": "specific",
+        "headline": "Per kWh and per cubic metre",
+        "details": ["Electricity excise and additional charges EUR 2.7 billion, natural gas excise EUR 2.6 billion (up 25.9% in 2025)."],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "Revenue from the gas excise rose after support measures ended.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "accise-dlgs-504-1995" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "it-tobacco",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Imposta di consumo sui tabacchi", "native": "Imposta sul consumo dei tabacchi", "common": "Tobacco consumption tax" },
+      "taxes": { "base": "Cigarettes, cigars and other tobacco products.", "payer": "Manufacturers; passed on in the price." },
+      "rate": { "kind": "mechanism", "headline": "Share of the retail price plus a specific amount", "details": [], "asOf": "2026-10-10" },
+      "explanation": "EUR 11.5 billion in 2025.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "accise-dlgs-504-1995" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "it-gambling",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Entrate dai giochi (lotto, lotterie, apparecchi e altri giochi)", "native": "Imposte sui giochi", "common": "Gambling taxes" },
+      "taxes": { "base": "Lotteries, betting, gaming machines and online games.", "payer": "Operators." },
+      "rate": {
+        "kind": "varies",
+        "headline": "By type of game",
+        "details": ["The total of EUR 7.9 billion includes various taxes classified as direct and indirect."],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "The State’s revenue from the gaming sector.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "mef-bollettino-2025-12" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "it-inheritance-gift",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "Imposta sulle successioni e donazioni", "native": "Imposta sulle successioni e donazioni", "common": "Inheritance and gift tax" },
+      "taxes": { "base": "Inheritances and gifts above an allowance.", "payer": "The heir or recipient." },
+      "rate": {
+        "kind": "flat",
+        "headline": "4% / 6% / 8% by relationship",
+        "details": ["4% for spouse and children above an allowance of EUR 1 million each; 6% for siblings (above EUR 100,000); 8% for others."],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "A small tax by international standards: EUR 1.1 billion.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "successioni-dlgs-346-1990" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "it-other-state-taxes",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "other",
+      "status": "current",
+      "names": { "official": "Altre entrate tributarie erariali", "native": "Altre entrate erariali", "common": "Other State taxes" },
+      "taxes": {
+        "base": "The remainder of State tax revenue: the flat tax on rents (cedolare secca), withholding on distributed profits, IMU on production buildings reserved to the State, other substitute taxes, minor excises and other direct and indirect taxes.",
+        "payer": "Varies."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "A different rate for each",
+        "details": ["Computed as the MEF total of EUR 622,132 million less the lines above (EUR 587,349 million)."],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "A residual, not a single tax: the MEF bulletin text itemises only the main lines, so what is left is shown as one core.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "mef-bollettino-2025-12" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "it-social-contributions",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "social-contribution",
+      "family": "social-security",
+      "status": "current",
+      "names": { "official": "Contributi sociali (INPS e altri enti previdenziali)", "native": "Contributi previdenziali", "common": "Social contributions" },
+      "taxes": {
+        "base": "Gross wages of employees and the income of the self-employed.",
+        "payer": "Employers (about three quarters of the pension contribution) and employees; the self-employed pay on their income."
+      },
+      "rate": {
+        "kind": "flat",
+        "headline": "About 33% of gross wages for pensions (24% employer + 9% employee), plus other branches",
+        "details": [
+          "Pension (IVS) contribution of 33% of wages for employees; separate contributions for sickness, maternity, unemployment (NASpI), family allowances and work accidents (INAIL).",
+          "Self-employed pay about 24% to 26% of their income."
+        ],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "Italy’s second-largest charge: EUR 305.8 billion in 2025, up 10% because the temporary employee contribution cut ended.",
+      "exceptions": ["Reduced or waived contributions for hiring young people, women and the long-term unemployed."],
+      "legalRefs": [{ "sourceId": "pensioni-legge-335-1995" }, { "sourceId": "istat-cen-2026" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "it-irap",
+      "parentId": "regions",
+      "levelId": "regions",
+      "category": "tax",
+      "family": "income-mixed",
+      "status": "current",
+      "names": {
+        "official": "Imposta regionale sulle attività produttive (IRAP)",
+        "native": "IRAP",
+        "common": "Regional tax on productive activities",
+        "abbreviation": "IRAP"
+      },
+      "taxes": {
+        "base": "The net value of production of businesses and public bodies (roughly profit plus labour costs and interest), by region.",
+        "payer": "Companies, partnerships and public administrations; sole traders and professionals have been exempt since 2022."
+      },
+      "rate": {
+        "kind": "flat",
+        "headline": "3.9% standard (regions may vary it)",
+        "details": [
+          "The standard rate is 3.9%; regions may raise or lower it by up to 0.92 points; banks and insurers pay a higher rate. Deductions for staff costs lower the base."
+        ],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "The regions’ main tax, introduced in 1998 to replace several local taxes and to fund health care. EUR 33.3 billion in 2025, of which EUR 12.1 billion paid by public bodies.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "irap-dlgs-446-1997" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "it-regional-irpef-surcharge",
+      "parentId": "regions",
+      "levelId": "regions",
+      "category": "tax",
+      "family": "income-personal",
+      "status": "current",
+      "names": { "official": "Addizionale regionale all’IRPEF", "native": "Addizionale regionale IRPEF", "common": "Regional surcharge on income tax" },
+      "taxes": { "base": "The same taxable income as the IRPEF.", "payer": "Residents of the region." },
+      "rate": {
+        "kind": "progressive",
+        "headline": "About 1.2% to 3.3%, set by each region",
+        "details": ["Each region sets its own rate, in some cases with brackets; the national law lets them differ until 2028 under a transitional rule."],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "A surcharge on the national income tax that the regions set themselves: EUR 16.0 billion in 2025, 6.0% more than a year earlier.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "tuir" }, { "sourceId": "irap-dlgs-446-1997" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "it-imu",
+      "parentId": "municipalities",
+      "levelId": "municipalities",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "Imposta municipale propria (IMU) e residui TASI", "native": "IMU", "common": "Municipal property tax", "abbreviation": "IMU" },
+      "taxes": {
+        "base": "The cadastral value (rental income multiplied by a coefficient) of buildings and land other than the main home.",
+        "payer": "The owner."
+      },
+      "rate": {
+        "kind": "range",
+        "headline": "Base 0.86%; each municipality chooses within a legal range",
+        "details": [
+          "Base rate 0.86% of the taxable value, which a municipality can move between about 0.46% and 1.06%; luxury main homes pay 0.5% (rising to 0.6%).",
+          "The municipal share is shown; the share on production buildings is reserved to the State.",
+          "TASI, a related tax, was abolished from 2020; the EUR 23 million shown is arrears."
+        ],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "The municipalities’ main tax: EUR 18.2 billion in 2025.",
+      "exceptions": ["The owner-occupied main home is exempt unless it is a luxury home."],
+      "legalRefs": [{ "sourceId": "imu-legge-160-2019" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "it-municipal-irpef-surcharge",
+      "parentId": "municipalities",
+      "levelId": "municipalities",
+      "category": "tax",
+      "family": "income-personal",
+      "status": "current",
+      "names": { "official": "Addizionale comunale all’IRPEF", "native": "Addizionale comunale IRPEF", "common": "Municipal surcharge on income tax" },
+      "taxes": { "base": "The same taxable income as the IRPEF.", "payer": "Residents of the municipality." },
+      "rate": {
+        "kind": "range",
+        "headline": "Up to 0.8% (0.9% in some cases)",
+        "details": ["Each municipality sets its own rate and may exempt low incomes."],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "EUR 6.4 billion in 2025.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "tuir" }, { "sourceId": "imu-legge-160-2019" }],
+      "checkedOn": "2026-10-10"
+    }
+  ]
+}

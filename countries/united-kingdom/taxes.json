@@ -1,0 +1,503 @@
+{
+  "instruments": [
+    {
+      "id": "uk-income-tax",
+      "parentId": "uk-government",
+      "levelId": "uk-government",
+      "category": "tax",
+      "family": "income-personal",
+      "status": "current",
+      "names": { "official": "Income Tax", "common": "Income tax" },
+      "taxes": {
+        "base": "Employment, self-employment, pension, savings, dividend and property income of individuals, after the personal allowance.",
+        "payer": "Individuals; employers deduct it from pay (PAYE)."
+      },
+      "rate": {
+        "kind": "progressive",
+        "headline": "20% / 40% / 45% (Scotland: 19%–48%)",
+        "details": [
+          "England, Wales and Northern Ireland, 2026-27: 0% up to the £12,570 Personal Allowance, 20% to £50,270, 40% to £125,140, 45% above. The allowance is withdrawn at £1 for every £2 of income over £100,000.",
+          "Scotland sets its own rates and bands for non-savings, non-dividend income (six bands from 19% to 48%); Wales has a Welsh rate that is currently the same as England’s.",
+          "Savings and dividend income have their own rates and allowances."
+        ],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "The largest source of revenue. PAYE deducted from pay is about 85% of the total. Figures here include Scottish and Welsh income tax, which HMRC collects.",
+      "exceptions": ["Pensions and ISAs are tax-advantaged within limits."],
+      "legalRefs": [{ "sourceId": "ita-2007" }, { "sourceId": "gov-income-tax-rates" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "uk-national-insurance",
+      "parentId": "uk-government",
+      "levelId": "uk-government",
+      "category": "social-contribution",
+      "family": "social-security",
+      "status": "current",
+      "names": { "official": "National Insurance contributions (Classes 1, 2 and 4)", "common": "National Insurance contributions", "abbreviation": "NICs" },
+      "taxes": {
+        "base": "Employees’ earnings (employee contributions), employers’ payroll (employer contributions) and the profits of the self-employed.",
+        "payer": "Employees, employers and the self-employed."
+      },
+      "rate": {
+        "kind": "progressive",
+        "headline": "Employees 8% / 2%; employers 15%",
+        "details": [
+          "Class 1, 2026-27: employees pay 8% on earnings between £12,570 and £50,270 and 2% above; employers pay 15% on earnings above £5,000 a year (raised from 13.8% and a £9,100 threshold in April 2025).",
+          "Self-employed pay Class 4 on profits and, voluntarily, Class 2."
+        ],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "A payroll-based charge that funds the contributory state pension and the NHS. Revenue rose sharply in 2025-26 because of the higher employer rate and lower threshold.",
+      "exceptions": ["Employment allowance for small employers; no contributions on earnings under the lower limits."],
+      "legalRefs": [{ "sourceId": "sscba-1992" }, { "sourceId": "gov-ni-rates-2026-27" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "uk-vat",
+      "parentId": "uk-government",
+      "levelId": "uk-government",
+      "category": "tax",
+      "family": "general-consumption",
+      "status": "current",
+      "names": { "official": "Value Added Tax", "common": "Value added tax", "abbreviation": "VAT" },
+      "taxes": {
+        "base": "Most supplies of goods and services by registered businesses and imports.",
+        "payer": "Consumers; businesses charge it and deduct input tax."
+      },
+      "rate": {
+        "kind": "flat",
+        "headline": "20% standard; 5% reduced; 0% zero-rated",
+        "details": [
+          "Zero rate on most food, books, children’s clothes and public transport; 5% on domestic fuel; private school fees became standard-rated from January 2025."
+        ],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "The second-largest tax. Revenue is shown net of refunds.",
+      "exceptions": ["Exempt: financial services, health, education and rent. Registration threshold of £90,000 turnover."],
+      "legalRefs": [{ "sourceId": "vata-1994" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "uk-corporation-tax",
+      "parentId": "uk-government",
+      "levelId": "uk-government",
+      "category": "tax",
+      "family": "income-corporate",
+      "status": "current",
+      "names": { "official": "Corporation Tax", "common": "Corporation tax" },
+      "taxes": { "base": "Profits of companies and other bodies, including capital gains of companies.", "payer": "Companies." },
+      "rate": {
+        "kind": "flat",
+        "headline": "25%; 19% for small profits",
+        "details": [
+          "25% on profits above £250,000; 19% on profits up to £50,000; marginal relief in between.",
+          "Full expensing of qualifying plant and machinery."
+        ],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "The main rate has been 25% since April 2023 (it was 19% before); revenue has risen with profits and the higher rate.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "cta-2010" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "uk-capital-gains-tax",
+      "parentId": "uk-government",
+      "levelId": "uk-government",
+      "category": "tax",
+      "family": "income-personal",
+      "status": "current",
+      "names": { "official": "Capital Gains Tax", "common": "Capital gains tax", "abbreviation": "CGT" },
+      "taxes": {
+        "base": "Gains on the disposal of assets such as shares and second homes, above an annual exempt amount.",
+        "payer": "Individuals, trustees and personal representatives."
+      },
+      "rate": {
+        "kind": "flat",
+        "headline": "18% / 24%",
+        "details": ["18% for gains within the basic rate band and 24% above it (from 30 October 2024); the annual exempt amount is £3,000."],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "Revenue nearly doubled in 2025-26 after rates were raised and the exempt amount cut.",
+      "exceptions": ["The main home is exempt."],
+      "legalRefs": [{ "sourceId": "tcga-1992" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "uk-fuel-duty",
+      "parentId": "uk-government",
+      "levelId": "uk-government",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Hydrocarbon oils duties (fuel duty)", "common": "Fuel duty" },
+      "taxes": { "base": "Petrol, diesel and other road fuels, by the litre.", "payer": "Fuel suppliers; passed on at the pump." },
+      "rate": {
+        "kind": "specific",
+        "headline": "52.95p per litre of petrol and diesel (2025-26)",
+        "details": ["The rate has been frozen for years, with a temporary 5p cut; the Treasury has scheduled it to be restored gradually."],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "A per-litre duty that has not risen with inflation since 2011.",
+      "exceptions": ["Reduced rates for gas oil used off-road (red diesel), with exceptions."],
+      "legalRefs": [{ "sourceId": "hoda-1979" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "uk-stamp-taxes",
+      "parentId": "uk-government",
+      "levelId": "uk-government",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "Stamp taxes (stamp duty land tax, stamp duty reserve tax, stamp duty, ATED)", "common": "Stamp taxes" },
+      "taxes": {
+        "base": "Purchases of land and buildings in England and Northern Ireland (SDLT), transfers of shares (stamp duty and SDRT) and high-value dwellings held by companies (ATED).",
+        "payer": "The buyer."
+      },
+      "rate": {
+        "kind": "progressive",
+        "headline": "SDLT 0%–12%; shares 0.5%",
+        "details": [
+          "SDLT from April 2025: nil to £125,000, 2% to £250,000, 5% to £925,000, 10% to £1.5 million, 12% above; first-time buyers pay nothing to £300,000. A 5% surcharge applies to additional dwellings.",
+          "Shares: 0.5% stamp duty or SDRT."
+        ],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "Stamp duty land tax is £14.8 billion of the total. Scotland and Wales run their own taxes on property transactions.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "fa-2003", "locator": "Part 4" }, { "sourceId": "hmrc-ara-2025-26" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "uk-alcohol-duties",
+      "parentId": "uk-government",
+      "levelId": "uk-government",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Alcohol duties", "common": "Alcohol duty" },
+      "taxes": { "base": "Beer, wine, cider and spirits by volume of alcohol.", "payer": "Producers and importers; passed on in the price." },
+      "rate": {
+        "kind": "specific",
+        "headline": "Per litre of pure alcohol, by strength",
+        "details": [
+          "Since August 2023 a single duty rate per litre of alcohol applies to all drinks, with lower rates for draught products and small producers; rates rise with RPI each February."
+        ],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "A unified duty on all alcoholic drinks by strength.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "cema-1979" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "uk-insurance-premium-tax",
+      "parentId": "uk-government",
+      "levelId": "uk-government",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Insurance Premium Tax", "common": "Insurance premium tax", "abbreviation": "IPT" },
+      "taxes": { "base": "Premiums on most general insurance (motor, home, travel, pet).", "payer": "Insurers; passed on to policyholders." },
+      "rate": {
+        "kind": "flat",
+        "headline": "12% standard; 20% higher rate",
+        "details": ["12% on most insurance; 20% on travel insurance and insurance sold with some goods."],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "A tax on premiums that stands in for VAT on insurance, which is exempt.",
+      "exceptions": ["Life, health and long-term care insurance are exempt."],
+      "legalRefs": [{ "sourceId": "fa-1994" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "uk-inheritance-tax",
+      "parentId": "uk-government",
+      "levelId": "uk-government",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "Inheritance Tax", "common": "Inheritance tax", "abbreviation": "IHT" },
+      "taxes": {
+        "base": "The estate of a person who dies and some lifetime gifts, above the nil-rate bands.",
+        "payer": "The estate; some trusts and gifts pay on their own account."
+      },
+      "rate": {
+        "kind": "flat",
+        "headline": "40% above the nil-rate band",
+        "details": [
+          "40% on the value above £325,000, plus a £175,000 residence nil-rate band; transfers to a spouse are exempt. The thresholds are frozen until 2030 and pensions are due to come within the tax from April 2027."
+        ],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "A small tax in revenue terms but large in political attention: only a small share of estates (around 4–5%) pay it.",
+      "exceptions": ["Business and agricultural property relief is being restricted from April 2026."],
+      "legalRefs": [{ "sourceId": "ihta-1984" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "uk-tobacco-duties",
+      "parentId": "uk-government",
+      "levelId": "uk-government",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Tobacco duties", "common": "Tobacco duty" },
+      "taxes": { "base": "Cigarettes, hand-rolling tobacco and other tobacco products.", "payer": "Producers and importers; passed on in the price." },
+      "rate": {
+        "kind": "mechanism",
+        "headline": "Per 1,000 cigarettes plus a share of the price",
+        "details": ["Duty rises each year by RPI plus 2%; hand-rolling tobacco rises faster."],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "Revenue is falling as smoking declines.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "tpda-1979" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "uk-customs-duties",
+      "parentId": "uk-government",
+      "levelId": "uk-government",
+      "category": "customs-duty",
+      "family": "trade",
+      "status": "current",
+      "names": { "official": "Customs duties", "common": "Customs duties" },
+      "taxes": { "base": "Imported goods, by tariff heading and origin.", "payer": "Importers." },
+      "rate": {
+        "kind": "range",
+        "headline": "UK Global Tariff",
+        "details": ["Rates are set in the UK Global Tariff; many goods are free under trade agreements."],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "Since 2021 the UK has its own tariff.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "cema-1979" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "uk-air-passenger-duty",
+      "parentId": "uk-government",
+      "levelId": "uk-government",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Air Passenger Duty", "common": "Air passenger duty", "abbreviation": "APD" },
+      "taxes": { "base": "Passengers departing from UK airports, by distance band and class of travel.", "payer": "Airlines; passed on in fares." },
+      "rate": {
+        "kind": "specific",
+        "headline": "Per passenger by distance band and class",
+        "details": ["Rates rise each April; higher for premium cabins and private jets."],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "A per-passenger tax on flights.",
+      "exceptions": ["Children under 16 in economy are exempt."],
+      "legalRefs": [{ "sourceId": "fa-1994" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "uk-apprenticeship-levy",
+      "parentId": "uk-government",
+      "levelId": "uk-government",
+      "category": "tax",
+      "family": "payroll",
+      "status": "current",
+      "names": { "official": "Apprenticeship Levy", "common": "Apprenticeship levy" },
+      "taxes": { "base": "Employers’ annual pay bill above £3 million.", "payer": "Large employers." },
+      "rate": {
+        "kind": "flat",
+        "headline": "0.5% of the pay bill above £3 million",
+        "details": ["A £15,000 annual allowance is set against the levy."],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "A payroll levy that funds apprenticeship training.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "fa-2016", "locator": "Part 6" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "uk-betting-gaming",
+      "parentId": "uk-government",
+      "levelId": "uk-government",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Betting and gaming duties", "common": "Betting and gaming duties" },
+      "taxes": { "base": "Gross profits of betting and gaming operators and the stakes of some bets.", "payer": "Operators." },
+      "rate": {
+        "kind": "varies",
+        "headline": "By type of gambling",
+        "details": [
+          "General betting duty, remote gaming duty, pool betting duty, gaming duty and bingo duty each have their own rate; the Budget raised some of them."
+        ],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "Duties on the profits of the gambling industry.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "bgda-1981" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "uk-sector-levies",
+      "parentId": "uk-government",
+      "levelId": "uk-government",
+      "category": "tax",
+      "family": "other",
+      "status": "current",
+      "names": {
+        "official": "Sector and environmental levies (energy profits levy, climate change levy, bank levy and surcharge, digital services tax and others)",
+        "common": "Sector and environmental levies"
+      },
+      "taxes": {
+        "base": "Oil and gas profits, energy use, bank balance sheets and profits, digital platform revenues, landfill, aggregates, soft drinks, plastic packaging and developers’ profits.",
+        "payer": "The businesses concerned."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "A different rate for each levy",
+        "details": [
+          "Energy profits levy £2.6 billion, climate change levy £1.8 billion, bank levy £1.7 billion, bank surcharge £1.2 billion, digital services tax £1.1 billion, diverted profits tax £0.6 billion, landfill tax £0.5 billion, aggregates levy £0.4 billion, soft drinks industry levy £0.4 billion, plastic packaging tax £0.3 billion and smaller ones."
+        ],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "A group of targeted taxes on particular industries and activities.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "hmrc-ara-2025-26" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "uk-vehicle-excise-duty",
+      "parentId": "uk-government",
+      "levelId": "uk-government",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Vehicle Excise Duty", "common": "Vehicle excise duty", "abbreviation": "VED" },
+      "taxes": { "base": "Ownership of a vehicle on the road, by CO₂ emissions (first year) and a flat rate afterwards.", "payer": "Vehicle keepers." },
+      "rate": {
+        "kind": "mechanism",
+        "headline": "First-year rate by CO₂; then a standard rate",
+        "details": [
+          "Electric cars have paid VED since 1 April 2025; an expensive-car supplement applies to cars over £40,000 in the first five years after the first year."
+        ],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "The annual road tax, collected by the DVLA.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "vera-1994" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "uk-scottish-income-tax",
+      "parentId": "devolved-governments",
+      "levelId": "devolved-governments",
+      "category": "tax",
+      "family": "income-personal",
+      "status": "current",
+      "names": { "official": "Scottish Income Tax (Scottish rates of income tax)", "common": "Scottish income tax" },
+      "taxes": { "base": "Non-savings, non-dividend income of Scottish taxpayers.", "payer": "Residents of Scotland." },
+      "rate": {
+        "kind": "progressive",
+        "headline": "Six bands from 19% to 48%",
+        "details": [
+          "The Scottish Parliament sets the rates and bands; the UK government sets the personal allowance. Scottish taxpayers with higher incomes pay more than elsewhere in the UK."
+        ],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "Included in the UK income tax figure above: HMRC collects it and passes it to the Scottish Government, adjusted by a reconciliation after the outturn is known.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "scotland-act-2016" }, { "sourceId": "hmrc-scottish-income-tax-2024-25" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "uk-lbtt",
+      "parentId": "devolved-governments",
+      "levelId": "devolved-governments",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "Land and Buildings Transaction Tax (LBTT)", "common": "Land and buildings transaction tax (Scotland)", "abbreviation": "LBTT" },
+      "taxes": { "base": "Purchases of land and buildings in Scotland.", "payer": "The buyer." },
+      "rate": {
+        "kind": "progressive",
+        "headline": "Bands set by the Scottish Parliament",
+        "details": ["Residential and non-residential rates and bands differ from stamp duty land tax; an Additional Dwelling Supplement applies."],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "Scotland’s own replacement for stamp duty land tax, collected by Revenue Scotland.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "lbtt-act-2013" }, { "sourceId": "scot-gov-outturn-2024-25" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "uk-ltt",
+      "parentId": "devolved-governments",
+      "levelId": "devolved-governments",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "Land Transaction Tax (LTT)", "common": "Land transaction tax (Wales)", "abbreviation": "LTT" },
+      "taxes": { "base": "Purchases of land and buildings in Wales.", "payer": "The buyer." },
+      "rate": {
+        "kind": "progressive",
+        "headline": "Bands set by the Senedd",
+        "details": ["Residential, higher-rate (additional dwellings) and non-residential rates are set in Wales."],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "Wales’s own replacement for stamp duty land tax, collected by the Welsh Revenue Authority.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "wales-act-2014" }, { "sourceId": "wra-2025-26" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "uk-council-tax",
+      "parentId": "local-authorities",
+      "levelId": "local-authorities",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "Council Tax (and domestic rates in Northern Ireland)", "common": "Council tax" },
+      "taxes": {
+        "base": "Domestic dwellings, by valuation band (values of 1991 in England and Scotland, 2003 in Wales).",
+        "payer": "The resident or owner of the dwelling; discounts for single occupants."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Set by each council by band",
+        "details": [
+          "Councils set an annual charge for each valuation band (A to H, A to I in Wales); in England increases above a limit (just under 5% for most councils in 2025-26) need a local referendum."
+        ],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "The main local tax, billed by around 300 English billing authorities and the Scottish and Welsh councils. It funds about half of English councils’ spending.",
+      "exceptions": ["Students and people on low incomes get discounts or support."],
+      "legalRefs": [{ "sourceId": "lgfa-1992" }, { "sourceId": "obr-databank-2026-09" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "uk-business-rates",
+      "parentId": "local-authorities",
+      "levelId": "local-authorities",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "National non-domestic rates (business rates), England", "common": "Business rates (England)" },
+      "taxes": { "base": "The rateable value of non-domestic property (shops, offices, factories).", "payer": "The occupier of the property." },
+      "rate": {
+        "kind": "mechanism",
+        "headline": "Rateable value × a national multiplier",
+        "details": [
+          "The Government sets the multiplier each year; a 2026 revaluation updated rateable values in April 2026, and lower multipliers apply to retail, hospitality and leisure.",
+          "Councils keep 62% of the income locally and 38% goes to the Treasury."
+        ],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "A national tax that councils collect: set by Parliament, collected locally and partly redistributed.",
+      "exceptions": ["Reliefs of £7.7 billion in 2025-26 (small business, retail, hospitality and leisure)."],
+      "legalRefs": [{ "sourceId": "lgfa-1988" }, { "sourceId": "mhclg-nndr-2025-26" }],
+      "checkedOn": "2026-10-10"
+    }
+  ]
+}

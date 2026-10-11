@@ -4,7 +4,7 @@
   "currency": "BRL",
   "scale": "million",
   "taxToGdp": 32,
-  "basis": "Collecting government",
+  "basis": "OECD attribution to sub-sectors of general government (Interpretative Guide, section A.12)",
   "levels": [
     { "key": "central", "label": "Union", "folioLevelIds": ["federal"], "share": 45.4 },
     { "key": "regional", "label": "States and Federal District", "folioLevelIds": ["states"], "share": 23 },

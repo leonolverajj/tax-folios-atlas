@@ -1,0 +1,111 @@
+{
+  "id": "switzerland",
+  "iso3": "CHE",
+  "isoNumeric": "756",
+  "names": { "en": "Switzerland", "native": "Schweiz / Suisse / Svizzera", "nativeLang": "de-CH" },
+  "currency": { "code": "CHF", "symbol": "Fr.", "name": "Swiss franc" },
+  "summary": "Switzerland is a confederation of 26 cantons and about 2,100 communes with three fully taxing levels. The Confederation raises the direct federal tax, VAT, the withholding tax and excises; each canton taxes income, profits and net wealth under its own law within a federal harmonisation framework, and the communes add their own multiple on the cantonal tax. Social insurance is separate: the old-age, disability, income-compensation and unemployment schemes are funded by contributions from employees and employers.",
+  "structureNote": "All parts use calendar year 2023, the latest year for which cantons and communes are published comparably; the Confederation’s revenue for 2025 is about 9% higher (CHF 81.7 billion of fiscal revenue). Cantonal and communal taxes are drawn at the level of the OECD’s tax codes (income of individuals, profit of companies, net wealth, other) because the statistics do not itemise them further: they are the real cantonal taxes, grouped by what they tax. The communes levy their income, profit and wealth taxes as a multiple of the cantonal base (the Steuerfuss), so each communal core mirrors the cantonal one. Compulsory second-pillar pension contributions (CHF 65.1 billion), health insurance premiums (CHF 29.1 billion), accident insurance and family allowances are compulsory but are paid to private-law funds and insurers outside general government, so they are not drawn or counted (BSV Gesamtrechnung 2023).",
+  "theme": {
+    "accent": "#ff5a4f",
+    "accent2": "#d9dde6",
+    "motif": "topo",
+    "motifNote": "Topographic contour lines over the outline of Switzerland (the generic motif; no bespoke art yet).",
+    "mapLabel": { "lon": 8.2, "lat": 46.8 }
+  },
+  "levels": [
+    {
+      "id": "confederation",
+      "branch": "national",
+      "names": { "official": "Schweizerische Eidgenossenschaft (Confederation)", "native": "Bund", "common": "Confederation" },
+      "description": "The federal government levies the direct federal tax, VAT, the withholding tax, stamp duties, the mineral oil, tobacco and customs duties and the heavy vehicle fee. The first-pillar social insurance funds (AHV, IV, EO, ALV) are federal schemes.",
+      "fiscalPower": "The Federal Constitution fixes each federal tax and its maximum rate, and every one of them needs a constitutional basis that the people and the cantons approve: direct federal tax (Art. 128), VAT (Art. 130), withholding tax (Art. 132), consumption and customs duties (Arts. 131–133). A tax with no basis in the Constitution cannot be introduced.",
+      "legalRefs": [{ "sourceId": "bv", "locator": "Arts. 126–134" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "cantons",
+      "branch": "regional",
+      "names": { "official": "Kantone (26 cantons)", "native": "Kantone", "common": "Cantons" },
+      "description": "The 26 cantons tax the income and wealth of individuals and the profit and capital of companies, inheritance and gifts, real-estate transactions and motor vehicles. They set their own rates and allowances, within the framework of the Tax Harmonisation Act.",
+      "fiscalPower": "Art. 3 of the Constitution leaves all powers not given to the Confederation with the cantons, including direct taxation (Art. 129 lets the Confederation harmonise only the structure of cantonal taxes, not the rates). They also receive 21.2% of the direct federal tax and share in the Confederation’s revenue.",
+      "legalRefs": [{ "sourceId": "bv", "locator": "Arts. 3, 129" }, { "sourceId": "sthg", "locator": "Tax Harmonisation Act (StHG)" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "communes",
+      "branch": "local",
+      "names": { "official": "Gemeinden (communes)", "native": "Gemeinden", "common": "Communes" },
+      "description": "About 2,100 political communes (the number falls as they merge). They collect income, profit and wealth tax as a communal multiple of the cantonal tax, plus property taxes and local fees.",
+      "fiscalPower": "Communal tax powers come from cantonal law: the commune sets its multiple (Steuerfuss) each year on the cantonal \"simple tax\" within the cantonal limits.",
+      "legalRefs": [{ "sourceId": "bv", "locator": "Art. 50" }],
+      "checkedOn": "2026-10-10"
+    }
+  ],
+  "supportingSourceIds": ["oecd-rs-2025-levels", "sng-wofi-profile", "efv-main-publication-2025"],
+  "denominators": [
+    {
+      "id": "federal-fiscal-2023",
+      "label": "Fiscal revenue of the Confederation, 2023",
+      "definition": "Direct federal tax, VAT, withholding tax, mineral oil tax, stamp duties, tobacco tax, heavy vehicle fee, customs and other fiscal revenue of the Confederation (without special accounts).",
+      "levelIds": ["confederation"],
+      "amount": 74785,
+      "scale": "million",
+      "currency": "CHF",
+      "period": { "label": "2023", "kind": "calendar-year", "start": "2023-01-01", "end": "2023-12-31" },
+      "sourceId": "efv-taschenstatistik-2025",
+      "locator": "Einnahmen Bund (ohne Sonderrechnungen): Fiskaleinnahmen, 2023",
+      "calculation": "27,835 + 25,148 + 6,445 + 4,341 + 2,181 + 2,025 + 1,645 + 1,184 + 3,981 = 74,785; the publication gives 74,784; the sum of the lines is used (CHF million)",
+      "caveat": "The Confederation keeps about 79% of the direct federal tax; the rest goes to the cantons. Fiscal revenue was CHF 81,704 million in 2025.",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "cantonal-taxes-2023",
+      "label": "Cantonal taxes, 2023 (OECD)",
+      "definition": "All taxes of the cantons by OECD tax code: income and profit taxes, net wealth taxes, inheritance and gift taxes, property and transaction taxes, motor vehicle taxes and others.",
+      "levelIds": ["cantons"],
+      "amount": 56086,
+      "scale": "million",
+      "currency": "CHF",
+      "period": { "label": "2023", "kind": "calendar-year", "start": "2023-01-01", "end": "2023-12-31" },
+      "sourceId": "oecd-rs-2025-subsectors",
+      "locator": "Table 6.35 Switzerland – State/Regional – Total tax revenue, 2023",
+      "caveat": "OECD attribution; includes the cantons’ share of the direct federal tax only if the OECD books it as cantonal revenue.",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "communal-taxes-2023",
+      "label": "Communal taxes, 2023 (OECD)",
+      "definition": "All taxes of the communes by OECD tax code: the communal multiples of income, profit and wealth taxes, property taxes and others.",
+      "levelIds": ["communes"],
+      "amount": 34776,
+      "scale": "million",
+      "currency": "CHF",
+      "period": { "label": "2023", "kind": "calendar-year", "start": "2023-01-01", "end": "2023-12-31" },
+      "sourceId": "oecd-rs-2025-subsectors",
+      "locator": "Table 6.35 Switzerland – Local government – Total tax revenue, 2023",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "social-insurance-2023",
+      "label": "Contributions to the federal social insurance funds, 2023",
+      "definition": "Contributions of the insured and employers to the old-age and survivors (AHV), disability (IV), income compensation (EO) and unemployment (ALV) insurance. Leaves out public contributions, occupational pensions (BV), health insurance (KV), accident insurance (UV) and family allowances (FamZ), which are paid to private-law funds and insurers.",
+      "levelIds": ["confederation"],
+      "amount": 53491,
+      "scale": "million",
+      "currency": "CHF",
+      "period": { "label": "2023", "kind": "calendar-year", "start": "2023-01-01", "end": "2023-12-31" },
+      "sourceId": "bsv-svs-2025",
+      "locator": "Tabelle GRSV 2.1: Beiträge Versicherte und Arbeitgebende, 2023, columns AHV, IV, EO, ALV",
+      "calculation": "37,428 + 6,048 + 2,159 + 7,856 = 53,491 (CHF million)",
+      "caveat": "For comparison the OECD records CHF 53,663 million of social security contributions for 2023.",
+      "accessed": "2026-10-10"
+    }
+  ],
+  "sizing": {
+    "label": "Taxes and social insurance contributions of all levels of government",
+    "definition": "Fiscal revenue of the Confederation + all cantonal taxes + all communal taxes (OECD) + contributions to the AHV, IV, EO and ALV, all for 2023. Excludes non-tax revenue and transfers between levels of government (such as the cantons’ share of the direct federal tax), occupational pensions, health insurance premiums, accident insurance and family allowances.",
+    "componentIds": ["federal-fiscal-2023", "cantonal-taxes-2023", "communal-taxes-2023", "social-insurance-2023"]
+  },
+  "researchStatus": "researched"
+}

@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "referenceYear": 2023,
+  "currency": "KRW",
+  "scale": "billion",
+  "taxToGdp": 26.9,
+  "basis": "OECD attribution to sub-sectors of general government (Interpretative Guide, section A.12): central government, local governments and social security funds shown separately",
+  "levels": [
+    {
+      "key": "central",
+      "label": "Central government",
+      "folioLevelIds": ["national"],
+      "total": 344072,
+      "byType": { "income": 197639, "socialSecurity": 0, "payroll": 0, "property": 31028, "goodsServices": 109705, "other": 5700 },
+      "note": "The OECD shows the social security funds separately; the folio draws the five social insurances under the national level."
+    },
+    {
+      "key": "local",
+      "label": "Local governments",
+      "folioLevelIds": ["local"],
+      "total": 112463,
+      "byType": { "income": 23244, "socialSecurity": 0, "payroll": 2138, "property": 43280, "goodsServices": 36386, "other": 7415 }
+    },
+    {
+      "key": "social-security",
+      "label": "Social security funds",
+      "folioLevelIds": [],
+      "total": 188692,
+      "byType": { "income": 0, "socialSecurity": 188692, "payroll": 0, "property": 0, "goodsServices": 0, "other": 0 }
+    }
+  ],
+  "sourceIds": ["oecd-rs-2025-subsectors", "oecd-rs-2025-levels"],
+  "subnational": {
+    "ownSourceTaxShareOfRevenue": 29.7,
+    "grantsShareOfRevenue": 63.7,
+    "year": 2020,
+    "sourceId": "sng-wofi-profile",
+    "note": "Tariffs and fees 5%, property income 0.7%, other 0.9% of subnational revenue."
+  },
+  "notes": []
+}

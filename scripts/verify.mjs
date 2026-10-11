@@ -347,65 +347,98 @@ async function layout(browser) {
   await page.__ctx.close();
 }
 
-/** Fiscal Fighters: renders, is keyboard-operable, sorts, and never overflows the phone screen. */
-async function fighters(browser) {
-  console.log('\nfiscal fighters');
-  const page = await newPage(browser, SIZES.desktop, `${BASE}/#/fighters/canada/japan`);
-  await page.waitForSelector('.arena .fighters canvas', { timeout: 15000 });
-  await page.waitForTimeout(600);
-  const canvases = await page.$$eval('.fighters canvas', (cs) => cs.map((c) => ({ role: c.getAttribute('role'), label: c.getAttribute('aria-label') ?? '' })));
-  canvases.length === 2 && canvases.every((c) => c.role === 'img' && /belt/i.test(c.label)) ? ok('both fighters have a text alternative that states the tax mix') : note(`fighter canvases lack an accessible description: ${JSON.stringify(canvases)}`);
-  const nStats = await page.locator('.hud .stat').count();
-  nStats === 18 ? ok('9 measured stats per fighter') : note(`expected 18 stat rows, found ${nStats}`);
-  const picks = await page.locator('.pick').count();
-  picks >= 38 ? ok(`${picks} countries in the roster`) : note(`only ${picks} countries in the roster`);
-  // keyboard: focus a roster button and press Enter to swap fighter 1
-  await page.click('.slot[data-slot="a"]');
-  const target = page.locator('.pick[data-id="germany"]');
-  await target.focus();
+/** Skill trees: one tree per folio, shared scale, keyboard-operable, sorts, highlights, opens the folio, fits the phone. */
+async function trees(browser) {
+  console.log('\nskill trees');
+  const folioCount = fs.readdirSync(path.join(ROOT, 'countries'), { withFileTypes: true }).filter((d) => d.isDirectory() && fs.existsSync(path.join(ROOT, 'countries', d.name, 'country.json'))).length;
+  const page = await newPage(browser, SIZES.desktop, `${BASE}/#/trees`);
+  await page.waitForSelector('.tcard svg.tree', { timeout: 20000 });
+  await page.waitForTimeout(400);
+  const cards = await page.locator('.tcard').count();
+  cards === folioCount ? ok(`one tree per folio (${cards})`) : note(`expected ${folioCount} trees, found ${cards}`);
+  const views = await page.$$eval('.tcard svg.tree', (s) => [...new Set(s.map((x) => x.getAttribute('viewBox')))]);
+  views.length === 1 ? ok(`all trees share one scale (viewBox ${views[0]})`) : note(`trees use different scales: ${views.join(' | ')}`);
+  const labels = await page.$$eval('.tcard-hit', (b) => b.map((x) => x.getAttribute('aria-label') ?? ''));
+  labels.every((l) => /charges across \d+ levels/.test(l)) ? ok('every tree has a text description with its counts') : note('a tree lacks its text description');
+  // each tree draws one dot per node of its folio
+  const dots = await page.$$eval('.tcard', (cs) => cs.map((c) => ({ id: c.dataset.id, n: c.querySelectorAll('.tn').length, e: c.querySelectorAll('.te').length })));
+  dots.every((d) => d.e === d.n - 1) ? ok('every dot is joined to a parent (edges = dots − 1)') : note(`edges and dots disagree: ${JSON.stringify(dots.filter((d) => d.e !== d.n - 1))}`);
+  // sort
+  await page.selectOption('#tr-sort', 'charges-desc');
+  const counts = await page.$$eval('.tcard .facts div:first-child b', (b) => b.map((x) => Number(x.textContent)));
+  counts.every((c, i) => i === 0 || counts[i - 1] >= c) ? ok(`sorting by charges works (${counts.slice(0, 4).join(', ')} …)`) : note(`sort by charges is not descending: ${counts.join(',')}`);
+  // equal-size mode: every charge has the same radius
+  await page.click('[data-size="equal"]');
+  const radii = await page.$$eval('.tcard:first-child .tn-charge .tn-body', (c) => [...new Set(c.map((x) => x.getAttribute('r')))]);
+  radii.length === 1 ? ok('"every charge equal" draws one dot size') : note(`equal mode has several radii: ${radii.join(',')}`);
+  await page.click('[data-size="revenue"]');
+  // colour by kind changes charge colours, not the structure
+  const before = await page.evaluate(() => getComputedStyle(document.querySelector('.tn-charge .tn-body')).fill);
+  await page.click('button[data-color="kind"]');
+  const afterKind = await page.evaluate(() => [...document.querySelectorAll('.tn-charge .tn-body')].map((e) => getComputedStyle(e).fill));
+  new Set(afterKind).size > 2 ? ok('colouring by kind of tax uses several colours') : note('colour by kind did not change the dots');
+  await page.click('button[data-color="level"]');
+  void before;
+  // highlight
+  await page.click('.hl-chip[data-hl="family:property"]');
+  const dim = await page.locator('.tn.is-dim').count();
+  const countTxt = await page.locator('.hl-count').first().innerText();
+  dim > 0 && countTxt.length > 0 ? ok(`highlighting a kind of tax dims the others and counts matches (“${countTxt}”)`) : note('highlight did not dim or count');
+  await page.click('.hl-chip[data-hl=""]');
+  // table sort
+  await page.click('[data-sort="charges"]');
+  const sortAttr = await page.locator('#tr-table th[aria-sort]').count();
+  sortAttr === 1 ? ok('table sorts by a column and exposes aria-sort') : note('table header did not expose aria-sort');
+  // keyboard: focus a card and press Enter -> dialog + address
+  const first = page.locator('.tcard-hit').first();
+  const id = await page.locator('.tcard').first().getAttribute('data-id');
+  await first.focus();
   await page.keyboard.press('Enter');
-  await page.waitForTimeout(250);
-  const name = await page.locator('.hud-a .f-name').innerText();
-  /germany/i.test(name) ? ok('keyboard selection loads a country into the arena') : note(`Enter on a roster button did not load Germany (got "${name}")`);
+  await page.waitForSelector('dialog.tree-dialog[open] .dlg-tree svg', { timeout: 4000 });
   const hash = await page.evaluate(() => location.hash);
-  hash.startsWith('#/fighters/germany') ? ok(`the address follows the selection (${hash})`) : note(`address did not follow the selection: ${hash}`);
-  // sorting
-  await page.click('[data-sort="take"]');
-  const firstRow = await page.locator('.compare tbody tr').first().locator('th').innerText();
-  const sortAttr = await page.locator('th[aria-sort="descending"]').count();
-  sortAttr === 1 ? ok(`table sorts by a column (top: ${firstRow.replace(/\s+/g, ' ').trim()})`) : note('table header did not expose aria-sort');
-  // profile-only countries show their status and have no folio link; folio countries link to the folio
-  await page.click('.pick[data-id="denmark"]');
-  const chip = await page.locator('.hud-b .chip').first().innerText().catch(() => '');
-  /profile only/i.test(chip) || (await page.locator('.hud-a .chip').first().innerText().catch(() => '')).match(/profile only/i) ? ok('profile-only countries are labelled as such') : note('profile-only label missing');
-  page.__logs.forEach((l) => note(`fighters console: ${l}`));
+  hash === `#/trees/${id}` ? ok(`Enter opens the large tree and the address follows (${hash})`) : note(`address after opening: ${hash}`);
+  const lbl = await page.locator('dialog .tl').count();
+  lbl > 3 ? ok(`the large tree is labelled (${lbl} labels)`) : note('the large tree has too few labels');
+  const facts = await page.locator('dialog .dlg-facts div').count();
+  facts >= 5 ? ok('the dialog lists the measured counts') : note('dialog facts missing');
+  await page.keyboard.press('Escape');
+  await page.waitForTimeout(150);
+  (await page.evaluate(() => location.hash)) === '#/trees' ? ok('Escape closes the dialog and the address returns to #/trees') : note('address did not return after closing');
+  // deep link + node click goes to the folio
+  await page.goto(`${BASE}/#/trees/${id}`, { waitUntil: 'networkidle' });
+  await page.waitForSelector('dialog.tree-dialog[open] .tn-link', { timeout: 15000 });
+  const target = await page.locator('dialog .tn-charge.tn-link').first().getAttribute('data-id');
+  await page.locator('dialog .tn-charge.tn-link').first().click();
+  await page.waitForSelector('.folio-svg .node', { timeout: 15000 });
+  const h2 = await page.evaluate(() => location.hash);
+  h2.startsWith(`#/${id}/${target}`) ? ok(`a node in the large tree opens that core in the folio (${h2})`) : note(`node click went to ${h2}, expected #/${id}/${target}`);
+  page.__logs.forEach((l) => note(`trees console: ${l}`));
   await page.__ctx.close();
-  // phone: no horizontal scrolling on the page itself
-  const mobile = await newPage(browser, SIZES.mobile, `${BASE}/#/fighters/mexico/brazil`);
-  await mobile.waitForSelector('.arena .fighters canvas', { timeout: 15000 });
+
+  // phone: no horizontal scrolling, and the top bar fits on every screen
+  const mobile = await newPage(browser, SIZES.mobile, `${BASE}/#/trees`);
+  await mobile.waitForSelector('.tcard svg.tree', { timeout: 20000 });
   await mobile.waitForTimeout(500);
   const over = await mobile.evaluate(() => {
-    const s = document.getElementById('fighters-screen');
+    const s = document.getElementById('trees-screen');
     return { sw: s.scrollWidth, cw: s.clientWidth };
   });
   over.sw <= over.cw + 1 ? ok('phone: no horizontal overflow') : note(`phone: the page scrolls sideways (${over.sw} > ${over.cw})`);
-  // the top bar (brand, Atlas/Fighters switch, tools) must fit the phone width on every screen
-  for (const hash of ['#/fighters/mexico/brazil', '#/japan', '#/']) {
-    await mobile.goto(`${BASE}/${hash}`, { waitUntil: 'networkidle' });
+  for (const h of ['#/trees', '#/japan', '#/']) {
+    await mobile.goto(`${BASE}/${h}`, { waitUntil: 'networkidle' });
     await mobile.waitForTimeout(700);
     const bar = await mobile.evaluate(() => {
       const kids = [...document.getElementById('topbar').querySelectorAll('a,button')].filter((e) => e.offsetParent !== null).map((e) => e.getBoundingClientRect());
       return { right: Math.max(...kids.map((k) => k.right)), vw: innerWidth };
     });
-    bar.right <= bar.vw ? ok(`phone: top bar fits on ${hash} (${Math.round(bar.right)} of ${bar.vw}px)`) : note(`phone: top bar overflows on ${hash} (${Math.round(bar.right)} > ${bar.vw})`);
+    bar.right <= bar.vw ? ok(`phone: top bar fits on ${h} (${Math.round(bar.right)} of ${bar.vw}px)`) : note(`phone: top bar overflows on ${h} (${Math.round(bar.right)} > ${bar.vw})`);
   }
-  mobile.__logs.forEach((l) => note(`fighters (phone) console: ${l}`));
+  mobile.__logs.forEach((l) => note(`trees (phone) console: ${l}`));
   await mobile.__ctx.close();
 }
-
 const browser = await chromium.launch({ channel: 'chrome', headless: true });
 try {
-  if (mode === 'fighters' || mode === 'all') await fighters(browser);
+  if (mode === 'trees' || mode === 'all') await trees(browser);
   if (mode === 'shots' || mode === 'all') await shots(browser);
   if (mode === 'geometry' || mode === 'all') await geometry(browser);
   if (mode === 'a11y' || mode === 'all') await a11y(browser);

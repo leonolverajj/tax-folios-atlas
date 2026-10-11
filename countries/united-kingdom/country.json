@@ -1,0 +1,115 @@
+{
+  "id": "united-kingdom",
+  "iso3": "GBR",
+  "isoNumeric": "826",
+  "names": { "en": "United Kingdom", "native": "United Kingdom", "nativeLang": "en-GB" },
+  "currency": { "code": "GBP", "symbol": "£", "name": "Pound sterling" },
+  "summary": "The United Kingdom is one of the most centralised tax systems among large countries. The UK government collects around 95% of all tax: income tax, National Insurance, VAT and corporation tax alone are about four fifths. Scotland and Wales have devolved powers over some taxes (Scottish income tax rates, property transaction taxes), and local authorities raise council tax and, in England, share business rates with the Treasury.",
+  "structureNote": "The devolved governments’ taxes are drawn on their own branch to show devolution, but the largest of them, Scottish income tax, is collected by HMRC and already counted in the UK income tax, so it keeps a small neutral size; the property transaction taxes are outside the national total (about 0.1% of it). Business rates are set nationally and collected by councils in England, which keep 62% locally and pass the rest to the Treasury; the figure used is the net income of English councils only, so the devolved nations’ non-domestic rates (about £5 billion together) are not included. Vehicle excise duty is collected by the DVLA, not HMRC, and comes from the OBR databank. The BBC licence fee, a compulsory charge, is not counted as a tax.",
+  "theme": {
+    "accent": "#c8d4ff",
+    "accent2": "#cf142b",
+    "motif": "topo",
+    "motifNote": "Topographic contour lines over the outline of the British Isles (the generic motif; no bespoke art yet).",
+    "mapLabel": { "lon": -2.5, "lat": 54 }
+  },
+  "levels": [
+    {
+      "id": "uk-government",
+      "branch": "national",
+      "names": { "official": "His Majesty’s Government (HM Treasury and HMRC)", "native": "UK Government", "common": "UK government" },
+      "description": "HM Revenue and Customs collects almost every tax, with the DVLA collecting vehicle excise duty. Parliament decides every tax and the Treasury sets the rates in the annual Finance Bill, which is why there is only one tax year for the whole country.",
+      "fiscalPower": "Parliament is sovereign and can legislate for the whole country on tax. Devolved legislatures act under the Scotland Act 1998 (as amended in 2012 and 2016) and the Government of Wales Act 2006 (as amended by the Wales Acts 2014 and 2017).",
+      "legalRefs": [{ "sourceId": "scotland-act-2016" }, { "sourceId": "wales-act-2014" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "devolved-governments",
+      "branch": "regional",
+      "names": {
+        "official": "Devolved governments (Scottish Government, Welsh Government)",
+        "native": "Devolved governments",
+        "common": "Devolved governments"
+      },
+      "description": "The Scottish and Welsh governments set the rates and bands of income tax on non-savings, non-dividend income in their territory, and run their own taxes on property transactions and landfill. Northern Ireland raises regional rates. HMRC collects the Scottish and Welsh income taxes on their behalf.",
+      "fiscalPower": "Scotland Act 2016 devolved income tax rates and bands (not the personal allowance), and powers over land and buildings transaction tax and landfill tax; the Wales Act 2014 devolved land transaction tax and landfill disposals tax and, from 2019, Welsh rates of income tax.",
+      "legalRefs": [{ "sourceId": "scotland-act-2016" }, { "sourceId": "wales-act-2014" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "local-authorities",
+      "branch": "local",
+      "names": { "official": "Local authorities (councils)", "native": "Local authorities", "common": "Local authorities" },
+      "description": "Councils in England, Scotland and Wales bill council tax on domestic property; in England they also collect business rates, keeping part and passing part to the Treasury under the business rates retention scheme.",
+      "fiscalPower": "The Local Government Finance Act 1992 creates council tax and lets councils set it within limits (in England above a referendum threshold); the Local Government Finance Act 1988 created the national non-domestic rates.",
+      "legalRefs": [{ "sourceId": "lgfa-1992" }, { "sourceId": "lgfa-1988" }],
+      "checkedOn": "2026-10-10"
+    }
+  ],
+  "supportingSourceIds": ["hmrc-bulletin-2025-26", "gov-income-tax-rates", "gov-ni-rates-2026-27"],
+  "denominators": [
+    {
+      "id": "hmrc-taxes-2025-26",
+      "label": "Taxes and National Insurance contributions collected by HMRC, 2025-26",
+      "definition": "Taxes and duties plus National Insurance contributions as recorded in HMRC’s Trust Statement for the year to 31 March 2026: income tax, VAT, corporation tax, capital gains tax, hydrocarbon oils, stamp taxes, alcohol, tobacco, customs, insurance premium tax, inheritance tax, air passenger duty, apprenticeship levy, betting and gaming and the sector levies.",
+      "levelIds": ["uk-government"],
+      "amount": 958400,
+      "scale": "million",
+      "currency": "GBP",
+      "period": { "label": "FY2025-26", "kind": "fiscal-year", "start": "2025-04-01", "end": "2026-03-31" },
+      "sourceId": "hmrc-ara-2025-26",
+      "locator": "Trust Statement: Total taxes and duties 756.2 + National Insurance contributions 202.2 (£bn)",
+      "calculation": "756,200 + 202,200 = 958,400 (£ million; HMRC publishes £bn to one decimal)",
+      "caveat": "Accrual basis, before the disbursement of National Insurance to the National Insurance Fund and the NHS. Includes Scottish and Welsh income tax. Excludes the devolved property transaction taxes, vehicle excise duty (DVLA), business rates, council tax, student loan recoveries and fines.",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "vehicle-excise-duty-2025-26",
+      "label": "Vehicle excise duty, 2025-26",
+      "definition": "The annual duty on registered vehicles, collected by the DVLA.",
+      "levelIds": ["uk-government"],
+      "amount": 9030,
+      "scale": "million",
+      "currency": "GBP",
+      "period": { "label": "FY2025-26", "kind": "fiscal-year", "start": "2025-04-01", "end": "2026-03-31" },
+      "sourceId": "obr-databank-2026-09",
+      "locator": "Receipts (£bn): Vehicle excise duties, 2025-26 (9.03)",
+      "caveat": "OBR databank, national accounts basis; not part of the HMRC Trust Statement.",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "council-tax-2025-26",
+      "label": "Council tax, 2025-26",
+      "definition": "Council tax billed on domestic property in Great Britain and domestic rates in Northern Ireland, as recorded in the national accounts.",
+      "levelIds": ["local-authorities"],
+      "amount": 50440,
+      "scale": "million",
+      "currency": "GBP",
+      "period": { "label": "FY2025-26", "kind": "fiscal-year", "start": "2025-04-01", "end": "2026-03-31" },
+      "sourceId": "obr-databank-2026-09",
+      "locator": "Receipts (£bn): Council tax, 2025-26 (50.44)",
+      "caveat": "OBR databank, national accounts basis (outturn). Net of reductions and discounts.",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "business-rates-england-2025-26",
+      "label": "Business rates (non-domestic rates), England, 2025-26",
+      "definition": "Net non-domestic rates income reported by English local authorities, after reliefs, losses in collection and appeals.",
+      "levelIds": ["local-authorities"],
+      "amount": 27600,
+      "scale": "million",
+      "currency": "GBP",
+      "period": { "label": "FY2025-26", "kind": "fiscal-year", "start": "2025-04-01", "end": "2026-03-31" },
+      "sourceId": "mhclg-nndr-2025-26",
+      "locator": "Net rating income 2025-26 (outturn): £27.6 billion",
+      "caveat": "England only: Scotland, Wales and Northern Ireland raise non-domestic rates of their own (about £5 billion together) that are not included. Councils keep 62% locally and 38% goes to central government.",
+      "accessed": "2026-10-10"
+    }
+  ],
+  "sizing": {
+    "label": "Taxes and National Insurance contributions of all levels of government",
+    "definition": "HMRC taxes and National Insurance (accrual, 2025-26) + vehicle excise duty + council tax + English business rates, all for the year to 31 March 2026. Excludes devolved property transaction taxes (about 0.1%), non-domestic rates outside England, student loan recoveries, fines, the BBC licence fee and transfers between governments.",
+    "componentIds": ["hmrc-taxes-2025-26", "vehicle-excise-duty-2025-26", "council-tax-2025-26", "business-rates-england-2025-26"]
+  },
+  "researchStatus": "researched"
+}

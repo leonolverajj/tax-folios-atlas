@@ -1,6 +1,6 @@
 # Update checklist – Brazil
 
-Generated 2026-09-29 by `npm run checklist`. **Do not edit by hand** – edit the sources in `countries/brazil/sources.json` and re-run it.
+Generated 2026-10-11 by `npm run checklist`. **Do not edit by hand** – edit the sources in `countries/brazil/sources.json` and re-run it.
 
 Research status: **researched**. 1 source(s) to check or due, 0 coming up, 30 in total.
 
@@ -11,7 +11,7 @@ When you have worked through a row: update the data, set its `accessed` date, ru
 - [ ] **Carga Tributária no Brasil 2024 – Análise por Tributos e Bases de Incidência** – Receita Federal do Brasil (Centro de Estudos Tributários e Aduaneiros)
   - URL: https://www.gov.br/receitafederal/pt-br/centrais-de-conteudo/publicacoes/estudos/carga-tributaria/carga-tributaria-no-brasil-2024
   - Feeds: national-total parts: `total-tax-burden`; revenue of 21 core(s): `fed-irpf`, `fed-irrf`, `fed-irpj`, `fed-csll`, `fed-pis`, `fed-cofins`, `fed-inss`, `fed-ipi`, …
-  - Status: **CHECK** – figures end 2024-12-31 (21 months ago); a newer edition may exist (record `nextExpected` in sources.json once you know). Published 2025-12-02, accessed 2026-09-28, covers Calendar year 2024.
+  - Status: **CHECK** – figures end 2024-12-31 (22 months ago); a newer edition may exist (record `nextExpected` in sources.json once you know). Published 2025-12-02, accessed 2026-09-28, covers Calendar year 2024.
   - To do: Open the source, find the newest period, update the amounts in revenue.json (keep the published unit and scale) and the matching part in country.json, update period, locator, `accessed`, then run `npm run validate`.
   - Note: PDF 'CTB 2024_v2.pdf'. Table TRIB 00 gives revenue by tax and level of government (R$ millions, % of GDP, % of total). Since this edition FGTS and Sistema S are excluded from the tax burden.
 
@@ -20,21 +20,21 @@ When you have worked through a row: update the data, set its `accessed` date, ru
 
 - [ ] **Revenue Statistics in Latin America and the Caribbean 2025: Brazil (country note)** – OECD
   - URL: https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/05/revenue-statistics-in-latin-america-and-the-caribbean-2025-country-notes_29961c77/brazil_b08e62db/f6a5cb34-en.pdf
-  - Feeds: `structure.json` (cross-country profile)
+  - Feeds: `structure.json` (OECD level shares in the Trees table and the folio charts)
   - Status: yearly – OECD Revenue Statistics appear each December (OECD countries) and the Latin America edition each May. Published 2025-05-27, accessed 2026-09-29, covers Calendar year 2023.
   - To do: Check whether a newer edition exists. If so, replace the year, the level totals/shares and tax types in structure.json for EVERY country together (the layer is only comparable when all countries share one year), then `npm run validate`.
   - Note: Tax-to-GDP ratio and tax structure by OECD heading, national currency.
 
 - [ ] **Revenue Statistics in Latin America and the Caribbean 2025, Table 1.4: attribution of tax revenue to sub-sectors of general government** – OECD
   - URL: https://www.oecd.org/en/publications/revenue-statistics-in-latin-america-and-the-caribbean-2025_7594fbdd-en/full-report/tax-revenue-trends-1990-2023_ee246e3f.html
-  - Feeds: `structure.json` (cross-country profile)
+  - Feeds: `structure.json` (OECD level shares in the Trees table and the folio charts)
   - Status: yearly – OECD Revenue Statistics appear each December (OECD countries) and the Latin America edition each May. Published 2025-05-27, accessed 2026-09-29, covers Calendar year 2023.
   - To do: Check whether a newer edition exists. If so, replace the year, the level totals/shares and tax types in structure.json for EVERY country together (the layer is only comparable when all countries share one year), then `npm run validate`.
   - Note: Share of central, state, local government and social security funds in total tax revenue.
 
 - [ ] **World Observatory on Subnational Government Finance and Investment – country profile: Brazil** – OECD and United Cities and Local Governments (SNG-WOFI)
   - URL: https://www.sng-wofi.org/country_profiles/brazil.html
-  - Feeds: `structure.json` (cross-country profile)
+  - Feeds: `structure.json` (OECD level shares in the Trees table and the folio charts)
   - Status: yearly – OECD Revenue Statistics appear each December (OECD countries) and the Latin America edition each May. Published 2022-10-24, accessed 2026-09-29, covers 2020.
   - To do: Check whether a newer edition exists. If so, replace the year, the level totals/shares and tax types in structure.json for EVERY country together (the layer is only comparable when all countries share one year), then `npm run validate`.
   - Note: Subnational government revenue by category (tax revenue, grants and subsidies, tariffs and fees, property income, other) as % of total subnational revenue, 2022 edition.

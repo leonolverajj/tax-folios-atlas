@@ -1,0 +1,62 @@
+/* ---- section switch in the top bar (Atlas / Trees) ---- */
+.modes {
+  display: flex;
+  gap: 4px;
+  flex: none;
+  margin-left: 6px;
+}
+.modes a {
+  padding: 7px 15px;
+  border-radius: 999px;
+  border: 1px solid transparent;
+  color: var(--ink2);
+  text-decoration: none;
+  font-size: 13.5px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+.modes a:hover {
+  color: var(--ink);
+  background: rgba(255, 255, 255, 0.05);
+}
+.modes a[aria-current='page'] {
+  color: var(--ink);
+  border-color: rgba(243, 215, 142, 0.6);
+  background: rgba(243, 215, 142, 0.12);
+}
+.modes a:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 2px;
+}
+@media (max-width: 719px) {
+  /* brand mark + Atlas/Trees + four tools must fit a 360px phone */
+  .topbar {
+    gap: 8px;
+    padding: 0 10px;
+  }
+  .brand-mark {
+    width: 30px;
+    height: 30px;
+  }
+  .modes {
+    margin-left: 0;
+    gap: 2px;
+  }
+  .modes a {
+    padding: 6px 9px;
+    font-size: 12.5px;
+  }
+  .brand-name {
+    display: none;
+  }
+  .topbar-tools {
+    gap: 5px;
+    margin-left: auto;
+  }
+  .topbar-tools .tool {
+    width: 36px;
+    height: 36px;
+    padding: 0;
+    justify-content: center;
+  }
+}

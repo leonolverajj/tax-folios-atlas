@@ -1,0 +1,157 @@
+{
+  "groups": [
+    {
+      "title": "State and social security 2025 – INSEE table 3.217 (EUR million)",
+      "defaults": {
+        "denominatorId": "state-sec-taxes-2025",
+        "scale": "million",
+        "currency": "EUR",
+        "period": { "label": "2025 (provisional)", "kind": "calendar-year", "start": "2025-01-01", "end": "2025-12-31" },
+        "basis": "National accounts, taxes net of credits, provisional",
+        "sourceId": "insee-t3217-2025",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-10"
+      },
+      "observations": [
+        { "nodeId": "fr-vat", "amount": 208821, "locator": "Table 3.217: Taxe sur la valeur ajoutée (D211), 2025" },
+        {
+          "nodeId": "fr-income-tax",
+          "amount": 94310,
+          "locator": "Table 3.217: IRPP avant crédits d’impôt 103.626, moins crédits utilisés −7.173 et payés −2.143, 2025",
+          "calculation": "103,626 − 7,173 − 2,143 = 94,310 (EUR million)"
+        },
+        {
+          "nodeId": "fr-corporate-tax",
+          "amount": 60495,
+          "locator": "Table 3.217: IS avant crédits 69.473, crédits −3.930 et −6.199, contribution sociale +1.151, 2025",
+          "calculation": "69,473 − 3,930 − 6,199 + 1,151 = 60,495 (EUR million)"
+        },
+        { "nodeId": "fr-csg", "amount": 156583, "locator": "Table 3.217: Contribution sociale généralisée (CSG), 2025" },
+        { "nodeId": "fr-crds", "amount": 9270, "locator": "Table 3.217: Contribution au remboursement de la dette sociale (CRDS), 2025" },
+        {
+          "nodeId": "fr-capital-income-levies",
+          "amount": 19715,
+          "locator": "Table 3.217: Prélèvement de solidarité et autres contributions sociales 14.406 + Prélèvements sur les revenus de capitaux mobiliers 5.309, 2025",
+          "calculation": "14,406 + 5,309 = 19,715 (EUR million)"
+        },
+        {
+          "nodeId": "fr-social-contributions",
+          "amount": 446329,
+          "locator": "Table 3.217: Cotisations sociales effectives, 2025",
+          "caveat": "Not split by scheme in the INSEE table."
+        },
+        { "nodeId": "fr-ticpe", "amount": 30457, "locator": "Table 3.217: Accises sur les produits énergétiques (TICPE), 2025" },
+        {
+          "nodeId": "fr-other-energy-excises",
+          "amount": 12633,
+          "locator": "Table 3.217: TICFE 8.265 + TICGN 3.395 + Autres taxes sur l’énergie 0.973, 2025",
+          "calculation": "8,265 + 3,395 + 973 = 12,633 (EUR million)"
+        },
+        { "nodeId": "fr-tobacco", "amount": 13598, "locator": "Table 3.217: Accises sur les tabacs, 2025" },
+        { "nodeId": "fr-alcohol", "amount": 5106, "locator": "Table 3.217: Accises sur les alcools et autres boissons, 2025" },
+        {
+          "nodeId": "fr-inheritance-gift",
+          "amount": 21052,
+          "locator": "Table 3.217: Droits de mutation à titre gratuit (successions 16.07 + donations 4.98), 2025"
+        },
+        { "nodeId": "fr-wealth-tax", "amount": 2714, "locator": "Table 3.217: Impôt sur la fortune (IFI, ex ISF), 2025" },
+        {
+          "nodeId": "fr-insurance-taxes",
+          "amount": 20556,
+          "locator": "Table 3.217: TSCA 12.195 + Taxe de solidarité additionnelle 6.558 + Autres taxes sur contrats d’assurance 1.803, 2025",
+          "calculation": "12,195 + 6,558 + 1,803 = 20,556 (EUR million)"
+        },
+        { "nodeId": "fr-gambling", "amount": 7351, "locator": "Table 3.217: Prélèvements sur les jeux, casinos, paris sportifs et hippiques, 2025" },
+        { "nodeId": "fr-payroll-tax", "amount": 17606, "locator": "Table 3.217: Taxe sur les salaires, 2025" },
+        {
+          "nodeId": "fr-training-levy",
+          "amount": 11562,
+          "locator": "Table 3.217: Contributions pour la formation professionnelle et l’apprentissage, 2025"
+        },
+        {
+          "nodeId": "fr-other-payroll-levies",
+          "amount": 16725,
+          "locator": "Table 3.217: Forfait social 6.552 + FNAL 2.964 + CNSA 2.522 + PEEC 1.497 + AGS 1.74 + stock-options 1.45, 2025",
+          "calculation": "6,552 + 2,964 + 2,522 + 1,497 + 1,740 + 1,450 = 16,725 (EUR million)"
+        },
+        { "nodeId": "fr-c3s", "amount": 5337, "locator": "Table 3.217: Contribution sociale de solidarité des sociétés, 2025" },
+        { "nodeId": "fr-cvae", "amount": 3749, "locator": "Table 3.217: Cotisation sur la valeur ajoutée des entreprises, 2025" },
+        { "nodeId": "fr-customs", "amount": 2863, "locator": "Table 3.217: Droits d’importation au profit de l’Union Européenne, 2025" },
+        { "nodeId": "fr-financial-transactions-tax", "amount": 2567, "locator": "Table 3.217: Taxe sur les transactions financières, 2025" },
+        {
+          "nodeId": "fr-environmental-taxes",
+          "amount": 5571,
+          "locator": "Table 3.217: TGAP 1.136 + Redevances des agences de l’eau 2.22 + Quotas carbone 1.534 + Contributions des producteurs d’électricité 0.681, 2025",
+          "calculation": "1,136 + 2,220 + 1,534 + 681 = 5,571 (EUR million)"
+        },
+        {
+          "nodeId": "fr-other-business-taxes",
+          "amount": 5802,
+          "locator": "Table 3.217: IFER 2.299 + Taxes consulaires 1.313 + Taxes sur véhicules des entreprises 1.169 + Taxes sur les bureaux 1.021, 2025",
+          "calculation": "2,299 + 1,313 + 1,169 + 1,021 = 5,802 (EUR million)"
+        },
+        {
+          "nodeId": "fr-other-state-taxes",
+          "amount": 8771,
+          "locator": "Table 3.217: Droits d’enregistrement 20.207 moins DMTO 17.658 + malus 0.937 + taxes sur les ventes de produits pharmaceutiques 0.8 + services numériques 1.124 + spectacles 0.845 + services de transport 2.516, 2025",
+          "calculation": "2,549 + 937 + 800 + 1,124 + 845 + 2,516 = 8,771 (EUR million)"
+        }
+      ]
+    },
+    {
+      "title": "Regions and départements 2025 – INSEE table 3.217 (EUR million)",
+      "defaults": {
+        "denominatorId": "regional-taxes-2025",
+        "scale": "million",
+        "currency": "EUR",
+        "period": { "label": "2025 (provisional)", "kind": "calendar-year", "start": "2025-01-01", "end": "2025-12-31" },
+        "basis": "National accounts, provisional",
+        "sourceId": "insee-t3217-2025",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-10"
+      },
+      "observations": [
+        {
+          "nodeId": "fr-dmto",
+          "amount": 17658,
+          "locator": "Table 3.217: Droits d’enregistrement: dont DMTO en ressources des collectivités locales, 2025"
+        },
+        {
+          "nodeId": "fr-vehicle-registration",
+          "amount": 2594,
+          "locator": "Table 3.217: Taxe sur les certificats d’immatriculation des véhicules, 2025"
+        },
+        { "nodeId": "fr-octroi-de-mer", "amount": 1614, "locator": "Table 3.217: Octroi de mer des départements d’outre-mer, 2025" }
+      ]
+    },
+    {
+      "title": "Communes and groups 2025 – INSEE table 3.217 (EUR million)",
+      "defaults": {
+        "denominatorId": "communal-taxes-2025",
+        "scale": "million",
+        "currency": "EUR",
+        "period": { "label": "2025 (provisional)", "kind": "calendar-year", "start": "2025-01-01", "end": "2025-12-31" },
+        "basis": "National accounts, provisional",
+        "sourceId": "insee-t3217-2025",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-10"
+      },
+      "observations": [
+        { "nodeId": "fr-property-tax", "amount": 44179, "locator": "Table 3.217: Taxe foncière (ménages 27.015 + hors ménages 17.164), 2025" },
+        { "nodeId": "fr-business-property-tax", "amount": 8101, "locator": "Table 3.217: Cotisation foncière des entreprises, 2025" },
+        { "nodeId": "fr-versement-mobilite", "amount": 12751, "locator": "Table 3.217: Versement mobilité, 2025" },
+        { "nodeId": "fr-housing-tax", "amount": 2903, "locator": "Table 3.217: Taxe d’habitation, 2025" },
+        {
+          "nodeId": "fr-other-local-taxes",
+          "amount": 3842,
+          "locator": "Table 3.217: Taxe de séjour 1.291 + GEMAPI 0.587 + TASCOM 1.212 + Taxes adossées aux impôts fonciers 0.752, 2025",
+          "calculation": "1,291 + 587 + 1,212 + 752 = 3,842 (EUR million)"
+        }
+      ]
+    }
+  ],
+  "unavailable": []
+}

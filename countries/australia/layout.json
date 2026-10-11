@@ -1,0 +1,98 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "australia": {
+      "x": 800,
+      "y": 500
+    },
+    "commonwealth": {
+      "x": 509,
+      "y": 432
+    },
+    "states": {
+      "x": 1107,
+      "y": 472
+    },
+    "local-government": {
+      "x": 814,
+      "y": 700
+    },
+    "au-personal-income-tax": {
+      "x": 513,
+      "y": 773
+    },
+    "au-medicare-levy": {
+      "x": 238,
+      "y": 763
+    },
+    "au-fringe-benefits-tax": {
+      "x": 313,
+      "y": 601
+    },
+    "au-company-tax": {
+      "x": 106,
+      "y": 485
+    },
+    "au-super-fund-tax": {
+      "x": 321,
+      "y": 384
+    },
+    "au-withholding-nonresidents": {
+      "x": 263,
+      "y": 216
+    },
+    "au-gst": {
+      "x": 523,
+      "y": 223
+    },
+    "au-excise": {
+      "x": 658,
+      "y": 61
+    },
+    "au-customs": {
+      "x": 849,
+      "y": 172
+    },
+    "au-other-commonwealth": {
+      "x": 1101,
+      "y": 96
+    },
+    "au-payroll-tax": {
+      "x": 1005,
+      "y": 198
+    },
+    "au-stamp-duty": {
+      "x": 1365,
+      "y": 240
+    },
+    "au-land-tax": {
+      "x": 1251,
+      "y": 344
+    },
+    "au-motor-vehicle-taxes": {
+      "x": 1439,
+      "y": 676
+    },
+    "au-gambling-taxes": {
+      "x": 1301,
+      "y": 565
+    },
+    "au-insurance-taxes": {
+      "x": 910,
+      "y": 926
+    },
+    "au-other-state-taxes": {
+      "x": 1117,
+      "y": 759
+    },
+    "au-council-rates": {
+      "x": 829,
+      "y": 844
+    }
+  },
+  "radii": {}
+}

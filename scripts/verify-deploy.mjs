@@ -6,7 +6,7 @@
  *   node scripts/verify-deploy.mjs --sub=my-repo --dir=dist
  *
  * It serves dist/ under /<sub>/ (404 everywhere else, so an absolute "/assets/..." URL fails),
- * then opens the map, a folio, the charts and the Fighters screen in Chrome and fails on any
+ * then opens the map, a folio, the charts and the Trees screen in Chrome and fails on any
  * HTTP error or console error. It also checks that the site has no write endpoint.
  */
 import fs from 'node:fs';
@@ -110,12 +110,12 @@ try {
   charts >= 1 ? ok(`detail panel: ${charts} chart(s) for the selected tax`) : bad('detail panel: no chart');
   flush('folio');
 
-  await page.goto(`${BASE}#/fighters/canada/japan`, { waitUntil: 'networkidle' });
-  await page.waitForSelector('.arena .fighters canvas', { timeout: 15000 });
+  await page.goto(`${BASE}#/trees`, { waitUntil: 'networkidle' });
+  await page.waitForSelector('.tcard svg.tree', { timeout: 15000 });
   await page.waitForTimeout(500);
-  const stats = await page.locator('.hud .stat').count();
-  stats === 18 ? ok('fighters: both HUDs show 9 stats each') : bad(`fighters: ${stats} stat rows`);
-  flush('fighters');
+  const trees = await page.locator('.tcard svg.tree').count();
+  trees >= 17 ? ok(`trees: ${trees} skill trees drawn`) : bad(`trees: only ${trees} trees`);
+  flush('trees');
 
   // Reloading a deep link must work on a static host (routes live in the hash)
   await page.goto(`${BASE}#/brazil/state-icms`, { waitUntil: 'networkidle' });

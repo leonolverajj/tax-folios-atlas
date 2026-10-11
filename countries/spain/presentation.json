@@ -1,0 +1,31 @@
+{
+  "nodes": {
+    "spain": { "label": "España", "sublabel": "Fiscal folio", "glyph": "globe" },
+    "state": { "label": "Estado", "sublabel": "State · Social Security", "glyph": "landmark" },
+    "ccaa": { "label": "Communities", "sublabel": "17 + 2 cities", "glyph": "city" },
+    "local-entities": { "label": "Municipalities", "sublabel": "Local governments", "glyph": "town" },
+    "es-irpf-state": { "label": "Income tax (State)", "sublabel": "IRPF · State tariff", "glyph": "person" },
+    "es-corporate-tax": { "label": "Corporation tax", "sublabel": "IS · 25%", "glyph": "factory" },
+    "es-nonresident-income-tax": { "label": "Non-resident tax", "sublabel": "IRNR", "glyph": "globe" },
+    "es-vat": { "label": "VAT (IVA)", "sublabel": "21%", "glyph": "cart" },
+    "es-hydrocarbon-tax": { "label": "Fuel tax", "sublabel": "Hidrocarburos", "glyph": "flame" },
+    "es-tobacco-tax": { "label": "Tobacco tax", "sublabel": "Labores del Tabaco", "glyph": "smoke" },
+    "es-electricity-tax": { "label": "Electricity tax", "sublabel": "Electricidad", "glyph": "bolt" },
+    "es-alcohol-taxes": { "label": "Alcohol taxes", "sublabel": "Spirits · beer", "glyph": "wine" },
+    "es-plastics-tax": { "label": "Plastic packaging tax", "sublabel": "Envases", "glyph": "leaf" },
+    "es-customs": { "label": "Customs duties", "sublabel": "Tráfico exterior", "glyph": "ship" },
+    "es-insurance-premium-tax": { "label": "Insurance premium tax", "sublabel": "8%", "glyph": "shield" },
+    "es-bank-margin-tax": { "label": "Bank margin tax", "sublabel": "New tax", "glyph": "bank" },
+    "es-environmental-taxes": { "label": "Environmental taxes", "sublabel": "Energy · waste", "glyph": "leaf" },
+    "es-other-state-taxes": { "label": "Other State taxes", "sublabel": "Digital · financial · gases", "glyph": "stamp" },
+    "es-fees": { "label": "Fees (tasas)", "sublabel": "Outside the total", "glyph": "stamp" },
+    "es-social-security": { "label": "Social Security", "sublabel": "Cotizaciones", "glyph": "shield" },
+    "es-irpf-autonomic": { "label": "Income tax (regional)", "sublabel": "IRPF · autonomic tariff", "glyph": "person" },
+    "es-transfer-tax": { "label": "Transfer tax", "sublabel": "ITP · AJD", "glyph": "key" },
+    "es-inheritance-gift-tax": { "label": "Inheritance tax", "sublabel": "Sucesiones", "glyph": "scroll" },
+    "es-wealth-tax": { "label": "Wealth tax", "sublabel": "Patrimonio", "glyph": "gem" },
+    "es-other-ccaa-taxes": { "label": "Other regional taxes", "sublabel": "Gambling · vehicles · own", "glyph": "stamp" },
+    "es-ibi": { "label": "Property tax (IBI)", "sublabel": "Cadastral value", "glyph": "house" },
+    "es-other-local-taxes": { "label": "Other local taxes", "sublabel": "IAE · IVTM · ICIO · plusvalía", "glyph": "town" }
+  }
+}

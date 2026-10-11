@@ -1,0 +1,123 @@
+{
+  "groups": [
+    {
+      "title": "National taxes 2025 – NABO Focus No. 137 (trillion won)",
+      "defaults": {
+        "denominatorId": "national-taxes-2025",
+        "scale": "trillion",
+        "currency": "KRW",
+        "period": { "label": "2025", "kind": "calendar-year", "start": "2025-01-01", "end": "2025-12-31" },
+        "basis": "Year-end actual revenue of the national taxes, trillion won to one decimal",
+        "sourceId": "nabo-focus-137",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-11"
+      },
+      "observations": [
+        { "nodeId": "kr-income-tax", "amount": 130.5, "locator": "Table 1: Income tax (소득세), actual 2025" },
+        { "nodeId": "kr-corporate-tax", "amount": 84.6, "locator": "Table 1: Corporate tax (법인세), actual 2025" },
+        { "nodeId": "kr-vat", "amount": 79.2, "locator": "Table 1: Value-added tax (부가가치세), actual 2025" },
+        { "nodeId": "kr-inheritance-gift-tax", "amount": 16.5, "locator": "Table 1: Inheritance and gift tax (상속세 및 증여세), actual 2025" },
+        { "nodeId": "kr-tee-tax", "amount": 13.2, "locator": "Table 1: Transportation, energy and environment tax (교통·에너지·환경세), actual 2025" },
+        { "nodeId": "kr-individual-consumption-tax", "amount": 8.5, "locator": "Table 1: Individual consumption tax (개별소비세), actual 2025" },
+        { "nodeId": "kr-customs", "amount": 7.6, "locator": "Table 1: Customs duties (관세), actual 2025" },
+        {
+          "nodeId": "kr-comprehensive-real-estate-tax",
+          "amount": 4.7,
+          "locator": "Table 1: Comprehensive real estate holding tax (종합부동산세), actual 2025"
+        },
+        { "nodeId": "kr-securities-transaction-tax", "amount": 3.4, "locator": "Table 1: Securities transaction tax (증권거래세), actual 2025" },
+        {
+          "nodeId": "kr-rural-special-tax",
+          "amount": 9.2,
+          "locator": "Text of NABO Focus 137, p. 4: “rural special tax (9.2 trillion won)”, actual 2025"
+        },
+        {
+          "nodeId": "kr-education-tax",
+          "amount": 5.7,
+          "locator": "Press report of the ministry’s results: education tax (교육세) 5.7 trillion won, 2025",
+          "caveat": "Taken from a news report; the ministry’s own table by tax was not read."
+        },
+        {
+          "nodeId": "kr-liquor-stamp-other",
+          "amount": 10.8,
+          "locator": "Table 1: Other (기타) 25.7 less rural special tax 9.2 less education tax 5.7",
+          "calculation": "25.7 − 9.2 − 5.7 = 10.8 (trillion won)",
+          "coverage": "broader",
+          "coverageNote": "Includes arrears of earlier years, which are not a tax."
+        }
+      ]
+    },
+    {
+      "title": "Social insurance collections 2025 – National Health Insurance Service (KRW million)",
+      "defaults": {
+        "denominatorId": "social-insurance-4-2025",
+        "scale": "million",
+        "currency": "KRW",
+        "period": { "label": "2025", "kind": "calendar-year", "start": "2025-01-01", "end": "2025-12-31" },
+        "basis": "Collected contributions incl. arrears, all insured groups",
+        "sourceId": "nhis-4ins-2025",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-11"
+      },
+      "observations": [
+        { "nodeId": "kr-national-pension", "amount": 61598139, "locator": "National pension: collected amount 2025 (징수액)" },
+        { "nodeId": "kr-health-insurance", "amount": 87166765, "locator": "Health insurance: collected amount 2025 (징수액)" },
+        { "nodeId": "kr-employment-insurance", "amount": 17378771, "locator": "Employment insurance: collected amount 2025 (징수액)" },
+        { "nodeId": "kr-industrial-accident-insurance", "amount": 7263127, "locator": "Industrial accident insurance: collected amount 2025 (징수액)" }
+      ]
+    },
+    {
+      "title": "Long-term care insurance collections 2025 – National Health Insurance Service (KRW million)",
+      "defaults": {
+        "denominatorId": "ltc-insurance-2025",
+        "scale": "million",
+        "currency": "KRW",
+        "period": { "label": "2025", "kind": "calendar-year", "start": "2025-01-01", "end": "2025-12-31" },
+        "basis": "Collected premiums incl. arrears",
+        "sourceId": "nhis-ltc-2025",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-11"
+      },
+      "observations": [{ "nodeId": "kr-long-term-care-insurance", "amount": 11162408, "locator": "Long-term care: collected amount 2025 (징수액)" }]
+    },
+    {
+      "title": "Local taxes 2025 (provisional) – Ministry of the Interior and Safety (billion won)",
+      "defaults": {
+        "denominatorId": "local-taxes-2025",
+        "scale": "billion",
+        "currency": "KRW",
+        "period": { "label": "2025 (provisional)", "kind": "calendar-year", "start": "2025-01-01", "end": "2025-12-31" },
+        "basis": "Provisional collections by tax, rounded to 10 billion won in the source",
+        "sourceId": "mois-local-tax-2025",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-11"
+      },
+      "observations": [
+        {
+          "nodeId": "kr-acquisition-tax",
+          "amount": 27510,
+          "locator": "Annex: Acquisition tax (취득세), 2025 provisional (2,751 in units of 10 billion won)"
+        },
+        { "nodeId": "kr-local-consumption-tax", "amount": 26780, "locator": "Annex: Local consumption tax (지방소비세), 2025 provisional (2,678)" },
+        { "nodeId": "kr-local-income-tax", "amount": 22870, "locator": "Annex: Local income tax (지방소득세), 2025 provisional (2,287)" },
+        { "nodeId": "kr-property-tax", "amount": 15820, "locator": "Annex: Property tax (재산세), 2025 provisional (1,582)" },
+        { "nodeId": "kr-car-tax", "amount": 7940, "locator": "Annex: Car tax (자동차세), 2025 provisional (794)" },
+        { "nodeId": "kr-local-education-tax", "amount": 7390, "locator": "Annex: Local education tax (지방교육세), 2025 provisional (739)" },
+        { "nodeId": "kr-tobacco-consumption-tax", "amount": 3440, "locator": "Annex: Tobacco consumption tax (담배소비세), 2025 provisional (344)" },
+        { "nodeId": "kr-resident-tax", "amount": 2850, "locator": "Annex: Resident tax (주민세), 2025 provisional (285)" },
+        { "nodeId": "kr-registration-license-tax", "amount": 2030, "locator": "Annex: Registration licence tax (등록면허세), 2025 provisional (203)" },
+        {
+          "nodeId": "kr-regional-resource-facility-tax",
+          "amount": 1980,
+          "locator": "Annex: Regional resource and facility tax (지역자원시설세), 2025 provisional (198)"
+        },
+        { "nodeId": "kr-leisure-tax", "amount": 850, "locator": "Annex: Leisure tax (레저세), 2025 provisional (85)" }
+      ]
+    }
+  ],
+  "unavailable": []
+}

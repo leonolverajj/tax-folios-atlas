@@ -1,0 +1,649 @@
+{
+  "instruments": [
+    {
+      "id": "kr-income-tax",
+      "parentId": "national",
+      "levelId": "national",
+      "category": "tax",
+      "family": "income-personal",
+      "status": "current",
+      "names": { "official": "Income tax (comprehensive, capital gains, retirement and forestry income)", "native": "소득세", "common": "Personal income tax" },
+      "taxes": {
+        "base": "Income of individuals: wages, business income, interest and dividends above KRW 20 million, pensions and other income are added together (comprehensive income); capital gains on real estate and shares, retirement income and forestry income are taxed separately.",
+        "payer": "Individuals; employers withhold on wages every month and settle at year end; others file in May."
+      },
+      "rate": {
+        "kind": "progressive",
+        "headline": "6%–45% (8 brackets)",
+        "details": [
+          "Comprehensive income: 6% up to KRW 14 million, 15% to 50 million, 24% to 88 million, 35% to 150 million, 38% to 300 million, 40% to 500 million, 42% to 1 billion, 45% above.",
+          "Local income tax adds 10% of the tax due, so the top combined rate is 49.5%.",
+          "Capital gains on real estate follow the same brackets (plus surcharges for some holdings); gains on overseas shares are taxed at 22% (20% plus local income tax)."
+        ],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "The largest national tax. Wage-earners’ tax is more than half of it (68.4 of 130.5 trillion won in 2025), capital gains tax 19.9 and tax on interest 7.0, as NABO reports.",
+      "exceptions": ["Withholding on wages is by a monthly schedule; a large share of employees’ tax is settled at year end."],
+      "legalRefs": [{ "sourceId": "income-tax-act", "locator": "Art. 55 (rates)" }, { "sourceId": "nabo-focus-137", "locator": "Table 1" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "kr-corporate-tax",
+      "parentId": "national",
+      "levelId": "national",
+      "category": "tax",
+      "family": "income-corporate",
+      "status": "current",
+      "names": { "official": "Corporate tax", "native": "법인세", "common": "Corporate tax" },
+      "taxes": {
+        "base": "Net income of companies resident in Korea (worldwide) and Korean-source income of foreign companies, after deductions and credits.",
+        "payer": "Companies; large firms pay half-yearly and in the annual return, plus withholding on certain income."
+      },
+      "rate": {
+        "kind": "progressive",
+        "headline": "9%–24% (10%–25% from 2026)",
+        "details": [
+          "2025: 9% up to KRW 200 million, 19% to 20 billion, 21% to 300 billion, 24% above.",
+          "From 2026, each bracket rises by one point: 10%, 20%, 22%, 25% (NABO, 2025 tax revision).",
+          "Local income tax adds 10% of the tax due. A domestic top-up tax for the global minimum tax starts in 2026."
+        ],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "The largest rise of any tax in 2025: 84.6 trillion won, 22.1 trillion more than in 2024, as profits of exporters (chips) recovered.",
+      "exceptions": [],
+      "legalRefs": [
+        { "sourceId": "corporate-tax-act", "locator": "Art. 55" },
+        { "sourceId": "nabo-tax-revision-2025", "locator": "Table 13" },
+        { "sourceId": "nabo-focus-137", "locator": "p. 2" }
+      ],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "kr-vat",
+      "parentId": "national",
+      "levelId": "national",
+      "category": "tax",
+      "family": "general-consumption",
+      "status": "current",
+      "names": { "official": "Value-added tax", "native": "부가가치세", "common": "VAT", "abbreviation": "VAT" },
+      "taxes": {
+        "base": "Supplies of goods and services in Korea and imports, with input tax credit.",
+        "payer": "Consumers; businesses charge it and remit the difference; customs collects it on imports."
+      },
+      "rate": {
+        "kind": "flat",
+        "headline": "10% on most supplies",
+        "details": [
+          "Exports and international transport are zero-rated.",
+          "Unprocessed food, health care, education, financial services and some others are exempt."
+        ],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "A single-rate VAT. The revenue shown is what the central government keeps: a fixed share of total VAT is passed to local governments as the local consumption tax (25.3% in 2025: 26.78 / (79.2 + 26.78)).",
+      "exceptions": ["Revenue fell in 2025 (to 79.2 from 82.2 trillion won) because refunds on higher exports and equipment investment rose."],
+      "legalRefs": [{ "sourceId": "vat-act", "locator": "Art. 30 (rate)" }, { "sourceId": "nabo-focus-137", "locator": "Table 1" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "kr-inheritance-gift-tax",
+      "parentId": "national",
+      "levelId": "national",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "Inheritance tax and gift tax", "native": "상속세 및 증여세", "common": "Inheritance and gift tax" },
+      "taxes": {
+        "base": "The whole estate of a deceased person (an estate tax, not a tax on each heir) and gifts received, including gifts made up to ten years before death.",
+        "payer": "Heirs and donees, jointly liable for the estate tax."
+      },
+      "rate": {
+        "kind": "progressive",
+        "headline": "10%–50% (5 brackets)",
+        "details": [
+          "10% up to KRW 100 million, 20% to 500 million, 30% to 1 billion, 40% to 3 billion, 50% above.",
+          "Large shareholders’ stock is valued with a surcharge. A deduction for the surviving spouse can reach KRW 3 billion."
+        ],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "Revenue rose 7.7% in 2025 with higher property prices and more gifts in Seoul, NABO says.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "inheritance-gift-act", "locator": "Arts. 26, 56" }, { "sourceId": "nabo-focus-137", "locator": "Table 1" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "kr-tee-tax",
+      "parentId": "national",
+      "levelId": "national",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Transportation, energy and environment tax", "native": "교통ㆍ에너지ㆍ환경세", "common": "Fuel tax" },
+      "taxes": { "base": "Gasoline, diesel and similar motor fuels, per litre.", "payer": "Refiners and importers; passed on at the pump." },
+      "rate": {
+        "kind": "specific",
+        "headline": "Per litre, with a flexible rate set by decree",
+        "details": [
+          "Base amounts of KRW 529 per litre of gasoline and 375 for diesel, which the government lowers by decree (the cuts reproduce these bases exactly). NABO’s table shows gasoline at KRW 396.7 per litre in early 2024, 476 from May 2025 and 492 from November 2025; diesel at 238, 319 and 337.5.",
+          "The education tax adds a 15% surtax on the amount due."
+        ],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "Revenue rose 1.8 trillion won in 2025 as part of the temporary fuel-tax cut was withdrawn.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "tee-act", "locator": "Art. 5" }, { "sourceId": "nabo-focus-137", "locator": "p. 4" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "kr-individual-consumption-tax",
+      "parentId": "national",
+      "levelId": "national",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Individual consumption tax", "native": "개별소비세", "common": "Special consumption tax" },
+      "taxes": {
+        "base": "Motor vehicles, certain luxury goods (jewellery, furs and similar), and admission to casinos and some other designated places.",
+        "payer": "Producers and importers; passed on in the price."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "By item; 5% on motor vehicles",
+        "details": [
+          "Rates are set for each item in the Act; fuel is taxed separately by the transportation-energy-environment tax.",
+          "The education tax adds a surtax on the amount due."
+        ],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "Mainly a tax on new cars, so it follows vehicle sales.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "icta", "locator": "Art. 1" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "kr-customs",
+      "parentId": "national",
+      "levelId": "national",
+      "category": "customs-duty",
+      "family": "trade",
+      "status": "current",
+      "names": { "official": "Customs duties", "native": "관세", "common": "Customs duties" },
+      "taxes": {
+        "base": "Imported goods, by the tariff schedule (ad valorem or specific rates), reduced or removed under free trade agreements.",
+        "payer": "Importers."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "By tariff line",
+        "details": ["Preferential rates apply to imports from countries with a free trade agreement."],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "Collected by the Korea Customs Service, which also collects VAT and other taxes on imports.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "customs-act", "locator": "Art. 49" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "kr-comprehensive-real-estate-tax",
+      "parentId": "national",
+      "levelId": "national",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "Comprehensive real estate holding tax", "native": "종합부동산세", "common": "Comprehensive real estate tax" },
+      "taxes": {
+        "base": "The sum of a person’s homes and of land above a threshold: homes above KRW 900 million per person (KRW 1.2 billion for the owner of a single home), at a share of the official price.",
+        "payer": "Owners of high-value property, in addition to the local property tax."
+      },
+      "rate": {
+        "kind": "progressive",
+        "headline": "Homes 0.5%–2.7% (up to 5.0% for 3+ homes)",
+        "details": ["Homes: 0.5%–2.7% for up to two homes, 0.5%–5.0% for three or more.", "Land: 1%–3% for aggregated land, 0.5%–0.7% for business land."],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "A national tax on top of the local property tax, paid by few households; revenue was 4.7 trillion won in 2025.",
+      "exceptions": ["A 20% rural special tax surtax is levied on the amount due."],
+      "legalRefs": [{ "sourceId": "crehta", "locator": "Arts. 8, 9, 14" }, { "sourceId": "nabo-focus-137", "locator": "Table 1" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "kr-securities-transaction-tax",
+      "parentId": "national",
+      "levelId": "national",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "Securities transaction tax", "native": "증권거래세", "common": "Securities transaction tax" },
+      "taxes": {
+        "base": "The sale price of shares and some other securities traded on KOSDAQ, KONEX and over the counter (shares on the KOSPI carry the rural special tax instead).",
+        "payer": "The seller; brokers withhold."
+      },
+      "rate": {
+        "kind": "flat",
+        "headline": "0.15% in 2025",
+        "details": ["Cut by 0.03 percentage points in 2025, which lowered revenue by 1.3 trillion won (NABO)."],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "Revenue fell to 3.4 trillion won in 2025 despite higher trading, because of the rate cut.",
+      "exceptions": ["On KOSPI-listed shares the 0.15% is collected as rural special tax; NABO ties the 2025 rise in that tax to KOSPI turnover."],
+      "legalRefs": [{ "sourceId": "stta", "locator": "Art. 8" }, { "sourceId": "nabo-focus-137", "locator": "p. 4" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "kr-rural-special-tax",
+      "parentId": "national",
+      "levelId": "national",
+      "category": "tax",
+      "family": "other",
+      "status": "current",
+      "names": { "official": "Special tax for rural development", "native": "농어촌특별세", "common": "Rural special tax" },
+      "taxes": {
+        "base": "Share sales on the KOSPI, and surtaxes on the amount of certain tax breaks and on acquisition tax, leisure tax and the comprehensive real estate tax.",
+        "payer": "Whoever owes the underlying tax or sells KOSPI shares."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "0.15% on KOSPI trades; 10%–20% surtaxes",
+        "details": ["An earmarked tax: proceeds fund rural and fishing communities."],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "Revenue jumped by 2.2 trillion won to 9.2 trillion won in 2025, mostly as KOSPI trading rose (NABO).",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "rural-tax-act" }, { "sourceId": "nabo-focus-137", "locator": "p. 4" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "kr-education-tax",
+      "parentId": "national",
+      "levelId": "national",
+      "category": "tax",
+      "family": "other",
+      "status": "current",
+      "names": { "official": "Education tax", "native": "교육세", "common": "Education tax" },
+      "taxes": {
+        "base": "The revenue of financial and insurance companies, and a surtax on the individual consumption tax, the transportation-energy-environment tax and the liquor tax.",
+        "payer": "Banks, insurers and others in finance; the payers of the underlying excises."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "0.5% of financial revenue; surtaxes on excises",
+        "details": ["From 2026 revenue above KRW 1 trillion is taxed at 1.0% (NABO, 2025 tax revision)."],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "An earmarked tax that funds education. Its 2025 revenue (5.7 trillion won) comes from a press report of the ministry’s figures, not from an official table.",
+      "exceptions": [],
+      "legalRefs": [
+        { "sourceId": "education-tax-act", "locator": "Art. 5" },
+        { "sourceId": "nabo-tax-revision-2025", "locator": "Table 18" },
+        { "sourceId": "tfmedia-2025-tax" }
+      ],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "kr-liquor-stamp-other",
+      "parentId": "national",
+      "levelId": "national",
+      "category": "tax",
+      "family": "other",
+      "status": "current",
+      "names": {
+        "official": "Liquor tax, stamp tax and other national revenue (including arrears of earlier years)",
+        "native": "주세, 인지세 및 기타",
+        "common": "Liquor, stamp tax and other"
+      },
+      "taxes": {
+        "base": "Liquor tax: beer, spirits and other alcohol by volume or price. Stamp tax: fixed amounts on documents that create or transfer property rights. Other: arrears of earlier years collected in 2025.",
+        "payer": "Producers and importers of alcohol; parties to the documents."
+      },
+      "rate": { "kind": "varies", "headline": "By item", "details": ["The sources read do not split this line."], "asOf": "2026-10-11" },
+      "explanation": "What remains of NABO’s “other” line (25.7 trillion won) after the rural special tax and the education tax. It holds at least two taxes with their own Acts (liquor and stamp) and the arrears of earlier years, which cannot be assigned to a tax.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "liquor-tax-act" }, { "sourceId": "stamp-tax-act" }, { "sourceId": "nabo-focus-137", "locator": "Table 1, note 2" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "kr-national-pension",
+      "parentId": "national",
+      "levelId": "national",
+      "category": "social-contribution",
+      "family": "social-security",
+      "status": "current",
+      "names": { "official": "National Pension contributions", "native": "국민연금 보험료", "common": "National Pension" },
+      "taxes": {
+        "base": "Monthly income of employees and the self-employed between a lower and an upper limit.",
+        "payer": "Employees and employers (half each); the self-employed pay the whole rate."
+      },
+      "rate": {
+        "kind": "flat",
+        "headline": "9% of income (4.5% + 4.5%)",
+        "details": ["The 2025 amendment raises it by 0.5 points a year from 2026 to 13% in 2033."],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "The public old-age pension, run by the National Pension Service. Collections were 61.6 trillion won in 2025.",
+      "exceptions": ["Public servants, soldiers and private-school staff belong to separate schemes that are not drawn here."],
+      "legalRefs": [{ "sourceId": "national-pension-act", "locator": "Art. 88" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "kr-health-insurance",
+      "parentId": "national",
+      "levelId": "national",
+      "category": "social-contribution",
+      "family": "social-security",
+      "status": "current",
+      "names": { "official": "National Health Insurance premiums", "native": "건강보험료", "common": "Health insurance" },
+      "taxes": {
+        "base": "Employees’ monthly pay (and other income above a threshold); for the self-employed and others, income and property by a points system.",
+        "payer": "Employees and employers (half each); the self-employed and others pay in full."
+      },
+      "rate": { "kind": "flat", "headline": "7.09% of pay in 2025 (3.545% + 3.545%)", "details": ["7.19% in 2026."], "asOf": "2026-10-11" },
+      "explanation": "One public health insurer covers the whole population; premiums are collected by the National Health Insurance Service, the largest of the five schemes.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "nhi-act", "locator": "Art. 73" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "kr-long-term-care-insurance",
+      "parentId": "national",
+      "levelId": "national",
+      "category": "social-contribution",
+      "family": "social-security",
+      "status": "current",
+      "names": { "official": "Long-term care insurance premiums", "native": "장기요양보험료", "common": "Long-term care insurance" },
+      "taxes": { "base": "The same income as the health insurance premium.", "payer": "Everyone who pays the health insurance premium." },
+      "rate": {
+        "kind": "flat",
+        "headline": "0.9182% of income in 2025",
+        "details": ["Equal to 12.95% of the health premium. The rate was raised to 0.9448% in 2026."],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "Insurance for care of the frail elderly, billed together with health insurance.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ltc-act", "locator": "Art. 8" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "kr-employment-insurance",
+      "parentId": "national",
+      "levelId": "national",
+      "category": "social-contribution",
+      "family": "social-security",
+      "status": "current",
+      "names": { "official": "Employment insurance premiums", "native": "고용보험료", "common": "Employment insurance" },
+      "taxes": {
+        "base": "Wages of employees.",
+        "payer": "Employees and employers; the employer also pays for the employment stability and vocational skills programmes."
+      },
+      "rate": {
+        "kind": "flat",
+        "headline": "1.8% for unemployment benefit (0.9% + 0.9%)",
+        "details": ["The employer pays a further 0.25%–0.85% for employment stability and vocational skills, by firm size."],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "Unemployment benefit and training schemes, run by the Ministry of Employment and Labor.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ei-act", "locator": "Art. 49-2" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "kr-industrial-accident-insurance",
+      "parentId": "national",
+      "levelId": "national",
+      "category": "social-contribution",
+      "family": "social-security",
+      "status": "current",
+      "names": { "official": "Industrial accident compensation insurance premiums", "native": "산재보험료", "common": "Industrial accident insurance" },
+      "taxes": { "base": "Payroll of employers, by industry.", "payer": "Employers only." },
+      "rate": {
+        "kind": "varies",
+        "headline": "By industry; average 1.47% of payroll",
+        "details": ["The average rate was unchanged for 2025 and 2026."],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "Compensation for work accidents and occupational disease, run by the Korea Workers’ Compensation and Welfare Service.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "iaci-act" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "kr-acquisition-tax",
+      "parentId": "local",
+      "levelId": "local",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "Acquisition tax", "native": "취득세", "common": "Acquisition tax" },
+      "taxes": {
+        "base": "The acquisition of real estate, vehicles, ships, aircraft, memberships and other designated assets, by purchase, gift, inheritance or new construction.",
+        "payer": "The acquirer."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Homes 1%–3% by price; 4% on other buildings and land",
+        "details": [
+          "Homes: 1% up to KRW 600 million, 1%–3% between 600 million and 900 million, 3% above.",
+          "Rates up to 12% apply to multiple-home owners and corporations; inheritance 2.8%.",
+          "The local education tax and the rural special tax add small surcharges."
+        ],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "The largest local tax, and the most sensitive to the housing market: revenue rose 6% in 2025 with more home sales.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "local-tax-act" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "kr-local-consumption-tax",
+      "parentId": "local",
+      "levelId": "local",
+      "category": "tax",
+      "family": "general-consumption",
+      "status": "current",
+      "names": { "official": "Local consumption tax", "native": "지방소비세", "common": "Local consumption tax" },
+      "taxes": {
+        "base": "A fixed share of the national VAT, set by the Local Tax Act and shared among the upper-tier governments by consumption and other indicators.",
+        "payer": "Consumers (through VAT); the central government transfers the share."
+      },
+      "rate": {
+        "kind": "mechanism",
+        "headline": "25.3% of VAT collected",
+        "details": ["26.78 / (79.2 + 26.78) trillion won = 25.3% in 2025, so the share is consistent with the figures drawn."],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "A tax in the Local Tax Act but, in effect, a transfer from the VAT: local governments do not set it or collect it.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "local-tax-act" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "kr-local-income-tax",
+      "parentId": "local",
+      "levelId": "local",
+      "category": "tax",
+      "family": "income-mixed",
+      "status": "current",
+      "names": { "official": "Local income tax", "native": "지방소득세", "common": "Local income tax" },
+      "taxes": {
+        "base": "The same income as the national income tax and corporate tax of the taxpayer.",
+        "payer": "Individuals and companies, who file with the municipality and pay it along with the national tax."
+      },
+      "rate": {
+        "kind": "mechanism",
+        "headline": "10% of the national tax due",
+        "details": ["Individuals: 0.6%–4.5% of the taxable income by bracket; companies: one tenth of the corporate tax rates."],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "A surcharge on the two national income taxes; revenue rose 14.6% in 2025 with company profits.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "local-tax-act" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "kr-property-tax",
+      "parentId": "local",
+      "levelId": "local",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "Property tax", "native": "재산세", "common": "Property tax" },
+      "taxes": { "base": "Land, buildings, houses, ships and aircraft owned on 1 June, at a share of the official price.", "payer": "Owners." },
+      "rate": {
+        "kind": "progressive",
+        "headline": "Homes 0.1%–0.4%; buildings 0.25%; land 0.2%–0.5%",
+        "details": ["A lower special rate applies to some single homes of lower value. Municipalities may adjust the rate by up to 50%."],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "Paid every July and September to the municipality. The comprehensive real estate tax sits on top of it for large holdings.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "local-tax-act" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "kr-car-tax",
+      "parentId": "local",
+      "levelId": "local",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Car tax", "native": "자동차세", "common": "Car tax" },
+      "taxes": {
+        "base": "Ownership of a motor vehicle, by engine size for passenger cars and by fixed amounts for commercial vehicles.",
+        "payer": "Vehicle owners."
+      },
+      "rate": {
+        "kind": "specific",
+        "headline": "KRW 80–200 per cc a year",
+        "details": [
+          "KRW 80 per cc up to 1,000 cc, 140 up to 1,600 cc, 200 above; 30% local education tax on top.",
+          "The tax falls with the age of the vehicle after the third year."
+        ],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "An annual tax on car ownership, paid in two instalments.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "local-tax-act" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "kr-local-education-tax",
+      "parentId": "local",
+      "levelId": "local",
+      "category": "tax",
+      "family": "other",
+      "status": "current",
+      "names": { "official": "Local education tax", "native": "지방교육세", "common": "Local education tax" },
+      "taxes": {
+        "base": "A surtax on the acquisition, registration licence, property, car, tobacco consumption and leisure taxes.",
+        "payer": "Whoever owes the underlying tax."
+      },
+      "rate": { "kind": "varies", "headline": "A percentage of each underlying tax", "details": ["For example 30% of the car tax."], "asOf": "2026-10-11" },
+      "explanation": "Earmarked for the education offices of the provinces and metropolitan cities.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "local-tax-act" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "kr-tobacco-consumption-tax",
+      "parentId": "local",
+      "levelId": "local",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Tobacco consumption tax", "native": "담배소비세", "common": "Tobacco consumption tax" },
+      "taxes": { "base": "Manufactured tobacco, by quantity.", "payer": "Manufacturers and importers; passed on in the price." },
+      "rate": {
+        "kind": "specific",
+        "headline": "KRW 1,007 per pack of 20 cigarettes",
+        "details": ["The local education tax adds a surcharge."],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "A local tax on tobacco, collected by manufacturers and importers and shared among municipalities by sales.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "local-tax-act" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "kr-resident-tax",
+      "parentId": "local",
+      "levelId": "local",
+      "category": "tax",
+      "family": "other",
+      "status": "current",
+      "names": { "official": "Resident tax", "native": "주민세", "common": "Resident tax" },
+      "taxes": {
+        "base": "Three parts: a fixed amount per household, a fixed amount per business premises, and a levy on the payroll of larger employers.",
+        "payer": "Households, business premises and employers."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Fixed amounts; 0.5% of payroll",
+        "details": ["Up to KRW 10,000 per household; the payroll levy is 0.5% of monthly pay above a threshold."],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "A small municipal tax with three separate bases.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "local-tax-act" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "kr-registration-license-tax",
+      "parentId": "local",
+      "levelId": "local",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "Registration licence tax", "native": "등록면허세", "common": "Registration licence tax" },
+      "taxes": {
+        "base": "The registration of rights over property (such as mortgages) and the grant of licences.",
+        "payer": "The person who registers or holds the licence."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Per type of registration",
+        "details": ["A percentage of the value for most property registrations (0.2% for a mortgage) and fixed amounts for licences."],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "Revenue was 2.0 trillion won in 2025, back to its 2023 level after a spike in 2024.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "local-tax-act" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "kr-regional-resource-facility-tax",
+      "parentId": "local",
+      "levelId": "local",
+      "category": "tax",
+      "family": "resource",
+      "status": "current",
+      "names": { "official": "Regional resource and facility tax", "native": "지역자원시설세", "common": "Regional resource tax" },
+      "taxes": {
+        "base": "Use of regional resources (power generation, cement, groundwater and similar) and a fire-protection levy on buildings and ships.",
+        "payer": "Generators, producers and owners of buildings."
+      },
+      "rate": { "kind": "varies", "headline": "By resource; fire-protection levy on buildings", "details": [], "asOf": "2026-10-11" },
+      "explanation": "Funds local services tied to the resource or to fire protection.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "local-tax-act" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "kr-leisure-tax",
+      "parentId": "local",
+      "levelId": "local",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Leisure tax", "native": "레저세", "common": "Leisure tax" },
+      "taxes": { "base": "Betting on horse racing, cycle and motorboat racing and bull fighting.", "payer": "The organiser, on the amount wagered." },
+      "rate": {
+        "kind": "flat",
+        "headline": "10% of the amount wagered",
+        "details": ["The rural special tax and the local education tax add surtaxes."],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "A small tax on licensed betting.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "local-tax-act" }],
+      "checkedOn": "2026-10-11"
+    }
+  ]
+}

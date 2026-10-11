@@ -1,8 +1,8 @@
 # Update checklist – Canada
 
-Generated 2026-09-29 by `npm run checklist`. **Do not edit by hand** – edit the sources in `countries/canada/sources.json` and re-run it.
+Generated 2026-10-11 by `npm run checklist`. **Do not edit by hand** – edit the sources in `countries/canada/sources.json` and re-run it.
 
-Research status: **researched**. 2 source(s) to check or due, 2 coming up, 45 in total.
+Research status: **researched**. 4 source(s) to check or due, 0 coming up, 45 in total.
 
 When you have worked through a row: update the data, set its `accessed` date, run `npm run validate`, `npm test`, `npm run links -- --only=canada`.
 
@@ -11,28 +11,28 @@ When you have worked through a row: update the data, set its `accessed` date, ru
 - [ ] **Public Accounts of Canada 2025, Volume II, Section 1 – Consolidated statement of revenues and expenses** – Receiver General for Canada (Public Services and Procurement Canada)
   - URL: https://www.tpsgc-pwgsc.gc.ca/recgen/cpc-pac/2025/vol2/s1/ecrc-csre-eng.html
   - Feeds: national-total parts: `federal-tax-contributions`; revenue of 10 core(s): `fed-personal-income-tax`, `fed-corporate-income-tax`, `fed-non-resident-tax`, `fed-gst-hst`, `fed-fuel-excise`, `fed-excise-duties`, `fed-atsc`, `fed-customs-duties`, …
-  - Status: soon – figures end 2025-03-31 (18 months ago). Published 2025-11-07, accessed 2026-09-28, covers FY2024-25 (1 Apr 2024 – 31 Mar 2025).
+  - Status: **CHECK** – figures end 2025-03-31 (19 months ago); a newer edition may exist (record `nextExpected` in sources.json once you know). Published 2025-11-07, accessed 2026-09-28, covers FY2024-25 (1 Apr 2024 – 31 Mar 2025).
   - To do: Open the source, find the newest period, update the amounts in revenue.json (keep the published unit and scale) and the matching part in country.json, update period, locator, `accessed`, then run `npm run validate`.
   - Note: Line-by-line revenues in $ thousands; used for every federal tax core and for the federal denominator.
 
 - [ ] **Table 10-10-0017-01 Canadian government finance statistics for the provincial and territorial governments** – Statistics Canada
   - URL: https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1010001701
   - Feeds: national-total parts: `provincial-tax-contributions`; revenue of 9 core(s): `prov-personal-income-tax`, `prov-corporate-income-tax`, `prov-sales-taxes`, `prov-payroll-taxes`, `prov-property-taxes`, `prov-fuel-taxes`, `prov-sin-taxes`, `prov-wcb-premiums`, …
-  - Status: soon – figures end 2025-03-31 (18 months ago). Published 2025-11-21, accessed 2026-09-28, covers 2024 reference year (fiscal years ending closest to 31 Dec 2024; all provinces and territories: FY ended 31 Mar 2025).
+  - Status: **CHECK** – figures end 2025-03-31 (19 months ago); a newer edition may exist (record `nextExpected` in sources.json once you know). Published 2025-11-21, accessed 2026-09-28, covers 2024 reference year (fiscal years ending closest to 31 Dec 2024; all provinces and territories: FY ended 31 Mar 2025).
   - To do: Open the source, find the newest period, update the amounts in revenue.json (keep the published unit and scale) and the matching part in country.json, update period, locator, `accessed`, then run `npm run validate`.
   - Note: CSV downloaded and summed across the 13 jurisdictions for 'Transactions and other economic flows' rows (the CSV repeats each flow under 'Stocks', which must not be added).
 
 - [ ] **Table 10-10-0020-01 Canadian government finance statistics for municipalities and other local public administrations** – Statistics Canada
   - URL: https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1010002001
   - Feeds: national-total parts: `local-tax-contributions`; revenue of 5 core(s): `mun-property-taxes`, `mun-land-transfer-tax`, `mun-licences-permits`, `mun-accommodation-tax`, `mun-user-fees`
-  - Status: **CHECK** – figures end 2024-12-31 (21 months ago); a newer edition may exist (record `nextExpected` in sources.json once you know). Published 2025-11-21, accessed 2026-09-28, covers 2024 reference year (local-government fiscal year, generally the 2024 calendar year).
+  - Status: **CHECK** – figures end 2024-12-31 (22 months ago); a newer edition may exist (record `nextExpected` in sources.json once you know). Published 2025-11-21, accessed 2026-09-28, covers 2024 reference year (local-government fiscal year, generally the 2024 calendar year).
   - To do: Open the source, find the newest period, update the amounts in revenue.json (keep the published unit and scale) and the matching part in country.json, update period, locator, `accessed`, then run `npm run validate`.
   - Note: CSV downloaded and summed across the 13 jurisdictions for 'Transactions and other economic flows' rows.
 
 - [ ] **Annual report of the Canada Pension Plan for the fiscal year ending March 31, 2024** – Employment and Social Development Canada
   - URL: https://www.canada.ca/en/employment-social-development/programs/pensions/reports/annual-2024.html
   - Feeds: national-total parts: `cpp-contributions`; revenue of 1 core(s): `fed-cpp`
-  - Status: **CHECK** – figures end 2024-03-31 (30 months ago); a newer edition may exist (record `nextExpected` in sources.json once you know). Published n/a, accessed 2026-09-28, covers FY ended 31 Mar 2024.
+  - Status: **CHECK** – figures end 2024-03-31 (31 months ago); a newer edition may exist (record `nextExpected` in sources.json once you know). Published n/a, accessed 2026-09-28, covers FY ended 31 Mar 2024.
   - To do: Open the source, find the newest period, update the amounts in revenue.json (keep the published unit and scale) and the matching part in country.json, update period, locator, `accessed`, then run `npm run validate`.
   - Note: States: 'In the fiscal year ending March 31, 2024, CPP contributions totalled $81.6 billion.' The FY2024-25 report was not yet available at the check date.
 
@@ -41,21 +41,21 @@ When you have worked through a row: update the data, set its `accessed` date, ru
 
 - [ ] **Revenue Statistics 2025, Table 6.4: Canada, tax revenues by sub-sectors of government** – OECD
   - URL: https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en/full-report/tax-revenues-by-subsectors-of-general-government_f9e88332.html
-  - Feeds: `structure.json` (cross-country profile)
+  - Feeds: `structure.json` (OECD level shares in the Trees table and the folio charts)
   - Status: yearly – OECD Revenue Statistics appear each December (OECD countries) and the Latin America edition each May. Published 2025-12-09, accessed 2026-09-29, covers Calendar year 2023 (national currency).
   - To do: Check whether a newer edition exists. If so, replace the year, the level totals/shares and tax types in structure.json for EVERY country together (the layer is only comparable when all countries share one year), then `npm run validate`.
   - Note: Harmonised OECD classification of taxes (1000–6000) split by collecting sub-sector of general government. Used for the cross-country profile and for parts of the national total that have no national-source breakdown.
 
 - [ ] **Revenue Statistics 2025, Chapter 3: Tax levels and tax structures (Tables 3.1 and 3.4)** – OECD
   - URL: https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en/full-report/tax-levels-and-tax-structures-1965-2024_2033f3ea.html
-  - Feeds: `structure.json` (cross-country profile)
+  - Feeds: `structure.json` (OECD level shares in the Trees table and the folio charts)
   - Status: yearly – OECD Revenue Statistics appear each December (OECD countries) and the Latin America edition each May. Published 2025-12-09, accessed 2026-09-29, covers Calendar year 2023.
   - To do: Check whether a newer edition exists. If so, replace the year, the level totals/shares and tax types in structure.json for EVERY country together (the layer is only comparable when all countries share one year), then `npm run validate`.
   - Note: Total tax revenue as % of GDP and tax structure as % of total taxation, for all OECD members.
 
 - [ ] **World Observatory on Subnational Government Finance and Investment – country profile: Canada** – OECD and United Cities and Local Governments (SNG-WOFI)
   - URL: https://www.sng-wofi.org/country_profiles/canada.html
-  - Feeds: `structure.json` (cross-country profile)
+  - Feeds: `structure.json` (OECD level shares in the Trees table and the folio charts)
   - Status: yearly – OECD Revenue Statistics appear each December (OECD countries) and the Latin America edition each May. Published 2022-10-24, accessed 2026-09-29, covers 2020.
   - To do: Check whether a newer edition exists. If so, replace the year, the level totals/shares and tax types in structure.json for EVERY country together (the layer is only comparable when all countries share one year), then `npm run validate`.
   - Note: Subnational government revenue by category (tax revenue, grants and subsidies, tariffs and fees, property income, other) as % of total subnational revenue, 2022 edition.

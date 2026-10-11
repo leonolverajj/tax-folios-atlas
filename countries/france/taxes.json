@@ -1,0 +1,780 @@
+{
+  "instruments": [
+    {
+      "id": "fr-vat",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "general-consumption",
+      "status": "current",
+      "names": { "official": "Taxe sur la valeur ajoutée (TVA)", "native": "TVA", "common": "Value-added tax", "abbreviation": "TVA" },
+      "taxes": {
+        "base": "Supplies of goods and services by businesses in France and imports.",
+        "payer": "Consumers; businesses charge it and deduct input VAT."
+      },
+      "rate": {
+        "kind": "flat",
+        "headline": "20% standard; 10%, 5.5% and 2.1% reduced",
+        "details": [
+          "5.5% on most food, books, energy subscriptions and some housing works; 10% on restaurants, passenger transport, renovation and accommodation; 2.1% on reimbursed medicines and some press."
+        ],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "The largest tax by revenue after the social contributions. The State collects it and assigns a growing share of the yield to social security and to the local governments (which replaced their abolished taxes with VAT shares); that assigned share is counted here, once.",
+      "exceptions": ["Financial, medical, educational and insurance services are exempt."],
+      "legalRefs": [{ "sourceId": "cgi", "locator": "Arts. 256–298" }, { "sourceId": "constitution-1958", "locator": "Art. 34" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "fr-income-tax",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "income-personal",
+      "status": "current",
+      "names": {
+        "official": "Impôt sur le revenu des personnes physiques (IRPP)",
+        "native": "Impôt sur le revenu",
+        "common": "Personal income tax",
+        "abbreviation": "IR"
+      },
+      "taxes": {
+        "base": "Household income (wages, pensions, business, rental and capital income) divided by the number of family \"parts\" (family quotient).",
+        "payer": "Households; withheld at source on wages and pensions since 2019."
+      },
+      "rate": {
+        "kind": "progressive",
+        "headline": "0%, 11%, 30%, 41%, 45%",
+        "details": [
+          "Five bands applied to income per part of the household; the benefit of the family quotient is capped per half-part.",
+          "Capital income is mostly taxed separately under the flat tax (PFU): 12.8% income tax plus social levies.",
+          "A differential contribution of at least 20% on very high incomes applies from 2025 (about EUR 0.4 billion)."
+        ],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "Only about half of French households pay it; the larger income-based take is the CSG. Revenue here is net of the tax credits (EUR 9.3 billion in 2025).",
+      "exceptions": ["Many tax credits and reductions for childcare, home help, donations and others."],
+      "legalRefs": [{ "sourceId": "cgi", "locator": "Arts. 1–204" }, { "sourceId": "constitution-1958", "locator": "Art. 34" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "fr-corporate-tax",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "income-corporate",
+      "status": "current",
+      "names": {
+        "official": "Impôt sur les sociétés (IS) et contribution sociale sur les bénéfices",
+        "native": "Impôt sur les sociétés",
+        "common": "Corporate income tax",
+        "abbreviation": "IS"
+      },
+      "taxes": { "base": "Profits of companies and other legal entities.", "payer": "Companies." },
+      "rate": {
+        "kind": "flat",
+        "headline": "25%; 15% on the first EUR 42,500 for small firms",
+        "details": [
+          "25% since 2022; 15% on the first EUR 42,500 of profit for qualifying small companies; a 3.3% social surcharge on the part above EUR 763,000. In 2025 an exceptional surcharge applied to the largest companies."
+        ],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "Revenue is net of tax credits (EUR 10.1 billion in 2025, among them the research credit).",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "cgi", "locator": "Arts. 205–223" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "fr-csg",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "income-personal",
+      "status": "current",
+      "names": { "official": "Contribution sociale généralisée (CSG)", "native": "CSG", "common": "Generalised social contribution", "abbreviation": "CSG" },
+      "taxes": {
+        "base": "Employment income, replacement income, pensions, capital and gaming income, on a broad base set apart from income tax.",
+        "payer": "Households; withheld at source."
+      },
+      "rate": {
+        "kind": "mechanism",
+        "headline": "9.2% on wages; lower on pensions; 10.6% on most capital income",
+        "details": [
+          "9.2% of 98.25% of gross salary (6.8 points deductible from income tax); 8.3%, 6.6% or 3.8% on pensions depending on income; 10.6% on most capital income from 2026 (9.2% before; life insurance stays at 9.2%), which brings total social levies on it to 18.6%."
+        ],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "A tax earmarked for the social security system and the second-largest charge in the country. INSEE counts it as an income tax, not as a contribution, because it carries no entitlement.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "css", "locator": "Arts. L136-1 and following" }, { "sourceId": "cgi", "locator": "Art. 1600-0 C" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "fr-crds",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "income-personal",
+      "status": "current",
+      "names": {
+        "official": "Contribution au remboursement de la dette sociale (CRDS)",
+        "native": "CRDS",
+        "common": "Social debt repayment levy",
+        "abbreviation": "CRDS"
+      },
+      "taxes": { "base": "The same wide base as the CSG.", "payer": "Households." },
+      "rate": {
+        "kind": "flat",
+        "headline": "0.5%",
+        "details": ["Created in 1996 to pay off the social security debt; the end date has been extended to 2033."],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "A small flat levy that pays off the accumulated social security deficit.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "css" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "fr-capital-income-levies",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "income-personal",
+      "status": "current",
+      "names": {
+        "official": "Prélèvements sur les revenus du capital (prélèvement de solidarité et prélèvement forfaitaire sur les revenus de capitaux mobiliers)",
+        "native": "Prélèvements sur le capital",
+        "common": "Capital income levies",
+        "abbreviation": "PFU"
+      },
+      "taxes": { "base": "Interest, dividends and gains of households, withheld at source.", "payer": "Investors." },
+      "rate": {
+        "kind": "flat",
+        "headline": "Flat tax of 31.4% (12.8% income tax + 18.6% social levies)",
+        "details": [
+          "The flat tax rose from 30% to 31.4% in 2026 because the CSG on most capital income went from 9.2% to 10.6% (life insurance stays at 30%). The solidarity levy of 7.5% is one of the social levies; the withholding on investment income is the income-tax part."
+        ],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "Grouped here: the solidarity levy and other social contributions on capital income (EUR 14.4 billion) and the withholding on movable capital income (EUR 5.3 billion).",
+      "exceptions": ["Savings schemes such as the Livret A and the PEL are exempt or taxed differently."],
+      "legalRefs": [{ "sourceId": "cgi", "locator": "Art. 200 A" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "fr-social-contributions",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "social-contribution",
+      "family": "social-security",
+      "status": "current",
+      "names": {
+        "official": "Cotisations sociales effectives (employeurs et salariés)",
+        "native": "Cotisations sociales",
+        "common": "Social contributions",
+        "abbreviation": "Cotisations"
+      },
+      "taxes": {
+        "base": "Gross wages (with reduced employer rates near the minimum wage), and the earnings of the self-employed.",
+        "payer": "Employers (the larger share), employees and the self-employed."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Several rates by scheme and by wage band",
+        "details": [
+          "Contributions pay for health, pensions (basic and the Agirc-Arrco complementary scheme), family benefits, unemployment insurance and work accidents; employer contributions are cut for wages up to 3.5 times the minimum wage."
+        ],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "The biggest single flow: about a third of all compulsory levies. INSEE counts only the effective contributions; imputed contributions (EUR 52.4 billion), such as the State’s pension costs for its own employees, are left out.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "css" }, { "sourceId": "cgi", "locator": "Art. 1600-0 A" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "fr-ticpe",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "Taxe intérieure de consommation sur les produits énergétiques (TICPE)",
+        "native": "TICPE",
+        "common": "Fuel excise (TICPE)",
+        "abbreviation": "TICPE"
+      },
+      "taxes": { "base": "Petrol, diesel, heating oil and other petroleum products by the litre.", "payer": "Fuel suppliers; passed on at the pump." },
+      "rate": {
+        "kind": "specific",
+        "headline": "A fixed amount per litre by fuel; regions may add a regional rate",
+        "details": ["Rates differ by product (petrol, diesel, heating oil); part of the yield goes to the regions and départements."],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "The largest excise duty. The State shares part of it with the regions and départements.",
+      "exceptions": ["Reduced rates for farmers, fishers, taxis and some transport."],
+      "legalRefs": [{ "sourceId": "cdd", "locator": "Code des douanes, arts. 265 and following" }, { "sourceId": "cgi" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "fr-other-energy-excises",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "Accises sur l’électricité (TICFE), le gaz naturel (TICGN) et autres taxes sur l’énergie",
+        "native": "Accises sur l’énergie",
+        "common": "Excise on electricity, gas and other energy"
+      },
+      "taxes": { "base": "Electricity and natural gas supplied to consumers, and other energy products.", "payer": "Suppliers; passed on in bills." },
+      "rate": {
+        "kind": "specific",
+        "headline": "Per megawatt hour",
+        "details": ["The electricity tax was raised back to its normal level in 2025 after being cut to the minimum during the energy crisis."],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "Revenue from the electricity tax nearly doubled in 2025 (EUR 4.8 billion to 8.3 billion).",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "cdd" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "fr-tobacco",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Accises sur les tabacs (droits de consommation)", "native": "Droits sur les tabacs", "common": "Tobacco duties" },
+      "taxes": { "base": "Cigarettes and other tobacco products.", "payer": "Manufacturers and distributors; passed on in the price." },
+      "rate": {
+        "kind": "mechanism",
+        "headline": "Share of the retail price plus a minimum per 1,000",
+        "details": ["An ad valorem rate on the retail price with a minimum tax per thousand cigarettes."],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "The retail price of tobacco is set by the manufacturers and approved by the State.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "cgi", "locator": "Arts. 575 and following" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "fr-alcohol",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Accises sur les alcools et boissons", "native": "Droits sur les alcools", "common": "Alcohol and drinks duties" },
+      "taxes": { "base": "Spirits, wine, beer and some other beverages.", "payer": "Producers and importers; passed on in the price." },
+      "rate": { "kind": "specific", "headline": "Per hectolitre of pure alcohol", "details": [], "asOf": "2026-10-10" },
+      "explanation": "Includes the duty on sugary drinks.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "cgi", "locator": "Arts. 438 and following" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "fr-inheritance-gift",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": {
+        "official": "Droits de mutation à titre gratuit (successions et donations)",
+        "native": "Droits de succession",
+        "common": "Inheritance and gift duties"
+      },
+      "taxes": { "base": "The value of what is inherited or given, above allowances that depend on the relationship.", "payer": "The heir or recipient." },
+      "rate": {
+        "kind": "progressive",
+        "headline": "5%–45% for close relatives; up to 60% for non-relatives",
+        "details": ["A EUR 100,000 allowance for each child, renewable every 15 years for gifts; spouses and civil partners are exempt on inheritance."],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "EUR 16.1 billion on inheritances and EUR 5.0 billion on gifts in 2025.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "cgi", "locator": "Arts. 750 ter and following" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "fr-wealth-tax",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "Impôt sur la fortune immobilière (IFI)", "native": "IFI", "common": "Real-estate wealth tax", "abbreviation": "IFI" },
+      "taxes": { "base": "Net real-estate assets of a household above EUR 1.3 million.", "payer": "Households." },
+      "rate": {
+        "kind": "progressive",
+        "headline": "0.5%–1.5%",
+        "details": ["The general wealth tax (ISF) was replaced by this tax on real estate only in 2018."],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "The remaining form of annual wealth tax.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "cgi", "locator": "Arts. 964 and following" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "fr-insurance-taxes",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "Taxe sur les conventions d’assurances, taxe de solidarité additionnelle et autres taxes sur les contrats d’assurance",
+        "native": "Taxes sur les assurances",
+        "common": "Insurance contract taxes",
+        "abbreviation": "TSCA"
+      },
+      "taxes": { "base": "Premiums of most insurance contracts, including supplementary health insurance.", "payer": "Insurers; passed on to policyholders." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Rates vary by type of contract",
+        "details": ["Proceeds go partly to the départements and to health and social funds."],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "Includes the additional solidarity tax on supplementary health insurance (EUR 6.6 billion).",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "cgi", "locator": "Arts. 991 and following" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "fr-gambling",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "Prélèvements sur les jeux, casinos, paris sportifs et hippiques",
+        "native": "Prélèvements sur les jeux",
+        "common": "Gambling levies"
+      },
+      "taxes": { "base": "The gross gaming revenue of the national lottery, casinos and betting operators.", "payer": "Operators." },
+      "rate": { "kind": "varies", "headline": "By type of game", "details": [], "asOf": "2026-10-10" },
+      "explanation": "Includes the CSG and CRDS levied on gaming.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "css" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "fr-payroll-tax",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "payroll",
+      "status": "current",
+      "names": { "official": "Taxe sur les salaires", "native": "Taxe sur les salaires", "common": "Payroll tax" },
+      "taxes": {
+        "base": "Wages paid by employers that are not subject to VAT (banks, insurers, associations, hospitals).",
+        "payer": "Employers outside the VAT system."
+      },
+      "rate": { "kind": "progressive", "headline": "4.25%, 8.5% and 13.6% of wages by band", "details": [], "asOf": "2026-10-10" },
+      "explanation": "A payroll tax that replaces VAT cost recovery for activities exempt from VAT.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "cgi", "locator": "Arts. 231 and following" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "fr-training-levy",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "payroll",
+      "status": "current",
+      "names": {
+        "official": "Contributions pour la formation professionnelle et l’apprentissage",
+        "native": "Contributions formation",
+        "common": "Training and apprenticeship contributions"
+      },
+      "taxes": { "base": "Employers’ total payroll.", "payer": "Employers." },
+      "rate": {
+        "kind": "flat",
+        "headline": "About 1% of payroll",
+        "details": ["0.55% or 1% of payroll for vocational training plus the apprenticeship tax of 0.68%."],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "Collected by the social security collectors and passed to the training funds.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "css" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "fr-other-payroll-levies",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "payroll",
+      "status": "current",
+      "names": {
+        "official": "Forfait social et autres contributions patronales (FNAL, CNSA, PEEC, AGS, stock-options)",
+        "native": "Forfait social et autres",
+        "common": "Social surcharge and other employer levies"
+      },
+      "taxes": {
+        "base": "Profit-sharing and supplementary pension payments (forfait social), and employers’ payroll for the housing, autonomy, construction and wage-guarantee funds.",
+        "payer": "Employers."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Forfait social 20%; others as a share of payroll",
+        "details": [
+          "Forfait social EUR 6.6 billion, FNAL EUR 3.0 billion, CNSA EUR 2.5 billion, AGS EUR 1.7 billion, PEEC EUR 1.5 billion and the employer levy on stock options EUR 1.5 billion."
+        ],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "A group of earmarked employer levies reported separately by INSEE.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "css" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "fr-c3s",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "other",
+      "status": "current",
+      "names": {
+        "official": "Contribution sociale de solidarité des sociétés (C3S)",
+        "native": "C3S",
+        "common": "Corporate solidarity contribution",
+        "abbreviation": "C3S"
+      },
+      "taxes": { "base": "Turnover of companies above EUR 19 million.", "payer": "Large companies." },
+      "rate": {
+        "kind": "flat",
+        "headline": "0.16% of turnover",
+        "details": ["A turnover-based levy that funds the self-employed workers’ pension scheme; it is being phased out for smaller firms."],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "A tax on turnover rather than profit.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "css" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "fr-cvae",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "other",
+      "status": "scheduled",
+      "statusNote": "The tax is being phased out by law; the rate falls each year until it is abolished.",
+      "names": {
+        "official": "Cotisation sur la valeur ajoutée des entreprises (CVAE)",
+        "native": "CVAE",
+        "common": "Business value-added contribution",
+        "abbreviation": "CVAE"
+      },
+      "taxes": { "base": "The value added of businesses with turnover above EUR 500,000.", "payer": "Businesses." },
+      "rate": {
+        "kind": "progressive",
+        "headline": "A declining rate, being phased out",
+        "details": ["The tax is being abolished in stages; its revenue now goes to the State and local governments receive VAT shares in compensation."],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "A tax that was once the main local business tax.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "cgi", "locator": "Arts. 1586 ter and following" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "fr-customs",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "customs-duty",
+      "family": "trade",
+      "status": "current",
+      "names": { "official": "Droits d’importation au profit de l’Union européenne", "native": "Droits de douane", "common": "Customs duties (for the EU)" },
+      "taxes": { "base": "Goods imported from outside the EU.", "payer": "Importers." },
+      "rate": { "kind": "range", "headline": "EU Common Customs Tariff", "details": [], "asOf": "2026-10-10" },
+      "explanation": "Collected by French customs; INSEE records them as an EU tax.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "cdd" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "fr-financial-transactions-tax",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": {
+        "official": "Taxe sur les transactions financières",
+        "native": "Taxe sur les transactions financières",
+        "common": "Financial transactions tax",
+        "abbreviation": "TTF"
+      },
+      "taxes": {
+        "base": "Purchases of shares of French companies with a market value above EUR 1 billion, and high-frequency and some derivative trades.",
+        "payer": "Buyers (collected by intermediaries)."
+      },
+      "rate": {
+        "kind": "flat",
+        "headline": "0.4% of the purchase price (from 2025)",
+        "details": ["The rate doubled from 0.3% to 0.4% in 2025."],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "Revenue rose from EUR 1.9 billion to EUR 2.6 billion.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "cgi", "locator": "Arts. 235 ter ZD and following" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "fr-environmental-taxes",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "other",
+      "status": "current",
+      "names": {
+        "official": "Taxes environnementales (TGAP, redevances des agences de l’eau, quotas carbone, contributions des producteurs d’électricité)",
+        "native": "Taxes environnementales",
+        "common": "Environmental taxes and levies"
+      },
+      "taxes": { "base": "Pollution, water use, carbon emissions and electricity production.", "payer": "Businesses and water users." },
+      "rate": {
+        "kind": "varies",
+        "headline": "A different rate for each",
+        "details": [
+          "TGAP EUR 1.1 billion, water agency charges EUR 2.2 billion, carbon quotas EUR 1.5 billion and electricity producers’ contributions EUR 0.7 billion."
+        ],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "A group of environmental charges reported separately by INSEE.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "cgi" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "fr-other-business-taxes",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "other",
+      "status": "current",
+      "names": {
+        "official": "Autres taxes sur les entreprises (IFER, taxes consulaires, taxes sur les véhicules et les bureaux)",
+        "native": "Autres taxes sur les entreprises",
+        "common": "Other business taxes"
+      },
+      "taxes": { "base": "Network operators’ flat-rate charges (IFER), chambers of commerce, company vehicles and offices.", "payer": "Businesses." },
+      "rate": {
+        "kind": "varies",
+        "headline": "A different rate for each",
+        "details": ["IFER EUR 2.3 billion, consular taxes EUR 1.3 billion, company vehicle taxes EUR 1.2 billion, office taxes EUR 1.0 billion."],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "A group of smaller taxes on businesses.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "cgi" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "fr-other-state-taxes",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "other",
+      "status": "current",
+      "names": {
+        "official": "Autres impôts de l’État (droits d’enregistrement hors DMTO, malus automobile, taxes sur les transports, le numérique, les spectacles, les ventes de produits pharmaceutiques)",
+        "native": "Autres impôts",
+        "common": "Other State taxes"
+      },
+      "taxes": {
+        "base": "Registration duties other than on property sales, the car penalty (malus), transport, digital and entertainment taxes and a levy on pharmaceutical sales.",
+        "payer": "Varies."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "A different rate for each",
+        "details": [
+          "Registration duties 2.5, transport services 2.5, digital and telecom 1.1, malus 0.9, entertainment 0.8 and pharmaceutical sales 0.8 (EUR billion)."
+        ],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "The remainder of the State’s taxes, each below about 0.2% of the national total.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "cgi" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "fr-dmto",
+      "parentId": "regions-departments",
+      "levelId": "regions-departments",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "Droits de mutation à titre onéreux (DMTO)", "native": "DMTO", "common": "Property transfer duties", "abbreviation": "DMTO" },
+      "taxes": { "base": "The price of second-hand homes and other property sold.", "payer": "The buyer." },
+      "rate": {
+        "kind": "range",
+        "headline": "About 6% of the price",
+        "details": ["The départements’ rate may be raised from 4.5% to 5% from 2025 for three years; with the communal part the total is about 5.8% to 6.4%."],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "The largest tax that the départements control. It is volatile with the housing market: EUR 14.7 billion in 2024 and EUR 17.7 billion in 2025.",
+      "exceptions": ["New homes pay a reduced rate."],
+      "legalRefs": [{ "sourceId": "cgi", "locator": "Arts. 683 and following" }, { "sourceId": "cgct" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "fr-vehicle-registration",
+      "parentId": "regions-departments",
+      "levelId": "regions-departments",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "Taxe sur les certificats d’immatriculation des véhicules",
+        "native": "Taxe sur les cartes grises",
+        "common": "Vehicle registration tax"
+      },
+      "taxes": { "base": "The registration of a vehicle, by horsepower and emissions.", "payer": "The vehicle’s keeper." },
+      "rate": {
+        "kind": "specific",
+        "headline": "EUR per fiscal horsepower, set by each region",
+        "details": ["Each region sets the price per fiscal horsepower."],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "The whole yield belongs to the regions.",
+      "exceptions": ["Electric vehicles are often exempt or reduced by the region."],
+      "legalRefs": [{ "sourceId": "cgi", "locator": "Arts. 1599 quindecies and following" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "fr-octroi-de-mer",
+      "parentId": "regions-departments",
+      "levelId": "regions-departments",
+      "category": "tax",
+      "family": "trade",
+      "status": "current",
+      "names": { "official": "Octroi de mer (départements et régions d’outre-mer)", "native": "Octroi de mer", "common": "Overseas import levy" },
+      "taxes": { "base": "Goods imported or produced in the overseas departments.", "payer": "Importers and local producers." },
+      "rate": { "kind": "varies", "headline": "Set by each overseas community", "details": [], "asOf": "2026-10-10" },
+      "explanation": "A levy of the overseas collectivities, with a part classified by INSEE as a tax on imports.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "cgct" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "fr-property-tax",
+      "parentId": "communes",
+      "levelId": "communes",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "Taxe foncière sur les propriétés bâties et non bâties", "native": "Taxe foncière", "common": "Property tax (taxe foncière)" },
+      "taxes": { "base": "The cadastral rental value of buildings and land.", "payer": "The owner (paid by households and businesses)." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Rates voted by each commune and group of communes",
+        "details": [
+          "Since 2021 the départements’ share has been transferred to the communes, which now receive the whole tax; the cadastral values were last revised in the 1970s and are indexed each year."
+        ],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "The main local tax and the largest tax controlled by local governments: EUR 27.0 billion paid by households and EUR 17.2 billion by businesses.",
+      "exceptions": ["New buildings are exempt for two years; low-income elderly owners may be exempt."],
+      "legalRefs": [{ "sourceId": "cgi", "locator": "Arts. 1380 and following" }, { "sourceId": "cgct" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "fr-business-property-tax",
+      "parentId": "communes",
+      "levelId": "communes",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "Cotisation foncière des entreprises (CFE)", "native": "CFE", "common": "Business property contribution", "abbreviation": "CFE" },
+      "taxes": { "base": "The rental value of the premises used by a business.", "payer": "Businesses." },
+      "rate": { "kind": "varies", "headline": "Rate voted locally; minimum contribution", "details": [], "asOf": "2026-10-10" },
+      "explanation": "The part of the old business tax (taxe professionnelle) that remains local.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "cgi", "locator": "Arts. 1447 and following" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "fr-versement-mobilite",
+      "parentId": "communes",
+      "levelId": "communes",
+      "category": "tax",
+      "family": "payroll",
+      "status": "current",
+      "names": { "official": "Versement mobilité (versement transport)", "native": "Versement mobilité", "common": "Transport payroll levy" },
+      "taxes": { "base": "Payroll of employers with at least 11 employees in a transport authority’s area.", "payer": "Employers." },
+      "rate": {
+        "kind": "range",
+        "headline": "Up to about 3% of payroll, set by the transport authority",
+        "details": ["The ceiling depends on the area: highest in the Paris region and the biggest cities."],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "A payroll tax earmarked for local public transport.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "cgct" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "fr-housing-tax",
+      "parentId": "communes",
+      "levelId": "communes",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": {
+        "official": "Taxe d’habitation sur les résidences secondaires et autres locaux meublés",
+        "native": "Taxe d’habitation",
+        "common": "Housing tax (second homes)"
+      },
+      "taxes": { "base": "Second homes and other non-primary residences.", "payer": "The occupier." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Rate voted by the commune",
+        "details": ["The tax on main residences was abolished for all households by 2023; only second homes remain."],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "What is left of the housing tax.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "cgi", "locator": "Arts. 1407 and following" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "fr-other-local-taxes",
+      "parentId": "communes",
+      "levelId": "communes",
+      "category": "tax",
+      "family": "other",
+      "status": "current",
+      "names": {
+        "official": "Autres taxes locales (taxe de séjour, GEMAPI, TASCOM, taxes additionnelles aux impôts fonciers)",
+        "native": "Autres taxes locales",
+        "common": "Other local taxes"
+      },
+      "taxes": {
+        "base": "Overnight stays, flood and water-body management, large retail surfaces and levies added to the property taxes.",
+        "payer": "Tourists, property owners and large retailers."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Set locally",
+        "details": [
+          "Tourist tax EUR 1.3 billion, retail surfaces EUR 1.2 billion, GEMAPI EUR 0.6 billion and levies attached to the property tax EUR 0.8 billion."
+        ],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "The smaller local taxes reported by INSEE.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "cgct" }],
+      "checkedOn": "2026-10-10"
+    }
+  ]
+}

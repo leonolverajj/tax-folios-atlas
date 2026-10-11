@@ -1,0 +1,518 @@
+{
+  "instruments": [
+    {
+      "id": "es-irpf-state",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "income-personal",
+      "status": "current",
+      "names": {
+        "official": "Impuesto sobre la Renta de las Personas Físicas (tarifa estatal y participación local)",
+        "native": "IRPF (tramo estatal)",
+        "common": "Personal income tax (State tariff)",
+        "abbreviation": "IRPF"
+      },
+      "taxes": {
+        "base": "Employment, business, capital and capital-gains income of residents, after reductions and allowances.",
+        "payer": "Individuals; employers and payers withhold it."
+      },
+      "rate": {
+        "kind": "progressive",
+        "headline": "Combined State + regional scales about 19%–47%",
+        "details": [
+          "The State scale for the general income runs from 9.5% to 24.5% and each community adds its own scale (the default scale is 9.5% to 20.5%), so combined rates are about 19% to 47%.",
+          "Savings income (interest, dividends and gains) is taxed on a separate scale from 19% to 30%.",
+          "The State tariff is half of the tax; a small municipal share (EUR 1.7 billion in 2025) is included here."
+        ],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "The largest Spanish tax. By law the income tax has two halves: the State tariff and an autonomic tariff that each community sets. AEAT figures show IRPF of EUR 142.5 billion in 2025: 66.4 billion State, 74.4 billion communities and 1.7 billion municipalities.",
+      "exceptions": ["The Basque Country and Navarre levy their own income tax under the Concierto and Convenio."],
+      "legalRefs": [{ "sourceId": "lirpf" }, { "sourceId": "lofca-ley-22-2009" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "es-corporate-tax",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "income-corporate",
+      "status": "current",
+      "names": { "official": "Impuesto sobre Sociedades", "native": "Impuesto sobre Sociedades", "common": "Corporation tax", "abbreviation": "IS" },
+      "taxes": { "base": "The profit of companies and other legal entities, after deductions and loss relief.", "payer": "Companies." },
+      "rate": {
+        "kind": "flat",
+        "headline": "25%; reduced rates for small companies",
+        "details": [
+          "25% general rate; 15% for newly incorporated companies in their first two profitable years; reduced rates for micro and small firms; a minimum effective tax of 15% for companies with turnover above EUR 20 million."
+        ],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "A State tax collected by the AEAT. Revenue grew 8.1% in 2025.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "lis" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "es-nonresident-income-tax",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "income-mixed",
+      "status": "current",
+      "names": { "official": "Impuesto sobre la Renta de No Residentes", "native": "IRNR", "common": "Non-resident income tax", "abbreviation": "IRNR" },
+      "taxes": { "base": "Income earned in Spain by non-residents.", "payer": "Non-residents; withheld at source." },
+      "rate": {
+        "kind": "flat",
+        "headline": "19%–24%",
+        "details": ["24% for non-EU residents (19% for EU and EEA residents) on most income; 19% on dividends, interest and gains."],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "A separate tax on income that foreigners earn in Spain.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "lirpf" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "es-vat",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "general-consumption",
+      "status": "current",
+      "names": { "official": "Impuesto sobre el Valor Añadido", "native": "IVA", "common": "Value-added tax", "abbreviation": "IVA" },
+      "taxes": {
+        "base": "Supplies of goods and services by businesses in Spain, and imports.",
+        "payer": "Consumers; businesses charge it and deduct input VAT."
+      },
+      "rate": {
+        "kind": "flat",
+        "headline": "21% general; 10% reduced; 4% super-reduced",
+        "details": [
+          "The temporary reductions on energy and basic food ended during 2024–2025; the AEAT counts the return to normal rates among the measures that raised revenue in 2025."
+        ],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "The State collects all of it and passes about half to the communities and about 1% to municipalities as shares. The communities have no power over the rate.",
+      "exceptions": ["Health, education and financial services are exempt."],
+      "legalRefs": [{ "sourceId": "liva" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "es-hydrocarbon-tax",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Impuesto sobre Hidrocarburos", "native": "Impuesto sobre Hidrocarburos", "common": "Hydrocarbon tax (fuels)" },
+      "taxes": {
+        "base": "Petrol, diesel, heating oil and other hydrocarbon fuels, per litre.",
+        "payer": "Producers, importers and fuel distributors; passed on at the pump."
+      },
+      "rate": {
+        "kind": "specific",
+        "headline": "About EUR 0.47 per litre petrol, EUR 0.38 diesel",
+        "details": [
+          "State rates of EUR 473 per 1,000 litres of unleaded petrol and EUR 379 per 1,000 litres of diesel; the communities may add a regional rate."
+        ],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "The largest excise duty; the State shares 58% of the excises with the communities as transfers.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "liiee" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "es-tobacco-tax",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Impuesto sobre las Labores del Tabaco", "native": "Labores del Tabaco", "common": "Tobacco tax" },
+      "taxes": { "base": "Cigarettes, cigars and other tobacco products.", "payer": "Manufacturers and importers; passed on in the price." },
+      "rate": {
+        "kind": "mechanism",
+        "headline": "Percentage of retail price plus a specific amount",
+        "details": ["The rate rose in 2025, one of the measures that raised revenue."],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "The second-largest excise duty.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "liiee" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "es-electricity-tax",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Impuesto Especial sobre la Electricidad", "native": "Impuesto sobre la Electricidad", "common": "Electricity tax" },
+      "taxes": { "base": "Electricity supplied to consumers.", "payer": "Suppliers; passed on in bills." },
+      "rate": {
+        "kind": "flat",
+        "headline": "5.11% of the base",
+        "details": ["The rate returned to the normal 5.11% in 2025 after temporary reductions."],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "Revenue recovered strongly in 2025 as the temporary reduction ended.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "liiee" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "es-alcohol-taxes",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "Impuestos sobre el Alcohol y Bebidas Derivadas, la Cerveza y los Productos Intermedios",
+        "native": "Alcohol, cerveza y productos intermedios",
+        "common": "Alcohol, beer and intermediate-product taxes"
+      },
+      "taxes": { "base": "Spirits, beer and fortified wine by volume of alcohol.", "payer": "Producers and importers; passed on in the price." },
+      "rate": { "kind": "specific", "headline": "Per hectolitre of pure alcohol", "details": ["Wine itself carries a zero rate."], "asOf": "2026-10-10" },
+      "explanation": "Three of the excise duties on alcohol, reported together here.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "liiee" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "es-plastics-tax",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "Impuesto Especial sobre los Envases de Plástico No Reutilizables",
+        "native": "Impuesto sobre Envases de Plástico",
+        "common": "Non-reusable plastic packaging tax"
+      },
+      "taxes": { "base": "The weight of non-recycled plastic in non-reusable packaging.", "payer": "Manufacturers and importers." },
+      "rate": { "kind": "specific", "headline": "EUR 0.45 per kilogram of non-recycled plastic", "details": [], "asOf": "2026-10-10" },
+      "explanation": "A tax introduced in 2023 following the EU plastics levy.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "liiee" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "es-customs",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "customs-duty",
+      "family": "trade",
+      "status": "current",
+      "names": { "official": "Tráfico exterior (derechos de aduana)", "native": "Tráfico exterior", "common": "Customs duties" },
+      "taxes": { "base": "Imports from outside the EU, by tariff heading.", "payer": "Importers." },
+      "rate": {
+        "kind": "range",
+        "headline": "EU Common Customs Tariff",
+        "details": ["Spain forwards most of the duties it collects to the EU budget."],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "Collected by customs; most goes to the EU.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "lgt" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "es-insurance-premium-tax",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Impuesto sobre las Primas de Seguros", "native": "Impuesto sobre las Primas de Seguros", "common": "Insurance premium tax" },
+      "taxes": { "base": "Premiums of most insurance contracts.", "payer": "Insurers; passed on to policyholders." },
+      "rate": { "kind": "flat", "headline": "8%", "details": [], "asOf": "2026-10-10" },
+      "explanation": "A tax on insurance premiums that replaces VAT on insurance.",
+      "exceptions": ["Life and health insurance are exempt."],
+      "legalRefs": [{ "sourceId": "lgt" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "es-bank-margin-tax",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "other",
+      "status": "current",
+      "names": {
+        "official": "Impuesto sobre el Margen de Intereses y Comisiones de determinadas entidades financieras",
+        "native": "Impuesto sobre intereses y comisiones de EE.FF.",
+        "common": "Tax on banks’ interest and fee margin"
+      },
+      "taxes": { "base": "The net interest and fee income of large banks and financial entities.", "payer": "Large financial entities." },
+      "rate": {
+        "kind": "flat",
+        "headline": "A percentage of the net margin",
+        "details": ["Introduced as a new tax in 2023–2024; the AEAT lists it among the measures that raised revenue in 2025."],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "One of the new taxes of recent years targeted at banks.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "aeat-iar-2025" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "es-environmental-taxes",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "other",
+      "status": "current",
+      "names": { "official": "Impuestos medioambientales", "native": "Impuestos Medioambientales", "common": "Environmental taxes" },
+      "taxes": {
+        "base": "Electricity generation, nuclear waste, hydroelectric use of water and other energy and environmental activities.",
+        "payer": "Generators and operators."
+      },
+      "rate": { "kind": "varies", "headline": "A different rate for each tax", "details": [], "asOf": "2026-10-10" },
+      "explanation": "The AEAT reports these taxes together as the environmental chapter.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "aeat-iar-2025" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "es-other-state-taxes",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "other",
+      "status": "current",
+      "names": {
+        "official": "Otros impuestos del Estado (transacciones financieras, servicios digitales, juego, gases fluorados y otros)",
+        "native": "Otros impuestos",
+        "common": "Other State taxes"
+      },
+      "taxes": {
+        "base": "Financial transactions, digital services, State gambling, fluorinated gases, coal, e-cigarette liquids and other minor taxes.",
+        "payer": "Varies."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "A different rate for each tax",
+        "details": ["Financial transactions tax EUR 339 million, digital services tax EUR 410 million, gases EUR 104 million and smaller items."],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "The remaining State taxes, each below about 0.1% of national revenue.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "liiee" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "es-fees",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "fee",
+      "family": "other",
+      "status": "current",
+      "names": { "official": "Tasas y otros ingresos (capítulo III)", "native": "Tasas", "common": "Fees (tasas)" },
+      "taxes": { "base": "Public services and use of public assets: water canon, radio spectrum and others.", "payer": "Users." },
+      "rate": { "kind": "varies", "headline": "A different charge for each service", "details": [], "asOf": "2026-10-10" },
+      "explanation": "The AEAT counts fees in its total of tax revenue; here they are outside the national total because they are charges for a service, not taxes.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "aeat-iar-2025" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "es-social-security",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "social-contribution",
+      "family": "social-security",
+      "status": "current",
+      "names": { "official": "Cotizaciones a la Seguridad Social", "native": "Cotizaciones sociales", "common": "Social Security contributions" },
+      "taxes": {
+        "base": "Gross earnings of employees up to a maximum contribution base, and the declared earnings of the self-employed.",
+        "payer": "Employers (about 30% of earnings) and employees (about 6.5%); the self-employed pay on their chosen base."
+      },
+      "rate": {
+        "kind": "flat",
+        "headline": "About 30% employer + 6.5% employee",
+        "details": [
+          "Contingencias comunes 23.6% employer and 4.7% employee, plus unemployment, training and wage-guarantee contributions and the Intergenerational Equity Mechanism (MEI), which rises each year."
+        ],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "The second-largest source of revenue after the income and consumption taxes: EUR 176.9 billion in 2025, up 6.9%. The Intergenerational Equity Mechanism raised EUR 4.9 billion for the reserve fund.",
+      "exceptions": ["Civil servants have their own schemes (MUFACE, ISFAS, MUGEJU)."],
+      "legalRefs": [{ "sourceId": "trlgss" }, { "sourceId": "inclusion-2025" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "es-irpf-autonomic",
+      "parentId": "ccaa",
+      "levelId": "ccaa",
+      "category": "tax",
+      "family": "income-personal",
+      "status": "current",
+      "names": {
+        "official": "Impuesto sobre la Renta de las Personas Físicas (tarifa autonómica)",
+        "native": "IRPF (tramo autonómico)",
+        "common": "Personal income tax (autonomic tariff)",
+        "abbreviation": "IRPF"
+      },
+      "taxes": { "base": "The same income as the State tariff, taxed again on the community’s own scale.", "payer": "Residents of the community." },
+      "rate": {
+        "kind": "progressive",
+        "headline": "A scale set by each community",
+        "details": [
+          "Each community of the common regime may set its own scale, personal and family allowances and deductions; the default scale runs from 9.5% to 20.5%."
+        ],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "The half of the income tax that belongs to the communities: EUR 74.4 billion in 2025. Several communities have cut their scale since 2022, which is a source of tax competition.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "lofca-ley-22-2009" }, { "sourceId": "lirpf" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "es-transfer-tax",
+      "parentId": "ccaa",
+      "levelId": "ccaa",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": {
+        "official": "Impuesto sobre Transmisiones Patrimoniales y Actos Jurídicos Documentados",
+        "native": "ITP y AJD",
+        "common": "Property transfer tax and stamp duty",
+        "abbreviation": "ITP/AJD"
+      },
+      "taxes": {
+        "base": "Transfers of second-hand property and other assets, and documented legal acts such as mortgage deeds.",
+        "payer": "The buyer or the person who benefits from the deed."
+      },
+      "rate": {
+        "kind": "range",
+        "headline": "Each community sets its own rate (about 6%–11% on property)",
+        "details": ["Property transfer rates differ by community (for example 6% in Madrid and 10% in Valencia); stamp duty (AJD) is about 0.5% to 2%."],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "The largest tax that the communities regulate themselves.",
+      "exceptions": ["New-build purchases pay VAT and stamp duty instead of the transfer tax."],
+      "legalRefs": [{ "sourceId": "litp" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "es-inheritance-gift-tax",
+      "parentId": "ccaa",
+      "levelId": "ccaa",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "Impuesto sobre Sucesiones y Donaciones", "native": "Sucesiones y Donaciones", "common": "Inheritance and gift tax" },
+      "taxes": { "base": "Inheritances and gifts.", "payer": "The heir or recipient." },
+      "rate": {
+        "kind": "progressive",
+        "headline": "7.65% to 34% before regional rebates",
+        "details": [
+          "The State scale runs from 7.65% to 34% and is multiplied by a coefficient for wealth and kinship; communities grant rebates of up to 99% or 100% for close relatives (Madrid, Andalusia and others)."
+        ],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "A ceded tax whose burden varies hugely between communities.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "lisd" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "es-wealth-tax",
+      "parentId": "ccaa",
+      "levelId": "ccaa",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "Impuesto sobre el Patrimonio", "native": "Impuesto sobre el Patrimonio", "common": "Net wealth tax" },
+      "taxes": { "base": "The net assets of residents above an allowance.", "payer": "Individuals." },
+      "rate": {
+        "kind": "progressive",
+        "headline": "0.2% to 2.5% (State scale)",
+        "details": [
+          "Communities set the allowance and scale; Madrid and some others rebate 100%. A separate State solidarity tax on large fortunes (ITSGF, 1.7% to 3.5%) applies on assets above EUR 3 million."
+        ],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "Ceded to the communities, which may remove it in practice with a full rebate.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "lip" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "es-other-ccaa-taxes",
+      "parentId": "ccaa",
+      "levelId": "ccaa",
+      "category": "tax",
+      "family": "other",
+      "status": "current",
+      "names": {
+        "official": "Otros impuestos autonómicos (juego, medio ambiente, hidrocarburos tramo autonómico, matriculación y otros)",
+        "native": "Otros tributos autonómicos",
+        "common": "Other regional taxes"
+      },
+      "taxes": {
+        "base": "Gambling, environmental levies, the regional rate of the hydrocarbon tax, the vehicle registration tax and taxes that each community creates.",
+        "payer": "Varies."
+      },
+      "rate": { "kind": "varies", "headline": "Set by each community", "details": [], "asOf": "2026-10-10" },
+      "explanation": "The rest of the communities’ taxes: OECD goods-and-services taxes EUR 8.6 billion and a few other items.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "oecd-rs-2025-subsectors" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "es-ibi",
+      "parentId": "local-entities",
+      "levelId": "local-entities",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "Impuesto sobre Bienes Inmuebles", "native": "IBI", "common": "Property tax (IBI)", "abbreviation": "IBI" },
+      "taxes": { "base": "The cadastral value of urban and rural property.", "payer": "The owner." },
+      "rate": {
+        "kind": "range",
+        "headline": "Each municipality sets 0.4%–1.1% (urban)",
+        "details": ["Legal range of 0.4% to 1.1% of cadastral value for urban property and 0.3% to 0.9% for rural property (TRLRHL art. 72)."],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "The municipalities’ main own tax.",
+      "exceptions": ["Public property, churches and some others are exempt; municipalities may grant rebates."],
+      "legalRefs": [{ "sourceId": "trlrhl", "locator": "Arts. 60–77" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "es-other-local-taxes",
+      "parentId": "local-entities",
+      "levelId": "local-entities",
+      "category": "tax",
+      "family": "other",
+      "status": "current",
+      "names": {
+        "official": "Otros impuestos locales (IAE, IVTM, ICIO, plusvalía municipal y otros)",
+        "native": "Otros impuestos locales",
+        "common": "Other local taxes"
+      },
+      "taxes": {
+        "base": "Business activities (IAE), vehicles (IVTM), construction (ICIO), increases in land value (plusvalía) and others.",
+        "payer": "Businesses, vehicle owners, builders and sellers of land."
+      },
+      "rate": {
+        "kind": "range",
+        "headline": "Set by each municipality within legal limits",
+        "details": ["The construction tax (ICIO) cannot exceed 4%; the vehicle tax has a legal scale by horsepower with municipal multipliers."],
+        "asOf": "2026-10-10"
+      },
+      "explanation": "The remainder of local tax revenue by the OECD’s classification: income-type taxes EUR 8.9 billion, other property EUR 3.5 billion and goods and services EUR 16.5 billion.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "trlrhl" }],
+      "checkedOn": "2026-10-10"
+    }
+  ]
+}

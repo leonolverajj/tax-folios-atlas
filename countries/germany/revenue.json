@@ -1,0 +1,156 @@
+{
+  "groups": [
+    {
+      "title": "Taxes before distribution 2025 – Destatis GENESIS 71211-0001 (EUR thousand converted to EUR million)",
+      "defaults": {
+        "denominatorId": "federal-law-taxes-2025",
+        "scale": "million",
+        "currency": "EUR",
+        "period": { "label": "2025", "kind": "calendar-year", "start": "2025-01-01", "end": "2025-12-31" },
+        "basis": "Cash receipts before distribution between Bund, Länder, municipalities and EU",
+        "sourceId": "destatis-71211",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-10"
+      },
+      "observations": [
+        {
+          "nodeId": "de-income-tax",
+          "amount": 396969.003,
+          "locator": "Lohnsteuer + Veranlagte Einkommensteuer + Nicht veranlagte Steuern vom Ertrag + Abgeltungssteuer, 2025",
+          "calculation": "262,688.387 + 78,361.594 + 31,118.117 + 24,800.905 = 396,969.003 (EUR million)",
+          "coverageNote": "\"Nicht veranlagte Steuern vom Ertrag\" is the withholding tax on distributed profits and also falls partly on companies; it is a collection form of the income and corporation taxes."
+        },
+        { "nodeId": "de-solidarity-surcharge", "amount": 12878.008, "locator": "Solidaritätszuschlag, 2025" },
+        { "nodeId": "de-corporate-tax", "amount": 39164.161, "locator": "Körperschaftsteuer, 2025" },
+        {
+          "nodeId": "de-vat",
+          "amount": 310205.837,
+          "locator": "Umsatzsteuer + Einfuhrumsatzsteuer, 2025",
+          "calculation": "236,266.675 + 73,939.162 = 310,205.837 (EUR million)"
+        },
+        { "nodeId": "de-energy-tax", "amount": 37563.07, "locator": "Energiesteuer, 2025" },
+        { "nodeId": "de-electricity-tax", "amount": 5855.795, "locator": "Stromsteuer, 2025" },
+        { "nodeId": "de-tobacco-tax", "amount": 17631.933, "locator": "Tabaksteuer, 2025" },
+        { "nodeId": "de-alcohol-tax", "amount": 2050.494, "locator": "Alkoholsteuer, 2025" },
+        { "nodeId": "de-aviation-tax", "amount": 2062.614, "locator": "Luftverkehrsteuer, 2025" },
+        {
+          "nodeId": "de-other-federal-taxes",
+          "amount": 1561.291,
+          "locator": "Kaffeesteuer + Alkopopsteuer + Schaumweinsteuer + Zwischenerzeugnissteuer + EU-Energiekrisenbeitrag + Pauschalierte Eingangsabgaben + Sonstige Bundessteuern, 2025",
+          "calculation": "1,037.899 − 0.237 + 364.615 + 23.011 + 133.826 + 2.175 + 0.002 = 1,561.291 (EUR million)"
+        },
+        { "nodeId": "de-insurance-tax", "amount": 19611.316, "locator": "Versicherungsteuer, 2025" },
+        { "nodeId": "de-vehicle-tax", "amount": 9598.468, "locator": "Kraftfahrzeugsteuer (Bund), 2025" },
+        { "nodeId": "de-customs", "amount": 5859.72, "locator": "Zölle, 2025", "caveat": "Gross collection; about 75% is paid to the EU budget." }
+      ]
+    },
+    {
+      "title": "Social insurance contributions 2025 (estimate) – BMAS Sozialbudget 2025, Table III-1",
+      "defaults": {
+        "denominatorId": "social-insurance-2025",
+        "scale": "million",
+        "currency": "EUR",
+        "period": { "label": "2025 (estimate)", "kind": "estimate", "start": "2025-01-01", "end": "2025-12-31" },
+        "basis": "Contributions of the insured and actual contributions of employers; excludes payments of the state into the schemes",
+        "sourceId": "bmas-sozialbudget-2025",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-10"
+      },
+      "observations": [
+        {
+          "nodeId": "de-pension-insurance",
+          "amount": 286742,
+          "locator": "Tabelle III-1, 2025s: Rentenversicherung (der Versicherten 143,551 + Arbeitgeber tatsächlich 143,191)",
+          "calculation": "143,551 + 143,191 = 286,742 (EUR million)"
+        },
+        {
+          "nodeId": "de-health-insurance",
+          "amount": 291704,
+          "locator": "Tabelle III-1, 2025s: Krankenversicherung (der Versicherten 169,927 + Arbeitgeber tatsächlich 121,777)",
+          "calculation": "169,927 + 121,777 = 291,704 (EUR million)"
+        },
+        {
+          "nodeId": "de-long-term-care-insurance",
+          "amount": 69005,
+          "locator": "Tabelle III-1, 2025s: Pflegeversicherung (der Versicherten 44,148 + Arbeitgeber tatsächlich 24,857)",
+          "calculation": "44,148 + 24,857 = 69,005 (EUR million)"
+        },
+        {
+          "nodeId": "de-unemployment-insurance",
+          "amount": 41689,
+          "locator": "Tabelle III-1, 2025s: Arbeitslosenversicherung (der Versicherten 19,922 + Arbeitgeber tatsächlich 21,767)",
+          "calculation": "19,922 + 21,767 = 41,689 (EUR million)"
+        },
+        {
+          "nodeId": "de-accident-insurance",
+          "amount": 17105,
+          "locator": "Tabelle III-1, 2025s: Unfallversicherung (der Versicherten 1,294 + Arbeitgeber tatsächlich 15,811)",
+          "calculation": "1,294 + 15,811 = 17,105 (EUR million)",
+          "caveat": "Includes EUR 1,294 million of contributions of the insured (mostly voluntary insurance of the self-employed)."
+        }
+      ]
+    },
+    {
+      "title": "Länder taxes 2025 – Destatis GENESIS 71211-0001",
+      "defaults": {
+        "denominatorId": "laender-taxes-2025",
+        "scale": "million",
+        "currency": "EUR",
+        "period": { "label": "2025", "kind": "calendar-year", "start": "2025-01-01", "end": "2025-12-31" },
+        "basis": "Cash receipts",
+        "sourceId": "destatis-71211",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-10"
+      },
+      "observations": [
+        { "nodeId": "de-inheritance-tax", "amount": 15412.435, "locator": "Erbschaftsteuer, 2025" },
+        { "nodeId": "de-real-estate-transfer-tax", "amount": 15097.041, "locator": "Grunderwerbsteuer, 2025" },
+        {
+          "nodeId": "de-gambling-taxes",
+          "amount": 2462.521,
+          "locator": "Lotteriesteuer + Sportwettsteuer + Totalisatorsteuer + Andere Rennwettsteuer + Online-Pokersteuer + Virtuelle Automatensteuer, 2025",
+          "calculation": "1,788.995 + 419.498 + 5.718 + 0.686 + 33.027 + 214.597 = 2,462.521 (EUR million)"
+        },
+        {
+          "nodeId": "de-other-laender-taxes",
+          "amount": 1312.752,
+          "locator": "Feuerschutzsteuer + Biersteuer + Kraftfahrzeugsteuer (Land) + Vermögensteuer + Sonstige Landessteuern, 2025",
+          "calculation": "773.037 + 539.713 + 0 + 0 + 0.002 = 1,312.752 (EUR million)"
+        }
+      ]
+    },
+    {
+      "title": "Municipal taxes 2025 – Destatis GENESIS 71211-0001",
+      "defaults": {
+        "denominatorId": "gemeinden-taxes-2025",
+        "scale": "million",
+        "currency": "EUR",
+        "period": { "label": "2025", "kind": "calendar-year", "start": "2025-01-01", "end": "2025-12-31" },
+        "basis": "Cash receipts, gross of the trade-tax levy to Bund and Länder",
+        "sourceId": "destatis-71211",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-10"
+      },
+      "observations": [
+        { "nodeId": "de-trade-tax", "amount": 76444.382, "locator": "Gewerbesteuer (brutto), 2025" },
+        {
+          "nodeId": "de-property-tax",
+          "amount": 16090.871,
+          "locator": "Grundsteuer A + Grundsteuer B + Grundsteuer C, 2025",
+          "calculation": "344.369 + 15,741.629 + 4.873 = 16,090.871 (EUR million)"
+        },
+        {
+          "nodeId": "de-local-excises",
+          "amount": 1995.136,
+          "locator": "Sonstige Vergnügungsteuer + Hundesteuer + Jagd- und Fischereisteuer + Zweitwohnungsteuer + Schankerlaubnissteuer + Sonstige Steuern, 2025",
+          "calculation": "897.043 + 429.674 + 6.371 + 283.742 + 0.214 + 378.092 = 1,995.136 (EUR million)"
+        }
+      ]
+    }
+  ],
+  "unavailable": []
+}

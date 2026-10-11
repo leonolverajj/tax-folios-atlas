@@ -1,0 +1,103 @@
+{
+  "sources": [
+    {
+      "id": "oecd-rs-2025-subsectors",
+      "org": "OECD",
+      "title": "Revenue Statistics 2025, Table 6.12: France, tax revenues by sub-sectors of government",
+      "url": "https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en/full-report/tax-revenues-by-subsectors-of-general-government_f9e88332.html",
+      "kind": "international",
+      "language": "en",
+      "publishedDate": "2025-12-09",
+      "periodCovered": "Calendar year 2023 (national currency)",
+      "accessed": "2026-09-29",
+      "note": "Harmonised OECD classification of taxes (1000–6000) split by collecting sub-sector of general government."
+    },
+    {
+      "id": "oecd-rs-2025-levels",
+      "org": "OECD",
+      "title": "Revenue Statistics 2025, Chapter 3: Tax levels and tax structures (Table 3.1)",
+      "url": "https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en/full-report/tax-levels-and-tax-structures-1965-2024_2033f3ea.html",
+      "kind": "international",
+      "language": "en",
+      "publishedDate": "2025-12-09",
+      "periodCovered": "Calendar year 2023",
+      "accessed": "2026-09-29",
+      "note": "Total tax revenue as % of GDP."
+    },
+    {
+      "id": "sng-wofi-profile",
+      "org": "OECD and United Cities and Local Governments (SNG-WOFI)",
+      "title": "World Observatory on Subnational Government Finance and Investment – country profile: France",
+      "url": "https://www.sng-wofi.org/country_profiles/france.html",
+      "kind": "international",
+      "language": "en",
+      "publishedDate": "2022-10-24",
+      "periodCovered": "2020",
+      "accessed": "2026-09-29",
+      "note": "Subnational government revenue by category as % of total subnational revenue, 2022 edition."
+    },
+    {
+      "id": "insee-t3217-2025",
+      "org": "INSEE",
+      "title": "Les comptes de la Nation en 2025: Dépenses et recettes des administrations publiques, tableau 3.217 « Principaux impôts par catégorie »",
+      "url": "https://www.insee.fr/fr/statistiques/8988845?sommaire=8988934",
+      "kind": "statistics",
+      "language": "fr",
+      "publishedDate": null,
+      "periodCovered": "2025 (provisional)",
+      "accessed": "2026-10-10",
+      "nextExpected": "2027-05",
+      "note": "Spreadsheet t_3217_fr.xlsx, billions of euros: total compulsory levies EUR 1,305 billion, 43.6% of GDP. The 2025 accounts were revised on 29 May 2026."
+    },
+    {
+      "id": "constitution-1958",
+      "org": "Légifrance",
+      "title": "Constitution du 4 octobre 1958 (arts. 34, 72-2)",
+      "url": "https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006071194",
+      "kind": "legal",
+      "language": "fr",
+      "publishedDate": null,
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "cgi",
+      "org": "Légifrance",
+      "title": "Code général des impôts",
+      "url": "https://www.legifrance.gouv.fr/codes/texte_lc/LEGITEXT000006069577",
+      "kind": "legal",
+      "language": "fr",
+      "publishedDate": null,
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "css",
+      "org": "Légifrance",
+      "title": "Code de la sécurité sociale",
+      "url": "https://www.legifrance.gouv.fr/codes/texte_lc/LEGITEXT000006073189",
+      "kind": "legal",
+      "language": "fr",
+      "publishedDate": null,
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "cgct",
+      "org": "Légifrance",
+      "title": "Code général des collectivités territoriales",
+      "url": "https://www.legifrance.gouv.fr/codes/texte_lc/LEGITEXT000006070633",
+      "kind": "legal",
+      "language": "fr",
+      "publishedDate": null,
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "cdd",
+      "org": "Légifrance",
+      "title": "Code des douanes",
+      "url": "https://www.legifrance.gouv.fr/codes/texte_lc/LEGITEXT000006071570",
+      "kind": "legal",
+      "language": "fr",
+      "publishedDate": null,
+      "accessed": "2026-10-10"
+    }
+  ]
+}

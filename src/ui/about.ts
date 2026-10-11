@@ -1,19 +1,31 @@
-import { registry } from '../data/loader';
+import { queuedCountries, registry } from '../data/loader';
 import { esc } from '../util/dom';
 
 export function mountAbout(dialog: HTMLDialogElement) {
+  const folios = registry.filter((c) => c.researchStatus !== 'draft');
   dialog.innerHTML = `
     <form method="dialog" class="about-close"><button class="btn" aria-label="Close about dialog">Close</button></form>
     <h2 id="about-title">About Tax Folios Atlas</h2>
-    <p>An interactive atlas of how tax systems are organised. Each illuminated country opens a <em>folio</em>: the country core, its levels of government, and the taxes and other fiscal instruments that belong to each level. Every line in a folio is a real parent–child relationship in the data.</p>
-    <h3>How to read the data</h3>
+    <p>Two ways to see how countries collect their taxes: the <strong>Atlas</strong>, where every tax is an orb in a country's folio, and the <strong>Trees</strong>, where every folio is drawn as the same kind of small skill tree so that the shape of one tax system can be compared with another.</p>
+
+    <h3>Atlas: how to read a folio</h3>
     <ul>
-      <li><strong>Revenue-sized cores.</strong> National-level tax cores are sized by their share of one clearly defined total (for example "total federal revenues, FY2024-25"). The size, the amount and the percentage all come from the same documented figures.</li>
-      <li><strong>Different kinds of charge</strong> – taxes, social contributions, insurance premiums, royalties, customs duties and fees – are labelled and drawn with different plate shapes, even when they sit in the same folio.</li>
-      <li><strong>Sub-national cores</strong> carry an aggregate national amount only where an official statistical table exists; they are not sized by revenue and rates are shown as "varies by jurisdiction" rather than invented.</li>
-      <li><strong>Changing law.</strong> Transitional, scheduled and repealed rules are marked in the detail panel with a dashed ring on the core.</li>
+      <li><strong>Start.</strong> Click an illuminated country on the map, then click any orb. The panel on the right explains it: what it taxes, the rate, the legal source, the latest revenue and where it ranks.</li>
+      <li><strong>Size.</strong> The <em>area</em> of a tax orb is its share of everything the country collects (taxes and compulsory social contributions, all levels of government together). The biggest orbs are therefore the biggest revenue sources, whichever government collects them. Very small shares all get the same minimum size so they stay visible.</li>
+      <li><strong>Colour and shape.</strong> Colour is the level of government. The plate shape is the kind of charge: taxes, social contributions, insurance premiums, royalties, customs duties and fees are kept apart.</li>
+      <li><strong>A dotted inner ring</strong> means the orb has no tax-specific amount, or is not part of the tax total (fees, royalties). It keeps a small neutral size and the panel says why.</li>
+      <li><strong>Dashed ring.</strong> The rule is changing, scheduled or repealed; see the banner in the panel.</li>
     </ul>
-    <h3>Folios available now</h3>
-    <p>${registry.map((c) => esc(c.names.en)).join(' · ')}</p>
-    <p class="muted">This is a research aid, not legal or tax advice. Rates and rules change; each core links to its official legal sources and states the date it was checked.</p>`;
+
+    <h3>Trees: how to read them</h3>
+    <ul>
+      <li>The country is the centre, its levels of government are the first ring, and every tax, contribution or duty is a dot on the branch of the government that levies it. All trees use the same scale, so a wider, denser tree means more separate charges.</li>
+      <li>Dot area is the share of national revenue, as in the folios; switch to <em>every charge equal</em> to compare the count alone. The numbers under each tree are counts and shares taken from the folios: nothing is scored, and the table lists every one.</li>
+      <li>Counts say how many separate charges a reader meets. They do not measure how hard the rules are to comply with.</li>
+    </ul>
+
+    <h3>What is here now</h3>
+    <p><strong>Folios (${folios.length}):</strong> ${folios.map((c) => esc(c.names.en)).join(' · ')}.</p>
+    ${queuedCountries.length ? `<p><strong>Waiting for a folio (${queuedCountries.length}):</strong> OECD members whose harmonised figures are already collected; they are listed at the bottom of the Trees page.</p>` : ''}
+    <p class="muted">This is a research aid, not legal or tax advice. Rates and rules change; each core links to its official legal sources and states the date it was checked. Sizes mix the latest figure each source publishes, so shares are approximate to that extent; the panel of each country lists its sources and their periods.</p>`;
 }

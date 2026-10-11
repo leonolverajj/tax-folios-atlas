@@ -1,0 +1,32 @@
+{
+  "nodes": {
+    "switzerland": { "label": "Schweiz", "sublabel": "Suisse · Svizzera", "glyph": "globe" },
+    "confederation": { "label": "Bund", "sublabel": "Confederation", "glyph": "landmark" },
+    "cantons": { "label": "Cantons", "sublabel": "26 cantons", "glyph": "city" },
+    "communes": { "label": "Communes", "sublabel": "About 2,100", "glyph": "town" },
+    "ch-direct-federal-tax": { "label": "Direct federal tax", "sublabel": "Income · profit", "glyph": "person" },
+    "ch-vat": { "label": "VAT", "sublabel": "MWST · 8.1%", "glyph": "cart" },
+    "ch-withholding-tax": { "label": "Withholding tax", "sublabel": "Verrechnungssteuer · 35%", "glyph": "scroll" },
+    "ch-mineral-oil-tax": { "label": "Mineral oil tax", "sublabel": "Fuels", "glyph": "flame" },
+    "ch-stamp-duties": { "label": "Stamp duties", "sublabel": "Securities · insurance", "glyph": "stamp" },
+    "ch-tobacco-tax": { "label": "Tobacco tax", "sublabel": "Tabaksteuer", "glyph": "smoke" },
+    "ch-heavy-vehicle-fee": { "label": "Heavy vehicle fee", "sublabel": "LSVA", "glyph": "car" },
+    "ch-customs": { "label": "Customs duties", "sublabel": "By weight", "glyph": "ship" },
+    "ch-other-federal-taxes": { "label": "Other federal taxes", "sublabel": "Cars · beer · gaming", "glyph": "stamp" },
+    "ch-ahv": { "label": "Old-age insurance (AHV)", "sublabel": "8.7%", "glyph": "shield" },
+    "ch-iv": { "label": "Disability insurance", "sublabel": "IV", "glyph": "heart" },
+    "ch-eo": { "label": "Income compensation", "sublabel": "EO", "glyph": "bed" },
+    "ch-alv": { "label": "Unemployment insurance", "sublabel": "ALV", "glyph": "key" },
+    "ch-cantonal-income-tax": { "label": "Cantonal income tax", "sublabel": "Individuals", "glyph": "person" },
+    "ch-cantonal-profit-tax": { "label": "Cantonal profit tax", "sublabel": "Companies", "glyph": "factory" },
+    "ch-cantonal-wealth-tax": { "label": "Net wealth tax", "sublabel": "Cantonal", "glyph": "gem" },
+    "ch-inheritance-tax": { "label": "Inheritance tax", "sublabel": "Cantonal", "glyph": "key" },
+    "ch-cantonal-vehicle-taxes": { "label": "Motor vehicle taxes", "sublabel": "Cantonal", "glyph": "car" },
+    "ch-other-cantonal-income": { "label": "Other income taxes", "sublabel": "Unallocated", "glyph": "ledger" },
+    "ch-other-cantonal-taxes": { "label": "Other cantonal taxes", "sublabel": "Property · transactions", "glyph": "stamp" },
+    "ch-communal-income-tax": { "label": "Communal income tax", "sublabel": "Individuals", "glyph": "person" },
+    "ch-communal-profit-tax": { "label": "Communal profit tax", "sublabel": "Companies", "glyph": "factory" },
+    "ch-communal-wealth-tax": { "label": "Communal wealth tax", "sublabel": "Individuals", "glyph": "gem" },
+    "ch-other-communal-taxes": { "label": "Other communal taxes", "sublabel": "Property · other", "glyph": "stamp" }
+  }
+}

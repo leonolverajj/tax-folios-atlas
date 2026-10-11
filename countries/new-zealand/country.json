@@ -1,0 +1,88 @@
+{
+  "id": "new-zealand",
+  "iso3": "NZL",
+  "isoNumeric": "554",
+  "names": { "en": "New Zealand", "native": "Aotearoa New Zealand", "nativeLang": "en-NZ" },
+  "currency": { "code": "NZD", "symbol": "$", "name": "New Zealand dollar" },
+  "summary": "New Zealand is a unitary state with one national government (the Crown) and 78 local authorities. Almost every tax is national: income tax, company tax, GST at a single 15% rate, and excises. There are no social security contributions, no payroll tax and no capital gains or inheritance tax; compulsory accident insurance is funded by ACC levies. Local councils raise one tax, rates on property.",
+  "structureNote": "There is no regional level: regional councils exist but raise their money through rates collected by the territorial authorities, which the statistics count as local rates. The Crown’s accounts report taxation revenue separately from other compulsory levies; the ACC, fire-and-emergency and natural-hazards levies are drawn because they are compulsory, earmarked and legislated like insurance contributions, and are counted with taxes in the national total. Revenue from the emissions trading scheme is a sale of carbon units and is left out.",
+  "theme": {
+    "accent": "#5fb4ff",
+    "accent2": "#d62839",
+    "motif": "topo",
+    "motifNote": "Topographic contour lines over the outline of New Zealand (the generic motif; no bespoke art yet).",
+    "mapLabel": { "lon": 172.5, "lat": -41.5 }
+  },
+  "levels": [
+    {
+      "id": "crown",
+      "branch": "national",
+      "names": { "official": "The Crown (central government)", "native": "Te Karauna", "common": "Central government" },
+      "description": "The national government. Inland Revenue collects income tax, GST and most other taxes; the New Zealand Customs Service collects customs duty and excise; the NZ Transport Agency collects road user charges.",
+      "fiscalPower": "Parliament has unlimited power to tax. Each tax is set annually or by statute: the Income Tax Act 2007 and Tax Administration Act 1994 for income taxes, the Goods and Services Tax Act 1985 for GST and the Customs and Excise Act 2018 for excise and duty.",
+      "legalRefs": [{ "sourceId": "ita-2007" }, { "sourceId": "gst-act-1985" }, { "sourceId": "customs-excise-act-2018" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "councils",
+      "branch": "local",
+      "names": { "official": "Local authorities (regional councils and territorial authorities)", "native": "Kaunihera", "common": "Local government" },
+      "description": "78 local authorities: regional councils and territorial authorities (city and district councils, some of them unitary). They raise rates on property and charge fees; there is no regional government above them.",
+      "fiscalPower": "The Local Government Act 2002 gives councils the power to set rates under the Local Government (Rating) Act 2002, on land value, capital value or annual value, plus uniform charges and targeted rates.",
+      "legalRefs": [{ "sourceId": "lg-rating-act-2002" }],
+      "checkedOn": "2026-10-10"
+    }
+  ],
+  "supportingSourceIds": [],
+  "denominators": [
+    {
+      "id": "crown-taxes-2026",
+      "label": "Core Crown taxation revenue, year to 30 June 2026",
+      "definition": "All taxation revenue of the Crown by source: income tax on individuals, company tax, withholding taxes, GST, excise duties, road user charges, customs and other duties and levies, net of refunds.",
+      "levelIds": ["crown"],
+      "amount": 125075,
+      "scale": "million",
+      "currency": "NZD",
+      "period": { "label": "FY2026", "kind": "fiscal-year", "start": "2025-07-01", "end": "2026-06-30" },
+      "sourceId": "fsgnz-2026",
+      "locator": "Note 4: Sovereign Revenue (Accrual): Total taxation revenue, actual 2026",
+      "caveat": "Accrual basis, unaudited figures published with the 2026 financial statements. Leaves out the other sovereign revenue shown separately (emissions trading, fines, child support).",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "crown-levies-2026",
+      "label": "Compulsory insurance-type levies of the Crown, year to 30 June 2026",
+      "definition": "ACC levies, Fire and Emergency levies and Natural Hazards Commission levies: compulsory, earmarked charges recorded as other sovereign revenue.",
+      "levelIds": ["crown"],
+      "amount": 6235,
+      "scale": "million",
+      "currency": "NZD",
+      "period": { "label": "FY2026", "kind": "fiscal-year", "start": "2025-07-01", "end": "2026-06-30" },
+      "sourceId": "fsgnz-2026",
+      "locator": "Note 4: Other Sovereign Revenue, actual 2026: ACC levies + Fire and emergency levies + Natural Hazards Commission levies",
+      "calculation": "4,501 + 820 + 914 = 6,235 (NZD million)",
+      "caveat": "Accrual basis. The proceeds are paid to the Crown entities that run each scheme.",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "council-rates-2026",
+      "label": "Local authority rates, June year 2026 (provisional)",
+      "definition": "All rates levied by territorial and regional councils: general rates, uniform annual charges, water rates and targeted rates. Rates collected on behalf of other councils are not double counted.",
+      "levelIds": ["councils"],
+      "amount": 10933.9,
+      "scale": "million",
+      "currency": "NZD",
+      "period": { "label": "FY2026 (provisional)", "kind": "fiscal-year", "start": "2025-07-01", "end": "2026-06-30" },
+      "sourceId": "stats-las-2026q2",
+      "locator": "Table 3 Local authority statistics, actual income: Rates, June year 2026 (P)",
+      "caveat": "Provisional (the June 2026 quarter release). Leaves out regulatory income and petrol tax (NZD 1,076.1 million), which is not drawn.",
+      "accessed": "2026-10-10"
+    }
+  ],
+  "sizing": {
+    "label": "Taxes and compulsory levies of all levels of government",
+    "definition": "Crown taxation revenue + compulsory ACC, fire and natural-hazards levies + local authority rates, year to 30 June 2026. Excludes emissions trading revenue, fees, fines, grants and non-tax revenue.",
+    "componentIds": ["crown-taxes-2026", "crown-levies-2026", "council-rates-2026"]
+  },
+  "researchStatus": "researched"
+}

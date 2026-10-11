@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "referenceYear": 2023,
+  "currency": "EUR",
+  "scale": "million",
+  "taxToGdp": 43.9,
+  "basis": "OECD attribution to sub-sectors of general government (Interpretative Guide, section A.12); VAT shares assigned to local governments count as local revenue in the OECD table",
+  "levels": [
+    {
+      "key": "central",
+      "label": "Central government",
+      "folioLevelIds": ["state"],
+      "total": 370755,
+      "byType": { "income": 176204, "socialSecurity": 7957, "payroll": 16532, "property": 27236, "goodsServices": 139084, "other": 3742 }
+    },
+    {
+      "key": "local",
+      "label": "Local governments",
+      "folioLevelIds": ["communes"],
+      "total": 177380,
+      "byType": { "income": 48, "socialSecurity": 0, "payroll": 11391, "property": 70426, "goodsServices": 83977, "other": 11538 }
+    },
+    {
+      "key": "social-security",
+      "label": "Social security funds",
+      "folioLevelIds": [],
+      "total": 689298,
+      "byType": { "income": 157121, "socialSecurity": 405533, "payroll": 27201, "property": 0, "goodsServices": 90279, "other": 9164 }
+    }
+  ],
+  "sourceIds": ["oecd-rs-2025-subsectors", "oecd-rs-2025-levels"],
+  "subnational": {
+    "ownSourceTaxShareOfRevenue": 50.5,
+    "grantsShareOfRevenue": 33.4,
+    "year": 2020,
+    "sourceId": "sng-wofi-profile",
+    "note": "Tariffs and fees 14.7%, property income 1%, other 0.3% of subnational revenue."
+  },
+  "notes": []
+}

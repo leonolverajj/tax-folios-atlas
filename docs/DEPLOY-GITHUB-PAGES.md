@@ -29,7 +29,7 @@ Every time you change a rate or a revenue figure, GitHub validates the data, run
 
 ## What works on the public site, and what does not
 
-- Works: the map, every folio, charts, Fiscal Fighters, deep links (`#/canada/fed-personal-income-tax`) and reload. Fonts, map data and images are bundled with the site.
+- Works: the map, every folio, charts, the Trees page, deep links (`#/canada/fed-personal-income-tax`, `#/trees/japan`) and reload. Fonts, map data and images are bundled with the site.
 - The layout editor's **Save** writes files, so it exists only when you run the project on your own computer (`npm run dev`). On the public site `?layout=1` opens a draft mode that stays in the visitor's own browser and can export a JSON file; nothing can change the published site. There is no upload endpoint to abuse: the checks in `npm run verify:deploy` confirm a write attempt is refused.
 
 ## Checks worth running before you upload

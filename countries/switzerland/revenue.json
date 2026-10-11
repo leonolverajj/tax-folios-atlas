@@ -1,0 +1,112 @@
+{
+  "groups": [
+    {
+      "title": "Fiscal revenue of the Confederation 2023 – EFV Taschenstatistik 2025 (CHF million)",
+      "defaults": {
+        "denominatorId": "federal-fiscal-2023",
+        "scale": "million",
+        "currency": "CHF",
+        "period": { "label": "2023", "kind": "calendar-year", "start": "2023-01-01", "end": "2023-12-31" },
+        "basis": "Accounts (Staatsrechnung), fiscal revenue without special accounts",
+        "sourceId": "efv-taschenstatistik-2025",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-10"
+      },
+      "observations": [
+        { "nodeId": "ch-direct-federal-tax", "amount": 27835, "locator": "Einnahmen Bund: Direkte Bundessteuer, 2023" },
+        { "nodeId": "ch-vat", "amount": 25148, "locator": "Einnahmen Bund: Mehrwertsteuer, 2023" },
+        { "nodeId": "ch-withholding-tax", "amount": 6445, "locator": "Einnahmen Bund: Verrechnungssteuer, 2023" },
+        { "nodeId": "ch-mineral-oil-tax", "amount": 4341, "locator": "Einnahmen Bund: Mineralölsteuer, 2023" },
+        { "nodeId": "ch-stamp-duties", "amount": 2181, "locator": "Einnahmen Bund: Stempelabgaben, 2023" },
+        { "nodeId": "ch-tobacco-tax", "amount": 2025, "locator": "Einnahmen Bund: Tabaksteuer, 2023" },
+        { "nodeId": "ch-heavy-vehicle-fee", "amount": 1645, "locator": "Einnahmen Bund: Schwerverkehrsabgabe, 2023" },
+        { "nodeId": "ch-customs", "amount": 1184, "locator": "Einnahmen Bund: Zölle, 2023" },
+        { "nodeId": "ch-other-federal-taxes", "amount": 3981, "locator": "Einnahmen Bund: Übrige Fiskaleinnahmen, 2023" }
+      ]
+    },
+    {
+      "title": "Social insurance contributions 2023 – BSV, Table GRSV 2.1 (CHF million)",
+      "defaults": {
+        "denominatorId": "social-insurance-2023",
+        "scale": "million",
+        "currency": "CHF",
+        "period": { "label": "2023", "kind": "calendar-year", "start": "2023-01-01", "end": "2023-12-31" },
+        "basis": "Contributions of the insured and employers, social insurance accounts (GRSV)",
+        "sourceId": "bsv-svs-2025",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-10"
+      },
+      "observations": [
+        {
+          "nodeId": "ch-ahv",
+          "amount": 37428,
+          "locator": "Tabelle GRSV 2.1: AHV, Beiträge Versicherte und Arbeitgebende, 2023",
+          "caveat": "Excludes CHF 13,749 million of public contributions (federal and VAT)."
+        },
+        { "nodeId": "ch-iv", "amount": 6048, "locator": "Tabelle GRSV 2.1: IV, Beiträge Versicherte und Arbeitgebende, 2023" },
+        { "nodeId": "ch-eo", "amount": 2159, "locator": "Tabelle GRSV 2.1: EO, Beiträge Versicherte und Arbeitgebende, 2023" },
+        { "nodeId": "ch-alv", "amount": 7856, "locator": "Tabelle GRSV 2.1: ALV, Beiträge Versicherte und Arbeitgebende, 2023" }
+      ]
+    },
+    {
+      "title": "Cantonal taxes 2023 – OECD Revenue Statistics 2025, Table 6.35 (CHF million)",
+      "defaults": {
+        "denominatorId": "cantonal-taxes-2023",
+        "scale": "million",
+        "currency": "CHF",
+        "period": { "label": "2023", "kind": "calendar-year", "start": "2023-01-01", "end": "2023-12-31" },
+        "basis": "OECD attribution to the State/Regional sub-sector",
+        "sourceId": "oecd-rs-2025-subsectors",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-10"
+      },
+      "observations": [
+        { "nodeId": "ch-cantonal-income-tax", "amount": 32241, "locator": "Table 6.35 State/Regional: 1100 Taxes on income of individuals, 2023" },
+        { "nodeId": "ch-cantonal-profit-tax", "amount": 8773, "locator": "Table 6.35 State/Regional: 1200 Corporate, 2023" },
+        { "nodeId": "ch-cantonal-wealth-tax", "amount": 6585, "locator": "Table 6.35 State/Regional: 4200 Recurrent taxes on net wealth, 2023" },
+        { "nodeId": "ch-inheritance-tax", "amount": 1308, "locator": "Table 6.35 State/Regional: 4300 Estate, inheritance and gift taxes, 2023" },
+        {
+          "nodeId": "ch-cantonal-vehicle-taxes",
+          "amount": 2481,
+          "locator": "Table 6.35 State/Regional: 5200 Taxes on use of goods and perform activities, 2023"
+        },
+        { "nodeId": "ch-other-cantonal-income", "amount": 1942, "locator": "Table 6.35 State/Regional: 1300 Unallocable between 1100 and 1200, 2023" },
+        {
+          "nodeId": "ch-other-cantonal-taxes",
+          "amount": 2756,
+          "locator": "Table 6.35 State/Regional: total 56,086 less the named taxes",
+          "calculation": "56,086 − (32,241 + 8,773 + 1,942 + 6,585 + 1,308 + 2,481) = 2,756 (CHF million)"
+        }
+      ]
+    },
+    {
+      "title": "Communal taxes 2023 – OECD Revenue Statistics 2025, Table 6.35 (CHF million)",
+      "defaults": {
+        "denominatorId": "communal-taxes-2023",
+        "scale": "million",
+        "currency": "CHF",
+        "period": { "label": "2023", "kind": "calendar-year", "start": "2023-01-01", "end": "2023-12-31" },
+        "basis": "OECD attribution to the Local government sub-sector",
+        "sourceId": "oecd-rs-2025-subsectors",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-10"
+      },
+      "observations": [
+        { "nodeId": "ch-communal-income-tax", "amount": 22115, "locator": "Table 6.35 Local government: 1100 Taxes on income of individuals, 2023" },
+        { "nodeId": "ch-communal-profit-tax", "amount": 4445, "locator": "Table 6.35 Local government: 1200 Corporate, 2023" },
+        { "nodeId": "ch-communal-wealth-tax", "amount": 4172, "locator": "Table 6.35 Local government: 4200 Recurrent taxes on net wealth, 2023" },
+        {
+          "nodeId": "ch-other-communal-taxes",
+          "amount": 4044,
+          "locator": "Table 6.35 Local government: total 34,776 less the named taxes",
+          "calculation": "34,776 − (22,115 + 4,445 + 4,172) = 4,044 (CHF million)"
+        }
+      ]
+    }
+  ],
+  "unavailable": []
+}

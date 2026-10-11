@@ -1,0 +1,89 @@
+{
+  "id": "chile",
+  "iso3": "CHL",
+  "isoNumeric": "152",
+  "names": { "en": "Chile", "native": "Chile", "nativeLang": "es-CL" },
+  "currency": { "code": "CLP", "symbol": "$", "name": "Chilean peso" },
+  "summary": "Chile is a unitary state: Congress legislates every tax, the President alone can propose them, and almost all of them are national. Two taxes carry most of the revenue, income tax and a 19% VAT; fuel, tobacco, stamp tax on credit and customs duties are small by comparison. The 345 municipalities levy no tax of their own choosing: property tax rates are set nationally and the proceeds go to the municipalities, which also charge commercial licences and vehicle circulation permits, and part of all three is pooled in a common fund that redistributes it.",
+  "structureNote": "The 16 regional governments have no taxing power, so the folio has two levels. Pension contributions go mostly to private pension fund managers (AFPs) and are not government revenue; the folio draws only the contributions recorded in the central government accounts as \"imposiciones previsionales\". Income tax is drawn as one core because the central-government report does not split it between companies, individuals, non-residents and mining. The report’s \"Otros\" line (a net of other taxes and accounting adjustments) is left out.",
+  "theme": {
+    "accent": "#6aa0ff",
+    "accent2": "#d52b1e",
+    "motif": "topo",
+    "motifNote": "Topographic contour lines over the outline of Chile (the generic motif; no bespoke art yet).",
+    "mapLabel": { "lon": -71.4, "lat": -35.7 }
+  },
+  "levels": [
+    {
+      "id": "central",
+      "branch": "national",
+      "names": { "official": "Central government (Gobierno Central)", "native": "Gobierno Central", "common": "Central government" },
+      "description": "The central government legislates and levies every national tax. The Internal Revenue Service (SII) administers them, the Treasury (Tesorería General de la República) collects them and the National Customs Service collects duties and VAT on imports.",
+      "fiscalPower": "The Constitution makes taxes a matter of law (Art. 63), reserves the initiative to impose, abolish or reduce them to the President (Art. 65) and requires them to be equally distributed (Art. 19 No. 20).",
+      "legalRefs": [{ "sourceId": "cl-constitution", "locator": "Arts. 19 No. 20, 63, 65" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "municipal",
+      "branch": "local",
+      "names": { "official": "Municipalities (Municipalidades)", "native": "Municipalidades", "common": "Municipalities" },
+      "description": "345 municipalities (comunas). They issue commercial licences and vehicle circulation permits and receive the property (territorial) tax, but they set no tax rate themselves. Part of the property tax, of the circulation permits and, for the four richest communes, of the commercial licences is pooled in the Common Municipal Fund and redistributed.",
+      "fiscalPower": "The Constitution creates the Common Municipal Fund as a solidarity mechanism among municipalities (Art. 122). The Municipal Revenue Law (DL 3,063) defines the licence and the permit; the property tax is set by the Territorial Tax Law (Law 17,235) and a supreme decree.",
+      "legalRefs": [{ "sourceId": "cl-constitution", "locator": "Art. 122" }, { "sourceId": "dl-3063" }, { "sourceId": "ley-17235" }],
+      "checkedOn": "2026-10-11"
+    }
+  ],
+  "supportingSourceIds": ["sinim-revista-2025"],
+  "denominators": [
+    {
+      "id": "central-taxes-2025",
+      "label": "Net taxes of the central government, 2025",
+      "definition": "The central government’s net tax revenue by tax in 2025, in the December report: income tax, VAT, specific taxes on tobacco and fuels, the fishing extraction rights, the stamp tax on legal acts and customs duties, all net of refunds. The line \"Otros\" (a net 673,614 million pesos) is left out.",
+      "levelIds": ["central"],
+      "amount": 59970470,
+      "scale": "million",
+      "currency": "CLP",
+      "period": { "label": "2025", "kind": "calendar-year", "start": "2025-01-01", "end": "2025-12-31" },
+      "sourceId": "dipres-ejecucion-2025-12",
+      "locator": "Ingresos tributarios netos, acumulado a diciembre 2025: all lines except \"Otros\"",
+      "calculation": "26,055,529 + 28,549,581 + 2,882,309 + 950,028 + 70,227 + 851,524 + 611,272 = 59,970,470 (CLP million)",
+      "caveat": "DIPRES’s total of net taxes is 60,644,083 million pesos (60,644,084 in another table of the same report). \"Otros\" is 1,796,628 of other taxes that the report does not itemise, less 1,123,014 of debtor-fluctuation adjustments. Net of refunds; the cash basis of the budget execution report.",
+      "accessed": "2026-10-11"
+    },
+    {
+      "id": "central-contributions-2025",
+      "label": "Social security contributions recorded by the central government, 2025",
+      "definition": "The budget line “imposiciones previsionales”: contributions of workers and employers recorded as revenue of public social security bodies, such as the health fund (FONASA) and the public pension institutions.",
+      "levelIds": ["central"],
+      "amount": 4366802,
+      "scale": "million",
+      "currency": "CLP",
+      "period": { "label": "2025", "kind": "calendar-year", "start": "2025-01-01", "end": "2025-12-31" },
+      "sourceId": "dipres-ejecucion-2025-12",
+      "locator": "Ingresos del Gobierno Central Total, acumulado a diciembre 2025: Imposiciones previsionales",
+      "caveat": "DIPRES budget tables record the worker contributions of FONASA under this heading; the report gives no split by scheme. Leaves out the contributions to private pension fund managers and private health insurers, which are not government revenue.",
+      "accessed": "2026-10-11"
+    },
+    {
+      "id": "municipal-taxes-2023",
+      "label": "Municipal taxes, 2023",
+      "definition": "Tax revenue attributed by the OECD to local government in Chile: taxes on immovable property and taxes on goods and services (licences and permits).",
+      "levelIds": ["municipal"],
+      "amount": 5004417,
+      "scale": "million",
+      "currency": "CLP",
+      "period": { "label": "2023", "kind": "calendar-year", "start": "2023-01-01", "end": "2023-12-31" },
+      "sourceId": "oecd-rs-2025-subsectors",
+      "locator": "Table 6.5: Chile, local government 2023: property 2,337,996 + goods and services 2,666,421",
+      "calculation": "2,337,996 + 2,666,421 = 5,004,417 (CLP million); the OECD’s total is 5,004,416 (rounding)",
+      "caveat": "Calendar 2023, two years before the central figures: the OECD table is the only source that splits municipal tax revenue into property tax and licence charges on a consistent basis. SINIM, the municipalities’ own information system, gives a different breakdown and no 2025 figure yet.",
+      "accessed": "2026-10-11"
+    }
+  ],
+  "sizing": {
+    "label": "Taxes and compulsory social security contributions of all levels of government",
+    "definition": "Central net taxes and recorded social contributions (2025) + municipal taxes (2023, OECD). Excludes the \"Otros\" line, municipal fees such as the garbage charge, private pension and health contributions, fines and non-tax revenue.",
+    "componentIds": ["central-taxes-2025", "central-contributions-2025", "municipal-taxes-2023"]
+  },
+  "researchStatus": "partial"
+}

@@ -1,0 +1,138 @@
+{
+  "groups": [
+    {
+      "title": "State tax revenue 2025 – MEF Bollettino delle entrate tributarie, December 2025 (EUR million)",
+      "defaults": {
+        "denominatorId": "state-taxes-2025",
+        "scale": "million",
+        "currency": "EUR",
+        "period": { "label": "2025", "kind": "calendar-year", "start": "2025-01-01", "end": "2025-12-31" },
+        "basis": "Accruals on the legal-competence basis, preconsuntivo",
+        "sourceId": "mef-bollettino-2025-12",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-10"
+      },
+      "observations": [
+        { "nodeId": "it-irpef", "amount": 231301, "locator": "Bollettino dicembre 2025, p. 3: IRPEF, EUR 231,301 million" },
+        { "nodeId": "it-ires", "amount": 60085, "locator": "Bollettino dicembre 2025, p. 4: IRES, EUR 60,085 million" },
+        {
+          "nodeId": "it-substitute-taxes",
+          "amount": 29146,
+          "locator": "Bollettino dicembre 2025, p. 4: imposta sostitutiva e ritenute 21,055 + sostitutiva su redditi di capitale e plusvalenze 6,581 + fondi pensione 1,510",
+          "calculation": "21,055 + 6,581 + 1,510 = 29,146 (EUR million)"
+        },
+        {
+          "nodeId": "it-vat",
+          "amount": 186809,
+          "locator": "Bollettino dicembre 2025, p. 4: IVA, EUR 186,809 million (scambi interni 168,179 + importazioni 18,630)",
+          "calculation": "168,179 + 18,630 = 186,809 (EUR million)"
+        },
+        { "nodeId": "it-stamp-duty", "amount": 10998, "locator": "Bollettino dicembre 2025, p. 4: imposta di bollo, EUR 10,998 million" },
+        {
+          "nodeId": "it-registry-taxes",
+          "amount": 8635,
+          "locator": "Bollettino dicembre 2025, p. 4: registro 6,025 + ipotecarie 1,881 + catastali 729",
+          "calculation": "6,025 + 1,881 + 729 = 8,635 (EUR million)"
+        },
+        { "nodeId": "it-insurance-tax", "amount": 5285, "locator": "Bollettino dicembre 2025, p. 4: assicurazioni, EUR 5,285 million" },
+        {
+          "nodeId": "it-licences",
+          "amount": 2949,
+          "locator": "Bollettino dicembre 2025, pp. 4–5: canoni 1,941 + concessioni governative 694 + tasse automobilistiche 314",
+          "calculation": "1,941 + 694 + 314 = 2,949 (EUR million)"
+        },
+        {
+          "nodeId": "it-fuel-excise",
+          "amount": 26338,
+          "locator": "Bollettino dicembre 2025, p. 5: accisa sui prodotti energetici, EUR 26,338 million"
+        },
+        {
+          "nodeId": "it-energy-excises",
+          "amount": 5338,
+          "locator": "Bollettino dicembre 2025, p. 5: accisa sull’energia elettrica 2,724 + gas naturale 2,614",
+          "calculation": "2,724 + 2,614 = 5,338 (EUR million)"
+        },
+        { "nodeId": "it-tobacco", "amount": 11461, "locator": "Bollettino dicembre 2025, p. 5: imposta sul consumo dei tabacchi, EUR 11,461 million" },
+        { "nodeId": "it-gambling", "amount": 7923, "locator": "Bollettino dicembre 2025, p. 5: giochi, EUR 7,923 million (of which indirect 6,624)" },
+        { "nodeId": "it-inheritance-gift", "amount": 1081, "locator": "Bollettino dicembre 2025, p. 5: successioni e donazioni, EUR 1,081 million" },
+        {
+          "nodeId": "it-other-state-taxes",
+          "amount": 34783,
+          "locator": "Bollettino dicembre 2025: total entrate erariali 622,132 less the itemised lines",
+          "calculation": "622,132 − 587,349 = 34,783 (EUR million)",
+          "caveat": "A residual: the named lines in the bulletin text add up to EUR 587,349 million."
+        }
+      ]
+    },
+    {
+      "title": "Social contributions 2025 – ISTAT national accounts (EUR million)",
+      "defaults": {
+        "denominatorId": "social-contributions-2025",
+        "scale": "million",
+        "currency": "EUR",
+        "period": { "label": "2025", "kind": "calendar-year", "start": "2025-01-01", "end": "2025-12-31" },
+        "basis": "National accounts",
+        "sourceId": "istat-cen-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-10"
+      },
+      "observations": [{ "nodeId": "it-social-contributions", "amount": 305829, "locator": "ISTAT, Prospetto 9: Contributi sociali, 2025 (EUR 305,829 million)" }]
+    },
+    {
+      "title": "Regional taxes 2025 – MEF (EUR million)",
+      "defaults": {
+        "denominatorId": "regional-taxes-2025",
+        "scale": "million",
+        "currency": "EUR",
+        "period": { "label": "2025", "kind": "calendar-year", "start": "2025-01-01", "end": "2025-12-31" },
+        "basis": "Accruals on the legal-competence basis",
+        "sourceId": "mef-bollettino-2025-12",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-10"
+      },
+      "observations": [
+        {
+          "nodeId": "it-irap",
+          "amount": 33318,
+          "locator": "Bollettino dicembre 2025, p. 11: IRAP, EUR 33,318 million (private 21,206 + public 12,112)"
+        },
+        {
+          "nodeId": "it-regional-irpef-surcharge",
+          "amount": 16040,
+          "locator": "Bollettino dicembre 2025, p. 11: addizionale regionale IRPEF, EUR 16,040 million"
+        }
+      ]
+    },
+    {
+      "title": "Municipal taxes 2025 – MEF (EUR million)",
+      "defaults": {
+        "denominatorId": "municipal-taxes-2025",
+        "scale": "million",
+        "currency": "EUR",
+        "period": { "label": "2025", "kind": "calendar-year", "start": "2025-01-01", "end": "2025-12-31" },
+        "basis": "Accruals on the legal-competence basis",
+        "sourceId": "mef-bollettino-2025-12",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-10"
+      },
+      "observations": [
+        {
+          "nodeId": "it-imu",
+          "amount": 18212,
+          "locator": "Bollettino dicembre 2025, p. 11: IMU–IMIS quota comuni 18,189 + TASI 23",
+          "calculation": "18,189 + 23 = 18,212 (EUR million)"
+        },
+        {
+          "nodeId": "it-municipal-irpef-surcharge",
+          "amount": 6440,
+          "locator": "Bollettino dicembre 2025, p. 11: addizionale comunale IRPEF, EUR 6,440 million"
+        }
+      ]
+    }
+  ],
+  "unavailable": []
+}

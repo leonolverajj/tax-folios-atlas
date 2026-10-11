@@ -1,0 +1,101 @@
+{
+  "id": "australia",
+  "iso3": "AUS",
+  "isoNumeric": "036",
+  "names": { "en": "Australia", "native": "Australia", "nativeLang": "en-AU" },
+  "currency": { "code": "AUD", "symbol": "$", "name": "Australian dollar" },
+  "summary": "Australia is a federation of six states and two self-governing territories with more than 500 local councils. The Commonwealth raises about four fifths of all tax, mainly personal and company income tax and the GST, and has no social security contributions: pensions and health are paid from general revenue. The states levy payroll tax, land tax, stamp duties and gambling, insurance and motor vehicle taxes; councils levy property rates. All GST revenue is passed on to the states and territories as untied grants.",
+  "structureNote": "The Commonwealth holds almost every broad tax base (income tax, GST, excise and customs: excise and customs are exclusively Commonwealth under s. 90 of the Constitution), and the states are left with payroll tax, property taxes and a set of smaller levies. Local councils are creatures of state law and levy only property rates. Compulsory employer superannuation contributions (the superannuation guarantee) are paid to private funds, not to government, so they are not drawn; the earnings of those funds are taxed by the Commonwealth (see \"Tax on superannuation funds\"). Taxes are drawn under the level that levies them; the GST is drawn under the Commonwealth although the states receive all of it as grants.",
+  "theme": {
+    "accent": "#ffcd00",
+    "accent2": "#00843d",
+    "motif": "topo",
+    "motifNote": "Topographic contour lines over the outline of Australia (the generic motif; no bespoke art yet).",
+    "mapLabel": { "lon": 134, "lat": -25.5 }
+  },
+  "levels": [
+    {
+      "id": "commonwealth",
+      "branch": "national",
+      "names": { "official": "Commonwealth of Australia", "native": "Commonwealth", "common": "Commonwealth government" },
+      "description": "The federal government, which raises income tax, company tax, the GST, excises and customs duties and a number of smaller levies. The Australian Taxation Office collects most of them and the Australian Border Force collects customs duties.",
+      "fiscalPower": "Section 51(ii) of the Constitution gives the Commonwealth power over taxation (not discriminating between states); s. 90 makes customs, excise and bounties exclusively Commonwealth; s. 96 allows grants to the states on conditions, which is how it passes on the GST.",
+      "legalRefs": [{ "sourceId": "constitution", "locator": "ss. 51(ii), 90, 96" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "states",
+      "branch": "regional",
+      "names": {
+        "official": "States and territories (six states, two self-governing territories)",
+        "native": "States and territories",
+        "common": "States and territories"
+      },
+      "description": "New South Wales, Victoria, Queensland, Western Australia, South Australia, Tasmania, the Northern Territory and the Australian Capital Territory. Each raises payroll tax, land tax, stamp duties and levies on gambling, insurance and motor vehicles, and relies on the GST and other grants for the rest.",
+      "fiscalPower": "The states keep their residual taxing power (s. 107), but cannot levy duties of customs or excise (s. 90), which leaves them property, payroll and transaction taxes. Rates and thresholds differ between jurisdictions.",
+      "legalRefs": [{ "sourceId": "constitution", "locator": "ss. 90, 107" }],
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "local-government",
+      "branch": "local",
+      "names": { "official": "Local governments (councils)", "native": "Local governments", "common": "Local government" },
+      "description": "More than 500 councils. They are established by state law and their one significant tax is the property rate on land.",
+      "fiscalPower": "Each state’s local government act lets councils levy rates on land (for example the Local Government Act 1993 (NSW), Chapter 15); several states cap annual increases.",
+      "legalRefs": [{ "sourceId": "nsw-lga-1993", "locator": "Chapter 15 (rates and charges)" }],
+      "checkedOn": "2026-10-10"
+    }
+  ],
+  "supportingSourceIds": ["abs-taxation-2024-25"],
+  "denominators": [
+    {
+      "id": "commonwealth-taxes-2024-25",
+      "label": "Commonwealth taxation revenue, 2024-25",
+      "definition": "All taxation revenue of the Commonwealth government as classified by the ABS: income taxes, taxes on goods and services (GST, excises, customs) and other taxes.",
+      "levelIds": ["commonwealth"],
+      "amount": 675173,
+      "scale": "million",
+      "currency": "AUD",
+      "period": { "label": "FY2024-25", "kind": "fiscal-year", "start": "2024-07-01", "end": "2025-06-30" },
+      "sourceId": "abs-taxation-2024-25",
+      "locator": "Table 1 Taxation, Commonwealth Government: Total Taxation on Commonwealth Government, 2024-25",
+      "caveat": "Accrual-based government finance statistics. Leaves out taxes received from public corporations (810) and from other governments (1).",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "state-taxes-2024-25",
+      "label": "State and territory taxation revenue, 2024-25",
+      "definition": "Taxation revenue of the eight state and territory governments: payroll tax, land tax, stamp duties, gambling, insurance and motor vehicle taxes and smaller levies.",
+      "levelIds": ["states"],
+      "amount": 139822,
+      "scale": "million",
+      "currency": "AUD",
+      "period": { "label": "FY2024-25", "kind": "fiscal-year", "start": "2024-07-01", "end": "2025-06-30" },
+      "sourceId": "abs-taxation-2024-25",
+      "locator": "Table 10 Taxation, Total All States State and Local Government: Total 164,960 less Municipal rates 25,138",
+      "calculation": "164,960 − 25,138 = 139,822 ($m)",
+      "caveat": "Table 10 combines state and local government; municipal rates are local, so they are removed to give the state figure. Gross of taxes the governments pay to each other: the ABS headline net figure for the states is 139,287.",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "local-taxes-2024-25",
+      "label": "Local government taxation revenue (municipal rates), 2024-25",
+      "definition": "Rates levied by councils on land.",
+      "levelIds": ["local-government"],
+      "amount": 25138,
+      "scale": "million",
+      "currency": "AUD",
+      "period": { "label": "FY2024-25", "kind": "fiscal-year", "start": "2024-07-01", "end": "2025-06-30" },
+      "sourceId": "abs-taxation-2024-25",
+      "locator": "Table 10: Taxes on immovable property › Municipal rates, 2024-25",
+      "caveat": "Gross: the ABS headline figure for local government net of taxes paid by other governments is 24,514.",
+      "accessed": "2026-10-10"
+    }
+  ],
+  "sizing": {
+    "label": "Taxation revenue of all levels of government",
+    "definition": "Commonwealth + state and territory + local government taxation revenue, 2024-25 (ABS gross figures, before removing taxes governments pay one another: the ABS all-levels total net of those is 838,974 against 840,133 here). Leaves out non-tax revenue, grants between governments, and compulsory superannuation contributions, which go to private funds.",
+    "componentIds": ["commonwealth-taxes-2024-25", "state-taxes-2024-25", "local-taxes-2024-25"]
+  },
+  "researchStatus": "researched"
+}

@@ -1,0 +1,198 @@
+{
+  "sources": [
+    {
+      "id": "oecd-rs-2025-subsectors",
+      "org": "OECD",
+      "title": "Revenue Statistics 2025, Table 6.33: Spain, tax revenues by sub-sectors of government",
+      "url": "https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en/full-report/tax-revenues-by-subsectors-of-general-government_f9e88332.html",
+      "kind": "international",
+      "language": "en",
+      "publishedDate": "2025-12-09",
+      "periodCovered": "Calendar year 2023 (national currency)",
+      "accessed": "2026-09-29",
+      "note": "Harmonised OECD classification of taxes (1000–6000) split by collecting sub-sector of general government."
+    },
+    {
+      "id": "oecd-rs-2025-levels",
+      "org": "OECD",
+      "title": "Revenue Statistics 2025, Chapter 3: Tax levels and tax structures (Table 3.1)",
+      "url": "https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en/full-report/tax-levels-and-tax-structures-1965-2024_2033f3ea.html",
+      "kind": "international",
+      "language": "en",
+      "publishedDate": "2025-12-09",
+      "periodCovered": "Calendar year 2023",
+      "accessed": "2026-09-29",
+      "note": "Total tax revenue as % of GDP."
+    },
+    {
+      "id": "sng-wofi-profile",
+      "org": "OECD and United Cities and Local Governments (SNG-WOFI)",
+      "title": "World Observatory on Subnational Government Finance and Investment – country profile: Spain",
+      "url": "https://www.sng-wofi.org/country_profiles/spain.html",
+      "kind": "international",
+      "language": "en",
+      "publishedDate": "2022-10-24",
+      "periodCovered": "2020",
+      "accessed": "2026-09-29",
+      "note": "Subnational government revenue by category as % of total subnational revenue, 2022 edition."
+    },
+    {
+      "id": "constitucion",
+      "org": "Boletín Oficial del Estado",
+      "title": "Constitución Española (arts. 31, 133, 156–157)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "kind": "legal",
+      "language": "es",
+      "publishedDate": "1978-12-29",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "lofca-ley-22-2009",
+      "org": "Boletín Oficial del Estado",
+      "title": "Ley 22/2009, por la que se regula el sistema de financiación de las Comunidades Autónomas de régimen común y Ciudades con Estatuto de Autonomía",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-20375",
+      "kind": "legal",
+      "language": "es",
+      "publishedDate": "2009-12-19",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "lgt",
+      "org": "Boletín Oficial del Estado",
+      "title": "Ley 58/2003, General Tributaria",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186",
+      "kind": "legal",
+      "language": "es",
+      "publishedDate": "2003-12-18",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "lirpf",
+      "org": "Boletín Oficial del Estado",
+      "title": "Ley 35/2006, del Impuesto sobre la Renta de las Personas Físicas",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2006-20764",
+      "kind": "legal",
+      "language": "es",
+      "publishedDate": "2006-11-29",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "lis",
+      "org": "Boletín Oficial del Estado",
+      "title": "Ley 27/2014, del Impuesto sobre Sociedades",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2014-12328",
+      "kind": "legal",
+      "language": "es",
+      "publishedDate": "2014-11-28",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "liva",
+      "org": "Boletín Oficial del Estado",
+      "title": "Ley 37/1992, del Impuesto sobre el Valor Añadido",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1992-28740",
+      "kind": "legal",
+      "language": "es",
+      "publishedDate": "1992-12-29",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "liiee",
+      "org": "Boletín Oficial del Estado",
+      "title": "Ley 38/1992, de Impuestos Especiales",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1992-28741",
+      "kind": "legal",
+      "language": "es",
+      "publishedDate": "1992-12-29",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "lisd",
+      "org": "Boletín Oficial del Estado",
+      "title": "Ley 29/1987, del Impuesto sobre Sucesiones y Donaciones",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1987-28141",
+      "kind": "legal",
+      "language": "es",
+      "publishedDate": "1987-12-19",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "litp",
+      "org": "Boletín Oficial del Estado",
+      "title": "Real Decreto Legislativo 1/1993, Texto Refundido de la Ley del Impuesto sobre Transmisiones Patrimoniales y Actos Jurídicos Documentados",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1993-25359",
+      "kind": "legal",
+      "language": "es",
+      "publishedDate": "1993-10-20",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "lip",
+      "org": "Boletín Oficial del Estado",
+      "title": "Ley 19/1991, del Impuesto sobre el Patrimonio",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1991-14392",
+      "kind": "legal",
+      "language": "es",
+      "publishedDate": "1991-06-07",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "trlrhl",
+      "org": "Boletín Oficial del Estado",
+      "title": "Real Decreto Legislativo 2/2004, Texto Refundido de la Ley Reguladora de las Haciendas Locales",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214",
+      "kind": "legal",
+      "language": "es",
+      "publishedDate": "2004-03-09",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "trlgss",
+      "org": "Boletín Oficial del Estado",
+      "title": "Real Decreto Legislativo 8/2015, Texto Refundido de la Ley General de la Seguridad Social",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724",
+      "kind": "legal",
+      "language": "es",
+      "publishedDate": "2015-10-31",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "aeat-imr-2025-12",
+      "org": "Agencia Estatal de Administración Tributaria",
+      "title": "Informe mensual de recaudación tributaria, diciembre 2025 (Cuadro 1.4: ingresos tributarios por conceptos y distribución entre administraciones, acumulado)",
+      "url": "https://sede.agenciatributaria.gob.es/static_files/AEAT/Estudios/Estadisticas/Informes_Estadisticos/Informes_mensuales_recaudacion_tributaria/2025/IMR_25_12_es_es.pdf",
+      "kind": "tax-agency",
+      "language": "es",
+      "publishedDate": null,
+      "periodCovered": "Calendar year 2025",
+      "accessed": "2026-10-10",
+      "nextExpected": "2027-01",
+      "note": "Total tax revenue EUR 325,356 million (+10.4%). The Informe Anual de Recaudación Tributaria 2025 was published on 23 April 2026."
+    },
+    {
+      "id": "aeat-iar-2025",
+      "org": "Agencia Estatal de Administración Tributaria",
+      "title": "Informe Anual de Recaudación Tributaria 2025",
+      "url": "https://sede.agenciatributaria.gob.es/Sede/estadisticas/recaudacion-tributaria/informe-anual/ejercicio-2025/resumen.html",
+      "kind": "tax-agency",
+      "language": "es",
+      "publishedDate": "2026-04-23",
+      "periodCovered": "2025",
+      "accessed": "2026-10-10",
+      "nextExpected": "2027-04"
+    },
+    {
+      "id": "inclusion-2025",
+      "org": "Ministerio de Inclusión, Seguridad Social y Migraciones",
+      "title": "El déficit de la Seguridad Social se reduce al 0,4% del PIB, su nivel más bajo desde 2011 (ejecución presupuestaria 2025)",
+      "url": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/inclusion/Paginas/2026/310326-seguridad-social-deficit-pib.aspx",
+      "kind": "budget-report",
+      "language": "es",
+      "publishedDate": "2026-03-31",
+      "periodCovered": "2025",
+      "accessed": "2026-10-10",
+      "nextExpected": "2027-03",
+      "note": "Contribution income EUR 176,918 million in 2025 (+6.9%), 10.5% of GDP."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "referenceYear": 2023,
+  "currency": "AUD",
+  "scale": "million",
+  "taxToGdp": 29.9,
+  "basis": "OECD attribution to sub-sectors of general government (Interpretative Guide, section A.12)",
+  "levels": [
+    {
+      "key": "central",
+      "label": "Federal government",
+      "folioLevelIds": ["commonwealth"],
+      "total": 644727,
+      "byType": { "income": 495494, "socialSecurity": 0, "payroll": 1912, "property": 15, "goodsServices": 147306, "other": 0 }
+    },
+    {
+      "key": "regional",
+      "label": "State / regional governments",
+      "folioLevelIds": ["states"],
+      "total": 130482,
+      "byType": { "income": 0, "socialSecurity": 0, "payroll": 38822, "property": 54177, "goodsServices": 37483, "other": 0 }
+    },
+    {
+      "key": "local",
+      "label": "Local governments",
+      "folioLevelIds": ["local-government"],
+      "total": 23100,
+      "byType": { "income": 0, "socialSecurity": 0, "payroll": 0, "property": 23100, "goodsServices": 0, "other": 0 }
+    }
+  ],
+  "sourceIds": ["oecd-rs-2025-subsectors", "oecd-rs-2025-levels"],
+  "subnational": {
+    "ownSourceTaxShareOfRevenue": 32.6,
+    "grantsShareOfRevenue": 45.7,
+    "year": 2020,
+    "sourceId": "sng-wofi-profile",
+    "note": "Tariffs and fees 12.8%, property income 9%, other 0% of subnational revenue."
+  },
+  "notes": []
+}

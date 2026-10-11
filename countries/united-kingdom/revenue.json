@@ -1,0 +1,141 @@
+{
+  "groups": [
+    {
+      "title": "HMRC Trust Statement 2025-26 (accrual, £ million)",
+      "defaults": {
+        "denominatorId": "hmrc-taxes-2025-26",
+        "scale": "million",
+        "currency": "GBP",
+        "period": { "label": "FY2025-26", "kind": "fiscal-year", "start": "2025-04-01", "end": "2026-03-31" },
+        "basis": "Accrual basis, taxes and duties and National Insurance contributions",
+        "sourceId": "hmrc-ara-2025-26",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-10"
+      },
+      "observations": [
+        { "nodeId": "uk-income-tax", "amount": 338200, "locator": "Trust Statement, Note 2.1: Income Tax, 2025-26 (£338.2 billion)" },
+        {
+          "nodeId": "uk-national-insurance",
+          "amount": 202200,
+          "locator": "Trust Statement, Note 3.1: National Insurance contributions, 2025-26: Class 1 199.6 + Class 2 0.3 + Class 4 2.3 (£bn)",
+          "calculation": "199,600 + 300 + 2,300 = 202,200 (£ million)"
+        },
+        { "nodeId": "uk-vat", "amount": 186900, "locator": "Trust Statement, Note 2.2: Value Added Tax, 2025-26 (£186.9 billion)" },
+        { "nodeId": "uk-corporation-tax", "amount": 95400, "locator": "Trust Statement, Note 2.3: Corporation Tax, 2025-26 (£95.4 billion)" },
+        { "nodeId": "uk-capital-gains-tax", "amount": 25200, "locator": "Trust Statement, Note 2.4: Capital Gains Tax, 2025-26 (£25.2 billion)" },
+        { "nodeId": "uk-fuel-duty", "amount": 24900, "locator": "Trust Statement, Note 2.5: Hydrocarbon oils duties, 2025-26 (£24.9 billion)" },
+        {
+          "nodeId": "uk-stamp-taxes",
+          "amount": 19700,
+          "locator": "Trust Statement, Note 2.6: Stamp taxes, 2025-26: SDLT 14.8 + SDRT 3.4 + Stamp Duty 1.3 + ATED 0.2 (£bn)"
+        },
+        { "nodeId": "uk-alcohol-duties", "amount": 12400, "locator": "Trust Statement, Note 2.7: Alcohol duties, 2025-26 (£12.4 billion)" },
+        {
+          "nodeId": "uk-insurance-premium-tax",
+          "amount": 9100,
+          "locator": "Trust Statement, Note 2.8: Insurance Premium Tax, 2025-26 (£9.1 billion)"
+        },
+        { "nodeId": "uk-inheritance-tax", "amount": 8300, "locator": "Trust Statement, Note 2.8: Inheritance Tax, 2025-26 (£8.3 billion)" },
+        { "nodeId": "uk-tobacco-duties", "amount": 7400, "locator": "Trust Statement, Note 2.8: Tobacco duties, 2025-26 (£7.4 billion)" },
+        { "nodeId": "uk-customs-duties", "amount": 5000, "locator": "Trust Statement, Note 2.8: Customs duties, 2025-26 (£5.0 billion)" },
+        { "nodeId": "uk-air-passenger-duty", "amount": 4500, "locator": "Trust Statement, Note 2.8: Air Passenger Duty, 2025-26 (£4.5 billion)" },
+        { "nodeId": "uk-apprenticeship-levy", "amount": 4400, "locator": "Trust Statement, Note 2.8: Apprenticeship Levy, 2025-26 (£4.4 billion)" },
+        { "nodeId": "uk-betting-gaming", "amount": 3900, "locator": "Trust Statement, Note 2.8: Betting and Gaming duties, 2025-26 (£3.9 billion)" },
+        {
+          "nodeId": "uk-sector-levies",
+          "amount": 10900,
+          "locator": "Trust Statement, Note 2.8: EPL 2.6 + CCL 1.8 + Bank Levy 1.7 + Bank Surcharge 1.2 + DST 1.1 + DPT 0.6 + Landfill 0.5 + Aggregates 0.4 + SDIL 0.4 + PPT 0.3 + EGL 0.1 + RPDT 0.1 + PRT 0.1 (£bn)",
+          "calculation": "2.6 + 1.8 + 1.7 + 1.2 + 1.1 + 0.6 + 0.5 + 0.4 + 0.4 + 0.3 + 0.1 + 0.1 + 0.1 = 10.9 (£bn)"
+        }
+      ]
+    },
+    {
+      "title": "Vehicle excise duty 2025-26 – OBR databank (£ million)",
+      "defaults": {
+        "denominatorId": "vehicle-excise-duty-2025-26",
+        "scale": "million",
+        "currency": "GBP",
+        "period": { "label": "FY2025-26", "kind": "fiscal-year", "start": "2025-04-01", "end": "2026-03-31" },
+        "basis": "National accounts basis, outturn",
+        "sourceId": "obr-databank-2026-09",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-10"
+      },
+      "observations": [{ "nodeId": "uk-vehicle-excise-duty", "amount": 9030, "locator": "Receipts (£bn): Vehicle excise duties, 2025-26" }]
+    },
+    {
+      "title": "Devolved taxes – outside the national total (£ million)",
+      "defaults": {
+        "scale": "million",
+        "currency": "GBP",
+        "period": { "label": "FY2025-26", "kind": "fiscal-year", "start": "2025-04-01", "end": "2026-03-31" },
+        "basis": "As published by each devolved revenue authority; different periods are stated per row",
+        "sourceId": "hmrc-scottish-income-tax-2024-25",
+        "role": "informational",
+        "coverage": "exact",
+        "accessed": "2026-10-10"
+      },
+      "observations": [
+        {
+          "nodeId": "uk-scottish-income-tax",
+          "amount": 18635,
+          "locator": "Scottish Income Tax Outturn Statistics 2024 to 2025: £18,635 million (2024-25)",
+          "period": { "label": "FY2024-25", "kind": "fiscal-year", "start": "2024-04-01", "end": "2025-03-31" },
+          "caveat": "Already counted in the UK income tax core; it has no share of its own. Shown for 2024-25, the latest year with final data."
+        },
+        {
+          "nodeId": "uk-lbtt",
+          "amount": 899.2,
+          "locator": "Provisional outturn 2024-25: land and buildings transaction tax £899.2 million",
+          "period": { "label": "FY2024-25", "kind": "fiscal-year", "start": "2024-04-01", "end": "2025-03-31" },
+          "caveat": "Outside the national total (about 0.1%); 2024-25 provisional outturn from the Scottish Government."
+        },
+        {
+          "nodeId": "uk-ltt",
+          "amount": 378,
+          "locator": "WRA statistics: land transaction tax due 2025-26: £378.0 million",
+          "caveat": "Outside the national total (about 0.04%)."
+        }
+      ]
+    },
+    {
+      "title": "Council tax 2025-26 – OBR databank (£ million)",
+      "defaults": {
+        "denominatorId": "council-tax-2025-26",
+        "scale": "million",
+        "currency": "GBP",
+        "period": { "label": "FY2025-26", "kind": "fiscal-year", "start": "2025-04-01", "end": "2026-03-31" },
+        "basis": "National accounts basis, outturn",
+        "sourceId": "obr-databank-2026-09",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-10"
+      },
+      "observations": [{ "nodeId": "uk-council-tax", "amount": 50440, "locator": "Receipts (£bn): Council tax, 2025-26 (50.44)" }]
+    },
+    {
+      "title": "Business rates, England, 2025-26 – MHCLG (£ million)",
+      "defaults": {
+        "denominatorId": "business-rates-england-2025-26",
+        "scale": "million",
+        "currency": "GBP",
+        "period": { "label": "FY2025-26", "kind": "fiscal-year", "start": "2025-04-01", "end": "2026-03-31" },
+        "basis": "Net rating income of English local authorities, outturn",
+        "sourceId": "mhclg-nndr-2025-26",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-10"
+      },
+      "observations": [
+        {
+          "nodeId": "uk-business-rates",
+          "amount": 27600,
+          "locator": "Net rating income of English local authorities, 2025-26 outturn (£27.6 billion)"
+        }
+      ]
+    }
+  ],
+  "unavailable": []
+}

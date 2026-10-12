@@ -1,0 +1,594 @@
+{
+  "instruments": [
+    {
+      "id": "lu-wage-tax",
+      "parentId": "etat",
+      "levelId": "etat",
+      "category": "tax",
+      "family": "income-personal",
+      "status": "current",
+      "names": { "official": "Tax withheld on wages and salaries", "native": "Impôt retenu sur les traitements et salaires", "common": "Wage tax" },
+      "taxes": { "base": "Wages and salaries; withheld each month by the employer using the tax tables.", "payer": "Employees; the employer withholds." },
+      "rate": {
+        "kind": "progressive",
+        "headline": "0% to 42% progressive",
+        "details": [
+          "The scale rises from 8% on taxable income above EUR 13,230 to 42% above EUR 234,870, after the 2025 indexation of 2.5 brackets (PwC).",
+          "Rate as summarised by PwC (review of July–August 2026), not checked against the Luxembourg tax administrations."
+        ],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "The largest direct tax. Luxembourg also collects a solidarity surcharge on top (next row). All of it is a State tax; communes receive none of it in the national accounts.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "pwc-lu-individual", "locator": "Income tax rates" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "lu-income-tax-assessed",
+      "parentId": "etat",
+      "levelId": "etat",
+      "category": "tax",
+      "family": "income-personal",
+      "status": "current",
+      "names": {
+        "official": "Personal income tax fixed by assessment",
+        "native": "Impôt sur le revenu des personnes physiques fixé par voie d’assiette",
+        "common": "Income tax by assessment"
+      },
+      "taxes": {
+        "base": "Income that is assessed after a tax return: self-employment, rents, and other income not taxed by withholding.",
+        "payer": "Individuals."
+      },
+      "rate": {
+        "kind": "progressive",
+        "headline": "Same progressive scale as the wage tax",
+        "details": ["Rate as summarised by PwC (review of July–August 2026), not checked against the Luxembourg tax administrations."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "Assessed on the same scale as wages.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "pwc-lu-individual", "locator": "Income tax rates" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "lu-solidarity-individuals",
+      "parentId": "etat",
+      "levelId": "etat",
+      "category": "tax",
+      "family": "income-personal",
+      "status": "current",
+      "names": {
+        "official": "Solidarity surcharge on personal income tax",
+        "native": "Impôt de solidarité (majoration) des personnes physiques",
+        "common": "Solidarity surcharge (persons)"
+      },
+      "taxes": { "base": "A surcharge calculated on the income tax of individuals.", "payer": "Individuals." },
+      "rate": {
+        "kind": "mechanism",
+        "headline": "A percentage added to the income tax",
+        "details": ["The National Tax List calls it \"Supplementary solidarity income tax\"; the rate is not itemised there."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "The surcharge brings in EUR 608 million in 2024.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet LU, D51A C04" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "lu-capital-income-withholding",
+      "parentId": "etat",
+      "levelId": "etat",
+      "category": "tax",
+      "family": "income-personal",
+      "status": "current",
+      "names": {
+        "official": "Withholding taxes on capital income, directors’ fees and interest, and smaller withholding taxes",
+        "native": "Impôt retenu sur les revenus de capitaux; tantièmes; retenue libératoire sur les intérêts",
+        "common": "Capital income withholding taxes"
+      },
+      "taxes": {
+        "base": "Dividends and other capital income (EUR 1,053 million), directors’ fees (EUR 74 million), interest of residents (EUR 171 million, final withholding), certain income of non-residents (EUR 1 million), contributions to a supplementary pension plan for the self-employed (EUR 6 million) and a temporary balancing tax (EUR 0.01 million).",
+        "payer": "Recipients of the income; the payer withholds."
+      },
+      "rate": { "kind": "varies", "headline": "By type of income", "details": [], "asOf": "2026-10-12" },
+      "explanation": "Six lines of the National Tax List that tax investment income at source.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet LU, D51A C02, C05, C06, C08, C10, C11" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "lu-corporation-tax",
+      "parentId": "etat",
+      "levelId": "etat",
+      "category": "tax",
+      "family": "income-corporate",
+      "status": "current",
+      "names": {
+        "official": "Corporation tax, its solidarity surcharge and the real estate levy",
+        "native": "Impôt sur le revenu des collectivités; impôt de solidarité; prélèvement immobilier",
+        "common": "Corporation tax"
+      },
+      "taxes": {
+        "base": "Taxable profit of companies; the surcharge (EUR 262 million) is added to the tax; the real estate levy is EUR 8 million.",
+        "payer": "Companies."
+      },
+      "rate": {
+        "kind": "progressive",
+        "headline": "15% to EUR 175,000 of income; 17% above EUR 200,000",
+        "details": [
+          "Plus a solidarity surtax of 7% of the tax; the overall rate with the municipal business tax is 24.94% in Luxembourg City (PwC).",
+          "Rate as summarised by PwC (review of July–August 2026), not checked against the Luxembourg tax administrations."
+        ],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "The State’s corporate income tax. The municipal business tax (trade tax) is drawn under the communes.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "pwc-lu-corporate", "locator": "Corporate income tax rates" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "lu-net-wealth-tax",
+      "parentId": "etat",
+      "levelId": "etat",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "Net wealth tax", "native": "Impôt sur la fortune", "common": "Net wealth tax" },
+      "taxes": { "base": "The net assets of companies (since 2006 the tax no longer applies to individuals).", "payer": "Companies." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Set by law",
+        "details": ["The National Tax List shows EUR 1,101.5 million in 2024, about the same as in 2023."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "A significant revenue source for Luxembourg.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet LU, D59A C01" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "lu-subscription-tax",
+      "parentId": "etat",
+      "levelId": "etat",
+      "category": "tax",
+      "family": "other",
+      "status": "current",
+      "names": {
+        "official": "Subscription tax on company securities (\"holding tax\")",
+        "native": "Taxe d’abonnement sur les titres de société",
+        "common": "Subscription tax"
+      },
+      "taxes": { "base": "As named in the National Tax List: company securities, booked as a tax on production.", "payer": "Not given in the list." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Set by the Law on the taxe d’abonnement",
+        "details": ["EUR 1,317.3 million in 2024 and EUR 1,216.7 million in 2023."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "The fourth largest tax line in the State’s list.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet LU, D29H C03" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "lu-inheritance",
+      "parentId": "etat",
+      "levelId": "etat",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "Inheritance duty", "native": "Droits de succession", "common": "Inheritance duty" },
+      "taxes": { "base": "Inheritances other than those in direct line.", "payer": "Heirs." },
+      "rate": { "kind": "varies", "headline": "By relationship to the deceased", "details": [], "asOf": "2026-10-12" },
+      "explanation": "EUR 134 million in 2024.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet LU, D91A C01" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "lu-vat",
+      "parentId": "etat",
+      "levelId": "etat",
+      "category": "tax",
+      "family": "general-consumption",
+      "status": "current",
+      "names": { "official": "Value added tax", "native": "Taxe sur la valeur ajoutée", "common": "VAT", "abbreviation": "TVA" },
+      "taxes": { "base": "Goods and services supplied in Luxembourg and imports.", "payer": "Consumers; businesses charge it and claim input credits." },
+      "rate": {
+        "kind": "range",
+        "headline": "17% standard; 14%, 8% and 3% reduced",
+        "details": [
+          "The standard rate of 17% is the lowest in the EU; 14% on certain wines and advertising pamphlets; 8% on gas and electricity; 3% on food, books, pharmaceuticals and children’s clothing (PwC).",
+          "The pre-2023 rates were reinstated on 1 January 2024 after a temporary one-point cut in 2023 (Luxembourg Chronicle).",
+          "Rate as summarised by PwC (review of July–August 2026), not checked against the Luxembourg tax administrations."
+        ],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "The second largest tax line after the wage tax.",
+      "exceptions": ["Banking, financial and insurance services are generally exempt."],
+      "legalRefs": [{ "sourceId": "pwc-lu-other", "locator": "Value-added tax" }, { "sourceId": "chronicle-lu-vat" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "lu-customs",
+      "parentId": "etat",
+      "levelId": "etat",
+      "category": "customs-duty",
+      "family": "trade",
+      "status": "current",
+      "names": {
+        "official": "Import duties and levies on imported agricultural products",
+        "native": "Droits sur les importations; prélèvements agricoles",
+        "common": "Customs duties"
+      },
+      "taxes": { "base": "Goods imported from outside the EU, by the Common Customs Tariff.", "payer": "Importers." },
+      "rate": {
+        "kind": "varies",
+        "headline": "EU Common Customs Tariff",
+        "details": ["An EU own resource; Eurostat records it under the EU institutions."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "Collected for the EU budget.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "eurostat-taxag", "locator": "S.212, D212" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "lu-tobacco-excise",
+      "parentId": "etat",
+      "levelId": "etat",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "Excise duty on tobacco (on imports and on national production)",
+        "native": "Droits d’accise sur le tabac",
+        "common": "Tobacco excise"
+      },
+      "taxes": { "base": "Cigarettes and other tobacco products.", "payer": "Producers and importers; passed on in the price." },
+      "rate": {
+        "kind": "mechanism",
+        "headline": "Fixed by law",
+        "details": ["EUR 1,152.3 million is booked as excise on imports of tobacco and EUR 103.5 million on national production in 2024."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "The excise on imports of tobacco is the larger part of the line.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet LU, D2122C C08, D214A C04" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "lu-fuel-excise",
+      "parentId": "etat",
+      "levelId": "etat",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "Excise duties on mineral oils and gases, the supplementary fuel tax and the CO₂ tax",
+        "native": "Droits d’accise sur les huiles minérales; taxe complémentaire; taxe CO₂",
+        "common": "Fuel excises and CO₂ tax"
+      },
+      "taxes": {
+        "base": "Petrol, diesel and heating oil by volume; liquefied gas; the CO₂ tax on fuels (EUR 228 million) and on gas (EUR 29 million).",
+        "payer": "Fuel importers and suppliers; passed on at the pump."
+      },
+      "rate": {
+        "kind": "specific",
+        "headline": "Per litre or per tonne, fixed by law",
+        "details": [
+          "EUR 387 million excise on mineral oils, EUR 150 million autonomous excise, EUR 115 million supplementary tax, EUR 228 million CO₂ tax (fuels) and EUR 29 million CO₂ tax (gas) in 2024."
+        ],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "Seven lines that tax energy products.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet LU, D2122C C02 to C06 and C16, D214L C06" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "lu-alcohol-excise",
+      "parentId": "etat",
+      "levelId": "etat",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "Excise duties and consumption tax on alcoholic beverages, beer and intermediate products",
+        "native": "Droits d’accises et taxe de consommation sur les alcools",
+        "common": "Alcohol excise"
+      },
+      "taxes": { "base": "Alcoholic beverages, imported and nationally produced.", "payer": "Producers and importers; passed on in the price." },
+      "rate": { "kind": "specific", "headline": "Per litre, fixed by law", "details": [], "asOf": "2026-10-12" },
+      "explanation": "Eight small lines of the list, together EUR 76 million.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet LU, D2122C C01, C07, C09, C10, C14, D214A C01 to C03" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "lu-energy-water-taxes",
+      "parentId": "etat",
+      "levelId": "etat",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "Taxes on electricity, natural gas and water",
+        "native": "Taxes sur l’électricité, le gaz naturel et le prélèvement d’eau",
+        "common": "Electricity, gas and water taxes"
+      },
+      "taxes": {
+        "base": "Electricity (supplementary tax, distribution and production taxes), natural gas consumption and water abstraction.",
+        "payer": "Suppliers and consumers."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Set by law",
+        "details": [
+          "EUR 13.4 million water, 4.6 million production of electricity, 3.9 million natural gas, 1.7 million supplementary electricity tax and 1.2 million electricity distribution in 2024."
+        ],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "Five lines.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet LU, D214L C01 to C05" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "lu-insurance-taxes",
+      "parentId": "etat",
+      "levelId": "etat",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "Insurance premiums tax and the special tax in aid of the rescue service",
+        "native": "Taxe sur les assurances; impôt spécial en charge des assureurs",
+        "common": "Insurance taxes"
+      },
+      "taxes": { "base": "Insurance premiums; the special tax is borne by insurers for the rescue service.", "payer": "Insurers and policyholders." },
+      "rate": { "kind": "varies", "headline": "Set by law", "details": [], "asOf": "2026-10-12" },
+      "explanation": "A small tax on insurance contracts.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet LU, D214G" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "lu-registration-duties",
+      "parentId": "etat",
+      "levelId": "etat",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": {
+        "official": "Registration duties, mortgage duties and the mortgage duty on salaries",
+        "native": "Droits d’enregistrement; droits d’hypothèques",
+        "common": "Registration and mortgage duties"
+      },
+      "taxes": { "base": "Deeds and transfers of immovable property, and mortgages.", "payer": "Buyers and borrowers." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Set by law",
+        "details": [
+          "The communes receive a surtax on property transfers, drawn in their part. Registration duties fell from EUR 233.8 million in 2023 to EUR 170.3 million in 2024."
+        ],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "The State’s taxes on property transactions.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet LU, D214C C02 to C04" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "lu-vehicle-taxes",
+      "parentId": "etat",
+      "levelId": "etat",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "Vehicle registration and motor vehicle taxes (enterprises and households) and ship taxes",
+        "native": "Taxe d’immatriculation; taxe sur véhicules automoteurs; taxe sur les navires",
+        "common": "Vehicle taxes"
+      },
+      "taxes": { "base": "The registration and ownership of motor vehicles and boats.", "payer": "Vehicle and boat owners." },
+      "rate": {
+        "kind": "varies",
+        "headline": "By engine and emissions",
+        "details": [
+          "EUR 41.0 million paid by households and EUR 27.9 million by enterprises on motor vehicles; EUR 10.2 million registration; EUR 0.9 million ships and boats."
+        ],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "Five lines.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet LU, D214D C01, D29B C01 and C02, D59F C05 and C06" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "lu-guarantee-funds",
+      "parentId": "etat",
+      "levelId": "etat",
+      "category": "special-levy",
+      "family": "other",
+      "status": "current",
+      "names": {
+        "official": "Contributions to the Deposit Guarantee Fund (FGDL) and the Resolution Fund (FRL)",
+        "native": "Contributions au FGDL et au FRL",
+        "common": "Bank fund contributions"
+      },
+      "taxes": { "base": "As named in the National Tax List; no further detail.", "payer": "Credit institutions." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Set by the funds",
+        "details": ["The Resolution Fund line fell from EUR 243.4 million in 2023 to EUR 0.07 million in 2024."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "Compulsory contributions that the statisticians book as taxes on production.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet LU, D29H C05 and C06" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "lu-other-state",
+      "parentId": "etat",
+      "levelId": "etat",
+      "category": "fee",
+      "family": "other",
+      "status": "current",
+      "names": {
+        "official": "Casino levy (State part), stamp duties, chancellery fees, dog tax and others",
+        "native": "Prélèvements sur les jeux de casino; droits de timbre; timbres de chancellerie; taxe sur les chiens",
+        "common": "Other State taxes and duties"
+      },
+      "taxes": {
+        "base": "Casino gambling (EUR 20.1 million), stamp duties (10.6), fees concerning foreign affairs (6.5), dog tax (1.5), chancellery stamps (1.0) and reclassified VAT (2.2).",
+        "payer": "Various."
+      },
+      "rate": { "kind": "varies", "headline": "Set by law", "details": [], "asOf": "2026-10-12" },
+      "explanation": "The smaller State lines of the list.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet LU, D214F C01, D29H C04, D59F C01 to C04" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "lu-social-employers",
+      "parentId": "etat",
+      "levelId": "etat",
+      "category": "social-contribution",
+      "family": "social-security",
+      "status": "current",
+      "names": { "official": "Employers’ actual social contributions", "native": "Cotisations sociales des employeurs", "common": "Employers’ contributions" },
+      "taxes": {
+        "base": "Gross pay. The National Tax List gives it as a subtotal split into pension (EUR 2,404 million) and non-pension (EUR 1,369 million) contributions.",
+        "payer": "Employers."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Set by the Social Security Code",
+        "details": ["Employee contributions are listed by PwC (sickness 2.80%, pension 8%); the employer’s rates are not extracted here."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "The list does not itemise below the subtotal.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet LU, D611" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "lu-social-employees",
+      "parentId": "etat",
+      "levelId": "etat",
+      "category": "social-contribution",
+      "family": "social-security",
+      "status": "current",
+      "names": {
+        "official": "Compulsory social contributions of employees",
+        "native": "Cotisations sociales des salariés",
+        "common": "Employees’ contributions"
+      },
+      "taxes": { "base": "Gross pay up to a monthly ceiling.", "payer": "Employees; the employer withholds." },
+      "rate": {
+        "kind": "flat",
+        "headline": "Sickness 2.80% and pension 8% of gross pay, among others",
+        "details": [
+          "PwC lists 2.80% for sickness and 8% for pension, each limited to a monthly ceiling of EUR 13,518.68 from May 2025, and a dependency contribution on gross income.",
+          "Rate as summarised by PwC (review of July–August 2026), not checked against the Luxembourg tax administrations."
+        ],
+        "asOf": "2026-08-03"
+      },
+      "explanation": "The largest social contribution line.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "pwc-lu-other", "locator": "Social security contributions" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "lu-social-others",
+      "parentId": "etat",
+      "levelId": "etat",
+      "category": "social-contribution",
+      "family": "social-security",
+      "status": "current",
+      "names": {
+        "official": "Contributions of the non-employed, the self-employed and voluntary contributions",
+        "native": "Cotisations des non-salariés, des indépendants et volontaires",
+        "common": "Non-employed, self-employed and voluntary"
+      },
+      "taxes": {
+        "base": "As labelled in the National Tax List: compulsory contributions by the non-employed (EUR 1,227 million), by the self-employed (EUR 4 million) and voluntary households’ contributions (EUR 72 million).",
+        "payer": "Insured persons."
+      },
+      "rate": { "kind": "varies", "headline": "Set by the Social Security Code", "details": [], "asOf": "2026-10-12" },
+      "explanation": "The remaining households’ contributions.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet LU, D613CN, D613CS, D613V" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "lu-trade-tax",
+      "parentId": "communes",
+      "levelId": "communes",
+      "category": "tax",
+      "family": "income-corporate",
+      "status": "current",
+      "names": { "official": "Municipal business (trade) tax", "native": "Impôt commercial communal", "common": "Municipal business tax" },
+      "taxes": {
+        "base": "Business profit of companies and of self-employed people, calculated like the State tax and then multiplied by a municipal rate.",
+        "payer": "Businesses."
+      },
+      "rate": {
+        "kind": "range",
+        "headline": "About 6.75% in Luxembourg City",
+        "details": [
+          "The rate varies by commune; PwC gives 6.75% in Luxembourg City, which with the corporation tax and the surtax makes 24.94%.",
+          "Rate as summarised by PwC (review of July–August 2026), not checked against the Luxembourg tax administrations."
+        ],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "The communes’ main tax: EUR 1.63 billion, 96% of their taxes in the list.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "pwc-lu-corporate", "locator": "Municipal business tax" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "lu-communal-property",
+      "parentId": "communes",
+      "levelId": "communes",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": {
+        "official": "Property tax (land and buildings), tax on secondary residences and tax on land without buildings",
+        "native": "Impôt foncier; taxe sur les résidences secondaires",
+        "common": "Communal property taxes"
+      },
+      "taxes": { "base": "Land and buildings by assessed value; secondary residences.", "payer": "Owners." },
+      "rate": { "kind": "range", "headline": "A municipal multiplier on a State base", "details": ["The list does not give rates."], "asOf": "2026-10-12" },
+      "explanation": "Small in Luxembourg: EUR 45.6 million.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet LU, D29A C01 and C02, D59A C02" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "lu-communal-other",
+      "parentId": "communes",
+      "levelId": "communes",
+      "category": "fee",
+      "family": "other",
+      "status": "current",
+      "names": {
+        "official": "Surtax on property transfers, casino levy (communal part), tourist tax, construction tax in dense sectors, cabaret and entertainment taxes",
+        "native": "Surtaxe sur les mutations immobilières; taxe de séjour; taxe sur les amusements publics",
+        "common": "Other communal taxes"
+      },
+      "taxes": {
+        "base": "Property transfers (EUR 6.9 million), casinos (5.2), tourist stays (3.8), construction in dense sectors (2.0), licensed premises (0.5) and public entertainment (0.9).",
+        "payer": "Various."
+      },
+      "rate": { "kind": "varies", "headline": "Set by law and by commune", "details": [], "asOf": "2026-10-12" },
+      "explanation": "Six small lines that Eurostat’s accounts place with local government.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet LU, D214C C01, D214E, D214F C02, D214H" }],
+      "checkedOn": "2026-10-12"
+    }
+  ]
+}

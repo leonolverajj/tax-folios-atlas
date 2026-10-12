@@ -47,7 +47,7 @@ npm run links         # every source URL still answers
 The "OECD level" columns of the Trees table and the "Which level gets it" chart of each folio compare countries on one reference year. Refresh them as a set:
 
 1. Read the new tables: Revenue Statistics chapter 6 ("Tax revenues by subsectors of general government"), chapter 3 (tax-to-GDP and tax mix), and the Latin America edition's Table 1.4 for Brazil and Bolivia. Prefer downloading the OECD Data Explorer table as CSV over reading the web page.
-2. For the 23 files in `profiles/` and the 17 `structure.json` files: replace the year, level totals, tax types and tax-to-GDP. Keep the currency and scale that the table states, and the basis text ("OECD attribution to sub-sectors of general government (Interpretative Guide, section A.12)").
+2. For the 2 files in `profiles/` (Costa Rica, Israel) and the 38 `structure.json` files (every folio except Bulgaria, Croatia, Malta and Romania, which are not OECD members and have none): replace the year, level totals, tax types and tax-to-GDP. Keep the currency and scale that the table states, and the basis text ("OECD attribution to sub-sectors of general government (Interpretative Guide, section A.12)").
 3. `npm run validate` (tax types must add up to each level's total, level shares to 100%).
 4. The tests compare a handful of headline OECD figures (for example Canada's income share of tax, 51.0%); update those constants in `tests/structure.test.ts` to the new edition. That is deliberate: it forces a second look at the numbers.
 
@@ -61,6 +61,12 @@ Some folios were built on provisional or soon-to-be-revised figures. The checkli
 - **New Zealand**: the council rates are provisional (June 2026 quarter release).
 - **France**: INSEE's 2025 table is provisional.
 - **Chile**: municipal taxes are the OECD's 2023 figures; replace them with 2025 municipal data when the municipal information system (SINIM) publishes it (its 2026 edition is expected in October 2026).
+- **Netherlands**: the 2025 figures of Statistics Netherlands (table 84120NED) are provisional; the table is updated each quarter.
+- **Finland**: replace the Taxpayers’ Association compilation with Statistics Finland’s own table by tax when it is read.
+- **Austria**: the federal taxes are preliminary cash figures (BMF, December 2025) and the Dachverband’s social insurance figures are preliminary; the Länder and municipal parts are the OECD’s 2023 figures and should be replaced by Statistik Austria’s municipal and Länder accounts for a recent year.
+- **Ireland**: commercial rates are the 2024 national accounts figure (Eurostat); replace with the 2025 local authority accounts when published.
+- **The 19 National Tax List folios** (Belgium, Bulgaria, Croatia, Czechia, Estonia, Greece, Hungary, Iceland, Latvia, Lithuania, Luxembourg, Malta, Norway, Poland, Portugal, Romania, Slovak Republic, Slovenia, Sweden): the 2026 edition covers 2024 and its cut-off was 30 October 2025; look for the next edition on the Taxation Trends data page of the Commission. To refresh one: download the new workbook, extract the country with `node scripts/extract-ntl.cjs <unzipped dir> <CC>` and Eurostat's `gov_10a_taxag` with `node scripts/extract-eurostat.cjs`, then re-run `npx tsx scripts/build/<id>.ts` (the build stops if the lines drawn plus the lines left out no longer equal the list's totals, which is how new or renamed lines are caught). The rates of these folios are not from the tax authority (PwC's summaries for most; see METHODOLOGY): re-read them yearly.
+- **Türkiye**: the figures are the central budget's taxes for 2025 (December 2025 report). The Social Security Institution's premiums and the municipal taxes are missing; add them when a source with the same year is found (the Social Security Institution’s annual statistics and the Ministry’s municipal revenue statistics are the places to look, neither was reached when the folio was built).
 - **Spain and Switzerland**: parts that are OECD 2023 figures (regional and local taxes in Spain; cantons and communes in Switzerland) are replaced when national statistics itemise them for a more recent year.
 
 The builder scripts in `scripts/build/` hold the same numbers as the JSON files; after changing a country's JSON you do not need to touch them, but if you re-run one it overwrites your JSON edits.

@@ -1,0 +1,249 @@
+{
+  "groups": [
+    {
+      "title": "State taxes 2024 – National Tax List (NOK million)",
+      "defaults": {
+        "denominatorId": "staten-taxes-2024",
+        "scale": "million",
+        "currency": "NOK",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "ESA tax revenue, general government",
+        "sourceId": "ntl-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        {
+          "nodeId": "no-income-tax-state",
+          "amount": 266459,
+          "locator": "NTL 2026, sheet NO, D51A C01 and C02 (surtax and local and regional income tax; national tax on income less deductions), 2024, less the local part from Eurostat gov_10a_taxag (S.1313, D51A)",
+          "calculation": "506,000 − 239,541 = 266,459 (NOK million)",
+          "caveat": "Different vintages of the two sources; Eurostat’s own State figure is NOK 273,750 million."
+        },
+        {
+          "nodeId": "no-wealth-tax-state",
+          "amount": 10700,
+          "locator": "NTL 2026, sheet NO, D59A C01 and C02 (net wealth tax of individuals and corporations), 2024, less the local part from Eurostat gov_10a_taxag (S.1313, D59A)",
+          "calculation": "32,200 − 21,500 = 10,700 (NOK million)"
+        },
+        { "nodeId": "no-corporate-income-tax", "amount": 109500, "locator": "NTL 2026, sheet NO, row 133: D51B Corporate tax, 2024" },
+        {
+          "nodeId": "no-petroleum-income-taxes",
+          "amount": 381000,
+          "locator": "NTL 2026, sheet NO, 2024: D51B Ordinary income tax on petroleum revenue (row 135); D51B Special tax on petroleum income (row 136)",
+          "calculation": "100,000 + 281,000 = 381,000 (NOK million)"
+        },
+        {
+          "nodeId": "no-resource-rent-taxes",
+          "amount": 17500,
+          "locator": "NTL 2026, sheet NO, 2024: D51B Special tax on hydroelectric income (row 134); D51B Special tax on aquaculture income (row 137)",
+          "calculation": "15,500 + 2,000 = 17,500 (NOK million)"
+        },
+        {
+          "nodeId": "no-dividend-withholding",
+          "amount": 13639,
+          "locator": "NTL 2026, sheet NO, 2024: D51E Tax on dividends paid to foreign shareholders (row 143); D51E Tax payable by residents and corporations of Svalbard (row 144)",
+          "calculation": "13,407 + 232 = 13,639 (NOK million)"
+        },
+        { "nodeId": "no-vat", "amount": 390000, "locator": "NTL 2026, sheet NO, row 11: D211 Value added tax, 2024" },
+        { "nodeId": "no-customs", "amount": 3645, "locator": "NTL 2026, sheet NO, row 14: D2121 Customs duties, 2024" },
+        {
+          "nodeId": "no-fuel-emission-taxes",
+          "amount": 35030,
+          "locator": "NTL 2026, sheet NO, 2024: 11 lines of the list: D214A:C01, D214A:C02, D214A:C06, D214A:C07, D214A:C08, D214A:C10, D214A:C11, D214A:C24, D214A:C25, D29F:C03, D29F:C02",
+          "calculation": "Sum of 11 lines of the list, named in the locator (NOK million)"
+        },
+        {
+          "nodeId": "no-electricity-tax",
+          "amount": 10454,
+          "locator": "NTL 2026, sheet NO, 2024: D214A Tax on electricity (row 27); D214A Tax on electricity paid to the Norwegian Energy Fund (row 28)",
+          "calculation": "9,728 + 726 = 10,454 (NOK million)"
+        },
+        {
+          "nodeId": "no-alcohol-tobacco",
+          "amount": 24283,
+          "locator": "NTL 2026, sheet NO, 2024: D214A Tax on alcohol (row 39); D214A Tax on tobacco goods (row 40); D29E Tax on turnover of tobacco products (row 92)",
+          "calculation": "16,489 + 7,783 + 11 = 24,283 (NOK million)"
+        },
+        {
+          "nodeId": "no-product-taxes",
+          "amount": 4276,
+          "locator": "NTL 2026, sheet NO, 2024: 9 lines of the list: D214A:C13, D214A:C14, D214A:C20, D214A:C22, D214A:C23, D29E:C04, D29E:C05, D29F:C09, D29F:C05",
+          "calculation": "Sum of 9 lines of the list, named in the locator (NOK million)"
+        },
+        { "nodeId": "no-stamp-duty", "amount": 12709, "locator": "NTL 2026, sheet NO, row 51: D214C Stamp duty on real estate transfers, 2024" },
+        {
+          "nodeId": "no-vehicle-taxes",
+          "amount": 20564,
+          "locator": "NTL 2026, sheet NO, 2024: D214D Motor vehicle registration tax (row 53); D29B Annual weight based tax on motor vehicles (row 75); D29B Annual motor vehicle tax paid by enterprises (row 76); D29B Re-registration tax on motor vehicles (row 77); D59D Annual tax on motor vehicles paid by households (row 152)",
+          "calculation": "7,909 + 281 + 1,817 + 1,757 + 8,800 = 20,564 (NOK million)"
+        },
+        { "nodeId": "no-air-passenger-tax", "amount": 2245, "locator": "NTL 2026, sheet NO, row 62: D214H Tax on air traffic passengers, 2024" },
+        {
+          "nodeId": "no-gaming-income",
+          "amount": 6909,
+          "locator": "NTL 2026, sheet NO, row 65: D214J Income from the state gaming company (Norsk Tipping AS), 2024"
+        },
+        {
+          "nodeId": "no-financial-activities-tax",
+          "amount": 2832,
+          "locator": "NTL 2026, sheet NO, row 81: D29C Financial activity tax on salary, 2024"
+        },
+        {
+          "nodeId": "no-primary-industry-levies",
+          "amount": 4141,
+          "locator": "NTL 2026, sheet NO, 2024: 10 lines of the list: D29H:C09, D29H:C03, D29C:C01, D29H:C06, D214K:C01, D29H:C01, D29H:C08, D29F:C07, D29F:C08, D29E:C08",
+          "calculation": "Sum of 10 lines of the list, named in the locator (NOK million)"
+        },
+        {
+          "nodeId": "no-sector-fees-small",
+          "amount": 1146,
+          "locator": "NTL 2026, sheet NO, 2024: 11 lines of the list: D29H:C04, D29H:C05, D29H:C07, D29H:C10, D29H:C11, D29E:C06, D214E:C02, D59F:C03, D59F:C04, D59F:C05, D91A:C01",
+          "calculation": "Sum of 11 lines of the list, named in the locator (NOK million)"
+        }
+      ]
+    },
+    {
+      "title": "Employers’ social contributions 2024 – National Tax List (NOK million)",
+      "defaults": {
+        "denominatorId": "staten-social-employers-2024",
+        "scale": "million",
+        "currency": "NOK",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Actual compulsory contributions",
+        "sourceId": "ntl-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        {
+          "nodeId": "no-social-employers",
+          "amount": 295246,
+          "locator": "NTL 2026, sheet NO, 2024: D611 Employers' social security contributions to the National Insurance Scheme (row 169); D611 Employers' contributions to the Norwegian Public Service Pension Fund (row 170); D611 Employers' contributions to the Pension arrangement for seamen (row 171)",
+          "calculation": "267,885 + 26,471 + 890 = 295,246 (NOK million)"
+        }
+      ]
+    },
+    {
+      "title": "Employees’ social contributions 2024 – National Tax List (NOK million)",
+      "defaults": {
+        "denominatorId": "staten-social-employees-2024",
+        "scale": "million",
+        "currency": "NOK",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Actual compulsory contributions",
+        "sourceId": "ntl-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        {
+          "nodeId": "no-social-employees",
+          "amount": 161690,
+          "locator": "NTL 2026, sheet NO, 2024: D613CE Employees' social security contributions to the National Insurance Scheme (row 224); D613CE Employees' social security contributions to the Norwegian Public Service Pension Fund (row 225); D613CE Employees' contributions to the Pension arrangement for seamen (row 226); D613CE Employees' contributions to the Pension arrangement for fishermen (row 227)",
+          "calculation": "155,430 + 5,722 + 457 + 81 = 161,690 (NOK million)"
+        }
+      ]
+    },
+    {
+      "title": "Self-employed and pensioners’ contributions 2024 – National Tax List (NOK million)",
+      "defaults": {
+        "denominatorId": "staten-social-others-2024",
+        "scale": "million",
+        "currency": "NOK",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Actual compulsory contributions",
+        "sourceId": "ntl-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        {
+          "nodeId": "no-social-others",
+          "amount": 32670,
+          "locator": "NTL 2026, sheet NO, 2024: D613CS Self-Employed individuals' social security contributions to the National Insurance Scheme (row 231); D613CN Pensioners' social security contributions to the National Insurance Scheme (row 233)",
+          "calculation": "17,050 + 15,620 = 32,670 (NOK million)"
+        }
+      ]
+    },
+    {
+      "title": "Local income tax 2024 – Eurostat (NOK million)",
+      "defaults": {
+        "denominatorId": "kommunene-income-tax-2024",
+        "scale": "million",
+        "currency": "NOK",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "ESA taxes received by local government",
+        "sourceId": "eurostat-taxag",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        {
+          "nodeId": "no-income-tax-local",
+          "amount": 239541,
+          "locator": "Eurostat gov_10a_taxag, 2024: S.1313 local government, D51A taxes on individual or household income, NOK million",
+          "caveat": "Eurostat July 2026 vintage; the National Tax List has no sector split."
+        }
+      ]
+    },
+    {
+      "title": "Local part of the net wealth tax 2024 – Eurostat (NOK million)",
+      "defaults": {
+        "denominatorId": "kommunene-wealth-tax-2024",
+        "scale": "million",
+        "currency": "NOK",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "ESA taxes received by local government",
+        "sourceId": "eurostat-taxag",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        {
+          "nodeId": "no-wealth-tax-local",
+          "amount": 21500,
+          "locator": "Eurostat gov_10a_taxag, 2024: S.1313 local government, D59A other current taxes (net wealth tax), NOK million",
+          "caveat": "Eurostat July 2026 vintage; the National Tax List has no sector split."
+        }
+      ]
+    },
+    {
+      "title": "Real estate tax 2024 – National Tax List (NOK million)",
+      "defaults": {
+        "denominatorId": "kommunene-real-estate-tax-2024",
+        "scale": "million",
+        "currency": "NOK",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "ESA tax revenue",
+        "sourceId": "ntl-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [{ "nodeId": "no-real-estate-tax", "amount": 17524, "locator": "NTL 2026, sheet NO, row 73: D29A Real estate tax, 2024" }]
+    },
+    {
+      "title": "Natural resource tax 2024 – National Tax List (NOK million)",
+      "defaults": {
+        "denominatorId": "kommunene-natural-resource-tax-2024",
+        "scale": "million",
+        "currency": "NOK",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "ESA tax revenue",
+        "sourceId": "ntl-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [{ "nodeId": "no-natural-resource-tax", "amount": 1632, "locator": "NTL 2026, sheet NO, row 84: D29E Natural resource tax, 2024" }]
+    }
+  ],
+  "unavailable": []
+}

@@ -1,0 +1,1612 @@
+{
+ "country": "BG",
+ "source": "NTL edition 2026 web.xlsx (Commission, DG TAXUD / Eurostat)",
+ "unit": "million national currency",
+ "sector": "S.13 + S.212",
+ "totals": {
+  "D2": {
+   "name": "Taxes on production and imports",
+   "v2024": 30335.5637,
+   "v2023": 27373.669,
+   "row": 9
+  },
+  "D21": {
+   "name": "Taxes on products",
+   "v2024": 27072.9819,
+   "v2023": 24293.965,
+   "row": 10
+  },
+  "D211": {
+   "name": "Value added type taxes (VAT)",
+   "v2024": 19066.922,
+   "v2023": 16280.567,
+   "row": 11
+  },
+  "D212": {
+   "name": "Taxes and duties on imports excluding VAT",
+   "v2024": 363.5858,
+   "v2023": 357.5026,
+   "row": 13
+  },
+  "D2121": {
+   "name": "Import duties",
+   "v2024": 329.6517,
+   "v2023": 333.0169,
+   "row": 14
+  },
+  "D2122": {
+   "name": "Taxes on imports, excluding VAT and import duties",
+   "v2024": 33.9341,
+   "v2023": 24.4857,
+   "row": 16
+  },
+  "D2122A": {
+   "name": "Levies on imported agricultural products",
+   "v2024": 22.922,
+   "v2023": 17.382,
+   "row": 17
+  },
+  "D2122B": {
+   "name": "Monetary compensatory amounts on imports",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 20
+  },
+  "D2122C": {
+   "name": "Excise duties",
+   "v2024": 11.0121,
+   "v2023": 7.1037,
+   "row": 21
+  },
+  "D2122D": {
+   "name": "General sales taxes",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 29
+  },
+  "D2122E": {
+   "name": "Taxes on specific services",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 30
+  },
+  "D2122F": {
+   "name": "Profits of import monopolies",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 31
+  },
+  "D214": {
+   "name": "Taxes on products, except VAT and import taxes",
+   "v2024": 7642.4741,
+   "v2023": 7655.8954,
+   "row": 32
+  },
+  "D214A": {
+   "name": "Excise duties and consumption taxes",
+   "v2024": 6859.0232,
+   "v2023": 6533.6169,
+   "row": 33
+  },
+  "D214B": {
+   "name": "Stamp taxes",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 43
+  },
+  "D214C": {
+   "name": "Taxes on financial and capital transactions",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 45
+  },
+  "D214D": {
+   "name": "Car registration taxes",
+   "v2024": 11.922,
+   "v2023": 10.057,
+   "row": 46
+  },
+  "D214E": {
+   "name": "Taxes on entertainment",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 48
+  },
+  "D214F": {
+   "name": "Taxes on lotteries, gambling and betting",
+   "v2024": 115.0018,
+   "v2023": 77.7507,
+   "row": 50
+  },
+  "D214G": {
+   "name": "Taxes on insurance premiums",
+   "v2024": 71.1449,
+   "v2023": 60.9417,
+   "row": 52
+  },
+  "D214H": {
+   "name": "Other taxes on specific services",
+   "v2024": 585.3822,
+   "v2023": 973.5291,
+   "row": 54
+  },
+  "D214I": {
+   "name": "General sales or turnover taxes",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 57
+  },
+  "D214J": {
+   "name": "Profits of fiscal monopolies",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 58
+  },
+  "D214K": {
+   "name": "Export duties and monetary comp. amounts on exports",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 59
+  },
+  "D214L": {
+   "name": "Other taxes on products n.e.c.",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 61
+  },
+  "D29": {
+   "name": "Other taxes on production",
+   "v2024": 3262.5818,
+   "v2023": 3079.7041,
+   "row": 62
+  },
+  "D29A": {
+   "name": "Taxes on land, buildings or other structures",
+   "v2024": 424.8287,
+   "v2023": 399.6799,
+   "row": 63
+  },
+  "D29B": {
+   "name": "Taxes on the use of fixed assets",
+   "v2024": 208.3214,
+   "v2023": 197.5891,
+   "row": 65
+  },
+  "D29C": {
+   "name": "Total wage bill and payroll taxes",
+   "v2024": 29.6111,
+   "v2023": 27.7407,
+   "row": 67
+  },
+  "D29D": {
+   "name": "Taxes on international transactions",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 70
+  },
+  "D29E": {
+   "name": "Business and professional licences",
+   "v2024": 0.669,
+   "v2023": 0.576,
+   "row": 71
+  },
+  "D29F": {
+   "name": "Taxes on pollution",
+   "v2024": 2343.6916,
+   "v2023": 2201.2999,
+   "row": 75
+  },
+  "D29G": {
+   "name": "Under-compensation of VAT (flat rate system)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 83
+  },
+  "D29H": {
+   "name": "Other taxes on production n.e.c.",
+   "v2024": 255.46,
+   "v2023": 252.8185,
+   "row": 84
+  },
+  "D5": {
+   "name": "Current taxes on income wealth, etc.",
+   "v2024": 13265.3427,
+   "v2023": 11769.1824,
+   "row": 91
+  },
+  "D51": {
+   "name": "Taxes on income",
+   "v2024": 13023.1675,
+   "v2023": 11535.5572,
+   "row": 92
+  },
+  "D51M": {
+   "name": "Taxes on individual or household income including holding gains",
+   "v2024": 7052.6518,
+   "v2023": 6179.0978,
+   "row": 93
+  },
+  "D51A": {
+   "name": "Taxes on individual or household income excluding holding gains(1)",
+   "v2024": 6404.3794,
+   "v2023": 5480.3173,
+   "row": 95
+  },
+  "D51C1": {
+   "name": "Taxes on individual or household holding gains(1)",
+   "v2024": 648.2723,
+   "v2023": 698.7805,
+   "row": 100
+  },
+  "D51O": {
+   "name": "Taxes on the income or profits of corporations including holding gains",
+   "v2024": 5941.0018,
+   "v2023": 5331.3033,
+   "row": 104
+  },
+  "D51B": {
+   "name": "Taxes on the income or profits of corporations excluding holding gains(1)",
+   "v2024": 5817.4997,
+   "v2023": 5232.7324,
+   "row": 106
+  },
+  "D51C2": {
+   "name": "Taxes on holding gains of corporations(1)",
+   "v2024": 123.5021,
+   "v2023": 98.571,
+   "row": 110
+  },
+  "D51C3": {
+   "name": "Other taxes on holding gains(1)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 112
+  },
+  "D51C": {
+   "name": "Taxes on holding gains",
+   "v2024": 771.7744,
+   "v2023": 797.3515,
+   "row": 113
+  },
+  "D51D": {
+   "name": "Taxes on winnings from lottery or gambling",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 114
+  },
+  "D51E": {
+   "name": "Other taxes on income n.e.c.",
+   "v2024": 29.514,
+   "v2023": 25.1561,
+   "row": 115
+  },
+  "D59": {
+   "name": "Other current taxes",
+   "v2024": 242.1751,
+   "v2023": 233.6252,
+   "row": 117
+  },
+  "D59A": {
+   "name": "Current taxes on capital",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 118
+  },
+  "D59B": {
+   "name": "Poll taxes",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 119
+  },
+  "D59C": {
+   "name": "Expenditure taxes",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 120
+  },
+  "D59D": {
+   "name": "Payments by households for licences",
+   "v2024": 6.466,
+   "v2023": 6.629,
+   "row": 121
+  },
+  "D59E": {
+   "name": "Taxes on international transactions",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 123
+  },
+  "D59F": {
+   "name": "Other current taxes n.e.c.",
+   "v2024": 235.7091,
+   "v2023": 226.9962,
+   "row": 124
+  },
+  "D91": {
+   "name": "Capital taxes",
+   "v2024": 645.1835,
+   "v2023": 533.2278,
+   "row": 128
+  },
+  "D91A": {
+   "name": "Taxes on capital transfers",
+   "v2024": 645.1835,
+   "v2023": 533.2278,
+   "row": 129
+  },
+  "D91B": {
+   "name": "Capital levies",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 132
+  },
+  "D91C": {
+   "name": "Other capital taxes n.e.c.",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 133
+  },
+  "D61": {
+   "name": "Net social contributions",
+   "v2024": 18159.3134,
+   "v2023": 15753.875,
+   "row": 135
+  },
+  "D611": {
+   "name": "Employers' actual social contributions",
+   "v2024": 11140.3723,
+   "v2023": 9698.9923,
+   "row": 136
+  },
+  "D611C": {
+   "name": "Compulsory employers' actual social contributions",
+   "v2024": 11140.3723,
+   "v2023": 9698.9923,
+   "row": 138
+  },
+  "D611V": {
+   "name": "Voluntary employers' actual social contributions",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 140
+  },
+  "D61SC": {
+   "name": "Social insurance scheme service charges(3)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 141
+  },
+  "D6111": {
+   "name": "Employers' actual pension contributions (1)",
+   "v2024": 6133.9639,
+   "v2023": 5360.1393,
+   "row": 142
+  },
+  "D6112": {
+   "name": "Employers' actual non-pension contributions (1)",
+   "v2024": 5006.4084,
+   "v2023": 4338.853,
+   "row": 144
+  },
+  "D612": {
+   "name": "Employers' imputed social contributions",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 149
+  },
+  "D6121": {
+   "name": "Employers' imputed pension contributions (1)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 151
+  },
+  "D6122": {
+   "name": "Employers' imputed non-pension contributions (1)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 153
+  },
+  "D613": {
+   "name": "Households' actual social contributions",
+   "v2024": 7018.9411,
+   "v2023": 6054.8827,
+   "row": 154
+  },
+  "D6131": {
+   "name": "Households' actual pension contributions (1)",
+   "v2024": 3998.8164,
+   "v2023": 3459.6221,
+   "row": 155
+  },
+  "D6132": {
+   "name": "Households' actual non-pension contributions (1)",
+   "v2024": 3020.1247,
+   "v2023": 2595.2606,
+   "row": 157
+  },
+  "D613C": {
+   "name": "Compulsory households' actual social contributions",
+   "v2024": 7018.9411,
+   "v2023": 6054.8827,
+   "row": 161
+  },
+  "D613CE": {
+   "name": "Compulsory employees' actual social contributions",
+   "v2024": 6147.3337,
+   "v2023": 5343.0717,
+   "row": 163
+  },
+  "D613CS": {
+   "name": "Compulsory actual social contributions by the self-employed (1)",
+   "v2024": 871.6074,
+   "v2023": 711.811,
+   "row": 168
+  },
+  "D613CN": {
+   "name": "Compulsory actual social contributions by the non-employed (1)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 172
+  },
+  "D613V": {
+   "name": "Voluntary households' actual social contributions",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 173
+  },
+  "D614": {
+   "name": "Households' social contributions supplements(3)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 174
+  },
+  "D6141": {
+   "name": "Households' pension contributions supplements (1)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 175
+  },
+  "D6142": {
+   "name": "Households' non-pension contributions supplements (1)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 176
+  },
+  "D995": {
+   "name": "Capital transfers from general government to relevant sectors representing taxes and social contributions assessed but unlikely to be collected (2)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 177
+  },
+  "D995A": {
+   "name": "Taxes on products assessed but unlikely to be collected (2)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 178
+  },
+  "D995B": {
+   "name": "Other taxes on production assessed but unlikely to be collected (2)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 179
+  },
+  "D995C": {
+   "name": "Taxes on income assessed but unlikely to be collected (2)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 180
+  },
+  "D995D": {
+   "name": "Other current taxes assessed but unlikely to be collected (2)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 181
+  },
+  "D995E": {
+   "name": "Employers' actual social contributions assessed but unlikely to be collected (2)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 182
+  },
+  "D995F": {
+   "name": "Households' actual social contributions assessed but unlikely to be collected (2)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 183
+  },
+  "D995FE": {
+   "name": "Employees' actual social contributions assessed but unlikely to be collected (2)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 184
+  },
+  "D995FS": {
+   "name": "Actual social contributions by self-employed persons assessed but unlikely to be collected (1)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 185
+  },
+  "D995FN": {
+   "name": "Actual social contributions by non-employed persons assessed but unlikely to be collected (1)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 186
+  },
+  "D995G": {
+   "name": "Capital taxes assessed but unlikely to be collected (2)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 187
+  }
+ },
+ "lines": [
+  {
+   "key": "D211:C01",
+   "code": "D211",
+   "sub": "C01",
+   "nat": "Данък добавена стойност",
+   "en": "Value added taxes",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 19066.922,
+   "v2023": 16280.567,
+   "row": 12
+  },
+  {
+   "key": "D2121:C01",
+   "code": "D2121",
+   "sub": "C01",
+   "nat": "Мита върху вноса",
+   "en": "Import duties",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 329.6517,
+   "v2023": 333.0169,
+   "row": 15
+  },
+  {
+   "key": "D2122A:C01",
+   "code": "D2122A",
+   "sub": "C01",
+   "nat": "Ветеринарни такси",
+   "en": "veterinary levies",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 2.85,
+   "v2023": 5.583,
+   "row": 18
+  },
+  {
+   "key": "D2122A:C02",
+   "code": "D2122A",
+   "sub": "C02",
+   "nat": "Фитосанитарни такси",
+   "en": "sanitary licenses",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 20.072,
+   "v2023": 11.799,
+   "row": 19
+  },
+  {
+   "key": "D2122C:C01",
+   "code": "D2122C",
+   "sub": "C01",
+   "nat": "Тютюневи изделия",
+   "en": "Tobacco products",
+   "fn": "C",
+   "at": "AT",
+   "v2024": 2.728,
+   "v2023": 2.723,
+   "row": 22
+  },
+  {
+   "key": "D2122C:C02",
+   "code": "D2122C",
+   "sub": "C02",
+   "nat": "Горива",
+   "en": "Fuel",
+   "fn": "C",
+   "at": "E",
+   "v2024": 5.4798,
+   "v2023": 2.5116,
+   "row": 23
+  },
+  {
+   "key": "D2122C:C03",
+   "code": "D2122C",
+   "sub": "C03",
+   "nat": "Алкохол",
+   "en": "Alcohol",
+   "fn": "C",
+   "at": "AT",
+   "v2024": 1.1398,
+   "v2023": 0.587,
+   "row": 24
+  },
+  {
+   "key": "D2122C:C04",
+   "code": "D2122C",
+   "sub": "C04",
+   "nat": "Бира",
+   "en": "Beer",
+   "fn": "C",
+   "at": "AT",
+   "v2024": 1.1484,
+   "v2023": 1.4926,
+   "row": 25
+  },
+  {
+   "key": "D2122C:C05",
+   "code": "D2122C",
+   "sub": "C05",
+   "nat": "Автомобили",
+   "en": "Cars",
+   "fn": "C",
+   "at": "T",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 26
+  },
+  {
+   "key": "D2122C:C06",
+   "code": "D2122C",
+   "sub": "C06",
+   "nat": "Кафе",
+   "en": "Coffee",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 27
+  },
+  {
+   "key": "D2122C:C07",
+   "code": "D2122C",
+   "sub": "C07",
+   "nat": "Други",
+   "en": "Other",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 0.516,
+   "v2023": -0.2106,
+   "row": 28
+  },
+  {
+   "key": "D214A:C01",
+   "code": "D214A",
+   "sub": "C01",
+   "nat": "Тютюневи изделия",
+   "en": "Tobacco products",
+   "fn": "C",
+   "at": "AT",
+   "v2024": 3747.2558,
+   "v2023": 3556.0103,
+   "row": 34
+  },
+  {
+   "key": "D214A:C02",
+   "code": "D214A",
+   "sub": "C02",
+   "nat": "Горива",
+   "en": "Fuel",
+   "fn": "C",
+   "at": "E",
+   "v2024": 2647.0085,
+   "v2023": 2583.5645,
+   "row": 35
+  },
+  {
+   "key": "D214A:C03",
+   "code": "D214A",
+   "sub": "C03",
+   "nat": "Алкохол",
+   "en": "Alcohol",
+   "fn": "C",
+   "at": "AT",
+   "v2024": 268.9772,
+   "v2023": 269.702,
+   "row": 36
+  },
+  {
+   "key": "D214A:C04",
+   "code": "D214A",
+   "sub": "C04",
+   "nat": "Бира",
+   "en": "Beer",
+   "fn": "C",
+   "at": "AT",
+   "v2024": 73.1088,
+   "v2023": 76.5323,
+   "row": 37
+  },
+  {
+   "key": "D214A:C05",
+   "code": "D214A",
+   "sub": "C05",
+   "nat": "Автомобили",
+   "en": "Cars",
+   "fn": "C",
+   "at": "T",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 38
+  },
+  {
+   "key": "D214A:C06",
+   "code": "D214A",
+   "sub": "C06",
+   "nat": "Електрическа енергия",
+   "en": "Electric power",
+   "fn": "C",
+   "at": "E",
+   "v2024": 34.6849,
+   "v2023": 35.0651,
+   "row": 39
+  },
+  {
+   "key": "D214A:C07",
+   "code": "D214A",
+   "sub": "C07",
+   "nat": "Въглища и кокс",
+   "en": "Coal and coke",
+   "fn": "C",
+   "at": "E",
+   "v2024": 5.5224,
+   "v2023": 2.391,
+   "row": 40
+  },
+  {
+   "key": "D214A:C08",
+   "code": "D214A",
+   "sub": "C08",
+   "nat": "Други",
+   "en": "Other",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 82.4657,
+   "v2023": 10.3517,
+   "row": 41
+  },
+  {
+   "key": "D214A:C09",
+   "code": "D214A",
+   "sub": "C09",
+   "nat": "Природен газ",
+   "en": "Natural gas",
+   "fn": "C",
+   "at": "E",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 42
+  },
+  {
+   "key": "D214B:C01",
+   "code": "D214B",
+   "sub": "C01",
+   "nat": "Държавни таксови марки за легализиране на документи",
+   "en": "Government tax stamps for legalizing documents",
+   "fn": "KS",
+   "at": "O",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 44
+  },
+  {
+   "key": "D214D:C01",
+   "code": "D214D",
+   "sub": "C01",
+   "nat": "Данъци при регистриране на МПС",
+   "en": "State taxes on registration of motor vehicles",
+   "fn": "C",
+   "at": "T",
+   "v2024": 11.922,
+   "v2023": 10.057,
+   "row": 47
+  },
+  {
+   "key": "D214E:C01",
+   "code": "D214E",
+   "sub": "C01",
+   "nat": "Общински курортни такси",
+   "en": "Municipal resort taxes",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 49
+  },
+  {
+   "key": "D214F:C01",
+   "code": "D214F",
+   "sub": "C01",
+   "nat": "Данъци върху лотария, хазарт и залагания",
+   "en": "Taxes on lotteries, gambling and betting",
+   "fn": "KIC",
+   "at": "_Z",
+   "v2024": 115.0018,
+   "v2023": 77.7507,
+   "row": 51
+  },
+  {
+   "key": "D214G:C01",
+   "code": "D214G",
+   "sub": "C01",
+   "nat": "Данъци върху застрахователни и презастрахователни премии",
+   "en": "Taxes on insurance premiums",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 71.1449,
+   "v2023": 60.9417,
+   "row": 53
+  },
+  {
+   "key": "D214H:C01",
+   "code": "D214H",
+   "sub": "C01",
+   "nat": "Туристически данък",
+   "en": "Visitor tax",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 25.7731,
+   "v2023": 24.3211,
+   "row": 55
+  },
+  {
+   "key": "D214H:C02",
+   "code": "D214H",
+   "sub": "C02",
+   "nat": "Вноски от Фонд Селс",
+   "en": "Contributions in Electric Power System fund",
+   "fn": "KS",
+   "at": "E",
+   "v2024": 559.609,
+   "v2023": 949.208,
+   "row": 56
+  },
+  {
+   "key": "D214K:C01",
+   "code": "D214K",
+   "sub": "C01",
+   "nat": "Митнически такси при износ",
+   "en": "Customs export duties",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 60
+  },
+  {
+   "key": "D29A:C01",
+   "code": "D29A",
+   "sub": "C01",
+   "nat": "Данък върху недвижимите имоти",
+   "en": "Real estate tax",
+   "fn": "KS",
+   "at": "RP",
+   "v2024": 424.8287,
+   "v2023": 399.6799,
+   "row": 64
+  },
+  {
+   "key": "D29B:C01",
+   "code": "D29B",
+   "sub": "C01",
+   "nat": "Данъци върху използването на моторни превозни средства, като дълготрайни активи",
+   "en": "Motor vehicles tax paid by producers",
+   "fn": "KS",
+   "at": "T",
+   "v2024": 208.3214,
+   "v2023": 197.5891,
+   "row": 66
+  },
+  {
+   "key": "D29C:C01",
+   "code": "D29C",
+   "sub": "C01",
+   "nat": "Данък върху социалните разходи на работодателите за наетите лица",
+   "en": "Tax on social expenditures made by employers on behalf of their employees",
+   "fn": "LEYRS",
+   "at": "_Z",
+   "v2024": 29.6111,
+   "v2023": 27.7407,
+   "row": 68
+  },
+  {
+   "key": "D29C:C02",
+   "code": "D29C",
+   "sub": "C02",
+   "nat": "Данък върху нарастване средствата за работна заплата",
+   "en": "Tax on the increase of wage funds",
+   "fn": "LEYRS",
+   "at": "_Z",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 69
+  },
+  {
+   "key": "D29E:C01",
+   "code": "D29E",
+   "sub": "C01",
+   "nat": "Бизнес и професионални лицензи",
+   "en": "Business licenses",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 72
+  },
+  {
+   "key": "D29E:C02",
+   "code": "D29E",
+   "sub": "C02",
+   "nat": "Общински такси за добив на кариерни материали",
+   "en": "Municipal taxes on extraction of quarry materials - Local Taxes and Fees Act",
+   "fn": "KS",
+   "at": "RS",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 73
+  },
+  {
+   "key": "D29E:C03",
+   "code": "D29E",
+   "sub": "C03",
+   "nat": "Такси за стопански риболов",
+   "en": "Fees for commercial fishing",
+   "fn": "KS",
+   "at": "RS",
+   "v2024": 0.669,
+   "v2023": 0.576,
+   "row": 74
+  },
+  {
+   "key": "D29F:C01",
+   "code": "D29F",
+   "sub": "C01",
+   "nat": "Приходи по Закон за водите",
+   "en": "Water Act fees",
+   "fn": "C",
+   "at": "P",
+   "v2024": 43.035,
+   "v2023": 48.3,
+   "row": 76
+  },
+  {
+   "key": "D29F:C02",
+   "code": "D29F",
+   "sub": "C02",
+   "nat": "Приходи по Закон за управление на отпадъците",
+   "en": "Waste Management Act fees",
+   "fn": "C",
+   "at": "P",
+   "v2024": 7.8,
+   "v2023": 4.978,
+   "row": 77
+  },
+  {
+   "key": "D29F:C03",
+   "code": "D29F",
+   "sub": "C03",
+   "nat": "Приходи по Закон за защитените територии",
+   "en": "Protected Areas Act fees",
+   "fn": "C",
+   "at": "RS",
+   "v2024": 0.318,
+   "v2023": 0.325,
+   "row": 78
+  },
+  {
+   "key": "D29F:C04",
+   "code": "D29F",
+   "sub": "C04",
+   "nat": "Приходи по Закон за опазване чистотата на атмосферния въздух",
+   "en": "Clean Air Act fees",
+   "fn": "C",
+   "at": "P",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 79
+  },
+  {
+   "key": "D29F:C05",
+   "code": "D29F",
+   "sub": "C05",
+   "nat": "Данъци върху замърсяванията",
+   "en": "Taxes on pollution",
+   "fn": "C",
+   "at": "P",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 80
+  },
+  {
+   "key": "D29F:C06",
+   "code": "D29F",
+   "sub": "C06",
+   "nat": "Такси за издаване на разрешителни за емисии на парникови газове",
+   "en": "Greenhouse gas emissions license fees",
+   "fn": "C",
+   "at": "E",
+   "v2024": 0.0072,
+   "v2023": 0.021,
+   "row": 81
+  },
+  {
+   "key": "D29F:C07",
+   "code": "D29F",
+   "sub": "C07",
+   "nat": "Приходи от емисии на парникови газове",
+   "en": "The revenue of emission trading permits",
+   "fn": "KS",
+   "at": "E",
+   "v2024": 2292.5314,
+   "v2023": 2147.6759,
+   "row": 82
+  },
+  {
+   "key": "D29H:C01",
+   "code": "D29H",
+   "sub": "C01",
+   "nat": "Данък върху представителните разходи, свързани с дейността",
+   "en": "Taxes on corporate luxury expenditures",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": 37.7443,
+   "v2023": 29.5817,
+   "row": 85
+  },
+  {
+   "key": "D29H:C02",
+   "code": "D29H",
+   "sub": "C02",
+   "nat": "Данък върху разходите свързани с експлоатацията на превозни средства, когато с тях се осъществява управленска дейност",
+   "en": "Corporate vehicle expenditures tax",
+   "fn": "KS",
+   "at": "T",
+   "v2024": 0.0051,
+   "v2023": 0.0625,
+   "row": 86
+  },
+  {
+   "key": "D29H:C03",
+   "code": "D29H",
+   "sub": "C03",
+   "nat": "Данък върху дарения и спонсорство",
+   "en": "Tax on company expenditures for donations",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 87
+  },
+  {
+   "key": "D29H:C04",
+   "code": "D29H",
+   "sub": "C04",
+   "nat": "Данък върху нетния тонаж на корабите",
+   "en": "Tax on the net tonnage of ships",
+   "fn": "KS",
+   "at": "T",
+   "v2024": 0.3856,
+   "v2023": 0.3712,
+   "row": 88
+  },
+  {
+   "key": "D29H:C05",
+   "code": "D29H",
+   "sub": "C05",
+   "nat": "Такси върху производството на захар",
+   "en": "Taxes on the production of sugar",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 89
+  },
+  {
+   "key": "D29H:C06",
+   "code": "D29H",
+   "sub": "C06",
+   "nat": "Вноски на банките по чл. 14 от ЗГВБ и чл. 139 от ЗВПКИИП",
+   "en": "Banks contributions to DGF and NRF",
+   "fn": "KS",
+   "at": "O",
+   "v2024": 217.325,
+   "v2023": 222.8032,
+   "row": 90
+  },
+  {
+   "key": "D51M:C01",
+   "code": "D51M",
+   "sub": "C01",
+   "nat": "Данъци върху личния доход или дохода на домакинствата, включително от изменението в стойността на финансовите инструменти.",
+   "en": "Taxes on individual or household income including holding gains",
+   "fn": "Z",
+   "at": "_Z",
+   "v2024": 7052.6518,
+   "v2023": 6179.0978,
+   "row": 94
+  },
+  {
+   "key": "D51A:C01",
+   "code": "D51A",
+   "sub": "C01",
+   "nat": "Данък върху дохода на физически лица наети по трудови, служебни и приравнени на тях правоотношения",
+   "en": "Personal income tax - wages and salaries",
+   "fn": "SPLIT1",
+   "at": "_Z",
+   "v2024": 5949.2778,
+   "v2023": 4985.6832,
+   "row": 96
+  },
+  {
+   "key": "D51A:C02",
+   "code": "D51A",
+   "sub": "C02",
+   "nat": "Данък върху дохода на еднолични търговци, на лица със свободни професии и на лица по граждански договори",
+   "en": "Personal income tax - sole traders, free professions, civil contracts etc.",
+   "fn": "SPLIT1",
+   "at": "_Z",
+   "v2024": 437.1086,
+   "v2023": 479.179,
+   "row": 97
+  },
+  {
+   "key": "D51A:C03",
+   "code": "D51A",
+   "sub": "C03",
+   "nat": "Окончагелен годишен данък (патентен данък)",
+   "en": "Final annual tax (patent tax)",
+   "fn": "KISE",
+   "at": "_Z",
+   "v2024": 17.9885,
+   "v2023": 15.3462,
+   "row": 98
+  },
+  {
+   "key": "D51A:C04",
+   "code": "D51A",
+   "sub": "C04",
+   "nat": "Окончателен данък върху приходите от лихви по депозитни сметки в търговски банки на физически лица",
+   "en": "Final tax on the income from interest on deposit accounts in commercial banks of physical persons",
+   "fn": "KIH",
+   "at": "_Z",
+   "v2024": 0.0046,
+   "v2023": 0.1088,
+   "row": 99
+  },
+  {
+   "key": "D51C1:C01",
+   "code": "D51C1",
+   "sub": "C01",
+   "nat": "Окончагелен данък на местни и чуждестранни физически лица",
+   "en": "Final tax on local and foreign residents according to the Personal Income Tax Act",
+   "fn": "SPLIT1",
+   "at": "_Z",
+   "v2024": 29.9182,
+   "v2023": 36.1166,
+   "row": 101
+  },
+  {
+   "key": "D51C1:C02",
+   "code": "D51C1",
+   "sub": "C02",
+   "nat": "Данък върху дивидентите и ликвидационните дялове на местни и чуждестранни физически лица",
+   "en": "Tax on dividends and liquidation dividends for local and foreign residents",
+   "fn": "KIH",
+   "at": "_Z",
+   "v2024": 618.3542,
+   "v2023": 662.6639,
+   "row": 102
+  },
+  {
+   "key": "D51C1:C03",
+   "code": "D51C1",
+   "sub": "C03",
+   "nat": "Данък върху доходите на чуждестранни физически лица",
+   "en": "Personal income tax on foreign residents",
+   "fn": "SPLIT1",
+   "at": "_Z",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 103
+  },
+  {
+   "key": "D51O:C01",
+   "code": "D51O",
+   "sub": "C01",
+   "nat": "Данъци върху печалбите, доходите и дивидентите на юридически лица",
+   "en": "Taxes on profits, income and dividends of corporations",
+   "fn": "Z",
+   "at": "_Z",
+   "v2024": 5941.0018,
+   "v2023": 5331.3033,
+   "row": 105
+  },
+  {
+   "key": "D51B:C01",
+   "code": "D51B",
+   "sub": "C01",
+   "nat": "Данък върху печалбата на юридическите лица",
+   "en": "Corporate income tax",
+   "fn": "KIC",
+   "at": "_Z",
+   "v2024": 5417.4997,
+   "v2023": 5003.0324,
+   "row": 107
+  },
+  {
+   "key": "D51B:C02",
+   "code": "D51B",
+   "sub": "C02",
+   "nat": "Временна солидарна вноска на предприятията върху свръхпечалбата\"",
+   "en": "Temporary solidarity contribution of the enterprises on the excess profit\"",
+   "fn": "KIC",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 229.7,
+   "row": 108
+  },
+  {
+   "key": "D51B:C03",
+   "code": "D51B",
+   "sub": "C03",
+   "nat": "Допълнителен данък от мултинационални групи предприятия и големи местни групи",
+   "en": "Top up tax from multinational enterprise groups and large-scale domestic groups",
+   "fn": "KIC",
+   "at": "_Z",
+   "v2024": 400,
+   "v2023": "M",
+   "row": 109
+  },
+  {
+   "key": "D51C2:C01",
+   "code": "D51C2",
+   "sub": "C01",
+   "nat": "Данък върху доходите и дивидентите на юридически лица",
+   "en": "Taxes on income and dividends of corporations",
+   "fn": "KIC",
+   "at": "_Z",
+   "v2024": 123.5021,
+   "v2023": 98.571,
+   "row": 111
+  },
+  {
+   "key": "D51E:C01",
+   "code": "D51E",
+   "sub": "C01",
+   "nat": "Данък върху доходите на бюджетни предприятия",
+   "en": "Budgetary enterprises income tax",
+   "fn": "KIC",
+   "at": "_Z",
+   "v2024": 29.514,
+   "v2023": 25.1561,
+   "row": 116
+  },
+  {
+   "key": "D59D:C01",
+   "code": "D59D",
+   "sub": "C01",
+   "nat": "Плащания от домакинства за разрешителни за лов и риболов",
+   "en": "Hunting and fishing licenses",
+   "fn": "C",
+   "at": "RS",
+   "v2024": 6.466,
+   "v2023": 6.629,
+   "row": 122
+  },
+  {
+   "key": "D59F:C01",
+   "code": "D59F",
+   "sub": "C01",
+   "nat": "Данък върху превозните средства заплащан от домакинствата",
+   "en": "Vehicles tax paid by households",
+   "fn": "C",
+   "at": "T",
+   "v2024": 234.9156,
+   "v2023": 222.8132,
+   "row": 125
+  },
+  {
+   "key": "D59F:C02",
+   "code": "D59F",
+   "sub": "C02",
+   "nat": "Такса за притежаване на куче",
+   "en": "Dog ownership tax",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 0.7575,
+   "v2023": 0.6692,
+   "row": 126
+  },
+  {
+   "key": "D59F:C03",
+   "code": "D59F",
+   "sub": "C03",
+   "nat": "Други",
+   "en": "Other",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": 0.036,
+   "v2023": 3.5138,
+   "row": 127
+  },
+  {
+   "key": "D91A:C01",
+   "code": "D91A",
+   "sub": "C01",
+   "nat": "Данък наследството",
+   "en": "Inheritance tax",
+   "fn": "KS",
+   "at": "O",
+   "v2024": 0.8596,
+   "v2023": 0.2733,
+   "row": 130
+  },
+  {
+   "key": "D91A:C02",
+   "code": "D91A",
+   "sub": "C02",
+   "nat": "Данък при дарение, спонсорство и при придобиване на имущество по възмезден начин",
+   "en": "Taxes on donations, taxes on sponsorships and taxes on acquisition of property",
+   "fn": "KS",
+   "at": "O",
+   "v2024": 644.3239,
+   "v2023": 532.9545,
+   "row": 131
+  },
+  {
+   "key": "D611:C01",
+   "code": "D611",
+   "sub": "C01",
+   "nat": "Фактически осигурителни вноски за сметка на работодателите",
+   "en": "Employers' actual social contributions",
+   "fn": "Z",
+   "at": "_Z",
+   "v2024": 11140.3723,
+   "v2023": 9698.9923,
+   "row": 137
+  },
+  {
+   "key": "D611C:C01",
+   "code": "D611C",
+   "sub": "C01",
+   "nat": "Задължителни фактически осигурителни вноски за сметка на работодателите",
+   "en": "Compulsory employers' actual social contributions",
+   "fn": "LEYRS",
+   "at": "_Z",
+   "v2024": 11140.3723,
+   "v2023": 9698.9923,
+   "row": 139
+  },
+  {
+   "key": "D6111:C01",
+   "code": "D6111",
+   "sub": "C01",
+   "nat": "Фонд \"Пенсии\"",
+   "en": "Pensions Fund",
+   "fn": "Z",
+   "at": "_Z",
+   "v2024": 6133.9639,
+   "v2023": 5360.1393,
+   "row": 143
+  },
+  {
+   "key": "D6112:C01",
+   "code": "D6112",
+   "sub": "C01",
+   "nat": "фонд \"Общо заболяване и майчинство\"",
+   "en": "Common disease and Maternity Fund",
+   "fn": "Z",
+   "at": "_Z",
+   "v2024": 1222.539,
+   "v2023": 1057.4378,
+   "row": 145
+  },
+  {
+   "key": "D6112:C02",
+   "code": "D6112",
+   "sub": "C02",
+   "nat": "фонд \"Трудова злополука и професионална болест\"",
+   "en": "Employment Injury and Occupational Disease Fund",
+   "fn": "Z",
+   "at": "_Z",
+   "v2024": 394.2173,
+   "v2023": 348.6032,
+   "row": 146
+  },
+  {
+   "key": "D6112:C03",
+   "code": "D6112",
+   "sub": "C03",
+   "nat": "фонд \"Безработица\"",
+   "en": "Unemployment Fund",
+   "fn": "Z",
+   "at": "_Z",
+   "v2024": 349.2664,
+   "v2023": 302.0819,
+   "row": 147
+  },
+  {
+   "key": "D6112:C04",
+   "code": "D6112",
+   "sub": "C04",
+   "nat": "Здравноосигурителни вноски за сметка на работодателите",
+   "en": "Employers' health insurance contributions",
+   "fn": "Z",
+   "at": "_Z",
+   "v2024": 3040.3858,
+   "v2023": 2630.7301,
+   "row": 148
+  },
+  {
+   "key": "D612:C01",
+   "code": "D612",
+   "sub": "C01",
+   "nat": "Условни осигурителни вноски за сметка на работодателите",
+   "en": "Employers' imputed social contributions",
+   "fn": "Z",
+   "at": "_Z",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 150
+  },
+  {
+   "key": "D6121:C01",
+   "code": "D6121",
+   "sub": "C01",
+   "nat": "Условни пенсионни вноски за сметка на работодателите",
+   "en": "Employers' imputed pension contributions (1)",
+   "fn": "Z",
+   "at": "_Z",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 152
+  },
+  {
+   "key": "D6131:C01",
+   "code": "D6131",
+   "sub": "C01",
+   "nat": "Фонд \"Пенсии\"",
+   "en": "Pensions Fund",
+   "fn": "Z",
+   "at": "_Z",
+   "v2024": 3998.8164,
+   "v2023": 3459.6221,
+   "row": 156
+  },
+  {
+   "key": "D6132:C01",
+   "code": "D6132",
+   "sub": "C01",
+   "nat": "фонд \"ОЗМ\"",
+   "en": "Common disease and Maternity Fund",
+   "fn": "Z",
+   "at": "_Z",
+   "v2024": 804.9676,
+   "v2023": 693.674,
+   "row": 158
+  },
+  {
+   "key": "D6132:C02",
+   "code": "D6132",
+   "sub": "C02",
+   "nat": "фонд \"Безработица\"",
+   "en": "Unemployment Fund",
+   "fn": "Z",
+   "at": "_Z",
+   "v2024": 208.4103,
+   "v2023": 180.759,
+   "row": 159
+  },
+  {
+   "key": "D6132:C03",
+   "code": "D6132",
+   "sub": "C03",
+   "nat": "Здравноосигурителни вноски за сметка на домакинствата",
+   "en": "Households' health insurance contributions",
+   "fn": "Z",
+   "at": "_Z",
+   "v2024": 2006.7467,
+   "v2023": 1720.8275,
+   "row": 160
+  },
+  {
+   "key": "D613C:C01",
+   "code": "D613C",
+   "sub": "C01",
+   "nat": "Задължителни фактически осигурителни вноски за сметка на домакинствата",
+   "en": "Compulsory households' actual social contributions",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 162
+  },
+  {
+   "key": "D613CE:C01",
+   "code": "D613CE",
+   "sub": "C01",
+   "nat": "Фонд \"Пенсии\"",
+   "en": "Pensions Fund",
+   "fn": "LEES",
+   "at": "_Z",
+   "v2024": 3516.4205,
+   "v2023": 3060.9365,
+   "row": 164
+  },
+  {
+   "key": "D613CE:C02",
+   "code": "D613CE",
+   "sub": "C02",
+   "nat": "фонд \"ОЗМ\"",
+   "en": "Common disease and Maternity Fund",
+   "fn": "LEES",
+   "at": "_Z",
+   "v2024": 729.5073,
+   "v2023": 632.7577,
+   "row": 165
+  },
+  {
+   "key": "D613CE:C03",
+   "code": "D613CE",
+   "sub": "C03",
+   "nat": "фонд \"Безработица\"",
+   "en": "Unemployment Fund",
+   "fn": "LEES",
+   "at": "_Z",
+   "v2024": 208.4103,
+   "v2023": 180.759,
+   "row": 166
+  },
+  {
+   "key": "D613CE:C04",
+   "code": "D613CE",
+   "sub": "C04",
+   "nat": "Здравноосигурителни вноски за сметка на наетите лица",
+   "en": "Employees' health insurance contributions",
+   "fn": "LEES",
+   "at": "_Z",
+   "v2024": 1692.9955,
+   "v2023": 1468.6184,
+   "row": 167
+  },
+  {
+   "key": "D613CS:C01",
+   "code": "D613CS",
+   "sub": "C01",
+   "nat": "Фонд \"Пенсии\"",
+   "en": "Pensions Fund",
+   "fn": "KISE",
+   "at": "_Z",
+   "v2024": 482.3958,
+   "v2023": 398.6856,
+   "row": 169
+  },
+  {
+   "key": "D613CS:C02",
+   "code": "D613CS",
+   "sub": "C02",
+   "nat": "фонд \"ОЗМ\"",
+   "en": "Common disease and Maternity Fund",
+   "fn": "KISE",
+   "at": "_Z",
+   "v2024": 75.4604,
+   "v2023": 60.9163,
+   "row": 170
+  },
+  {
+   "key": "D613CS:C03",
+   "code": "D613CS",
+   "sub": "C03",
+   "nat": "Здравноосигурителни вноски за сметка на самонаети лица (самоосигуряващи се лица)",
+   "en": "Health insurance contributions by the self-employed",
+   "fn": "KISE",
+   "at": "_Z",
+   "v2024": 313.7512,
+   "v2023": 252.2091,
+   "row": 171
+  }
+ ]
+}

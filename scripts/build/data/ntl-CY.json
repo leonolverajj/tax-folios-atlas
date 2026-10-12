@@ -1,0 +1,2200 @@
+{
+ "country": "CY",
+ "source": "NTL edition 2026 web.xlsx (Commission, DG TAXUD / Eurostat)",
+ "unit": "million national currency",
+ "sector": "S.13 + S.212",
+ "totals": {
+  "D2": {
+   "name": "Taxes on production and imports",
+   "v2024": 4742.9,
+   "v2023": 4528.5386,
+   "row": 9
+  },
+  "D21": {
+   "name": "Taxes on products",
+   "v2024": 4052,
+   "v2023": 3816.4917,
+   "row": 10
+  },
+  "D211": {
+   "name": "Value added type taxes (VAT)",
+   "v2024": 3169.6,
+   "v2023": 2978.7917,
+   "row": 11
+  },
+  "D212": {
+   "name": "Taxes and duties on imports excluding VAT",
+   "v2024": 66.2,
+   "v2023": 66.3,
+   "row": 13
+  },
+  "D2121": {
+   "name": "Import duties",
+   "v2024": 59.6,
+   "v2023": 60,
+   "row": 14
+  },
+  "D2122": {
+   "name": "Taxes on imports, excluding VAT and import duties",
+   "v2024": 6.6,
+   "v2023": 6.3,
+   "row": 20
+  },
+  "D2122A": {
+   "name": "Levies on imported agricultural products",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 21
+  },
+  "D2122B": {
+   "name": "Monetary compensatory amounts on imports",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 22
+  },
+  "D2122C": {
+   "name": "Excise duties",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 24
+  },
+  "D2122D": {
+   "name": "General sales taxes",
+   "v2024": 6.6,
+   "v2023": 6.3,
+   "row": 27
+  },
+  "D2122E": {
+   "name": "Taxes on specific services",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 40
+  },
+  "D2122F": {
+   "name": "Profits of import monopolies",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 41
+  },
+  "D214": {
+   "name": "Taxes on products, except VAT and import taxes",
+   "v2024": 816.2,
+   "v2023": 771.4,
+   "row": 42
+  },
+  "D214A": {
+   "name": "Excise duties and consumption taxes",
+   "v2024": 556.4,
+   "v2023": 525.8,
+   "row": 43
+  },
+  "D214B": {
+   "name": "Stamp taxes",
+   "v2024": 143.1,
+   "v2023": 142.3,
+   "row": 53
+  },
+  "D214C": {
+   "name": "Taxes on financial and capital transactions",
+   "v2024": 23.9,
+   "v2023": 28.5,
+   "row": 57
+  },
+  "D214D": {
+   "name": "Car registration taxes",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 60
+  },
+  "D214E": {
+   "name": "Taxes on entertainment",
+   "v2024": 10.4,
+   "v2023": 10,
+   "row": 63
+  },
+  "D214F": {
+   "name": "Taxes on lotteries, gambling and betting",
+   "v2024": 52.1,
+   "v2023": 36,
+   "row": 66
+  },
+  "D214G": {
+   "name": "Taxes on insurance premiums",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 72
+  },
+  "D214H": {
+   "name": "Other taxes on specific services",
+   "v2024": 9.2,
+   "v2023": 8.5,
+   "row": 73
+  },
+  "D214I": {
+   "name": "General sales or turnover taxes",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 77
+  },
+  "D214J": {
+   "name": "Profits of fiscal monopolies",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 78
+  },
+  "D214K": {
+   "name": "Export duties and monetary comp. amounts on exports",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 79
+  },
+  "D214L": {
+   "name": "Other taxes on products n.e.c.",
+   "v2024": 21.1,
+   "v2023": 20.3,
+   "row": 80
+  },
+  "D29": {
+   "name": "Other taxes on production",
+   "v2024": 690.9,
+   "v2023": 712.0469,
+   "row": 85
+  },
+  "D29A": {
+   "name": "Taxes on land, buildings or other structures",
+   "v2024": 114.7,
+   "v2023": 107.2469,
+   "row": 86
+  },
+  "D29B": {
+   "name": "Taxes on the use of fixed assets",
+   "v2024": 1.2,
+   "v2023": 1.7,
+   "row": 93
+  },
+  "D29C": {
+   "name": "Total wage bill and payroll taxes",
+   "v2024": 342.6,
+   "v2023": 315.9,
+   "row": 95
+  },
+  "D29D": {
+   "name": "Taxes on international transactions",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 99
+  },
+  "D29E": {
+   "name": "Business and professional licences",
+   "v2024": 54.5,
+   "v2023": 96.4,
+   "row": 100
+  },
+  "D29F": {
+   "name": "Taxes on pollution",
+   "v2024": 122.6,
+   "v2023": 119.4,
+   "row": 118
+  },
+  "D29G": {
+   "name": "Under-compensation of VAT (flat rate system)",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 125
+  },
+  "D29H": {
+   "name": "Other taxes on production n.e.c.",
+   "v2024": 55.3,
+   "v2023": 71.4,
+   "row": 126
+  },
+  "D5": {
+   "name": "Current taxes on income wealth, etc.",
+   "v2024": 3804.8,
+   "v2023": 3264.9022,
+   "row": 140
+  },
+  "D51": {
+   "name": "Taxes on income",
+   "v2024": 3715.1,
+   "v2023": 3176.2022,
+   "row": 141
+  },
+  "D51M": {
+   "name": "Taxes on individual or household income including holding gains",
+   "v2024": 1285.4,
+   "v2023": 1174.4,
+   "row": 142
+  },
+  "D51A": {
+   "name": "Taxes on individual or household income excluding holding gains(1)",
+   "v2024": 1094.9,
+   "v2023": 974.2,
+   "row": 143
+  },
+  "D51C1": {
+   "name": "Taxes on individual or household holding gains(1)",
+   "v2024": 190.5,
+   "v2023": 200.2,
+   "row": 150
+  },
+  "D51O": {
+   "name": "Taxes on the income or profits of corporations including holding gains",
+   "v2024": 2398,
+   "v2023": 1972.6022,
+   "row": 152
+  },
+  "D51B": {
+   "name": "Taxes on the income or profits of corporations excluding holding gains(1)",
+   "v2024": 2398,
+   "v2023": 1972.6022,
+   "row": 153
+  },
+  "D51C2": {
+   "name": "Taxes on holding gains of corporations(1)",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 159
+  },
+  "D51C3": {
+   "name": "Other taxes on holding gains(1)",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 160
+  },
+  "D51C": {
+   "name": "Taxes on holding gains",
+   "v2024": 190.5,
+   "v2023": 200.2,
+   "row": 161
+  },
+  "D51D": {
+   "name": "Taxes on winnings from lottery or gambling",
+   "v2024": 4,
+   "v2023": 3.7,
+   "row": 162
+  },
+  "D51E": {
+   "name": "Other taxes on income n.e.c.",
+   "v2024": 27.7,
+   "v2023": 25.5,
+   "row": 164
+  },
+  "D59": {
+   "name": "Other current taxes",
+   "v2024": 89.7,
+   "v2023": 88.7,
+   "row": 170
+  },
+  "D59A": {
+   "name": "Current taxes on capital",
+   "v2024": 6.3,
+   "v2023": 6,
+   "row": 171
+  },
+  "D59B": {
+   "name": "Poll taxes",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 173
+  },
+  "D59C": {
+   "name": "Expenditure taxes",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 174
+  },
+  "D59D": {
+   "name": "Payments by households for licences",
+   "v2024": 83.4,
+   "v2023": 82.7,
+   "row": 175
+  },
+  "D59E": {
+   "name": "Taxes on international transactions",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 181
+  },
+  "D59F": {
+   "name": "Other current taxes n.e.c.",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 182
+  },
+  "D91": {
+   "name": "Capital taxes",
+   "v2024": 0.1,
+   "v2023": 0,
+   "row": 183
+  },
+  "D91A": {
+   "name": "Taxes on capital transfers",
+   "v2024": 0.1,
+   "v2023": 0,
+   "row": 184
+  },
+  "D91B": {
+   "name": "Capital levies",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 186
+  },
+  "D91C": {
+   "name": "Other capital taxes n.e.c.",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 188
+  },
+  "D61": {
+   "name": "Net social contributions",
+   "v2024": 4520,
+   "v2023": 4380.5,
+   "row": 190
+  },
+  "D611": {
+   "name": "Employers' actual social contributions",
+   "v2024": 2514,
+   "v2023": 2218.5,
+   "row": 191
+  },
+  "D611C": {
+   "name": "Compulsory employers' actual social contributions",
+   "v2024": 2514,
+   "v2023": 2218.5,
+   "row": 193
+  },
+  "D611V": {
+   "name": "Voluntary employers' actual social contributions",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 195
+  },
+  "D61SC": {
+   "name": "Social insurance scheme service charges(3)",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 197
+  },
+  "D6111": {
+   "name": "Employers' actual pension contributions (1)",
+   "v2024": 2134.8,
+   "v2023": 1869,
+   "row": 198
+  },
+  "D6112": {
+   "name": "Employers' actual non-pension contributions (1)",
+   "v2024": 379.2,
+   "v2023": 349.5,
+   "row": 200
+  },
+  "D612": {
+   "name": "Employers' imputed social contributions",
+   "v2024": 444,
+   "v2023": 430.3,
+   "row": 202
+  },
+  "D6121": {
+   "name": "Employers' imputed pension contributions (1)",
+   "v2024": 444,
+   "v2023": 430.3,
+   "row": 204
+  },
+  "D6122": {
+   "name": "Employers' imputed non-pension contributions (1)",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 206
+  },
+  "D613": {
+   "name": "Households' actual social contributions",
+   "v2024": 1562,
+   "v2023": 1731.7,
+   "row": 207
+  },
+  "D6131": {
+   "name": "Households' actual pension contributions (1)",
+   "v2024": 1040.1,
+   "v2023": 1258,
+   "row": 209
+  },
+  "D6132": {
+   "name": "Households' actual non-pension contributions (1)",
+   "v2024": 521.9,
+   "v2023": 473.7,
+   "row": 211
+  },
+  "D613C": {
+   "name": "Compulsory households' actual social contributions",
+   "v2024": 1562,
+   "v2023": 1731.7,
+   "row": 213
+  },
+  "D613CE": {
+   "name": "Compulsory employees' actual social contributions",
+   "v2024": 1345,
+   "v2023": 1539.1,
+   "row": 215
+  },
+  "D613CS": {
+   "name": "Compulsory actual social contributions by the self-employed (1)",
+   "v2024": 217,
+   "v2023": 192.6,
+   "row": 217
+  },
+  "D613CN": {
+   "name": "Compulsory actual social contributions by the non-employed (1)",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 219
+  },
+  "D613V": {
+   "name": "Voluntary households' actual social contributions",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 221
+  },
+  "D614": {
+   "name": "Households' social contributions supplements(3)",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 223
+  },
+  "D6141": {
+   "name": "Households' pension contributions supplements (1)",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 224
+  },
+  "D6142": {
+   "name": "Households' non-pension contributions supplements (1)",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 225
+  },
+  "D995": {
+   "name": "Capital transfers from general government to relevant sectors representing taxes and social contributions assessed but unlikely to be collected (2)",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 226
+  },
+  "D995A": {
+   "name": "Taxes on products assessed but unlikely to be collected (2)",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 227
+  },
+  "D995B": {
+   "name": "Other taxes on production assessed but unlikely to be collected (2)",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 228
+  },
+  "D995C": {
+   "name": "Taxes on income assessed but unlikely to be collected (2)",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 229
+  },
+  "D995D": {
+   "name": "Other current taxes assessed but unlikely to be collected (2)",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 230
+  },
+  "D995E": {
+   "name": "Employers' actual social contributions assessed but unlikely to be collected (2)",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 231
+  },
+  "D995F": {
+   "name": "Households' actual social contributions assessed but unlikely to be collected (2)",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 232
+  },
+  "D995FE": {
+   "name": "Employees' actual social contributions assessed but unlikely to be collected (2)",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 233
+  },
+  "D995FS": {
+   "name": "Actual social contributions by self-employed persons assessed but unlikely to be collected (1)",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 234
+  },
+  "D995FN": {
+   "name": "Actual social contributions by non-employed persons assessed but unlikely to be collected (1)",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 235
+  },
+  "D995G": {
+   "name": "Capital taxes assessed but unlikely to be collected (2)",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 236
+  }
+ },
+ "lines": [
+  {
+   "key": "D211:C01",
+   "code": "D211",
+   "sub": "C01",
+   "nat": "VAT on products",
+   "en": "Custom Label - 01",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 3169.6,
+   "v2023": 2978.7917,
+   "row": 12
+  },
+  {
+   "key": "D2121:C01",
+   "code": "D2121",
+   "sub": "C01",
+   "nat": "Import Duties",
+   "en": "Custom Label - 01",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 15
+  },
+  {
+   "key": "D2121:C02",
+   "code": "D2121",
+   "sub": "C02",
+   "nat": "Import Duties-Postal Services",
+   "en": "Custom Label - 02",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 16
+  },
+  {
+   "key": "D2121:C03",
+   "code": "D2121",
+   "sub": "C03",
+   "nat": "Import Duties-Sovereign Base Areas",
+   "en": "Custom Label - 03",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 17
+  },
+  {
+   "key": "D2121:C04",
+   "code": "D2121",
+   "sub": "C04",
+   "nat": "Traditional Own Resources",
+   "en": "Custom Label - 04",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 59.6,
+   "v2023": 60,
+   "row": 18
+  },
+  {
+   "key": "D2121:C05",
+   "code": "D2121",
+   "sub": "C05",
+   "nat": "Accrual adjustment - Traditional Own Resources",
+   "en": "Custom Label - 05",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 19
+  },
+  {
+   "key": "D2122B:C01",
+   "code": "D2122B",
+   "sub": "C01",
+   "nat": "Temporary Refugee Levy on Imports",
+   "en": "Custom Label - 01",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 23
+  },
+  {
+   "key": "D2122C:C01",
+   "code": "D2122C",
+   "sub": "C01",
+   "nat": "Added Consumption Tax on Motor Vehicles",
+   "en": "Custom Label - 01",
+   "fn": "C",
+   "at": "T",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 25
+  },
+  {
+   "key": "D2122C:C02",
+   "code": "D2122C",
+   "sub": "C02",
+   "nat": "Excise - Motor Vehicles",
+   "en": "Custom Label - 02",
+   "fn": "C",
+   "at": "T",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 26
+  },
+  {
+   "key": "D2122D:C01",
+   "code": "D2122D",
+   "sub": "C01",
+   "nat": "Motor Vehicles for transport of 10 or more persons",
+   "en": "Custom Label - 01",
+   "fn": "C",
+   "at": "T",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 28
+  },
+  {
+   "key": "D2122D:C02",
+   "code": "D2122D",
+   "sub": "C02",
+   "nat": "Motor Vehicles of the Jeep and land-rover type",
+   "en": "Custom Label - 02",
+   "fn": "C",
+   "at": "T",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 29
+  },
+  {
+   "key": "D2122D:C03",
+   "code": "D2122D",
+   "sub": "C03",
+   "nat": "Double cabin motor vehicles",
+   "en": "Custom Label - 03",
+   "fn": "C",
+   "at": "T",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 30
+  },
+  {
+   "key": "D2122D:C04",
+   "code": "D2122D",
+   "sub": "C04",
+   "nat": "Vessels for pleasure and their Engines",
+   "en": "Custom Label - 04",
+   "fn": "C",
+   "at": "T",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 31
+  },
+  {
+   "key": "D2122D:C05",
+   "code": "D2122D",
+   "sub": "C05",
+   "nat": "Motor-cycles",
+   "en": "Custom Label - 05",
+   "fn": "C",
+   "at": "T",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 32
+  },
+  {
+   "key": "D2122D:C06",
+   "code": "D2122D",
+   "sub": "C06",
+   "nat": "Cigars and Cigarillos",
+   "en": "Custom Label - 06",
+   "fn": "C",
+   "at": "AT",
+   "v2024": 3.8,
+   "v2023": 3.8,
+   "row": 33
+  },
+  {
+   "key": "D2122D:C07",
+   "code": "D2122D",
+   "sub": "C07",
+   "nat": "Apparel articles of furskins",
+   "en": "Custom Label - 07",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 34
+  },
+  {
+   "key": "D2122D:C08",
+   "code": "D2122D",
+   "sub": "C08",
+   "nat": "Sparkling Wines",
+   "en": "Custom Label - 08",
+   "fn": "C",
+   "at": "AT",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 35
+  },
+  {
+   "key": "D2122D:C09",
+   "code": "D2122D",
+   "sub": "C09",
+   "nat": "Baths and baths' accessories",
+   "en": "Custom Label - 09",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 36
+  },
+  {
+   "key": "D2122D:C10",
+   "code": "D2122D",
+   "sub": "C10",
+   "nat": "Articles of lead crystal",
+   "en": "Custom Label - 10",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 0.1,
+   "v2023": 0.2,
+   "row": 37
+  },
+  {
+   "key": "D2122D:C11",
+   "code": "D2122D",
+   "sub": "C11",
+   "nat": "Other",
+   "en": "Custom Label - 11",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 2.7,
+   "v2023": 2.3,
+   "row": 38
+  },
+  {
+   "key": "D2122D:C12",
+   "code": "D2122D",
+   "sub": "C12",
+   "nat": "Motor Vehicles of the \"Van\" type",
+   "en": "Custom Label - 12",
+   "fn": "C",
+   "at": "T",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 39
+  },
+  {
+   "key": "D214A:C01",
+   "code": "D214A",
+   "sub": "C01",
+   "nat": "Tax on Energy Conservation (Funds)",
+   "en": "Custom Label - 01",
+   "fn": "C",
+   "at": "E",
+   "v2024": 23.2,
+   "v2023": 22.6,
+   "row": 44
+  },
+  {
+   "key": "D214A:C02",
+   "code": "D214A",
+   "sub": "C02",
+   "nat": "Excise - Tobacco",
+   "en": "Custom Label - 02",
+   "fn": "C",
+   "at": "AT",
+   "v2024": 139.9,
+   "v2023": 138.9,
+   "row": 45
+  },
+  {
+   "key": "D214A:C03",
+   "code": "D214A",
+   "sub": "C03",
+   "nat": "Excise - Spirits",
+   "en": "Custom Label - 03",
+   "fn": "C",
+   "at": "AT",
+   "v2024": 22,
+   "v2023": 24.7,
+   "row": 46
+  },
+  {
+   "key": "D214A:C04",
+   "code": "D214A",
+   "sub": "C04",
+   "nat": "Excise - Beer",
+   "en": "Custom Label - 04",
+   "fn": "C",
+   "at": "AT",
+   "v2024": 14.9,
+   "v2023": 14.6,
+   "row": 47
+  },
+  {
+   "key": "D214A:C05",
+   "code": "D214A",
+   "sub": "C05",
+   "nat": "Excise - Salt",
+   "en": "Custom Label - 05",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 48
+  },
+  {
+   "key": "D214A:C06",
+   "code": "D214A",
+   "sub": "C06",
+   "nat": "Excise - Matches",
+   "en": "Custom Label - 06",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 49
+  },
+  {
+   "key": "D214A:C07",
+   "code": "D214A",
+   "sub": "C07",
+   "nat": "Excise - Hydrocarbon Oils",
+   "en": "Custom Label - 07",
+   "fn": "C",
+   "at": "E",
+   "v2024": 356.4,
+   "v2023": 325,
+   "row": 50
+  },
+  {
+   "key": "D214A:C08",
+   "code": "D214A",
+   "sub": "C08",
+   "nat": "Arrears Excise Duties",
+   "en": "Custom Label - 08",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 51
+  },
+  {
+   "key": "D214A:C09",
+   "code": "D214A",
+   "sub": "C09",
+   "nat": "Excise - Aerated Soft Drinks",
+   "en": "Custom Label - 09",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 52
+  },
+  {
+   "key": "D214B:C01",
+   "code": "D214B",
+   "sub": "C01",
+   "nat": "Stamp Duties",
+   "en": "Custom Label - 01",
+   "fn": "KS",
+   "at": "O",
+   "v2024": 47.5,
+   "v2023": 47.3,
+   "row": 54
+  },
+  {
+   "key": "D214B:C02",
+   "code": "D214B",
+   "sub": "C02",
+   "nat": "Refugee Stamp",
+   "en": "Custom Label - 02",
+   "fn": "KS",
+   "at": "O",
+   "v2024": 0.4,
+   "v2023": 0.5,
+   "row": 55
+  },
+  {
+   "key": "D214B:C03",
+   "code": "D214B",
+   "sub": "C03",
+   "nat": "Lands and Surveys Fees",
+   "en": "Custom Label - 03",
+   "fn": "KS",
+   "at": "O",
+   "v2024": 95.2,
+   "v2023": 94.5,
+   "row": 56
+  },
+  {
+   "key": "D214C:C01",
+   "code": "D214C",
+   "sub": "C01",
+   "nat": "Stock Exchange Fee",
+   "en": "Custom Label - 01",
+   "fn": "KS",
+   "at": "O",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 58
+  },
+  {
+   "key": "D214C:C02",
+   "code": "D214C",
+   "sub": "C02",
+   "nat": "Tax on the sale of immovable property for Central Agency for Equal Distributions of Burden",
+   "en": "Custom Label - 02",
+   "fn": "KS",
+   "at": "O",
+   "v2024": 23.9,
+   "v2023": 28.5,
+   "row": 59
+  },
+  {
+   "key": "D214D:C01",
+   "code": "D214D",
+   "sub": "C01",
+   "nat": "Motor Vehicle Taxes - Registration (private use)",
+   "en": "Custom Label - 01",
+   "fn": "C",
+   "at": "T",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 61
+  },
+  {
+   "key": "D214D:C02",
+   "code": "D214D",
+   "sub": "C02",
+   "nat": "Motor Vehicle Taxes - Registration (public use)",
+   "en": "Custom Label - 02",
+   "fn": "C",
+   "at": "T",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 62
+  },
+  {
+   "key": "D214E:C01",
+   "code": "D214E",
+   "sub": "C01",
+   "nat": "Tax on Entertainment",
+   "en": "Custom Label - 01",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 1.3,
+   "v2023": 1.2,
+   "row": 64
+  },
+  {
+   "key": "D214E:C02",
+   "code": "D214E",
+   "sub": "C02",
+   "nat": "Tax on Hotels",
+   "en": "Custom Label - 02",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 9.1,
+   "v2023": 8.8,
+   "row": 65
+  },
+  {
+   "key": "D214F:C01",
+   "code": "D214F",
+   "sub": "C01",
+   "nat": "Tax on horsebetting",
+   "en": "Custom Label - 01",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 1.9,
+   "v2023": 2.1,
+   "row": 67
+  },
+  {
+   "key": "D214F:C02",
+   "code": "D214F",
+   "sub": "C02",
+   "nat": "Tax on Pool Bettings",
+   "en": "Custom Label - 02",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 24.6,
+   "v2023": 14.5,
+   "row": 68
+  },
+  {
+   "key": "D214F:C03",
+   "code": "D214F",
+   "sub": "C03",
+   "nat": "Tax on horseracing betting",
+   "en": "Custom Label - 03",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 0.2,
+   "v2023": 0.4,
+   "row": 69
+  },
+  {
+   "key": "D214F:C04",
+   "code": "D214F",
+   "sub": "C04",
+   "nat": "Additional Charge on Pool Betting",
+   "en": "Custom Label - 04",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 70
+  },
+  {
+   "key": "D214F:C05",
+   "code": "D214F",
+   "sub": "C05",
+   "nat": "Casino Tax",
+   "en": "Custom Label - 05",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 25.4,
+   "v2023": 19,
+   "row": 71
+  },
+  {
+   "key": "D214H:C01",
+   "code": "D214H",
+   "sub": "C01",
+   "nat": "Specific licences-Radio Television",
+   "en": "Custom Label - 01",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 1.1,
+   "v2023": 1.2,
+   "row": 74
+  },
+  {
+   "key": "D214H:C02",
+   "code": "D214H",
+   "sub": "C02",
+   "nat": "Specific licences-Electronic Communications & Postal",
+   "en": "Custom Label - 02",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 5.6,
+   "v2023": 5,
+   "row": 75
+  },
+  {
+   "key": "D214H:C03",
+   "code": "D214H",
+   "sub": "C03",
+   "nat": "Specific licences-Energy",
+   "en": "Custom Label - 03",
+   "fn": "C",
+   "at": "E",
+   "v2024": 2.5,
+   "v2023": 2.3,
+   "row": 76
+  },
+  {
+   "key": "D214L:C01",
+   "code": "D214L",
+   "sub": "C01",
+   "nat": "CTO",
+   "en": "Custom Label - 01",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 81
+  },
+  {
+   "key": "D214L:C02",
+   "code": "D214L",
+   "sub": "C02",
+   "nat": "Tax on Rent",
+   "en": "Custom Label - 02",
+   "fn": "KS",
+   "at": "RP",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 82
+  },
+  {
+   "key": "D214L:C03",
+   "code": "D214L",
+   "sub": "C03",
+   "nat": "Lands and Surveys Fees",
+   "en": "Custom Label - 03",
+   "fn": "KS",
+   "at": "O",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 83
+  },
+  {
+   "key": "D214L:C04",
+   "code": "D214L",
+   "sub": "C04",
+   "nat": "Stock Holding Company Fees",
+   "en": "Custom Label - 04",
+   "fn": "C",
+   "at": "E",
+   "v2024": 21.1,
+   "v2023": 20.3,
+   "row": 84
+  },
+  {
+   "key": "D29A:C01",
+   "code": "D29A",
+   "sub": "C01",
+   "nat": "Lands and Surveys Fees",
+   "en": "Custom Label - 01",
+   "fn": "KS",
+   "at": "RP",
+   "v2024": 5.4,
+   "v2023": 5,
+   "row": 87
+  },
+  {
+   "key": "D29A:C02",
+   "code": "D29A",
+   "sub": "C02",
+   "nat": "Wireless licences land based",
+   "en": "Custom Label - 02",
+   "fn": "KS",
+   "at": "RP",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 88
+  },
+  {
+   "key": "D29A:C03",
+   "code": "D29A",
+   "sub": "C03",
+   "nat": "Tax on Ownership of Land",
+   "en": "Custom Label - 03",
+   "fn": "KS",
+   "at": "RP",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 89
+  },
+  {
+   "key": "D29A:C04",
+   "code": "D29A",
+   "sub": "C04",
+   "nat": "Building Permits",
+   "en": "Custom Label - 04",
+   "fn": "KS",
+   "at": "RP",
+   "v2024": 13.4,
+   "v2023": 10.9,
+   "row": 90
+  },
+  {
+   "key": "D29A:C05",
+   "code": "D29A",
+   "sub": "C05",
+   "nat": "Immovable Property Tax",
+   "en": "Custom Label - 05",
+   "fn": "KS",
+   "at": "RP",
+   "v2024": 24.9,
+   "v2023": 28,
+   "row": 91
+  },
+  {
+   "key": "D29A:C06",
+   "code": "D29A",
+   "sub": "C06",
+   "nat": "Sewerage Disposal Boards tax",
+   "en": "Custom Label - 06",
+   "fn": "KS",
+   "at": "P",
+   "v2024": 71,
+   "v2023": 63.3469,
+   "row": 92
+  },
+  {
+   "key": "D29B:C01",
+   "code": "D29B",
+   "sub": "C01",
+   "nat": "Tax on Rent",
+   "en": "Custom Label - 01",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": 1.2,
+   "v2023": 1.7,
+   "row": 94
+  },
+  {
+   "key": "D29C:C01",
+   "code": "D29C",
+   "sub": "C01",
+   "nat": "Social cohesion Fund , Wage Bill and Payroll Taxes",
+   "en": "Custom Label - 01",
+   "fn": "LEYRS",
+   "at": "_Z",
+   "v2024": 268.8,
+   "v2023": 245.6,
+   "row": 96
+  },
+  {
+   "key": "D29C:C02",
+   "code": "D29C",
+   "sub": "C02",
+   "nat": "Payroll Tax",
+   "en": "Custom Label - 02",
+   "fn": "LEYRS",
+   "at": "_Z",
+   "v2024": 24.9,
+   "v2023": 25.8,
+   "row": 97
+  },
+  {
+   "key": "D29C:C03",
+   "code": "D29C",
+   "sub": "C03",
+   "nat": "Human Resource Development Tax",
+   "en": "Custom Label - 03",
+   "fn": "LEYRS",
+   "at": "_Z",
+   "v2024": 48.9,
+   "v2023": 44.5,
+   "row": 98
+  },
+  {
+   "key": "D29E:C01",
+   "code": "D29E",
+   "sub": "C01",
+   "nat": "Registration Fees-Gross/Official Receiver",
+   "en": "Custom Label - 01",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": 38.1,
+   "v2023": 78.9,
+   "row": 101
+  },
+  {
+   "key": "D29E:C02",
+   "code": "D29E",
+   "sub": "C02",
+   "nat": "Licences on bonded warehouses",
+   "en": "Custom Label - 02",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": 0.6,
+   "v2023": 0.5,
+   "row": 102
+  },
+  {
+   "key": "D29E:C03",
+   "code": "D29E",
+   "sub": "C03",
+   "nat": "Drivers' licence (public use)",
+   "en": "Custom Label - 03",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": 0.2,
+   "v2023": 0.1,
+   "row": 103
+  },
+  {
+   "key": "D29E:C04",
+   "code": "D29E",
+   "sub": "C04",
+   "nat": "Motor Vehicle Taxes-Registration (public use)",
+   "en": "Custom Label - 04",
+   "fn": "KS",
+   "at": "T",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 104
+  },
+  {
+   "key": "D29E:C05",
+   "code": "D29E",
+   "sub": "C05",
+   "nat": "Ship registration fees",
+   "en": "Custom Label - 05",
+   "fn": "KS",
+   "at": "T",
+   "v2024": 1.7,
+   "v2023": 1.7,
+   "row": 105
+  },
+  {
+   "key": "D29E:C06",
+   "code": "D29E",
+   "sub": "C06",
+   "nat": "Road Transport Licences",
+   "en": "Custom Label - 06",
+   "fn": "KS",
+   "at": "T",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 106
+  },
+  {
+   "key": "D29E:C07",
+   "code": "D29E",
+   "sub": "C07",
+   "nat": "Fees for Professional Licences of Road Transporters",
+   "en": "Custom Label - 07",
+   "fn": "KS",
+   "at": "T",
+   "v2024": 0.1,
+   "v2023": 0.1,
+   "row": 107
+  },
+  {
+   "key": "D29E:C08",
+   "code": "D29E",
+   "sub": "C08",
+   "nat": "Sale of Drug Licences",
+   "en": "Custom Label - 08",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 108
+  },
+  {
+   "key": "D29E:C09",
+   "code": "D29E",
+   "sub": "C09",
+   "nat": "Inspection Fees",
+   "en": "Custom Label - 09",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 109
+  },
+  {
+   "key": "D29E:C10",
+   "code": "D29E",
+   "sub": "C10",
+   "nat": "Other Special Licences",
+   "en": "Custom Label - 10",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": 0.7,
+   "v2023": 0.7,
+   "row": 110
+  },
+  {
+   "key": "D29E:C11",
+   "code": "D29E",
+   "sub": "C11",
+   "nat": "Telecommunication Service Licence",
+   "en": "Custom Label - 11",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 111
+  },
+  {
+   "key": "D29E:C12",
+   "code": "D29E",
+   "sub": "C12",
+   "nat": "Fixed Radio Service Licences",
+   "en": "Custom Label - 12",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 112
+  },
+  {
+   "key": "D29E:C13",
+   "code": "D29E",
+   "sub": "C13",
+   "nat": "Tax on Professional Licences",
+   "en": "Custom Label - 13",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": 4.5,
+   "v2023": 4.7,
+   "row": 113
+  },
+  {
+   "key": "D29E:C14",
+   "code": "D29E",
+   "sub": "C14",
+   "nat": "Tax on Dog Licences",
+   "en": "Custom Label - 14",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 0.5,
+   "v2023": 0.6,
+   "row": 114
+  },
+  {
+   "key": "D29E:C15",
+   "code": "D29E",
+   "sub": "C15",
+   "nat": "Tax on Selling Licence",
+   "en": "Custom Label - 15",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": 0.3,
+   "v2023": 0.3,
+   "row": 115
+  },
+  {
+   "key": "D29E:C16",
+   "code": "D29E",
+   "sub": "C16",
+   "nat": "Other Special Licences",
+   "en": "Custom Label - 16",
+   "fn": "KS",
+   "at": "T",
+   "v2024": 0.8,
+   "v2023": 0.8,
+   "row": 116
+  },
+  {
+   "key": "D29E:C17",
+   "code": "D29E",
+   "sub": "C17",
+   "nat": "Casino Licence Fees",
+   "en": "Custom Label - 17",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": 7,
+   "v2023": 8,
+   "row": 117
+  },
+  {
+   "key": "D29F:C01",
+   "code": "D29F",
+   "sub": "C01",
+   "nat": "ETS Permits",
+   "en": "Custom Label - 01",
+   "fn": "C",
+   "at": "E",
+   "v2024": 112.8,
+   "v2023": 101.9,
+   "row": 119
+  },
+  {
+   "key": "D29F:C02",
+   "code": "D29F",
+   "sub": "C02",
+   "nat": "Environmental Protection",
+   "en": "Custom Label - 02",
+   "fn": "C",
+   "at": "RS",
+   "v2024": 0.2,
+   "v2023": 0.1,
+   "row": 120
+  },
+  {
+   "key": "D29F:C03",
+   "code": "D29F",
+   "sub": "C03",
+   "nat": "Environmental Rehabilitation",
+   "en": "Custom Label - 03",
+   "fn": "C",
+   "at": "RS",
+   "v2024": 1.4,
+   "v2023": 1.4,
+   "row": 121
+  },
+  {
+   "key": "D29F:C04",
+   "code": "D29F",
+   "sub": "C04",
+   "nat": "Mining Tax",
+   "en": "Custom Label - 04",
+   "fn": "C",
+   "at": "RS",
+   "v2024": 0,
+   "v2023": 0.1,
+   "row": 122
+  },
+  {
+   "key": "D29F:C05",
+   "code": "D29F",
+   "sub": "C05",
+   "nat": "Water Consumption Tax",
+   "en": "Custom Label - 05",
+   "fn": "C",
+   "at": "RS",
+   "v2024": 6.8,
+   "v2023": 6.3,
+   "row": 123
+  },
+  {
+   "key": "D29F:C06",
+   "code": "D29F",
+   "sub": "C06",
+   "nat": "Tax on Energy Conservation (AP12/2023)",
+   "en": "Custom Label - 06",
+   "fn": "C",
+   "at": "E",
+   "v2024": 1.4,
+   "v2023": 9.6,
+   "row": 124
+  },
+  {
+   "key": "D29H:C01",
+   "code": "D29H",
+   "sub": "C01",
+   "nat": "Streets and Buildings Regulation Licences",
+   "en": "Custom Label - 01",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": 0.5,
+   "v2023": 1,
+   "row": 127
+  },
+  {
+   "key": "D29H:C02",
+   "code": "D29H",
+   "sub": "C02",
+   "nat": "Tax on Services",
+   "en": "Custom Label - 02",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 1,
+   "v2023": 0.8,
+   "row": 128
+  },
+  {
+   "key": "D29H:C03",
+   "code": "D29H",
+   "sub": "C03",
+   "nat": "Defence contributions",
+   "en": "Custom Label - 03",
+   "fn": "KIC",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 129
+  },
+  {
+   "key": "D29H:C04",
+   "code": "D29H",
+   "sub": "C04",
+   "nat": "Ships' Wireless Licences",
+   "en": "Custom Label - 04",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": 0.1,
+   "v2023": 0.1,
+   "row": 130
+  },
+  {
+   "key": "D29H:C05",
+   "code": "D29H",
+   "sub": "C05",
+   "nat": "Motor Vehicle Taxes-Licenses (public use)",
+   "en": "Custom Label - 05",
+   "fn": "KS",
+   "at": "T",
+   "v2024": 28.1,
+   "v2023": 27.5,
+   "row": 131
+  },
+  {
+   "key": "D29H:C06",
+   "code": "D29H",
+   "sub": "C06",
+   "nat": "Tonnage tax",
+   "en": "Custom Label - 06",
+   "fn": "KS",
+   "at": "T",
+   "v2024": 3,
+   "v2023": 2.8,
+   "row": 132
+  },
+  {
+   "key": "D29H:C07",
+   "code": "D29H",
+   "sub": "C07",
+   "nat": "Fees of Private Employment Bureau",
+   "en": "Custom Label - 07",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 133
+  },
+  {
+   "key": "D29H:C08",
+   "code": "D29H",
+   "sub": "C08",
+   "nat": "Tax of Ship Management Services",
+   "en": "Custom Label - 08",
+   "fn": "KS",
+   "at": "T",
+   "v2024": 11.4,
+   "v2023": 9.9,
+   "row": 134
+  },
+  {
+   "key": "D29H:C09",
+   "code": "D29H",
+   "sub": "C09",
+   "nat": "Other Licences and permits",
+   "en": "Custom Label - 09",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 0.4,
+   "v2023": 0.8,
+   "row": 135
+  },
+  {
+   "key": "D29H:C10",
+   "code": "D29H",
+   "sub": "C10",
+   "nat": "Tax on other licences and grants",
+   "en": "Custom Label - 10",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 136
+  },
+  {
+   "key": "D29H:C11",
+   "code": "D29H",
+   "sub": "C11",
+   "nat": "Tax on community services",
+   "en": "Custom Label - 11",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": 10.6,
+   "v2023": 14.6,
+   "row": 137
+  },
+  {
+   "key": "D29H:C12",
+   "code": "D29H",
+   "sub": "C12",
+   "nat": "Tax on Entertainment Licence",
+   "en": "Custom Label - 12",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0.2,
+   "row": 138
+  },
+  {
+   "key": "D29H:C13",
+   "code": "D29H",
+   "sub": "C13",
+   "nat": "Contribution to SRF/SRM",
+   "en": "Custom Label - 13",
+   "fn": "KS",
+   "at": "O",
+   "v2024": 0.2,
+   "v2023": 13.7,
+   "row": 139
+  },
+  {
+   "key": "D51A:C01",
+   "code": "D51A",
+   "sub": "C01",
+   "nat": "Income Tax-Government Employees",
+   "en": "Custom Label - 01",
+   "fn": "SPLIT1",
+   "at": "_Z",
+   "v2024": 320.7,
+   "v2023": 290.5,
+   "row": 144
+  },
+  {
+   "key": "D51A:C02",
+   "code": "D51A",
+   "sub": "C02",
+   "nat": "Income Tax-Employees Private Sector",
+   "en": "Custom Label - 02",
+   "fn": "SPLIT1",
+   "at": "_Z",
+   "v2024": 693.4,
+   "v2023": 611,
+   "row": 145
+  },
+  {
+   "key": "D51A:C03",
+   "code": "D51A",
+   "sub": "C03",
+   "nat": "Income Tax-Employees (International Businesses)",
+   "en": "Custom Label - 03",
+   "fn": "SPLIT1",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 146
+  },
+  {
+   "key": "D51A:C04",
+   "code": "D51A",
+   "sub": "C04",
+   "nat": "Income Tax-Self-employed",
+   "en": "Custom Label - 04",
+   "fn": "SPLIT1",
+   "at": "_Z",
+   "v2024": 80.8,
+   "v2023": 72.7,
+   "row": 147
+  },
+  {
+   "key": "D51A:C05",
+   "code": "D51A",
+   "sub": "C05",
+   "nat": "Charges on Taxes in Arrears",
+   "en": "Custom Label - 05",
+   "fn": "SPLIT1",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 148
+  },
+  {
+   "key": "D51A:C06",
+   "code": "D51A",
+   "sub": "C06",
+   "nat": "Income Tax-Semi Govt Organisations' Employees",
+   "en": "Custom Label - 06",
+   "fn": "SPLIT1",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 149
+  },
+  {
+   "key": "D51C1:C01",
+   "code": "D51C1",
+   "sub": "C01",
+   "nat": "Capital Gains Tax",
+   "en": "Custom Label - 01",
+   "fn": "KIH",
+   "at": "_Z",
+   "v2024": 190.5,
+   "v2023": 200.2,
+   "row": 151
+  },
+  {
+   "key": "D51B:C01",
+   "code": "D51B",
+   "sub": "C01",
+   "nat": "Defence contributions",
+   "en": "Custom Label - 01",
+   "fn": "KIC",
+   "at": "_Z",
+   "v2024": 464.8,
+   "v2023": 379,
+   "row": 154
+  },
+  {
+   "key": "D51B:C02",
+   "code": "D51B",
+   "sub": "C02",
+   "nat": "Income Tax-Legal Persons",
+   "en": "Custom Label - 02",
+   "fn": "KIC",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 155
+  },
+  {
+   "key": "D51B:C03",
+   "code": "D51B",
+   "sub": "C03",
+   "nat": "Income Tax-International Businesses",
+   "en": "Custom Label - 03",
+   "fn": "KIC",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 156
+  },
+  {
+   "key": "D51B:C04",
+   "code": "D51B",
+   "sub": "C04",
+   "nat": "Corporation Tax",
+   "en": "Custom Label - 04",
+   "fn": "KIC",
+   "at": "_Z",
+   "v2024": 1933.2,
+   "v2023": 1593.6022,
+   "row": 157
+  },
+  {
+   "key": "D51B:C05",
+   "code": "D51B",
+   "sub": "C05",
+   "nat": "Corporation Tax-International Businesses",
+   "en": "Custom Label - 05",
+   "fn": "KIC",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 158
+  },
+  {
+   "key": "D51D:C01",
+   "code": "D51D",
+   "sub": "C01",
+   "nat": "Taxes on winnings from lottery or gambling",
+   "en": "Custom Label - 01",
+   "fn": "KIH",
+   "at": "_Z",
+   "v2024": 4,
+   "v2023": 3.7,
+   "row": 163
+  },
+  {
+   "key": "D51E:C01",
+   "code": "D51E",
+   "sub": "C01",
+   "nat": "Income Tax levied on remit. of interest abroad",
+   "en": "Custom Label - 01",
+   "fn": "SPLIT1",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 165
+  },
+  {
+   "key": "D51E:C02",
+   "code": "D51E",
+   "sub": "C02",
+   "nat": "Income Tax- According to the articles 30-32",
+   "en": "Custom Label - 02",
+   "fn": "KIH",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 166
+  },
+  {
+   "key": "D51E:C03",
+   "code": "D51E",
+   "sub": "C03",
+   "nat": "Collection of Taxes, Rates and Charges",
+   "en": "Custom Label - 03",
+   "fn": "LEES",
+   "at": "_Z",
+   "v2024": 26.6,
+   "v2023": 24.3,
+   "row": 167
+  },
+  {
+   "key": "D51E:C04",
+   "code": "D51E",
+   "sub": "C04",
+   "nat": "Special Contribution",
+   "en": "Custom Label - 04",
+   "fn": "LEES",
+   "at": "_Z",
+   "v2024": 1.1,
+   "v2023": 1.2,
+   "row": 168
+  },
+  {
+   "key": "D51E:C05",
+   "code": "D51E",
+   "sub": "C05",
+   "nat": "Income Tax on Dividends",
+   "en": "Custom Label - 05",
+   "fn": "SPLIT1",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 169
+  },
+  {
+   "key": "D59A:C01",
+   "code": "D59A",
+   "sub": "C01",
+   "nat": "Immovable Property Tax",
+   "en": "Custom Label - 01",
+   "fn": "KS",
+   "at": "RP",
+   "v2024": 6.3,
+   "v2023": 6,
+   "row": 172
+  },
+  {
+   "key": "D59D:C01",
+   "code": "D59D",
+   "sub": "C01",
+   "nat": "Motor Vehicle Taxes - Registration (private use)",
+   "en": "Custom Label - 01",
+   "fn": "C",
+   "at": "T",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 176
+  },
+  {
+   "key": "D59D:C02",
+   "code": "D59D",
+   "sub": "C02",
+   "nat": "Motor Vehicle Taxes - Licenses (private use)",
+   "en": "Custom Label - 02",
+   "fn": "C",
+   "at": "T",
+   "v2024": 76.1,
+   "v2023": 74.8,
+   "row": 177
+  },
+  {
+   "key": "D59D:C03",
+   "code": "D59D",
+   "sub": "C03",
+   "nat": "Drivers' Licences (private use)",
+   "en": "Custom Label - 03",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 3.3,
+   "v2023": 3.4,
+   "row": 178
+  },
+  {
+   "key": "D59D:C04",
+   "code": "D59D",
+   "sub": "C04",
+   "nat": "Fishing Licences",
+   "en": "Custom Label - 04",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 0.4,
+   "v2023": 0.4,
+   "row": 179
+  },
+  {
+   "key": "D59D:C05",
+   "code": "D59D",
+   "sub": "C05",
+   "nat": "Hunting Licences",
+   "en": "Custom Label - 05",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 3.6,
+   "v2023": 4.1,
+   "row": 180
+  },
+  {
+   "key": "D91A:C01",
+   "code": "D91A",
+   "sub": "C01",
+   "nat": "Property Taxes - Estate Duty-Gross",
+   "en": "Custom Label - 01",
+   "fn": "KS",
+   "at": "O",
+   "v2024": 0.1,
+   "v2023": 0,
+   "row": 185
+  },
+  {
+   "key": "D91B:C01",
+   "code": "D91B",
+   "sub": "C01",
+   "nat": "Direct Tax Assessments",
+   "en": "Custom Label - 01",
+   "fn": "KS",
+   "at": "O",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 187
+  },
+  {
+   "key": "D611:C01",
+   "code": "D611",
+   "sub": "C01",
+   "nat": "Employers' actual social contributions",
+   "en": "Custom Label - 01",
+   "fn": "LEYRS",
+   "at": "_Z",
+   "v2024": 2514,
+   "v2023": 2218.5,
+   "row": 192
+  },
+  {
+   "key": "D611C:C01",
+   "code": "D611C",
+   "sub": "C01",
+   "nat": "Employers' actual social contributions",
+   "en": "Custom Label - 01",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 2514,
+   "v2023": 2218.5,
+   "row": 194
+  },
+  {
+   "key": "D611V:C01",
+   "code": "D611V",
+   "sub": "C01",
+   "nat": "Voluntary employers' actual social contributions",
+   "en": "Custom Label - 01",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 196
+  },
+  {
+   "key": "D6111:C01",
+   "code": "D6111",
+   "sub": "C01",
+   "nat": "Employers' actual pension contributions (1)",
+   "en": "Custom Label - 01",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 2134.8,
+   "v2023": 1869,
+   "row": 199
+  },
+  {
+   "key": "D6112:C01",
+   "code": "D6112",
+   "sub": "C01",
+   "nat": "Employers' actual non-pension contributions (1)",
+   "en": "Custom Label - 01",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 379.2,
+   "v2023": 349.5,
+   "row": 201
+  },
+  {
+   "key": "D612:C01",
+   "code": "D612",
+   "sub": "C01",
+   "nat": "Employers' imputed pension contributions",
+   "en": "Custom Label - 01",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 444,
+   "v2023": 430.3,
+   "row": 203
+  },
+  {
+   "key": "D6121:C01",
+   "code": "D6121",
+   "sub": "C01",
+   "nat": "Employers' imputed pension contributions (1)",
+   "en": "Custom Label - 01",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 444,
+   "v2023": 430.3,
+   "row": 205
+  },
+  {
+   "key": "D613:C01",
+   "code": "D613",
+   "sub": "C01",
+   "nat": "Households' actual social contributions",
+   "en": "Custom Label - 01",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 1562,
+   "v2023": 1731.7,
+   "row": 208
+  },
+  {
+   "key": "D6131:C01",
+   "code": "D6131",
+   "sub": "C01",
+   "nat": "Households' actual pension contributions (1)",
+   "en": "Custom Label - 01",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 1040.1,
+   "v2023": 1258,
+   "row": 210
+  },
+  {
+   "key": "D6132:C01",
+   "code": "D6132",
+   "sub": "C01",
+   "nat": "Households' actual non-pension contributions (1)",
+   "en": "Custom Label - 01",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 521.9,
+   "v2023": 473.7,
+   "row": 212
+  },
+  {
+   "key": "D613C:C01",
+   "code": "D613C",
+   "sub": "C01",
+   "nat": "Compulsory households' actual social contributions",
+   "en": "Custom Label - 01",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 1562,
+   "v2023": 1731.7,
+   "row": 214
+  },
+  {
+   "key": "D613CE:C01",
+   "code": "D613CE",
+   "sub": "C01",
+   "nat": "Employees' social contributions",
+   "en": "Custom Label - 01",
+   "fn": "LEES",
+   "at": "_Z",
+   "v2024": 1345,
+   "v2023": 1539.1,
+   "row": 216
+  },
+  {
+   "key": "D613CS:C01",
+   "code": "D613CS",
+   "sub": "C01",
+   "nat": "Social contributions by self-employed persons",
+   "en": "Custom Label - 01",
+   "fn": "KISE",
+   "at": "_Z",
+   "v2024": 217,
+   "v2023": 192.6,
+   "row": 218
+  },
+  {
+   "key": "D613CN:C01",
+   "code": "D613CN",
+   "sub": "C01",
+   "nat": "Social contributions by non-employed persons",
+   "en": "Custom Label - 01",
+   "fn": "LNON",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 220
+  },
+  {
+   "key": "D613V:C01",
+   "code": "D613V",
+   "sub": "C01",
+   "nat": "Voluntary households' actual social contributions",
+   "en": "Custom Label - 01",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 222
+  }
+ ]
+}

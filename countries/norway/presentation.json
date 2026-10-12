@@ -1,0 +1,33 @@
+{
+  "nodes": {
+    "norway": { "label": "Norway", "sublabel": "Norge · Fiscal folio", "glyph": "globe" },
+    "staten": { "label": "State", "sublabel": "Staten", "glyph": "landmark" },
+    "kommunene": { "label": "Municipalities and counties", "sublabel": "Kommuner", "glyph": "town" },
+    "no-income-tax-state": { "label": "Income tax (State)", "sublabel": "22% + bracket", "glyph": "person" },
+    "no-wealth-tax-state": { "label": "Net wealth tax (State)", "sublabel": "State part", "glyph": "gem" },
+    "no-corporate-income-tax": { "label": "Corporate income tax", "sublabel": "22%", "glyph": "factory" },
+    "no-petroleum-income-taxes": { "label": "Petroleum income taxes", "sublabel": "78%", "glyph": "oil" },
+    "no-resource-rent-taxes": { "label": "Resource rent taxes", "sublabel": "Hydro · aquaculture", "glyph": "water" },
+    "no-dividend-withholding": { "label": "Dividend withholding", "sublabel": "Foreign shareholders", "glyph": "coin" },
+    "no-social-employers": { "label": "Social: employers", "sublabel": "0–14.1%", "glyph": "heart" },
+    "no-social-employees": { "label": "Social: employees", "sublabel": "Trygdeavgift", "glyph": "heart" },
+    "no-social-others": { "label": "Self-employed and pensioners", "sublabel": "Trygdeavgift", "glyph": "heart" },
+    "no-vat": { "label": "VAT", "sublabel": "25%", "glyph": "cart" },
+    "no-customs": { "label": "Customs duties", "sublabel": "Imports", "glyph": "ship" },
+    "no-fuel-emission-taxes": { "label": "Fuel and emission taxes", "sublabel": "CO₂ · petrol · diesel", "glyph": "flame" },
+    "no-electricity-tax": { "label": "Electricity tax", "sublabel": "Per kWh", "glyph": "bolt" },
+    "no-alcohol-tobacco": { "label": "Alcohol and tobacco", "sublabel": "Excises", "glyph": "wine" },
+    "no-product-taxes": { "label": "Product taxes", "sublabel": "Packaging · sugar", "glyph": "leaf" },
+    "no-stamp-duty": { "label": "Stamp duty", "sublabel": "Property", "glyph": "stamp" },
+    "no-vehicle-taxes": { "label": "Vehicle taxes", "sublabel": "Registration · annual", "glyph": "car" },
+    "no-air-passenger-tax": { "label": "Air passenger tax", "sublabel": "Per passenger", "glyph": "plane" },
+    "no-gaming-income": { "label": "Norsk Tipping income", "sublabel": "Monopoly", "glyph": "dice" },
+    "no-financial-activities-tax": { "label": "Financial activities tax", "sublabel": "5% of wages", "glyph": "bank" },
+    "no-primary-industry-levies": { "label": "Primary industry levies", "sublabel": "Fish · farm", "glyph": "wheat" },
+    "no-sector-fees-small": { "label": "Sector fees and small taxes", "sublabel": "Regulators · licences", "glyph": "stamp" },
+    "no-income-tax-local": { "label": "Local income tax", "sublabel": "General income", "glyph": "person" },
+    "no-wealth-tax-local": { "label": "Net wealth tax (local)", "sublabel": "Local part", "glyph": "gem" },
+    "no-real-estate-tax": { "label": "Real estate tax", "sublabel": "Municipal", "glyph": "house" },
+    "no-natural-resource-tax": { "label": "Natural resource tax", "sublabel": "Hydropower", "glyph": "water" }
+  }
+}

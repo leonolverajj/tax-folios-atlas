@@ -1,0 +1,114 @@
+{
+  "id": "netherlands",
+  "iso3": "NLD",
+  "isoNumeric": "528",
+  "names": { "en": "Netherlands", "native": "Nederland", "nativeLang": "nl" },
+  "currency": { "code": "EUR", "symbol": "€", "name": "Euro" },
+  "summary": "The Netherlands is a decentralised unitary state: the Rijk (central government) legislates and collects almost every tax, while municipalities, water boards and provinces raise only a few of their own. Social premiums are as large as all the taxes on income together: one tax return and one payroll system carry the income tax, the pension, long-term care and health premiums. Water boards, a medieval institution with its own elected councils, levy their own taxes to keep the land dry.",
+  "structureNote": "Every figure is the 2025 national accounts figure of Statistics Netherlands (provisional). The statutory premiums (pension, long-term care, health, disability, unemployment) are drawn under the Rijk because national law fixes them; the health premium line (Zorgverzekeringsfonds) is the premium for the compulsory basic health insurance, which people pay partly to private insurers but which the national accounts classify as social security. The provinces’ surcharge on the motor vehicle tax is inside the motor vehicle tax line and not drawn apart; provinces are not a level here. Left out: sewerage charges (a service fee, EUR 2,082 million), auction revenue from emission allowances (EUR 920 million) and the provinces’ groundwater levy (EUR 18 million).",
+  "theme": {
+    "accent": "#ff8c42",
+    "accent2": "#4cc9f0",
+    "motif": "topo",
+    "motifNote": "Topographic contour lines over the outline of the Netherlands (the generic motif; no bespoke art yet).",
+    "mapLabel": { "lon": 5.4, "lat": 52.2 }
+  },
+  "levels": [
+    {
+      "id": "rijk",
+      "branch": "national",
+      "names": { "official": "The Rijk (central government)", "native": "Het Rijk", "common": "Central government" },
+      "description": "Parliament legislates the taxes and premiums. The Tax and Customs Administration (Belastingdienst) collects income and wage tax, VAT, corporation tax and most others, together with the social premiums; Customs collects excise and import duties.",
+      "fiscalPower": "The Constitution requires central taxes to be levied by Act of Parliament (Art. 104); the General Act on State Taxes (Algemene wet inzake rijksbelastingen) sets the common rules.",
+      "legalRefs": [{ "sourceId": "grondwet", "locator": "Art. 104" }, { "sourceId": "awr" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "municipalities",
+      "branch": "local",
+      "names": { "official": "Municipalities (gemeenten)", "native": "Gemeenten", "common": "Municipalities" },
+      "description": "342 municipalities. They set the rate of the real estate tax, the tourist tax and a few small taxes; most of their money comes from the central Municipalities Fund.",
+      "fiscalPower": "Municipalities may levy only the taxes the Municipalities Act allows (Art. 216 onward), and they must stay within the framework of the Financial Relations Act.",
+      "legalRefs": [{ "sourceId": "gemeentewet" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "water-boards",
+      "branch": "regional",
+      "names": { "official": "Water boards (waterschappen)", "native": "Waterschappen", "common": "Water boards" },
+      "description": "21 water boards, with elected councils, keep the land dry and the water clean. They levy their own taxes on residents, buildings, land and polluters.",
+      "fiscalPower": "The Water Boards Act lets each board levy taxes to pay for its tasks (Art. 115 onward), within the Act and its own regulations.",
+      "legalRefs": [{ "sourceId": "waterschapswet" }],
+      "checkedOn": "2026-10-11"
+    }
+  ],
+  "supportingSourceIds": [],
+  "denominators": [
+    {
+      "id": "rijk-taxes-2025",
+      "label": "Taxes of the Rijk, 2025",
+      "definition": "The taxes the Rijk legislates and collects: wage and income tax, corporation tax, dividend tax, VAT, excise duties, energy and other environmental taxes, motor vehicle taxes, transfer tax, insurance tax, inheritance and gift tax, gambling tax, bank tax and a group of small levies.",
+      "levelIds": ["rijk"],
+      "amount": 293466,
+      "scale": "million",
+      "currency": "EUR",
+      "period": { "label": "2025 (provisional)", "kind": "calendar-year", "start": "2025-01-01", "end": "2025-12-31" },
+      "sourceId": "cbs-84120ned",
+      "locator": "Table 84120NED, 2025: all tax lines except the municipal and water board taxes, sewerage charges, emission allowances and the provincial groundwater levy",
+      "calculation": "Total taxes 307,671 − municipal 6,977 − water boards 4,208 − sewerage charges 2,082 − emission allowances 920 − provincial groundwater levy 18 = 293,466 (EUR million)",
+      "caveat": "National accounts basis, provisional. Includes the provinces’ surcharge on the motor vehicle tax and the Caribbean parts of the Kingdom (EUR 236 million).",
+      "accessed": "2026-10-11"
+    },
+    {
+      "id": "municipal-taxes-2025",
+      "label": "Municipal taxes, 2025",
+      "definition": "The real estate tax, the tourist tax, the dog tax, the advertising tax, the tax on second homes of commuters and the levy of business investment zones.",
+      "levelIds": ["municipalities"],
+      "amount": 6977,
+      "scale": "million",
+      "currency": "EUR",
+      "period": { "label": "2025 (provisional)", "kind": "calendar-year", "start": "2025-01-01", "end": "2025-12-31" },
+      "sourceId": "cbs-84120ned",
+      "locator": "Table 84120NED, 2025: Onroerendezaakbelasting 6,166 + Toeristenbelasting 676 + hondenbelasting 31 + reclamebelasting 36 + woonforensenbelasting 48 + BIZ 20",
+      "calculation": "6,166 + 676 + 31 + 36 + 48 + 20 = 6,977 (EUR million)",
+      "caveat": "Leaves out sewerage charges (EUR 2,082 million), which are a fee for a service. The figure is provisional.",
+      "accessed": "2026-10-11"
+    },
+    {
+      "id": "water-board-taxes-2025",
+      "label": "Water board taxes, 2025",
+      "definition": "The apportionment levy on residents, buildings and land and the pollution levy of the water boards.",
+      "levelIds": ["water-boards"],
+      "amount": 4208,
+      "scale": "million",
+      "currency": "EUR",
+      "period": { "label": "2025 (provisional)", "kind": "calendar-year", "start": "2025-01-01", "end": "2025-12-31" },
+      "sourceId": "cbs-84120ned",
+      "locator": "Table 84120NED, 2025: Omslagheffing waterschappen 2,288 + Heffingen op waterverontreiniging 1,920",
+      "calculation": "2,288 + 1,920 = 4,208 (EUR million)",
+      "caveat": "Provisional. The CBS line for the pollution levy is not split between the water boards and the Rijk.",
+      "accessed": "2026-10-11"
+    },
+    {
+      "id": "social-premiums-2025",
+      "label": "Statutory social premiums, 2025",
+      "definition": "The premiums paid into the social security funds: old-age pension and survivors, long-term care, basic health insurance, disability, unemployment and the smaller funds.",
+      "levelIds": ["rijk"],
+      "amount": 146356,
+      "scale": "million",
+      "currency": "EUR",
+      "period": { "label": "2025 (provisional)", "kind": "calendar-year", "start": "2025-01-01", "end": "2025-12-31" },
+      "sourceId": "cbs-84120ned",
+      "locator": "Table 84120NED, 2025: Totaal wettelijke premies",
+      "calculation": "Pension 25,619 + 172 = 25,791; long-term care 16,612; health 60,641; disability 26,940; unemployment 11,000; other funds 2,813 + 1,814 + 745 = 5,372; total 146,356 (EUR million)",
+      "caveat": "The health line includes the nominal premium that people pay to private insurers for the compulsory basic insurance, as the national accounts record it. For 2023 the OECD records EUR 129,202 million of social security contributions.",
+      "accessed": "2026-10-11"
+    }
+  ],
+  "sizing": {
+    "label": "Taxes and statutory social premiums of all levels of government",
+    "definition": "Taxes of the Rijk + municipal taxes + water board taxes + statutory social premiums, 2025, from one national accounts table. Excludes sewerage charges and other fees, sales of emission allowances and transfers between governments.",
+    "componentIds": ["rijk-taxes-2025", "municipal-taxes-2025", "water-board-taxes-2025", "social-premiums-2025"]
+  },
+  "researchStatus": "researched"
+}

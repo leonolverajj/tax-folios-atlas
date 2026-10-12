@@ -1,0 +1,102 @@
+{
+  "sources": [
+    {
+      "id": "oecd-rs-2025-subsectors",
+      "org": "OECD",
+      "title": "Revenue Statistics 2025, Table 6.3: Belgium, tax revenues by sub-sectors of government",
+      "url": "https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en/full-report/tax-revenues-by-subsectors-of-general-government_f9e88332.html",
+      "kind": "international",
+      "language": "en",
+      "publishedDate": "2025-12-09",
+      "periodCovered": "Calendar year 2023 (national currency)",
+      "accessed": "2026-09-29",
+      "note": "Harmonised OECD classification of taxes (1000–6000) split by collecting sub-sector of general government."
+    },
+    {
+      "id": "oecd-rs-2025-levels",
+      "org": "OECD",
+      "title": "Revenue Statistics 2025, Chapter 3: Tax levels and tax structures (Table 3.1)",
+      "url": "https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en/full-report/tax-levels-and-tax-structures-1965-2024_2033f3ea.html",
+      "kind": "international",
+      "language": "en",
+      "publishedDate": "2025-12-09",
+      "periodCovered": "Calendar year 2023",
+      "accessed": "2026-09-29",
+      "note": "Total tax revenue as % of GDP."
+    },
+    {
+      "id": "sng-wofi-profile",
+      "org": "OECD and United Cities and Local Governments (SNG-WOFI)",
+      "title": "World Observatory on Subnational Government Finance and Investment – country profile: Belgium",
+      "url": "https://www.sng-wofi.org/country_profiles/belgium.html",
+      "kind": "international",
+      "language": "en",
+      "publishedDate": "2022-10-24",
+      "periodCovered": "2020",
+      "accessed": "2026-09-29",
+      "note": "Subnational government revenue by category as % of total subnational revenue, 2022 edition."
+    },
+    {
+      "id": "ntl-2026",
+      "org": "European Commission, DG Taxation and Customs Union, with Eurostat",
+      "title": "Data on Taxation Trends: National Tax Lists (NTL), edition 2026",
+      "url": "https://taxation-customs.ec.europa.eu/taxation/economic-analysis/data-taxation-trends_en",
+      "kind": "statistics",
+      "language": "en",
+      "publishedDate": "2026-03-31",
+      "periodCovered": "Calendar year 2024 (series from 1995)",
+      "accessed": "2026-10-12",
+      "nextExpected": "2027-03",
+      "note": "Workbook \"NTL edition 2026 web.xlsx\", sheet BE: every tax and social contribution by its national name and ESA code, in EUR million. Data cut-off 30 October 2025."
+    },
+    {
+      "id": "eurostat-taxag",
+      "org": "Eurostat",
+      "title": "Main national accounts tax aggregates (gov_10a_taxag)",
+      "url": "https://ec.europa.eu/eurostat/databrowser/view/gov_10a_taxag/default/table",
+      "kind": "statistics",
+      "language": "en",
+      "publishedDate": "2026-07-21",
+      "periodCovered": "Calendar year 2024",
+      "accessed": "2026-10-12",
+      "nextExpected": "2027-07",
+      "note": "Taxes and social contributions by sub-sector (S.1311 federal, S.1312 regions and communities, S.1313 local, S.1314 social security) and ESA item; used to split the lines shared between levels and to check the totals of the National Tax List."
+    },
+    {
+      "id": "pwc-be-corporate",
+      "org": "PwC",
+      "title": "Worldwide Tax Summaries: Belgium – Corporate – Taxes on corporate income",
+      "url": "https://taxsummaries.pwc.com/belgium/corporate/taxes-on-corporate-income",
+      "kind": "guidance",
+      "language": "en",
+      "publishedDate": "2026-09-10",
+      "periodCovered": "Rates as of the review",
+      "accessed": "2026-10-12",
+      "note": "A professional firm’s summary, not an official source: corporate income tax 25%, 20% on the first EUR 100,000 for qualifying small companies."
+    },
+    {
+      "id": "pwc-be-individual",
+      "org": "PwC",
+      "title": "Worldwide Tax Summaries: Belgium – Individual – Taxes on personal income",
+      "url": "https://taxsummaries.pwc.com/belgium/individual/taxes-on-personal-income",
+      "kind": "guidance",
+      "language": "en",
+      "publishedDate": "2026-09-10",
+      "periodCovered": "Rates for income year 2025",
+      "accessed": "2026-10-12",
+      "note": "A professional firm’s summary: federal income tax rates between 25% and 50%; regional surcharges and reductions since the 6th State reform."
+    },
+    {
+      "id": "pwc-be-other",
+      "org": "PwC",
+      "title": "Worldwide Tax Summaries: Belgium – Corporate – Other taxes",
+      "url": "https://taxsummaries.pwc.com/belgium/corporate/other-taxes",
+      "kind": "guidance",
+      "language": "en",
+      "publishedDate": "2026-09-10",
+      "periodCovered": "Rates as of the review",
+      "accessed": "2026-10-12",
+      "note": "A professional firm’s summary: standard VAT rate 21%, reduced rates 12% and 6%."
+    }
+  ]
+}

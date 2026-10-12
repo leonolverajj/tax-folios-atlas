@@ -1,0 +1,1396 @@
+{
+ "country": "LV",
+ "source": "NTL edition 2026 web.xlsx (Commission, DG TAXUD / Eurostat)",
+ "unit": "million national currency",
+ "sector": "S.13 + S.212",
+ "totals": {
+  "D2": {
+   "name": "Taxes on production and imports",
+   "v2024": 5913.029,
+   "v2023": 5637.479,
+   "row": 9
+  },
+  "D21": {
+   "name": "Taxes on products",
+   "v2024": 5321.786,
+   "v2023": 5154.864,
+   "row": 10
+  },
+  "D211": {
+   "name": "Value added type taxes (VAT)",
+   "v2024": 3845.034,
+   "v2023": 3771.986,
+   "row": 11
+  },
+  "D212": {
+   "name": "Taxes and duties on imports excluding VAT",
+   "v2024": 64.171,
+   "v2023": 58.89,
+   "row": 13
+  },
+  "D2121": {
+   "name": "Import duties",
+   "v2024": 62.658,
+   "v2023": 57.056,
+   "row": 14
+  },
+  "D2122": {
+   "name": "Taxes on imports, excluding VAT and import duties",
+   "v2024": 1.513,
+   "v2023": 1.834,
+   "row": 16
+  },
+  "D2122A": {
+   "name": "Levies on imported agricultural products",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 17
+  },
+  "D2122B": {
+   "name": "Monetary compensatory amounts on imports",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 20
+  },
+  "D2122C": {
+   "name": "Excise duties",
+   "v2024": 1.513,
+   "v2023": 1.834,
+   "row": 21
+  },
+  "D2122D": {
+   "name": "General sales taxes",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 23
+  },
+  "D2122E": {
+   "name": "Taxes on specific services",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 24
+  },
+  "D2122F": {
+   "name": "Profits of import monopolies",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 25
+  },
+  "D214": {
+   "name": "Taxes on products, except VAT and import taxes",
+   "v2024": 1412.581,
+   "v2023": 1323.988,
+   "row": 26
+  },
+  "D214A": {
+   "name": "Excise duties and consumption taxes",
+   "v2024": 1193.123,
+   "v2023": 1158.666,
+   "row": 27
+  },
+  "D214B": {
+   "name": "Stamp taxes",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 35
+  },
+  "D214C": {
+   "name": "Taxes on financial and capital transactions",
+   "v2024": 44.495,
+   "v2023": 42.27,
+   "row": 36
+  },
+  "D214D": {
+   "name": "Car registration taxes",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 42
+  },
+  "D214E": {
+   "name": "Taxes on entertainment",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 44
+  },
+  "D214F": {
+   "name": "Taxes on lotteries, gambling and betting",
+   "v2024": 54.369,
+   "v2023": 47.793,
+   "row": 45
+  },
+  "D214G": {
+   "name": "Taxes on insurance premiums",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 47
+  },
+  "D214H": {
+   "name": "Other taxes on specific services",
+   "v2024": 1.752,
+   "v2023": 1.63,
+   "row": 48
+  },
+  "D214I": {
+   "name": "General sales or turnover taxes",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 51
+  },
+  "D214J": {
+   "name": "Profits of fiscal monopolies",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 53
+  },
+  "D214K": {
+   "name": "Export duties and monetary comp. amounts on exports",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 54
+  },
+  "D214L": {
+   "name": "Other taxes on products n.e.c.",
+   "v2024": 118.842,
+   "v2023": 73.629,
+   "row": 56
+  },
+  "D29": {
+   "name": "Other taxes on production",
+   "v2024": 591.243,
+   "v2023": 482.615,
+   "row": 59
+  },
+  "D29A": {
+   "name": "Taxes on land, buildings or other structures",
+   "v2024": 237.337,
+   "v2023": 236.517,
+   "row": 60
+  },
+  "D29B": {
+   "name": "Taxes on the use of fixed assets",
+   "v2024": 59.467,
+   "v2023": 57.045,
+   "row": 64
+  },
+  "D29C": {
+   "name": "Total wage bill and payroll taxes",
+   "v2024": 3.188,
+   "v2023": 3.133,
+   "row": 68
+  },
+  "D29D": {
+   "name": "Taxes on international transactions",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 70
+  },
+  "D29E": {
+   "name": "Business and professional licences",
+   "v2024": 4.846,
+   "v2023": 4.661,
+   "row": 71
+  },
+  "D29F": {
+   "name": "Taxes on pollution",
+   "v2024": 156.85,
+   "v2023": 146.103,
+   "row": 79
+  },
+  "D29G": {
+   "name": "Under-compensation of VAT (flat rate system)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 83
+  },
+  "D29H": {
+   "name": "Other taxes on production n.e.c.",
+   "v2024": 129.555,
+   "v2023": 35.156,
+   "row": 84
+  },
+  "D5": {
+   "name": "Current taxes on income wealth, etc.",
+   "v2024": 3733.2,
+   "v2023": 3138.199,
+   "row": 91
+  },
+  "D51": {
+   "name": "Taxes on income",
+   "v2024": 3660.842,
+   "v2023": 3066.337,
+   "row": 92
+  },
+  "D51M": {
+   "name": "Taxes on individual or household income including holding gains",
+   "v2024": 2869.775,
+   "v2023": 2524.453,
+   "row": 93
+  },
+  "D51A": {
+   "name": "Taxes on individual or household income excluding holding gains(1)",
+   "v2024": 2869.775,
+   "v2023": 2524.453,
+   "row": 94
+  },
+  "D51C1": {
+   "name": "Taxes on individual or household holding gains(1)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 97
+  },
+  "D51O": {
+   "name": "Taxes on the income or profits of corporations including holding gains",
+   "v2024": 791.067,
+   "v2023": 541.884,
+   "row": 98
+  },
+  "D51B": {
+   "name": "Taxes on the income or profits of corporations excluding holding gains(1)",
+   "v2024": 791.067,
+   "v2023": 541.884,
+   "row": 99
+  },
+  "D51C2": {
+   "name": "Taxes on holding gains of corporations(1)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 101
+  },
+  "D51C3": {
+   "name": "Other taxes on holding gains(1)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 102
+  },
+  "D51C": {
+   "name": "Taxes on holding gains",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 103
+  },
+  "D51D": {
+   "name": "Taxes on winnings from lottery or gambling",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 104
+  },
+  "D51E": {
+   "name": "Other taxes on income n.e.c.",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 105
+  },
+  "D59": {
+   "name": "Other current taxes",
+   "v2024": 72.358,
+   "v2023": 71.862,
+   "row": 106
+  },
+  "D59A": {
+   "name": "Current taxes on capital",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 107
+  },
+  "D59B": {
+   "name": "Poll taxes",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 109
+  },
+  "D59C": {
+   "name": "Expenditure taxes",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 110
+  },
+  "D59D": {
+   "name": "Payments by households for licences",
+   "v2024": 72.358,
+   "v2023": 71.862,
+   "row": 111
+  },
+  "D59E": {
+   "name": "Taxes on international transactions",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 115
+  },
+  "D59F": {
+   "name": "Other current taxes n.e.c.",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 116
+  },
+  "D91": {
+   "name": "Capital taxes",
+   "v2024": 15.294,
+   "v2023": 14.437,
+   "row": 117
+  },
+  "D91A": {
+   "name": "Taxes on capital transfers",
+   "v2024": 12.993,
+   "v2023": 12.156,
+   "row": 118
+  },
+  "D91B": {
+   "name": "Capital levies",
+   "v2024": 2.301,
+   "v2023": 2.281,
+   "row": 122
+  },
+  "D91C": {
+   "name": "Other capital taxes n.e.c.",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 124
+  },
+  "D61": {
+   "name": "Net social contributions",
+   "v2024": 4668.86,
+   "v2023": 4261.882,
+   "row": 126
+  },
+  "D611": {
+   "name": "Employers' actual social contributions",
+   "v2024": 3024.62,
+   "v2023": 2789.275,
+   "row": 127
+  },
+  "D611C": {
+   "name": "Compulsory employers' actual social contributions",
+   "v2024": 3024.62,
+   "v2023": 2789.275,
+   "row": 129
+  },
+  "D611V": {
+   "name": "Voluntary employers' actual social contributions",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 131
+  },
+  "D61SC": {
+   "name": "Social insurance scheme service charges(3)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 132
+  },
+  "D6111": {
+   "name": "Employers' actual pension contributions (1)",
+   "v2024": 2117.234,
+   "v2023": 1952.493,
+   "row": 133
+  },
+  "D6112": {
+   "name": "Employers' actual non-pension contributions (1)",
+   "v2024": 907.386,
+   "v2023": 836.782,
+   "row": 135
+  },
+  "D612": {
+   "name": "Employers' imputed social contributions",
+   "v2024": 248.263,
+   "v2023": 189.99,
+   "row": 137
+  },
+  "D6121": {
+   "name": "Employers' imputed pension contributions (1)",
+   "v2024": "L",
+   "v2023": "L",
+   "row": 139
+  },
+  "D6122": {
+   "name": "Employers' imputed non-pension contributions (1)",
+   "v2024": "L",
+   "v2023": "L",
+   "row": 140
+  },
+  "D613": {
+   "name": "Households' actual social contributions",
+   "v2024": 1395.977,
+   "v2023": 1282.617,
+   "row": 141
+  },
+  "D6131": {
+   "name": "Households' actual pension contributions (1)",
+   "v2024": 977.184,
+   "v2023": 897.832,
+   "row": 143
+  },
+  "D6132": {
+   "name": "Households' actual non-pension contributions (1)",
+   "v2024": 418.793,
+   "v2023": 384.785,
+   "row": 145
+  },
+  "D613C": {
+   "name": "Compulsory households' actual social contributions",
+   "v2024": 1395.697,
+   "v2023": 1282.373,
+   "row": 147
+  },
+  "D613CE": {
+   "name": "Compulsory employees' actual social contributions",
+   "v2024": 1333.381,
+   "v2023": 1226.899,
+   "row": 149
+  },
+  "D613CS": {
+   "name": "Compulsory actual social contributions by the self-employed (1)",
+   "v2024": 62.316,
+   "v2023": 55.474,
+   "row": 151
+  },
+  "D613CN": {
+   "name": "Compulsory actual social contributions by the non-employed (1)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 153
+  },
+  "D613V": {
+   "name": "Voluntary households' actual social contributions",
+   "v2024": 0.28,
+   "v2023": 0.244,
+   "row": 154
+  },
+  "D614": {
+   "name": "Households' social contributions supplements(3)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 156
+  },
+  "D6141": {
+   "name": "Households' pension contributions supplements (1)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 157
+  },
+  "D6142": {
+   "name": "Households' non-pension contributions supplements (1)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 158
+  },
+  "D995": {
+   "name": "Capital transfers from general government to relevant sectors representing taxes and social contributions assessed but unlikely to be collected (2)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 159
+  },
+  "D995A": {
+   "name": "Taxes on products assessed but unlikely to be collected (2)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 160
+  },
+  "D995B": {
+   "name": "Other taxes on production assessed but unlikely to be collected (2)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 161
+  },
+  "D995C": {
+   "name": "Taxes on income assessed but unlikely to be collected (2)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 162
+  },
+  "D995D": {
+   "name": "Other current taxes assessed but unlikely to be collected (2)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 163
+  },
+  "D995E": {
+   "name": "Employers' actual social contributions assessed but unlikely to be collected (2)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 164
+  },
+  "D995F": {
+   "name": "Households' actual social contributions assessed but unlikely to be collected (2)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 165
+  },
+  "D995FE": {
+   "name": "Employees' actual social contributions assessed but unlikely to be collected (2)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 166
+  },
+  "D995FS": {
+   "name": "Actual social contributions by self-employed persons assessed but unlikely to be collected (1)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 167
+  },
+  "D995FN": {
+   "name": "Actual social contributions by non-employed persons assessed but unlikely to be collected (1)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 168
+  },
+  "D995G": {
+   "name": "Capital taxes assessed but unlikely to be collected (2)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 169
+  }
+ },
+ "lines": [
+  {
+   "key": "D211:C01",
+   "code": "D211",
+   "sub": "C01",
+   "nat": "Pievienotās vērtības nodoklis",
+   "en": "Value added tax",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 3845.034,
+   "v2023": 3771.986,
+   "row": 12
+  },
+  {
+   "key": "D2121:C01",
+   "code": "D2121",
+   "sub": "C01",
+   "nat": "Muitas nodevas",
+   "en": "Customs duties",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 62.658,
+   "v2023": 57.056,
+   "row": 15
+  },
+  {
+   "key": "D2122A:C01",
+   "code": "D2122A",
+   "sub": "C01",
+   "nat": "Iekasējumi par importētajiem lauksaimniecības produktiem",
+   "en": "Levies on imported agricultural products",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 18
+  },
+  {
+   "key": "D2122A:C02",
+   "code": "D2122A",
+   "sub": "C02",
+   "nat": "Cukura ražošanas nodevas",
+   "en": "Levies on sugar",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 19
+  },
+  {
+   "key": "D2122C:C01",
+   "code": "D2122C",
+   "sub": "C01",
+   "nat": "Akcīzes nodoklis, ievedot preces izlaišanai brīvam apgrozījumam",
+   "en": "Excise duty on imported goods for omission for free turnover",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 1.513,
+   "v2023": 1.834,
+   "row": 22
+  },
+  {
+   "key": "D214A:C01",
+   "code": "D214A",
+   "sub": "C01",
+   "nat": "Akcīzes nodoklis alkoholam",
+   "en": "Excise duty on alcohol",
+   "fn": "C",
+   "at": "AT",
+   "v2024": 210.539,
+   "v2023": 203.778,
+   "row": 28
+  },
+  {
+   "key": "D214A:C02",
+   "code": "D214A",
+   "sub": "C02",
+   "nat": "Akcīzes nodoklis naftas produktiem",
+   "en": "Excise duty on oil products",
+   "fn": "C",
+   "at": "E",
+   "v2024": 582.861,
+   "v2023": 583.533,
+   "row": 29
+  },
+  {
+   "key": "D214A:C03",
+   "code": "D214A",
+   "sub": "C03",
+   "nat": "Akcīzes nodoklis tabakai",
+   "en": "Excise duty on tobacco",
+   "fn": "C",
+   "at": "AT",
+   "v2024": 286.501,
+   "v2023": 267.4,
+   "row": 30
+  },
+  {
+   "key": "D214A:C04",
+   "code": "D214A",
+   "sub": "C04",
+   "nat": "Akcīzes nodoklis pārējām akcīzes precēm",
+   "en": "Excise duty on other excise goods",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 41.128,
+   "v2023": 37.548,
+   "row": 31
+  },
+  {
+   "key": "D214A:C05",
+   "code": "D214A",
+   "sub": "C05",
+   "nat": "Akcīzes nodoklis alum",
+   "en": "Excise duty on beer",
+   "fn": "C",
+   "at": "AT",
+   "v2024": 53.918,
+   "v2023": 49.016,
+   "row": 32
+  },
+  {
+   "key": "D214A:C06",
+   "code": "D214A",
+   "sub": "C06",
+   "nat": "Akcīzes nodoklis dabasgāzei",
+   "en": "Excise duty on natural gas",
+   "fn": "C",
+   "at": "E",
+   "v2024": 13.232,
+   "v2023": 12.463,
+   "row": 33
+  },
+  {
+   "key": "D214A:C07",
+   "code": "D214A",
+   "sub": "C07",
+   "nat": "Elektroenerģijas nodoklis",
+   "en": "Electricity tax",
+   "fn": "C",
+   "at": "E",
+   "v2024": 4.944,
+   "v2023": 4.928,
+   "row": 34
+  },
+  {
+   "key": "D214C:C01",
+   "code": "D214C",
+   "sub": "C01",
+   "nat": "Nodevas par operācijām ar privatizācijas sertifikātiem",
+   "en": "Duties on transactions with privatization vouchers",
+   "fn": "KS",
+   "at": "O",
+   "v2024": 0.001,
+   "v2023": 0,
+   "row": 37
+  },
+  {
+   "key": "D214C:C02",
+   "code": "D214C",
+   "sub": "C02",
+   "nat": "Kancelejas nodeva par zemesgrāmatas veiktajām darbībām, kas iekasēta no juridiskām personām, izņemot mantojumus un dāvinājumus",
+   "en": "Stamp duty for transactions made in Land Register, which have been collected from legal persons, except legacies and donations",
+   "fn": "KS",
+   "at": "O",
+   "v2024": 0.607,
+   "v2023": 0.894,
+   "row": 38
+  },
+  {
+   "key": "D214C:C03",
+   "code": "D214C",
+   "sub": "C03",
+   "nat": "Nodeva par īpašuma tiesību un ķīlas tiesību nostiprināšanu zemesgrāmatā, kas iekasēta no juridiskām personām, izņemot mantojumus un dāvinājumus",
+   "en": "Duty for consolidation of ownership and legal liens in Land Register, which have been collected from legal persons, except legacies and donations",
+   "fn": "KS",
+   "at": "O",
+   "v2024": 19.897,
+   "v2023": 18.32,
+   "row": 39
+  },
+  {
+   "key": "D214C:C04",
+   "code": "D214C",
+   "sub": "C04",
+   "nat": "Kancelejas nodeva par zemesgrāmatas veiktajām darbībām, kas iekasēta no fiziskām personām, izņemot mantojumus un dāvinājumus",
+   "en": "Stamp duty for transactions made in Land Register, which have been collected from natural persons, except legacies and donations",
+   "fn": "KS",
+   "at": "O",
+   "v2024": 1.558,
+   "v2023": 1.793,
+   "row": 40
+  },
+  {
+   "key": "D214C:C05",
+   "code": "D214C",
+   "sub": "C05",
+   "nat": "Nodeva par īpašuma tiesību un ķīlas tiesību nostiprināšanu zemesgrāmatā, kas iekasēta no fiziskām personām, izņemot mantojumus un dāvinājumus",
+   "en": "Duty for consolidation of ownership and legal clients in Land Register, which have been collected from natural persons, except legacies and donations",
+   "fn": "KS",
+   "at": "O",
+   "v2024": 22.432,
+   "v2023": 21.263,
+   "row": 41
+  },
+  {
+   "key": "D214D:C01",
+   "code": "D214D",
+   "sub": "C01",
+   "nat": "Vieglo automobiļu un motociklu nodoklis",
+   "en": "Tax on cars and motorcycles",
+   "fn": "C",
+   "at": "T",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 43
+  },
+  {
+   "key": "D214F:C01",
+   "code": "D214F",
+   "sub": "C01",
+   "nat": "Loteriju un azartspēļu nodoklis",
+   "en": "Lottery and gambling tax",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 54.369,
+   "v2023": 47.793,
+   "row": 46
+  },
+  {
+   "key": "D214H:C01",
+   "code": "D214H",
+   "sub": "C01",
+   "nat": "Pasažieru izlidošanas nodeva",
+   "en": "Passenger departure duty",
+   "fn": "C",
+   "at": "T",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 49
+  },
+  {
+   "key": "D214H:C02",
+   "code": "D214H",
+   "sub": "C02",
+   "nat": "Nodeva par atpūtnieku un tūristu uzņemšanu Rīgā",
+   "en": "The Municipal fee for hosting visitors and tourists in Riga",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 1.752,
+   "v2023": 1.63,
+   "row": 50
+  },
+  {
+   "key": "D214I:C01",
+   "code": "D214I",
+   "sub": "C01",
+   "nat": "Obligātā iepirkuma komponente (OIK)",
+   "en": "Mandatory procurement public service obligation fee",
+   "fn": "C",
+   "at": "E",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 52
+  },
+  {
+   "key": "D214K:C01",
+   "code": "D214K",
+   "sub": "C01",
+   "nat": "Eksporta nodevas",
+   "en": "Export duties",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 55
+  },
+  {
+   "key": "D214L:C01",
+   "code": "D214L",
+   "sub": "C01",
+   "nat": "Valsts nodeva par naftas produktu drošības rezervju uzturēšanu",
+   "en": "State duty for keeping oil products` security reserves",
+   "fn": "KS",
+   "at": "E",
+   "v2024": "M",
+   "v2023": 73.629,
+   "row": 57
+  },
+  {
+   "key": "D214L:C02",
+   "code": "D214L",
+   "sub": "C02",
+   "nat": "Drošības rezervju pakalpojuma maksa",
+   "en": "Security reserve service fee",
+   "fn": "KS",
+   "at": "E",
+   "v2024": 118.842,
+   "v2023": "M",
+   "row": 58
+  },
+  {
+   "key": "D29A:C01",
+   "code": "D29A",
+   "sub": "C01",
+   "nat": "Īpašuma nodokļi",
+   "en": "Tax on property",
+   "fn": "KS",
+   "at": "RP",
+   "v2024": 193.938,
+   "v2023": 193.599,
+   "row": 61
+  },
+  {
+   "key": "D29A:C02",
+   "code": "D29A",
+   "sub": "C02",
+   "nat": "Zemes nodoklis",
+   "en": "Tax on land",
+   "fn": "KS",
+   "at": "RP",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 62
+  },
+  {
+   "key": "D29A:C03",
+   "code": "D29A",
+   "sub": "C03",
+   "nat": "Nekustamā īpašuma nodoklis par mājokļiem",
+   "en": "Immovable property tax on dwellings",
+   "fn": "KS",
+   "at": "RP",
+   "v2024": 43.399,
+   "v2023": 42.918,
+   "row": 63
+  },
+  {
+   "key": "D29B:C01",
+   "code": "D29B",
+   "sub": "C01",
+   "nat": "Transportlīdzekļu ikgadējā nodeva par uz juridisko personu vārda reģistrētiem transportlīdzekļiem",
+   "en": "Annual vehicle duty for vehicles which have been registered on legal persons",
+   "fn": "KS",
+   "at": "T",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 65
+  },
+  {
+   "key": "D29B:C02",
+   "code": "D29B",
+   "sub": "C02",
+   "nat": "Transportlīdzekļa ekspluatācijas nodoklis par transportlīdzekļiem, kas reģistrēti uz juridisko personu vārda",
+   "en": "Vehicle operating tax for vehicles which have been registered on legal persons",
+   "fn": "KS",
+   "at": "T",
+   "v2024": 30.965,
+   "v2023": 31.703,
+   "row": 66
+  },
+  {
+   "key": "D29B:C03",
+   "code": "D29B",
+   "sub": "C03",
+   "nat": "Uzņēmumu vieglo transportlīdzekļu nodoklis",
+   "en": "Tax on cars belonging to enterprises",
+   "fn": "KS",
+   "at": "T",
+   "v2024": 28.502,
+   "v2023": 25.342,
+   "row": 67
+  },
+  {
+   "key": "D29C:C01",
+   "code": "D29C",
+   "sub": "C01",
+   "nat": "Uzņēmējdarbības riska valsts nodeva",
+   "en": "State duty for business risk",
+   "fn": "LEYRS",
+   "at": "_Z",
+   "v2024": 3.188,
+   "v2023": 3.133,
+   "row": 69
+  },
+  {
+   "key": "D29E:C01",
+   "code": "D29E",
+   "sub": "C01",
+   "nat": "Valsts nodevas un maksājumi par speciālu atļauju (licenšu) izsniegšanu un profesionālās kvalifikācijas attīstības dokumentu reģistrāciju",
+   "en": "State duties and payments for issue of special permits (licences) and registration of documents that commensurate correspondence of professional qualification",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 72
+  },
+  {
+   "key": "D29E:C02",
+   "code": "D29E",
+   "sub": "C02",
+   "nat": "Izložu un azartspēļu valsts nodeva",
+   "en": "Lottery and gambling state duty",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": 3.402,
+   "v2023": 3.359,
+   "row": 73
+  },
+  {
+   "key": "D29E:C03",
+   "code": "D29E",
+   "sub": "C03",
+   "nat": "Valsts nodeva par azartspēļu iekārtu marķēšanu",
+   "en": "Gambling equipment marking duty",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 74
+  },
+  {
+   "key": "D29E:C04",
+   "code": "D29E",
+   "sub": "C04",
+   "nat": "Maksājums par komerciālo zvejas tiesību nomu",
+   "en": "Payment for rental of commercial fishing rights",
+   "fn": "C",
+   "at": "RS",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 75
+  },
+  {
+   "key": "D29E:C05",
+   "code": "D29E",
+   "sub": "C05",
+   "nat": "Preču un pakalpojumu loterijas organizēšanas nodeva",
+   "en": "Lottery of goods and services organization duty",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": 0.419,
+   "v2023": 0.325,
+   "row": 76
+  },
+  {
+   "key": "D29E:C06",
+   "code": "D29E",
+   "sub": "C06",
+   "nat": "Maksājums par ūdenstilpju un zvejas tiesību nomu un zvejas tiesību izmantošanu (licences)",
+   "en": "Payment for lease of reservoirs and fishing rights and use of fishing rights (licences)",
+   "fn": "C",
+   "at": "RS",
+   "v2024": 0.481,
+   "v2023": 0.419,
+   "row": 77
+  },
+  {
+   "key": "D29E:C07",
+   "code": "D29E",
+   "sub": "C07",
+   "nat": "Numerācijas lietošanas tiesību ikgadēja valsts nodeva",
+   "en": "State duty for using numerative rights",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": 0.544,
+   "v2023": 0.558,
+   "row": 78
+  },
+  {
+   "key": "D29F:C01",
+   "code": "D29F",
+   "sub": "C01",
+   "nat": "Dabas resursu nodoklis",
+   "en": "Natural resources tax",
+   "fn": "C",
+   "at": "RS",
+   "v2024": 66.091,
+   "v2023": 61.863,
+   "row": 80
+  },
+  {
+   "key": "D29F:C02",
+   "code": "D29F",
+   "sub": "C02",
+   "nat": "Ieņēmumi no Latvijai piešķirto emisijas kvotu izsolīšanas",
+   "en": "Revenue from state-owned European Trading System permits auction",
+   "fn": "C",
+   "at": "E",
+   "v2024": 90.759,
+   "v2023": 84.24,
+   "row": 81
+  },
+  {
+   "key": "D29F:C03",
+   "code": "D29F",
+   "sub": "C03",
+   "nat": "Subsidētās elektroenerģijas nodoklis",
+   "en": "Subsidised electricity tax",
+   "fn": "C",
+   "at": "E",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 82
+  },
+  {
+   "key": "D29H:C01",
+   "code": "D29H",
+   "sub": "C01",
+   "nat": "Pārējās speciālam mērķim paredzētās valsts nodevas",
+   "en": "Other special target state duties",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": 9.819,
+   "v2023": 10.02,
+   "row": 85
+  },
+  {
+   "key": "D29H:C02",
+   "code": "D29H",
+   "sub": "C02",
+   "nat": "Ienākumi no mežiem",
+   "en": "Income from woodland",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 86
+  },
+  {
+   "key": "D29H:C03",
+   "code": "D29H",
+   "sub": "C03",
+   "nat": "Iemaksas noguldījumu garantiju fondā",
+   "en": "Contributions to the Deposit Guarantee Fund",
+   "fn": "KS",
+   "at": "O",
+   "v2024": 22.272,
+   "v2023": 21.533,
+   "row": 87
+  },
+  {
+   "key": "D29H:C04",
+   "code": "D29H",
+   "sub": "C04",
+   "nat": "Iemaksas apdrošināto aizsardzību fondā.",
+   "en": "Contributions to the Fund for the Protection of the Insured",
+   "fn": "KS",
+   "at": "O",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 88
+  },
+  {
+   "key": "D29H:C05",
+   "code": "D29H",
+   "sub": "C05",
+   "nat": "Iemaksas Vienotajā noregulējuma fondā",
+   "en": "Contributions to the Single Resolution Fund",
+   "fn": "KS",
+   "at": "O",
+   "v2024": 0.002,
+   "v2023": 3.603,
+   "row": 89
+  },
+  {
+   "key": "D29H:C06",
+   "code": "D29H",
+   "sub": "C06",
+   "nat": "Hipotekārā kredīta ņēmēju aizsardzības nodeva",
+   "en": "Mortgage borrower protection duty",
+   "fn": "KS",
+   "at": "O",
+   "v2024": 97.462,
+   "v2023": "M",
+   "row": 90
+  },
+  {
+   "key": "D51A:C01",
+   "code": "D51A",
+   "sub": "C01",
+   "nat": "Iedzīvotāju ienākuma nodoklis",
+   "en": "Personal income tax",
+   "fn": "SPLIT1",
+   "at": "_Z",
+   "v2024": 2869.775,
+   "v2023": 2524.453,
+   "row": 95
+  },
+  {
+   "key": "D51A:C02",
+   "code": "D51A",
+   "sub": "C02",
+   "nat": "Solidaritātes nodoklis",
+   "en": "Solidarity tax",
+   "fn": "SPLIT1",
+   "at": "_Z",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 96
+  },
+  {
+   "key": "D51B:C01",
+   "code": "D51B",
+   "sub": "C01",
+   "nat": "Uzņēmumu ienākuma nodoklis",
+   "en": "Corporate income tax",
+   "fn": "KIC",
+   "at": "_Z",
+   "v2024": 791.067,
+   "v2023": 541.884,
+   "row": 100
+  },
+  {
+   "key": "D59A:C01",
+   "code": "D59A",
+   "sub": "C01",
+   "nat": "Transportlīdzekļu ikgadējā nodeva par uz fizisko personu vārda reģistrētiem transportlīdzekļiem",
+   "en": "Annual vehicle duty for vehicles which have been registered on natural persons",
+   "fn": "KS",
+   "at": "T",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 108
+  },
+  {
+   "key": "D59D:C01",
+   "code": "D59D",
+   "sub": "C01",
+   "nat": "Ieņēmumi no ūdenstilpju un zvejas tiesību nomas un zvejas tiesību nerūpnieciskas izmantošanas (makšķerēšanas kartes)",
+   "en": "Income from lease of reservoirs and fishing rights and non-production use of fishing rights (fishing cards)",
+   "fn": "C",
+   "at": "RS",
+   "v2024": 0.929,
+   "v2023": 0.935,
+   "row": 112
+  },
+  {
+   "key": "D59D:C02",
+   "code": "D59D",
+   "sub": "C02",
+   "nat": "Transportlīdzekļa ekspluatācijas nodoklis par transportlīdzekļiem, kas reģistrēti uz fizisko personu vārda",
+   "en": "Vehicle operating tax for vehicles which have been registered on natural persons",
+   "fn": "C",
+   "at": "T",
+   "v2024": 71.357,
+   "v2023": 70.83,
+   "row": 113
+  },
+  {
+   "key": "D59D:C03",
+   "code": "D59D",
+   "sub": "C03",
+   "nat": "Nodeva par dzīvnieku turēšanu",
+   "en": "Duty for keeping animals",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 0.072,
+   "v2023": 0.097,
+   "row": 114
+  },
+  {
+   "key": "D91A:C01",
+   "code": "D91A",
+   "sub": "C01",
+   "nat": "Nodeva par mantojumiem un dāvinājumiem",
+   "en": "Duty for legacies and donations",
+   "fn": "KS",
+   "at": "O",
+   "v2024": 9.403,
+   "v2023": 8.466,
+   "row": 119
+  },
+  {
+   "key": "D91A:C02",
+   "code": "D91A",
+   "sub": "C02",
+   "nat": "Kancelejas nodeva par zemesgrāmatas veiktajām darbībām attiecībā uz mantojumiem un dāvinājumiem",
+   "en": "Stamp duty for transactions made in Land Register in relation to legacies and donations",
+   "fn": "KS",
+   "at": "O",
+   "v2024": 0.541,
+   "v2023": 0.734,
+   "row": 120
+  },
+  {
+   "key": "D91A:C03",
+   "code": "D91A",
+   "sub": "C03",
+   "nat": "Nodeva par īpašuma tiesību un ķīlas tiesību nostiprināšanu zemesgrāmatā attiecībā uz mantojumiem un dāvinājumiem",
+   "en": "Duty for consolidation of ownership and legal clients in Land Register anent legacies and donations",
+   "fn": "KS",
+   "at": "O",
+   "v2024": 3.049,
+   "v2023": 2.956,
+   "row": 121
+  },
+  {
+   "key": "D91B:C01",
+   "code": "D91B",
+   "sub": "C01",
+   "nat": "Ārzemnieku maksājumi par termiņuzturēšanās atļaujām",
+   "en": "The payment made by a foreigner before receiving temporary residence permit",
+   "fn": "KS",
+   "at": "O",
+   "v2024": 2.301,
+   "v2023": 2.281,
+   "row": 123
+  },
+  {
+   "key": "D611:C01",
+   "code": "D611",
+   "sub": "C01",
+   "nat": "Darba devēju faktiskās sociālās iemaksas",
+   "en": "Employers' actual social contributions",
+   "fn": "LEYRS",
+   "at": "_Z",
+   "v2024": 3024.62,
+   "v2023": 2789.275,
+   "row": 128
+  },
+  {
+   "key": "D611C:C01",
+   "code": "D611C",
+   "sub": "C01",
+   "nat": "Darba devēju obligātās faktiskās sociālās iemaksas",
+   "en": "Compulsory employers' actual social contributions",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 3024.62,
+   "v2023": 2789.275,
+   "row": 130
+  },
+  {
+   "key": "D6111:C01",
+   "code": "D6111",
+   "sub": "C01",
+   "nat": "Darba devēju faktiskās pensiju iemaksas",
+   "en": "Employers' actual pension contributions (1)",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 2117.234,
+   "v2023": 1952.493,
+   "row": 134
+  },
+  {
+   "key": "D6112:C01",
+   "code": "D6112",
+   "sub": "C01",
+   "nat": "Darba devēju faktiskās nepensiju iemaksas",
+   "en": "Employers' actual non-pension contributions (1)",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 907.386,
+   "v2023": 836.782,
+   "row": 136
+  },
+  {
+   "key": "D612:C01",
+   "code": "D612",
+   "sub": "C01",
+   "nat": "Darba devēju nosacītās sociālās iemaksas",
+   "en": "Employers' imputed social contributions",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 248.263,
+   "v2023": 189.99,
+   "row": 138
+  },
+  {
+   "key": "D613:C01",
+   "code": "D613",
+   "sub": "C01",
+   "nat": "Mājsaimniecību faktiskās sociālās iemaksas",
+   "en": "Households' actual social contributions",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 1395.977,
+   "v2023": 1282.617,
+   "row": 142
+  },
+  {
+   "key": "D6131:C01",
+   "code": "D6131",
+   "sub": "C01",
+   "nat": "Mājsaimniecību faktiskās pensiju iemaksas",
+   "en": "Households' actual pension contributions (1)",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 977.184,
+   "v2023": 897.832,
+   "row": 144
+  },
+  {
+   "key": "D6132:C01",
+   "code": "D6132",
+   "sub": "C01",
+   "nat": "Mājsaimniecību faktiskās nepensiju iemaksas",
+   "en": "Households' actual non-pension contributions (1)",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 418.793,
+   "v2023": 384.785,
+   "row": 146
+  },
+  {
+   "key": "D613C:C01",
+   "code": "D613C",
+   "sub": "C01",
+   "nat": "Mājsaimniecību obligātās faktiskās sociālās iemaksas",
+   "en": "Compulsory households' actual social contributions",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 1395.697,
+   "v2023": 1282.373,
+   "row": 148
+  },
+  {
+   "key": "D613CE:C01",
+   "code": "D613CE",
+   "sub": "C01",
+   "nat": "Darba ņēmēju obligātās faktiskās sociālās iemaksas",
+   "en": "Compulsory employees' actual social contributions",
+   "fn": "LEES",
+   "at": "_Z",
+   "v2024": 1333.381,
+   "v2023": 1226.899,
+   "row": 150
+  },
+  {
+   "key": "D613CS:C01",
+   "code": "D613CS",
+   "sub": "C01",
+   "nat": "Pašnodarbināto obligātās faktiskās sociālās iemaksas",
+   "en": "Compulsory actual social contributions by the self-employed (1)",
+   "fn": "KISE",
+   "at": "_Z",
+   "v2024": 62.316,
+   "v2023": 55.474,
+   "row": 152
+  },
+  {
+   "key": "D613V:C01",
+   "code": "D613V",
+   "sub": "C01",
+   "nat": "Mājsaimniecību brīvprātīgās faktiskās sociālās iemaksas",
+   "en": "Voluntary households' actual social contributions",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 0.28,
+   "v2023": 0.244,
+   "row": 155
+  }
+ ]
+}

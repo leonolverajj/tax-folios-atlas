@@ -1,0 +1,32 @@
+{
+  "nodes": {
+    "luxembourg": { "label": "Luxembourg", "sublabel": "Lëtzebuerg · Fiscal folio", "glyph": "globe" },
+    "etat": { "label": "State", "sublabel": "État", "glyph": "landmark" },
+    "communes": { "label": "Communes", "sublabel": "Gemengen", "glyph": "town" },
+    "lu-wage-tax": { "label": "Wage tax", "sublabel": "8–42%", "glyph": "person" },
+    "lu-income-tax-assessed": { "label": "Income tax (assessed)", "sublabel": "Returns", "glyph": "person" },
+    "lu-solidarity-individuals": { "label": "Solidarity surcharge", "sublabel": "On income tax", "glyph": "person" },
+    "lu-capital-income-withholding": { "label": "Capital income withholding", "sublabel": "Dividends · interest", "glyph": "coin" },
+    "lu-corporation-tax": { "label": "Corporation tax", "sublabel": "15% · 17%", "glyph": "factory" },
+    "lu-net-wealth-tax": { "label": "Net wealth tax", "sublabel": "Companies", "glyph": "gem" },
+    "lu-subscription-tax": { "label": "Subscription tax", "sublabel": "Securities", "glyph": "ledger" },
+    "lu-inheritance": { "label": "Inheritance duty", "sublabel": "Succession", "glyph": "gem" },
+    "lu-vat": { "label": "VAT", "sublabel": "17%", "glyph": "cart" },
+    "lu-customs": { "label": "Customs duties", "sublabel": "EU tariff", "glyph": "ship" },
+    "lu-tobacco-excise": { "label": "Tobacco excise", "sublabel": "Cigarettes", "glyph": "smoke" },
+    "lu-fuel-excise": { "label": "Fuel excises and CO₂ tax", "sublabel": "Mineral oils · CO₂", "glyph": "flame" },
+    "lu-alcohol-excise": { "label": "Alcohol excise", "sublabel": "Spirits · beer", "glyph": "wine" },
+    "lu-energy-water-taxes": { "label": "Energy and water taxes", "sublabel": "Electricity · gas · water", "glyph": "bolt" },
+    "lu-insurance-taxes": { "label": "Insurance taxes", "sublabel": "Premiums", "glyph": "shield" },
+    "lu-registration-duties": { "label": "Registration duties", "sublabel": "Property deeds", "glyph": "stamp" },
+    "lu-vehicle-taxes": { "label": "Vehicle taxes", "sublabel": "Motor vehicles", "glyph": "car" },
+    "lu-guarantee-funds": { "label": "Bank fund contributions", "sublabel": "FGDL · FRL", "glyph": "bank" },
+    "lu-other-state": { "label": "Other State taxes", "sublabel": "Casino · stamps", "glyph": "stamp" },
+    "lu-social-employers": { "label": "Social: employers", "sublabel": "Pension · health", "glyph": "heart" },
+    "lu-social-employees": { "label": "Social: employees", "sublabel": "8% + 2.8% + …", "glyph": "heart" },
+    "lu-social-others": { "label": "Other contributions", "sublabel": "Non-employed", "glyph": "heart" },
+    "lu-trade-tax": { "label": "Municipal business tax", "sublabel": "Trade tax", "glyph": "factory" },
+    "lu-communal-property": { "label": "Property tax", "sublabel": "Communal", "glyph": "house" },
+    "lu-communal-other": { "label": "Other communal taxes", "sublabel": "Tourist · casino", "glyph": "town" }
+  }
+}

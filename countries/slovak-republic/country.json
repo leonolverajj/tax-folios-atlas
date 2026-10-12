@@ -1,0 +1,121 @@
+{
+  "id": "slovak-republic",
+  "iso3": "SVK",
+  "isoNumeric": "703",
+  "names": { "en": "Slovak Republic", "native": "Slovensko", "nativeLang": "sk" },
+  "currency": { "code": "EUR", "symbol": "€", "name": "Euro" },
+  "summary": "The Slovak Republic is a unitary state: the National Council sets all taxes and the Financial Administration collects them. Social contributions are the largest flow, mostly from employers, followed by VAT and the income taxes. Municipalities and regions have one main tax, the real estate tax, and a handful of small local taxes; they also receive a share of the income tax that the national accounts count as a transfer.",
+  "structureNote": "The figures are the Commission’s National Tax List for 2024. The sale of emission permits (EUR 606 million) and the employers’ imputed social contributions (EUR 537 million) are left out. The social contributions are drawn under the State. The list gives the withholding tax both as a total and as a split into individuals and legal persons; only the total is used. Local self-government is the municipalities and the higher territorial units together, as in Eurostat’s accounts.",
+  "theme": {
+    "accent": "#4e8bff",
+    "accent2": "#ee1c25",
+    "motif": "topo",
+    "motifNote": "Topographic contour lines over the outline of Slovakia (the generic motif; no bespoke art yet).",
+    "mapLabel": { "lon": 19.5, "lat": 48.7 }
+  },
+  "levels": [
+    {
+      "id": "stat",
+      "branch": "national",
+      "names": { "official": "The State (Slovak Republic)", "native": "Štát", "common": "State" },
+      "description": "The National Council legislates all taxes; the Financial Administration collects them. The social contributions are collected for the Social Insurance Agency and the health insurance companies.",
+      "fiscalPower": "Taxes are set by national law; municipalities set the real estate tax rates and local fees within the limits of the law.",
+      "legalRefs": [{ "sourceId": "ntl-2026" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "obce",
+      "branch": "local",
+      "names": {
+        "official": "Local self-government (municipalities and higher territorial units)",
+        "native": "Samospráva (obce a vyššie územné celky)",
+        "common": "Local government"
+      },
+      "description": "Municipalities levy the real estate tax and a few small taxes and fees; the eight self-governing regions (higher territorial units) are included with them in Eurostat’s local government sector.",
+      "fiscalPower": "Municipal councils set the rates of the real estate tax and local taxes by decree, within the ranges of national law.",
+      "legalRefs": [{ "sourceId": "eurostat-taxag" }],
+      "checkedOn": "2026-10-12"
+    }
+  ],
+  "supportingSourceIds": [],
+  "denominators": [
+    {
+      "id": "stat-taxes-2024",
+      "label": "State taxes (National Tax List), 2024",
+      "definition": "The taxes on production and imports, on income and on capital that the National Tax List books to the State and the EU, other than the municipal lines and the sale of emission permits.",
+      "levelIds": ["stat"],
+      "amount": 24506.71,
+      "scale": "million",
+      "currency": "EUR",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "ntl-2026",
+      "locator": "Sheet SK, 2024, the lines listed with each tax",
+      "calculation": "Sum of the 18 tax rows below (EUR million)",
+      "caveat": "Calendar 2024; the list's cut-off was 30 October 2025. Vintage check against Eurostat's July 2026 accounts: D2: NTL 15,291.65, Eurostat July 2026 15,291.7; D5: NTL 10,528.28, Eurostat July 2026 10,668.6; D61: NTL 20,964.66, Eurostat July 2026 20,964.6.",
+      "accessed": "2026-10-12"
+    },
+    {
+      "id": "stat-social-employers-2024",
+      "label": "Social contributions paid by employers, 2024",
+      "definition": "The actual compulsory contributions of employers; imputed contributions are left out.",
+      "levelIds": ["stat"],
+      "amount": 12069.22,
+      "scale": "million",
+      "currency": "EUR",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "ntl-2026",
+      "locator": "Sheet SK, 2024, subtotal D611",
+      "caveat": "Calendar 2024, same list and cut-off as the taxes.",
+      "accessed": "2026-10-12"
+    },
+    {
+      "id": "stat-social-households-2024",
+      "label": "Social contributions paid by households, 2024",
+      "definition": "The contributions of employees, the self-employed and the non-employed.",
+      "levelIds": ["stat"],
+      "amount": 8358.47,
+      "scale": "million",
+      "currency": "EUR",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "ntl-2026",
+      "locator": "Sheet SK, 2024, lines D613CE, D613CN, D613CS",
+      "caveat": "Calendar 2024, same list and cut-off as the taxes.",
+      "accessed": "2026-10-12"
+    },
+    {
+      "id": "obce-property-2024",
+      "label": "Real estate tax of the municipalities, 2024",
+      "definition": "The tax on land, buildings and dwellings paid by legal persons and households.",
+      "levelIds": ["obce"],
+      "amount": 618.72,
+      "scale": "million",
+      "currency": "EUR",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "ntl-2026",
+      "locator": "Sheet SK, 2024, lines D29A C01 to C03, D59A C01, C03, C05",
+      "caveat": "Eurostat books EUR 586.8 million of land and building taxes (D29A) and EUR 47.1 million of other wealth taxes (D59A) to local government.",
+      "accessed": "2026-10-12"
+    },
+    {
+      "id": "obce-other-2024",
+      "label": "Other taxes and fees of the municipalities, 2024",
+      "definition": "The tax on public space, the local development fee, the dog tax, taxes on gaming and vending machines and accommodation, and entry permits for historic city districts.",
+      "levelIds": ["obce"],
+      "amount": 88.13,
+      "scale": "million",
+      "currency": "EUR",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "ntl-2026",
+      "locator": "Sheet SK, 2024, the lines listed with the tax",
+      "calculation": "Sum of the local rows below (EUR million)",
+      "caveat": "Eurostat books EUR 693.3 million of taxes on production to local government; the lines drawn for the municipalities (both parts) come to EUR 706.85 million, because the list does not say which share of the administrative fees, lottery taxes and pollution fees (EUR 57, 13 and 5 million in Eurostat's local sector) is local.",
+      "accessed": "2026-10-12"
+    }
+  ],
+  "sizing": {
+    "label": "Taxes and compulsory social contributions of all levels of government",
+    "definition": "The taxes of the State and of local self-government plus the actual social contributions, calendar 2024, as listed in the National Tax List. Excludes the sale of emission permits and imputed social contributions.",
+    "componentIds": ["stat-taxes-2024", "stat-social-employers-2024", "stat-social-households-2024", "obce-property-2024", "obce-other-2024"]
+  },
+  "researchStatus": "researched"
+}

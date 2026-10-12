@@ -1,0 +1,519 @@
+{
+  "instruments": [
+    {
+      "id": "ee-income-tax-persons",
+      "parentId": "riik",
+      "levelId": "riik",
+      "category": "tax",
+      "family": "income-personal",
+      "status": "current",
+      "names": { "official": "Income tax on natural persons", "native": "Füüsilise isiku tulumaks", "common": "Personal income tax" },
+      "taxes": {
+        "base": "Wages, business income of sole proprietors, pensions, rents, interest, dividends and capital gains of residents, and the Estonian-source income of non-residents.",
+        "payer": "Individuals; employers and other payers withhold it."
+      },
+      "rate": {
+        "kind": "flat",
+        "headline": "Flat 20% in 2024; 22% from 2025",
+        "details": [
+          "Withheld rate: 20% in 2024, 22% in 2025 and 2026 (EMTA, tax rates page).",
+          "Basic exemption in 2024: up to EUR 654 a month, depending on income, and up to EUR 776 a month at pensionable age. From 2026 it is EUR 700 a month for everyone and no longer falls as income rises."
+        ],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "One flat rate on every kind of personal income, with a basic exemption. It is the second largest tax. Local governments receive a share of it through the state budget; the National Tax List and Eurostat record it as a state tax.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "emta-rates", "locator": "2024, 2025 and 2026 sections" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "ee-corporate-income-tax-distributions",
+      "parentId": "riik",
+      "levelId": "riik",
+      "category": "tax",
+      "family": "income-corporate",
+      "status": "current",
+      "names": {
+        "official": "Corporate income tax on distributed profits (dividends and other profit distributions)",
+        "native": "Ettevõtte tulumaks kapitalikasumilt (dividendid ja muud kasumieraldised)",
+        "common": "Corporate income tax on distributions"
+      },
+      "taxes": {
+        "base": "Profits that a company distributes (dividends, share buy-backs, capital reductions), not profits it earns and keeps.",
+        "payer": "The distributing company."
+      },
+      "rate": {
+        "kind": "flat",
+        "headline": "20/80 of the net distribution in 2024 (22/78 from 2025)",
+        "details": [
+          "2024: 20/80 on distributions, 14/86 on regularly paid dividends, with 7% additionally withheld when the dividend goes to a natural person.",
+          "From 1 January 2025 the lower 14/86 rate was abolished and only 22/78 applies (EMTA)."
+        ],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "Estonia taxes company profit only when it is paid out, so reinvested profit is untaxed. The National Tax List splits the corporate tax into this line and the one on fringe benefits and other expenses.",
+      "exceptions": ["Companies may pass on without further tax certain dividends they received before 2025 that were taxed at the lower 14/86 rate (EMTA)."],
+      "legalRefs": [{ "sourceId": "emta-rates", "locator": "2024 and 2025 sections" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "ee-corporate-income-tax-benefits",
+      "parentId": "riik",
+      "levelId": "riik",
+      "category": "tax",
+      "family": "income-corporate",
+      "status": "current",
+      "names": {
+        "official": "Corporate income tax on fringe benefits, gifts, donations and non-business expenses",
+        "native": "Ettevõtte tulumaks erisoodustustelt, kingitustelt, annetustelt ja muult",
+        "common": "Corporate tax on fringe benefits and other expenses"
+      },
+      "taxes": {
+        "base": "Fringe benefits, gifts, donations, entertainment and expenses unrelated to the business, which the company pays without deducting.",
+        "payer": "The company or employer."
+      },
+      "rate": {
+        "kind": "flat",
+        "headline": "The corporate rate: 20/80 in 2024, 22/78 from 2025",
+        "details": [
+          "The National Tax List names the line \"Corporate income tax on fringe benefits, gifts, donations and other\"; the 2024 EMTA rate page gives the corporate rate of 20/80, the single rate of the Income Tax Act."
+        ],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "The second part of the Estonian corporate income tax. Fringe benefits also bear social tax.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet EE, D51B" }, { "sourceId": "emta-rates", "locator": "2024 section" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "ee-social-tax-pension",
+      "parentId": "riik",
+      "levelId": "riik",
+      "category": "social-contribution",
+      "family": "social-security",
+      "status": "current",
+      "names": {
+        "official": "Social tax, pension insurance part (20%), net of the 4% allotment to the funded pension",
+        "native": "Sotsiaalmaks, pensionikindlustus",
+        "common": "Social tax: pension"
+      },
+      "taxes": {
+        "base": "Gross pay and fees (employer pays), the business income of the self-employed, with a monthly minimum.",
+        "payer": "Employers (33% of gross pay in all); self-employed people for themselves."
+      },
+      "rate": {
+        "kind": "flat",
+        "headline": "33% social tax: 20% pension + 13% health",
+        "details": [
+          "The labels of the National Tax List give 20% for pension insurance and 13% for health insurance.",
+          "The National Tax List subtracts an allotment for the funded pension of 4% (EUR 324 million in 2024).",
+          "Monthly minimum obligation in 2024: EUR 725 of pay, i.e. EUR 239.25 of social tax."
+        ],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "Paid by the employer on top of the gross pay, not withheld from the worker. The pension part funds the state pension scheme.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "emta-social-tax" }, { "sourceId": "emta-rates", "locator": "2024 section" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "ee-social-tax-health",
+      "parentId": "riik",
+      "levelId": "riik",
+      "category": "social-contribution",
+      "family": "social-security",
+      "status": "current",
+      "names": { "official": "Social tax, health insurance part (13%)", "native": "Sotsiaalmaks, ravikindlustus", "common": "Social tax: health" },
+      "taxes": { "base": "The same base as the pension part: gross pay and fees.", "payer": "Employers; self-employed people for themselves." },
+      "rate": {
+        "kind": "flat",
+        "headline": "13% of gross pay",
+        "details": ["The National Tax List labels the line \"Health insurance (13%)\"; together with the 20% pension part it makes the 33% social tax."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "The part of the social tax that funds the Health Insurance Fund (Tervisekassa).",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "emta-social-tax" }, { "sourceId": "ntl-2026", "locator": "sheet EE, D6112" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "ee-unemployment-insurance",
+      "parentId": "riik",
+      "levelId": "riik",
+      "category": "insurance-premium",
+      "family": "social-security",
+      "status": "current",
+      "names": {
+        "official": "Unemployment insurance premiums (employer’s and employee’s)",
+        "native": "Töötuskindlustusmakse",
+        "common": "Unemployment insurance premiums"
+      },
+      "taxes": { "base": "Gross pay.", "payer": "Employees (withheld) and employers." },
+      "rate": {
+        "kind": "flat",
+        "headline": "1.6% employee + 0.8% employer",
+        "details": ["The rates are unchanged from 2024 to 2026 (EMTA). The employee’s premium stops at pensionable age."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "Premiums paid to the Unemployment Insurance Fund (Töötukassa), which pays unemployment benefits and runs job-seeking services.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "emta-unemployment" }, { "sourceId": "emta-rates", "locator": "2024 section" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "ee-social-contributions-others",
+      "parentId": "riik",
+      "levelId": "riik",
+      "category": "social-contribution",
+      "family": "social-security",
+      "status": "current",
+      "names": {
+        "official": "Social contributions by the self-employed and compulsory contributions by the non-employed",
+        "native": "FIE-de sotsiaalmaksed; mittetöötavate isikute kohustuslikud sotsiaalmaksed",
+        "common": "Self-employed and non-employed contributions"
+      },
+      "taxes": {
+        "base": "As labelled in the National Tax List: \"Social contributions by self-employed\" and \"Compulsory actual social contributions by the non-employed\". The list does not itemise them further.",
+        "payer": "Self-employed people and non-employed persons who pay for their own cover."
+      },
+      "rate": { "kind": "varies", "headline": "Set by the Social Tax Act", "details": ["The National Tax List does not give a rate."], "asOf": "2026-10-12" },
+      "explanation": "Small contributions classified by the statistician under households rather than employers.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet EE, D613CS and D613CN" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "ee-vat",
+      "parentId": "riik",
+      "levelId": "riik",
+      "category": "tax",
+      "family": "general-consumption",
+      "status": "current",
+      "names": { "official": "Value added tax", "native": "Käibemaks", "common": "VAT", "abbreviation": "VAT" },
+      "taxes": {
+        "base": "Goods and services supplied in Estonia, intra-EU acquisitions and imports.",
+        "payer": "Consumers; businesses charge it and claim input credits."
+      },
+      "rate": {
+        "kind": "range",
+        "headline": "24% standard since 1 July 2025 (22% in 2024)",
+        "details": ["Rates now: 24%, 13%, 9% and 0% (EMTA).", "The standard rate was 22% during 2024, the year of the figure; it went to 24% on 1 July 2025."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "The largest single tax.",
+      "exceptions": ["Some supplies of a social nature are exempt (EMTA)."],
+      "legalRefs": [{ "sourceId": "emta-vat" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "ee-customs-duty",
+      "parentId": "riik",
+      "levelId": "riik",
+      "category": "customs-duty",
+      "family": "trade",
+      "status": "current",
+      "names": { "official": "Customs duty", "native": "Tollimaks", "common": "Customs duty" },
+      "taxes": { "base": "Goods imported from outside the EU, by the Common Customs Tariff.", "payer": "Importers." },
+      "rate": {
+        "kind": "varies",
+        "headline": "EU Common Customs Tariff",
+        "details": ["The duty is an EU own resource; Eurostat records it under the EU institutions, not under Estonian government."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "Collected by the Tax and Customs Board for the EU. The National Tax List adds it because it covers government plus the EU institutions.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "emta-customs" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "ee-excise-alcohol",
+      "parentId": "riik",
+      "levelId": "riik",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Alcohol excise duty", "native": "Alkoholiaktsiis", "common": "Alcohol excise" },
+      "taxes": {
+        "base": "Beer, wine, other fermented drinks, intermediate products and spirits, by volume or pure alcohol.",
+        "payer": "Producers and importers (excise warehouse keepers); passed on in the price."
+      },
+      "rate": {
+        "kind": "specific",
+        "headline": "Per litre of product or of pure alcohol",
+        "details": ["The rates are fixed in the Alcohol, Tobacco, Fuel and Electricity Excise Duty Act."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "Paid when the goods leave an excise warehouse or are imported; the duty is declared monthly (EMTA).",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "emta-alcohol" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "ee-excise-tobacco",
+      "parentId": "riik",
+      "levelId": "riik",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Tobacco excise duty", "native": "Tubakaaktsiis", "common": "Tobacco excise" },
+      "taxes": { "base": "Cigarettes, cigars, smoking tobacco and similar products.", "payer": "Producers and importers; passed on in the price." },
+      "rate": {
+        "kind": "specific",
+        "headline": "Per unit of quantity, fixed by the Act",
+        "details": ["The rates are fixed in the Alcohol, Tobacco, Fuel and Electricity Excise Duty Act."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "About the same size as the alcohol excise.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "emta-tobacco" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "ee-excise-fuel",
+      "parentId": "riik",
+      "levelId": "riik",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Excise duty on fuel", "native": "Kütuseaktsiis", "common": "Fuel excise" },
+      "taxes": {
+        "base": "Liquid, solid and gaseous fuels, by quantity (EMTA, fuel and electricity page).",
+        "payer": "Fuel producers and importers; passed on at the pump."
+      },
+      "rate": {
+        "kind": "specific",
+        "headline": "Per unit of fuel, fixed by the Act",
+        "details": ["The rates are fixed in the Alcohol, Tobacco, Fuel and Electricity Excise Duty Act (EMTA, fuel and electricity page)."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "The biggest excise.",
+      "exceptions": ["Fuel used for certain purposes is exempt (permit needed)."],
+      "legalRefs": [{ "sourceId": "emta-fuel" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "ee-excise-other",
+      "parentId": "riik",
+      "levelId": "riik",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "Electricity excise, liquid fuel stockpiling fee and packaging excise",
+        "native": "Elektriaktsiis; vedelkütusevaru makse; pakendiaktsiis",
+        "common": "Electricity and other small excises"
+      },
+      "taxes": {
+        "base": "Electricity consumed, liquid fuel released for consumption (stockpiling fee) and certain packaging.",
+        "payer": "Electricity sellers, fuel suppliers and packagers."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Set by the excise and stockpiling Acts",
+        "details": [
+          "The National Tax List shows three small lines: electricity excise EUR 9.9 million, liquid fuel stockpiling fee EUR 5.3 million and packaging excise EUR 0.2 million."
+        ],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "Three small levies that the National Tax List books under excises.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "emta-fuel" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "ee-renewable-energy-charge",
+      "parentId": "riik",
+      "levelId": "riik",
+      "category": "special-levy",
+      "family": "other",
+      "status": "current",
+      "names": { "official": "Renewable energy charge", "native": "Taastuvenergia tasu", "common": "Renewable energy charge" },
+      "taxes": { "base": "Electricity supplied to consumers.", "payer": "Electricity consumers." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Set by law",
+        "details": ["The National Tax List classifies it as a tax on products (D214A)."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "A compulsory charge that finances support to producers of renewable electricity.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet EE, D214A C02" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "ee-gambling-tax",
+      "parentId": "riik",
+      "levelId": "riik",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Gambling tax", "native": "Hasartmängumaks", "common": "Gambling tax" },
+      "taxes": {
+        "base": "Gambling operators’ activity, by type of game; monthly return.",
+        "payer": "Gambling operators holding an Estonian licence or permit."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "By type of gambling",
+        "details": ["The return has nine annexes, one for each type of gambling (EMTA)."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "Revenue rose from EUR 48.6 million in 2023 to EUR 57.1 million in 2024.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "emta-gambling" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "ee-vehicle-taxes",
+      "parentId": "riik",
+      "levelId": "riik",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "Motor vehicle registration fee and heavy goods vehicle tax",
+        "native": "Autode registreerimistasu; raskeveokimaks",
+        "common": "Vehicle registration and heavy goods vehicle tax"
+      },
+      "taxes": { "base": "The registration of a motor vehicle, and heavy goods vehicles.", "payer": "Vehicle owners." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Set by law",
+        "details": ["EMTA’s road user charge page covers the current charge on heavy vehicles."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "Two vehicle charges of the National Tax List. They do not include the motor vehicle tax introduced in 2025.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "emta-road-charge" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "ee-environmental-charges",
+      "parentId": "riik",
+      "levelId": "riik",
+      "category": "fee",
+      "family": "resource",
+      "status": "current",
+      "names": {
+        "official": "Pollution fee, water abstraction fee and fishing right fee",
+        "native": "Saastetasu; vee erikasutustasu; kalapüügiõiguse tasu",
+        "common": "Environmental charges"
+      },
+      "taxes": {
+        "base": "Emissions to air and water and waste disposal (pollution fee), the abstraction of water, and the right to fish.",
+        "payer": "Polluters, water users and fishers."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Set by the Environmental Charges Act",
+        "details": ["EUR 35.2 million pollution fee, EUR 14.0 million water abstraction fee and EUR 2.2 million fishing right fee in 2024."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "The National Tax List codes these under pollution and resource taxes.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet EE, D29F C01, D29H C01 and C03" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "ee-guarantee-fund",
+      "parentId": "riik",
+      "levelId": "riik",
+      "category": "special-levy",
+      "family": "other",
+      "status": "current",
+      "names": { "official": "Contributions to the Guarantee Fund", "native": "Tagatisfondi osamaksed", "common": "Guarantee Fund contributions" },
+      "taxes": {
+        "base": "Contributions collected by the Guarantee Fund (Tagatisfond) from covered financial institutions; the National Tax List gives no further detail.",
+        "payer": "Covered financial institutions."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Set by the Fund under the law",
+        "details": ["The National Tax List books the contributions as a tax on production (D29H)."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "A compulsory contribution that the statisticians book as a tax. It fell from EUR 50.5 million in 2023 to EUR 42.3 million in 2024.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet EE, D29H C06" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "ee-licences-other",
+      "parentId": "riik",
+      "levelId": "riik",
+      "category": "fee",
+      "family": "other",
+      "status": "current",
+      "names": {
+        "official": "Business and professional licences, and the postal service payment",
+        "native": "Litsentsid; postiteenuse makse",
+        "common": "Licences and other small levies"
+      },
+      "taxes": {
+        "base": "Licences to carry on a business or profession, and a payment by postal operators.",
+        "payer": "Licence holders and postal operators."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Fixed fees",
+        "details": ["EUR 4.9 million for licences and EUR 0.03 million for the postal payment in 2024."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "The smallest lines the National Tax List books as taxes.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet EE, D29E and D214H" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "ee-land-tax",
+      "parentId": "kov",
+      "levelId": "kov",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "Land tax", "native": "Maamaks", "common": "Land tax" },
+      "taxes": {
+        "base": "The taxable value of land (not buildings), set by the Land and Spatial Development Board.",
+        "payer": "Owners, superficiaries or usufructuaries of the land on 1 January."
+      },
+      "rate": {
+        "kind": "range",
+        "headline": "Set by each local government within limits",
+        "details": [
+          "The Land Tax Act sets the range; each local government fixes its rate and exemptions. The Tax and Customs Board calculates and collects the tax and pays it in full to the local budget (EMTA)."
+        ],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "The main tax of the local governments in the National Tax List. It taxes land, not buildings.",
+      "exceptions": ["No tax is imposed if the bill in one local government is below EUR 5."],
+      "legalRefs": [{ "sourceId": "emta-land-tax" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "ee-local-taxes",
+      "parentId": "kov",
+      "levelId": "kov",
+      "category": "tax",
+      "family": "other",
+      "status": "current",
+      "names": {
+        "official": "Advertising tax and tax on the closure of roads, streets and squares",
+        "native": "Reklaamimaks; teede ja tänavate sulgemise maks",
+        "common": "Advertising tax and road-closure tax"
+      },
+      "taxes": { "base": "Advertising in public places, and closing a road or street for private use.", "payer": "Advertisers and those who close the road." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Set by each local government",
+        "details": [
+          "Under the Local Taxes Act local governments may introduce a limited list of taxes; EUR 8.1 million came from the advertising tax and EUR 3.1 million from the road-closure tax in 2024."
+        ],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "The two other local taxes that appear in the National Tax List.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet EE, D29H C05 and C02" }],
+      "checkedOn": "2026-10-12"
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "norway": {
+      "x": 800,
+      "y": 500
+    },
+    "staten": {
+      "x": 509,
+      "y": 432
+    },
+    "no-income-tax-state": {
+      "x": 845,
+      "y": 794
+    },
+    "no-resource-rent-taxes": {
+      "x": 467,
+      "y": 750
+    },
+    "no-social-others": {
+      "x": 292,
+      "y": 521
+    },
+    "no-electricity-tax": {
+      "x": 429,
+      "y": 273
+    },
+    "no-vehicle-taxes": {
+      "x": 799,
+      "y": 170
+    },
+    "no-primary-industry-levies": {
+      "x": 1166,
+      "y": 270
+    },
+    "no-wealth-tax-state": {
+      "x": 572,
+      "y": 923
+    },
+    "no-dividend-withholding": {
+      "x": 167,
+      "y": 689
+    },
+    "no-vat": {
+      "x": 211,
+      "y": 345
+    },
+    "no-alcohol-tobacco": {
+      "x": 533,
+      "y": 123
+    },
+    "no-air-passenger-tax": {
+      "x": 1068,
+      "y": 123
+    },
+    "no-sector-fees-small": {
+      "x": 1446,
+      "y": 372
+    },
+    "no-corporate-income-tax": {
+      "x": 892,
+      "y": 917
+    },
+    "no-social-employers": {
+      "x": 98,
+      "y": 840
+    },
+    "no-customs": {
+      "x": 81,
+      "y": 305
+    },
+    "no-product-taxes": {
+      "x": 609,
+      "y": 32
+    },
+    "no-gaming-income": {
+      "x": 1417,
+      "y": 98
+    },
+    "no-petroleum-income-taxes": {
+      "x": 341,
+      "y": 894
+    },
+    "no-social-employees": {
+      "x": 93,
+      "y": 583
+    },
+    "no-fuel-emission-taxes": {
+      "x": 124,
+      "y": 32
+    },
+    "no-stamp-duty": {
+      "x": 1119,
+      "y": 32
+    },
+    "no-financial-activities-tax": {
+      "x": 1477,
+      "y": 281
+    },
+    "kommunene": {
+      "x": 1091,
+      "y": 568
+    },
+    "no-income-tax-local": {
+      "x": 1159,
+      "y": 405
+    },
+    "no-wealth-tax-local": {
+      "x": 1310,
+      "y": 528
+    },
+    "no-real-estate-tax": {
+      "x": 1239,
+      "y": 710
+    },
+    "no-natural-resource-tax": {
+      "x": 1070,
+      "y": 738
+    }
+  },
+  "radii": {}
+}

@@ -1,0 +1,212 @@
+{
+  "groups": [
+    {
+      "title": "State taxes 2024 – National Tax List (CZK million)",
+      "defaults": {
+        "denominatorId": "stat-taxes-2024",
+        "scale": "million",
+        "currency": "CZK",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "ESA tax revenue, general government and EU institutions",
+        "sourceId": "ntl-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        { "nodeId": "cz-pit-employment", "amount": 237673, "locator": "NTL 2026, sheet CZ, row 112: D51A Custom Label - 01, 2024" },
+        { "nodeId": "cz-pit-self-employed", "amount": 27748, "locator": "NTL 2026, sheet CZ, row 113: D51A Custom Label - 02, 2024" },
+        { "nodeId": "cz-pit-capital", "amount": 46595, "locator": "NTL 2026, sheet CZ, row 114: D51A Custom Label - 03, 2024" },
+        { "nodeId": "cz-corporate-income-tax", "amount": 306571, "locator": "NTL 2026, sheet CZ, row 123: D51B Custom Label - 01, 2024" },
+        {
+          "nodeId": "cz-windfall-topup",
+          "amount": 41024,
+          "locator": "NTL 2026, sheet CZ, 2024: D51B Custom Label - 04 (row 126); D51B Custom Label - 05 (row 127)",
+          "calculation": "40,024 + 1,000 = 41,024 (CZK million)"
+        },
+        { "nodeId": "cz-vat", "amount": 586901, "locator": "NTL 2026, sheet CZ, row 12: D211 Custom Label - 01, 2024" },
+        { "nodeId": "cz-customs", "amount": 11605, "locator": "NTL 2026, sheet CZ, row 15: D2121 Custom Label - 01, 2024" },
+        {
+          "nodeId": "cz-excise-fuel",
+          "amount": 92434,
+          "locator": "NTL 2026, sheet CZ, 2024: D2122C Custom Label - 01 (row 21); D214A Custom Label - 01 (row 34)",
+          "calculation": "52,700 + 39,734 = 92,434 (CZK million)"
+        },
+        {
+          "nodeId": "cz-excise-tobacco",
+          "amount": 59604,
+          "locator": "NTL 2026, sheet CZ, 2024: D2122C Custom Label - 05 (row 25); D214A Custom Label - 05 (row 38)",
+          "calculation": "35,344 + 24,260 = 59,604 (CZK million)"
+        },
+        {
+          "nodeId": "cz-excise-alcohol",
+          "amount": 14283,
+          "locator": "NTL 2026, sheet CZ, 2024: D2122C Custom Label - 02 (row 22); D2122C Custom Label - 03 (row 23); D2122C Custom Label - 04 (row 24); D214A Custom Label - 02 (row 35); D214A Custom Label - 03 (row 36); D214A Custom Label - 04 (row 37)",
+          "calculation": "3,279 + 1,580 + 178 + 6,018 + 2,900 + 328 = 14,283 (CZK million)"
+        },
+        {
+          "nodeId": "cz-energy-taxes",
+          "amount": 3407,
+          "locator": "NTL 2026, sheet CZ, 2024: D2122C Custom Label - 06 (row 26); D2122C Custom Label - 07 (row 27); D2122C Custom Label - 08 (row 28); D214A Custom Label - 07 (row 40); D214A Custom Label - 08 (row 41); D214A Custom Label - 09 (row 42)",
+          "calculation": "94 + 102 + 117 + 1,405 + 1,530 + 159 = 3,407 (CZK million)"
+        },
+        {
+          "nodeId": "cz-renewable-levies",
+          "amount": 27322,
+          "locator": "NTL 2026, sheet CZ, 2024: D214A Custom Label - 10 (row 43); D214A Custom Label - 11 (row 44)",
+          "calculation": "4,869 + 22,453 = 27,322 (CZK million)"
+        },
+        { "nodeId": "cz-lottery", "amount": 21860, "locator": "NTL 2026, sheet CZ, row 58: D214F Custom Label - 01, 2024" },
+        { "nodeId": "cz-road-tax", "amount": 1196, "locator": "NTL 2026, sheet CZ, row 81: D29B Custom Label - 01, 2024" },
+        {
+          "nodeId": "cz-environmental-charges",
+          "amount": 624,
+          "locator": "NTL 2026, sheet CZ, 2024: D29F Custom Label - 01 (row 89); D29F Custom Label - 02 (row 90); D29F Custom Label - 04 (row 92); D214D Custom Label - 02 (row 53)",
+          "calculation": "183 + 377 + 0 + 64 = 624 (CZK million)"
+        },
+        {
+          "nodeId": "cz-land-withdrawal",
+          "amount": 1224,
+          "locator": "NTL 2026, sheet CZ, 2024: D214C Custom Label - 01 (row 48); D214C Custom Label - 02 (row 49); D29A Custom Label - 02 (row 76); D29A Custom Label - 03 (row 77); D29A Custom Label - 05 (row 79); D214I Custom Label - 01 (row 68)",
+          "calculation": "924 + 152 + 103 + 17 + 5 + 23 = 1,224 (CZK million)"
+        },
+        {
+          "nodeId": "cz-licence-fees",
+          "amount": 8274,
+          "locator": "NTL 2026, sheet CZ, 2024: D59D Custom Label - 01 (row 139); D29E Custom Label - 02 (row 87)",
+          "calculation": "7,546 + 728 = 8,274 (CZK million)"
+        },
+        {
+          "nodeId": "cz-financial-sector-contributions",
+          "amount": 5698,
+          "locator": "NTL 2026, sheet CZ, 2024: D29H Custom Label - 02 (row 98); D29H Custom Label - 03 (row 99); D29H Custom Label - 04 (row 100); D29H Custom Label - 05 (row 101)",
+          "calculation": "4,246 + 400 + 1,037 + 15 = 5,698 (CZK million)"
+        },
+        {
+          "nodeId": "cz-admin-fees",
+          "amount": 3370,
+          "locator": "NTL 2026, sheet CZ, 2024: D29H Custom Label - 01 (row 97); D59F Custom Label - 04 (row 145); D59F Custom Label - 03 (row 144); D29H Custom Label - 08 (row 104); D29E Custom Label - 01 (row 86)",
+          "calculation": "1,445 + 1,425 + 509 − 26 + 17 = 3,370 (CZK million)"
+        }
+      ]
+    },
+    {
+      "title": "Employers’ social contributions 2024 – National Tax List (CZK million)",
+      "defaults": {
+        "denominatorId": "stat-social-employers-2024",
+        "scale": "million",
+        "currency": "CZK",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Actual compulsory contributions",
+        "sourceId": "ntl-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        {
+          "nodeId": "cz-social-employers",
+          "amount": 772199,
+          "locator": "NTL 2026, sheet CZ, 2024: D611C Custom Label - 01 (row 157); D611C Custom Label - 02 (row 158); D611C Custom Label - 03 (row 159); D611C Custom Label - 04 (row 160); D611C Custom Label - 05 (row 161); D611V Custom Label - 01 (row 163)",
+          "calculation": "481,167 + 46,755 + 26,833 + 12,005 + 205,412 + 27 = 772,199 (CZK million)"
+        }
+      ]
+    },
+    {
+      "title": "Households’ social contributions 2024 – National Tax List (CZK million)",
+      "defaults": {
+        "denominatorId": "stat-social-households-2024",
+        "scale": "million",
+        "currency": "CZK",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Actual contributions",
+        "sourceId": "ntl-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        {
+          "nodeId": "cz-social-employees",
+          "amount": 261271,
+          "locator": "NTL 2026, sheet CZ, 2024: D613CE Custom Label - 01 (row 192); D613CE Custom Label - 02 (row 193); D613CE Custom Label - 04 (row 195)",
+          "calculation": "145,210 + 13,354 + 102,707 = 261,271 (CZK million)"
+        },
+        {
+          "nodeId": "cz-social-self-employed",
+          "amount": 81607,
+          "locator": "NTL 2026, sheet CZ, 2024: D613CS Custom Label - 01 (row 197); D613CS Custom Label - 02 (row 198); D613CS Custom Label - 03 (row 199); D613V Custom Label - 01 (row 203); D613V Custom Label - 02 (row 204)",
+          "calculation": "42,841 + 1,836 + 36,197 + 346 + 387 = 81,607 (CZK million)"
+        },
+        { "nodeId": "cz-health-insurance-state-paid", "amount": 151456, "locator": "NTL 2026, sheet CZ, row 201: D613CN Custom Label - 01, 2024" }
+      ]
+    },
+    {
+      "title": "Real estate tax 2024 – National Tax List (CZK million)",
+      "defaults": {
+        "denominatorId": "samosprava-property-2024",
+        "scale": "million",
+        "currency": "CZK",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "ESA tax revenue",
+        "sourceId": "ntl-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        {
+          "nodeId": "cz-property-tax",
+          "amount": 22980,
+          "locator": "NTL 2026, sheet CZ, 2024: D29A Custom Label - 01 (row 75); D59A Custom Label - 01 (row 135)",
+          "calculation": "19,657 + 3,323 = 22,980 (CZK million)"
+        }
+      ]
+    },
+    {
+      "title": "Corporate tax of municipalities and regions 2024 – National Tax List (CZK million)",
+      "defaults": {
+        "denominatorId": "samosprava-cit-2024",
+        "scale": "million",
+        "currency": "CZK",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "ESA tax revenue",
+        "sourceId": "ntl-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        {
+          "nodeId": "cz-municipal-cit",
+          "amount": 11658,
+          "locator": "NTL 2026, sheet CZ, 2024: D51B Custom Label - 02 (row 124); D51B Custom Label - 03 (row 125)",
+          "calculation": "10,673 + 985 = 11,658 (CZK million)"
+        }
+      ]
+    },
+    {
+      "title": "Local fees 2024 – National Tax List (CZK million)",
+      "defaults": {
+        "denominatorId": "samosprava-fees-2024",
+        "scale": "million",
+        "currency": "CZK",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "ESA tax revenue",
+        "sourceId": "ntl-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        {
+          "nodeId": "cz-local-fees",
+          "amount": 2736,
+          "locator": "NTL 2026, sheet CZ, 2024: D214H Custom Label - 01 (row 61); D214H Custom Label - 06 (row 66); D214E Custom Label - 02 (row 56); D214D Custom Label - 01 (row 52); D59F Custom Label - 01 (row 142); D59F Custom Label - 02 (row 143); D29A Custom Label - 04 (row 78); D91B Custom Label - 01 (row 151)",
+          "calculation": "1,715 + 230 + 88 + 358 + 303 + 9 + 9 + 24 = 2,736 (CZK million)"
+        }
+      ]
+    }
+  ],
+  "unavailable": []
+}

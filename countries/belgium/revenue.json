@@ -1,0 +1,316 @@
+{
+  "groups": [
+    {
+      "title": "Federal taxes 2024 – National Tax List (EUR million)",
+      "defaults": {
+        "denominatorId": "federal-taxes-2024",
+        "scale": "million",
+        "currency": "EUR",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "ESA tax revenue, general government and EU institutions",
+        "sourceId": "ntl-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        {
+          "nodeId": "be-pit-federal",
+          "amount": 56512.9,
+          "locator": "NTL 2026, sheet BE, D51A C01–C05, C07–C09 and D51E C02–C03 (personal income tax lines), 2024, less the regional and local parts from Eurostat gov_10a_taxag (S.1312 and S.1313, D51A)",
+          "calculation": "73,913.2 − 13,295.1 − 4,105.2 = 56,512.9 (EUR million)",
+          "caveat": "Different vintages of the two sources; Eurostat’s own federal figure for D51A is EUR 54,941.6 million, plus EUR 1,226.6 million of other income taxes and EUR 541.5 million of taxes recorded under the EU institutions."
+        },
+        {
+          "nodeId": "be-special-social-contribution",
+          "amount": 1370.5,
+          "locator": "NTL 2026, sheet BE, row 169: D51A Special social contributions, 2024"
+        },
+        {
+          "nodeId": "be-corporate-income-tax",
+          "amount": 27026.6,
+          "locator": "NTL 2026, sheet BE, 2024: D51B Advance tax payment on movable property (corp) (row 176); D51B Advance payments (corp) (row 177); D51B Taxes from non-residents (corp) (row 178); D51B Assessments (corp) (row 179); D51B Other taxes on income (row 180)",
+          "calculation": "980.1 + 22,186.3 + 73.4 + 3,785.7 + 1.1 = 27,026.6 (EUR million)"
+        },
+        { "nodeId": "be-vat", "amount": 38232.7, "locator": "NTL 2026, sheet BE, row 12: D211 VAT on products, 2024" },
+        { "nodeId": "be-customs", "amount": 1797.2, "locator": "NTL 2026, sheet BE, row 15: D2121 Import duties including ECSC rights, 2024" },
+        {
+          "nodeId": "be-excise-fuel-energy",
+          "amount": 7588.3,
+          "locator": "NTL 2026, sheet BE, 2024: D214A Excise duties on mineral oil (row 47); D2122C Excise duties on mineral oil (row 22); D214A Contribution for the surveillance on domestic fuel oil (row 59); D214A Contribution on oil product for heating (row 60); D214A Contribution on energy (row 61); D214A Federal contribution on electricity and natural gas / Contribution to the Energy Fund (FR) (row 62); D214A Contribution for FAPETRO (row 74); D214A Contribution for APETRA (row 75)",
+          "calculation": "6,768.7 + 60 + 24.8 + 4.5 + 360 + 160.5 + 3.1 + 206.7 = 7,588.3 (EUR million)"
+        },
+        {
+          "nodeId": "be-excise-tobacco",
+          "amount": 2541.9,
+          "locator": "NTL 2026, sheet BE, 2024: D214A Excise duties on tobacco (row 49); D2122C Excise duties on tobacco (row 24)",
+          "calculation": "2,134.3 + 407.6 = 2,541.9 (EUR million)"
+        },
+        {
+          "nodeId": "be-excise-drinks",
+          "amount": 936,
+          "locator": "NTL 2026, sheet BE, 2024: 11 lines of the list: D214A:C04, D214A:C07, D214A:C08, D214A:C09, D214A:C12, D2122C:C04, D2122C:C06, D2122C:C07, D2122C:C08, D2122C:C09, D2122C:C11",
+          "calculation": "Sum of 11 lines of the list, named in the locator (EUR million)"
+        },
+        {
+          "nodeId": "be-transaction-taxes",
+          "amount": 622.6,
+          "locator": "NTL 2026, sheet BE, 2024: D214C Taxes on stock exchange business (row 88); D214C Duties on written documents (row 90); D214C Court rights (row 87); D214C Mortgage rights (row 86)",
+          "calculation": "428.7 + 84.3 + 30.2 + 79.4 = 622.6 (EUR million)"
+        },
+        {
+          "nodeId": "be-insurance-taxes",
+          "amount": 1759.4,
+          "locator": "NTL 2026, sheet BE, 2024: D214G Taxes on insurance contracts (row 98); D214G Receipts for the benefit of the Belgian Red Cross (row 103)",
+          "calculation": "1,749.7 + 9.7 = 1,759.4 (EUR million)"
+        },
+        {
+          "nodeId": "be-insurance-levies-social",
+          "amount": 1352,
+          "locator": "NTL 2026, sheet BE, 2024: D214G Additional levy on premiums for industrial accidents (row 99); D214G Additional levy on car insurance premiums (row 100); D214G Additional levy on fire insurance premiums (row 101); D214G Additional levy on hospitalization insurance premiums (row 102)",
+          "calculation": "40.5 + 823.5 + 268.6 + 219.4 = 1,352 (EUR million)"
+        },
+        {
+          "nodeId": "be-lottery-and-airport",
+          "amount": 363.8,
+          "locator": "NTL 2026, sheet BE, 2024: D214J Profits of the national lottery (row 109); D29H Monopoly interest (National lottery) (row 146); D214H Tax on the embarkment of aircrafts (row 105)",
+          "calculation": "220 + 101.5 + 42.3 = 363.8 (EUR million)"
+        },
+        {
+          "nodeId": "be-pharma-contribution",
+          "amount": 599.2,
+          "locator": "NTL 2026, sheet BE, 2024: D214L Contribution on the turnover of the pharmaceutical industry (row 114); D214L Levy on particular pharmaceutical products (row 115); D214L Taxes on poster advertising (row 113)",
+          "calculation": "592.8 + 4.8 + 1.6 = 599.2 (EUR million)"
+        },
+        {
+          "nodeId": "be-financial-sector-taxes",
+          "amount": 1646,
+          "locator": "NTL 2026, sheet BE, 2024: D29H Annual tax on credit institution (row 156); D29H Annual tax on unit trusts, credit companies and insurance companies (row 155); D29E Contribution to the Guarantee Fund for Financial Services (Formerly Special Protection Fund for deposits, life insurance contracts and the capital of approved cooperative societies) (row 134); D29E Contribution for Financial Stability to the Resolution Funds / Single Resolution Fund (row 135)",
+          "calculation": "983 + 223.2 + 437.8 + 2 = 1,646 (EUR million)"
+        },
+        {
+          "nodeId": "be-nuclear-packaging-others",
+          "amount": 1111.4,
+          "locator": "NTL 2026, sheet BE, 2024: D29H Contribution payable by the nuclear operators (row 151); D29H Contribution to the account of the corporations (row 147); D29H Packing contribution (row 158); D29H Contribution on public mandate (row 148); D29H Annuities for patented entities (row 144)",
+          "calculation": "454.8 + 299.7 + 338.1 + 5.7 + 13.1 = 1,111.4 (EUR million)"
+        },
+        {
+          "nodeId": "be-other-production-taxes-federal",
+          "amount": 137.9,
+          "locator": "NTL 2026, sheet BE, D29H C16 Other taxes on production, 2024, less the regional and local parts from Eurostat gov_10a_taxag (S.1312 and S.1313, D29H)",
+          "calculation": "956.3 − 713.8 − 104.6 = 137.9 (EUR million)"
+        },
+        {
+          "nodeId": "be-securities-savings-taxes",
+          "amount": 1051.7,
+          "locator": "NTL 2026, sheet BE, 2024: D59A Tax on securities accounts (row 196); D59A Taxes on the NPIs (row 192); D91B Taxes on long-term savings (row 213); D91B One-off tax regulation (bis) (row 216); D91B One-off tax regulation (ter) (row 217); D59F Other taxes (row 207)",
+          "calculation": "462.2 + 98.3 + 234.1 + 12.6 + 218.5 + 26 = 1,051.7 (EUR million)"
+        },
+        {
+          "nodeId": "be-accident-fund-transfer",
+          "amount": 421,
+          "locator": "NTL 2026, sheet BE, row 195: D59A Transfer to the Fund for Industrial Accidents of recognized private insurance corporations, 2024"
+        },
+        {
+          "nodeId": "be-other-small-taxes",
+          "amount": 14.9,
+          "locator": "NTL 2026, sheet BE, 2024: D214A Compulsory contributions from producers of animals and animal products (Sanitel) (row 69); D214A Taxes on water (FR, WR and BCR) (row 63)",
+          "calculation": "12 + 2.9 = 14.9 (EUR million)"
+        }
+      ]
+    },
+    {
+      "title": "Employers’ social contributions 2024 – National Tax List (EUR million)",
+      "defaults": {
+        "denominatorId": "federal-social-employers-2024",
+        "scale": "million",
+        "currency": "EUR",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Actual compulsory contributions",
+        "sourceId": "ntl-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        {
+          "nodeId": "be-social-employers",
+          "amount": 48553.6,
+          "locator": "NTL 2026, sheet BE, 2024: D611 To the account of the general government (row 223); D611 To the account of other sectors (row 224)",
+          "calculation": "11,229.1 + 37,324.5 = 48,553.6 (EUR million)"
+        }
+      ]
+    },
+    {
+      "title": "Households’ social contributions 2024 – National Tax List (EUR million)",
+      "defaults": {
+        "denominatorId": "federal-social-households-2024",
+        "scale": "million",
+        "currency": "EUR",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Actual contributions",
+        "sourceId": "ntl-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        {
+          "nodeId": "be-social-households",
+          "amount": 32719.2,
+          "locator": "NTL 2026, sheet BE, 2024: D613CE Compulsory employees' actual social contributions (row 252); D613CS Compulsory actual social contributions by the self-employed (1) (row 254); D613CN Compulsory actual social contributions by the non-employed (1) (row 256); D613V Voluntary households' actual social contributions (row 258); D61SC Social insurance scheme service charges (row 232); D6141 Households' pension contributions supplements (1) (row 242)",
+          "calculation": "25,188.9 + 5,322.3 + 2,138.1 + 68.9 + 0.1 + 0.9 = 32,719.2 (EUR million)"
+        }
+      ]
+    },
+    {
+      "title": "Regional part of the personal income tax 2024 – Eurostat (EUR million)",
+      "defaults": {
+        "denominatorId": "regions-pit-2024",
+        "scale": "million",
+        "currency": "EUR",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "ESA taxes received by the regions and communities",
+        "sourceId": "eurostat-taxag",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        {
+          "nodeId": "be-pit-regions",
+          "amount": 13295.1,
+          "locator": "Eurostat gov_10a_taxag, 2024: S.1312 state government (regions and communities), D51A taxes on individual or household income, EUR million",
+          "caveat": "Eurostat July 2026 vintage; the National Tax List has no sector split."
+        }
+      ]
+    },
+    {
+      "title": "Regional taxes 2024 – National Tax List (EUR million)",
+      "defaults": {
+        "denominatorId": "regions-taxes-2024",
+        "scale": "million",
+        "currency": "EUR",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "ESA tax revenue",
+        "sourceId": "ntl-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        { "nodeId": "be-registration-rights", "amount": 4865.6, "locator": "NTL 2026, sheet BE, row 85: D214C Registration rights, 2024" },
+        {
+          "nodeId": "be-death-gift-duties",
+          "amount": 3792.6,
+          "locator": "NTL 2026, sheet BE, 2024: D91A Death duties (row 210); D91A Gift taxes (row 211)",
+          "calculation": "2,933.1 + 859.5 = 3,792.6 (EUR million)"
+        },
+        {
+          "nodeId": "be-regional-vehicle-taxes",
+          "amount": 2540.6,
+          "locator": "NTL 2026, sheet BE, 2024: D214D Taxes on traffic (row 93); D29B Traffic taxes paid by corporations (row 125); D59D Taxes on traffic paid by the households (row 202)",
+          "calculation": "471.9 + 682.6 + 1,386.1 = 2,540.6 (EUR million)"
+        },
+        {
+          "nodeId": "be-green-certificate-levies",
+          "amount": 1382.1,
+          "locator": "NTL 2026, sheet BE, 2024: D214A FC - green certificates delivery (row 77); D214A FC - surtax on distribution prices to finance green certificates (row 78); D214A WR - green certificates delivery (row 79); D214A WR - surtax on transmission prices to finance green certificates (row 80); D214A BCR - green certificates delivery (row 81)",
+          "calculation": "484 + 387.6 + 379.7 + 43.7 + 87.1 = 1,382.1 (EUR million)"
+        },
+        { "nodeId": "be-regional-gambling", "amount": 151.1, "locator": "NTL 2026, sheet BE, row 96: D214F Taxes on gambling and bets, 2024" },
+        {
+          "nodeId": "be-regional-environmental",
+          "amount": 252.5,
+          "locator": "NTL 2026, sheet BE, 2024: D29F Tax on waste products (FR and WR) (row 137); D29F Tax on manure (FR) (row 138); D29F Taxes on water (FR, WR and BCR) (row 139)",
+          "calculation": "104.5 + 5 + 143 = 252.5 (EUR million)"
+        },
+        {
+          "nodeId": "be-property-regions",
+          "amount": 522.4,
+          "locator": "NTL 2026, sheet BE, D29A C01, C02 and C05 (advance tax payments on property and the Brussels regional tax), 2024, less the local part from Eurostat gov_10a_taxag (S.1313, D29A)",
+          "calculation": "7,284.7 − 6,762.3 = 522.4 (EUR million)"
+        }
+      ]
+    },
+    {
+      "title": "Other regional production taxes 2024 – Eurostat (EUR million)",
+      "defaults": {
+        "denominatorId": "regions-other-production-2024",
+        "scale": "million",
+        "currency": "EUR",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "ESA taxes received by the regions and communities",
+        "sourceId": "eurostat-taxag",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        {
+          "nodeId": "be-other-production-taxes-regions",
+          "amount": 104.6,
+          "locator": "Eurostat gov_10a_taxag, 2024: S.1312 (regions and communities), D29H other taxes on production, EUR million",
+          "caveat": "Eurostat July 2026 vintage; the allocation to the single NTL line \"other taxes on production\" is an inference from the amounts."
+        }
+      ]
+    },
+    {
+      "title": "Local taxes recorded by Eurostat 2024 (EUR million)",
+      "defaults": {
+        "denominatorId": "local-eurostat-2024",
+        "scale": "million",
+        "currency": "EUR",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "ESA taxes received by local government",
+        "sourceId": "eurostat-taxag",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        {
+          "nodeId": "be-pit-local",
+          "amount": 4105.2,
+          "locator": "Eurostat gov_10a_taxag, 2024: S.1313 local government, D51A taxes on individual or household income, EUR million",
+          "caveat": "Eurostat July 2026 vintage; the National Tax List has no sector split."
+        },
+        {
+          "nodeId": "be-property-local",
+          "amount": 6762.3,
+          "locator": "Eurostat gov_10a_taxag, 2024: S.1313 local government, D29A taxes on land, buildings or other structures, EUR million",
+          "caveat": "Eurostat July 2026 vintage."
+        },
+        {
+          "nodeId": "be-other-production-taxes-local",
+          "amount": 713.8,
+          "locator": "Eurostat gov_10a_taxag, 2024: S.1313 local government, D29H other taxes on production, EUR million",
+          "caveat": "Eurostat July 2026 vintage; the allocation to the single NTL line \"other taxes on production\" is an inference from the amounts."
+        }
+      ]
+    },
+    {
+      "title": "Local patrimony taxes 2024 – National Tax List (EUR million)",
+      "defaults": {
+        "denominatorId": "local-patrimony-2024",
+        "scale": "million",
+        "currency": "EUR",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "ESA tax revenue",
+        "sourceId": "ntl-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        {
+          "nodeId": "be-patrimony-and-appliances",
+          "amount": 427.4,
+          "locator": "NTL 2026, sheet BE, 2024: D59A Taxes on patrimony (grounds and buildings) (row 191); D29B Tax on automatically recreation appliances (row 126)",
+          "calculation": "377.4 + 50 = 427.4 (EUR million)"
+        }
+      ]
+    }
+  ],
+  "unavailable": []
+}

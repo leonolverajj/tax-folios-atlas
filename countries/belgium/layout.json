@@ -1,0 +1,162 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "belgium": {
+      "x": 800,
+      "y": 500
+    },
+    "federal": {
+      "x": 509,
+      "y": 432
+    },
+    "be-pit-federal": {
+      "x": 551,
+      "y": 760
+    },
+    "be-customs": {
+      "x": 365,
+      "y": 674
+    },
+    "be-transaction-taxes": {
+      "x": 325,
+      "y": 485
+    },
+    "be-pharma-contribution": {
+      "x": 396,
+      "y": 290
+    },
+    "be-securities-savings-taxes": {
+      "x": 633,
+      "y": 213
+    },
+    "be-social-households": {
+      "x": 913,
+      "y": 182
+    },
+    "be-special-social-contribution": {
+      "x": 297,
+      "y": 796
+    },
+    "be-excise-fuel-energy": {
+      "x": 114,
+      "y": 460
+    },
+    "be-insurance-taxes": {
+      "x": 292,
+      "y": 194
+    },
+    "be-financial-sector-taxes": {
+      "x": 724,
+      "y": 122
+    },
+    "be-accident-fund-transfer": {
+      "x": 1216,
+      "y": 115
+    },
+    "be-corporate-income-tax": {
+      "x": 436,
+      "y": 907
+    },
+    "be-excise-tobacco": {
+      "x": 81,
+      "y": 716
+    },
+    "be-insurance-levies-social": {
+      "x": 123,
+      "y": 313
+    },
+    "be-nuclear-packaging-others": {
+      "x": 390,
+      "y": 32
+    },
+    "be-other-small-taxes": {
+      "x": 1020,
+      "y": 32
+    },
+    "be-vat": {
+      "x": 66,
+      "y": 900
+    },
+    "be-excise-drinks": {
+      "x": 127,
+      "y": 552
+    },
+    "be-lottery-and-airport": {
+      "x": 119,
+      "y": 38
+    },
+    "be-other-production-taxes-federal": {
+      "x": 700,
+      "y": 32
+    },
+    "be-social-employers": {
+      "x": 1434,
+      "y": 64
+    },
+    "regions": {
+      "x": 1103,
+      "y": 457
+    },
+    "be-pit-regions": {
+      "x": 1115,
+      "y": 215
+    },
+    "be-death-gift-duties": {
+      "x": 1216,
+      "y": 315
+    },
+    "be-green-certificate-levies": {
+      "x": 1300,
+      "y": 430
+    },
+    "be-regional-environmental": {
+      "x": 1304,
+      "y": 557
+    },
+    "be-other-production-taxes-regions": {
+      "x": 1231,
+      "y": 697
+    },
+    "be-registration-rights": {
+      "x": 1322,
+      "y": 207
+    },
+    "be-regional-vehicle-taxes": {
+      "x": 1481,
+      "y": 414
+    },
+    "be-regional-gambling": {
+      "x": 1459,
+      "y": 642
+    },
+    "be-property-regions": {
+      "x": 1290,
+      "y": 831
+    },
+    "local": {
+      "x": 893,
+      "y": 691
+    },
+    "be-pit-local": {
+      "x": 1088,
+      "y": 605
+    },
+    "be-property-local": {
+      "x": 1079,
+      "y": 789
+    },
+    "be-other-production-taxes-local": {
+      "x": 888,
+      "y": 882
+    },
+    "be-patrimony-and-appliances": {
+      "x": 740,
+      "y": 788
+    }
+  },
+  "radii": {}
+}

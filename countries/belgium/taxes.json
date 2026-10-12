@@ -1,0 +1,803 @@
+{
+  "instruments": [
+    {
+      "id": "be-pit-federal",
+      "parentId": "federal",
+      "levelId": "federal",
+      "category": "tax",
+      "family": "income-personal",
+      "status": "current",
+      "names": {
+        "official": "Personal income tax (federal part): advance payments and withholding on employment income, assessments, non-residents",
+        "native": "Impôt des personnes physiques / Personenbelasting (partie fédérale)",
+        "common": "Personal income tax: federal part"
+      },
+      "taxes": {
+        "base": "Employment income withheld by employers (business advance payments EUR 63.0 billion), movable income (EUR 6.7 billion), other advance payments and assessments (EUR 3.0 billion), non-residents (EUR 1.1 billion) and others.",
+        "payer": "Individuals; employers withhold most of it."
+      },
+      "rate": {
+        "kind": "progressive",
+        "headline": "25% to 50% federal scale (2025)",
+        "details": [
+          "For income year 2025 the federal tax rates range between 25% and 50%; the regions retain surcharges on the \"reduced\" federal tax and grant their own reductions and credits since the 6th State reform (PwC).",
+          "As summarised by PwC (review of 10 September 2026), not checked against the Federal Public Service Finance."
+        ],
+        "asOf": "2026-09-10"
+      },
+      "explanation": "The National Tax List gives one set of lines for the personal income tax (EUR 73.9 billion in the lines drawn here). Eurostat’s accounts place EUR 13.3 billion with the regions and communities and EUR 4.1 billion with local government (the municipal surcharges); this row is the rest, under the federal government.",
+      "exceptions": ["The special social security contribution (EUR 1.4 billion) is drawn separately."],
+      "legalRefs": [
+        { "sourceId": "pwc-be-individual", "locator": "Taxes on personal income" },
+        { "sourceId": "eurostat-taxag", "locator": "S.1311, S.1312 and S.1313, D51A" }
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "be-special-social-contribution",
+      "parentId": "federal",
+      "levelId": "federal",
+      "category": "tax",
+      "family": "income-personal",
+      "status": "current",
+      "names": {
+        "official": "Special social contributions",
+        "native": "Cotisation spéciale de sécurité sociale / Bijzondere bijdrage voor de sociale zekerheid",
+        "common": "Special social security contribution"
+      },
+      "taxes": {
+        "base": "As named in the National Tax List (\"special social contributions\", booked as a personal income tax); the list gives no further detail.",
+        "payer": "Individuals."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Set by law",
+        "details": ["Eurostat records EUR 1,371 million of personal income taxes with the social security funds, which is this line."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "A levy booked among the income taxes that finances social security.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet BE, D51A C06" }, { "sourceId": "eurostat-taxag", "locator": "S.1314, D51A" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "be-corporate-income-tax",
+      "parentId": "federal",
+      "levelId": "federal",
+      "category": "tax",
+      "family": "income-corporate",
+      "status": "current",
+      "names": {
+        "official": "Corporate income tax: advance payments, assessments and non-residents",
+        "native": "Impôt des sociétés / Vennootschapsbelasting",
+        "common": "Corporate income tax"
+      },
+      "taxes": {
+        "base": "Profit of companies. Advance payments EUR 22.2 billion, assessments EUR 3.8 billion, movable income EUR 1.0 billion, non-residents EUR 0.1 billion.",
+        "payer": "Companies."
+      },
+      "rate": {
+        "kind": "flat",
+        "headline": "25% general; 20% on the first EUR 100,000 for small companies",
+        "details": [
+          "The general CIT rate is 25%; qualifying small companies pay 20% on the first EUR 100,000 of profit (PwC).",
+          "As summarised by PwC (review of 10 September 2026), not checked against the Federal Public Service Finance."
+        ],
+        "asOf": "2026-09-10"
+      },
+      "explanation": "EUR 27.0 billion in 2024, all under the federal government.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "pwc-be-corporate", "locator": "Corporate income tax rates" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "be-vat",
+      "parentId": "federal",
+      "levelId": "federal",
+      "category": "tax",
+      "family": "general-consumption",
+      "status": "current",
+      "names": {
+        "official": "Value added tax",
+        "native": "Taxe sur la valeur ajoutée (TVA) / Belasting over de toegevoegde waarde (BTW)",
+        "common": "VAT",
+        "abbreviation": "TVA / BTW"
+      },
+      "taxes": { "base": "Goods and services supplied in Belgium and imports.", "payer": "Consumers; businesses charge it and claim input credits." },
+      "rate": {
+        "kind": "range",
+        "headline": "21% standard; 12% and 6% reduced",
+        "details": [
+          "The standard VAT rate is 21% and applies to everything that does not qualify for a reduced rate; 12% applies to certain goods, among them some fuels and materials (PwC).",
+          "As summarised by PwC (review of 10 September 2026), not checked against the Federal Public Service Finance."
+        ],
+        "asOf": "2026-09-10"
+      },
+      "explanation": "The largest consumption tax: EUR 38.2 billion.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "pwc-be-other", "locator": "Value-added tax" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "be-customs",
+      "parentId": "federal",
+      "levelId": "federal",
+      "category": "customs-duty",
+      "family": "trade",
+      "status": "current",
+      "names": { "official": "Import duties including ECSC rights", "native": "Droits d’importation / Invoerrechten", "common": "Customs duties" },
+      "taxes": { "base": "Goods imported from outside the EU, by the Common Customs Tariff.", "payer": "Importers." },
+      "rate": {
+        "kind": "varies",
+        "headline": "EU Common Customs Tariff",
+        "details": ["An EU own resource; Eurostat records it under the EU institutions."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "Collected for the EU budget; Antwerp is one of Europe’s largest ports.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "eurostat-taxag", "locator": "S.212, D212" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "be-excise-fuel-energy",
+      "parentId": "federal",
+      "levelId": "federal",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "Excise duties on mineral oil and the federal contributions on energy, heating oil and strategic stocks",
+        "native": "Accises sur les huiles minérales; cotisation sur l’énergie; cotisations APETRA et FAPETRO",
+        "common": "Fuel and energy excises and contributions"
+      },
+      "taxes": {
+        "base": "Mineral oil (EUR 6.8 billion and EUR 0.06 billion on imports), the contribution on energy (EUR 360 million), the contribution for APETRA (strategic oil stocks, EUR 207 million), the federal contribution on electricity and gas (EUR 161 million) and small contributions for fuel oil surveillance and heating oil.",
+        "payer": "Fuel and energy suppliers; passed on at the pump."
+      },
+      "rate": { "kind": "specific", "headline": "Per 1,000 litres", "details": [], "asOf": "2026-10-12" },
+      "explanation": "The biggest excise.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet BE, D214A C01 and C13–C16 and C28–C29, D2122C C01" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "be-excise-tobacco",
+      "parentId": "federal",
+      "levelId": "federal",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Excise duties on tobacco", "native": "Accises sur le tabac / Accijnzen op tabak", "common": "Tobacco excise" },
+      "taxes": { "base": "Cigarettes and other tobacco products.", "payer": "Producers and importers; passed on in the price." },
+      "rate": {
+        "kind": "mechanism",
+        "headline": "Fixed by law",
+        "details": ["EUR 2.1 billion on domestic and EUR 0.4 billion on imported tobacco in 2024."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "EUR 2.5 billion.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet BE, D214A C03, D2122C C03" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "be-excise-drinks",
+      "parentId": "federal",
+      "levelId": "federal",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "Excise duties on brandy, beer, fermented drinks, soft drinks, intermediary products and coffee",
+        "native": "Accises sur les alcools, la bière, les boissons non alcoolisées et le café",
+        "common": "Alcohol, soft drink and coffee excises"
+      },
+      "taxes": {
+        "base": "Spirits (EUR 297 million), fermented drinks, beer (EUR 172 million), non-alcoholic beverages (EUR 182 million), intermediary products and coffee (EUR 14 million).",
+        "payer": "Producers and importers; passed on in the price."
+      },
+      "rate": { "kind": "specific", "headline": "Per litre", "details": [], "asOf": "2026-10-12" },
+      "explanation": "Eleven lines of the list.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet BE, D214A C04, C07–C09, C12, D2122C C04, C06–C09, C11" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "be-transaction-taxes",
+      "parentId": "federal",
+      "levelId": "federal",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": {
+        "official": "Tax on stock exchange transactions, duties on written documents, court rights and mortgage rights",
+        "native": "Taxe sur les opérations de bourse; droits d’écriture; droits de greffe; droits d’hypothèque",
+        "common": "Federal transaction taxes"
+      },
+      "taxes": {
+        "base": "Stock exchange business (EUR 428.7 million), mortgage rights (EUR 79.4 million), written documents (EUR 84.3 million) and court rights (EUR 30.2 million).",
+        "payer": "Parties to the transactions."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Set by the Code of registration duties",
+        "details": ["The registration duties on property transfers go to the regions and are drawn in their part."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "Four lines that stay with the federal government.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet BE, D214C C02–C04 and C06" }, { "sourceId": "eurostat-taxag", "locator": "S.1311, D214C" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "be-insurance-taxes",
+      "parentId": "federal",
+      "levelId": "federal",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "Tax on insurance contracts and receipts for the Belgian Red Cross",
+        "native": "Taxe sur les contrats d’assurance; recettes au profit de la Croix-Rouge",
+        "common": "Insurance tax"
+      },
+      "taxes": {
+        "base": "Insurance premiums (EUR 1,749.7 million) and a small levy for the Red Cross (EUR 9.7 million).",
+        "payer": "Insurers and policyholders."
+      },
+      "rate": { "kind": "varies", "headline": "A percentage of the premium by type of insurance", "details": [], "asOf": "2026-10-12" },
+      "explanation": "The additional levies on premiums that go to the social security funds are drawn in a separate row.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet BE, D214G C01 and C06" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "be-insurance-levies-social",
+      "parentId": "federal",
+      "levelId": "federal",
+      "category": "special-levy",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "Additional levies on premiums for industrial accidents, car insurance, fire insurance and hospitalisation insurance",
+        "native": "Cotisations supplémentaires sur les primes d’assurance",
+        "common": "Insurance premium levies for social security"
+      },
+      "taxes": {
+        "base": "Car insurance premiums (EUR 823.5 million), fire insurance (EUR 268.6 million), hospitalisation insurance (EUR 219.4 million) and industrial accidents (EUR 40.5 million).",
+        "payer": "Insurers and policyholders."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Set by law",
+        "details": ["Eurostat records EUR 1,352 million of insurance taxes with the social security funds, which is these four lines."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "Earmarked levies that finance social security.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet BE, D214G C02–C05" }, { "sourceId": "eurostat-taxag", "locator": "S.1314, D214G" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "be-lottery-and-airport",
+      "parentId": "federal",
+      "levelId": "federal",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "Profits of the National Lottery, monopoly interest, and the tax on the embarkation of aircraft passengers",
+        "native": "Bénéfices de la Loterie Nationale; taxe d’embarquement",
+        "common": "National Lottery and embarkation tax"
+      },
+      "taxes": {
+        "base": "The National Lottery’s profits (EUR 220 million), monopoly interest (EUR 101.5 million) and a tax on embarkation of aircraft passengers (EUR 42.3 million).",
+        "payer": "The National Lottery; air passengers."
+      },
+      "rate": { "kind": "varies", "headline": "Set by law", "details": [], "asOf": "2026-10-12" },
+      "explanation": "Three lines.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet BE, D214J C01, D29H C03, D214H C01" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "be-pharma-contribution",
+      "parentId": "federal",
+      "levelId": "federal",
+      "category": "special-levy",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "Contribution on the turnover of the pharmaceutical industry, levy on particular pharmaceutical products and poster advertising tax",
+        "native": "Cotisation sur le chiffre d’affaires de l’industrie pharmaceutique",
+        "common": "Pharmaceutical industry contribution"
+      },
+      "taxes": {
+        "base": "The turnover of the pharmaceutical industry (EUR 592.8 million), particular pharmaceutical products (EUR 4.8 million) and poster advertising (EUR 1.6 million).",
+        "payer": "Pharmaceutical companies and advertisers."
+      },
+      "rate": { "kind": "varies", "headline": "A percentage of turnover", "details": [], "asOf": "2026-10-12" },
+      "explanation": "A levy on the pharmaceutical sector.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet BE, D214L C01–C03" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "be-financial-sector-taxes",
+      "parentId": "federal",
+      "levelId": "federal",
+      "category": "special-levy",
+      "family": "other",
+      "status": "current",
+      "names": {
+        "official": "Annual tax on credit institutions, annual tax on unit trusts, credit companies and insurance companies, and the contributions to the guarantee and resolution funds",
+        "native": "Taxe annuelle sur les établissements de crédit; Fonds de garantie",
+        "common": "Financial-sector taxes"
+      },
+      "taxes": {
+        "base": "Credit institutions (EUR 983.0 million), the Guarantee Fund for financial services (EUR 437.8 million), unit trusts, credit companies and insurers (EUR 223.2 million) and the resolution funds (EUR 2 million).",
+        "payer": "Banks, insurers and funds."
+      },
+      "rate": { "kind": "varies", "headline": "Set by law", "details": [], "asOf": "2026-10-12" },
+      "explanation": "Four lines.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet BE, D29H C12–C13, D29E C02–C03" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "be-nuclear-packaging-others",
+      "parentId": "federal",
+      "levelId": "federal",
+      "category": "special-levy",
+      "family": "other",
+      "status": "current",
+      "names": {
+        "official": "Contribution by nuclear operators, contribution to the account of corporations, packaging contribution and others",
+        "native": "Contribution des exploitants nucléaires; cotisation d’emballage",
+        "common": "Nuclear, packaging and other contributions"
+      },
+      "taxes": {
+        "base": "Nuclear operators (EUR 454.8 million), the contribution to the account of the corporations (EUR 299.7 million), the packaging contribution (EUR 338.1 million), the public mandate contribution (EUR 5.7 million) and annuities for patented entities (EUR 13.1 million).",
+        "payer": "Nuclear operators, corporations and packers."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Set by law",
+        "details": ["Eurostat books EUR 312 million of other taxes on production with the social security funds; the list does not say which lines."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "Five lines.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet BE, D29H C01, C04, C05, C08, C15" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "be-other-production-taxes-federal",
+      "parentId": "federal",
+      "levelId": "federal",
+      "category": "tax",
+      "family": "other",
+      "status": "current",
+      "names": {
+        "official": "Other taxes on production, part not recorded under regions or local government",
+        "native": "Autres impôts sur la production / Andere belastingen op de productie",
+        "common": "Other taxes on production: federal part"
+      },
+      "taxes": {
+        "base": "As named in the National Tax List (\"other taxes on production\"); the list gives one amount of EUR 956.3 million.",
+        "payer": "Not given in the list."
+      },
+      "rate": { "kind": "varies", "headline": "Set by law", "details": [], "asOf": "2026-10-12" },
+      "explanation": "Eurostat records EUR 713.8 million of the \"other taxes on production\" with local government and EUR 104.6 million with the regions; the rest is drawn here.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet BE, D29H C16" }, { "sourceId": "eurostat-taxag", "locator": "S.1311, S.1312 and S.1313, D29H" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "be-securities-savings-taxes",
+      "parentId": "federal",
+      "levelId": "federal",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": {
+        "official": "Tax on securities accounts, tax on non-profit institutions, tax on long-term savings, one-off tax regularisations and other taxes",
+        "native": "Taxe sur les comptes-titres; taxe sur l’épargne à long terme",
+        "common": "Securities account tax and savings taxes"
+      },
+      "taxes": {
+        "base": "Securities accounts (EUR 462.2 million), long-term savings (EUR 234.1 million), the tax on non-profit institutions (EUR 98.3 million), one-off tax regularisations (EUR 231 million in two lines) and other taxes (EUR 26 million).",
+        "payer": "Holders of securities accounts and savers; non-profit institutions."
+      },
+      "rate": { "kind": "varies", "headline": "Set by law", "details": [], "asOf": "2026-10-12" },
+      "explanation": "Six lines of the list that tax wealth.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet BE, D59A C02 and C06, D91B C01, C04, C05, D59F C01" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "be-accident-fund-transfer",
+      "parentId": "federal",
+      "levelId": "federal",
+      "category": "special-levy",
+      "family": "other",
+      "status": "current",
+      "names": {
+        "official": "Transfer to the Fund for Industrial Accidents of recognised insurers",
+        "native": "Transfert au Fonds des accidents du travail",
+        "common": "Industrial Accidents Fund transfer"
+      },
+      "taxes": {
+        "base": "As named in the National Tax List; Eurostat records EUR 421 million of other wealth taxes with the social security funds, which is this line.",
+        "payer": "Insurers."
+      },
+      "rate": { "kind": "varies", "headline": "Set by law", "details": [], "asOf": "2026-10-12" },
+      "explanation": "A transfer that the list books as a tax.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet BE, D59A C05" }, { "sourceId": "eurostat-taxag", "locator": "S.1314, D59A" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "be-other-small-taxes",
+      "parentId": "federal",
+      "levelId": "federal",
+      "category": "fee",
+      "family": "other",
+      "status": "current",
+      "names": {
+        "official": "Compulsory contributions from animal producers and taxes on water",
+        "native": "Cotisations obligatoires des producteurs d’animaux; taxes sur l’eau",
+        "common": "Other small contributions"
+      },
+      "taxes": {
+        "base": "Compulsory contributions from producers of animals and animal products (EUR 12 million) and a small tax on water (EUR 2.9 million).",
+        "payer": "Producers and water users."
+      },
+      "rate": { "kind": "varies", "headline": "Set by law", "details": [], "asOf": "2026-10-12" },
+      "explanation": "Two small lines.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet BE, D214A C17 and C23" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "be-social-employers",
+      "parentId": "federal",
+      "levelId": "federal",
+      "category": "social-contribution",
+      "family": "social-security",
+      "status": "current",
+      "names": {
+        "official": "Employers’ actual social contributions (to the account of general government and of other sectors)",
+        "native": "Cotisations sociales des employeurs / Werkgeversbijdragen",
+        "common": "Employers’ contributions"
+      },
+      "taxes": {
+        "base": "Gross pay. The list splits the line by who receives the money: EUR 11.2 billion to the account of general government and EUR 37.3 billion to the account of other sectors.",
+        "payer": "Employers."
+      },
+      "rate": { "kind": "flat", "headline": "Set by the social security laws", "details": ["The rates are not extracted here."], "asOf": "2026-10-12" },
+      "explanation": "Collected by the National Social Security Office.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet BE, D611" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "be-social-households",
+      "parentId": "federal",
+      "levelId": "federal",
+      "category": "social-contribution",
+      "family": "social-security",
+      "status": "current",
+      "names": {
+        "official": "Social contributions of employees, the self-employed and the non-employed, voluntary contributions and service charges",
+        "native": "Cotisations sociales des travailleurs, indépendants et non-actifs",
+        "common": "Households’ contributions"
+      },
+      "taxes": {
+        "base": "Employees (EUR 25.2 billion), self-employed (EUR 5.3 billion), non-employed (EUR 2.1 billion), voluntary contributions (EUR 0.07 billion) and small service-charge and supplement lines.",
+        "payer": "Employees, the self-employed and the non-employed."
+      },
+      "rate": { "kind": "flat", "headline": "Set by the social security laws", "details": ["The rates are not extracted here."], "asOf": "2026-10-12" },
+      "explanation": "Six lines.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet BE, D613CE, D613CS, D613CN, D613V, D61SC, D614" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "be-pit-regions",
+      "parentId": "regions",
+      "levelId": "regions",
+      "category": "tax",
+      "family": "income-personal",
+      "status": "current",
+      "names": {
+        "official": "Personal income tax received by the regions and communities (regional surcharges and the share of the federal tax)",
+        "native": "IPP des régions et communautés / Gewestelijke personenbelasting",
+        "common": "Personal income tax: regional part"
+      },
+      "taxes": {
+        "base": "The same tax as the federal part, after the 6th State reform: the regions set surcharges on the reduced federal income tax and grant their own reductions and credits.",
+        "payer": "Individuals."
+      },
+      "rate": {
+        "kind": "range",
+        "headline": "Regional surcharges and reductions",
+        "details": [
+          "The regions are entitled to retain surcharges on the \"reduced federal personal income taxation\" and to grant tax reductions and credits (PwC)."
+        ],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "Eurostat’s accounts record EUR 13.3 billion of the personal income tax under the regions and communities.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "pwc-be-individual", "locator": "Taxes on personal income" }, { "sourceId": "eurostat-taxag", "locator": "S.1312, D51A" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "be-registration-rights",
+      "parentId": "regions",
+      "levelId": "regions",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "Registration rights", "native": "Droits d’enregistrement / Registratierechten", "common": "Registration rights" },
+      "taxes": { "base": "Transfers of real estate and similar acts.", "payer": "Buyers." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Set by each region",
+        "details": ["EUR 4.9 billion in 2024; Eurostat books EUR 4.7 billion of the transaction taxes under the regions."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "The tax on buying a home, set by each region.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet BE, D214C C01" }, { "sourceId": "eurostat-taxag", "locator": "S.1312, D214C" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "be-death-gift-duties",
+      "parentId": "regions",
+      "levelId": "regions",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": {
+        "official": "Death duties and gift taxes",
+        "native": "Droits de succession et de donation / Successie- en schenkingsrechten",
+        "common": "Inheritance and gift taxes"
+      },
+      "taxes": { "base": "Inheritances (EUR 2.9 billion) and gifts (EUR 0.9 billion).", "payer": "Heirs and donees." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Set by each region",
+        "details": ["Eurostat books EUR 3.8 billion of capital taxes under the regions."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "Regional taxes.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet BE, D91A" }, { "sourceId": "eurostat-taxag", "locator": "S.1312, D91" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "be-regional-vehicle-taxes",
+      "parentId": "regions",
+      "levelId": "regions",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "Taxes on traffic: circulation and registration, paid by corporations and by households",
+        "native": "Taxes de circulation et de mise en circulation / Verkeersbelasting",
+        "common": "Vehicle taxes"
+      },
+      "taxes": {
+        "base": "Taxes on traffic (EUR 471.9 million), traffic taxes paid by corporations (EUR 682.6 million) and by households (EUR 1,386.1 million).",
+        "payer": "Vehicle owners and companies."
+      },
+      "rate": { "kind": "varies", "headline": "By vehicle, set by each region", "details": [], "asOf": "2026-10-12" },
+      "explanation": "Regional taxes on owning and registering vehicles.",
+      "exceptions": [],
+      "legalRefs": [
+        { "sourceId": "ntl-2026", "locator": "sheet BE, D214D C02, D29B C01, D59D C01" },
+        { "sourceId": "eurostat-taxag", "locator": "S.1312, D214D and D29B" }
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "be-green-certificate-levies",
+      "parentId": "regions",
+      "levelId": "regions",
+      "category": "special-levy",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "Green certificate delivery and surtaxes on distribution and transmission prices for green certificates (Flanders, Wallonia, Brussels)",
+        "native": "Certificats verts / Groenestroomcertificaten",
+        "common": "Green certificate levies"
+      },
+      "taxes": {
+        "base": "Flanders (FC) green certificates EUR 484.0 million and the surtax on distribution prices EUR 387.6 million; Wallonia (WR) EUR 379.7 million and EUR 43.7 million; Brussels (BCR) EUR 87.1 million.",
+        "payer": "Electricity consumers."
+      },
+      "rate": { "kind": "varies", "headline": "Set by each region", "details": [], "asOf": "2026-10-12" },
+      "explanation": "Regional levies on electricity that finance support for renewable electricity.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet BE, D214A C31–C35" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "be-regional-gambling",
+      "parentId": "regions",
+      "levelId": "regions",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "Taxes on gambling and bets",
+        "native": "Taxes sur les jeux et paris / Belasting op spelen en weddenschappen",
+        "common": "Gambling tax"
+      },
+      "taxes": { "base": "Gambling and betting.", "payer": "Operators." },
+      "rate": { "kind": "varies", "headline": "Set by each region", "details": [], "asOf": "2026-10-12" },
+      "explanation": "EUR 151.1 million; Eurostat books all of it under the regions.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet BE, D214F C01" }, { "sourceId": "eurostat-taxag", "locator": "S.1312, D214F" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "be-regional-environmental",
+      "parentId": "regions",
+      "levelId": "regions",
+      "category": "tax",
+      "family": "resource",
+      "status": "current",
+      "names": {
+        "official": "Taxes on waste products, manure and water",
+        "native": "Taxes sur les déchets, le fumier et l’eau / Heffingen op afval, mest en water",
+        "common": "Environmental taxes"
+      },
+      "taxes": {
+        "base": "Waste (EUR 104.5 million, Flanders and Wallonia), manure (EUR 5 million, Flanders) and water (EUR 143 million, in all three regions).",
+        "payer": "Polluters and water users."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Set by each region",
+        "details": ["The sale of emission permits (EUR 753.5 million) is not counted."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "Eurostat books EUR 1,006 million of taxes on pollution under the regions, which includes the emission permits.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet BE, D29F" }, { "sourceId": "eurostat-taxag", "locator": "S.1312, D29F" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "be-property-regions",
+      "parentId": "regions",
+      "levelId": "regions",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": {
+        "official": "Advance tax payments on property and the Brussels regional tax, part recorded under the regions",
+        "native": "Précompte immobilier / Onroerende voorheffing (parts régionale)",
+        "common": "Property tax: regional part"
+      },
+      "taxes": {
+        "base": "The tax on the cadastral income of real estate, paid in advance; the Brussels Capital Region also levies a regional tax.",
+        "payer": "Owners of real estate."
+      },
+      "rate": { "kind": "varies", "headline": "Set by each region", "details": [], "asOf": "2026-10-12" },
+      "explanation": "The list gives EUR 7,284.7 million for the advance payments on property of persons and corporations and the Brussels regional tax. Eurostat books EUR 6,762.3 million of it under local government (the municipal and provincial surcharges); the rest goes to the regions.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet BE, D29A C01, C02, C05" }, { "sourceId": "eurostat-taxag", "locator": "S.1312 and S.1313, D29A" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "be-other-production-taxes-regions",
+      "parentId": "regions",
+      "levelId": "regions",
+      "category": "tax",
+      "family": "other",
+      "status": "current",
+      "names": {
+        "official": "Other taxes on production, part recorded under the regions",
+        "native": "Autres impôts sur la production (régions)",
+        "common": "Other taxes on production: regional part"
+      },
+      "taxes": { "base": "As named in the National Tax List (\"other taxes on production\").", "payer": "Not given in the list." },
+      "rate": { "kind": "varies", "headline": "Set by law", "details": [], "asOf": "2026-10-12" },
+      "explanation": "The part of the line that Eurostat’s accounts record under the regions (EUR 104.6 million).",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet BE, D29H C16" }, { "sourceId": "eurostat-taxag", "locator": "S.1312, D29H" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "be-pit-local",
+      "parentId": "local",
+      "levelId": "local",
+      "category": "tax",
+      "family": "income-personal",
+      "status": "current",
+      "names": {
+        "official": "Municipal surcharges on the personal income tax",
+        "native": "Taxe additionnelle communale à l’IPP / Aanvullende gemeentebelasting op de personenbelasting",
+        "common": "Municipal surcharge on income tax"
+      },
+      "taxes": {
+        "base": "A percentage added to the personal income tax of residents.",
+        "payer": "Individuals; collected by the federal administration with the income tax."
+      },
+      "rate": {
+        "kind": "range",
+        "headline": "Set by each municipality",
+        "details": ["Eurostat’s accounts record EUR 4.1 billion of personal income tax under local government."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "The municipalities’ main own tax.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "eurostat-taxag", "locator": "S.1313, D51A" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "be-property-local",
+      "parentId": "local",
+      "levelId": "local",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": {
+        "official": "Municipal and provincial surcharges on the property tax (advance tax payments on property)",
+        "native": "Centimes additionnels au précompte immobilier / Opcentiemen op de onroerende voorheffing",
+        "common": "Property tax: local surcharges"
+      },
+      "taxes": { "base": "The cadastral income of real estate.", "payer": "Owners of real estate." },
+      "rate": { "kind": "range", "headline": "Set by each municipality and province", "details": [], "asOf": "2026-10-12" },
+      "explanation": "The part of the advance payments on property that Eurostat’s accounts record under local government.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet BE, D29A C01 and C02" }, { "sourceId": "eurostat-taxag", "locator": "S.1313, D29A" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "be-other-production-taxes-local",
+      "parentId": "local",
+      "levelId": "local",
+      "category": "tax",
+      "family": "other",
+      "status": "current",
+      "names": {
+        "official": "Other taxes on production, part recorded under local government",
+        "native": "Autres impôts sur la production (communes)",
+        "common": "Other taxes on production: local part"
+      },
+      "taxes": { "base": "As named in the National Tax List (\"other taxes on production\").", "payer": "Not given in the list." },
+      "rate": { "kind": "range", "headline": "Set by each municipality", "details": [], "asOf": "2026-10-12" },
+      "explanation": "The part of the line that Eurostat’s accounts record under local government (EUR 713.8 million); the municipal taxes on businesses, signs and the like are not itemised in the list.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet BE, D29H C16" }, { "sourceId": "eurostat-taxag", "locator": "S.1313, D29H" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "be-patrimony-and-appliances",
+      "parentId": "local",
+      "levelId": "local",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": {
+        "official": "Taxes on patrimony (grounds and buildings) and on automatic recreation appliances",
+        "native": "Taxes sur le patrimoine; taxe sur les appareils automatiques de divertissement",
+        "common": "Patrimony and appliance taxes"
+      },
+      "taxes": { "base": "Grounds and buildings (EUR 377.4 million) and automatic recreation appliances (EUR 50 million).", "payer": "Owners and operators." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Set by each municipality",
+        "details": ["Eurostat books EUR 381 million of other wealth taxes under local government."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "Two small local lines.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet BE, D59A C01, D29B C02" }, { "sourceId": "eurostat-taxag", "locator": "S.1313, D59A and D29B" }],
+      "checkedOn": "2026-10-12"
+    }
+  ]
+}

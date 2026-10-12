@@ -1,0 +1,582 @@
+{
+  "instruments": [
+    {
+      "id": "hu-pit",
+      "parentId": "allam",
+      "levelId": "allam",
+      "category": "tax",
+      "family": "income-personal",
+      "status": "current",
+      "names": { "official": "Personal income tax", "native": "Személyi jövedelemadó (szja)", "common": "Personal income tax" },
+      "taxes": {
+        "base": "Employment income, independent activity (including rents), capital income and other income of residents.",
+        "payer": "Individuals; employers withhold it."
+      },
+      "rate": {
+        "kind": "flat",
+        "headline": "15%",
+        "details": [
+          "The PIT rate is 15% for nearly all types of income (PwC).",
+          "As summarised by PwC (review of 1 July 2026), not checked against the National Tax and Customs Administration (NAV)."
+        ],
+        "asOf": "2026-07-01"
+      },
+      "explanation": "The largest direct tax: HUF 4.6 trillion in 2024. Eurostat books all of it under central government.",
+      "exceptions": ["Allowances for dependent children and young couples reduce the tax base."],
+      "legalRefs": [{ "sourceId": "pwc-hu-individual", "locator": "Personal income tax rate" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "hu-cit",
+      "parentId": "allam",
+      "levelId": "allam",
+      "category": "tax",
+      "family": "income-corporate",
+      "status": "current",
+      "names": { "official": "Corporate income tax", "native": "Társasági adó", "common": "Corporate income tax" },
+      "taxes": { "base": "Profit of companies; a minimum tax base of 2% of total revenue applies.", "payer": "Companies." },
+      "rate": {
+        "kind": "flat",
+        "headline": "9%",
+        "details": [
+          "From 1 January 2017 the CIT rate is a flat 9% of the positive tax base (PwC).",
+          "As summarised by PwC (review of 1 July 2026), not checked against the National Tax and Customs Administration (NAV)."
+        ],
+        "asOf": "2026-07-01"
+      },
+      "explanation": "HUF 1.1 trillion in 2024.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "pwc-hu-corporate", "locator": "Corporate income tax rate" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "hu-sector-special-taxes",
+      "parentId": "allam",
+      "levelId": "allam",
+      "category": "special-levy",
+      "family": "income-corporate",
+      "status": "current",
+      "names": {
+        "official": "Sector special taxes: extra tax on financial institutions, income tax and surtax on energy suppliers, surtax on pharmaceutical companies, special tax on retailers",
+        "native": "Különadók (pénzügyi intézmények, energiaellátók, gyógyszercégek, kiskereskedők)",
+        "common": "Sector special taxes"
+      },
+      "taxes": {
+        "base": "Named in the National Tax List: extra tax on financial institutions (HUF 158.7 billion), income tax on energy suppliers (203.2 billion), surtax on energy suppliers (76.0 billion), surtax on pharmaceutical companies (28.7 billion) and a special tax on retailers (265.0 billion).",
+        "payer": "Financial institutions, energy suppliers, pharmaceutical companies and large retailers."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Set by the special-tax laws",
+        "details": ["PwC refers to the regulation on the extra-profit tax and to higher mining royalty rates for the tax years 2023 and 2024."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "Five sector-specific taxes of the list, together HUF 732 billion, more than the corporate income tax’s HUF 1.1 trillion would suggest for a single sector.",
+      "exceptions": [],
+      "legalRefs": [
+        { "sourceId": "ntl-2026", "locator": "sheet HU, D51O C03, D51E C02, D29H C03 and C04, D214I C11" },
+        { "sourceId": "pwc-hu-other", "locator": "Mining royalty" }
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "hu-social-contribution-tax",
+      "parentId": "allam",
+      "levelId": "allam",
+      "category": "social-contribution",
+      "family": "social-security",
+      "status": "current",
+      "names": {
+        "official": "Social contribution tax and other employers’ contributions",
+        "native": "Szociális hozzájárulási adó és munkáltatói járulékok",
+        "common": "Employers’ contributions"
+      },
+      "taxes": {
+        "base": "The gross income paid to the employee. The list gives the social contribution tax (HUF 3.27 trillion), the contribution on simplified employment (58.0 billion), sick leave contributions (58.1 billion) and small lines.",
+        "payer": "Employers."
+      },
+      "rate": {
+        "kind": "flat",
+        "headline": "13% of gross pay",
+        "details": [
+          "The social tax base is the gross income paid to the employee and the rate is 13% (PwC).",
+          "As summarised by PwC (review of 1 July 2026), not checked against the National Tax and Customs Administration (NAV)."
+        ],
+        "asOf": "2026-07-01"
+      },
+      "explanation": "The second largest flow after the employees’ contributions.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "pwc-hu-other", "locator": "Employment-related tax and social security contributions payable by employers" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "hu-social-employees",
+      "parentId": "allam",
+      "levelId": "allam",
+      "category": "social-contribution",
+      "family": "social-security",
+      "status": "current",
+      "names": { "official": "Employees’ pension and non-pension contributions", "native": "Munkavállalói járulékok", "common": "Employees’ contributions" },
+      "taxes": {
+        "base": "Gross pay. Pension contributions HUF 2.71 trillion, non-pension contributions HUF 2.25 trillion.",
+        "payer": "Employees; the employer withholds."
+      },
+      "rate": { "kind": "flat", "headline": "Set by the social security laws", "details": ["The rate is not extracted here."], "asOf": "2026-10-12" },
+      "explanation": "The largest line of all, HUF 5.0 trillion.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet HU, D613CE" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "hu-social-others",
+      "parentId": "allam",
+      "levelId": "allam",
+      "category": "social-contribution",
+      "family": "social-security",
+      "status": "current",
+      "names": {
+        "official": "Contributions of the self-employed and the non-employed, and voluntary contributions",
+        "native": "Egyéni vállalkozók, nem foglalkoztatottak és önkéntes járulékok",
+        "common": "Self-employed, non-employed and voluntary"
+      },
+      "taxes": {
+        "base": "Self-employed people (HUF 58.9 billion), the non-employed including the pension contribution on unemployment benefits (HUF 53.9 billion) and voluntary contributions (HUF 1.4 billion).",
+        "payer": "Self-employed, non-employed and voluntarily insured persons."
+      },
+      "rate": { "kind": "varies", "headline": "Set by the social security laws", "details": [], "asOf": "2026-10-12" },
+      "explanation": "Seven lines.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet HU, D613CS, D613CN, D613V" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "hu-vat",
+      "parentId": "allam",
+      "levelId": "allam",
+      "category": "tax",
+      "family": "general-consumption",
+      "status": "current",
+      "names": { "official": "Value added tax", "native": "Általános forgalmi adó (áfa)", "common": "VAT", "abbreviation": "áfa" },
+      "taxes": {
+        "base": "Goods and services supplied in Hungary, intra-EU acquisitions and imports.",
+        "payer": "Consumers; businesses charge it and claim input credits."
+      },
+      "rate": {
+        "kind": "range",
+        "headline": "27% standard; 18% and 5% reduced",
+        "details": [
+          "The general VAT rate is 27%; 18% on certain dairy and cereal products and on admission to musical and dancing events; 5% on new residential property and certain pharmaceutical products (PwC).",
+          "As summarised by PwC (review of 1 July 2026), not checked against the National Tax and Customs Administration (NAV)."
+        ],
+        "asOf": "2026-07-01"
+      },
+      "explanation": "The largest tax by far: HUF 7.5 trillion.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "pwc-hu-other", "locator": "Value-added tax" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "hu-customs",
+      "parentId": "allam",
+      "levelId": "allam",
+      "category": "customs-duty",
+      "family": "trade",
+      "status": "current",
+      "names": { "official": "Import duty", "native": "Vám", "common": "Customs duties" },
+      "taxes": { "base": "Goods imported from outside the EU, by the Common Customs Tariff.", "payer": "Importers." },
+      "rate": {
+        "kind": "varies",
+        "headline": "EU Common Customs Tariff",
+        "details": ["An EU own resource; Eurostat records it under the EU institutions."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "Collected for the EU budget.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "eurostat-taxag", "locator": "S.212, D212" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "hu-excise-fuel",
+      "parentId": "allam",
+      "levelId": "allam",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Excise duties on fuels and on energy", "native": "Jövedéki adó (üzemanyag, energia)", "common": "Fuel and energy excise" },
+      "taxes": {
+        "base": "Fuels (HUF 917.5 billion) and energy products (HUF 19.6 billion), by quantity.",
+        "payer": "Producers and importers; passed on at the pump."
+      },
+      "rate": { "kind": "specific", "headline": "Per unit of quantity", "details": [], "asOf": "2026-10-12" },
+      "explanation": "The list splits the excises of the central budget into four lines by product; fuels are the biggest.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet HU, D214A C01_4 and C01_6" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "hu-excise-tobacco",
+      "parentId": "allam",
+      "levelId": "allam",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Excise duty on tobacco", "native": "Jövedéki adó (dohány)", "common": "Tobacco excise" },
+      "taxes": { "base": "Cigarettes and other tobacco products.", "payer": "Producers and importers; passed on in the price." },
+      "rate": { "kind": "mechanism", "headline": "Fixed by the Excise Tax Act", "details": [], "asOf": "2026-10-12" },
+      "explanation": "HUF 565 billion in 2024.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet HU, D214A C01_3" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "hu-excise-alcohol",
+      "parentId": "allam",
+      "levelId": "allam",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Excise duty on alcohol and the alcohol production duty", "native": "Jövedéki adó (alkohol)", "common": "Alcohol excise" },
+      "taxes": { "base": "Spirits, wine, beer and other alcoholic drinks.", "payer": "Producers and importers; passed on in the price." },
+      "rate": { "kind": "specific", "headline": "Per litre of pure alcohol", "details": [], "asOf": "2026-10-12" },
+      "explanation": "HUF 135 billion in 2024.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet HU, D214A C01_2, D214L C01" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "hu-financial-transaction-duty",
+      "parentId": "allam",
+      "levelId": "allam",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "Financial transaction fee", "native": "Pénzügyi tranzakciós illeték", "common": "Financial transaction duty" },
+      "taxes": {
+        "base": "Payment transactions of banks and other payment service providers.",
+        "payer": "Payers of the transactions, through financial institutions."
+      },
+      "rate": { "kind": "varies", "headline": "A percentage of the transaction with a cap", "details": [], "asOf": "2026-10-12" },
+      "explanation": "HUF 437 billion in 2024.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet HU, D214H C05" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "hu-insurance-communications",
+      "parentId": "allam",
+      "levelId": "allam",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "Insurance tax and the telephone (communications) tax",
+        "native": "Biztosítási adó; hírközlési adó",
+        "common": "Insurance and communications taxes"
+      },
+      "taxes": {
+        "base": "Insurance premiums (HUF 268.6 billion) and telephone and communications services (HUF 113.1 billion).",
+        "payer": "Insurers and policyholders; telecommunications providers."
+      },
+      "rate": { "kind": "varies", "headline": "Set by law", "details": [], "asOf": "2026-10-12" },
+      "explanation": "Two lines.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet HU, D214G C02, D214H C02" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "hu-duties-conveyances",
+      "parentId": "allam",
+      "levelId": "allam",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": {
+        "official": "Duties on conveyances, inheritance and gifts",
+        "native": "Visszterhes vagyonátruházási illeték; öröklési és ajándékozási illeték",
+        "common": "Duties on property transfers"
+      },
+      "taxes": {
+        "base": "Property transfers for consideration, inheritances and gifts; the list gives HUF 216.9 billion under taxes on products and HUF 14.4 billion under capital taxes.",
+        "payer": "Buyers, heirs and donees."
+      },
+      "rate": { "kind": "varies", "headline": "Set by the Duties Act", "details": [], "asOf": "2026-10-12" },
+      "explanation": "Eurostat books both under central government.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet HU, D214C C01, D91A C01" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "hu-gambling",
+      "parentId": "allam",
+      "levelId": "allam",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Gambling tax", "native": "Játékadó", "common": "Gambling tax" },
+      "taxes": { "base": "Gambling operators.", "payer": "Operators." },
+      "rate": { "kind": "varies", "headline": "By type of game", "details": [], "asOf": "2026-10-12" },
+      "explanation": "HUF 78 billion.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet HU, D214F C01" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "hu-vehicle-taxes",
+      "parentId": "allam",
+      "levelId": "allam",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "Registration duty, tax on domestically registered vehicles, company car tax and overweight fee",
+        "native": "Regisztrációs adó; gépjárműadó; cégautóadó",
+        "common": "Vehicle taxes"
+      },
+      "taxes": {
+        "base": "Registration (HUF 14.9 billion), the tax on domestically registered vehicles (HUF 55.9 billion marked central and HUF 42.2 billion in the households line), the company car tax (HUF 79.2 billion) and the overweight vehicle fee (HUF 1.9 billion).",
+        "payer": "Vehicle owners and companies."
+      },
+      "rate": { "kind": "varies", "headline": "By engine and vehicle", "details": [], "asOf": "2026-10-12" },
+      "explanation": "Five lines; Eurostat books all of them under central government.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet HU, D214D C01, D29B C01, C03, C05, D59D C01" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "hu-innovation-health-levies",
+      "parentId": "allam",
+      "levelId": "allam",
+      "category": "special-levy",
+      "family": "other",
+      "status": "current",
+      "names": {
+        "official": "Innovation tax, tax on publicly financed medical products, public health product tax and surtaxes on distributors",
+        "native": "Innovációs járulék; népegészségügyi termékadó",
+        "common": "Innovation and health-product levies"
+      },
+      "taxes": {
+        "base": "As named in the National Tax List: the innovation tax (HUF 159.9 billion), the tax on publicly financed medical products (123.7 billion), the public health product tax (89.9 billion) and the surtaxes payable by distributors and investment funds (8.3 billion).",
+        "payer": "Businesses."
+      },
+      "rate": { "kind": "varies", "headline": "Set by law", "details": [], "asOf": "2026-10-12" },
+      "explanation": "Four lines that the list books as other taxes on products.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet HU, D214I C03, C04, C07, C09" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "hu-energy-sector-payments",
+      "parentId": "allam",
+      "levelId": "allam",
+      "category": "special-levy",
+      "family": "resource",
+      "status": "current",
+      "names": {
+        "official": "Hydrocarbons stockholding fee, payments by energy-sector companies (MAVIR) and Water Supply Fund revenues",
+        "native": "Szénhidrogén-készletezési díj; MAVIR-befizetések; Vízgazdálkodási Alap",
+        "common": "Energy and water fund payments"
+      },
+      "taxes": {
+        "base": "The stockholding fee (HUF 77.7 billion), payments by energy-sector companies (HUF 40.3 billion) and the revenues of the Water Supply Fund (HUF 16.6 billion).",
+        "payer": "Energy and water companies."
+      },
+      "rate": { "kind": "varies", "headline": "Set by law", "details": [], "asOf": "2026-10-12" },
+      "explanation": "Three lines.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet HU, D214I C08, D214L C07, D29H C05" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "hu-environmental-taxes",
+      "parentId": "allam",
+      "levelId": "allam",
+      "category": "tax",
+      "family": "resource",
+      "status": "current",
+      "names": {
+        "official": "Carbon-dioxide tax, environmental pollution tax, environment protection fees and the waste disposal contribution",
+        "native": "Szén-dioxid adó; környezetterhelési díj; hulladékártalmatlanítási hozzájárulás",
+        "common": "Environmental taxes and fees"
+      },
+      "taxes": {
+        "base": "Carbon dioxide (HUF 64.2 billion), environment protection product fees (HUF 15.1 billion), waste disposal (HUF 16.7 billion) and the environmental pollution tax (HUF 5.3 billion).",
+        "payer": "Polluters and producers of the products."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Set by the environmental laws",
+        "details": [
+          "The sale of emission allowances (HUF 167.6 billion) is not counted. Eurostat books HUF 0.4 billion of the pollution tax under local government; the list does not say which line."
+        ],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "Four lines.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet HU, D29F C01 and C03, D214A C02, D214H C03" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "hu-tourism-airlines",
+      "parentId": "allam",
+      "levelId": "allam",
+      "category": "special-levy",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "Tourism development contribution and the airlines levy",
+        "native": "Turisztikai fejlesztési hozzájárulás; légitársasági adó",
+        "common": "Tourism and airline levies"
+      },
+      "taxes": {
+        "base": "The tourism development contribution (HUF 85.2 billion) and a levy on airlines (HUF 38.5 billion).",
+        "payer": "Tourism businesses and airlines."
+      },
+      "rate": { "kind": "varies", "headline": "Set by law", "details": [], "asOf": "2026-10-12" },
+      "explanation": "Two central levies; the municipal tourism tax is a separate local tax.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet HU, D214H C04 and C06" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "hu-small-business-taxes",
+      "parentId": "allam",
+      "levelId": "allam",
+      "category": "tax",
+      "family": "payroll",
+      "status": "current",
+      "names": {
+        "official": "Itemised tax of small taxpayers (KATA) and tax of small enterprises (KIVA)",
+        "native": "Kisadózók tételes adója (KATA); kisvállalati adó (KIVA)",
+        "common": "Small-taxpayer taxes"
+      },
+      "taxes": {
+        "base": "Small businesses that opt for a simplified flat-sum tax: the itemised tax of small taxpayers (HUF 67.5 billion) and the tax of small enterprises (HUF 218.9 billion).",
+        "payer": "Small taxpayers and small enterprises."
+      },
+      "rate": { "kind": "varies", "headline": "A flat sum or a percentage, by regime", "details": [], "asOf": "2026-10-12" },
+      "explanation": "The list books both regimes among taxes on payroll.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet HU, D29C C05 and C06" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "hu-rehabilitation-contribution",
+      "parentId": "allam",
+      "levelId": "allam",
+      "category": "tax",
+      "family": "payroll",
+      "status": "current",
+      "names": {
+        "official": "Rehabilitation contribution and the tax on sales representatives of medical companies",
+        "native": "Rehabilitációs hozzájárulás",
+        "common": "Rehabilitation contribution"
+      },
+      "taxes": {
+        "base": "Employers, in proportion to the wage bill; the rehabilitation contribution is HUF 187.7 billion and the sales representatives’ tax HUF 9.3 billion.",
+        "payer": "Employers."
+      },
+      "rate": { "kind": "varies", "headline": "Set by law", "details": [], "asOf": "2026-10-12" },
+      "explanation": "Payroll-based contributions that the list books apart from the social security contributions.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet HU, D29C C01 and C04" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "hu-utility-tax",
+      "parentId": "allam",
+      "levelId": "allam",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "Tax of the public utility system", "native": "Közműadó", "common": "Utility network tax" },
+      "taxes": {
+        "base": "As named in the National Tax List: the public utility system; Eurostat books it under central government.",
+        "payer": "Owners of utility networks."
+      },
+      "rate": { "kind": "varies", "headline": "Set by law", "details": [], "asOf": "2026-10-12" },
+      "explanation": "HUF 41.4 billion in 2024.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet HU, D29A C04" }, { "sourceId": "eurostat-taxag", "locator": "S.1311, D29A" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "hu-capital-protection-fees",
+      "parentId": "allam",
+      "levelId": "allam",
+      "category": "fee",
+      "family": "other",
+      "status": "current",
+      "names": {
+        "official": "Extra capital taxes, protection fund levies, licence and concession fees, stamp duties and others",
+        "native": "Extra tőkeadók; védelmi alapok; engedélydíjak; illetékek",
+        "common": "Capital taxes, fund levies, fees and stamp duties"
+      },
+      "taxes": {
+        "base": "Extra capital taxes (HUF 99.4 billion), five protection fund levy lines (HUF 37.2 billion), tobacco shop concession fees (HUF 20.1 billion), stamp duties (HUF 30.2 billion in two lines), licence fees (HUF 7.1 billion), land protection contributions (HUF 8.7 billion) and other small lines.",
+        "payer": "Businesses and individuals."
+      },
+      "rate": { "kind": "varies", "headline": "Set by law", "details": [], "asOf": "2026-10-12" },
+      "explanation": "Thirteen lines that the list codes as taxes.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet HU, D29E, D59D C02 and C03, D91B C01, D51E C01" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "hu-local-business-tax",
+      "parentId": "onkormanyzat",
+      "levelId": "onkormanyzat",
+      "category": "tax",
+      "family": "general-consumption",
+      "status": "current",
+      "names": { "official": "Local business tax (local tax on company sales)", "native": "Helyi iparűzési adó", "common": "Local business tax" },
+      "taxes": { "base": "The net sales of businesses in the municipality, less certain costs.", "payer": "Businesses." },
+      "rate": {
+        "kind": "range",
+        "headline": "Set by each municipality up to a ceiling",
+        "details": ["The National Tax List books it as a general tax on sales; HUF 1.35 trillion in 2024."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "By far the main tax of the local governments: 81% of their taxes in the list.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet HU, D214I C01" }, { "sourceId": "eurostat-taxag", "locator": "S.1313, D2" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "hu-local-property-taxes",
+      "parentId": "onkormanyzat",
+      "levelId": "onkormanyzat",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "Building tax and development land tax", "native": "Építményadó; telekadó", "common": "Local property taxes" },
+      "taxes": { "base": "Buildings (HUF 175.6 billion) and development land (HUF 34.6 billion).", "payer": "Owners." },
+      "rate": { "kind": "range", "headline": "Set by each municipality up to a ceiling", "details": [], "asOf": "2026-10-12" },
+      "explanation": "Eurostat books all of the building and land taxes except the utility network tax under local government.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet HU, D29A C01 and C02" }, { "sourceId": "eurostat-taxag", "locator": "S.1313, D29A" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "hu-local-other-taxes",
+      "parentId": "onkormanyzat",
+      "levelId": "onkormanyzat",
+      "category": "tax",
+      "family": "other",
+      "status": "current",
+      "names": {
+        "official": "Tourism tax, communal tax on households and other municipal taxes",
+        "native": "Idegenforgalmi adó; kommunális adó; egyéb helyi adók",
+        "common": "Tourism and communal taxes"
+      },
+      "taxes": {
+        "base": "Tourism (HUF 24.1 billion), communal tax on households (HUF 16.8 billion), the environmental pollution tax (HUF 0.7 billion) and two other municipal taxes.",
+        "payer": "Visitors, households and others."
+      },
+      "rate": { "kind": "range", "headline": "Set by each municipality up to a ceiling", "details": [], "asOf": "2026-10-12" },
+      "explanation": "Eurostat books HUF 41.9 billion of taxes on income and wealth under local government.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet HU, D59F, D59A C01, D91B C02" }, { "sourceId": "eurostat-taxag", "locator": "S.1313, D5" }],
+      "checkedOn": "2026-10-12"
+    }
+  ]
+}

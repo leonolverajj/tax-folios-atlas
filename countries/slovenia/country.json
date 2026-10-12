@@ -1,0 +1,116 @@
+{
+  "id": "slovenia",
+  "iso3": "SVN",
+  "isoNumeric": "705",
+  "names": { "en": "Slovenia", "native": "Slovenija", "nativeLang": "sl" },
+  "currency": { "code": "EUR", "symbol": "€", "name": "Euro" },
+  "summary": "Slovenia is a unitary state: the National Assembly sets all taxes and the Financial Administration (FURS) collects them. Social contributions are the largest flow, shared between employers and employees, followed by VAT and the personal income tax. Municipalities have no income tax; they live on a compensation for the use of building land, a tourist tax, and a share of the personal income tax that the national accounts count as a transfer.",
+  "structureNote": "The figures are the Commission’s National Tax List for 2024. Imputed social contributions of employers (EUR 205 million) and the sale of emission permits (EUR 163.8 million) are left out. The social contributions are drawn under the State. The two municipal taxes follow Eurostat’s accounts, which book EUR 319 million of taxes on production to local government; the lines of the list for them add up to the same amount.",
+  "theme": {
+    "accent": "#3fa7ff",
+    "accent2": "#e63946",
+    "motif": "topo",
+    "motifNote": "Topographic contour lines over the outline of Slovenia (the generic motif; no bespoke art yet).",
+    "mapLabel": { "lon": 14.8, "lat": 46.1 }
+  },
+  "levels": [
+    {
+      "id": "drzava",
+      "branch": "national",
+      "names": { "official": "The State (Republic of Slovenia)", "native": "Država", "common": "State" },
+      "description": "The National Assembly legislates all taxes; the Financial Administration (FURS) collects them and the social contributions, which fund the Health Insurance Institute (ZZZS), the Pension and Disability Insurance Institute (ZPIZ) and the employment service.",
+      "fiscalPower": "Taxes are set by national law; municipalities may set only the rates and fees that the law leaves to them.",
+      "legalRefs": [{ "sourceId": "ntl-2026" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "obcine",
+      "branch": "local",
+      "names": { "official": "Municipalities", "native": "Občine", "common": "Municipalities" },
+      "description": "The only tier below the State. They set the compensation for the use of building land and the tourist tax within the limits of national law, and receive a share of the personal income tax from the central budget.",
+      "fiscalPower": "The law lets municipalities decide the building land compensation and the tourist tax.",
+      "legalRefs": [{ "sourceId": "eurostat-taxag" }],
+      "checkedOn": "2026-10-12"
+    }
+  ],
+  "supportingSourceIds": [],
+  "denominators": [
+    {
+      "id": "drzava-taxes-2024",
+      "label": "State taxes (National Tax List), 2024",
+      "definition": "The taxes on production and imports, on income and wealth, and on capital that the National Tax List books to the State and the EU, other than the two municipal taxes and the sale of emission permits.",
+      "levelIds": ["drzava"],
+      "amount": 14078.88,
+      "scale": "million",
+      "currency": "EUR",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "ntl-2026",
+      "locator": "Sheet SI, 2024, the lines listed with each tax",
+      "calculation": "Sum of the 20 tax rows below (EUR million)",
+      "caveat": "Calendar 2024; the list's cut-off was 30 October 2025. Vintage check against Eurostat's July 2026 accounts: D2: NTL 8,760.7, Eurostat July 2026 8,760.6; D5: NTL 5,677.01, Eurostat July 2026 5,677; D61: NTL 11,575.92, Eurostat July 2026 11,575.9.",
+      "accessed": "2026-10-12"
+    },
+    {
+      "id": "drzava-social-employers-2024",
+      "label": "Social contributions paid by employers, 2024",
+      "definition": "The actual compulsory contributions of employers (pension and disability, health, maternity and employment); imputed contributions are left out.",
+      "levelIds": ["drzava"],
+      "amount": 3934.7,
+      "scale": "million",
+      "currency": "EUR",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "ntl-2026",
+      "locator": "Sheet SI, 2024, lines D611 C01 to C04",
+      "caveat": "Calendar 2024, same list and cut-off as the taxes.",
+      "accessed": "2026-10-12"
+    },
+    {
+      "id": "drzava-social-households-2024",
+      "label": "Social contributions paid by households, 2024",
+      "definition": "The compulsory contributions of employees and of the self-employed.",
+      "levelIds": ["drzava"],
+      "amount": 7436.48,
+      "scale": "million",
+      "currency": "EUR",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "ntl-2026",
+      "locator": "Sheet SI, 2024, lines D613CE and D613CS",
+      "caveat": "Calendar 2024, same list and cut-off as the taxes.",
+      "accessed": "2026-10-12"
+    },
+    {
+      "id": "obcine-land-2024",
+      "label": "Compensation for the use of building land, 2024",
+      "definition": "The compensation paid by legal entities and by individuals to the municipalities.",
+      "levelIds": ["obcine"],
+      "amount": 290.95,
+      "scale": "million",
+      "currency": "EUR",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "ntl-2026",
+      "locator": "Sheet SI, 2024, lines D29A C01 and C02",
+      "caveat": "Eurostat books EUR 290.9 million of land and building taxes to local government.",
+      "accessed": "2026-10-12"
+    },
+    {
+      "id": "obcine-tourist-2024",
+      "label": "Tourist tax, 2024",
+      "definition": "The tourist (sojourn) tax.",
+      "levelIds": ["obcine"],
+      "amount": 28.39,
+      "scale": "million",
+      "currency": "EUR",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "ntl-2026",
+      "locator": "Sheet SI, 2024, line D214H C01",
+      "caveat": "Eurostat books EUR 319.3 million of taxes on production to local government in all; the two municipal parts come to EUR 319.34 million.",
+      "accessed": "2026-10-12"
+    }
+  ],
+  "sizing": {
+    "label": "Taxes and compulsory social contributions of all levels of government",
+    "definition": "The taxes of the State and the municipalities plus the actual social contributions, calendar 2024, as listed in the National Tax List. Excludes the sale of emission permits and imputed social contributions.",
+    "componentIds": ["drzava-taxes-2024", "drzava-social-employers-2024", "drzava-social-households-2024", "obcine-land-2024", "obcine-tourist-2024"]
+  },
+  "researchStatus": "researched"
+}

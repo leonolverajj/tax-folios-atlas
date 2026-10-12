@@ -1,0 +1,447 @@
+{
+  "instruments": [
+    {
+      "id": "mt-income-tax-individuals",
+      "parentId": "gvern",
+      "levelId": "gvern",
+      "category": "tax",
+      "family": "income-personal",
+      "status": "current",
+      "names": { "official": "Income tax paid by individuals", "native": "Taxxa fuq id-dħul tal-individwi", "common": "Personal income tax" },
+      "taxes": {
+        "base": "Income of individuals taxable in Malta: employment, business and other income.",
+        "payer": "Individuals; employers withhold tax from wages."
+      },
+      "rate": {
+        "kind": "progressive",
+        "headline": "0% to 35%",
+        "details": [
+          "Income is taxable at graduated progressive rates ranging from 0% to 35% (PwC).",
+          "As summarised by PwC (review of 30 September 2026), not checked against the Commissioner for Revenue."
+        ],
+        "asOf": "2026-09-30"
+      },
+      "explanation": "EUR 1.6 billion in 2024: the largest direct tax.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "pwc-mt-individual", "locator": "Personal income tax rates" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "mt-income-tax-companies",
+      "parentId": "gvern",
+      "levelId": "gvern",
+      "category": "tax",
+      "family": "income-corporate",
+      "status": "current",
+      "names": { "official": "Income tax paid by companies", "native": "Taxxa fuq id-dħul tal-kumpaniji", "common": "Corporate income tax" },
+      "taxes": { "base": "Profit of companies.", "payer": "Companies." },
+      "rate": {
+        "kind": "flat",
+        "headline": "35% statutory",
+        "details": [
+          "Companies are subject to income tax at a flat rate of 35%; entities may elect a 15% rate on their chargeable income under the FITWI Regulations published on 2 September 2025 (PwC). Refunds to shareholders are a feature of the Maltese system; the National Tax List does not say whether this line is before or after them.",
+          "As summarised by PwC (review of 30 September 2026), not checked against the Commissioner for Revenue."
+        ],
+        "asOf": "2026-09-30"
+      },
+      "explanation": "EUR 1.3 billion in 2024.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "pwc-mt-corporate", "locator": "Corporate income tax rates" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "mt-holding-gains-taxes",
+      "parentId": "gvern",
+      "levelId": "gvern",
+      "category": "tax",
+      "family": "income-mixed",
+      "status": "current",
+      "names": {
+        "official": "Taxes on holding gains of individuals and of companies",
+        "native": "Taxxa fuq qligħ kapitali",
+        "common": "Taxes on holding gains"
+      },
+      "taxes": {
+        "base": "As named in the National Tax List: holding gains by individuals (EUR 123.0 million) and by companies (EUR 125.8 million).",
+        "payer": "Individuals and companies."
+      },
+      "rate": { "kind": "varies", "headline": "Set by the Income Tax Act", "details": [], "asOf": "2026-10-12" },
+      "explanation": "Two lines.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet MT, D51C1 and D51C2" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "mt-income-tax-penalties",
+      "parentId": "gvern",
+      "levelId": "gvern",
+      "category": "fee",
+      "family": "income-mixed",
+      "status": "current",
+      "names": { "official": "Penalties paid by individuals, companies and others", "native": "Penali", "common": "Penalties on income tax" },
+      "taxes": {
+        "base": "As named in the National Tax List: penalties paid by individuals (EUR 4.5 million), companies (EUR 6.9 million) and others (EUR 0.1 million).",
+        "payer": "Taxpayers."
+      },
+      "rate": { "kind": "varies", "headline": "Set by law", "details": [], "asOf": "2026-10-12" },
+      "explanation": "The list books these penalties among taxes on income.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet MT, D51E C02–C04" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "mt-investor-programme",
+      "parentId": "gvern",
+      "levelId": "gvern",
+      "category": "fee",
+      "family": "other",
+      "status": "current",
+      "names": {
+        "official": "Individual (International) Investor Programme",
+        "native": "Programm tal-Investituri Individwali",
+        "common": "Individual Investor Programme"
+      },
+      "taxes": {
+        "base": "As named in the National Tax List: the fees of the Individual Investor Programme (citizenship by investment).",
+        "payer": "Applicants."
+      },
+      "rate": { "kind": "varies", "headline": "Set by the programme", "details": [], "asOf": "2026-10-12" },
+      "explanation": "EUR 148.5 million in 2024, about 2% of the taxes and contributions.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet MT, D59F C01" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "mt-social-employers",
+      "parentId": "gvern",
+      "levelId": "gvern",
+      "category": "social-contribution",
+      "family": "social-security",
+      "status": "current",
+      "names": {
+        "official": "Employers’ social contributions (private sector and government) and penalties on employers",
+        "native": "Kontribuzzjonijiet tas-sigurtà soċjali tas-sid tax-xogħol",
+        "common": "Employers’ contributions"
+      },
+      "taxes": {
+        "base": "The employee’s basic weekly wage, within a minimum and maximum. Private sector EUR 410.6 million, government as employer EUR 84.3 million, penalties EUR 5.1 million.",
+        "payer": "Employers."
+      },
+      "rate": {
+        "kind": "flat",
+        "headline": "10% of the basic weekly wage",
+        "details": [
+          "Social security contributions amount to 10% of the employee’s basic weekly wage, payable by both the employee and the employer, subject to a minimum and maximum contribution (PwC).",
+          "As summarised by PwC (review of 30 September 2026), not checked against the Commissioner for Revenue."
+        ],
+        "asOf": "2026-09-30"
+      },
+      "explanation": "The Treasury Department’s service pension (EUR 106.7 million), which the list treats as an imputed contribution, is not counted.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "pwc-mt-other", "locator": "Social security contributions" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "mt-social-employees",
+      "parentId": "gvern",
+      "levelId": "gvern",
+      "category": "social-contribution",
+      "family": "social-security",
+      "status": "current",
+      "names": {
+        "official": "Employees’ social contributions",
+        "native": "Kontribuzzjonijiet tas-sigurtà soċjali tal-impjegati",
+        "common": "Employees’ contributions"
+      },
+      "taxes": { "base": "The employee’s basic weekly wage, within a minimum and maximum.", "payer": "Employees; the employer withholds." },
+      "rate": {
+        "kind": "flat",
+        "headline": "10% of the basic weekly wage",
+        "details": [
+          "The maximum weekly contribution is EUR 49.04 for employees born before 1 January 1962 and EUR 55.93 for those born later (PwC).",
+          "As summarised by PwC (review of 30 September 2026), not checked against the Commissioner for Revenue."
+        ],
+        "asOf": "2026-09-30"
+      },
+      "explanation": "EUR 494.9 million.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "pwc-mt-other", "locator": "Social security contributions" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "mt-social-self-employed",
+      "parentId": "gvern",
+      "levelId": "gvern",
+      "category": "social-contribution",
+      "family": "social-security",
+      "status": "current",
+      "names": {
+        "official": "Social contributions of the self-employed and penalties",
+        "native": "Kontribuzzjonijiet tas-sigurtà soċjali tal-ħaddiema għal rashom",
+        "common": "Self-employed contributions"
+      },
+      "taxes": { "base": "Annual net income of the self-employed, within a minimum and maximum.", "payer": "Self-employed people." },
+      "rate": {
+        "kind": "flat",
+        "headline": "15% of net annual income",
+        "details": [
+          "Contributions amount to 15% of the self-employed person’s annual net income of the previous year, within a minimum and maximum (PwC).",
+          "As summarised by PwC (review of 30 September 2026), not checked against the Commissioner for Revenue."
+        ],
+        "asOf": "2026-09-30"
+      },
+      "explanation": "EUR 71.0 million.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "pwc-mt-other", "locator": "Social security contributions" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "mt-vat",
+      "parentId": "gvern",
+      "levelId": "gvern",
+      "category": "tax",
+      "family": "general-consumption",
+      "status": "current",
+      "names": { "official": "Value added tax", "native": "Taxxa fuq il-Valur Miżjud (VAT)", "common": "VAT", "abbreviation": "VAT" },
+      "taxes": { "base": "Goods and services supplied in Malta and imports.", "payer": "Consumers; businesses charge it and claim input credits." },
+      "rate": {
+        "kind": "range",
+        "headline": "18% standard; 7% and 5% reduced",
+        "details": [
+          "The standard VAT rate is 18%; 7% applies to eligible accommodation and entrance to sports facilities, 5% to electricity, printed matter and other supplies (PwC).",
+          "As summarised by PwC (review of 30 September 2026), not checked against the Commissioner for Revenue."
+        ],
+        "asOf": "2026-09-30"
+      },
+      "explanation": "EUR 1.4 billion: the largest indirect tax.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "pwc-mt-other", "locator": "Value-added tax" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "mt-customs",
+      "parentId": "gvern",
+      "levelId": "gvern",
+      "category": "customs-duty",
+      "family": "trade",
+      "status": "current",
+      "names": { "official": "Import duties paid to EU institutions", "native": "Dazji fuq l-importazzjoni", "common": "Customs duties" },
+      "taxes": { "base": "Goods imported from outside the EU, by the Common Customs Tariff.", "payer": "Importers." },
+      "rate": {
+        "kind": "varies",
+        "headline": "EU Common Customs Tariff",
+        "details": ["An EU own resource; Eurostat records it under the EU institutions."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "Collected for the EU budget.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "eurostat-taxag", "locator": "S.212, D212" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "mt-excise-petroleum",
+      "parentId": "gvern",
+      "levelId": "gvern",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Excise levies on petroleum", "native": "Aċċiża fuq il-petrol", "common": "Fuel excise" },
+      "taxes": { "base": "Petrol, diesel and other petroleum products, by quantity.", "payer": "Fuel suppliers; passed on at the pump." },
+      "rate": { "kind": "specific", "headline": "Per 1,000 litres", "details": [], "asOf": "2026-10-12" },
+      "explanation": "EUR 105.1 million.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet MT, D214A C04" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "mt-excise-tobacco",
+      "parentId": "gvern",
+      "levelId": "gvern",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "Excise levies on machine-made cigarettes and other tobacco",
+        "native": "Aċċiża fuq is-sigaretti u t-tabakk",
+        "common": "Tobacco excise"
+      },
+      "taxes": { "base": "Cigarettes (EUR 95.4 million) and other tobacco (EUR 8.3 million).", "payer": "Producers and importers; passed on in the price." },
+      "rate": { "kind": "mechanism", "headline": "Fixed by the Excise Duty Act", "details": [], "asOf": "2026-10-12" },
+      "explanation": "EUR 103.7 million.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet MT, D214A C01 and C05" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "mt-excise-other",
+      "parentId": "gvern",
+      "levelId": "gvern",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "Excise levies and duties on alcohol, cement, electricity, mobile telephony services and a range of products",
+        "native": "Aċċiżi oħra",
+        "common": "Alcohol, cement and other excises"
+      },
+      "taxes": {
+        "base": "Spirits (EUR 18.0 million), cement (EUR 20.7 million), beer, wines, electricity (EUR 4.3 million), mobile telephony (EUR 4.2 million), non-alcoholic beverages, tyres, plastic bags, bottled water, toiletries, construction components, chewing gum and the eco contribution.",
+        "payer": "Producers and importers."
+      },
+      "rate": { "kind": "specific", "headline": "Per unit", "details": [], "asOf": "2026-10-12" },
+      "explanation": "Fourteen lines of the list.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet MT, D214A C02–C03, C06–C11, C13–C16, C18–C19" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "mt-duty-on-documents-property",
+      "parentId": "gvern",
+      "levelId": "gvern",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": {
+        "official": "Duty on documents: immovable property and property transfers",
+        "native": "Dritt fuq id-dokumenti (proprjetà immobbli)",
+        "common": "Duty on documents: property"
+      },
+      "taxes": {
+        "base": "Documents transferring immovable property (EUR 141.7 million) and other property transfers (EUR 37.5 million, booked as a capital tax).",
+        "payer": "Buyers and recipients."
+      },
+      "rate": { "kind": "varies", "headline": "A percentage of the value", "details": [], "asOf": "2026-10-12" },
+      "explanation": "Malta’s tax on property transactions.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet MT, D214C C01, D91A C03" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "mt-duty-on-documents-other",
+      "parentId": "gvern",
+      "levelId": "gvern",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": {
+        "official": "Duty on documents: insurance policies, shares and legal fees",
+        "native": "Dritt fuq id-dokumenti (polza, ishma, drittijiet legali)",
+        "common": "Duty on documents: insurance and shares"
+      },
+      "taxes": {
+        "base": "Insurance policies (EUR 39.2 million), shares (EUR 6.5 million) and legal fees.",
+        "payer": "Policyholders and parties to the share deals."
+      },
+      "rate": { "kind": "varies", "headline": "A percentage of the value or premium", "details": [], "asOf": "2026-10-12" },
+      "explanation": "Three lines.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet MT, D214G C01, D214C C02, D214B C03" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "mt-vehicle-taxes",
+      "parentId": "gvern",
+      "levelId": "gvern",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "Motor vehicle registration tax, motor vehicle licences (households and business), number plates and test administration charge",
+        "native": "Taxxa tar-reġistrazzjoni u liċenzji tal-vetturi",
+        "common": "Vehicle taxes"
+      },
+      "taxes": {
+        "base": "Registration (EUR 37.6 million), licences for households (EUR 62.1 million) and business (EUR 20.7 million), number plates and the test administration charge.",
+        "payer": "Vehicle owners."
+      },
+      "rate": { "kind": "varies", "headline": "By vehicle", "details": [], "asOf": "2026-10-12" },
+      "explanation": "Seven lines.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet MT, D214D, D59D C03, D29B, D214H C04" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "mt-gaming",
+      "parentId": "gvern",
+      "levelId": "gvern",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Gaming taxes and the Malta Gaming Authority service fees", "native": "Taxxi fuq il-logħob", "common": "Gaming taxes" },
+      "taxes": { "base": "Gaming operators (EUR 74.2 million) and the Authority’s service charges (EUR 11.3 million).", "payer": "Gaming operators." },
+      "rate": { "kind": "varies", "headline": "Set by the gaming regulations", "details": [], "asOf": "2026-10-12" },
+      "explanation": "Two lines.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet MT, D214F C01 and C02" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "mt-bunkering-environment",
+      "parentId": "gvern",
+      "levelId": "gvern",
+      "category": "special-levy",
+      "family": "resource",
+      "status": "current",
+      "names": {
+        "official": "Bunkering tax and environmental contribution",
+        "native": "Taxxa fuq il-bunkering; kontribuzzjoni ambjentali",
+        "common": "Bunkering tax and environmental contribution"
+      },
+      "taxes": {
+        "base": "Ships’ fuel supplies in Maltese waters (EUR 2.2 million) and the environmental contribution (EUR 6.1 million).",
+        "payer": "Suppliers and users."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Set by law",
+        "details": ["The sale of emission trading permits (EUR 44.6 million) is not counted."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "Two small lines.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet MT, D214H C05 and C06" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "mt-licences-fees",
+      "parentId": "gvern",
+      "levelId": "gvern",
+      "category": "fee",
+      "family": "other",
+      "status": "current",
+      "names": {
+        "official": "Licences, concessions, rights of use and authority service charges",
+        "native": "Liċenzji, konċessjonijiet u drittijiet",
+        "common": "Licences, concessions and authority fees"
+      },
+      "taxes": {
+        "base": "Fees for the right of use by business (EUR 9.2 million), concession fees (EUR 10.6 million), authority services of the Malta Communications and Malta Resources authorities (EUR 6.5 million), driving licences, hotel and catering licences, wines and spirits licences and others.",
+        "payer": "Businesses and individuals."
+      },
+      "rate": { "kind": "varies", "headline": "Set by law", "details": [], "asOf": "2026-10-12" },
+      "explanation": "Thirteen small lines.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet MT, D29E and D59D" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "mt-protection-funds",
+      "parentId": "gvern",
+      "levelId": "gvern",
+      "category": "special-levy",
+      "family": "other",
+      "status": "current",
+      "names": {
+        "official": "Contributions to Protection Funds",
+        "native": "Kontribuzzjonijiet għall-fondi ta’ protezzjoni",
+        "common": "Protection fund contributions"
+      },
+      "taxes": { "base": "As named in the National Tax List; no further detail.", "payer": "Not given in the list." },
+      "rate": { "kind": "varies", "headline": "Set by law", "details": [], "asOf": "2026-10-12" },
+      "explanation": "EUR 20.7 million.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet MT, D29H C01" }],
+      "checkedOn": "2026-10-12"
+    }
+  ]
+}

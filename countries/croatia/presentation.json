@@ -1,0 +1,30 @@
+{
+  "nodes": {
+    "croatia": { "label": "Croatia", "sublabel": "Hrvatska · Fiscal folio", "glyph": "globe" },
+    "drzava": { "label": "State", "sublabel": "Država", "glyph": "landmark" },
+    "lokalne": { "label": "Local government", "sublabel": "Samouprava", "glyph": "town" },
+    "hr-cit": { "label": "Corporate income tax", "sublabel": "18% · 10%", "glyph": "factory" },
+    "hr-vat": { "label": "VAT", "sublabel": "25%", "glyph": "cart" },
+    "hr-customs": { "label": "Customs duties", "sublabel": "EU tariff", "glyph": "ship" },
+    "hr-excise-fuel": { "label": "Fuel excise", "sublabel": "Mineral oils", "glyph": "flame" },
+    "hr-excise-tobacco": { "label": "Tobacco excise", "sublabel": "Cigarettes", "glyph": "smoke" },
+    "hr-excise-drinks": { "label": "Alcohol and drinks excises", "sublabel": "Alcohol · beer · coffee", "glyph": "wine" },
+    "hr-excise-cars": { "label": "Vehicle excise", "sublabel": "Registration", "glyph": "car" },
+    "hr-renewable-fee": { "label": "Renewable energy fee", "sublabel": "Electricity", "glyph": "bolt" },
+    "hr-waste-fees": { "label": "Waste management fees", "sublabel": "Packaging · WEEE", "glyph": "leaf" },
+    "hr-gambling": { "label": "Gambling", "sublabel": "Levies · winnings", "glyph": "dice" },
+    "hr-insurance-tax": { "label": "Insurance premium tax", "sublabel": "Vehicles", "glyph": "shield" },
+    "hr-water-fees": { "label": "Water fees", "sublabel": "Use · regulation", "glyph": "water" },
+    "hr-hrt-fee": { "label": "HRT fee", "sublabel": "Broadcaster", "glyph": "scroll" },
+    "hr-maritime-forest": { "label": "Forest and maritime charges", "sublabel": "Small", "glyph": "leaf" },
+    "hr-environmental-levies": { "label": "Environmental levies", "sublabel": "Vehicles · CO₂", "glyph": "leaf" },
+    "hr-small-state-fees": { "label": "Small fees", "sublabel": "Tourism · regulators", "glyph": "stamp" },
+    "hr-social-employers": { "label": "Social: employers", "sublabel": "16.5% health", "glyph": "heart" },
+    "hr-social-employees": { "label": "Social: households", "sublabel": "Pension", "glyph": "heart" },
+    "hr-pit": { "label": "Personal income tax", "sublabel": "15–33% local", "glyph": "person" },
+    "hr-transfer-tax": { "label": "Property transfer tax", "sublabel": "Local", "glyph": "stamp" },
+    "hr-communal-charges": { "label": "Communal charges", "sublabel": "Utility · contribution", "glyph": "town" },
+    "hr-local-vehicle-taxes": { "label": "Vehicle taxes and road levy", "sublabel": "Local", "glyph": "car" },
+    "hr-visitors-consumption-houses": { "label": "Tourist and holiday houses", "sublabel": "Local", "glyph": "bed" }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "malta": {
+      "x": 800,
+      "y": 500
+    },
+    "gvern": {
+      "x": 509,
+      "y": 432
+    },
+    "mt-income-tax-individuals": {
+      "x": 843,
+      "y": 785
+    },
+    "mt-investor-programme": {
+      "x": 396,
+      "y": 703
+    },
+    "mt-vat": {
+      "x": 320,
+      "y": 387
+    },
+    "mt-excise-other": {
+      "x": 694,
+      "y": 177
+    },
+    "mt-gaming": {
+      "x": 1162,
+      "y": 267
+    },
+    "mt-income-tax-companies": {
+      "x": 521,
+      "y": 892
+    },
+    "mt-social-employers": {
+      "x": 112,
+      "y": 523
+    },
+    "mt-customs": {
+      "x": 356,
+      "y": 156
+    },
+    "mt-duty-on-documents-property": {
+      "x": 1009,
+      "y": 124
+    },
+    "mt-bunkering-environment": {
+      "x": 1473,
+      "y": 408
+    },
+    "mt-holding-gains-taxes": {
+      "x": 892,
+      "y": 921
+    },
+    "mt-social-employees": {
+      "x": 97,
+      "y": 839
+    },
+    "mt-excise-petroleum": {
+      "x": 68,
+      "y": 300
+    },
+    "mt-duty-on-documents-other": {
+      "x": 616,
+      "y": 32
+    },
+    "mt-licences-fees": {
+      "x": 1425,
+      "y": 103
+    },
+    "mt-income-tax-penalties": {
+      "x": 332,
+      "y": 926
+    },
+    "mt-social-self-employed": {
+      "x": 110,
+      "y": 628
+    },
+    "mt-excise-tobacco": {
+      "x": 123,
+      "y": 32
+    },
+    "mt-vehicle-taxes": {
+      "x": 1128,
+      "y": 32
+    },
+    "mt-protection-funds": {
+      "x": 1511,
+      "y": 317
+    }
+  },
+  "radii": {}
+}

@@ -1,0 +1,142 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "netherlands": {
+      "x": 800,
+      "y": 500
+    },
+    "rijk": {
+      "x": 509,
+      "y": 432
+    },
+    "nl-income-tax": {
+      "x": 826,
+      "y": 719
+    },
+    "nl-tobacco-excise": {
+      "x": 392,
+      "y": 699
+    },
+    "nl-other-environmental-taxes": {
+      "x": 315,
+      "y": 386
+    },
+    "nl-inheritance-gift-tax": {
+      "x": 689,
+      "y": 178
+    },
+    "nl-long-term-care-premium": {
+      "x": 1164,
+      "y": 256
+    },
+    "nl-corporate-tax": {
+      "x": 504,
+      "y": 905
+    },
+    "nl-alcohol-excise": {
+      "x": 113,
+      "y": 529
+    },
+    "nl-motor-vehicle-tax": {
+      "x": 353,
+      "y": 157
+    },
+    "nl-gambling-tax": {
+      "x": 990,
+      "y": 73
+    },
+    "nl-health-premium": {
+      "x": 1472,
+      "y": 413
+    },
+    "nl-dividend-tax": {
+      "x": 869,
+      "y": 926
+    },
+    "nl-soft-drinks-tax": {
+      "x": 100,
+      "y": 834
+    },
+    "nl-car-registration-tax": {
+      "x": 106,
+      "y": 314
+    },
+    "nl-bank-tax": {
+      "x": 648,
+      "y": 32
+    },
+    "nl-disability-premium": {
+      "x": 1411,
+      "y": 134
+    },
+    "nl-vat": {
+      "x": 341,
+      "y": 894
+    },
+    "nl-energy-tax": {
+      "x": 64,
+      "y": 620
+    },
+    "nl-transfer-tax": {
+      "x": 126,
+      "y": 32
+    },
+    "nl-other-central-taxes": {
+      "x": 1142,
+      "y": 32
+    },
+    "nl-unemployment-premium": {
+      "x": 1494,
+      "y": 296
+    },
+    "nl-fuel-excise": {
+      "x": 892,
+      "y": 846
+    },
+    "nl-aviation-tax": {
+      "x": 72,
+      "y": 926
+    },
+    "nl-insurance-tax": {
+      "x": 110,
+      "y": 222
+    },
+    "nl-pension-premium": {
+      "x": 505,
+      "y": 42
+    },
+    "nl-other-premiums": {
+      "x": 1519,
+      "y": 32
+    },
+    "municipalities": {
+      "x": 1110,
+      "y": 494
+    },
+    "nl-real-estate-tax": {
+      "x": 1220,
+      "y": 352
+    },
+    "nl-tourist-tax": {
+      "x": 1297,
+      "y": 488
+    },
+    "nl-other-municipal-taxes": {
+      "x": 1221,
+      "y": 636
+    },
+    "water-boards": {
+      "x": 988,
+      "y": 659
+    },
+    "nl-water-board-levy": {
+      "x": 1149,
+      "y": 768
+    }
+  },
+  "radii": {}
+}

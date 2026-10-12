@@ -1,0 +1,134 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "greece": {
+      "x": 800,
+      "y": 500
+    },
+    "kratos": {
+      "x": 509,
+      "y": 432
+    },
+    "gr-income-tax-individuals": {
+      "x": 846,
+      "y": 704
+    },
+    "gr-social-employers": {
+      "x": 395,
+      "y": 702
+    },
+    "gr-excise-tobacco": {
+      "x": 318,
+      "y": 389
+    },
+    "gr-vehicle-taxes": {
+      "x": 683,
+      "y": 179
+    },
+    "gr-wholesale-sales-tax": {
+      "x": 1162,
+      "y": 267
+    },
+    "gr-income-tax-other-individuals": {
+      "x": 525,
+      "y": 904
+    },
+    "gr-social-employees": {
+      "x": 111,
+      "y": 512
+    },
+    "gr-excise-alcohol-other": {
+      "x": 348,
+      "y": 160
+    },
+    "gr-insurance-tax": {
+      "x": 997,
+      "y": 71
+    },
+    "gr-property-tax-enfia": {
+      "x": 1471,
+      "y": 398
+    },
+    "gr-corporate-income-tax": {
+      "x": 891,
+      "y": 913
+    },
+    "gr-vat": {
+      "x": 106,
+      "y": 785
+    },
+    "gr-energy-taxes": {
+      "x": 127,
+      "y": 314
+    },
+    "gr-gambling": {
+      "x": 663,
+      "y": 32
+    },
+    "gr-household-buildings-tax-state": {
+      "x": 1430,
+      "y": 124
+    },
+    "gr-shipowners-tax": {
+      "x": 336,
+      "y": 926
+    },
+    "gr-customs": {
+      "x": 81,
+      "y": 631
+    },
+    "gr-stamp-taxes": {
+      "x": 113,
+      "y": 32
+    },
+    "gr-telecom-taxes": {
+      "x": 1128,
+      "y": 32
+    },
+    "gr-pollution-taxes": {
+      "x": 1515,
+      "y": 305
+    },
+    "gr-other-income-taxes": {
+      "x": 922,
+      "y": 820
+    },
+    "gr-excise-fuel": {
+      "x": 68,
+      "y": 920
+    },
+    "gr-asset-sale-taxes": {
+      "x": 89,
+      "y": 215
+    },
+    "gr-hotels-advertising": {
+      "x": 478,
+      "y": 32
+    },
+    "gr-licences-fees": {
+      "x": 1473,
+      "y": 32
+    },
+    "ota": {
+      "x": 1091,
+      "y": 568
+    },
+    "gr-municipal-refuse-fees": {
+      "x": 1233,
+      "y": 427
+    },
+    "gr-household-buildings-tax-local": {
+      "x": 1286,
+      "y": 604
+    },
+    "gr-municipal-land-fees": {
+      "x": 1166,
+      "y": 724
+    }
+  },
+  "radii": {}
+}

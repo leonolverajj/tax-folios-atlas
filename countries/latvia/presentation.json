@@ -1,0 +1,28 @@
+{
+  "nodes": {
+    "latvia": { "label": "Latvia", "sublabel": "Latvija · Fiscal folio", "glyph": "globe" },
+    "valsts": { "label": "State", "sublabel": "Valsts", "glyph": "landmark" },
+    "pasvaldibas": { "label": "Municipalities", "sublabel": "Pašvaldības", "glyph": "town" },
+    "lv-pit-state": { "label": "Income tax (State)", "sublabel": "20–31% (2024)", "glyph": "person" },
+    "lv-cit": { "label": "Corporate income tax", "sublabel": "20% of payout", "glyph": "factory" },
+    "lv-social-employers": { "label": "Social: employers", "sublabel": "23.59%", "glyph": "heart" },
+    "lv-social-employees": { "label": "Social: employees", "sublabel": "10.5%", "glyph": "heart" },
+    "lv-social-self-employed": { "label": "Self-employed", "sublabel": "Contributions", "glyph": "heart" },
+    "lv-vat": { "label": "VAT", "sublabel": "21%", "glyph": "cart" },
+    "lv-customs": { "label": "Customs duties", "sublabel": "EU tariff", "glyph": "ship" },
+    "lv-excise-oil": { "label": "Fuel excise", "sublabel": "Oil products", "glyph": "flame" },
+    "lv-excise-tobacco": { "label": "Tobacco excise", "sublabel": "Cigarettes", "glyph": "smoke" },
+    "lv-excise-alcohol": { "label": "Alcohol excise", "sublabel": "Per litre", "glyph": "wine" },
+    "lv-excise-other": { "label": "Other excises", "sublabel": "Gas · electricity", "glyph": "bolt" },
+    "lv-gambling": { "label": "Gambling taxes", "sublabel": "Operators", "glyph": "dice" },
+    "lv-vehicle-taxes": { "label": "Vehicle taxes", "sublabel": "Operation tax", "glyph": "car" },
+    "lv-natural-resources": { "label": "Natural resources tax", "sublabel": "Pollution", "glyph": "leaf" },
+    "lv-oil-reserve-fee": { "label": "Security reserve fee", "sublabel": "Oil stocks", "glyph": "oil" },
+    "lv-financial-levies": { "label": "Financial-sector levies", "sublabel": "Guarantee fund", "glyph": "bank" },
+    "lv-register-duties": { "label": "Land Register duties", "sublabel": "Transfers", "glyph": "stamp" },
+    "lv-inheritance-gift": { "label": "Inheritance and gifts", "sublabel": "Duty", "glyph": "gem" },
+    "lv-other-duties": { "label": "Other duties", "sublabel": "Fees", "glyph": "stamp" },
+    "lv-pit-municipal": { "label": "Income tax (municipal)", "sublabel": "Share of PIT", "glyph": "person" },
+    "lv-property-tax": { "label": "Property tax", "sublabel": "Local", "glyph": "house" }
+  }
+}

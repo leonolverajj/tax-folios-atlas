@@ -1,0 +1,102 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "ireland": {
+      "x": 800,
+      "y": 500
+    },
+    "state": {
+      "x": 509,
+      "y": 432
+    },
+    "ie-income-tax": {
+      "x": 840,
+      "y": 796
+    },
+    "ie-exit-tax": {
+      "x": 463,
+      "y": 748
+    },
+    "ie-stamp-duty": {
+      "x": 289,
+      "y": 518
+    },
+    "ie-customs": {
+      "x": 426,
+      "y": 275
+    },
+    "ie-vrt": {
+      "x": 789,
+      "y": 170
+    },
+    "ie-tobacco-tax": {
+      "x": 1164,
+      "y": 268
+    },
+    "ie-usc": {
+      "x": 571,
+      "y": 920
+    },
+    "ie-corporation-tax": {
+      "x": 170,
+      "y": 688
+    },
+    "ie-cgt": {
+      "x": 152,
+      "y": 340
+    },
+    "ie-mineral-oil-tax": {
+      "x": 532,
+      "y": 87
+    },
+    "ie-motor-tax": {
+      "x": 1077,
+      "y": 89
+    },
+    "ie-other-excise": {
+      "x": 1448,
+      "y": 339
+    },
+    "ie-dirt": {
+      "x": 869,
+      "y": 926
+    },
+    "ie-vat": {
+      "x": 224,
+      "y": 895
+    },
+    "ie-cat": {
+      "x": 114,
+      "y": 525
+    },
+    "ie-carbon-tax": {
+      "x": 165,
+      "y": 110
+    },
+    "ie-alcohol-tax": {
+      "x": 797,
+      "y": 32
+    },
+    "ie-prsi": {
+      "x": 1420,
+      "y": 100
+    },
+    "councils": {
+      "x": 1091,
+      "y": 568
+    },
+    "ie-lpt": {
+      "x": 1263,
+      "y": 501
+    },
+    "ie-commercial-rates": {
+      "x": 1211,
+      "y": 710
+    }
+  },
+  "radii": {}
+}

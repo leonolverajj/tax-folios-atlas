@@ -1,0 +1,66 @@
+{
+  "groups": [
+    {
+      "title": "Central government budget tax revenue 2025 – Ministry of Treasury and Finance (TRY million)",
+      "defaults": {
+        "denominatorId": "merkezi-vergi-2025",
+        "scale": "million",
+        "currency": "TRY",
+        "period": { "label": "2025", "kind": "calendar-year", "start": "2025-01-01", "end": "2025-12-31" },
+        "basis": "Cash basis, provisional; gross before the shares passed to local administrations and funds",
+        "sourceId": "mtf-budget-2025-12",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        {
+          "nodeId": "tr-income-tax",
+          "amount": 2813235,
+          "locator": "Report table \"Vergi Gelirleri\" (tax revenues), cumulative January–December 2025: Gelir Vergisi"
+        },
+        {
+          "nodeId": "tr-corporate-tax",
+          "amount": 1223874,
+          "locator": "Report table \"Vergi Gelirleri\" (tax revenues), cumulative January–December 2025: Kurumlar Vergisi"
+        },
+        {
+          "nodeId": "tr-vat-domestic",
+          "amount": 1555932,
+          "locator": "Report table \"Vergi Gelirleri\" (tax revenues), cumulative January–December 2025: Dahilde Alınan Katma Değer Vergisi"
+        },
+        {
+          "nodeId": "tr-vat-imports",
+          "amount": 1724197,
+          "locator": "Report table \"Vergi Gelirleri\" (tax revenues), cumulative January–December 2025: İthalde Alınan Katma Değer Vergisi"
+        },
+        {
+          "nodeId": "tr-special-consumption-tax",
+          "amount": 2024315,
+          "locator": "Report table \"Vergi Gelirleri\" (tax revenues), cumulative January–December 2025: Özel Tüketim Vergisi"
+        },
+        {
+          "nodeId": "tr-banking-insurance-tax",
+          "amount": 551757,
+          "locator": "Report table \"Vergi Gelirleri\" (tax revenues), cumulative January–December 2025: Banka ve Sigorta Muameleleri Vergisi"
+        },
+        {
+          "nodeId": "tr-stamp-duty",
+          "amount": 225943,
+          "locator": "Report table \"Vergi Gelirleri\" (tax revenues), cumulative January–December 2025: Damga Vergisi"
+        },
+        {
+          "nodeId": "tr-fees",
+          "amount": 336954,
+          "locator": "Report table \"Vergi Gelirleri\" (tax revenues), cumulative January–December 2025: Harçlar"
+        },
+        {
+          "nodeId": "tr-other-taxes",
+          "amount": 593261,
+          "locator": "Report table \"Vergi Gelirleri\" (tax revenues), cumulative January–December 2025: Diğer"
+        }
+      ]
+    }
+  ],
+  "unavailable": []
+}

@@ -1,0 +1,90 @@
+{
+  "id": "finland",
+  "iso3": "FIN",
+  "isoNumeric": "246",
+  "names": { "en": "Finland", "native": "Suomi", "nativeLang": "fi" },
+  "currency": { "code": "EUR", "symbol": "€", "name": "Euro" },
+  "summary": "Finland is a unitary state with 308 municipalities and an autonomous Åland. The State legislates almost every tax and collects most of them, but earned income is taxed twice: a progressive State income tax and a flat municipal income tax whose rate each municipality sets. VAT is the largest single tax, and statutory earnings-related pension and other social contributions are about as large as all the State taxes on income. Since 2023 the 21 wellbeing services counties run health and social care, funded by the State, and have no taxing power.",
+  "structureNote": "All figures are 2025 national accounts figures (Statistics Finland), as compiled by the Finnish Taxpayers’ Association; that compilation is a secondary publication and should be replaced by Statistics Finland’s own table when it is read. The earnings-related pension contributions are paid to pension insurers and funds, which the national accounts classify as part of social security; they are drawn under the State because national law fixes them. Corporation tax is shared between the State, municipalities and parishes by a fixed formula and drawn under the State. The church tax is a levy of the churches and is not drawn. Left out: the broadcasting tax is not itemised (it sits in the State income tax line), gaming profits and sales of emission allowances (not taxes), and the line \"other taxes\" (import duties passed to the EU and penalty interest).",
+  "theme": {
+    "accent": "#8ecbff",
+    "accent2": "#ffd166",
+    "motif": "topo",
+    "motifNote": "Topographic contour lines over the outline of Finland (the generic motif; no bespoke art yet).",
+    "mapLabel": { "lon": 26, "lat": 63.5 }
+  },
+  "levels": [
+    {
+      "id": "state",
+      "branch": "national",
+      "names": { "official": "The State (Valtio)", "native": "Valtio", "common": "Central government" },
+      "description": "Parliament legislates almost every tax. The Tax Administration (Vero) collects income, corporation, VAT, transfer, inheritance and property taxes; Customs collects excise duties; Traficom collects the vehicle tax. The earnings-related pension and other social contributions are fixed by national law and paid to pension and insurance institutions.",
+      "fiscalPower": "The Constitution requires taxes to be set by an Act of Parliament (Section 81). Each tax has its own Act: the Income Tax Act, the Value Added Tax Act, the Act on the Taxation of Business Profits and so on.",
+      "legalRefs": [{ "sourceId": "fi-constitution", "locator": "Section 81" }, { "sourceId": "tuloverolaki" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "municipalities",
+      "branch": "local",
+      "names": { "official": "Municipalities (kunnat)", "native": "Kunnat", "common": "Local government" },
+      "description": "308 municipalities. They set the rate of the municipal income tax and (within bands set by law) the property tax, and receive a share of the corporation tax. They no longer run health and social care, which moved to 21 wellbeing services counties in 2023.",
+      "fiscalPower": "The Constitution gives municipalities the right to levy taxes (Section 121); the municipal income tax rate is decided by each council each year, and the property tax rates must fall within the bands of the Property Tax Act.",
+      "legalRefs": [{ "sourceId": "fi-constitution", "locator": "Section 121" }, { "sourceId": "kiinteistoverolaki" }],
+      "checkedOn": "2026-10-11"
+    }
+  ],
+  "supportingSourceIds": [],
+  "denominators": [
+    {
+      "id": "state-taxes-2025",
+      "label": "Taxes legislated by the State, 2025",
+      "definition": "State income tax on earned and capital income (with the broadcasting tax), corporation tax, withholding tax on interest, inheritance and gift tax, transfer tax, VAT, energy taxes, alcohol, tobacco, soft-drink and lottery taxes, insurance premium tax, vehicle and car taxes, and a group of small taxes and charges.",
+      "levelIds": ["state"],
+      "amount": 72074,
+      "scale": "million",
+      "currency": "EUR",
+      "period": { "label": "2025", "kind": "calendar-year", "start": "2025-01-01", "end": "2025-12-31" },
+      "sourceId": "veronmaksajat-2025",
+      "locator": "Verot ja veronluonteiset maksut 2025: tuloverot (excluding municipal tax), omaisuusverot (excluding property tax), tavaroista ja palveluista maksetut verot (excluding gaming profits and emission auctions)",
+      "calculation": "State income tax 26,353 + corporation 7,070 + interest withholding 444 + inheritance 1,057 + transfer tax 653 + VAT 27,108 + energy 3,786 + alcohol 1,393 + tobacco 1,116 + insurance premium 1,063 + vehicle 1,014 + car 258 + soft drinks 217 + lottery 127 + small taxes and charges 415 = 72,074 (EUR million)",
+      "caveat": "National accounts basis. Excluded: gaming profits (450), sales of emission allowances (434) and \"other taxes\" (333: import duties passed to the EU, penalty interest). Corporation tax includes the municipal and parish shares, which are not separated.",
+      "accessed": "2026-10-11"
+    },
+    {
+      "id": "municipal-taxes-2025",
+      "label": "Municipal taxes, 2025",
+      "definition": "The municipal income tax and the property tax.",
+      "levelIds": ["municipalities"],
+      "amount": 12360,
+      "scale": "million",
+      "currency": "EUR",
+      "period": { "label": "2025", "kind": "calendar-year", "start": "2025-01-01", "end": "2025-12-31" },
+      "sourceId": "veronmaksajat-2025",
+      "locator": "Verot ja veronluonteiset maksut 2025: Kunnallisvero 10,058 + Kiinteistövero 2,302",
+      "calculation": "10,058 + 2,302 = 12,360 (EUR million)",
+      "caveat": "The municipal share of the corporation tax is counted in the State figure.",
+      "accessed": "2026-10-11"
+    },
+    {
+      "id": "social-contributions-2025",
+      "label": "Compulsory social contributions, 2025",
+      "definition": "Employers’ and employees’ statutory earnings-related pension contributions and the other compulsory social security contributions (health insurance, unemployment insurance and the other statutory schemes).",
+      "levelIds": ["state"],
+      "amount": 33872,
+      "scale": "million",
+      "currency": "EUR",
+      "period": { "label": "2025", "kind": "calendar-year", "start": "2025-01-01", "end": "2025-12-31" },
+      "sourceId": "veronmaksajat-2025",
+      "locator": "Verot ja veronluonteiset maksut 2025: Pakolliset sosiaaliturvamaksut",
+      "calculation": "Pension 18,954 + 9,218 = 28,172; other 2,649 + 3,051 = 5,700; total 33,872 (EUR million)",
+      "caveat": "The OECD records EUR 33,911 million of social security contributions for 2023.",
+      "accessed": "2026-10-11"
+    }
+  ],
+  "sizing": {
+    "label": "Taxes and compulsory social contributions of all levels of government",
+    "definition": "State taxes + municipal taxes + compulsory social contributions, calendar 2025. Excludes the church tax, gaming profits, emission allowance sales, import duties passed to the EU and penalty interest.",
+    "componentIds": ["state-taxes-2025", "municipal-taxes-2025", "social-contributions-2025"]
+  },
+  "researchStatus": "researched"
+}

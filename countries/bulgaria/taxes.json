@@ -1,0 +1,485 @@
+{
+  "instruments": [
+    {
+      "id": "bg-pit-wages",
+      "parentId": "darzhava",
+      "levelId": "darzhava",
+      "category": "tax",
+      "family": "income-personal",
+      "status": "current",
+      "names": {
+        "official": "Personal income tax on wages and salaries",
+        "native": "Данък върху доходите на физическите лица (трудови доходи)",
+        "common": "Personal income tax on wages"
+      },
+      "taxes": { "base": "Wages and salaries of employees.", "payer": "Employees; the employer withholds." },
+      "rate": {
+        "kind": "flat",
+        "headline": "10%",
+        "details": [
+          "A flat tax rate of 10% applies to all personal income, with some exceptions (PwC).",
+          "As summarised by PwC (review of 2 August 2026), not checked against the National Revenue Agency."
+        ],
+        "asOf": "2026-08-02"
+      },
+      "explanation": "BGN 5.9 billion in 2024.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "pwc-bg-individual", "locator": "Personal income tax rates" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "bg-pit-other",
+      "parentId": "darzhava",
+      "levelId": "darzhava",
+      "category": "tax",
+      "family": "income-personal",
+      "status": "current",
+      "names": {
+        "official": "Personal income tax on sole traders, free professions and civil contracts; final taxes on dividends and on other income",
+        "native": "ДДФЛ от самостоятелна дейност; окончателен данък върху дивиденти",
+        "common": "Income tax on other income and dividends"
+      },
+      "taxes": {
+        "base": "Sole traders, freelancers and civil-contract income (BGN 437 million); dividends and liquidation dividends of residents and non-residents (BGN 618 million); other final taxes (BGN 30 million); the final tax on interest on deposits is zero in 2024.",
+        "payer": "Individuals; payers withhold the final taxes."
+      },
+      "rate": {
+        "kind": "flat",
+        "headline": "10%",
+        "details": ["As summarised by PwC (review of 2 August 2026), not checked against the National Revenue Agency."],
+        "asOf": "2026-08-02"
+      },
+      "explanation": "Four lines.",
+      "exceptions": [],
+      "legalRefs": [
+        { "sourceId": "pwc-bg-individual", "locator": "Personal income tax rates" },
+        { "sourceId": "ntl-2026", "locator": "sheet BG, D51A C02 and C04, D51C1 C01 and C02" }
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "bg-corporate-income-tax",
+      "parentId": "darzhava",
+      "levelId": "darzhava",
+      "category": "tax",
+      "family": "income-corporate",
+      "status": "current",
+      "names": { "official": "Corporate income tax", "native": "Корпоративен данък", "common": "Corporate income tax" },
+      "taxes": { "base": "Profit of companies.", "payer": "Companies." },
+      "rate": {
+        "kind": "flat",
+        "headline": "10%",
+        "details": [
+          "In general, corporate income is subject to CIT at a flat rate of 10% (PwC).",
+          "As summarised by PwC (review of 2 August 2026), not checked against the National Revenue Agency."
+        ],
+        "asOf": "2026-08-02"
+      },
+      "explanation": "BGN 5.4 billion in 2024.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "pwc-bg-corporate", "locator": "Corporate income tax rates" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "bg-other-corporate-taxes",
+      "parentId": "darzhava",
+      "levelId": "darzhava",
+      "category": "tax",
+      "family": "income-corporate",
+      "status": "current",
+      "names": {
+        "official": "Top-up tax on multinational groups, taxes on income and dividends of corporations, and the income tax of budgetary enterprises",
+        "native": "Данък върху печалбата на мултинационални групи; дивиденти на юридически лица",
+        "common": "Other corporate taxes"
+      },
+      "taxes": {
+        "base": "The top-up tax from multinational enterprise groups and large domestic groups (BGN 400 million, a new line in 2024), taxes on income and dividends of corporations (BGN 123.5 million) and the budgetary enterprises’ income tax (BGN 29.5 million).",
+        "payer": "Large groups, corporations and budgetary enterprises."
+      },
+      "rate": { "kind": "varies", "headline": "Set by the Corporate Income Tax Act", "details": [], "asOf": "2026-10-12" },
+      "explanation": "Three lines.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet BG, D51B C03, D51C2, D51E" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "bg-social-employers",
+      "parentId": "darzhava",
+      "levelId": "darzhava",
+      "category": "social-contribution",
+      "family": "social-security",
+      "status": "current",
+      "names": {
+        "official": "Employers’ compulsory social contributions (pensions, sickness and maternity, injuries, unemployment and health)",
+        "native": "Осигурителни вноски на работодателите",
+        "common": "Employers’ contributions"
+      },
+      "taxes": {
+        "base": "Gross pay up to a ceiling. Pension fund BGN 6.1 billion, health insurance BGN 3.0 billion, sickness and maternity BGN 1.2 billion, injuries BGN 0.4 billion, unemployment BGN 0.3 billion.",
+        "payer": "Employers."
+      },
+      "rate": { "kind": "flat", "headline": "Set by the Social Insurance Code", "details": ["The rates are not extracted here."], "asOf": "2026-10-12" },
+      "explanation": "The largest social line.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet BG, D611, D6111, D6112" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "bg-social-employees",
+      "parentId": "darzhava",
+      "levelId": "darzhava",
+      "category": "social-contribution",
+      "family": "social-security",
+      "status": "current",
+      "names": {
+        "official": "Employees’ compulsory social contributions (pensions, sickness and maternity, unemployment and health)",
+        "native": "Осигурителни вноски на работниците и служителите",
+        "common": "Employees’ contributions"
+      },
+      "taxes": {
+        "base": "Gross pay up to a ceiling. Pension fund BGN 3.5 billion, health insurance BGN 1.7 billion, sickness and maternity BGN 0.7 billion, unemployment BGN 0.2 billion.",
+        "payer": "Employees; the employer withholds."
+      },
+      "rate": { "kind": "flat", "headline": "Set by the Social Insurance Code", "details": ["The rates are not extracted here."], "asOf": "2026-10-12" },
+      "explanation": "BGN 6.1 billion.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet BG, D613CE" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "bg-social-self-employed",
+      "parentId": "darzhava",
+      "levelId": "darzhava",
+      "category": "social-contribution",
+      "family": "social-security",
+      "status": "current",
+      "names": {
+        "official": "Contributions of the self-employed (pensions, sickness and maternity, health)",
+        "native": "Осигурителни вноски на самоосигуряващите се",
+        "common": "Self-employed contributions"
+      },
+      "taxes": {
+        "base": "The income of the self-employed. Pension fund BGN 482 million, health insurance BGN 314 million, sickness and maternity BGN 75 million.",
+        "payer": "Self-employed people."
+      },
+      "rate": { "kind": "varies", "headline": "Set by the Social Insurance Code", "details": [], "asOf": "2026-10-12" },
+      "explanation": "BGN 0.9 billion.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet BG, D613CS" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "bg-vat",
+      "parentId": "darzhava",
+      "levelId": "darzhava",
+      "category": "tax",
+      "family": "general-consumption",
+      "status": "current",
+      "names": { "official": "Value added tax", "native": "Данък върху добавената стойност (ДДС)", "common": "VAT", "abbreviation": "ДДС" },
+      "taxes": { "base": "Goods and services supplied in Bulgaria and imports.", "payer": "Consumers; businesses charge it and claim input credits." },
+      "rate": {
+        "kind": "range",
+        "headline": "20% standard; 9% reduced",
+        "details": [
+          "The standard VAT rate is 20% and the reduced rate is 9% (baby foods, hygiene products, books and periodicals, among others) (PwC).",
+          "As summarised by PwC (review of 2 August 2026), not checked against the National Revenue Agency."
+        ],
+        "asOf": "2026-08-02"
+      },
+      "explanation": "The largest tax: BGN 19.1 billion.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "pwc-bg-other", "locator": "Value-added tax" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "bg-customs",
+      "parentId": "darzhava",
+      "levelId": "darzhava",
+      "category": "customs-duty",
+      "family": "trade",
+      "status": "current",
+      "names": {
+        "official": "Import duties, veterinary and sanitary levies and excise duties collected on imports",
+        "native": "Мита и други вземания при внос",
+        "common": "Customs duties and import levies"
+      },
+      "taxes": {
+        "base": "Goods imported from outside the EU: import duties (BGN 329.7 million), veterinary and sanitary levies (BGN 22.9 million) and small excise lines on imported tobacco, fuel, alcohol and beer.",
+        "payer": "Importers."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "EU Common Customs Tariff",
+        "details": ["The import duties are an EU own resource; Eurostat records them under the EU institutions."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "Eight lines.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "eurostat-taxag", "locator": "S.212, D212" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "bg-excise-tobacco",
+      "parentId": "darzhava",
+      "levelId": "darzhava",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Excise duties on tobacco products", "native": "Акцизи върху тютюневите изделия", "common": "Tobacco excise" },
+      "taxes": { "base": "Cigarettes and other tobacco products.", "payer": "Producers and importers; passed on in the price." },
+      "rate": { "kind": "mechanism", "headline": "Fixed by the Excise Duties and Tax Warehouses Act", "details": [], "asOf": "2026-10-12" },
+      "explanation": "BGN 3.7 billion: more than the excise on fuel.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet BG, D214A C01" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "bg-excise-fuel",
+      "parentId": "darzhava",
+      "levelId": "darzhava",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "Excise duties on fuel, electric power, and coal and coke",
+        "native": "Акцизи върху горивата, електроенергията и въглищата",
+        "common": "Fuel and energy excise"
+      },
+      "taxes": {
+        "base": "Fuels (BGN 2,647 million), electric power (BGN 35 million) and coal and coke (BGN 5.5 million).",
+        "payer": "Fuel suppliers; passed on at the pump."
+      },
+      "rate": { "kind": "specific", "headline": "Per 1,000 litres", "details": [], "asOf": "2026-10-12" },
+      "explanation": "Three lines.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet BG, D214A C02, C06, C07" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "bg-excise-alcohol-other",
+      "parentId": "darzhava",
+      "levelId": "darzhava",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "Excise duties on alcohol, beer and other products",
+        "native": "Акцизи върху алкохола, бирата и други стоки",
+        "common": "Alcohol and other excises"
+      },
+      "taxes": {
+        "base": "Alcohol (BGN 269 million), beer (BGN 73 million) and other products (BGN 82 million).",
+        "payer": "Producers and importers; passed on in the price."
+      },
+      "rate": { "kind": "specific", "headline": "Per litre of pure alcohol or of beer", "details": [], "asOf": "2026-10-12" },
+      "explanation": "Three lines.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet BG, D214A C03, C04, C08" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "bg-gambling-insurance",
+      "parentId": "darzhava",
+      "levelId": "darzhava",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "Taxes on lotteries, gambling and betting, on insurance premiums, and on the registration of motor vehicles",
+        "native": "Данък върху хазарта; данък върху застрахователните премии; такси за регистрация",
+        "common": "Gambling, insurance and registration taxes"
+      },
+      "taxes": {
+        "base": "Gambling and betting (BGN 115 million), insurance premiums (BGN 71 million) and state taxes on the registration of motor vehicles (BGN 12 million).",
+        "payer": "Operators, insurers and vehicle owners."
+      },
+      "rate": { "kind": "varies", "headline": "Set by law", "details": [], "asOf": "2026-10-12" },
+      "explanation": "Three small lines.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet BG, D214F, D214G, D214D" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "bg-electric-power-fund",
+      "parentId": "darzhava",
+      "levelId": "darzhava",
+      "category": "special-levy",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "Contributions to the Electric Power System Security Fund",
+        "native": "Вноски във Фонд „Сигурност на електроенергийната система“",
+        "common": "Electric Power System fund"
+      },
+      "taxes": {
+        "base": "As named in the National Tax List: contributions in the Electric Power System fund; no further detail.",
+        "payer": "Not given in the list."
+      },
+      "rate": { "kind": "varies", "headline": "Set by regulation", "details": [], "asOf": "2026-10-12" },
+      "explanation": "BGN 560 million, booked as a tax on specific services.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet BG, D214H C02" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "bg-environmental-fees",
+      "parentId": "darzhava",
+      "levelId": "darzhava",
+      "category": "fee",
+      "family": "resource",
+      "status": "current",
+      "names": {
+        "official": "Water Act, Waste Management Act and Protected Areas Act fees, and greenhouse gas emissions licence fees",
+        "native": "Такси по Закона за водите и Закона за управление на отпадъците",
+        "common": "Environmental fees"
+      },
+      "taxes": {
+        "base": "Water (BGN 43.0 million), waste management (BGN 7.8 million), protected areas and emissions licence fees.",
+        "payer": "Water users, waste producers and permit holders."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Set by the environmental laws",
+        "details": ["The revenue of emission trading permits (BGN 2,293 million) is not counted."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "Four lines.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet BG, D29F C01–C03 and C06" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "bg-bank-contributions",
+      "parentId": "darzhava",
+      "levelId": "darzhava",
+      "category": "special-levy",
+      "family": "other",
+      "status": "current",
+      "names": {
+        "official": "Banks’ contributions to the Deposit Guarantee Fund and the National Resolution Fund",
+        "native": "Вноски на банките във Фонда за гарантиране на влоговете",
+        "common": "Bank fund contributions"
+      },
+      "taxes": { "base": "Banks.", "payer": "Banks." },
+      "rate": { "kind": "varies", "headline": "Set by the funds", "details": [], "asOf": "2026-10-12" },
+      "explanation": "BGN 217 million in 2024.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet BG, D29H C06" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "bg-small-taxes",
+      "parentId": "darzhava",
+      "levelId": "darzhava",
+      "category": "fee",
+      "family": "other",
+      "status": "current",
+      "names": {
+        "official": "Taxes on social expenditure and on luxury expenditure of companies, tonnage tax, fishing and hunting licences and others",
+        "native": "Данък върху социалните разходи; данък върху представителните разходи",
+        "common": "Other small taxes"
+      },
+      "taxes": {
+        "base": "The tax on social expenditures made by employers for their employees (BGN 29.6 million), the tax on corporate luxury expenditures (BGN 37.7 million), the tax on the net tonnage of ships, fishing and hunting licences and small lines.",
+        "payer": "Companies and licence holders."
+      },
+      "rate": { "kind": "varies", "headline": "Set by law", "details": [], "asOf": "2026-10-12" },
+      "explanation": "Seven lines, together under 0.3% of the total.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet BG, D29C, D29H, D29E C03, D59D, D59F C03" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "bg-real-estate-tax",
+      "parentId": "obshtini",
+      "levelId": "obshtini",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "Real estate tax", "native": "Данък върху недвижимите имоти", "common": "Real estate tax" },
+      "taxes": { "base": "The tax value of buildings and land.", "payer": "Owners of real estate." },
+      "rate": {
+        "kind": "range",
+        "headline": "Set by each municipality within a legal range",
+        "details": ["The list does not give rates. Eurostat books the amount under local government."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "BGN 425 million.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet BG, D29A C01" }, { "sourceId": "eurostat-taxag", "locator": "S.1313, D29A" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "bg-vehicle-tax",
+      "parentId": "obshtini",
+      "levelId": "obshtini",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Motor vehicles tax (paid by producers and by households)", "native": "Данък върху превозните средства", "common": "Vehicle tax" },
+      "taxes": {
+        "base": "Registered motor vehicles: those held by businesses (BGN 208 million) and by households (BGN 235 million).",
+        "payer": "Vehicle owners."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "By engine power, age and emissions",
+        "details": ["Eurostat books these amounts under local government."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "The annual vehicle tax is a municipal tax.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet BG, D29B C01, D59F C01" }, { "sourceId": "eurostat-taxag", "locator": "S.1313, D29B and D59F" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "bg-donations-inheritance",
+      "parentId": "obshtini",
+      "levelId": "obshtini",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": {
+        "official": "Taxes on donations, sponsorships and acquisitions for consideration, and the inheritance tax",
+        "native": "Данък върху даренията и наследствата; данък при възмездно придобиване",
+        "common": "Donation, acquisition and inheritance taxes"
+      },
+      "taxes": {
+        "base": "Taxes on donations, taxes on sponsorships and taxes on acquisition of property for consideration (BGN 644 million) and the inheritance tax (BGN 0.9 million), as named in the National Tax List.",
+        "payer": "Recipients and buyers."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Set by the Local Taxes and Fees Act",
+        "details": ["Eurostat books these amounts as capital taxes under local government."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "The tax on transfers of property is a municipal revenue.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet BG, D91A" }, { "sourceId": "eurostat-taxag", "locator": "S.1313, D91" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "bg-local-small-taxes",
+      "parentId": "obshtini",
+      "levelId": "obshtini",
+      "category": "tax",
+      "family": "other",
+      "status": "current",
+      "names": {
+        "official": "Final annual (patent) tax, visitor tax and the dog ownership tax",
+        "native": "Патентен данък; туристически данък; данък за притежание на куче",
+        "common": "Patent, visitor and dog taxes"
+      },
+      "taxes": {
+        "base": "The patent tax on small businesses (BGN 18.0 million), the visitor tax (BGN 25.8 million) and the dog ownership tax (BGN 0.8 million).",
+        "payer": "Small businesses, visitors and dog owners."
+      },
+      "rate": { "kind": "varies", "headline": "Set by each municipality", "details": [], "asOf": "2026-10-12" },
+      "explanation": "Three small municipal taxes.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet BG, D51A C03, D214H C01, D59F C02" }],
+      "checkedOn": "2026-10-12"
+    }
+  ]
+}

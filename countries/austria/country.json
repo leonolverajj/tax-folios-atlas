@@ -1,0 +1,141 @@
+{
+  "id": "austria",
+  "iso3": "AUT",
+  "isoNumeric": "040",
+  "names": { "en": "Austria", "native": "Österreich", "nativeLang": "de" },
+  "currency": { "code": "EUR", "symbol": "€", "name": "Euro" },
+  "summary": "Austria is a federation of nine Länder, but the tax law is federal: the Bund legislates and collects almost everything, and the big taxes (income, wage, corporation tax, VAT, mineral oil tax) are shared with the Länder and municipalities by a key fixed in the fiscal equalisation law (about 68% Bund, 20% Länder, 12% municipalities). Social insurance is run by self-governing public bodies and is the second largest flow. The municipalities’ own taxes are the payroll tax (Kommunalsteuer) and the land tax (Grundsteuer); the Länder have few taxes of their own.",
+  "structureNote": "Federal taxes are drawn gross, once, under the Bund, before the shares that the equalisation law passes to the Länder (EUR 21.4 billion), municipalities (EUR 13.8 billion), the EU, funds and others; the Bund’s own net revenue is EUR 73.8 billion. The Länder figure is the OECD’s total for their own taxes in 2023, and the municipal part is the OECD’s total for 2023 with Kommunalsteuer and Grundsteuer drawn from Statistik Austria: those parts are two years older than the rest and partly itemised, so the folio is marked partial. The pension contributions of civil servants, the chambers’ levies and the occupational schemes are not drawn.",
+  "theme": {
+    "accent": "#ff6b6b",
+    "accent2": "#f4f1de",
+    "motif": "topo",
+    "motifNote": "Topographic contour lines over the outline of Austria (the generic motif; no bespoke art yet).",
+    "mapLabel": { "lon": 14.3, "lat": 47.6 }
+  },
+  "levels": [
+    {
+      "id": "bund",
+      "branch": "national",
+      "names": { "official": "Federation (Bund)", "native": "Bund", "common": "Federal government" },
+      "description": "The National Council legislates almost every tax. The tax offices and the customs office collect the federal taxes; the self-governing social insurance institutions and the Public Employment Service collect the contributions, which national law fixes.",
+      "fiscalPower": "The Federal Constitution (F-VG 1948) gives the Bund the power to levy and legislate taxes, and the equalisation law (Finanzausgleichsgesetz) distributes the shared taxes among the Bund, Länder and municipalities.",
+      "legalRefs": [{ "sourceId": "bvg", "locator": "Art. 13" }, { "sourceId": "bmf-besteuerungsrechte" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "laender",
+      "branch": "regional",
+      "names": { "official": "Länder (nine federal states)", "native": "Länder", "common": "Länder" },
+      "description": "The nine Länder (including Vienna, which is both a Land and a municipality) receive about a fifth of the shared taxes and collect a few taxes of their own, such as the housing subsidy contribution and tourism levies.",
+      "fiscalPower": "The equalisation law lets the Länder levy the taxes it names; they have almost no power to set rates.",
+      "legalRefs": [{ "sourceId": "bmf-besteuerungsrechte" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "gemeinden",
+      "branch": "local",
+      "names": { "official": "Municipalities (Gemeinden)", "native": "Gemeinden", "common": "Municipalities" },
+      "description": "About 2,100 municipalities. They levy the Kommunalsteuer (3% of payroll) and the Grundsteuer (a multiplier on a federal base) and receive a share of the shared taxes.",
+      "fiscalPower": "The Municipal Payroll Tax Act and the Property Tax Act fix the base and the rates; municipalities may set the multiplier of the Grundsteuer within a federal ceiling.",
+      "legalRefs": [{ "sourceId": "bmf-besteuerungsrechte" }],
+      "checkedOn": "2026-10-11"
+    }
+  ],
+  "supportingSourceIds": [],
+  "denominators": [
+    {
+      "id": "bund-taxes-2025",
+      "label": "Federal taxes before sharing, 2025",
+      "definition": "Gross receipts of the federal public charges (UG 16): income and wealth taxes, consumption and traffic taxes, stamp duties and administrative fees, and the national carbon pricing, before the shares passed to Länder, municipalities, the EU, funds and companies.",
+      "levelIds": ["bund"],
+      "amount": 119717.9,
+      "scale": "million",
+      "currency": "EUR",
+      "period": { "label": "2025 (preliminary)", "kind": "calendar-year", "start": "2025-01-01", "end": "2025-12-31" },
+      "sourceId": "bmf-abgabenerfolg-2025-12",
+      "locator": "Öffentliche Abgaben Brutto ohne Abgabenguthaben, January to December 2025",
+      "calculation": "Bruttosteuern 118,301.3 + national emissions trading 1,416.6 = 119,717.9 (EUR million)",
+      "caveat": "Preliminary, cash basis (Finanzierungsrechnung). The Bund keeps EUR 73.8 billion after the transfers (EUR 21.4 billion to the Länder, 13.8 to the municipalities, 3.1 to the EU, 3.8 to Länder and municipalities for health and social tasks, 3.8 to funds and others). Austria’s federal accounts on an accrual basis give gross taxes of EUR 120.0 billion.",
+      "accessed": "2026-10-11"
+    },
+    {
+      "id": "flaf-2025",
+      "label": "Employers’ contribution to the family fund, 2025",
+      "definition": "The employers’ payroll levy that finances the family burdens equalisation fund (Familienlastenausgleichsfonds).",
+      "levelIds": ["bund"],
+      "amount": 8857.41,
+      "scale": "million",
+      "currency": "EUR",
+      "period": { "label": "2025", "kind": "calendar-year", "start": "2025-01-01", "end": "2025-12-31" },
+      "sourceId": "bra-2025-band2",
+      "locator": "Bundesrechnungsabschluss 2025, Band 2, Überblick: Beiträge zum Familienlastenausgleichsfonds in UG 25 Familie und Jugend",
+      "caveat": "Accrual basis, final. The BMF’s page on tax rights gives EUR 7,223 million for the employer contribution alone; the accounts figure includes the surcharge.",
+      "accessed": "2026-10-11"
+    },
+    {
+      "id": "alv-2025",
+      "label": "Unemployment insurance contributions, 2025",
+      "definition": "Contributions of employees and employers to the unemployment insurance, collected with the social insurance contributions and paid to the Public Employment Service.",
+      "levelIds": ["bund"],
+      "amount": 9813.5,
+      "scale": "million",
+      "currency": "EUR",
+      "period": { "label": "2025", "kind": "calendar-year", "start": "2025-01-01", "end": "2025-12-31" },
+      "sourceId": "bra-2025-band2",
+      "locator": "Bundesrechnungsabschluss 2025, Band 2, Überblick: Beiträge zur Arbeitslosenversicherung in UG 20 Arbeit",
+      "caveat": "Accrual basis, final.",
+      "accessed": "2026-10-11"
+    },
+    {
+      "id": "sv-2025",
+      "label": "Pension, health and accident insurance contributions, 2025",
+      "definition": "Contributions of insured persons and employers to the statutory pension, health and accident insurance.",
+      "levelIds": ["bund"],
+      "amount": 76398,
+      "scale": "million",
+      "currency": "EUR",
+      "period": { "label": "2025 (preliminary)", "kind": "calendar-year", "start": "2025-01-01", "end": "2025-12-31" },
+      "sourceId": "sv-in-zahlen-2026",
+      "locator": "Preliminary 2025 results, \"Beiträge für Versicherte\": pension 50,768 + health 23,623 + accident 2,007",
+      "calculation": "50,768 + 23,623 + 2,007 = 76,398 (EUR million)",
+      "caveat": "Preliminary figures of the Dachverband. The OECD records EUR 60,201 million of social security contributions for 2023 including the unemployment insurance. The pension insurers’ income also contains a federal guarantee payment (EUR 15.8 billion), which is not a contribution and is not counted. The health insurance line includes about EUR 3.0 billion of contributions that the pension insurers pay on pensions.",
+      "accessed": "2026-10-11"
+    },
+    {
+      "id": "laender-taxes-2023",
+      "label": "Taxes of the Länder, 2023 (OECD)",
+      "definition": "Tax revenue that the OECD attributes to the regional governments of Austria.",
+      "levelIds": ["laender"],
+      "aggregateOnly": true,
+      "amount": 3898,
+      "scale": "million",
+      "currency": "EUR",
+      "period": { "label": "2023", "kind": "calendar-year", "start": "2023-01-01", "end": "2023-12-31" },
+      "sourceId": "oecd-rs-2025-subsectors",
+      "locator": "Table 6.2: Austria, regional government 2023, total tax revenue",
+      "caveat": "The OECD does not itemise it in the table read; the housing subsidy contribution and tourism levies are the main Länder taxes. Two years older than the federal parts.",
+      "accessed": "2026-10-11"
+    },
+    {
+      "id": "gemeinden-taxes-2023",
+      "label": "Taxes of the municipalities, 2023 (OECD)",
+      "definition": "Tax revenue that the OECD attributes to the local governments of Austria, including Vienna’s local taxes.",
+      "levelIds": ["gemeinden"],
+      "amount": 6297,
+      "scale": "million",
+      "currency": "EUR",
+      "period": { "label": "2023", "kind": "calendar-year", "start": "2023-01-01", "end": "2023-12-31" },
+      "sourceId": "oecd-rs-2025-subsectors",
+      "locator": "Table 6.2: Austria, local government 2023, total tax revenue",
+      "caveat": "The two taxes drawn (Kommunalsteuer and Grundsteuer, from Statistik Austria) explain 79% of it; the rest is smaller municipal levies. Two years older than the federal parts.",
+      "accessed": "2026-10-11"
+    }
+  ],
+  "sizing": {
+    "label": "Taxes and compulsory social contributions of all levels of government",
+    "definition": "Federal taxes before sharing (2025) + family fund and unemployment insurance contributions (2025) + pension, health and accident insurance contributions (2025) + Länder and municipal taxes (OECD 2023). The shared taxes are drawn once, under the Bund. Excludes the federal guarantee payment to the pension insurers, civil servants’ pensions and chambers’ levies.",
+    "componentIds": ["bund-taxes-2025", "flaf-2025", "alv-2025", "sv-2025", "laender-taxes-2023", "gemeinden-taxes-2023"]
+  },
+  "researchStatus": "partial"
+}

@@ -1,0 +1,26 @@
+{
+  "nodes": {
+    "finland": { "label": "Finland", "sublabel": "Suomi · Fiscal folio", "glyph": "globe" },
+    "state": { "label": "The State", "sublabel": "Valtio", "glyph": "landmark" },
+    "municipalities": { "label": "Municipalities", "sublabel": "308 kuntaa", "glyph": "town" },
+    "fi-state-income-tax": { "label": "State income tax", "sublabel": "Earned · capital income", "glyph": "person" },
+    "fi-corporate-tax": { "label": "Corporate tax", "sublabel": "20%", "glyph": "factory" },
+    "fi-interest-withholding": { "label": "Tax on interest", "sublabel": "Withholding", "glyph": "coin" },
+    "fi-inheritance-gift-tax": { "label": "Inheritance & gift tax", "sublabel": "Progressive", "glyph": "key" },
+    "fi-transfer-tax": { "label": "Transfer tax", "sublabel": "Property · shares", "glyph": "stamp" },
+    "fi-vat": { "label": "VAT", "sublabel": "25.5%", "glyph": "cart" },
+    "fi-energy-taxes": { "label": "Energy taxes", "sublabel": "Fuels · electricity", "glyph": "oil" },
+    "fi-alcohol-tax": { "label": "Alcohol tax", "sublabel": "Per litre", "glyph": "wine" },
+    "fi-tobacco-tax": { "label": "Tobacco tax", "sublabel": "Cigarettes", "glyph": "smoke" },
+    "fi-insurance-premium-tax": { "label": "Insurance premium tax", "sublabel": "Non-life insurance", "glyph": "shield" },
+    "fi-vehicle-tax": { "label": "Vehicle tax", "sublabel": "Annual", "glyph": "car" },
+    "fi-car-tax": { "label": "Car tax", "sublabel": "At registration", "glyph": "car" },
+    "fi-soft-drink-tax": { "label": "Soft drink tax", "sublabel": "Per litre", "glyph": "drop" },
+    "fi-lottery-tax": { "label": "Lottery tax", "sublabel": "Gaming", "glyph": "dice" },
+    "fi-small-taxes": { "label": "Other small taxes", "sublabel": "Pharmacy fee · others", "glyph": "ledger" },
+    "fi-municipal-income-tax": { "label": "Municipal income tax", "sublabel": "Set by each municipality", "glyph": "town" },
+    "fi-property-tax": { "label": "Property tax", "sublabel": "Land · buildings", "glyph": "house" },
+    "fi-pension-contributions": { "label": "Pension contributions", "sublabel": "TyEL", "glyph": "coin" },
+    "fi-other-social-contributions": { "label": "Other social contributions", "sublabel": "Health · unemployment", "glyph": "heart" }
+  }
+}

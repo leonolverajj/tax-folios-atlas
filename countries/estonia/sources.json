@@ -1,0 +1,180 @@
+{
+  "sources": [
+    {
+      "id": "oecd-rs-2025-subsectors",
+      "org": "OECD",
+      "title": "Revenue Statistics 2025, Table 6.10: Estonia, tax revenues by sub-sectors of government",
+      "url": "https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en/full-report/tax-revenues-by-subsectors-of-general-government_f9e88332.html",
+      "kind": "international",
+      "language": "en",
+      "publishedDate": "2025-12-09",
+      "periodCovered": "Calendar year 2023 (national currency)",
+      "accessed": "2026-09-29",
+      "note": "Harmonised OECD classification of taxes (1000–6000) split by collecting sub-sector of general government."
+    },
+    {
+      "id": "oecd-rs-2025-levels",
+      "org": "OECD",
+      "title": "Revenue Statistics 2025, Chapter 3: Tax levels and tax structures (Table 3.1)",
+      "url": "https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en/full-report/tax-levels-and-tax-structures-1965-2024_2033f3ea.html",
+      "kind": "international",
+      "language": "en",
+      "publishedDate": "2025-12-09",
+      "periodCovered": "Calendar year 2023",
+      "accessed": "2026-09-29",
+      "note": "Total tax revenue as % of GDP."
+    },
+    {
+      "id": "sng-wofi-profile",
+      "org": "OECD and United Cities and Local Governments (SNG-WOFI)",
+      "title": "World Observatory on Subnational Government Finance and Investment – country profile: Estonia",
+      "url": "https://www.sng-wofi.org/country_profiles/estonia.html",
+      "kind": "international",
+      "language": "en",
+      "publishedDate": "2022-10-24",
+      "periodCovered": "2019",
+      "accessed": "2026-09-29",
+      "note": "Subnational government revenue by category as % of total subnational revenue, 2022 edition."
+    },
+    {
+      "id": "ntl-2026",
+      "org": "European Commission, DG Taxation and Customs Union, with Eurostat",
+      "title": "Data on Taxation Trends: National Tax Lists (NTL), edition 2026",
+      "url": "https://taxation-customs.ec.europa.eu/taxation/economic-analysis/data-taxation-trends_en",
+      "kind": "statistics",
+      "language": "en",
+      "publishedDate": "2026-03-31",
+      "periodCovered": "Calendar year 2024 (series from 1995)",
+      "accessed": "2026-10-12",
+      "nextExpected": "2027-03",
+      "note": "Workbook \"NTL edition 2026 web.xlsx\", sheet EE: every tax and social contribution by its national name and ESA code, in EUR million, for general government plus EU institutions. Data cut-off 30 October 2025."
+    },
+    {
+      "id": "eurostat-taxag",
+      "org": "Eurostat",
+      "title": "Main national accounts tax aggregates (gov_10a_taxag)",
+      "url": "https://ec.europa.eu/eurostat/databrowser/view/gov_10a_taxag/default/table",
+      "kind": "statistics",
+      "language": "en",
+      "publishedDate": "2026-07-21",
+      "periodCovered": "Calendar year 2024",
+      "accessed": "2026-10-12",
+      "nextExpected": "2027-07",
+      "note": "Taxes and social contributions by sub-sector and ESA item; used to place each tax at a level and to check the totals of the National Tax List."
+    },
+    {
+      "id": "emta-rates",
+      "org": "Estonian Tax and Customs Board (EMTA)",
+      "title": "Tax rates (income tax, social tax, funded pension, unemployment insurance, VAT), 2024–2026",
+      "url": "https://www.emta.ee/en/private-client/taxes-and-payment/declaration-income/tax-rates",
+      "kind": "tax-agency",
+      "language": "en",
+      "publishedDate": "2025-11-11",
+      "periodCovered": "2024 to 2026",
+      "accessed": "2026-10-12",
+      "note": "Rates by year: income tax 20% (2024), 22% (2025, 2026); corporate 20/80 (2024), 22/78 (2025–); social tax 33%; unemployment insurance 1.6% and 0.8%; VAT 24% standard."
+    },
+    {
+      "id": "emta-social-tax",
+      "org": "Estonian Tax and Customs Board (EMTA)",
+      "title": "Social tax",
+      "url": "https://www.emta.ee/en/business-client/taxes-and-payment/income-and-social-taxes/social-tax",
+      "kind": "tax-agency",
+      "language": "en",
+      "publishedDate": null,
+      "accessed": "2026-10-12"
+    },
+    {
+      "id": "emta-unemployment",
+      "org": "Estonian Tax and Customs Board (EMTA)",
+      "title": "Unemployment insurance premiums",
+      "url": "https://www.emta.ee/en/business-client/taxes-and-payment/income-and-social-taxes/unemployment-insurance-premiums",
+      "kind": "tax-agency",
+      "language": "en",
+      "publishedDate": null,
+      "accessed": "2026-10-12"
+    },
+    {
+      "id": "emta-vat",
+      "org": "Estonian Tax and Customs Board (EMTA)",
+      "title": "VAT rates and supply exempt from tax",
+      "url": "https://www.emta.ee/en/business-client/taxes-and-payment/value-added-tax/vat-rates-and-supply-exempt-tax",
+      "kind": "tax-agency",
+      "language": "en",
+      "publishedDate": null,
+      "accessed": "2026-10-12",
+      "note": "VAT rates 24%, 13%, 9% and 0%; the standard rate is 24% from 1 July 2025."
+    },
+    {
+      "id": "emta-alcohol",
+      "org": "Estonian Tax and Customs Board (EMTA)",
+      "title": "Excise duty on alcohol",
+      "url": "https://www.emta.ee/en/business-client/taxes-and-payment/excise-duties/alcohol",
+      "kind": "tax-agency",
+      "language": "en",
+      "publishedDate": null,
+      "accessed": "2026-10-12"
+    },
+    {
+      "id": "emta-tobacco",
+      "org": "Estonian Tax and Customs Board (EMTA)",
+      "title": "Excise duty on tobacco products",
+      "url": "https://www.emta.ee/en/business-client/taxes-and-payment/excise-duties/tobacco-products",
+      "kind": "tax-agency",
+      "language": "en",
+      "publishedDate": null,
+      "accessed": "2026-10-12"
+    },
+    {
+      "id": "emta-fuel",
+      "org": "Estonian Tax and Customs Board (EMTA)",
+      "title": "Excise duty on fuel and electricity",
+      "url": "https://www.emta.ee/en/business-client/taxes-and-payment/excise-duties/fuel-and-electricity",
+      "kind": "tax-agency",
+      "language": "en",
+      "publishedDate": null,
+      "accessed": "2026-10-12"
+    },
+    {
+      "id": "emta-gambling",
+      "org": "Estonian Tax and Customs Board (EMTA)",
+      "title": "Gambling tax",
+      "url": "https://www.emta.ee/en/business-client/taxes-and-payment/other-taxes-and-claims/gambling-tax",
+      "kind": "tax-agency",
+      "language": "en",
+      "publishedDate": null,
+      "accessed": "2026-10-12"
+    },
+    {
+      "id": "emta-customs",
+      "org": "Estonian Tax and Customs Board (EMTA)",
+      "title": "Customs duty",
+      "url": "https://www.emta.ee/en/business-client/customs-trade-goods/taxation-goods/customs-duty",
+      "kind": "tax-agency",
+      "language": "en",
+      "publishedDate": null,
+      "accessed": "2026-10-12"
+    },
+    {
+      "id": "emta-land-tax",
+      "org": "Estonian Tax and Customs Board (EMTA)",
+      "title": "Land tax",
+      "url": "https://www.emta.ee/en/private-client/taxes-and-payment/other-taxes/land-tax",
+      "kind": "tax-agency",
+      "language": "en",
+      "publishedDate": null,
+      "accessed": "2026-10-12",
+      "note": "Land tax is a state tax imposed by the Land Tax Act and paid in full to the budget of the local authority; rates are set by the local government."
+    },
+    {
+      "id": "emta-road-charge",
+      "org": "Estonian Tax and Customs Board (EMTA)",
+      "title": "Road user charge",
+      "url": "https://www.emta.ee/en/private-client/taxes-and-payment/other-taxes/road-user-charge",
+      "kind": "tax-agency",
+      "language": "en",
+      "publishedDate": null,
+      "accessed": "2026-10-12"
+    }
+  ]
+}

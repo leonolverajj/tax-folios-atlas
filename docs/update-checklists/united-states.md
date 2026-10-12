@@ -1,6 +1,6 @@
 # Update checklist – United States
 
-Generated 2026-10-11 by `npm run checklist`. **Do not edit by hand** – edit the sources in `countries/united-states/sources.json` and re-run it.
+Generated 2026-10-12 by `npm run checklist`. **Do not edit by hand** – edit the sources in `countries/united-states/sources.json` and re-run it.
 
 Research status: **researched**. 2 source(s) to check or due, 1 coming up, 36 in total.
 

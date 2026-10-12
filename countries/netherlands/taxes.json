@@ -1,0 +1,585 @@
+{
+  "instruments": [
+    {
+      "id": "nl-income-tax",
+      "parentId": "rijk",
+      "levelId": "rijk",
+      "category": "tax",
+      "family": "income-personal",
+      "status": "current",
+      "names": { "official": "Wage tax and income tax (loonbelasting en inkomstenbelasting)", "native": "Loon- en inkomstenbelasting", "common": "Income tax" },
+      "taxes": {
+        "base": "Box 1: income from work and home; box 2: income from a substantial shareholding; box 3: a deemed return on savings and investments. Employers withhold wage tax; the self-employed and others file a return.",
+        "payer": "Individuals; employers deduct wage tax as an advance on the income tax."
+      },
+      "rate": {
+        "kind": "progressive",
+        "headline": "Box 1: 35.82%, 37.48%, 49.50% (2025)",
+        "details": [
+          "Box 1 rates for 2025: 35.82% up to EUR 38,441 (which includes the national insurance premiums for those below pension age), 37.48% up to EUR 76,817 and 49.50% above.",
+          "Box 2: 24.5% up to EUR 67,804 and 31% above. Box 3: 36% of a deemed return."
+        ],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "Wage tax of EUR 89.3 billion and income tax of EUR 15.5 billion. Wage tax is an advance payment on income tax and is drawn with it. The premiums for pensions, health and the other social funds are separate and sit under social premiums.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "wet-ib-2001" }, { "sourceId": "wet-lb-1964" }, { "sourceId": "cbs-84120ned" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "nl-corporate-tax",
+      "parentId": "rijk",
+      "levelId": "rijk",
+      "category": "tax",
+      "family": "income-corporate",
+      "status": "current",
+      "names": { "official": "Corporate income tax (vennootschapsbelasting)", "native": "Vennootschapsbelasting", "common": "Corporate tax" },
+      "taxes": {
+        "base": "Profits of companies and other legal entities resident in the Netherlands, and Dutch-source profits of others.",
+        "payer": "Companies."
+      },
+      "rate": {
+        "kind": "progressive",
+        "headline": "19% up to EUR 200,000; 25.8% above",
+        "details": ["Groups with revenue of EUR 750 million or more also pay a top-up tax for the global minimum rate."],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "The third largest tax after VAT and the wage and income tax.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "wet-vpb-1969" }, { "sourceId": "cbs-84120ned" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "nl-dividend-tax",
+      "parentId": "rijk",
+      "levelId": "rijk",
+      "category": "tax",
+      "family": "income-mixed",
+      "status": "current",
+      "names": { "official": "Dividend tax (dividendbelasting)", "native": "Dividendbelasting", "common": "Dividend tax" },
+      "taxes": {
+        "base": "Dividends and similar distributions paid by Dutch companies.",
+        "payer": "The company withholds it; residents can credit it against their own income tax or corporation tax."
+      },
+      "rate": { "kind": "flat", "headline": "15%", "details": ["Reduced under tax treaties for foreign shareholders."], "asOf": "2026-10-11" },
+      "explanation": "A withholding tax that is credited to residents and is a final tax for most foreign shareholders.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "cbs-84120ned" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "nl-vat",
+      "parentId": "rijk",
+      "levelId": "rijk",
+      "category": "tax",
+      "family": "general-consumption",
+      "status": "current",
+      "names": { "official": "Turnover tax (omzetbelasting, VAT)", "native": "Omzetbelasting (btw)", "common": "VAT", "abbreviation": "VAT" },
+      "taxes": {
+        "base": "Supplies of goods and services in the Netherlands and imports, with credit for tax on business purchases.",
+        "payer": "Consumers; businesses charge it and remit the balance."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "21% standard, 9% reduced, 0%",
+        "details": ["Reduced rate of 9% on food, medicines, books and other listed goods; exports and some other supplies at 0%."],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "The second largest tax: 18% of the national total.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "wet-ob-1968" }, { "sourceId": "cbs-84120ned" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "nl-fuel-excise",
+      "parentId": "rijk",
+      "levelId": "rijk",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "Excise duty on mineral oils (accijns)",
+        "native": "Accijns op motorbrandstoffen en andere minerale oliën",
+        "common": "Fuel excise"
+      },
+      "taxes": { "base": "Petrol, diesel, LPG and other mineral oils, per litre or kilogram.", "payer": "Fuel suppliers; passed on at the pump." },
+      "rate": {
+        "kind": "specific",
+        "headline": "Per litre",
+        "details": ["Petrol brought in EUR 4,540 million and other mineral oils EUR 3,205 million in 2025."],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "Charged under the Excise Act; the energy tax on electricity and gas is a separate tax.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "cbs-84120ned" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "nl-tobacco-excise",
+      "parentId": "rijk",
+      "levelId": "rijk",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Excise duty on tobacco", "native": "Accijns op tabak", "common": "Tobacco excise" },
+      "taxes": { "base": "Cigarettes, cigars and other tobacco products.", "payer": "Manufacturers and importers; passed on in the price." },
+      "rate": { "kind": "varies", "headline": "A specific amount plus a share of the price", "details": [], "asOf": "2026-10-11" },
+      "explanation": "A tax on cigarettes, cigars and fine-cut tobacco.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "cbs-84120ned" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "nl-alcohol-excise",
+      "parentId": "rijk",
+      "levelId": "rijk",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Excise duty on alcoholic drinks", "native": "Accijns op alcohol, bier, wijn en tussenproducten", "common": "Alcohol excise" },
+      "taxes": {
+        "base": "Spirits, beer, wine and intermediate products, by volume of alcohol or product.",
+        "payer": "Producers and importers; passed on in the price."
+      },
+      "rate": { "kind": "specific", "headline": "Per hectolitre", "details": [], "asOf": "2026-10-11" },
+      "explanation": "Revenue: spirits and other alcohol EUR 388 million, beer 439, wine 313, intermediate products 17.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "cbs-84120ned" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "nl-soft-drinks-tax",
+      "parentId": "rijk",
+      "levelId": "rijk",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Consumption tax on non-alcoholic drinks", "native": "Verbruiksbelasting op alcoholvrije dranken", "common": "Soft drinks tax" },
+      "taxes": { "base": "Soft drinks, juices and waters with or without added sugar, by litre.", "payer": "Producers and importers; passed on in the price." },
+      "rate": { "kind": "specific", "headline": "Per litre", "details": [], "asOf": "2026-10-11" },
+      "explanation": "A small excise on non-alcoholic drinks.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "cbs-84120ned" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "nl-energy-tax",
+      "parentId": "rijk",
+      "levelId": "rijk",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Energy tax (energiebelasting)", "native": "Energiebelasting", "common": "Energy tax" },
+      "taxes": {
+        "base": "Electricity and natural gas delivered to consumers and businesses, by kilowatt-hour and cubic metre in consumption brackets.",
+        "payer": "Energy suppliers; passed on to consumers."
+      },
+      "rate": {
+        "kind": "specific",
+        "headline": "Per kWh or m³, falling per bracket",
+        "details": ["The first bracket of consumption is taxed at the highest rate; large users pay less per unit."],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "The largest environmental tax. A tax reduction per connection lowers every bill.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "cbs-84120ned" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "nl-aviation-tax",
+      "parentId": "rijk",
+      "levelId": "rijk",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Aviation tax (vliegbelasting)", "native": "Vliegbelasting", "common": "Aviation tax" },
+      "taxes": { "base": "Each passenger departing from a Dutch airport.", "payer": "Airlines, passed on in the ticket price." },
+      "rate": { "kind": "specific", "headline": "A fixed amount per passenger", "details": [], "asOf": "2026-10-11" },
+      "explanation": "Introduced in 2021 as a green tax on air travel.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "cbs-84120ned" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "nl-other-environmental-taxes",
+      "parentId": "rijk",
+      "levelId": "rijk",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "Other environmental taxes (waste, packaging, tap water, coal)",
+        "native": "Overige milieubelastingen",
+        "common": "Other environmental taxes"
+      },
+      "taxes": {
+        "base": "Waste delivered to landfill and incinerators, packaging placed on the market, tap water and coal.",
+        "payer": "Waste operators, producers and importers of packaging, water companies and coal users."
+      },
+      "rate": { "kind": "varies", "headline": "Each has its own rate", "details": [], "asOf": "2026-10-11" },
+      "explanation": "Waste tax EUR 290 million, packaging tax 448, tap water tax 364 and coal tax 1; each is below 0.1% of the total.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "cbs-84120ned" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "nl-motor-vehicle-tax",
+      "parentId": "rijk",
+      "levelId": "rijk",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Motor vehicle tax (motorrijtuigenbelasting)", "native": "Motorrijtuigenbelasting", "common": "Motor vehicle tax" },
+      "taxes": {
+        "base": "Ownership of a vehicle on the road: by weight, fuel type and (for vans and lorries) axles.",
+        "payer": "Vehicle owners, paid every four weeks or per quarter."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "By weight and fuel; the provinces add a surcharge",
+        "details": ["Each province sets a surcharge (opcenten) on the national rate; its revenue is inside this line."],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "The line includes about EUR 2 billion of provincial surcharges (the central government reports EUR 5.2 billion for its own part).",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "cbs-84120ned" }, { "sourceId": "rijksjaarverslag-2025" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "nl-car-registration-tax",
+      "parentId": "rijk",
+      "levelId": "rijk",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "Tax on passenger cars and motorcycles (BPM)",
+        "native": "Belasting personenauto’s en motorrijwielen",
+        "common": "Car registration tax",
+        "abbreviation": "BPM"
+      },
+      "taxes": { "base": "The list price of cars and motorcycles at first registration, by CO2 emissions.", "payer": "The person who registers the vehicle." },
+      "rate": { "kind": "varies", "headline": "By CO2 band", "details": [], "asOf": "2026-10-11" },
+      "explanation": "A one-off tax at registration.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "cbs-84120ned" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "nl-transfer-tax",
+      "parentId": "rijk",
+      "levelId": "rijk",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "Transfer tax (overdrachtsbelasting)", "native": "Overdrachtsbelasting", "common": "Transfer tax" },
+      "taxes": { "base": "The price of real estate and rights over it when ownership changes.", "payer": "The buyer." },
+      "rate": {
+        "kind": "varies",
+        "headline": "2% on owner-occupied homes; 10.4% on other property",
+        "details": ["Buyers aged 18 to 34 are exempt on a home up to EUR 525,000."],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "Depends on property turnover.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "cbs-84120ned" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "nl-insurance-tax",
+      "parentId": "rijk",
+      "levelId": "rijk",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Insurance premium tax (assurantiebelasting)", "native": "Assurantiebelasting", "common": "Insurance premium tax" },
+      "taxes": { "base": "Premiums of non-life insurance policies, except health care and some others.", "payer": "Insurers, passed on in the premium." },
+      "rate": { "kind": "flat", "headline": "21% of the premium", "details": [], "asOf": "2026-10-11" },
+      "explanation": "Charged on policies such as motor, home, travel and liability insurance.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "cbs-84120ned" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "nl-inheritance-gift-tax",
+      "parentId": "rijk",
+      "levelId": "rijk",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "Inheritance and gift tax (erf- en schenkbelasting)", "native": "Erf- en schenkbelasting", "common": "Inheritance and gift tax" },
+      "taxes": {
+        "base": "Inheritances and gifts received, above a tax-free amount that depends on the relationship.",
+        "payer": "The heir or the person who receives the gift."
+      },
+      "rate": {
+        "kind": "progressive",
+        "headline": "10%–40% by relationship",
+        "details": ["Partners and children pay 10% and 20%; grandchildren 18% and 36%; others 30% and 40%."],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "Raised EUR 4.1 billion in 2025.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "cbs-84120ned" }, { "sourceId": "belastingdienst-2025" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "nl-gambling-tax",
+      "parentId": "rijk",
+      "levelId": "rijk",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Gambling tax (kansspelbelasting)", "native": "Kansspelbelasting", "common": "Gambling tax" },
+      "taxes": { "base": "The gaming result of casinos, online operators and lotteries.", "payer": "The operators." },
+      "rate": { "kind": "flat", "headline": "A percentage of the gaming result", "details": [], "asOf": "2026-10-11" },
+      "explanation": "Applies to licensed gambling, including the online market opened in 2021.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "cbs-84120ned" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "nl-bank-tax",
+      "parentId": "rijk",
+      "levelId": "rijk",
+      "category": "tax",
+      "family": "other",
+      "status": "current",
+      "names": { "official": "Bank tax (bankenbelasting)", "native": "Bankenbelasting", "common": "Bank tax" },
+      "taxes": { "base": "The balance sheet liabilities of large banks, above EUR 20 billion.", "payer": "Banks operating in the Netherlands." },
+      "rate": { "kind": "varies", "headline": "A rate per euro of liabilities", "details": [], "asOf": "2026-10-11" },
+      "explanation": "A levy on large banks.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "cbs-84120ned" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "nl-other-central-taxes",
+      "parentId": "rijk",
+      "levelId": "rijk",
+      "category": "tax",
+      "family": "other",
+      "status": "current",
+      "names": {
+        "official": "Other central taxes and levies (labour cost levy, developer levy, stockpiling levy and others)",
+        "native": "Overige rijksbelastingen en heffingen",
+        "common": "Other central taxes"
+      },
+      "taxes": {
+        "base": "The labour cost levy, the developer levy, the levies of Caribbean Netherlands, the oil stockpiling levy, the deposit guarantee levy, the withholding tax on interest and royalties, the animal health levy, the manure surplus levy, the aircraft noise levy and the remainder.",
+        "payer": "The persons and firms each levy names."
+      },
+      "rate": { "kind": "varies", "headline": "Each has its own rate", "details": [], "asOf": "2026-10-11" },
+      "explanation": "Fourteen small items, each below 0.2% of the national total. The central government reports the same sum (EUR 1.7 billion) as \"other\" plus EUR 0.1 billion withholding tax on interest and royalties.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "cbs-84120ned" }, { "sourceId": "rijksjaarverslag-2025" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "nl-pension-premium",
+      "parentId": "rijk",
+      "levelId": "rijk",
+      "category": "social-contribution",
+      "family": "social-security",
+      "status": "current",
+      "names": { "official": "Premiums for the old-age pension (AOW) and survivors (Anw)", "native": "Premies AOW en Anw", "common": "State pension premium" },
+      "taxes": {
+        "base": "Income from work and home up to a ceiling, for everyone living or working in the Netherlands.",
+        "payer": "Individuals, collected with the wage and income tax."
+      },
+      "rate": {
+        "kind": "flat",
+        "headline": "17.9% (AOW) + 0.1% (Anw) up to EUR 38,441",
+        "details": ["These premiums are part of the first bracket of the income tax rate for people below pension age."],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "A pay-as-you-go state pension for everyone, paid for by current premiums.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "aow" }, { "sourceId": "cbs-84120ned" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "nl-long-term-care-premium",
+      "parentId": "rijk",
+      "levelId": "rijk",
+      "category": "social-contribution",
+      "family": "social-security",
+      "status": "current",
+      "names": { "official": "Premium for long-term care (Wlz)", "native": "Premie Wet langdurige zorg", "common": "Long-term care premium" },
+      "taxes": { "base": "Income from work and home up to a ceiling.", "payer": "Individuals, collected with the wage and income tax." },
+      "rate": { "kind": "flat", "headline": "9.65% up to EUR 38,441", "details": [], "asOf": "2026-10-11" },
+      "explanation": "Pays for nursing homes and care for the severely disabled.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "wlz" }, { "sourceId": "cbs-84120ned" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "nl-health-premium",
+      "parentId": "rijk",
+      "levelId": "rijk",
+      "category": "social-contribution",
+      "family": "social-security",
+      "status": "current",
+      "names": { "official": "Premiums for the basic health insurance (Zvw)", "native": "Zorgverzekeringspremies", "common": "Health insurance premium" },
+      "taxes": {
+        "base": "Everyone must take out basic health insurance and pays a nominal premium to the insurer; employers and the self-employed also pay an income-related contribution.",
+        "payer": "Individuals (nominal premium), employers and the self-employed (income-related contribution)."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Nominal premium plus 5.26–6.51% of income",
+        "details": ["The 2025 income-related contribution is 6.51% of wages paid by the employer up to EUR 75,864 and 5.26% for the self-employed."],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "The largest premium. The national accounts record the nominal premium as a social contribution because insurance is compulsory and the State regulates it.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "zvw" }, { "sourceId": "cbs-84120ned" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "nl-disability-premium",
+      "parentId": "rijk",
+      "levelId": "rijk",
+      "category": "social-contribution",
+      "family": "social-security",
+      "status": "current",
+      "names": { "official": "Premiums for the disability schemes (WIA, WAO)", "native": "Premies arbeidsongeschiktheid", "common": "Disability premium" },
+      "taxes": {
+        "base": "Wages, paid by employers (and, for a part, by the self-employed).",
+        "payer": "Employers; a few contributions are paid by employees."
+      },
+      "rate": { "kind": "varies", "headline": "A percentage of wages, by sector and size", "details": [], "asOf": "2026-10-11" },
+      "explanation": "Funds benefits for people who cannot work.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "wia" }, { "sourceId": "cbs-84120ned" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "nl-unemployment-premium",
+      "parentId": "rijk",
+      "levelId": "rijk",
+      "category": "social-contribution",
+      "family": "social-security",
+      "status": "current",
+      "names": { "official": "Premium for unemployment insurance (WW)", "native": "Premie werkloosheid", "common": "Unemployment premium" },
+      "taxes": { "base": "Wages, paid by employers.", "payer": "Employers." },
+      "rate": {
+        "kind": "varies",
+        "headline": "A lower rate for permanent contracts, a higher one for flexible contracts",
+        "details": [],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "Funds unemployment benefits.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ww" }, { "sourceId": "cbs-84120ned" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "nl-other-premiums",
+      "parentId": "rijk",
+      "levelId": "rijk",
+      "category": "social-contribution",
+      "family": "social-security",
+      "status": "current",
+      "names": {
+        "official": "Other statutory premiums (return-to-work fund, childcare, government employees)",
+        "native": "Overige wettelijke premies",
+        "common": "Other social premiums"
+      },
+      "taxes": { "base": "Wages, paid by employers.", "payer": "Employers." },
+      "rate": { "kind": "varies", "headline": "By fund", "details": [], "asOf": "2026-10-11" },
+      "explanation": "The return-to-work fund EUR 2,813 million, the childcare act EUR 1,814 million and the government employees’ fund EUR 745 million.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "cbs-84120ned" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "nl-real-estate-tax",
+      "parentId": "municipalities",
+      "levelId": "municipalities",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": {
+        "official": "Real estate tax (onroerendezaakbelasting)",
+        "native": "Onroerendezaakbelasting",
+        "common": "Real estate tax",
+        "abbreviation": "OZB"
+      },
+      "taxes": {
+        "base": "The WOZ value (the official value) of homes and business premises.",
+        "payer": "Owners; occupiers of business premises pay a second part."
+      },
+      "rate": { "kind": "varies", "headline": "A percentage of the WOZ value set by each municipality", "details": [], "asOf": "2026-10-11" },
+      "explanation": "The main municipal tax.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "gemeentewet" }, { "sourceId": "cbs-84120ned" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "nl-tourist-tax",
+      "parentId": "municipalities",
+      "levelId": "municipalities",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Tourist tax (toeristenbelasting)", "native": "Toeristenbelasting", "common": "Tourist tax" },
+      "taxes": { "base": "Overnight stays in hotels, holiday homes and campsites.", "payer": "Visitors, collected by the host." },
+      "rate": {
+        "kind": "varies",
+        "headline": "A fixed amount per night or a percentage of the price, set by each municipality",
+        "details": [],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "A small tax that varies a lot between municipalities.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "gemeentewet" }, { "sourceId": "cbs-84120ned" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "nl-other-municipal-taxes",
+      "parentId": "municipalities",
+      "levelId": "municipalities",
+      "category": "tax",
+      "family": "other",
+      "status": "current",
+      "names": {
+        "official": "Other municipal taxes (dog tax, advertising tax, tax on commuters’ second homes, business investment zone levy)",
+        "native": "Overige gemeentelijke belastingen",
+        "common": "Other municipal taxes"
+      },
+      "taxes": {
+        "base": "Dogs, outdoor advertising, second homes of people who work in the municipality, and businesses within a business investment zone.",
+        "payer": "Dog owners, advertisers, commuters and businesses."
+      },
+      "rate": { "kind": "varies", "headline": "Set by each municipality", "details": [], "asOf": "2026-10-11" },
+      "explanation": "Dog tax EUR 31 million, advertising tax 36, tax on commuters’ second homes 48 and the business investment zone levy 20.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "gemeentewet" }, { "sourceId": "cbs-84120ned" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "nl-water-board-levy",
+      "parentId": "water-boards",
+      "levelId": "water-boards",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "Water board taxes (apportionment levy and pollution levy)", "native": "Waterschapsbelastingen", "common": "Water board taxes" },
+      "taxes": {
+        "base": "Residents, buildings, unbuilt land and natural land (the apportionment levy); and each polluter’s discharge, measured in pollution units (the pollution levy).",
+        "payer": "Residents, owners and users of property, and households and firms that discharge waste water."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Set by each water board",
+        "details": ["The apportionment levy brought in EUR 2,288 million and the pollution levy EUR 1,920 million in 2025."],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "The water boards pay for dikes, canals, flood defence and water treatment with their own taxes.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "waterschapswet" }, { "sourceId": "cbs-84120ned" }],
+      "checkedOn": "2026-10-11"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "nodes": {
+    "lithuania": { "label": "Lithuania", "sublabel": "Lietuva · Fiscal folio", "glyph": "globe" },
+    "valstybe": { "label": "State", "sublabel": "Valstybė", "glyph": "landmark" },
+    "savivaldybes": { "label": "Municipalities", "sublabel": "Savivaldybės", "glyph": "town" },
+    "lt-pit-employment": { "label": "Income tax: wages", "sublabel": "20% · 32%", "glyph": "person" },
+    "lt-pit-self-employed": { "label": "Income tax: self-employed", "sublabel": "Individual activity", "glyph": "person" },
+    "lt-pit-capital": { "label": "Income tax: capital", "sublabel": "Dividends · interest", "glyph": "coin" },
+    "lt-profit-tax": { "label": "Profit tax", "sublabel": "15%", "glyph": "factory" },
+    "lt-bank-solidarity-tax": { "label": "Bank solidarity tax", "sublabel": "Temporary", "glyph": "bank" },
+    "lt-social-employees": { "label": "Social: employees", "sublabel": "19.5%", "glyph": "heart" },
+    "lt-social-employers": { "label": "Social: employers", "sublabel": "1.77%", "glyph": "heart" },
+    "lt-vat": { "label": "VAT", "sublabel": "21%", "glyph": "cart" },
+    "lt-customs": { "label": "Customs duties", "sublabel": "EU tariff", "glyph": "ship" },
+    "lt-excise-fuel": { "label": "Fuel excise", "sublabel": "Oil products", "glyph": "flame" },
+    "lt-excise-tobacco": { "label": "Tobacco excise", "sublabel": "Cigarettes", "glyph": "smoke" },
+    "lt-excise-alcohol": { "label": "Alcohol excise", "sublabel": "Spirits · beer · wine", "glyph": "wine" },
+    "lt-gambling": { "label": "Gambling tax", "sublabel": "Operators", "glyph": "dice" },
+    "lt-vehicle-taxes": { "label": "Vehicle taxes", "sublabel": "Registration", "glyph": "car" },
+    "lt-environmental": { "label": "Environmental taxes", "sublabel": "Pollution", "glyph": "leaf" },
+    "lt-forestry-deductions": { "label": "Forestry deductions", "sublabel": "Forestry Law", "glyph": "leaf" },
+    "lt-financial-levies": { "label": "Insurance fund levies", "sublabel": "Deposits", "glyph": "bank" },
+    "lt-other-state": { "label": "Other taxes and fees", "sublabel": "Residual", "glyph": "stamp" },
+    "lt-real-estate-tax": { "label": "Property tax", "sublabel": "Municipal", "glyph": "house" },
+    "lt-land-tax": { "label": "Land tax", "sublabel": "Municipal", "glyph": "town" },
+    "lt-inheritance-tax": { "label": "Inheritance tax", "sublabel": "Municipal", "glyph": "gem" }
+  }
+}

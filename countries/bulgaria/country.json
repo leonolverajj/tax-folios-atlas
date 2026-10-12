@@ -1,0 +1,167 @@
+{
+  "id": "bulgaria",
+  "iso3": "BGR",
+  "isoNumeric": "100",
+  "names": { "en": "Bulgaria", "native": "България", "nativeLang": "bg" },
+  "currency": { "code": "BGN", "symbol": "лв", "name": "Bulgarian lev" },
+  "summary": "Bulgaria is a unitary state with a flat 10% personal income tax, a flat 10% corporate income tax and a 20% VAT. The State collects almost everything, and the social contributions, paid by employers and employees, are the second-largest flow after VAT. Municipalities levy the real estate tax, the vehicle tax and a tax on donations and property acquisitions.",
+  "structureNote": "The figures are the Commission’s National Tax List for 2024, in leva. The sale of emission trading permits (BGN 2,293 million) is left out. The social contributions are drawn under the State. The list’s Eurostat counterpart for Bulgaria in July 2026 is in euro; converted at BGN 1.95583 per euro its totals match the list. Bulgaria is not an OECD member, so this folio has no harmonised OECD layer.",
+  "theme": {
+    "accent": "#00966e",
+    "accent2": "#d62612",
+    "motif": "topo",
+    "motifNote": "Topographic contour lines over the outline of Bulgaria (the generic motif; no bespoke art yet).",
+    "mapLabel": { "lon": 25.2, "lat": 42.7 }
+  },
+  "levels": [
+    {
+      "id": "darzhava",
+      "branch": "national",
+      "names": { "official": "The State (Republic of Bulgaria)", "native": "Държава", "common": "State" },
+      "description": "The National Assembly legislates all taxes; the National Revenue Agency (NRA) and the Customs Agency collect them, and the NRA collects the social contributions for the National Social Security Institute and the National Health Insurance Fund.",
+      "fiscalPower": "Taxes are set by law; municipalities set rates only within the ranges of the Local Taxes and Fees Act.",
+      "legalRefs": [{ "sourceId": "ntl-2026" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "obshtini",
+      "branch": "local",
+      "names": { "official": "Municipalities", "native": "Общини", "common": "Municipalities" },
+      "description": "The only tier of local self-government. They levy the real estate tax, the vehicle tax, the tax on donations and on acquisitions of property for consideration, and small taxes.",
+      "fiscalPower": "Municipal councils set the tax rates within the ranges fixed by the Local Taxes and Fees Act.",
+      "legalRefs": [{ "sourceId": "eurostat-taxag" }],
+      "checkedOn": "2026-10-12"
+    }
+  ],
+  "supportingSourceIds": [],
+  "denominators": [
+    {
+      "id": "darzhava-taxes-2024",
+      "label": "State taxes (National Tax List), 2024",
+      "definition": "The taxes on production and imports, on income and on capital that the National Tax List books to the State and the EU, other than the municipal taxes and the sale of emission trading permits.",
+      "levelIds": ["darzhava"],
+      "amount": 40395.82,
+      "scale": "million",
+      "currency": "BGN",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "ntl-2026",
+      "locator": "Sheet BG, 2024, the lines listed with each tax",
+      "calculation": "Sum of the 14 tax rows below (BGN million)",
+      "caveat": "Calendar 2024; the list's cut-off was 30 October 2025. Vintage check against Eurostat's July 2026 accounts: D2: NTL 30,335.56, Eurostat July 2026 30,335.51 (converted from euro); D5: NTL 13,265.34, Eurostat July 2026 13,265.42 (converted from euro); D61: NTL 18,159.31, Eurostat July 2026 18,159.29 (converted from euro).",
+      "accessed": "2026-10-12"
+    },
+    {
+      "id": "darzhava-social-employers-2024",
+      "label": "Social contributions paid by employers, 2024",
+      "definition": "The actual compulsory contributions of employers.",
+      "levelIds": ["darzhava"],
+      "amount": 11140.37,
+      "scale": "million",
+      "currency": "BGN",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "ntl-2026",
+      "locator": "Sheet BG, 2024, line D611 C01",
+      "caveat": "Calendar 2024, same list and cut-off as the taxes.",
+      "accessed": "2026-10-12"
+    },
+    {
+      "id": "darzhava-social-employees-2024",
+      "label": "Social contributions paid by employees, 2024",
+      "definition": "The employees’ compulsory contributions.",
+      "levelIds": ["darzhava"],
+      "amount": 6147.33,
+      "scale": "million",
+      "currency": "BGN",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "ntl-2026",
+      "locator": "Sheet BG, 2024, lines D613CE C01 to C04",
+      "caveat": "Calendar 2024, same list and cut-off as the taxes.",
+      "accessed": "2026-10-12"
+    },
+    {
+      "id": "darzhava-social-self-employed-2024",
+      "label": "Social contributions of the self-employed, 2024",
+      "definition": "The self-employed people’s contributions.",
+      "levelIds": ["darzhava"],
+      "amount": 871.61,
+      "scale": "million",
+      "currency": "BGN",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "ntl-2026",
+      "locator": "Sheet BG, 2024, lines D613CS C01 to C03",
+      "caveat": "Calendar 2024, same list and cut-off as the taxes.",
+      "accessed": "2026-10-12"
+    },
+    {
+      "id": "obshtini-real-estate-2024",
+      "label": "Real estate tax of the municipalities, 2024",
+      "definition": "The real estate tax.",
+      "levelIds": ["obshtini"],
+      "amount": 424.83,
+      "scale": "million",
+      "currency": "BGN",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "ntl-2026",
+      "locator": "Sheet BG, 2024, line D29A C01",
+      "caveat": "Eurostat's July 2026 release books EUR 217 million of land and building taxes (D29A), BGN 424.81 million, under local government.",
+      "accessed": "2026-10-12"
+    },
+    {
+      "id": "obshtini-vehicles-2024",
+      "label": "Vehicle tax of the municipalities, 2024",
+      "definition": "The motor vehicle tax paid by businesses and by households.",
+      "levelIds": ["obshtini"],
+      "amount": 443.24,
+      "scale": "million",
+      "currency": "BGN",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "ntl-2026",
+      "locator": "Sheet BG, 2024, lines D29B C01 and D59F C01",
+      "caveat": "Calendar 2024, same list and cut-off as the State taxes.",
+      "accessed": "2026-10-12"
+    },
+    {
+      "id": "obshtini-transfers-2024",
+      "label": "Donation and transfer taxes of the municipalities, 2024",
+      "definition": "The taxes on donations and acquisitions of property and the inheritance tax.",
+      "levelIds": ["obshtini"],
+      "amount": 645.18,
+      "scale": "million",
+      "currency": "BGN",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "ntl-2026",
+      "locator": "Sheet BG, 2024, lines D91A C01 and C02",
+      "caveat": "Calendar 2024, same list and cut-off as the State taxes.",
+      "accessed": "2026-10-12"
+    },
+    {
+      "id": "obshtini-small-2024",
+      "label": "Patent, visitor and dog taxes of the municipalities, 2024",
+      "definition": "The patent tax, the visitor tax and the dog ownership tax.",
+      "levelIds": ["obshtini"],
+      "amount": 44.52,
+      "scale": "million",
+      "currency": "BGN",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "ntl-2026",
+      "locator": "Sheet BG, 2024, lines D51A C03, D214H C01, D59F C02",
+      "caveat": "Calendar 2024, same list and cut-off as the State taxes.",
+      "accessed": "2026-10-12"
+    }
+  ],
+  "sizing": {
+    "label": "Taxes and compulsory social contributions of all levels of government",
+    "definition": "The taxes of the State and the municipalities plus the actual social contributions, calendar 2024, as listed in the National Tax List. Excludes the sale of emission trading permits.",
+    "componentIds": [
+      "darzhava-taxes-2024",
+      "darzhava-social-employers-2024",
+      "darzhava-social-employees-2024",
+      "darzhava-social-self-employed-2024",
+      "obshtini-real-estate-2024",
+      "obshtini-vehicles-2024",
+      "obshtini-transfers-2024",
+      "obshtini-small-2024"
+    ]
+  },
+  "researchStatus": "researched"
+}

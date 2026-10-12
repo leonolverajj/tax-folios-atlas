@@ -1,0 +1,157 @@
+{
+  "id": "poland",
+  "iso3": "POL",
+  "isoNumeric": "616",
+  "names": { "en": "Poland", "native": "Polska", "nativeLang": "pl" },
+  "currency": { "code": "PLN", "symbol": "zł", "name": "Polish złoty" },
+  "summary": "Poland is a unitary state in which the Sejm sets every tax and the National Revenue Administration collects most of them. Social security contributions are the largest flow, followed by VAT, then the income taxes. Local governments (municipalities, counties and voivodeships) keep more than half of the personal income tax and about a third of the corporate income tax by law, and levy the property taxes and the tax on civil-law transactions.",
+  "structureNote": "The figures are the Commission’s National Tax List for 2024, in PLN million. The personal and corporate income taxes are drawn twice, as the State’s and the local governments’ part, using Eurostat’s split of the same year; the National Tax List and Eurostat agree on the totals. The sale of emission allowances (PLN 24.4 billion in two lines) and the employers’ imputed social contributions (PLN 35.1 billion) are left out. The social contributions are drawn under the State. The fund levies of the energy price caps are among the largest changes between 2023 and 2024.",
+  "theme": {
+    "accent": "#dc143c",
+    "accent2": "#f5f5f5",
+    "motif": "topo",
+    "motifNote": "Topographic contour lines over the outline of Poland (the generic motif; no bespoke art yet).",
+    "mapLabel": { "lon": 19.4, "lat": 52.1 }
+  },
+  "levels": [
+    {
+      "id": "panstwo",
+      "branch": "national",
+      "names": { "official": "The State (Republic of Poland)", "native": "Państwo", "common": "State" },
+      "description": "The Sejm legislates all taxes; the National Revenue Administration collects them, and the Social Insurance Institution (ZUS) and the Agricultural Social Insurance Fund (KRUS) collect the social contributions.",
+      "fiscalPower": "Taxes are set by statute; local governments may set rates only within the ceilings that the law fixes.",
+      "legalRefs": [{ "sourceId": "ntl-2026" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "jst",
+      "branch": "local",
+      "names": {
+        "official": "Local government units (municipalities, counties and voivodeships)",
+        "native": "Jednostki samorządu terytorialnego",
+        "common": "Local government"
+      },
+      "description": "Municipalities (gminy), counties (powiaty) and voivodeships. They keep fixed shares of the personal and corporate income taxes, levy the property taxes and local fees, and receive the proceeds of the tax on civil-law transactions.",
+      "fiscalPower": "Municipal councils set the rates of the property tax and of local levies up to the ceilings in the statutes; the shares of the income taxes are fixed by law.",
+      "legalRefs": [{ "sourceId": "eurostat-taxag" }],
+      "checkedOn": "2026-10-12"
+    }
+  ],
+  "supportingSourceIds": [],
+  "denominators": [
+    {
+      "id": "panstwo-taxes-2024",
+      "label": "State taxes (National Tax List), 2024",
+      "definition": "The taxes on production and imports, on income and on capital that the National Tax List books to the State and the EU, other than the local taxes and the sale of emission allowances; includes the State’s part of the two income taxes.",
+      "levelIds": ["panstwo"],
+      "amount": 618900,
+      "scale": "million",
+      "currency": "PLN",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "ntl-2026",
+      "locator": "Sheet PL, 2024, the lines listed with each tax",
+      "calculation": "Sum of the 19 tax rows below (PLN million)",
+      "caveat": "Calendar 2024; the list's cut-off was 30 October 2025. Vintage check against Eurostat's July 2026 accounts: D2: NTL 534,308, Eurostat July 2026 534,308; D5: NTL 284,934, Eurostat July 2026 284,934; D61: NTL 555,078, Eurostat July 2026 555,078.",
+      "accessed": "2026-10-12"
+    },
+    {
+      "id": "panstwo-social-employers-2024",
+      "label": "Social contributions paid by employers, 2024",
+      "definition": "The actual compulsory contributions of employers; imputed contributions are left out.",
+      "levelIds": ["panstwo"],
+      "amount": 178108,
+      "scale": "million",
+      "currency": "PLN",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "ntl-2026",
+      "locator": "Sheet PL, 2024, subtotal D611",
+      "caveat": "Calendar 2024, same list and cut-off as the taxes.",
+      "accessed": "2026-10-12"
+    },
+    {
+      "id": "panstwo-social-households-2024",
+      "label": "Social contributions paid by households, 2024",
+      "definition": "The compulsory contributions of employees and of the self-employed, and voluntary contributions.",
+      "levelIds": ["panstwo"],
+      "amount": 341829,
+      "scale": "million",
+      "currency": "PLN",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "ntl-2026",
+      "locator": "Sheet PL, 2024, lines D613CE, D613CS and D613V",
+      "caveat": "Calendar 2024, same list and cut-off as the taxes.",
+      "accessed": "2026-10-12"
+    },
+    {
+      "id": "jst-pit-2024",
+      "label": "Personal income tax received by local government, 2024",
+      "definition": "The part of the personal income tax that Eurostat’s accounts record under local government.",
+      "levelIds": ["jst"],
+      "amount": 101792,
+      "scale": "million",
+      "currency": "PLN",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "eurostat-taxag",
+      "locator": "gov_10a_taxag, 2024, S.1313, D51A, million PLN",
+      "caveat": "Eurostat July 2026 vintage, a different release from the National Tax List.",
+      "accessed": "2026-10-12"
+    },
+    {
+      "id": "jst-cit-2024",
+      "label": "Corporate income tax received by local government, 2024",
+      "definition": "The part of the corporate income tax that Eurostat’s accounts record under local government.",
+      "levelIds": ["jst"],
+      "amount": 26519,
+      "scale": "million",
+      "currency": "PLN",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "eurostat-taxag",
+      "locator": "gov_10a_taxag, 2024, S.1313, D51B, million PLN",
+      "caveat": "Eurostat July 2026 vintage, a different release from the National Tax List.",
+      "accessed": "2026-10-12"
+    },
+    {
+      "id": "jst-property-2024",
+      "label": "Property taxes of local government, 2024",
+      "definition": "The real estate tax, the agricultural tax and the forest tax.",
+      "levelIds": ["jst"],
+      "amount": 37649,
+      "scale": "million",
+      "currency": "PLN",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "ntl-2026",
+      "locator": "Sheet PL, 2024, lines D29A C01, D59A C01 to C03",
+      "caveat": "Eurostat books PLN 25,967 million of land and building taxes and PLN 11,682 million of other wealth taxes to local government, which are the same lines.",
+      "accessed": "2026-10-12"
+    },
+    {
+      "id": "jst-other-2024",
+      "label": "Other taxes and fees of local government, 2024",
+      "definition": "The tax on civil-law transactions, the transport taxes, the alcohol permit fees, the stamp duty, the inheritance tax and the local levies.",
+      "levelIds": ["jst"],
+      "amount": 10585,
+      "scale": "million",
+      "currency": "PLN",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "ntl-2026",
+      "locator": "Sheet PL, 2024, the lines listed with each tax",
+      "calculation": "Sum of the local rows below (PLN million)",
+      "caveat": "Eurostat books PLN 35,519 million of taxes on production (D2) to local government; the lines of that class drawn for local government (the real estate tax of businesses in the property part and the lines in this part) come to PLN 34,332 million. The difference is mostly the PLN 922 million of environmental levies and part of the stamp duty, which the list does not assign by line; they stay under the State.",
+      "accessed": "2026-10-12"
+    }
+  ],
+  "sizing": {
+    "label": "Taxes and compulsory social contributions of all levels of government",
+    "definition": "The taxes of the State and of local government plus the actual social contributions, calendar 2024, as listed in the National Tax List and split by Eurostat. Excludes the sale of emission allowances and imputed social contributions.",
+    "componentIds": [
+      "panstwo-taxes-2024",
+      "panstwo-social-employers-2024",
+      "panstwo-social-households-2024",
+      "jst-pit-2024",
+      "jst-cit-2024",
+      "jst-property-2024",
+      "jst-other-2024"
+    ]
+  },
+  "researchStatus": "researched"
+}

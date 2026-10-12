@@ -1,0 +1,236 @@
+{
+  "groups": [
+    {
+      "title": "State taxes 2024 – National Tax List (HUF million)",
+      "defaults": {
+        "denominatorId": "allam-taxes-2024",
+        "scale": "million",
+        "currency": "HUF",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "ESA tax revenue, general government and EU institutions",
+        "sourceId": "ntl-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        { "nodeId": "hu-pit", "amount": 4563450, "locator": "NTL 2026, sheet HU, row 126: D51M Personal income tax, 2024" },
+        { "nodeId": "hu-cit", "amount": 1137233, "locator": "NTL 2026, sheet HU, row 130: D51O Corporate income tax, 2024" },
+        {
+          "nodeId": "hu-sector-special-taxes",
+          "amount": 731491,
+          "locator": "NTL 2026, sheet HU, 2024: D51O Extra tax on financial institutions (row 132); D51E Income tax on energy suppliers (row 141); D29H Surtax on energy suppliers (row 120); D29H Surtax on pharmaceutical companies (row 121); D214I Special tax on retailers (row 69)",
+          "calculation": "158,720 + 203,156 + 75,984 + 28,657 + 264,974 = 731,491 (HUF million)"
+        },
+        { "nodeId": "hu-vat", "amount": 7506494, "locator": "NTL 2026, sheet HU, row 12: D211 Value added tax, 2024" },
+        { "nodeId": "hu-customs", "amount": 120999, "locator": "NTL 2026, sheet HU, row 15: D2121 Import duty, 2024" },
+        {
+          "nodeId": "hu-excise-fuel",
+          "amount": 937080,
+          "locator": "NTL 2026, sheet HU, 2024: D214A Special split fuels (row 31); D214A Special split energy (row 33)",
+          "calculation": "917,456 + 19,624 = 937,080 (HUF million)"
+        },
+        { "nodeId": "hu-excise-tobacco", "amount": 565422, "locator": "NTL 2026, sheet HU, row 30: D214A Special split tobacco, 2024" },
+        {
+          "nodeId": "hu-excise-alcohol",
+          "amount": 135146,
+          "locator": "NTL 2026, sheet HU, 2024: D214A Special split alcohol (row 29); D214L Alcohol production duty (row 73)",
+          "calculation": "135,119 + 27 = 135,146 (HUF million)"
+        },
+        {
+          "nodeId": "hu-financial-transaction-duty",
+          "amount": 436712,
+          "locator": "NTL 2026, sheet HU, row 56: D214H Financial transaction fee, 2024"
+        },
+        {
+          "nodeId": "hu-insurance-communications",
+          "amount": 381648,
+          "locator": "NTL 2026, sheet HU, 2024: D214G Insurance tax (row 49); D214H Telephone tax (row 53)",
+          "calculation": "268,558 + 113,090 = 381,648 (HUF million)"
+        },
+        {
+          "nodeId": "hu-duties-conveyances",
+          "amount": 231345,
+          "locator": "NTL 2026, sheet HU, 2024: D214C Duties on conveyances, inheritance and gifts (row 38); D91A Duties on conveyances, inheritance and gifts (row 159)",
+          "calculation": "216,949 + 14,396 = 231,345 (HUF million)"
+        },
+        { "nodeId": "hu-gambling", "amount": 77904, "locator": "NTL 2026, sheet HU, row 46: D214F Gambling tax, 2024" },
+        {
+          "nodeId": "hu-vehicle-taxes",
+          "amount": 194022,
+          "locator": "NTL 2026, sheet HU, 2024: D214D Motor vehicle registration duty (row 40); D29B Tax on domestically registered vehicles (central) (row 87); D29B Company car tax (row 89); D29B Tax on vehicles (overweight fee) (row 91); D59D Tax on domestically registered vehicles (row 149)",
+          "calculation": "14,879 + 55,883 + 79,208 + 1,894 + 42,158 = 194,022 (HUF million)"
+        },
+        {
+          "nodeId": "hu-innovation-health-levies",
+          "amount": 381871,
+          "locator": "NTL 2026, sheet HU, 2024: D214I Innovation tax (row 61); D214I Tax on public financed medical products (row 62); D214I Public health product tax (row 65); D214I Surtaxes payable by distributors and investments funds (row 67)",
+          "calculation": "159,937 + 123,708 + 89,901 + 8,325 = 381,871 (HUF million)"
+        },
+        {
+          "nodeId": "hu-energy-sector-payments",
+          "amount": 134568,
+          "locator": "NTL 2026, sheet HU, 2024: D214I Hydrocarbons stockholding fee (row 66); D214L Payments by companies in the energy sector (MAVIR) (row 79); D29H Revenues of Water Supply Fund (row 122)",
+          "calculation": "77,657 + 40,284 + 16,627 = 134,568 (HUF million)"
+        },
+        {
+          "nodeId": "hu-environmental-taxes",
+          "amount": 101292,
+          "locator": "NTL 2026, sheet HU, 2024: D29F Carbon-dioxide tax (row 115); D29F Environmental pollution tax (row 113); D214A Environment protection fees (row 34); D214H Waste disposal contribution (row 54)",
+          "calculation": "64,200 + 5,331 + 15,080 + 16,681 = 101,292 (HUF million)"
+        },
+        {
+          "nodeId": "hu-tourism-airlines",
+          "amount": 123758,
+          "locator": "NTL 2026, sheet HU, 2024: D214H Tourism development contribution (row 55); D214H Airlines levy (row 57)",
+          "calculation": "85,249 + 38,509 = 123,758 (HUF million)"
+        },
+        {
+          "nodeId": "hu-small-business-taxes",
+          "amount": 286352,
+          "locator": "NTL 2026, sheet HU, 2024: D29C Itemised tax of small taxpayers (row 97); D29C Tax of small enterprises (row 98)",
+          "calculation": "67,453 + 218,899 = 286,352 (HUF million)"
+        },
+        {
+          "nodeId": "hu-rehabilitation-contribution",
+          "amount": 197017,
+          "locator": "NTL 2026, sheet HU, 2024: D29C Rehabilitation contribution (row 93); D29C Tax on sales representative employees medical corporation (row 96)",
+          "calculation": "187,678 + 9,339 = 197,017 (HUF million)"
+        },
+        { "nodeId": "hu-utility-tax", "amount": 41419, "locator": "NTL 2026, sheet HU, row 85: D29A Tax of public utility system, 2024" },
+        {
+          "nodeId": "hu-capital-protection-fees",
+          "amount": 202723,
+          "locator": "NTL 2026, sheet HU, 2024: 13 lines of the list: D29E:C03, D29E:C04, D29E:C05, D29E:C06, D29E:C07, D29E:C08, D29E:C01, D29E:C02, D59D:C02, D29E:C09, D91B:C01, D59D:C03, D51E:C01",
+          "calculation": "Sum of 13 lines of the list, named in the locator (HUF million)"
+        }
+      ]
+    },
+    {
+      "title": "Employers’ social contributions 2024 – National Tax List (HUF million)",
+      "defaults": {
+        "denominatorId": "allam-social-employers-2024",
+        "scale": "million",
+        "currency": "HUF",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Actual compulsory contributions",
+        "sourceId": "ntl-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        {
+          "nodeId": "hu-social-contribution-tax",
+          "amount": 3393437,
+          "locator": "NTL 2026, sheet HU, 2024: D611C Social contribution tax (row 169); D611C Employers' health contribution (row 170); D611C Employers' health service contribution (row 171); D611C Pension contribution on service charge (row 172); D611C Social contributions after simplified employment (row 173); D611C Employers' contributing sick leave (row 174)",
+          "calculation": "3,266,793 + 78 + 6,917 + 3,490 + 58,034 + 58,125 = 3,393,437 (HUF million)"
+        }
+      ]
+    },
+    {
+      "title": "Employees’ social contributions 2024 – National Tax List (HUF million)",
+      "defaults": {
+        "denominatorId": "allam-social-households-2024",
+        "scale": "million",
+        "currency": "HUF",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Actual compulsory contributions",
+        "sourceId": "ntl-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        {
+          "nodeId": "hu-social-employees",
+          "amount": 4958509,
+          "locator": "NTL 2026, sheet HU, 2024: D613CE Employees' non-pension contribution (row 208); D613CE Employees' pension contribution (row 209); D613CE Employees' health contribution (row 210)",
+          "calculation": "2,251,530 + 2,706,964 + 15 = 4,958,509 (HUF million)"
+        }
+      ]
+    },
+    {
+      "title": "Other households’ social contributions 2024 – National Tax List (HUF million)",
+      "defaults": {
+        "denominatorId": "allam-social-others-2024",
+        "scale": "million",
+        "currency": "HUF",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Actual contributions",
+        "sourceId": "ntl-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        {
+          "nodeId": "hu-social-others",
+          "amount": 114231,
+          "locator": "NTL 2026, sheet HU, 2024: D613CS Non-pension contribution by the self-employed (row 212); D613CS Pension contribution by the self-employed (row 213); D613CS Health contribution by the self-employed (row 214); D613CS Health service contribution by the self-employed (row 215); D613CN Health service contribution by the non-employed (row 217); D613CN Pension contribution on unemployment benefits (row 219); D613V Voluntary social contributions by self- and non-employed (row 222)",
+          "calculation": "25,717 + 28,633 + 6 + 4,579 + 39,330 + 14,547 + 1,419 = 114,231 (HUF million)"
+        }
+      ]
+    },
+    {
+      "title": "Local business tax 2024 – National Tax List (HUF million)",
+      "defaults": {
+        "denominatorId": "onkormanyzat-business-tax-2024",
+        "scale": "million",
+        "currency": "HUF",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "ESA tax revenue",
+        "sourceId": "ntl-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [{ "nodeId": "hu-local-business-tax", "amount": 1348632, "locator": "NTL 2026, sheet HU, row 59: D214I Local tax on company sales, 2024" }]
+    },
+    {
+      "title": "Building and land taxes 2024 – National Tax List (HUF million)",
+      "defaults": {
+        "denominatorId": "onkormanyzat-property-2024",
+        "scale": "million",
+        "currency": "HUF",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "ESA tax revenue",
+        "sourceId": "ntl-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        {
+          "nodeId": "hu-local-property-taxes",
+          "amount": 210127,
+          "locator": "NTL 2026, sheet HU, 2024: D29A Building tax (row 82); D29A Development land tax (row 83)",
+          "calculation": "175,559 + 34,568 = 210,127 (HUF million)"
+        }
+      ]
+    },
+    {
+      "title": "Other municipal taxes 2024 – National Tax List (HUF million)",
+      "defaults": {
+        "denominatorId": "onkormanyzat-other-2024",
+        "scale": "million",
+        "currency": "HUF",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "ESA tax revenue",
+        "sourceId": "ntl-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        {
+          "nodeId": "hu-local-other-taxes",
+          "amount": 41897,
+          "locator": "NTL 2026, sheet HU, 2024: D59F Tourism tax (row 155); D59F Communal tax on households (row 154); D59F Environmental pollution tax (row 156); D59A Municipal tax (other) (row 145); D91B Municipal tax (property type) (row 163)",
+          "calculation": "24,117 + 16,797 + 689 + 276 + 18 = 41,897 (HUF million)"
+        }
+      ]
+    }
+  ],
+  "unavailable": []
+}

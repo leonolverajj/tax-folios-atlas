@@ -1,0 +1,137 @@
+{
+  "id": "greece",
+  "iso3": "GRC",
+  "isoNumeric": "300",
+  "names": { "en": "Greece", "native": "Ελλάδα", "nativeLang": "el" },
+  "currency": { "code": "EUR", "symbol": "€", "name": "Euro" },
+  "summary": "Greece is a unitary state: Parliament sets every tax and the Independent Authority for Public Revenue (AADE) collects them. The largest flows are VAT, the social security contributions, the personal income tax, the excises on fuel and tobacco, and a unified property tax (ENFIA). Municipalities live on refuse fees charged with the electricity bill and a few small local taxes.",
+  "structureNote": "The figures are the Commission’s National Tax List for 2024. The employers’ imputed social contributions (EUR 3,931 million) are left out. The social contributions are drawn under the State. The refuse fees of municipalities and a part of the household buildings line are placed under local government following Eurostat’s accounts. The list does not say whether the pollution tax line includes revenue from the auction of emission allowances; it is drawn as named.",
+  "theme": {
+    "accent": "#0d5eaf",
+    "accent2": "#ffffff",
+    "motif": "topo",
+    "motifNote": "Topographic contour lines over the outline of Greece (the generic motif; no bespoke art yet).",
+    "mapLabel": { "lon": 22.8, "lat": 39.3 }
+  },
+  "levels": [
+    {
+      "id": "kratos",
+      "branch": "national",
+      "names": { "official": "The State (Hellenic Republic)", "native": "Κράτος", "common": "State" },
+      "description": "Parliament legislates all taxes; the Independent Authority for Public Revenue (AADE) collects them and EFKA, the unified social security fund, receives the contributions.",
+      "fiscalPower": "Taxes are set by law; local authorities set only the fees that the law lets them charge.",
+      "legalRefs": [{ "sourceId": "ntl-2026" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "ota",
+      "branch": "local",
+      "names": { "official": "Local government (municipalities and regions)", "native": "Αυτοδιοίκηση (ΟΤΑ)", "common": "Local government" },
+      "description": "Municipalities and regions. They charge refuse and street fees and receive a part of a building tax; most of their revenue comes from State transfers.",
+      "fiscalPower": "Municipal councils set fees within the limits of national law.",
+      "legalRefs": [{ "sourceId": "eurostat-taxag" }],
+      "checkedOn": "2026-10-12"
+    }
+  ],
+  "supportingSourceIds": [],
+  "denominators": [
+    {
+      "id": "kratos-taxes-2024",
+      "label": "State taxes (National Tax List), 2024",
+      "definition": "The taxes on production and imports, on income and on capital that the National Tax List books to the State and the EU, other than the local lines; includes the State part of the taxes on household buildings.",
+      "levelIds": ["kratos"],
+      "amount": 65340,
+      "scale": "million",
+      "currency": "EUR",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "ntl-2026",
+      "locator": "Sheet EL, 2024, the lines listed with each tax",
+      "calculation": "Sum of the 23 tax rows below (EUR million)",
+      "caveat": "Calendar 2024; the list's cut-off was 30 October 2025. Vintage check against Eurostat's July 2026 accounts: D2: NTL 40,553, Eurostat July 2026 40,553; D5: NTL 26,396, Eurostat July 2026 26,396; D61: NTL 31,519, Eurostat July 2026 31,519.",
+      "accessed": "2026-10-12"
+    },
+    {
+      "id": "kratos-social-employers-2024",
+      "label": "Social contributions paid by employers, 2024",
+      "definition": "The actual compulsory contributions of employers; imputed contributions are left out.",
+      "levelIds": ["kratos"],
+      "amount": 13002,
+      "scale": "million",
+      "currency": "EUR",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "ntl-2026",
+      "locator": "Sheet EL, 2024, line D611 C01",
+      "caveat": "Calendar 2024, same list and cut-off as the taxes.",
+      "accessed": "2026-10-12"
+    },
+    {
+      "id": "kratos-social-households-2024",
+      "label": "Social contributions paid by households, 2024",
+      "definition": "The compulsory contributions of employees.",
+      "levelIds": ["kratos"],
+      "amount": 14586,
+      "scale": "million",
+      "currency": "EUR",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "ntl-2026",
+      "locator": "Sheet EL, 2024, line D613CE",
+      "caveat": "Calendar 2024, same list and cut-off as the taxes.",
+      "accessed": "2026-10-12"
+    },
+    {
+      "id": "ota-refuse-2024",
+      "label": "Municipal refuse fees, 2024",
+      "definition": "The refuse fees paid by households and by professionals.",
+      "levelIds": ["ota"],
+      "amount": 1385,
+      "scale": "million",
+      "currency": "EUR",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "ntl-2026",
+      "locator": "Sheet EL, 2024, lines D59A C01 and D29A C02",
+      "caveat": "Calendar 2024, same list and cut-off as the State taxes.",
+      "accessed": "2026-10-12"
+    },
+    {
+      "id": "ota-household-buildings-2024",
+      "label": "Household buildings taxes recorded under local government, 2024",
+      "definition": "The part of the taxes on household buildings that Eurostat’s accounts record under local government.",
+      "levelIds": ["ota"],
+      "amount": 288,
+      "scale": "million",
+      "currency": "EUR",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "eurostat-taxag",
+      "locator": "gov_10a_taxag, 2024, S.1313, D59A, less the refuse fees of households, million EUR",
+      "caveat": "Eurostat July 2026 vintage; the allocation to the household buildings line is an inference from the amounts.",
+      "accessed": "2026-10-12"
+    },
+    {
+      "id": "ota-other-2024",
+      "label": "Land, street and capital fees of local government, 2024",
+      "definition": "The taxes on land and buildings, the use of streets and capital levies of local government.",
+      "levelIds": ["ota"],
+      "amount": 204,
+      "scale": "million",
+      "currency": "EUR",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "ntl-2026",
+      "locator": "Sheet EL, 2024, lines D29A C01, D29B C01, D91B C01",
+      "caveat": "Eurostat books EUR 748 million of taxes on production and EUR 1,258 million of taxes on income and wealth to local government, together with EUR 32 million of capital taxes; the local rows drawn here come to EUR 1,877 million in all.",
+      "accessed": "2026-10-12"
+    }
+  ],
+  "sizing": {
+    "label": "Taxes and compulsory social contributions of all levels of government",
+    "definition": "The taxes of the State and of local government plus the actual social contributions, calendar 2024, as listed in the National Tax List and split by Eurostat. Excludes the employers’ imputed social contributions.",
+    "componentIds": [
+      "kratos-taxes-2024",
+      "kratos-social-employers-2024",
+      "kratos-social-households-2024",
+      "ota-refuse-2024",
+      "ota-household-buildings-2024",
+      "ota-other-2024"
+    ]
+  },
+  "researchStatus": "researched"
+}

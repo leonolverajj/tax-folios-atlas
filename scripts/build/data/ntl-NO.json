@@ -1,0 +1,2356 @@
+{
+ "country": "NO",
+ "source": "NTL edition 2026 web.xlsx (Commission, DG TAXUD / Eurostat)",
+ "unit": "million national currency",
+ "sector": "S.13 + S.212",
+ "totals": {
+  "D2": {
+   "name": "Taxes on production and imports",
+   "v2024": 530939,
+   "v2023": 511757,
+   "row": 8
+  },
+  "D21": {
+   "name": "Taxes on products",
+   "v2024": 489438,
+   "v2023": 471567,
+   "row": 9
+  },
+  "D211": {
+   "name": "Value added type taxes (VAT)",
+   "v2024": 390000,
+   "v2023": 377500,
+   "row": 10
+  },
+  "D212": {
+   "name": "Taxes and duties on imports excluding VAT",
+   "v2024": 3645,
+   "v2023": 3460,
+   "row": 12
+  },
+  "D2121": {
+   "name": "Import duties",
+   "v2024": 3645,
+   "v2023": 3460,
+   "row": 13
+  },
+  "D2122": {
+   "name": "Taxes on imports, excluding VAT and import duties",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 15
+  },
+  "D2122A": {
+   "name": "Levies on imported agricultural products",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 16
+  },
+  "D2122B": {
+   "name": "Monetary compensatory amounts on imports",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 17
+  },
+  "D2122C": {
+   "name": "Excise duties",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 18
+  },
+  "D2122D": {
+   "name": "General sales taxes",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 19
+  },
+  "D2122E": {
+   "name": "Taxes on specific services",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 20
+  },
+  "D2122F": {
+   "name": "Profits of import monopolies",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 21
+  },
+  "D214": {
+   "name": "Taxes on products, except VAT and import taxes",
+   "v2024": 95793,
+   "v2023": 90607,
+   "row": 22
+  },
+  "D214A": {
+   "name": "Excise duties and consumption taxes",
+   "v2024": 65460,
+   "v2023": 63075,
+   "row": 23
+  },
+  "D214B": {
+   "name": "Stamp taxes",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 49
+  },
+  "D214C": {
+   "name": "Taxes on financial and capital transactions",
+   "v2024": 12709,
+   "v2023": 11605,
+   "row": 50
+  },
+  "D214D": {
+   "name": "Car registration taxes",
+   "v2024": 7909,
+   "v2023": 6705,
+   "row": 52
+  },
+  "D214E": {
+   "name": "Taxes on entertainment",
+   "v2024": 20,
+   "v2023": 31,
+   "row": 54
+  },
+  "D214F": {
+   "name": "Taxes on lotteries, gambling and betting",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 57
+  },
+  "D214G": {
+   "name": "Taxes on insurance premiums",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 60
+  },
+  "D214H": {
+   "name": "Other taxes on specific services",
+   "v2024": 2245,
+   "v2023": 2062,
+   "row": 61
+  },
+  "D214I": {
+   "name": "General sales or turnover taxes",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 63
+  },
+  "D214J": {
+   "name": "Profits of fiscal monopolies",
+   "v2024": 6909,
+   "v2023": 6611,
+   "row": 64
+  },
+  "D214K": {
+   "name": "Export duties and monetary comp. amounts on exports",
+   "v2024": 541,
+   "v2023": 518,
+   "row": 67
+  },
+  "D214L": {
+   "name": "Other taxes on products n.e.c.",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 69
+  },
+  "D29": {
+   "name": "Other taxes on production",
+   "v2024": 41501,
+   "v2023": 40190,
+   "row": 71
+  },
+  "D29A": {
+   "name": "Taxes on land, buildings or other structures",
+   "v2024": 17524,
+   "v2023": 17626,
+   "row": 72
+  },
+  "D29B": {
+   "name": "Taxes on the use of fixed assets",
+   "v2024": 3855,
+   "v2023": 3875,
+   "row": 74
+  },
+  "D29C": {
+   "name": "Total wage bill and payroll taxes",
+   "v2024": 3457,
+   "v2023": 3196,
+   "row": 79
+  },
+  "D29D": {
+   "name": "Taxes on international transactions",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 82
+  },
+  "D29E": {
+   "name": "Business and professional licences",
+   "v2024": 2071,
+   "v2023": 1984,
+   "row": 83
+  },
+  "D29F": {
+   "name": "Taxes on pollution",
+   "v2024": 11063,
+   "v2023": 10390,
+   "row": 94
+  },
+  "D29G": {
+   "name": "Under-compensation of VAT (flat rate system)",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 104
+  },
+  "D29H": {
+   "name": "Other taxes on production n.e.c.",
+   "v2024": 3531,
+   "v2023": 3119,
+   "row": 105
+  },
+  "D5": {
+   "name": "Current taxes on income wealth, etc.",
+   "v2024": 1068771,
+   "v2023": 1141717,
+   "row": 117
+  },
+  "D51": {
+   "name": "Taxes on income",
+   "v2024": 1027639,
+   "v2023": 1102324,
+   "row": 118
+  },
+  "D51M": {
+   "name": "Taxes on individual or household income including holding gains",
+   "v2024": 506000,
+   "v2023": 478174,
+   "row": 119
+  },
+  "D51A": {
+   "name": "Taxes on individual or household income excluding holding gains(1)",
+   "v2024": 506000,
+   "v2023": 478174,
+   "row": 122
+  },
+  "D51C1": {
+   "name": "Taxes on individual or household holding gains(1)",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 125
+  },
+  "D51O": {
+   "name": "Taxes on the income or profits of corporations including holding gains",
+   "v2024": 508000,
+   "v2023": 612628,
+   "row": 126
+  },
+  "D51B": {
+   "name": "Taxes on the income or profits of corporations excluding holding gains(1)",
+   "v2024": 508000,
+   "v2023": 612628,
+   "row": 132
+  },
+  "D51C2": {
+   "name": "Taxes on holding gains of corporations(1)",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 138
+  },
+  "D51C3": {
+   "name": "Other taxes on holding gains(1)",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 139
+  },
+  "D51C": {
+   "name": "Taxes on holding gains",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 140
+  },
+  "D51D": {
+   "name": "Taxes on winnings from lottery or gambling",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 141
+  },
+  "D51E": {
+   "name": "Other taxes on income n.e.c.",
+   "v2024": 13639,
+   "v2023": 11522,
+   "row": 142
+  },
+  "D59": {
+   "name": "Other current taxes",
+   "v2024": 41132,
+   "v2023": 39393,
+   "row": 145
+  },
+  "D59A": {
+   "name": "Current taxes on capital",
+   "v2024": 32200,
+   "v2023": 30469,
+   "row": 146
+  },
+  "D59B": {
+   "name": "Poll taxes",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 149
+  },
+  "D59C": {
+   "name": "Expenditure taxes",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 150
+  },
+  "D59D": {
+   "name": "Payments by households for licences",
+   "v2024": 8800,
+   "v2023": 8800,
+   "row": 151
+  },
+  "D59E": {
+   "name": "Taxes on international transactions",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 154
+  },
+  "D59F": {
+   "name": "Other current taxes n.e.c.",
+   "v2024": 132,
+   "v2023": 124,
+   "row": 155
+  },
+  "D91": {
+   "name": "Capital taxes",
+   "v2024": 30,
+   "v2023": 46,
+   "row": 161
+  },
+  "D91A": {
+   "name": "Taxes on capital transfers",
+   "v2024": 30,
+   "v2023": 46,
+   "row": 162
+  },
+  "D91B": {
+   "name": "Capital levies",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 164
+  },
+  "D91C": {
+   "name": "Other capital taxes n.e.c.",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 165
+  },
+  "D61": {
+   "name": "Net social contributions",
+   "v2024": 497915,
+   "v2023": 479007,
+   "row": 167
+  },
+  "D611": {
+   "name": "Employers' actual social contributions",
+   "v2024": 295246,
+   "v2023": 284005,
+   "row": 168
+  },
+  "D611C": {
+   "name": "Compulsory employers' actual social contributions",
+   "v2024": 295246,
+   "v2023": 284005,
+   "row": 173
+  },
+  "D611V": {
+   "name": "Voluntary employers' actual social contributions",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 178
+  },
+  "D61SC": {
+   "name": "Social insurance scheme service charges (3)",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 179
+  },
+  "D6111": {
+   "name": "Employers' actual pension contributions (1)",
+   "v2024": 295246,
+   "v2023": 284005,
+   "row": 180
+  },
+  "D6112": {
+   "name": "Employers' actual non-pension contributions (1)",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 185
+  },
+  "D612": {
+   "name": "Employers' imputed social contributions",
+   "v2024": 8309,
+   "v2023": 7903,
+   "row": 186
+  },
+  "D6121": {
+   "name": "Employers' imputed pension contributions (1)",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 190
+  },
+  "D6122": {
+   "name": "Employers' imputed non-pension contributions (1)",
+   "v2024": 8309,
+   "v2023": 7903,
+   "row": 191
+  },
+  "D613": {
+   "name": "Households' actual social contributions",
+   "v2024": 194360,
+   "v2023": 187099,
+   "row": 195
+  },
+  "D6131": {
+   "name": "Households' actual pension contributions (1)",
+   "v2024": 194360,
+   "v2023": 187099,
+   "row": 204
+  },
+  "D6132": {
+   "name": "Households' actual non-pension contributions (1)",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 213
+  },
+  "D613C": {
+   "name": "Compulsory households' actual social contributions",
+   "v2024": 194360,
+   "v2023": 187099,
+   "row": 214
+  },
+  "D613CE": {
+   "name": "Compulsory employees' actual social contributions",
+   "v2024": 161690,
+   "v2023": 155899,
+   "row": 223
+  },
+  "D613CS": {
+   "name": "Compulsory actual social contributions by the self-employed (1)",
+   "v2024": 17050,
+   "v2023": 16300,
+   "row": 230
+  },
+  "D613CN": {
+   "name": "Compulsory actual social contributions by the non-employed (1)",
+   "v2024": 15620,
+   "v2023": 14900,
+   "row": 232
+  },
+  "D613V": {
+   "name": "Voluntary households' actual social contributions",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 234
+  },
+  "D614": {
+   "name": "Households' social contributions supplements(3)",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 235
+  },
+  "D6141": {
+   "name": "Households' pension contributions supplements (1)",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 236
+  },
+  "D6142": {
+   "name": "Households' non-pension contributions supplements (1)",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 237
+  },
+  "D995": {
+   "name": "Capital transfers from general government to relevant sectors representing taxes and social contributions assessed but unlikely to be collected (2)",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 238
+  },
+  "D995A": {
+   "name": "Taxes on products assessed but unlikely to be collected (2)",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 239
+  },
+  "D995B": {
+   "name": "Other taxes on production assessed but unlikely to be collected (2)",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 240
+  },
+  "D995C": {
+   "name": "Taxes on income assessed but unlikely to be collected (2)",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 241
+  },
+  "D995D": {
+   "name": "Other current taxes assessed but unlikely to be collected (2)",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 242
+  },
+  "D995E": {
+   "name": "Employers' actual social contributions assessed but unlikely to be collected (2)",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 243
+  },
+  "D995F": {
+   "name": "Households' actual social contributions assessed but unlikely to be collected (2)",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 244
+  },
+  "D995FE": {
+   "name": "Employees' actual social contributions assessed but unlikely to be collected (2)",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 245
+  },
+  "D995FS": {
+   "name": "Actual social contributions by self-employed persons assessed but unlikely to be collected (1)",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 246
+  },
+  "D995FN": {
+   "name": "Actual social contributions by non-employed persons assessed but unlikely to be collected (1)",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 247
+  },
+  "D995G": {
+   "name": "Capital taxes assessed but unlikely to be collected (2)",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 248
+  }
+ },
+ "lines": [
+  {
+   "key": "D211:C01",
+   "code": "D211",
+   "sub": "C01",
+   "nat": "Merverdiavgift",
+   "en": "Value added tax",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 390000,
+   "v2023": 377500,
+   "row": 11
+  },
+  {
+   "key": "D2121:C01",
+   "code": "D2121",
+   "sub": "C01",
+   "nat": "Toll",
+   "en": "Customs duties",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 3645,
+   "v2023": 3460,
+   "row": 14
+  },
+  {
+   "key": "D214A:C01",
+   "code": "D214A",
+   "sub": "C01",
+   "nat": "Avgift på bensin",
+   "en": "Petrol tax",
+   "fn": "C",
+   "at": "E",
+   "v2024": 3543,
+   "v2023": 3674,
+   "row": 24
+  },
+  {
+   "key": "D214A:C02",
+   "code": "D214A",
+   "sub": "C02",
+   "nat": "Avgift på autodiesel",
+   "en": "Diesel tax",
+   "fn": "C",
+   "at": "E",
+   "v2024": 6683,
+   "v2023": 7914,
+   "row": 25
+  },
+  {
+   "key": "D214A:C03",
+   "code": "D214A",
+   "sub": "C03",
+   "nat": "Avgift på båtmotorer",
+   "en": "Marine engine tax",
+   "fn": "C",
+   "at": "P/RS",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 26
+  },
+  {
+   "key": "D214A:C04",
+   "code": "D214A",
+   "sub": "C04",
+   "nat": "Avgift på elektrisk kraft",
+   "en": "Tax on electricity",
+   "fn": "C",
+   "at": "E",
+   "v2024": 9728,
+   "v2023": 9159,
+   "row": 27
+  },
+  {
+   "key": "D214A:C05",
+   "code": "D214A",
+   "sub": "C05",
+   "nat": "Avgift på elektrisk kraft til Energifondet",
+   "en": "Tax on electricity paid to the Norwegian Energy Fund",
+   "fn": "C",
+   "at": "E",
+   "v2024": 726,
+   "v2023": 687,
+   "row": 28
+  },
+  {
+   "key": "D214A:C06",
+   "code": "D214A",
+   "sub": "C06",
+   "nat": "Avgift på utslipp av CO2 (utenom i petroleumsvirksomhet)",
+   "en": "Tax on Co2 emissions, petroleum sector excepted",
+   "fn": "C",
+   "at": "E",
+   "v2024": 16344,
+   "v2023": 14168,
+   "row": 29
+  },
+  {
+   "key": "D214A:C07",
+   "code": "D214A",
+   "sub": "C07",
+   "nat": "Avgift på utslipp av NOx (utenom i petroleumsvirksomhet)",
+   "en": "Tax on NOx emissions, petroleum sector excepted",
+   "fn": "C",
+   "at": "P/RS",
+   "v2024": 36,
+   "v2023": 48,
+   "row": 30
+  },
+  {
+   "key": "D214A:C08",
+   "code": "D214A",
+   "sub": "C08",
+   "nat": "Miljøavgift på klimagasser, HFK og PFK",
+   "en": "Tax on greenhouse gases HFC and PFC",
+   "fn": "C",
+   "at": "E",
+   "v2024": 405,
+   "v2023": 413,
+   "row": 31
+  },
+  {
+   "key": "D214A:C09",
+   "code": "D214A",
+   "sub": "C09",
+   "nat": "Grunnavgift på mineralolje",
+   "en": "Tax on mineral oils",
+   "fn": "C",
+   "at": "E",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 32
+  },
+  {
+   "key": "D214A:C10",
+   "code": "D214A",
+   "sub": "C10",
+   "nat": "Avgift på smøreolje m.m",
+   "en": "Tax on lubricating oils",
+   "fn": "C",
+   "at": "P/RS",
+   "v2024": 117,
+   "v2023": 113,
+   "row": 33
+  },
+  {
+   "key": "D214A:C11",
+   "code": "D214A",
+   "sub": "C11",
+   "nat": "Svovelavgift",
+   "en": "Sulphur tax",
+   "fn": "C",
+   "at": "P/RS",
+   "v2024": 3,
+   "v2023": 8,
+   "row": 34
+  },
+  {
+   "key": "D214A:C12",
+   "code": "D214A",
+   "sub": "C12",
+   "nat": "Avgift på kull",
+   "en": "Tax on coal",
+   "fn": "C",
+   "at": "E",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 35
+  },
+  {
+   "key": "D214A:C13",
+   "code": "D214A",
+   "sub": "C13",
+   "nat": "Grunnavgift på drikkevareemballasje",
+   "en": "Base tax on disposable beverage packaging",
+   "fn": "C",
+   "at": "P/RS",
+   "v2024": 2837,
+   "v2023": 2699,
+   "row": 36
+  },
+  {
+   "key": "D214A:C14",
+   "code": "D214A",
+   "sub": "C14",
+   "nat": "Miljøavgift på drikkevareemballasje",
+   "en": "Envoronmantal tax on disposable beverage packaging",
+   "fn": "C",
+   "at": "P/RS",
+   "v2024": 123,
+   "v2023": 110,
+   "row": 37
+  },
+  {
+   "key": "D214A:C15",
+   "code": "D214A",
+   "sub": "C15",
+   "nat": "Avgift på kassetter og radio- og fjernsynsmateriell",
+   "en": "Tax on recording, radio and television equipment",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 38
+  },
+  {
+   "key": "D214A:C16",
+   "code": "D214A",
+   "sub": "C16",
+   "nat": "Avgift på alkohol",
+   "en": "Tax on alcohol",
+   "fn": "C",
+   "at": "AT",
+   "v2024": 16489,
+   "v2023": 16218,
+   "row": 39
+  },
+  {
+   "key": "D214A:C17",
+   "code": "D214A",
+   "sub": "C17",
+   "nat": "Avgift på tobakkvarer",
+   "en": "Tax on tobacco goods",
+   "fn": "C",
+   "at": "AT",
+   "v2024": 7783,
+   "v2023": 7320,
+   "row": 40
+  },
+  {
+   "key": "D214A:C18",
+   "code": "D214A",
+   "sub": "C18",
+   "nat": "Avgift på alkoholfrie drikkevarer",
+   "en": "Tax on non-alcoholic beverages",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 41
+  },
+  {
+   "key": "D214A:C19",
+   "code": "D214A",
+   "sub": "C19",
+   "nat": "Sjokolade- og sukkeravgift",
+   "en": "Chocolate and candy tax",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 42
+  },
+  {
+   "key": "D214A:C20",
+   "code": "D214A",
+   "sub": "C20",
+   "nat": "Avgift på sukker",
+   "en": "Sugar tax",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 212,
+   "v2023": 208,
+   "row": 43
+  },
+  {
+   "key": "D214A:C21",
+   "code": "D214A",
+   "sub": "C21",
+   "nat": "Avgift på farmasøytiske spesialpreparater",
+   "en": "Tax on pharmaceutical products",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 44
+  },
+  {
+   "key": "D214A:C22",
+   "code": "D214A",
+   "sub": "C22",
+   "nat": "Legemiddelkontrollavgift",
+   "en": "Tax on pharmaceutical products",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 271,
+   "v2023": 251,
+   "row": 45
+  },
+  {
+   "key": "D214A:C23",
+   "code": "D214A",
+   "sub": "C23",
+   "nat": "Registrerings- og refusjonsavgift til Statens legemiddelverk",
+   "en": "Registration fees paid to Norwegian Medicines Agency",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 74,
+   "v2023": 68,
+   "row": 46
+  },
+  {
+   "key": "D214A:C24",
+   "code": "D214A",
+   "sub": "C24",
+   "nat": "Veibruksavgift på naturgass og LPG",
+   "en": "Road tax on natural gas and LPG",
+   "fn": "C",
+   "at": "E",
+   "v2024": 3,
+   "v2023": 7,
+   "row": 47
+  },
+  {
+   "key": "D214A:C25",
+   "code": "D214A",
+   "sub": "C25",
+   "nat": "Miljøavgift på svovelheksafluorider (SF6)",
+   "en": "Tax on sulphur hexafluoride (SF6)",
+   "fn": "C",
+   "at": "P/RS",
+   "v2024": 83,
+   "v2023": 10,
+   "row": 48
+  },
+  {
+   "key": "D214C:C01",
+   "code": "D214C",
+   "sub": "C01",
+   "nat": "Dokumentavgift",
+   "en": "Stamp duty on real estate transfers",
+   "fn": "KS",
+   "at": "O",
+   "v2024": 12709,
+   "v2023": 11605,
+   "row": 51
+  },
+  {
+   "key": "D214D:C01",
+   "code": "D214D",
+   "sub": "C01",
+   "nat": "Engangsavgift på motorvogner",
+   "en": "Motor vehicle registration tax",
+   "fn": "C",
+   "at": "T",
+   "v2024": 7909,
+   "v2023": 6705,
+   "row": 53
+  },
+  {
+   "key": "D214E:C01",
+   "code": "D214E",
+   "sub": "C01",
+   "nat": "Avgift for forhåndskontroll av kinofilm",
+   "en": "Tax on approval of movies",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 55
+  },
+  {
+   "key": "D214E:C02",
+   "code": "D214E",
+   "sub": "C02",
+   "nat": "Kino- og videogramavgift",
+   "en": "Tax on cinemas",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 20,
+   "v2023": 31,
+   "row": 56
+  },
+  {
+   "key": "D214F:C01",
+   "code": "D214F",
+   "sub": "C01",
+   "nat": "Totalisatoravgift",
+   "en": "Horse betting tax",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 58
+  },
+  {
+   "key": "D214F:C02",
+   "code": "D214F",
+   "sub": "C02",
+   "nat": "Lotteriavgift og overskudd i Det norske Pengelotteri",
+   "en": "Income from the state lottery and tax on lotteries",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 59
+  },
+  {
+   "key": "D214H:C01",
+   "code": "D214H",
+   "sub": "C01",
+   "nat": "Flypassasjeravgift",
+   "en": "Tax on air traffic passengers",
+   "fn": "C",
+   "at": "T",
+   "v2024": 2245,
+   "v2023": 2062,
+   "row": 62
+  },
+  {
+   "key": "D214J:C01",
+   "code": "D214J",
+   "sub": "C01",
+   "nat": "Inntekter fra Norsk Tipping AS",
+   "en": "Income from the state gaming company (Norsk Tipping AS)",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 6909,
+   "v2023": 6611,
+   "row": 65
+  },
+  {
+   "key": "D214J:C02",
+   "code": "D214J",
+   "sub": "C02",
+   "nat": "Overskudd i AS Vinmonopolet",
+   "en": "Withdrawal of income from the state monopoly for alcoholic beverages (AS Vinmonopolet)",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 66
+  },
+  {
+   "key": "D214K:C01",
+   "code": "D214K",
+   "sub": "C01",
+   "nat": "Eksportavgift til Fiskeri- og havbruksnæringens forskningsfond",
+   "en": "Export duties to the Fishery and Aquaculture Industry Research Fund",
+   "fn": "KIC",
+   "at": "_Z",
+   "v2024": 541,
+   "v2023": 518,
+   "row": 68
+  },
+  {
+   "key": "D214L:C01",
+   "code": "D214L",
+   "sub": "C01",
+   "nat": "Avgift på karftfor til Statens kornforretning",
+   "en": "Tax on concentrated cattle foods",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 70
+  },
+  {
+   "key": "D29A:C01",
+   "code": "D29A",
+   "sub": "C01",
+   "nat": "Eiendomsskatt",
+   "en": "Real estate tax",
+   "fn": "KS",
+   "at": "RP",
+   "v2024": 17524,
+   "v2023": 17626,
+   "row": 73
+  },
+  {
+   "key": "D29B:C01",
+   "code": "D29B",
+   "sub": "C01",
+   "nat": "Vektårsavgift motorvogner",
+   "en": "Annual weight based tax on motor vehicles",
+   "fn": "KS",
+   "at": "T",
+   "v2024": 281,
+   "v2023": 277,
+   "row": 75
+  },
+  {
+   "key": "D29B:C02",
+   "code": "D29B",
+   "sub": "C02",
+   "nat": "Årsavgift motorvogner, næringsvirksomhet",
+   "en": "Annual motor vehicle tax paid by enterprises",
+   "fn": "KS",
+   "at": "T",
+   "v2024": 1817,
+   "v2023": 1851,
+   "row": 76
+  },
+  {
+   "key": "D29B:C03",
+   "code": "D29B",
+   "sub": "C03",
+   "nat": "Omregistreringsavgift",
+   "en": "Re-registration tax on motor vehicles",
+   "fn": "KS",
+   "at": "T",
+   "v2024": 1757,
+   "v2023": 1747,
+   "row": 77
+  },
+  {
+   "key": "D29B:C04",
+   "code": "D29B",
+   "sub": "C04",
+   "nat": "Trafikkskadeavgift, næringsvirksomhet",
+   "en": "Anti traffic accident premium paid by enterprises",
+   "fn": "KS",
+   "at": "T",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 78
+  },
+  {
+   "key": "D29C:C01",
+   "code": "D29C",
+   "sub": "C01",
+   "nat": "Produktavgift for fiskere",
+   "en": "Fishing industry product tax",
+   "fn": "LEYRS",
+   "at": "_Z",
+   "v2024": 625,
+   "v2023": 607,
+   "row": 80
+  },
+  {
+   "key": "D29C:C02",
+   "code": "D29C",
+   "sub": "C02",
+   "nat": "Finansskatt - skatt på lønn",
+   "en": "Financial activity tax on salary",
+   "fn": "LEYRS",
+   "at": "_Z",
+   "v2024": 2832,
+   "v2023": 2589,
+   "row": 81
+  },
+  {
+   "key": "D29E:C01",
+   "code": "D29E",
+   "sub": "C01",
+   "nat": "Naturressursskatt",
+   "en": "Natural resource tax",
+   "fn": "KS",
+   "at": "E",
+   "v2024": 1632,
+   "v2023": 1652,
+   "row": 84
+  },
+  {
+   "key": "D29E:C02",
+   "code": "D29E",
+   "sub": "C02",
+   "nat": "Vinmonopolavgiften",
+   "en": "Tax on the state monopoly for alcoholic beverages (AS Vinmonopolet)",
+   "fn": "KIC",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 85
+  },
+  {
+   "key": "D29E:C03",
+   "code": "D29E",
+   "sub": "C03",
+   "nat": "Avgift av apotekenes omsetning",
+   "en": "Tax on pharmacies' turnover",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 86
+  },
+  {
+   "key": "D29E:C04",
+   "code": "D29E",
+   "sub": "C04",
+   "nat": "Legemiddelomsetningsavgift",
+   "en": "Sales tax on pharmaceutical products",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 107,
+   "v2023": 82,
+   "row": 87
+  },
+  {
+   "key": "D29E:C05",
+   "code": "D29E",
+   "sub": "C05",
+   "nat": "Avgift utsalgssteder utenom apotek",
+   "en": "Tax on shops other than pharmacies selling pharmaceuticals",
+   "fn": "KIC",
+   "at": "_Z",
+   "v2024": 4,
+   "v2023": 5,
+   "row": 88
+  },
+  {
+   "key": "D29E:C06",
+   "code": "D29E",
+   "sub": "C06",
+   "nat": "Auksjonsinntekter fra tollkvoter",
+   "en": "Proceeds from auctioning of customs quotas",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 313,
+   "v2023": 227,
+   "row": 89
+  },
+  {
+   "key": "D29E:C07",
+   "code": "D29E",
+   "sub": "C07",
+   "nat": "Årsavgift havnesikkerhet",
+   "en": "Annual tax, harbour safety",
+   "fn": "KIC",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 90
+  },
+  {
+   "key": "D29E:C08",
+   "code": "D29E",
+   "sub": "C08",
+   "nat": "Årsavgift Merkeregisteret",
+   "en": "Annual tax, fisher boat registry",
+   "fn": "KIC",
+   "at": "T",
+   "v2024": 4,
+   "v2023": 8,
+   "row": 91
+  },
+  {
+   "key": "D29E:C09",
+   "code": "D29E",
+   "sub": "C09",
+   "nat": "Sektoravgift på tobakksvarer",
+   "en": "Tax on turnover of tobacco products",
+   "fn": "KIC",
+   "at": "AT",
+   "v2024": 11,
+   "v2023": 10,
+   "row": 92
+  },
+  {
+   "key": "D29E:C10",
+   "code": "D29E",
+   "sub": "C10",
+   "nat": "Avgift på spilleautomater (til tiltak mot pengespillproblemer)",
+   "en": "Tax on slot/gambling machines",
+   "fn": "KIC",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 93
+  },
+  {
+   "key": "D29F:C01",
+   "code": "D29F",
+   "sub": "C01",
+   "nat": "Avgift på sluttbehandling av avfall",
+   "en": "Tax on the final treatment of waste",
+   "fn": "C",
+   "at": "P/RS",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 95
+  },
+  {
+   "key": "D29F:C02",
+   "code": "D29F",
+   "sub": "C02",
+   "nat": "Avgift på utslipp av NOx, petroleumsvirksomhet",
+   "en": "Tax on NOx emissions in the petroleum sector",
+   "fn": "C",
+   "at": "P/RS",
+   "v2024": -3,
+   "v2023": 4,
+   "row": 96
+  },
+  {
+   "key": "D29F:C03",
+   "code": "D29F",
+   "sub": "C03",
+   "nat": "Avgift på utslipp av CO2, petroleumsvirksomhet",
+   "en": "Tax on CO2 emissions in the petroleum sector",
+   "fn": "KS",
+   "at": "E",
+   "v2024": 7816,
+   "v2023": 7617,
+   "row": 97
+  },
+  {
+   "key": "D29F:C04",
+   "code": "D29F",
+   "sub": "C04",
+   "nat": "Beregnet skatt ifm omsetning av klimakvoter",
+   "en": "Imputed tax on emission permits",
+   "fn": "C",
+   "at": "E",
+   "v2024": 2511,
+   "v2023": 2387,
+   "row": 98
+  },
+  {
+   "key": "D29F:C05",
+   "code": "D29F",
+   "sub": "C05",
+   "nat": "Miljøavgift på plantevernmiddel",
+   "en": "Tax on pesticides",
+   "fn": "C",
+   "at": "P/RS",
+   "v2024": 50,
+   "v2023": 71,
+   "row": 99
+  },
+  {
+   "key": "D29F:C06",
+   "code": "D29F",
+   "sub": "C06",
+   "nat": "Avgift på helse- og miljøskadelige kjemikalier",
+   "en": "Tax on tricloreten and tetracloreten",
+   "fn": "C",
+   "at": "P/RS",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 100
+  },
+  {
+   "key": "D29F:C07",
+   "code": "D29F",
+   "sub": "C07",
+   "nat": "Kontrollavgift fiskeflåten",
+   "en": "Tax, fishing fleet",
+   "fn": "KS",
+   "at": "P/RS",
+   "v2024": 56,
+   "v2023": 54,
+   "row": 101
+  },
+  {
+   "key": "D29F:C08",
+   "code": "D29F",
+   "sub": "C08",
+   "nat": "Kontroll- og tilsynsavgift akvakultur",
+   "en": "Tax on control and inspection of aquaculture (fish farming)",
+   "fn": "KS",
+   "at": "P/RS",
+   "v2024": 35,
+   "v2023": 35,
+   "row": 102
+  },
+  {
+   "key": "D29F:C09",
+   "code": "D29F",
+   "sub": "C09",
+   "nat": "Avgift på forbrenning av avfall",
+   "en": "Waste incineration tax",
+   "fn": "C",
+   "at": "P/RS",
+   "v2024": 598,
+   "v2023": 222,
+   "row": 103
+  },
+  {
+   "key": "D29H:C01",
+   "code": "D29H",
+   "sub": "C01",
+   "nat": "Forskningsavgift landbruksprodukter",
+   "en": "Research tax agricultural products",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 236,
+   "v2023": 228,
+   "row": 106
+  },
+  {
+   "key": "D29H:C02",
+   "code": "D29H",
+   "sub": "C02",
+   "nat": "FoU-avgift til Skogtiltaksfondet",
+   "en": "Research tax to the Forest Development Fund",
+   "fn": "KIC",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 107
+  },
+  {
+   "key": "D29H:C03",
+   "code": "D29H",
+   "sub": "C03",
+   "nat": "Avgift på omsetning av div. varer til Omsetningsrådet",
+   "en": "Taxes on meat and eggs, milk, grains and furs for market regulation",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 728,
+   "v2023": 696,
+   "row": 108
+  },
+  {
+   "key": "D29H:C04",
+   "code": "D29H",
+   "sub": "C04",
+   "nat": "Tonnasjeskatt for rederier",
+   "en": "Tonnage tax (shipping companies)",
+   "fn": "KIC",
+   "at": "T",
+   "v2024": 65,
+   "v2023": 65,
+   "row": 109
+  },
+  {
+   "key": "D29H:C05",
+   "code": "D29H",
+   "sub": "C05",
+   "nat": "Sektoravgift i Petroleumstilsynet",
+   "en": "Sector tax to the Petroleum Safety Authority",
+   "fn": "KIC",
+   "at": "_Z",
+   "v2024": 140,
+   "v2023": 145,
+   "row": 110
+  },
+  {
+   "key": "D29H:C06",
+   "code": "D29H",
+   "sub": "C06",
+   "nat": "Fiskeriforskningsavgift",
+   "en": "Research tax fisheries",
+   "fn": "KIC",
+   "at": "P/RS",
+   "v2024": 419,
+   "v2023": 414,
+   "row": 111
+  },
+  {
+   "key": "D29H:C07",
+   "code": "D29H",
+   "sub": "C07",
+   "nat": "Sektoravgift i Nasjonal kommunikasjonsmyndighet",
+   "en": "Sector tax to the Norwegian Communications Authority",
+   "fn": "KIC",
+   "at": "_Z",
+   "v2024": 266,
+   "v2023": 261,
+   "row": 112
+  },
+  {
+   "key": "D29H:C08",
+   "code": "D29H",
+   "sub": "C08",
+   "nat": "Avgift på viltlevende marine ressurser",
+   "en": "Excise duties on wild living marine resources",
+   "fn": "KIC",
+   "at": "P/RS",
+   "v2024": 132,
+   "v2023": 124,
+   "row": 113
+  },
+  {
+   "key": "D29H:C09",
+   "code": "D29H",
+   "sub": "C09",
+   "nat": "Avgift på produksjon av fisk",
+   "en": "Excise duties on fish production",
+   "fn": "KIC",
+   "at": "P/RS",
+   "v2024": 1365,
+   "v2023": 1077,
+   "row": 114
+  },
+  {
+   "key": "D29H:C10",
+   "code": "D29H",
+   "sub": "C10",
+   "nat": "Sektoravgift i Justervesenet",
+   "en": "Sector tax to the Norwegian Metrology Service",
+   "fn": "KIC",
+   "at": "_Z",
+   "v2024": 36,
+   "v2023": 37,
+   "row": 115
+  },
+  {
+   "key": "D29H:C11",
+   "code": "D29H",
+   "sub": "C11",
+   "nat": "Sektoravgift i NVE",
+   "en": "Sector tax to the Norwegian Water Resources and Energy Directorate",
+   "fn": "KIC",
+   "at": "_Z",
+   "v2024": 144,
+   "v2023": 72,
+   "row": 116
+  },
+  {
+   "key": "D51M:C01",
+   "code": "D51M",
+   "sub": "C01",
+   "nat": "Ordinær skatt på inntekt, forskuddspliktige",
+   "en": "Surtax and local and regional income tax",
+   "fn": "SPLIT1",
+   "at": "_Z",
+   "v2024": 350000,
+   "v2023": 333199,
+   "row": 120
+  },
+  {
+   "key": "D51M:C02",
+   "code": "D51M",
+   "sub": "C02",
+   "nat": "Fellesskatt, forskuddspliktige",
+   "en": "National tax on individuals' income less deductions",
+   "fn": "SPLIT1",
+   "at": "_Z",
+   "v2024": 156000,
+   "v2023": 144975,
+   "row": 121
+  },
+  {
+   "key": "D51A:C01",
+   "code": "D51A",
+   "sub": "C01",
+   "nat": "Ordinær skatt på inntekt, forskuddspliktige",
+   "en": "Surtax and local and regional income tax",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 350000,
+   "v2023": 333199,
+   "row": 123
+  },
+  {
+   "key": "D51A:C02",
+   "code": "D51A",
+   "sub": "C02",
+   "nat": "Fellesskatt, forskuddspliktige",
+   "en": "National tax on individuals' income less deductions",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 156000,
+   "v2023": 144975,
+   "row": 124
+  },
+  {
+   "key": "D51O:C01",
+   "code": "D51O",
+   "sub": "C01",
+   "nat": "Fellesskatt, etterskuddspliktige (inkl FoU-fradrag)",
+   "en": "Corporate tax",
+   "fn": "KIC",
+   "at": "_Z",
+   "v2024": 109500,
+   "v2023": 120145,
+   "row": 127
+  },
+  {
+   "key": "D51O:C02",
+   "code": "D51O",
+   "sub": "C02",
+   "nat": "Grunnrenteskatt kraftverk",
+   "en": "Special tax on hydroelectric income",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": 15500,
+   "v2023": 26504,
+   "row": 128
+  },
+  {
+   "key": "D51O:C03",
+   "code": "D51O",
+   "sub": "C03",
+   "nat": "Ordinær skatt på inntekt, petroleumsinntekter",
+   "en": "Ordinary income tax on petroleum revenue",
+   "fn": "KIC",
+   "at": "_Z",
+   "v2024": 100000,
+   "v2023": 147544,
+   "row": 129
+  },
+  {
+   "key": "D51O:C04",
+   "code": "D51O",
+   "sub": "C04",
+   "nat": "Særskatt på petroleumsinntekter",
+   "en": "Special tax on petroleum income",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": 281000,
+   "v2023": 317567,
+   "row": 130
+  },
+  {
+   "key": "D51O:C05",
+   "code": "D51O",
+   "sub": "C05",
+   "nat": "Grunnrenteskatt havbruk",
+   "en": "Special tax on aquaculture income",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": 2000,
+   "v2023": 868,
+   "row": 131
+  },
+  {
+   "key": "D51B:C01",
+   "code": "D51B",
+   "sub": "C01",
+   "nat": "Fellesskatt, etterskuddspliktige (inkl FoU-fradrag)",
+   "en": "Corporate tax",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 109500,
+   "v2023": 120145,
+   "row": 133
+  },
+  {
+   "key": "D51B:C02",
+   "code": "D51B",
+   "sub": "C02",
+   "nat": "Grunnrenteskatt kraftverk",
+   "en": "Special tax on hydroelectric income",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 15500,
+   "v2023": 26504,
+   "row": 134
+  },
+  {
+   "key": "D51B:C03",
+   "code": "D51B",
+   "sub": "C03",
+   "nat": "Ordinær skatt på inntekt, petroleumsinntekter",
+   "en": "Ordinary income tax on petroleum revenue",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 100000,
+   "v2023": 147544,
+   "row": 135
+  },
+  {
+   "key": "D51B:C04",
+   "code": "D51B",
+   "sub": "C04",
+   "nat": "Særskatt på petroleumsinntekter",
+   "en": "Special tax on petroleum income",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 281000,
+   "v2023": 317567,
+   "row": 136
+  },
+  {
+   "key": "D51B:C05",
+   "code": "D51B",
+   "sub": "C05",
+   "nat": "Grunnrenteskatt havbruk",
+   "en": "Special tax on aquaculture income",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 2000,
+   "v2023": 868,
+   "row": 137
+  },
+  {
+   "key": "D51E:C01",
+   "code": "D51E",
+   "sub": "C01",
+   "nat": "Skatt på utbytte til utenlandske aksjonærer",
+   "en": "Tax on dividends paid to foreign shareholders",
+   "fn": "KIC",
+   "at": "_Z",
+   "v2024": 13407,
+   "v2023": 11300,
+   "row": 143
+  },
+  {
+   "key": "D51E:C02",
+   "code": "D51E",
+   "sub": "C02",
+   "nat": "Svalbardskatt",
+   "en": "Tax payable by residents and corporations of Svalbard",
+   "fn": "KIC",
+   "at": "_Z",
+   "v2024": 232,
+   "v2023": 222,
+   "row": 144
+  },
+  {
+   "key": "D59A:C01",
+   "code": "D59A",
+   "sub": "C01",
+   "nat": "Skatt på formue, forskuddspliktige",
+   "en": "Net wealth tax, individuals and households",
+   "fn": "KS",
+   "at": "O",
+   "v2024": 31100,
+   "v2023": 29403,
+   "row": 147
+  },
+  {
+   "key": "D59A:C02",
+   "code": "D59A",
+   "sub": "C02",
+   "nat": "Skatt på formue, etterskuddspliktige",
+   "en": "Net wealth tax, corporations",
+   "fn": "KS",
+   "at": "O",
+   "v2024": 1100,
+   "v2023": 1066,
+   "row": 148
+  },
+  {
+   "key": "D59D:C01",
+   "code": "D59D",
+   "sub": "C01",
+   "nat": "Årsavgift motorvogner, husholdninger",
+   "en": "Annual tax on motor vehicles paid by households",
+   "fn": "C",
+   "at": "T",
+   "v2024": 8800,
+   "v2023": 8800,
+   "row": 152
+  },
+  {
+   "key": "D59D:C02",
+   "code": "D59D",
+   "sub": "C02",
+   "nat": "Kringkastingsavgift betalt av husholdninger",
+   "en": "TV licence paid by households",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 153
+  },
+  {
+   "key": "D59F:C01",
+   "code": "D59F",
+   "sub": "C01",
+   "nat": "Trafikkskadeavgift, husholdninger",
+   "en": "Anti traffic accident premium paid by households",
+   "fn": "C",
+   "at": "T",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 156
+  },
+  {
+   "key": "D59F:C02",
+   "code": "D59F",
+   "sub": "C02",
+   "nat": "Diverse skatteinntekter, netotbudsjetterende enheter",
+   "en": "Misc. taxes paid to extra budgetary units",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 157
+  },
+  {
+   "key": "D59F:C03",
+   "code": "D59F",
+   "sub": "C03",
+   "nat": "Fiskeravgift til Statens fiskefond",
+   "en": "Fishing licences",
+   "fn": "C",
+   "at": "P/RS",
+   "v2024": 19,
+   "v2023": 18,
+   "row": 158
+  },
+  {
+   "key": "D59F:C04",
+   "code": "D59F",
+   "sub": "C04",
+   "nat": "Jergeravgift, fellingsavgift, fallvilt og jegerprøveavgift til Viltfondet",
+   "en": "Hunting licenses",
+   "fn": "C",
+   "at": "P/RS",
+   "v2024": 94,
+   "v2023": 90,
+   "row": 159
+  },
+  {
+   "key": "D59F:C05",
+   "code": "D59F",
+   "sub": "C05",
+   "nat": "Sektoravgifter i Svalbards miljøvernfond",
+   "en": "Taxes paid to Svalbard Environmental Fund",
+   "fn": "C",
+   "at": "T",
+   "v2024": 19,
+   "v2023": 16,
+   "row": 160
+  },
+  {
+   "key": "D91A:C01",
+   "code": "D91A",
+   "sub": "C01",
+   "nat": "Avgift på arv og gaver",
+   "en": "Inheritance and gift tax",
+   "fn": "KS",
+   "at": "O",
+   "v2024": 30,
+   "v2023": 46,
+   "row": 163
+  },
+  {
+   "key": "D611:C01",
+   "code": "D611",
+   "sub": "C01",
+   "nat": "Arbeidsgiveravgift til Folketrygden",
+   "en": "Employers' social security contributions to the National Insurance Scheme",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 267885,
+   "v2023": 257197,
+   "row": 169
+  },
+  {
+   "key": "D611:C02",
+   "code": "D611",
+   "sub": "C02",
+   "nat": "Arbeidsgiverandel i Statens pensjonskasse",
+   "en": "Employers' contributions to the Norwegian Public Service Pension Fund",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 26471,
+   "v2023": 25956,
+   "row": 170
+  },
+  {
+   "key": "D611:C03",
+   "code": "D611",
+   "sub": "C03",
+   "nat": "Arbeidsgiverandel i Pensjonsordningen for sjømenn",
+   "en": "Employers' contributions to the Pension arrangement for seamen",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 890,
+   "v2023": 852,
+   "row": 171
+  },
+  {
+   "key": "D611:C04",
+   "code": "D611",
+   "sub": "C04",
+   "nat": "Arbeidsgiverandel i Pensjonsordningen for apotekeretaten",
+   "en": "Employers' contributions to the Pension arrangement for pharmacists",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 172
+  },
+  {
+   "key": "D611C:C01",
+   "code": "D611C",
+   "sub": "C01",
+   "nat": "Arbeidsgiveravgift til Folketrygden",
+   "en": "Employers' social security contributions to the National Insurance Scheme",
+   "fn": "LEYRS",
+   "at": "_Z",
+   "v2024": 267885,
+   "v2023": 257197,
+   "row": 174
+  },
+  {
+   "key": "D611C:C02",
+   "code": "D611C",
+   "sub": "C02",
+   "nat": "Arbeidsgiverandel i Statens pensjonskasse",
+   "en": "Employers' contributions to the Norwegian Public Service Pension Fund",
+   "fn": "LEYRS",
+   "at": "_Z",
+   "v2024": 26471,
+   "v2023": 25956,
+   "row": 175
+  },
+  {
+   "key": "D611C:C03",
+   "code": "D611C",
+   "sub": "C03",
+   "nat": "Arbeidsgiverandel i Pensjonsordningen for sjømenn",
+   "en": "Employers' contributions to the Pension arrangement for seamen",
+   "fn": "LEYRS",
+   "at": "_Z",
+   "v2024": 890,
+   "v2023": 852,
+   "row": 176
+  },
+  {
+   "key": "D611C:C04",
+   "code": "D611C",
+   "sub": "C04",
+   "nat": "Arbeidsgiverandel i Pensjonsordningen for apotekeretaten",
+   "en": "Employers' contributions to the Pension arrangement for pharmacists",
+   "fn": "LEYRS",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 177
+  },
+  {
+   "key": "D6111:C01",
+   "code": "D6111",
+   "sub": "C01",
+   "nat": "Arbeidsgiveravgift til Folketrygden",
+   "en": "Employers' social security contributions to the National Insurance Scheme",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 267885,
+   "v2023": 257197,
+   "row": 181
+  },
+  {
+   "key": "D6111:C02",
+   "code": "D6111",
+   "sub": "C02",
+   "nat": "Arbeidsgiverandel i Statens pensjonskasse",
+   "en": "Employers' contributions to the Norwegian Public Service Pension Fund",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 26471,
+   "v2023": 25956,
+   "row": 182
+  },
+  {
+   "key": "D6111:C03",
+   "code": "D6111",
+   "sub": "C03",
+   "nat": "Arbeidsgiverandel i Pensjonsordningen for sjømenn",
+   "en": "Employers' contributions to the Pension arrangement for seamen",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 890,
+   "v2023": 852,
+   "row": 183
+  },
+  {
+   "key": "D6111:C04",
+   "code": "D6111",
+   "sub": "C04",
+   "nat": "Arbeidsgiverandel i Pensjonsordningen for apotekeretaten",
+   "en": "Employers' contributions to the Pension arrangement for pharmacists",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 184
+  },
+  {
+   "key": "D612:C01",
+   "code": "D612",
+   "sub": "C01",
+   "nat": "Beregnet premie i Forsvaret",
+   "en": "Imputed contributions in The Norwegian Armed Forces",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 109,
+   "v2023": 94,
+   "row": 187
+  },
+  {
+   "key": "D612:C02",
+   "code": "D612",
+   "sub": "C02",
+   "nat": "Beregnet premie (sykepenger betalt av arb.giv.)",
+   "en": "Imputed contributions (sickness benefits paid by employers)",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 8114,
+   "v2023": 7727,
+   "row": 188
+  },
+  {
+   "key": "D612:C03",
+   "code": "D612",
+   "sub": "C03",
+   "nat": "Beregnet premie (sluttvederlag betalt av arb.giv.)",
+   "en": "Imputed contributions (redundancy pay)",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 86,
+   "v2023": 82,
+   "row": 189
+  },
+  {
+   "key": "D6122:C01",
+   "code": "D6122",
+   "sub": "C01",
+   "nat": "Beregnet premie i Forsvaret",
+   "en": "Imputed contributions in The Norwegian Armed Forces",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 109,
+   "v2023": 94,
+   "row": 192
+  },
+  {
+   "key": "D6122:C02",
+   "code": "D6122",
+   "sub": "C02",
+   "nat": "Beregnet premie (sykepenger betalt av arb.giv.)",
+   "en": "Imputed contributions (sickness benefits paid by employers)",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 8114,
+   "v2023": 7727,
+   "row": 193
+  },
+  {
+   "key": "D6122:C03",
+   "code": "D6122",
+   "sub": "C03",
+   "nat": "Beregnet premie (sluttvederlag betalt av arb.giv.)",
+   "en": "Imputed contributions (redundancy pay)",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 86,
+   "v2023": 82,
+   "row": 194
+  },
+  {
+   "key": "D613:C01",
+   "code": "D613",
+   "sub": "C01",
+   "nat": "Medlemspremie til Folketrygden (arbeidstakere)",
+   "en": "Employees' social security contributions to the National Insurance Scheme",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 155430,
+   "v2023": 150004,
+   "row": 196
+  },
+  {
+   "key": "D613:C02",
+   "code": "D613",
+   "sub": "C02",
+   "nat": "Medlemspremie til Statens pensjonskasse",
+   "en": "Employees' social security contributions to the Norwegian Public Service Pension Fund",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 5722,
+   "v2023": 5380,
+   "row": 197
+  },
+  {
+   "key": "D613:C03",
+   "code": "D613",
+   "sub": "C03",
+   "nat": "Medlemspremie til Pensjonsordningen for sjømenn",
+   "en": "Employees' contributions to the Pension arrangement for seamen",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 457,
+   "v2023": 437,
+   "row": 198
+  },
+  {
+   "key": "D613:C04",
+   "code": "D613",
+   "sub": "C04",
+   "nat": "Medlemspremie til Pensjonsordningen for fiskere",
+   "en": "Employees' contributions to the Pension arrangement for fishermen",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 81,
+   "v2023": 78,
+   "row": 199
+  },
+  {
+   "key": "D613:C05",
+   "code": "D613",
+   "sub": "C05",
+   "nat": "Medlemspremie til Pensjonsordningen for skogsarbeidere",
+   "en": "Employees' contributions to the Pension arrangement for forest workers",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 200
+  },
+  {
+   "key": "D613:C06",
+   "code": "D613",
+   "sub": "C06",
+   "nat": "Medlemspremie til Pensjonsordningen for apotekeretaten",
+   "en": "Employees' contributions to the Pension arrangement for pharmacists",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 201
+  },
+  {
+   "key": "D613:C07",
+   "code": "D613",
+   "sub": "C07",
+   "nat": "Medlemspremie til Folketrygden (selvstendig næringsdrivende)",
+   "en": "Self-Employed individuals' social security contributions to the National Insurance Scheme",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 17050,
+   "v2023": 16300,
+   "row": 202
+  },
+  {
+   "key": "D613:C08",
+   "code": "D613",
+   "sub": "C08",
+   "nat": "Medlemspremie til Folketrygden (pensjonister)",
+   "en": "Pensioners' social security contributions to the National Insurance Scheme",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 15620,
+   "v2023": 14900,
+   "row": 203
+  },
+  {
+   "key": "D6131:C01",
+   "code": "D6131",
+   "sub": "C01",
+   "nat": "Medlemspremie til Folketrygden (arbeidstakere)",
+   "en": "Employees' social security contributions to the National Insurance Scheme",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 155430,
+   "v2023": 150004,
+   "row": 205
+  },
+  {
+   "key": "D6131:C02",
+   "code": "D6131",
+   "sub": "C02",
+   "nat": "Medlemspremie til Statens pensjonskasse",
+   "en": "Employees' social security contributions to the Norwegian Public Service Pension Fund",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 5722,
+   "v2023": 5380,
+   "row": 206
+  },
+  {
+   "key": "D6131:C03",
+   "code": "D6131",
+   "sub": "C03",
+   "nat": "Medlemspremie til Pensjonsordningen for sjømenn",
+   "en": "Employees' contributions to the Pension arrangement for seamen",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 457,
+   "v2023": 437,
+   "row": 207
+  },
+  {
+   "key": "D6131:C04",
+   "code": "D6131",
+   "sub": "C04",
+   "nat": "Medlemspremie til Pensjonsordningen for fiskere",
+   "en": "Employees' contributions to the Pension arrangement for fishermen",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 81,
+   "v2023": 78,
+   "row": 208
+  },
+  {
+   "key": "D6131:C05",
+   "code": "D6131",
+   "sub": "C05",
+   "nat": "Medlemspremie til Pensjonsordningen for skogsarbeidere",
+   "en": "Employees' contributions to the Pension arrangement for forest workers",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 209
+  },
+  {
+   "key": "D6131:C06",
+   "code": "D6131",
+   "sub": "C06",
+   "nat": "Medlemspremie til Pensjonsordningen for apotekeretaten",
+   "en": "Employees' contributions to the Pension arrangement for pharmacists",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 210
+  },
+  {
+   "key": "D6131:C07",
+   "code": "D6131",
+   "sub": "C07",
+   "nat": "Medlemspremie til Folketrygden (selvstendig næringsdrivende)",
+   "en": "Self-Employed individuals' social security contributions to the National Insurance Scheme",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 17050,
+   "v2023": 16300,
+   "row": 211
+  },
+  {
+   "key": "D6131:C08",
+   "code": "D6131",
+   "sub": "C08",
+   "nat": "Medlemspremie til Folketrygden (pensjonister)",
+   "en": "Pensioners' social security contributions to the National Insurance Scheme",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 15620,
+   "v2023": 14900,
+   "row": 212
+  },
+  {
+   "key": "D613C:C01",
+   "code": "D613C",
+   "sub": "C01",
+   "nat": "Medlemspremie til Folketrygden (arbeidstakere)",
+   "en": "Employees' social security contributions to the National Insurance Scheme",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 155430,
+   "v2023": 150004,
+   "row": 215
+  },
+  {
+   "key": "D613C:C02",
+   "code": "D613C",
+   "sub": "C02",
+   "nat": "Medlemspremie til Statens pensjonskasse",
+   "en": "Employees' social security contributions to the Norwegian Public Service Pension Fund",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 5722,
+   "v2023": 5380,
+   "row": 216
+  },
+  {
+   "key": "D613C:C03",
+   "code": "D613C",
+   "sub": "C03",
+   "nat": "Medlemspremie til Pensjonsordningen for sjømenn",
+   "en": "Employees' contributions to the Pension arrangement for seamen",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 457,
+   "v2023": 437,
+   "row": 217
+  },
+  {
+   "key": "D613C:C04",
+   "code": "D613C",
+   "sub": "C04",
+   "nat": "Medlemspremie til Pensjonsordningen for fiskere",
+   "en": "Employees' contributions to the Pension arrangement for fishermen",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 81,
+   "v2023": 78,
+   "row": 218
+  },
+  {
+   "key": "D613C:C05",
+   "code": "D613C",
+   "sub": "C05",
+   "nat": "Medlemspremie til Pensjonsordningen for skogsarbeidere",
+   "en": "Employees' contributions to the Pension arrangement for forest workers",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 219
+  },
+  {
+   "key": "D613C:C06",
+   "code": "D613C",
+   "sub": "C06",
+   "nat": "Medlemspremie til Pensjonsordningen for apotekeretaten",
+   "en": "Employees' contributions to the Pension arrangement for pharmacists",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 220
+  },
+  {
+   "key": "D613C:C07",
+   "code": "D613C",
+   "sub": "C07",
+   "nat": "Medlemspremie til Folketrygden (selvstendig næringsdrivende)",
+   "en": "Self-Employed individuals' social security contributions to the National Insurance Scheme",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 17050,
+   "v2023": 16300,
+   "row": 221
+  },
+  {
+   "key": "D613C:C08",
+   "code": "D613C",
+   "sub": "C08",
+   "nat": "Medlemspremie til Folketrygden (pensjonister)",
+   "en": "Pensioners' social security contributions to the National Insurance Scheme",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 15620,
+   "v2023": 14900,
+   "row": 222
+  },
+  {
+   "key": "D613CE:C01",
+   "code": "D613CE",
+   "sub": "C01",
+   "nat": "Medlemspremie til Folketrygden (arbeidstakere)",
+   "en": "Employees' social security contributions to the National Insurance Scheme",
+   "fn": "LEES",
+   "at": "_Z",
+   "v2024": 155430,
+   "v2023": 150004,
+   "row": 224
+  },
+  {
+   "key": "D613CE:C02",
+   "code": "D613CE",
+   "sub": "C02",
+   "nat": "Medlemspremie til Statens pensjonskasse",
+   "en": "Employees' social security contributions to the Norwegian Public Service Pension Fund",
+   "fn": "LEES",
+   "at": "_Z",
+   "v2024": 5722,
+   "v2023": 5380,
+   "row": 225
+  },
+  {
+   "key": "D613CE:C03",
+   "code": "D613CE",
+   "sub": "C03",
+   "nat": "Medlemspremie til Pensjonsordningen for sjømenn",
+   "en": "Employees' contributions to the Pension arrangement for seamen",
+   "fn": "LEES",
+   "at": "_Z",
+   "v2024": 457,
+   "v2023": 437,
+   "row": 226
+  },
+  {
+   "key": "D613CE:C04",
+   "code": "D613CE",
+   "sub": "C04",
+   "nat": "Medlemspremie til Pensjonsordningen for fiskere",
+   "en": "Employees' contributions to the Pension arrangement for fishermen",
+   "fn": "LEES",
+   "at": "_Z",
+   "v2024": 81,
+   "v2023": 78,
+   "row": 227
+  },
+  {
+   "key": "D613CE:C05",
+   "code": "D613CE",
+   "sub": "C05",
+   "nat": "Medlemspremie til Pensjonsordningen for skogsarbeidere",
+   "en": "Employees' contributions to the Pension arrangement for forest workers",
+   "fn": "LEES",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 228
+  },
+  {
+   "key": "D613CE:C06",
+   "code": "D613CE",
+   "sub": "C06",
+   "nat": "Medlemspremie til Pensjonsordningen for apotekeretaten",
+   "en": "Employees' contributions to the Pension arrangement for pharmacists",
+   "fn": "LEES",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 229
+  },
+  {
+   "key": "D613CS:C01",
+   "code": "D613CS",
+   "sub": "C01",
+   "nat": "Medlemspremie til Folketrygden (selvstendig næringsdrivende)",
+   "en": "Self-Employed individuals' social security contributions to the National Insurance Scheme",
+   "fn": "KISE",
+   "at": "_Z",
+   "v2024": 17050,
+   "v2023": 16300,
+   "row": 231
+  },
+  {
+   "key": "D613CN:C01",
+   "code": "D613CN",
+   "sub": "C01",
+   "nat": "Medlemspremie til Folketrygden (pensjonister)",
+   "en": "Pensioners' social security contributions to the National Insurance Scheme",
+   "fn": "LNON",
+   "at": "_Z",
+   "v2024": 15620,
+   "v2023": 14900,
+   "row": 233
+  }
+ ]
+}

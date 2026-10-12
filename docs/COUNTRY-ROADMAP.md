@@ -1,6 +1,6 @@
 # Country roadmap
 
-Generated 2026-10-11 by `npm run roadmap` from the data folders. **15** of the 38 OECD members have a full folio, **23** have the harmonised profile only (listed at the bottom of the Trees page), 0 are not started. Brazil and Bolivia are also built (outside the OECD).
+Generated 2026-10-12 by `npm run roadmap` from the data folders. **36** of the 38 OECD members have a full folio, **2** have the harmonised profile only (listed at the bottom of the Trees page), 0 are not started. Brazil, Bolivia, Bulgaria, Croatia, Malta and Romania are also built (outside the OECD).
 
 ## Two levels of coverage
 
@@ -14,79 +14,52 @@ The profile layer is what makes covering *all* countries realistic: the OECD pub
 | Country | Status | Folio wave | Why this wave |
 |---|---|---|---|
 | Australia | Folio (researched) | – | Done. |
-| Austria | Profile only | 2 | Federal with revenue sharing; social contributions plus payroll taxes. |
-| Belgium | Profile only | 2 | Federal with three regions and communities; high income and social charges. |
+| Austria | Folio (partial) | – | Done (partial). |
+| Belgium | Folio (researched) | – | Done. |
 | Canada | Folio (researched) | – | Done. |
 | Chile | Folio (partial) | – | Done (partial: one income-tax core, municipal taxes from the OECD). |
 | Colombia | Folio (partial) | – | Done (partial). |
 | Costa Rica | Profile only | 3 | Small unitary state with sizeable social contributions. |
-| Czechia | Profile only | 3 | Central Europe; social contributions and VAT. |
-| Denmark | Profile only | 2 | Income-tax financed welfare state; almost no social contributions. |
-| Estonia | Profile only | 4 | Distributed-profit corporate tax model. |
-| Finland | Profile only | 2 | Nordic model with municipal income taxes. |
+| Czechia | Folio (researched) | – | Done. |
+| Denmark | Folio (researched) | – | Done. |
+| Estonia | Folio (researched) | – | Done. |
+| Finland | Folio (researched) | – | Done. |
 | France | Folio (researched) | – | Done. |
 | Germany | Folio (researched) | – | Done. |
-| Greece | Profile only | 3 | VAT and social contributions; recent reforms. |
-| Hungary | Profile only | 3 | Very high VAT share; local business tax. |
-| Iceland | Profile only | 4 | Municipal income tax carries local government. |
-| Ireland | Profile only | 2 | Corporation-tax concentration. |
+| Greece | Folio (researched) | – | Done. |
+| Hungary | Folio (researched) | – | Done. |
+| Iceland | Folio (researched) | – | Done. |
+| Ireland | Folio (researched) | – | Done. |
 | Israel | Profile only | 3 | Unitary, weak local tax base. |
 | Italy | Folio (partial) | – | Done (partial). |
 | Japan | Folio (researched) | – | Done. |
 | South Korea | Folio (researched) | – | Done. |
-| Latvia | Profile only | 4 | Baltic; municipal income tax share. |
-| Lithuania | Profile only | 4 | Baltic; social contributions. |
-| Luxembourg | Profile only | 4 | Small; communal business tax. |
+| Latvia | Folio (researched) | – | Done. |
+| Lithuania | Folio (researched) | – | Done. |
+| Luxembourg | Folio (researched) | – | Done. |
 | Mexico | Folio (partial) | – | Done (partial). |
-| Netherlands | Profile only | 2 | Box system for income tax; strong VAT and social premiums. |
+| Netherlands | Folio (researched) | – | Done. |
 | New Zealand | Folio (researched) | – | Done. |
-| Norway | Profile only | 2 | Petroleum revenue is outside the tax figures: a good test of the rules. |
-| Poland | Profile only | 3 | Largest Central European economy. |
-| Portugal | Profile only | 3 | Unitary with autonomous regions. |
-| Slovak Republic | Profile only | 4 | Social contributions and VAT. |
-| Slovenia | Profile only | 4 | Social contributions and VAT. |
+| Norway | Folio (researched) | – | Done. |
+| Poland | Folio (researched) | – | Done. |
+| Portugal | Folio (researched) | – | Done. |
+| Slovak Republic | Folio (researched) | – | Done. |
+| Slovenia | Folio (researched) | – | Done. |
 | Spain | Folio (partial) | – | Done (partial). |
-| Sweden | Profile only | 2 | Municipal income tax; employer contributions. |
+| Sweden | Folio (researched) | – | Done. |
 | Switzerland | Folio (researched) | – | Done. |
-| Türkiye | Profile only | 3 | Unitary, indirect-tax heavy. |
+| Türkiye | Folio (partial) | – | Done (partial: central-budget taxes only; no social security premiums or municipal taxes). |
 | United Kingdom | Folio (researched) | – | Done. |
 | United States | Folio (researched) | – | Done. |
-
-### Wave 2 – the next folios: high-tax and Nordic/Benelux contrasts
-
-- Austria (profile only)
-- Belgium (profile only)
-- Denmark (profile only)
-- Finland (profile only)
-- Ireland (profile only)
-- Netherlands (profile only)
-- Norway (profile only)
-- Sweden (profile only)
 
 ### Wave 3 – emerging and mid-size OECD members
 
 - Costa Rica (profile only)
-- Czechia (profile only)
-- Greece (profile only)
-- Hungary (profile only)
 - Israel (profile only)
-- Poland (profile only)
-- Portugal (profile only)
-- Türkiye (profile only)
-
-### Wave 4 – the remaining small economies
-
-- Estonia (profile only)
-- Iceland (profile only)
-- Latvia (profile only)
-- Lithuania (profile only)
-- Luxembourg (profile only)
-- Slovak Republic (profile only)
-- Slovenia (profile only)
 
 ## Beyond the OECD
 
-Already built: **Brazil**, **Bolivia**. Suggested next, because the same OECD publications cover them (Latin America and the Caribbean, Asia-Pacific, Africa editions), so their profile can be added the same way: Argentina, Peru, Uruguay, Ecuador, India, Indonesia, South Africa, China, Saudi Arabia.
+Already built: **Brazil**, **Bolivia**, **Bulgaria**, **Croatia**, **Malta**, **Romania** (the last four from the European Commission’s National Tax Lists and Eurostat, without an OECD level layer). Cyprus, also on that list, is not built because the list gives its lines no names. Suggested next, because the same OECD publications cover them (Latin America and the Caribbean, Asia-Pacific, Africa editions), so their profile can be added the same way: Argentina, Peru, Uruguay, Ecuador, India, Indonesia, South Africa, China, Saudi Arabia.
 
 ## How to add one
 

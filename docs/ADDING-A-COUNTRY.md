@@ -14,7 +14,7 @@ Country not covered by the OECD tables? Use the OECD's regional editions (Latin 
 
 ## B. A folio (a day or two of research): appears on the map and as a tree
 
-A folio is the folder `countries/<id>/`. You can write its JSON files by hand (`npm run new-country -- ...` scaffolds a draft), but the quickest and least error-prone way is a **builder script**: one typed definition in `scripts/build/<id>.ts`, run through `scripts/lib/build-country.ts`, which writes `country.json`, `taxes.json`, `revenue.json`, `sources.json`, `presentation.json` and `structure.json` for you. The ten most recent folios were made this way; `scripts/build/south-korea.ts` (several sources, two levels plus social insurance) and `scripts/build/new-zealand.ts` (the smallest) are good templates. The JSON files stay the source of truth: after the first build you may edit them directly, and re-running the script will overwrite those edits.
+A folio is the folder `countries/<id>/`. You can write its JSON files by hand (`npm run new-country -- ...` scaffolds a draft), but the quickest and least error-prone way is a **builder script**: one typed definition in `scripts/build/<id>.ts`, run through `scripts/lib/build-country.ts`, which writes `country.json`, `taxes.json`, `revenue.json`, `sources.json`, `presentation.json` and `structure.json` for you. 35 of the 42 folios were made this way (the others, Bolivia, Brazil, Canada, Colombia, Japan, Mexico and the United States, are hand-written JSON); `scripts/build/south-korea.ts` (several sources, two levels plus social insurance) and `scripts/build/new-zealand.ts` (the smallest) are good templates. The JSON files stay the source of truth: after the first build you may edit them directly, and re-running the script will overwrite those edits.
 
 ### 1. Research, in this order
 
@@ -25,6 +25,14 @@ A folio is the folder `countries/<id>/`. You can write its JSON files by hand (`
 5. **The OECD profile** `profiles/<id>.json` already holds the harmonised layer; the builder moves it into `structure.json` and deletes the profile (the folio replaces it). Set its `basis` through `structureOverride` and map its levels to your level ids (`folioLevels`).
 
 Techniques that worked: statistics offices and treasuries usually publish an Excel or PDF table. Download it, read it with the PDF tool or unpack the workbook, and record the sheet or page in `locator`. Government sites that refuse automated requests (bot checks) are not to be bypassed: open them by hand, or find the figure in another primary publication.
+
+**Shortcut for EU and EEA countries: the National Tax List.** The Commission and Eurostat publish, for each member state and Iceland and Norway, one workbook with every tax line in national currency (the *National Tax Lists*, on the Taxation Trends data page). This is how the 19 European folios of October 2026 were built, in this order:
+
+1. Unzip the workbook and run `node scripts/extract-ntl.cjs <dir> <CC>` (writes `scripts/build/data/ntl-<CC>.json`); `node scripts/extract-eurostat.cjs` writes the sector accounts (`gov_10a_taxag`) once for all countries.
+2. In `scripts/build/<id>.ts`, `const n = loadNtl('<CC>', '<currency>')` and give each tax its lines: `n.rev(group, ['D29A:C03', …])` produces the amount, the locator (sheet and row numbers) and the calculation for you. Shared taxes take the local part from the sector accounts (`loadSectors`) and the State part is the list's total less that.
+3. Finish with `n.reconcile(drawn, excludedKeys)`: it fails unless the lines drawn plus the lines left out equal the list's totals, so nothing can be dropped or counted twice without the build saying so.
+4. Rates are not in the list: take them from the tax authority; if its site cannot be read, use a stated secondary source (flag it as guidance) and say so in the instrument. Copy `scripts/build/latvia.ts` (small, two levels) or `scripts/build/belgium.ts` (three levels) as a template.
+5. Countries outside the OECD (no `profiles/<id>.json`) get no `structure.json`; the validator warns and the Trees table shows "n/a" for the OECD level shares.
 
 ### 2. Write, build, validate
 

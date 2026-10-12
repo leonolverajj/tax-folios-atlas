@@ -1,0 +1,106 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "estonia": {
+      "x": 800,
+      "y": 500
+    },
+    "riik": {
+      "x": 509,
+      "y": 432
+    },
+    "ee-income-tax-persons": {
+      "x": 849,
+      "y": 802
+    },
+    "ee-social-tax-health": {
+      "x": 393,
+      "y": 700
+    },
+    "ee-customs-duty": {
+      "x": 321,
+      "y": 385
+    },
+    "ee-excise-other": {
+      "x": 694,
+      "y": 177
+    },
+    "ee-environmental-charges": {
+      "x": 1164,
+      "y": 268
+    },
+    "ee-corporate-income-tax-distributions": {
+      "x": 504,
+      "y": 905
+    },
+    "ee-unemployment-insurance": {
+      "x": 114,
+      "y": 565
+    },
+    "ee-excise-alcohol": {
+      "x": 350,
+      "y": 159
+    },
+    "ee-renewable-energy-charge": {
+      "x": 1005,
+      "y": 132
+    },
+    "ee-guarantee-fund": {
+      "x": 1471,
+      "y": 366
+    },
+    "ee-corporate-income-tax-benefits": {
+      "x": 870,
+      "y": 926
+    },
+    "ee-social-contributions-others": {
+      "x": 127,
+      "y": 772
+    },
+    "ee-excise-tobacco": {
+      "x": 81,
+      "y": 338
+    },
+    "ee-gambling-tax": {
+      "x": 600,
+      "y": 32
+    },
+    "ee-licences-other": {
+      "x": 1420,
+      "y": 100
+    },
+    "ee-social-tax-pension": {
+      "x": 199,
+      "y": 894
+    },
+    "ee-vat": {
+      "x": 84,
+      "y": 203
+    },
+    "ee-excise-fuel": {
+      "x": 970,
+      "y": 37
+    },
+    "ee-vehicle-taxes": {
+      "x": 1515,
+      "y": 458
+    },
+    "kov": {
+      "x": 1091,
+      "y": 568
+    },
+    "ee-land-tax": {
+      "x": 1262,
+      "y": 499
+    },
+    "ee-local-taxes": {
+      "x": 1207,
+      "y": 710
+    }
+  },
+  "radii": {}
+}

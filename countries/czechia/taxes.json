@@ -1,0 +1,610 @@
+{
+  "instruments": [
+    {
+      "id": "cz-pit-employment",
+      "parentId": "stat",
+      "levelId": "stat",
+      "category": "tax",
+      "family": "income-personal",
+      "status": "current",
+      "names": {
+        "official": "Personal income tax on dependent activity and functional benefits",
+        "native": "Daň z příjmů fyzických osob ze závislé činnosti a funkčních požitků",
+        "common": "Personal income tax on employment"
+      },
+      "taxes": { "base": "Wages and salaries of employees.", "payer": "Employees; the employer withholds." },
+      "rate": {
+        "kind": "progressive",
+        "headline": "15% · 23% above CZK 1.76 million",
+        "details": [
+          "Gross annual income up to CZK 1,762,812 (36 times the average monthly salary) is taxed at 15%; the excess at 23% (PwC).",
+          "As summarised by PwC (review of 27 July 2026), not checked against the Financial Administration."
+        ],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "The largest direct tax on persons: CZK 238 billion in 2024.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "pwc-cz-individual", "locator": "Personal income tax rates" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "cz-pit-self-employed",
+      "parentId": "stat",
+      "levelId": "stat",
+      "category": "tax",
+      "family": "income-personal",
+      "status": "current",
+      "names": {
+        "official": "Personal income tax on independent gainful activity",
+        "native": "Daň z příjmů fyzických osob ze samostatné výdělečné činnosti",
+        "common": "Income tax of the self-employed"
+      },
+      "taxes": { "base": "Income of the self-employed.", "payer": "Self-employed people." },
+      "rate": {
+        "kind": "progressive",
+        "headline": "Same 15% and 23% rates",
+        "details": ["As summarised by PwC (review of 27 July 2026), not checked against the Financial Administration."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "CZK 27.7 billion in 2024, up from CZK 21.9 billion.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "pwc-cz-individual", "locator": "Personal income tax rates" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "cz-pit-capital",
+      "parentId": "stat",
+      "levelId": "stat",
+      "category": "tax",
+      "family": "income-personal",
+      "status": "current",
+      "names": {
+        "official": "Personal income tax on capital income",
+        "native": "Daň z příjmů fyzických osob z kapitálových výnosů",
+        "common": "Income tax on capital income"
+      },
+      "taxes": {
+        "base": "Dividends, interest and other capital income, including income taxed by final withholding at source.",
+        "payer": "Individuals; the payer withholds."
+      },
+      "rate": {
+        "kind": "flat",
+        "headline": "15% withholding on Czech dividends and interest",
+        "details": [
+          "Income already taxed by final withholding tax at source (for example dividends or interest from bonds of Czech companies) is excluded from the progressive scale; a 15% rate also applies to selected foreign investment income (PwC).",
+          "As summarised by PwC (review of 27 July 2026), not checked against the Financial Administration."
+        ],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "CZK 46.6 billion in 2024.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "pwc-cz-individual", "locator": "Separate tax base" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "cz-corporate-income-tax",
+      "parentId": "stat",
+      "levelId": "stat",
+      "category": "tax",
+      "family": "income-corporate",
+      "status": "current",
+      "names": { "official": "Corporate income tax", "native": "Daň z příjmů právnických osob", "common": "Corporate income tax" },
+      "taxes": { "base": "Profit of companies and other legal persons.", "payer": "Companies." },
+      "rate": {
+        "kind": "flat",
+        "headline": "21% in 2024 and 2025 (19% before)",
+        "details": [
+          "The standard CIT rate is 19%, raised to 21% in 2024 and 2025 (PwC).",
+          "As summarised by PwC (review of 27 July 2026), not checked against the Financial Administration."
+        ],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "Revenue grew 14% in 2024 with the rate increase.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "pwc-cz-corporate", "locator": "Corporate income tax rates" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "cz-windfall-topup",
+      "parentId": "stat",
+      "levelId": "stat",
+      "category": "special-levy",
+      "family": "income-corporate",
+      "status": "current",
+      "names": {
+        "official": "Tax on excess profits (windfall tax) and the top-up tax",
+        "native": "Daň z nadměrných příjmů; dorovnávací daň",
+        "common": "Windfall tax and top-up tax"
+      },
+      "taxes": {
+        "base": "Excess profits of large banks and energy-sector companies in 2023–2025, and the top-up tax on large multinational groups.",
+        "payer": "Large banks, energy companies and multinational groups."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "60% surcharge on excess profit (windfall tax)",
+        "details": [
+          "In 2023 through 2025 a 60% CIT surcharge applies on top of the standard CIT, so the total on excess profits is 81% in 2024 and 2025 (PwC).",
+          "The top-up tax (CZK 1.0 billion) is a new line in 2024.",
+          "As summarised by PwC (review of 27 July 2026), not checked against the Financial Administration."
+        ],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "The windfall tax brought in CZK 40 billion in 2024, about 6% of all income taxes.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "pwc-cz-corporate", "locator": "Windfall tax" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "cz-social-employers",
+      "parentId": "stat",
+      "levelId": "stat",
+      "category": "social-contribution",
+      "family": "social-security",
+      "status": "current",
+      "names": {
+        "official": "Employers’ contributions: pension, sickness, employment policy, accident and public health insurance",
+        "native": "Pojistné placené zaměstnavateli",
+        "common": "Employers’ contributions"
+      },
+      "taxes": {
+        "base": "Gross pay. Pension insurance CZK 481 billion, health insurance CZK 205 billion, sickness insurance CZK 47 billion, employment policy CZK 27 billion, accident insurance CZK 12 billion, voluntary CZK 0.03 billion.",
+        "payer": "Employers."
+      },
+      "rate": {
+        "kind": "flat",
+        "headline": "Set by the social and health insurance laws",
+        "details": ["The rates are not extracted here."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "About three-fifths of all social contributions.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet CZ, D611C and D611V" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "cz-social-employees",
+      "parentId": "stat",
+      "levelId": "stat",
+      "category": "social-contribution",
+      "family": "social-security",
+      "status": "current",
+      "names": {
+        "official": "Employees’ contributions: pension, sickness and public health insurance",
+        "native": "Pojistné placené zaměstnanci",
+        "common": "Employees’ contributions"
+      },
+      "taxes": {
+        "base": "Gross pay. Pension insurance CZK 145 billion, health insurance CZK 103 billion, sickness insurance CZK 13 billion (a new line in 2024).",
+        "payer": "Employees; the employer withholds."
+      },
+      "rate": {
+        "kind": "flat",
+        "headline": "Set by the social and health insurance laws",
+        "details": ["The rates are not extracted here."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "Employees’ sickness insurance appears as a new line in 2024.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet CZ, D613CE" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "cz-social-self-employed",
+      "parentId": "stat",
+      "levelId": "stat",
+      "category": "social-contribution",
+      "family": "social-security",
+      "status": "current",
+      "names": {
+        "official": "Contributions of the self-employed and voluntary contributions",
+        "native": "Pojistné osob samostatně výdělečně činných; dobrovolné pojistné",
+        "common": "Self-employed and voluntary contributions"
+      },
+      "taxes": {
+        "base": "Pension insurance CZK 42.8 billion, public health insurance CZK 36.2 billion and employment policy CZK 1.8 billion paid by the self-employed, and voluntary contributions of CZK 0.7 billion.",
+        "payer": "Self-employed people and voluntarily insured persons."
+      },
+      "rate": { "kind": "varies", "headline": "Set by the social and health insurance laws", "details": [], "asOf": "2026-10-12" },
+      "explanation": "Five lines.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet CZ, D613CS and D613V" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "cz-health-insurance-state-paid",
+      "parentId": "stat",
+      "levelId": "stat",
+      "category": "insurance-premium",
+      "family": "social-security",
+      "status": "current",
+      "names": {
+        "official": "Public health insurance paid by the government for the non-employed",
+        "native": "Pojistné na veřejné zdravotní pojištění placené vládou za nezaměstnané",
+        "common": "Health insurance paid by the State for the non-employed"
+      },
+      "taxes": {
+        "base": "People insured by the State (children, pensioners and others who have no employer).",
+        "payer": "The government, on behalf of the insured."
+      },
+      "rate": {
+        "kind": "flat",
+        "headline": "A fixed monthly amount per insured person",
+        "details": [
+          "The List labels it \"Public health insurance premium paid by the government for the unemployed\". The monthly amount is not itemised in the list."
+        ],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "The statisticians count it as a contribution of households financed by a government transfer. It is a flow inside government; it is included here because the list includes it.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet CZ, D613CN" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "cz-vat",
+      "parentId": "stat",
+      "levelId": "stat",
+      "category": "tax",
+      "family": "general-consumption",
+      "status": "current",
+      "names": { "official": "Value added tax", "native": "Daň z přidané hodnoty", "common": "VAT", "abbreviation": "DPH" },
+      "taxes": { "base": "Goods and services supplied in Czechia and imports.", "payer": "Consumers; businesses charge it and claim input credits." },
+      "rate": {
+        "kind": "range",
+        "headline": "21% standard; 12% reduced",
+        "details": [
+          "21% generally; 12% on groceries (except most drinks), medicines, tap water, hotel accommodation, admission to cultural and sports events, catering, heat and cold (PwC).",
+          "As summarised by PwC (review of 27 July 2026), not checked against the Financial Administration."
+        ],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "The largest consumption tax: CZK 587 billion.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "pwc-cz-other", "locator": "Value-added tax" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "cz-customs",
+      "parentId": "stat",
+      "levelId": "stat",
+      "category": "customs-duty",
+      "family": "trade",
+      "status": "current",
+      "names": { "official": "Customs duties", "native": "Clo", "common": "Customs duties" },
+      "taxes": { "base": "Goods imported from outside the EU, by the Common Customs Tariff.", "payer": "Importers." },
+      "rate": {
+        "kind": "varies",
+        "headline": "EU Common Customs Tariff",
+        "details": ["An EU own resource; Eurostat records it under the EU institutions."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "Collected for the EU budget.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "eurostat-taxag", "locator": "S.212, D212" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "cz-excise-fuel",
+      "parentId": "stat",
+      "levelId": "stat",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Excise duty on mineral oils", "native": "Spotřební daň z minerálních olejů", "common": "Fuel excise" },
+      "taxes": {
+        "base": "Petrol, diesel and other mineral oils, by quantity. The list gives two lines: CZK 52.7 billion on goods from outside the EU and CZK 39.7 billion on the rest.",
+        "payer": "Producers and importers; passed on at the pump."
+      },
+      "rate": { "kind": "specific", "headline": "Per 1,000 litres, fixed by the Excise Duty Act", "details": [], "asOf": "2026-10-12" },
+      "explanation": "The biggest excise.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet CZ, D2122C C01, D214A C01" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "cz-excise-tobacco",
+      "parentId": "stat",
+      "levelId": "stat",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Excise duty on tobacco", "native": "Spotřební daň z tabáku", "common": "Tobacco excise" },
+      "taxes": { "base": "Cigarettes and other tobacco products.", "payer": "Producers and importers; passed on in the price." },
+      "rate": { "kind": "mechanism", "headline": "Fixed by the Excise Duty Act", "details": [], "asOf": "2026-10-12" },
+      "explanation": "CZK 59.6 billion in 2024, up 13%.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet CZ, D2122C C05, D214A C05" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "cz-excise-alcohol",
+      "parentId": "stat",
+      "levelId": "stat",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Excise duty on spirits, beer and wine", "native": "Spotřební daň z lihu, piva a vína", "common": "Alcohol excise" },
+      "taxes": { "base": "Spirits, beer and wine; six lines in the list.", "payer": "Producers and importers; passed on in the price." },
+      "rate": { "kind": "specific", "headline": "Per litre of product or pure alcohol", "details": [], "asOf": "2026-10-12" },
+      "explanation": "CZK 14.3 billion in 2024.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet CZ, D2122C C02 to C04, D214A C02 to C04" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "cz-energy-taxes",
+      "parentId": "stat",
+      "levelId": "stat",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "Taxes on electricity, natural gas and solid fuels",
+        "native": "Daň z elektřiny, zemního plynu a pevných paliv",
+        "common": "Electricity, gas and solid fuel taxes"
+      },
+      "taxes": {
+        "base": "Electricity (CZK 1.5 billion), natural gas (CZK 1.6 billion) and solid fuels (CZK 0.3 billion).",
+        "payer": "Suppliers; passed on in the price."
+      },
+      "rate": { "kind": "specific", "headline": "Per unit of energy", "details": [], "asOf": "2026-10-12" },
+      "explanation": "Six lines.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet CZ, D2122C C06 to C08, D214A C07 to C09" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "cz-renewable-levies",
+      "parentId": "stat",
+      "levelId": "stat",
+      "category": "special-levy",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "Levy on electricity from solar radiation and tax on energy from renewable sources",
+        "native": "Odvod z elektřiny ze slunečního záření; daň na energii z obnovitelných zdrojů",
+        "common": "Levies on renewable electricity"
+      },
+      "taxes": {
+        "base": "As named in the National Tax List: the solar levy (CZK 4.9 billion) and the tax on energy from renewable sources (CZK 22.5 billion, a line that did not exist in 2023).",
+        "payer": "Not given in the list."
+      },
+      "rate": { "kind": "varies", "headline": "Set by law", "details": [], "asOf": "2026-10-12" },
+      "explanation": "The new line is the largest change among the Czech product taxes in 2024.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet CZ, D214A C10 and C11" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "cz-lottery",
+      "parentId": "stat",
+      "levelId": "stat",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Levy on proceeds of lotteries", "native": "Odvod výtěžku z provozování loterií", "common": "Lottery levy" },
+      "taxes": { "base": "Proceeds of lotteries and similar games.", "payer": "Operators." },
+      "rate": { "kind": "varies", "headline": "Set by the Gambling Act", "details": [], "asOf": "2026-10-12" },
+      "explanation": "CZK 21.9 billion in 2024, up 18%.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet CZ, D214F C01" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "cz-road-tax",
+      "parentId": "stat",
+      "levelId": "stat",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Road tax", "native": "Silniční daň", "common": "Road tax" },
+      "taxes": { "base": "Vehicles used for business.", "payer": "Owners of vehicles used for business." },
+      "rate": {
+        "kind": "varies",
+        "headline": "By engine and vehicle size",
+        "details": [
+          "From 2022 the road tax was effectively abolished for cars, buses and trucks up to 12 tons; it remains for heavier vehicles (PwC).",
+          "As summarised by PwC (review of 27 July 2026), not checked against the Financial Administration."
+        ],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "CZK 1.2 billion in 2024.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "pwc-cz-other", "locator": "Road tax" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "cz-environmental-charges",
+      "parentId": "stat",
+      "levelId": "stat",
+      "category": "fee",
+      "family": "resource",
+      "status": "current",
+      "names": {
+        "official": "Charges for water and air pollution and for the disposal of end-of-life vehicles",
+        "native": "Poplatky za znečišťování vod a ovzduší; autovraky",
+        "common": "Environmental charges"
+      },
+      "taxes": {
+        "base": "Discharge of waste water into surface waters (CZK 0.18 billion), air pollution (CZK 0.38 billion), and charges for collecting vehicle wrecks (CZK 0.06 billion).",
+        "payer": "Polluters."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Set by the environmental laws",
+        "details": ["The tax on emission permits (CZK 18.6 billion) is the sale of a right and is not counted."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "Small charges.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet CZ, D29F C01, C02, C04, D214D C02" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "cz-land-withdrawal",
+      "parentId": "stat",
+      "levelId": "stat",
+      "category": "fee",
+      "family": "property",
+      "status": "current",
+      "names": {
+        "official": "Payments for withdrawing land from the agricultural land fund and forest land, and fees collected by the Wine Fund",
+        "native": "Odvody za odnětí půdy ze zemědělského půdního fondu; poplatky vinařského fondu",
+        "common": "Land withdrawal fees"
+      },
+      "taxes": {
+        "base": "Taking farmland and forest land out of use (CZK 1.2 billion in all) and the fees of the Wine Fund (CZK 0.03 billion).",
+        "payer": "Developers and wine producers."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Set by law",
+        "details": ["Eurostat books CZK 0.33 billion of the transaction taxes (D214C) with local government; the list does not say which lines."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "Six lines.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet CZ, D214C, D29A C02 C03 C05, D214I" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "cz-licence-fees",
+      "parentId": "stat",
+      "levelId": "stat",
+      "category": "fee",
+      "family": "other",
+      "status": "current",
+      "names": {
+        "official": "Television and radio licence fees (households and businesses)",
+        "native": "Televizní a rozhlasové poplatky",
+        "common": "TV and radio licence fees"
+      },
+      "taxes": { "base": "Households and businesses with a television or radio.", "payer": "Households (CZK 7.5 billion) and businesses (CZK 0.7 billion)." },
+      "rate": { "kind": "specific", "headline": "A fixed monthly fee per household", "details": [], "asOf": "2026-10-12" },
+      "explanation": "The fees that finance Czech Television and Czech Radio.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet CZ, D59D C01, D29E C02" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "cz-financial-sector-contributions",
+      "parentId": "stat",
+      "levelId": "stat",
+      "category": "special-levy",
+      "family": "other",
+      "status": "current",
+      "names": {
+        "official": "Contributions to the Financial Market Guarantee System, the Securities Dealers Fund, the Loss Prevention Fund and the Travel Agencies Fund",
+        "native": "Příspěvky do Garančního systému finančních trhů a dalších fondů",
+        "common": "Financial-sector fund contributions"
+      },
+      "taxes": {
+        "base": "Financial Market Guarantee System (CZK 4.2 billion, down from CZK 6.4 billion in 2023), Securities Dealers Fund (CZK 0.4 billion), loss prevention fund (CZK 1.0 billion) and travel agencies fund (CZK 0.02 billion).",
+        "payer": "Financial institutions, securities dealers and travel agencies."
+      },
+      "rate": { "kind": "varies", "headline": "Set by the funds", "details": [], "asOf": "2026-10-12" },
+      "explanation": "Compulsory contributions that the statisticians book as taxes on production.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet CZ, D29H C02 to C05" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "cz-admin-fees",
+      "parentId": "stat",
+      "levelId": "stat",
+      "category": "fee",
+      "family": "other",
+      "status": "current",
+      "names": {
+        "official": "Administrative fees, other tax revenue and packaging registration fees",
+        "native": "Správní poplatky; ostatní daňové příjmy",
+        "common": "Administrative fees and other tax revenue"
+      },
+      "taxes": {
+        "base": "Administrative fees booked among taxes on production (CZK 1.4 billion) and among other current taxes (CZK 1.4 billion), other tax revenue and packaging registration fees.",
+        "payer": "Businesses and individuals."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Set by the Administrative Fees Act",
+        "details": [
+          "Eurostat books CZK 0.7 billion of the taxes on production under local government; the list does not say which part of these fees is local, so they are drawn here."
+        ],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "Fees for official services.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet CZ, D29H C01 and C08, D59F C03 and C04, D29E C01" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "cz-property-tax",
+      "parentId": "samosprava",
+      "levelId": "samosprava",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "Real estate tax (buildings and land; businesses and households)", "native": "Daň z nemovitostí", "common": "Real estate tax" },
+      "taxes": { "base": "Land and buildings. The list gives CZK 19.7 billion for businesses and CZK 3.3 billion for households.", "payer": "Owners." },
+      "rate": {
+        "kind": "range",
+        "headline": "A national base with a municipal coefficient",
+        "details": ["The revenue nearly doubled in 2024, from CZK 12.5 billion to CZK 23.0 billion; the list does not give the reason."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "The main tax of the municipalities.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet CZ, D29A C01, D59A C01" }, { "sourceId": "eurostat-taxag", "locator": "S.1313, D29A and D59A" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "cz-municipal-cit",
+      "parentId": "samosprava",
+      "levelId": "samosprava",
+      "category": "tax",
+      "family": "income-corporate",
+      "status": "current",
+      "names": {
+        "official": "Corporate income tax for municipalities and for regions",
+        "native": "Daň z příjmů právnických osob za obce a za kraje",
+        "common": "Corporate tax for municipalities and regions"
+      },
+      "taxes": {
+        "base": "As named in the National Tax List: corporate income tax assigned to municipalities (CZK 10.7 billion) and regions (CZK 1.0 billion); the list gives no more detail.",
+        "payer": "Companies, including the municipalities and regions themselves as taxpayers."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Set by law",
+        "details": ["Eurostat books CZK 11.7 billion of corporate income tax under local government (S.1313)."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "The only income tax that Eurostat places with local government; the shared personal income tax is booked centrally.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet CZ, D51B C02 and C03" }, { "sourceId": "eurostat-taxag", "locator": "S.1313, D51B" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "cz-local-fees",
+      "parentId": "samosprava",
+      "levelId": "samosprava",
+      "category": "fee",
+      "family": "other",
+      "status": "current",
+      "names": {
+        "official": "Local fees: spa and recreation stay, advertising, admission, vehicle registration, dogs, entry permits and building land appreciation",
+        "native": "Místní poplatky",
+        "common": "Local fees"
+      },
+      "taxes": {
+        "base": "Spa or recreational stays (CZK 1.7 billion), advertising (CZK 0.2 billion), admission fees (CZK 0.09 billion), vehicle registration (CZK 0.4 billion), dogs (CZK 0.3 billion), permits to enter selected places (CZK 0.02 billion) and the fee for the appreciation of building land (CZK 0.02 billion).",
+        "payer": "Residents, visitors and businesses."
+      },
+      "rate": { "kind": "varies", "headline": "Set by each municipality", "details": [], "asOf": "2026-10-12" },
+      "explanation": "Eight small lines placed with local government.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet CZ, D214H C01 and C06, D214E, D214D C01, D59F C01 and C02, D29A C04, D91B" }],
+      "checkedOn": "2026-10-12"
+    }
+  ]
+}

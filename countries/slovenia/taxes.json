@@ -1,0 +1,554 @@
+{
+  "instruments": [
+    {
+      "id": "si-personal-income-tax",
+      "parentId": "drzava",
+      "levelId": "drzava",
+      "category": "tax",
+      "family": "income-personal",
+      "status": "current",
+      "names": {
+        "official": "Personal income tax (dohodnina): wages, pensions, contract work, awards, activities, net of the annual final assessment",
+        "native": "Dohodnina",
+        "common": "Personal income tax"
+      },
+      "taxes": {
+        "base": "Wages and salaries (EUR 3,150 million), business and other activities (650 million), pensions, contract work and awards, less the annual final assessment refunds (EUR 383 million).",
+        "payer": "Individuals; employers and payers withhold it."
+      },
+      "rate": {
+        "kind": "progressive",
+        "headline": "16% · 26% · 33% · 39% · 50%",
+        "details": [
+          "Five brackets: 16% up to EUR 9,721; 26% to EUR 28,592; 33% to EUR 57,185; 39% to EUR 82,346; 50% above. Capital gains, interest, dividends and rents are taxed at a flat 25% (PwC).",
+          "As summarised by PwC (review of 15 July 2026), not checked against the Financial Administration (FURS)."
+        ],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "The largest direct tax. Municipalities receive a share of it from the central budget, which Eurostat’s accounts count as a transfer; the whole tax is booked as a State tax.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "pwc-si-individual", "locator": "Tax rates" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "si-corporate-income-tax",
+      "parentId": "drzava",
+      "levelId": "drzava",
+      "category": "tax",
+      "family": "income-corporate",
+      "status": "current",
+      "names": {
+        "official": "Corporate income tax and tax on financial-instrument income received for a beneficial holder",
+        "native": "Davek od dohodkov pravnih oseb",
+        "common": "Corporate income tax"
+      },
+      "taxes": {
+        "base": "Profit of companies; the list adds the tax on income from financial instruments that an intermediary receives for the beneficial holder.",
+        "payer": "Companies."
+      },
+      "rate": {
+        "kind": "flat",
+        "headline": "22% for 2024 to 2028",
+        "details": [
+          "The corporate income tax rate rose to 22% from 19% for the years 2024 to 2028; investment and pension funds may be taxed at 0% (PwC).",
+          "As summarised by PwC (review of 15 July 2026), not checked against the Financial Administration (FURS)."
+        ],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "Revenue rose by 20% in 2024, the year of the rate increase.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "pwc-si-corporate", "locator": "Corporate income tax rates" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "si-other-income-taxes",
+      "parentId": "drzava",
+      "levelId": "drzava",
+      "category": "tax",
+      "family": "income-personal",
+      "status": "current",
+      "names": {
+        "official": "Taxes on winnings from gambling, on royalties and on profits from changes in land use",
+        "native": "Davki na dobitke pri igrah na srečo; avtorske pravice; dobiček od spremembe namembnosti zemljišč",
+        "common": "Other income taxes"
+      },
+      "taxes": {
+        "base": "Winnings (EUR 14.1 million), copyrights, patents and trademarks (EUR 3.2 million), and profits on rezoned land (zero in 2024).",
+        "payer": "Winners, rights holders and landowners."
+      },
+      "rate": { "kind": "varies", "headline": "Set by law", "details": [], "asOf": "2026-10-12" },
+      "explanation": "Three small income-tax lines.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet SI, D51D C01, D51E C02 and C04" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "si-contract-work-tax",
+      "parentId": "drzava",
+      "levelId": "drzava",
+      "category": "tax",
+      "family": "payroll",
+      "status": "current",
+      "names": {
+        "official": "Special tax on certain receipts (on contract work)",
+        "native": "Posebni davek na določene prejemke (na pogodbeno delo)",
+        "common": "Tax on contract work"
+      },
+      "taxes": { "base": "As named in the National Tax List: contract work; no further detail.", "payer": "Payers of contract work." },
+      "rate": { "kind": "varies", "headline": "Set by law", "details": [], "asOf": "2026-10-12" },
+      "explanation": "A payroll-type tax of EUR 32 million.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet SI, D29C C02" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "si-social-employers",
+      "parentId": "drzava",
+      "levelId": "drzava",
+      "category": "social-contribution",
+      "family": "social-security",
+      "status": "current",
+      "names": {
+        "official": "Employers’ social contributions: pension and disability, health, maternity and employment",
+        "native": "Prispevki delodajalcev",
+        "common": "Employers’ contributions"
+      },
+      "taxes": { "base": "Gross pay.", "payer": "Employers." },
+      "rate": {
+        "kind": "flat",
+        "headline": "16.10% of gross pay",
+        "details": [
+          "Pension and disability 8.85%, health 6.56%, unemployment 0.06%, injury at work 0.53%, parental 0.10% (PwC).",
+          "As summarised by PwC (review of 15 July 2026), not checked against the Financial Administration (FURS)."
+        ],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "Pension and disability insurance (EUR 2,162 million) and health insurance (EUR 1,731 million) make nearly all of it.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "pwc-si-other", "locator": "Social security contributions" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "si-social-employees",
+      "parentId": "drzava",
+      "levelId": "drzava",
+      "category": "social-contribution",
+      "family": "social-security",
+      "status": "current",
+      "names": { "official": "Compulsory social contributions of employees", "native": "Obvezni prispevki zaposlenih", "common": "Employees’ contributions" },
+      "taxes": { "base": "Gross pay.", "payer": "Employees; the employer withholds." },
+      "rate": {
+        "kind": "flat",
+        "headline": "22.10% of gross pay",
+        "details": [
+          "Pension and disability 15.50%, health 6.36%, unemployment 0.14%, parental 0.10% (PwC).",
+          "As summarised by PwC (review of 15 July 2026), not checked against the Financial Administration (FURS)."
+        ],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "The largest social contribution line: EUR 5.7 billion in 2024 against EUR 5.0 billion in 2023.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "pwc-si-other", "locator": "Social security contributions" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "si-social-self-employed",
+      "parentId": "drzava",
+      "levelId": "drzava",
+      "category": "social-contribution",
+      "family": "social-security",
+      "status": "current",
+      "names": {
+        "official": "Compulsory social contributions of the self-employed",
+        "native": "Obvezni prispevki samozaposlenih",
+        "common": "Self-employed contributions"
+      },
+      "taxes": { "base": "Income of the self-employed.", "payer": "Self-employed people." },
+      "rate": { "kind": "varies", "headline": "Set by the social insurance laws", "details": [], "asOf": "2026-10-12" },
+      "explanation": "EUR 1,710 million in 2024 against EUR 1,317 million in 2023.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet SI, D613CS" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "si-vat",
+      "parentId": "drzava",
+      "levelId": "drzava",
+      "category": "tax",
+      "family": "general-consumption",
+      "status": "current",
+      "names": {
+        "official": "Value added tax (time-adjusted, less the negative compensation to farmers in the flat-rate scheme)",
+        "native": "Davek na dodano vrednost",
+        "common": "VAT",
+        "abbreviation": "DDV"
+      },
+      "taxes": { "base": "Goods and services supplied in Slovenia and imports.", "payer": "Consumers; businesses charge it and claim input credits." },
+      "rate": {
+        "kind": "range",
+        "headline": "22% standard; 9.5% reduced",
+        "details": [
+          "Standard 22%; 9.5% on foodstuffs, water, medicines, passenger transport, books, hotel accommodation and other goods (PwC).",
+          "As summarised by PwC (review of 15 July 2026), not checked against the Financial Administration (FURS)."
+        ],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "The largest tax line.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "pwc-si-other", "locator": "Value-added tax" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "si-customs",
+      "parentId": "drzava",
+      "levelId": "drzava",
+      "category": "customs-duty",
+      "family": "trade",
+      "status": "current",
+      "names": { "official": "Customs duties revenue", "native": "Prihodki carin", "common": "Customs duties" },
+      "taxes": { "base": "Goods imported from outside the EU, by the Common Customs Tariff.", "payer": "Importers." },
+      "rate": {
+        "kind": "varies",
+        "headline": "EU Common Customs Tariff",
+        "details": ["An EU own resource; Eurostat records it under the EU institutions."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "Collected for the EU budget.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "eurostat-taxag", "locator": "S.212, D212" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "si-excise-fuel",
+      "parentId": "drzava",
+      "levelId": "drzava",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "Excise duties on mineral oils and gas, and on electricity and coal",
+        "native": "Trošarine na mineralna olja in plin; električna energija in premog",
+        "common": "Fuel and energy excises"
+      },
+      "taxes": {
+        "base": "Petrol, diesel, heating oil and gas by quantity; electricity and coal. The import-excise line and its offsetting deduction (EUR 2.8 million) net to zero.",
+        "payer": "Fuel suppliers and importers; passed on at the pump."
+      },
+      "rate": {
+        "kind": "specific",
+        "headline": "Per unit of quantity, fixed by the Excise Duties Act",
+        "details": ["EUR 1,107 million on mineral oils and gas and EUR 15 million on electricity and coal in 2024."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "The biggest excise.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet SI, D214A C02, C06, C08, D2122C C01" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "si-excise-tobacco",
+      "parentId": "drzava",
+      "levelId": "drzava",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Excise duty on tobacco products", "native": "Trošarine na tobačne izdelke", "common": "Tobacco excise" },
+      "taxes": { "base": "Cigarettes and other tobacco products.", "payer": "Producers and importers; passed on in the price." },
+      "rate": { "kind": "mechanism", "headline": "Fixed by the Excise Duties Act", "details": [], "asOf": "2026-10-12" },
+      "explanation": "EUR 485 million in 2024.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet SI, D214A C03" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "si-excise-alcohol",
+      "parentId": "drzava",
+      "levelId": "drzava",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Excise duty on alcohol and alcoholic drinks", "native": "Trošarine na alkohol in alkoholne pijače", "common": "Alcohol excise" },
+      "taxes": { "base": "Spirits, wine, beer and other alcoholic drinks.", "payer": "Producers and importers; passed on in the price." },
+      "rate": { "kind": "specific", "headline": "Per litre of product or pure alcohol", "details": [], "asOf": "2026-10-12" },
+      "explanation": "EUR 124 million in 2024.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet SI, D214A C01" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "si-gambling",
+      "parentId": "drzava",
+      "levelId": "drzava",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "Taxes on special and classical games of chance, lottery tickets, and concession duties on special gambling",
+        "native": "Davki od iger na srečo; koncesijske dajatve",
+        "common": "Gambling taxes and duties"
+      },
+      "taxes": {
+        "base": "Casinos and other special games (EUR 50.2 million), classical games (4.2), lottery tickets (25.4), and the concession duties from special gambling (43.9).",
+        "payer": "Gambling operators."
+      },
+      "rate": { "kind": "varies", "headline": "Set by the Gaming Act and the tax laws", "details": [], "asOf": "2026-10-12" },
+      "explanation": "Four lines of the list that tax gambling.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet SI, D214F C01, C02, C04, D29E C02" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "si-insurance-tax",
+      "parentId": "drzava",
+      "levelId": "drzava",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Tax on insurance services turnover", "native": "Davek od prometa zavarovalnih storitev", "common": "Insurance premium tax" },
+      "taxes": { "base": "Insurance premiums.", "payer": "Insurers and policyholders." },
+      "rate": { "kind": "varies", "headline": "Set by the Act", "details": [], "asOf": "2026-10-12" },
+      "explanation": "EUR 152 million in 2024.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet SI, D214G C01" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "si-financial-sector-taxes",
+      "parentId": "drzava",
+      "levelId": "drzava",
+      "category": "special-levy",
+      "family": "other",
+      "status": "current",
+      "names": {
+        "official": "Tax on the balance sheet total of banks, tax on financial services and the Deposit Guarantee Fund contributions",
+        "native": "Davek na bilančno vsoto bank; davek na finančne storitve; sklad za jamstvo vlog",
+        "common": "Bank and financial-sector taxes"
+      },
+      "taxes": {
+        "base": "Banks’ balance sheet totals (EUR 106 million, a line that did not exist in 2023), financial services (EUR 80 million) and contributions to the deposit guarantee fund (EUR 38 million).",
+        "payer": "Banks and financial institutions."
+      },
+      "rate": { "kind": "varies", "headline": "Set by law", "details": [], "asOf": "2026-10-12" },
+      "explanation": "Three levies on the financial sector.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet SI, D91C, D214H C02, D29H C02" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "si-property-transfer-tax",
+      "parentId": "drzava",
+      "levelId": "drzava",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": {
+        "official": "Tax on the sale of immovable property (legal entities and individuals)",
+        "native": "Davek na promet nepremičnin",
+        "common": "Property transfer tax"
+      },
+      "taxes": { "base": "Sales of immovable property.", "payer": "Buyers or sellers, by the Act." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Set by the Act",
+        "details": ["EUR 45.4 million from individuals and EUR 6.5 million from legal entities in 2024."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "The State’s tax on property transactions.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet SI, D214C" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "si-vehicle-taxes",
+      "parentId": "drzava",
+      "levelId": "drzava",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "Tax on motor vehicles, registration fees for motor vehicles, boats and aircraft, and taxes on boats",
+        "native": "Davek od motornih vozil; pristojbine za registracijo; davek od plovil",
+        "common": "Vehicle taxes"
+      },
+      "taxes": {
+        "base": "New and used motor vehicles (EUR 20.5 million), registration of motor vehicles, boats and aircraft (EUR 136.9 million by individuals and 35.1 million by legal entities), and boats (EUR 0.8 million).",
+        "payer": "Vehicle owners and buyers."
+      },
+      "rate": { "kind": "varies", "headline": "By vehicle", "details": [], "asOf": "2026-10-12" },
+      "explanation": "Most of it is the registration fee paid by individuals.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet SI, D214D, D29B C01, D59D C01, D59A C03 and C05" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "si-environmental-charges",
+      "parentId": "drzava",
+      "levelId": "drzava",
+      "category": "tax",
+      "family": "resource",
+      "status": "current",
+      "names": {
+        "official": "Air pollution taxes, water charges, waste and water-pollution taxes, and the indemnity for the area around the nuclear power plant",
+        "native": "Takse za obremenjevanje zraka; vodna povračila; okoljska dajatev za odpadne vode",
+        "common": "Environmental taxes and charges"
+      },
+      "taxes": {
+        "base": "Air pollution (EUR 147 million; EUR 15.7 million from gas and hard fuels), use of water (EUR 31.7 million), special water tax (EUR 21.5 million), nuclear power plant area (EUR 14.5 million), waste (EUR 1.95 million).",
+        "payer": "Polluters and water users."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Set by the environmental protection laws",
+        "details": ["The sale of emission permits (EUR 163.8 million) is not counted."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "Air pollution taxes doubled from EUR 77 million in 2023 to EUR 147 million in 2024.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet SI, D214L C01, D29F, D59D C03" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "si-energy-contributions",
+      "parentId": "drzava",
+      "levelId": "drzava",
+      "category": "special-levy",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "Contribution for renewable and CHP electricity support and the energy efficiency contribution",
+        "native": "Prispevek za podpore OVE in SPTE; prispevek za energetsko učinkovitost",
+        "common": "Electricity-sector contributions"
+      },
+      "taxes": {
+        "base": "Electricity consumption; the list names them support for electricity from renewable sources and combined heat and power (EUR 106 million) and the energy efficiency contribution (EUR 38 million).",
+        "payer": "Electricity consumers."
+      },
+      "rate": { "kind": "varies", "headline": "Set by regulation", "details": [], "asOf": "2026-10-12" },
+      "explanation": "Compulsory charges that the statisticians book as taxes on products.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet SI, D214L C04 and C05" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "si-concessions",
+      "parentId": "drzava",
+      "levelId": "drzava",
+      "category": "fee",
+      "family": "other",
+      "status": "current",
+      "names": {
+        "official": "Concession revenue and the charge for temporary or part-time work of pensioners",
+        "native": "Koncesijski prihodki; dajatev za začasno ali občasno delo upokojencev",
+        "common": "Concessions and pensioners’ work charge"
+      },
+      "taxes": {
+        "base": "Concessions (EUR 138 million) and the charge on temporary or part-time work of pensioners (EUR 11 million).",
+        "payer": "Concession holders and the payers of pensioners’ work."
+      },
+      "rate": { "kind": "varies", "headline": "Set by law", "details": [], "asOf": "2026-10-12" },
+      "explanation": "Two lines that the list books as other taxes on production.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet SI, D29E C01 and C03" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "si-rtv-fee",
+      "parentId": "drzava",
+      "levelId": "drzava",
+      "category": "fee",
+      "family": "other",
+      "status": "current",
+      "names": { "official": "Radio and television licence fee", "native": "RTV naročnina", "common": "Radio and TV licence fee" },
+      "taxes": {
+        "base": "As named in the National Tax List: the radio and television licence fee; the list gives no more detail.",
+        "payer": "Households and others subject to the fee."
+      },
+      "rate": { "kind": "varies", "headline": "Set by law", "details": [], "asOf": "2026-10-12" },
+      "explanation": "The fee for the public broadcaster, EUR 99 million.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet SI, D59D C02" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "si-property-and-estate",
+      "parentId": "drzava",
+      "levelId": "drzava",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": {
+        "official": "Inheritance and gift tax, payments for change of use of land, property tax on buildings and weekend cottages, tax on real estate of higher value, easements",
+        "native": "Davek na dediščine in darila; davek od premoženja stavb; davek od vikendov",
+        "common": "Inheritance tax and other property taxes"
+      },
+      "taxes": {
+        "base": "Inheritance and gifts (EUR 14.0 million), the change of use of agricultural and forest land (EUR 4.3 million), buildings (EUR 8.9 million), weekend cottages (EUR 1.3 million), easements and building rights (EUR 1.0 million); the tax on real estate of higher value is zero.",
+        "payer": "Heirs and owners."
+      },
+      "rate": { "kind": "varies", "headline": "Set by law", "details": [], "asOf": "2026-10-12" },
+      "explanation": "Six small lines.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet SI, D91A, D91B, D59A" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "si-other-state",
+      "parentId": "drzava",
+      "levelId": "drzava",
+      "category": "fee",
+      "family": "other",
+      "status": "current",
+      "names": {
+        "official": "Toll markup, Koper port transhipment fee, oil emergency reserves compensation, promotional tax, fire protection tax and the VAT flat-rate compensation",
+        "native": "Pribitek k cestnini; taksa na pretovor v Kopru; promocijska taksa; požarna taksa",
+        "common": "Other State taxes and fees"
+      },
+      "taxes": {
+        "base": "The smaller lines of the list: toll markup (EUR 13.2 million), transhipment fee in the port of Koper (7.4), promotional tax (6.7), fire protection tax (23.7), the compensation for the public service of keeping emergency oil reserves, and the negative VAT compensation added back (7.3).",
+        "payer": "Various."
+      },
+      "rate": { "kind": "varies", "headline": "Set by law", "details": [], "asOf": "2026-10-12" },
+      "explanation": "Six small lines.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet SI, D214L C02 and C03, D214H C03 and C04, D59F C01, D29G C01" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "si-building-land-compensation",
+      "parentId": "obcine",
+      "levelId": "obcine",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": {
+        "official": "Compensation for the use of building land (legal entities and individuals)",
+        "native": "Nadomestilo za uporabo stavbnega zemljišča",
+        "common": "Building land compensation"
+      },
+      "taxes": {
+        "base": "Building land and buildings; the list shows EUR 201.6 million paid by legal entities and EUR 89.3 million by individuals.",
+        "payer": "Owners and users of building land."
+      },
+      "rate": { "kind": "range", "headline": "Set by each municipality", "details": ["The list does not give rates."], "asOf": "2026-10-12" },
+      "explanation": "The municipalities’ main own revenue in the list and the closest thing to a property tax; the real property tax on buildings is a small State line.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet SI, D29A C01 and C02" }, { "sourceId": "eurostat-taxag", "locator": "S.1313, D29A" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "si-tourist-tax",
+      "parentId": "obcine",
+      "levelId": "obcine",
+      "category": "fee",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Tourist tax (sojourn tax)", "native": "Turistična taksa", "common": "Tourist tax" },
+      "taxes": { "base": "Overnight stays of guests.", "payer": "Guests; the accommodation provider collects it." },
+      "rate": { "kind": "varies", "headline": "Set by law", "details": [], "asOf": "2026-10-12" },
+      "explanation": "EUR 28.4 million in 2024, up from EUR 25.5 million in 2023.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet SI, D214H C01" }],
+      "checkedOn": "2026-10-12"
+    }
+  ]
+}

@@ -1,0 +1,220 @@
+{
+  "instruments": [
+    {
+      "id": "tr-income-tax",
+      "parentId": "devlet",
+      "levelId": "devlet",
+      "category": "tax",
+      "family": "income-personal",
+      "status": "current",
+      "names": { "official": "Income tax", "native": "Gelir Vergisi", "common": "Income tax" },
+      "taxes": {
+        "base": "Wages, salaries, business and professional income, rents and other income of individuals; employers and payers withhold most of it.",
+        "payer": "Individuals; employers withhold it from pay."
+      },
+      "rate": {
+        "kind": "progressive",
+        "headline": "15% to 40% (scale for 2026)",
+        "details": [
+          "Scale for non-employment income in 2026: 15% up to TRY 190,000; 20% to 400,000; 27% to 1,500,000; 35% to 5,300,000; 40% above. There are no local taxes on personal income in Türkiye (PwC).",
+          "The scale for 2025, the year of the revenue, was different.",
+          "As summarised by PwC (review of 9 September 2026), not checked against the Revenue Administration."
+        ],
+        "asOf": "2026-09-09"
+      },
+      "explanation": "The largest tax in the central budget: 25% of its tax revenue in 2025, and up 84% on 2024 in the report.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "pwc-tr-individual", "locator": "Personal income tax rates" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "tr-corporate-tax",
+      "parentId": "devlet",
+      "levelId": "devlet",
+      "category": "tax",
+      "family": "income-corporate",
+      "status": "current",
+      "names": { "official": "Corporate tax", "native": "Kurumlar Vergisi", "common": "Corporate tax" },
+      "taxes": { "base": "The profit of corporations.", "payer": "Corporations." },
+      "rate": {
+        "kind": "flat",
+        "headline": "25% (30% in the financial sector)",
+        "details": [
+          "Article 32 of the Corporate Tax Law sets 25% for corporations other than those in the financial sector, and 30% for financial sector companies; a domestic minimum tax of 10% applies from 1 January 2025 (PwC).",
+          "As summarised by PwC (review of 9 September 2026), not checked against the Revenue Administration."
+        ],
+        "asOf": "2026-09-09"
+      },
+      "explanation": "TRY 1.2 trillion in 2025.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "pwc-tr-corporate", "locator": "Corporate income tax rates" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "tr-vat-domestic",
+      "parentId": "devlet",
+      "levelId": "devlet",
+      "category": "tax",
+      "family": "general-consumption",
+      "status": "current",
+      "names": {
+        "official": "Value added tax on domestic transactions",
+        "native": "Dahilde Alınan Katma Değer Vergisi",
+        "common": "VAT: domestic",
+        "abbreviation": "KDV"
+      },
+      "taxes": { "base": "Deliveries of goods and services in Türkiye.", "payer": "Consumers; businesses charge it and offset input VAT." },
+      "rate": {
+        "kind": "range",
+        "headline": "20% general; reduced rates from 1% to 10%",
+        "details": [
+          "VAT rates vary from 1% to 20% and the general rate is 20% (PwC).",
+          "As summarised by PwC (review of 9 September 2026), not checked against the Revenue Administration."
+        ],
+        "asOf": "2026-09-09"
+      },
+      "explanation": "The report separates VAT on domestic transactions from VAT on imports.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "pwc-tr-other", "locator": "Value-added tax" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "tr-vat-imports",
+      "parentId": "devlet",
+      "levelId": "devlet",
+      "category": "tax",
+      "family": "general-consumption",
+      "status": "current",
+      "names": { "official": "Value added tax on imports", "native": "İthalde Alınan Katma Değer Vergisi", "common": "VAT: imports", "abbreviation": "KDV" },
+      "taxes": { "base": "The customs value of imports plus duties and taxes.", "payer": "Importers." },
+      "rate": {
+        "kind": "range",
+        "headline": "The same rates as the domestic VAT",
+        "details": [
+          "Collected at the border; offset as input VAT by registered importers (PwC).",
+          "As summarised by PwC (review of 9 September 2026), not checked against the Revenue Administration."
+        ],
+        "asOf": "2026-09-09"
+      },
+      "explanation": "TRY 1.7 trillion in 2025: larger than the VAT on domestic transactions (TRY 1.6 trillion).",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "pwc-tr-other", "locator": "Value-added tax" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "tr-special-consumption-tax",
+      "parentId": "devlet",
+      "levelId": "devlet",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Special consumption tax", "native": "Özel Tüketim Vergisi (ÖTV)", "common": "Special consumption tax", "abbreviation": "ÖTV" },
+      "taxes": {
+        "base": "Four product groups: petroleum products, natural gas and lubricants; automobiles and other vehicles; tobacco and alcoholic beverages; luxury products.",
+        "payer": "Producers and importers; charged once, passed on in the price."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "By product group",
+        "details": [
+          "There are four main product groups subject to the special consumption tax at different rates, depending on the tariff number; unlike VAT it is charged only once (PwC).",
+          "As summarised by PwC (review of 9 September 2026), not checked against the Revenue Administration."
+        ],
+        "asOf": "2026-09-09"
+      },
+      "explanation": "TRY 2.0 trillion: the second-largest line. It covers fuels, vehicles, tobacco, alcohol and luxury goods.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "pwc-tr-other", "locator": "Special consumption tax" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "tr-banking-insurance-tax",
+      "parentId": "devlet",
+      "levelId": "devlet",
+      "category": "tax",
+      "family": "general-consumption",
+      "status": "current",
+      "names": {
+        "official": "Banking and insurance transactions tax",
+        "native": "Banka ve Sigorta Muameleleri Vergisi (BSMV)",
+        "common": "Banking and insurance transactions tax",
+        "abbreviation": "BSMV"
+      },
+      "taxes": {
+        "base": "The receipts of banks, insurers and similar institutions from their transactions, as the name of the tax says.",
+        "payer": "Banks and insurers."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Set by the Banking and Insurance Transactions Tax Law",
+        "details": ["The rate is not extracted here."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "TRY 552 billion in 2025.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "mtf-budget-2025-12", "locator": "table Vergi Gelirleri" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "tr-stamp-duty",
+      "parentId": "devlet",
+      "levelId": "devlet",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "Stamp duty", "native": "Damga Vergisi", "common": "Stamp duty" },
+      "taxes": {
+        "base": "Documents such as contracts, wage payrolls and financial papers, as listed in the Stamp Tax Law.",
+        "payer": "Parties to the documents."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "A percentage of the amount stated in the document",
+        "details": ["The rate is not extracted here."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "TRY 226 billion in 2025.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "mtf-budget-2025-12", "locator": "table Vergi Gelirleri" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "tr-fees",
+      "parentId": "devlet",
+      "levelId": "devlet",
+      "category": "fee",
+      "family": "other",
+      "status": "current",
+      "names": { "official": "Fees", "native": "Harçlar", "common": "Fees" },
+      "taxes": { "base": "Fees for official services, as the budget classifies them among tax revenues.", "payer": "Users of the services." },
+      "rate": { "kind": "varies", "headline": "Set by the Fees Law", "details": ["The report does not itemise them."], "asOf": "2026-10-12" },
+      "explanation": "TRY 337 billion in 2025, up 62% in the report.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "mtf-budget-2025-12", "locator": "table Vergi Gelirleri" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "tr-other-taxes",
+      "parentId": "devlet",
+      "levelId": "devlet",
+      "category": "tax",
+      "family": "other",
+      "status": "current",
+      "names": { "official": "Other taxes", "native": "Diğer vergiler", "common": "Other taxes" },
+      "taxes": {
+        "base": "The remaining tax revenues of the central budget; the monthly report gives them as one line and does not itemise them.",
+        "payer": "Various."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Various",
+        "details": ["The detailed budget statistics of the Accounting Directorate name the individual taxes; they were not retrieved for this folio."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "TRY 593 billion: 5% of the tax revenue.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "mtf-budget-2025-12", "locator": "table Vergi Gelirleri" }],
+      "checkedOn": "2026-10-12"
+    }
+  ]
+}

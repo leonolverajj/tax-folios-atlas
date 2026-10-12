@@ -1,0 +1,93 @@
+{
+  "id": "malta",
+  "iso3": "MLT",
+  "isoNumeric": "470",
+  "names": { "en": "Malta", "native": "Malta", "nativeLang": "mt" },
+  "currency": { "code": "EUR", "symbol": "€", "name": "Euro" },
+  "summary": "Malta is a small unitary state in which every tax is national: the Commissioner for Revenue collects the income taxes and the VAT, the Customs Department the excises, and the Department of Social Security the contributions. The local councils levy no taxes of their own. The income taxes of individuals and companies, VAT and the social security contributions make most of the total; unusual lines are the fees of the Individual Investor Programme and the duty on documents.",
+  "structureNote": "The figures are the Commission’s National Tax List for 2024. Eurostat’s accounts record every tax under central government, so the folio has one level. The sale of emission trading permits (EUR 44.6 million) and the Treasury Department’s service pension (EUR 106.7 million, an imputed contribution) are left out. Malta is not an OECD member, so this folio has no harmonised OECD layer.",
+  "theme": {
+    "accent": "#cf142b",
+    "accent2": "#f4f1de",
+    "motif": "topo",
+    "motifNote": "Topographic contour lines over the outline of Malta (the generic motif; no bespoke art yet).",
+    "mapLabel": { "lon": 14.4, "lat": 35.9 }
+  },
+  "levels": [
+    {
+      "id": "gvern",
+      "branch": "national",
+      "names": { "official": "The Government of Malta", "native": "Gvern ta’ Malta", "common": "Government" },
+      "description": "Parliament legislates all taxes; the Commissioner for Revenue, the Customs Department and the Department of Social Security collect them. The local councils have no tax power of their own.",
+      "fiscalPower": "All taxes are set by Act of Parliament.",
+      "legalRefs": [{ "sourceId": "ntl-2026" }, { "sourceId": "eurostat-taxag", "locator": "S.1311" }],
+      "checkedOn": "2026-10-12"
+    }
+  ],
+  "supportingSourceIds": [],
+  "denominators": [
+    {
+      "id": "gvern-taxes-2024",
+      "label": "Taxes (National Tax List), 2024",
+      "definition": "The taxes on production and imports, on income and wealth, and on capital that the National Tax List books to the Government and the EU, other than the sale of emission trading permits.",
+      "levelIds": ["gvern"],
+      "amount": 5552.71,
+      "scale": "million",
+      "currency": "EUR",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "ntl-2026",
+      "locator": "Sheet MT, 2024, the lines listed with each tax",
+      "calculation": "Sum of the 17 tax rows below (EUR million)",
+      "caveat": "Calendar 2024; the list's cut-off was 30 October 2025. Vintage check against Eurostat's July 2026 accounts: D2: NTL 2,139.88, Eurostat July 2026 2,139.8; D5: NTL 3,419.99, Eurostat July 2026 3,420; D61: NTL 1,172.55, Eurostat July 2026 1,172.5.",
+      "accessed": "2026-10-12"
+    },
+    {
+      "id": "gvern-social-employers-2024",
+      "label": "Social contributions paid by employers, 2024",
+      "definition": "The actual contributions of private-sector employers and of the Government as employer, with penalties; imputed contributions are left out.",
+      "levelIds": ["gvern"],
+      "amount": 499.95,
+      "scale": "million",
+      "currency": "EUR",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "ntl-2026",
+      "locator": "Sheet MT, 2024, lines D611 C01 to C03",
+      "caveat": "Calendar 2024, same list and cut-off as the taxes.",
+      "accessed": "2026-10-12"
+    },
+    {
+      "id": "gvern-social-employees-2024",
+      "label": "Social contributions paid by employees, 2024",
+      "definition": "The employees’ contributions.",
+      "levelIds": ["gvern"],
+      "amount": 494.87,
+      "scale": "million",
+      "currency": "EUR",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "ntl-2026",
+      "locator": "Sheet MT, 2024, line D613CE C01",
+      "caveat": "Calendar 2024, same list and cut-off as the taxes.",
+      "accessed": "2026-10-12"
+    },
+    {
+      "id": "gvern-social-self-employed-2024",
+      "label": "Social contributions of the self-employed, 2024",
+      "definition": "The contributions of the self-employed and penalties on them.",
+      "levelIds": ["gvern"],
+      "amount": 71,
+      "scale": "million",
+      "currency": "EUR",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "ntl-2026",
+      "locator": "Sheet MT, 2024, lines D613CS C01 and C02",
+      "caveat": "Calendar 2024, same list and cut-off as the taxes.",
+      "accessed": "2026-10-12"
+    }
+  ],
+  "sizing": {
+    "label": "Taxes and compulsory social contributions of the Government",
+    "definition": "The taxes of the Government plus the actual social contributions, calendar 2024, as listed in the National Tax List. Excludes the sale of emission trading permits and imputed contributions.",
+    "componentIds": ["gvern-taxes-2024", "gvern-social-employers-2024", "gvern-social-employees-2024", "gvern-social-self-employed-2024"]
+  },
+  "researchStatus": "researched"
+}

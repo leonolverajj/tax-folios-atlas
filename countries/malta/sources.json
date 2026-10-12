@@ -1,0 +1,66 @@
+{
+  "sources": [
+    {
+      "id": "ntl-2026",
+      "org": "European Commission, DG Taxation and Customs Union, with Eurostat",
+      "title": "Data on Taxation Trends: National Tax Lists (NTL), edition 2026",
+      "url": "https://taxation-customs.ec.europa.eu/taxation/economic-analysis/data-taxation-trends_en",
+      "kind": "statistics",
+      "language": "en",
+      "publishedDate": "2026-03-31",
+      "periodCovered": "Calendar year 2024 (series from 1995)",
+      "accessed": "2026-10-12",
+      "nextExpected": "2027-03",
+      "note": "Workbook \"NTL edition 2026 web.xlsx\", sheet MT: every tax and social contribution by its national name and ESA code, in EUR million. Data cut-off 30 October 2025."
+    },
+    {
+      "id": "eurostat-taxag",
+      "org": "Eurostat",
+      "title": "Main national accounts tax aggregates (gov_10a_taxag)",
+      "url": "https://ec.europa.eu/eurostat/databrowser/view/gov_10a_taxag/default/table",
+      "kind": "statistics",
+      "language": "en",
+      "publishedDate": "2026-07-21",
+      "periodCovered": "Calendar year 2024",
+      "accessed": "2026-10-12",
+      "nextExpected": "2027-07",
+      "note": "Taxes and social contributions by sub-sector and ESA item; for Malta everything is under central government (S.1311) or the EU institutions (S.212)."
+    },
+    {
+      "id": "pwc-mt-corporate",
+      "org": "PwC",
+      "title": "Worldwide Tax Summaries: Malta – Corporate – Taxes on corporate income",
+      "url": "https://taxsummaries.pwc.com/malta/corporate/taxes-on-corporate-income",
+      "kind": "guidance",
+      "language": "en",
+      "publishedDate": "2026-09-30",
+      "periodCovered": "Rates as of the review",
+      "accessed": "2026-10-12",
+      "note": "A professional firm’s summary, not an official source: company income tax a flat 35%; an optional 15% rate under the FITWI Regulations of 2 September 2025."
+    },
+    {
+      "id": "pwc-mt-individual",
+      "org": "PwC",
+      "title": "Worldwide Tax Summaries: Malta – Individual – Taxes on personal income",
+      "url": "https://taxsummaries.pwc.com/malta/individual/taxes-on-personal-income",
+      "kind": "guidance",
+      "language": "en",
+      "publishedDate": "2026-09-30",
+      "periodCovered": "Rates as of the review",
+      "accessed": "2026-10-12",
+      "note": "A professional firm’s summary: graduated progressive rates from 0% to 35%."
+    },
+    {
+      "id": "pwc-mt-other",
+      "org": "PwC",
+      "title": "Worldwide Tax Summaries: Malta – Corporate – Other taxes",
+      "url": "https://taxsummaries.pwc.com/malta/corporate/other-taxes",
+      "kind": "guidance",
+      "language": "en",
+      "publishedDate": "2026-09-30",
+      "periodCovered": "Rates as of the review",
+      "accessed": "2026-10-12",
+      "note": "A professional firm’s summary: VAT 18%, 7% and 5%; social security contributions 10% from the employee and 10% from the employer on the basic weekly wage, 15% for the self-employed."
+    }
+  ]
+}

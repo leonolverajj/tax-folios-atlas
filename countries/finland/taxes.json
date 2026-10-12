@@ -1,0 +1,388 @@
+{
+  "instruments": [
+    {
+      "id": "fi-state-income-tax",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "income-personal",
+      "status": "current",
+      "names": {
+        "official": "State income tax on earned and capital income (with the broadcasting tax)",
+        "native": "Valtion ansio- ja pääomatulovero",
+        "common": "State income tax"
+      },
+      "taxes": {
+        "base": "Earned income (wages, pensions, benefits, business income) and capital income (interest, dividends, rents, capital gains) of individuals.",
+        "payer": "Individuals; employers and payers withhold it from wages and pensions."
+      },
+      "rate": {
+        "kind": "progressive",
+        "headline": "Progressive on earned income; flat on capital income",
+        "details": [
+          "Earned income is taxed on a progressive scale with several brackets; the State levy comes on top of the municipal tax.",
+          "Capital income has its own rates, with a higher rate above a threshold.",
+          "The line also includes the public broadcasting tax (2.5% of income above EUR 15,150, at most EUR 160), which the source does not itemise."
+        ],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "The Tax Administration reports that withholding on wages, pensions and taxable benefits brought in EUR 36.8 billion in 2025, shared between the State, the municipalities and the church; the line drawn is the State’s part.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "tuloverolaki" }, { "sourceId": "veronmaksajat-2025" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "fi-corporate-tax",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "income-corporate",
+      "status": "current",
+      "names": { "official": "Corporate income tax", "native": "Yhteisövero", "common": "Corporate tax" },
+      "taxes": { "base": "Profits of companies and other corporate entities resident in Finland and Finnish-source profits of others.", "payer": "Companies." },
+      "rate": {
+        "kind": "flat",
+        "headline": "20%",
+        "details": ["The revenue is shared by a fixed formula between the State, municipalities and parishes."],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "Fell slightly in 2025 (by EUR 60 million), after larger falls in the two previous years.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "evl" }, { "sourceId": "vero-corporate" }, { "sourceId": "veronmaksajat-2025" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "fi-interest-withholding",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "income-personal",
+      "status": "current",
+      "names": { "official": "Withholding tax on interest income", "native": "Korkotulojen lähdevero", "common": "Tax on interest income" },
+      "taxes": { "base": "Interest paid on deposits and bonds to individuals.", "payer": "The bank deducts it from the interest." },
+      "rate": { "kind": "flat", "headline": "The capital income rate", "details": [], "asOf": "2026-10-11" },
+      "explanation": "The final tax on interest paid to individuals, in place of a return.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "veronmaksajat-2025" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "fi-inheritance-gift-tax",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "Inheritance and gift tax", "native": "Perintö- ja lahjavero", "common": "Inheritance and gift tax" },
+      "taxes": {
+        "base": "Inheritances and gifts received, by the relationship between giver and receiver.",
+        "payer": "The person who receives the inheritance or gift."
+      },
+      "rate": {
+        "kind": "progressive",
+        "headline": "Progressive, by relationship",
+        "details": ["Close relatives are taxed at lower rates than others; the rates are in the Act."],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "The only wealth-transfer tax; it raised about EUR 1.1 billion in 2025.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "perintoverolaki" }, { "sourceId": "veronmaksajat-2025" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "fi-transfer-tax",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "Transfer tax", "native": "Varainsiirtovero", "common": "Transfer tax" },
+      "taxes": { "base": "The price paid when real estate, shares in housing companies and other securities change hands.", "payer": "The buyer." },
+      "rate": {
+        "kind": "varies",
+        "headline": "3% on real estate; 1.5% on shares and securities",
+        "details": ["First-time home buyers aged 18 to 39 are exempt for their first home."],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "Revenue follows turnover in the housing and share markets.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "varainsiirtoverolaki" }, { "sourceId": "pwc-finland-other" }, { "sourceId": "veronmaksajat-2025" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "fi-vat",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "general-consumption",
+      "status": "current",
+      "names": { "official": "Value added tax", "native": "Arvonlisävero", "common": "VAT", "abbreviation": "VAT" },
+      "taxes": {
+        "base": "Supplies of goods and services in Finland and imports, with credit for tax on business purchases.",
+        "payer": "Consumers; businesses charge it and remit the balance."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "25.5% standard; 14%, 10% reduced",
+        "details": [
+          "The standard rate rose from 24% to 25.5% on 1 September 2024.",
+          "The 14% rate of 2025 (food, restaurants, pharmaceuticals, passenger transport, accommodation) became 13.5% on 1 January 2026; 10% applies to newspapers and magazines."
+        ],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "The largest single tax: 23% of the national total. Revenue rose by almost 5% in 2025 mainly because of the higher rate.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "avl" }, { "sourceId": "vero-vat-rates" }, { "sourceId": "veronmaksajat-2025" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "fi-energy-taxes",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Excise duty on electricity and certain fuels (energy taxes)", "native": "Energiaverot", "common": "Energy taxes" },
+      "taxes": {
+        "base": "Motor fuels, heating fuels, electricity and coal, by quantity, with a carbon element and an energy element.",
+        "payer": "Fuel and electricity suppliers; passed on in the price."
+      },
+      "rate": {
+        "kind": "specific",
+        "headline": "Per litre, kilowatt-hour or tonne",
+        "details": ["The rates are in the Act and are adjusted by law."],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "Includes the tax on petrol and diesel, which is the largest part, and the electricity tax.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "energiavero" }, { "sourceId": "veronmaksajat-2025" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "fi-alcohol-tax",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Alcoholic beverages tax", "native": "Alkoholijuomavero", "common": "Alcohol tax" },
+      "taxes": { "base": "Alcoholic beverages, by volume of alcohol or of product.", "payer": "Producers and importers; passed on in the price." },
+      "rate": { "kind": "specific", "headline": "Per litre of alcohol or product", "details": [], "asOf": "2026-10-11" },
+      "explanation": "One of the higher alcohol taxes in the EU.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "alkoholijuomaverolaki" }, { "sourceId": "veronmaksajat-2025" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "fi-tobacco-tax",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Tobacco tax", "native": "Tupakkavero", "common": "Tobacco tax" },
+      "taxes": { "base": "Cigarettes and other tobacco products.", "payer": "Manufacturers and importers; passed on in the price." },
+      "rate": { "kind": "varies", "headline": "A specific amount plus a share of the price", "details": [], "asOf": "2026-10-11" },
+      "explanation": "A tax on cigarettes, cigars, smoking tobacco and similar products.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "tupakkaverolaki" }, { "sourceId": "veronmaksajat-2025" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "fi-insurance-premium-tax",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Insurance premium tax", "native": "Vakuutusmaksuvero", "common": "Insurance premium tax" },
+      "taxes": { "base": "Premiums of non-life insurance policies.", "payer": "Insurers, passed on in the premium." },
+      "rate": { "kind": "flat", "headline": "A percentage of the premium", "details": [], "asOf": "2026-10-11" },
+      "explanation": "Charged on non-life insurance such as motor, home and property policies.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "veronmaksajat-2025" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "fi-vehicle-tax",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Vehicle tax", "native": "Ajoneuvovero", "common": "Vehicle tax" },
+      "taxes": {
+        "base": "Ownership of a vehicle: a basic tax by CO2 emissions and an operating tax on diesel and some other fuels.",
+        "payer": "Vehicle owners."
+      },
+      "rate": { "kind": "specific", "headline": "A daily amount by CO2 band, plus an operating tax", "details": [], "asOf": "2026-10-11" },
+      "explanation": "Collected by Traficom, the transport agency, not by the Tax Administration.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ajoneuvoverolaki" }, { "sourceId": "veronmaksajat-2025" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "fi-car-tax",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Car tax and motorcycle tax", "native": "Autovero", "common": "Car tax" },
+      "taxes": { "base": "Cars and motorcycles on first registration in Finland.", "payer": "The person who registers the vehicle." },
+      "rate": { "kind": "varies", "headline": "A percentage of the taxable value, by CO2 band", "details": [], "asOf": "2026-10-11" },
+      "explanation": "A one-off tax at registration, separate from the annual vehicle tax.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "autoverolaki" }, { "sourceId": "veronmaksajat-2025" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "fi-soft-drink-tax",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Soft drink tax", "native": "Virvoitusjuomavero", "common": "Soft drink tax" },
+      "taxes": { "base": "Soft drinks, juices and waters with added sugar, by litre.", "payer": "Producers and importers; passed on in the price." },
+      "rate": { "kind": "specific", "headline": "Per litre, by sugar content", "details": [], "asOf": "2026-10-11" },
+      "explanation": "A small excise on sweetened drinks.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "veronmaksajat-2025" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "fi-lottery-tax",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Lottery tax", "native": "Arpajaisvero", "common": "Lottery tax" },
+      "taxes": { "base": "The proceeds of lotteries and gambling.", "payer": "Operators of lotteries." },
+      "rate": { "kind": "flat", "headline": "A share of the proceeds", "details": [], "asOf": "2026-10-11" },
+      "explanation": "A small tax; the profits of the state gaming company are a separate revenue and are not counted.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "veronmaksajat-2025" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "fi-small-taxes",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "other",
+      "status": "current",
+      "names": {
+        "official": "Other small taxes and charges (pharmacy fee, stockpiling fee, mining mineral tax and others)",
+        "native": "Muut pienet verot ja maksut",
+        "common": "Other small taxes and charges"
+      },
+      "taxes": {
+        "base": "The pharmacy fee, the emergency stockpiling fee, the mining mineral tax, vehicle registration fees, deposit guarantee fees, fire protection fee, drink packaging excise, game and fishing management fees, the nuclear research fee, the environmental damage fee and the waste tax.",
+        "payer": "Pharmacies, importers of fuel, mining companies, banks, drivers, hunters and others."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Each has its own Act",
+        "details": ["Each of these is below 0.2% of the national total; together they are 0.35%."],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "Statistics Finland counts these tax-like payments as taxes on production. Grouped here because none is large enough for a core of its own.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "veronmaksajat-2025" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "fi-municipal-income-tax",
+      "parentId": "municipalities",
+      "levelId": "municipalities",
+      "category": "tax",
+      "family": "income-personal",
+      "status": "current",
+      "names": { "official": "Municipal income tax", "native": "Kunnallisvero", "common": "Municipal income tax" },
+      "taxes": {
+        "base": "Earned income of individuals (wages, pensions, benefits and business income), after deductions.",
+        "payer": "Individuals; withheld with the State income tax."
+      },
+      "rate": {
+        "kind": "range",
+        "headline": "A flat rate set by each municipality: 4.7%–10.9% in 2025",
+        "details": [
+          "The average rate was 7.54% in 2025 (Ministry of Finance). The church tax of 1.00%–2.25% is a separate levy of the churches and is not drawn."
+        ],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "The main tax of local government. The rates are lower than before 2023, when health and social care moved to the wellbeing services counties.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "tuloverolaki" }, { "sourceId": "vm-earned-income" }, { "sourceId": "veronmaksajat-2025" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "fi-property-tax",
+      "parentId": "municipalities",
+      "levelId": "municipalities",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "Real property tax", "native": "Kiinteistövero", "common": "Property tax" },
+      "taxes": { "base": "The taxable value of land and buildings, set by the Tax Administration.", "payer": "Property owners." },
+      "rate": {
+        "kind": "range",
+        "headline": "A rate set by each municipality within legal bands",
+        "details": ["The general rate is 0.41% to 2.00% depending on the type; vacant plots in a town plan area can be taxed at 2% to 6%."],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "The second tax of local government, after the municipal income tax.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "kiinteistoverolaki" }, { "sourceId": "pwc-finland-other" }, { "sourceId": "veronmaksajat-2025" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "fi-pension-contributions",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "social-contribution",
+      "family": "social-security",
+      "status": "current",
+      "names": { "official": "Earnings-related pension contributions", "native": "Työeläkemaksut", "common": "Earnings-related pensions" },
+      "taxes": {
+        "base": "Wages and income from self-employment of everyone working in Finland.",
+        "payer": "Employers and employees (the self-employed pay in full)."
+      },
+      "rate": {
+        "kind": "flat",
+        "headline": "A share of earnings, set each year",
+        "details": ["Employers and employees pay separate shares of earnings; the source gives the amounts only, not the rates."],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "The statutory pension scheme is run by private pension insurers and funds, but the contributions are fixed by law and counted as social security. Employers pay EUR 19.0 billion and employees EUR 9.2 billion.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "tyel" }, { "sourceId": "veronmaksajat-2025" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "fi-other-social-contributions",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "social-contribution",
+      "family": "social-security",
+      "status": "current",
+      "names": { "official": "Other compulsory social security contributions", "native": "Muut sosiaaliturvamaksut", "common": "Other social contributions" },
+      "taxes": {
+        "base": "Earnings, for the health insurance contribution, the unemployment insurance premium and the other statutory schemes.",
+        "payer": "Employers and insured persons."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "By scheme",
+        "details": ["The employee’s health insurance contribution was 1.06% of earned income in 2025."],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "Employers paid EUR 2.6 billion and the insured EUR 3.1 billion. The source does not split the line by scheme.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "sairausvakuutuslaki" }, { "sourceId": "veronmaksajat-2025" }],
+      "checkedOn": "2026-10-11"
+    }
+  ]
+}

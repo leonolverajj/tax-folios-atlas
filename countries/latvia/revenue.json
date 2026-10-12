@@ -1,0 +1,159 @@
+{
+  "groups": [
+    {
+      "title": "State taxes 2024 – National Tax List (EUR million)",
+      "defaults": {
+        "denominatorId": "valsts-taxes-2024",
+        "scale": "million",
+        "currency": "EUR",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "ESA tax revenue, general government and EU institutions",
+        "sourceId": "ntl-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        {
+          "nodeId": "lv-pit-state",
+          "amount": 702.78,
+          "locator": "NTL 2026, sheet LV, D51A Personal income tax, 2024, less the local share from Eurostat gov_10a_taxag (S.1313, D51A)",
+          "calculation": "2,869.78 − 2,167 = 702.78 (EUR million)",
+          "caveat": "The two sources are different vintages (NTL cut-off October 2025, Eurostat July 2026); Eurostat’s own figure for the State’s share is EUR 703 million."
+        },
+        { "nodeId": "lv-cit", "amount": 791.07, "locator": "NTL 2026, sheet LV, row 100: D51B Corporate income tax, 2024" },
+        { "nodeId": "lv-vat", "amount": 3845.03, "locator": "NTL 2026, sheet LV, row 12: D211 Value added tax, 2024" },
+        { "nodeId": "lv-customs", "amount": 62.66, "locator": "NTL 2026, sheet LV, row 15: D2121 Customs duties, 2024" },
+        { "nodeId": "lv-excise-oil", "amount": 582.86, "locator": "NTL 2026, sheet LV, row 29: D214A Excise duty on oil products, 2024" },
+        { "nodeId": "lv-excise-tobacco", "amount": 286.5, "locator": "NTL 2026, sheet LV, row 30: D214A Excise duty on tobacco, 2024" },
+        {
+          "nodeId": "lv-excise-alcohol",
+          "amount": 264.46,
+          "locator": "NTL 2026, sheet LV, 2024: D214A Excise duty on alcohol (row 28); D214A Excise duty on beer (row 32)",
+          "calculation": "210.54 + 53.92 = 264.46 (EUR million)"
+        },
+        {
+          "nodeId": "lv-excise-other",
+          "amount": 60.82,
+          "locator": "NTL 2026, sheet LV, 2024: D214A Excise duty on other excise goods (row 31); D214A Excise duty on natural gas (row 33); D214A Electricity tax (row 34); D2122C Excise duty on imported goods for omission for free turnover (row 22)",
+          "calculation": "41.13 + 13.23 + 4.94 + 1.51 = 60.82 (EUR million)"
+        },
+        {
+          "nodeId": "lv-gambling",
+          "amount": 58.19,
+          "locator": "NTL 2026, sheet LV, 2024: D214F Lottery and gambling tax (row 46); D29E Lottery and gambling state duty (row 73); D29E Lottery of goods and services organization duty (row 76)",
+          "calculation": "54.37 + 3.4 + 0.42 = 58.19 (EUR million)"
+        },
+        {
+          "nodeId": "lv-vehicle-taxes",
+          "amount": 130.82,
+          "locator": "NTL 2026, sheet LV, 2024: D29B Vehicle operating tax for vehicles which have been registered on legal persons (row 66); D29B Tax on cars belonging to enterprises (row 67); D59D Vehicle operating tax for vehicles which have been registered on natural persons (row 113)",
+          "calculation": "30.97 + 28.5 + 71.36 = 130.82 (EUR million)"
+        },
+        { "nodeId": "lv-natural-resources", "amount": 66.09, "locator": "NTL 2026, sheet LV, row 80: D29F Natural resources tax, 2024" },
+        { "nodeId": "lv-oil-reserve-fee", "amount": 118.84, "locator": "NTL 2026, sheet LV, row 58: D214L Security reserve service fee, 2024" },
+        {
+          "nodeId": "lv-financial-levies",
+          "amount": 119.74,
+          "locator": "NTL 2026, sheet LV, 2024: D29H Contributions to the Deposit Guarantee Fund (row 87); D29H Mortgage borrower protection duty (row 90); D29H Contributions to the Single Resolution Fund (row 89)",
+          "calculation": "22.27 + 97.46 + 0 = 119.74 (EUR million)"
+        },
+        {
+          "nodeId": "lv-register-duties",
+          "amount": 44.5,
+          "locator": "NTL 2026, sheet LV, 2024: D214C Duties on transactions with privatization vouchers (row 37); D214C Stamp duty for transactions made in Land Register, which have been collected from legal persons, except legacies and donations (row 38); D214C Duty for consolidation of ownership and legal liens in Land Register, which have been collected from legal persons, except legacies and donations (row 39); D214C Stamp duty for transactions made in Land Register, which have been collected from natural persons, except legacies and donations (row 40); D214C Duty for consolidation of ownership and legal clients in Land Register, which have been collected from natural persons, except legacies and donations (row 41)",
+          "calculation": "0 + 0.61 + 19.9 + 1.56 + 22.43 = 44.5 (EUR million)"
+        },
+        {
+          "nodeId": "lv-inheritance-gift",
+          "amount": 12.99,
+          "locator": "NTL 2026, sheet LV, 2024: D91A Duty for legacies and donations (row 119); D91A Stamp duty for transactions made in Land Register in relation to legacies and donations (row 120); D91A Duty for consolidation of ownership and legal clients in Land Register anent legacies and donations (row 121)",
+          "calculation": "9.4 + 0.54 + 3.05 = 12.99 (EUR million)"
+        },
+        {
+          "nodeId": "lv-other-duties",
+          "amount": 17.33,
+          "locator": "NTL 2026, sheet LV, 2024: D29C State duty for business risk (row 69); D29H Other special target state duties (row 85); D29E State duty for using numerative rights (row 78); D29E Payment for lease of reservoirs and fishing rights and use of fishing rights (licences) (row 77); D59D Income from lease of reservoirs and fishing rights and non-production use of fishing rights (fishing cards) (row 112); D59D Duty for keeping animals (row 114); D91B The payment made by a foreigner before receiving temporary residence permit (row 123)",
+          "calculation": "3.19 + 9.82 + 0.54 + 0.48 + 0.93 + 0.07 + 2.3 = 17.33 (EUR million)"
+        }
+      ]
+    },
+    {
+      "title": "Social contributions 2024 – National Tax List (EUR million)",
+      "defaults": {
+        "denominatorId": "valsts-social-2024",
+        "scale": "million",
+        "currency": "EUR",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Actual compulsory and voluntary contributions",
+        "sourceId": "ntl-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        {
+          "nodeId": "lv-social-employers",
+          "amount": 3024.62,
+          "locator": "NTL 2026, sheet LV, row 128: D611 Employers' actual social contributions, 2024"
+        },
+        {
+          "nodeId": "lv-social-employees",
+          "amount": 1333.38,
+          "locator": "NTL 2026, sheet LV, row 150: D613CE Compulsory employees' actual social contributions, 2024"
+        },
+        {
+          "nodeId": "lv-social-self-employed",
+          "amount": 62.6,
+          "locator": "NTL 2026, sheet LV, 2024: D613CS Compulsory actual social contributions by the self-employed (1) (row 152); D613V Voluntary households' actual social contributions (row 155)",
+          "calculation": "62.32 + 0.28 = 62.6 (EUR million)"
+        }
+      ]
+    },
+    {
+      "title": "Municipal share of the personal income tax 2024 – Eurostat (EUR million)",
+      "defaults": {
+        "denominatorId": "pasvaldibas-pit-2024",
+        "scale": "million",
+        "currency": "EUR",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "ESA taxes received by local government",
+        "sourceId": "eurostat-taxag",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        {
+          "nodeId": "lv-pit-municipal",
+          "amount": 2167,
+          "locator": "Eurostat gov_10a_taxag, 2024: S.1313 local government, D51A taxes on individual or household income, EUR million",
+          "caveat": "Eurostat July 2026 vintage; the State’s part in the same source is EUR 703 million."
+        }
+      ]
+    },
+    {
+      "title": "Municipal taxes 2024 – National Tax List (EUR million)",
+      "defaults": {
+        "denominatorId": "pasvaldibas-taxes-2024",
+        "scale": "million",
+        "currency": "EUR",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "ESA tax revenue",
+        "sourceId": "ntl-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        {
+          "nodeId": "lv-property-tax",
+          "amount": 237.34,
+          "locator": "NTL 2026, sheet LV, 2024: D29A Tax on property (row 61); D29A Immovable property tax on dwellings (row 63)",
+          "calculation": "193.94 + 43.4 = 237.34 (EUR million)"
+        }
+      ]
+    }
+  ],
+  "unavailable": []
+}

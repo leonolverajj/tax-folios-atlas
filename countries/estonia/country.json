@@ -1,0 +1,90 @@
+{
+  "id": "estonia",
+  "iso3": "EST",
+  "isoNumeric": "233",
+  "names": { "en": "Estonia", "native": "Eesti", "nativeLang": "et" },
+  "currency": { "code": "EUR", "symbol": "€", "name": "Euro" },
+  "summary": "Estonia is a unitary state with one tax collector, the Tax and Customs Board. Almost every tax is national: a flat income tax on persons, a corporate tax that falls only on profit that is distributed, a 33% social tax paid by employers, VAT and excises. Local governments levy only the land tax and two small taxes; they receive a share of the personal income tax through the state budget, which the statistics count as a transfer.",
+  "structureNote": "The figures come from the Commission’s National Tax List for 2024, which lists each tax by its national name. The sale of emission permits (EUR 360 million in 2024) is left out because it is the sale of a right, not a tax; so are the employers’ imputed social contributions (EUR 134 million), which are no payment. The funded pension share of the social tax is subtracted, as in the list. The social contributions are drawn under the State: the Health Insurance Fund and the Unemployment Insurance Fund are public bodies but the Tax and Customs Board collects the money. The customs duties belong to the EU budget.",
+  "theme": {
+    "accent": "#6aa0ff",
+    "accent2": "#0b0b0b",
+    "motif": "topo",
+    "motifNote": "Topographic contour lines over the outline of Estonia (the generic motif; no bespoke art yet).",
+    "mapLabel": { "lon": 25.5, "lat": 58.7 }
+  },
+  "levels": [
+    {
+      "id": "riik",
+      "branch": "national",
+      "names": { "official": "The State (central government)", "native": "Riik", "common": "State" },
+      "description": "The Riigikogu makes the tax laws and the Tax and Customs Board (EMTA) collects the state taxes and the social contributions, which fund the Health Insurance Fund, the Unemployment Insurance Fund and the pension system.",
+      "fiscalPower": "Only the Riigikogu can create a tax; municipalities may levy only the taxes listed in the Local Taxes Act.",
+      "legalRefs": [{ "sourceId": "emta-rates" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "kov",
+      "branch": "local",
+      "names": { "official": "Local governments (rural municipalities and towns)", "native": "Kohalikud omavalitsused", "common": "Local governments" },
+      "description": "The only tier of local government. Their taxes in the National Tax List are the land tax (calculated and collected by the Tax and Customs Board), the advertising tax and the road-closure tax. They also receive a share of the income tax through the state budget.",
+      "fiscalPower": "The Local Taxes Act lists the taxes that a council may introduce; the Land Tax Act lets each council set the rate within a range.",
+      "legalRefs": [{ "sourceId": "emta-land-tax" }, { "sourceId": "eurostat-taxag", "locator": "S.1313: no income tax booked to local government" }],
+      "checkedOn": "2026-10-12"
+    }
+  ],
+  "supportingSourceIds": [],
+  "denominators": [
+    {
+      "id": "riik-taxes-2024",
+      "label": "State taxes (listed in the National Tax List), 2024",
+      "definition": "The taxes on production and imports, on income and wealth that the National Tax List books to the State and the EU, other than the three local taxes and the emission permit sales: income taxes, VAT, excises, customs duty and the smaller levies.",
+      "levelIds": ["riik"],
+      "amount": 8722.85,
+      "scale": "million",
+      "currency": "EUR",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "ntl-2026",
+      "locator": "Sheet EE, 2024, lines D211, D2121, D2122C, D214A, D214D, D214F, D214H, D29B, D29E, D29F, D29H and D51 as listed with each tax",
+      "calculation": "Sum of the 15 tax rows below (EUR million)",
+      "caveat": "Calendar 2024. The list's cut-off was 30 October 2025; Eurostat's later accounts differ (D2: NTL 5,594.08, Eurostat July 2026 5,594.1; D5: NTL 3,558.36, Eurostat July 2026 3,789.1; D61: NTL 5,007.93, Eurostat July 2026 5,007.9). The full list (D2, D5 and D61 including imputed contributions) is EUR 14,160.37 million.",
+      "accessed": "2026-10-12"
+    },
+    {
+      "id": "riik-social-2024",
+      "label": "Social tax and unemployment insurance premiums, 2024",
+      "definition": "The actual compulsory social contributions of employers, employees, the self-employed and the non-employed, net of the funded-pension allotment; imputed contributions are left out.",
+      "levelIds": ["riik"],
+      "amount": 4873.95,
+      "scale": "million",
+      "currency": "EUR",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "ntl-2026",
+      "locator": "Sheet EE, 2024, lines D6111, D6112 and D613",
+      "calculation": "Sum of the social contribution rows below (EUR million)",
+      "caveat": "Calendar 2024, same list and cut-off as the taxes. Eurostat records the contributions to the two insurance funds under social security funds (S.1314) and the pension part under central government.",
+      "accessed": "2026-10-12"
+    },
+    {
+      "id": "kov-taxes-2024",
+      "label": "Taxes of the local governments, 2024",
+      "definition": "The land tax, the advertising tax and the road-closure tax.",
+      "levelIds": ["kov"],
+      "amount": 69.57,
+      "scale": "million",
+      "currency": "EUR",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "ntl-2026",
+      "locator": "Sheet EE, 2024, lines D29A C01, D29H C05 and D29H C02",
+      "calculation": "Sum of the local rows below (EUR million)",
+      "caveat": "Eurostat's July 2026 accounts book EUR 74.8 million of taxes on production to local government (58.5 on land); the difference of EUR 5.23 million is not itemised in the list. Municipalities' share of the income tax is a transfer in both sources.",
+      "accessed": "2026-10-12"
+    }
+  ],
+  "sizing": {
+    "label": "Taxes and compulsory social contributions of all levels of government",
+    "definition": "The taxes of the State and the local governments plus the actual social contributions, calendar 2024, as listed in the National Tax List. Excludes the sale of emission permits (EUR 360.0 million) and imputed social contributions (EUR 134.0 million).",
+    "componentIds": ["riik-taxes-2024", "riik-social-2024", "kov-taxes-2024"]
+  },
+  "researchStatus": "researched"
+}

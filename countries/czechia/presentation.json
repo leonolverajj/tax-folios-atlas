@@ -1,0 +1,33 @@
+{
+  "nodes": {
+    "czechia": { "label": "Czechia", "sublabel": "Česko · Fiscal folio", "glyph": "globe" },
+    "stat": { "label": "State", "sublabel": "Stát", "glyph": "landmark" },
+    "samosprava": { "label": "Local government", "sublabel": "Samospráva", "glyph": "town" },
+    "cz-pit-employment": { "label": "Income tax: wages", "sublabel": "15% · 23%", "glyph": "person" },
+    "cz-pit-self-employed": { "label": "Income tax: self-employed", "sublabel": "Self-employed", "glyph": "person" },
+    "cz-pit-capital": { "label": "Income tax: capital", "sublabel": "15%", "glyph": "coin" },
+    "cz-corporate-income-tax": { "label": "Corporate income tax", "sublabel": "21%", "glyph": "factory" },
+    "cz-windfall-topup": { "label": "Windfall tax", "sublabel": "Banks · energy", "glyph": "scale" },
+    "cz-social-employers": { "label": "Social: employers", "sublabel": "Pension · health", "glyph": "heart" },
+    "cz-social-employees": { "label": "Social: employees", "sublabel": "Pension · health", "glyph": "heart" },
+    "cz-social-self-employed": { "label": "Self-employed", "sublabel": "Contributions", "glyph": "heart" },
+    "cz-health-insurance-state-paid": { "label": "Health insurance paid by State", "sublabel": "Non-employed", "glyph": "heart" },
+    "cz-vat": { "label": "VAT", "sublabel": "21%", "glyph": "cart" },
+    "cz-customs": { "label": "Customs duties", "sublabel": "EU tariff", "glyph": "ship" },
+    "cz-excise-fuel": { "label": "Fuel excise", "sublabel": "Mineral oils", "glyph": "flame" },
+    "cz-excise-tobacco": { "label": "Tobacco excise", "sublabel": "Cigarettes", "glyph": "smoke" },
+    "cz-excise-alcohol": { "label": "Alcohol excise", "sublabel": "Spirits · beer · wine", "glyph": "wine" },
+    "cz-energy-taxes": { "label": "Energy taxes", "sublabel": "Electricity · gas", "glyph": "bolt" },
+    "cz-renewable-levies": { "label": "Renewable energy levies", "sublabel": "Solar · renewables", "glyph": "bolt" },
+    "cz-lottery": { "label": "Lottery levy", "sublabel": "Gambling", "glyph": "dice" },
+    "cz-road-tax": { "label": "Road tax", "sublabel": "Business vehicles", "glyph": "car" },
+    "cz-environmental-charges": { "label": "Environmental charges", "sublabel": "Water · air", "glyph": "leaf" },
+    "cz-land-withdrawal": { "label": "Land withdrawal fees", "sublabel": "Farmland · forest", "glyph": "wheat" },
+    "cz-licence-fees": { "label": "TV and radio fees", "sublabel": "Licences", "glyph": "scroll" },
+    "cz-financial-sector-contributions": { "label": "Financial-sector funds", "sublabel": "Guarantee system", "glyph": "bank" },
+    "cz-admin-fees": { "label": "Administrative fees", "sublabel": "Official services", "glyph": "stamp" },
+    "cz-property-tax": { "label": "Real estate tax", "sublabel": "Municipal", "glyph": "house" },
+    "cz-municipal-cit": { "label": "Municipal corporate tax", "sublabel": "Municipalities · regions", "glyph": "factory" },
+    "cz-local-fees": { "label": "Local fees", "sublabel": "Spa · dogs · advertising", "glyph": "town" }
+  }
+}

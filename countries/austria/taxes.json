@@ -1,0 +1,550 @@
+{
+  "instruments": [
+    {
+      "id": "at-wage-tax",
+      "parentId": "bund",
+      "levelId": "bund",
+      "category": "tax",
+      "family": "income-personal",
+      "status": "current",
+      "names": { "official": "Wage tax (Lohnsteuer)", "native": "Lohnsteuer", "common": "Wage tax" },
+      "taxes": {
+        "base": "Wages, salaries and pensions, withheld by the employer or the pension payer.",
+        "payer": "Employees and pensioners; the employer withholds it."
+      },
+      "rate": {
+        "kind": "progressive",
+        "headline": "0%–55% (2025)",
+        "details": [
+          "2025 brackets: 0% to EUR 13,308; 20% to 21,617; 30% to 35,836; 40% to 69,166; 48% to 103,072; 50% to EUR 1 million and 55% above.",
+          "The 13th and 14th monthly salaries are taxed at a flat 6%."
+        ],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "The largest direct tax: EUR 37.8 billion in 2025, 4.5% more than in 2024. The Länder and municipalities receive about a third of it.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "estg" }, { "sourceId": "bmf-abgabenerfolg-2025-12" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "at-income-tax",
+      "parentId": "bund",
+      "levelId": "bund",
+      "category": "tax",
+      "family": "income-personal",
+      "status": "current",
+      "names": { "official": "Assessed income tax (veranlagte Einkommensteuer)", "native": "Veranlagte Einkommensteuer", "common": "Income tax" },
+      "taxes": { "base": "Income of the self-employed, landlords and others who file a return.", "payer": "Individuals who file a return." },
+      "rate": { "kind": "progressive", "headline": "Same scale as the wage tax", "details": [], "asOf": "2026-10-11" },
+      "explanation": "Raised EUR 5.1 billion, against EUR 4.5 billion in the budget plan.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "estg" }, { "sourceId": "bmf-abgabenerfolg-2025-12" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "at-capital-income-tax",
+      "parentId": "bund",
+      "levelId": "bund",
+      "category": "tax",
+      "family": "income-personal",
+      "status": "current",
+      "names": {
+        "official": "Capital income tax (Kapitalertragsteuer)",
+        "native": "Kapitalertragsteuer",
+        "common": "Capital income tax",
+        "abbreviation": "KESt"
+      },
+      "taxes": {
+        "base": "Dividends, interest and capital gains on securities, deducted by the bank or paying company.",
+        "payer": "Investors; the bank deducts it."
+      },
+      "rate": {
+        "kind": "flat",
+        "headline": "27.5% (25% on bank interest)",
+        "details": ["Dividends brought in EUR 3.7 billion and interest and other returns EUR 3.0 billion in 2025."],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "Revenue rose by 19% in 2025.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "estg" }, { "sourceId": "bmf-abgabenerfolg-2025-12" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "at-corporate-tax",
+      "parentId": "bund",
+      "levelId": "bund",
+      "category": "tax",
+      "family": "income-corporate",
+      "status": "current",
+      "names": { "official": "Corporation tax (Körperschaftsteuer)", "native": "Körperschaftsteuer", "common": "Corporation tax" },
+      "taxes": { "base": "Profits of companies and other legal entities.", "payer": "Companies." },
+      "rate": { "kind": "flat", "headline": "23%", "details": ["A minimum tax applies to loss-making companies."], "asOf": "2026-10-11" },
+      "explanation": "Fell by 6% in 2025, the biggest fall of any federal tax.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "kstg" }, { "sourceId": "bmf-abgabenerfolg-2025-12" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "at-bank-levy",
+      "parentId": "bund",
+      "levelId": "bund",
+      "category": "tax",
+      "family": "other",
+      "status": "current",
+      "names": { "official": "Stability levy (Stabilitätsabgabe)", "native": "Stabilitätsabgabe", "common": "Bank levy" },
+      "taxes": { "base": "The balance sheet of banks, above a threshold.", "payer": "Banks." },
+      "rate": {
+        "kind": "varies",
+        "headline": "A rate on the balance sheet total",
+        "details": ["Raised sharply in 2025 as a consolidation measure."],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "Receipts more than tripled in 2025 after the levy was raised.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "bmf-abgabenerfolg-2025-12" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "at-other-income-wealth-taxes",
+      "parentId": "bund",
+      "levelId": "bund",
+      "category": "tax",
+      "family": "other",
+      "status": "current",
+      "names": {
+        "official": "Other taxes on income and wealth (energy crisis contribution, foundation entry tax, land and forestry levy, land value levy)",
+        "native": "Übrige Einkommen- und Vermögensteuern",
+        "common": "Other income and wealth taxes"
+      },
+      "taxes": {
+        "base": "Windfall profits of energy companies (the energy crisis contribution), the transfer of assets to foundations, agricultural and forestry businesses, and the value of building land.",
+        "payer": "Energy firms, foundations, farms and landowners."
+      },
+      "rate": { "kind": "varies", "headline": "Each has its own Act", "details": [], "asOf": "2026-10-11" },
+      "explanation": "Energy crisis contribution EUR 367 million, foundation entry tax 54, land and forestry levy 33 and land value levy 6.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "bmf-abgabenerfolg-2025-12" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "at-vat",
+      "parentId": "bund",
+      "levelId": "bund",
+      "category": "tax",
+      "family": "general-consumption",
+      "status": "current",
+      "names": { "official": "Value added tax (Umsatzsteuer)", "native": "Umsatzsteuer", "common": "VAT", "abbreviation": "USt" },
+      "taxes": {
+        "base": "Supplies of goods and services and imports, with credit for tax on business purchases.",
+        "payer": "Consumers; businesses charge it and remit the balance."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "20% standard; 13% and 10% reduced",
+        "details": ["10% on food, books, rents and passenger transport; 13% on culture, wine sales by producers and some others."],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "The largest tax: EUR 40.2 billion. The Länder and municipalities receive about a third through the equalisation key.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ustg" }, { "sourceId": "bmf-abgabenerfolg-2025-12" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "at-tobacco-tax",
+      "parentId": "bund",
+      "levelId": "bund",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Tobacco tax (Tabaksteuer)", "native": "Tabaksteuer", "common": "Tobacco tax" },
+      "taxes": { "base": "Cigarettes and other tobacco products.", "payer": "Manufacturers and importers; passed on in the price." },
+      "rate": { "kind": "varies", "headline": "A specific amount plus a share of the retail price", "details": [], "asOf": "2026-10-11" },
+      "explanation": "A mix of an amount per 1,000 cigarettes and a percentage of the retail price.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "bmf-abgabenerfolg-2025-12" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "at-alcohol-taxes",
+      "parentId": "bund",
+      "levelId": "bund",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "Alcohol taxes (alcohol tax, beer tax, sparkling wine and intermediate products tax)",
+        "native": "Alkoholsteuern",
+        "common": "Alcohol taxes"
+      },
+      "taxes": { "base": "Spirits, beer, sparkling wine and intermediate products, by volume.", "payer": "Producers and importers; passed on in the price." },
+      "rate": {
+        "kind": "specific",
+        "headline": "Per hectolitre",
+        "details": ["Still wine is not taxed. Beer tax EUR 178.8 million, alcohol tax 145.1 and sparkling wine tax 1.8."],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "Three small excises grouped together.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "bmf-abgabenerfolg-2025-12" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "at-mineral-oil-tax",
+      "parentId": "bund",
+      "levelId": "bund",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Mineral oil tax (Mineralölsteuer)", "native": "Mineralölsteuer", "common": "Fuel tax" },
+      "taxes": { "base": "Petrol, diesel, heating oil and other mineral oils, per 1,000 litres.", "payer": "Fuel suppliers; passed on at the pump." },
+      "rate": { "kind": "specific", "headline": "Per 1,000 litres", "details": [], "asOf": "2026-10-11" },
+      "explanation": "Fell 3% in 2025; the national carbon pricing is charged on top.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "bmf-abgabenerfolg-2025-12" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "at-energy-levies",
+      "parentId": "bund",
+      "levelId": "bund",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Energy levies (Energieabgaben: electricity, natural gas and coal)", "native": "Energieabgaben", "common": "Energy levies" },
+      "taxes": { "base": "Electricity, natural gas and coal delivered to consumers.", "payer": "Energy suppliers; passed on in the bill." },
+      "rate": {
+        "kind": "specific",
+        "headline": "Per kWh or cubic metre",
+        "details": ["The rates were cut to a minimum during the energy crisis and restored in 2025."],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "Receipts rose from EUR 33 million in 2024 to EUR 922 million in 2025 when the reduced rates ended.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "bmf-abgabenerfolg-2025-12" }, { "sourceId": "bra-2025-band2" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "at-carbon-pricing",
+      "parentId": "bund",
+      "levelId": "bund",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "National carbon pricing (national emissions trading for fuels outside the EU system)",
+        "native": "Nationaler Emissionszertifikatehandel (CO2-Bepreisung)",
+        "common": "Carbon pricing"
+      },
+      "taxes": {
+        "base": "The carbon content of fuels sold outside the EU emissions trading scheme: petrol, diesel, heating oil, gas and coal.",
+        "payer": "Fuel suppliers; passed on in the price."
+      },
+      "rate": {
+        "kind": "mechanism",
+        "headline": "A fixed price per tonne of CO2 set by law",
+        "details": ["The price rises each year by law until the national scheme joins the EU trading system for buildings and transport."],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "Legally a trading scheme with a fixed certificate price, in practice a carbon tax; the federal accounts book it with the public charges.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "bmf-abgabenerfolg-2025-12" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "at-nova",
+      "parentId": "bund",
+      "levelId": "bund",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "Standard consumption levy (Normverbrauchsabgabe)",
+        "native": "Normverbrauchsabgabe",
+        "common": "Car registration tax",
+        "abbreviation": "NoVA"
+      },
+      "taxes": {
+        "base": "New and imported cars and some vans at first registration, by CO2 emissions and price.",
+        "payer": "The person who registers the vehicle."
+      },
+      "rate": { "kind": "varies", "headline": "By CO2 emissions", "details": [], "asOf": "2026-10-11" },
+      "explanation": "A one-off tax at registration.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "bmf-abgabenerfolg-2025-12" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "at-motor-vehicle-taxes",
+      "parentId": "bund",
+      "levelId": "bund",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "Motor vehicle tax and motor-related insurance tax (Kraftfahrzeugsteuer, motorbezogene Versicherungssteuer)",
+        "native": "Kfz-Steuer und motorbezogene Versicherungssteuer",
+        "common": "Annual vehicle taxes"
+      },
+      "taxes": {
+        "base": "Ownership of a vehicle: the motor-related insurance tax is a monthly charge by engine power on cars; the motor vehicle tax applies to heavy vehicles.",
+        "payer": "Vehicle owners, through the insurer or directly."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "By engine power (cars); by weight (lorries)",
+        "details": ["The motor-related insurance tax brought in EUR 2.9 billion and the motor vehicle tax EUR 58 million."],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "Two annual vehicle taxes under two laws, grouped.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "bmf-abgabenerfolg-2025-12" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "at-insurance-tax",
+      "parentId": "bund",
+      "levelId": "bund",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Insurance tax (Versicherungssteuer)", "native": "Versicherungssteuer", "common": "Insurance tax" },
+      "taxes": { "base": "Premiums for non-life insurance such as home, liability and fire policies.", "payer": "Insurers, passed on in the premium." },
+      "rate": { "kind": "flat", "headline": "11% of the premium (lower for fire and some others)", "details": [], "asOf": "2026-10-11" },
+      "explanation": "Charged on most non-life insurance.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "bmf-abgabenerfolg-2025-12" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "at-real-estate-transfer-tax",
+      "parentId": "bund",
+      "levelId": "bund",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "Real estate transfer tax (Grunderwerbsteuer)", "native": "Grunderwerbsteuer", "common": "Real estate transfer tax" },
+      "taxes": {
+        "base": "The value of land and buildings when ownership changes, including inheritance and gifts of property.",
+        "payer": "The buyer or the receiver."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "3.5% (0.5%–2% within the family)",
+        "details": ["Within the family a stepped scale on the property value applies."],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "Revenue jumped by 17% in 2025 on a recovering property market. Austria has no inheritance tax; this tax applies to property that is inherited or given.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "bmf-abgabenerfolg-2025-12" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "at-gambling-levies",
+      "parentId": "bund",
+      "levelId": "bund",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "Levies under the Gambling Act (Abgaben nach dem Glücksspielgesetz)",
+        "native": "Glücksspielabgaben",
+        "common": "Gambling levies"
+      },
+      "taxes": { "base": "Lottery and casino revenues, sports betting and slot machines.", "payer": "The licensed operators." },
+      "rate": { "kind": "varies", "headline": "A share of stakes or gaming results", "details": [], "asOf": "2026-10-11" },
+      "explanation": "Revenue rose by 18% in 2025.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "bmf-abgabenerfolg-2025-12" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "at-other-consumption-taxes",
+      "parentId": "bund",
+      "levelId": "bund",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "Other consumption and traffic taxes (digital tax, advertising tax, aviation levy, contaminated sites contribution)",
+        "native": "Übrige Verbrauchs- und Verkehrsteuern",
+        "common": "Other consumption taxes"
+      },
+      "taxes": {
+        "base": "Online advertising by large platforms, advertisements, passengers on flights from Austria and waste landfilled.",
+        "payer": "Platforms, advertisers, airlines and waste operators."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Each has its own rate",
+        "details": ["Digital tax 5% of online advertising revenue; advertising tax 5% of advertising revenue."],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "Digital tax EUR 137 million, advertising tax 90, aviation levy 179 and contaminated sites contribution 70.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "bmf-abgabenerfolg-2025-12" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "at-fees",
+      "parentId": "bund",
+      "levelId": "bund",
+      "category": "fee",
+      "family": "other",
+      "status": "current",
+      "names": {
+        "official": "Stamp duties, administrative fees and other charges (Gebühren, Bundesverwaltungsabgaben und sonstige Abgaben)",
+        "native": "Gebühren und Bundesverwaltungsabgaben",
+        "common": "Stamp duties and fees"
+      },
+      "taxes": {
+        "base": "Stamp duties on legal transactions, administrative fees of federal authorities and other charges and recoveries.",
+        "payer": "Whoever requests the service or files the document."
+      },
+      "rate": { "kind": "varies", "headline": "Fixed amounts and percentages by transaction", "details": [], "asOf": "2026-10-11" },
+      "explanation": "The federal accounts report stamp duties (a tax) together with administrative fees (a charge for a service) and do not split the line.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "bmf-abgabenerfolg-2025-12" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "at-family-fund-levy",
+      "parentId": "bund",
+      "levelId": "bund",
+      "category": "tax",
+      "family": "payroll",
+      "status": "current",
+      "names": {
+        "official": "Employers’ contribution to the family burdens equalisation fund (Dienstgeberbeitrag zum FLAF)",
+        "native": "Dienstgeberbeitrag zum Familienlastenausgleichsfonds",
+        "common": "Family fund levy",
+        "abbreviation": "DB"
+      },
+      "taxes": { "base": "The wage bill of employers.", "payer": "Employers." },
+      "rate": {
+        "kind": "flat",
+        "headline": "3.7% of payroll",
+        "details": ["The chambers add a surcharge (DZ) that is included in the amount drawn."],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "Pays for family allowances and childcare benefits. The Länder and municipalities do not share it.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "bra-2025-band2" }, { "sourceId": "bmf-besteuerungsrechte" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "at-unemployment-insurance",
+      "parentId": "bund",
+      "levelId": "bund",
+      "category": "social-contribution",
+      "family": "social-security",
+      "status": "current",
+      "names": {
+        "official": "Unemployment insurance contributions (Arbeitslosenversicherungsbeitrag)",
+        "native": "Arbeitslosenversicherung",
+        "common": "Unemployment insurance"
+      },
+      "taxes": { "base": "Gross earnings of employees up to a ceiling.", "payer": "Employees and employers (half each)." },
+      "rate": { "kind": "flat", "headline": "6% of earnings (3% + 3%)", "details": ["A reduced rate applies to low earnings."], "asOf": "2026-10-11" },
+      "explanation": "Collected with the other social insurance contributions and paid to the Public Employment Service.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "bra-2025-band2" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "at-pension-insurance",
+      "parentId": "bund",
+      "levelId": "bund",
+      "category": "social-contribution",
+      "family": "social-security",
+      "status": "current",
+      "names": { "official": "Pension insurance contributions", "native": "Pensionsversicherungsbeiträge", "common": "Pension insurance" },
+      "taxes": {
+        "base": "Gross earnings of employees up to a ceiling; income of the self-employed and farmers.",
+        "payer": "Employees and employers; the self-employed pay in full."
+      },
+      "rate": {
+        "kind": "flat",
+        "headline": "22.8% of earnings (10.25% + 12.55%)",
+        "details": ["The self-employed and farmers pay at their own rates."],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "The biggest social insurance contribution. The insurers also receive a federal guarantee payment (EUR 15.8 billion in 2025), which is not a contribution and is not counted.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "asvg" }, { "sourceId": "sv-in-zahlen-2026" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "at-health-insurance",
+      "parentId": "bund",
+      "levelId": "bund",
+      "category": "social-contribution",
+      "family": "social-security",
+      "status": "current",
+      "names": { "official": "Health insurance contributions", "native": "Krankenversicherungsbeiträge", "common": "Health insurance" },
+      "taxes": {
+        "base": "Gross earnings of employees up to a ceiling; income of the self-employed; pensions.",
+        "payer": "Employees and employers (almost equal shares); pensioners pay on their pensions."
+      },
+      "rate": {
+        "kind": "flat",
+        "headline": "About 7.65% of earnings",
+        "details": ["The employee pays 3.87% and the employer 3.78% for workers in the general scheme."],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "Funds the health insurance carriers; in 2025 they expect a combined deficit of EUR 511 million.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "asvg" }, { "sourceId": "sv-in-zahlen-2026" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "at-accident-insurance",
+      "parentId": "bund",
+      "levelId": "bund",
+      "category": "social-contribution",
+      "family": "social-security",
+      "status": "current",
+      "names": { "official": "Accident insurance contributions", "native": "Unfallversicherungsbeiträge", "common": "Accident insurance" },
+      "taxes": { "base": "Gross earnings of employees up to a ceiling.", "payer": "Employers." },
+      "rate": { "kind": "flat", "headline": "1.1% of earnings", "details": [], "asOf": "2026-10-11" },
+      "explanation": "Pays for work accidents and occupational diseases.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "asvg" }, { "sourceId": "sv-in-zahlen-2026" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "at-kommunalsteuer",
+      "parentId": "gemeinden",
+      "levelId": "gemeinden",
+      "category": "tax",
+      "family": "payroll",
+      "status": "current",
+      "names": { "official": "Municipal payroll tax (Kommunalsteuer)", "native": "Kommunalsteuer", "common": "Municipal payroll tax" },
+      "taxes": { "base": "The wage bill of businesses in the municipality.", "payer": "Employers." },
+      "rate": { "kind": "flat", "headline": "3% of payroll", "details": [], "asOf": "2026-10-11" },
+      "explanation": "The main own tax of the municipalities, paid to the municipality where the employer has its establishment.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "bmf-besteuerungsrechte" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "at-grundsteuer",
+      "parentId": "gemeinden",
+      "levelId": "gemeinden",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "Land tax (Grundsteuer)", "native": "Grundsteuer", "common": "Land tax" },
+      "taxes": { "base": "Land and buildings, on the (very old) unit value set by the tax office.", "payer": "Owners." },
+      "rate": {
+        "kind": "varies",
+        "headline": "A federal tax rate on the unit value, times a municipal multiplier",
+        "details": ["Municipalities may set the multiplier (Hebesatz) up to 500%."],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "A small tax because the unit values date from 1973.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "bmf-besteuerungsrechte" }],
+      "checkedOn": "2026-10-11"
+    }
+  ]
+}

@@ -1,13 +1,13 @@
 # Link report
 
-Checked 2026-10-11 with `npm run links` (396 source URLs).
+Checked 2026-10-12 with `npm run links` (525 source URLs).
 
 | Class | Count | Meaning |
 |---|---|---|
-| ok | 349 | answered 2xx |
-| redirected | 0 | answered 2xx after redirects; confirm the target if the path changed |
+| ok | 464 | answered 2xx |
+| redirected | 13 | answered 2xx after redirects; confirm the target if the path changed |
 | manual | 27 | automated check inconclusive; the page was checked another way, recorded with the method in `scripts/link-verified.json` |
-| blocked | 20 | the site refuses or ignores automated requests (401/403/429/503, timeouts, certificate chains Node cannot verify): **unverified**, open by hand |
+| blocked | 21 | the site refuses or ignores automated requests (401/403/429/503, timeouts, certificate chains Node cannot verify): **unverified**, open by hand |
 | suspect | 0 | redirects to an error or login page: the page is gone or the site rejects automated clients |
 | broken | 0 | 404/410/other errors or DNS failure: fix or replace the source |
 
@@ -22,6 +22,7 @@ Checked 2026-10-11 with `npm run links` (396 source URLs).
 | colombia | `ley-44-1990` | – | ETIMEDOUT – no answer to an automated request; open in a browser | https://www.secretariasenado.gov.co/senado/basedoc/ley_0044_1990.html |
 | colombia | `ley-14-1983` | – | ETIMEDOUT – no answer to an automated request; open in a browser | https://www.secretariasenado.gov.co/senado/basedoc/ley_0014_1983.html |
 | colombia | `ley-388-1997` | – | ETIMEDOUT – no answer to an automated request; open in a browser | https://www.secretariasenado.gov.co/senado/basedoc/ley_0388_1997.html |
+| finland | `vm-earned-income` | – | TLS: UNABLE_TO_GET_ISSUER_CERT_LOCALLY – certificate not verifiable from Node; open in a browser | https://vm.fi/en/taxation-of-earned-income |
 | france | `constitution-1958` | 403 | site refuses automated requests; verify by hand | https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006071194 |
 | france | `cgi` | 403 | site refuses automated requests; verify by hand | https://www.legifrance.gouv.fr/codes/texte_lc/LEGITEXT000006069577 |
 | france | `css` | 403 | site refuses automated requests; verify by hand | https://www.legifrance.gouv.fr/codes/texte_lc/LEGITEXT000006073189 |
@@ -67,4 +68,22 @@ Checked 2026-10-11 with `npm run links` (396 source URLs).
 | colombia | `decreto-1333-1986` | – | checked separately 2026-09-28: the Senate host refuses connections from the build network; this exact URL is listed by a web search index as the official Senate text (automated result: blocked) | https://www.secretariasenado.gov.co/senado/basedoc/decreto_1333_1986.html |
 | new-zealand | `fsgnz-2026` | 403 | checked separately 2026-10-11: opened in the built-in browser (the checker gets HTTP 403); the page loaded with the title "Financial Statements of the Government of New Zealand for the Year Ended 30 June 2026" (automated result: blocked 403) | https://www.treasury.govt.nz/publications/year-end/financial-statements-2026 |
 | united-states | `treasury-mts-fy2025` | – | checked separately 2026-09-28: opened with a fetch client; the Monthly Treasury Statement dataset page loads (the checker fails on the site certificate chain) (automated result: blocked) | https://fiscaldata.treasury.gov/datasets/monthly-treasury-statement/receipts-of-the-u-s-government |
+
+## Redirected
+
+| Country | Source id | Status | Note | URL |
+|---|---|---|---|---|
+| netherlands | `grondwet` | 200 | path changed → https://wetten.overheid.nl/BWBR0001840/2023-02-22 | https://wetten.overheid.nl/BWBR0001840/ |
+| netherlands | `awr` | 200 | path changed → https://wetten.overheid.nl/BWBR0002320/2026-10-01 | https://wetten.overheid.nl/BWBR0002320/ |
+| netherlands | `wet-ib-2001` | 200 | path changed → https://wetten.overheid.nl/BWBR0011353/2026-02-21 | https://wetten.overheid.nl/BWBR0011353/ |
+| netherlands | `wet-lb-1964` | 200 | path changed → https://wetten.overheid.nl/BWBR0002471/2026-02-21 | https://wetten.overheid.nl/BWBR0002471/ |
+| netherlands | `wet-vpb-1969` | 200 | path changed → https://wetten.overheid.nl/BWBR0002672/2026-01-01 | https://wetten.overheid.nl/BWBR0002672/ |
+| netherlands | `wet-ob-1968` | 200 | path changed → https://wetten.overheid.nl/BWBR0002629/2026-01-01 | https://wetten.overheid.nl/BWBR0002629/ |
+| netherlands | `gemeentewet` | 200 | path changed → https://wetten.overheid.nl/BWBR0005416/2026-10-01 | https://wetten.overheid.nl/BWBR0005416/ |
+| netherlands | `waterschapswet` | 200 | path changed → https://wetten.overheid.nl/BWBR0008531/2004-11-26 | https://wetten.overheid.nl/BWBR0008531/ |
+| netherlands | `zvw` | 200 | path changed → https://wetten.overheid.nl/BWBR0018450/2026-01-01 | https://wetten.overheid.nl/BWBR0018450/ |
+| netherlands | `aow` | 200 | path changed → https://wetten.overheid.nl/BWBR0002221/2026-07-01 | https://wetten.overheid.nl/BWBR0002221/ |
+| netherlands | `wlz` | 200 | path changed → https://wetten.overheid.nl/BWBR0036014/2026-05-30 | https://wetten.overheid.nl/BWBR0036014/ |
+| netherlands | `ww` | 200 | path changed → https://wetten.overheid.nl/BWBR0004045/2026-07-01 | https://wetten.overheid.nl/BWBR0004045/ |
+| netherlands | `wia` | 200 | path changed → https://wetten.overheid.nl/BWBR0019057/2026-07-01 | https://wetten.overheid.nl/BWBR0019057/ |
 

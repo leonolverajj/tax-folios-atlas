@@ -1,0 +1,237 @@
+{
+  "sources": [
+    {
+      "id": "oecd-rs-2025-subsectors",
+      "org": "OECD",
+      "title": "Revenue Statistics 2025, Table 6.11: Finland, tax revenues by sub-sectors of government",
+      "url": "https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en/full-report/tax-revenues-by-subsectors-of-general-government_f9e88332.html",
+      "kind": "international",
+      "language": "en",
+      "publishedDate": "2025-12-09",
+      "periodCovered": "Calendar year 2023 (national currency)",
+      "accessed": "2026-09-29",
+      "note": "Harmonised OECD classification of taxes (1000–6000) split by collecting sub-sector of general government."
+    },
+    {
+      "id": "oecd-rs-2025-levels",
+      "org": "OECD",
+      "title": "Revenue Statistics 2025, Chapter 3: Tax levels and tax structures (Table 3.1)",
+      "url": "https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en/full-report/tax-levels-and-tax-structures-1965-2024_2033f3ea.html",
+      "kind": "international",
+      "language": "en",
+      "publishedDate": "2025-12-09",
+      "periodCovered": "Calendar year 2023",
+      "accessed": "2026-09-29",
+      "note": "Total tax revenue as % of GDP."
+    },
+    {
+      "id": "sng-wofi-profile",
+      "org": "OECD and United Cities and Local Governments (SNG-WOFI)",
+      "title": "World Observatory on Subnational Government Finance and Investment – country profile: Finland",
+      "url": "https://www.sng-wofi.org/country_profiles/finland.html",
+      "kind": "international",
+      "language": "en",
+      "publishedDate": "2022-10-24",
+      "periodCovered": "2020",
+      "accessed": "2026-09-29",
+      "note": "Subnational government revenue by category as % of total subnational revenue, 2022 edition."
+    },
+    {
+      "id": "veronmaksajat-2025",
+      "org": "Finnish Taxpayers’ Association (Veronmaksajat), from Statistics Finland",
+      "title": "Verot ja veronluonteiset maksut 2025 (taxes and tax-like payments 2025, EUR million)",
+      "url": "https://www.veronmaksajat.fi/tutkimus-ja-tilastot/suomen-verot-ja-menot/verotuotot/",
+      "kind": "statistics",
+      "language": "fi",
+      "publishedDate": "2026-06-08",
+      "periodCovered": "Calendar year 2025",
+      "accessed": "2026-10-11",
+      "nextExpected": "2027-06",
+      "note": "The table lists every tax and tax-like payment of the national accounts with a total of EUR 119,523 million; its source line is \"Tilastokeskus; Veronmaksajat\". This is a secondary compilation of Statistics Finland’s data."
+    },
+    {
+      "id": "vero-vat-rates",
+      "org": "Finnish Tax Administration (Vero)",
+      "title": "Rates of VAT",
+      "url": "https://www.vero.fi/en/businesses-and-corporations/taxes-and-charges/vat/rates-of-vat/",
+      "kind": "tax-agency",
+      "language": "en",
+      "publishedDate": null,
+      "accessed": "2026-10-11",
+      "note": "From 1 January 2026: 25.5% standard rate, 13.5% (previously 14%) and 10%."
+    },
+    {
+      "id": "vero-corporate",
+      "org": "Finnish Tax Administration (Vero)",
+      "title": "Income tax of limited liability companies and cooperatives",
+      "url": "https://www.vero.fi/en/businesses-and-corporations/taxes-and-charges/limited-companies-and-cooperatives/income-tax/",
+      "kind": "tax-agency",
+      "language": "en",
+      "publishedDate": null,
+      "accessed": "2026-10-11",
+      "note": "The corporate income tax rate is 20% for 2025 and 2026. The Tax Administration’s news of 17 September 2026 reports a government proposal to lower it to 18%; the proposal was not law when read."
+    },
+    {
+      "id": "vm-earned-income",
+      "org": "Ministry of Finance (Finland)",
+      "title": "Taxation of earned income",
+      "url": "https://vm.fi/en/taxation-of-earned-income",
+      "kind": "guidance",
+      "language": "en",
+      "publishedDate": null,
+      "accessed": "2026-10-11",
+      "note": "Municipal tax rates 4.7%–10.9% and an average of 7.54% in 2025; church tax 1.00%–2.25%. The page returned a bot challenge to the browser, so these figures were read in a search summary of the page and are unverified at the source."
+    },
+    {
+      "id": "pwc-finland-other",
+      "org": "PwC Worldwide Tax Summaries",
+      "title": "Finland, individual: other taxes (transfer tax, real estate tax)",
+      "url": "https://taxsummaries.pwc.com/finland/individual/other-taxes",
+      "kind": "guidance",
+      "language": "en",
+      "publishedDate": null,
+      "accessed": "2026-10-11",
+      "note": "Transfer tax 3% on real property and 1.5% on shares and securities; property tax rate bands. A secondary source."
+    },
+    {
+      "id": "fi-constitution",
+      "org": "Ministry of Justice (Finlex)",
+      "title": "Constitution of Finland (Suomen perustuslaki 731/1999)",
+      "url": "https://www.finlex.fi/fi/lainsaadanto/1999/731",
+      "kind": "legal",
+      "language": "fi",
+      "publishedDate": null,
+      "accessed": "2026-10-11"
+    },
+    {
+      "id": "tuloverolaki",
+      "org": "Ministry of Justice (Finlex)",
+      "title": "Income Tax Act (Tuloverolaki 1535/1992)",
+      "url": "https://www.finlex.fi/fi/lainsaadanto/1992/1535",
+      "kind": "legal",
+      "language": "fi",
+      "publishedDate": null,
+      "accessed": "2026-10-11"
+    },
+    {
+      "id": "evl",
+      "org": "Ministry of Justice (Finlex)",
+      "title": "Act on the Taxation of Business Profits and Income from Professional Activities (360/1968)",
+      "url": "https://www.finlex.fi/fi/lainsaadanto/1968/360",
+      "kind": "legal",
+      "language": "fi",
+      "publishedDate": null,
+      "accessed": "2026-10-11"
+    },
+    {
+      "id": "avl",
+      "org": "Ministry of Justice (Finlex)",
+      "title": "Value Added Tax Act (Arvonlisäverolaki 1501/1993)",
+      "url": "https://www.finlex.fi/fi/lainsaadanto/1993/1501",
+      "kind": "legal",
+      "language": "fi",
+      "publishedDate": null,
+      "accessed": "2026-10-11"
+    },
+    {
+      "id": "kiinteistoverolaki",
+      "org": "Ministry of Justice (Finlex)",
+      "title": "Real Property Tax Act (Kiinteistöverolaki 654/1992)",
+      "url": "https://www.finlex.fi/fi/lainsaadanto/1992/654",
+      "kind": "legal",
+      "language": "fi",
+      "publishedDate": null,
+      "accessed": "2026-10-11"
+    },
+    {
+      "id": "varainsiirtoverolaki",
+      "org": "Ministry of Justice (Finlex)",
+      "title": "Transfer Tax Act (Varainsiirtoverolaki 931/1996)",
+      "url": "https://www.finlex.fi/fi/lainsaadanto/1996/931",
+      "kind": "legal",
+      "language": "fi",
+      "publishedDate": null,
+      "accessed": "2026-10-11"
+    },
+    {
+      "id": "perintoverolaki",
+      "org": "Ministry of Justice (Finlex)",
+      "title": "Inheritance and Gift Tax Act (Perintö- ja lahjaverolaki 378/1940)",
+      "url": "https://www.finlex.fi/fi/lainsaadanto/1940/378",
+      "kind": "legal",
+      "language": "fi",
+      "publishedDate": null,
+      "accessed": "2026-10-11"
+    },
+    {
+      "id": "alkoholijuomaverolaki",
+      "org": "Ministry of Justice (Finlex)",
+      "title": "Alcoholic Beverages Tax Act (Alkoholijuomaverolaki 1471/1994)",
+      "url": "https://www.finlex.fi/fi/lainsaadanto/1994/1471",
+      "kind": "legal",
+      "language": "fi",
+      "publishedDate": null,
+      "accessed": "2026-10-11"
+    },
+    {
+      "id": "tupakkaverolaki",
+      "org": "Ministry of Justice (Finlex)",
+      "title": "Tobacco Tax Act (Tupakkaverolaki 1470/1994)",
+      "url": "https://www.finlex.fi/fi/lainsaadanto/1994/1470",
+      "kind": "legal",
+      "language": "fi",
+      "publishedDate": null,
+      "accessed": "2026-10-11"
+    },
+    {
+      "id": "energiavero",
+      "org": "Ministry of Justice (Finlex)",
+      "title": "Act on Excise Duty on Electricity and Certain Fuels (1260/1996)",
+      "url": "https://www.finlex.fi/fi/lainsaadanto/1996/1260",
+      "kind": "legal",
+      "language": "fi",
+      "publishedDate": null,
+      "accessed": "2026-10-11"
+    },
+    {
+      "id": "ajoneuvoverolaki",
+      "org": "Ministry of Justice (Finlex)",
+      "title": "Vehicle Tax Act (Ajoneuvoverolaki 1281/2003)",
+      "url": "https://www.finlex.fi/fi/lainsaadanto/2003/1281",
+      "kind": "legal",
+      "language": "fi",
+      "publishedDate": null,
+      "accessed": "2026-10-11"
+    },
+    {
+      "id": "autoverolaki",
+      "org": "Ministry of Justice (Finlex)",
+      "title": "Car Tax Act (Autoverolaki 1482/1994)",
+      "url": "https://www.finlex.fi/fi/lainsaadanto/1994/1482",
+      "kind": "legal",
+      "language": "fi",
+      "publishedDate": null,
+      "accessed": "2026-10-11"
+    },
+    {
+      "id": "tyel",
+      "org": "Ministry of Justice (Finlex)",
+      "title": "Employees Pensions Act (Työntekijän eläkelaki 395/2006)",
+      "url": "https://www.finlex.fi/fi/lainsaadanto/2006/395",
+      "kind": "legal",
+      "language": "fi",
+      "publishedDate": null,
+      "accessed": "2026-10-11"
+    },
+    {
+      "id": "sairausvakuutuslaki",
+      "org": "Ministry of Justice (Finlex)",
+      "title": "Health Insurance Act (Sairausvakuutuslaki 1224/2004)",
+      "url": "https://www.finlex.fi/fi/lainsaadanto/2004/1224",
+      "kind": "legal",
+      "language": "fi",
+      "publishedDate": null,
+      "accessed": "2026-10-11"
+    }
+  ]
+}

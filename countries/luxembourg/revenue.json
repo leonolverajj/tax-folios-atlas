@@ -1,0 +1,199 @@
+{
+  "groups": [
+    {
+      "title": "State taxes 2024 – National Tax List (EUR million)",
+      "defaults": {
+        "denominatorId": "etat-taxes-2024",
+        "scale": "million",
+        "currency": "EUR",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "ESA tax revenue, general government and EU institutions",
+        "sourceId": "ntl-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        { "nodeId": "lu-wage-tax", "amount": 6518.99, "locator": "NTL 2026, sheet LU, row 116: D51A Tax on wages and salaries, 2024" },
+        {
+          "nodeId": "lu-income-tax-assessed",
+          "amount": 1295.7,
+          "locator": "NTL 2026, sheet LU, row 118: D51A Personal income tax - fixed by assessment, 2024"
+        },
+        {
+          "nodeId": "lu-solidarity-individuals",
+          "amount": 607.77,
+          "locator": "NTL 2026, sheet LU, row 119: D51A Supplementary solidarity income tax, 2024"
+        },
+        {
+          "nodeId": "lu-capital-income-withholding",
+          "amount": 1305.65,
+          "locator": "NTL 2026, sheet LU, 2024: D51A Withholding tax on income from capital (row 120); D51A Special tax on company directors fees (row 121); D51A National withholding tax on interest (row 123); D51A Tax on certain income of non-residents (row 117); D51A Temporary budgetary balance tax (row 125); D51A Tax withheld on contributions to a registered supplementary pension plan for self-employed persons (row 126)",
+          "calculation": "1,052.6 + 74.25 + 171.13 + 1.33 + 0.01 + 6.33 = 1,305.65 (EUR million)"
+        },
+        {
+          "nodeId": "lu-corporation-tax",
+          "amount": 3939.56,
+          "locator": "NTL 2026, sheet LU, 2024: D51B Corporation tax (row 132); D51B Supplementary solidarity corporation tax (row 133); D51B Real estate levy (row 135)",
+          "calculation": "3,669.83 + 262.13 + 7.6 = 3,939.56 (EUR million)"
+        },
+        { "nodeId": "lu-net-wealth-tax", "amount": 1101.51, "locator": "NTL 2026, sheet LU, row 147: D59A Wealth tax, 2024" },
+        { "nodeId": "lu-subscription-tax", "amount": 1317.27, "locator": "NTL 2026, sheet LU, row 107: D29H Holding tax, 2024" },
+        { "nodeId": "lu-inheritance", "amount": 134.28, "locator": "NTL 2026, sheet LU, row 166: D91A Inheritance duty, 2024" },
+        { "nodeId": "lu-vat", "amount": 5734.17, "locator": "NTL 2026, sheet LU, row 12: D211 Value added tax, 2024" },
+        {
+          "nodeId": "lu-customs",
+          "amount": 18.9,
+          "locator": "NTL 2026, sheet LU, 2024: D2121 Import duties (row 15); D2122A Levies on imported agricultural products (row 18)",
+          "calculation": "18.85 + 0.05 = 18.9 (EUR million)"
+        },
+        {
+          "nodeId": "lu-tobacco-excise",
+          "amount": 1255.8,
+          "locator": "NTL 2026, sheet LU, 2024: D2122C Excise duties on imports of tobacco (row 29); D214A Excise duties on tobacco (part on national production) (row 49)",
+          "calculation": "1,152.29 + 103.52 = 1,255.8 (EUR million)"
+        },
+        {
+          "nodeId": "lu-fuel-excise",
+          "amount": 910.33,
+          "locator": "NTL 2026, sheet LU, 2024: D2122C Autonomous excise duties on mineral oils (row 23); D2122C Excise duties on mineral oils (row 24); D2122C Supplementary tax on fuels (row 25); D2122C Tax on control of domestic fuel (row 26); D2122C Excise duty on liquefied petroleum (row 27); D2122C CO2 Tax (part fuels) (row 37); D214L CO2 Tax (part gas) (row 86)",
+          "calculation": "150.01 + 386.99 + 114.78 + 1.63 + 0.24 + 228 + 28.69 = 910.33 (EUR million)"
+        },
+        {
+          "nodeId": "lu-alcohol-excise",
+          "amount": 76.3,
+          "locator": "NTL 2026, sheet LU, 2024: D2122C Tax on the consumption of alcoholic beverages and spirits (part on imports) (row 22); D2122C Excise duty on intermediary products (row 28); D2122C Excise duties on imported alcoholic beverages (row 30); D2122C Excise duties on imports of beers (row 31); D2122C Excise duty on alcopops (row 35); D214A Excise duties on nationally produced alcoholic beverages (row 46); D214A Tax on the consumption of national alcoholic beverages and spirits (row 47); D214A Excise duties on beers (part on national production) (row 48)",
+          "calculation": "57.04 + 0.92 + 14.58 + 2.83 + 0.01 + 0.06 + 0.19 + 0.66 = 76.3 (EUR million)"
+        },
+        {
+          "nodeId": "lu-energy-water-taxes",
+          "amount": 24.8,
+          "locator": "NTL 2026, sheet LU, 2024: D214L Supplementary tax on electricity (row 81); D214L Tax on distribution of electricity (row 82); D214L Tax on production of electricity (row 83); D214L Tax on natural gas consumption (row 84); D214L Tax on water (row 85)",
+          "calculation": "1.69 + 1.2 + 4.59 + 3.93 + 13.39 = 24.8 (EUR million)"
+        },
+        {
+          "nodeId": "lu-insurance-taxes",
+          "amount": 89.69,
+          "locator": "NTL 2026, sheet LU, 2024: D214G Tax on insurance (row 67); D214G Special tax for insurers in the interest of the rescue service (row 68)",
+          "calculation": "83.8 + 5.88 = 89.69 (EUR million)"
+        },
+        {
+          "nodeId": "lu-registration-duties",
+          "amount": 204.08,
+          "locator": "NTL 2026, sheet LU, 2024: D214C Registration taxes (row 54); D214C Mortgage taxes (row 55); D214C Mortgage tax on salaries (row 56)",
+          "calculation": "170.28 + 32.92 + 0.89 = 204.08 (EUR million)"
+        },
+        {
+          "nodeId": "lu-vehicle-taxes",
+          "amount": 79.86,
+          "locator": "NTL 2026, sheet LU, 2024: D214D Car registration taxes (row 58); D29B Motor vehicle duties paid by enterprises (row 92); D29B Ship registration tax (row 93); D59F Motor vehicle duties paid by households (row 162); D59F Tax on ships (row 163)",
+          "calculation": "10.16 + 27.85 + 0.72 + 40.99 + 0.15 = 79.86 (EUR million)"
+        },
+        {
+          "nodeId": "lu-guarantee-funds",
+          "amount": 30.23,
+          "locator": "NTL 2026, sheet LU, 2024: D29H Contributions to FGDL (row 109); D29H Contributions to FRL (row 110)",
+          "calculation": "30.16 + 0.07 = 30.23 (EUR million)"
+        },
+        {
+          "nodeId": "lu-other-state",
+          "amount": 41.83,
+          "locator": "NTL 2026, sheet LU, 2024: D214F Tax on casino gambling (to central state) (row 62); D29H VAT reclassified as tax on production (row 108); D59F Stamp duties (row 158); D59F Tax concerning foreign affair departments (row 159); D59F Chancellery stamps (row 160); D59F Dog tax (row 161)",
+          "calculation": "20.11 + 2.16 + 10.62 + 6.49 + 0.95 + 1.5 = 41.83 (EUR million)"
+        }
+      ]
+    },
+    {
+      "title": "Employers’ social contributions 2024 – National Tax List (EUR million)",
+      "defaults": {
+        "denominatorId": "etat-social-employers-2024",
+        "scale": "million",
+        "currency": "EUR",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Actual compulsory contributions (subtotal)",
+        "sourceId": "ntl-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        {
+          "nodeId": "lu-social-employers",
+          "amount": 3772.53,
+          "locator": "NTL 2026, sheet LU, row 174: D611 Employers' actual social contributions, 2024"
+        }
+      ]
+    },
+    {
+      "title": "Households’ social contributions 2024 – National Tax List (EUR million)",
+      "defaults": {
+        "denominatorId": "etat-social-households-2024",
+        "scale": "million",
+        "currency": "EUR",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Actual contributions",
+        "sourceId": "ntl-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        {
+          "nodeId": "lu-social-employees",
+          "amount": 4262.99,
+          "locator": "NTL 2026, sheet LU, row 200: D613CE Compulsory employees' actual social contributions, 2024"
+        },
+        {
+          "nodeId": "lu-social-others",
+          "amount": 1303.26,
+          "locator": "NTL 2026, sheet LU, 2024: D613CN Compulsory actual social contributions by the non-employed (1) (row 204); D613CS Compulsory actual social contributions by the self-employed (1) (row 202); D613V Voluntary households' actual social contributions (row 206)",
+          "calculation": "1,227.35 + 3.89 + 72.02 = 1,303.26 (EUR million)"
+        }
+      ]
+    },
+    {
+      "title": "Municipal business tax 2024 – National Tax List (EUR million)",
+      "defaults": {
+        "denominatorId": "communes-business-tax-2024",
+        "scale": "million",
+        "currency": "EUR",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "ESA tax revenue",
+        "sourceId": "ntl-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [{ "nodeId": "lu-trade-tax", "amount": 1633.36, "locator": "NTL 2026, sheet LU, row 134: D51B Trade tax, 2024" }]
+    },
+    {
+      "title": "Other communal taxes 2024 – National Tax List (EUR million)",
+      "defaults": {
+        "denominatorId": "communes-other-taxes-2024",
+        "scale": "million",
+        "currency": "EUR",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "ESA tax revenue",
+        "sourceId": "ntl-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        {
+          "nodeId": "lu-communal-property",
+          "amount": 45.65,
+          "locator": "NTL 2026, sheet LU, 2024: D29A Taxes on ownership of lands and buildings (row 89); D29A Tax on secondary residence (row 90); D59A Tax on ownership of land without buildings (row 148)",
+          "calculation": "40.63 + 0.5 + 4.51 = 45.65 (EUR million)"
+        },
+        {
+          "nodeId": "lu-communal-other",
+          "amount": 19.3,
+          "locator": "NTL 2026, sheet LU, 2024: D214C Tax on sale of real estate (row 53); D214F Tax on casino gambling (to local government) (row 63); D214H Tax on construction in dense sectors (row 70); D214H Tourist tax (row 71); D214H Tax on licenced premises (row 72); D214E Entertainment tax (row 60)",
+          "calculation": "6.9 + 5.16 + 2 + 3.76 + 0.54 + 0.94 = 19.3 (EUR million)"
+        }
+      ]
+    }
+  ],
+  "unavailable": []
+}

@@ -1,0 +1,669 @@
+{
+  "instruments": [
+    {
+      "id": "ro-pit-wages",
+      "parentId": "statul",
+      "levelId": "statul",
+      "category": "tax",
+      "family": "income-personal",
+      "status": "current",
+      "names": { "official": "Tax on wages", "native": "Impozit pe veniturile din salarii", "common": "Income tax on wages" },
+      "taxes": { "base": "Wages and salaries of employees.", "payer": "Employees; the employer withholds it." },
+      "rate": {
+        "kind": "flat",
+        "headline": "10%",
+        "details": [
+          "A flat personal income tax rate of 10% is generally in place (PwC).",
+          "As summarised by PwC (review of 25 September 2026), not checked against the National Agency for Fiscal Administration (ANAF)."
+        ],
+        "asOf": "2025-09-25"
+      },
+      "explanation": "RON 30.3 billion in 2024: the largest income tax line.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "pwc-ro-individual", "locator": "Personal income tax rates" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "ro-pit-dividends",
+      "parentId": "statul",
+      "levelId": "statul",
+      "category": "tax",
+      "family": "income-personal",
+      "status": "current",
+      "names": { "official": "Tax on income from dividends", "native": "Impozit pe veniturile din dividende", "common": "Income tax on dividends" },
+      "taxes": { "base": "Dividends paid to individuals.", "payer": "Recipients; the payer withholds." },
+      "rate": {
+        "kind": "flat",
+        "headline": "Set by the Fiscal Code",
+        "details": ["As summarised by PwC (review of 25 September 2026), not checked against the National Agency for Fiscal Administration (ANAF)."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "RON 8.0 billion in 2024.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet RO, D51A C03" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "ro-pit-pensions",
+      "parentId": "statul",
+      "levelId": "statul",
+      "category": "tax",
+      "family": "income-personal",
+      "status": "current",
+      "names": { "official": "Tax on pension income", "native": "Impozit pe veniturile din pensii", "common": "Income tax on pensions" },
+      "taxes": { "base": "Pension income above the threshold.", "payer": "Pensioners; the pension payer withholds." },
+      "rate": { "kind": "flat", "headline": "Set by the Fiscal Code", "details": [], "asOf": "2026-10-12" },
+      "explanation": "RON 5.8 billion in 2024.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet RO, D51A C06" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "ro-pit-other",
+      "parentId": "statul",
+      "levelId": "statul",
+      "category": "tax",
+      "family": "income-personal",
+      "status": "current",
+      "names": {
+        "official": "Other personal income taxes: independent activities, rent, interest, non-residents, the unique statement and others",
+        "native": "Alte impozite pe venit (activități independente, chirii, dobânzi, declarația unică, nerezidenți)",
+        "common": "Other personal income taxes"
+      },
+      "taxes": {
+        "base": "The tax on the unique statement (RON 3.2 billion), non-residents (RON 1.4 billion), interest (RON 0.9 billion), other income (RON 0.5 billion), rent (RON 0.4 billion), independent activities, sale of bonds and intellectual rights, agricultural activities and small lines.",
+        "payer": "Individuals."
+      },
+      "rate": { "kind": "flat", "headline": "10% generally", "details": ["Thirteen lines in the list."], "asOf": "2026-10-12" },
+      "explanation": "The remaining lines of the personal income tax.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet RO, D51A" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "ro-corporate-profit-tax",
+      "parentId": "statul",
+      "levelId": "statul",
+      "category": "tax",
+      "family": "income-corporate",
+      "status": "current",
+      "names": { "official": "Tax on profits from economic operators", "native": "Impozit pe profit (operatori economici)", "common": "Corporate profit tax" },
+      "taxes": { "base": "Profit of companies and permanent establishments.", "payer": "Companies." },
+      "rate": {
+        "kind": "flat",
+        "headline": "16%",
+        "details": [
+          "The standard CIT rate is 16% for Romanian companies and permanent establishments; nightclubs and gambling pay the higher of 5% of revenue or 16% of profit (PwC).",
+          "As summarised by PwC (review of 25 September 2026), not checked against the National Agency for Fiscal Administration (ANAF)."
+        ],
+        "asOf": "2026-09-25"
+      },
+      "explanation": "RON 32.6 billion in 2024.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "pwc-ro-corporate", "locator": "Corporate income tax rates" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "ro-micro-enterprise-tax",
+      "parentId": "statul",
+      "levelId": "statul",
+      "category": "tax",
+      "family": "income-corporate",
+      "status": "current",
+      "names": {
+        "official": "Tax on the income of micro-enterprises",
+        "native": "Impozit pe veniturile microîntreprinderilor",
+        "common": "Micro-enterprise tax"
+      },
+      "taxes": { "base": "Turnover of small companies that opt for the micro-enterprise regime.", "payer": "Micro-enterprises." },
+      "rate": { "kind": "flat", "headline": "A percentage of turnover", "details": ["The rate is not extracted here."], "asOf": "2026-10-12" },
+      "explanation": "RON 3.4 billion in 2024.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet RO, D51B C07 and C08" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "ro-bank-tax",
+      "parentId": "statul",
+      "levelId": "statul",
+      "category": "tax",
+      "family": "income-corporate",
+      "status": "current",
+      "names": { "official": "Tax on profits from commercial banks", "native": "Impozit pe profitul băncilor comerciale", "common": "Profit tax of banks" },
+      "taxes": { "base": "Profit of commercial banks.", "payer": "Banks." },
+      "rate": {
+        "kind": "flat",
+        "headline": "As the corporate rate",
+        "details": ["The turnover tax on credit institutions is a separate line in the sector taxes."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "RON 3.0 billion in 2024.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet RO, D51B C02" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "ro-sector-solidarity-taxes",
+      "parentId": "statul",
+      "levelId": "statul",
+      "category": "special-levy",
+      "family": "income-corporate",
+      "status": "current",
+      "names": {
+        "official": "Additional income tax, monopoly tax in electricity and gas, turnover taxes on credit institutions and on other sectors, and the tax on natural resources",
+        "native": "Impozit adițional; taxa pe cifra de afaceri a instituțiilor de credit; taxa de solidaritate",
+        "common": "Sector and solidarity taxes"
+      },
+      "taxes": {
+        "base": "The additional income tax (RON 1.8 billion), the tax on turnover achieved by credit institutions (RON 975 million), a specific tax on turnover of economic agents in a sector (RON 475 million), the monopoly tax in the electricity and gas sector (RON 152 million), revenues from natural resources (RON 98 million) and a small negative line.",
+        "payer": "Banks, energy companies and other sectors."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Set by the sector tax laws",
+        "details": ["PwC describes a supplementary turnover tax on credit institutions with rates depending on market share."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "Six lines.",
+      "exceptions": [],
+      "legalRefs": [
+        { "sourceId": "ntl-2026", "locator": "sheet RO, D51B C15, C17–C21" },
+        { "sourceId": "pwc-ro-corporate", "locator": "Supplementary tax on credit institutions" }
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "ro-other-profit-taxes",
+      "parentId": "statul",
+      "levelId": "statul",
+      "category": "tax",
+      "family": "income-corporate",
+      "status": "current",
+      "names": {
+        "official": "Other taxes on profits and dividends of legal persons",
+        "native": "Alte impozite pe profit și dividende",
+        "common": "Other profit taxes"
+      },
+      "taxes": {
+        "base": "The tax on dividends from legal persons (RON 1,009 million), payments from the net profit of companies (RON 399 million), amounts collected for the State budget in the unique account (RON 174 million) and small lines.",
+        "payer": "Companies and non-residents."
+      },
+      "rate": { "kind": "varies", "headline": "Set by the Fiscal Code", "details": [], "asOf": "2026-10-12" },
+      "explanation": "Seven lines.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet RO, D51B C03–C06, C09, C10, C12" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "ro-gambling-taxes",
+      "parentId": "statul",
+      "levelId": "statul",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "Taxes on gambling and on revenues from lotteries, gambling and betting, and the tax for the promotion of gambling",
+        "native": "Impozit pe venituri din jocuri de noroc",
+        "common": "Gambling taxes"
+      },
+      "taxes": {
+        "base": "Gambling (RON 4.3 billion), revenues from lotteries, gambling and betting (RON 1.0 billion) and the promotion tax (RON 12 million).",
+        "payer": "Operators and winners."
+      },
+      "rate": { "kind": "varies", "headline": "Set by the Fiscal Code", "details": [], "asOf": "2026-10-12" },
+      "explanation": "RON 5.4 billion in 2024, about as much as the income tax on pensions. The list books most of it among the taxes on income.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet RO, D51D, D214F C02" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "ro-social-employers",
+      "parentId": "statul",
+      "levelId": "statul",
+      "category": "social-contribution",
+      "family": "social-security",
+      "status": "current",
+      "names": {
+        "official": "Employers’ contributions: insurance contribution for work, unemployment, health, accidents, guarantee funds and the contribution for disabled persons",
+        "native": "Contribuția asiguratorie pentru muncă și alte contribuții ale angajatorilor",
+        "common": "Employers’ contributions"
+      },
+      "taxes": {
+        "base": "The insurance contribution for work (RON 5.7 billion, RON 3.7 billion for holidays and allowances), unemployment (RON 2.1 billion), the contribution of legal persons for disabled persons not employed (RON 3.1 billion), state social insurance (RON 0.96 billion) and small lines.",
+        "payer": "Employers."
+      },
+      "rate": { "kind": "flat", "headline": "Set by the Fiscal Code", "details": ["The rates are not extracted here."], "asOf": "2026-10-12" },
+      "explanation": "Twelve lines. Since 2018 most of the burden is on the employees’ contributions.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet RO, D611" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "ro-social-insured",
+      "parentId": "statul",
+      "levelId": "statul",
+      "category": "social-contribution",
+      "family": "social-security",
+      "status": "current",
+      "names": {
+        "official": "Social security and health insurance contributions due by the insured",
+        "native": "Contribuții de asigurări sociale (CAS) și de sănătate (CASS) datorate de asigurați",
+        "common": "Contributions of the insured"
+      },
+      "taxes": {
+        "base": "Social security (pension) contributions of the insured (RON 116.5 billion), health insurance contributions (RON 58.8 billion), and small lines.",
+        "payer": "Employees, the self-employed and other insured persons."
+      },
+      "rate": { "kind": "flat", "headline": "Set by the Fiscal Code", "details": ["The rates are not extracted here."], "asOf": "2026-10-12" },
+      "explanation": "By far the largest flow in the Romanian list: more than the VAT.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet RO, D613" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "ro-vat",
+      "parentId": "statul",
+      "levelId": "statul",
+      "category": "tax",
+      "family": "general-consumption",
+      "status": "current",
+      "names": { "official": "Value added tax", "native": "Taxa pe valoarea adăugată (TVA)", "common": "VAT", "abbreviation": "TVA" },
+      "taxes": { "base": "Goods and services supplied in Romania and imports.", "payer": "Consumers; businesses charge it and claim input credits." },
+      "rate": {
+        "kind": "range",
+        "headline": "21% standard (19% in 2024); 11% reduced",
+        "details": [
+          "The 21% standard rate applies to all taxable transactions that do not qualify for a reduced rate; the 11% reduced rate applies to medicines, food and beverages (with exceptions) and other goods (PwC, review of 25 September 2026).",
+          "The standard rate was 19% in 2024, the year of the revenue; it rose to 21% in 2025.",
+          "As summarised by PwC (review of 25 September 2026), not checked against the National Agency for Fiscal Administration (ANAF)."
+        ],
+        "asOf": "2026-09-25"
+      },
+      "explanation": "RON 119.1 billion: the second-largest flow after the insured persons’ contributions.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "pwc-ro-other", "locator": "Value-added tax" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "ro-customs",
+      "parentId": "statul",
+      "levelId": "statul",
+      "category": "customs-duty",
+      "family": "trade",
+      "status": "current",
+      "names": { "official": "Customs duties and anti-dumping taxes", "native": "Taxe vamale", "common": "Customs duties" },
+      "taxes": {
+        "base": "Goods imported from outside the EU, by the Common Customs Tariff: duties from legal persons (RON 1,259 million), anti-dumping duties (RON 146 million) and small lines.",
+        "payer": "Importers."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "EU Common Customs Tariff",
+        "details": ["An EU own resource; Eurostat records it under the EU institutions."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "Collected for the EU budget.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "eurostat-taxag", "locator": "S.212, D212" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "ro-excise-energy",
+      "parentId": "statul",
+      "levelId": "statul",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "Excises on energy products and electric energy, domestic and on imports",
+        "native": "Accize pe produse energetice și energie electrică",
+        "common": "Fuel and energy excise"
+      },
+      "taxes": {
+        "base": "Energy products sold domestically (RON 19.7 billion) and imported (RON 2.8 billion), and electric energy (RON 0.2 billion).",
+        "payer": "Fuel suppliers and importers; passed on at the pump."
+      },
+      "rate": {
+        "kind": "specific",
+        "headline": "Per 1,000 litres",
+        "details": [
+          "The excise duty on unleaded gasoline in force as of 1 January 2026 is RON 3,059.80 per 1,000 litres and on leaded gasoline RON 3,598.98; a temporary dynamic mechanism reduces the diesel excise by up to 25% (PwC)."
+        ],
+        "asOf": "2026-09-25"
+      },
+      "explanation": "The largest excise.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "pwc-ro-other", "locator": "Excise duties" }, { "sourceId": "ntl-2026", "locator": "sheet RO, D214A C03 and C08, D2122C C01" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "ro-excise-tobacco",
+      "parentId": "statul",
+      "levelId": "statul",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Excises on tobacco products, domestic and on imports", "native": "Accize pe produse din tutun", "common": "Tobacco excise" },
+      "taxes": { "base": "Cigarettes and other tobacco products.", "payer": "Producers and importers; passed on in the price." },
+      "rate": { "kind": "mechanism", "headline": "Fixed by the Fiscal Code", "details": [], "asOf": "2026-10-12" },
+      "explanation": "RON 20.0 billion on domestic sales: nearly as much as the energy excise.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet RO, D214A C05, D2122C C03" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "ro-excise-alcohol-other",
+      "parentId": "statul",
+      "levelId": "statul",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "Excises on ethyl alcohol, intermediate products and other products, domestic and on imports",
+        "native": "Accize pe alcool și alte produse",
+        "common": "Alcohol and other excises"
+      },
+      "taxes": {
+        "base": "Ethyl alcohol and intermediate products (RON 1.9 billion), other products (RON 0.6 billion) and small import lines.",
+        "payer": "Producers and importers; passed on in the price."
+      },
+      "rate": {
+        "kind": "specific",
+        "headline": "Per hectolitre or per unit",
+        "details": [
+          "PwC gives the excise level for beer as RON 5.83 per hectolitre per Plato degree and for intermediate products RON 701.83 per hectolitre (2026)."
+        ],
+        "asOf": "2026-09-25"
+      },
+      "explanation": "Five lines.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet RO, D214A C04 and C07, D2122C C02, C05, C06" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "ro-drug-contribution",
+      "parentId": "statul",
+      "levelId": "statul",
+      "category": "special-levy",
+      "family": "other",
+      "status": "current",
+      "names": {
+        "official": "Contributions due for drugs financed from the National Health Insurance Fund (cost-volume contributions)",
+        "native": "Contribuția clawback",
+        "common": "Medicine cost-volume contribution"
+      },
+      "taxes": {
+        "base": "As named in the National Tax List: the revenue contribution due for drugs financed from the National Fund (RON 3,393 million, less RON 37 million in a second line) and the revenue from the cost-volume / cost-volume-result contracts (RON 1,783 million).",
+        "payer": "Pharmaceutical companies."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Set by the health insurance laws",
+        "details": ["Eurostat books these amounts under the social security funds."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "A levy on drug producers that finances the health insurance fund.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet RO, D214I C03–C05" }, { "sourceId": "eurostat-taxag", "locator": "S.1314, D214I" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "ro-modernization-energy-funds",
+      "parentId": "statul",
+      "levelId": "statul",
+      "category": "special-levy",
+      "family": "resource",
+      "status": "current",
+      "names": {
+        "official": "Contribution to the Modernization Fund, income from the contribution to the Energy Transition Fund and environmental fees",
+        "native": "Fondul pentru modernizare; Fondul pentru tranziție energetică",
+        "common": "Modernization and Energy Transition funds"
+      },
+      "taxes": {
+        "base": "The Modernization Fund (RON 5.3 billion), the Energy Transition Fund (RON 4.5 billion) and environmental fees (RON 26 million).",
+        "payer": "Energy companies and polluters."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Set by the fund laws",
+        "details": ["The revenue from the sale of emission permits (RON 2.8 billion) is not counted."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "Three lines that Eurostat books under central government.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet RO, D29F C01 and C03, D29H C09" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "ro-other-fees-state",
+      "parentId": "statul",
+      "levelId": "statul",
+      "category": "fee",
+      "family": "other",
+      "status": "current",
+      "names": {
+        "official": "Other taxes and fees, and special fees, State part",
+        "native": "Alte taxe și impozite; taxe speciale (partea statului)",
+        "common": "Other taxes and fees: State part"
+      },
+      "taxes": {
+        "base": "As named in the National Tax List: \"other taxes and fees\" (RON 1,650.5 million) and \"special fees\" (RON 1,087 million).",
+        "payer": "Businesses and individuals."
+      },
+      "rate": { "kind": "varies", "headline": "Set by law", "details": [], "asOf": "2026-10-12" },
+      "explanation": "The two lines come to RON 2,737.5 million; Eurostat books RON 1,538.4 million of them under local government and the rest, RON 1,199.1 million, under the State.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet RO, D214L C01 and C02" }, { "sourceId": "eurostat-taxag", "locator": "S.1311 and S.1313, D214L" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "ro-transfer-tax-state",
+      "parentId": "statul",
+      "levelId": "statul",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": {
+        "official": "Tax on revenues from the transfer of real estate property from personal patrimony, State part",
+        "native": "Impozit pe veniturile din transferul proprietăților imobiliare (partea statului)",
+        "common": "Real estate transfer tax: State part"
+      },
+      "taxes": { "base": "Gains from the transfer of real estate property from personal assets.", "payer": "Sellers." },
+      "rate": { "kind": "varies", "headline": "Set by the Fiscal Code", "details": [], "asOf": "2026-10-12" },
+      "explanation": "The line is RON 1,227.8 million; Eurostat books RON 486.5 million of the transaction taxes under local government and the rest under the State.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet RO, D214C C01" }, { "sourceId": "eurostat-taxag", "locator": "S.1311 and S.1313, D214C" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "ro-licence-fees-state",
+      "parentId": "statul",
+      "levelId": "statul",
+      "category": "fee",
+      "family": "other",
+      "status": "current",
+      "names": {
+        "official": "Taxes and tariffs for licences and operating permits, State part",
+        "native": "Taxe pentru licențe și autorizații de funcționare (partea statului)",
+        "common": "Licence fees: State part"
+      },
+      "taxes": { "base": "Licences and operating permits.", "payer": "Businesses." },
+      "rate": { "kind": "varies", "headline": "Set by law", "details": [], "asOf": "2026-10-12" },
+      "explanation": "The line is RON 846.3 million; Eurostat books RON 362.6 million of the \"other taxes on production\" of this kind under local government.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet RO, D29E C01" }, { "sourceId": "eurostat-taxag", "locator": "S.1311 and S.1313, D29E" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "ro-small-state-taxes",
+      "parentId": "statul",
+      "levelId": "statul",
+      "category": "fee",
+      "family": "other",
+      "status": "current",
+      "names": {
+        "official": "Contributions to the Bank Deposit Guarantee Fund and National Resolution Fund, tax on mineral extraction, special tax on high-value property and other small lines",
+        "native": "Contribuții la Fondul de garantare a depozitelor și Fondul național de rezoluție",
+        "common": "Bank funds and other small taxes"
+      },
+      "taxes": {
+        "base": "The National Resolution Fund (RON 190 million), the Bank Deposit Guarantee Fund (RON 150 million), the tax on mineral extraction (RON 33 million), the special tax on immovable and movable property of high value (RON 15 million) and small lines.",
+        "payer": "Banks and businesses."
+      },
+      "rate": { "kind": "varies", "headline": "Set by law", "details": [], "asOf": "2026-10-12" },
+      "explanation": "Nine small lines.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet RO, D29H, D214J, D214D, D29A C05, D51E, D214H C06" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "ro-building-tax",
+      "parentId": "local",
+      "levelId": "local",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "Tax on buildings (held by legal persons and by individuals)", "native": "Impozit pe clădiri", "common": "Building tax" },
+      "taxes": {
+        "base": "Buildings: those held by legal persons (RON 4,050.6 million) and by individuals (RON 1,664.0 million), and a small building tax line.",
+        "payer": "Owners of buildings."
+      },
+      "rate": { "kind": "range", "headline": "Set by each local council within a range", "details": ["The list does not give rates."], "asOf": "2026-10-12" },
+      "explanation": "The local governments’ largest tax.",
+      "exceptions": [],
+      "legalRefs": [
+        { "sourceId": "ntl-2026", "locator": "sheet RO, D29A C01 and C04, D59A C02" },
+        { "sourceId": "eurostat-taxag", "locator": "S.1313, D29A and D59A" }
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "ro-land-tax",
+      "parentId": "local",
+      "levelId": "local",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "Tax on land (legal persons, individuals, land outside towns)", "native": "Impozit pe teren", "common": "Land tax" },
+      "taxes": {
+        "base": "Land held by legal persons (RON 509.9 million), land held by individuals (RON 766.3 million) and land out of town (RON 735.6 million).",
+        "payer": "Landowners."
+      },
+      "rate": { "kind": "range", "headline": "Set by each local council within a range", "details": [], "asOf": "2026-10-12" },
+      "explanation": "Three lines.",
+      "exceptions": [],
+      "legalRefs": [
+        { "sourceId": "ntl-2026", "locator": "sheet RO, D29A C02, D59A C01 and C03" },
+        { "sourceId": "eurostat-taxag", "locator": "S.1313, D29A and D59A" }
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "ro-local-vehicle-taxes",
+      "parentId": "local",
+      "levelId": "local",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "Motor vehicle taxes (individuals and legal persons) and other taxes related to the use of goods",
+        "native": "Impozit pe mijloacele de transport",
+        "common": "Vehicle taxes"
+      },
+      "taxes": {
+        "base": "Vehicles owned by individuals (RON 1,654.9 million) and legal persons (RON 735.1 million) and a line for the use of goods and authorisations (RON 189.3 million).",
+        "payer": "Vehicle owners."
+      },
+      "rate": { "kind": "range", "headline": "By engine capacity, set locally", "details": [], "asOf": "2026-10-12" },
+      "explanation": "Eurostat books these amounts under local government.",
+      "exceptions": [],
+      "legalRefs": [
+        { "sourceId": "ntl-2026", "locator": "sheet RO, D59D C01, D29B C01 and C03" },
+        { "sourceId": "eurostat-taxag", "locator": "S.1313, D29B and D59D" }
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "ro-other-fees-local",
+      "parentId": "local",
+      "levelId": "local",
+      "category": "fee",
+      "family": "other",
+      "status": "current",
+      "names": {
+        "official": "Other taxes and fees, and special fees, local part",
+        "native": "Alte taxe și impozite locale; taxe speciale (partea autorităților locale)",
+        "common": "Other taxes and fees: local part"
+      },
+      "taxes": { "base": "The same two lines as the State part.", "payer": "Businesses and individuals." },
+      "rate": { "kind": "varies", "headline": "Set by each local council", "details": [], "asOf": "2026-10-12" },
+      "explanation": "The part of the \"other taxes and fees\" that Eurostat’s accounts record under local government.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet RO, D214L" }, { "sourceId": "eurostat-taxag", "locator": "S.1313, D214L" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "ro-transfer-tax-local",
+      "parentId": "local",
+      "levelId": "local",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": {
+        "official": "Tax on revenues from the transfer of real estate property, local part",
+        "native": "Impozit pe veniturile din transferul proprietăților imobiliare (partea autorităților locale)",
+        "common": "Real estate transfer tax: local part"
+      },
+      "taxes": { "base": "The same line as the State part.", "payer": "Sellers." },
+      "rate": { "kind": "varies", "headline": "Set by the Fiscal Code", "details": [], "asOf": "2026-10-12" },
+      "explanation": "The part of the line that Eurostat’s accounts record under local government.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet RO, D214C C01" }, { "sourceId": "eurostat-taxag", "locator": "S.1313, D214C" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "ro-licence-fees-local",
+      "parentId": "local",
+      "levelId": "local",
+      "category": "fee",
+      "family": "other",
+      "status": "current",
+      "names": {
+        "official": "Taxes and tariffs for licences and operating permits, local part",
+        "native": "Taxe pentru licențe și autorizații (partea autorităților locale)",
+        "common": "Licence fees: local part"
+      },
+      "taxes": { "base": "The same line as the State part.", "payer": "Businesses." },
+      "rate": { "kind": "varies", "headline": "Set by each local council", "details": [], "asOf": "2026-10-12" },
+      "explanation": "The part of the line that Eurostat’s accounts record under local government.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet RO, D29E C01" }, { "sourceId": "eurostat-taxag", "locator": "S.1313, D29E" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "ro-local-small-taxes",
+      "parentId": "local",
+      "levelId": "local",
+      "category": "tax",
+      "family": "other",
+      "status": "current",
+      "names": {
+        "official": "Stamp taxes, taxes on specific services, hotel and entertainment taxes and other taxes and fees on individuals",
+        "native": "Taxa de timbru; taxa hotelieră; taxa pe spectacole",
+        "common": "Stamp, hotel, entertainment and other local taxes"
+      },
+      "taxes": {
+        "base": "Stamp taxes (RON 415.5 million), other taxes on specific services (RON 66.6 million), taxes related to hotel activity (RON 11 million), the tax on entertainment (RON 20 million) and other taxes and fees on individuals (RON 133.6 million).",
+        "payer": "Residents, visitors and businesses."
+      },
+      "rate": { "kind": "range", "headline": "Set by each local council", "details": [], "asOf": "2026-10-12" },
+      "explanation": "Six lines.",
+      "exceptions": [],
+      "legalRefs": [
+        { "sourceId": "ntl-2026", "locator": "sheet RO, D214B C01 and C03, D214H C02 and C03, D214E, D59F C01" },
+        { "sourceId": "eurostat-taxag", "locator": "S.1313, D214B and D214H" }
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  ]
+}

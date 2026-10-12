@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "referenceYear": 2023,
+  "currency": "NOK",
+  "scale": "million",
+  "taxToGdp": 41.6,
+  "basis": "OECD attribution to sub-sectors of general government (Interpretative Guide, section A.12)",
+  "levels": [
+    {
+      "key": "central",
+      "label": "Central government",
+      "folioLevelIds": ["staten"],
+      "total": 1855723,
+      "byType": { "income": 872729, "socialSecurity": 471103, "payroll": 2589, "property": 22220, "goodsServices": 487082, "other": 0 },
+      "note": "The National Insurance contributions are drawn under the State; the OECD shows Norway’s social security contributions within central government."
+    },
+    {
+      "key": "local",
+      "label": "Local governments",
+      "folioLevelIds": ["kommunene"],
+      "total": 268099,
+      "byType": { "income": 228921, "socialSecurity": 0, "payroll": 0, "property": 37526, "goodsServices": 1652, "other": 0 }
+    }
+  ],
+  "sourceIds": ["oecd-rs-2025-subsectors", "oecd-rs-2025-levels"],
+  "subnational": {
+    "ownSourceTaxShareOfRevenue": 36.2,
+    "grantsShareOfRevenue": 47.5,
+    "year": 2020,
+    "sourceId": "sng-wofi-profile",
+    "note": "Tariffs and fees 13.4%, property income 2.5%, other 0.4% of subnational revenue."
+  },
+  "notes": []
+}

@@ -1,0 +1,122 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "luxembourg": {
+      "x": 800,
+      "y": 500
+    },
+    "etat": {
+      "x": 509,
+      "y": 432
+    },
+    "lu-wage-tax": {
+      "x": 853,
+      "y": 803
+    },
+    "lu-corporation-tax": {
+      "x": 468,
+      "y": 751
+    },
+    "lu-vat": {
+      "x": 289,
+      "y": 516
+    },
+    "lu-alcohol-excise": {
+      "x": 429,
+      "y": 273
+    },
+    "lu-vehicle-taxes": {
+      "x": 785,
+      "y": 170
+    },
+    "lu-social-employees": {
+      "x": 1166,
+      "y": 269
+    },
+    "lu-income-tax-assessed": {
+      "x": 581,
+      "y": 922
+    },
+    "lu-net-wealth-tax": {
+      "x": 167,
+      "y": 685
+    },
+    "lu-customs": {
+      "x": 152,
+      "y": 369
+    },
+    "lu-energy-water-taxes": {
+      "x": 527,
+      "y": 123
+    },
+    "lu-guarantee-funds": {
+      "x": 1071,
+      "y": 123
+    },
+    "lu-social-others": {
+      "x": 1449,
+      "y": 392
+    },
+    "lu-solidarity-individuals": {
+      "x": 883,
+      "y": 926
+    },
+    "lu-subscription-tax": {
+      "x": 112,
+      "y": 852
+    },
+    "lu-tobacco-excise": {
+      "x": 81,
+      "y": 274
+    },
+    "lu-insurance-taxes": {
+      "x": 609,
+      "y": 32
+    },
+    "lu-other-state": {
+      "x": 1414,
+      "y": 96
+    },
+    "lu-capital-income-withholding": {
+      "x": 344,
+      "y": 922
+    },
+    "lu-inheritance": {
+      "x": 89,
+      "y": 583
+    },
+    "lu-fuel-excise": {
+      "x": 123,
+      "y": 33
+    },
+    "lu-registration-duties": {
+      "x": 1108,
+      "y": 32
+    },
+    "lu-social-employers": {
+      "x": 1507,
+      "y": 277
+    },
+    "communes": {
+      "x": 1091,
+      "y": 568
+    },
+    "lu-trade-tax": {
+      "x": 1231,
+      "y": 420
+    },
+    "lu-communal-property": {
+      "x": 1274,
+      "y": 605
+    },
+    "lu-communal-other": {
+      "x": 1162,
+      "y": 726
+    }
+  },
+  "radii": {}
+}

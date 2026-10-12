@@ -1,0 +1,1996 @@
+{
+ "country": "CZ",
+ "source": "NTL edition 2026 web.xlsx (Commission, DG TAXUD / Eurostat)",
+ "unit": "million national currency",
+ "sector": "S.13 + S.212",
+ "totals": {
+  "D2": {
+   "name": "Taxes on production and imports",
+   "v2024": 868930,
+   "v2023": 817020,
+   "row": 9
+  },
+  "D21": {
+   "name": "Taxes on products",
+   "v2024": 820970,
+   "v2023": 764105,
+   "row": 10
+  },
+  "D211": {
+   "name": "Value added type taxes (VAT)",
+   "v2024": 586901,
+   "v2023": 572701,
+   "row": 11
+  },
+  "D212": {
+   "name": "Taxes and duties on imports excluding VAT",
+   "v2024": 104999,
+   "v2023": 95578,
+   "row": 13
+  },
+  "D2121": {
+   "name": "Import duties",
+   "v2024": 11605,
+   "v2023": 11260,
+   "row": 14
+  },
+  "D2122": {
+   "name": "Taxes on imports, excluding VAT and import duties",
+   "v2024": 93394,
+   "v2023": 84318,
+   "row": 16
+  },
+  "D2122A": {
+   "name": "Levies on imported agricultural products",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 17
+  },
+  "D2122B": {
+   "name": "Monetary compensatory amounts on imports",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 19
+  },
+  "D2122C": {
+   "name": "Excise duties",
+   "v2024": 93394,
+   "v2023": 84318,
+   "row": 20
+  },
+  "D2122D": {
+   "name": "General sales taxes",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 29
+  },
+  "D2122E": {
+   "name": "Taxes on specific services",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 30
+  },
+  "D2122F": {
+   "name": "Profits of import monopolies",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 31
+  },
+  "D214": {
+   "name": "Taxes on products, except VAT and import taxes",
+   "v2024": 129070,
+   "v2023": 95826,
+   "row": 32
+  },
+  "D214A": {
+   "name": "Excise duties and consumption taxes",
+   "v2024": 103656,
+   "v2023": 73955,
+   "row": 33
+  },
+  "D214B": {
+   "name": "Stamp taxes",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 45
+  },
+  "D214C": {
+   "name": "Taxes on financial and capital transactions",
+   "v2024": 1076,
+   "v2023": 1115,
+   "row": 47
+  },
+  "D214D": {
+   "name": "Car registration taxes",
+   "v2024": 422,
+   "v2023": 446,
+   "row": 51
+  },
+  "D214E": {
+   "name": "Taxes on entertainment",
+   "v2024": 88,
+   "v2023": 77,
+   "row": 54
+  },
+  "D214F": {
+   "name": "Taxes on lotteries, gambling and betting",
+   "v2024": 21860,
+   "v2023": 18520,
+   "row": 57
+  },
+  "D214G": {
+   "name": "Taxes on insurance premiums",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 59
+  },
+  "D214H": {
+   "name": "Other taxes on specific services",
+   "v2024": 1945,
+   "v2023": 1685,
+   "row": 60
+  },
+  "D214I": {
+   "name": "General sales or turnover taxes",
+   "v2024": 23,
+   "v2023": 28,
+   "row": 67
+  },
+  "D214J": {
+   "name": "Profits of fiscal monopolies",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 70
+  },
+  "D214K": {
+   "name": "Export duties and monetary comp. amounts on exports",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 71
+  },
+  "D214L": {
+   "name": "Other taxes on products n.e.c.",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 72
+  },
+  "D29": {
+   "name": "Other taxes on production",
+   "v2024": 47960,
+   "v2023": 52915,
+   "row": 73
+  },
+  "D29A": {
+   "name": "Taxes on land, buildings or other structures",
+   "v2024": 19791,
+   "v2023": 10548,
+   "row": 74
+  },
+  "D29B": {
+   "name": "Taxes on the use of fixed assets",
+   "v2024": 1196,
+   "v2023": 1006,
+   "row": 80
+  },
+  "D29C": {
+   "name": "Total wage bill and payroll taxes",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 83
+  },
+  "D29D": {
+   "name": "Taxes on international transactions",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 84
+  },
+  "D29E": {
+   "name": "Business and professional licences",
+   "v2024": 745,
+   "v2023": 701,
+   "row": 85
+  },
+  "D29F": {
+   "name": "Taxes on pollution",
+   "v2024": 19111,
+   "v2023": 17202,
+   "row": 88
+  },
+  "D29G": {
+   "name": "Under-compensation of VAT (flat rate system)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 95
+  },
+  "D29H": {
+   "name": "Other taxes on production n.e.c.",
+   "v2024": 7117,
+   "v2023": 23458,
+   "row": 96
+  },
+  "D5": {
+   "name": "Current taxes on income wealth, etc.",
+   "v2024": 684384,
+   "v2023": 611941,
+   "row": 105
+  },
+  "D51": {
+   "name": "Taxes on income",
+   "v2024": 671269,
+   "v2023": 600626,
+   "row": 106
+  },
+  "D51M": {
+   "name": "Taxes on individual or household income including holding gains",
+   "v2024": 312016,
+   "v2023": 279437,
+   "row": 107
+  },
+  "D51A": {
+   "name": "Taxes on individual or household income excluding holding gains(1)",
+   "v2024": 312016,
+   "v2023": 279437,
+   "row": 111
+  },
+  "D51C1": {
+   "name": "Taxes on individual or household holding gains(1)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 115
+  },
+  "D51O": {
+   "name": "Taxes on the income or profits of corporations including holding gains",
+   "v2024": 359253,
+   "v2023": 321189,
+   "row": 116
+  },
+  "D51B": {
+   "name": "Taxes on the income or profits of corporations excluding holding gains(1)",
+   "v2024": 359253,
+   "v2023": 321189,
+   "row": 122
+  },
+  "D51C2": {
+   "name": "Taxes on holding gains of corporations(1)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 128
+  },
+  "D51C3": {
+   "name": "Other taxes on holding gains(1)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 129
+  },
+  "D51C": {
+   "name": "Taxes on holding gains",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 130
+  },
+  "D51D": {
+   "name": "Taxes on winnings from lottery or gambling",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 131
+  },
+  "D51E": {
+   "name": "Other taxes on income n.e.c.",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 132
+  },
+  "D59": {
+   "name": "Other current taxes",
+   "v2024": 13115,
+   "v2023": 11315,
+   "row": 133
+  },
+  "D59A": {
+   "name": "Current taxes on capital",
+   "v2024": 3323,
+   "v2023": 2058,
+   "row": 134
+  },
+  "D59B": {
+   "name": "Poll taxes",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 136
+  },
+  "D59C": {
+   "name": "Expenditure taxes",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 137
+  },
+  "D59D": {
+   "name": "Payments by households for licences",
+   "v2024": 7546,
+   "v2023": 6945,
+   "row": 138
+  },
+  "D59E": {
+   "name": "Taxes on international transactions",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 140
+  },
+  "D59F": {
+   "name": "Other current taxes n.e.c.",
+   "v2024": 2246,
+   "v2023": 2312,
+   "row": 141
+  },
+  "D91": {
+   "name": "Capital taxes",
+   "v2024": 24,
+   "v2023": 23,
+   "row": 146
+  },
+  "D91A": {
+   "name": "Taxes on capital transfers",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 147
+  },
+  "D91B": {
+   "name": "Capital levies",
+   "v2024": 24,
+   "v2023": 23,
+   "row": 150
+  },
+  "D91C": {
+   "name": "Other capital taxes n.e.c.",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 152
+  },
+  "D61": {
+   "name": "Net social contributions",
+   "v2024": 1270003,
+   "v2023": 1169314,
+   "row": 154
+  },
+  "D611": {
+   "name": "Employers' actual social contributions",
+   "v2024": 772199,
+   "v2023": 722261,
+   "row": 155
+  },
+  "D611C": {
+   "name": "Compulsory employers' actual social contributions",
+   "v2024": 772172,
+   "v2023": 722236,
+   "row": 156
+  },
+  "D611V": {
+   "name": "Voluntary employers' actual social contributions",
+   "v2024": 27,
+   "v2023": 25,
+   "row": 162
+  },
+  "D61SC": {
+   "name": "Social insurance scheme service charges(3)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 164
+  },
+  "D6111": {
+   "name": "Employers' actual pension contributions (1)",
+   "v2024": 481167,
+   "v2023": 450304,
+   "row": 165
+  },
+  "D6112": {
+   "name": "Employers' actual non-pension contributions (1)",
+   "v2024": 291032,
+   "v2023": 271957,
+   "row": 167
+  },
+  "D612": {
+   "name": "Employers' imputed social contributions",
+   "v2024": 3470,
+   "v2023": 3630,
+   "row": 172
+  },
+  "D6121": {
+   "name": "Employers' imputed pension contributions (1)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 173
+  },
+  "D6122": {
+   "name": "Employers' imputed non-pension contributions (1)",
+   "v2024": 3470,
+   "v2023": 3630,
+   "row": 174
+  },
+  "D613": {
+   "name": "Households' actual social contributions",
+   "v2024": 494334,
+   "v2023": 443423,
+   "row": 176
+  },
+  "D6131": {
+   "name": "Households' actual pension contributions (1)",
+   "v2024": 188438,
+   "v2023": 172698,
+   "row": 177
+  },
+  "D6132": {
+   "name": "Households' actual non-pension contributions (1)",
+   "v2024": 305896,
+   "v2023": 270725,
+   "row": 181
+  },
+  "D613C": {
+   "name": "Compulsory households' actual social contributions",
+   "v2024": 493601,
+   "v2023": 442756,
+   "row": 190
+  },
+  "D613CE": {
+   "name": "Compulsory employees' actual social contributions",
+   "v2024": 261271,
+   "v2023": 231814,
+   "row": 191
+  },
+  "D613CS": {
+   "name": "Compulsory actual social contributions by the self-employed (1)",
+   "v2024": 80874,
+   "v2023": 72232,
+   "row": 196
+  },
+  "D613CN": {
+   "name": "Compulsory actual social contributions by the non-employed (1)",
+   "v2024": 151456,
+   "v2023": 138710,
+   "row": 200
+  },
+  "D613V": {
+   "name": "Voluntary households' actual social contributions",
+   "v2024": 733,
+   "v2023": 667,
+   "row": 202
+  },
+  "D614": {
+   "name": "Households' social contributions supplements(3)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 206
+  },
+  "D6141": {
+   "name": "Households' pension contributions supplements (1)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 207
+  },
+  "D6142": {
+   "name": "Households' non-pension contributions supplements (1)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 208
+  },
+  "D995": {
+   "name": "Capital transfers from general government to relevant sectors representing taxes and social contributions assessed but unlikely to be collected (2)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 209
+  },
+  "D995A": {
+   "name": "Taxes on products assessed but unlikely to be collected (2)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 210
+  },
+  "D995B": {
+   "name": "Other taxes on production assessed but unlikely to be collected (2)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 211
+  },
+  "D995C": {
+   "name": "Taxes on income assessed but unlikely to be collected (2)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 212
+  },
+  "D995D": {
+   "name": "Other current taxes assessed but unlikely to be collected (2)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 213
+  },
+  "D995E": {
+   "name": "Employers' actual social contributions assessed but unlikely to be collected (2)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 214
+  },
+  "D995F": {
+   "name": "Households' actual social contributions assessed but unlikely to be collected (2)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 215
+  },
+  "D995FE": {
+   "name": "Employees' actual social contributions assessed but unlikely to be collected (2)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 216
+  },
+  "D995FS": {
+   "name": "Actual social contributions by self-employed persons assessed but unlikely to be collected (1)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 217
+  },
+  "D995FN": {
+   "name": "Actual social contributions by non-employed persons assessed but unlikely to be collected (1)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 218
+  },
+  "D995G": {
+   "name": "Capital taxes assessed but unlikely to be collected (2)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 219
+  }
+ },
+ "lines": [
+  {
+   "key": "D211:C01",
+   "code": "D211",
+   "sub": "C01",
+   "nat": "Daň z přidané hodnoty",
+   "en": "Custom Label - 01",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 586901,
+   "v2023": 572701,
+   "row": 12
+  },
+  {
+   "key": "D2121:C01",
+   "code": "D2121",
+   "sub": "C01",
+   "nat": "Clo",
+   "en": "Custom Label - 01",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 11605,
+   "v2023": 11260,
+   "row": 15
+  },
+  {
+   "key": "D2122A:C01",
+   "code": "D2122A",
+   "sub": "C01",
+   "nat": "Zemědělské clo",
+   "en": "Custom Label - 01",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 18
+  },
+  {
+   "key": "D2122C:C01",
+   "code": "D2122C",
+   "sub": "C01",
+   "nat": "Spotřební daň z minerálních olejů",
+   "en": "Custom Label - 01",
+   "fn": "C",
+   "at": "E",
+   "v2024": 52700,
+   "v2023": 47270,
+   "row": 21
+  },
+  {
+   "key": "D2122C:C02",
+   "code": "D2122C",
+   "sub": "C02",
+   "nat": "Spotřební daň z lihu",
+   "en": "Custom Label - 02",
+   "fn": "C",
+   "at": "AT",
+   "v2024": 3279,
+   "v2023": 3677,
+   "row": 22
+  },
+  {
+   "key": "D2122C:C03",
+   "code": "D2122C",
+   "sub": "C03",
+   "nat": "Spotřební daň z piva",
+   "en": "Custom Label - 03",
+   "fn": "C",
+   "at": "AT",
+   "v2024": 1580,
+   "v2023": 1582,
+   "row": 23
+  },
+  {
+   "key": "D2122C:C04",
+   "code": "D2122C",
+   "sub": "C04",
+   "nat": "Spotřební daň z vína",
+   "en": "Custom Label - 04",
+   "fn": "C",
+   "at": "AT",
+   "v2024": 178,
+   "v2023": 168,
+   "row": 24
+  },
+  {
+   "key": "D2122C:C05",
+   "code": "D2122C",
+   "sub": "C05",
+   "nat": "Spotřební daň z tabáku",
+   "en": "Custom Label - 05",
+   "fn": "C",
+   "at": "AT",
+   "v2024": 35344,
+   "v2023": 31337,
+   "row": 25
+  },
+  {
+   "key": "D2122C:C06",
+   "code": "D2122C",
+   "sub": "C06",
+   "nat": "Daň z elektřiny",
+   "en": "Custom Label - 06",
+   "fn": "C",
+   "at": "E",
+   "v2024": 94,
+   "v2023": 92,
+   "row": 26
+  },
+  {
+   "key": "D2122C:C07",
+   "code": "D2122C",
+   "sub": "C07",
+   "nat": "Daň ze zemního plynu",
+   "en": "Custom Label - 07",
+   "fn": "C",
+   "at": "E",
+   "v2024": 102,
+   "v2023": 85,
+   "row": 27
+  },
+  {
+   "key": "D2122C:C08",
+   "code": "D2122C",
+   "sub": "C08",
+   "nat": "Daň z pevných paliv",
+   "en": "Custom Label - 08",
+   "fn": "C",
+   "at": "E",
+   "v2024": 117,
+   "v2023": 107,
+   "row": 28
+  },
+  {
+   "key": "D214A:C01",
+   "code": "D214A",
+   "sub": "C01",
+   "nat": "Spotřební daň z minerálních olejů",
+   "en": "Custom Label - 01",
+   "fn": "C",
+   "at": "E",
+   "v2024": 39734,
+   "v2023": 35639,
+   "row": 34
+  },
+  {
+   "key": "D214A:C02",
+   "code": "D214A",
+   "sub": "C02",
+   "nat": "Spotřební daň z lihu",
+   "en": "Custom Label - 02",
+   "fn": "C",
+   "at": "AT",
+   "v2024": 6018,
+   "v2023": 6713,
+   "row": 35
+  },
+  {
+   "key": "D214A:C03",
+   "code": "D214A",
+   "sub": "C03",
+   "nat": "Spotřební daň z piva",
+   "en": "Custom Label - 03",
+   "fn": "C",
+   "at": "AT",
+   "v2024": 2900,
+   "v2023": 2889,
+   "row": 36
+  },
+  {
+   "key": "D214A:C04",
+   "code": "D214A",
+   "sub": "C04",
+   "nat": "Spotřební daň z vína",
+   "en": "Custom Label - 04",
+   "fn": "C",
+   "at": "AT",
+   "v2024": 328,
+   "v2023": 307,
+   "row": 37
+  },
+  {
+   "key": "D214A:C05",
+   "code": "D214A",
+   "sub": "C05",
+   "nat": "Spotřební daň z tabáku",
+   "en": "Custom Label - 05",
+   "fn": "C",
+   "at": "AT",
+   "v2024": 24260,
+   "v2023": 21510,
+   "row": 38
+  },
+  {
+   "key": "D214A:C06",
+   "code": "D214A",
+   "sub": "C06",
+   "nat": "Dávky z cukru",
+   "en": "Custom Label - 06",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 39
+  },
+  {
+   "key": "D214A:C07",
+   "code": "D214A",
+   "sub": "C07",
+   "nat": "Daň z elektřiny",
+   "en": "Custom Label - 07",
+   "fn": "C",
+   "at": "E",
+   "v2024": 1405,
+   "v2023": 1369,
+   "row": 40
+  },
+  {
+   "key": "D214A:C08",
+   "code": "D214A",
+   "sub": "C08",
+   "nat": "Daň ze zemního plynu",
+   "en": "Custom Label - 08",
+   "fn": "C",
+   "at": "E",
+   "v2024": 1530,
+   "v2023": 1274,
+   "row": 41
+  },
+  {
+   "key": "D214A:C09",
+   "code": "D214A",
+   "sub": "C09",
+   "nat": "Daň z pevných paliv",
+   "en": "Custom Label - 09",
+   "fn": "C",
+   "at": "E",
+   "v2024": 159,
+   "v2023": 145,
+   "row": 42
+  },
+  {
+   "key": "D214A:C10",
+   "code": "D214A",
+   "sub": "C10",
+   "nat": "Odvod z elektřiny ze slunečního záření",
+   "en": "Custom Label - 10",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 4869,
+   "v2023": 4109,
+   "row": 43
+  },
+  {
+   "key": "D214A:C11",
+   "code": "D214A",
+   "sub": "C11",
+   "nat": "Daň na energii z obnovitelných zdrojů",
+   "en": "Custom Label - 11",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 22453,
+   "v2023": 0,
+   "row": 44
+  },
+  {
+   "key": "D214B:C01",
+   "code": "D214B",
+   "sub": "C01",
+   "nat": "Poplatky vybírané Vinařským fondem",
+   "en": "Custom Label - 01",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 46
+  },
+  {
+   "key": "D214C:C01",
+   "code": "D214C",
+   "sub": "C01",
+   "nat": "Odvody za odnětí půdy ze zemědělského půdního fondu",
+   "en": "Custom Label - 01",
+   "fn": "KS",
+   "at": "O",
+   "v2024": 924,
+   "v2023": 1033,
+   "row": 48
+  },
+  {
+   "key": "D214C:C02",
+   "code": "D214C",
+   "sub": "C02",
+   "nat": "Poplatky za odnětí pozemků plnění funkcí lesa",
+   "en": "Custom Label - 02",
+   "fn": "KS",
+   "at": "O",
+   "v2024": 152,
+   "v2023": 82,
+   "row": 49
+  },
+  {
+   "key": "D214C:C03",
+   "code": "D214C",
+   "sub": "C03",
+   "nat": "Daň z nabytí nemovitých věcí",
+   "en": "Custom Label - 03",
+   "fn": "KS",
+   "at": "O",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 50
+  },
+  {
+   "key": "D214D:C01",
+   "code": "D214D",
+   "sub": "C01",
+   "nat": "Poplatek za registraci vozidel - správní poplatek",
+   "en": "Custom Label - 01",
+   "fn": "C",
+   "at": "T",
+   "v2024": 358,
+   "v2023": 363,
+   "row": 52
+  },
+  {
+   "key": "D214D:C02",
+   "code": "D214D",
+   "sub": "C02",
+   "nat": "Poplatky na podporu sběru, zpracování, využití a odstranění vybraných autovraků",
+   "en": "Custom Label - 02",
+   "fn": "C",
+   "at": "P",
+   "v2024": 64,
+   "v2023": 83,
+   "row": 53
+  },
+  {
+   "key": "D214E:C01",
+   "code": "D214E",
+   "sub": "C01",
+   "nat": "Poplatky vybírané Státním fondem kinematografie",
+   "en": "Custom Label - 01",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 55
+  },
+  {
+   "key": "D214E:C02",
+   "code": "D214E",
+   "sub": "C02",
+   "nat": "Poplatek ze vstupného",
+   "en": "Custom Label - 02",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 88,
+   "v2023": 77,
+   "row": 56
+  },
+  {
+   "key": "D214F:C01",
+   "code": "D214F",
+   "sub": "C01",
+   "nat": "Odvod výtěžku z provozování loterií",
+   "en": "Custom Label - 01",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 21860,
+   "v2023": 18520,
+   "row": 58
+  },
+  {
+   "key": "D214H:C01",
+   "code": "D214H",
+   "sub": "C01",
+   "nat": "Poplatek za lázeňský nebo rekreační pobyt",
+   "en": "Custom Label - 01",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 1715,
+   "v2023": 1468,
+   "row": 61
+  },
+  {
+   "key": "D214H:C02",
+   "code": "D214H",
+   "sub": "C02",
+   "nat": "Poplatek z ubytovací kapacity",
+   "en": "Custom Label - 02",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 62
+  },
+  {
+   "key": "D214H:C03",
+   "code": "D214H",
+   "sub": "C03",
+   "nat": "Ostatní daně a poplatky z činností a služeb jinde neuvedené",
+   "en": "Custom Label - 03",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 63
+  },
+  {
+   "key": "D214H:C04",
+   "code": "D214H",
+   "sub": "C04",
+   "nat": "Poplatek z reklamy",
+   "en": "Custom Label - 04",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 64
+  },
+  {
+   "key": "D214H:C05",
+   "code": "D214H",
+   "sub": "C05",
+   "nat": "Poplatky z prodeje alkoholických nápojů a tabákových výrobků",
+   "en": "Custom Label - 05",
+   "fn": "C",
+   "at": "AT",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 65
+  },
+  {
+   "key": "D214H:C06",
+   "code": "D214H",
+   "sub": "C06",
+   "nat": "Poplatky z reklamy",
+   "en": "Custom Label - 06",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 230,
+   "v2023": 217,
+   "row": 66
+  },
+  {
+   "key": "D214I:C01",
+   "code": "D214I",
+   "sub": "C01",
+   "nat": "Poplatky vybírané Vinařským fondem",
+   "en": "Custom Label - 01",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 23,
+   "v2023": 28,
+   "row": 68
+  },
+  {
+   "key": "D214I:C02",
+   "code": "D214I",
+   "sub": "C02",
+   "nat": "odvod z nadměrných příjmů poprvé za rok 2022",
+   "en": "Custom Label - 02",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 69
+  },
+  {
+   "key": "D29A:C01",
+   "code": "D29A",
+   "sub": "C01",
+   "nat": "Daň z nemovitostí",
+   "en": "Custom Label - 01",
+   "fn": "KS",
+   "at": "RP",
+   "v2024": 19657,
+   "v2023": 10411,
+   "row": 75
+  },
+  {
+   "key": "D29A:C02",
+   "code": "D29A",
+   "sub": "C02",
+   "nat": "Odvody za odnětí půdy ze zemědělského půdního fondu",
+   "en": "Custom Label - 02",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": 103,
+   "v2023": 115,
+   "row": 76
+  },
+  {
+   "key": "D29A:C03",
+   "code": "D29A",
+   "sub": "C03",
+   "nat": "Poplatky za odnětí pozemků plnění funkcí lesa",
+   "en": "Custom Label - 03",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": 17,
+   "v2023": 9,
+   "row": 77
+  },
+  {
+   "key": "D29A:C04",
+   "code": "D29A",
+   "sub": "C04",
+   "nat": "Poplatek za povolení k vjezdu do vybraných míst",
+   "en": "Custom Label - 04",
+   "fn": "KS",
+   "at": "T",
+   "v2024": 9,
+   "v2023": 8,
+   "row": 78
+  },
+  {
+   "key": "D29A:C05",
+   "code": "D29A",
+   "sub": "C05",
+   "nat": "Poplatky vybírané Vinařským fondem",
+   "en": "Custom Label - 05",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": 5,
+   "v2023": 5,
+   "row": 79
+  },
+  {
+   "key": "D29B:C01",
+   "code": "D29B",
+   "sub": "C01",
+   "nat": "Silniční daň",
+   "en": "Custom Label - 01",
+   "fn": "KS",
+   "at": "T",
+   "v2024": 1196,
+   "v2023": 1006,
+   "row": 81
+  },
+  {
+   "key": "D29B:C02",
+   "code": "D29B",
+   "sub": "C02",
+   "nat": "Poplatek za provozovaný výherní hrací přístroj",
+   "en": "Custom Label - 02",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 82
+  },
+  {
+   "key": "D29E:C01",
+   "code": "D29E",
+   "sub": "C01",
+   "nat": "Registrační a evidenční poplatky za obaly",
+   "en": "Custom Label - 01",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": 17,
+   "v2023": 17,
+   "row": 86
+  },
+  {
+   "key": "D29E:C02",
+   "code": "D29E",
+   "sub": "C02",
+   "nat": "Televizní a rozhlasové poplatky",
+   "en": "Custom Label - 02",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": 728,
+   "v2023": 684,
+   "row": 87
+  },
+  {
+   "key": "D29F:C01",
+   "code": "D29F",
+   "sub": "C01",
+   "nat": "Poplatky za vypouštění odpadních vod do vod povrchových",
+   "en": "Custom Label - 01",
+   "fn": "C",
+   "at": "P",
+   "v2024": 183,
+   "v2023": 193,
+   "row": 89
+  },
+  {
+   "key": "D29F:C02",
+   "code": "D29F",
+   "sub": "C02",
+   "nat": "Poplatky za znečišťování ovzduší",
+   "en": "Custom Label - 02",
+   "fn": "C",
+   "at": "P",
+   "v2024": 377,
+   "v2023": 453,
+   "row": 90
+  },
+  {
+   "key": "D29F:C03",
+   "code": "D29F",
+   "sub": "C03",
+   "nat": "Poplatky za uložení radioaktivních odpadů",
+   "en": "Custom Label - 03",
+   "fn": "C",
+   "at": "P",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 91
+  },
+  {
+   "key": "D29F:C04",
+   "code": "D29F",
+   "sub": "C04",
+   "nat": "Poplatek za povolené vypouštění odpadních vod do vod podzemních",
+   "en": "Custom Label - 04",
+   "fn": "C",
+   "at": "P",
+   "v2024": 0,
+   "v2023": 1,
+   "row": 92
+  },
+  {
+   "key": "D29F:C05",
+   "code": "D29F",
+   "sub": "C05",
+   "nat": "Ostatní poplatky a odvody v oblasti životního prostředí",
+   "en": "Custom Label - 05",
+   "fn": "C",
+   "at": "P",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 93
+  },
+  {
+   "key": "D29F:C06",
+   "code": "D29F",
+   "sub": "C06",
+   "nat": "Daň z emisních povolenek",
+   "en": "Custom Label - 06",
+   "fn": "C",
+   "at": "E",
+   "v2024": 18551,
+   "v2023": 16555,
+   "row": 94
+  },
+  {
+   "key": "D29H:C01",
+   "code": "D29H",
+   "sub": "C01",
+   "nat": "Správní poplatky",
+   "en": "Custom Label - 01",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": 1445,
+   "v2023": 1402,
+   "row": 97
+  },
+  {
+   "key": "D29H:C02",
+   "code": "D29H",
+   "sub": "C02",
+   "nat": "Příspěvky do Garančního systému finančních trhů",
+   "en": "Custom Label - 02",
+   "fn": "KS",
+   "at": "O",
+   "v2024": 4246,
+   "v2023": 6408,
+   "row": 98
+  },
+  {
+   "key": "D29H:C03",
+   "code": "D29H",
+   "sub": "C03",
+   "nat": "Příspěvky do Fondu obchodníků s cennými papíry",
+   "en": "Custom Label - 03",
+   "fn": "KS",
+   "at": "O",
+   "v2024": 400,
+   "v2023": 301,
+   "row": 99
+  },
+  {
+   "key": "D29H:C04",
+   "code": "D29H",
+   "sub": "C04",
+   "nat": "Příspěvky do fondu zábrany škod",
+   "en": "Custom Label - 04",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": 1037,
+   "v2023": 983,
+   "row": 100
+  },
+  {
+   "key": "D29H:C05",
+   "code": "D29H",
+   "sub": "C05",
+   "nat": "Poplatky do fondu cestovních kanceláří",
+   "en": "Custom Label - 05",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": 15,
+   "v2023": 15,
+   "row": 101
+  },
+  {
+   "key": "D29H:C06",
+   "code": "D29H",
+   "sub": "C06",
+   "nat": "Odvody do Zajišťovacího fondu",
+   "en": "Custom Label - 06",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 102
+  },
+  {
+   "key": "D29H:C07",
+   "code": "D29H",
+   "sub": "C07",
+   "nat": "Odvod z nadměrných příjmů",
+   "en": "Custom Label - 07",
+   "fn": "KS",
+   "at": "E",
+   "v2024": 0,
+   "v2023": 14340,
+   "row": 103
+  },
+  {
+   "key": "D29H:C08",
+   "code": "D29H",
+   "sub": "C08",
+   "nat": "Ostatní daňové příjmy",
+   "en": "Custom Label - 08",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": -26,
+   "v2023": 9,
+   "row": 104
+  },
+  {
+   "key": "D51M:C01",
+   "code": "D51M",
+   "sub": "C01",
+   "nat": "Daň z příjmů fyzických osob ze závislé činnosti a funkčních požitků",
+   "en": "Custom Label - 01",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 237673,
+   "v2023": 213483,
+   "row": 108
+  },
+  {
+   "key": "D51M:C02",
+   "code": "D51M",
+   "sub": "C02",
+   "nat": "Daň z příjmů fyzických osob ze samostatné výdělečné činnosti",
+   "en": "Custom Label - 02",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 27748,
+   "v2023": 21860,
+   "row": 109
+  },
+  {
+   "key": "D51M:C03",
+   "code": "D51M",
+   "sub": "C03",
+   "nat": "Daň z příjmů fyzických osob z kapitálových výnosů",
+   "en": "Custom Label - 03",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 46595,
+   "v2023": 44094,
+   "row": 110
+  },
+  {
+   "key": "D51A:C01",
+   "code": "D51A",
+   "sub": "C01",
+   "nat": "Daň z příjmů fyzických osob ze závislé činnosti a funkčních požitků",
+   "en": "Custom Label - 01",
+   "fn": "SPLIT1",
+   "at": "_Z",
+   "v2024": 237673,
+   "v2023": 213483,
+   "row": 112
+  },
+  {
+   "key": "D51A:C02",
+   "code": "D51A",
+   "sub": "C02",
+   "nat": "Daň z příjmů fyzických osob ze samostatné výdělečné činnosti",
+   "en": "Custom Label - 02",
+   "fn": "SPLIT1",
+   "at": "_Z",
+   "v2024": 27748,
+   "v2023": 21860,
+   "row": 113
+  },
+  {
+   "key": "D51A:C03",
+   "code": "D51A",
+   "sub": "C03",
+   "nat": "Daň z příjmů fyzických osob z kapitálových výnosů",
+   "en": "Custom Label - 03",
+   "fn": "SPLIT1",
+   "at": "_Z",
+   "v2024": 46595,
+   "v2023": 44094,
+   "row": 114
+  },
+  {
+   "key": "D51O:C01",
+   "code": "D51O",
+   "sub": "C01",
+   "nat": "Daň z příjmů právnických osob",
+   "en": "Custom Label - 01",
+   "fn": "KIC",
+   "at": "_Z",
+   "v2024": 306571,
+   "v2023": 269127,
+   "row": 117
+  },
+  {
+   "key": "D51O:C02",
+   "code": "D51O",
+   "sub": "C02",
+   "nat": "Daň z příjmů právnických osob za obce",
+   "en": "Custom Label - 02",
+   "fn": "KIC",
+   "at": "_Z",
+   "v2024": 10673,
+   "v2023": 10463,
+   "row": 118
+  },
+  {
+   "key": "D51O:C03",
+   "code": "D51O",
+   "sub": "C03",
+   "nat": "Daň z příjmů právnických osob za kraje",
+   "en": "Custom Label - 03",
+   "fn": "KIC",
+   "at": "_Z",
+   "v2024": 985,
+   "v2023": 965,
+   "row": 119
+  },
+  {
+   "key": "D51O:C04",
+   "code": "D51O",
+   "sub": "C04",
+   "nat": "Windfall tax (SR) evidováno od r. 2023",
+   "en": "Custom Label - 04",
+   "fn": "KIC",
+   "at": "_Z",
+   "v2024": 40024,
+   "v2023": 40634,
+   "row": 120
+  },
+  {
+   "key": "D51O:C05",
+   "code": "D51O",
+   "sub": "C05",
+   "nat": "Dorovnávací daň",
+   "en": "Custom Label - 05",
+   "fn": "KIC",
+   "at": "_Z",
+   "v2024": 1000,
+   "v2023": null,
+   "row": 121
+  },
+  {
+   "key": "D51B:C01",
+   "code": "D51B",
+   "sub": "C01",
+   "nat": "Daň z příjmů právnických osob",
+   "en": "Custom Label - 01",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 306571,
+   "v2023": 269127,
+   "row": 123
+  },
+  {
+   "key": "D51B:C02",
+   "code": "D51B",
+   "sub": "C02",
+   "nat": "Daň z příjmů právnických osob za obce",
+   "en": "Custom Label - 02",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 10673,
+   "v2023": 10463,
+   "row": 124
+  },
+  {
+   "key": "D51B:C03",
+   "code": "D51B",
+   "sub": "C03",
+   "nat": "Daň z příjmů právnických osob za kraje",
+   "en": "Custom Label - 03",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 985,
+   "v2023": 965,
+   "row": 125
+  },
+  {
+   "key": "D51B:C04",
+   "code": "D51B",
+   "sub": "C04",
+   "nat": "Daň z nadměrných příjmů",
+   "en": "Custom Label - 04",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 40024,
+   "v2023": 40634,
+   "row": 126
+  },
+  {
+   "key": "D51B:C05",
+   "code": "D51B",
+   "sub": "C05",
+   "nat": "Dorovnávací daň",
+   "en": "Custom Label - 05",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 1000,
+   "v2023": null,
+   "row": 127
+  },
+  {
+   "key": "D59A:C01",
+   "code": "D59A",
+   "sub": "C01",
+   "nat": "Daň z nemovitostí",
+   "en": "Custom Label - 01",
+   "fn": "KS",
+   "at": "RP",
+   "v2024": 3323,
+   "v2023": 2058,
+   "row": 135
+  },
+  {
+   "key": "D59D:C01",
+   "code": "D59D",
+   "sub": "C01",
+   "nat": "Televizní a rozhlasové poplatky",
+   "en": "Custom Label - 01",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 7546,
+   "v2023": 6945,
+   "row": 139
+  },
+  {
+   "key": "D59F:C01",
+   "code": "D59F",
+   "sub": "C01",
+   "nat": "Poplatek ze psů",
+   "en": "Custom Label - 01",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": 303,
+   "v2023": 295,
+   "row": 142
+  },
+  {
+   "key": "D59F:C02",
+   "code": "D59F",
+   "sub": "C02",
+   "nat": "Poplatek za povolení k vjezdu do vybraných míst",
+   "en": "Custom Label - 02",
+   "fn": "KS",
+   "at": "T",
+   "v2024": 9,
+   "v2023": 8,
+   "row": 143
+  },
+  {
+   "key": "D59F:C03",
+   "code": "D59F",
+   "sub": "C03",
+   "nat": "Ostatní daňové příjmy",
+   "en": "Custom Label - 03",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": 509,
+   "v2023": 633,
+   "row": 144
+  },
+  {
+   "key": "D59F:C04",
+   "code": "D59F",
+   "sub": "C04",
+   "nat": "Správní poplatky",
+   "en": "Custom Label - 04",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": 1425,
+   "v2023": 1376,
+   "row": 145
+  },
+  {
+   "key": "D91A:C01",
+   "code": "D91A",
+   "sub": "C01",
+   "nat": "Daň dědická",
+   "en": "Custom Label - 01",
+   "fn": "KS",
+   "at": "O",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 148
+  },
+  {
+   "key": "D91A:C02",
+   "code": "D91A",
+   "sub": "C02",
+   "nat": "Daň darovací",
+   "en": "Custom Label - 02",
+   "fn": "KS",
+   "at": "O",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 149
+  },
+  {
+   "key": "D91B:C01",
+   "code": "D91B",
+   "sub": "C01",
+   "nat": "Poplatek za zhodnocení stavebního pozemku",
+   "en": "Custom Label - 01",
+   "fn": "KS",
+   "at": "O",
+   "v2024": 24,
+   "v2023": 23,
+   "row": 151
+  },
+  {
+   "key": "D611C:C01",
+   "code": "D611C",
+   "sub": "C01",
+   "nat": "Pojistné na důchodové pojištění od zaměstnavatelů",
+   "en": "Custom Label - 01",
+   "fn": "LEYRS",
+   "at": "_Z",
+   "v2024": 481167,
+   "v2023": 450304,
+   "row": 157
+  },
+  {
+   "key": "D611C:C02",
+   "code": "D611C",
+   "sub": "C02",
+   "nat": "Pojistné na nemocenské pojištění od zaměstnavatelů",
+   "en": "Custom Label - 02",
+   "fn": "LEYRS",
+   "at": "_Z",
+   "v2024": 46755,
+   "v2023": 43692,
+   "row": 158
+  },
+  {
+   "key": "D611C:C03",
+   "code": "D611C",
+   "sub": "C03",
+   "nat": "Příspěvky na státní politiku zaměstnanosti od zaměstnavatelů",
+   "en": "Custom Label - 03",
+   "fn": "LEYRS",
+   "at": "_Z",
+   "v2024": 26833,
+   "v2023": 25120,
+   "row": 159
+  },
+  {
+   "key": "D611C:C04",
+   "code": "D611C",
+   "sub": "C04",
+   "nat": "Pojistné na úrazové pojištění",
+   "en": "Custom Label - 04",
+   "fn": "LEYRS",
+   "at": "_Z",
+   "v2024": 12005,
+   "v2023": 11354,
+   "row": 160
+  },
+  {
+   "key": "D611C:C05",
+   "code": "D611C",
+   "sub": "C05",
+   "nat": "Pojistné na veřejné zdravotní pojištění od zaměstnavatelů",
+   "en": "Custom Label - 05",
+   "fn": "LEYRS",
+   "at": "_Z",
+   "v2024": 205412,
+   "v2023": 191766,
+   "row": 161
+  },
+  {
+   "key": "D611V:C01",
+   "code": "D611V",
+   "sub": "C01",
+   "nat": "Dobrovolné zdravotní pojištění od zaměstnavatelů",
+   "en": "Custom Label - 01",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 27,
+   "v2023": 25,
+   "row": 163
+  },
+  {
+   "key": "D6111:C01",
+   "code": "D6111",
+   "sub": "C01",
+   "nat": "Pojistné na důchodové pojištění od zaměstnavatelů",
+   "en": "Custom Label - 01",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 481167,
+   "v2023": 450304,
+   "row": 166
+  },
+  {
+   "key": "D6112:C01",
+   "code": "D6112",
+   "sub": "C01",
+   "nat": "Pojistné na nemocenské pojištění od zaměstnavatelů",
+   "en": "Custom Label - 01",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 46755,
+   "v2023": 43692,
+   "row": 168
+  },
+  {
+   "key": "D6112:C02",
+   "code": "D6112",
+   "sub": "C02",
+   "nat": "Příspěvky na státní politiku zaměstnanosti od zaměstnavatelů",
+   "en": "Custom Label - 02",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 26833,
+   "v2023": 25120,
+   "row": 169
+  },
+  {
+   "key": "D6112:C03",
+   "code": "D6112",
+   "sub": "C03",
+   "nat": "Pojistné na úrazové pojištění",
+   "en": "Custom Label - 03",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 12005,
+   "v2023": 11354,
+   "row": 170
+  },
+  {
+   "key": "D6112:C04",
+   "code": "D6112",
+   "sub": "C04",
+   "nat": "Pojistné na veřejné zdravotní pojištění od zaměstnavatelů",
+   "en": "Custom Label - 04",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 205439,
+   "v2023": 191791,
+   "row": 171
+  },
+  {
+   "key": "D6122:C01",
+   "code": "D6122",
+   "sub": "C01",
+   "nat": "Ostatní dávky sociálního pojištění jiné než penzijní",
+   "en": "Custom Label - 01 'Employers' imputed non-pension contributions",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 3470,
+   "v2023": 3630,
+   "row": 175
+  },
+  {
+   "key": "D6131:C01",
+   "code": "D6131",
+   "sub": "C01",
+   "nat": "Pojistné na důchodové pojištění od osob samostatně výdělečně činných (dále \"OSVČ\")",
+   "en": "Custom Label - 01",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 42841,
+   "v2023": 36382,
+   "row": 178
+  },
+  {
+   "key": "D6131:C02",
+   "code": "D6131",
+   "sub": "C02",
+   "nat": "Pojistné na důchodové pojištění od zaměstnanců",
+   "en": "Custom Label - 02",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 145210,
+   "v2023": 135930,
+   "row": 179
+  },
+  {
+   "key": "D6131:C03",
+   "code": "D6131",
+   "sub": "C03",
+   "nat": "Dobrovolné pojistné na důchodové pojištění",
+   "en": "Custom Label - 03",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 387,
+   "v2023": 386,
+   "row": 180
+  },
+  {
+   "key": "D6132:C01",
+   "code": "D6132",
+   "sub": "C01",
+   "nat": "Příspěvky na státní politiku zaměstnanosti od OSVČ",
+   "en": "Custom Label - 01",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 1836,
+   "v2023": 1558,
+   "row": 182
+  },
+  {
+   "key": "D6132:C02",
+   "code": "D6132",
+   "sub": "C02",
+   "nat": "Dobrovolné pojistné na nemocenské od OSVČ",
+   "en": "Custom Label - 02",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 346,
+   "v2023": 281,
+   "row": 183
+  },
+  {
+   "key": "D6132:C03",
+   "code": "D6132",
+   "sub": "C03",
+   "nat": "Pojistné na nemocenské pojištění od zaměstnanců",
+   "en": "Custom Label - 03",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 13354,
+   "v2023": "M",
+   "row": 184
+  },
+  {
+   "key": "D6132:C04",
+   "code": "D6132",
+   "sub": "C04",
+   "nat": "Příspěvky na státní politiku zaměstnanosti od zaměstnanců",
+   "en": "Custom Label - 04",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 185
+  },
+  {
+   "key": "D6132:C05",
+   "code": "D6132",
+   "sub": "C05",
+   "nat": "Pojistné na veřejné zdravotní pojištění od zaměstnanců",
+   "en": "Custom Label - 05",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 102707,
+   "v2023": 95884,
+   "row": 186
+  },
+  {
+   "key": "D6132:C06",
+   "code": "D6132",
+   "sub": "C06",
+   "nat": "Pojistné na veřejné zdravotní pojištění od OSVČ",
+   "en": "Custom Label - 06",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 36197,
+   "v2023": 34292,
+   "row": 187
+  },
+  {
+   "key": "D6132:C07",
+   "code": "D6132",
+   "sub": "C07",
+   "nat": "Pojistné na veřejné zdravotní pojištění placené vládou za nezaměstnané",
+   "en": "Custom Label - 07",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 151456,
+   "v2023": 138710,
+   "row": 188
+  },
+  {
+   "key": "D6132:C08",
+   "code": "D6132",
+   "sub": "C08",
+   "nat": "Dobrovolné zdravotní pojištění",
+   "en": "Custom Label - 08",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 189
+  },
+  {
+   "key": "D613CE:C01",
+   "code": "D613CE",
+   "sub": "C01",
+   "nat": "Pojistné na důchodové pojištění od zaměstnanců",
+   "en": "Custom Label - 01",
+   "fn": "LEES",
+   "at": "_Z",
+   "v2024": 145210,
+   "v2023": 135930,
+   "row": 192
+  },
+  {
+   "key": "D613CE:C02",
+   "code": "D613CE",
+   "sub": "C02",
+   "nat": "Pojistné na nemocenské pojištění od zaměstnanců",
+   "en": "Custom Label - 02",
+   "fn": "LEES",
+   "at": "_Z",
+   "v2024": 13354,
+   "v2023": "M",
+   "row": 193
+  },
+  {
+   "key": "D613CE:C03",
+   "code": "D613CE",
+   "sub": "C03",
+   "nat": "Příspěvky na státní politiku zaměstnanosti od zaměstnanců",
+   "en": "Custom Label - 03",
+   "fn": "LEES",
+   "at": "_Z",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 194
+  },
+  {
+   "key": "D613CE:C04",
+   "code": "D613CE",
+   "sub": "C04",
+   "nat": "Pojistné na veřejné zdravotní pojištění od zaměstnanců",
+   "en": "Custom Label - 04",
+   "fn": "LEES",
+   "at": "_Z",
+   "v2024": 102707,
+   "v2023": 95884,
+   "row": 195
+  },
+  {
+   "key": "D613CS:C01",
+   "code": "D613CS",
+   "sub": "C01",
+   "nat": "Pojistné na důchodové pojištění od osob samostatně výdělečně činných (dále \"OSVČ\")",
+   "en": "Custom Label - 01",
+   "fn": "KISE",
+   "at": "_Z",
+   "v2024": 42841,
+   "v2023": 36382,
+   "row": 197
+  },
+  {
+   "key": "D613CS:C02",
+   "code": "D613CS",
+   "sub": "C02",
+   "nat": "Příspěvky na státní politiku zaměstnanosti od OSVČ",
+   "en": "Custom Label - 02",
+   "fn": "KISE",
+   "at": "_Z",
+   "v2024": 1836,
+   "v2023": 1558,
+   "row": 198
+  },
+  {
+   "key": "D613CS:C03",
+   "code": "D613CS",
+   "sub": "C03",
+   "nat": "Pojistné na veřejné zdravotní pojištění od OSVČ",
+   "en": "Custom Label - 03",
+   "fn": "KISE",
+   "at": "_Z",
+   "v2024": 36197,
+   "v2023": 34292,
+   "row": 199
+  },
+  {
+   "key": "D613CN:C01",
+   "code": "D613CN",
+   "sub": "C01",
+   "nat": "Pojistné na veřejné zdravotní pojištění placené vládou za nezaměstnané",
+   "en": "Custom Label - 01",
+   "fn": "LNON",
+   "at": "_Z",
+   "v2024": 151456,
+   "v2023": 138710,
+   "row": 201
+  },
+  {
+   "key": "D613V:C01",
+   "code": "D613V",
+   "sub": "C01",
+   "nat": "Dobrovolné pojistné na nemocenské od OSVČ",
+   "en": "Custom Label - 01",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 346,
+   "v2023": 281,
+   "row": 203
+  },
+  {
+   "key": "D613V:C02",
+   "code": "D613V",
+   "sub": "C02",
+   "nat": "Dobrovolné pojistné důchodové pojištění",
+   "en": "Custom Label - 02",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 387,
+   "v2023": 386,
+   "row": 204
+  },
+  {
+   "key": "D613V:C03",
+   "code": "D613V",
+   "sub": "C03",
+   "nat": "Dobrovolné zdravotní pojištění",
+   "en": "Custom Label - 03",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 205
+  }
+ ]
+}

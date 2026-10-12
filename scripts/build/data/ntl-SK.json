@@ -1,0 +1,1852 @@
+{
+ "country": "SK",
+ "source": "NTL edition 2026 web.xlsx (Commission, DG TAXUD / Eurostat)",
+ "unit": "million national currency",
+ "sector": "S.13 + S.212",
+ "totals": {
+  "D2": {
+   "name": "Taxes on production and imports",
+   "v2024": 15291.645,
+   "v2023": 15028.825,
+   "row": 9
+  },
+  "D21": {
+   "name": "Taxes on products",
+   "v2024": 13754.182,
+   "v2023": 13648.291,
+   "row": 10
+  },
+  "D211": {
+   "name": "Value added type taxes (VAT)",
+   "v2024": 9914.696,
+   "v2023": 9732.96,
+   "row": 11
+  },
+  "D212": {
+   "name": "Taxes and duties on imports excluding VAT",
+   "v2024": 144.47,
+   "v2023": 152.015,
+   "row": 13
+  },
+  "D2121": {
+   "name": "Import duties",
+   "v2024": 138.126,
+   "v2023": 145.34,
+   "row": 14
+  },
+  "D2122": {
+   "name": "Taxes on imports, excluding VAT and import duties",
+   "v2024": 6.344,
+   "v2023": 6.675,
+   "row": 16
+  },
+  "D2122A": {
+   "name": "Levies on imported agricultural products",
+   "v2024": 6.344,
+   "v2023": 6.675,
+   "row": 17
+  },
+  "D2122B": {
+   "name": "Monetary compensatory amounts on imports",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 19
+  },
+  "D2122C": {
+   "name": "Excise duties",
+   "v2024": null,
+   "v2023": null,
+   "row": 22
+  },
+  "D2122D": {
+   "name": "General sales taxes",
+   "v2024": null,
+   "v2023": null,
+   "row": 29
+  },
+  "D2122E": {
+   "name": "Taxes on specific services",
+   "v2024": null,
+   "v2023": null,
+   "row": 30
+  },
+  "D2122F": {
+   "name": "Profits of import monopolies",
+   "v2024": null,
+   "v2023": null,
+   "row": 31
+  },
+  "D214": {
+   "name": "Taxes on products, except VAT and import taxes",
+   "v2024": 3695.016,
+   "v2023": 3763.316,
+   "row": 32
+  },
+  "D214A": {
+   "name": "Excise duties and consumption taxes",
+   "v2024": 2883.848,
+   "v2023": 3020.848,
+   "row": 33
+  },
+  "D214B": {
+   "name": "Stamp taxes",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 43
+  },
+  "D214C": {
+   "name": "Taxes on financial and capital transactions",
+   "v2024": 0.007,
+   "v2023": 0.006,
+   "row": 45
+  },
+  "D214D": {
+   "name": "Car registration taxes",
+   "v2024": 59.63,
+   "v2023": 64.087,
+   "row": 47
+  },
+  "D214E": {
+   "name": "Taxes on entertainment",
+   "v2024": 0.221,
+   "v2023": 0.229,
+   "row": 49
+  },
+  "D214F": {
+   "name": "Taxes on lotteries, gambling and betting",
+   "v2024": 360.146,
+   "v2023": 312.294,
+   "row": 52
+  },
+  "D214G": {
+   "name": "Taxes on insurance premiums",
+   "v2024": 151.169,
+   "v2023": 138.319,
+   "row": 54
+  },
+  "D214H": {
+   "name": "Other taxes on specific services",
+   "v2024": 236.459,
+   "v2023": 224.39,
+   "row": 57
+  },
+  "D214I": {
+   "name": "General sales or turnover taxes",
+   "v2024": null,
+   "v2023": null,
+   "row": 65
+  },
+  "D214J": {
+   "name": "Profits of fiscal monopolies",
+   "v2024": null,
+   "v2023": null,
+   "row": 66
+  },
+  "D214K": {
+   "name": "Export duties and monetary comp. amounts on exports",
+   "v2024": null,
+   "v2023": null,
+   "row": 67
+  },
+  "D214L": {
+   "name": "Other taxes on products n.e.c.",
+   "v2024": 3.535,
+   "v2023": 3.143,
+   "row": 68
+  },
+  "D29": {
+   "name": "Other taxes on production",
+   "v2024": 1537.463,
+   "v2023": 1380.534,
+   "row": 70
+  },
+  "D29A": {
+   "name": "Taxes on land, buildings or other structures",
+   "v2024": 586.805,
+   "v2023": 469.705,
+   "row": 71
+  },
+  "D29B": {
+   "name": "Taxes on the use of fixed assets",
+   "v2024": 140.577,
+   "v2023": 136.902,
+   "row": 78
+  },
+  "D29C": {
+   "name": "Total wage bill and payroll taxes",
+   "v2024": null,
+   "v2023": null,
+   "row": 82
+  },
+  "D29D": {
+   "name": "Taxes on international transactions",
+   "v2024": null,
+   "v2023": null,
+   "row": 83
+  },
+  "D29E": {
+   "name": "Business and professional licences",
+   "v2024": 172.369,
+   "v2023": 154.083,
+   "row": 84
+  },
+  "D29F": {
+   "name": "Taxes on pollution",
+   "v2024": 624.948,
+   "v2023": 585.263,
+   "row": 94
+  },
+  "D29G": {
+   "name": "Under-compensation of VAT (flat rate system)",
+   "v2024": null,
+   "v2023": null,
+   "row": 99
+  },
+  "D29H": {
+   "name": "Other taxes on production n.e.c.",
+   "v2024": 12.765,
+   "v2023": 34.579,
+   "row": 100
+  },
+  "D5": {
+   "name": "Current taxes on income wealth, etc.",
+   "v2024": 10528.281,
+   "v2023": 9734.509,
+   "row": 110
+  },
+  "D51": {
+   "name": "Taxes on income",
+   "v2024": 10423.965,
+   "v2023": 9606.736,
+   "row": 111
+  },
+  "D51M": {
+   "name": "Taxes on individual or household income including holding gains",
+   "v2024": 4812.682,
+   "v2023": 4685.372,
+   "row": 112
+  },
+  "D51A": {
+   "name": "Taxes on individual or household income excluding holding gains(1)",
+   "v2024": 4812.682,
+   "v2023": 4685.372,
+   "row": 115
+  },
+  "D51C1": {
+   "name": "Taxes on individual or household holding gains(1)",
+   "v2024": null,
+   "v2023": null,
+   "row": 118
+  },
+  "D51O": {
+   "name": "Taxes on the income or profits of corporations including holding gains",
+   "v2024": 5082.133,
+   "v2023": 4490.789,
+   "row": 119
+  },
+  "D51B": {
+   "name": "Taxes on the income or profits of corporations excluding holding gains(1)",
+   "v2024": 5082.133,
+   "v2023": 4490.789,
+   "row": 124
+  },
+  "D51C2": {
+   "name": "Taxes on holding gains of corporations(1)",
+   "v2024": null,
+   "v2023": null,
+   "row": 129
+  },
+  "D51C3": {
+   "name": "Other taxes on holding gains(1)",
+   "v2024": null,
+   "v2023": null,
+   "row": 130
+  },
+  "D51C": {
+   "name": "Taxes on holding gains",
+   "v2024": null,
+   "v2023": null,
+   "row": 131
+  },
+  "D51D": {
+   "name": "Taxes on winnings from lottery or gambling",
+   "v2024": null,
+   "v2023": null,
+   "row": 132
+  },
+  "D51E": {
+   "name": "Other taxes on income n.e.c.",
+   "v2024": 529.151,
+   "v2023": 430.574,
+   "row": 133
+  },
+  "D59": {
+   "name": "Other current taxes",
+   "v2024": 104.316,
+   "v2023": 127.773,
+   "row": 137
+  },
+  "D59A": {
+   "name": "Current taxes on capital",
+   "v2024": 47.076,
+   "v2023": 39.95,
+   "row": 138
+  },
+  "D59B": {
+   "name": "Poll taxes",
+   "v2024": null,
+   "v2023": null,
+   "row": 144
+  },
+  "D59C": {
+   "name": "Expenditure taxes",
+   "v2024": null,
+   "v2023": null,
+   "row": 145
+  },
+  "D59D": {
+   "name": "Payments by households for licences",
+   "v2024": 57.24,
+   "v2023": 87.825,
+   "row": 146
+  },
+  "D59E": {
+   "name": "Taxes on international transactions",
+   "v2024": null,
+   "v2023": null,
+   "row": 155
+  },
+  "D59F": {
+   "name": "Other current taxes n.e.c.",
+   "v2024": null,
+   "v2023": null,
+   "row": 156
+  },
+  "D91": {
+   "name": "Capital taxes",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 157
+  },
+  "D91A": {
+   "name": "Taxes on capital transfers",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 158
+  },
+  "D91B": {
+   "name": "Capital levies",
+   "v2024": null,
+   "v2023": null,
+   "row": 161
+  },
+  "D91C": {
+   "name": "Other capital taxes n.e.c.",
+   "v2024": null,
+   "v2023": null,
+   "row": 162
+  },
+  "D61": {
+   "name": "Net social contributions",
+   "v2024": 20964.663,
+   "v2023": 18945.663,
+   "row": 164
+  },
+  "D611": {
+   "name": "Employers' actual social contributions",
+   "v2024": 12069.223,
+   "v2023": 10718.613,
+   "row": 165
+  },
+  "D611C": {
+   "name": "Compulsory employers' actual social contributions",
+   "v2024": 12069.223,
+   "v2023": 10718.613,
+   "row": 167
+  },
+  "D611V": {
+   "name": "Voluntary employers' actual social contributions",
+   "v2024": null,
+   "v2023": null,
+   "row": 169
+  },
+  "D61SC": {
+   "name": "Social insurance scheme service charges(3)",
+   "v2024": null,
+   "v2023": null,
+   "row": 170
+  },
+  "D6111": {
+   "name": "Employers' actual pension contributions (1)",
+   "v2024": 5251.328,
+   "v2023": 4687.141,
+   "row": 171
+  },
+  "D6112": {
+   "name": "Employers' actual non-pension contributions (1)",
+   "v2024": 6817.895,
+   "v2023": 6031.472,
+   "row": 173
+  },
+  "D612": {
+   "name": "Employers' imputed social contributions",
+   "v2024": 536.964,
+   "v2023": 422.304,
+   "row": 175
+  },
+  "D6121": {
+   "name": "Employers' imputed pension contributions (1)",
+   "v2024": null,
+   "v2023": null,
+   "row": 177
+  },
+  "D6122": {
+   "name": "Employers' imputed non-pension contributions (1)",
+   "v2024": 536.964,
+   "v2023": 422.304,
+   "row": 178
+  },
+  "D613": {
+   "name": "Households' actual social contributions",
+   "v2024": 8358.476,
+   "v2023": 7804.746,
+   "row": 180
+  },
+  "D6131": {
+   "name": "Households' actual pension contributions (1)",
+   "v2024": 3274.939,
+   "v2023": 3021.513,
+   "row": 182
+  },
+  "D6132": {
+   "name": "Households' actual non-pension contributions (1)",
+   "v2024": 5083.537,
+   "v2023": 4783.233,
+   "row": 184
+  },
+  "D613C": {
+   "name": "Compulsory households' actual social contributions",
+   "v2024": 8358.472,
+   "v2023": 7804.746,
+   "row": 186
+  },
+  "D613CE": {
+   "name": "Compulsory employees' actual social contributions",
+   "v2024": 4535.699,
+   "v2023": 4236.338,
+   "row": 187
+  },
+  "D613CS": {
+   "name": "Compulsory actual social contributions by the self-employed (1)",
+   "v2024": 0.788,
+   "v2023": 0.749,
+   "row": 189
+  },
+  "D613CN": {
+   "name": "Compulsory actual social contributions by the non-employed (1)",
+   "v2024": 3821.985,
+   "v2023": 3567.659,
+   "row": 191
+  },
+  "D613V": {
+   "name": "Voluntary households' actual social contributions",
+   "v2024": null,
+   "v2023": null,
+   "row": 193
+  },
+  "D614": {
+   "name": "Households' social contributions supplements(3)",
+   "v2024": null,
+   "v2023": null,
+   "row": 194
+  },
+  "D6141": {
+   "name": "Households' pension contributions supplements (1)",
+   "v2024": null,
+   "v2023": null,
+   "row": 195
+  },
+  "D6142": {
+   "name": "Households' non-pension contributions supplements (1)",
+   "v2024": null,
+   "v2023": null,
+   "row": 196
+  },
+  "D995": {
+   "name": "Capital transfers from general government to relevant sectors representing taxes and social contributions assessed but unlikely to be collected (2)",
+   "v2024": null,
+   "v2023": null,
+   "row": 197
+  },
+  "D995A": {
+   "name": "Taxes on products assessed but unlikely to be collected (2)",
+   "v2024": null,
+   "v2023": null,
+   "row": 198
+  },
+  "D995B": {
+   "name": "Other taxes on production assessed but unlikely to be collected (2)",
+   "v2024": null,
+   "v2023": null,
+   "row": 199
+  },
+  "D995C": {
+   "name": "Taxes on income assessed but unlikely to be collected (2)",
+   "v2024": null,
+   "v2023": null,
+   "row": 200
+  },
+  "D995D": {
+   "name": "Other current taxes assessed but unlikely to be collected (2)",
+   "v2024": null,
+   "v2023": null,
+   "row": 201
+  },
+  "D995E": {
+   "name": "Employers' actual social contributions assessed but unlikely to be collected (2)",
+   "v2024": null,
+   "v2023": null,
+   "row": 202
+  },
+  "D995F": {
+   "name": "Households' actual social contributions assessed but unlikely to be collected (2)",
+   "v2024": null,
+   "v2023": null,
+   "row": 203
+  },
+  "D995FE": {
+   "name": "Employees' actual social contributions assessed but unlikely to be collected (2)",
+   "v2024": null,
+   "v2023": null,
+   "row": 204
+  },
+  "D995FS": {
+   "name": "Actual social contributions by self-employed persons assessed but unlikely to be collected (1)",
+   "v2024": null,
+   "v2023": null,
+   "row": 205
+  },
+  "D995FN": {
+   "name": "Actual social contributions by non-employed persons assessed but unlikely to be collected (1)",
+   "v2024": null,
+   "v2023": null,
+   "row": 206
+  },
+  "D995G": {
+   "name": "Capital taxes assessed but unlikely to be collected (2)",
+   "v2024": null,
+   "v2023": null,
+   "row": 207
+  }
+ },
+ "lines": [
+  {
+   "key": "D211:C01",
+   "code": "D211",
+   "sub": "C01",
+   "nat": "Daň z pridanej hodnoty",
+   "en": "VAT",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 9914.696,
+   "v2023": 9732.96,
+   "row": 12
+  },
+  {
+   "key": "D2121:C01",
+   "code": "D2121",
+   "sub": "C01",
+   "nat": "Dovozné clo",
+   "en": "Import duty",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 138.126,
+   "v2023": 145.34,
+   "row": 15
+  },
+  {
+   "key": "D2122A:C01",
+   "code": "D2122A",
+   "sub": "C01",
+   "nat": "",
+   "en": "",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 6.344,
+   "v2023": 6.675,
+   "row": 18
+  },
+  {
+   "key": "D2122B:C01",
+   "code": "D2122B",
+   "sub": "C01",
+   "nat": "Dovozná prirážka",
+   "en": "Import surcharge",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 20
+  },
+  {
+   "key": "D2122B:C02",
+   "code": "D2122B",
+   "sub": "C02",
+   "nat": "Ostatné colné príjmy",
+   "en": "Other customs gains",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 21
+  },
+  {
+   "key": "D2122C:C01",
+   "code": "D2122C",
+   "sub": "C01",
+   "nat": "Z minerálnych olejov",
+   "en": "On mineral oils",
+   "fn": "C",
+   "at": "E",
+   "v2024": null,
+   "v2023": null,
+   "row": 23
+  },
+  {
+   "key": "D2122C:C02",
+   "code": "D2122C",
+   "sub": "C02",
+   "nat": "Z liehu",
+   "en": "On alcohol",
+   "fn": "C",
+   "at": "AT",
+   "v2024": null,
+   "v2023": null,
+   "row": 24
+  },
+  {
+   "key": "D2122C:C03",
+   "code": "D2122C",
+   "sub": "C03",
+   "nat": "Z piva",
+   "en": "On beer",
+   "fn": "C",
+   "at": "AT",
+   "v2024": null,
+   "v2023": null,
+   "row": 25
+  },
+  {
+   "key": "D2122C:C04",
+   "code": "D2122C",
+   "sub": "C04",
+   "nat": "Z vína",
+   "en": "On wine",
+   "fn": "C",
+   "at": "AT",
+   "v2024": null,
+   "v2023": null,
+   "row": 26
+  },
+  {
+   "key": "D2122C:C05",
+   "code": "D2122C",
+   "sub": "C05",
+   "nat": "Z tabaku a tabakových výrobkov",
+   "en": "On tobacco and tobacco products",
+   "fn": "C",
+   "at": "AT",
+   "v2024": null,
+   "v2023": null,
+   "row": 27
+  },
+  {
+   "key": "D2122C:C06",
+   "code": "D2122C",
+   "sub": "C06",
+   "nat": "Ostatné",
+   "en": "Other",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": null,
+   "v2023": null,
+   "row": 28
+  },
+  {
+   "key": "D214A:C01",
+   "code": "D214A",
+   "sub": "C01",
+   "nat": "Z minerálnych olejov",
+   "en": "On mineral oils",
+   "fn": "C",
+   "at": "E",
+   "v2024": 1352.021,
+   "v2023": 1315.052,
+   "row": 34
+  },
+  {
+   "key": "D214A:C02",
+   "code": "D214A",
+   "sub": "C02",
+   "nat": "Z liehu",
+   "en": "On alcohol",
+   "fn": "C",
+   "at": "AT",
+   "v2024": 232.299,
+   "v2023": 256.029,
+   "row": 35
+  },
+  {
+   "key": "D214A:C03",
+   "code": "D214A",
+   "sub": "C03",
+   "nat": "Z piva",
+   "en": "On beer",
+   "fn": "C",
+   "at": "AT",
+   "v2024": 55.803,
+   "v2023": 52.898,
+   "row": 36
+  },
+  {
+   "key": "D214A:C04",
+   "code": "D214A",
+   "sub": "C04",
+   "nat": "Z vína",
+   "en": "On wine",
+   "fn": "C",
+   "at": "AT",
+   "v2024": 4.984,
+   "v2023": 5.07,
+   "row": 37
+  },
+  {
+   "key": "D214A:C05",
+   "code": "D214A",
+   "sub": "C05",
+   "nat": "Z tabaku a tabakových výrobkov",
+   "en": "On tobacco and tobacco products",
+   "fn": "C",
+   "at": "AT",
+   "v2024": 1021.079,
+   "v2023": 936.553,
+   "row": 38
+  },
+  {
+   "key": "D214A:C06",
+   "code": "D214A",
+   "sub": "C06",
+   "nat": "Z energií - elektrina",
+   "en": "On energy - electricity",
+   "fn": "C",
+   "at": "E",
+   "v2024": 12.777,
+   "v2023": 13.14,
+   "row": 39
+  },
+  {
+   "key": "D214A:C07",
+   "code": "D214A",
+   "sub": "C07",
+   "nat": "Z energií - uhlie",
+   "en": "On energy - coal",
+   "fn": "C",
+   "at": "E",
+   "v2024": 0.194,
+   "v2023": 0.199,
+   "row": 40
+  },
+  {
+   "key": "D214A:C08",
+   "code": "D214A",
+   "sub": "C08",
+   "nat": "Z energií - zemný plyn",
+   "en": "On energy - natural gas",
+   "fn": "C",
+   "at": "E",
+   "v2024": 21.128,
+   "v2023": 21.11,
+   "row": 41
+  },
+  {
+   "key": "D214A:C09",
+   "code": "D214A",
+   "sub": "C09",
+   "nat": "Zelená energia",
+   "en": "Green energy",
+   "fn": "C",
+   "at": "E",
+   "v2024": 183.562,
+   "v2023": 420.8,
+   "row": 42
+  },
+  {
+   "key": "D214B:C01",
+   "code": "D214B",
+   "sub": "C01",
+   "nat": "Dane na špecif.služby z predaja alkohol.nápojov a tabak.výrobkov",
+   "en": "Taxes on specific services - Sales tax on alcohol beverages and tobacco products",
+   "fn": "C",
+   "at": "AT",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 44
+  },
+  {
+   "key": "D214C:C01",
+   "code": "D214C",
+   "sub": "C01",
+   "nat": "Daň z prevodu a prechodu nehnuteľností-PO",
+   "en": "Tax on transfer and assignment of real estate",
+   "fn": "KS",
+   "at": "O",
+   "v2024": 0.007,
+   "v2023": 0.006,
+   "row": 46
+  },
+  {
+   "key": "D214D:C01",
+   "code": "D214D",
+   "sub": "C01",
+   "nat": "Poplatok za registráciu automobilov",
+   "en": "Car registration fee",
+   "fn": "C",
+   "at": "T",
+   "v2024": 59.63,
+   "v2023": 64.087,
+   "row": 48
+  },
+  {
+   "key": "D214E:C01",
+   "code": "D214E",
+   "sub": "C01",
+   "nat": "Dane na špecif.služby za zábavné hracie prístroje",
+   "en": "Taxes on specific services - on automatic gambling machines",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 0.221,
+   "v2023": 0.229,
+   "row": 50
+  },
+  {
+   "key": "D214E:C02",
+   "code": "D214E",
+   "sub": "C02",
+   "nat": "Dane na špecif.služby zo vstupného",
+   "en": "Taxes on specific services - on entry fees",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 51
+  },
+  {
+   "key": "D214F:C01",
+   "code": "D214F",
+   "sub": "C01",
+   "nat": "Príjmy z výťažkov lotérií a iných podobných hier",
+   "en": "Taxes on lottery and similar games",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 360.146,
+   "v2023": 312.294,
+   "row": 53
+  },
+  {
+   "key": "D214G:C01",
+   "code": "D214G",
+   "sub": "C01",
+   "nat": "Odvod časti poistného z odvetví neživotného poistenia",
+   "en": "Levy on part of non-life insurance premium",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 39.242,
+   "v2023": 35.708,
+   "row": 55
+  },
+  {
+   "key": "D214G:C02",
+   "code": "D214G",
+   "sub": "C02",
+   "nat": "Daň z poistenia",
+   "en": "Insurance tax",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 111.927,
+   "v2023": 102.613,
+   "row": 56
+  },
+  {
+   "key": "D214H:C01",
+   "code": "D214H",
+   "sub": "C01",
+   "nat": "Dane na špecif.služby za predajné automaty",
+   "en": "Taxes on specific services - on automatic vendors",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 0.324,
+   "v2023": 0.274,
+   "row": 58
+  },
+  {
+   "key": "D214H:C02",
+   "code": "D214H",
+   "sub": "C02",
+   "nat": "Dane na špecif.služby za ubytovcie kapac.v rekr.a vzdeláv.zariad.",
+   "en": "Taxes on specific services - on accommodation capacities in recreational establishments",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 27.534,
+   "v2023": 21.244,
+   "row": 59
+  },
+  {
+   "key": "D214H:C03",
+   "code": "D214H",
+   "sub": "C03",
+   "nat": "Dane na špecif.služby z reklamy",
+   "en": "Taxes on specific services - on advertising",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 60
+  },
+  {
+   "key": "D214H:C04",
+   "code": "D214H",
+   "sub": "C04",
+   "nat": "Dane na špecif.služby za kúpeľný alebo rekreačný pobyt",
+   "en": "Taxes on specific services - on stays at a spa or in a recreational area",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": null,
+   "v2023": 0,
+   "row": 61
+  },
+  {
+   "key": "D214H:C05",
+   "code": "D214H",
+   "sub": "C05",
+   "nat": "Poplatok za skladovanie núdzových zásob ropy a daň zo spotreby elektrickej energie určená na likvidáciu jadrových zariadení",
+   "en": "Fee for stocking of emergency oil reserves and electricity consumption tax intended for liquidation of decommissioned nuclear facilities",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 132.354,
+   "v2023": 97.254,
+   "row": 62
+  },
+  {
+   "key": "D214H:C06",
+   "code": "D214H",
+   "sub": "C06",
+   "nat": "daň zo spotreby elektrickej energie určená na likvidáciu jadrových zariadení",
+   "en": "Electricity consumption tax intended for liquidation of decommissioned nuclear facilities",
+   "fn": "C",
+   "at": "E",
+   "v2024": 68.718,
+   "v2023": 67.994,
+   "row": 63
+  },
+  {
+   "key": "D214H:C07",
+   "code": "D214H",
+   "sub": "C07",
+   "nat": "Odvod z nadmerných príjmov",
+   "en": "Levy on excessive profit",
+   "fn": "C",
+   "at": "E",
+   "v2024": 7.529,
+   "v2023": 37.623,
+   "row": 64
+  },
+  {
+   "key": "D214L:C01",
+   "code": "D214L",
+   "sub": "C01",
+   "nat": "Other taxes on products n.e.c.",
+   "en": "Other taxes on products n.e.c.",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 3.535,
+   "v2023": 3.143,
+   "row": 69
+  },
+  {
+   "key": "D29A:C01",
+   "code": "D29A",
+   "sub": "C01",
+   "nat": "Z pozemkov",
+   "en": "Land",
+   "fn": "KS",
+   "at": "RP",
+   "v2024": 86.664,
+   "v2023": 74.501,
+   "row": 72
+  },
+  {
+   "key": "D29A:C02",
+   "code": "D29A",
+   "sub": "C02",
+   "nat": "Zo stavieb",
+   "en": "Buildings",
+   "fn": "KS",
+   "at": "RP",
+   "v2024": 433.828,
+   "v2023": 344.243,
+   "row": 73
+  },
+  {
+   "key": "D29A:C03",
+   "code": "D29A",
+   "sub": "C03",
+   "nat": "Z bytov",
+   "en": "Dwellings",
+   "fn": "KS",
+   "at": "RP",
+   "v2024": 51.152,
+   "v2023": 37.913,
+   "row": 74
+  },
+  {
+   "key": "D29A:C04",
+   "code": "D29A",
+   "sub": "C04",
+   "nat": "Ostatné",
+   "en": "Other",
+   "fn": "KS",
+   "at": "RP",
+   "v2024": null,
+   "v2023": 0,
+   "row": 75
+  },
+  {
+   "key": "D29A:C05",
+   "code": "D29A",
+   "sub": "C05",
+   "nat": "Daň za užívanie bytov alebo častí bytov na iné účely ako na bývanie",
+   "en": "Tax on use of apartments for other than housing purposes",
+   "fn": "KS",
+   "at": "RP",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 76
+  },
+  {
+   "key": "D29A:C06",
+   "code": "D29A",
+   "sub": "C06",
+   "nat": "Daň za užívanie verejného priestranstva",
+   "en": "Tax on use of public premises",
+   "fn": "KS",
+   "at": "RP",
+   "v2024": 15.161,
+   "v2023": 13.048,
+   "row": 77
+  },
+  {
+   "key": "D29B:C01",
+   "code": "D29B",
+   "sub": "C01",
+   "nat": "Dane z používania tovarov a z povolenia na výkon činnosti -cestná daň domáca",
+   "en": "Road tax - domestic",
+   "fn": "KS",
+   "at": "T",
+   "v2024": 140.289,
+   "v2023": 136.635,
+   "row": 79
+  },
+  {
+   "key": "D29B:C02",
+   "code": "D29B",
+   "sub": "C02",
+   "nat": "Cestná daň z medzinárodnej premávky",
+   "en": "Road tax - international transport",
+   "fn": "KS",
+   "at": "T",
+   "v2024": null,
+   "v2023": "M",
+   "row": 80
+  },
+  {
+   "key": "D29B:C03",
+   "code": "D29B",
+   "sub": "C03",
+   "nat": "Dane na špecif.služby za povolenie k vjazdu mot.vozidla do h.č.m.",
+   "en": "Taxes on specific services - on permits to enter historical city district with motor vehicle",
+   "fn": "KS",
+   "at": "T",
+   "v2024": 0.288,
+   "v2023": 0.267,
+   "row": 81
+  },
+  {
+   "key": "D29E:C01",
+   "code": "D29E",
+   "sub": "C01",
+   "nat": "Za umiestnenie jadrového zariadenia",
+   "en": "Tax on installing nuclear equipment",
+   "fn": "KS",
+   "at": "E",
+   "v2024": 3.847,
+   "v2023": 3.856,
+   "row": 85
+  },
+  {
+   "key": "D29E:C02",
+   "code": "D29E",
+   "sub": "C02",
+   "nat": "Dane z používania tovarov a z povolenia na výkon činnosti -za dobývací priestor",
+   "en": "Tax on excavation areas",
+   "fn": "KS",
+   "at": "P",
+   "v2024": 0.362,
+   "v2023": 0.34,
+   "row": 86
+  },
+  {
+   "key": "D29E:C03",
+   "code": "D29E",
+   "sub": "C03",
+   "nat": "Z úhrad za uskladňovanie plynov a kvapalín",
+   "en": "Tax on gas and liquid storage",
+   "fn": "KS",
+   "at": "E",
+   "v2024": 0.766,
+   "v2023": 1.222,
+   "row": 87
+  },
+  {
+   "key": "D29E:C04",
+   "code": "D29E",
+   "sub": "C04",
+   "nat": "Administratívne poplatky - tržby z predaja kolkov.známok",
+   "en": "Earnings from sales of fiscal stamps",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 88
+  },
+  {
+   "key": "D29E:C05",
+   "code": "D29E",
+   "sub": "C05",
+   "nat": "Administratívne poplatky - PO - správne",
+   "en": "Administrative fees paid by legal entities",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 89
+  },
+  {
+   "key": "D29E:C06",
+   "code": "D29E",
+   "sub": "C06",
+   "nat": "Administratívne poplatky - ostatné",
+   "en": "Administrative fees - other",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": 127.635,
+   "v2023": 115.121,
+   "row": 90
+  },
+  {
+   "key": "D29E:C07",
+   "code": "D29E",
+   "sub": "C07",
+   "nat": "Administratívne poplatky - licencie",
+   "en": "Administrative fees - licence fees",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": 0.439,
+   "v2023": 0.449,
+   "row": 91
+  },
+  {
+   "key": "D29E:C08",
+   "code": "D29E",
+   "sub": "C08",
+   "nat": "Koncesionárske poplatky STV a SRo - PO",
+   "en": "TV and Radio licence fees",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": 0.317,
+   "v2023": 6.688,
+   "row": 92
+  },
+  {
+   "key": "D29E:C09",
+   "code": "D29E",
+   "sub": "C09",
+   "nat": "Miestny poplatok za rozvoj",
+   "en": "Local fee for development",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": 39.007,
+   "v2023": 26.409,
+   "row": 93
+  },
+  {
+   "key": "D29F:C01",
+   "code": "D29F",
+   "sub": "C01",
+   "nat": "Daň za znečisťovanie ovzdušia",
+   "en": "Tax on atmospheric pollution",
+   "fn": "C",
+   "at": "P",
+   "v2024": null,
+   "v2023": 0,
+   "row": 95
+  },
+  {
+   "key": "D29F:C02",
+   "code": "D29F",
+   "sub": "C02",
+   "nat": "Za vypúšťanie odpadových vôd do povrchových vôd",
+   "en": "Fees connected with water pollution",
+   "fn": "C",
+   "at": "P",
+   "v2024": 8.596,
+   "v2023": 18.061,
+   "row": 96
+  },
+  {
+   "key": "D29F:C03",
+   "code": "D29F",
+   "sub": "C03",
+   "nat": "Za znečisťovanie ovzdušia",
+   "en": "Fees connected with air pollution",
+   "fn": "C",
+   "at": "P",
+   "v2024": 9.971,
+   "v2023": 8.057,
+   "row": 97
+  },
+  {
+   "key": "D29F:C04",
+   "code": "D29F",
+   "sub": "C04",
+   "nat": "Emisné kvóty",
+   "en": "emission permits",
+   "fn": "C",
+   "at": "E",
+   "v2024": 606.384,
+   "v2023": 559.145,
+   "row": 98
+  },
+  {
+   "key": "D29H:C01",
+   "code": "D29H",
+   "sub": "C01",
+   "nat": "Ďalšie dane z majetku",
+   "en": "Other taxes from property",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 101
+  },
+  {
+   "key": "D29H:C02",
+   "code": "D29H",
+   "sub": "C02",
+   "nat": "Dane na špecifické služby za psa PO",
+   "en": "Taxes on specific services - for dog",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 3.651,
+   "v2023": 3.366,
+   "row": 102
+  },
+  {
+   "key": "D29H:C03",
+   "code": "D29H",
+   "sub": "C03",
+   "nat": "Za zber, odvoz a zneškodňovanie komunálnych odpadov",
+   "en": "Tax for waste disposal",
+   "fn": "C",
+   "at": "P",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 103
+  },
+  {
+   "key": "D29H:C04",
+   "code": "D29H",
+   "sub": "C04",
+   "nat": "Iné dane za špecifické tovary a služby",
+   "en": "Other taxes for specific goods and services",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 104
+  },
+  {
+   "key": "D29H:C05",
+   "code": "D29H",
+   "sub": "C05",
+   "nat": "Iné dane za tovary a služby",
+   "en": "Other taxes on goods and services",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 105
+  },
+  {
+   "key": "D29H:C06",
+   "code": "D29H",
+   "sub": "C06",
+   "nat": "Iné dane",
+   "en": "Other taxes",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 0.856,
+   "v2023": 0.822,
+   "row": 106
+  },
+  {
+   "key": "D29H:C07",
+   "code": "D29H",
+   "sub": "C07",
+   "nat": "Osobitný odvod vybraných finančných inštitúcií",
+   "en": "Special levy on selected financial institutions",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 107
+  },
+  {
+   "key": "D29H:C08",
+   "code": "D29H",
+   "sub": "C08",
+   "nat": "Daň vzťahujúca sa na ochranu vkladov",
+   "en": "Tax connected to deposit insurance",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": 8.258,
+   "v2023": 8.233,
+   "row": 108
+  },
+  {
+   "key": "D29H:C09",
+   "code": "D29H",
+   "sub": "C09",
+   "nat": "Daň vzťahujúca sa na riešenie krízových situácií na finančnom trhu",
+   "en": "Contribution to the single resolution fund Contribution to SEF",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": null,
+   "v2023": 22.176,
+   "row": 109
+  },
+  {
+   "key": "D51M:C01",
+   "code": "D51M",
+   "sub": "C01",
+   "nat": "Daň z príjmov FO zo závislej činnosti a funkčných pôžitkov",
+   "en": "Income tax individuals - income from dependent activities and functional benefits",
+   "fn": "SPLIT1",
+   "at": "_Z",
+   "v2024": 4618.283,
+   "v2023": 4541.839,
+   "row": 113
+  },
+  {
+   "key": "D51M:C02",
+   "code": "D51M",
+   "sub": "C02",
+   "nat": "Daň z príjmov FO z podnikania a inej samost.zárobkovej činnosti",
+   "en": "Income tax individuals - from business and other independent gainful activities",
+   "fn": "SPLIT1",
+   "at": "_Z",
+   "v2024": 194.4,
+   "v2023": 143.532,
+   "row": 114
+  },
+  {
+   "key": "D51A:C01",
+   "code": "D51A",
+   "sub": "C01",
+   "nat": "Daň z príjmov FO zo závislej činnosti a funkčných pôžitkov",
+   "en": "Income tax individuals - income from dependent activities and functional benefits",
+   "fn": "Z",
+   "at": "_Z",
+   "v2024": 4618.283,
+   "v2023": 4541.839,
+   "row": 116
+  },
+  {
+   "key": "D51A:C02",
+   "code": "D51A",
+   "sub": "C02",
+   "nat": "Daň z príjmov FO z podnikania a inej samost.zárobkovej činnosti",
+   "en": "Income tax individuals - from business and other independent gainful activities",
+   "fn": "Z",
+   "at": "_Z",
+   "v2024": 194.4,
+   "v2023": 143.532,
+   "row": 117
+  },
+  {
+   "key": "D51O:C01",
+   "code": "D51O",
+   "sub": "C01",
+   "nat": "Daň z príjmov právnických osôb - so sídlom v tuzemsku",
+   "en": "Corporate income tax - having their sites in the resident country",
+   "fn": "Z",
+   "at": "_Z",
+   "v2024": 4492.841,
+   "v2023": 4355.83,
+   "row": 120
+  },
+  {
+   "key": "D51O:C02",
+   "code": "D51O",
+   "sub": "C02",
+   "nat": "Daň z príjmov právnických osôb - Emisie",
+   "en": "Corporate income tax - Tax on revenues from sale of emission permits",
+   "fn": "Z",
+   "at": "_Z",
+   "v2024": null,
+   "v2023": null,
+   "row": 121
+  },
+  {
+   "key": "D51O:C03",
+   "code": "D51O",
+   "sub": "C03",
+   "nat": "Daň z príjmov právnických osôb - Osobitný odvod v regulovaných odvetviach",
+   "en": "Corporate income tax - Special levy for regulated industries",
+   "fn": "Z",
+   "at": "_Z",
+   "v2024": 533.62,
+   "v2023": 134.959,
+   "row": 122
+  },
+  {
+   "key": "D51O:C04",
+   "code": "D51O",
+   "sub": "C04",
+   "nat": "Solidárny príspevok",
+   "en": "Solidarity contribution",
+   "fn": "Z",
+   "at": "_Z",
+   "v2024": 55.672,
+   "v2023": null,
+   "row": 123
+  },
+  {
+   "key": "D51B:C01",
+   "code": "D51B",
+   "sub": "C01",
+   "nat": "Daň z príjmov právnických osôb - so sídlom v tuzemsku",
+   "en": "Corporate income tax - having their sites in the resident country",
+   "fn": "KIC",
+   "at": "_Z",
+   "v2024": 4492.841,
+   "v2023": 4355.83,
+   "row": 125
+  },
+  {
+   "key": "D51B:C02",
+   "code": "D51B",
+   "sub": "C02",
+   "nat": "Daň z príjmov právnických osôb - Emisie",
+   "en": "Corporate income tax - Tax on revenues from sale of emission permits",
+   "fn": "KIC",
+   "at": "_Z",
+   "v2024": null,
+   "v2023": null,
+   "row": 126
+  },
+  {
+   "key": "D51B:C03",
+   "code": "D51B",
+   "sub": "C03",
+   "nat": "Daň z príjmov právnických osôb - Osobitný odvod v regulovaných odvetviach",
+   "en": "Corporate income tax - Special levy for regulated industries",
+   "fn": "KIC",
+   "at": "_Z",
+   "v2024": 533.62,
+   "v2023": 134.959,
+   "row": 127
+  },
+  {
+   "key": "D51B:C04",
+   "code": "D51B",
+   "sub": "C04",
+   "nat": "Solidárny príspevok",
+   "en": "Solidarity contribution",
+   "fn": "KIC",
+   "at": "_Z",
+   "v2024": 55.672,
+   "v2023": null,
+   "row": 128
+  },
+  {
+   "key": "D51E:C01",
+   "code": "D51E",
+   "sub": "C01",
+   "nat": "Dane z príjmov vyberané zrážkou od FO (z divid.,zisku,z úrok.,atď.)",
+   "en": "Withholding income tax from individuals",
+   "fn": "KIH",
+   "at": "_Z",
+   "v2024": 72.5095,
+   "v2023": 59.0015,
+   "row": 134
+  },
+  {
+   "key": "D51E:C02",
+   "code": "D51E",
+   "sub": "C02",
+   "nat": "Dane z príjmov vyberané zrážkou od PO (z divid.,zisku,z úrok.,atď.)",
+   "en": "Withholding income tax from legal persons",
+   "fn": "KIC",
+   "at": "_Z",
+   "v2024": 456.6415,
+   "v2023": 371.5725,
+   "row": 135
+  },
+  {
+   "key": "D51E:C03",
+   "code": "D51E",
+   "sub": "C03",
+   "nat": "Dane z príjmov vyberané zrážkou od neidentifikovateľných osôb",
+   "en": "Withholding income tax from unidentifiable persons",
+   "fn": "Z",
+   "at": "_Z",
+   "v2024": 529.151,
+   "v2023": 430.574,
+   "row": 136
+  },
+  {
+   "key": "D59A:C01",
+   "code": "D59A",
+   "sub": "C01",
+   "nat": "Z pozemkov",
+   "en": "from land",
+   "fn": "KS",
+   "at": "RP",
+   "v2024": 42.685,
+   "v2023": 36.694,
+   "row": 139
+  },
+  {
+   "key": "D59A:C02",
+   "code": "D59A",
+   "sub": "C02",
+   "nat": "Zo stavieb",
+   "en": "from buildings",
+   "fn": "KS",
+   "at": "RP",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 140
+  },
+  {
+   "key": "D59A:C03",
+   "code": "D59A",
+   "sub": "C03",
+   "nat": "Z bytov",
+   "en": "from dwellings",
+   "fn": "KS",
+   "at": "RP",
+   "v2024": 4.388,
+   "v2023": 3.252,
+   "row": 141
+  },
+  {
+   "key": "D59A:C04",
+   "code": "D59A",
+   "sub": "C04",
+   "nat": "Ostatné",
+   "en": "Other",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": null,
+   "v2023": 0,
+   "row": 142
+  },
+  {
+   "key": "D59A:C05",
+   "code": "D59A",
+   "sub": "C05",
+   "nat": "Daň z prevodu a prechodu nehnuteľností FO",
+   "en": "Tax on transfer and assignment of real estate",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": 0.003,
+   "v2023": 0.003,
+   "row": 143
+  },
+  {
+   "key": "D59D:C01",
+   "code": "D59D",
+   "sub": "C01",
+   "nat": "Dane na špecifické služby za psa FO",
+   "en": "Taxes on specific services - for dog",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 1.798,
+   "v2023": 1.657,
+   "row": 147
+  },
+  {
+   "key": "D59D:C02",
+   "code": "D59D",
+   "sub": "C02",
+   "nat": "Dane na špecif.služby za povolenie k vjazdu mot.vozidla do h.č.m.",
+   "en": "Taxes on specific services - on permits to enter historical city district with motor vehicle",
+   "fn": "C",
+   "at": "T",
+   "v2024": 0.142,
+   "v2023": 0.131,
+   "row": 148
+  },
+  {
+   "key": "D59D:C03",
+   "code": "D59D",
+   "sub": "C03",
+   "nat": "Dane na špecif.služby za kúpeľný alebo rekreačný pobyt",
+   "en": "Taxes on specific services - on stays at a spa or in a recreational area",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 149
+  },
+  {
+   "key": "D59D:C04",
+   "code": "D59D",
+   "sub": "C04",
+   "nat": "Administratívne poplatky - tržby z predaja kolkov.známok",
+   "en": "Earnings from sales of fiscal stamps",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": null,
+   "v2023": null,
+   "row": 150
+  },
+  {
+   "key": "D59D:C05",
+   "code": "D59D",
+   "sub": "C05",
+   "nat": "Administratívne poplatky - FO - správne",
+   "en": "Administrative fees paid by natural persons",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 151
+  },
+  {
+   "key": "D59D:C06",
+   "code": "D59D",
+   "sub": "C06",
+   "nat": "Administratívne poplatky - ostatné",
+   "en": "Administrative fees - other",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 53.282,
+   "v2023": 47.915,
+   "row": 152
+  },
+  {
+   "key": "D59D:C07",
+   "code": "D59D",
+   "sub": "C07",
+   "nat": "Administratívne poplatky - licencie",
+   "en": "Administrative fees - licence fees",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 0.216,
+   "v2023": 0.221,
+   "row": 153
+  },
+  {
+   "key": "D59D:C08",
+   "code": "D59D",
+   "sub": "C08",
+   "nat": "Koncesionárske poplatky STV a SRo - FO",
+   "en": "TV and Radio licence fees",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 1.8,
+   "v2023": 37.901,
+   "row": 154
+  },
+  {
+   "key": "D91A:C01",
+   "code": "D91A",
+   "sub": "C01",
+   "nat": "Z dedičstva",
+   "en": "Inheritance tax",
+   "fn": "KS",
+   "at": "O",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 159
+  },
+  {
+   "key": "D91A:C02",
+   "code": "D91A",
+   "sub": "C02",
+   "nat": "Z darovania",
+   "en": "Tax on gifts inter-vivos",
+   "fn": "KS",
+   "at": "O",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 160
+  },
+  {
+   "key": "D611:C01",
+   "code": "D611",
+   "sub": "C01",
+   "nat": "Skutočné sociálne príspevky zamestnávateľov",
+   "en": "Employers' actual social contributions",
+   "fn": "Z",
+   "at": "_Z",
+   "v2024": 12069.223,
+   "v2023": 10718.613,
+   "row": 166
+  },
+  {
+   "key": "D611C:C01",
+   "code": "D611C",
+   "sub": "C01",
+   "nat": "",
+   "en": "",
+   "fn": "LEYRS",
+   "at": "_Z",
+   "v2024": 12069.223,
+   "v2023": 10718.613,
+   "row": 168
+  },
+  {
+   "key": "D6111:C01",
+   "code": "D6111",
+   "sub": "C01",
+   "nat": "Skutočné sociálne príspevky zamestnávateľov do dôchod.systému",
+   "en": "Employers' actual pension contributions",
+   "fn": "Z",
+   "at": "_Z",
+   "v2024": 5251.328,
+   "v2023": 4687.141,
+   "row": 172
+  },
+  {
+   "key": "D6112:C01",
+   "code": "D6112",
+   "sub": "C01",
+   "nat": "Skutočné prísp.zamestnávateľov iné ako prísp.do dôch.systému",
+   "en": "Employers' actual non-pension contributions",
+   "fn": "Z",
+   "at": "_Z",
+   "v2024": 6817.895,
+   "v2023": 6031.472,
+   "row": 174
+  },
+  {
+   "key": "D612:C01",
+   "code": "D612",
+   "sub": "C01",
+   "nat": "Imputované príspevky zamestnávateľov do iných ako penzijných fondov",
+   "en": "Employers' imputed social contributions",
+   "fn": "Z",
+   "at": "_Z",
+   "v2024": 536.964,
+   "v2023": 422.304,
+   "row": 176
+  },
+  {
+   "key": "D6122:C01",
+   "code": "D6122",
+   "sub": "C01",
+   "nat": "Imputované príspevky zamestnávateľov do iných ako penzijných fondov",
+   "en": "Employers' imputed non-pension contributions",
+   "fn": "Z",
+   "at": "_Z",
+   "v2024": 536.964,
+   "v2023": 422.304,
+   "row": 179
+  },
+  {
+   "key": "D613:C01",
+   "code": "D613",
+   "sub": "C01",
+   "nat": "",
+   "en": "",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 8358.476,
+   "v2023": 7804.746,
+   "row": 181
+  },
+  {
+   "key": "D6131:C01",
+   "code": "D6131",
+   "sub": "C01",
+   "nat": "Skutočné príspevky domácností do dôchodkového systému",
+   "en": "Households' actual pension contributions",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 3274.939,
+   "v2023": 3021.513,
+   "row": 183
+  },
+  {
+   "key": "D6132:C01",
+   "code": "D6132",
+   "sub": "C01",
+   "nat": "Iné skutočné príspevky domácností ako príspevky domácností do dôchodkového systému",
+   "en": "Households' actual non-pension contributions",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 5083.537,
+   "v2023": 4783.233,
+   "row": 185
+  },
+  {
+   "key": "D613CE:C01",
+   "code": "D613CE",
+   "sub": "C01",
+   "nat": "",
+   "en": "",
+   "fn": "LEES",
+   "at": "_Z",
+   "v2024": 4535.699,
+   "v2023": 4236.338,
+   "row": 188
+  },
+  {
+   "key": "D613CS:C01",
+   "code": "D613CS",
+   "sub": "C01",
+   "nat": "",
+   "en": "",
+   "fn": "KISE",
+   "at": "_Z",
+   "v2024": 0.788,
+   "v2023": 0.749,
+   "row": 190
+  },
+  {
+   "key": "D613CN:C01",
+   "code": "D613CN",
+   "sub": "C01",
+   "nat": "",
+   "en": "",
+   "fn": "LNON",
+   "at": "_Z",
+   "v2024": 3821.985,
+   "v2023": 3567.659,
+   "row": 192
+  }
+ ]
+}

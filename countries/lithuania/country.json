@@ -1,0 +1,103 @@
+{
+  "id": "lithuania",
+  "iso3": "LTU",
+  "isoNumeric": "440",
+  "names": { "en": "Lithuania", "native": "Lietuva", "nativeLang": "lt" },
+  "currency": { "code": "EUR", "symbol": "€", "name": "Euro" },
+  "summary": "Lithuania is a unitary state: the Seimas sets every tax and the State Tax Inspectorate collects almost all of them. The two biggest flows are the social insurance contributions, now paid almost entirely by employees, and VAT; the personal income tax comes next. Municipalities levy only property taxes (real estate, land and inheritance); they are financed mainly by transfers, including a share of the income tax.",
+  "structureNote": "The figures are the Commission’s National Tax List for 2024. The list gives the social contributions only as subtotals, so they are drawn as two lines. The sale of emission permits (EUR 113.7 million) and the employers’ imputed social contributions (EUR 291.0 million) are left out. The social contributions are drawn under the State: they are collected by the State Tax Inspectorate for the social insurance fund Sodra. Eurostat’s accounts record all the personal income tax under central government.",
+  "theme": {
+    "accent": "#ffb703",
+    "accent2": "#0b6e4f",
+    "motif": "topo",
+    "motifNote": "Topographic contour lines over the outline of Lithuania (the generic motif; no bespoke art yet).",
+    "mapLabel": { "lon": 23.9, "lat": 55.3 }
+  },
+  "levels": [
+    {
+      "id": "valstybe",
+      "branch": "national",
+      "names": { "official": "The State (central government)", "native": "Valstybė", "common": "State" },
+      "description": "The Seimas legislates all taxes; the State Tax Inspectorate (VMI) collects them and the social insurance contributions, which fund the State Social Insurance Fund Board (Sodra) and the compulsory health insurance fund.",
+      "fiscalPower": "Rates and bases of all taxes are fixed by law in the Seimas; municipalities cannot create taxes.",
+      "legalRefs": [{ "sourceId": "gt-lt-2024" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "savivaldybes",
+      "branch": "local",
+      "names": { "official": "Municipalities", "native": "Savivaldybės", "common": "Municipalities" },
+      "description": "The only tier below the State. They levy the real estate tax and the land tax within limits set by law and receive the inheritance tax; they also receive a share of the income tax and state grants, which Eurostat’s accounts do not count as their taxes.",
+      "fiscalPower": "Municipal councils set the real estate and land tax rates within the range fixed by the national laws.",
+      "legalRefs": [{ "sourceId": "eurostat-taxag" }],
+      "checkedOn": "2026-10-12"
+    }
+  ],
+  "supportingSourceIds": [],
+  "denominators": [
+    {
+      "id": "valstybe-taxes-2024",
+      "label": "State taxes (National Tax List), 2024",
+      "definition": "The taxes on production and imports and on income that the National Tax List books to the State and the EU, other than the municipal property taxes and the sale of emission permits.",
+      "levelIds": ["valstybe"],
+      "amount": 17319.04,
+      "scale": "million",
+      "currency": "EUR",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "ntl-2026",
+      "locator": "Sheet LT, 2024, the lines listed with each tax",
+      "calculation": "Sum of the 16 tax rows below (EUR million)",
+      "caveat": "Calendar 2024; the list's cut-off was 30 October 2025. Vintage check against Eurostat's July 2026 accounts: D2: NTL 9,274.14, Eurostat July 2026 9,274.1; D5: NTL 8,391.55, Eurostat July 2026 8,391.6; D61: NTL 8,690.41, Eurostat July 2026 8,690.4.",
+      "accessed": "2026-10-12"
+    },
+    {
+      "id": "valstybe-social-households-2024",
+      "label": "Social contributions paid by households, 2024",
+      "definition": "The actual compulsory social contributions of households (employees and the self-employed).",
+      "levelIds": ["valstybe"],
+      "amount": 7770.14,
+      "scale": "million",
+      "currency": "EUR",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "ntl-2026",
+      "locator": "Sheet LT, 2024, subtotal D613",
+      "caveat": "Calendar 2024, same list and cut-off as the taxes. The list gives only the subtotal for Lithuania.",
+      "accessed": "2026-10-12"
+    },
+    {
+      "id": "valstybe-social-employers-2024",
+      "label": "Social contributions paid by employers, 2024",
+      "definition": "The actual compulsory social contributions of employers; imputed contributions are left out.",
+      "levelIds": ["valstybe"],
+      "amount": 629.25,
+      "scale": "million",
+      "currency": "EUR",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "ntl-2026",
+      "locator": "Sheet LT, 2024, subtotal D611",
+      "caveat": "Calendar 2024, same list and cut-off as the taxes. The list gives only the subtotal for Lithuania.",
+      "accessed": "2026-10-12"
+    },
+    {
+      "id": "savivaldybes-taxes-2024",
+      "label": "Property and inheritance taxes of the municipalities, 2024",
+      "definition": "The real estate tax, the land taxes of companies and households and the inheritance tax.",
+      "levelIds": ["savivaldybes"],
+      "amount": 237.29,
+      "scale": "million",
+      "currency": "EUR",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "ntl-2026",
+      "locator": "Sheet LT, 2024, lines D29A C01 and C02, D59A C01, D91A C01",
+      "calculation": "Sum of the local rows below (EUR million)",
+      "caveat": "Eurostat books EUR 236 million of taxes on production, EUR 34.4 million of households' land tax and EUR 4.3 million of capital taxes to local government. The list itemises EUR 237.29 million here; EUR 17 million of pollution taxes and EUR 34 million of other production taxes that Eurostat attributes to local government are not itemised by line and stay under the State. The household land tax is drawn fully here although Eurostat books EUR 16.1 million of it centrally.",
+      "accessed": "2026-10-12"
+    }
+  ],
+  "sizing": {
+    "label": "Taxes and compulsory social contributions of all levels of government",
+    "definition": "The taxes of the State and the municipalities plus the actual social contributions, calendar 2024, as listed in the National Tax List. Excludes the sale of emission permits and imputed social contributions.",
+    "componentIds": ["valstybe-taxes-2024", "valstybe-social-households-2024", "valstybe-social-employers-2024", "savivaldybes-taxes-2024"]
+  },
+  "researchStatus": "researched"
+}

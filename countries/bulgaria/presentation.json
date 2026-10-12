@@ -1,0 +1,28 @@
+{
+  "nodes": {
+    "bulgaria": { "label": "Bulgaria", "sublabel": "България · Fiscal folio", "glyph": "globe" },
+    "darzhava": { "label": "State", "sublabel": "Държава", "glyph": "landmark" },
+    "obshtini": { "label": "Municipalities", "sublabel": "Общини", "glyph": "town" },
+    "bg-pit-wages": { "label": "Income tax: wages", "sublabel": "10% flat", "glyph": "person" },
+    "bg-pit-other": { "label": "Income tax: other", "sublabel": "Dividends · traders", "glyph": "coin" },
+    "bg-corporate-income-tax": { "label": "Corporate income tax", "sublabel": "10% flat", "glyph": "factory" },
+    "bg-other-corporate-taxes": { "label": "Other corporate taxes", "sublabel": "Top-up · dividends", "glyph": "factory" },
+    "bg-social-employers": { "label": "Social: employers", "sublabel": "Pensions · health", "glyph": "heart" },
+    "bg-social-employees": { "label": "Social: employees", "sublabel": "Pensions · health", "glyph": "heart" },
+    "bg-social-self-employed": { "label": "Social: self-employed", "sublabel": "Contributions", "glyph": "heart" },
+    "bg-vat": { "label": "VAT", "sublabel": "20%", "glyph": "cart" },
+    "bg-customs": { "label": "Customs duties", "sublabel": "EU tariff", "glyph": "ship" },
+    "bg-excise-tobacco": { "label": "Tobacco excise", "sublabel": "Cigarettes", "glyph": "smoke" },
+    "bg-excise-fuel": { "label": "Fuel and energy excise", "sublabel": "Fuel", "glyph": "flame" },
+    "bg-excise-alcohol-other": { "label": "Alcohol excise", "sublabel": "Spirits · beer", "glyph": "wine" },
+    "bg-gambling-insurance": { "label": "Gambling and insurance taxes", "sublabel": "Small", "glyph": "dice" },
+    "bg-electric-power-fund": { "label": "Electric power fund", "sublabel": "Levy", "glyph": "bolt" },
+    "bg-environmental-fees": { "label": "Environmental fees", "sublabel": "Water · waste", "glyph": "leaf" },
+    "bg-bank-contributions": { "label": "Bank fund contributions", "sublabel": "Guarantee fund", "glyph": "bank" },
+    "bg-small-taxes": { "label": "Other small taxes", "sublabel": "Small", "glyph": "stamp" },
+    "bg-real-estate-tax": { "label": "Real estate tax", "sublabel": "Municipal", "glyph": "house" },
+    "bg-vehicle-tax": { "label": "Vehicle tax", "sublabel": "Municipal", "glyph": "car" },
+    "bg-donations-inheritance": { "label": "Donation and transfer taxes", "sublabel": "Municipal", "glyph": "stamp" },
+    "bg-local-small-taxes": { "label": "Patent and visitor taxes", "sublabel": "Municipal", "glyph": "town" }
+  }
+}

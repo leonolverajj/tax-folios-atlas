@@ -1,0 +1,246 @@
+{
+  "groups": [
+    {
+      "title": "State taxes 2024 – National Tax List (EUR million)",
+      "defaults": {
+        "denominatorId": "drzava-taxes-2024",
+        "scale": "million",
+        "currency": "EUR",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "ESA tax revenue, general government and EU institutions",
+        "sourceId": "ntl-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        { "nodeId": "hr-cit", "amount": 2679.1, "locator": "NTL 2026, sheet HR, row 131: D51B Corporate income taxes, 2024" },
+        {
+          "nodeId": "hr-vat",
+          "amount": 11449.81,
+          "locator": "NTL 2026, sheet HR, 2024: D211 Value added taxes (row 12); D211 Value added taxes on import of goods inland (row 13); D211 Value added taxes on services of foreign entrepreneurs (row 14)",
+          "calculation": "11,157.96 + 292.23 − 0.39 = 11,449.81 (EUR million)"
+        },
+        { "nodeId": "hr-customs", "amount": 83.97, "locator": "NTL 2026, sheet HR, row 17: D2121 Customs, 2024" },
+        {
+          "nodeId": "hr-excise-fuel",
+          "amount": 1410.43,
+          "locator": "NTL 2026, sheet HR, 2024: D214A Excise taxes on mineral oils (row 29); D214A Excise taxes on electricity - from 01.07.2013. (row 39); D214A Excise taxes on natural gas - from 01.07.2013. (row 40); D214A Excise taxes on solid fuels - from 01.07.2013. (row 41)",
+          "calculation": "1,401.73 + 4.96 + 3.69 + 0.05 = 1,410.43 (EUR million)"
+        },
+        { "nodeId": "hr-excise-tobacco", "amount": 1023.09, "locator": "NTL 2026, sheet HR, row 33: D214A Excise taxes on tobacco products, 2024" },
+        {
+          "nodeId": "hr-excise-drinks",
+          "amount": 207.33,
+          "locator": "NTL 2026, sheet HR, 2024: D214A Excise taxes on alcohol (row 30); D214A Excise taxes on beer (row 31); D214A Excise taxes on non-alcoholic drinks (row 32); D214A Excise taxes on coffee (row 34)",
+          "calculation": "63.68 + 90.73 + 36.07 + 16.86 = 207.33 (EUR million)"
+        },
+        {
+          "nodeId": "hr-excise-cars",
+          "amount": 176.18,
+          "locator": "NTL 2026, sheet HR, 2024: D214A Excise taxes on motor vehicles - from 01.07.2013. (row 38); D214A Excise taxes on passenger cars, other motor vehicles, vessels and aircraft (row 28)",
+          "calculation": "176.17 + 0.01 = 176.18 (EUR million)"
+        },
+        {
+          "nodeId": "hr-renewable-fee",
+          "amount": 213.7,
+          "locator": "NTL 2026, sheet HR, row 42: D214A Fee for Incentivizing Electricity Production from Renewable Energy Sources and Cogeneration, 2024"
+        },
+        {
+          "nodeId": "hr-waste-fees",
+          "amount": 179.15,
+          "locator": "NTL 2026, sheet HR, 2024: D214A Waste packaging management fee and deposit fee (row 43); D214A WEEE management fee (row 44); D214A End-of-life vehicle management fee (row 45); D214A Waste Tyres Management Fee (row 46); D214A Disposal fee for waste lubricating oils (row 47)",
+          "calculation": "120.68 + 31.2 + 18.46 + 5.28 + 3.53 = 179.15 (EUR million)"
+        },
+        {
+          "nodeId": "hr-gambling",
+          "amount": 343.28,
+          "locator": "NTL 2026, sheet HR, 2024: 10 lines of the list: D214F:C01, D214F:C02, D214F:C03, D214F:C04, D214F:C06, D29E:C03, D29E:C04, D29E:C05, D51D:C01, D51D:C02",
+          "calculation": "Sum of 10 lines of the list, named in the locator (EUR million)"
+        },
+        {
+          "nodeId": "hr-insurance-tax",
+          "amount": 97.58,
+          "locator": "NTL 2026, sheet HR, 2024: D214G Taxes on liability road vehicles insurance premium (row 66); D214G Taxes on comprehensive road vehicles insurance premium (row 67)",
+          "calculation": "66.78 + 30.81 = 97.58 (EUR million)"
+        },
+        {
+          "nodeId": "hr-water-fees",
+          "amount": 272.05,
+          "locator": "NTL 2026, sheet HR, 2024: D29H Water management fee (water regulation fee) (natural persons) (row 117); D29H Water use charge (water use fee) (natural persons) (row 118); D59F Water management fee (water regulation fee) (natural persons) (row 158); D59F Water use charge (water use fee) (natural persons) (row 159); D59F Water contribution (natural persons) (row 160); D59F Water protection fee (natural persons) (row 162); D29F Water protection fee (natural persons) (row 112); D29A Water contribution (natural persons) (row 84)",
+          "calculation": "78.23 + 31.73 + 55.57 + 62.79 + 3.31 + 20.17 + 14.75 + 5.49 = 272.05 (EUR million)"
+        },
+        {
+          "nodeId": "hr-hrt-fee",
+          "amount": 155.22,
+          "locator": "NTL 2026, sheet HR, 2024: D59D HRT fee (natural persons) (row 153); D29E HRT fee (legal persons) (row 99)",
+          "calculation": "131.06 + 24.16 = 155.22 (EUR million)"
+        },
+        {
+          "nodeId": "hr-maritime-forest",
+          "amount": 76.54,
+          "locator": "NTL 2026, sheet HR, 2024: D29A Contributions for forest (row 83); D29A Compensation for the use of the public-use functions of forests (row 86); D59D Maritime safety charge (natural persons) (row 155)",
+          "calculation": "35.65 + 35.12 + 5.78 = 76.54 (EUR million)"
+        },
+        {
+          "nodeId": "hr-environmental-levies",
+          "amount": 38.15,
+          "locator": "NTL 2026, sheet HR, 2024: D29F Levy for non-hazardous industrial waste (row 104); D29F Levy for CO2 emissions into the environment (row 106); D29F Levy on the environment on motor vehicles (natural persons) (row 110); D59F Levy on the environment on motor vehicles (natural persons) (row 163); D29H Energy surtaxes - windfall taxes (row 123)",
+          "calculation": "0.38 + 0.68 + 6.64 + 19.93 + 10.5 = 38.15 (EUR million)"
+        },
+        {
+          "nodeId": "hr-small-state-fees",
+          "amount": 94.01,
+          "locator": "NTL 2026, sheet HR, 2024: 11 lines of the list: D29H:C08, D29C:C01, D29H:C05, D29H:C06, D29H:C07, D29E:C01, D214H:C01, D214H:C04, D214I:C01, D214I:C02, D51E:C01",
+          "calculation": "Sum of 11 lines of the list, named in the locator (EUR million)"
+        }
+      ]
+    },
+    {
+      "title": "Employers’ social contributions 2024 – National Tax List (EUR million)",
+      "defaults": {
+        "denominatorId": "drzava-social-employers-2024",
+        "scale": "million",
+        "currency": "EUR",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Actual compulsory contributions",
+        "sourceId": "ntl-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        {
+          "nodeId": "hr-social-employers",
+          "amount": 4831.77,
+          "locator": "NTL 2026, sheet HR, row 173: D611C Compulsory employers' actual social contributions, 2024"
+        }
+      ]
+    },
+    {
+      "title": "Employees’ social contributions 2024 – National Tax List (EUR million)",
+      "defaults": {
+        "denominatorId": "drzava-social-employees-2024",
+        "scale": "million",
+        "currency": "EUR",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Actual compulsory contributions",
+        "sourceId": "ntl-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        {
+          "nodeId": "hr-social-employees",
+          "amount": 5003.33,
+          "locator": "NTL 2026, sheet HR, row 182: D613 Households' actual social contributions, 2024"
+        }
+      ]
+    },
+    {
+      "title": "Personal income tax 2024 – National Tax List (EUR million)",
+      "defaults": {
+        "denominatorId": "lokalne-pit-2024",
+        "scale": "million",
+        "currency": "EUR",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "ESA tax revenue",
+        "sourceId": "ntl-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [{ "nodeId": "hr-pit", "amount": 3388.5, "locator": "NTL 2026, sheet HR, row 128: D51A Personal income taxes and local surtax, 2024" }]
+    },
+    {
+      "title": "Property transfer and inheritance taxes 2024 – National Tax List (EUR million)",
+      "defaults": {
+        "denominatorId": "lokalne-transfer-2024",
+        "scale": "million",
+        "currency": "EUR",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "ESA tax revenue",
+        "sourceId": "ntl-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        {
+          "nodeId": "hr-transfer-tax",
+          "amount": 230.77,
+          "locator": "NTL 2026, sheet HR, 2024: D214C Real estate transfer tax (row 50); D91A Inheritance and gift taxes (row 166)",
+          "calculation": "228.01 + 2.76 = 230.77 (EUR million)"
+        }
+      ]
+    },
+    {
+      "title": "Communal charges 2024 – National Tax List (EUR million)",
+      "defaults": {
+        "denominatorId": "lokalne-communal-2024",
+        "scale": "million",
+        "currency": "EUR",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "ESA tax revenue",
+        "sourceId": "ntl-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        {
+          "nodeId": "hr-communal-charges",
+          "amount": 587.47,
+          "locator": "NTL 2026, sheet HR, 2024: D29A Utility charges (row 82); D29A Municipal contribution (communal contribution) art.76 (natural persons) (row 85); D59F Municipal contribution (communal contribution) art.76 (natural persons) (row 161); D29A Public land use taxes (row 81); D29A Monumental annuity (row 87)",
+          "calculation": "407.51 + 46 + 107.33 + 12.42 + 14.21 = 587.47 (EUR million)"
+        }
+      ]
+    },
+    {
+      "title": "Local vehicle taxes 2024 – National Tax List (EUR million)",
+      "defaults": {
+        "denominatorId": "lokalne-vehicles-2024",
+        "scale": "million",
+        "currency": "EUR",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "ESA tax revenue",
+        "sourceId": "ntl-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        {
+          "nodeId": "hr-local-vehicle-taxes",
+          "amount": 216.18,
+          "locator": "NTL 2026, sheet HR, 2024: D29B Motor vehicle taxes (legal persons) (row 89); D29B Boat taxes (legal persons) (row 90); D29B Annual levy on public roads use (at motor vehicles registration) legal person (row 91); D29B Levy on public roads use for tractors (row 92); D29B Maritime safety charge (legal persons) (row 93); D59D Motor vehicle taxes (natural persons) (row 151); D59D Boat taxes (natural persons) (row 152); D59D Annual levy on public roads use (at motor vehicles registration) natural person (row 154)",
+          "calculation": "12.89 + 0.37 + 42.79 + 0.25 + 0.57 + 30.08 + 0.87 + 128.36 = 216.18 (EUR million)"
+        }
+      ]
+    },
+    {
+      "title": "Tourist and holiday-house taxes 2024 – National Tax List (EUR million)",
+      "defaults": {
+        "denominatorId": "lokalne-tourist-2024",
+        "scale": "million",
+        "currency": "EUR",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "ESA tax revenue",
+        "sourceId": "ntl-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        {
+          "nodeId": "hr-visitors-consumption-houses",
+          "amount": 203.52,
+          "locator": "NTL 2026, sheet HR, 2024: D214H Visitors' taxes (tourist taxes) (row 70); D214A Consumption taxes (row 36); D59A Taxes on holiday houses (row 144); D59A Taxes on the unused entrepreneurial real estate (row 146); D59A Taxes on the unused construction land (row 147)",
+          "calculation": "122.19 + 29.11 + 52.36 − 0.15 + 0.01 = 203.52 (EUR million)"
+        }
+      ]
+    }
+  ],
+  "unavailable": []
+}

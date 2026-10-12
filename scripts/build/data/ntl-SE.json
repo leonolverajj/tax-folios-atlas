@@ -1,0 +1,1972 @@
+{
+ "country": "SE",
+ "source": "NTL edition 2026 web.xlsx (Commission, DG TAXUD / Eurostat)",
+ "unit": "million national currency",
+ "sector": "S.13 + S.212",
+ "totals": {
+  "D2": {
+   "name": "Taxes on production and imports",
+   "v2024": 1345203,
+   "v2023": 1330403,
+   "row": 9
+  },
+  "D21": {
+   "name": "Taxes on products",
+   "v2024": 694286,
+   "v2023": 681929,
+   "row": 10
+  },
+  "D211": {
+   "name": "Value added type taxes (VAT)",
+   "v2024": 556212,
+   "v2023": 552499,
+   "row": 11
+  },
+  "D212": {
+   "name": "Taxes and duties on imports excluding VAT",
+   "v2024": 8482,
+   "v2023": 7936,
+   "row": 14
+  },
+  "D2121": {
+   "name": "Import duties",
+   "v2024": 8480,
+   "v2023": 7936,
+   "row": 15
+  },
+  "D2122": {
+   "name": "Taxes on imports, excluding VAT and import duties",
+   "v2024": 2,
+   "v2023": 0,
+   "row": 17
+  },
+  "D2122A": {
+   "name": "Levies on imported agricultural products",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 18
+  },
+  "D2122B": {
+   "name": "Monetary compensatory amounts on imports",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 20
+  },
+  "D2122C": {
+   "name": "Excise duties",
+   "v2024": 2,
+   "v2023": 0,
+   "row": 21
+  },
+  "D2122D": {
+   "name": "General sales taxes",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 23
+  },
+  "D2122E": {
+   "name": "Taxes on specific services",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 24
+  },
+  "D2122F": {
+   "name": "Profits of import monopolies",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 25
+  },
+  "D214": {
+   "name": "Taxes on products, except VAT and import taxes",
+   "v2024": 129592,
+   "v2023": 121494,
+   "row": 26
+  },
+  "D214A": {
+   "name": "Excise duties and consumption taxes",
+   "v2024": 104643,
+   "v2023": 97840,
+   "row": 27
+  },
+  "D214B": {
+   "name": "Stamp taxes",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 36
+  },
+  "D214C": {
+   "name": "Taxes on financial and capital transactions",
+   "v2024": 10628,
+   "v2023": 10311,
+   "row": 37
+  },
+  "D214D": {
+   "name": "Car registration taxes",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 41
+  },
+  "D214E": {
+   "name": "Taxes on entertainment",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 43
+  },
+  "D214F": {
+   "name": "Taxes on lotteries, gambling and betting",
+   "v2024": 4803,
+   "v2023": 4220,
+   "row": 44
+  },
+  "D214G": {
+   "name": "Taxes on insurance premiums",
+   "v2024": 2768,
+   "v2023": 2728,
+   "row": 48
+  },
+  "D214H": {
+   "name": "Other taxes on specific services",
+   "v2024": 1693,
+   "v2023": 1500,
+   "row": 50
+  },
+  "D214I": {
+   "name": "General sales or turnover taxes",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 53
+  },
+  "D214J": {
+   "name": "Profits of fiscal monopolies",
+   "v2024": 1960,
+   "v2023": 2308,
+   "row": 55
+  },
+  "D214K": {
+   "name": "Export duties and monetary comp. amounts on exports",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 60
+  },
+  "D214L": {
+   "name": "Other taxes on products n.e.c.",
+   "v2024": 3097,
+   "v2023": 2587,
+   "row": 61
+  },
+  "D29": {
+   "name": "Other taxes on production",
+   "v2024": 650917,
+   "v2023": 648474,
+   "row": 70
+  },
+  "D29A": {
+   "name": "Taxes on land, buildings or other structures",
+   "v2024": 41380,
+   "v2023": 39772,
+   "row": 71
+  },
+  "D29B": {
+   "name": "Taxes on the use of fixed assets",
+   "v2024": 4965,
+   "v2023": 31227,
+   "row": 73
+  },
+  "D29C": {
+   "name": "Total wage bill and payroll taxes",
+   "v2024": 583895,
+   "v2023": 558947,
+   "row": 77
+  },
+  "D29D": {
+   "name": "Taxes on international transactions",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 101
+  },
+  "D29E": {
+   "name": "Business and professional licences",
+   "v2024": 1499,
+   "v2023": 1498,
+   "row": 102
+  },
+  "D29F": {
+   "name": "Taxes on pollution",
+   "v2024": 5050,
+   "v2023": 4394,
+   "row": 109
+  },
+  "D29G": {
+   "name": "Under-compensation of VAT (flat rate system)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 115
+  },
+  "D29H": {
+   "name": "Other taxes on production n.e.c.",
+   "v2024": 14128,
+   "v2023": 12636,
+   "row": 116
+  },
+  "D5": {
+   "name": "Current taxes on income wealth, etc.",
+   "v2024": 1129596,
+   "v2023": 1069139,
+   "row": 124
+  },
+  "D51": {
+   "name": "Taxes on income",
+   "v2024": 1109571,
+   "v2023": 1048302,
+   "row": 125
+  },
+  "D51M": {
+   "name": "Taxes on individual or household income including holding gains",
+   "v2024": 886033,
+   "v2023": 837939,
+   "row": 126
+  },
+  "D51A": {
+   "name": "Taxes on individual or household income excluding holding gains(1)",
+   "v2024": 853918,
+   "v2023": 819735,
+   "row": 128
+  },
+  "D51C1": {
+   "name": "Taxes on individual or household holding gains(1)",
+   "v2024": 32115,
+   "v2023": 18204,
+   "row": 130
+  },
+  "D51O": {
+   "name": "Taxes on the income or profits of corporations including holding gains",
+   "v2024": 223538,
+   "v2023": 210363,
+   "row": 137
+  },
+  "D51B": {
+   "name": "Taxes on the income or profits of corporations excluding holding gains(1)",
+   "v2024": 223538,
+   "v2023": 210363,
+   "row": 139
+  },
+  "D51C2": {
+   "name": "Taxes on holding gains of corporations(1)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 141
+  },
+  "D51C3": {
+   "name": "Other taxes on holding gains(1)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 142
+  },
+  "D51C": {
+   "name": "Taxes on holding gains",
+   "v2024": 32115,
+   "v2023": 18204,
+   "row": 143
+  },
+  "D51D": {
+   "name": "Taxes on winnings from lottery or gambling",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 144
+  },
+  "D51E": {
+   "name": "Other taxes on income n.e.c.",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 146
+  },
+  "D59": {
+   "name": "Other current taxes",
+   "v2024": 20025,
+   "v2023": 20837,
+   "row": 147
+  },
+  "D59A": {
+   "name": "Current taxes on capital",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 148
+  },
+  "D59B": {
+   "name": "Poll taxes",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 151
+  },
+  "D59C": {
+   "name": "Expenditure taxes",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 152
+  },
+  "D59D": {
+   "name": "Payments by households for licences",
+   "v2024": 20025,
+   "v2023": 20837,
+   "row": 153
+  },
+  "D59E": {
+   "name": "Taxes on international transactions",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 157
+  },
+  "D59F": {
+   "name": "Other current taxes n.e.c.",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 158
+  },
+  "D91": {
+   "name": "Capital taxes",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 159
+  },
+  "D91A": {
+   "name": "Taxes on capital transfers",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 160
+  },
+  "D91B": {
+   "name": "Capital levies",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 162
+  },
+  "D91C": {
+   "name": "Other capital taxes n.e.c.",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 163
+  },
+  "D61": {
+   "name": "Net social contributions",
+   "v2024": 235623,
+   "v2023": 214991,
+   "row": 165
+  },
+  "D611": {
+   "name": "Employers' actual social contributions",
+   "v2024": 217629,
+   "v2023": 199452,
+   "row": 166
+  },
+  "D611C": {
+   "name": "Compulsory employers' actual social contributions",
+   "v2024": 165370,
+   "v2023": 159381,
+   "row": 168
+  },
+  "D611V": {
+   "name": "Voluntary employers' actual social contributions",
+   "v2024": 52259,
+   "v2023": 40071,
+   "row": 170
+  },
+  "D61SC": {
+   "name": "Social insurance scheme service charges(3)",
+   "v2024": 19,
+   "v2023": 18,
+   "row": 173
+  },
+  "D6111": {
+   "name": "Employers' actual pension contributions (1)",
+   "v2024": 217500,
+   "v2023": 199346,
+   "row": 175
+  },
+  "D6112": {
+   "name": "Employers' actual non-pension contributions (1)",
+   "v2024": 129,
+   "v2023": 106,
+   "row": 178
+  },
+  "D612": {
+   "name": "Employers' imputed social contributions",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 180
+  },
+  "D6121": {
+   "name": "Employers' imputed pension contributions (1)",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 182
+  },
+  "D6122": {
+   "name": "Employers' imputed non-pension contributions (1)",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 184
+  },
+  "D613": {
+   "name": "Households' actual social contributions",
+   "v2024": 3236,
+   "v2023": 3184,
+   "row": 186
+  },
+  "D6131": {
+   "name": "Households' actual pension contributions (1)",
+   "v2024": 3236,
+   "v2023": 3184,
+   "row": 188
+  },
+  "D6132": {
+   "name": "Households' actual non-pension contributions (1)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 190
+  },
+  "D613C": {
+   "name": "Compulsory households' actual social contributions",
+   "v2024": 3236,
+   "v2023": 3184,
+   "row": 192
+  },
+  "D613CE": {
+   "name": "Compulsory employees' actual social contributions",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 194
+  },
+  "D613CS": {
+   "name": "Compulsory actual social contributions by the self-employed (1)",
+   "v2024": 3236,
+   "v2023": 3184,
+   "row": 196
+  },
+  "D613CN": {
+   "name": "Compulsory actual social contributions by the non-employed (1)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 198
+  },
+  "D613V": {
+   "name": "Voluntary households' actual social contributions",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 199
+  },
+  "D614": {
+   "name": "Households' social contributions supplements(3)",
+   "v2024": 14777,
+   "v2023": 12373,
+   "row": 201
+  },
+  "D6141": {
+   "name": "Households' pension contributions supplements (1)",
+   "v2024": 14777,
+   "v2023": 12373,
+   "row": 203
+  },
+  "D6142": {
+   "name": "Households' non-pension contributions supplements (1)",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 205
+  },
+  "D995": {
+   "name": "Capital transfers from general government to relevant sectors representing taxes and social contributions assessed but unlikely to be collected (2)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 207
+  },
+  "D995A": {
+   "name": "Taxes on products assessed but unlikely to be collected (2)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 208
+  },
+  "D995B": {
+   "name": "Other taxes on production assessed but unlikely to be collected (2)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 209
+  },
+  "D995C": {
+   "name": "Taxes on income assessed but unlikely to be collected (2)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 210
+  },
+  "D995D": {
+   "name": "Other current taxes assessed but unlikely to be collected (2)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 211
+  },
+  "D995E": {
+   "name": "Employers' actual social contributions assessed but unlikely to be collected (2)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 212
+  },
+  "D995F": {
+   "name": "Households' actual social contributions assessed but unlikely to be collected (2)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 213
+  },
+  "D995FE": {
+   "name": "Employees' actual social contributions assessed but unlikely to be collected (2)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 214
+  },
+  "D995FS": {
+   "name": "Actual social contributions by self-employed persons assessed but unlikely to be collected (1)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 215
+  },
+  "D995FN": {
+   "name": "Actual social contributions by non-employed persons assessed but unlikely to be collected (1)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 216
+  },
+  "D995G": {
+   "name": "Capital taxes assessed but unlikely to be collected (2)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 217
+  }
+ },
+ "lines": [
+  {
+   "key": "D211:C01",
+   "code": "D211",
+   "sub": "C01",
+   "nat": "D211A, Mervärdesskatter, Staten",
+   "en": "Value added type taxes (VAT) - CG part",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 547746,
+   "v2023": 544383,
+   "row": 12
+  },
+  {
+   "key": "D211:C02",
+   "code": "D211",
+   "sub": "C02",
+   "nat": "D211B, Mervärdesskatter, EU",
+   "en": "Value added type taxes (VAT) - EU part",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 8466,
+   "v2023": 8116,
+   "row": 13
+  },
+  {
+   "key": "D2121:C01",
+   "code": "D2121",
+   "sub": "C01",
+   "nat": "D2121A, Importtullar",
+   "en": "Import duties",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 8480,
+   "v2023": 7936,
+   "row": 16
+  },
+  {
+   "key": "D2122A:C01",
+   "code": "D2122A",
+   "sub": "C01",
+   "nat": "D2122A1, Importavgifter på jordbruksvaror",
+   "en": "Levies on imported agricultural products",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 19
+  },
+  {
+   "key": "D2122C:C01",
+   "code": "D2122C",
+   "sub": "C01",
+   "nat": "D2122C1, Införselavgifter på alkohol",
+   "en": "Levies on imported alcoholic beverages",
+   "fn": "C",
+   "at": "AT",
+   "v2024": 2,
+   "v2023": 0,
+   "row": 22
+  },
+  {
+   "key": "D214A:C01",
+   "code": "D214A",
+   "sub": "C01",
+   "nat": "D214A15, Svavelskatt",
+   "en": "Tax on sulphur",
+   "fn": "C",
+   "at": "E",
+   "v2024": 3,
+   "v2023": 5,
+   "row": 28
+  },
+  {
+   "key": "D214A:C02",
+   "code": "D214A",
+   "sub": "C02",
+   "nat": "D214A1, Övrig skatt på bränslen",
+   "en": "Other taxes on fuel",
+   "fn": "C",
+   "at": "E",
+   "v2024": 40093,
+   "v2023": 40628,
+   "row": 29
+  },
+  {
+   "key": "D214A:C03",
+   "code": "D214A",
+   "sub": "C03",
+   "nat": "D214A2, Skatt på elektrisk kraft",
+   "en": "Taxes on electrical power",
+   "fn": "C",
+   "at": "E",
+   "v2024": 31244,
+   "v2023": 27929,
+   "row": 30
+  },
+  {
+   "key": "D214A:C04",
+   "code": "D214A",
+   "sub": "C04",
+   "nat": "D214A3, Skatt på drycker",
+   "en": "Taxes on alcoholic beverage",
+   "fn": "C",
+   "at": "AT",
+   "v2024": 18004,
+   "v2023": 17035,
+   "row": 31
+  },
+  {
+   "key": "D214A:C05",
+   "code": "D214A",
+   "sub": "C05",
+   "nat": "D214A4, Tobaksskatt",
+   "en": "Taxes on tobacco",
+   "fn": "C",
+   "at": "AT",
+   "v2024": 14811,
+   "v2023": 11482,
+   "row": 32
+  },
+  {
+   "key": "D214A:C06",
+   "code": "D214A",
+   "sub": "C06",
+   "nat": "D214A51, Skatt på plastkassar",
+   "en": "Tax on plastic bags",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 408,
+   "v2023": 497,
+   "row": 33
+  },
+  {
+   "key": "D214A:C07",
+   "code": "D214A",
+   "sub": "C07",
+   "nat": "D214A906, Skatt på naturgrus",
+   "en": "Tax on gravel",
+   "fn": "C",
+   "at": "RS",
+   "v2024": 102,
+   "v2023": 102,
+   "row": 34
+  },
+  {
+   "key": "D214A:C08",
+   "code": "D214A",
+   "sub": "C08",
+   "nat": "D214A907, Övriga punktskatter exkl. naturgrus",
+   "en": "Other excise duties",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": -22,
+   "v2023": 162,
+   "row": 35
+  },
+  {
+   "key": "D214C:C01",
+   "code": "D214C",
+   "sub": "C01",
+   "nat": "D214C11, Bolagsverket",
+   "en": "Corporation mortgage/registration fee",
+   "fn": "_Z",
+   "at": "O",
+   "v2024": 167,
+   "v2023": 238,
+   "row": 38
+  },
+  {
+   "key": "D214C:C02",
+   "code": "D214C",
+   "sub": "C02",
+   "nat": "D214C12, Lantmäteriet",
+   "en": "Mortgage for property and land",
+   "fn": "_Z",
+   "at": "O",
+   "v2024": 10450,
+   "v2023": 10071,
+   "row": 39
+  },
+  {
+   "key": "D214C:C03",
+   "code": "D214C",
+   "sub": "C03",
+   "nat": "D214C13, Transportstyrelsen",
+   "en": "Mortgage for aircraft and craft/ship/vessel",
+   "fn": "_Z",
+   "at": "O",
+   "v2024": 11,
+   "v2023": 2,
+   "row": 40
+  },
+  {
+   "key": "D214D:C01",
+   "code": "D214D",
+   "sub": "C01",
+   "nat": "D214D1, Försäljningsskatt på motorfordon",
+   "en": "Car registration taxes",
+   "fn": "C",
+   "at": "T",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 42
+  },
+  {
+   "key": "D214F:C01",
+   "code": "D214F",
+   "sub": "C01",
+   "nat": "D214F1, Lotteriskatt",
+   "en": "Taxes on lotteries",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 45
+  },
+  {
+   "key": "D214F:C02",
+   "code": "D214F",
+   "sub": "C02",
+   "nat": "D214F4, Varuspelsskatt",
+   "en": "Tax on goods -gambling",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 46
+  },
+  {
+   "key": "D214F:C03",
+   "code": "D214F",
+   "sub": "C03",
+   "nat": "D214F5, Spelskatt",
+   "en": "Tax on gambling",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": 4803,
+   "v2023": 4220,
+   "row": 47
+  },
+  {
+   "key": "D214G:C01",
+   "code": "D214G",
+   "sub": "C01",
+   "nat": "D214G1, Trafikförsäkringspremieskatt",
+   "en": "Taxes on traffic insurance premiums",
+   "fn": "C",
+   "at": "T",
+   "v2024": 2768,
+   "v2023": 2728,
+   "row": 49
+  },
+  {
+   "key": "D214H:C01",
+   "code": "D214H",
+   "sub": "C01",
+   "nat": "D214H1, Annons- och reklamskatt",
+   "en": "Tax on advertising",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 1,
+   "row": 51
+  },
+  {
+   "key": "D214H:C02",
+   "code": "D214H",
+   "sub": "C02",
+   "nat": "D214H3, Skatt på flygresor",
+   "en": "Flight tax",
+   "fn": "C",
+   "at": "T",
+   "v2024": 1693,
+   "v2023": 1499,
+   "row": 52
+  },
+  {
+   "key": "D214I:C01",
+   "code": "D214I",
+   "sub": "C01",
+   "nat": "D214I2, Provning riksprovningsplats",
+   "en": "Turnover tax for central testings",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 54
+  },
+  {
+   "key": "D214J:C01",
+   "code": "D214J",
+   "sub": "C01",
+   "nat": "D214J1, Systembolaget",
+   "en": "Profits of fiscal monopoly, alcoholic beverages",
+   "fn": "C",
+   "at": "AT",
+   "v2024": 360,
+   "v2023": 408,
+   "row": 56
+  },
+  {
+   "key": "D214J:C02",
+   "code": "D214J",
+   "sub": "C02",
+   "nat": "D214J2, Svenska Spel",
+   "en": "Surplus from gambling",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 1600,
+   "v2023": 1900,
+   "row": 57
+  },
+  {
+   "key": "D214J:C03",
+   "code": "D214J",
+   "sub": "C03",
+   "nat": "D214J3, Tipsmedel",
+   "en": "Surplus from pools",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 58
+  },
+  {
+   "key": "D214J:C04",
+   "code": "D214J",
+   "sub": "C04",
+   "nat": "D214J4, Lotterimedel",
+   "en": "Surplus from lotteries",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 59
+  },
+  {
+   "key": "D214L:C01",
+   "code": "D214L",
+   "sub": "C01",
+   "nat": "D214L3, Närradioavgifter",
+   "en": "Tax on radio stations at close quarters",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 62
+  },
+  {
+   "key": "D214L:C02",
+   "code": "D214L",
+   "sub": "C02",
+   "nat": "D214L4, Bekämpningsmedel",
+   "en": "Tax on pesticides",
+   "fn": "C",
+   "at": "P",
+   "v2024": 144,
+   "v2023": 144,
+   "row": 63
+  },
+  {
+   "key": "D214L:C03",
+   "code": "D214L",
+   "sub": "C03",
+   "nat": "D214L5, Handelsgödsel",
+   "en": "Tax on fertilizers",
+   "fn": "C",
+   "at": "P",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 64
+  },
+  {
+   "key": "D214L:C04",
+   "code": "D214L",
+   "sub": "C04",
+   "nat": "D214L6, Kemiska produkter",
+   "en": "Tax on chemicals",
+   "fn": "C",
+   "at": "P",
+   "v2024": 48,
+   "v2023": 50,
+   "row": 65
+  },
+  {
+   "key": "D214L:C05",
+   "code": "D214L",
+   "sub": "C05",
+   "nat": "D214L7, Skatt på avfall",
+   "en": "Tax on waste",
+   "fn": "C",
+   "at": "P",
+   "v2024": 427,
+   "v2023": 347,
+   "row": 66
+  },
+  {
+   "key": "D214L:C06",
+   "code": "D214L",
+   "sub": "C06",
+   "nat": "D214L8, Bilskatt, skrotning",
+   "en": "Fee to the vehicle scrap fond",
+   "fn": "C",
+   "at": "T",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 67
+  },
+  {
+   "key": "D214L:C07",
+   "code": "D214L",
+   "sub": "C07",
+   "nat": "D214L9, Batteriskatt",
+   "en": "Fee to the battery fund",
+   "fn": "C",
+   "at": "P",
+   "v2024": 0,
+   "v2023": 4,
+   "row": 68
+  },
+  {
+   "key": "D214L:C08",
+   "code": "D214L",
+   "sub": "C08",
+   "nat": "214L10, Kemikalieskatt",
+   "en": "Excise duty on chemicals",
+   "fn": "C",
+   "at": "P",
+   "v2024": 2478,
+   "v2023": 2042,
+   "row": 69
+  },
+  {
+   "key": "D29A:C01",
+   "code": "D29A",
+   "sub": "C01",
+   "nat": "D29A1, Fastighetsskatt",
+   "en": "Tax on real-estate",
+   "fn": "KS",
+   "at": "RP",
+   "v2024": 41380,
+   "v2023": 39772,
+   "row": 72
+  },
+  {
+   "key": "D29B:C01",
+   "code": "D29B",
+   "sub": "C01",
+   "nat": "D29B1, Fordonsskatt",
+   "en": "Tax on motor-vehicle paid by enterprises",
+   "fn": "KS",
+   "at": "T",
+   "v2024": 4953,
+   "v2023": 5050,
+   "row": 74
+  },
+  {
+   "key": "D29B:C02",
+   "code": "D29B",
+   "sub": "C02",
+   "nat": "D29B3, Kärnkraftskapacitetsskatt",
+   "en": "Special tax on nuclear power stations",
+   "fn": "KS",
+   "at": "E",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 75
+  },
+  {
+   "key": "D29B:C03",
+   "code": "D29B",
+   "sub": "C03",
+   "nat": "D29B4, Kapacitetsavgift, flaskhalsintäkter, SVK",
+   "en": "Electricity capacity fees (rerouted thru CG)",
+   "fn": "C",
+   "at": "E",
+   "v2024": 12,
+   "v2023": 26177,
+   "row": 76
+  },
+  {
+   "key": "D29C:C01",
+   "code": "D29C",
+   "sub": "C01",
+   "nat": "D29C1 , Allmän löneavgift",
+   "en": "General payroll tax",
+   "fn": "LEYRS",
+   "at": "_Z",
+   "v2024": 273837,
+   "v2023": 262241,
+   "row": 78
+  },
+  {
+   "key": "D29C:C02",
+   "code": "D29C",
+   "sub": "C02",
+   "nat": "D29C2, Pensionsavgift",
+   "en": "Part of pension fee to state budget",
+   "fn": "LEYRS",
+   "at": "_Z",
+   "v2024": 27615,
+   "v2023": 25872,
+   "row": 79
+  },
+  {
+   "key": "D29C:C03",
+   "code": "D29C",
+   "sub": "C03",
+   "nat": "D29C3, Tjänstegruppliv",
+   "en": "Tax on salaried employees life insurance",
+   "fn": "LEYRS",
+   "at": "_Z",
+   "v2024": 549,
+   "v2023": 559,
+   "row": 80
+  },
+  {
+   "key": "D29C:C04",
+   "code": "D29C",
+   "sub": "C04",
+   "nat": "D29C4, Särskild löneskatt",
+   "en": "Special payroll tax",
+   "fn": "LEYRS",
+   "at": "_Z",
+   "v2024": 64861,
+   "v2023": 61482,
+   "row": 81
+  },
+  {
+   "key": "D29C:C05",
+   "code": "D29C",
+   "sub": "C05",
+   "nat": "D29C5, Arbetarskyddsavgift",
+   "en": "Tax for occupational safety",
+   "fn": "LEYRS",
+   "at": "_Z",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 82
+  },
+  {
+   "key": "D29C:C06",
+   "code": "D29C",
+   "sub": "C06",
+   "nat": "D29C6CE1-2, Sjukförsäkringsavg.",
+   "en": "Sick insurance contribution",
+   "fn": "LEYRS",
+   "at": "_Z",
+   "v2024": 82584,
+   "v2023": 79046,
+   "row": 83
+  },
+  {
+   "key": "D29C:C07",
+   "code": "D29C",
+   "sub": "C07",
+   "nat": "D29C6CE3, Arbetsskadeavg.",
+   "en": "Industrial injuries, contributions",
+   "fn": "LEYRS",
+   "at": "_Z",
+   "v2024": 4651,
+   "v2023": 4453,
+   "row": 84
+  },
+  {
+   "key": "D29C:C08",
+   "code": "D29C",
+   "sub": "C08",
+   "nat": "D29C6CE4, Arbetsmarknadsavg.",
+   "en": "Labour market, employment, contributions",
+   "fn": "LEYRS",
+   "at": "_Z",
+   "v2024": 57851,
+   "v2023": 55503,
+   "row": 85
+  },
+  {
+   "key": "D29C:C09",
+   "code": "D29C",
+   "sub": "C09",
+   "nat": "D29C6CE5, Föräldraförsäkringsavg.",
+   "en": "Parental insurance contributions",
+   "fn": "LEYRS",
+   "at": "_Z",
+   "v2024": 60478,
+   "v2023": 57889,
+   "row": 86
+  },
+  {
+   "key": "D29C:C10",
+   "code": "D29C",
+   "sub": "C10",
+   "nat": "D29C6CE6, Lönegarantiavgift",
+   "en": "Wages guarantee, contributions",
+   "fn": "LEYRS",
+   "at": "_Z",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 87
+  },
+  {
+   "key": "D29C:C11",
+   "code": "D29C",
+   "sub": "C11",
+   "nat": "D29C6CE9, Övrigt samt Uppbördsförluster",
+   "en": "Miscellaneous, contributions",
+   "fn": "LEYRS",
+   "at": "_Z",
+   "v2024": -3452,
+   "v2023": -2505,
+   "row": 88
+  },
+  {
+   "key": "D29C:C12",
+   "code": "D29C",
+   "sub": "C12",
+   "nat": "D29C7CE1, Folkpensionsavg.",
+   "en": "Retirement pension contribution, the old system",
+   "fn": "LEYRS",
+   "at": "_Z",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 89
+  },
+  {
+   "key": "D29C:C13",
+   "code": "D29C",
+   "sub": "C13",
+   "nat": "D29C7CE2, Delpensionsavg.",
+   "en": "Part-time pension contribution",
+   "fn": "LEYRS",
+   "at": "_Z",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 90
+  },
+  {
+   "key": "D29C:C14",
+   "code": "D29C",
+   "sub": "C14",
+   "nat": "D29C7CE3, Efterlevandepensionsavg.",
+   "en": "Survivors pension, contribution",
+   "fn": "LEYRS",
+   "at": "_Z",
+   "v2024": 13961,
+   "v2023": 13363,
+   "row": 91
+  },
+  {
+   "key": "D29C:C15",
+   "code": "D29C",
+   "sub": "C15",
+   "nat": "D29C7CE4, Sjömanspensionsavg.",
+   "en": "Sailors pensions, contributions",
+   "fn": "LEYRS",
+   "at": "_Z",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 92
+  },
+  {
+   "key": "D29C:C16",
+   "code": "D29C",
+   "sub": "C16",
+   "nat": "D29C7CS1, Sjukförsäkringsavg.",
+   "en": "Sick insurance contribution",
+   "fn": "KISE",
+   "at": "_Z",
+   "v2024": 140,
+   "v2023": 216,
+   "row": 93
+  },
+  {
+   "key": "D29C:C17",
+   "code": "D29C",
+   "sub": "C17",
+   "nat": "D29C7CS2, Arbetsskadeavg.",
+   "en": "Industrial injuries",
+   "fn": "KISE",
+   "at": "_Z",
+   "v2024": 32,
+   "v2023": 56,
+   "row": 94
+  },
+  {
+   "key": "D29C:C18",
+   "code": "D29C",
+   "sub": "C18",
+   "nat": "D29C7CS3, Arbetsmarknadsavg.",
+   "en": "Unemployment",
+   "fn": "KISE",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 95
+  },
+  {
+   "key": "D29C:C19",
+   "code": "D29C",
+   "sub": "C19",
+   "nat": "D29C7CS4, Föräldraförsäkringsavg.",
+   "en": "Parental insurance contributions",
+   "fn": "KISE",
+   "at": "_Z",
+   "v2024": 564,
+   "v2023": 600,
+   "row": 96
+  },
+  {
+   "key": "D29C:C20",
+   "code": "D29C",
+   "sub": "C20",
+   "nat": "D29C7CS5, Folkpensionsavg.",
+   "en": "Pension, old system",
+   "fn": "KISE",
+   "at": "_Z",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 97
+  },
+  {
+   "key": "D29C:C21",
+   "code": "D29C",
+   "sub": "C21",
+   "nat": "D29C7CS6, Delpensionsavg.",
+   "en": "Part time pension",
+   "fn": "KISE",
+   "at": "_Z",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 98
+  },
+  {
+   "key": "D29C:C22",
+   "code": "D29C",
+   "sub": "C22",
+   "nat": "D29C7CS7, Efterlevandepensionavg.",
+   "en": "Survivors pension, contribution",
+   "fn": "KISE",
+   "at": "_Z",
+   "v2024": 224,
+   "v2023": 172,
+   "row": 99
+  },
+  {
+   "key": "D29C:C23",
+   "code": "D29C",
+   "sub": "C23",
+   "nat": "D29C7CS9, Nedsättning egenavg.",
+   "en": "Reduction in contributions",
+   "fn": "KISE",
+   "at": "_Z",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 100
+  },
+  {
+   "key": "D29E:C01",
+   "code": "D29E",
+   "sub": "C01",
+   "nat": "D29E1, Roulettspel",
+   "en": "Tax on roulette",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 103
+  },
+  {
+   "key": "D29E:C02",
+   "code": "D29E",
+   "sub": "C02",
+   "nat": "D29E2, Avg. Granskaningsnämnden",
+   "en": "Fee to a check-up committee for radio and TV",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 104
+  },
+  {
+   "key": "D29E:C03",
+   "code": "D29E",
+   "sub": "C03",
+   "nat": "D29E3, Lotteriavgifter",
+   "en": "Licenses for lottery",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": 45,
+   "v2023": 88,
+   "row": 105
+  },
+  {
+   "key": "D29E:C04",
+   "code": "D29E",
+   "sub": "C04",
+   "nat": "D29E4, Lokalradioavgifter",
+   "en": "Licenses for local radio stations",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 106
+  },
+  {
+   "key": "D29E:C05",
+   "code": "D29E",
+   "sub": "C05",
+   "nat": "D29E5, Vägavgifter",
+   "en": "Fee for lorries",
+   "fn": "KS",
+   "at": "T",
+   "v2024": 1454,
+   "v2023": 1410,
+   "row": 107
+  },
+  {
+   "key": "D29E:C06",
+   "code": "D29E",
+   "sub": "C06",
+   "nat": "D29E6, Radio och TV-avgift, företag",
+   "en": "Public service fee, paid by enterprises",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 108
+  },
+  {
+   "key": "D29F:C01",
+   "code": "D29F",
+   "sub": "C01",
+   "nat": "D29F1, Miljöskyddsavgift",
+   "en": "Environmental protection fee",
+   "fn": "C",
+   "at": "P",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 110
+  },
+  {
+   "key": "D29F:C02",
+   "code": "D29F",
+   "sub": "C02",
+   "nat": "D29F2, Inrikes flygtrafik",
+   "en": "Environmental tax on internal air traffic",
+   "fn": "C",
+   "at": "P",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 111
+  },
+  {
+   "key": "D29F:C03",
+   "code": "D29F",
+   "sub": "C03",
+   "nat": "D29F4, Trängselskatt",
+   "en": "Road tax paid by enterprises",
+   "fn": "C",
+   "at": "T",
+   "v2024": 1346,
+   "v2023": 1366,
+   "row": 112
+  },
+  {
+   "key": "D29F:C04",
+   "code": "D29F",
+   "sub": "C04",
+   "nat": "D29F5, Utsläppsrätter",
+   "en": "Emission trade permits",
+   "fn": "C",
+   "at": "E",
+   "v2024": 3709,
+   "v2023": 3009,
+   "row": 113
+  },
+  {
+   "key": "D29F:C05",
+   "code": "D29F",
+   "sub": "C05",
+   "nat": "D29F6, Avfallsskatt",
+   "en": "Waste incineration",
+   "fn": "C",
+   "at": "P",
+   "v2024": -5,
+   "v2023": 19,
+   "row": 114
+  },
+  {
+   "key": "D29H:C01",
+   "code": "D29H",
+   "sub": "C01",
+   "nat": "D29H1, Koncessionsavgift TV",
+   "en": "Concession fee for telecasting",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 117
+  },
+  {
+   "key": "D29H:C02",
+   "code": "D29H",
+   "sub": "C02",
+   "nat": "D29H21, Insättningsgarantiavgift",
+   "en": "Deposit insurance fee",
+   "fn": "KS",
+   "at": "O",
+   "v2024": 2348,
+   "v2023": 2360,
+   "row": 118
+  },
+  {
+   "key": "D29H:C03",
+   "code": "D29H",
+   "sub": "C03",
+   "nat": "D29H22, Stabilitetsavgift",
+   "en": "Stability fee",
+   "fn": "KS",
+   "at": "O",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 119
+  },
+  {
+   "key": "D29H:C04",
+   "code": "D29H",
+   "sub": "C04",
+   "nat": "D29H23, Resolutionsavgift",
+   "en": "Resolution fee",
+   "fn": "KS",
+   "at": "O",
+   "v2024": 4328,
+   "v2023": 4060,
+   "row": 120
+  },
+  {
+   "key": "D29H:C05",
+   "code": "D29H",
+   "sub": "C05",
+   "nat": "D29H3, Avgift för telekommunikation",
+   "en": "Fee for telecommunication",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": 132,
+   "v2023": 124,
+   "row": 121
+  },
+  {
+   "key": "D29H:C06",
+   "code": "D29H",
+   "sub": "C06",
+   "nat": "D29H6, Nox-avgift",
+   "en": "Fee for discharge of nitrogen",
+   "fn": "C",
+   "at": "P",
+   "v2024": 596,
+   "v2023": 612,
+   "row": 122
+  },
+  {
+   "key": "D29H:C07",
+   "code": "D29H",
+   "sub": "C07",
+   "nat": "D29H7, Riskskatt",
+   "en": "Risk tax",
+   "fn": "KS",
+   "at": "O",
+   "v2024": 6724,
+   "v2023": 5480,
+   "row": 123
+  },
+  {
+   "key": "D51M:C01",
+   "code": "D51M",
+   "sub": "C01",
+   "nat": "D51A,C1, Hushållens inkomstskatter inklusive kapitalvinstskatt",
+   "en": "Taxes on individual or household income including holding gains",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 886033,
+   "v2023": 837939,
+   "row": 127
+  },
+  {
+   "key": "D51A:C01",
+   "code": "D51A",
+   "sub": "C01",
+   "nat": "D51A, Hushållens inkomstskatter exklusive kapitalvinstskatt",
+   "en": "Taxes on individual or household income excluding holding gains(1)",
+   "fn": "SPLIT1",
+   "at": "_Z",
+   "v2024": 853918,
+   "v2023": 819735,
+   "row": 129
+  },
+  {
+   "key": "D51C1:C01",
+   "code": "D51C1",
+   "sub": "C01",
+   "nat": "D51C11, Avkastningsskatt, pension, förmånsbestämd",
+   "en": "Occupational pensions, defined benefit",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 9276,
+   "v2023": 5268,
+   "row": 131
+  },
+  {
+   "key": "D51C1:C02",
+   "code": "D51C1",
+   "sub": "C02",
+   "nat": "D51C12, Avkastningsskatt, pension, avgiftsbestämd trad",
+   "en": "Occupational pensions, defined contribution",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 8491,
+   "v2023": 4820,
+   "row": 132
+  },
+  {
+   "key": "D51C1:C03",
+   "code": "D51C1",
+   "sub": "C03",
+   "nat": "D51C13, Avkastningsskatt, pension, fondförsäkring",
+   "en": "Occupational pensions, unit linked defined contribution",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 5753,
+   "v2023": 3268,
+   "row": 133
+  },
+  {
+   "key": "D51C1:C04",
+   "code": "D51C1",
+   "sub": "C04",
+   "nat": "D51C14, Avkastningsskatt, ej pension, individuell trad liv",
+   "en": "Non occupational pensions, individual traditional life insurance",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 5597,
+   "v2023": 3180,
+   "row": 134
+  },
+  {
+   "key": "D51C1:C05",
+   "code": "D51C1",
+   "sub": "C05",
+   "nat": "D51C15, Avkastningsskatt, ej pension, fondförsäkring",
+   "en": "Non occupational pensions, individual unit linked",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 2327,
+   "v2023": 1320,
+   "row": 135
+  },
+  {
+   "key": "D51C1:C06",
+   "code": "D51C1",
+   "sub": "C06",
+   "nat": "D51C16, Avkastningsskatt, ej pension, IPS",
+   "en": "Non occupational pensions, individual pension saving",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 671,
+   "v2023": 348,
+   "row": 136
+  },
+  {
+   "key": "D51O:C01",
+   "code": "D51O",
+   "sub": "C01",
+   "nat": "D51O, Företagens inkomstskatt inklusive kapitalvinstskatt",
+   "en": "Taxes on the income or profits of corporations including holding gains",
+   "fn": "KIC",
+   "at": "_Z",
+   "v2024": 223538,
+   "v2023": 210363,
+   "row": 138
+  },
+  {
+   "key": "D51B:C01",
+   "code": "D51B",
+   "sub": "C01",
+   "nat": "D51B, Företagens inkomstskatt exklusive kapitalvinstskatt",
+   "en": "Taxes on the income or profits of corporations excluding holding gains(1)",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 223538,
+   "v2023": 210363,
+   "row": 140
+  },
+  {
+   "key": "D51D:C01",
+   "code": "D51D",
+   "sub": "C01",
+   "nat": "D51D, Lotterivinstskatt",
+   "en": "Tax on winnings on lotteries or gambling",
+   "fn": "KIH",
+   "at": "_Z",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 145
+  },
+  {
+   "key": "D59A:C01",
+   "code": "D59A",
+   "sub": "C01",
+   "nat": "D59A1, Förmögenhetsskatt, hushåll",
+   "en": "Wealth tax from households",
+   "fn": "KS",
+   "at": "O",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 149
+  },
+  {
+   "key": "D59A:C02",
+   "code": "D59A",
+   "sub": "C02",
+   "nat": "D59A2, Förmögenhetsskatt, företag",
+   "en": "Wealth tax from enterprises",
+   "fn": "KS",
+   "at": "O",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 150
+  },
+  {
+   "key": "D59D:C01",
+   "code": "D59D",
+   "sub": "C01",
+   "nat": "D59D1, Motorfordonsskatt",
+   "en": "Tax on motor vehicles paid by households",
+   "fn": "C",
+   "at": "T",
+   "v2024": 9628,
+   "v2023": 10011,
+   "row": 154
+  },
+  {
+   "key": "D59D:C02",
+   "code": "D59D",
+   "sub": "C02",
+   "nat": "D59D2, Trängselskatt",
+   "en": "Road tax paid by households",
+   "fn": "C",
+   "at": "T",
+   "v2024": 1498,
+   "v2023": 1503,
+   "row": 155
+  },
+  {
+   "key": "D59D:C03",
+   "code": "D59D",
+   "sub": "C03",
+   "nat": "D59D3, Radio och TV-avgift, hushåll",
+   "en": "Public service fee, paid by households",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 8899,
+   "v2023": 9323,
+   "row": 156
+  },
+  {
+   "key": "D91A:C01",
+   "code": "D91A",
+   "sub": "C01",
+   "nat": "D91A, Skatt på kapitaltransfereringar",
+   "en": "Taxes on capital transfers",
+   "fn": "KS",
+   "at": "O",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 161
+  },
+  {
+   "key": "D611:C01",
+   "code": "D611",
+   "sub": "C01",
+   "nat": "D611, Arbetsgivares faktiska sociala avgifter",
+   "en": "Employers' actual social contributions",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 217629,
+   "v2023": 199452,
+   "row": 167
+  },
+  {
+   "key": "D611C:C01",
+   "code": "D611C",
+   "sub": "C01",
+   "nat": "D611C, Arbetsgivares obligatoriska faktiska sociala avgifter",
+   "en": "Compulsory employers' actual social contributions",
+   "fn": "LEYRS",
+   "at": "_Z",
+   "v2024": 165370,
+   "v2023": 159381,
+   "row": 169
+  },
+  {
+   "key": "D611V:C01",
+   "code": "D611V",
+   "sub": "C01",
+   "nat": "D611V, Arbetsgivares frivilliga pensionsavgifter",
+   "en": "Voluntary employers' pensions fees",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 52130,
+   "v2023": 39965,
+   "row": 171
+  },
+  {
+   "key": "D611V:C02",
+   "code": "D611V",
+   "sub": "C02",
+   "nat": "D6112V, Arbetsgivares frivillia övriga sociala avgifter",
+   "en": "Other voluntary employers' actual social contributions",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 129,
+   "v2023": 106,
+   "row": 172
+  },
+  {
+   "key": "D61SC:C01",
+   "code": "D61SC",
+   "sub": "C01",
+   "nat": "D61SC, Sociala försäkringssystemets administrationsavgifter",
+   "en": "Social insurance scheme service charges(3)",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 19,
+   "v2023": 18,
+   "row": 174
+  },
+  {
+   "key": "D6111:C01",
+   "code": "D6111",
+   "sub": "C01",
+   "nat": "D6111C1, Arbetsgivares obligatoriska pensionsavgifter",
+   "en": "Compulsory employers' pensions fees",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 165370,
+   "v2023": 159381,
+   "row": 176
+  },
+  {
+   "key": "D6111:C02",
+   "code": "D6111",
+   "sub": "C02",
+   "nat": "D611V1, Arbetsgivares frivillia pensionsavgifter",
+   "en": "Voluntary employers' pensions fees",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 52130,
+   "v2023": 39965,
+   "row": 177
+  },
+  {
+   "key": "D6112:C01",
+   "code": "D6112",
+   "sub": "C01",
+   "nat": "D6112V, Arbetsgivares övriga sociala avgifter",
+   "en": "Employers' actual non-pension contributions (1)",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 129,
+   "v2023": 106,
+   "row": 179
+  },
+  {
+   "key": "D612:C01",
+   "code": "D612",
+   "sub": "C01",
+   "nat": "D612, Tillräknade sociala avgifter",
+   "en": "Employers' imputed social contributions",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 181
+  },
+  {
+   "key": "D6121:C01",
+   "code": "D6121",
+   "sub": "C01",
+   "nat": "D612V1, Tillräknade pensionsavgifter",
+   "en": "Employers' imputed pension contributions (1)",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 183
+  },
+  {
+   "key": "D6122:C01",
+   "code": "D6122",
+   "sub": "C01",
+   "nat": "D612V2, Tillräknade övriga sociala avgifter",
+   "en": "Employers' imputed non-pension contributions (1)",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 185
+  },
+  {
+   "key": "D613:C01",
+   "code": "D613",
+   "sub": "C01",
+   "nat": "D613, Hushållens faktiska sociala avgifter",
+   "en": "Households' actual social contributions",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 3236,
+   "v2023": 3184,
+   "row": 187
+  },
+  {
+   "key": "D6131:C01",
+   "code": "D6131",
+   "sub": "C01",
+   "nat": "D613, Egenföretagares pensionsavgifter",
+   "en": "Households' actual pension contributions (1)",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 3236,
+   "v2023": 3184,
+   "row": 189
+  },
+  {
+   "key": "D6132:C01",
+   "code": "D6132",
+   "sub": "C01",
+   "nat": "D613CE11, Hushållens övriga sociala avgifter",
+   "en": "Households' actual non-pension contributions (1)",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 191
+  },
+  {
+   "key": "D613C:C01",
+   "code": "D613C",
+   "sub": "C01",
+   "nat": "D613C, Hushållens obligatoriska faktiska sociala avgifter",
+   "en": "Compulsory households' actual social contributions",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 3236,
+   "v2023": 3184,
+   "row": 193
+  },
+  {
+   "key": "D613CE:C01",
+   "code": "D613CE",
+   "sub": "C01",
+   "nat": "D613CE, Allmän pensionsavgift",
+   "en": "Compulsory employees' actual social contributions",
+   "fn": "LEES",
+   "at": "_Z",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 195
+  },
+  {
+   "key": "D613CS:C01",
+   "code": "D613CS",
+   "sub": "C01",
+   "nat": "D613CS, Egenföretagares obligatoriska pensionsavgifter",
+   "en": "Compulsory actual social contributions by the self-employed (1)",
+   "fn": "KISE",
+   "at": "_Z",
+   "v2024": 3236,
+   "v2023": 3184,
+   "row": 197
+  },
+  {
+   "key": "D613V:C01",
+   "code": "D613V",
+   "sub": "C01",
+   "nat": "D613V, Egenföretagares frivilliga faktiska sociala avgifter",
+   "en": "Voluntary households' actual social contributions",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 200
+  },
+  {
+   "key": "D614:C01",
+   "code": "D614",
+   "sub": "C01",
+   "nat": "D614, Hushållens kompletterande egenavgifter",
+   "en": "Households' social contributions supplements(3)",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 14777,
+   "v2023": 12373,
+   "row": 202
+  },
+  {
+   "key": "D6141:C01",
+   "code": "D6141",
+   "sub": "C01",
+   "nat": "D614V1, Hushållens kompletterande pensionsavgifter",
+   "en": "Households' pension contributions supplements (1)",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 14777,
+   "v2023": 12373,
+   "row": 204
+  },
+  {
+   "key": "D6142:C01",
+   "code": "D6142",
+   "sub": "C01",
+   "nat": "D614V2, Hushållens kompletterande övriga sociala avgifter",
+   "en": "Households' non-pension contributions supplements (1)",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 206
+  }
+ ]
+}

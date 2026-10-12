@@ -1,0 +1,215 @@
+{
+  "sources": [
+    {
+      "id": "oecd-rs-2025-subsectors",
+      "org": "OECD",
+      "title": "Revenue Statistics 2025, Table 6.17: Ireland, tax revenues by sub-sectors of government",
+      "url": "https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en/full-report/tax-revenues-by-subsectors-of-general-government_f9e88332.html",
+      "kind": "international",
+      "language": "en",
+      "publishedDate": "2025-12-09",
+      "periodCovered": "Calendar year 2023 (national currency)",
+      "accessed": "2026-09-29",
+      "note": "Harmonised OECD classification of taxes (1000–6000) split by collecting sub-sector of general government."
+    },
+    {
+      "id": "oecd-rs-2025-levels",
+      "org": "OECD",
+      "title": "Revenue Statistics 2025, Chapter 3: Tax levels and tax structures (Table 3.1)",
+      "url": "https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en/full-report/tax-levels-and-tax-structures-1965-2024_2033f3ea.html",
+      "kind": "international",
+      "language": "en",
+      "publishedDate": "2025-12-09",
+      "periodCovered": "Calendar year 2023",
+      "accessed": "2026-09-29",
+      "note": "Total tax revenue as % of GDP."
+    },
+    {
+      "id": "sng-wofi-profile",
+      "org": "OECD and United Cities and Local Governments (SNG-WOFI)",
+      "title": "World Observatory on Subnational Government Finance and Investment – country profile: Ireland",
+      "url": "https://www.sng-wofi.org/country_profiles/ireland.html",
+      "kind": "international",
+      "language": "en",
+      "publishedDate": "2022-10-24",
+      "periodCovered": "2020",
+      "accessed": "2026-09-29",
+      "note": "Subnational government revenue by category as % of total subnational revenue, 2022 edition."
+    },
+    {
+      "id": "revenue-taxhead-2025",
+      "org": "Revenue Commissioners",
+      "title": "Revenue net receipts by taxhead (annual dataset)",
+      "url": "https://www.revenue.ie/en/corporate/information-about-revenue/statistics/receipts/taxhead/index.aspx",
+      "kind": "tax-agency",
+      "language": "en",
+      "publishedDate": "2026-05-07",
+      "periodCovered": "Calendar year 2025",
+      "accessed": "2026-10-11",
+      "nextExpected": "2027-05",
+      "note": "The CSV net-receipts.csv gives each tax head per year in EUR million. The local property tax line equals EUR 670 million for 2025."
+    },
+    {
+      "id": "revenue-headline-2025",
+      "org": "Revenue Commissioners",
+      "title": "Headline Results 2025 (Annual Report 2025)",
+      "url": "https://www.revenue.ie/en/corporate/press-office/annual-report/2025/headline-results.pdf",
+      "kind": "tax-agency",
+      "language": "en",
+      "publishedDate": "2026-05-07",
+      "periodCovered": "Calendar year 2025",
+      "accessed": "2026-10-11",
+      "nextExpected": "2027-05",
+      "note": "Exchequer receipts by tax head (total EUR 106,471 million) and receipts collected on behalf of other departments: PRSI EUR 19,458 million, VAT one-stop shops EUR 13,395 million, risk equalisation EUR 858 million, local property tax EUR 671 million."
+    },
+    {
+      "id": "dof-tsg-26-08",
+      "org": "Department of Finance (Ireland)",
+      "title": "Tax Strategy Group 26/08: General Excise (Budget 2027)",
+      "url": "https://assets.gov.ie/static/documents/1df2a4ae/TSG_26-08_General_Excise_.pdf",
+      "kind": "budget-report",
+      "language": "en",
+      "publishedDate": "2026-07-23",
+      "periodCovered": "Calendar year 2025",
+      "accessed": "2026-10-11",
+      "nextExpected": "2027-07",
+      "note": "Table 1: alcohol products tax EUR 1,236 million, sugar-sweetened drinks tax 30.5, tobacco products tax 1,009, e-liquid products tax 5.6, betting duty 113.7; data source Revenue."
+    },
+    {
+      "id": "dof-tsg-26-09",
+      "org": "Department of Finance (Ireland)",
+      "title": "Tax Strategy Group 26/09: Energy, Environmental and Vehicle Tax (Budget 2027)",
+      "url": "https://assets.gov.ie/static/documents/d66c0635/TSG_26-09_Energy_Environmental_and_Vehicle_Tax_v2.pdf",
+      "kind": "budget-report",
+      "language": "en",
+      "publishedDate": "2026-07-23",
+      "periodCovered": "Calendar year 2025",
+      "accessed": "2026-10-11",
+      "nextExpected": "2027-07",
+      "note": "Tables 1 and 2: light oils EUR 613.4 million, heavy oils 1,475.8, LPG 0.1, carbon tax 1,176, electricity tax 5.2, vehicle registration tax 938, motor tax 924. Carbon tax rate EUR 71 per tonne of CO2 from 8 October 2025."
+    },
+    {
+      "id": "eurostat-taxag",
+      "org": "Eurostat",
+      "title": "Main national accounts tax aggregates (gov_10a_taxag)",
+      "url": "https://ec.europa.eu/eurostat/databrowser/view/gov_10a_taxag/default/table",
+      "kind": "international",
+      "language": "en",
+      "publishedDate": "2026-04-22",
+      "periodCovered": "Calendar year 2024 (2025 not yet published)",
+      "accessed": "2026-10-11",
+      "nextExpected": "2026-10",
+      "note": "Ireland, local government (S1313): taxes on production and imports EUR 1,751.6 million in 2024; State (S1311) taxes EUR 100,976.3 million; social security funds (S1314) actual contributions EUR 16,876.9 million. Read through the Eurostat dissemination API."
+    },
+    {
+      "id": "tca-1997",
+      "org": "Office of the Attorney General (Irish Statute Book)",
+      "title": "Taxes Consolidation Act 1997",
+      "url": "https://www.irishstatutebook.ie/eli/1997/act/39/enacted/en/html",
+      "kind": "legal",
+      "language": "en",
+      "publishedDate": null,
+      "accessed": "2026-10-11"
+    },
+    {
+      "id": "vatca-2010",
+      "org": "Office of the Attorney General (Irish Statute Book)",
+      "title": "Value-Added Tax Consolidation Act 2010",
+      "url": "https://www.irishstatutebook.ie/eli/2010/act/31/enacted/en/html",
+      "kind": "legal",
+      "language": "en",
+      "publishedDate": null,
+      "accessed": "2026-10-11"
+    },
+    {
+      "id": "sdca-1999",
+      "org": "Office of the Attorney General (Irish Statute Book)",
+      "title": "Stamp Duties Consolidation Act 1999",
+      "url": "https://www.irishstatutebook.ie/eli/1999/act/31/enacted/en/html",
+      "kind": "legal",
+      "language": "en",
+      "publishedDate": null,
+      "accessed": "2026-10-11"
+    },
+    {
+      "id": "cata-2003",
+      "org": "Office of the Attorney General (Irish Statute Book)",
+      "title": "Capital Acquisitions Tax Consolidation Act 2003",
+      "url": "https://www.irishstatutebook.ie/eli/2003/act/1/enacted/en/html",
+      "kind": "legal",
+      "language": "en",
+      "publishedDate": null,
+      "accessed": "2026-10-11"
+    },
+    {
+      "id": "lpt-act-2012",
+      "org": "Office of the Attorney General (Irish Statute Book)",
+      "title": "Finance (Local Property Tax) Act 2012",
+      "url": "https://www.irishstatutebook.ie/eli/2012/act/52/enacted/en/html",
+      "kind": "legal",
+      "language": "en",
+      "publishedDate": null,
+      "accessed": "2026-10-11"
+    },
+    {
+      "id": "swca-2005",
+      "org": "Office of the Attorney General (Irish Statute Book)",
+      "title": "Social Welfare Consolidation Act 2005",
+      "url": "https://www.irishstatutebook.ie/eli/2005/act/26/enacted/en/html",
+      "kind": "legal",
+      "language": "en",
+      "publishedDate": null,
+      "accessed": "2026-10-11"
+    },
+    {
+      "id": "finance-act-1992",
+      "org": "Office of the Attorney General (Irish Statute Book)",
+      "title": "Finance Act 1992 (vehicle registration tax)",
+      "url": "https://www.irishstatutebook.ie/eli/1992/act/9/enacted/en/html",
+      "kind": "legal",
+      "language": "en",
+      "publishedDate": null,
+      "accessed": "2026-10-11"
+    },
+    {
+      "id": "finance-act-1999",
+      "org": "Office of the Attorney General (Irish Statute Book)",
+      "title": "Finance Act 1999 (mineral oil tax)",
+      "url": "https://www.irishstatutebook.ie/eli/1999/act/2/enacted/en/html",
+      "kind": "legal",
+      "language": "en",
+      "publishedDate": null,
+      "accessed": "2026-10-11"
+    },
+    {
+      "id": "lga-2001",
+      "org": "Office of the Attorney General (Irish Statute Book)",
+      "title": "Local Government Act 2001",
+      "url": "https://www.irishstatutebook.ie/eli/2001/act/37/enacted/en/html",
+      "kind": "legal",
+      "language": "en",
+      "publishedDate": null,
+      "accessed": "2026-10-11"
+    },
+    {
+      "id": "valuation-act-2001",
+      "org": "Office of the Attorney General (Irish Statute Book)",
+      "title": "Valuation Act 2001",
+      "url": "https://www.irishstatutebook.ie/eli/2001/act/13/enacted/en/html",
+      "kind": "legal",
+      "language": "en",
+      "publishedDate": null,
+      "accessed": "2026-10-11"
+    },
+    {
+      "id": "revenue-energy-rates",
+      "org": "Revenue Commissioners",
+      "title": "Tax and Duty Manual: energy products and electricity taxes, excise duty rates",
+      "url": "https://www.revenue.ie/en/tax-professionals/tdm/excise/excise-duty-rates/energy-excise-duty-rates.pdf",
+      "kind": "tax-agency",
+      "language": "en",
+      "publishedDate": null,
+      "accessed": "2026-10-11"
+    }
+  ]
+}

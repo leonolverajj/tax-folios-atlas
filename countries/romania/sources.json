@@ -1,0 +1,66 @@
+{
+  "sources": [
+    {
+      "id": "ntl-2026",
+      "org": "European Commission, DG Taxation and Customs Union, with Eurostat",
+      "title": "Data on Taxation Trends: National Tax Lists (NTL), edition 2026",
+      "url": "https://taxation-customs.ec.europa.eu/taxation/economic-analysis/data-taxation-trends_en",
+      "kind": "statistics",
+      "language": "en",
+      "publishedDate": "2026-03-31",
+      "periodCovered": "Calendar year 2024 (series from 1995)",
+      "accessed": "2026-10-12",
+      "nextExpected": "2027-03",
+      "note": "Workbook \"NTL edition 2026 web.xlsx\", sheet RO: every tax and social contribution by its national name and ESA code, in RON million. Data cut-off 30 October 2025."
+    },
+    {
+      "id": "eurostat-taxag",
+      "org": "Eurostat",
+      "title": "Main national accounts tax aggregates (gov_10a_taxag)",
+      "url": "https://ec.europa.eu/eurostat/databrowser/view/gov_10a_taxag/default/table",
+      "kind": "statistics",
+      "language": "en",
+      "publishedDate": "2026-07-21",
+      "periodCovered": "Calendar year 2024",
+      "accessed": "2026-10-12",
+      "nextExpected": "2027-07",
+      "note": "Taxes and social contributions by sub-sector and ESA item; used to place each tax at a level, to split three shared lines and to check totals."
+    },
+    {
+      "id": "pwc-ro-corporate",
+      "org": "PwC",
+      "title": "Worldwide Tax Summaries: Romania – Corporate – Taxes on corporate income",
+      "url": "https://taxsummaries.pwc.com/romania/corporate/taxes-on-corporate-income",
+      "kind": "guidance",
+      "language": "en",
+      "publishedDate": "2026-09-25",
+      "periodCovered": "Rates as of the review",
+      "accessed": "2026-10-12",
+      "note": "A professional firm’s summary, not an official source: corporate income tax 16%; the supplementary tax on credit institutions."
+    },
+    {
+      "id": "pwc-ro-individual",
+      "org": "PwC",
+      "title": "Worldwide Tax Summaries: Romania – Individual – Taxes on personal income",
+      "url": "https://taxsummaries.pwc.com/romania/individual/taxes-on-personal-income",
+      "kind": "guidance",
+      "language": "en",
+      "publishedDate": "2026-09-25",
+      "periodCovered": "Rates as of the review",
+      "accessed": "2026-10-12",
+      "note": "A professional firm’s summary: a flat personal income tax rate of 10%."
+    },
+    {
+      "id": "pwc-ro-other",
+      "org": "PwC",
+      "title": "Worldwide Tax Summaries: Romania – Corporate – Other taxes",
+      "url": "https://taxsummaries.pwc.com/romania/corporate/other-taxes",
+      "kind": "guidance",
+      "language": "en",
+      "publishedDate": "2026-09-25",
+      "periodCovered": "Rates as of the review",
+      "accessed": "2026-10-12",
+      "note": "A professional firm’s summary: standard VAT rate 21%, reduced rate 11%; excise duty levels for 2026."
+    }
+  ]
+}

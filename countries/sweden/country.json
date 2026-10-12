@@ -1,0 +1,138 @@
+{
+  "id": "sweden",
+  "iso3": "SWE",
+  "isoNumeric": "752",
+  "names": { "en": "Sweden", "native": "Sverige", "nativeLang": "sv" },
+  "currency": { "code": "SEK", "symbol": "kr", "name": "Swedish krona" },
+  "summary": "Sweden is a unitary state with strong local government. The Riksdag sets the taxes and the Tax Agency collects almost all of them, but the municipalities and regions set their own proportional income tax, which brings in about six times what the State’s income tax brings in. The employers’ social fees are statistically booked as payroll taxes. VAT, the municipal income tax and the employers’ fees are the three biggest flows.",
+  "structureNote": "The figures are the Commission’s National Tax List for 2024, in SEK million. The income tax of individuals is drawn twice, as the State’s and the municipalities’ and regions’ part, using Eurostat’s split of the same year. The employers’ social fees are drawn as the list books them: mostly as taxes on payroll, with the compulsory pension fee and voluntary occupational pensions as social contributions. The sale of emission trade permits (SEK 3.7 billion) and the household pension \"supplements\" (SEK 14.8 billion, a calculated income attributed to the insured, not a payment) are left out.",
+  "theme": {
+    "accent": "#fecc00",
+    "accent2": "#006aa7",
+    "motif": "topo",
+    "motifNote": "Topographic contour lines over the outline of Sweden (the generic motif; no bespoke art yet).",
+    "mapLabel": { "lon": 16, "lat": 62.5 }
+  },
+  "levels": [
+    {
+      "id": "staten",
+      "branch": "national",
+      "names": { "official": "The State (Kingdom of Sweden)", "native": "Staten", "common": "State" },
+      "description": "The Riksdag legislates all taxes; the Swedish Tax Agency (Skatteverket) collects them, the employers’ fees and the municipal income tax, and the Social Insurance Agency pays the benefits.",
+      "fiscalPower": "Taxes are set by law; municipalities and regions set only the rate of their own income tax.",
+      "legalRefs": [{ "sourceId": "ntl-2026" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "kommuner",
+      "branch": "local",
+      "names": { "official": "Municipalities and regions", "native": "Kommuner och regioner", "common": "Municipalities and regions" },
+      "description": "The municipalities and the regions. They are financed mainly by their own proportional income tax, which each decides, together with state grants and fees.",
+      "fiscalPower": "Each municipality and region sets its income tax rate; the tax base is national.",
+      "legalRefs": [{ "sourceId": "pwc-se-individual", "locator": "Employment income tax for residents" }, { "sourceId": "eurostat-taxag" }],
+      "checkedOn": "2026-10-12"
+    }
+  ],
+  "supportingSourceIds": [],
+  "denominators": [
+    {
+      "id": "staten-taxes-2024",
+      "label": "State taxes (National Tax List), 2024",
+      "definition": "The taxes on production and imports, on income and on capital that the National Tax List books to the State and the EU, other than the payroll taxes and fees drawn separately and the sale of emission permits; includes the State’s part of the income tax of individuals.",
+      "levelIds": ["staten"],
+      "amount": 1161486,
+      "scale": "million",
+      "currency": "SEK",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "ntl-2026",
+      "locator": "Sheet SE, 2024, the lines listed with each tax",
+      "calculation": "Sum of the 16 tax rows below (SEK million)",
+      "caveat": "Calendar 2024; the list's cut-off was 30 October 2025. Vintage check against Eurostat's July 2026 accounts: D2: NTL 1,345,203, Eurostat July 2026 1,344,791; D5: NTL 1,129,596, Eurostat July 2026 1,115,673; D61: NTL 235,623, Eurostat July 2026 235,603.",
+      "accessed": "2026-10-12"
+    },
+    {
+      "id": "staten-payroll-2024",
+      "label": "Payroll taxes and employers’ social fees booked as taxes, 2024",
+      "definition": "The general payroll tax, the earmarked employers’ fees, the pension fee to the State budget and the special payroll tax, which the National Tax List books as taxes on the wage bill.",
+      "levelIds": ["staten"],
+      "amount": 583895,
+      "scale": "million",
+      "currency": "SEK",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "ntl-2026",
+      "locator": "Sheet SE, 2024, lines D29C",
+      "calculation": "Sum of the 4 payroll rows below (SEK million)",
+      "caveat": "Calendar 2024, same list and cut-off as the other taxes. These fees are social in nature but the list books them as taxes on payroll.",
+      "accessed": "2026-10-12"
+    },
+    {
+      "id": "staten-pension-fees-2024",
+      "label": "Compulsory employers’ pension fees, 2024",
+      "definition": "The mandatory employers’ pension fees to the pension funds, booked as social contributions.",
+      "levelIds": ["staten"],
+      "amount": 165370,
+      "scale": "million",
+      "currency": "SEK",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "ntl-2026",
+      "locator": "Sheet SE, 2024, line D611C C01",
+      "caveat": "Calendar 2024, same list and cut-off as the taxes.",
+      "accessed": "2026-10-12"
+    },
+    {
+      "id": "staten-occupational-pensions-2024",
+      "label": "Voluntary occupational pension premiums, 2024",
+      "definition": "Employers’ voluntary pension premiums (collectively agreed) and other voluntary employers’ contributions.",
+      "levelIds": ["staten"],
+      "amount": 52259,
+      "scale": "million",
+      "currency": "SEK",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "ntl-2026",
+      "locator": "Sheet SE, 2024, lines D611V C01 and C02",
+      "caveat": "Calendar 2024, same list and cut-off as the taxes. Not legislated; included because the National Tax List includes them.",
+      "accessed": "2026-10-12"
+    },
+    {
+      "id": "staten-self-employed-pension-2024",
+      "label": "Pension contributions of the self-employed, 2024",
+      "definition": "The compulsory pension contributions of the self-employed.",
+      "levelIds": ["staten"],
+      "amount": 3236,
+      "scale": "million",
+      "currency": "SEK",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "ntl-2026",
+      "locator": "Sheet SE, 2024, line D613CS C01",
+      "caveat": "Calendar 2024, same list and cut-off as the taxes.",
+      "accessed": "2026-10-12"
+    },
+    {
+      "id": "kommuner-income-tax-2024",
+      "label": "Income tax received by the municipalities and regions, 2024",
+      "definition": "The part of the income tax of individuals that Eurostat’s accounts record under local government.",
+      "levelIds": ["kommuner"],
+      "amount": 725709,
+      "scale": "million",
+      "currency": "SEK",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "eurostat-taxag",
+      "locator": "gov_10a_taxag, 2024, S.1313, D51A, million SEK",
+      "caveat": "Eurostat July 2026 vintage, a different release from the National Tax List.",
+      "accessed": "2026-10-12"
+    }
+  ],
+  "sizing": {
+    "label": "Taxes and compulsory social contributions of all levels of government",
+    "definition": "The taxes of the State and of the municipalities and regions plus the actual social contributions, calendar 2024, as listed in the National Tax List and split by Eurostat. Excludes the sale of emission permits and the households’ pension contribution supplements.",
+    "componentIds": [
+      "staten-taxes-2024",
+      "staten-payroll-2024",
+      "staten-pension-fees-2024",
+      "staten-occupational-pensions-2024",
+      "staten-self-employed-pension-2024",
+      "kommuner-income-tax-2024"
+    ]
+  },
+  "researchStatus": "researched"
+}

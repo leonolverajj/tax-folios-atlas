@@ -1,0 +1,233 @@
+{
+  "groups": [
+    {
+      "title": "State taxes 2024 – National Tax List (EUR million)",
+      "defaults": {
+        "denominatorId": "kratos-taxes-2024",
+        "scale": "million",
+        "currency": "EUR",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "ESA tax revenue, general government and EU institutions",
+        "sourceId": "ntl-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        { "nodeId": "gr-income-tax-individuals", "amount": 14167, "locator": "NTL 2026, sheet EL, row 107: D51A Income taxes on individuals, 2024" },
+        {
+          "nodeId": "gr-income-tax-other-individuals",
+          "amount": 1387,
+          "locator": "NTL 2026, sheet EL, 2024: D51A Taxes on interest and other taxes on individuals (row 108); D51A Taxes on Pension (AGAGE) (row 109)",
+          "calculation": "760 + 627 = 1,387 (EUR million)"
+        },
+        { "nodeId": "gr-corporate-income-tax", "amount": 6871, "locator": "NTL 2026, sheet EL, row 113: D51B Income taxes on corporations, 2024" },
+        { "nodeId": "gr-shipowners-tax", "amount": 240, "locator": "NTL 2026, sheet EL, row 114: D51B Taxes on shipowners, 2024" },
+        {
+          "nodeId": "gr-other-income-taxes",
+          "amount": 1420,
+          "locator": "NTL 2026, sheet EL, 2024: D51E Various (row 125); D51D Taxes on winnings from lottery or gambling (row 122)",
+          "calculation": "1,074 + 346 = 1,420 (EUR million)"
+        },
+        { "nodeId": "gr-vat", "amount": 21384, "locator": "NTL 2026, sheet EL, row 12: D211 Value added type taxes (VAT), 2024" },
+        { "nodeId": "gr-customs", "amount": 366, "locator": "NTL 2026, sheet EL, row 15: D2121 Import duties, 2024" },
+        {
+          "nodeId": "gr-excise-fuel",
+          "amount": 4114,
+          "locator": "NTL 2026, sheet EL, 2024: D214A Excise duties on oil products (benzin, petroleum etc) and natural gas (row 35); D2122C Excise duties on oil products (benzin, petroleum etc) and natural gas (row 22)",
+          "calculation": "3,868 + 246 = 4,114 (EUR million)"
+        },
+        {
+          "nodeId": "gr-excise-tobacco",
+          "amount": 2327,
+          "locator": "NTL 2026, sheet EL, 2024: D214A Excise duties on tobacco products (row 36); D2122C Excise duties on tobacco products (row 24)",
+          "calculation": "2,295 + 32 = 2,327 (EUR million)"
+        },
+        {
+          "nodeId": "gr-excise-alcohol-other",
+          "amount": 741,
+          "locator": "NTL 2026, sheet EL, 2024: D214A Taxes on alcoholic drinks (row 38); D214A Taxes on beer (row 37); D2122C Taxes on alcoholic drinks (row 23); D214A Coffee and Electronic Cigarettes (row 39); D2122C Coffee and Electronic Cigarettes (row 26)",
+          "calculation": "368 + 203 + 2 + 108 + 60 = 741 (EUR million)"
+        },
+        {
+          "nodeId": "gr-energy-taxes",
+          "amount": 922,
+          "locator": "NTL 2026, sheet EL, 2024: D214A Tax on electricity for public services benefits(ΥΚΩ) (row 41); D214A New tax on electricity (row 40); D214A New Green tax on Diesel (row 42)",
+          "calculation": "643 + 164 + 115 = 922 (EUR million)"
+        },
+        {
+          "nodeId": "gr-stamp-taxes",
+          "amount": 575,
+          "locator": "NTL 2026, sheet EL, 2024: D214B Stamp taxes on products (row 45); D214B Stamp taxes on legal documents (row 46)",
+          "calculation": "153 + 422 = 575 (EUR million)"
+        },
+        {
+          "nodeId": "gr-asset-sale-taxes",
+          "amount": 691,
+          "locator": "NTL 2026, sheet EL, 2024: D214C Taxes on the sale of non-financial assets (row 48); D214C Taxes on the sale of financial assets (row 49)",
+          "calculation": "648 + 43 = 691 (EUR million)"
+        },
+        {
+          "nodeId": "gr-vehicle-taxes",
+          "amount": 1653,
+          "locator": "NTL 2026, sheet EL, 2024: D214D Car registration taxes (row 51); D59D Car registration licences (row 134); D29E Vehicle licences for businesses (row 90)",
+          "calculation": "446 + 810 + 397 = 1,653 (EUR million)"
+        },
+        { "nodeId": "gr-insurance-tax", "amount": 591, "locator": "NTL 2026, sheet EL, row 58: D214G Taxes on insurance premiums, 2024" },
+        {
+          "nodeId": "gr-gambling",
+          "amount": 722,
+          "locator": "NTL 2026, sheet EL, 2024: D214H Taxes on profits of OPAP (row 63); D214H Taxes on profits of casino (row 68); D214F Taxes on lotteries (row 55)",
+          "calculation": "664 + 57 + 1 = 722 (EUR million)"
+        },
+        {
+          "nodeId": "gr-telecom-taxes",
+          "amount": 247,
+          "locator": "NTL 2026, sheet EL, 2024: D214H Taxes on the use of mobile phones (row 62); D214H Taxes on subscriber pay tv (row 64); D214H Taxes on fixed network telephony (row 65)",
+          "calculation": "158 + 22 + 67 = 247 (EUR million)"
+        },
+        {
+          "nodeId": "gr-hotels-advertising",
+          "amount": 576,
+          "locator": "NTL 2026, sheet EL, 2024: D214H Taxes on hotels, restaurants, etc. (row 61); D214H Taxes on advertising (row 60); D214H Taxes on air tickets (row 69)",
+          "calculation": "490 + 85 + 1 = 576 (EUR million)"
+        },
+        {
+          "nodeId": "gr-wholesale-sales-tax",
+          "amount": 178,
+          "locator": "NTL 2026, sheet EL, 2024: D214I Wholesale sale taxes (row 71); D214I Other general sales taxes (row 72)",
+          "calculation": "168 + 10 = 178 (EUR million)"
+        },
+        {
+          "nodeId": "gr-property-tax-enfia",
+          "amount": 2381,
+          "locator": "NTL 2026, sheet EL, 2024: D29A New tax on buildings(ENFIA) (row 82); D29A New tax on Household buildings (EETHDE) (row 81); D59A New tax on Household buildings (EETHDE) (row 130); D59F Tax on buildings (row 138)",
+          "calculation": "2,364 + 2 + 9 + 6 = 2,381 (EUR million)"
+        },
+        {
+          "nodeId": "gr-household-buildings-tax-state",
+          "amount": 228,
+          "locator": "NTL 2026, sheet EL, D59A C02 Taxes on household buildings, 2024, less the part recorded under local government",
+          "calculation": "516 − 288 = 228 (EUR million)",
+          "caveat": "The local part is Eurostat’s total for local government (S.1313, D59A) less the refuse fees of households; the allocation to this line is an inference from the amounts."
+        },
+        {
+          "nodeId": "gr-pollution-taxes",
+          "amount": 2191,
+          "locator": "NTL 2026, sheet EL, 2024: D29F Taxes on pollution (row 92); D29F Other taxes related to pollution received by LAGIE (row 93)",
+          "calculation": "1,466 + 725 = 2,191 (EUR million)"
+        },
+        {
+          "nodeId": "gr-licences-fees",
+          "amount": 1368,
+          "locator": "NTL 2026, sheet EL, 2024: 10 lines of the list: D29E:C02, D29E:C01, D29H:C03, D29H:C06, D29H:C01, D29H:C02, D29H:C04, D91A:C01, D214L:C01, D214A:C10",
+          "calculation": "Sum of 10 lines of the list, named in the locator (EUR million)"
+        }
+      ]
+    },
+    {
+      "title": "Employers’ social contributions 2024 – National Tax List (EUR million)",
+      "defaults": {
+        "denominatorId": "kratos-social-employers-2024",
+        "scale": "million",
+        "currency": "EUR",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Actual compulsory contributions",
+        "sourceId": "ntl-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        {
+          "nodeId": "gr-social-employers",
+          "amount": 13002,
+          "locator": "NTL 2026, sheet EL, row 150: D611 Employers' actual social contributions, 2024"
+        }
+      ]
+    },
+    {
+      "title": "Employees’ social contributions 2024 – National Tax List (EUR million)",
+      "defaults": {
+        "denominatorId": "kratos-social-households-2024",
+        "scale": "million",
+        "currency": "EUR",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Actual compulsory contributions",
+        "sourceId": "ntl-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [{ "nodeId": "gr-social-employees", "amount": 14586, "locator": "NTL 2026, sheet EL, row 174: D613CE , 2024" }]
+    },
+    {
+      "title": "Municipal refuse fees 2024 – National Tax List (EUR million)",
+      "defaults": {
+        "denominatorId": "ota-refuse-2024",
+        "scale": "million",
+        "currency": "EUR",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "ESA tax revenue",
+        "sourceId": "ntl-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        {
+          "nodeId": "gr-municipal-refuse-fees",
+          "amount": 1385,
+          "locator": "NTL 2026, sheet EL, 2024: D59A Refuse fees paid by Households (row 128); D29A Refuse fees paid by professional (row 80)",
+          "calculation": "970 + 415 = 1,385 (EUR million)"
+        }
+      ]
+    },
+    {
+      "title": "Household buildings taxes (local part) 2024 – Eurostat (EUR million)",
+      "defaults": {
+        "denominatorId": "ota-household-buildings-2024",
+        "scale": "million",
+        "currency": "EUR",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "ESA taxes received by local government",
+        "sourceId": "eurostat-taxag",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        {
+          "nodeId": "gr-household-buildings-tax-local",
+          "amount": 288,
+          "locator": "Eurostat gov_10a_taxag, 2024: S.1313 local government, D59A other current taxes, less the refuse fees of households (NTL D59A C01), EUR million",
+          "calculation": "1,258 − 970 = 288 (EUR million)",
+          "caveat": "The allocation of the remainder to the household buildings line is an inference from the amounts; Eurostat and the list agree on the total of the line."
+        }
+      ]
+    },
+    {
+      "title": "Local land and street fees 2024 – National Tax List (EUR million)",
+      "defaults": {
+        "denominatorId": "ota-other-2024",
+        "scale": "million",
+        "currency": "EUR",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "ESA tax revenue",
+        "sourceId": "ntl-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        {
+          "nodeId": "gr-municipal-land-fees",
+          "amount": 204,
+          "locator": "NTL 2026, sheet EL, 2024: D29A Taxes on land, buildings or other structures (row 79); D29B Taxes on the use of decks, streets, lighting (row 84); D91B Capital levies (row 143)",
+          "calculation": "164 + 8 + 32 = 204 (EUR million)"
+        }
+      ]
+    }
+  ],
+  "unavailable": []
+}

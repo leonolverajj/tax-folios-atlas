@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "turkiye": {
+      "x": 800,
+      "y": 500
+    },
+    "devlet": {
+      "x": 509,
+      "y": 432
+    },
+    "tr-income-tax": {
+      "x": 854,
+      "y": 828
+    },
+    "tr-vat-domestic": {
+      "x": 391,
+      "y": 698
+    },
+    "tr-special-consumption-tax": {
+      "x": 315,
+      "y": 390
+    },
+    "tr-stamp-duty": {
+      "x": 695,
+      "y": 177
+    },
+    "tr-other-taxes": {
+      "x": 1166,
+      "y": 269
+    },
+    "tr-corporate-tax": {
+      "x": 399,
+      "y": 866
+    },
+    "tr-vat-imports": {
+      "x": 146,
+      "y": 331
+    },
+    "tr-banking-insurance-tax": {
+      "x": 893,
+      "y": 56
+    },
+    "tr-fees": {
+      "x": 1492,
+      "y": 462
+    }
+  },
+  "radii": {}
+}

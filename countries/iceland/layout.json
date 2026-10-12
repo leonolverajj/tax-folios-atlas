@@ -1,0 +1,126 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "iceland": {
+      "x": 800,
+      "y": 500
+    },
+    "rikid": {
+      "x": 509,
+      "y": 432
+    },
+    "is-income-tax-state": {
+      "x": 846,
+      "y": 776
+    },
+    "is-social-insurance-levy": {
+      "x": 470,
+      "y": 752
+    },
+    "is-vat": {
+      "x": 289,
+      "y": 514
+    },
+    "is-excise-tobacco": {
+      "x": 426,
+      "y": 275
+    },
+    "is-poll-taxes": {
+      "x": 790,
+      "y": 170
+    },
+    "is-building-fees": {
+      "x": 1158,
+      "y": 261
+    },
+    "is-capital-income-tax": {
+      "x": 583,
+      "y": 920
+    },
+    "is-unemployment-levy": {
+      "x": 175,
+      "y": 695
+    },
+    "is-customs": {
+      "x": 148,
+      "y": 373
+    },
+    "is-vehicle-taxes": {
+      "x": 531,
+      "y": 123
+    },
+    "is-bank-levies": {
+      "x": 1063,
+      "y": 123
+    },
+    "is-licences-small": {
+      "x": 1450,
+      "y": 379
+    },
+    "is-corporate-income-tax": {
+      "x": 881,
+      "y": 910
+    },
+    "is-social-other": {
+      "x": 102,
+      "y": 839
+    },
+    "is-fuel-energy-excise": {
+      "x": 119,
+      "y": 281
+    },
+    "is-other-excises": {
+      "x": 610,
+      "y": 32
+    },
+    "is-accommodation-airport": {
+      "x": 1428,
+      "y": 105
+    },
+    "is-financial-income-tax": {
+      "x": 359,
+      "y": 926
+    },
+    "is-payroll-taxes": {
+      "x": 77,
+      "y": 581
+    },
+    "is-excise-alcohol": {
+      "x": 110,
+      "y": 32
+    },
+    "is-financial-transactions": {
+      "x": 1134,
+      "y": 32
+    },
+    "is-inheritance-tax": {
+      "x": 1515,
+      "y": 288
+    },
+    "sveitarfelog": {
+      "x": 1091,
+      "y": 568
+    },
+    "is-income-tax-municipal": {
+      "x": 1166,
+      "y": 390
+    },
+    "is-property-tax": {
+      "x": 1273,
+      "y": 527
+    },
+    "is-municipal-fees": {
+      "x": 1247,
+      "y": 679
+    },
+    "is-road-construction-fee": {
+      "x": 1066,
+      "y": 738
+    }
+  },
+  "radii": {}
+}

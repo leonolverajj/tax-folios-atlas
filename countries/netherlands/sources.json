@@ -1,0 +1,209 @@
+{
+  "sources": [
+    {
+      "id": "oecd-rs-2025-subsectors",
+      "org": "OECD",
+      "title": "Revenue Statistics 2025, Table 6.26: Netherlands, tax revenues by sub-sectors of government",
+      "url": "https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en/full-report/tax-revenues-by-subsectors-of-general-government_f9e88332.html",
+      "kind": "international",
+      "language": "en",
+      "publishedDate": "2025-12-09",
+      "periodCovered": "Calendar year 2023 (national currency)",
+      "accessed": "2026-09-29",
+      "note": "Harmonised OECD classification of taxes (1000–6000) split by collecting sub-sector of general government."
+    },
+    {
+      "id": "oecd-rs-2025-levels",
+      "org": "OECD",
+      "title": "Revenue Statistics 2025, Chapter 3: Tax levels and tax structures (Table 3.1)",
+      "url": "https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en/full-report/tax-levels-and-tax-structures-1965-2024_2033f3ea.html",
+      "kind": "international",
+      "language": "en",
+      "publishedDate": "2025-12-09",
+      "periodCovered": "Calendar year 2023",
+      "accessed": "2026-09-29",
+      "note": "Total tax revenue as % of GDP."
+    },
+    {
+      "id": "sng-wofi-profile",
+      "org": "OECD and United Cities and Local Governments (SNG-WOFI)",
+      "title": "World Observatory on Subnational Government Finance and Investment – country profile: Netherlands",
+      "url": "https://www.sng-wofi.org/country_profiles/netherlands.html",
+      "kind": "international",
+      "language": "en",
+      "publishedDate": "2022-10-24",
+      "periodCovered": "2020",
+      "accessed": "2026-09-29",
+      "note": "Subnational government revenue by category as % of total subnational revenue, 2022 edition."
+    },
+    {
+      "id": "cbs-84120ned",
+      "org": "Statistics Netherlands (CBS)",
+      "title": "Government; received taxes and statutory premiums (table 84120NED)",
+      "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/84120NED/table",
+      "kind": "statistics",
+      "language": "nl",
+      "publishedDate": "2026-09-23",
+      "periodCovered": "Calendar year 2025 (provisional)",
+      "accessed": "2026-10-11",
+      "nextExpected": "2027-03",
+      "note": "Annual figures 1995–2025, national accounts (ESA 2010) for central government, local government and social security funds. Read through the CBS open data API (ODataApi, key BelastingenEnWettelijkePremies, 2025JJ00). The 79 lines add up exactly to the totals: taxes EUR 307,671 million and premiums EUR 146,356 million."
+    },
+    {
+      "id": "rijksjaarverslag-2025",
+      "org": "Ministry of Finance (Netherlands)",
+      "title": "Income and expenditure of the central government, Rijksjaarverslag 2025",
+      "url": "https://www.rijksoverheid.nl/themas/overheid-en-democratie/verantwoordingsdag/rijksjaarverslag-inkomsten-en-uitgaven",
+      "kind": "budget-report",
+      "language": "nl",
+      "publishedDate": "2026-05-20",
+      "periodCovered": "Calendar year 2025",
+      "accessed": "2026-10-11",
+      "nextExpected": "2027-05",
+      "note": "Cross-check: the Rijk’s revenue of EUR 432.5 billion in 2025 (wage and income tax 101.3, VAT 83.3, health premiums 61.0, corporation tax 49.4, employee insurance premiums 45.4, national insurance premiums 40.1, excise 11.5 and so on), on the central government’s own basis."
+    },
+    {
+      "id": "belastingdienst-2025",
+      "org": "Belastingdienst (Dutch Tax and Customs Administration)",
+      "title": "Jaarrapportage 2025",
+      "url": "https://www.tweedekamer.nl/downloads/document?id=2026D27866",
+      "kind": "tax-agency",
+      "language": "nl",
+      "publishedDate": "2026-05-20",
+      "periodCovered": "Calendar year 2025",
+      "accessed": "2026-10-11",
+      "nextExpected": "2027-05",
+      "note": "Tax receipts collected by the Belastingdienst: EUR 391,045 million in total, of which wage and income levies EUR 223,570 million (including premiums), VAT 82,977, corporation tax 49,095, dividend tax 6,636, transfer tax 4,703, inheritance and gift tax 4,100."
+    },
+    {
+      "id": "grondwet",
+      "org": "Dutch government (wetten.overheid.nl)",
+      "title": "Constitution of the Kingdom of the Netherlands (Grondwet)",
+      "url": "https://wetten.overheid.nl/BWBR0001840/",
+      "kind": "legal",
+      "language": "nl",
+      "publishedDate": null,
+      "accessed": "2026-10-11"
+    },
+    {
+      "id": "awr",
+      "org": "Dutch government (wetten.overheid.nl)",
+      "title": "General Act on State Taxes (Algemene wet inzake rijksbelastingen)",
+      "url": "https://wetten.overheid.nl/BWBR0002320/",
+      "kind": "legal",
+      "language": "nl",
+      "publishedDate": null,
+      "accessed": "2026-10-11"
+    },
+    {
+      "id": "wet-ib-2001",
+      "org": "Dutch government (wetten.overheid.nl)",
+      "title": "Income Tax Act 2001 (Wet inkomstenbelasting 2001)",
+      "url": "https://wetten.overheid.nl/BWBR0011353/",
+      "kind": "legal",
+      "language": "nl",
+      "publishedDate": null,
+      "accessed": "2026-10-11"
+    },
+    {
+      "id": "wet-lb-1964",
+      "org": "Dutch government (wetten.overheid.nl)",
+      "title": "Wage Tax Act 1964 (Wet op de loonbelasting 1964)",
+      "url": "https://wetten.overheid.nl/BWBR0002471/",
+      "kind": "legal",
+      "language": "nl",
+      "publishedDate": null,
+      "accessed": "2026-10-11"
+    },
+    {
+      "id": "wet-vpb-1969",
+      "org": "Dutch government (wetten.overheid.nl)",
+      "title": "Corporate Income Tax Act 1969 (Wet op de vennootschapsbelasting 1969)",
+      "url": "https://wetten.overheid.nl/BWBR0002672/",
+      "kind": "legal",
+      "language": "nl",
+      "publishedDate": null,
+      "accessed": "2026-10-11"
+    },
+    {
+      "id": "wet-ob-1968",
+      "org": "Dutch government (wetten.overheid.nl)",
+      "title": "Turnover Tax Act 1968 (Wet op de omzetbelasting 1968)",
+      "url": "https://wetten.overheid.nl/BWBR0002629/",
+      "kind": "legal",
+      "language": "nl",
+      "publishedDate": null,
+      "accessed": "2026-10-11"
+    },
+    {
+      "id": "gemeentewet",
+      "org": "Dutch government (wetten.overheid.nl)",
+      "title": "Municipalities Act (Gemeentewet)",
+      "url": "https://wetten.overheid.nl/BWBR0005416/",
+      "kind": "legal",
+      "language": "nl",
+      "publishedDate": null,
+      "accessed": "2026-10-11"
+    },
+    {
+      "id": "waterschapswet",
+      "org": "Dutch government (wetten.overheid.nl)",
+      "title": "Water Boards Act (Waterschapswet)",
+      "url": "https://wetten.overheid.nl/BWBR0008531/",
+      "kind": "legal",
+      "language": "nl",
+      "publishedDate": null,
+      "accessed": "2026-10-11"
+    },
+    {
+      "id": "zvw",
+      "org": "Dutch government (wetten.overheid.nl)",
+      "title": "Health Insurance Act (Zorgverzekeringswet)",
+      "url": "https://wetten.overheid.nl/BWBR0018450/",
+      "kind": "legal",
+      "language": "nl",
+      "publishedDate": null,
+      "accessed": "2026-10-11"
+    },
+    {
+      "id": "aow",
+      "org": "Dutch government (wetten.overheid.nl)",
+      "title": "General Old Age Pensions Act (Algemene Ouderdomswet)",
+      "url": "https://wetten.overheid.nl/BWBR0002221/",
+      "kind": "legal",
+      "language": "nl",
+      "publishedDate": null,
+      "accessed": "2026-10-11"
+    },
+    {
+      "id": "wlz",
+      "org": "Dutch government (wetten.overheid.nl)",
+      "title": "Long-term Care Act (Wet langdurige zorg)",
+      "url": "https://wetten.overheid.nl/BWBR0036014/",
+      "kind": "legal",
+      "language": "nl",
+      "publishedDate": null,
+      "accessed": "2026-10-11"
+    },
+    {
+      "id": "ww",
+      "org": "Dutch government (wetten.overheid.nl)",
+      "title": "Unemployment Insurance Act (Werkloosheidswet)",
+      "url": "https://wetten.overheid.nl/BWBR0004045/",
+      "kind": "legal",
+      "language": "nl",
+      "publishedDate": null,
+      "accessed": "2026-10-11"
+    },
+    {
+      "id": "wia",
+      "org": "Dutch government (wetten.overheid.nl)",
+      "title": "Work and Income according to Labour Capacity Act (Wet werk en inkomen naar arbeidsvermogen)",
+      "url": "https://wetten.overheid.nl/BWBR0019057/",
+      "kind": "legal",
+      "language": "nl",
+      "publishedDate": null,
+      "accessed": "2026-10-11"
+    }
+  ]
+}

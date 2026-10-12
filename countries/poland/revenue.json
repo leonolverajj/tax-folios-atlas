@@ -1,0 +1,270 @@
+{
+  "groups": [
+    {
+      "title": "State taxes 2024 – National Tax List (PLN million)",
+      "defaults": {
+        "denominatorId": "panstwo-taxes-2024",
+        "scale": "million",
+        "currency": "PLN",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "ESA tax revenue, general government and EU institutions",
+        "sourceId": "ntl-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        {
+          "nodeId": "pl-pit-state",
+          "amount": 81722,
+          "locator": "NTL 2026, sheet PL, D51A C01 to C05 (personal income tax), 2024, less the local part from Eurostat gov_10a_taxag (S.1313, D51A)",
+          "calculation": "183,514 − 101,792 = 81,722 (PLN million)",
+          "caveat": "Eurostat’s own State figure is PLN 81,722 million; the two sources agree on the total."
+        },
+        {
+          "nodeId": "pl-cit-state",
+          "amount": 60956,
+          "locator": "NTL 2026, sheet PL, D51O C01 and C02 (corporation income tax and solidarity contribution), 2024, less the local part from Eurostat gov_10a_taxag (S.1313, D51B)",
+          "calculation": "87,475 − 26,519 = 60,956 (PLN million)",
+          "caveat": "Eurostat’s own State figure is PLN 60,956 million; the two sources agree on the total."
+        },
+        {
+          "nodeId": "pl-winnings-tax",
+          "amount": 279,
+          "locator": "NTL 2026, sheet PL, row 161: D51D Tax on winnings from lottery, gambling and mutual bets, 2024"
+        },
+        { "nodeId": "pl-vat", "amount": 290738, "locator": "NTL 2026, sheet PL, row 12: D211 Value added tax, 2024" },
+        { "nodeId": "pl-customs", "amount": 6656, "locator": "NTL 2026, sheet PL, row 15: D2121 Import duty, 2024" },
+        {
+          "nodeId": "pl-excise-fuel",
+          "amount": 49039,
+          "locator": "NTL 2026, sheet PL, 2024: D214A Excise duty on petrol and other motor fuels (row 45); D2122C Excise duty on petrol and other motor fuels (row 22); D214A fuel fee (row 59); D2122C fuel fee (row 37)",
+          "calculation": "35,293 + 1,509 + 11,735 + 502 = 49,039 (PLN million)"
+        },
+        {
+          "nodeId": "pl-excise-tobacco",
+          "amount": 32560,
+          "locator": "NTL 2026, sheet PL, 2024: D214A Excise duty on tobacco products (row 47); D2122C Excise duty on tobacco products (row 24); D214A Excise duty on dried tobacco leaves (row 57); D214A Excise duty on electronic cigarette liquid (row 63); D2122C Excise duty on electronic cigarette liquid (row 38); D214A Excise duty on novelty products (row 64); D2122C Excise duty on novelty products (row 39)",
+          "calculation": "30,682 + 37 + 11 + 487 + 78 + 1,195 + 70 = 32,560 (PLN million)"
+        },
+        {
+          "nodeId": "pl-excise-alcohol",
+          "amount": 14655,
+          "locator": "NTL 2026, sheet PL, 2024: D214A Excise duty on spirits (row 46); D2122C Excise duty on spirits (row 23); D214A Excise duty on beer (row 48); D2122C Excise duty on beer (row 25); D214A Excise duty on wine and other fermented beverages (row 49); D2122C Excise duty on wine and other fermented beverages (row 26)",
+          "calculation": "9,711 + 793 + 3,526 + 103 + 251 + 271 = 14,655 (PLN million)"
+        },
+        {
+          "nodeId": "pl-excise-cars",
+          "amount": 4535,
+          "locator": "NTL 2026, sheet PL, 2024: D2122C Excise duty on cars (row 28); D214A Excise duty on cars (row 51)",
+          "calculation": "4,491 + 44 = 4,535 (PLN million)"
+        },
+        {
+          "nodeId": "pl-excise-energy",
+          "amount": 2297,
+          "locator": "NTL 2026, sheet PL, 2024: D214A Excise duty on electricity (row 50); D2122C Excise duty on electricity (row 27); D214A Excise duty on fuel oils (row 52); D2122C Excise duty on fuel oils (row 29); D214A Excise duty on liquid petroleum gas (LPG) (row 53); D2122C Excise duty on liquid petroleum gas (LPG) (row 30); D214A Excise duty on lubricants (row 55); D2122C Excise duty on lubricants (row 33); D214A Excise duty on coal products (row 56); D2122C Excise duty on coal products (row 34); D214A Excise duty on gas products excluding gas for combustion engines (row 58)",
+          "calculation": "616 + 1 + 167 + 3 + 945 + 9 + 244 + 115 + 43 + 1 + 153 = 2,297 (PLN million)"
+        },
+        {
+          "nodeId": "pl-energy-fees",
+          "amount": 10311,
+          "locator": "NTL 2026, sheet PL, 2024: D214A Power fee (row 66); D214A Emission payment (row 62); D214A Cogeneration payment (row 61); D214A Temporary payment (row 60); D29F Substitute fee (row 117)",
+          "calculation": "6,907 + 2,342 + 780 + 183 + 99 = 10,311 (PLN million)"
+        },
+        {
+          "nodeId": "pl-price-fund-write-offs",
+          "amount": 16148,
+          "locator": "NTL 2026, sheet PL, 2024: D29H Gas write-off - Price Difference Payment Fund (row 135); D29H Electrical write-off - Price Difference Payment Fund (row 136)",
+          "calculation": "15,417 + 731 = 16,148 (PLN million)"
+        },
+        { "nodeId": "pl-retail-tax", "amount": 4364, "locator": "NTL 2026, sheet PL, row 81: D214I Receipts from retail tax, 2024" },
+        {
+          "nodeId": "pl-gambling",
+          "amount": 6836,
+          "locator": "NTL 2026, sheet PL, 2024: D214F Taxes on lotteries, gambling and betting (row 76); D214L Receipts from extra charges to stakes in lotteries belonging to state monopoly (row 85)",
+          "calculation": "5,200 + 1,636 = 6,836 (PLN million)"
+        },
+        {
+          "nodeId": "pl-food-levy",
+          "amount": 1518,
+          "locator": "NTL 2026, sheet PL, 2024: D214L Receipts from the levy on foodstuffs (row 88); D214L Receipts of state funds from legal fees (row 87)",
+          "calculation": "1,493 + 25 = 1,518 (PLN million)"
+        },
+        {
+          "nodeId": "pl-payroll-funds",
+          "amount": 21987,
+          "locator": "NTL 2026, sheet PL, 2024: D29C Payments made by companies to the National Fund for Rehabilitation of Disabled Persons (row 95); D29C Receipts from employers' obligatory payments to the Fund of Guaranteed Employees' Benefits (row 96); D29C ‘Receipts from employers' obligatory payments to the Fundusz Solidarnościowy (row 97)",
+          "calculation": "7,517 + 710 + 13,760 = 21,987 (PLN million)"
+        },
+        {
+          "nodeId": "pl-financial-sector",
+          "amount": 8467,
+          "locator": "NTL 2026, sheet PL, 2024: D29H Tax from some financial institutions (row 130); D29E Obligatory payments of financial institutions to the Bank Guarantee Fund (row 103); D29E Obligatory payments of insurance companies to the Insurance Guarantee Fund (row 104); D29E Obligatory payments of insurance companies to the Polish Motor Insurers' Bureau (row 106); D29E Obligatory payments made by insurance companies to The Chief Commandant of the State Fire Service and to the Main Board of Voluntary Fire Brigade Association (row 108)",
+          "calculation": "6,518 + 1,621 + 238 + 50 + 40 = 8,467 (PLN million)"
+        },
+        {
+          "nodeId": "pl-environmental",
+          "amount": 1803,
+          "locator": "NTL 2026, sheet PL, 2024: D29F Levies on environmental exploitation (row 112); D29F Plastic shopping bags (row 114); D29H Fees and penalties for substances that deplete the ozone layer (row 132)",
+          "calculation": "1,621 + 181 + 1 = 1,803 (PLN million)"
+        },
+        {
+          "nodeId": "pl-licences-and-funds",
+          "amount": 4029,
+          "locator": "NTL 2026, sheet PL, 2024: D29E Payments to Power Industry Supervising Office for granting licences on energy production and distribution (row 101); D29E Payments for permissions granted by the Office of Electronic Communications to use frequencies and manage them within the limits of reservation (row 102); D29E Telecommunication fee (row 105); D29E Payments for public broadcasting (row 107); D59D Payments for public broadcasting (row 173); D29E Clinical Trials Compensation Fund (row 109); D29E Fees for the right to dispose of frequencies (row 110); D29H The National Fund for Environmental Protection and Water Management -other legal payments (row 121); D29H Receipts from legal payments to the Representative of Insured Persons (row 124); D29H Receipts from legal payments to Film Art. Institute (row 125); D29H Receipts from contributions from tourism organizers and travel agents (row 129); D29H Supervision fees of the Polish Agency for Audit Supervision (row 133); D29H Contributions to the Developer Guarantee Fund (row 134); D59D Fees for driving license (row 174); D59D Fee for a permit to practice amateur fishing (row 175); D214B Receipts from the part of the wholesale alcoholic beverages license fee (row 69); D91A Personal income tax on income from unrealized gains (row 185)",
+          "calculation": "261 + 292 + 54 + 436 + 225 + 12 + 48 + 1,219 + 60 + 375 + 188 + 38 + 120 + 127 + 3 + 568 + 3 = 4,029 (PLN million)"
+        }
+      ]
+    },
+    {
+      "title": "Employers’ social contributions 2024 – National Tax List (PLN million)",
+      "defaults": {
+        "denominatorId": "panstwo-social-employers-2024",
+        "scale": "million",
+        "currency": "PLN",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Actual compulsory contributions (subtotal)",
+        "sourceId": "ntl-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        {
+          "nodeId": "pl-social-employers",
+          "amount": 178108,
+          "locator": "NTL 2026, sheet PL, row 191: D611 Employers' actual social contributions, 2024"
+        }
+      ]
+    },
+    {
+      "title": "Households’ social contributions 2024 – National Tax List (PLN million)",
+      "defaults": {
+        "denominatorId": "panstwo-social-households-2024",
+        "scale": "million",
+        "currency": "PLN",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Compulsory and voluntary contributions",
+        "sourceId": "ntl-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        {
+          "nodeId": "pl-social-households",
+          "amount": 341829,
+          "locator": "NTL 2026, sheet PL, 2024: D613CE Compulsory employees' social contributions (row 216); D613CS Compulsory actual social contributions by the self-employed (row 218); D613V Custom Label - 01 (row 221)",
+          "calculation": "230,258 + 111,513 + 58 = 341,829 (PLN million)"
+        }
+      ]
+    },
+    {
+      "title": "Local share of the personal income tax 2024 – Eurostat (PLN million)",
+      "defaults": {
+        "denominatorId": "jst-pit-2024",
+        "scale": "million",
+        "currency": "PLN",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "ESA taxes received by local government",
+        "sourceId": "eurostat-taxag",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        {
+          "nodeId": "pl-pit-local",
+          "amount": 101792,
+          "locator": "Eurostat gov_10a_taxag, 2024: S.1313 local government, D51A taxes on individual or household income, PLN million",
+          "caveat": "Eurostat July 2026 vintage; it agrees with the National Tax List on the total of PLN 183,514 million."
+        }
+      ]
+    },
+    {
+      "title": "Local share of the corporate income tax 2024 – Eurostat (PLN million)",
+      "defaults": {
+        "denominatorId": "jst-cit-2024",
+        "scale": "million",
+        "currency": "PLN",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "ESA taxes received by local government",
+        "sourceId": "eurostat-taxag",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        {
+          "nodeId": "pl-cit-local",
+          "amount": 26519,
+          "locator": "Eurostat gov_10a_taxag, 2024: S.1313 local government, D51B taxes on the income of corporations, PLN million",
+          "caveat": "Eurostat July 2026 vintage; it agrees with the National Tax List on the total of PLN 87,475 million."
+        }
+      ]
+    },
+    {
+      "title": "Property taxes 2024 – National Tax List (PLN million)",
+      "defaults": {
+        "denominatorId": "jst-property-2024",
+        "scale": "million",
+        "currency": "PLN",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "ESA tax revenue",
+        "sourceId": "ntl-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        {
+          "nodeId": "pl-property-tax",
+          "amount": 37649,
+          "locator": "NTL 2026, sheet PL, 2024: D29A Real estate tax (row 91); D59A Real estate tax (row 165); D59A Arable land tax (row 166); D59A Forest tax (row 167)",
+          "calculation": "25,967 + 8,946 + 2,230 + 506 = 37,649 (PLN million)"
+        }
+      ]
+    },
+    {
+      "title": "Other local taxes 2024 – National Tax List (PLN million)",
+      "defaults": {
+        "denominatorId": "jst-other-2024",
+        "scale": "million",
+        "currency": "PLN",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "ESA tax revenue",
+        "sourceId": "ntl-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        { "nodeId": "pl-civil-law-transactions", "amount": 4102, "locator": "NTL 2026, sheet PL, row 71: D214C Tax on civil-law transactions, 2024" },
+        {
+          "nodeId": "pl-vehicle-transport",
+          "amount": 2275,
+          "locator": "NTL 2026, sheet PL, 2024: D29B Tax on means of transport (row 93); D214D Transportation levy (row 73)",
+          "calculation": "1,517 + 758 = 2,275 (PLN million)"
+        },
+        {
+          "nodeId": "pl-alcohol-permits",
+          "amount": 1258,
+          "locator": "NTL 2026, sheet PL, row 100: D29E Fees for permissions on sale of liquor, 2024"
+        },
+        {
+          "nodeId": "pl-stamp-inheritance",
+          "amount": 1250,
+          "locator": "NTL 2026, sheet PL, 2024: D214B Stamp duty (row 68); D91A Inheritance and donation tax (row 184)",
+          "calculation": "659 + 591 = 1,250 (PLN million)"
+        },
+        {
+          "nodeId": "pl-local-fees",
+          "amount": 1700,
+          "locator": "NTL 2026, sheet PL, 2024: D59F Other local levies charged by local government on the basis of separate law regulations (row 179); D59D Location levy (row 171); D59D Health resort fee (row 172); D59F Dog owner's tax (row 178); D29H Fees for removal of trees and shrubs (row 127); D29H Product fee (row 122)",
+          "calculation": "1,424 + 76 + 125 + 4 + 67 + 4 = 1,700 (PLN million)"
+        }
+      ]
+    }
+  ],
+  "unavailable": []
+}

@@ -1,0 +1,126 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "portugal": {
+      "x": 800,
+      "y": 500
+    },
+    "estado": {
+      "x": 509,
+      "y": 432
+    },
+    "pt-irs-state": {
+      "x": 815,
+      "y": 726
+    },
+    "pt-isp": {
+      "x": 392,
+      "y": 699
+    },
+    "pt-stamp-duty": {
+      "x": 320,
+      "y": 387
+    },
+    "pt-gambling": {
+      "x": 690,
+      "y": 178
+    },
+    "pt-public-broadcasting-fee": {
+      "x": 1159,
+      "y": 243
+    },
+    "pt-irc-state": {
+      "x": 511,
+      "y": 902
+    },
+    "pt-tobacco": {
+      "x": 112,
+      "y": 526
+    },
+    "pt-vehicle-sales-tax": {
+      "x": 348,
+      "y": 160
+    },
+    "pt-travel-charges": {
+      "x": 996,
+      "y": 123
+    },
+    "pt-social-employers": {
+      "x": 1484,
+      "y": 397
+    },
+    "pt-vat-state": {
+      "x": 861,
+      "y": 886
+    },
+    "pt-alcohol-sugar-drinks": {
+      "x": 127,
+      "y": 845
+    },
+    "pt-circulation-tax": {
+      "x": 85,
+      "y": 313
+    },
+    "pt-bank-insurance-contributions": {
+      "x": 610,
+      "y": 32
+    },
+    "pt-social-households": {
+      "x": 1406,
+      "y": 90
+    },
+    "pt-customs": {
+      "x": 326,
+      "y": 926
+    },
+    "pt-packaging-taxes": {
+      "x": 110,
+      "y": 618
+    },
+    "pt-insurance-fees": {
+      "x": 114,
+      "y": 32
+    },
+    "pt-energy-contributions": {
+      "x": 1104,
+      "y": 32
+    },
+    "pt-other-fees": {
+      "x": 1473,
+      "y": 272
+    },
+    "autarquias": {
+      "x": 1091,
+      "y": 568
+    },
+    "pt-irs-local": {
+      "x": 1241,
+      "y": 335
+    },
+    "pt-irc-local": {
+      "x": 1286,
+      "y": 427
+    },
+    "pt-vat-local": {
+      "x": 1302,
+      "y": 562
+    },
+    "pt-imi": {
+      "x": 1245,
+      "y": 709
+    },
+    "pt-imt": {
+      "x": 1156,
+      "y": 801
+    },
+    "pt-tourist-tax": {
+      "x": 987,
+      "y": 807
+    }
+  },
+  "radii": {}
+}

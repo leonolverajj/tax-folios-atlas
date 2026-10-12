@@ -1,0 +1,130 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "hungary": {
+      "x": 800,
+      "y": 500
+    },
+    "allam": {
+      "x": 509,
+      "y": 432
+    },
+    "hu-pit": {
+      "x": 846,
+      "y": 804
+    },
+    "hu-social-employees": {
+      "x": 464,
+      "y": 749
+    },
+    "hu-excise-fuel": {
+      "x": 289,
+      "y": 517
+    },
+    "hu-insurance-communications": {
+      "x": 425,
+      "y": 276
+    },
+    "hu-innovation-health-levies": {
+      "x": 790,
+      "y": 170
+    },
+    "hu-small-business-taxes": {
+      "x": 1160,
+      "y": 266
+    },
+    "hu-cit": {
+      "x": 619,
+      "y": 921
+    },
+    "hu-social-others": {
+      "x": 173,
+      "y": 693
+    },
+    "hu-excise-tobacco": {
+      "x": 152,
+      "y": 340
+    },
+    "hu-duties-conveyances": {
+      "x": 539,
+      "y": 85
+    },
+    "hu-energy-sector-payments": {
+      "x": 1075,
+      "y": 123
+    },
+    "hu-rehabilitation-contribution": {
+      "x": 1448,
+      "y": 342
+    },
+    "hu-sector-special-taxes": {
+      "x": 868,
+      "y": 925
+    },
+    "hu-vat": {
+      "x": 233,
+      "y": 884
+    },
+    "hu-excise-alcohol": {
+      "x": 81,
+      "y": 537
+    },
+    "hu-gambling": {
+      "x": 161,
+      "y": 112
+    },
+    "hu-environmental-taxes": {
+      "x": 777,
+      "y": 32
+    },
+    "hu-utility-tax": {
+      "x": 1418,
+      "y": 98
+    },
+    "hu-social-contribution-tax": {
+      "x": 418,
+      "y": 904
+    },
+    "hu-customs": {
+      "x": 81,
+      "y": 792
+    },
+    "hu-financial-transaction-duty": {
+      "x": 127,
+      "y": 248
+    },
+    "hu-vehicle-taxes": {
+      "x": 400,
+      "y": 32
+    },
+    "hu-tourism-airlines": {
+      "x": 1203,
+      "y": 32
+    },
+    "hu-capital-protection-fees": {
+      "x": 1486,
+      "y": 250
+    },
+    "onkormanyzat": {
+      "x": 1091,
+      "y": 568
+    },
+    "hu-local-business-tax": {
+      "x": 1260,
+      "y": 458
+    },
+    "hu-local-property-taxes": {
+      "x": 1273,
+      "y": 608
+    },
+    "hu-local-other-taxes": {
+      "x": 1165,
+      "y": 725
+    }
+  },
+  "radii": {}
+}

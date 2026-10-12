@@ -1,0 +1,130 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "austria": {
+      "x": 800,
+      "y": 500
+    },
+    "bund": {
+      "x": 509,
+      "y": 432
+    },
+    "at-wage-tax": {
+      "x": 853,
+      "y": 800
+    },
+    "at-bank-levy": {
+      "x": 462,
+      "y": 748
+    },
+    "at-alcohol-taxes": {
+      "x": 289,
+      "y": 518
+    },
+    "at-nova": {
+      "x": 427,
+      "y": 274
+    },
+    "at-gambling-levies": {
+      "x": 798,
+      "y": 170
+    },
+    "at-unemployment-insurance": {
+      "x": 1163,
+      "y": 268
+    },
+    "at-income-tax": {
+      "x": 589,
+      "y": 923
+    },
+    "at-other-income-wealth-taxes": {
+      "x": 172,
+      "y": 691
+    },
+    "at-mineral-oil-tax": {
+      "x": 154,
+      "y": 340
+    },
+    "at-motor-vehicle-taxes": {
+      "x": 536,
+      "y": 123
+    },
+    "at-other-consumption-taxes": {
+      "x": 1054,
+      "y": 89
+    },
+    "at-pension-insurance": {
+      "x": 1449,
+      "y": 364
+    },
+    "at-capital-income-tax": {
+      "x": 868,
+      "y": 924
+    },
+    "at-vat": {
+      "x": 218,
+      "y": 895
+    },
+    "at-energy-levies": {
+      "x": 77,
+      "y": 523
+    },
+    "at-insurance-tax": {
+      "x": 165,
+      "y": 109
+    },
+    "at-fees": {
+      "x": 793,
+      "y": 32
+    },
+    "at-health-insurance": {
+      "x": 1415,
+      "y": 97
+    },
+    "at-corporate-tax": {
+      "x": 425,
+      "y": 917
+    },
+    "at-tobacco-tax": {
+      "x": 68,
+      "y": 791
+    },
+    "at-carbon-pricing": {
+      "x": 81,
+      "y": 248
+    },
+    "at-real-estate-transfer-tax": {
+      "x": 392,
+      "y": 32
+    },
+    "at-family-fund-levy": {
+      "x": 1239,
+      "y": 37
+    },
+    "at-accident-insurance": {
+      "x": 1502,
+      "y": 235
+    },
+    "laender": {
+      "x": 1106,
+      "y": 469
+    },
+    "gemeinden": {
+      "x": 1028,
+      "y": 636
+    },
+    "at-kommunalsteuer": {
+      "x": 1213,
+      "y": 613
+    },
+    "at-grundsteuer": {
+      "x": 1097,
+      "y": 794
+    }
+  },
+  "radii": {}
+}

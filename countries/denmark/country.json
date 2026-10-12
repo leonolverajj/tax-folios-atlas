@@ -1,0 +1,75 @@
+{
+  "id": "denmark",
+  "iso3": "DNK",
+  "isoNumeric": "208",
+  "names": { "en": "Denmark", "native": "Danmark", "nativeLang": "da" },
+  "currency": { "code": "DKK", "symbol": "kr.", "name": "Danish krone" },
+  "summary": "Denmark is a unitary state with 98 municipalities and five regions. It funds a large welfare state almost entirely from taxes, with hardly any social security contributions: the personal income tax is split between the State (a bottom-bracket and a top-bracket tax) and the municipality, and an 8% labour market contribution on earnings is levied on top. VAT has a single rate of 25% with no reduced rates, and there is a long list of small excise duties and green taxes. The regions have no taxes.",
+  "structureNote": "All figures are from one Statistics Denmark table for 2025, which lists every tax and duty; where the table has dozens of small duties they are grouped by kind. The labour market contribution (AM-bidrag) is classified as an income tax by Statistics Denmark and drawn as a tax, since it is levied on gross earnings like one; only small compulsory social contributions are drawn as contributions, because Denmark funds social benefits from general taxes. The five regions are not a level here: their health spending is financed by the State and the municipalities. Left out: the dividend from the state gaming company (DKK 1.6 billion, a monopoly profit) and the church tax, which the table does not list.",
+  "theme": {
+    "accent": "#ef476f",
+    "accent2": "#f7f3e3",
+    "motif": "topo",
+    "motifNote": "Topographic contour lines over the outline of Denmark (the generic motif; no bespoke art yet).",
+    "mapLabel": { "lon": 9.4, "lat": 56.1 }
+  },
+  "levels": [
+    {
+      "id": "state",
+      "branch": "national",
+      "names": { "official": "The State (Staten)", "native": "Staten", "common": "Central government" },
+      "description": "The Folketing legislates every tax. The Danish Tax Agency (Skattestyrelsen) and the Customs Agency collect the State’s taxes and, together with the municipalities, the municipal income tax and land tax.",
+      "fiscalPower": "The Constitution forbids any tax that is not set by an Act (§ 43). Each tax has its own Act: the Personal Tax Act, the Corporation Tax Act, the VAT Act and the excise Acts.",
+      "legalRefs": [{ "sourceId": "grundloven", "locator": "§ 43" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "municipalities",
+      "branch": "local",
+      "names": { "official": "Municipalities (kommuner)", "native": "Kommuner", "common": "Local government" },
+      "description": "98 municipalities. They set the rate of the municipal income tax and of the land tax (within limits set by law) and run most public services, including primary schools, elder care and social benefits.",
+      "fiscalPower": "Municipalities may levy only the taxes that the Folketing allows them to: the municipal income tax, the land tax and the coverage duty on business and public property.",
+      "legalRefs": [{ "sourceId": "grundloven", "locator": "§ 82" }],
+      "checkedOn": "2026-10-11"
+    }
+  ],
+  "supportingSourceIds": [],
+  "denominators": [
+    {
+      "id": "state-taxes-2025",
+      "label": "Taxes and charges of the State, 2025",
+      "definition": "All taxes, duties and tax-like charges that go to the State: personal income tax, the labour market contribution, corporation tax, the tax on pension returns, VAT, excise duties and green taxes, vehicle duties, stamp duties, inheritance duty and the compulsory social and labour contributions.",
+      "levelIds": ["state"],
+      "amount": 1018397.888,
+      "scale": "million",
+      "currency": "DKK",
+      "period": { "label": "2025", "kind": "calendar-year", "start": "2025-01-01", "end": "2025-12-31" },
+      "sourceId": "dst-skat-2025",
+      "locator": "Table SKAT 2025: every line except the municipal income tax, the municipal land tax and coverage duties, and the dividend from Danske Spil",
+      "calculation": "Total 1,375,324.349 − municipal income tax 328,059.897 − land tax 23,705.399 − coverage duties 3,516.986 − dividend from Danske Spil 1,644.180 = 1,018,397.887 (DKK million)",
+      "caveat": "National accounts basis as published by Statistics Denmark. The figure of 1,018,397.888 is the sum of the lines (the source totals differ by DKK 1 thousand through rounding).",
+      "accessed": "2026-10-11"
+    },
+    {
+      "id": "municipal-taxes-2025",
+      "label": "Municipal taxes, 2025",
+      "definition": "The municipal income tax, the municipal land tax and the coverage duty on business and public property.",
+      "levelIds": ["municipalities"],
+      "amount": 355282.282,
+      "scale": "million",
+      "currency": "DKK",
+      "period": { "label": "2025", "kind": "calendar-year", "start": "2025-01-01", "end": "2025-12-31" },
+      "sourceId": "dst-skat-2025",
+      "locator": "Table SKAT 2025: 1.1.3 Municipality income tax 328,059.897 + 4.4.3 Municipal tax on land 23,705.399 + 4.4.9 and 4.4.15 reimbursement duties 3,516.986",
+      "calculation": "328,059.897 + 23,705.399 + 813.896 + 2,703.090 = 355,282.282 (DKK million)",
+      "caveat": "The line \"Municipality income tax\" is as reported by Statistics Denmark; whether it includes the church tax is not stated.",
+      "accessed": "2026-10-11"
+    }
+  ],
+  "sizing": {
+    "label": "Taxes and compulsory contributions of all levels of government",
+    "definition": "The State’s taxes and charges + the municipal taxes, 2025, from one Statistics Denmark table. Excludes the dividend of the state gaming company.",
+    "componentIds": ["state-taxes-2025", "municipal-taxes-2025"]
+  },
+  "researchStatus": "researched"
+}

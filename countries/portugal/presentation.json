@@ -1,0 +1,33 @@
+{
+  "nodes": {
+    "portugal": { "label": "Portugal", "sublabel": "Portugal · Fiscal folio", "glyph": "globe" },
+    "estado": { "label": "State", "sublabel": "Estado", "glyph": "landmark" },
+    "autarquias": { "label": "Regions and municipalities", "sublabel": "Autarquias", "glyph": "town" },
+    "pt-irs-state": { "label": "Personal income tax (State)", "sublabel": "IRS · 12.5–48%", "glyph": "person" },
+    "pt-irc-state": { "label": "Corporate income tax (State)", "sublabel": "IRC", "glyph": "factory" },
+    "pt-vat-state": { "label": "VAT (State)", "sublabel": "23%", "glyph": "cart" },
+    "pt-customs": { "label": "Customs duties", "sublabel": "EU tariff", "glyph": "ship" },
+    "pt-isp": { "label": "Fuel and energy tax", "sublabel": "ISP", "glyph": "flame" },
+    "pt-tobacco": { "label": "Tobacco excise", "sublabel": "Cigarettes", "glyph": "smoke" },
+    "pt-alcohol-sugar-drinks": { "label": "Alcohol and sugary drinks", "sublabel": "Spirits · beer · sugar", "glyph": "wine" },
+    "pt-packaging-taxes": { "label": "Plastic and packaging", "sublabel": "Bags · packaging", "glyph": "leaf" },
+    "pt-stamp-duty": { "label": "Stamp duty", "sublabel": "Imposto do Selo", "glyph": "stamp" },
+    "pt-vehicle-sales-tax": { "label": "Vehicle tax (ISV)", "sublabel": "Registration", "glyph": "car" },
+    "pt-circulation-tax": { "label": "Circulation tax", "sublabel": "IUC", "glyph": "car" },
+    "pt-insurance-fees": { "label": "Insurance premium fees", "sublabel": "Earmarked", "glyph": "shield" },
+    "pt-gambling": { "label": "Gambling", "sublabel": "Operators · monopoly", "glyph": "dice" },
+    "pt-travel-charges": { "label": "Travel charges", "sublabel": "Air · sea", "glyph": "plane" },
+    "pt-bank-insurance-contributions": { "label": "Bank and insurer levies", "sublabel": "Bank levy", "glyph": "bank" },
+    "pt-energy-contributions": { "label": "Energy-sector contributions", "sublabel": "Extraordinary", "glyph": "bolt" },
+    "pt-public-broadcasting-fee": { "label": "Broadcasting fee", "sublabel": "Public service", "glyph": "scroll" },
+    "pt-social-employers": { "label": "Social: employers", "sublabel": "23.75%", "glyph": "heart" },
+    "pt-social-households": { "label": "Social: households", "sublabel": "Employees", "glyph": "heart" },
+    "pt-irs-local": { "label": "Personal income tax (local)", "sublabel": "Share of IRS", "glyph": "person" },
+    "pt-irc-local": { "label": "Corporate income tax (local)", "sublabel": "Derrama · regions", "glyph": "factory" },
+    "pt-vat-local": { "label": "VAT (regional)", "sublabel": "Madeira · Azores", "glyph": "cart" },
+    "pt-imi": { "label": "Municipal property tax", "sublabel": "IMI", "glyph": "house" },
+    "pt-imt": { "label": "Real estate transfer tax", "sublabel": "IMT", "glyph": "stamp" },
+    "pt-tourist-tax": { "label": "Tourist tax", "sublabel": "Per night", "glyph": "bed" },
+    "pt-other-fees": { "label": "Regulatory and other fees", "sublabel": "Small lines", "glyph": "stamp" }
+  }
+}

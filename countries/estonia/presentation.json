@@ -1,0 +1,28 @@
+{
+  "nodes": {
+    "estonia": { "label": "Estonia", "sublabel": "Eesti · Fiscal folio", "glyph": "globe" },
+    "riik": { "label": "State", "sublabel": "Riik", "glyph": "landmark" },
+    "kov": { "label": "Local governments", "sublabel": "Kohalikud", "glyph": "town" },
+    "ee-income-tax-persons": { "label": "Personal income tax", "sublabel": "Flat 20% (2024)", "glyph": "person" },
+    "ee-corporate-income-tax-distributions": { "label": "Corporate tax on distributions", "sublabel": "20/80 · on payout", "glyph": "factory" },
+    "ee-corporate-income-tax-benefits": { "label": "Corporate tax on benefits", "sublabel": "Fringe benefits · gifts", "glyph": "factory" },
+    "ee-social-tax-pension": { "label": "Social tax: pensions", "sublabel": "20% of pay", "glyph": "heart" },
+    "ee-social-tax-health": { "label": "Social tax: health", "sublabel": "13% of pay", "glyph": "heart" },
+    "ee-unemployment-insurance": { "label": "Unemployment insurance", "sublabel": "1.6% + 0.8%", "glyph": "bed" },
+    "ee-social-contributions-others": { "label": "Self-employed & non-employed", "sublabel": "Contributions", "glyph": "heart" },
+    "ee-vat": { "label": "VAT", "sublabel": "22% → 24%", "glyph": "cart" },
+    "ee-customs-duty": { "label": "Customs duty", "sublabel": "EU tariff", "glyph": "ship" },
+    "ee-excise-alcohol": { "label": "Alcohol excise", "sublabel": "Per litre", "glyph": "wine" },
+    "ee-excise-tobacco": { "label": "Tobacco excise", "sublabel": "Cigarettes", "glyph": "smoke" },
+    "ee-excise-fuel": { "label": "Fuel excise", "sublabel": "Per litre", "glyph": "flame" },
+    "ee-excise-other": { "label": "Other excises", "sublabel": "Electricity · stockpile", "glyph": "bolt" },
+    "ee-renewable-energy-charge": { "label": "Renewable energy charge", "sublabel": "On electricity", "glyph": "bolt" },
+    "ee-gambling-tax": { "label": "Gambling tax", "sublabel": "Operators", "glyph": "dice" },
+    "ee-vehicle-taxes": { "label": "Vehicle charges", "sublabel": "Registration · trucks", "glyph": "car" },
+    "ee-environmental-charges": { "label": "Environmental charges", "sublabel": "Pollution · water", "glyph": "leaf" },
+    "ee-guarantee-fund": { "label": "Guarantee Fund", "sublabel": "Banks’ levy", "glyph": "bank" },
+    "ee-licences-other": { "label": "Licences and small levies", "sublabel": "Fees", "glyph": "stamp" },
+    "ee-land-tax": { "label": "Land tax", "sublabel": "Local", "glyph": "town" },
+    "ee-local-taxes": { "label": "Advertising · road closure", "sublabel": "Local", "glyph": "stamp" }
+  }
+}

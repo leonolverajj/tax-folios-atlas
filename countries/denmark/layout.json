@@ -1,0 +1,154 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "denmark": {
+      "x": 800,
+      "y": 500
+    },
+    "state": {
+      "x": 509,
+      "y": 432
+    },
+    "dk-state-income-tax": {
+      "x": 846,
+      "y": 722
+    },
+    "dk-corporation-tax": {
+      "x": 467,
+      "y": 751
+    },
+    "dk-weight-duty": {
+      "x": 289,
+      "y": 517
+    },
+    "dk-mineral-oil-tax": {
+      "x": 428,
+      "y": 273
+    },
+    "dk-tobacco-duties": {
+      "x": 791,
+      "y": 210
+    },
+    "dk-stamp-duties": {
+      "x": 1161,
+      "y": 266
+    },
+    "dk-labour-market-contribution": {
+      "x": 644,
+      "y": 907
+    },
+    "dk-pension-yield-tax": {
+      "x": 170,
+      "y": 695
+    },
+    "dk-km-toll": {
+      "x": 154,
+      "y": 339
+    },
+    "dk-co2-tax": {
+      "x": 529,
+      "y": 88
+    },
+    "dk-alcohol-duties": {
+      "x": 1075,
+      "y": 89
+    },
+    "dk-insurance-duties": {
+      "x": 1447,
+      "y": 339
+    },
+    "dk-pension-payout-tax": {
+      "x": 875,
+      "y": 926
+    },
+    "dk-small-social-contributions": {
+      "x": 261,
+      "y": 926
+    },
+    "dk-vat": {
+      "x": 75,
+      "y": 473
+    },
+    "dk-electricity-tax": {
+      "x": 159,
+      "y": 124
+    },
+    "dk-sweets-coffee-duties": {
+      "x": 774,
+      "y": 119
+    },
+    "dk-gambling-duties": {
+      "x": 1432,
+      "y": 124
+    },
+    "dk-imputed-rent-tax": {
+      "x": 443,
+      "y": 926
+    },
+    "dk-employer-labour-charges": {
+      "x": 127,
+      "y": 790
+    },
+    "dk-payroll-duty": {
+      "x": 72,
+      "y": 247
+    },
+    "dk-gas-coal-tax": {
+      "x": 381,
+      "y": 32
+    },
+    "dk-water-tax": {
+      "x": 1229,
+      "y": 32
+    },
+    "dk-national-building-fund": {
+      "x": 1473,
+      "y": 247
+    },
+    "dk-other-income-taxes": {
+      "x": 909,
+      "y": 846
+    },
+    "dk-inheritance-duty": {
+      "x": 89,
+      "y": 926
+    },
+    "dk-customs": {
+      "x": 81,
+      "y": 599
+    },
+    "dk-registration-duty": {
+      "x": 127,
+      "y": 32
+    },
+    "dk-other-green-duties": {
+      "x": 774,
+      "y": 32
+    },
+    "dk-other-small-taxes": {
+      "x": 1507,
+      "y": 32
+    },
+    "municipalities": {
+      "x": 1091,
+      "y": 568
+    },
+    "dk-municipal-income-tax": {
+      "x": 1265,
+      "y": 456
+    },
+    "dk-land-tax": {
+      "x": 1274,
+      "y": 606
+    },
+    "dk-coverage-duty": {
+      "x": 1166,
+      "y": 724
+    }
+  },
+  "radii": {}
+}

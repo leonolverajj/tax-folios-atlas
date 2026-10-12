@@ -1,0 +1,138 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "poland": {
+      "x": 800,
+      "y": 500
+    },
+    "panstwo": {
+      "x": 509,
+      "y": 432
+    },
+    "pl-pit-state": {
+      "x": 761,
+      "y": 737
+    },
+    "pl-social-households": {
+      "x": 442,
+      "y": 736
+    },
+    "pl-excise-tobacco": {
+      "x": 289,
+      "y": 507
+    },
+    "pl-energy-fees": {
+      "x": 417,
+      "y": 281
+    },
+    "pl-food-levy": {
+      "x": 754,
+      "y": 171
+    },
+    "pl-licences-and-funds": {
+      "x": 1121,
+      "y": 229
+    },
+    "pl-cit-state": {
+      "x": 465,
+      "y": 888
+    },
+    "pl-vat": {
+      "x": 110,
+      "y": 489
+    },
+    "pl-excise-alcohol": {
+      "x": 330,
+      "y": 170
+    },
+    "pl-price-fund-write-offs": {
+      "x": 912,
+      "y": 61
+    },
+    "pl-payroll-funds": {
+      "x": 1445,
+      "y": 308
+    },
+    "pl-winnings-tax": {
+      "x": 767,
+      "y": 926
+    },
+    "pl-customs": {
+      "x": 81,
+      "y": 824
+    },
+    "pl-excise-cars": {
+      "x": 64,
+      "y": 302
+    },
+    "pl-retail-tax": {
+      "x": 572,
+      "y": 32
+    },
+    "pl-financial-sector": {
+      "x": 1345,
+      "y": 56
+    },
+    "pl-social-employers": {
+      "x": 267,
+      "y": 901
+    },
+    "pl-excise-fuel": {
+      "x": 102,
+      "y": 621
+    },
+    "pl-excise-energy": {
+      "x": 106,
+      "y": 32
+    },
+    "pl-gambling": {
+      "x": 1056,
+      "y": 32
+    },
+    "pl-environmental": {
+      "x": 1494,
+      "y": 216
+    },
+    "jst": {
+      "x": 1091,
+      "y": 568
+    },
+    "pl-pit-local": {
+      "x": 1218,
+      "y": 335
+    },
+    "pl-property-tax": {
+      "x": 1311,
+      "y": 517
+    },
+    "pl-vehicle-transport": {
+      "x": 1209,
+      "y": 710
+    },
+    "pl-stamp-inheritance": {
+      "x": 975,
+      "y": 817
+    },
+    "pl-cit-local": {
+      "x": 1471,
+      "y": 400
+    },
+    "pl-civil-law-transactions": {
+      "x": 1450,
+      "y": 658
+    },
+    "pl-alcohol-permits": {
+      "x": 1183,
+      "y": 874
+    },
+    "pl-local-fees": {
+      "x": 786,
+      "y": 838
+    }
+  },
+  "radii": {}
+}

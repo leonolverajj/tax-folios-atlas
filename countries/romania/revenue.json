@@ -1,0 +1,319 @@
+{
+  "groups": [
+    {
+      "title": "State taxes 2024 – National Tax List (RON million)",
+      "defaults": {
+        "denominatorId": "statul-taxes-2024",
+        "scale": "million",
+        "currency": "RON",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "ESA tax revenue, general government and EU institutions",
+        "sourceId": "ntl-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        { "nodeId": "ro-pit-wages", "amount": 30276.1, "locator": "NTL 2026, sheet RO, row 163: D51A Taxes on wages, 2024" },
+        { "nodeId": "ro-pit-dividends", "amount": 7958.1, "locator": "NTL 2026, sheet RO, row 149: D51A Taxes on income from dividends, 2024" },
+        { "nodeId": "ro-pit-pensions", "amount": 5761.4, "locator": "NTL 2026, sheet RO, row 152: D51A Tax on pensions income, 2024" },
+        {
+          "nodeId": "ro-pit-other",
+          "amount": 6870.2,
+          "locator": "NTL 2026, sheet RO, 2024: 13 lines of the list: D51A:C01, D51A:C02, D51A:C04, D51A:C05, D51A:C07, D51A:C08, D51A:C09, D51A:C16, D51A:C18, D51A:C19, D51A:C20, D51A:C21, D51A:C22",
+          "calculation": "Sum of 13 lines of the list, named in the locator (RON million)"
+        },
+        {
+          "nodeId": "ro-corporate-profit-tax",
+          "amount": 32644.9,
+          "locator": "NTL 2026, sheet RO, row 193: D51B Tax on profits from economic operators, 2024"
+        },
+        {
+          "nodeId": "ro-micro-enterprise-tax",
+          "amount": 3439.1,
+          "locator": "NTL 2026, sheet RO, 2024: D51B Tax on micro-enterprises incomes (row 199); D51B Tax on income from micro-enterprises created by the association of a natural person with a legal person, not generating a legal person (row 200)",
+          "calculation": "3,438.4 + 0.7 = 3,439.1 (RON million)"
+        },
+        { "nodeId": "ro-bank-tax", "amount": 3005, "locator": "NTL 2026, sheet RO, row 194: D51B Tax on profits from commercial banks, 2024" },
+        {
+          "nodeId": "ro-sector-solidarity-taxes",
+          "amount": 3496.8,
+          "locator": "NTL 2026, sheet RO, 2024: D51B The additional income tax is obtained as a result of the deregulation of prices in the natural gas sector (row 209); D51B Monopoly tax in the electricity and natural gas sector (row 210); D51B Tax on additional income made by electricity producers in accordance with Law no. 259/2021 (row 211); D51B Tax on turnover achieved by credit institutions (row 212); D51B Specific tax on turnover achieved by economic agents in the oil and natural gas sectors (row 213); D51B Taxes on revenues from the exploitation of natural resources (row 207)",
+          "calculation": "1,804.5 + 152.4 − 7.4 + 974.6 + 474.6 + 98.1 = 3,496.8 (RON million)"
+        },
+        {
+          "nodeId": "ro-other-profit-taxes",
+          "amount": 1588.1,
+          "locator": "NTL 2026, sheet RO, 2024: D51B Tax on revenues of non-resident legal persons (row 195); D51B tax on income from illegal activities or from the Consumer Protection Law violation (row 196); D51B Tax on dividends from legal persons (row 197); D51B Tax on profit from individuals in association with a legal person (row 198); D51B Tax on revenues of foreign firms' Romanian branches (row 201); D51B Amounts collected for state budget into the unique account, distribution in progress (row 202); D51B Payments from net profit of companies (row 204)",
+          "calculation": "1.2 + 1.6 + 1,009.4 + 0.8 + 2.2 + 174.3 + 398.6 = 1,588.1 (RON million)"
+        },
+        {
+          "nodeId": "ro-gambling-taxes",
+          "amount": 5363.8,
+          "locator": "NTL 2026, sheet RO, 2024: D51D Tax on revenues from lotteries, gambling and betting and from prizes in money/in kind (row 218); D51D Taxes on gambling (row 219); D214F Tax for the promotion of gambling activities (row 63)",
+          "calculation": "1,003.4 + 4,348.8 + 11.6 = 5,363.8 (RON million)"
+        },
+        { "nodeId": "ro-vat", "amount": 119071.9, "locator": "NTL 2026, sheet RO, row 12: D211 VAT, 2024" },
+        {
+          "nodeId": "ro-customs",
+          "amount": 1415.6,
+          "locator": "NTL 2026, sheet RO, 2024: D2121 Custom duties from amounts payable to 31.12.2006 (row 16); D2121 Customs duties from legal persons (row 17); D2121 Customs duties and other revenues received from individuals through custom (row 18); D2121 Anti-dumping taxes on products (row 20)",
+          "calculation": "1.6 + 1,258.5 + 9.1 + 146.4 = 1,415.6 (RON million)"
+        },
+        {
+          "nodeId": "ro-excise-energy",
+          "amount": 22652.7,
+          "locator": "NTL 2026, sheet RO, 2024: D214A Excises from energetical products sales (row 42); D214A Excises from sale of electric energy (row 47); D2122C Customs Excise collected from imports of energy products (row 26)",
+          "calculation": "19,716.8 + 179.2 + 2,756.7 = 22,652.7 (RON million)"
+        },
+        {
+          "nodeId": "ro-excise-tobacco",
+          "amount": 19978.4,
+          "locator": "NTL 2026, sheet RO, 2024: D214A Excises from sale of tobacco products (row 44); D2122C Custom excises for tobacco products imports (row 28)",
+          "calculation": "19,954.2 + 24.2 = 19,978.4 (RON million)"
+        },
+        {
+          "nodeId": "ro-excise-alcohol-other",
+          "amount": 2577.5,
+          "locator": "NTL 2026, sheet RO, 2024: D214A Excises from the sales of ethylic alcohol, intermediate products, frothy wine, beer, etc. (row 43); D214A Excises from sale of other products (row 46); D2122C Custom excises from the import of ethylic alcohol, intermediate products, frothy wine, beer (row 27); D2122C Custom excises for other products imports (row 30); D2122C Custom excises for autovehicles imports (row 31)",
+          "calculation": "1,918 + 636 + 7.1 + 16.3 + 0.1 = 2,577.5 (RON million)"
+        },
+        {
+          "nodeId": "ro-drug-contribution",
+          "amount": 5139.3,
+          "locator": "NTL 2026, sheet RO, 2024: D214I Revenue contribution due to drugs financed from National Fund Health Insurance and Health Ministry budget. (row 76); D214I Revenue contribution due to drugs financed from National Fund Health Insurance until September 30, 2011. (row 77); D214I Revenue from the contribution due for cost-volume / cost-volume-result contracts (row 78); D214I Other general taxes on turnover, sales and value added (row 74)",
+          "calculation": "3,392.8 − 37.1 + 1,783.3 + 0.3 = 5,139.3 (RON million)"
+        },
+        {
+          "nodeId": "ro-modernization-energy-funds",
+          "amount": 9792.9,
+          "locator": "NTL 2026, sheet RO, 2024: D29F Modernization Fund (row 109); D29H Income from the contribution to the Energy Transition Fund (row 120); D29F Environmental fees (row 107)",
+          "calculation": "5,291.1 + 4,476.2 + 25.6 = 9,792.9 (RON million)"
+        },
+        {
+          "nodeId": "ro-other-fees-state",
+          "amount": 1199.1,
+          "locator": "NTL 2026, sheet RO, D214L C01 and C02 (other taxes and fees; special fees), 2024, less the local part from Eurostat gov_10a_taxag (S.1313, D214L)",
+          "calculation": "2,737.5 − 1,538.4 = 1,199.1 (RON million)"
+        },
+        {
+          "nodeId": "ro-transfer-tax-state",
+          "amount": 741.3,
+          "locator": "NTL 2026, sheet RO, D214C C01 (tax on revenues from the transfer of real estate property), 2024, less the local part from Eurostat gov_10a_taxag (S.1313, D214C)",
+          "calculation": "1,227.8 − 486.5 = 741.3 (RON million)"
+        },
+        {
+          "nodeId": "ro-licence-fees-state",
+          "amount": 483.7,
+          "locator": "NTL 2026, sheet RO, D29E C01 (taxes and tariffs for issuing licenses and operating permits), 2024, less the local part from Eurostat gov_10a_taxag (S.1313, D29E)",
+          "calculation": "846.3 − 362.6 = 483.7 (RON million)"
+        },
+        {
+          "nodeId": "ro-small-state-taxes",
+          "amount": 400,
+          "locator": "NTL 2026, sheet RO, 2024: 9 lines of the list: D29H:C01, D29H:C05, D29H:C06, D29H:C08, D214J:C01, D214D:C01, D29A:C05, D51E:C01, D214H:C06",
+          "calculation": "Sum of 9 lines of the list, named in the locator (RON million)"
+        }
+      ]
+    },
+    {
+      "title": "Employers’ social contributions 2024 – National Tax List (RON million)",
+      "defaults": {
+        "denominatorId": "statul-social-employers-2024",
+        "scale": "million",
+        "currency": "RON",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Actual contributions",
+        "sourceId": "ntl-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        {
+          "nodeId": "ro-social-employers",
+          "amount": 16309.3,
+          "locator": "NTL 2026, sheet RO, 2024: 12 lines of the list: D611:C01, D611:C02, D611:C03, D611:C04, D611:C05, D611:C06, D611:C07, D611:C09, D611:C10, D611:C11, D611:C12, D611:C13",
+          "calculation": "Sum of 12 lines of the list, named in the locator (RON million)"
+        }
+      ]
+    },
+    {
+      "title": "Insured persons’ social contributions 2024 – National Tax List (RON million)",
+      "defaults": {
+        "denominatorId": "statul-social-insured-2024",
+        "scale": "million",
+        "currency": "RON",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Actual contributions",
+        "sourceId": "ntl-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        {
+          "nodeId": "ro-social-insured",
+          "amount": 175246.6,
+          "locator": "NTL 2026, sheet RO, 2024: D613 Social security contributions due by the insured (row 288); D613 Unemployment insurance contributions payable by the insured (row 289); D613 Health insurance contributions paid by the insured (row 290); D613 Individual contribution to health insurance due by persons who obtain income from activities performed. (row 292)",
+          "calculation": "116,451.2 + 2.1 + 58,780.9 + 12.4 = 175,246.6 (RON million)"
+        }
+      ]
+    },
+    {
+      "title": "Building tax 2024 – National Tax List (RON million)",
+      "defaults": {
+        "denominatorId": "local-buildings-2024",
+        "scale": "million",
+        "currency": "RON",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "ESA tax revenue",
+        "sourceId": "ntl-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        {
+          "nodeId": "ro-building-tax",
+          "amount": 5715.8,
+          "locator": "NTL 2026, sheet RO, 2024: D29A Tax on buildings held by legal persons (row 90); D59A Tax on buildings of individuals (row 225); D29A Building tax (row 93)",
+          "calculation": "4,050.6 + 1,664 + 1.2 = 5,715.8 (RON million)"
+        }
+      ]
+    },
+    {
+      "title": "Land tax 2024 – National Tax List (RON million)",
+      "defaults": {
+        "denominatorId": "local-land-2024",
+        "scale": "million",
+        "currency": "RON",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "ESA tax revenue",
+        "sourceId": "ntl-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        {
+          "nodeId": "ro-land-tax",
+          "amount": 2011.8,
+          "locator": "NTL 2026, sheet RO, 2024: D29A Tax on land held by legal persons (row 91); D59A Tax on land out of town (row 224); D59A Tax on land held by individuals (row 226)",
+          "calculation": "509.9 + 735.6 + 766.3 = 2,011.8 (RON million)"
+        }
+      ]
+    },
+    {
+      "title": "Vehicle taxes 2024 – National Tax List (RON million)",
+      "defaults": {
+        "denominatorId": "local-vehicles-2024",
+        "scale": "million",
+        "currency": "RON",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "ESA tax revenue",
+        "sourceId": "ntl-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        {
+          "nodeId": "ro-local-vehicle-taxes",
+          "amount": 2579.3,
+          "locator": "NTL 2026, sheet RO, 2024: D59D Motor vehicle taxes owned by individuals (row 230); D29B Motor vehicle tax (legal persons) (row 96); D29B Other taxes related to use of goods, to authorisation of the use of goods or to developing activities (row 98)",
+          "calculation": "1,654.9 + 735.1 + 189.3 = 2,579.3 (RON million)"
+        }
+      ]
+    },
+    {
+      "title": "Other local taxes and fees 2024 – Eurostat (RON million)",
+      "defaults": {
+        "denominatorId": "local-other-fees-2024",
+        "scale": "million",
+        "currency": "RON",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "ESA taxes received by local government",
+        "sourceId": "eurostat-taxag",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        {
+          "nodeId": "ro-other-fees-local",
+          "amount": 1538.4,
+          "locator": "Eurostat gov_10a_taxag, 2024: S.1313 local government, D214L other taxes on products n.e.c., RON million",
+          "caveat": "Eurostat July 2026 vintage; the allocation to the two NTL lines is an inference from the amounts."
+        }
+      ]
+    },
+    {
+      "title": "Local transfer tax 2024 – Eurostat (RON million)",
+      "defaults": {
+        "denominatorId": "local-transfer-2024",
+        "scale": "million",
+        "currency": "RON",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "ESA taxes received by local government",
+        "sourceId": "eurostat-taxag",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        {
+          "nodeId": "ro-transfer-tax-local",
+          "amount": 486.5,
+          "locator": "Eurostat gov_10a_taxag, 2024: S.1313 local government, D214C taxes on financial and capital transactions, RON million",
+          "caveat": "Eurostat July 2026 vintage."
+        }
+      ]
+    },
+    {
+      "title": "Local licence fees 2024 – Eurostat (RON million)",
+      "defaults": {
+        "denominatorId": "local-licences-2024",
+        "scale": "million",
+        "currency": "RON",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "ESA taxes received by local government",
+        "sourceId": "eurostat-taxag",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        {
+          "nodeId": "ro-licence-fees-local",
+          "amount": 362.6,
+          "locator": "Eurostat gov_10a_taxag, 2024: S.1313 local government, D29E licences, RON million",
+          "caveat": "Eurostat July 2026 vintage."
+        }
+      ]
+    },
+    {
+      "title": "Small local taxes 2024 – National Tax List (RON million)",
+      "defaults": {
+        "denominatorId": "local-small-2024",
+        "scale": "million",
+        "currency": "RON",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "ESA tax revenue",
+        "sourceId": "ntl-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        {
+          "nodeId": "ro-local-small-taxes",
+          "amount": 646.7,
+          "locator": "NTL 2026, sheet RO, 2024: D214B Legal stamp tax, stamp tax of notary activities and other stamp tax (row 51); D214B Extra-judicial stamp tax (row 53); D214H Other taxes on specific services (row 68); D214H Taxes related to hotel activity (row 69); D214E Tax on entertainment (row 60); D59F Other taxes and fees on individuals (row 234)",
+          "calculation": "414.3 + 1.2 + 66.6 + 11 + 20 + 133.6 = 646.7 (RON million)"
+        }
+      ]
+    }
+  ],
+  "unavailable": []
+}

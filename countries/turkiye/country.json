@@ -1,0 +1,51 @@
+{
+  "id": "turkiye",
+  "iso3": "TUR",
+  "isoNumeric": "792",
+  "names": { "en": "Türkiye", "native": "Türkiye", "nativeLang": "tr" },
+  "currency": { "code": "TRY", "symbol": "₺", "name": "Turkish lira" },
+  "summary": "Türkiye is a unitary state. Parliament sets every tax and the Revenue Administration collects them for the central budget. Indirect taxes dominate: the VAT (domestic and on imports) and the special consumption tax on fuel, vehicles, tobacco and alcohol together bring in nearly half of the central budget’s tax revenue. A share of the central taxes is passed by law to local administrations and funds; the social security premiums go to the Social Security Institution.",
+  "structureNote": "This folio is partial. It draws the tax revenue of the central government budget in 2025 as the Ministry of Treasury and Finance reports it, in nine lines; the last, \"other taxes\", is one line in the monthly report and is not itemised. The premiums of the Social Security Institution and the municipalities’ own taxes are not drawn, because no 2025 source for them was reached; the OECD layer (calendar 2023, in the Trees table and the charts) covers the central government, the municipalities and the social security institution. The national total of the sizing is therefore the central budget’s taxes only. A high inflation rate makes the Turkish lira figures of different years incomparable.",
+  "theme": {
+    "accent": "#e30a17",
+    "accent2": "#ffffff",
+    "motif": "topo",
+    "motifNote": "Topographic contour lines over the outline of Türkiye (the generic motif; no bespoke art yet).",
+    "mapLabel": { "lon": 35, "lat": 39.2 }
+  },
+  "levels": [
+    {
+      "id": "devlet",
+      "branch": "national",
+      "names": { "official": "The State (central government)", "native": "Devlet (merkezi yönetim)", "common": "Central government" },
+      "description": "The Grand National Assembly legislates the taxes; the Revenue Administration (GİB) collects most of them; a share of the central taxes is passed to local administrations and funds by law.",
+      "fiscalPower": "Taxes are created and set by law; municipalities may levy only the taxes and fees that the law lists.",
+      "legalRefs": [{ "sourceId": "mtf-budget-2025-12" }],
+      "checkedOn": "2026-10-12"
+    }
+  ],
+  "supportingSourceIds": [],
+  "denominators": [
+    {
+      "id": "merkezi-vergi-2025",
+      "label": "Tax revenue of the central government budget, 2025",
+      "definition": "The tax revenues of the central government budget: income tax, corporate tax, domestic and import VAT, the special consumption tax, the banking and insurance transactions tax, stamp duty, fees and other taxes. A share of them is passed to local administrations and funds by law; the amounts are drawn gross, as the report gives them.",
+      "levelIds": ["devlet"],
+      "amount": 11049468,
+      "scale": "million",
+      "currency": "TRY",
+      "period": { "label": "2025", "kind": "calendar-year", "start": "2025-01-01", "end": "2025-12-31" },
+      "sourceId": "mtf-budget-2025-12",
+      "locator": "Report table \"Vergi Gelirleri\" (tax revenues), cumulative January–December 2025: total TRY 11,049,467 million",
+      "calculation": "Sum of the nine lines below = 11,049,468 (TRY million)",
+      "caveat": "Cash basis, provisional (the report of 14 January 2026). The report’s total of TRY 11,049,467 million equals the sum of its nine lines. The Social Security Institution’s premiums and the municipalities’ own taxes are not part of it.",
+      "accessed": "2026-10-12"
+    }
+  ],
+  "sizing": {
+    "label": "Tax revenue of the central government budget",
+    "definition": "The nine tax lines of the central government budget, calendar 2025, before the shares passed to local administrations and funds. Excludes the social security premiums and municipal own taxes.",
+    "componentIds": ["merkezi-vergi-2025"]
+  },
+  "researchStatus": "partial"
+}

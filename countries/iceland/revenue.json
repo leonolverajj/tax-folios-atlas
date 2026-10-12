@@ -1,0 +1,195 @@
+{
+  "groups": [
+    {
+      "title": "State taxes 2024 – National Tax List (ISK million)",
+      "defaults": {
+        "denominatorId": "rikid-taxes-2024",
+        "scale": "million",
+        "currency": "ISK",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "ESA tax revenue, general government",
+        "sourceId": "ntl-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        {
+          "nodeId": "is-income-tax-state",
+          "amount": 250935.16,
+          "locator": "NTL 2026, sheet IS, D51A Income taxes on individuals, 2024, less the municipal part from Eurostat gov_10a_taxag (S.1313, D51A)",
+          "calculation": "626,380.16 − 375,445 = 250,935.16 (ISK million)",
+          "caveat": "Different vintages of the two sources (NTL cut-off October 2025, Eurostat July 2026); Eurostat’s own State figure is ISK 250,935 million."
+        },
+        {
+          "nodeId": "is-capital-income-tax",
+          "amount": 73673.52,
+          "locator": "NTL 2026, sheet IS, row 120: D51C1 Taxes on capital gain, individuals, 2024"
+        },
+        {
+          "nodeId": "is-corporate-income-tax",
+          "amount": 142500.1,
+          "locator": "NTL 2026, sheet IS, 2024: D51B Income taxes on corporations (row 128); D51C2 Taxes on capital gain incomes, corporations (row 132)",
+          "calculation": "138,489.53 + 4,010.57 = 142,500.1 (ISK million)"
+        },
+        {
+          "nodeId": "is-financial-income-tax",
+          "amount": 7037.92,
+          "locator": "NTL 2026, sheet IS, row 129: D51B Special income tax on financial institutions, 2024"
+        },
+        {
+          "nodeId": "is-payroll-taxes",
+          "amount": 11883.19,
+          "locator": "NTL 2026, sheet IS, 2024: D29C Taxes on wage bill and payroll, to finance specific adm. (row 82); D29C Taxes on wage bill and payroll, to finance specific adm. (row 86); D29C Taxes on payroll in financial institutions (row 87)",
+          "calculation": "1,176.02 + 6,895.59 + 3,811.58 = 11,883.19 (ISK million)"
+        },
+        { "nodeId": "is-vat", "amount": 423595.18, "locator": "NTL 2026, sheet IS, row 12: D211 Value added tax, 2024" },
+        { "nodeId": "is-customs", "amount": 6655.75, "locator": "NTL 2026, sheet IS, row 15: D2121 Import duties - general, 2024" },
+        {
+          "nodeId": "is-fuel-energy-excise",
+          "amount": 33752.54,
+          "locator": "NTL 2026, sheet IS, 2024: D214A Excise duties, petrol and oil (row 28); D214A Specific excise on petrol (row 29); D214A Specific excise on oil (row 30); D214A Transport equalizing duties (row 32); D214A Excise duties, electricity (row 35); D214A Carbon-tax (row 36)",
+          "calculation": "4,585.45 + 7,175.22 + 12,521.84 + 1,411.38 + 587.28 + 7,471.37 = 33,752.54 (ISK million)"
+        },
+        { "nodeId": "is-excise-alcohol", "amount": 24458.28, "locator": "NTL 2026, sheet IS, row 38: D214B Excise on alcohol, 2024" },
+        { "nodeId": "is-excise-tobacco", "amount": 4767.74, "locator": "NTL 2026, sheet IS, row 39: D214B Excise on tobacco, 2024" },
+        {
+          "nodeId": "is-vehicle-taxes",
+          "amount": 28453.43,
+          "locator": "NTL 2026, sheet IS, 2024: D214A Excise duties, automobiles (row 27); D59D Taxes on cars (row 151); D29B Taxes on cars, kilometre (row 78); D59D Taxes on electric cars - kilometre fee (row 153); D29B Taxes on ships, (row 79)",
+          "calculation": "10,276.25 + 12,961.88 + 1,881.22 + 2,559.22 + 774.87 = 28,453.43 (ISK million)"
+        },
+        {
+          "nodeId": "is-other-excises",
+          "amount": 9327.24,
+          "locator": "NTL 2026, sheet IS, 2024: D214A Excise, environmental duties (row 31); D214A Excise duties, general (row 26); D214A Excise on agricultural products (row 33); D214A Other excise duties (row 34)",
+          "calculation": "9,329.76 − 5.29 − 0.65 + 3.43 = 9,327.24 (ISK million)"
+        },
+        {
+          "nodeId": "is-financial-transactions",
+          "amount": 11709.27,
+          "locator": "NTL 2026, sheet IS, 2024: D214C Tax on financial and capital transactions (row 41); D214C Other tax on financial transactions (row 42)",
+          "calculation": "8,477.08 + 3,232.19 = 11,709.27 (ISK million)"
+        },
+        {
+          "nodeId": "is-poll-taxes",
+          "amount": 9059.04,
+          "locator": "NTL 2026, sheet IS, 2024: D59B Poll tax, Construction Fund for elderly (row 147); D59B Poll tax, Radio (row 148)",
+          "calculation": "3,214 + 5,845.04 = 9,059.04 (ISK million)"
+        },
+        {
+          "nodeId": "is-bank-levies",
+          "amount": 6495.55,
+          "locator": "NTL 2026, sheet IS, 2024: D29H Bank taxes (row 106); D29H Specific additional taxes on financial institutions (row 107)",
+          "calculation": "6,194.16 + 301.39 = 6,495.55 (ISK million)"
+        },
+        {
+          "nodeId": "is-accommodation-airport",
+          "amount": 4166.23,
+          "locator": "NTL 2026, sheet IS, 2024: D214L Hotel accommodation tax (row 59); D214H Specific tax on airport services (row 52)",
+          "calculation": "2,859.86 + 1,306.36 = 4,166.23 (ISK million)"
+        },
+        { "nodeId": "is-inheritance-tax", "amount": 13523.18, "locator": "NTL 2026, sheet IS, row 160: D91A Inheritance tax, 2024" },
+        {
+          "nodeId": "is-building-fees",
+          "amount": 8883.86,
+          "locator": "NTL 2026, sheet IS, 2024: D29A Taxes on buildings and structures, value measuring (row 65); D29A Taxes on buildings, catastrophe (row 66); D29A Taxes on buildings and structures, fire protection (row 67); D29A Planning fee (row 71); D29A Taxes on buildings and structures, fire protection (row 73)",
+          "calculation": "188.14 + 5,952.28 + 878.58 + 1,462.03 + 402.83 = 8,883.86 (ISK million)"
+        },
+        {
+          "nodeId": "is-licences-small",
+          "amount": 3158.95,
+          "locator": "NTL 2026, sheet IS, 2024: D29E Registration taxes (row 91); D29E Taxes on permission to perform industrial activity, businesses (row 92); D29E Taxes on professional certification (row 93); D29E Other business and professional licences (row 94); D29H Taxes due to monitoring (row 99); D29H Other taxes on use of goods etc. (row 100); D29H Taxes to mail and communication, operating (row 104); D29H Taxes on aquaculture license holder (row 108); D59D Fees for permission to keep pets (row 152); D59A Current tax on capital, corporations (row 141); D59A Net wealth tax (row 144)",
+          "calculation": "794.56 + 188.26 + 30.1 + 326.08 + 766.26 + 371.09 + 238.94 + 352.61 + 72.75 + 18.21 + 0.09 = 3,158.95 (ISK million)"
+        }
+      ]
+    },
+    {
+      "title": "Social contributions 2024 – National Tax List (ISK million)",
+      "defaults": {
+        "denominatorId": "rikid-social-2024",
+        "scale": "million",
+        "currency": "ISK",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Actual compulsory contributions",
+        "sourceId": "ntl-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        {
+          "nodeId": "is-social-insurance-levy",
+          "amount": 100551.32,
+          "locator": "NTL 2026, sheet IS, row 168: D611 Social contributions, general, 2024"
+        },
+        {
+          "nodeId": "is-unemployment-levy",
+          "amount": 30922.33,
+          "locator": "NTL 2026, sheet IS, row 169: D611 Social contributions, unemployment, 2024"
+        },
+        {
+          "nodeId": "is-social-other",
+          "amount": 4264.1,
+          "locator": "NTL 2026, sheet IS, 2024: D611 Social contributions, wages in bankruptcy (row 170); D611 Social contributions, sailors (row 171); D613CS Compulsory actual social contributions by the self-employed (1) (row 190)",
+          "calculation": "1,175.93 + 260.26 + 2,827.91 = 4,264.1 (ISK million)"
+        }
+      ]
+    },
+    {
+      "title": "Municipal income tax 2024 – Eurostat (ISK million)",
+      "defaults": {
+        "denominatorId": "sveitarfelog-income-tax-2024",
+        "scale": "million",
+        "currency": "ISK",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "ESA taxes received by local government",
+        "sourceId": "eurostat-taxag",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        {
+          "nodeId": "is-income-tax-municipal",
+          "amount": 375445,
+          "locator": "Eurostat gov_10a_taxag, 2024: S.1313 local government, D51A taxes on individual or household income, ISK million",
+          "caveat": "Eurostat July 2026 vintage; the State’s part in the same source is ISK 250,935 million."
+        }
+      ]
+    },
+    {
+      "title": "Municipal taxes and fees 2024 – National Tax List (ISK million)",
+      "defaults": {
+        "denominatorId": "sveitarfelog-taxes-2024",
+        "scale": "million",
+        "currency": "ISK",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "ESA tax revenue",
+        "sourceId": "ntl-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        {
+          "nodeId": "is-property-tax",
+          "amount": 72028,
+          "locator": "NTL 2026, sheet IS, row 68: D29A Recurrent taxes on immovable property, buildings, 2024"
+        },
+        {
+          "nodeId": "is-municipal-fees",
+          "amount": 19175.38,
+          "locator": "NTL 2026, sheet IS, 2024: D29A Sanitation tax (row 70); D29A Tax for construction of buildings (row 72)",
+          "calculation": "8,436.83 + 10,738.55 = 19,175.38 (ISK million)"
+        },
+        {
+          "nodeId": "is-road-construction-fee",
+          "amount": 12786.37,
+          "locator": "NTL 2026, sheet IS, row 163: D91B Tax on land and building to finance the road system, 2024"
+        }
+      ]
+    }
+  ],
+  "unavailable": []
+}

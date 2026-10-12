@@ -1,0 +1,118 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "sweden": {
+      "x": 800,
+      "y": 500
+    },
+    "staten": {
+      "x": 509,
+      "y": 432
+    },
+    "se-income-tax-state": {
+      "x": 851,
+      "y": 796
+    },
+    "se-employers-earmarked-fees": {
+      "x": 463,
+      "y": 748
+    },
+    "se-occupational-pension-premiums": {
+      "x": 289,
+      "y": 517
+    },
+    "se-energy-tax-fuels": {
+      "x": 422,
+      "y": 278
+    },
+    "se-stamp-duty": {
+      "x": 795,
+      "y": 170
+    },
+    "se-property-tax": {
+      "x": 1158,
+      "y": 264
+    },
+    "se-pension-yield-taxes": {
+      "x": 586,
+      "y": 926
+    },
+    "se-pension-fee-to-state-budget": {
+      "x": 175,
+      "y": 722
+    },
+    "se-self-employed-pension": {
+      "x": 154,
+      "y": 336
+    },
+    "se-electricity-tax": {
+      "x": 522,
+      "y": 89
+    },
+    "se-gambling-monopolies": {
+      "x": 1071,
+      "y": 123
+    },
+    "se-public-service-fee": {
+      "x": 1373,
+      "y": 341
+    },
+    "se-corporate-income-tax": {
+      "x": 882,
+      "y": 910
+    },
+    "se-special-payroll-tax": {
+      "x": 203,
+      "y": 926
+    },
+    "se-vat": {
+      "x": 75,
+      "y": 483
+    },
+    "se-alcohol-tobacco-taxes": {
+      "x": 150,
+      "y": 124
+    },
+    "se-traffic-insurance-flight": {
+      "x": 788,
+      "y": 32
+    },
+    "se-financial-sector-fees": {
+      "x": 1422,
+      "y": 101
+    },
+    "se-general-payroll-tax": {
+      "x": 384,
+      "y": 907
+    },
+    "se-compulsory-pension-fees": {
+      "x": 119,
+      "y": 620
+    },
+    "se-customs": {
+      "x": 129,
+      "y": 32
+    },
+    "se-environmental-product-taxes": {
+      "x": 1113,
+      "y": 32
+    },
+    "se-vehicle-taxes": {
+      "x": 1523,
+      "y": 327
+    },
+    "kommuner": {
+      "x": 1091,
+      "y": 568
+    },
+    "se-income-tax-municipal": {
+      "x": 1302,
+      "y": 608
+    }
+  },
+  "radii": {}
+}

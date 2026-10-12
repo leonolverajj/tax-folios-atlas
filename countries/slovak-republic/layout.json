@@ -1,0 +1,114 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "slovak-republic": {
+      "x": 800,
+      "y": 500
+    },
+    "stat": {
+      "x": 509,
+      "y": 432
+    },
+    "sk-pit-employment": {
+      "x": 852,
+      "y": 779
+    },
+    "sk-withholding-tax": {
+      "x": 464,
+      "y": 749
+    },
+    "sk-vat": {
+      "x": 289,
+      "y": 509
+    },
+    "sk-excise-alcohol": {
+      "x": 423,
+      "y": 277
+    },
+    "sk-insurance-taxes": {
+      "x": 799,
+      "y": 170
+    },
+    "sk-other-state": {
+      "x": 1159,
+      "y": 265
+    },
+    "sk-pit-business": {
+      "x": 521,
+      "y": 907
+    },
+    "sk-social-employers": {
+      "x": 111,
+      "y": 505
+    },
+    "sk-customs": {
+      "x": 360,
+      "y": 154
+    },
+    "sk-energy-taxes": {
+      "x": 1005,
+      "y": 73
+    },
+    "sk-vehicle-taxes": {
+      "x": 1469,
+      "y": 393
+    },
+    "sk-corporate-income-tax": {
+      "x": 877,
+      "y": 907
+    },
+    "sk-social-employees": {
+      "x": 105,
+      "y": 845
+    },
+    "sk-excise-mineral-oils": {
+      "x": 68,
+      "y": 312
+    },
+    "sk-green-energy": {
+      "x": 617,
+      "y": 32
+    },
+    "sk-environmental-charges": {
+      "x": 1417,
+      "y": 98
+    },
+    "sk-special-levies": {
+      "x": 357,
+      "y": 926
+    },
+    "sk-social-others": {
+      "x": 127,
+      "y": 653
+    },
+    "sk-excise-tobacco": {
+      "x": 116,
+      "y": 32
+    },
+    "sk-lottery-tax": {
+      "x": 1123,
+      "y": 32
+    },
+    "sk-administrative-fees": {
+      "x": 1498,
+      "y": 302
+    },
+    "obce": {
+      "x": 1091,
+      "y": 568
+    },
+    "sk-property-tax": {
+      "x": 1263,
+      "y": 501
+    },
+    "sk-local-taxes": {
+      "x": 1213,
+      "y": 710
+    }
+  },
+  "radii": {}
+}

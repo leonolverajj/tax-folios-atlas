@@ -6,12 +6,15 @@ import type { Structure } from '../src/data/schema';
 
 const folioIds = listCountryIds();
 const profileIds = listProfileIds();
+/** Folios of countries that are not OECD members: no OECD level layer, by design (the Trees table shows n/a). */
+const NON_OECD = ['bulgaria', 'croatia', 'malta', 'romania'];
+const withStructure = [...folioIds.filter((id) => !NON_OECD.includes(id)), ...profileIds];
 const sum = (xs: number[]) => xs.reduce((a, b) => a + b, 0);
 
 /** The harmonised layer of any country, whether it has a folio or only a profile. */
 const structureOf = (id: string): Structure => (folioIds.includes(id) ? loadBundle(id).structure! : loadProfileFile(id).structure);
 
-describe.each([...folioIds, ...profileIds])('%s harmonised layer', (id) => {
+describe.each(withStructure)('%s harmonised layer', (id) => {
   const st = structureOf(id);
 
   it('has a tax mix and a level split that each add up to 100 %', () => {
@@ -26,8 +29,12 @@ describe.each([...folioIds, ...profileIds])('%s harmonised layer', (id) => {
 });
 
 describe('the harmonised layer as a set', () => {
+  it('is missing only for the four folios of countries outside the OECD', () => {
+    expect(folioIds.filter((id) => !loadBundle(id).structure).sort()).toEqual([...NON_OECD].sort());
+  });
+
   it('uses the same reference year for every country', () => {
-    const years = new Set([...folioIds, ...profileIds].map((id) => structureOf(id).referenceYear));
+    const years = new Set(withStructure.map((id) => structureOf(id).referenceYear));
     expect([...years]).toEqual([2023]);
   });
 

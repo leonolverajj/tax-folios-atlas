@@ -1,0 +1,117 @@
+{
+  "id": "ireland",
+  "iso3": "IRL",
+  "isoNumeric": "372",
+  "names": { "en": "Ireland", "native": "Éire", "nativeLang": "ga" },
+  "currency": { "code": "EUR", "symbol": "€", "name": "Euro" },
+  "summary": "Ireland is a unitary state with 31 local authorities. Almost every tax is national and collected by one agency, the Revenue Commissioners. Two taxes dominate: income tax (with the Universal Social Charge) and corporation tax, whose receipts are unusually concentrated in a few multinational groups; VAT is third. Compulsory social insurance (PRSI) is collected through the same payroll system. Councils levy only commercial rates on business premises and share the local property tax, whose rate they may vary by 15%.",
+  "structureNote": "There is no regional level. The OECD and the national accounts record the local property tax under central government because Revenue collects it; the folio draws it under local authorities, which receive it and may vary its rate. Motor tax is a national tax whose proceeds go to the Local Government Fund, so it is drawn under the State. The commercial rates figure is for 2024 because it is not published by tax for 2025. Not drawn: VAT collected under the EU one-stop-shop schemes for other member states (EUR 13.4 billion), risk equalisation levies, the insurance compensation fund levy, other property-related taxes (EUR 51 million), the plastic bag levy and fees.",
+  "theme": {
+    "accent": "#34d399",
+    "accent2": "#ff9f43",
+    "motif": "topo",
+    "motifNote": "Topographic contour lines over the outline of Ireland (the generic motif; no bespoke art yet).",
+    "mapLabel": { "lon": -8, "lat": 53.2 }
+  },
+  "levels": [
+    {
+      "id": "state",
+      "branch": "national",
+      "names": { "official": "The State (central government)", "native": "An Stát", "common": "Central government" },
+      "description": "The Oireachtas legislates every national tax and the Revenue Commissioners collect them, together with customs, excise, the Pay Related Social Insurance contributions (for the Department of Social Protection) and the local property tax.",
+      "fiscalPower": "The Constitution gives the Oireachtas the exclusive power to make laws, including tax laws; money bills originate in the Dáil (Art. 22). Each tax has its own Act, consolidated in the Taxes Consolidation Act 1997, the Value-Added Tax Consolidation Act 2010, the Stamp Duties Consolidation Act 1999 and the Capital Acquisitions Tax Consolidation Act 2003.",
+      "legalRefs": [{ "sourceId": "tca-1997" }, { "sourceId": "vatca-2010" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "councils",
+      "branch": "local",
+      "names": { "official": "Local authorities (city and county councils)", "native": "Údaráis áitiúla", "common": "Local government" },
+      "description": "31 city and county councils. They set the annual rate on valuation for commercial rates, which is their main tax, and receive the local property tax (their own tax in effect, with the right to vary the rate by 15%) and a share of motor tax through the Local Government Fund.",
+      "fiscalPower": "Councils have no constitutional taxing power: commercial rates rest on the Valuation Act 2001 and the Local Government Act 2001, and the local property tax on the Finance (Local Property Tax) Act 2012, which lets each council vary the basic rate by up to 15%.",
+      "legalRefs": [{ "sourceId": "lpt-act-2012" }, { "sourceId": "lga-2001" }],
+      "checkedOn": "2026-10-11"
+    }
+  ],
+  "supportingSourceIds": ["revenue-headline-2025"],
+  "denominators": [
+    {
+      "id": "revenue-taxes-2025",
+      "label": "Taxes collected by Revenue (income, USC, corporation, VAT, stamp, capital, customs), 2025",
+      "definition": "Net receipts of the Revenue Commissioners by tax head: income tax (PAYE and self-assessed, with the withholding taxes on professional services, dividends and non-resident landlords), the Universal Social Charge, deposit interest retention tax, the life assurance exit tax, corporation tax, VAT (internal and on imports), stamp duty, capital gains tax, capital acquisitions tax and customs duty.",
+      "levelIds": ["state"],
+      "amount": 99999,
+      "scale": "million",
+      "currency": "EUR",
+      "period": { "label": "2025", "kind": "calendar-year", "start": "2025-01-01", "end": "2025-12-31" },
+      "sourceId": "revenue-taxhead-2025",
+      "locator": "Net receipts by taxhead 2025 (net-receipts.csv): all lines except Excise, Local Property Tax, Other Property Related Tax and the plastic bag levy",
+      "calculation": "Income tax 25,795 + 2,504 + 1,209 + 749 + 55 + 126 = 30,438; USC 4,925 + 712 = 5,637; DIRT 278; exit tax 203; corporation tax 34,667; VAT 1,285 + 21,722 = 23,007; stamp duty 540 + 821 + 536 = 1,897; CGT 2,136; CAT 1,120; customs 616; total 99,999 (EUR million)",
+      "caveat": "Net of refunds, cash receipts of the Exchequer. Corporation tax includes about EUR 1.8 billion of one-off receipts after the EU court ruling on Apple; Revenue gives underlying receipts of EUR 32.9 billion. The Excise line is replaced by the commodity table below.",
+      "accessed": "2026-10-11"
+    },
+    {
+      "id": "excise-vehicle-2025",
+      "label": "Excise duties, vehicle registration tax and motor tax, 2025",
+      "definition": "The 2025 yield of each excise and vehicle tax as reported by the Department of Finance from Revenue and Department of Transport data: mineral oil tax on petrol, diesel and LPG, carbon tax, vehicle registration tax, motor tax, alcohol products tax, tobacco products tax, and the small betting duty, sugar-sweetened drinks tax, e-liquid tax and electricity tax together.",
+      "levelIds": ["state"],
+      "amount": 7527.3,
+      "scale": "million",
+      "currency": "EUR",
+      "period": { "label": "2025", "kind": "calendar-year", "start": "2025-01-01", "end": "2025-12-31" },
+      "sourceId": "dof-tsg-26-08",
+      "locator": "TSG 26-08 Table 1 (general excise) + TSG 26-09 Tables 1 and 2 (energy, vehicle taxes)",
+      "calculation": "Mineral oil 613.4 + 1,475.8 + 0.1 = 2,089.3; carbon tax 1,176; VRT 938; motor tax 924; alcohol 1,236; tobacco 1,009; other 113.7 + 30.5 + 5.6 + 5.2 = 155.0; total 7,527.3 (EUR million)",
+      "caveat": "The commodity yields add up to EUR 6,603.3 million without motor tax, against EUR 6,454 million for Revenue’s Excise tax head: the difference of about EUR 149 million (2.3%) is not explained in the sources and is left as it is. Motor tax is a Department of Transport figure.",
+      "accessed": "2026-10-11"
+    },
+    {
+      "id": "prsi-2025",
+      "label": "Pay Related Social Insurance (PRSI), 2025",
+      "definition": "Social insurance contributions of employees, employers and the self-employed, collected by Revenue on behalf of the Department of Social Protection.",
+      "levelIds": ["state"],
+      "amount": 19458,
+      "scale": "million",
+      "currency": "EUR",
+      "period": { "label": "2025", "kind": "calendar-year", "start": "2025-01-01", "end": "2025-12-31" },
+      "sourceId": "revenue-headline-2025",
+      "locator": "Headline Results 2025: receipts collected on behalf of other Departments or Agencies: PRSI",
+      "caveat": "The Social Insurance Fund also receives State contributions and investment income, which are not counted.",
+      "accessed": "2026-10-11"
+    },
+    {
+      "id": "lpt-2025",
+      "label": "Local property tax, 2025",
+      "definition": "The local property tax collected by Revenue and paid into the Local Government Fund for the councils.",
+      "levelIds": ["councils"],
+      "amount": 670,
+      "scale": "million",
+      "currency": "EUR",
+      "period": { "label": "2025", "kind": "calendar-year", "start": "2025-01-01", "end": "2025-12-31" },
+      "sourceId": "revenue-taxhead-2025",
+      "locator": "Net receipts by taxhead 2025: Local Property Tax – collected on behalf of the Local Government Fund",
+      "caveat": "Revenue’s headline results give EUR 671 million for the same line. Equalisation support from the Exchequer (EUR 144 million in 2025) is a transfer and is not counted.",
+      "accessed": "2026-10-11"
+    },
+    {
+      "id": "rates-2024",
+      "label": "Commercial rates, 2024",
+      "definition": "Taxes on production of local government in the national accounts: the commercial rates that councils levy on business premises.",
+      "levelIds": ["councils"],
+      "amount": 1751.6,
+      "scale": "million",
+      "currency": "EUR",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "eurostat-taxag",
+      "locator": "gov_10a_taxag, Ireland, S1313 local government, D2 taxes on production and imports, 2024",
+      "caveat": "The latest year published. The national accounts do not split the line; official statements put commercial rates income at about EUR 1.7 billion in 2022, so the line is taken to be commercial rates (an inference from the match in size).",
+      "accessed": "2026-10-11"
+    }
+  ],
+  "sizing": {
+    "label": "Taxes and compulsory social contributions of all levels of government",
+    "definition": "Revenue tax heads (2025) + excise, vehicle and motor taxes (2025) + PRSI (2025) + the local property tax (2025) + commercial rates (2024). Excludes VAT collected for other EU states, risk equalisation and compensation fund levies, other property-related taxes, fees and transfers between governments.",
+    "componentIds": ["revenue-taxes-2025", "excise-vehicle-2025", "prsi-2025", "lpt-2025", "rates-2024"]
+  },
+  "researchStatus": "researched"
+}

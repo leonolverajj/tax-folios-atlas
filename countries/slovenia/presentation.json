@@ -1,0 +1,32 @@
+{
+  "nodes": {
+    "slovenia": { "label": "Slovenia", "sublabel": "Slovenija · Fiscal folio", "glyph": "globe" },
+    "drzava": { "label": "State", "sublabel": "Država", "glyph": "landmark" },
+    "obcine": { "label": "Municipalities", "sublabel": "Občine", "glyph": "town" },
+    "si-personal-income-tax": { "label": "Personal income tax", "sublabel": "16–50%", "glyph": "person" },
+    "si-corporate-income-tax": { "label": "Corporate income tax", "sublabel": "22%", "glyph": "factory" },
+    "si-other-income-taxes": { "label": "Other income taxes", "sublabel": "Winnings · royalties", "glyph": "coin" },
+    "si-contract-work-tax": { "label": "Tax on contract work", "sublabel": "Payroll", "glyph": "scroll" },
+    "si-social-employers": { "label": "Social: employers", "sublabel": "16.1%", "glyph": "heart" },
+    "si-social-employees": { "label": "Social: employees", "sublabel": "22.1%", "glyph": "heart" },
+    "si-social-self-employed": { "label": "Social: self-employed", "sublabel": "Contributions", "glyph": "heart" },
+    "si-vat": { "label": "VAT", "sublabel": "22%", "glyph": "cart" },
+    "si-customs": { "label": "Customs duties", "sublabel": "EU tariff", "glyph": "ship" },
+    "si-excise-fuel": { "label": "Fuel excises", "sublabel": "Mineral oil · gas", "glyph": "flame" },
+    "si-excise-tobacco": { "label": "Tobacco excise", "sublabel": "Cigarettes", "glyph": "smoke" },
+    "si-excise-alcohol": { "label": "Alcohol excise", "sublabel": "Spirits · wine · beer", "glyph": "wine" },
+    "si-gambling": { "label": "Gambling", "sublabel": "Casinos · lotteries", "glyph": "dice" },
+    "si-insurance-tax": { "label": "Insurance tax", "sublabel": "Premiums", "glyph": "shield" },
+    "si-financial-sector-taxes": { "label": "Financial-sector taxes", "sublabel": "Banks", "glyph": "bank" },
+    "si-property-transfer-tax": { "label": "Property transfer tax", "sublabel": "Sales", "glyph": "stamp" },
+    "si-vehicle-taxes": { "label": "Vehicle taxes", "sublabel": "Registration", "glyph": "car" },
+    "si-environmental-charges": { "label": "Environmental taxes", "sublabel": "Air · water", "glyph": "leaf" },
+    "si-energy-contributions": { "label": "Electricity contributions", "sublabel": "Renewables", "glyph": "bolt" },
+    "si-concessions": { "label": "Concessions", "sublabel": "Fees", "glyph": "key" },
+    "si-rtv-fee": { "label": "RTV licence fee", "sublabel": "Broadcaster", "glyph": "scroll" },
+    "si-property-and-estate": { "label": "Inheritance and property", "sublabel": "Small taxes", "glyph": "gem" },
+    "si-other-state": { "label": "Other State taxes", "sublabel": "Tolls · port · fire", "glyph": "stamp" },
+    "si-building-land-compensation": { "label": "Building land compensation", "sublabel": "Municipal", "glyph": "house" },
+    "si-tourist-tax": { "label": "Tourist tax", "sublabel": "Per night", "glyph": "bed" }
+  }
+}

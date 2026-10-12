@@ -1,0 +1,196 @@
+{
+  "groups": [
+    {
+      "title": "State taxes 2024 – National Tax List (EUR million)",
+      "defaults": {
+        "denominatorId": "drzava-taxes-2024",
+        "scale": "million",
+        "currency": "EUR",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "ESA tax revenue, general government and EU institutions",
+        "sourceId": "ntl-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        {
+          "nodeId": "si-personal-income-tax",
+          "amount": 3569.8,
+          "locator": "NTL 2026, sheet SI, 2024: D51A Personal income tax - wages and salaries (row 123); D51A Personal income tax - pensions (row 124); D51A Personal income tax - contractual work (row 125); D51A Personal income tax - state and other awards (row 126); D51A Personal income tax - entrepreneurial activities and others (row 127); D51A Personal income tax - source assigned for local government (row 128); D51A Annual final assessment (row 129); D51A Additional tax on income of the management and supervisory bodies in times of financial and economic crisis (row 130); D51A Withholding tax on income from dematerialized financial instruments (row 131); D51A Personal income tax resource - Capital city (row 132)",
+          "calculation": "3,150.43 + 62.37 + 67.96 + 19.12 + 649.92 + 0 − 383.08 + 0 + 3.07 + 0 = 3,569.8 (EUR million)"
+        },
+        {
+          "nodeId": "si-corporate-income-tax",
+          "amount": 1796.75,
+          "locator": "NTL 2026, sheet SI, 2024: D51B Taxes on the income or profits of corporations excluding holding gains (row 139); D51B Tax on income of financial instruments, received by intermediary for the beneficial holder of financial instruments (row 140)",
+          "calculation": "1,769.17 + 27.58 = 1,796.75 (EUR million)"
+        },
+        {
+          "nodeId": "si-other-income-taxes",
+          "amount": 17.35,
+          "locator": "NTL 2026, sheet SI, 2024: D51D Taxes on winnings from lottery or gambling (row 147); D51E Tax on income - copy rights, patents and trademarks (row 150); D51E Tax on profits due to changes in land use (row 152)",
+          "calculation": "14.11 + 3.24 + 0 = 17.35 (EUR million)"
+        },
+        { "nodeId": "si-contract-work-tax", "amount": 32, "locator": "NTL 2026, sheet SI, row 97: D29C Tax on work - contracts, 2024" },
+        {
+          "nodeId": "si-vat",
+          "amount": 5350.3,
+          "locator": "NTL 2026, sheet SI, 2024: D211 VAT time adjusted (row 17); D211 (less) Negative compensation of farmers in VAT flat rate system (-) (row 16)",
+          "calculation": "5,357.55 − 7.25 = 5,350.3 (EUR million)"
+        },
+        { "nodeId": "si-customs", "amount": 92.12, "locator": "NTL 2026, sheet SI, row 20: D2121 Customs duties revenue, 2024" },
+        {
+          "nodeId": "si-excise-fuel",
+          "amount": 1122.54,
+          "locator": "NTL 2026, sheet SI, 2024: D214A Mineral oil and gas (row 40); D214A Electric power and coal (row 44); D2122C Excise duties on imports (row 29); D214A (less) Excises from imports (-) (row 46)",
+          "calculation": "1,107.18 + 15.36 + 2.79 − 2.79 = 1,122.54 (EUR million)"
+        },
+        { "nodeId": "si-excise-tobacco", "amount": 484.89, "locator": "NTL 2026, sheet SI, row 41: D214A Tobacco, 2024" },
+        { "nodeId": "si-excise-alcohol", "amount": 123.64, "locator": "NTL 2026, sheet SI, row 39: D214A Alcohol and alcoholic drinks, 2024" },
+        {
+          "nodeId": "si-gambling",
+          "amount": 123.79,
+          "locator": "NTL 2026, sheet SI, 2024: D214F Tax on special gambling (gambling and casinos) (row 59); D214F Tax on classical gambling (lottery…) (row 60); D214F Tax on lottery tickets (row 62); D29E Concessions duties on special gambling (gambling in casinos) (row 102)",
+          "calculation": "50.22 + 4.21 + 25.42 + 43.94 = 123.79 (EUR million)"
+        },
+        { "nodeId": "si-insurance-tax", "amount": 152.42, "locator": "NTL 2026, sheet SI, row 64: D214G Tax on insurance services, 2024" },
+        {
+          "nodeId": "si-financial-sector-taxes",
+          "amount": 223.93,
+          "locator": "NTL 2026, sheet SI, 2024: D91C Tax on balance wealth paid by banks (row 179); D214H Tax on financial services (row 67); D29H Deposit guarantee fund (row 117)",
+          "calculation": "105.99 + 80.11 + 37.83 = 223.93 (EUR million)"
+        },
+        {
+          "nodeId": "si-property-transfer-tax",
+          "amount": 51.86,
+          "locator": "NTL 2026, sheet SI, 2024: D214C Tax on sale of immovable property - from legal entities (row 50); D214C Tax on sale of immovable property - from individuals (row 51)",
+          "calculation": "6.46 + 45.4 = 51.86 (EUR million)"
+        },
+        {
+          "nodeId": "si-vehicle-taxes",
+          "amount": 193.3,
+          "locator": "NTL 2026, sheet SI, 2024: D214D Tax on sales of new motor vehicles (row 53); D214D Tax on sales of used motor vehicles (row 54); D214D Additional tax on motor vehicles (row 55); D29B Registration fees on motor vehicles, boats and airplanes - paid by legal entities (row 93); D59D Registration fees on motor vehicles, boats and airplanes - paid by individuals (row 166); D59A Property tax on boats (row 157); D59A Additional tax on water craft (row 159)",
+          "calculation": "20.5 + 0 + 0 + 35.06 + 136.92 + 0.49 + 0.33 = 193.3 (EUR million)"
+        },
+        {
+          "nodeId": "si-environmental-charges",
+          "amount": 232.44,
+          "locator": "NTL 2026, sheet SI, 2024: D214L Taxes on air pollution (row 83); D29F Tax on air pollution - caused by gas and hard fuels (row 108); D29F Charges on use of water (row 106); D29F Taxes on waste pollution (row 107); D29F Indemnity for restricted use of area on the territory of Nuclear power plant (row 110); D59D Special water tax (row 168)",
+          "calculation": "147.19 + 15.69 + 31.68 + 1.95 + 14.45 + 21.49 = 232.44 (EUR million)"
+        },
+        {
+          "nodeId": "si-energy-contributions",
+          "amount": 144.15,
+          "locator": "NTL 2026, sheet SI, 2024: D214L Support for produced electricity from RES and CHP (row 86); D214L Energy efficiency contribution (row 87)",
+          "calculation": "106.25 + 37.89 = 144.15 (EUR million)"
+        },
+        {
+          "nodeId": "si-concessions",
+          "amount": 149.39,
+          "locator": "NTL 2026, sheet SI, 2024: D29E Concessions (row 101); D29E Revenues from charges for temporary or part-time work pensioners (row 103)",
+          "calculation": "138.08 + 11.31 = 149.39 (EUR million)"
+        },
+        { "nodeId": "si-rtv-fee", "amount": 98.98, "locator": "NTL 2026, sheet SI, row 167: D59D Radio and television licence fee, 2024" },
+        {
+          "nodeId": "si-property-and-estate",
+          "amount": 29.49,
+          "locator": "NTL 2026, sheet SI, 2024: D91A Inheritance and gift tax (row 175); D91B Payments for the change of use of agricultural and forest land (row 177); D59A Property tax on buildings (row 155); D59A Property tax on weekend cottages (row 156); D59A Tax on immovable property of higher value (row 158); D59A Revenue from compensation for the granting of easements and the creation of building rights (row 160)",
+          "calculation": "13.98 + 4.32 + 8.89 + 1.3 + 0 + 1.01 = 29.49 (EUR million)"
+        },
+        {
+          "nodeId": "si-other-state",
+          "amount": 89.74,
+          "locator": "NTL 2026, sheet SI, 2024: D214L Markup on toll (row 84); D214L Transhipment fee in the port of Koper (row 85); D214H Compensation for providing public service of maintaining emergency reserves of crude oil and petroleum products (row 68); D214H Promotional tax (row 69); D59F Fire protection tax (row 172); D29G Negative compensation of farmers in a VAT flat rate system (row 114)",
+          "calculation": "13.24 + 7.35 + 31.45 + 6.74 + 23.7 + 7.25 = 89.74 (EUR million)"
+        }
+      ]
+    },
+    {
+      "title": "Employers’ social contributions 2024 – National Tax List (EUR million)",
+      "defaults": {
+        "denominatorId": "drzava-social-employers-2024",
+        "scale": "million",
+        "currency": "EUR",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Actual compulsory contributions",
+        "sourceId": "ntl-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        {
+          "nodeId": "si-social-employers",
+          "amount": 3934.7,
+          "locator": "NTL 2026, sheet SI, 2024: D611 Contributions for employment (row 183); D611 Contributions for maternity leave (row 184); D611 Contributions for health insurance (row 185); D611 Contributions for pension and disability insurance (row 186)",
+          "calculation": "18.3 + 23.74 + 1,730.83 + 2,161.83 = 3,934.7 (EUR million)"
+        }
+      ]
+    },
+    {
+      "title": "Households’ social contributions 2024 – National Tax List (EUR million)",
+      "defaults": {
+        "denominatorId": "drzava-social-households-2024",
+        "scale": "million",
+        "currency": "EUR",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Compulsory contributions",
+        "sourceId": "ntl-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        {
+          "nodeId": "si-social-employees",
+          "amount": 5726.83,
+          "locator": "NTL 2026, sheet SI, row 218: D613CE Compulsory employees' actual social contributions, 2024"
+        },
+        {
+          "nodeId": "si-social-self-employed",
+          "amount": 1709.65,
+          "locator": "NTL 2026, sheet SI, row 220: D613CS Compulsory actual social contributions by the self-employed, 2024"
+        }
+      ]
+    },
+    {
+      "title": "Building land compensation 2024 – National Tax List (EUR million)",
+      "defaults": {
+        "denominatorId": "obcine-land-2024",
+        "scale": "million",
+        "currency": "EUR",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "ESA tax revenue",
+        "sourceId": "ntl-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        {
+          "nodeId": "si-building-land-compensation",
+          "amount": 290.95,
+          "locator": "NTL 2026, sheet SI, 2024: D29A Compensation for the use of building-ground - paid by legal entities (row 90); D29A Compensation for the use of building-ground - paid by individuals (row 91)",
+          "calculation": "201.62 + 89.33 = 290.95 (EUR million)"
+        }
+      ]
+    },
+    {
+      "title": "Tourist tax 2024 – National Tax List (EUR million)",
+      "defaults": {
+        "denominatorId": "obcine-tourist-2024",
+        "scale": "million",
+        "currency": "EUR",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "ESA tax revenue",
+        "sourceId": "ntl-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [{ "nodeId": "si-tourist-tax", "amount": 28.39, "locator": "NTL 2026, sheet SI, row 66: D214H Sojourn tax, 2024" }]
+    }
+  ],
+  "unavailable": []
+}

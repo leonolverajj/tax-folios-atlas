@@ -1,0 +1,171 @@
+{
+  "id": "croatia",
+  "iso3": "HRV",
+  "isoNumeric": "191",
+  "names": { "en": "Croatia", "native": "Hrvatska", "nativeLang": "hr" },
+  "currency": { "code": "EUR", "symbol": "€", "name": "Euro" },
+  "summary": "Croatia is a unitary state with a large local income tax: municipalities, cities and counties choose the rates of the personal income tax within bands set by law, and Eurostat’s accounts book all of it under local government. The State collects the VAT, the corporate profit tax, the excises and the social contributions. VAT and the personal income tax are the two largest flows.",
+  "structureNote": "The figures are the Commission’s National Tax List for 2024, in EUR million (Croatia adopted the euro in 2023). The sale of emission permits (EUR 197 million) is left out. The social contributions are drawn under the State. The personal income tax is drawn under local government because Eurostat’s accounts record it there. Croatia is not an OECD member, so this folio has no harmonised OECD layer.",
+  "theme": {
+    "accent": "#4f7cff",
+    "accent2": "#e9232d",
+    "motif": "topo",
+    "motifNote": "Topographic contour lines over the outline of Croatia (the generic motif; no bespoke art yet).",
+    "mapLabel": { "lon": 16.2, "lat": 45.2 }
+  },
+  "levels": [
+    {
+      "id": "drzava",
+      "branch": "national",
+      "names": { "official": "The State (Republic of Croatia)", "native": "Država", "common": "State" },
+      "description": "The Sabor legislates the taxes; the Tax Administration and the Customs Administration collect them and the Croatian Pension Insurance Institute and the Health Insurance Fund receive the contributions.",
+      "fiscalPower": "Taxes are set by law; local self-government units set the rates of the personal income tax within a band and several local taxes and charges.",
+      "legalRefs": [{ "sourceId": "ntl-2026" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "lokalne",
+      "branch": "local",
+      "names": {
+        "official": "Local and regional self-government (municipalities, cities and counties)",
+        "native": "Lokalna i područna (regionalna) samouprava",
+        "common": "Local government"
+      },
+      "description": "The municipalities, towns and counties. They choose the personal income tax rates within the national bands, levy the communal charges, the tourist tax and others, and receive the real estate transfer tax.",
+      "fiscalPower": "Each unit chooses two progressive personal income tax rates between 15% and 33%, within bounds that depend on its size (PwC).",
+      "legalRefs": [{ "sourceId": "pwc-hr-individual", "locator": "Personal income tax rates" }, { "sourceId": "eurostat-taxag" }],
+      "checkedOn": "2026-10-12"
+    }
+  ],
+  "supportingSourceIds": [],
+  "denominators": [
+    {
+      "id": "drzava-taxes-2024",
+      "label": "State taxes (National Tax List), 2024",
+      "definition": "The taxes on production and imports, on income and on capital that the National Tax List books to the State and the EU, other than the local taxes and the sale of emission permits.",
+      "levelIds": ["drzava"],
+      "amount": 18499.59,
+      "scale": "million",
+      "currency": "EUR",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "ntl-2026",
+      "locator": "Sheet HR, 2024, the lines listed with each tax",
+      "calculation": "Sum of the 16 tax rows below (EUR million)",
+      "caveat": "Calendar 2024; the list's cut-off was 30 October 2025. Vintage check against Eurostat's July 2026 accounts: D2: NTL 16,556.65, Eurostat July 2026 16,556.7; D5: NTL 6,763.65, Eurostat July 2026 6,763.7; D61: NTL 9,835.1, Eurostat July 2026 9,835.1.",
+      "accessed": "2026-10-12"
+    },
+    {
+      "id": "drzava-social-employers-2024",
+      "label": "Social contributions paid by employers, 2024",
+      "definition": "The actual compulsory contributions of employers.",
+      "levelIds": ["drzava"],
+      "amount": 4831.77,
+      "scale": "million",
+      "currency": "EUR",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "ntl-2026",
+      "locator": "Sheet HR, 2024, line D611C C01",
+      "caveat": "Calendar 2024, same list and cut-off as the taxes.",
+      "accessed": "2026-10-12"
+    },
+    {
+      "id": "drzava-social-employees-2024",
+      "label": "Social contributions paid by households, 2024",
+      "definition": "The compulsory contributions of employees, the self-employed and others.",
+      "levelIds": ["drzava"],
+      "amount": 5003.33,
+      "scale": "million",
+      "currency": "EUR",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "ntl-2026",
+      "locator": "Sheet HR, 2024, subtotal D613 (lines D613CE C01 and D613CS C01 plus EUR 148 million not itemised)",
+      "caveat": "Calendar 2024, same list and cut-off as the taxes.",
+      "accessed": "2026-10-12"
+    },
+    {
+      "id": "lokalne-pit-2024",
+      "label": "Personal income tax, 2024",
+      "definition": "The personal income tax and local surtax, which Eurostat’s accounts record under local government.",
+      "levelIds": ["lokalne"],
+      "amount": 3388.5,
+      "scale": "million",
+      "currency": "EUR",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "ntl-2026",
+      "locator": "Sheet HR, 2024, line D51A C01",
+      "caveat": "Eurostat's July 2026 release books EUR 3,388.5 million of personal income tax under local government and none under central government.",
+      "accessed": "2026-10-12"
+    },
+    {
+      "id": "lokalne-transfer-2024",
+      "label": "Property transfer and inheritance taxes, 2024",
+      "definition": "The real estate transfer tax and the inheritance and gift tax.",
+      "levelIds": ["lokalne"],
+      "amount": 230.77,
+      "scale": "million",
+      "currency": "EUR",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "ntl-2026",
+      "locator": "Sheet HR, 2024, lines D214C C01 and D91A C01",
+      "caveat": "Calendar 2024, same list and cut-off as the State taxes.",
+      "accessed": "2026-10-12"
+    },
+    {
+      "id": "lokalne-communal-2024",
+      "label": "Communal charges, 2024",
+      "definition": "The utility charges, the communal contribution, the public land use taxes and the monumental annuity.",
+      "levelIds": ["lokalne"],
+      "amount": 587.47,
+      "scale": "million",
+      "currency": "EUR",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "ntl-2026",
+      "locator": "Sheet HR, 2024, lines D29A C01, C02, C05, C07, D59F C04",
+      "caveat": "Eurostat books EUR 510 million of taxes on land and buildings (D29A) and EUR 107.3 million of other current taxes (D59F) under local government.",
+      "accessed": "2026-10-12"
+    },
+    {
+      "id": "lokalne-vehicles-2024",
+      "label": "Local vehicle taxes and road levy, 2024",
+      "definition": "The motor vehicle taxes, boat taxes and the annual levy on public road use.",
+      "levelIds": ["lokalne"],
+      "amount": 216.18,
+      "scale": "million",
+      "currency": "EUR",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "ntl-2026",
+      "locator": "Sheet HR, 2024, lines D29B C01–C05, D59D C01, C02, C04",
+      "caveat": "Eurostat books EUR 216.2 million of vehicle-related taxes under local government.",
+      "accessed": "2026-10-12"
+    },
+    {
+      "id": "lokalne-tourist-2024",
+      "label": "Tourist, consumption and holiday-house taxes, 2024",
+      "definition": "The visitors’ taxes, the local consumption taxes and the taxes on holiday houses and unused real estate.",
+      "levelIds": ["lokalne"],
+      "amount": 203.52,
+      "scale": "million",
+      "currency": "EUR",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "ntl-2026",
+      "locator": "Sheet HR, 2024, lines D214H C02, D214A C09, D59A C01, C03, C04",
+      "caveat": "Calendar 2024, same list and cut-off as the State taxes.",
+      "accessed": "2026-10-12"
+    }
+  ],
+  "sizing": {
+    "label": "Taxes and compulsory social contributions of all levels of government",
+    "definition": "The taxes of the State and of local and regional self-government plus the actual social contributions, calendar 2024, as listed in the National Tax List. Excludes the sale of emission permits.",
+    "componentIds": [
+      "drzava-taxes-2024",
+      "drzava-social-employers-2024",
+      "drzava-social-employees-2024",
+      "lokalne-pit-2024",
+      "lokalne-transfer-2024",
+      "lokalne-communal-2024",
+      "lokalne-vehicles-2024",
+      "lokalne-tourist-2024"
+    ]
+  },
+  "researchStatus": "researched"
+}

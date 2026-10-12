@@ -1,0 +1,188 @@
+{
+  "groups": [
+    {
+      "title": "State taxes 2024 – National Tax List (EUR million)",
+      "defaults": {
+        "denominatorId": "stat-taxes-2024",
+        "scale": "million",
+        "currency": "EUR",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "ESA tax revenue, general government and EU institutions",
+        "sourceId": "ntl-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        {
+          "nodeId": "sk-pit-employment",
+          "amount": 4618.28,
+          "locator": "NTL 2026, sheet SK, row 116: D51A Income tax individuals - income from dependent activities and functional benefits, 2024"
+        },
+        {
+          "nodeId": "sk-pit-business",
+          "amount": 194.4,
+          "locator": "NTL 2026, sheet SK, row 117: D51A Income tax individuals - from business and other independent gainful activities, 2024"
+        },
+        {
+          "nodeId": "sk-corporate-income-tax",
+          "amount": 4492.84,
+          "locator": "NTL 2026, sheet SK, row 125: D51B Corporate income tax - having their sites in the resident country, 2024"
+        },
+        {
+          "nodeId": "sk-special-levies",
+          "amount": 589.29,
+          "locator": "NTL 2026, sheet SK, 2024: D51B Corporate income tax - Special levy for regulated industries (row 127); D51B Solidarity contribution (row 128)",
+          "calculation": "533.62 + 55.67 = 589.29 (EUR million)"
+        },
+        {
+          "nodeId": "sk-withholding-tax",
+          "amount": 529.15,
+          "locator": "NTL 2026, sheet SK, row 136: D51E Withholding income tax from unidentifiable persons, 2024"
+        },
+        { "nodeId": "sk-vat", "amount": 9914.7, "locator": "NTL 2026, sheet SK, row 12: D211 VAT, 2024" },
+        {
+          "nodeId": "sk-customs",
+          "amount": 144.47,
+          "locator": "NTL 2026, sheet SK, 2024: D2121 Import duty (row 15); D2122A  (row 18)",
+          "calculation": "138.13 + 6.34 = 144.47 (EUR million)"
+        },
+        { "nodeId": "sk-excise-mineral-oils", "amount": 1352.02, "locator": "NTL 2026, sheet SK, row 34: D214A On mineral oils, 2024" },
+        { "nodeId": "sk-excise-tobacco", "amount": 1021.08, "locator": "NTL 2026, sheet SK, row 38: D214A On tobacco and tobacco products, 2024" },
+        {
+          "nodeId": "sk-excise-alcohol",
+          "amount": 293.09,
+          "locator": "NTL 2026, sheet SK, 2024: D214A On alcohol (row 35); D214A On beer (row 36); D214A On wine (row 37)",
+          "calculation": "232.3 + 55.8 + 4.98 = 293.09 (EUR million)"
+        },
+        {
+          "nodeId": "sk-energy-taxes",
+          "amount": 34.1,
+          "locator": "NTL 2026, sheet SK, 2024: D214A On energy - electricity (row 39); D214A On energy - coal (row 40); D214A On energy - natural gas (row 41)",
+          "calculation": "12.78 + 0.19 + 21.13 = 34.1 (EUR million)"
+        },
+        { "nodeId": "sk-green-energy", "amount": 183.56, "locator": "NTL 2026, sheet SK, row 42: D214A Green energy, 2024" },
+        { "nodeId": "sk-lottery-tax", "amount": 360.15, "locator": "NTL 2026, sheet SK, row 53: D214F Taxes on lottery and similar games, 2024" },
+        {
+          "nodeId": "sk-insurance-taxes",
+          "amount": 151.17,
+          "locator": "NTL 2026, sheet SK, 2024: D214G Levy on part of non-life insurance premium (row 55); D214G Insurance tax (row 56)",
+          "calculation": "39.24 + 111.93 = 151.17 (EUR million)"
+        },
+        {
+          "nodeId": "sk-vehicle-taxes",
+          "amount": 199.92,
+          "locator": "NTL 2026, sheet SK, 2024: D214D Car registration fee (row 48); D29B Road tax - domestic (row 79)",
+          "calculation": "59.63 + 140.29 = 199.92 (EUR million)"
+        },
+        {
+          "nodeId": "sk-environmental-charges",
+          "amount": 224.61,
+          "locator": "NTL 2026, sheet SK, 2024: D29F Fees connected with water pollution (row 96); D29F Fees connected with air pollution (row 97); D29E Tax on installing nuclear equipment (row 85); D29E Tax on excavation areas (row 86); D29E Tax on gas and liquid storage (row 87); D214H Fee for stocking of emergency oil reserves and electricity consumption tax intended for liquidation of decommissioned nuclear facilities (row 62); D214H Electricity consumption tax intended for liquidation of decommissioned nuclear facilities (row 63)",
+          "calculation": "8.6 + 9.97 + 3.85 + 0.36 + 0.77 + 132.35 + 68.72 = 224.61 (EUR million)"
+        },
+        {
+          "nodeId": "sk-administrative-fees",
+          "amount": 183.69,
+          "locator": "NTL 2026, sheet SK, 2024: D29E Administrative fees - other (row 90); D29E Administrative fees - licence fees (row 91); D29E TV and Radio licence fees (row 92); D59D Administrative fees - other (row 152); D59D Administrative fees - licence fees (row 153); D59D TV and Radio licence fees (row 154)",
+          "calculation": "127.64 + 0.44 + 0.32 + 53.28 + 0.22 + 1.8 = 183.69 (EUR million)"
+        },
+        {
+          "nodeId": "sk-other-state",
+          "amount": 20.19,
+          "locator": "NTL 2026, sheet SK, 2024: D29H Tax connected to deposit insurance (row 108); D29H Contribution to the single resolution fund Contribution to SEF (row 109); D214H Levy on excessive profit (row 64); D29H Other taxes (row 106); D214L Other taxes on products n.e.c. (row 69); D214C Tax on transfer and assignment of real estate (row 46)",
+          "calculation": "8.26 + 0 + 7.53 + 0.86 + 3.54 + 0.01 = 20.19 (EUR million)"
+        }
+      ]
+    },
+    {
+      "title": "Employers’ social contributions 2024 – National Tax List (EUR million)",
+      "defaults": {
+        "denominatorId": "stat-social-employers-2024",
+        "scale": "million",
+        "currency": "EUR",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Actual compulsory contributions (subtotal)",
+        "sourceId": "ntl-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        {
+          "nodeId": "sk-social-employers",
+          "amount": 12069.22,
+          "locator": "NTL 2026, sheet SK, row 166: D611 Employers' actual social contributions, 2024"
+        }
+      ]
+    },
+    {
+      "title": "Households’ social contributions 2024 – National Tax List (EUR million)",
+      "defaults": {
+        "denominatorId": "stat-social-households-2024",
+        "scale": "million",
+        "currency": "EUR",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Compulsory contributions",
+        "sourceId": "ntl-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        { "nodeId": "sk-social-employees", "amount": 4535.7, "locator": "NTL 2026, sheet SK, row 188: D613CE , 2024" },
+        {
+          "nodeId": "sk-social-others",
+          "amount": 3822.77,
+          "locator": "NTL 2026, sheet SK, 2024: D613CN  (row 192); D613CS  (row 190)",
+          "calculation": "3,821.99 + 0.79 = 3,822.77 (EUR million)"
+        }
+      ]
+    },
+    {
+      "title": "Real estate tax 2024 – National Tax List (EUR million)",
+      "defaults": {
+        "denominatorId": "obce-property-2024",
+        "scale": "million",
+        "currency": "EUR",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "ESA tax revenue",
+        "sourceId": "ntl-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        {
+          "nodeId": "sk-property-tax",
+          "amount": 618.72,
+          "locator": "NTL 2026, sheet SK, 2024: D29A Land (row 72); D29A Buildings (row 73); D29A Dwellings (row 74); D59A from land (row 139); D59A from dwellings (row 141); D59A Tax on transfer and assignment of real estate (row 143)",
+          "calculation": "86.66 + 433.83 + 51.15 + 42.69 + 4.39 + 0 = 618.72 (EUR million)"
+        }
+      ]
+    },
+    {
+      "title": "Other local taxes 2024 – National Tax List (EUR million)",
+      "defaults": {
+        "denominatorId": "obce-other-2024",
+        "scale": "million",
+        "currency": "EUR",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "ESA tax revenue",
+        "sourceId": "ntl-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        {
+          "nodeId": "sk-local-taxes",
+          "amount": 88.13,
+          "locator": "NTL 2026, sheet SK, 2024: D29A Tax on use of public premises (row 77); D29E Local fee for development (row 93); D29H Taxes on specific services - for dog (row 102); D59D Taxes on specific services - for dog (row 147); D214E Taxes on specific services - on automatic gambling machines (row 50); D214H Taxes on specific services - on automatic vendors (row 58); D214H Taxes on specific services - on accommodation capacities in recreational establishments (row 59); D29B Taxes on specific services - on permits to enter historical city district with motor vehicle (row 81); D59D Taxes on specific services - on permits to enter historical city district with motor vehicle (row 148)",
+          "calculation": "15.16 + 39.01 + 3.65 + 1.8 + 0.22 + 0.32 + 27.53 + 0.29 + 0.14 = 88.13 (EUR million)"
+        }
+      ]
+    }
+  ],
+  "unavailable": []
+}

@@ -1,0 +1,66 @@
+{
+  "sources": [
+    {
+      "id": "ntl-2026",
+      "org": "European Commission, DG Taxation and Customs Union, with Eurostat",
+      "title": "Data on Taxation Trends: National Tax Lists (NTL), edition 2026",
+      "url": "https://taxation-customs.ec.europa.eu/taxation/economic-analysis/data-taxation-trends_en",
+      "kind": "statistics",
+      "language": "en",
+      "publishedDate": "2026-03-31",
+      "periodCovered": "Calendar year 2024 (series from 1995)",
+      "accessed": "2026-10-12",
+      "nextExpected": "2027-03",
+      "note": "Workbook \"NTL edition 2026 web.xlsx\", sheet BG: every tax and social contribution by its national name and ESA code, in BGN million. Data cut-off 30 October 2025."
+    },
+    {
+      "id": "eurostat-taxag",
+      "org": "Eurostat",
+      "title": "Main national accounts tax aggregates (gov_10a_taxag)",
+      "url": "https://ec.europa.eu/eurostat/databrowser/view/gov_10a_taxag/default/table",
+      "kind": "statistics",
+      "language": "en",
+      "publishedDate": "2026-07-21",
+      "periodCovered": "Calendar year 2024",
+      "accessed": "2026-10-12",
+      "nextExpected": "2027-07",
+      "note": "Taxes and social contributions by sub-sector and ESA item. For Bulgaria the July 2026 release is in euro; dividing the National Tax List’s leva by 1.95583 gives the same totals. Used to place each tax at a level."
+    },
+    {
+      "id": "pwc-bg-corporate",
+      "org": "PwC",
+      "title": "Worldwide Tax Summaries: Bulgaria – Corporate – Taxes on corporate income",
+      "url": "https://taxsummaries.pwc.com/bulgaria/corporate/taxes-on-corporate-income",
+      "kind": "guidance",
+      "language": "en",
+      "publishedDate": "2026-08-02",
+      "periodCovered": "Rates as of the review",
+      "accessed": "2026-10-12",
+      "note": "A professional firm’s summary, not an official source: corporate income tax a flat 10%."
+    },
+    {
+      "id": "pwc-bg-individual",
+      "org": "PwC",
+      "title": "Worldwide Tax Summaries: Bulgaria – Individual – Taxes on personal income",
+      "url": "https://taxsummaries.pwc.com/bulgaria/individual/taxes-on-personal-income",
+      "kind": "guidance",
+      "language": "en",
+      "publishedDate": "2026-08-02",
+      "periodCovered": "Rates as of the review",
+      "accessed": "2026-10-12",
+      "note": "A professional firm’s summary: a flat tax rate of 10% on all personal income, with some exceptions."
+    },
+    {
+      "id": "pwc-bg-other",
+      "org": "PwC",
+      "title": "Worldwide Tax Summaries: Bulgaria – Corporate – Other taxes",
+      "url": "https://taxsummaries.pwc.com/bulgaria/corporate/other-taxes",
+      "kind": "guidance",
+      "language": "en",
+      "publishedDate": "2026-08-02",
+      "periodCovered": "Rates as of the review",
+      "accessed": "2026-10-12",
+      "note": "A professional firm’s summary: VAT standard rate 20%, reduced rate 9%."
+    }
+  ]
+}

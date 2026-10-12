@@ -1,0 +1,552 @@
+{
+  "instruments": [
+    {
+      "id": "hr-cit",
+      "parentId": "drzava",
+      "levelId": "drzava",
+      "category": "tax",
+      "family": "income-corporate",
+      "status": "current",
+      "names": { "official": "Corporate income tax (profit tax)", "native": "Porez na dobit", "common": "Corporate income tax" },
+      "taxes": { "base": "Profit of companies.", "payer": "Companies." },
+      "rate": {
+        "kind": "flat",
+        "headline": "18%; 10% below EUR 1 million of revenue",
+        "details": [
+          "CIT is generally paid at 18%; taxpayers with revenue below EUR 1 million pay 10% (PwC).",
+          "As summarised by PwC (review of 27 August 2026), not checked against the Tax Administration."
+        ],
+        "asOf": "2026-08-27"
+      },
+      "explanation": "EUR 2.7 billion in 2024: all of it a State tax.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "pwc-hr-corporate", "locator": "Corporate income tax" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "hr-vat",
+      "parentId": "drzava",
+      "levelId": "drzava",
+      "category": "tax",
+      "family": "general-consumption",
+      "status": "current",
+      "names": {
+        "official": "Value added tax (domestic, on imports of goods and on services of foreign entrepreneurs)",
+        "native": "Porez na dodanu vrijednost (PDV)",
+        "common": "VAT",
+        "abbreviation": "PDV"
+      },
+      "taxes": { "base": "Goods and services supplied in Croatia and imports.", "payer": "Consumers; businesses charge it and claim input credits." },
+      "rate": {
+        "kind": "range",
+        "headline": "25% standard; 13% and 5% reduced",
+        "details": [
+          "The general VAT rate is 25%; 13% applies to accommodation, newspapers and magazines, among others (PwC).",
+          "As summarised by PwC (review of 27 August 2026), not checked against the Tax Administration."
+        ],
+        "asOf": "2026-08-27"
+      },
+      "explanation": "The largest tax: EUR 11.4 billion.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "pwc-hr-other", "locator": "Value-added tax" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "hr-customs",
+      "parentId": "drzava",
+      "levelId": "drzava",
+      "category": "customs-duty",
+      "family": "trade",
+      "status": "current",
+      "names": { "official": "Customs", "native": "Carina", "common": "Customs duties" },
+      "taxes": { "base": "Goods imported from outside the EU, by the Common Customs Tariff.", "payer": "Importers." },
+      "rate": {
+        "kind": "varies",
+        "headline": "EU Common Customs Tariff",
+        "details": ["An EU own resource; Eurostat records it under the EU institutions."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "Collected for the EU budget.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "eurostat-taxag", "locator": "S.212, D212" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "hr-excise-fuel",
+      "parentId": "drzava",
+      "levelId": "drzava",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "Excise taxes on mineral oils, electricity, natural gas and solid fuels",
+        "native": "Trošarina na energente",
+        "common": "Fuel and energy excise"
+      },
+      "taxes": {
+        "base": "Mineral oils (EUR 1,401.7 million), electricity (EUR 5.0 million), natural gas (EUR 3.7 million) and solid fuels.",
+        "payer": "Fuel suppliers; passed on at the pump."
+      },
+      "rate": { "kind": "specific", "headline": "Per 1,000 litres", "details": [], "asOf": "2026-10-12" },
+      "explanation": "The largest excise.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet HR, D214A C02, C12–C14" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "hr-excise-tobacco",
+      "parentId": "drzava",
+      "levelId": "drzava",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Excise taxes on tobacco products", "native": "Trošarina na duhanske proizvode", "common": "Tobacco excise" },
+      "taxes": { "base": "Cigarettes and other tobacco products.", "payer": "Producers and importers; passed on in the price." },
+      "rate": { "kind": "mechanism", "headline": "Fixed by the Excise Duties Act", "details": [], "asOf": "2026-10-12" },
+      "explanation": "EUR 1.0 billion.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet HR, D214A C06" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "hr-excise-drinks",
+      "parentId": "drzava",
+      "levelId": "drzava",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "Excise taxes on alcohol, beer, non-alcoholic drinks and coffee",
+        "native": "Trošarina na alkohol, pivo, bezalkoholna pića i kavu",
+        "common": "Alcohol, soft drink and coffee excises"
+      },
+      "taxes": {
+        "base": "Beer (EUR 90.7 million), alcohol (EUR 63.7 million), non-alcoholic drinks (EUR 36.1 million) and coffee (EUR 16.9 million).",
+        "payer": "Producers and importers; passed on in the price."
+      },
+      "rate": { "kind": "specific", "headline": "Per litre or per kilogram", "details": [], "asOf": "2026-10-12" },
+      "explanation": "Four lines.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet HR, D214A C03–C05, C07" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "hr-excise-cars",
+      "parentId": "drzava",
+      "levelId": "drzava",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "Excise taxes on motor vehicles, vessels and aircraft",
+        "native": "Posebni porez na motorna vozila",
+        "common": "Motor vehicle excise"
+      },
+      "taxes": {
+        "base": "New and imported motor vehicles on registration (EUR 176.2 million), and a very small tax on vessels and aircraft.",
+        "payer": "Buyers and importers of vehicles."
+      },
+      "rate": { "kind": "varies", "headline": "By price and emissions", "details": [], "asOf": "2026-10-12" },
+      "explanation": "Paid once, at registration.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet HR, D214A C01 and C11" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "hr-renewable-fee",
+      "parentId": "drzava",
+      "levelId": "drzava",
+      "category": "special-levy",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "Fee for incentivising electricity production from renewable energy sources",
+        "native": "Naknada za poticanje proizvodnje električne energije iz obnovljivih izvora",
+        "common": "Renewable energy fee"
+      },
+      "taxes": { "base": "Electricity consumption.", "payer": "Electricity consumers." },
+      "rate": { "kind": "varies", "headline": "Set by regulation", "details": [], "asOf": "2026-10-12" },
+      "explanation": "EUR 213.7 million in 2024.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet HR, D214A C15" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "hr-waste-fees",
+      "parentId": "drzava",
+      "levelId": "drzava",
+      "category": "fee",
+      "family": "resource",
+      "status": "current",
+      "names": {
+        "official": "Waste management fees: packaging and deposit, electronic equipment, end-of-life vehicles, tyres and lubricating oils",
+        "native": "Naknade za gospodarenje otpadom",
+        "common": "Waste management fees"
+      },
+      "taxes": {
+        "base": "Packaging (EUR 120.7 million), WEEE (EUR 31.2 million), end-of-life vehicles (EUR 18.5 million), waste tyres (EUR 5.3 million) and waste lubricating oils (EUR 3.5 million).",
+        "payer": "Producers and importers."
+      },
+      "rate": { "kind": "varies", "headline": "Set by the waste regulations", "details": [], "asOf": "2026-10-12" },
+      "explanation": "Five lines that the list books among taxes on products.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet HR, D214A C16–C20" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "hr-gambling",
+      "parentId": "drzava",
+      "levelId": "drzava",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "Levies on games of chance (monthly and annual) and the tax on winnings",
+        "native": "Naknade za priređivanje igara na sreću; porez na dobitke",
+        "common": "Gambling levies and winnings tax"
+      },
+      "taxes": {
+        "base": "Monthly levies on slot machines (EUR 92.5 million), betting (EUR 60.0 million), casinos (EUR 64.0 million) and lotteries (EUR 17.3 million), annual levies (EUR 31.0 million) and the tax on winnings from lottery and betting games (EUR 78.5 million).",
+        "payer": "Gambling operators and winners."
+      },
+      "rate": { "kind": "varies", "headline": "Set by the Gambling Act and the Income Tax Act", "details": [], "asOf": "2026-10-12" },
+      "explanation": "Ten lines.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet HR, D214F, D29E C03–C05, D51D" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "hr-insurance-tax",
+      "parentId": "drzava",
+      "levelId": "drzava",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "Taxes on liability and comprehensive road vehicle insurance premiums",
+        "native": "Porez na premije osiguranja",
+        "common": "Vehicle insurance premium tax"
+      },
+      "taxes": {
+        "base": "Premiums for liability insurance (EUR 66.8 million) and comprehensive insurance (EUR 30.8 million) of road vehicles.",
+        "payer": "Policyholders."
+      },
+      "rate": { "kind": "varies", "headline": "A percentage of premiums", "details": [], "asOf": "2026-10-12" },
+      "explanation": "Two lines.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet HR, D214G" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "hr-water-fees",
+      "parentId": "drzava",
+      "levelId": "drzava",
+      "category": "fee",
+      "family": "resource",
+      "status": "current",
+      "names": {
+        "official": "Water management (regulation) fee, water use charge, water contribution and water protection fee",
+        "native": "Naknada za uređenje voda; naknada za korištenje voda; vodni doprinos; naknada za zaštitu voda",
+        "common": "Water fees"
+      },
+      "taxes": {
+        "base": "Water regulation fees (EUR 133.8 million from legal and natural persons), water use (EUR 94.5 million), the water protection fee (EUR 34.9 million) and the water contribution (EUR 8.8 million).",
+        "payer": "Water users, households and businesses."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Set by the Waters Act",
+        "details": ["The list codes the household lines under other current taxes and the company lines under other taxes on production."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "Eight lines of the list.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet HR, D29H C03–C04, D59F C01–C03 and C05, D29F C09, D29A C04" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "hr-hrt-fee",
+      "parentId": "drzava",
+      "levelId": "drzava",
+      "category": "fee",
+      "family": "other",
+      "status": "current",
+      "names": {
+        "official": "Fee for Croatian Radiotelevision (HRT), households and legal persons",
+        "native": "Pristojba HRT-a",
+        "common": "Public broadcaster fee"
+      },
+      "taxes": { "base": "Households (EUR 131.1 million) and legal persons (EUR 24.2 million).", "payer": "Households and businesses." },
+      "rate": { "kind": "specific", "headline": "A fixed monthly amount", "details": [], "asOf": "2026-10-12" },
+      "explanation": "The fee that finances the public broadcaster.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet HR, D59D C03, D29E C02" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "hr-maritime-forest",
+      "parentId": "drzava",
+      "levelId": "drzava",
+      "category": "fee",
+      "family": "resource",
+      "status": "current",
+      "names": {
+        "official": "Forest contributions, compensation for the public-use functions of forests, and the maritime safety charge",
+        "native": "Doprinos za šume; naknada za korištenje općekorisnih funkcija šuma; pristojba za sigurnost pomorske plovidbe",
+        "common": "Forest and maritime charges"
+      },
+      "taxes": {
+        "base": "Contributions for forests (EUR 35.7 million), compensation for the public-use functions of forests (EUR 35.1 million) and the maritime safety charge paid by natural persons (EUR 5.8 million).",
+        "payer": "Forest users, businesses and boat owners."
+      },
+      "rate": { "kind": "varies", "headline": "Set by law", "details": [], "asOf": "2026-10-12" },
+      "explanation": "Three small lines.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet HR, D29A C03 and C06, D59D C05" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "hr-environmental-levies",
+      "parentId": "drzava",
+      "levelId": "drzava",
+      "category": "special-levy",
+      "family": "resource",
+      "status": "current",
+      "names": {
+        "official": "Levies on industrial waste, CO₂ emissions and motor vehicles, and the energy windfall surtax",
+        "native": "Naknade za okoliš; dodatni porez na energiju",
+        "common": "Environmental levies and windfall surtax"
+      },
+      "taxes": {
+        "base": "The levy on the environment on motor vehicles (EUR 26.6 million in two lines), CO₂ emissions (EUR 0.7 million), non-hazardous industrial waste (EUR 0.4 million) and energy surtaxes, named in the list as windfall taxes (EUR 10.5 million).",
+        "payer": "Vehicle owners, emitters and energy companies."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Set by law",
+        "details": ["The sale of emission permits (EUR 197.0 million) is not counted."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "Five small lines.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet HR, D29F C01, C03, C07, D59F C06, D29H C09" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "hr-small-state-fees",
+      "parentId": "drzava",
+      "levelId": "drzava",
+      "category": "fee",
+      "family": "other",
+      "status": "current",
+      "names": {
+        "official": "Membership fee for tourism communities, allowance for not employing persons with disabilities, regulator fees and other small lines",
+        "native": "Članarina turističkim zajednicama; naknada zbog neizvršavanja obveze zapošljavanja osoba s invaliditetom",
+        "common": "Tourism membership, disability allowance and small fees"
+      },
+      "taxes": {
+        "base": "The tourism communities’ membership fee (EUR 49.2 million), the allowance for failing to employ persons with disabilities (EUR 23.7 million), regulator fees (EUR 12.3 million in three lines), the passenger compensation of the civil aviation agency (EUR 8.6 million) and small lines.",
+        "payer": "Businesses."
+      },
+      "rate": { "kind": "varies", "headline": "Set by law", "details": [], "asOf": "2026-10-12" },
+      "explanation": "Eleven small lines.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet HR, D29H C05–C08, D29C C01, D29E C01, D214H C01 and C04, D214I, D51E" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "hr-social-employers",
+      "parentId": "drzava",
+      "levelId": "drzava",
+      "category": "social-contribution",
+      "family": "social-security",
+      "status": "current",
+      "names": {
+        "official": "Employers’ compulsory social contributions (health insurance)",
+        "native": "Doprinos za zdravstveno osiguranje na plaću",
+        "common": "Employers’ contributions"
+      },
+      "taxes": { "base": "Gross salary, with no cap.", "payer": "Employers." },
+      "rate": {
+        "kind": "flat",
+        "headline": "16.5% of gross salary for health insurance",
+        "details": [
+          "Employers make social contributions at the rate of 16.5% for health insurance, on gross pay that is not capped (PwC).",
+          "As summarised by PwC (review of 27 August 2026), not checked against the Tax Administration."
+        ],
+        "asOf": "2026-08-27"
+      },
+      "explanation": "EUR 4.8 billion; the employees pay the pension contributions.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "pwc-hr-other", "locator": "Social security contributions" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "hr-social-employees",
+      "parentId": "drzava",
+      "levelId": "drzava",
+      "category": "social-contribution",
+      "family": "social-security",
+      "status": "current",
+      "names": {
+        "official": "Households’ compulsory social contributions (employees, the self-employed and others)",
+        "native": "Doprinosi za mirovinsko osiguranje",
+        "common": "Employees’ and self-employed contributions"
+      },
+      "taxes": {
+        "base": "Gross salary (employees, EUR 4,508 million, withheld by the employer) and the income of the self-employed (EUR 347 million); the list’s subtotal of EUR 5,003 million also holds EUR 148 million that it does not itemise.",
+        "payer": "Employees (withheld), the self-employed and others."
+      },
+      "rate": {
+        "kind": "flat",
+        "headline": "Set by the pension insurance laws",
+        "details": [
+          "PwC states that the Croatian social security system covers pension and health and that the charges are borne by the employee and the employer; the employees’ rate is not extracted here."
+        ],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "The pension insurance contributions are collected from the employee.",
+      "exceptions": [],
+      "legalRefs": [
+        { "sourceId": "pwc-hr-other", "locator": "Social security contributions" },
+        { "sourceId": "ntl-2026", "locator": "sheet HR, D613CE and D613CS" }
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "hr-pit",
+      "parentId": "lokalne",
+      "levelId": "lokalne",
+      "category": "tax",
+      "family": "income-personal",
+      "status": "current",
+      "names": { "official": "Personal income tax and local surtax", "native": "Porez na dohodak", "common": "Personal income tax" },
+      "taxes": {
+        "base": "Wages, self-employment, rental and other income of residents; the progressive scale depends on the place of residence.",
+        "payer": "Individuals; employers withhold it."
+      },
+      "rate": {
+        "kind": "range",
+        "headline": "Two progressive rates chosen by each local unit between 15% and 33%",
+        "details": [
+          "Progressive rates depend on the place of residence: each local self-government unit chooses two progressive rates between a lowest possible 15% and a highest possible 33%, within bounds that depend on its size; other income is taxed at flat rates (PwC).",
+          "As summarised by PwC (review of 27 August 2026), not checked against the Tax Administration."
+        ],
+        "asOf": "2026-08-27"
+      },
+      "explanation": "EUR 3.4 billion, 45% of the taxes and contributions in this folio. Eurostat’s accounts book all of the personal income tax under local government: the local units set the rates and the proceeds are shared between them, the counties and the State through the fiscal equalisation system.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "pwc-hr-individual", "locator": "Personal income tax rates" }, { "sourceId": "eurostat-taxag", "locator": "S.1313, D51A" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "hr-transfer-tax",
+      "parentId": "lokalne",
+      "levelId": "lokalne",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": {
+        "official": "Real estate transfer tax and the inheritance and gift tax",
+        "native": "Porez na promet nekretnina; porez na nasljedstva i darove",
+        "common": "Property transfer and inheritance taxes"
+      },
+      "taxes": { "base": "Real estate transfers (EUR 228.0 million) and inheritances and gifts (EUR 2.8 million).", "payer": "Buyers, heirs and donees." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Set by the Real Estate Transfer Tax Act",
+        "details": ["Eurostat books both under local government."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "Two lines.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet HR, D214C C01, D91A C01" }, { "sourceId": "eurostat-taxag", "locator": "S.1313, D214C and D91" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "hr-communal-charges",
+      "parentId": "lokalne",
+      "levelId": "lokalne",
+      "category": "fee",
+      "family": "property",
+      "status": "current",
+      "names": {
+        "official": "Utility charges, the municipal (communal) contribution, public land use taxes and the monumental annuity",
+        "native": "Komunalna naknada; komunalni doprinos; porez na korištenje javnih površina; spomenička renta",
+        "common": "Communal charges"
+      },
+      "taxes": {
+        "base": "Utility charges (EUR 407.5 million), the communal contribution (EUR 153.3 million from natural persons in two lines), the monumental annuity (EUR 14.2 million) and public land use taxes (EUR 12.4 million).",
+        "payer": "Owners and users of property."
+      },
+      "rate": { "kind": "varies", "headline": "Set by each municipality", "details": [], "asOf": "2026-10-12" },
+      "explanation": "The communal charges are the main source of own revenue for municipalities outside the income tax.",
+      "exceptions": [],
+      "legalRefs": [
+        { "sourceId": "ntl-2026", "locator": "sheet HR, D29A C01, C02, C05, C07, D59F C04" },
+        { "sourceId": "eurostat-taxag", "locator": "S.1313, D29A and D59F" }
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "hr-local-vehicle-taxes",
+      "parentId": "lokalne",
+      "levelId": "lokalne",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "Motor vehicle taxes, boat taxes and the annual levy on public road use (legal and natural persons), and the maritime safety charge of legal persons",
+        "native": "Porez na cestovna motorna vozila; porez na plovila; godišnja naknada za korištenje javnih cesta",
+        "common": "Local vehicle taxes and road levy"
+      },
+      "taxes": {
+        "base": "The annual levy on public road use at registration (EUR 171.2 million from both groups), motor vehicle taxes (EUR 43.0 million), boat taxes and tractors, the maritime safety charge of legal persons.",
+        "payer": "Vehicle and boat owners."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "By engine, age and emissions",
+        "details": ["Eurostat books these amounts under local government."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "Eight lines.",
+      "exceptions": [],
+      "legalRefs": [
+        { "sourceId": "ntl-2026", "locator": "sheet HR, D29B, D59D C01, C02, C04" },
+        { "sourceId": "eurostat-taxag", "locator": "S.1313, D29B and D59D" }
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "hr-visitors-consumption-houses",
+      "parentId": "lokalne",
+      "levelId": "lokalne",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "Visitors’ (tourist) taxes, local consumption taxes, taxes on holiday houses and on unused real estate",
+        "native": "Turistička pristojba; porez na potrošnju; porez na kuće za odmor",
+        "common": "Tourist, consumption and holiday-house taxes"
+      },
+      "taxes": {
+        "base": "Visitors’ taxes (EUR 122.2 million), taxes on holiday houses (EUR 52.4 million), local consumption taxes (EUR 29.1 million) and small taxes on unused entrepreneurial real estate and construction land.",
+        "payer": "Visitors, owners of holiday houses and consumers."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Set by each municipality",
+        "details": ["Eurostat books EUR 100 million of the taxes on specific services under local government."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "Five lines.",
+      "exceptions": [],
+      "legalRefs": [
+        { "sourceId": "ntl-2026", "locator": "sheet HR, D214H C02, D214A C09, D59A" },
+        { "sourceId": "eurostat-taxag", "locator": "S.1313, D214H, D214A and D59A" }
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  ]
+}

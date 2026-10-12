@@ -1,0 +1,656 @@
+{
+  "instruments": [
+    {
+      "id": "dk-state-income-tax",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "income-personal",
+      "status": "current",
+      "names": {
+        "official": "State personal income tax (bottom-bracket, top-bracket and share income tax)",
+        "native": "Statslig indkomstskat",
+        "common": "State income tax"
+      },
+      "taxes": {
+        "base": "Personal income and capital income of individuals, after deductions; share income is taxed separately.",
+        "payer": "Individuals; employers withhold it."
+      },
+      "rate": {
+        "kind": "progressive",
+        "headline": "12.01% bottom-bracket; 15% top-bracket above DKK 588,900",
+        "details": [
+          "The bottom-bracket tax applies to all income above the personal allowance; the top-bracket tax of 15% applies above DKK 588,900 in 2025. Together with the municipal tax and the labour market contribution the marginal rate is capped (52.07% in 2025, excluding the contribution).",
+          "Share income is taxed at 27% up to a threshold and 42% above."
+        ],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "The State’s largest tax; the municipality’s income tax is of similar size.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "pwc-denmark-personal" }, { "sourceId": "dst-skat-2025" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "dk-labour-market-contribution",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "income-personal",
+      "status": "current",
+      "names": {
+        "official": "Labour market contribution (arbejdsmarkedsbidrag, AM-bidrag)",
+        "native": "Arbejdsmarkedsbidrag",
+        "common": "Labour market contribution",
+        "abbreviation": "AM"
+      },
+      "taxes": {
+        "base": "Gross earnings of employees and the self-employed, before the income tax.",
+        "payer": "Employees and the self-employed; employers withhold it."
+      },
+      "rate": { "kind": "flat", "headline": "8% of gross earnings", "details": ["Pensions and many benefits are not subject to it."], "asOf": "2026-10-11" },
+      "explanation": "Statistics Denmark classes it as an income tax, not as a social contribution; it is the third largest line of the tax system and goes to the State.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "pwc-denmark-personal" }, { "sourceId": "dst-skat-2025" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "dk-pension-payout-tax",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "income-personal",
+      "status": "current",
+      "names": { "official": "Tax on lump-sum pension payouts", "native": "Afgift af udbetaling fra kapitalpension", "common": "Pension payout tax" },
+      "taxes": { "base": "Lump-sum payouts from private pension schemes.", "payer": "The recipient; the pension fund deducts it." },
+      "rate": { "kind": "flat", "headline": "40% of the payout", "details": [], "asOf": "2026-10-11" },
+      "explanation": "A separate tax on capital pensions paid out as a lump sum, instead of the income tax on annuities.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "dst-skat-2025" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "dk-imputed-rent-tax",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": {
+        "official": "Tax on imputed income from owner-occupied dwellings (property value tax)",
+        "native": "Ejendomsværdiskat",
+        "common": "Property value tax"
+      },
+      "taxes": { "base": "The assessed value of an owner-occupied home.", "payer": "Home owners." },
+      "rate": {
+        "kind": "varies",
+        "headline": "A small percentage of the assessed value",
+        "details": ["The scheme is being reformed; the table gives the revenue for 2025 only."],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "A State tax on the housing value of owners, in place of taxing imputed rent as income.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "dst-skat-2025" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "dk-other-income-taxes",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "income-mixed",
+      "status": "current",
+      "names": {
+        "official": "Other taxes on income (lottery winnings, index-regulated pay fund releases, hydrocarbon tax)",
+        "native": "Øvrige indkomstskatter",
+        "common": "Other income taxes"
+      },
+      "taxes": {
+        "base": "Winnings from lotteries and horse racing, releases from the employees’ index fund, and the profits of hydrocarbon production.",
+        "payer": "Winners, employees and oil and gas producers."
+      },
+      "rate": { "kind": "varies", "headline": "Each has its own Act", "details": [], "asOf": "2026-10-11" },
+      "explanation": "Tax on winnings DKK 244 million, hydrocarbon tax 445 million and the fund releases 20 million.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "dst-skat-2025" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "dk-corporation-tax",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "income-corporate",
+      "status": "current",
+      "names": { "official": "Corporation tax", "native": "Selskabsskat", "common": "Corporation tax" },
+      "taxes": { "base": "Profits of companies and other legal entities.", "payer": "Companies." },
+      "rate": { "kind": "flat", "headline": "22%", "details": [], "asOf": "2026-10-11" },
+      "explanation": "A tax of about 8.6% of the national total.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "dst-skat-2025" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "dk-pension-yield-tax",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "income-mixed",
+      "status": "current",
+      "names": {
+        "official": "Tax on the returns of pension scheme assets (PAL)",
+        "native": "Pensionsafkastskat",
+        "common": "Pension returns tax",
+        "abbreviation": "PAL"
+      },
+      "taxes": {
+        "base": "The annual returns of pension savings held with insurers and pension funds.",
+        "payer": "The pension institutions, for their clients."
+      },
+      "rate": { "kind": "flat", "headline": "15.3% of the returns", "details": [], "asOf": "2026-10-11" },
+      "explanation": "Taxes the returns on pensions every year, so payouts of annuities are taxed on contributions already deducted. Households’ schemes paid DKK 6.0 billion and insurers and pension funds DKK 40.9 billion.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "dst-skat-2025" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "dk-small-social-contributions",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "social-contribution",
+      "family": "social-security",
+      "status": "current",
+      "names": {
+        "official": "Small compulsory social contributions (maternity leave fund, wage guarantee fund, civil servants’ pension contributions and others)",
+        "native": "Øvrige sociale bidrag",
+        "common": "Social contributions"
+      },
+      "taxes": {
+        "base": "Wages, for the fund that equalises the cost of maternity and paternity leave, the wage guarantee fund and the pension contributions of public officials.",
+        "payer": "Employers and officials."
+      },
+      "rate": { "kind": "varies", "headline": "By fund", "details": [], "asOf": "2026-10-11" },
+      "explanation": "Denmark funds social benefits from general taxes, so these contributions are only DKK 2.1 billion: maternity fund DKK 1,329 million, wage guarantee fund 414, officials’ pensions 364 and shipowners 21.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "dst-skat-2025" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "dk-employer-labour-charges",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "payroll",
+      "status": "current",
+      "names": {
+        "official": "Employers’ training contribution (AUB) and the duty on occupational injuries",
+        "native": "Arbejdsgivernes Uddannelsesbidrag og arbejdsskadeafgift",
+        "common": "Employers’ labour charges"
+      },
+      "taxes": { "base": "The number of employees (the AUB) and payroll (the occupational injury duty).", "payer": "Employers." },
+      "rate": { "kind": "varies", "headline": "A fixed amount per employee; a percentage of payroll", "details": [], "asOf": "2026-10-11" },
+      "explanation": "The trainee cost refund scheme collects DKK 5.8 billion from the private sector and 2.4 billion from the public sector; the occupational injury duty DKK 1.0 billion.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "dst-skat-2025" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "dk-inheritance-duty",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "Inheritance duty (boafgift)", "native": "Boafgift", "common": "Inheritance duty" },
+      "taxes": { "base": "Estates above a tax-free amount, by relationship.", "payer": "The heirs." },
+      "rate": { "kind": "varies", "headline": "15% for close family; 36.25% for others", "details": [], "asOf": "2026-10-11" },
+      "explanation": "Raised about DKK 8.5 billion.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "dst-skat-2025" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "dk-weight-duty",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "Motor vehicle weight duty (green owner’s tax and weight duty)",
+        "native": "Vægtafgift og grøn ejerafgift",
+        "common": "Vehicle weight duty"
+      },
+      "taxes": { "base": "Ownership of a motor vehicle: by weight and, for cars, by fuel efficiency.", "payer": "Households and firms that own vehicles." },
+      "rate": {
+        "kind": "varies",
+        "headline": "By weight and fuel consumption",
+        "details": ["Households paid DKK 6.0 billion and producers DKK 3.2 billion."],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "An annual tax on the ownership of vehicles.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "dst-skat-2025" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "dk-km-toll",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Kilometre toll for lorries (kilometerafgift)", "native": "Kilometerafgift", "common": "Kilometre toll" },
+      "taxes": { "base": "Distance driven by heavy goods vehicles on all roads.", "payer": "Haulage firms." },
+      "rate": { "kind": "specific", "headline": "Per kilometre, by weight and emissions class", "details": [], "asOf": "2026-10-11" },
+      "explanation": "A distance-based charge on lorries introduced in 2025.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "dst-skat-2025" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "dk-vat",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "general-consumption",
+      "status": "current",
+      "names": { "official": "Value added tax (moms)", "native": "Moms", "common": "VAT", "abbreviation": "VAT" },
+      "taxes": {
+        "base": "Supplies of goods and services in Denmark and imports, with credit for tax on business purchases.",
+        "payer": "Consumers; businesses charge it and remit the balance."
+      },
+      "rate": {
+        "kind": "flat",
+        "headline": "25% on everything taxed; no reduced rates",
+        "details": ["Few exemptions: health care, education, financial services and rents are exempt; the exempt sectors pay the payroll duty instead."],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "A single rate with a very broad base. The line includes DKK 6.9 billion collected on cross-border online sales through the EU one-stop shop.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "dst-skat-2025" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "dk-payroll-duty",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "payroll",
+      "status": "current",
+      "names": { "official": "Duty on wage and salary costs (lønsumsafgift)", "native": "Lønsumsafgift", "common": "Payroll duty" },
+      "taxes": { "base": "The wage bill of businesses that are exempt from VAT, mainly finance and insurance.", "payer": "Employers in those sectors." },
+      "rate": { "kind": "varies", "headline": "A percentage of payroll and profit", "details": [], "asOf": "2026-10-11" },
+      "explanation": "Stands in for VAT on the sectors that cannot charge it.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "dst-skat-2025" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "dk-customs",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "customs-duty",
+      "family": "trade",
+      "status": "current",
+      "names": { "official": "Customs duties", "native": "Told", "common": "Customs duties" },
+      "taxes": { "base": "Goods imported from outside the European Union, at the common external tariff.", "payer": "Importers." },
+      "rate": { "kind": "varies", "headline": "EU common external tariff", "details": [], "asOf": "2026-10-11" },
+      "explanation": "The EU sets the rates; Denmark collects the duty and keeps a share.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "dst-skat-2025" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "dk-mineral-oil-tax",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Mineral oil taxes (petrol and certain oil products)", "native": "Mineralolieafgift", "common": "Mineral oil tax" },
+      "taxes": { "base": "Petrol, diesel, fuel oil and other mineral oils, per litre.", "payer": "Fuel suppliers; passed on at the pump." },
+      "rate": {
+        "kind": "specific",
+        "headline": "Per litre",
+        "details": ["Petrol DKK 5.5 billion; other oil products DKK 5.5 billion."],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "The carbon tax is charged separately on top.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "dst-skat-2025" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "dk-co2-tax",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Carbon dioxide tax (CO2-afgift)", "native": "CO2-afgift", "common": "Carbon tax" },
+      "taxes": { "base": "The carbon content of fuels used for energy, per tonne of CO2.", "payer": "Fuel suppliers and users; passed on in the price." },
+      "rate": { "kind": "specific", "headline": "Per tonne of CO2", "details": [], "asOf": "2026-10-11" },
+      "explanation": "The largest green tax; receipts DKK 12.6 billion.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "dst-skat-2025" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "dk-electricity-tax",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Electricity tax (elafgift)", "native": "Elafgift", "common": "Electricity tax" },
+      "taxes": { "base": "Electricity delivered to consumers and businesses, per kilowatt-hour.", "payer": "Electricity suppliers; passed on in the bill." },
+      "rate": { "kind": "specific", "headline": "Per kWh", "details": [], "asOf": "2026-10-11" },
+      "explanation": "The second largest energy tax.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "dst-skat-2025" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "dk-gas-coal-tax",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Duties on natural gas and coal", "native": "Afgift af naturgas og kul", "common": "Gas and coal duties" },
+      "taxes": { "base": "Natural gas and coal used for energy.", "payer": "Suppliers and users." },
+      "rate": { "kind": "specific", "headline": "Per cubic metre or tonne", "details": [], "asOf": "2026-10-11" },
+      "explanation": "Natural gas DKK 1.1 billion and coal DKK 0.9 billion.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "dst-skat-2025" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "dk-registration-duty",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Motor vehicle registration duty (registreringsafgift)", "native": "Registreringsafgift", "common": "Vehicle registration duty" },
+      "taxes": { "base": "The taxable value of a new or imported car at first registration.", "payer": "The person who registers the car." },
+      "rate": {
+        "kind": "progressive",
+        "headline": "25%, 85% and 150% in three brackets",
+        "details": ["Cars with low emissions pay less; electric cars are taxed at a reduced rate."],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "One of the highest car taxes in the world.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "dst-skat-2025" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "dk-tobacco-duties",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Tobacco and nicotine duties", "native": "Tobaks- og nikotinafgifter", "common": "Tobacco duties" },
+      "taxes": { "base": "Cigarettes, cigars, cigarette paper and nicotine products.", "payer": "Manufacturers and importers; passed on in the price." },
+      "rate": {
+        "kind": "varies",
+        "headline": "A specific amount plus a share of the price",
+        "details": ["Cigarettes and tobacco DKK 6.8 billion; nicotine products DKK 0.8 billion."],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "Includes the duty on nicotine pouches and e-cigarettes.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "dst-skat-2025" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "dk-alcohol-duties",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Alcohol duties (beer, wine and spirits)", "native": "Afgifter på øl, vin og spiritus", "common": "Alcohol duties" },
+      "taxes": { "base": "Beer, wine and spirits, by volume of alcohol.", "payer": "Producers and importers; passed on in the price." },
+      "rate": {
+        "kind": "specific",
+        "headline": "Per litre of alcohol or product",
+        "details": ["Wine DKK 1.5 billion, spirits 1.1 billion and beer 0.8 billion."],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "Three duties under separate Acts, grouped.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "dst-skat-2025" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "dk-sweets-coffee-duties",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "Duties on chocolate and sugar confectionery, ice cream and coffee",
+        "native": "Afgifter på chokolade, sukkervarer, is og kaffe",
+        "common": "Sweets and coffee duties"
+      },
+      "taxes": {
+        "base": "Chocolate and sugar confectionery, ice cream and coffee, by weight or value.",
+        "payer": "Producers and importers; passed on in the price."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "By product",
+        "details": ["Chocolate and sugar confectionery DKK 2.3 billion; ice cream 0.4 billion; coffee 0.3 billion."],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "Old consumption duties that are still collected.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "dst-skat-2025" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "dk-water-tax",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Duty on piped water", "native": "Vandafgift", "common": "Water duty" },
+      "taxes": { "base": "Water delivered through the public network, per cubic metre.", "payer": "Households and businesses that use piped water." },
+      "rate": { "kind": "specific", "headline": "Per cubic metre", "details": [], "asOf": "2026-10-11" },
+      "explanation": "A State tax on water supply.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "dst-skat-2025" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "dk-other-green-duties",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "Other duties on products and pollution (pesticides, tableware, bags, containers, tyres, waste, PVC and others)",
+        "native": "Øvrige produkt- og miljøafgifter",
+        "common": "Other green duties"
+      },
+      "taxes": {
+        "base": "Pesticides, disposable tableware, carrier bags, retail containers, tyres, waste, raw materials, PVC products, solvents and several emissions.",
+        "payer": "Producers, importers and operators."
+      },
+      "rate": { "kind": "varies", "headline": "Each has its own rate", "details": [], "asOf": "2026-10-11" },
+      "explanation": "Seventeen small duties, each below 0.1% of the national total: the largest is the pesticide duty (DKK 0.8 billion).",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "dst-skat-2025" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "dk-stamp-duties",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "Stamp duties", "native": "Stempelafgifter", "common": "Stamp duties" },
+      "taxes": {
+        "base": "Documents that transfer property and certain other legal acts, above all registration of title to land (tinglysning).",
+        "payer": "The person who registers or signs."
+      },
+      "rate": { "kind": "varies", "headline": "A fixed fee plus a percentage of the price", "details": [], "asOf": "2026-10-11" },
+      "explanation": "Includes the duty paid to register title to real estate.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "dst-skat-2025" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "dk-insurance-duties",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "Duties on insurance (motor third-party liability and pleasure boats)",
+        "native": "Forsikringsafgifter",
+        "common": "Insurance duties"
+      },
+      "taxes": { "base": "Premiums for compulsory motor liability insurance and for pleasure boats.", "payer": "Insurers, passed on in the premium." },
+      "rate": { "kind": "flat", "headline": "A percentage of the premium", "details": [], "asOf": "2026-10-11" },
+      "explanation": "Motor liability DKK 1.6 billion; pleasure boats DKK 0.1 billion.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "dst-skat-2025" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "dk-gambling-duties",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "Gambling duties (online casinos, gambling, slot machines, casinos, lottery, bingo)",
+        "native": "Spilleafgifter",
+        "common": "Gambling duties"
+      },
+      "taxes": { "base": "The gaming revenue of casinos, online operators, slot machines, bingo and the state lottery.", "payer": "The licensed operators." },
+      "rate": {
+        "kind": "varies",
+        "headline": "A share of the gaming result, by game",
+        "details": ["Online casinos DKK 1.2 billion; other gambling 0.6 billion; slot machines 0.5 billion; land casinos 0.2 billion."],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "The state gaming company’s own dividend is not a tax and is left out.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "dst-skat-2025" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "dk-national-building-fund",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "other",
+      "status": "current",
+      "names": {
+        "official": "Payments to the National Building Fund (Landsbyggefonden)",
+        "native": "Bidrag til Landsbyggefonden",
+        "common": "National Building Fund contribution"
+      },
+      "taxes": {
+        "base": "The rents of social housing, collected for the National Building Fund, which finances renovation of social housing.",
+        "payer": "Social housing associations (and, through rents, tenants)."
+      },
+      "rate": { "kind": "varies", "headline": "A share of rent paid by housing associations", "details": [], "asOf": "2026-10-11" },
+      "explanation": "Statistics Denmark counts this payment among the taxes on production; it is more a contribution to a fund than a tax in the usual sense.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "dst-skat-2025" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "dk-other-small-taxes",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "other",
+      "status": "current",
+      "names": {
+        "official": "Other small taxes and charges (CO2 emission tax, emission duty, effluent charge, passenger duty, car recycling fee and others)",
+        "native": "Øvrige afgifter og gebyrer",
+        "common": "Other small taxes"
+      },
+      "taxes": {
+        "base": "Emissions of carbon dioxide and other pollutants, waste water, air passengers, scrapped cars, land development, the working environment fund, horse racing and other items.",
+        "payer": "Emitters, airlines, car owners and others."
+      },
+      "rate": { "kind": "varies", "headline": "Each has its own rate", "details": [], "asOf": "2026-10-11" },
+      "explanation": "CO2 emission tax DKK 2.2 billion; passenger duty 0.8; duty on emissions 0.7; effluent charges 0.3; car recycling fee 0.3; the rest below 0.2.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "dst-skat-2025" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "dk-municipal-income-tax",
+      "parentId": "municipalities",
+      "levelId": "municipalities",
+      "category": "tax",
+      "family": "income-personal",
+      "status": "current",
+      "names": { "official": "Municipal income tax (kommuneskat)", "native": "Kommuneskat", "common": "Municipal income tax" },
+      "taxes": { "base": "Personal income and capital income of residents, after deductions.", "payer": "Individuals; withheld with the State tax." },
+      "rate": {
+        "kind": "flat",
+        "headline": "A flat rate set by each municipality; about 25% on average",
+        "details": ["The church tax, about 0.7% on average and only for members, is separate."],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "The municipalities’ main source of revenue: DKK 328 billion, as large as the State’s own personal income tax.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "pwc-denmark-personal" }, { "sourceId": "dst-skat-2025" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "dk-land-tax",
+      "parentId": "municipalities",
+      "levelId": "municipalities",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "Municipal land tax (grundskyld)", "native": "Grundskyld", "common": "Land tax" },
+      "taxes": { "base": "The value of land (not buildings), set by the Tax Agency.", "payer": "Land owners." },
+      "rate": {
+        "kind": "range",
+        "headline": "A rate per mille of the land value, set by each municipality within legal limits",
+        "details": [],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "The only recurring tax on land in Denmark.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "dst-skat-2025" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "dk-coverage-duty",
+      "parentId": "municipalities",
+      "levelId": "municipalities",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "Coverage duty on business and public property (dækningsafgift)", "native": "Dækningsafgift", "common": "Coverage duty" },
+      "taxes": {
+        "base": "The value of business premises and publicly owned property, separately for land and buildings.",
+        "payer": "Owners of business and public property."
+      },
+      "rate": { "kind": "varies", "headline": "A rate set by each municipality within limits", "details": [], "asOf": "2026-10-11" },
+      "explanation": "A property tax on business and public property that supplements the land tax.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "dst-skat-2025" }],
+      "checkedOn": "2026-10-11"
+    }
+  ]
+}

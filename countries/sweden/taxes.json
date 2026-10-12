@@ -1,0 +1,548 @@
+{
+  "instruments": [
+    {
+      "id": "se-income-tax-state",
+      "parentId": "staten",
+      "levelId": "staten",
+      "category": "tax",
+      "family": "income-personal",
+      "status": "current",
+      "names": {
+        "official": "State income tax on individuals (national income tax and tax on capital income)",
+        "native": "Statlig inkomstskatt och skatt på kapital",
+        "common": "Personal income tax: State part"
+      },
+      "taxes": { "base": "Earned income above a threshold (national income tax) and capital income (a flat tax).", "payer": "Individuals." },
+      "rate": {
+        "kind": "progressive",
+        "headline": "20% above SEK 643,000 (2026); 30% on capital income",
+        "details": [
+          "Employment income: 0% national income tax to SEK 643,000 and 20% above, on top of the average municipal tax of 32% (2026). Capital income is generally taxed at a flat 30% (PwC).",
+          "As summarised by PwC (reviews of August and September 2026), not checked against the Swedish Tax Agency (Skatteverket)."
+        ],
+        "asOf": "2026-08-11"
+      },
+      "explanation": "The National Tax List gives one line for the income taxes of individuals (SEK 854 billion). Eurostat’s accounts place SEK 726 billion of it with the municipalities and regions (their proportional income tax) and the rest with the State.",
+      "exceptions": [],
+      "legalRefs": [
+        { "sourceId": "pwc-se-individual", "locator": "Employment income tax for residents" },
+        { "sourceId": "eurostat-taxag", "locator": "S.1311 and S.1313, D51A" }
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "se-pension-yield-taxes",
+      "parentId": "staten",
+      "levelId": "staten",
+      "category": "tax",
+      "family": "income-personal",
+      "status": "current",
+      "names": {
+        "official": "Taxes on occupational and non-occupational pension schemes and pension savings",
+        "native": "Skatt på pensionssparande (avkastningsskatt)",
+        "common": "Taxes on pension schemes"
+      },
+      "taxes": {
+        "base": "As named in the National Tax List (occupational pensions defined benefit SEK 9.3 billion, defined contribution 8.5 billion, unit-linked 5.8 billion; non-occupational individual life insurance 5.6 billion, unit-linked 2.3 billion, individual pension saving 0.7 billion); the list does not state the tax base.",
+        "payer": "Pension institutions and insurers."
+      },
+      "rate": { "kind": "varies", "headline": "Set by the Yield Tax Act", "details": [], "asOf": "2026-10-12" },
+      "explanation": "Six lines that the list books as taxes on holding gains of households.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet SE, D51C1" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "se-corporate-income-tax",
+      "parentId": "staten",
+      "levelId": "staten",
+      "category": "tax",
+      "family": "income-corporate",
+      "status": "current",
+      "names": { "official": "Corporate income tax", "native": "Bolagsskatt (statlig inkomstskatt för juridiska personer)", "common": "Corporate income tax" },
+      "taxes": { "base": "Profit of companies and other legal persons.", "payer": "Companies." },
+      "rate": {
+        "kind": "flat",
+        "headline": "20.6%",
+        "details": [
+          "Taxable income is subject to corporate tax at a flat rate of 20.6% (PwC).",
+          "As summarised by PwC (reviews of August and September 2026), not checked against the Swedish Tax Agency (Skatteverket)."
+        ],
+        "asOf": "2026-09-22"
+      },
+      "explanation": "SEK 223.5 billion in 2024.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "pwc-se-corporate", "locator": "Corporate income tax rate" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "se-general-payroll-tax",
+      "parentId": "staten",
+      "levelId": "staten",
+      "category": "tax",
+      "family": "payroll",
+      "status": "current",
+      "names": {
+        "official": "General payroll tax (the non-earmarked part of the employers’ social fees)",
+        "native": "Allmän löneavgift",
+        "common": "General payroll tax"
+      },
+      "taxes": { "base": "Remuneration to employees (and the earnings of the self-employed).", "payer": "Employers; the self-employed." },
+      "rate": {
+        "kind": "flat",
+        "headline": "Part of the 31.42% employer fees",
+        "details": [
+          "Mandatory social charges payable by employers on remuneration are levied at approximately 31.42% in all (PwC); the shares of the lines in the National Tax List are consistent with the general payroll tax being the largest component of that rate."
+        ],
+        "asOf": "2026-09-22"
+      },
+      "explanation": "The National Tax List books the employers’ fees as taxes on payroll, not as social contributions; this is the largest line, SEK 274 billion.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "pwc-se-other", "locator": "Social fees" }, { "sourceId": "ntl-2026", "locator": "sheet SE, D29C C01" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "se-employers-earmarked-fees",
+      "parentId": "staten",
+      "levelId": "staten",
+      "category": "social-contribution",
+      "family": "social-security",
+      "status": "current",
+      "names": {
+        "official": "Employers’ fees for sickness insurance, the labour market, parental insurance, survivors’ pensions and industrial injuries",
+        "native": "Arbetsgivaravgifter (sjukförsäkring, arbetsmarknad, föräldraförsäkring, efterlevandepension, arbetsskada)",
+        "common": "Earmarked employers’ social fees"
+      },
+      "taxes": {
+        "base": "Remuneration to employees. Sickness insurance SEK 82.6 billion, parental insurance 60.5 billion, labour market 57.9 billion, survivors’ pension 14.0 billion, industrial injuries 4.7 billion, and small lines including a negative miscellaneous line of SEK 3.5 billion.",
+        "payer": "Employers."
+      },
+      "rate": {
+        "kind": "flat",
+        "headline": "Part of the 31.42% employer fees",
+        "details": [
+          "Mandatory social charges payable by employers are levied at approximately 31.42%; since 1 January 2024 the lower rates for young people have been removed (PwC).",
+          "As summarised by PwC (reviews of August and September 2026), not checked against the Swedish Tax Agency (Skatteverket)."
+        ],
+        "asOf": "2026-09-22"
+      },
+      "explanation": "Statistically booked as payroll taxes, but in Sweden the money is earmarked for the social insurances.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "pwc-se-other", "locator": "Social fees" }, { "sourceId": "ntl-2026", "locator": "sheet SE, D29C" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "se-pension-fee-to-state-budget",
+      "parentId": "staten",
+      "levelId": "staten",
+      "category": "social-contribution",
+      "family": "social-security",
+      "status": "current",
+      "names": {
+        "official": "Part of the pension fee paid to the State budget",
+        "native": "Del av pensionsavgiften till statsbudgeten",
+        "common": "Pension fee to the State budget"
+      },
+      "taxes": {
+        "base": "As named in the National Tax List: the part of the employers’ pension fee that goes to the State budget rather than to the pension funds.",
+        "payer": "Employers."
+      },
+      "rate": { "kind": "flat", "headline": "Part of the 31.42% employer fees", "details": [], "asOf": "2026-10-12" },
+      "explanation": "The rest of the pension fee is in the social contributions (the compulsory employers’ pension fees to the pension funds).",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet SE, D29C C02" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "se-special-payroll-tax",
+      "parentId": "staten",
+      "levelId": "staten",
+      "category": "tax",
+      "family": "payroll",
+      "status": "current",
+      "names": {
+        "official": "Special payroll tax and the tax on salaried employees’ life insurance",
+        "native": "Särskild löneskatt",
+        "common": "Special payroll tax"
+      },
+      "taxes": { "base": "Pension premiums and pension costs beyond the mandatory system, and life insurance for salaried employees.", "payer": "Employers." },
+      "rate": {
+        "kind": "flat",
+        "headline": "About 24% on additional pension premiums",
+        "details": [
+          "A special salary tax is levied at approximately 24% on pension premiums beyond the mandatory system (PwC).",
+          "As summarised by PwC (reviews of August and September 2026), not checked against the Swedish Tax Agency (Skatteverket)."
+        ],
+        "asOf": "2026-09-22"
+      },
+      "explanation": "SEK 65 billion in 2024.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "pwc-se-other", "locator": "Social fees" }, { "sourceId": "ntl-2026", "locator": "sheet SE, D29C C03 and C04" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "se-compulsory-pension-fees",
+      "parentId": "staten",
+      "levelId": "staten",
+      "category": "social-contribution",
+      "family": "social-security",
+      "status": "current",
+      "names": {
+        "official": "Employers’ compulsory pension fees (to the pension funds)",
+        "native": "Arbetsgivarnas pensionsavgifter",
+        "common": "Compulsory pension fees"
+      },
+      "taxes": { "base": "Remuneration to employees.", "payer": "Employers." },
+      "rate": { "kind": "flat", "headline": "Part of the 31.42% employer fees", "details": [], "asOf": "2026-10-12" },
+      "explanation": "The part of the mandatory pension fee that the list books as a social contribution (SEK 165 billion); the part paid to the State budget is in the payroll lines above.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet SE, D611C C01" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "se-occupational-pension-premiums",
+      "parentId": "staten",
+      "levelId": "staten",
+      "category": "insurance-premium",
+      "family": "social-security",
+      "status": "current",
+      "names": {
+        "official": "Employers’ voluntary pension fees (occupational pensions) and other voluntary contributions",
+        "native": "Arbetsgivarnas avtalspensionsavgifter",
+        "common": "Occupational pension premiums"
+      },
+      "taxes": {
+        "base": "Premiums for occupational pensions agreed in collective agreements (SEK 52.1 billion) and other voluntary contributions (SEK 0.1 billion).",
+        "payer": "Employers."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Set by collective agreements",
+        "details": [
+          "The National Tax List includes them because they are close to compulsory in practice; PwC notes that pension benefits beyond the mandatory system are customary among most Swedish employers."
+        ],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "Included in the list although they are agreed, not legislated.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet SE, D611V" }, { "sourceId": "pwc-se-other", "locator": "Social fees" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "se-self-employed-pension",
+      "parentId": "staten",
+      "levelId": "staten",
+      "category": "social-contribution",
+      "family": "social-security",
+      "status": "current",
+      "names": {
+        "official": "Compulsory pension contributions of the self-employed",
+        "native": "Egenavgifter (pension) för egenföretagare",
+        "common": "Self-employed pension contributions"
+      },
+      "taxes": { "base": "The income of the self-employed.", "payer": "Self-employed people." },
+      "rate": { "kind": "varies", "headline": "Set by law", "details": [], "asOf": "2026-10-12" },
+      "explanation": "SEK 3.2 billion; the list gives no employees’ contributions for Sweden, because the employees’ pension charge is collected as part of the income tax.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet SE, D613CS C01" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "se-vat",
+      "parentId": "staten",
+      "levelId": "staten",
+      "category": "tax",
+      "family": "general-consumption",
+      "status": "current",
+      "names": {
+        "official": "Value added tax (central government part and the part passed to the EU)",
+        "native": "Mervärdesskatt (moms)",
+        "common": "VAT",
+        "abbreviation": "moms"
+      },
+      "taxes": { "base": "Goods and services supplied in Sweden and imports.", "payer": "Consumers; businesses charge it and claim input credits." },
+      "rate": {
+        "kind": "range",
+        "headline": "25% standard; 12% and 6% reduced",
+        "details": [
+          "The general VAT rate is 25% on most goods and services; 12% on hotel accommodation, foodstuffs, restaurant meals and low- or non-alcoholic drinks; 6% on newspapers, books, passenger transport and others (PwC).",
+          "As summarised by PwC (reviews of August and September 2026), not checked against the Swedish Tax Agency (Skatteverket)."
+        ],
+        "asOf": "2026-09-22"
+      },
+      "explanation": "The largest tax: SEK 548 billion for the central government and SEK 8 billion booked as the EU part.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "pwc-se-other", "locator": "Value-added tax" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "se-customs",
+      "parentId": "staten",
+      "levelId": "staten",
+      "category": "customs-duty",
+      "family": "trade",
+      "status": "current",
+      "names": { "official": "Import duties and levies on imported alcoholic beverages", "native": "Tullar", "common": "Customs duties" },
+      "taxes": { "base": "Goods imported from outside the EU, by the Common Customs Tariff.", "payer": "Importers." },
+      "rate": {
+        "kind": "varies",
+        "headline": "EU Common Customs Tariff",
+        "details": ["An EU own resource; Eurostat records it under the EU institutions."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "Collected for the EU budget.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "eurostat-taxag", "locator": "S.212, D212" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "se-energy-tax-fuels",
+      "parentId": "staten",
+      "levelId": "staten",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "Taxes on fuel (energy and carbon dioxide taxes) and the tax on sulphur",
+        "native": "Energiskatt och koldioxidskatt på bränsle",
+        "common": "Fuel taxes"
+      },
+      "taxes": { "base": "Petrol, diesel and other fuels, by quantity.", "payer": "Fuel suppliers; passed on at the pump." },
+      "rate": { "kind": "specific", "headline": "Per litre, with an energy and a CO₂ component", "details": [], "asOf": "2026-10-12" },
+      "explanation": "SEK 40.1 billion.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet SE, D214A C01 and C02" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "se-electricity-tax",
+      "parentId": "staten",
+      "levelId": "staten",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Tax on electrical power", "native": "Energiskatt på elektrisk kraft", "common": "Electricity tax" },
+      "taxes": { "base": "Electricity consumed.", "payer": "Electricity suppliers and consumers." },
+      "rate": { "kind": "specific", "headline": "Öre per kilowatt-hour", "details": [], "asOf": "2026-10-12" },
+      "explanation": "SEK 31.2 billion.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet SE, D214A C03" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "se-alcohol-tobacco-taxes",
+      "parentId": "staten",
+      "levelId": "staten",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Taxes on alcoholic beverages and on tobacco", "native": "Alkoholskatt och tobaksskatt", "common": "Alcohol and tobacco taxes" },
+      "taxes": {
+        "base": "Alcoholic beverages (SEK 18.0 billion) and tobacco (SEK 14.8 billion).",
+        "payer": "Producers and importers; passed on in the price."
+      },
+      "rate": { "kind": "specific", "headline": "Per litre of alcohol; per unit of tobacco", "details": [], "asOf": "2026-10-12" },
+      "explanation": "Two lines.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet SE, D214A C04 and C05" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "se-environmental-product-taxes",
+      "parentId": "staten",
+      "levelId": "staten",
+      "category": "tax",
+      "family": "resource",
+      "status": "current",
+      "names": {
+        "official": "Taxes on chemicals, pesticides, waste, plastic bags and gravel, and other excise duties",
+        "native": "Skatt på kemikalier, bekämpningsmedel, avfall, plastpåsar och naturgrus",
+        "common": "Chemicals, waste and other environmental taxes"
+      },
+      "taxes": {
+        "base": "Excise duty on chemicals (SEK 2.5 billion), waste (SEK 0.4 billion), plastic bags (SEK 0.4 billion), pesticides, other chemicals and gravel, and a small negative line of other excises.",
+        "payer": "Producers and importers of the products."
+      },
+      "rate": { "kind": "varies", "headline": "Set by law", "details": [], "asOf": "2026-10-12" },
+      "explanation": "Seven small environmental taxes.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet SE, D214L C02, C04, C05, C08, D214A C06–C08" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "se-stamp-duty",
+      "parentId": "staten",
+      "levelId": "staten",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": {
+        "official": "Stamp duty on mortgages and registrations of property, aircraft and vessels",
+        "native": "Stämpelskatt (pantbrev och lagfart)",
+        "common": "Stamp duty"
+      },
+      "taxes": {
+        "base": "Mortgage deeds and the registration of title to property (SEK 10.5 billion), corporate mortgages and registrations (SEK 0.2 billion), aircraft and vessels.",
+        "payer": "Buyers and borrowers."
+      },
+      "rate": { "kind": "varies", "headline": "A percentage of the price or the mortgage", "details": [], "asOf": "2026-10-12" },
+      "explanation": "Sweden’s tax on property transactions: SEK 10.6 billion.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet SE, D214C" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "se-gambling-monopolies",
+      "parentId": "staten",
+      "levelId": "staten",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "Tax on gambling, surplus from gambling, profits of the alcohol monopoly and lottery licences",
+        "native": "Lotteriskatt; överskott från spel; Systembolagets vinst",
+        "common": "Gambling and monopoly profits"
+      },
+      "taxes": {
+        "base": "Tax on gambling (SEK 4.8 billion), the State’s surplus from gambling (SEK 1.6 billion), the profits of the alcohol retail monopoly (SEK 0.4 billion) and lottery licences (SEK 0.05 billion).",
+        "payer": "Gambling operators and the monopolies."
+      },
+      "rate": { "kind": "varies", "headline": "Set by the gambling and alcohol laws", "details": [], "asOf": "2026-10-12" },
+      "explanation": "Four lines.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet SE, D214F C03, D214J, D29E C03" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "se-traffic-insurance-flight",
+      "parentId": "staten",
+      "levelId": "staten",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "Tax on traffic insurance premiums and the flight tax",
+        "native": "Trafikförsäkringsskatt; skatt på flygresor",
+        "common": "Traffic insurance and flight taxes"
+      },
+      "taxes": {
+        "base": "Traffic insurance premiums (SEK 2.8 billion) and air passengers (SEK 1.7 billion).",
+        "payer": "Insurers and airlines; passed on to customers."
+      },
+      "rate": { "kind": "varies", "headline": "A percentage of premiums; a set amount per passenger", "details": [], "asOf": "2026-10-12" },
+      "explanation": "Two lines.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet SE, D214G C01, D214H C02" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "se-vehicle-taxes",
+      "parentId": "staten",
+      "levelId": "staten",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "Motor vehicle tax and road tax (households and enterprises), the fee for lorries and electricity capacity fees",
+        "native": "Fordonsskatt; vägavgift; avgift för lastbilar",
+        "common": "Vehicle taxes"
+      },
+      "taxes": {
+        "base": "Motor vehicles paid by households (SEK 9.6 billion) and enterprises (SEK 5.0 billion), road tax paid by households (SEK 1.5 billion) and enterprises (SEK 1.3 billion), the fee for lorries (SEK 1.5 billion) and a small capacity fee.",
+        "payer": "Vehicle owners."
+      },
+      "rate": { "kind": "varies", "headline": "By vehicle weight, fuel and emissions", "details": [], "asOf": "2026-10-12" },
+      "explanation": "Six lines.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet SE, D59D C01 and C02, D29B C01 and C03, D29F C03, D29E C05" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "se-property-tax",
+      "parentId": "staten",
+      "levelId": "staten",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "Tax on real estate", "native": "Fastighetsskatt och kommunal fastighetsavgift", "common": "Property tax" },
+      "taxes": { "base": "Buildings and land by assessed value.", "payer": "Owners of real estate." },
+      "rate": {
+        "kind": "varies",
+        "headline": "A percentage of assessed value, with a cap for homes",
+        "details": ["The list does not give rates."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "SEK 41.4 billion. Eurostat books it under central government, although part of the fee for homes is a municipal fee.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet SE, D29A C01" }, { "sourceId": "eurostat-taxag", "locator": "S.1311, D29A" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "se-public-service-fee",
+      "parentId": "staten",
+      "levelId": "staten",
+      "category": "fee",
+      "family": "other",
+      "status": "current",
+      "names": { "official": "Public service fee paid by households", "native": "Public service-avgift", "common": "Public service fee" },
+      "taxes": { "base": "Individuals with income, to finance public service television and radio.", "payer": "Households." },
+      "rate": { "kind": "varies", "headline": "A percentage of income up to a cap", "details": [], "asOf": "2026-10-12" },
+      "explanation": "SEK 8.9 billion in 2024.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet SE, D59D C03" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "se-financial-sector-fees",
+      "parentId": "staten",
+      "levelId": "staten",
+      "category": "special-levy",
+      "family": "other",
+      "status": "current",
+      "names": {
+        "official": "Risk tax, resolution fee, deposit insurance fee and other small fees",
+        "native": "Riskskatt; resolutionsavgift; insättningsgaranti",
+        "common": "Financial-sector fees and others"
+      },
+      "taxes": {
+        "base": "The risk tax on credit institutions (SEK 6.7 billion), the resolution fee (SEK 4.3 billion), the deposit insurance fee (SEK 2.3 billion), the fee for the discharge of nitrogen (SEK 0.6 billion), the telecommunications fee and waste incineration.",
+        "payer": "Credit institutions and other operators."
+      },
+      "rate": { "kind": "varies", "headline": "Set by law", "details": [], "asOf": "2026-10-12" },
+      "explanation": "Six lines.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet SE, D29H C02, C04–C07, D29F C05" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "se-income-tax-municipal",
+      "parentId": "kommuner",
+      "levelId": "kommuner",
+      "category": "tax",
+      "family": "income-personal",
+      "status": "current",
+      "names": {
+        "official": "Municipal and regional income tax on individuals",
+        "native": "Kommunal inkomstskatt och regionskatt",
+        "common": "Municipal and regional income tax"
+      },
+      "taxes": {
+        "base": "The same earned income as the State income tax: wages, pensions and business income of residents.",
+        "payer": "Individuals; the employer withholds."
+      },
+      "rate": {
+        "kind": "range",
+        "headline": "Average 32% (2026), set by each municipality and region",
+        "details": ["The average municipal income tax rate is 32% (PwC); municipalities and regions each set their own rate."],
+        "asOf": "2026-08-11"
+      },
+      "explanation": "SEK 726 billion, 85% of the income tax on individuals in the list. It is a proportional tax collected with the State tax.",
+      "exceptions": [],
+      "legalRefs": [
+        { "sourceId": "pwc-se-individual", "locator": "Employment income tax for residents" },
+        { "sourceId": "eurostat-taxag", "locator": "S.1313, D51A" }
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  ]
+}

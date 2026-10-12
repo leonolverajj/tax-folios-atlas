@@ -1,0 +1,186 @@
+{
+  "id": "portugal",
+  "iso3": "PRT",
+  "isoNumeric": "620",
+  "names": { "en": "Portugal", "native": "Portugal", "nativeLang": "pt" },
+  "currency": { "code": "EUR", "symbol": "€", "name": "Euro" },
+  "summary": "Portugal is a unitary state with two autonomous regions (the Azores and Madeira) and 308 municipalities. The Assembly of the Republic sets nearly every tax and the Tax and Customs Authority collects them. The largest flows are the social security contributions, VAT, the personal and corporate income taxes, and a large stamp duty. Municipalities levy the property tax (IMI) and the property transfer tax (IMT), receive a share of the personal income tax and collect a tourist tax; the autonomous regions keep part of the VAT at lower rates.",
+  "structureNote": "The figures are the Commission’s National Tax List for 2024. The personal and corporate income taxes and the VAT are each drawn twice, as the State’s part and as the part that Eurostat’s accounts record under regional and local government; the two sources agree on each total. The sale of carbon trading rights (EUR 745 million) and the employers’ imputed social contributions (EUR 5,430 million) are left out. The social contributions are drawn under the State, which collects them for the Social Security.",
+  "theme": {
+    "accent": "#2ecc71",
+    "accent2": "#d62828",
+    "motif": "topo",
+    "motifNote": "Topographic contour lines over the outline of Portugal (the generic motif; no bespoke art yet).",
+    "mapLabel": { "lon": -8, "lat": 39.6 }
+  },
+  "levels": [
+    {
+      "id": "estado",
+      "branch": "national",
+      "names": { "official": "The State (Portuguese Republic)", "native": "Estado", "common": "State" },
+      "description": "The Assembly of the Republic legislates the taxes; the Tax and Customs Authority collects them and the Social Security Institute collects the contributions.",
+      "fiscalPower": "Taxes are set by law of the Assembly; the autonomous regions may adapt national taxes to their area, and municipalities set the rates of the property tax and a few local taxes within legal ranges.",
+      "legalRefs": [{ "sourceId": "ntl-2026" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "autarquias",
+      "branch": "local",
+      "names": {
+        "official": "Autonomous regions and municipalities (regional and local government)",
+        "native": "Regiões autónomas e autarquias locais",
+        "common": "Regional and local government"
+      },
+      "description": "The autonomous regions of the Azores and Madeira, which apply lower VAT and CIT rates and keep part of the taxes collected in their area, and the municipalities, which levy the IMI and the IMT and receive a share of the personal income tax.",
+      "fiscalPower": "Municipal assemblies set the IMI rate within the range of the law and decide on the tourist tax; the autonomous regions have their own tax powers under the regional statutes.",
+      "legalRefs": [{ "sourceId": "eurostat-taxag" }],
+      "checkedOn": "2026-10-12"
+    }
+  ],
+  "supportingSourceIds": [],
+  "denominators": [
+    {
+      "id": "estado-taxes-2024",
+      "label": "State taxes (National Tax List), 2024",
+      "definition": "The taxes on production and imports, on income and on capital that the National Tax List books to the State and the EU, other than the regional and local taxes and the sale of carbon trading rights; includes the State’s part of the personal and corporate income taxes and of the VAT.",
+      "levelIds": ["estado"],
+      "amount": 64931.1,
+      "scale": "million",
+      "currency": "EUR",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "ntl-2026",
+      "locator": "Sheet PT, 2024, the lines listed with each tax",
+      "calculation": "Sum of the 18 tax rows below (EUR million)",
+      "caveat": "Calendar 2024; the list's cut-off was 30 October 2025. Vintage check against Eurostat's July 2026 accounts: D2: NTL 41,895.77, Eurostat July 2026 41,895.8; D5: NTL 29,494.28, Eurostat July 2026 29,494.3; D61: NTL 35,902.82, Eurostat July 2026 35,902.8. Eurostat also books EUR 222 million of excise, EUR 67.8 million of stamp duty and EUR 72.2 million of vehicle taxes under regional and local government; the list does not say which lines, so they are drawn here.",
+      "accessed": "2026-10-12"
+    },
+    {
+      "id": "estado-social-employers-2024",
+      "label": "Social contributions paid by employers, 2024",
+      "definition": "The actual compulsory contributions of employers; imputed contributions are left out.",
+      "levelIds": ["estado"],
+      "amount": 19415.72,
+      "scale": "million",
+      "currency": "EUR",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "ntl-2026",
+      "locator": "Sheet PT, 2024, line D6111",
+      "caveat": "Calendar 2024, same list and cut-off as the taxes.",
+      "accessed": "2026-10-12"
+    },
+    {
+      "id": "estado-social-households-2024",
+      "label": "Social contributions paid by households, 2024",
+      "definition": "The actual contributions of employees and the self-employed.",
+      "levelIds": ["estado"],
+      "amount": 11056.63,
+      "scale": "million",
+      "currency": "EUR",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "ntl-2026",
+      "locator": "Sheet PT, 2024, lines D6131 and D6132",
+      "caveat": "Calendar 2024, same list and cut-off as the taxes.",
+      "accessed": "2026-10-12"
+    },
+    {
+      "id": "autarquias-irs-2024",
+      "label": "Personal income tax received by regional and local government, 2024",
+      "definition": "The part of the personal income tax that Eurostat’s accounts record under regional and local government.",
+      "levelIds": ["autarquias"],
+      "amount": 470.5,
+      "scale": "million",
+      "currency": "EUR",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "eurostat-taxag",
+      "locator": "gov_10a_taxag, 2024, S.1313, D51A, million EUR",
+      "caveat": "Eurostat July 2026 vintage, a different release from the National Tax List.",
+      "accessed": "2026-10-12"
+    },
+    {
+      "id": "autarquias-irc-2024",
+      "label": "Corporate income tax received by regional and local government, 2024",
+      "definition": "The part of the corporate income tax that Eurostat’s accounts record under regional and local government.",
+      "levelIds": ["autarquias"],
+      "amount": 798.8,
+      "scale": "million",
+      "currency": "EUR",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "eurostat-taxag",
+      "locator": "gov_10a_taxag, 2024, S.1313, D51B, million EUR",
+      "caveat": "Eurostat July 2026 vintage, a different release from the National Tax List.",
+      "accessed": "2026-10-12"
+    },
+    {
+      "id": "autarquias-vat-2024",
+      "label": "VAT recorded under regional and local government, 2024",
+      "definition": "The part of the VAT that Eurostat’s accounts record under regional and local government.",
+      "levelIds": ["autarquias"],
+      "amount": 1032,
+      "scale": "million",
+      "currency": "EUR",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "eurostat-taxag",
+      "locator": "gov_10a_taxag, 2024, S.1313, D211, million EUR",
+      "caveat": "Eurostat July 2026 vintage, a different release from the National Tax List.",
+      "accessed": "2026-10-12"
+    },
+    {
+      "id": "autarquias-imi-2024",
+      "label": "Municipal property tax (IMI), 2024",
+      "definition": "The tax on buildings and land.",
+      "levelIds": ["autarquias"],
+      "amount": 1639.18,
+      "scale": "million",
+      "currency": "EUR",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "ntl-2026",
+      "locator": "Sheet PT, 2024, line D29A C01",
+      "caveat": "Eurostat books EUR 1,489.4 million of land and building taxes under local government.",
+      "accessed": "2026-10-12"
+    },
+    {
+      "id": "autarquias-imt-2024",
+      "label": "Municipal real estate transfer tax (IMT), 2024",
+      "definition": "The tax on transfers of real estate for consideration.",
+      "levelIds": ["autarquias"],
+      "amount": 1675.36,
+      "scale": "million",
+      "currency": "EUR",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "ntl-2026",
+      "locator": "Sheet PT, 2024, line D214C C01",
+      "caveat": "Calendar 2024, same list and cut-off as the State taxes.",
+      "accessed": "2026-10-12"
+    },
+    {
+      "id": "autarquias-tourist-2024",
+      "label": "Municipal tourist tax, 2024",
+      "definition": "The tax on tourists in the municipalities that levy it.",
+      "levelIds": ["autarquias"],
+      "amount": 98.18,
+      "scale": "million",
+      "currency": "EUR",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "ntl-2026",
+      "locator": "Sheet PT, 2024, line D59B C01",
+      "caveat": "Calendar 2024, same list and cut-off as the State taxes.",
+      "accessed": "2026-10-12"
+    }
+  ],
+  "sizing": {
+    "label": "Taxes and compulsory social contributions of all levels of government",
+    "definition": "The taxes of the State and of regional and local government plus the actual social contributions, calendar 2024, as listed in the National Tax List and split by Eurostat. Excludes the sale of carbon trading rights and imputed social contributions.",
+    "componentIds": [
+      "estado-taxes-2024",
+      "estado-social-employers-2024",
+      "estado-social-households-2024",
+      "autarquias-irs-2024",
+      "autarquias-irc-2024",
+      "autarquias-vat-2024",
+      "autarquias-imi-2024",
+      "autarquias-imt-2024",
+      "autarquias-tourist-2024"
+    ]
+  },
+  "researchStatus": "researched"
+}

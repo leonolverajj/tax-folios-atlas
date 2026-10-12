@@ -1,0 +1,137 @@
+{
+  "id": "czechia",
+  "iso3": "CZE",
+  "isoNumeric": "203",
+  "names": { "en": "Czechia", "native": "Česko", "nativeLang": "cs" },
+  "currency": { "code": "CZK", "symbol": "Kč", "name": "Czech koruna" },
+  "summary": "Czechia is a unitary state in which Parliament sets every tax and the Financial Administration collects almost all of them. Social and health insurance contributions are the largest flow, then VAT and the income taxes. Municipalities and regions have little tax of their own: the real estate tax, the corporate income tax assigned to them and a set of local fees; the shared personal income tax is booked with the State in the national accounts.",
+  "structureNote": "The figures are the Commission’s National Tax List for 2024, in CZK million. The sale of emission permits (CZK 18.6 billion) and employers’ imputed social contributions (CZK 3.5 billion) are left out. The social contributions are drawn under the State. The list includes CZK 151 billion of health insurance paid by the government for people with no employer; that is a flow inside government counted as a household contribution, shown as its own line. The national tax list shows two sets of excise lines (goods from outside the EU and the rest) with the same names; both are drawn, merged by tax.",
+  "theme": {
+    "accent": "#3f7cff",
+    "accent2": "#d7141a",
+    "motif": "topo",
+    "motifNote": "Topographic contour lines over the outline of Czechia (the generic motif; no bespoke art yet).",
+    "mapLabel": { "lon": 15.5, "lat": 49.8 }
+  },
+  "levels": [
+    {
+      "id": "stat",
+      "branch": "national",
+      "names": { "official": "The State (Czech Republic)", "native": "Stát", "common": "State" },
+      "description": "Parliament legislates all taxes; the Financial Administration and Customs Administration collect them, and the Czech Social Security Administration and the health insurance companies receive the contributions.",
+      "fiscalPower": "Taxes are set by national law; municipalities set the coefficients and local fees within the limits of the law.",
+      "legalRefs": [{ "sourceId": "ntl-2026" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "samosprava",
+      "branch": "local",
+      "names": { "official": "Local self-government (municipalities and regions)", "native": "Samospráva (obce a kraje)", "common": "Local government" },
+      "description": "Municipalities and the 14 regions. They receive the real estate tax and a share of the corporate income tax, and charge local fees; they also receive a share of the shared taxes, which Eurostat’s accounts book with the State.",
+      "fiscalPower": "Municipalities decide the coefficients of the real estate tax and local fees within the limits set by law.",
+      "legalRefs": [{ "sourceId": "eurostat-taxag" }],
+      "checkedOn": "2026-10-12"
+    }
+  ],
+  "supportingSourceIds": [],
+  "denominators": [
+    {
+      "id": "stat-taxes-2024",
+      "label": "State taxes (National Tax List), 2024",
+      "definition": "The taxes on production and imports, on income and on capital that the National Tax List books to the State and the EU, other than the local lines and the sale of emission permits.",
+      "levelIds": ["stat"],
+      "amount": 1497413,
+      "scale": "million",
+      "currency": "CZK",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "ntl-2026",
+      "locator": "Sheet CZ, 2024, the lines listed with each tax",
+      "calculation": "Sum of the 19 tax rows below (CZK million)",
+      "caveat": "Calendar 2024; the list's cut-off was 30 October 2025. Vintage check against Eurostat's July 2026 accounts: D2: NTL 868,930, Eurostat July 2026 868,930; D5: NTL 684,384, Eurostat July 2026 684,384; D61: NTL 1,270,003, Eurostat July 2026 1,270,003.",
+      "accessed": "2026-10-12"
+    },
+    {
+      "id": "stat-social-employers-2024",
+      "label": "Social contributions paid by employers, 2024",
+      "definition": "The actual compulsory contributions of employers (pension, sickness, employment, accident and health insurance); imputed contributions are left out.",
+      "levelIds": ["stat"],
+      "amount": 772199,
+      "scale": "million",
+      "currency": "CZK",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "ntl-2026",
+      "locator": "Sheet CZ, 2024, lines D611C C01 to C05 and D611V",
+      "caveat": "Calendar 2024, same list and cut-off as the taxes.",
+      "accessed": "2026-10-12"
+    },
+    {
+      "id": "stat-social-households-2024",
+      "label": "Social contributions paid by households, 2024",
+      "definition": "The contributions of employees, the self-employed and voluntary insured persons, and the health insurance paid by the government for the non-employed.",
+      "levelIds": ["stat"],
+      "amount": 494334,
+      "scale": "million",
+      "currency": "CZK",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "ntl-2026",
+      "locator": "Sheet CZ, 2024, lines D613CE, D613CS, D613CN, D613V",
+      "caveat": "Calendar 2024, same list and cut-off as the taxes. CZK 151.5 billion of it is health insurance that the government pays for the non-employed.",
+      "accessed": "2026-10-12"
+    },
+    {
+      "id": "samosprava-property-2024",
+      "label": "Real estate tax of the municipalities, 2024",
+      "definition": "The tax on land and buildings, paid by businesses and by households.",
+      "levelIds": ["samosprava"],
+      "amount": 22980,
+      "scale": "million",
+      "currency": "CZK",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "ntl-2026",
+      "locator": "Sheet CZ, 2024, lines D29A C01 and D59A C01",
+      "caveat": "Eurostat books CZK 19,703 million of land and building taxes (D29A) and CZK 3,323 million of other wealth taxes (D59A) to local government.",
+      "accessed": "2026-10-12"
+    },
+    {
+      "id": "samosprava-cit-2024",
+      "label": "Corporate income tax assigned to municipalities and regions, 2024",
+      "definition": "The corporate income tax that the National Tax List labels \"for municipalities\" and \"for regions\".",
+      "levelIds": ["samosprava"],
+      "amount": 11658,
+      "scale": "million",
+      "currency": "CZK",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "ntl-2026",
+      "locator": "Sheet CZ, 2024, lines D51B C02 and C03",
+      "caveat": "Eurostat books CZK 11,658 million of corporate income tax to local government.",
+      "accessed": "2026-10-12"
+    },
+    {
+      "id": "samosprava-fees-2024",
+      "label": "Local fees, 2024",
+      "definition": "The local fees and small taxes of the municipalities.",
+      "levelIds": ["samosprava"],
+      "amount": 2736,
+      "scale": "million",
+      "currency": "CZK",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "ntl-2026",
+      "locator": "Sheet CZ, 2024, the lines listed with the fee",
+      "caveat": "Eurostat books CZK 23,012 million of taxes on production to local government in all (CZK 19,703 million is the real estate tax); the lines drawn as local fees come to CZK 2,736 million, because the list does not say which share of the administrative fees and land withdrawal fees is local.",
+      "accessed": "2026-10-12"
+    }
+  ],
+  "sizing": {
+    "label": "Taxes and compulsory social contributions of all levels of government",
+    "definition": "The taxes of the State and of local self-government plus the actual social contributions, calendar 2024, as listed in the National Tax List. Excludes the sale of emission permits and imputed social contributions.",
+    "componentIds": [
+      "stat-taxes-2024",
+      "stat-social-employers-2024",
+      "stat-social-households-2024",
+      "samosprava-property-2024",
+      "samosprava-cit-2024",
+      "samosprava-fees-2024"
+    ]
+  },
+  "researchStatus": "researched"
+}

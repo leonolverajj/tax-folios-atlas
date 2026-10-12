@@ -1,0 +1,1840 @@
+{
+ "country": "IS",
+ "source": "NTL edition 2026 web.xlsx (Commission, DG TAXUD / Eurostat)",
+ "unit": "million national currency",
+ "sector": "S.13 + S.212",
+ "totals": {
+  "D2": {
+   "name": "Taxes on production and imports",
+   "v2024": 654540.4312,
+   "v2023": 587328.1863,
+   "row": 9
+  },
+  "D21": {
+   "name": "Taxes on products",
+   "v2024": 528708.4668,
+   "v2023": 473432.4743,
+   "row": 10
+  },
+  "D211": {
+   "name": "Value added type taxes (VAT)",
+   "v2024": 423595.178,
+   "v2023": 371255.3953,
+   "row": 11
+  },
+  "D212": {
+   "name": "Taxes and duties on imports excluding VAT",
+   "v2024": 6655.7503,
+   "v2023": 6293.8454,
+   "row": 13
+  },
+  "D2121": {
+   "name": "Import duties",
+   "v2024": 6655.7503,
+   "v2023": 6293.8454,
+   "row": 14
+  },
+  "D2122": {
+   "name": "Taxes on imports, excluding VAT and import duties",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 17
+  },
+  "D2122A": {
+   "name": "Levies on imported agricultural products",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 18
+  },
+  "D2122B": {
+   "name": "Monetary compensatory amounts on imports",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 19
+  },
+  "D2122C": {
+   "name": "Excise duties",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 20
+  },
+  "D2122D": {
+   "name": "General sales taxes",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 21
+  },
+  "D2122E": {
+   "name": "Taxes on specific services",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 22
+  },
+  "D2122F": {
+   "name": "Profits of import monopolies",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 23
+  },
+  "D214": {
+   "name": "Taxes on products, except VAT and import taxes",
+   "v2024": 98457.5385,
+   "v2023": 95883.2336,
+   "row": 24
+  },
+  "D214A": {
+   "name": "Excise duties and consumption taxes",
+   "v2024": 53356.0273,
+   "v2023": 56974.7752,
+   "row": 25
+  },
+  "D214B": {
+   "name": "Stamp taxes",
+   "v2024": 29226.0154,
+   "v2023": 29577.5341,
+   "row": 37
+  },
+  "D214C": {
+   "name": "Taxes on financial and capital transactions",
+   "v2024": 11709.2662,
+   "v2023": 9331.3443,
+   "row": 40
+  },
+  "D214D": {
+   "name": "Car registration taxes",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 43
+  },
+  "D214E": {
+   "name": "Taxes on entertainment",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 44
+  },
+  "D214F": {
+   "name": "Taxes on lotteries, gambling and betting",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 48
+  },
+  "D214G": {
+   "name": "Taxes on insurance premiums",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 49
+  },
+  "D214H": {
+   "name": "Other taxes on specific services",
+   "v2024": 1306.3648,
+   "v2023": 0,
+   "row": 50
+  },
+  "D214I": {
+   "name": "General sales or turnover taxes",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 53
+  },
+  "D214J": {
+   "name": "Profits of fiscal monopolies",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 54
+  },
+  "D214K": {
+   "name": "Export duties and monetary comp. amounts on exports",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 56
+  },
+  "D214L": {
+   "name": "Other taxes on products n.e.c.",
+   "v2024": 2859.8649,
+   "v2023": -0.42,
+   "row": 58
+  },
+  "D29": {
+   "name": "Other taxes on production",
+   "v2024": 125831.9644,
+   "v2023": 113895.712,
+   "row": 63
+  },
+  "D29A": {
+   "name": "Taxes on land, buildings or other structures",
+   "v2024": 100087.2298,
+   "v2023": 90049.452,
+   "row": 64
+  },
+  "D29B": {
+   "name": "Taxes on the use of fixed assets",
+   "v2024": 2656.0864,
+   "v2023": 2002.2886,
+   "row": 75
+  },
+  "D29C": {
+   "name": "Total wage bill and payroll taxes",
+   "v2024": 11883.1849,
+   "v2023": 11531.9972,
+   "row": 81
+  },
+  "D29D": {
+   "name": "Taxes on international transactions",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 88
+  },
+  "D29E": {
+   "name": "Business and professional licences",
+   "v2024": 1338.9936,
+   "v2023": 1884.5978,
+   "row": 90
+  },
+  "D29F": {
+   "name": "Taxes on pollution",
+   "v2024": 1642.022,
+   "v2023": 643.5916,
+   "row": 95
+  },
+  "D29G": {
+   "name": "Under-compensation of VAT (flat rate system)",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 97
+  },
+  "D29H": {
+   "name": "Other taxes on production n.e.c.",
+   "v2024": 8224.4477,
+   "v2023": 7783.7848,
+   "row": 98
+  },
+  "D5": {
+   "name": "Current taxes on income wealth, etc.",
+   "v2024": 874262.8876,
+   "v2023": 829519.945,
+   "row": 110
+  },
+  "D51": {
+   "name": "Taxes on income",
+   "v2024": 849591.6985,
+   "v2023": 812220.6526,
+   "row": 111
+  },
+  "D51M": {
+   "name": "Taxes on individual or household income including holding gains",
+   "v2024": 700053.6767,
+   "v2023": 663757.8615,
+   "row": 112
+  },
+  "D51A": {
+   "name": "Taxes on individual or household income excluding holding gains(1)",
+   "v2024": 626380.1573,
+   "v2023": 593240.6797,
+   "row": 116
+  },
+  "D51C1": {
+   "name": "Taxes on individual or household holding gains(1)",
+   "v2024": 73673.5193,
+   "v2023": 70517.1818,
+   "row": 119
+  },
+  "D51O": {
+   "name": "Taxes on the income or profits of corporations including holding gains",
+   "v2024": 149538.0218,
+   "v2023": 148462.7911,
+   "row": 121
+  },
+  "D51B": {
+   "name": "Taxes on the income or profits of corporations excluding holding gains(1)",
+   "v2024": 145527.4543,
+   "v2023": 144840.5263,
+   "row": 127
+  },
+  "D51C2": {
+   "name": "Taxes on holding gains of corporations(1)",
+   "v2024": 4010.5675,
+   "v2023": 3622.2648,
+   "row": 131
+  },
+  "D51C3": {
+   "name": "Other taxes on holding gains(1)",
+   "v2024": "L",
+   "v2023": "L",
+   "row": 133
+  },
+  "D51C": {
+   "name": "Taxes on holding gains",
+   "v2024": 77684.0869,
+   "v2023": 74139.4466,
+   "row": 134
+  },
+  "D51D": {
+   "name": "Taxes on winnings from lottery or gambling",
+   "v2024": "L",
+   "v2023": "L",
+   "row": 135
+  },
+  "D51E": {
+   "name": "Other taxes on income n.e.c.",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 136
+  },
+  "D59": {
+   "name": "Other current taxes",
+   "v2024": 24671.1891,
+   "v2023": 17299.2923,
+   "row": 138
+  },
+  "D59A": {
+   "name": "Current taxes on capital",
+   "v2024": 18.2971,
+   "v2023": 0.089,
+   "row": 139
+  },
+  "D59B": {
+   "name": "Poll taxes",
+   "v2024": 9059.0393,
+   "v2023": 7190.0205,
+   "row": 146
+  },
+  "D59C": {
+   "name": "Expenditure taxes",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 149
+  },
+  "D59D": {
+   "name": "Payments by households for licences",
+   "v2024": 15593.8527,
+   "v2023": 10109.1828,
+   "row": 150
+  },
+  "D59E": {
+   "name": "Taxes on international transactions",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 154
+  },
+  "D59F": {
+   "name": "Other current taxes n.e.c.",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 155
+  },
+  "D91": {
+   "name": "Capital taxes",
+   "v2024": 26309.5476,
+   "v2023": 21303.2908,
+   "row": 157
+  },
+  "D91A": {
+   "name": "Taxes on capital transfers",
+   "v2024": 13523.1759,
+   "v2023": 11835.8907,
+   "row": 158
+  },
+  "D91B": {
+   "name": "Capital levies",
+   "v2024": 12786.3717,
+   "v2023": 9467.4001,
+   "row": 161
+  },
+  "D91C": {
+   "name": "Other capital taxes n.e.c.",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 164
+  },
+  "D61": {
+   "name": "Net social contributions",
+   "v2024": 135737.751,
+   "v2023": 130870.6866,
+   "row": 166
+  },
+  "D611": {
+   "name": "Employers' actual social contributions",
+   "v2024": 132909.8459,
+   "v2023": 128144.1799,
+   "row": 167
+  },
+  "D611C": {
+   "name": "Compulsory employers' actual social contributions",
+   "v2024": 132909.8459,
+   "v2023": 128144.1799,
+   "row": 172
+  },
+  "D611V": {
+   "name": "Voluntary employers' actual social contributions",
+   "v2024": null,
+   "v2023": null,
+   "row": 177
+  },
+  "D61SC": {
+   "name": "Social insurance scheme service charges (3)",
+   "v2024": null,
+   "v2023": null,
+   "row": 178
+  },
+  "D6111": {
+   "name": "Employers' actual pension contributions (1)",
+   "v2024": null,
+   "v2023": null,
+   "row": 179
+  },
+  "D6112": {
+   "name": "Employers' actual non-pension contributions (1)",
+   "v2024": null,
+   "v2023": null,
+   "row": 180
+  },
+  "D612": {
+   "name": "Employers' imputed social contributions",
+   "v2024": null,
+   "v2023": null,
+   "row": 181
+  },
+  "D6121": {
+   "name": "Employers' imputed pension contributions (1)",
+   "v2024": null,
+   "v2023": null,
+   "row": 182
+  },
+  "D6122": {
+   "name": "Employers' imputed non-pension contributions (1)",
+   "v2024": null,
+   "v2023": null,
+   "row": 183
+  },
+  "D613": {
+   "name": "Households' actual social contributions",
+   "v2024": null,
+   "v2023": null,
+   "row": 184
+  },
+  "D6131": {
+   "name": "Households' actual pension contributions (1)",
+   "v2024": null,
+   "v2023": null,
+   "row": 185
+  },
+  "D6132": {
+   "name": "Households' actual non-pension contributions (1)",
+   "v2024": null,
+   "v2023": null,
+   "row": 186
+  },
+  "D613C": {
+   "name": "Compulsory households' actual social contributions",
+   "v2024": null,
+   "v2023": null,
+   "row": 187
+  },
+  "D613CE": {
+   "name": "Compulsory employees' actual social contributions",
+   "v2024": null,
+   "v2023": null,
+   "row": 188
+  },
+  "D613CS": {
+   "name": "Compulsory actual social contributions by the self-employed (1)",
+   "v2024": 2827.9051,
+   "v2023": 2726.5067,
+   "row": 189
+  },
+  "D613CN": {
+   "name": "Compulsory actual social contributions by the non-employed (1)",
+   "v2024": null,
+   "v2023": null,
+   "row": 191
+  },
+  "D613V": {
+   "name": "Voluntary households' actual social contributions",
+   "v2024": null,
+   "v2023": null,
+   "row": 192
+  },
+  "D614": {
+   "name": "Households' social contributions supplements(3)",
+   "v2024": null,
+   "v2023": null,
+   "row": 193
+  },
+  "D6141": {
+   "name": "Households' pension contributions supplements (1)",
+   "v2024": null,
+   "v2023": null,
+   "row": 194
+  },
+  "D6142": {
+   "name": "Households' non-pension contributions supplements (1)",
+   "v2024": null,
+   "v2023": null,
+   "row": 195
+  },
+  "D995": {
+   "name": "Capital transfers from general government to relevant sectors representing taxes and social contributions assessed but unlikely to be collected (2)",
+   "v2024": null,
+   "v2023": null,
+   "row": 196
+  },
+  "D995A": {
+   "name": "Taxes on products assessed but unlikely to be collected (2)",
+   "v2024": null,
+   "v2023": null,
+   "row": 197
+  },
+  "D995B": {
+   "name": "Other taxes on production assessed but unlikely to be collected (2)",
+   "v2024": null,
+   "v2023": null,
+   "row": 198
+  },
+  "D995C": {
+   "name": "Taxes on income assessed but unlikely to be collected (2)",
+   "v2024": null,
+   "v2023": null,
+   "row": 199
+  },
+  "D995D": {
+   "name": "Other current taxes assessed but unlikely to be collected (2)",
+   "v2024": null,
+   "v2023": null,
+   "row": 200
+  },
+  "D995E": {
+   "name": "Employers' actual social contributions assessed but unlikely to be collected (2)",
+   "v2024": null,
+   "v2023": null,
+   "row": 201
+  },
+  "D995F": {
+   "name": "Households' actual social contributions assessed but unlikely to be collected (2)",
+   "v2024": null,
+   "v2023": null,
+   "row": 202
+  },
+  "D995FE": {
+   "name": "Employees' actual social contributions assessed but unlikely to be collected (2)",
+   "v2024": null,
+   "v2023": null,
+   "row": 203
+  },
+  "D995FS": {
+   "name": "Actual social contributions by self-employed persons assessed but unlikely to be collected (1)",
+   "v2024": null,
+   "v2023": null,
+   "row": 204
+  },
+  "D995FN": {
+   "name": "Actual social contributions by non-employed persons assessed but unlikely to be collected (1)",
+   "v2024": null,
+   "v2023": null,
+   "row": 205
+  },
+  "D995G": {
+   "name": "Capital taxes assessed but unlikely to be collected (2)",
+   "v2024": null,
+   "v2023": null,
+   "row": 206
+  }
+ },
+ "lines": [
+  {
+   "key": "D211:C01",
+   "code": "D211",
+   "sub": "C01",
+   "nat": "Virðisaukaskattur",
+   "en": "Value added tax",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 423595.178,
+   "v2023": 371255.3953,
+   "row": 12
+  },
+  {
+   "key": "D2121:C01",
+   "code": "D2121",
+   "sub": "C01",
+   "nat": "Tollar, almennir",
+   "en": "Import duties - general",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 6655.7503,
+   "v2023": 6293.8454,
+   "row": 15
+  },
+  {
+   "key": "D2121:C02",
+   "code": "D2121",
+   "sub": "C02",
+   "nat": "Aðrir tollar",
+   "en": "Other import duties",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 16
+  },
+  {
+   "key": "D214A:C01",
+   "code": "D214A",
+   "sub": "C01",
+   "nat": "Vörugjald, almennt",
+   "en": "Excise duties, general",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": -5.2934,
+   "v2023": -6.9493,
+   "row": 26
+  },
+  {
+   "key": "D214A:C02",
+   "code": "D214A",
+   "sub": "C02",
+   "nat": "Vörugjald af ökutækjum",
+   "en": "Excise duties, automobiles",
+   "fn": "C",
+   "at": "T",
+   "v2024": 10276.2465,
+   "v2023": 12891.1128,
+   "row": 27
+  },
+  {
+   "key": "D214A:C03",
+   "code": "D214A",
+   "sub": "C03",
+   "nat": "Vörugjald af bensíni og olíuvörum",
+   "en": "Excise duties, petrol and oil",
+   "fn": "C",
+   "at": "E",
+   "v2024": 4585.4473,
+   "v2023": 4215.8941,
+   "row": 28
+  },
+  {
+   "key": "D214A:C04",
+   "code": "D214A",
+   "sub": "C04",
+   "nat": "Sérstakt vörugjald af bensíni",
+   "en": "Specific excise on petrol",
+   "fn": "C",
+   "at": "E",
+   "v2024": 7175.2243,
+   "v2023": 6437.4449,
+   "row": 29
+  },
+  {
+   "key": "D214A:C05",
+   "code": "D214A",
+   "sub": "C05",
+   "nat": "Olíugjald",
+   "en": "Specific excise on oil",
+   "fn": "C",
+   "at": "E",
+   "v2024": 12521.8415,
+   "v2023": 15822.2303,
+   "row": 30
+  },
+  {
+   "key": "D214A:C06",
+   "code": "D214A",
+   "sub": "C06",
+   "nat": "Vörugjöld, umhverfisskattar",
+   "en": "Excise, environmental duties",
+   "fn": "C",
+   "at": "P",
+   "v2024": 9329.7567,
+   "v2023": 9153.6886,
+   "row": 31
+  },
+  {
+   "key": "D214A:C07",
+   "code": "D214A",
+   "sub": "C07",
+   "nat": "Flutningsjöfnunargjald",
+   "en": "Transport equalizing duties",
+   "fn": "C",
+   "at": "E",
+   "v2024": 1411.376,
+   "v2023": 1347.9459,
+   "row": 32
+  },
+  {
+   "key": "D214A:C08",
+   "code": "D214A",
+   "sub": "C08",
+   "nat": "Vörugjöld í landbúnaði",
+   "en": "Excise on agricultural products",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": -0.6483,
+   "v2023": -0.7867,
+   "row": 33
+  },
+  {
+   "key": "D214A:C09",
+   "code": "D214A",
+   "sub": "C09",
+   "nat": "Vörugjöld, eftirlitsgjöld",
+   "en": "Other excise duties",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 3.427,
+   "v2023": 7.414,
+   "row": 34
+  },
+  {
+   "key": "D214A:C10",
+   "code": "D214A",
+   "sub": "C10",
+   "nat": "Vörugjöld af rafmagni, eftirlitsgjöld",
+   "en": "Excise duties, electricity",
+   "fn": "C",
+   "at": "E",
+   "v2024": 587.2845,
+   "v2023": 304.9549,
+   "row": 35
+  },
+  {
+   "key": "D214A:C11",
+   "code": "D214A",
+   "sub": "C11",
+   "nat": "Kolefnisgjald",
+   "en": "Carbon-tax",
+   "fn": "C",
+   "at": "E",
+   "v2024": 7471.3653,
+   "v2023": 6801.8257,
+   "row": 36
+  },
+  {
+   "key": "D214B:C01",
+   "code": "D214B",
+   "sub": "C01",
+   "nat": "Vörugjöld af áfengi",
+   "en": "Excise on alcohol",
+   "fn": "C",
+   "at": "AT",
+   "v2024": 24458.2772,
+   "v2023": 24586.7315,
+   "row": 38
+  },
+  {
+   "key": "D214B:C02",
+   "code": "D214B",
+   "sub": "C02",
+   "nat": "Vörugjöld af tóbaki",
+   "en": "Excise on tobacco",
+   "fn": "C",
+   "at": "AT",
+   "v2024": 4767.7382,
+   "v2023": 4990.8027,
+   "row": 39
+  },
+  {
+   "key": "D214C:C01",
+   "code": "D214C",
+   "sub": "C01",
+   "nat": "Stimpilgjald",
+   "en": "Tax on financial and capital transactions",
+   "fn": "KS",
+   "at": "O",
+   "v2024": 8477.0765,
+   "v2023": 6542.3098,
+   "row": 41
+  },
+  {
+   "key": "D214C:C02",
+   "code": "D214C",
+   "sub": "C02",
+   "nat": "Eftirlitsgjald Fjármálaeftirlits",
+   "en": "Other tax on financial transactions",
+   "fn": "KS",
+   "at": "O",
+   "v2024": 3232.1896,
+   "v2023": 2789.0344,
+   "row": 42
+  },
+  {
+   "key": "D214E:C01",
+   "code": "D214E",
+   "sub": "C01",
+   "nat": "Skemmtanaskattur",
+   "en": "Taxes on entertainment",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 45
+  },
+  {
+   "key": "D214E:C02",
+   "code": "D214E",
+   "sub": "C02",
+   "nat": "Menningarsjóðsgjald útvarpsstöðva",
+   "en": "Cultural tax, radios",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 46
+  },
+  {
+   "key": "D214E:C03",
+   "code": "D214E",
+   "sub": "C03",
+   "nat": "Miðagjald",
+   "en": "Cultural tax, admission tax",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 47
+  },
+  {
+   "key": "D214H:C01",
+   "code": "D214H",
+   "sub": "C01",
+   "nat": "Sérstakt vörugjald vegna hafna",
+   "en": "Specific tax on harbour services",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 51
+  },
+  {
+   "key": "D214H:C02",
+   "code": "D214H",
+   "sub": "C02",
+   "nat": "Flugvallargjald",
+   "en": "Specific tax on airport services",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 1306.3648,
+   "v2023": 0,
+   "row": 52
+  },
+  {
+   "key": "D214J:C01",
+   "code": "D214J",
+   "sub": "C01",
+   "nat": "Skattur á einkasöluvörur",
+   "en": "Tax on fiscal monopolies",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 55
+  },
+  {
+   "key": "D214K:C01",
+   "code": "D214K",
+   "sub": "C01",
+   "nat": "Útflutningsgjöld",
+   "en": "Export duties on fish products",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 57
+  },
+  {
+   "key": "D214L:C01",
+   "code": "D214L",
+   "sub": "C01",
+   "nat": "Gistináttagjald",
+   "en": "Hotel accommodation tax",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 2859.8649,
+   "v2023": -0.42,
+   "row": 59
+  },
+  {
+   "key": "D214L:C02",
+   "code": "D214L",
+   "sub": "C02",
+   "nat": "Tryggingasjóðsgjald vegna byggingargalla",
+   "en": "Taxes related to construction failures",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 60
+  },
+  {
+   "key": "D214L:C03",
+   "code": "D214L",
+   "sub": "C03",
+   "nat": "Aðrir sértækir þjónustuskattar",
+   "en": "Other specific taxes on products n.e.c.",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 61
+  },
+  {
+   "key": "D214L:C04",
+   "code": "D214L",
+   "sub": "C04",
+   "nat": "Framleiðslugjald",
+   "en": "Production tax",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 62
+  },
+  {
+   "key": "D29A:C01",
+   "code": "D29A",
+   "sub": "C01",
+   "nat": "Umsýslugjald til Fasteignamats ríkisins",
+   "en": "Taxes on buildings and structures, value measuring",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": 188.1416,
+   "v2023": 678.8676,
+   "row": 65
+  },
+  {
+   "key": "D29A:C02",
+   "code": "D29A",
+   "sub": "C02",
+   "nat": "Forvarnargjald",
+   "en": "Taxes on buildings, catastrophe",
+   "fn": "KS",
+   "at": "RP",
+   "v2024": 5952.2835,
+   "v2023": 4265.9624,
+   "row": 66
+  },
+  {
+   "key": "D29A:C03",
+   "code": "D29A",
+   "sub": "C03",
+   "nat": "Brunavarnargjald",
+   "en": "Taxes on buildings and structures, fire protection",
+   "fn": "KS",
+   "at": "RP",
+   "v2024": 878.58,
+   "v2023": 862.1427,
+   "row": 67
+  },
+  {
+   "key": "D29A:C04",
+   "code": "D29A",
+   "sub": "C04",
+   "nat": "Fasteignaskattur",
+   "en": "Recurrent taxes on immovable property, buildings",
+   "fn": "KS",
+   "at": "RP",
+   "v2024": 72027.9959,
+   "v2023": 65561.485,
+   "row": 68
+  },
+  {
+   "key": "D29A:C05",
+   "code": "D29A",
+   "sub": "C05",
+   "nat": "Holræsagjald",
+   "en": "Sewage tax",
+   "fn": "KS",
+   "at": "P/RS",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 69
+  },
+  {
+   "key": "D29A:C06",
+   "code": "D29A",
+   "sub": "C06",
+   "nat": "Sorphreinsunargjald",
+   "en": "Sanitation tax",
+   "fn": "KS",
+   "at": "P",
+   "v2024": 8436.825,
+   "v2023": 7273.125,
+   "row": 70
+  },
+  {
+   "key": "D29A:C07",
+   "code": "D29A",
+   "sub": "C07",
+   "nat": "Skipulagsgjald",
+   "en": "Planning fee",
+   "fn": "KS",
+   "at": "O",
+   "v2024": 1462.0255,
+   "v2023": 1556.3337,
+   "row": 71
+  },
+  {
+   "key": "D29A:C08",
+   "code": "D29A",
+   "sub": "C08",
+   "nat": "Byggingarleyfi",
+   "en": "Tax for construction of buildings",
+   "fn": "KS",
+   "at": "O",
+   "v2024": 10738.5516,
+   "v2023": 9545.3792,
+   "row": 72
+  },
+  {
+   "key": "D29A:C09",
+   "code": "D29A",
+   "sub": "C09",
+   "nat": "Brunabótamatsgjald",
+   "en": "Taxes on buildings and structures, fire protection",
+   "fn": "KS",
+   "at": "O",
+   "v2024": 402.8268,
+   "v2023": 306.1563,
+   "row": 73
+  },
+  {
+   "key": "D29A:C10",
+   "code": "D29A",
+   "sub": "C10",
+   "nat": "Aðrir skattar á land og mannvirki ót.a.s.",
+   "en": "Taxes on land, buildings and structures, n.e.c.",
+   "fn": "KS",
+   "at": "O",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 74
+  },
+  {
+   "key": "D29B:C01",
+   "code": "D29B",
+   "sub": "C01",
+   "nat": "Þróunarsjóðsgjald",
+   "en": "Taxes on owners of ships, development",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 76
+  },
+  {
+   "key": "D29B:C02",
+   "code": "D29B",
+   "sub": "C02",
+   "nat": "Þungaskattur",
+   "en": "Taxes on cars, size",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 77
+  },
+  {
+   "key": "D29B:C03",
+   "code": "D29B",
+   "sub": "C03",
+   "nat": "Kílómetragjald",
+   "en": "Taxes on cars, kilometre",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 1881.2201,
+   "v2023": 1165.3013,
+   "row": 78
+  },
+  {
+   "key": "D29B:C04",
+   "code": "D29B",
+   "sub": "C04",
+   "nat": "Skipagjöld",
+   "en": "Taxes on ships,",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 774.8663,
+   "v2023": 836.9873,
+   "row": 79
+  },
+  {
+   "key": "D29B:C05",
+   "code": "D29B",
+   "sub": "C05",
+   "nat": "",
+   "en": "Custom Label - 05",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 80
+  },
+  {
+   "key": "D29C:C01",
+   "code": "D29C",
+   "sub": "C01",
+   "nat": "Markaðsgjald",
+   "en": "Taxes on wage bill and payroll, to finance specific adm.",
+   "fn": "LEYRS",
+   "at": "_Z",
+   "v2024": 1176.0205,
+   "v2023": 1055.885,
+   "row": 82
+  },
+  {
+   "key": "D29C:C02",
+   "code": "D29C",
+   "sub": "C02",
+   "nat": "Tryggingargjald, hluti Vinnueftirlits ríkisins",
+   "en": "Taxes on wage bill and payroll, to finance specific adm.",
+   "fn": "LEYRS",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 83
+  },
+  {
+   "key": "D29C:C03",
+   "code": "D29C",
+   "sub": "C03",
+   "nat": "Tryggingargjald, hluti Staðlaráðs",
+   "en": "Taxes on wage bill and payroll, to finance specific adm.",
+   "fn": "LEYRS",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 84
+  },
+  {
+   "key": "D29C:C04",
+   "code": "D29C",
+   "sub": "C04",
+   "nat": "Tryggingargjald, hluti Icepro",
+   "en": "Taxes on wage bill and payroll, to finance specific adm.",
+   "fn": "LEYRS",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 85
+  },
+  {
+   "key": "D29C:C05",
+   "code": "D29C",
+   "sub": "C05",
+   "nat": "Tryggingargjald, lífeyrissjóðir",
+   "en": "Taxes on wage bill and payroll, to finance specific adm.",
+   "fn": "LEYRS",
+   "at": "_Z",
+   "v2024": 6895.5851,
+   "v2023": 6784.7556,
+   "row": 86
+  },
+  {
+   "key": "D29C:C06",
+   "code": "D29C",
+   "sub": "C06",
+   "nat": "Fjársýsluskattur",
+   "en": "Taxes on payroll in financial institutions",
+   "fn": "LEYRS",
+   "at": "_Z",
+   "v2024": 3811.5794,
+   "v2023": 3691.3566,
+   "row": 87
+  },
+  {
+   "key": "D29D:C01",
+   "code": "D29D",
+   "sub": "C01",
+   "nat": "Tekjur af sölu erlends gjaldeyris",
+   "en": "Income from sale of foreign currency",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 89
+  },
+  {
+   "key": "D29E:C01",
+   "code": "D29E",
+   "sub": "C01",
+   "nat": "Skráningargjöld",
+   "en": "Registration taxes",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 794.5582,
+   "v2023": 1302.8851,
+   "row": 91
+  },
+  {
+   "key": "D29E:C02",
+   "code": "D29E",
+   "sub": "C02",
+   "nat": "Leyfi fyrir atvinnustarfsemi",
+   "en": "Taxes on permission to perform industrial activity, businesses",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 188.2585,
+   "v2023": 232.1839,
+   "row": 92
+  },
+  {
+   "key": "D29E:C03",
+   "code": "D29E",
+   "sub": "C03",
+   "nat": "Leyfi fyrir veitingu atvinnuréttinda",
+   "en": "Taxes on professional certification",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 30.099,
+   "v2023": 32.328,
+   "row": 93
+  },
+  {
+   "key": "D29E:C04",
+   "code": "D29E",
+   "sub": "C04",
+   "nat": "Leyfis- og vottorðsgjöld",
+   "en": "Other business and professional licences",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 326.0778,
+   "v2023": 317.2009,
+   "row": 94
+  },
+  {
+   "key": "D29F:C01",
+   "code": "D29F",
+   "sub": "C01",
+   "nat": "Sala losunarheimilda",
+   "en": "Emissions Trading Scheme",
+   "fn": "C",
+   "at": "E",
+   "v2024": 1642.022,
+   "v2023": 643.5916,
+   "row": 96
+  },
+  {
+   "key": "D29H:C01",
+   "code": "D29H",
+   "sub": "C01",
+   "nat": "Eftirlitsgjöld",
+   "en": "Taxes due to monitoring",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 766.2601,
+   "v2023": 555.991,
+   "row": 99
+  },
+  {
+   "key": "D29H:C02",
+   "code": "D29H",
+   "sub": "C02",
+   "nat": "Aðrir neyslu- og leyfisskattar",
+   "en": "Other taxes on use of goods etc.",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 371.0933,
+   "v2023": 434.147,
+   "row": 100
+  },
+  {
+   "key": "D29H:C03",
+   "code": "D29H",
+   "sub": "C03",
+   "nat": "Framleiðslugjald af áli",
+   "en": "Production taxes regarding aluminium",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 101
+  },
+  {
+   "key": "D29H:C04",
+   "code": "D29H",
+   "sub": "C04",
+   "nat": "Iðnaðarmálagjald",
+   "en": "Production taxes regarding industry",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 102
+  },
+  {
+   "key": "D29H:C05",
+   "code": "D29H",
+   "sub": "C05",
+   "nat": "Jöfnunargjald til Póst- og fjarskiptastofnunar",
+   "en": "Equalization taxes to mail and communication",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 38.2558,
+   "row": 103
+  },
+  {
+   "key": "D29H:C06",
+   "code": "D29H",
+   "sub": "C06",
+   "nat": "Rekstrargjald Póst- og fjarskiptastofnunar",
+   "en": "Taxes to mail and communication, operating",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 238.9407,
+   "v2023": 237.115,
+   "row": 104
+  },
+  {
+   "key": "D29H:C07",
+   "code": "D29H",
+   "sub": "C07",
+   "nat": "Rafveitueftirlitsgjald",
+   "en": "Taxes regarding electricity",
+   "fn": "_Z",
+   "at": "E",
+   "v2024": 0,
+   "v2023": 15.5528,
+   "row": 105
+  },
+  {
+   "key": "D29H:C08",
+   "code": "D29H",
+   "sub": "C08",
+   "nat": "Gjald af bankastarfsemi",
+   "en": "Bank taxes",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 6194.1598,
+   "v2023": 5892.5686,
+   "row": 106
+  },
+  {
+   "key": "D29H:C09",
+   "code": "D29H",
+   "sub": "C09",
+   "nat": "Gjald á lánastofnanir til umboðsmanns skuldara",
+   "en": "Specific additional taxes on financial institutions",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 301.3855,
+   "v2023": 279.5308,
+   "row": 107
+  },
+  {
+   "key": "D29H:C10",
+   "code": "D29H",
+   "sub": "C10",
+   "nat": "Gjald rekstrarleyfishafa sjókvíaeldis",
+   "en": "Taxes on aquaculture license holder",
+   "fn": "_Z",
+   "at": "RS",
+   "v2024": 352.6084,
+   "v2023": 330.6238,
+   "row": 108
+  },
+  {
+   "key": "D29H:C11",
+   "code": "D29H",
+   "sub": "C11",
+   "nat": "Viðbót við sérstakan skatt á fjármálafyrirtæki",
+   "en": "Specific additional taxes on financial institutions",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 109
+  },
+  {
+   "key": "D51M:C01",
+   "code": "D51M",
+   "sub": "C01",
+   "nat": "Tekjuskattur einstaklinga og staðgreiðsla",
+   "en": "Income taxes on individuals",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 626380.1573,
+   "v2023": 593240.6797,
+   "row": 113
+  },
+  {
+   "key": "D51M:C02",
+   "code": "D51M",
+   "sub": "C02",
+   "nat": "Sérstakur tekjuskattur",
+   "en": "Specific income tax on individuals",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 114
+  },
+  {
+   "key": "D51M:C03",
+   "code": "D51M",
+   "sub": "C03",
+   "nat": "Skattur á fjármagnstekjur, einstaklingar",
+   "en": "Taxes on capital gain, individuals",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 73673.5193,
+   "v2023": 70517.1818,
+   "row": 115
+  },
+  {
+   "key": "D51A:C01",
+   "code": "D51A",
+   "sub": "C01",
+   "nat": "Tekjuskattur einstaklinga og staðgreiðsla",
+   "en": "Income taxes on individuals",
+   "fn": "SPLIT1",
+   "at": "_Z",
+   "v2024": 626380.1573,
+   "v2023": 593240.6797,
+   "row": 117
+  },
+  {
+   "key": "D51A:C02",
+   "code": "D51A",
+   "sub": "C02",
+   "nat": "Sérstakur tekjuskattur",
+   "en": "Specific income tax on individuals",
+   "fn": "SPLIT1",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 118
+  },
+  {
+   "key": "D51C1:C01",
+   "code": "D51C1",
+   "sub": "C01",
+   "nat": "Skattur á fjármagnstekjur, einstaklingar",
+   "en": "Taxes on capital gain, individuals",
+   "fn": "SPLIT1",
+   "at": "_Z",
+   "v2024": 73673.5193,
+   "v2023": 70517.1818,
+   "row": 120
+  },
+  {
+   "key": "D51O:C01",
+   "code": "D51O",
+   "sub": "C01",
+   "nat": "Tekjuskattur lögaðila",
+   "en": "Income taxes on corporations",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 138489.5328,
+   "v2023": 138734.5096,
+   "row": 122
+  },
+  {
+   "key": "D51O:C02",
+   "code": "D51O",
+   "sub": "C02",
+   "nat": "Skattur á fjármagnstekjur, lögaðilar",
+   "en": "Taxes on property incomes, corporations",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 4010.5675,
+   "v2023": 3622.2648,
+   "row": 123
+  },
+  {
+   "key": "D51O:C03",
+   "code": "D51O",
+   "sub": "C03",
+   "nat": "Sérstakur fjársýsluskattur",
+   "en": "Special income tax on financial institutions",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 7037.9215,
+   "v2023": 6106.0167,
+   "row": 124
+  },
+  {
+   "key": "D51O:C04",
+   "code": "D51O",
+   "sub": "C04",
+   "nat": "Hlutdeild í tekjuskatti World Minerals Island ehf",
+   "en": "Taxes on the profits of World Mineral Iceland",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 125
+  },
+  {
+   "key": "D51O:C05",
+   "code": "D51O",
+   "sub": "C05",
+   "nat": "",
+   "en": "Custom Label - 05",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 126
+  },
+  {
+   "key": "D51B:C01",
+   "code": "D51B",
+   "sub": "C01",
+   "nat": "Tekjuskattur lögaðila",
+   "en": "Income taxes on corporations",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 138489.5328,
+   "v2023": 138734.5096,
+   "row": 128
+  },
+  {
+   "key": "D51B:C02",
+   "code": "D51B",
+   "sub": "C02",
+   "nat": "Sérstakur fjársýsluskattur",
+   "en": "Special income tax on financial institutions",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 7037.9215,
+   "v2023": 6106.0167,
+   "row": 129
+  },
+  {
+   "key": "D51B:C03",
+   "code": "D51B",
+   "sub": "C03",
+   "nat": "Hlutdeild í tekjuskatti World Minerals Island ehf",
+   "en": "Taxes on the profits of World Mineral Iceland",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 130
+  },
+  {
+   "key": "D51C2:C01",
+   "code": "D51C2",
+   "sub": "C01",
+   "nat": "Skattur á fjármagnstekjur, lögaðilar",
+   "en": "Taxes on capital gain incomes, corporations",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 4010.5675,
+   "v2023": 3622.2648,
+   "row": 132
+  },
+  {
+   "key": "D51E:C01",
+   "code": "D51E",
+   "sub": "C01",
+   "nat": "Skattur á fjármagnstekjur, annað",
+   "en": "Taxes on capital gain, not classified",
+   "fn": "KIH",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 137
+  },
+  {
+   "key": "D59A:C01",
+   "code": "D59A",
+   "sub": "C01",
+   "nat": "Eignarskattur, einstaklingar",
+   "en": "Current tax on capital, individual",
+   "fn": "KS",
+   "at": "O",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 140
+  },
+  {
+   "key": "D59A:C02",
+   "code": "D59A",
+   "sub": "C02",
+   "nat": "Eignarskattur, lögaðila",
+   "en": "Current tax on capital, corporations",
+   "fn": "KS",
+   "at": "O",
+   "v2024": 18.2081,
+   "v2023": 0,
+   "row": 141
+  },
+  {
+   "key": "D59A:C03",
+   "code": "D59A",
+   "sub": "C03",
+   "nat": "Sérstakur eignarskattur, einstaklingar",
+   "en": "Specific tax on capital, individuals",
+   "fn": "KS",
+   "at": "O",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 142
+  },
+  {
+   "key": "D59A:C04",
+   "code": "D59A",
+   "sub": "C04",
+   "nat": "Sérstakur eignarskattur, lögaðilar",
+   "en": "Specific tax on capital, corporations",
+   "fn": "KS",
+   "at": "O",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 143
+  },
+  {
+   "key": "D59A:C05",
+   "code": "D59A",
+   "sub": "C05",
+   "nat": "Auðlegðarskattur",
+   "en": "Net wealth tax",
+   "fn": "KS",
+   "at": "O",
+   "v2024": 0.089,
+   "v2023": 0.089,
+   "row": 144
+  },
+  {
+   "key": "D59A:C06",
+   "code": "D59A",
+   "sub": "C06",
+   "nat": "Sérstakt gjald í lífeyrissjóði",
+   "en": "Particular tax on pension funds",
+   "fn": "KS",
+   "at": "O",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 145
+  },
+  {
+   "key": "D59B:C01",
+   "code": "D59B",
+   "sub": "C01",
+   "nat": "Gjald í Framkvæmdasjóð aldraðra",
+   "en": "Poll tax, Construction Fund for elderly",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 3213.9997,
+   "v2023": 2645.329,
+   "row": 147
+  },
+  {
+   "key": "D59B:C02",
+   "code": "D59B",
+   "sub": "C02",
+   "nat": "Útvarpsgjald",
+   "en": "Poll tax, Radio",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 5845.0396,
+   "v2023": 4544.6915,
+   "row": 148
+  },
+  {
+   "key": "D59D:C01",
+   "code": "D59D",
+   "sub": "C01",
+   "nat": "Bifreiðagjöld",
+   "en": "Taxes on cars",
+   "fn": "C",
+   "at": "T",
+   "v2024": 12961.8764,
+   "v2023": 10039.8929,
+   "row": 151
+  },
+  {
+   "key": "D59D:C02",
+   "code": "D59D",
+   "sub": "C02",
+   "nat": "Leyfi vegna gæludýra",
+   "en": "Fees for permission to keep pets",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 72.7544,
+   "v2023": 69.2899,
+   "row": 152
+  },
+  {
+   "key": "D59D:C03",
+   "code": "D59D",
+   "sub": "C03",
+   "nat": "Kílómetragjald - rafmagnsbílar",
+   "en": "Taxes on electric cars - kilometre fee",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 2559.222,
+   "v2023": "M",
+   "row": 153
+  },
+  {
+   "key": "D59F:C01",
+   "code": "D59F",
+   "sub": "C01",
+   "nat": "Ýmir skattar ót.a.s.",
+   "en": "Other current taxes n.e.c.",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 156
+  },
+  {
+   "key": "D91A:C01",
+   "code": "D91A",
+   "sub": "C01",
+   "nat": "Skipulagsgjald",
+   "en": "Taxes on new constructions",
+   "fn": "KS",
+   "at": "O",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 159
+  },
+  {
+   "key": "D91A:C02",
+   "code": "D91A",
+   "sub": "C02",
+   "nat": "Erfðafjárskattur",
+   "en": "Inheritance tax",
+   "fn": "KS",
+   "at": "O",
+   "v2024": 13523.1759,
+   "v2023": 11835.8907,
+   "row": 160
+  },
+  {
+   "key": "D91B:C01",
+   "code": "D91B",
+   "sub": "C01",
+   "nat": "Stöðugleikaframlag (2016)",
+   "en": "Stabilization contribution new 2016",
+   "fn": "KS",
+   "at": "O",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 162
+  },
+  {
+   "key": "D91B:C02",
+   "code": "D91B",
+   "sub": "C02",
+   "nat": "Gatnagerðargjöld",
+   "en": "Tax on land and building to finance the road system",
+   "fn": "KS",
+   "at": "O",
+   "v2024": 12786.3717,
+   "v2023": 9467.4001,
+   "row": 163
+  },
+  {
+   "key": "D611:C01",
+   "code": "D611",
+   "sub": "C01",
+   "nat": "Tryggingagjald, almennt, hluti",
+   "en": "Social contributions, general",
+   "fn": "LEYRS",
+   "at": "_Z",
+   "v2024": 100551.3246,
+   "v2023": 98222.0655,
+   "row": 168
+  },
+  {
+   "key": "D611:C02",
+   "code": "D611",
+   "sub": "C02",
+   "nat": "Atvinnutryggingagjald",
+   "en": "Social contributions, unemployment",
+   "fn": "LEYRS",
+   "at": "_Z",
+   "v2024": 30922.3265,
+   "v2023": 28487.0907,
+   "row": 169
+  },
+  {
+   "key": "D611:C03",
+   "code": "D611",
+   "sub": "C03",
+   "nat": "Ábyrgðargjald atvinnurekenda vegna launa",
+   "en": "Social contributions, wages in bankruptcy",
+   "fn": "LEYRS",
+   "at": "_Z",
+   "v2024": 1175.932,
+   "v2023": 1055.6423,
+   "row": 170
+  },
+  {
+   "key": "D611:C04",
+   "code": "D611",
+   "sub": "C04",
+   "nat": "Slysatr.iðgjald útgerðarm. af launum og aflahlut sjómanna",
+   "en": "Social contributions, sailors",
+   "fn": "LEYRS",
+   "at": "_Z",
+   "v2024": 260.2627,
+   "v2023": 379.3815,
+   "row": 171
+  },
+  {
+   "key": "D611C:C01",
+   "code": "D611C",
+   "sub": "C01",
+   "nat": "Tryggingagjald, almennt, hluti",
+   "en": "Social contributions, general",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 100551.3246,
+   "v2023": 98222.0655,
+   "row": 173
+  },
+  {
+   "key": "D611C:C02",
+   "code": "D611C",
+   "sub": "C02",
+   "nat": "Atvinnutryggingagjald",
+   "en": "Social contributions, unemployment",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 30922.3265,
+   "v2023": 28487.0907,
+   "row": 174
+  },
+  {
+   "key": "D611C:C03",
+   "code": "D611C",
+   "sub": "C03",
+   "nat": "Ábyrgðargjald atvinnurekenda vegna launa",
+   "en": "Social contributions, wages in bankruptcy",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 1175.932,
+   "v2023": 1055.6423,
+   "row": 175
+  },
+  {
+   "key": "D611C:C04",
+   "code": "D611C",
+   "sub": "C04",
+   "nat": "Slysatr.iðgjald útgerðarm. af launum og aflahlut sjómanna",
+   "en": "Social contributions, sailors",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 260.2627,
+   "v2023": 379.3815,
+   "row": 176
+  },
+  {
+   "key": "D613CS:C01",
+   "code": "D613CS",
+   "sub": "C01",
+   "nat": "Tryggingagjöld sjálfstætt starfandi, greidd",
+   "en": "Compulsory actual social contributions by the self-employed (1)",
+   "fn": "KISE",
+   "at": "_Z",
+   "v2024": 2827.9051,
+   "v2023": 2726.5067,
+   "row": 190
+  }
+ ]
+}

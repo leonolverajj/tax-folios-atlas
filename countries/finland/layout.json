@@ -1,0 +1,98 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "finland": {
+      "x": 800,
+      "y": 500
+    },
+    "state": {
+      "x": 509,
+      "y": 432
+    },
+    "fi-state-income-tax": {
+      "x": 839,
+      "y": 798
+    },
+    "fi-inheritance-gift-tax": {
+      "x": 462,
+      "y": 748
+    },
+    "fi-energy-taxes": {
+      "x": 289,
+      "y": 519
+    },
+    "fi-insurance-premium-tax": {
+      "x": 424,
+      "y": 276
+    },
+    "fi-soft-drink-tax": {
+      "x": 793,
+      "y": 170
+    },
+    "fi-pension-contributions": {
+      "x": 1160,
+      "y": 266
+    },
+    "fi-corporate-tax": {
+      "x": 570,
+      "y": 915
+    },
+    "fi-transfer-tax": {
+      "x": 176,
+      "y": 696
+    },
+    "fi-alcohol-tax": {
+      "x": 182,
+      "y": 345
+    },
+    "fi-vehicle-tax": {
+      "x": 524,
+      "y": 87
+    },
+    "fi-lottery-tax": {
+      "x": 1082,
+      "y": 91
+    },
+    "fi-other-social-contributions": {
+      "x": 1449,
+      "y": 340
+    },
+    "fi-interest-withholding": {
+      "x": 890,
+      "y": 926
+    },
+    "fi-vat": {
+      "x": 100,
+      "y": 841
+    },
+    "fi-tobacco-tax": {
+      "x": 68,
+      "y": 302
+    },
+    "fi-car-tax": {
+      "x": 622,
+      "y": 32
+    },
+    "fi-small-taxes": {
+      "x": 1431,
+      "y": 107
+    },
+    "municipalities": {
+      "x": 1091,
+      "y": 568
+    },
+    "fi-municipal-income-tax": {
+      "x": 1265,
+      "y": 499
+    },
+    "fi-property-tax": {
+      "x": 1208,
+      "y": 710
+    }
+  },
+  "radii": {}
+}

@@ -1,0 +1,106 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "latvia": {
+      "x": 800,
+      "y": 500
+    },
+    "valsts": {
+      "x": 509,
+      "y": 432
+    },
+    "lv-pit-state": {
+      "x": 853,
+      "y": 755
+    },
+    "lv-social-self-employed": {
+      "x": 399,
+      "y": 705
+    },
+    "lv-excise-tobacco": {
+      "x": 319,
+      "y": 388
+    },
+    "lv-vehicle-taxes": {
+      "x": 698,
+      "y": 177
+    },
+    "lv-register-duties": {
+      "x": 1159,
+      "y": 265
+    },
+    "lv-cit": {
+      "x": 504,
+      "y": 905
+    },
+    "lv-vat": {
+      "x": 112,
+      "y": 558
+    },
+    "lv-excise-alcohol": {
+      "x": 356,
+      "y": 155
+    },
+    "lv-natural-resources": {
+      "x": 1013,
+      "y": 123
+    },
+    "lv-inheritance-gift": {
+      "x": 1469,
+      "y": 362
+    },
+    "lv-social-employers": {
+      "x": 890,
+      "y": 890
+    },
+    "lv-customs": {
+      "x": 106,
+      "y": 799
+    },
+    "lv-excise-other": {
+      "x": 77,
+      "y": 327
+    },
+    "lv-oil-reserve-fee": {
+      "x": 617,
+      "y": 32
+    },
+    "lv-other-duties": {
+      "x": 1417,
+      "y": 97
+    },
+    "lv-social-employees": {
+      "x": 204,
+      "y": 908
+    },
+    "lv-excise-oil": {
+      "x": 68,
+      "y": 230
+    },
+    "lv-gambling": {
+      "x": 949,
+      "y": 32
+    },
+    "lv-financial-levies": {
+      "x": 1481,
+      "y": 453
+    },
+    "pasvaldibas": {
+      "x": 1091,
+      "y": 568
+    },
+    "lv-pit-municipal": {
+      "x": 1274,
+      "y": 499
+    },
+    "lv-property-tax": {
+      "x": 1210,
+      "y": 710
+    }
+  },
+  "radii": {}
+}

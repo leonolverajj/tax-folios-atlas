@@ -1,0 +1,117 @@
+{
+  "id": "luxembourg",
+  "iso3": "LUX",
+  "isoNumeric": "442",
+  "names": { "en": "Luxembourg", "native": "Lëtzebuerg", "nativeLang": "lb" },
+  "currency": { "code": "EUR", "symbol": "€", "name": "Euro" },
+  "summary": "Luxembourg is a unitary state in which the State legislates and collects nearly everything. The social contributions are the largest flow, followed by the personal income tax, VAT, corporation tax and some unusual lines: a tax on company securities and a net wealth tax on companies. The communes live on one tax, the municipal business (trade) tax, which brings in 96% of their taxes.",
+  "structureNote": "The figures are the Commission’s National Tax List for 2024. Imputed social contributions of employers (EUR 1,101 million) and the sale of emission permits (EUR 13.5 million) are left out. The social contributions are drawn under the State. The level of each tax follows Eurostat’s accounts: only the municipal business tax, the property taxes and a few small taxes are communal.",
+  "theme": {
+    "accent": "#00a3e0",
+    "accent2": "#ed2939",
+    "motif": "topo",
+    "motifNote": "Topographic contour lines over the outline of Luxembourg (the generic motif; no bespoke art yet).",
+    "mapLabel": { "lon": 6.1, "lat": 49.8 }
+  },
+  "levels": [
+    {
+      "id": "etat",
+      "branch": "national",
+      "names": { "official": "The State (Grand Duchy)", "native": "État", "common": "State" },
+      "description": "The Chamber of Deputies legislates all taxes. The direct tax administration (ACD), the indirect tax administration (AED) and customs collect them, and the Joint Social Security Centre (CCSS) collects the social contributions.",
+      "fiscalPower": "All taxes are set by law; communes may only apply the municipal multipliers and the few taxes the law gives them.",
+      "legalRefs": [{ "sourceId": "ntl-2026" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "communes",
+      "branch": "local",
+      "names": { "official": "Communes (municipalities)", "native": "Gemengen · Communes", "common": "Communes" },
+      "description": "The only tier below the State. They levy the municipal business tax and the property tax with municipal multipliers and a few small taxes.",
+      "fiscalPower": "The law lets each commune set the multiplier of the municipal business tax and of the property tax.",
+      "legalRefs": [{ "sourceId": "eurostat-taxag" }],
+      "checkedOn": "2026-10-12"
+    }
+  ],
+  "supportingSourceIds": [],
+  "denominators": [
+    {
+      "id": "etat-taxes-2024",
+      "label": "State taxes (National Tax List), 2024",
+      "definition": "The taxes on production and imports, on income and wealth, and on capital that the National Tax List books to the State and the EU, other than the communal taxes and the sale of emission permits.",
+      "levelIds": ["etat"],
+      "amount": 24686.72,
+      "scale": "million",
+      "currency": "EUR",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "ntl-2026",
+      "locator": "Sheet LU, 2024, the lines listed with each tax",
+      "calculation": "Sum of the 19 tax rows below (EUR million)",
+      "caveat": "Calendar 2024; the list's cut-off was 30 October 2025. Vintage check against Eurostat's July 2026 accounts: D2: NTL 9,796.47, Eurostat July 2026 9,796.4; D5: NTL 16,467.75, Eurostat July 2026 16,464.2; D61: NTL 10,440.15, Eurostat July 2026 10,441.6.",
+      "accessed": "2026-10-12"
+    },
+    {
+      "id": "etat-social-employers-2024",
+      "label": "Social contributions paid by employers, 2024",
+      "definition": "The actual compulsory contributions of employers; imputed contributions are left out.",
+      "levelIds": ["etat"],
+      "amount": 3772.53,
+      "scale": "million",
+      "currency": "EUR",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "ntl-2026",
+      "locator": "Sheet LU, 2024, subtotal D611",
+      "caveat": "Calendar 2024, same list and cut-off as the taxes.",
+      "accessed": "2026-10-12"
+    },
+    {
+      "id": "etat-social-households-2024",
+      "label": "Social contributions paid by households, 2024",
+      "definition": "The actual contributions of employees, the self-employed, the non-employed and voluntary insured persons.",
+      "levelIds": ["etat"],
+      "amount": 5566.25,
+      "scale": "million",
+      "currency": "EUR",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "ntl-2026",
+      "locator": "Sheet LU, 2024, lines D613CE, D613CN, D613CS, D613V",
+      "caveat": "Calendar 2024, same list and cut-off as the taxes.",
+      "accessed": "2026-10-12"
+    },
+    {
+      "id": "communes-business-tax-2024",
+      "label": "Municipal business tax, 2024",
+      "definition": "The municipal business (trade) tax, which the National Tax List books with the taxes on the income of corporations.",
+      "levelIds": ["communes"],
+      "amount": 1633.36,
+      "scale": "million",
+      "currency": "EUR",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "ntl-2026",
+      "locator": "Sheet LU, 2024, line D51B C03",
+      "caveat": "Eurostat books EUR 1,640.4 million of taxes on income to local government.",
+      "accessed": "2026-10-12"
+    },
+    {
+      "id": "communes-other-taxes-2024",
+      "label": "Property taxes and small taxes of the communes, 2024",
+      "definition": "The property taxes and the small communal taxes (tourist tax, casino levy, surtax on property transfers and others).",
+      "levelIds": ["communes"],
+      "amount": 64.95,
+      "scale": "million",
+      "currency": "EUR",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "ntl-2026",
+      "locator": "Sheet LU, 2024, the lines listed with each tax",
+      "calculation": "Sum of the communal rows below (EUR million)",
+      "caveat": "Eurostat books EUR 64.3 million of taxes on production and on wealth (D2 + D59A) to local government; the lines here come to EUR 64.95 million.",
+      "accessed": "2026-10-12"
+    }
+  ],
+  "sizing": {
+    "label": "Taxes and compulsory social contributions of all levels of government",
+    "definition": "The taxes of the State and the communes plus the actual social contributions, calendar 2024, as listed in the National Tax List. Excludes the sale of emission permits and imputed social contributions.",
+    "componentIds": ["etat-taxes-2024", "etat-social-employers-2024", "etat-social-households-2024", "communes-business-tax-2024", "communes-other-taxes-2024"]
+  },
+  "researchStatus": "researched"
+}

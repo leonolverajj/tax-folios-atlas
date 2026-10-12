@@ -1,0 +1,31 @@
+{
+  "nodes": {
+    "sweden": { "label": "Sweden", "sublabel": "Sverige · Fiscal folio", "glyph": "globe" },
+    "staten": { "label": "State", "sublabel": "Staten", "glyph": "landmark" },
+    "kommuner": { "label": "Municipalities and regions", "sublabel": "Kommuner", "glyph": "town" },
+    "se-income-tax-state": { "label": "Income tax (State)", "sublabel": "20% · 30%", "glyph": "person" },
+    "se-pension-yield-taxes": { "label": "Taxes on pension schemes", "sublabel": "Yield taxes", "glyph": "coin" },
+    "se-corporate-income-tax": { "label": "Corporate income tax", "sublabel": "20.6%", "glyph": "factory" },
+    "se-general-payroll-tax": { "label": "General payroll tax", "sublabel": "Employer fees", "glyph": "scroll" },
+    "se-employers-earmarked-fees": { "label": "Earmarked employer fees", "sublabel": "Sickness · parental", "glyph": "heart" },
+    "se-pension-fee-to-state-budget": { "label": "Pension fee to State", "sublabel": "State budget", "glyph": "heart" },
+    "se-special-payroll-tax": { "label": "Special payroll tax", "sublabel": "≈24% on pensions", "glyph": "scroll" },
+    "se-compulsory-pension-fees": { "label": "Compulsory pension fees", "sublabel": "Pension funds", "glyph": "heart" },
+    "se-occupational-pension-premiums": { "label": "Occupational pension premiums", "sublabel": "Agreed", "glyph": "heart" },
+    "se-self-employed-pension": { "label": "Self-employed pension", "sublabel": "Contributions", "glyph": "heart" },
+    "se-vat": { "label": "VAT", "sublabel": "25%", "glyph": "cart" },
+    "se-customs": { "label": "Customs duties", "sublabel": "EU tariff", "glyph": "ship" },
+    "se-energy-tax-fuels": { "label": "Fuel taxes", "sublabel": "Energy · CO₂", "glyph": "flame" },
+    "se-electricity-tax": { "label": "Electricity tax", "sublabel": "Per kWh", "glyph": "bolt" },
+    "se-alcohol-tobacco-taxes": { "label": "Alcohol and tobacco taxes", "sublabel": "Excises", "glyph": "wine" },
+    "se-environmental-product-taxes": { "label": "Chemicals and waste taxes", "sublabel": "Environmental", "glyph": "leaf" },
+    "se-stamp-duty": { "label": "Stamp duty", "sublabel": "Property", "glyph": "stamp" },
+    "se-gambling-monopolies": { "label": "Gambling and monopolies", "sublabel": "Gambling · Systembolaget", "glyph": "dice" },
+    "se-traffic-insurance-flight": { "label": "Insurance and flight taxes", "sublabel": "Traffic · air", "glyph": "plane" },
+    "se-vehicle-taxes": { "label": "Vehicle taxes", "sublabel": "Motor vehicles · road", "glyph": "car" },
+    "se-property-tax": { "label": "Property tax", "sublabel": "Real estate", "glyph": "house" },
+    "se-public-service-fee": { "label": "Public service fee", "sublabel": "TV and radio", "glyph": "scroll" },
+    "se-financial-sector-fees": { "label": "Financial-sector fees", "sublabel": "Risk tax · resolution", "glyph": "bank" },
+    "se-income-tax-municipal": { "label": "Municipal income tax", "sublabel": "≈32%", "glyph": "person" }
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "id": "hungary",
+  "iso3": "HUN",
+  "isoNumeric": "348",
+  "names": { "en": "Hungary", "native": "Magyarország", "nativeLang": "hu" },
+  "currency": { "code": "HUF", "symbol": "Ft", "name": "Hungarian forint" },
+  "summary": "Hungary is a unitary state: Parliament sets the taxes and the National Tax and Customs Administration (NAV) collects them. It has a 27% standard VAT rate, a 15% flat personal income tax, a 9% corporate tax, and a set of sector-specific special taxes on banks, energy companies, retailers and others. Municipalities live on the local business tax, which brings in four-fifths of their taxes, and on property taxes.",
+  "structureNote": "The figures are the Commission’s National Tax List for 2024, in HUF million. The sale of emission allowances (HUF 167.6 billion) and the employers’ imputed contributions for sick leave (HUF 49.1 billion) are left out. The social contributions are drawn under the State. The list splits the excises of the central budget into four lines by product; those are drawn and not the total, which they add up to. The local business tax is booked in the list as a general tax on sales, which is why it appears among the taxes on products.",
+  "theme": {
+    "accent": "#477050",
+    "accent2": "#ce2939",
+    "motif": "topo",
+    "motifNote": "Topographic contour lines over the outline of Hungary (the generic motif; no bespoke art yet).",
+    "mapLabel": { "lon": 19.4, "lat": 47.1 }
+  },
+  "levels": [
+    {
+      "id": "allam",
+      "branch": "national",
+      "names": { "official": "The State (Hungary)", "native": "Állam", "common": "State" },
+      "description": "Parliament legislates all taxes; the National Tax and Customs Administration (NAV) collects them and the social contributions, which fund the pension insurance and the health insurance funds.",
+      "fiscalPower": "Taxes are set by law; municipalities may impose local taxes up to the ceilings in the Local Taxes Act.",
+      "legalRefs": [{ "sourceId": "ntl-2026" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "onkormanyzat",
+      "branch": "local",
+      "names": { "official": "Local governments (municipalities)", "native": "Önkormányzatok", "common": "Local governments" },
+      "description": "The municipalities (settlements and towns). They levy the local business tax, the building and land taxes, the tourism tax and the communal tax within the legal ceilings.",
+      "fiscalPower": "The Local Taxes Act lets municipal councils decide which local taxes to levy and at what rate, up to a ceiling.",
+      "legalRefs": [{ "sourceId": "eurostat-taxag" }],
+      "checkedOn": "2026-10-12"
+    }
+  ],
+  "supportingSourceIds": [],
+  "denominators": [
+    {
+      "id": "allam-taxes-2024",
+      "label": "State taxes (National Tax List), 2024",
+      "definition": "The taxes on production and imports, on income and on capital that the National Tax List books to the State and the EU, other than the municipal taxes and the sale of emission allowances.",
+      "levelIds": ["allam"],
+      "amount": 18487946,
+      "scale": "million",
+      "currency": "HUF",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "ntl-2026",
+      "locator": "Sheet HU, 2024, the lines listed with each tax",
+      "calculation": "Sum of the 21 tax rows below (HUF million)",
+      "caveat": "Calendar 2024; the list's cut-off was 30 October 2025. Vintage check against Eurostat's July 2026 accounts: D2: NTL 14,068,293, Eurostat July 2026 14,068,293; D5: NTL 6,164,812, Eurostat July 2026 6,164,812; D61: NTL 8,515,292, Eurostat July 2026 8,515,292.",
+      "accessed": "2026-10-12"
+    },
+    {
+      "id": "allam-social-employers-2024",
+      "label": "Social contributions paid by employers, 2024",
+      "definition": "The actual compulsory contributions of employers (social contribution tax and others); imputed contributions are left out.",
+      "levelIds": ["allam"],
+      "amount": 3393437,
+      "scale": "million",
+      "currency": "HUF",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "ntl-2026",
+      "locator": "Sheet HU, 2024, lines D611C C01 to C06",
+      "caveat": "Calendar 2024, same list and cut-off as the taxes.",
+      "accessed": "2026-10-12"
+    },
+    {
+      "id": "allam-social-households-2024",
+      "label": "Social contributions paid by employees, 2024",
+      "definition": "The compulsory contributions of employees (pension and non-pension).",
+      "levelIds": ["allam"],
+      "amount": 4958509,
+      "scale": "million",
+      "currency": "HUF",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "ntl-2026",
+      "locator": "Sheet HU, 2024, line D613CE C01 to C03",
+      "caveat": "Calendar 2024, same list and cut-off as the taxes.",
+      "accessed": "2026-10-12"
+    },
+    {
+      "id": "allam-social-others-2024",
+      "label": "Social contributions of the self-employed, the non-employed and voluntary, 2024",
+      "definition": "The contributions of the self-employed, the non-employed (including the pension contribution on unemployment benefits) and voluntary contributions.",
+      "levelIds": ["allam"],
+      "amount": 114231,
+      "scale": "million",
+      "currency": "HUF",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "ntl-2026",
+      "locator": "Sheet HU, 2024, lines D613CS, D613CN and D613V",
+      "caveat": "Calendar 2024, same list and cut-off as the taxes.",
+      "accessed": "2026-10-12"
+    },
+    {
+      "id": "onkormanyzat-business-tax-2024",
+      "label": "Local business tax, 2024",
+      "definition": "The local business tax, which the National Tax List books as a general tax on sales.",
+      "levelIds": ["onkormanyzat"],
+      "amount": 1348632,
+      "scale": "million",
+      "currency": "HUF",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "ntl-2026",
+      "locator": "Sheet HU, 2024, line D214I C01",
+      "caveat": "Eurostat books HUF 1,559,130 million of taxes on production to local government, which includes this tax and the property taxes.",
+      "accessed": "2026-10-12"
+    },
+    {
+      "id": "onkormanyzat-property-2024",
+      "label": "Building and land taxes of the municipalities, 2024",
+      "definition": "The building tax and the development land tax.",
+      "levelIds": ["onkormanyzat"],
+      "amount": 210127,
+      "scale": "million",
+      "currency": "HUF",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "ntl-2026",
+      "locator": "Sheet HU, 2024, lines D29A C01 and C02",
+      "caveat": "Eurostat books HUF 210,127 million of land and building taxes under local government.",
+      "accessed": "2026-10-12"
+    },
+    {
+      "id": "onkormanyzat-other-2024",
+      "label": "Tourism, communal and other municipal taxes, 2024",
+      "definition": "The tourism tax, the communal tax on households and other small municipal taxes.",
+      "levelIds": ["onkormanyzat"],
+      "amount": 41897,
+      "scale": "million",
+      "currency": "HUF",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "ntl-2026",
+      "locator": "Sheet HU, 2024, lines D59F C01 to C03, D59A C01, D91B C02",
+      "caveat": "Eurostat books HUF 41,935 million of taxes on income and wealth to local government; HUF 371 million of the pollution taxes (D29F) in Eurostat's local sector stay in the State's environmental line because the list does not assign them.",
+      "accessed": "2026-10-12"
+    }
+  ],
+  "sizing": {
+    "label": "Taxes and compulsory social contributions of all levels of government",
+    "definition": "The taxes of the State and the municipalities plus the actual social contributions, calendar 2024, as listed in the National Tax List. Excludes the sale of emission allowances and imputed social contributions.",
+    "componentIds": [
+      "allam-taxes-2024",
+      "allam-social-employers-2024",
+      "allam-social-households-2024",
+      "allam-social-others-2024",
+      "onkormanyzat-business-tax-2024",
+      "onkormanyzat-property-2024",
+      "onkormanyzat-other-2024"
+    ]
+  },
+  "researchStatus": "researched"
+}

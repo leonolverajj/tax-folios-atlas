@@ -1,0 +1,140 @@
+{
+  "sources": [
+    {
+      "id": "oecd-rs-2025-subsectors",
+      "org": "OECD",
+      "title": "Revenue Statistics 2025, Table 6.2: Austria, tax revenues by sub-sectors of government",
+      "url": "https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en/full-report/tax-revenues-by-subsectors-of-general-government_f9e88332.html",
+      "kind": "international",
+      "language": "en",
+      "publishedDate": "2025-12-09",
+      "periodCovered": "Calendar year 2023 (national currency)",
+      "accessed": "2026-09-29",
+      "note": "Harmonised OECD classification of taxes (1000–6000) split by collecting sub-sector of general government."
+    },
+    {
+      "id": "oecd-rs-2025-levels",
+      "org": "OECD",
+      "title": "Revenue Statistics 2025, Chapter 3: Tax levels and tax structures (Table 3.1)",
+      "url": "https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en/full-report/tax-levels-and-tax-structures-1965-2024_2033f3ea.html",
+      "kind": "international",
+      "language": "en",
+      "publishedDate": "2025-12-09",
+      "periodCovered": "Calendar year 2023",
+      "accessed": "2026-09-29",
+      "note": "Total tax revenue as % of GDP."
+    },
+    {
+      "id": "sng-wofi-profile",
+      "org": "OECD and United Cities and Local Governments (SNG-WOFI)",
+      "title": "World Observatory on Subnational Government Finance and Investment – country profile: Austria",
+      "url": "https://www.sng-wofi.org/country_profiles/austria.html",
+      "kind": "international",
+      "language": "en",
+      "publishedDate": "2022-10-24",
+      "periodCovered": "2020",
+      "accessed": "2026-09-29",
+      "note": "Subnational government revenue by category as % of total subnational revenue, 2022 edition."
+    },
+    {
+      "id": "bmf-abgabenerfolg-2025-12",
+      "org": "Federal Ministry of Finance (Austria)",
+      "title": "Abgabenerfolg des Bundes (UG 16), Dezember 2025",
+      "url": "https://service.bmf.gv.at/budget/akthh/2025/202512_HTML_UG16_F.htm",
+      "kind": "budget-report",
+      "language": "de",
+      "publishedDate": "2026-01-22",
+      "periodCovered": "Calendar year 2025 (preliminary)",
+      "accessed": "2026-10-11",
+      "nextExpected": "2027-01",
+      "note": "Gross receipts by tax, January to December 2025, in EUR million: wage tax 37,832.6, VAT 40,177.1, corporation tax 11,859.7, capital income tax 6,705.9, income tax 5,094.9, mineral oil tax 3,687.2 and so on; transfers (Ab-Überweisungen) of EUR 45,971.9 million; net EUR 73,764.8 million."
+    },
+    {
+      "id": "bra-2025-band2",
+      "org": "Court of Audit (Rechnungshof Österreich)",
+      "title": "Bundesrechnungsabschluss für das Jahr 2025, Band 2: Untergliederungen",
+      "url": "https://www.parlament.gv.at/dokument/XXVIII/III/356/imfname_1767372.pdf",
+      "kind": "budget-report",
+      "language": "de",
+      "publishedDate": "2026-08-12",
+      "periodCovered": "Calendar year 2025",
+      "accessed": "2026-10-11",
+      "nextExpected": "2027-08",
+      "note": "Overview: tax-like revenue of the unemployment insurance (UG 20: EUR 9,813.50 million) and of the family fund (UG 25: EUR 8,857.41 million). UG 16: net tax revenue EUR 75,017.89 million (accrual)."
+    },
+    {
+      "id": "sv-in-zahlen-2026",
+      "org": "Dachverband der Sozialversicherungsträger",
+      "title": "Die österreichische Sozialversicherung in Zahlen, 56. Ausgabe (March 2026)",
+      "url": "https://www.sozialversicherung.at/cdscontent/load?contentid=10008.805508&version=1776162825",
+      "kind": "statistics",
+      "language": "de",
+      "publishedDate": "2026-03-31",
+      "periodCovered": "Calendar year 2025 (preliminary)",
+      "accessed": "2026-10-11",
+      "nextExpected": "2026-08",
+      "note": "Preliminary 2025 results: total income of the social insurance EUR 99,090 million; contributions for insured persons in health insurance EUR 23,623 million, pension insurance 50,768 and accident insurance 2,007."
+    },
+    {
+      "id": "bmf-besteuerungsrechte",
+      "org": "Federal Ministry of Finance (Austria)",
+      "title": "Besteuerungsrechte und Abgabenerträge",
+      "url": "https://www.bmf.gv.at/themen/budget/finanzbeziehungen-laender-gemeinden/besteuerungsrechte-abgabenertraege.html",
+      "kind": "guidance",
+      "language": "de",
+      "publishedDate": null,
+      "accessed": "2026-10-11",
+      "note": "Kommunalsteuer EUR 4,210 million and Grundsteuer EUR 794 million in 2023 (Statistik Austria, Finanzausgleich 2023); the key for the shared taxes (about 67.9% Bund, 20.2% Länder, 11.9% municipalities since 2018)."
+    },
+    {
+      "id": "bvg",
+      "org": "Federal Chancellery (Rechtsinformationssystem des Bundes)",
+      "title": "Federal Constitutional Law (B-VG)",
+      "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10000138",
+      "kind": "legal",
+      "language": "de",
+      "publishedDate": null,
+      "accessed": "2026-10-11"
+    },
+    {
+      "id": "estg",
+      "org": "Federal Chancellery (Rechtsinformationssystem des Bundes)",
+      "title": "Income Tax Act 1988 (Einkommensteuergesetz 1988)",
+      "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10004570",
+      "kind": "legal",
+      "language": "de",
+      "publishedDate": null,
+      "accessed": "2026-10-11"
+    },
+    {
+      "id": "kstg",
+      "org": "Federal Chancellery (Rechtsinformationssystem des Bundes)",
+      "title": "Corporation Tax Act 1988 (Körperschaftsteuergesetz 1988)",
+      "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10004569",
+      "kind": "legal",
+      "language": "de",
+      "publishedDate": null,
+      "accessed": "2026-10-11"
+    },
+    {
+      "id": "ustg",
+      "org": "Federal Chancellery (Rechtsinformationssystem des Bundes)",
+      "title": "VAT Act 1994 (Umsatzsteuergesetz 1994)",
+      "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10004873",
+      "kind": "legal",
+      "language": "de",
+      "publishedDate": null,
+      "accessed": "2026-10-11"
+    },
+    {
+      "id": "asvg",
+      "org": "Federal Chancellery (Rechtsinformationssystem des Bundes)",
+      "title": "General Social Insurance Act (ASVG)",
+      "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10008147",
+      "kind": "legal",
+      "language": "de",
+      "publishedDate": null,
+      "accessed": "2026-10-11"
+    }
+  ]
+}

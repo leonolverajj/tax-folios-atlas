@@ -1,0 +1,172 @@
+{
+  "groups": [
+    {
+      "title": "Federal taxes 2025 – BMF Abgabenerfolg, December 2025 (EUR million)",
+      "defaults": {
+        "denominatorId": "bund-taxes-2025",
+        "scale": "million",
+        "currency": "EUR",
+        "period": { "label": "2025 (preliminary)", "kind": "calendar-year", "start": "2025-01-01", "end": "2025-12-31" },
+        "basis": "Gross receipts (cash), preliminary",
+        "sourceId": "bmf-abgabenerfolg-2025-12",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-11"
+      },
+      "observations": [
+        { "nodeId": "at-wage-tax", "amount": 37832.6, "locator": "Abgabenerfolg Dec 2025: Lohnsteuer" },
+        { "nodeId": "at-income-tax", "amount": 5094.9, "locator": "Abgabenerfolg Dec 2025: Veranlagte Einkommensteuer" },
+        {
+          "nodeId": "at-capital-income-tax",
+          "amount": 6705.9,
+          "locator": "Abgabenerfolg Dec 2025: Kapitalertragsteuer (on dividends 3,738.9 + on interest and other 2,967.1)",
+          "calculation": "3,738.9 + 2,967.1 = 6,706.0 (EUR million); the source states 6,705.9"
+        },
+        { "nodeId": "at-corporate-tax", "amount": 11859.7, "locator": "Abgabenerfolg Dec 2025: Körperschaftsteuer" },
+        { "nodeId": "at-bank-levy", "amount": 506.3, "locator": "Abgabenerfolg Dec 2025: Stabilitätsabgabe" },
+        {
+          "nodeId": "at-other-income-wealth-taxes",
+          "amount": 460.1,
+          "locator": "Abgabenerfolg Dec 2025: Energiekrisenbeitrag 367.3 + Stiftungseingangsteuer 54.4 + Abgabe von land- und forstwirtschaftlichen Betrieben 32.7 + Bodenwertabgabe 5.7",
+          "calculation": "367.3 + 54.4 + 32.7 + 5.7 = 460.1 (EUR million)"
+        },
+        { "nodeId": "at-vat", "amount": 40177.1, "locator": "Abgabenerfolg Dec 2025: Umsatzsteuer" },
+        { "nodeId": "at-tobacco-tax", "amount": 2170.4, "locator": "Abgabenerfolg Dec 2025: Tabaksteuer" },
+        {
+          "nodeId": "at-alcohol-taxes",
+          "amount": 325.7,
+          "locator": "Abgabenerfolg Dec 2025: Biersteuer 178.8 + Alkoholsteuer 145.1 + Schaumwein- und Zwischenerzeugnissteuer 1.8",
+          "calculation": "178.8 + 145.1 + 1.8 = 325.7 (EUR million)"
+        },
+        { "nodeId": "at-mineral-oil-tax", "amount": 3687.2, "locator": "Abgabenerfolg Dec 2025: Mineralölsteuer" },
+        { "nodeId": "at-energy-levies", "amount": 922.4, "locator": "Abgabenerfolg Dec 2025: Energieabgaben" },
+        {
+          "nodeId": "at-carbon-pricing",
+          "amount": 1416.6,
+          "locator": "Abgabenerfolg Dec 2025: Nationaler Emissionszertifikatehandel / Bepreisung von Non-ETS-Emissionen"
+        },
+        { "nodeId": "at-nova", "amount": 518.7, "locator": "Abgabenerfolg Dec 2025: Normverbrauchsabgabe" },
+        {
+          "nodeId": "at-motor-vehicle-taxes",
+          "amount": 2960.1,
+          "locator": "Abgabenerfolg Dec 2025: Kraftfahrzeugsteuer 57.7 + motorbezogene Versicherungssteuer 2,902.4",
+          "calculation": "57.7 + 2,902.4 = 2,960.1 (EUR million)"
+        },
+        { "nodeId": "at-insurance-tax", "amount": 1640.6, "locator": "Abgabenerfolg Dec 2025: Versicherungssteuer" },
+        { "nodeId": "at-real-estate-transfer-tax", "amount": 1304.1, "locator": "Abgabenerfolg Dec 2025: Grunderwerbsteuer" },
+        { "nodeId": "at-gambling-levies", "amount": 825.4, "locator": "Abgabenerfolg Dec 2025: Abgaben nach dem Glückspielgesetz" },
+        {
+          "nodeId": "at-other-consumption-taxes",
+          "amount": 476,
+          "locator": "Abgabenerfolg Dec 2025: Digitalsteuer 137.1 + Werbeabgabe 90.3 + Flugabgabe 178.9 + Altlastenbeitrag 69.7",
+          "calculation": "137.1 + 90.3 + 178.9 + 69.7 = 476.0 (EUR million)"
+        },
+        {
+          "nodeId": "at-fees",
+          "amount": 833.9,
+          "locator": "Abgabenerfolg Dec 2025: Gebühren, Bundesverwaltungsabgaben und sonstige Abgaben",
+          "coverage": "broader",
+          "coverageNote": "Includes administrative fees, which are not taxes."
+        }
+      ]
+    },
+    {
+      "title": "Family fund contributions 2025 – Bundesrechnungsabschluss (EUR million)",
+      "defaults": {
+        "denominatorId": "flaf-2025",
+        "scale": "million",
+        "currency": "EUR",
+        "period": { "label": "2025", "kind": "calendar-year", "start": "2025-01-01", "end": "2025-12-31" },
+        "basis": "Accrual, final",
+        "sourceId": "bra-2025-band2",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-11"
+      },
+      "observations": [{ "nodeId": "at-family-fund-levy", "amount": 8857.41, "locator": "Bundesrechnungsabschluss 2025 Band 2: Beiträge zum FLAF (UG 25)" }]
+    },
+    {
+      "title": "Unemployment insurance 2025 – Bundesrechnungsabschluss (EUR million)",
+      "defaults": {
+        "denominatorId": "alv-2025",
+        "scale": "million",
+        "currency": "EUR",
+        "period": { "label": "2025", "kind": "calendar-year", "start": "2025-01-01", "end": "2025-12-31" },
+        "basis": "Accrual, final",
+        "sourceId": "bra-2025-band2",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-11"
+      },
+      "observations": [
+        {
+          "nodeId": "at-unemployment-insurance",
+          "amount": 9813.5,
+          "locator": "Bundesrechnungsabschluss 2025 Band 2: Beiträge zur Arbeitslosenversicherung (UG 20)"
+        }
+      ]
+    },
+    {
+      "title": "Social insurance contributions 2025 – Dachverband (EUR million)",
+      "defaults": {
+        "denominatorId": "sv-2025",
+        "scale": "million",
+        "currency": "EUR",
+        "period": { "label": "2025 (preliminary)", "kind": "calendar-year", "start": "2025-01-01", "end": "2025-12-31" },
+        "basis": "Contributions for insured persons, preliminary",
+        "sourceId": "sv-in-zahlen-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-11"
+      },
+      "observations": [
+        {
+          "nodeId": "at-pension-insurance",
+          "amount": 50768,
+          "locator": "Dachverband, Gebarung 2025 (preliminary): Pensionsversicherung, Beiträge für Versicherte"
+        },
+        {
+          "nodeId": "at-health-insurance",
+          "amount": 23623,
+          "locator": "Dachverband, Gebarung 2025 (preliminary): Krankenversicherung, Beiträge für Versicherte"
+        },
+        {
+          "nodeId": "at-accident-insurance",
+          "amount": 2007,
+          "locator": "Dachverband, Gebarung 2025 (preliminary): Unfallversicherung, Beiträge für Versicherte"
+        }
+      ]
+    },
+    {
+      "title": "Municipal taxes 2023 – Statistik Austria via BMF (EUR million)",
+      "defaults": {
+        "denominatorId": "gemeinden-taxes-2023",
+        "scale": "million",
+        "currency": "EUR",
+        "period": { "label": "2023", "kind": "calendar-year", "start": "2023-01-01", "end": "2023-12-31" },
+        "basis": "Receipts of the municipal taxes",
+        "sourceId": "bmf-besteuerungsrechte",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-11"
+      },
+      "observations": [
+        {
+          "nodeId": "at-kommunalsteuer",
+          "amount": 4210,
+          "locator": "BMF, Besteuerungsrechte und Abgabenerträge: Kommunalsteuer 2023 (Statistik Austria, Finanzausgleich 2023)",
+          "coverage": "subset",
+          "coverageNote": "One of the municipal taxes within the OECD’s 2023 total for local government."
+        },
+        {
+          "nodeId": "at-grundsteuer",
+          "amount": 794,
+          "locator": "BMF, Besteuerungsrechte und Abgabenerträge: Grundsteuer 2023 (Statistik Austria)",
+          "coverage": "subset",
+          "coverageNote": "One of the municipal taxes within the OECD’s 2023 total for local government."
+        }
+      ]
+    }
+  ],
+  "unavailable": []
+}

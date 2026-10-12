@@ -1,0 +1,104 @@
+{
+  "id": "iceland",
+  "iso3": "ISL",
+  "isoNumeric": "352",
+  "names": { "en": "Iceland", "native": "Ísland", "nativeLang": "is" },
+  "currency": { "code": "ISK", "symbol": "kr", "name": "Icelandic króna" },
+  "summary": "Iceland is a unitary state with two levels that share the income tax: the Althing sets all taxes and Iceland Revenue and Customs (Skatturinn) collects them, but about 60% of the income tax of individuals goes to the municipalities, which set their own rate within a legal range. Social security is financed by an employers’ payroll levy; there are no employee contributions. VAT, the income taxes and the payroll levy are the three biggest flows.",
+  "structureNote": "The figures are the Commission’s National Tax List for 2024, in ISK million. The income tax of individuals is drawn twice, as the State’s and the municipalities’ part, using Eurostat’s split of the same year. The sale of emission allowances (ISK 1.6 billion) is left out. The social contributions are drawn under the State. Eurostat’s accounts record ISK 8.5 billion of the buildings taxes with the State and ISK 91.6 billion with the municipalities; the lines here differ from that by about ISK 0.4 billion because the list does not say which body receives each charge.",
+  "theme": {
+    "accent": "#3a86ff",
+    "accent2": "#d00000",
+    "motif": "topo",
+    "motifNote": "Topographic contour lines over the outline of Iceland (the generic motif; no bespoke art yet).",
+    "mapLabel": { "lon": -19, "lat": 64.9 }
+  },
+  "levels": [
+    {
+      "id": "rikid",
+      "branch": "national",
+      "names": { "official": "The State (central government)", "native": "Ríkið", "common": "State" },
+      "description": "The Althing legislates the taxes; Iceland Revenue and Customs (Skatturinn) assesses and collects them, including the social insurance levy.",
+      "fiscalPower": "Taxes are set by law passed by the Althing; the municipalities may set only the rates that the law leaves to them.",
+      "legalRefs": [{ "sourceId": "skatturinn-key-rates-2024" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "sveitarfelog",
+      "branch": "local",
+      "names": { "official": "Municipalities", "native": "Sveitarfélög", "common": "Municipalities" },
+      "description": "The only tier below the State. Each municipality sets its own income tax rate (útsvar) within the range fixed by law, levies the property tax, and charges fees for services such as waste collection and building permits.",
+      "fiscalPower": "Municipal councils set the income tax and property tax rates within the legal limits (Act on the Revenue Sources of Municipalities).",
+      "legalRefs": [{ "sourceId": "skatturinn-key-rates-2024" }],
+      "checkedOn": "2026-10-12"
+    }
+  ],
+  "supportingSourceIds": [],
+  "denominators": [
+    {
+      "id": "rikid-taxes-2024",
+      "label": "State taxes (National Tax List), 2024",
+      "definition": "The taxes on production and imports, on income and wealth, and on capital that the National Tax List books to the State, other than the sale of emission allowances; includes the State’s part of the income tax of individuals.",
+      "levelIds": ["rikid"],
+      "amount": 1074036.13,
+      "scale": "million",
+      "currency": "ISK",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "ntl-2026",
+      "locator": "Sheet IS, 2024, the lines listed with each tax",
+      "calculation": "Sum of the 19 tax rows below (ISK million)",
+      "caveat": "Calendar 2024; the list's cut-off was 30 October 2025. Vintage check against Eurostat's July 2026 accounts: D2: NTL 654,540.43, Eurostat July 2026 654,540.4; D5: NTL 874,262.89, Eurostat July 2026 874,262.9; D61: NTL 135,737.75, Eurostat July 2026 135,737.8.",
+      "accessed": "2026-10-12"
+    },
+    {
+      "id": "rikid-social-2024",
+      "label": "Social insurance levy and contributions, 2024",
+      "definition": "The employers’ social insurance levy and the contributions of the self-employed; the list shows no imputed contributions for Iceland.",
+      "levelIds": ["rikid"],
+      "amount": 135737.75,
+      "scale": "million",
+      "currency": "ISK",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "ntl-2026",
+      "locator": "Sheet IS, 2024, lines D611 C01 to C04 and D613CS",
+      "calculation": "Sum of the social contribution rows below (ISK million)",
+      "caveat": "Calendar 2024, same list and cut-off as the taxes.",
+      "accessed": "2026-10-12"
+    },
+    {
+      "id": "sveitarfelog-income-tax-2024",
+      "label": "Income tax received by the municipalities, 2024",
+      "definition": "The part of the income tax of individuals that Eurostat’s accounts record under local government.",
+      "levelIds": ["sveitarfelog"],
+      "amount": 375445,
+      "scale": "million",
+      "currency": "ISK",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "eurostat-taxag",
+      "locator": "gov_10a_taxag, 2024, S.1313, D51A, million ISK",
+      "caveat": "Eurostat July 2026 vintage, a different release from the National Tax List.",
+      "accessed": "2026-10-12"
+    },
+    {
+      "id": "sveitarfelog-taxes-2024",
+      "label": "Property taxes and fees of the municipalities, 2024",
+      "definition": "The property tax, waste-collection and building-permit fees, and the road construction charge.",
+      "levelIds": ["sveitarfelog"],
+      "amount": 103989.75,
+      "scale": "million",
+      "currency": "ISK",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "ntl-2026",
+      "locator": "Sheet IS, 2024, lines D29A C04, C06 and C08, D91B C02",
+      "calculation": "Sum of the local rows below (ISK million)",
+      "caveat": "Eurostat books ISK 91,633.1 million of buildings taxes and ISK 12,786.4 million of capital taxes to local government (ISK 104,419.5 million in all); the lines drawn here come to ISK 103,989.75 million, a difference of 429.75 million that comes from how the list's charges are assigned.",
+      "accessed": "2026-10-12"
+    }
+  ],
+  "sizing": {
+    "label": "Taxes and compulsory social contributions of all levels of government",
+    "definition": "The taxes of the State and the municipalities plus the social insurance levy, calendar 2024, as listed in the National Tax List and split by Eurostat. Excludes the sale of emission allowances.",
+    "componentIds": ["rikid-taxes-2024", "rikid-social-2024", "sveitarfelog-income-tax-2024", "sveitarfelog-taxes-2024"]
+  },
+  "researchStatus": "researched"
+}

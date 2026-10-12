@@ -1,0 +1,142 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "romania": {
+      "x": 800,
+      "y": 500
+    },
+    "statul": {
+      "x": 509,
+      "y": 432
+    },
+    "ro-pit-wages": {
+      "x": 830,
+      "y": 737
+    },
+    "ro-corporate-profit-tax": {
+      "x": 459,
+      "y": 746
+    },
+    "ro-other-profit-taxes": {
+      "x": 289,
+      "y": 509
+    },
+    "ro-vat": {
+      "x": 421,
+      "y": 250
+    },
+    "ro-excise-alcohol-other": {
+      "x": 792,
+      "y": 170
+    },
+    "ro-transfer-tax-state": {
+      "x": 1159,
+      "y": 263
+    },
+    "ro-pit-dividends": {
+      "x": 563,
+      "y": 921
+    },
+    "ro-micro-enterprise-tax": {
+      "x": 166,
+      "y": 693
+    },
+    "ro-gambling-taxes": {
+      "x": 152,
+      "y": 339
+    },
+    "ro-customs": {
+      "x": 519,
+      "y": 90
+    },
+    "ro-drug-contribution": {
+      "x": 1056,
+      "y": 134
+    },
+    "ro-licence-fees-state": {
+      "x": 1445,
+      "y": 372
+    },
+    "ro-pit-pensions": {
+      "x": 863,
+      "y": 926
+    },
+    "ro-bank-tax": {
+      "x": 189,
+      "y": 920
+    },
+    "ro-social-employers": {
+      "x": 93,
+      "y": 506
+    },
+    "ro-excise-energy": {
+      "x": 165,
+      "y": 220
+    },
+    "ro-modernization-energy-funds": {
+      "x": 775,
+      "y": 32
+    },
+    "ro-small-state-taxes": {
+      "x": 1417,
+      "y": 98
+    },
+    "ro-pit-other": {
+      "x": 349,
+      "y": 926
+    },
+    "ro-sector-solidarity-taxes": {
+      "x": 127,
+      "y": 601
+    },
+    "ro-social-insured": {
+      "x": 103,
+      "y": 78
+    },
+    "ro-excise-tobacco": {
+      "x": 1096,
+      "y": 38
+    },
+    "ro-other-fees-state": {
+      "x": 1473,
+      "y": 281
+    },
+    "local": {
+      "x": 1091,
+      "y": 568
+    },
+    "ro-building-tax": {
+      "x": 1257,
+      "y": 354
+    },
+    "ro-local-vehicle-taxes": {
+      "x": 1310,
+      "y": 521
+    },
+    "ro-transfer-tax-local": {
+      "x": 1214,
+      "y": 710
+    },
+    "ro-local-small-taxes": {
+      "x": 998,
+      "y": 804
+    },
+    "ro-land-tax": {
+      "x": 1494,
+      "y": 480
+    },
+    "ro-other-fees-local": {
+      "x": 1301,
+      "y": 810
+    },
+    "ro-licence-fees-local": {
+      "x": 772,
+      "y": 838
+    }
+  },
+  "radii": {}
+}

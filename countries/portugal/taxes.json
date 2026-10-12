@@ -1,0 +1,622 @@
+{
+  "instruments": [
+    {
+      "id": "pt-irs-state",
+      "parentId": "estado",
+      "levelId": "estado",
+      "category": "tax",
+      "family": "income-personal",
+      "status": "current",
+      "names": {
+        "official": "Personal income tax (IRS), State share",
+        "native": "Imposto sobre o Rendimento das Pessoas Singulares (IRS)",
+        "common": "Personal income tax: State share",
+        "abbreviation": "IRS"
+      },
+      "taxes": { "base": "Employment, business, pension, capital and property income of residents.", "payer": "Individuals; employers withhold part of it." },
+      "rate": {
+        "kind": "progressive",
+        "headline": "12.5% to 48% (2026)",
+        "details": [
+          "Residents are taxed at progressive rates varying from 12.5% to 48% for 2026; the first bracket runs to EUR 8,342 and the 48% rate starts above EUR 86,634 (PwC).",
+          "As summarised by PwC (reviews of July and October 2026), not checked against the Tax and Customs Authority."
+        ],
+        "asOf": "2026-10-03"
+      },
+      "explanation": "The National Tax List gives one total for the personal income tax (EUR 17.7 billion); Eurostat’s accounts record EUR 471 million of it under regional and local government and the rest under the State.",
+      "exceptions": [],
+      "legalRefs": [
+        { "sourceId": "pwc-pt-individual", "locator": "Resident income tax rates" },
+        { "sourceId": "eurostat-taxag", "locator": "S.1311 and S.1313, D51A" }
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "pt-irc-state",
+      "parentId": "estado",
+      "levelId": "estado",
+      "category": "tax",
+      "family": "income-corporate",
+      "status": "current",
+      "names": {
+        "official": "Corporate income tax (IRC), State share (including the local-government line of the list)",
+        "native": "Imposto sobre o Rendimento das Pessoas Coletivas (IRC)",
+        "common": "Corporate income tax: State share",
+        "abbreviation": "IRC"
+      },
+      "taxes": { "base": "Profit of companies and other legal persons.", "payer": "Companies." },
+      "rate": {
+        "kind": "flat",
+        "headline": "Standard rate set by the CIT Code; 13% in Madeira and the Azores",
+        "details": [
+          "PwC gives the standard rate of the CIT Code as 20% in its review of July 2026 (its text says 12% is 60% of it) and a standard rate of 13% in the autonomous regions of Madeira and the Azores; the rate for 2024 is not extracted here.",
+          "As summarised by PwC (reviews of July and October 2026), not checked against the Tax and Customs Authority."
+        ],
+        "asOf": "2026-07-24"
+      },
+      "explanation": "The National Tax List gives CIT for central government (EUR 10.5 billion) and local government (EUR 0.5 billion); Eurostat’s accounts record EUR 799 million under regional and local government. The total is the same in both sources.",
+      "exceptions": [],
+      "legalRefs": [
+        { "sourceId": "pwc-pt-corporate", "locator": "Corporate income tax rates" },
+        { "sourceId": "eurostat-taxag", "locator": "S.1311 and S.1313, D51B" }
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "pt-vat-state",
+      "parentId": "estado",
+      "levelId": "estado",
+      "category": "tax",
+      "family": "general-consumption",
+      "status": "current",
+      "names": {
+        "official": "Value added tax (IVA), State share",
+        "native": "Imposto sobre o Valor Acrescentado (IVA)",
+        "common": "VAT: State share",
+        "abbreviation": "IVA"
+      },
+      "taxes": { "base": "Goods and services supplied in Portugal and imports.", "payer": "Consumers; businesses charge it and claim input credits." },
+      "rate": {
+        "kind": "range",
+        "headline": "23% standard; 13% and 6% reduced",
+        "details": [
+          "Mainland rates: standard 23%, reduced 13%, super-reduced 6%; the autonomous regions apply lower rates (22% / 12% / 4% in Madeira from 1 October 2024; 16% / 9% / 4% in the Azores) (PwC).",
+          "As summarised by PwC (reviews of July and October 2026), not checked against the Tax and Customs Authority."
+        ],
+        "asOf": "2026-07-24"
+      },
+      "explanation": "The largest tax. Eurostat’s accounts record EUR 1,032 million of the VAT under regional and local government; PwC notes that Madeira and the Azores apply lower VAT rates. The rest is booked under the State.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "pwc-pt-other", "locator": "Value-added tax" }, { "sourceId": "eurostat-taxag", "locator": "S.1311 and S.1313, D211" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "pt-customs",
+      "parentId": "estado",
+      "levelId": "estado",
+      "category": "customs-duty",
+      "family": "trade",
+      "status": "current",
+      "names": { "official": "Import levies (customs duties)", "native": "Direitos aduaneiros", "common": "Customs duties" },
+      "taxes": { "base": "Goods imported from outside the EU, by the Common Customs Tariff.", "payer": "Importers." },
+      "rate": {
+        "kind": "varies",
+        "headline": "EU Common Customs Tariff",
+        "details": ["An EU own resource; Eurostat records it under the EU institutions."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "Collected for the EU budget.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "eurostat-taxag", "locator": "S.212, D212" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "pt-isp",
+      "parentId": "estado",
+      "levelId": "estado",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "Tax on oil and energy products (ISP)",
+        "native": "Imposto sobre os Produtos Petrolíferos e Energéticos (ISP)",
+        "common": "Fuel and energy tax",
+        "abbreviation": "ISP"
+      },
+      "taxes": {
+        "base": "Petrol, diesel, gas and other energy products, by quantity, with a carbon component.",
+        "payer": "Producers and importers; passed on at the pump."
+      },
+      "rate": { "kind": "specific", "headline": "Per litre or per unit of energy", "details": [], "asOf": "2026-10-12" },
+      "explanation": "The biggest excise and the second-largest indirect tax after VAT.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet PT, D214A C08" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "pt-tobacco",
+      "parentId": "estado",
+      "levelId": "estado",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Excise duty on tobacco (imported and domestic)", "native": "Imposto sobre o Tabaco (IT)", "common": "Tobacco excise" },
+      "taxes": { "base": "Cigarettes and other tobacco products.", "payer": "Producers and importers; passed on in the price." },
+      "rate": {
+        "kind": "mechanism",
+        "headline": "Fixed by the Excise Duty Code",
+        "details": ["EUR 1,378.9 million is booked as excise on imported tobacco and EUR 258.3 million on domestic tobacco."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "EUR 1.6 billion in 2024.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet PT, D2122C C01, D214A C01" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "pt-alcohol-sugar-drinks",
+      "parentId": "estado",
+      "levelId": "estado",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "Excise duties on alcoholic beverages, beer and sugary drinks",
+        "native": "Imposto sobre o Álcool, as Bebidas Alcoólicas e as Bebidas Adicionadas de Açúcar",
+        "common": "Alcohol and sugary drinks excise"
+      },
+      "taxes": {
+        "base": "Spirits, alcoholic beverages (EUR 99.8 million domestic, EUR 76.7 million imported), beer (EUR 107.2 million and 12.4 million), ethyl alcohol and drinks with added sugar (EUR 40.2 million and 21.8 million).",
+        "payer": "Producers and importers; passed on in the price."
+      },
+      "rate": { "kind": "specific", "headline": "Per litre, fixed by the Excise Duty Code", "details": [], "asOf": "2026-10-12" },
+      "explanation": "Eight lines of the list.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet PT, D214A C02 to C04 and C06, D2122C C02 to C04 and C06" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "pt-packaging-taxes",
+      "parentId": "estado",
+      "levelId": "estado",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "Excise duties and fees on lightweight plastic bags, single-use packages and non-reusable beverage packaging",
+        "native": "Contribuições sobre sacos de plástico e embalagens",
+        "common": "Plastic and packaging levies"
+      },
+      "taxes": {
+        "base": "Lightweight plastic bags (EUR 1.2 million), non-reusable beverage packaging (EUR 5.5 million) and single-use packages (EUR 1.3 million).",
+        "payer": "Producers and importers of the products."
+      },
+      "rate": { "kind": "specific", "headline": "Per item", "details": [], "asOf": "2026-10-12" },
+      "explanation": "Small environmental levies.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet PT, D214A C05, C07, C09" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "pt-stamp-duty",
+      "parentId": "estado",
+      "levelId": "estado",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": {
+        "official": "Stamp duty on bank transactions, insurance premiums, commercial transactions, entertainment, leasing, debt operations, registrations and interest",
+        "native": "Imposto do Selo",
+        "common": "Stamp duty"
+      },
+      "taxes": {
+        "base": "Bank transactions (EUR 750.9 million), insurance premiums (EUR 582.2 million), commercial transactions (EUR 462.5 million), entertainment services (EUR 228.5 million), interest (EUR 157.8 million), leasing of buildings, debt operations, registrations and others.",
+        "payer": "Parties to the transactions; banks and insurers collect part of it."
+      },
+      "rate": { "kind": "varies", "headline": "By type of act, per the Stamp Duty Code", "details": [], "asOf": "2026-10-12" },
+      "explanation": "The third-largest indirect tax after VAT and the oil tax, EUR 2.2 billion. Eurostat books EUR 68 million of the stamp duty under regional and local government; the list does not say which lines.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet PT, D214B, D59F C02" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "pt-vehicle-sales-tax",
+      "parentId": "estado",
+      "levelId": "estado",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Tax on motor vehicles (ISV)", "native": "Imposto sobre Veículos (ISV)", "common": "Vehicle tax", "abbreviation": "ISV" },
+      "taxes": { "base": "New and imported vehicles, by engine size and emissions, on registration.", "payer": "Vehicle buyers and importers." },
+      "rate": {
+        "kind": "varies",
+        "headline": "By engine size and CO₂ emissions",
+        "details": ["The list calls it \"tax on motor vehicle sales\": EUR 467.8 million in 2024."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "A tax paid once, at registration.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet PT, D214D C01" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "pt-circulation-tax",
+      "parentId": "estado",
+      "levelId": "estado",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "Unified circulation tax (businesses and households)",
+        "native": "Imposto Único de Circulação (IUC)",
+        "common": "Circulation tax",
+        "abbreviation": "IUC"
+      },
+      "taxes": { "base": "The ownership of vehicles, yearly.", "payer": "Vehicle owners: businesses (EUR 589.5 million) and households (EUR 279.0 million)." },
+      "rate": { "kind": "varies", "headline": "By vehicle category, engine size and emissions", "details": [], "asOf": "2026-10-12" },
+      "explanation": "Eurostat books EUR 72 million of the taxes on vehicle use under regional and local government; the list does not say which part, so it is drawn here.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet PT, D29B C04, D59D C04" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "pt-insurance-fees",
+      "parentId": "estado",
+      "levelId": "estado",
+      "category": "special-levy",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "Fees on insurance premiums intended for the emergency medical institute, road safety, the civil protection and the calamities fund",
+        "native": "Taxas sobre prémios de seguros",
+        "common": "Insurance premium fees"
+      },
+      "taxes": {
+        "base": "Life and non-life premiums (EUR 227.4 million), occupational accident premiums (EUR 122.4 million), motor liability premiums (EUR 31.3 million), motor premiums for road safety (EUR 5.0 million) and agricultural premiums (EUR 1.5 million).",
+        "payer": "Insurers and policyholders."
+      },
+      "rate": { "kind": "varies", "headline": "A percentage of premiums", "details": [], "asOf": "2026-10-12" },
+      "explanation": "Earmarked fees on insurance premiums, named in the list by the body that receives them.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet PT, D214G" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "pt-gambling",
+      "parentId": "estado",
+      "levelId": "estado",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "Special gambling tax and the profits of the mutual betting and gambling agency",
+        "native": "Imposto especial de jogo; resultados líquidos dos jogos sociais do Estado",
+        "common": "Gambling taxes"
+      },
+      "taxes": {
+        "base": "Gambling operators (EUR 430.6 million) and the State’s mutual betting and gambling agency (EUR 675.9 million, booked as profits of a fiscal monopoly).",
+        "payer": "Operators; the agency pays its profits."
+      },
+      "rate": { "kind": "varies", "headline": "Set by the Gambling Regime", "details": [], "asOf": "2026-10-12" },
+      "explanation": "Two lines.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet PT, D214F C01, D214J C01" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "pt-travel-charges",
+      "parentId": "estado",
+      "levelId": "estado",
+      "category": "fee",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "Security fee on air travel passengers and the carbon tax on air and sea travel",
+        "native": "Taxa de segurança aeroportuária; taxa de carbono sobre viagens aéreas e marítimas",
+        "common": "Air passenger and travel carbon charges"
+      },
+      "taxes": { "base": "Air passengers (EUR 110.9 million) and air and sea travel (EUR 49.5 million).", "payer": "Passengers." },
+      "rate": { "kind": "specific", "headline": "A set amount per passenger", "details": [], "asOf": "2026-10-12" },
+      "explanation": "Two small travel charges.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet PT, D214H C02, D59B C02" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "pt-bank-insurance-contributions",
+      "parentId": "estado",
+      "levelId": "estado",
+      "category": "special-levy",
+      "family": "other",
+      "status": "current",
+      "names": {
+        "official": "Contribution on the banking industry, Resolution Fund and guarantee-fund contributions, and the pension redemption fee on insurers",
+        "native": "Contribuição sobre o setor bancário; contribuições para o Fundo de Resolução",
+        "common": "Bank and insurer contributions"
+      },
+      "taxes": {
+        "base": "The bank levy (EUR 223.0 million), the Resolution Fund (EUR 38.2 million), the pension redemption fee on insurance companies (EUR 9.6 million), the deposit guarantee, travel guarantee and investor compensation funds (EUR 2.6 million).",
+        "payer": "Banks and insurers."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "A levy on liabilities and off-balance-sheet derivatives",
+        "details": ["PwC describes a bank levy on a two-part tax base and a solidarity surcharge (review of July 2026)."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "Compulsory levies on the financial sector.",
+      "exceptions": [],
+      "legalRefs": [
+        { "sourceId": "pwc-pt-other", "locator": "Bank levy and solidarity surcharge on the banking sector" },
+        { "sourceId": "ntl-2026", "locator": "sheet PT, D29H" }
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "pt-energy-contributions",
+      "parentId": "estado",
+      "levelId": "estado",
+      "category": "special-levy",
+      "family": "resource",
+      "status": "current",
+      "names": {
+        "official": "Extraordinary contribution on the energy industry and other energy-sector fees",
+        "native": "Contribuição extraordinária sobre o setor energético",
+        "common": "Energy-sector contributions"
+      },
+      "taxes": {
+        "base": "The extraordinary contribution on the energy industry (EUR 53.7 million), the contribution of power-grid concessionaires (EUR 14.0 million), the fee on electric installations (EUR 16.6 million) and two small regulatory fees.",
+        "payer": "Energy companies."
+      },
+      "rate": { "kind": "varies", "headline": "Set by law", "details": [], "asOf": "2026-10-12" },
+      "explanation": "Sector-specific contributions.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet PT, D29B C05 and C06, D29H C06 and C22, D214H C01" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "pt-public-broadcasting-fee",
+      "parentId": "estado",
+      "levelId": "estado",
+      "category": "fee",
+      "family": "other",
+      "status": "current",
+      "names": {
+        "official": "Fee to support the public broadcasting service",
+        "native": "Contribuição para o audiovisual",
+        "common": "Public broadcasting fee"
+      },
+      "taxes": {
+        "base": "As named in the National Tax List: a fee that supports the public broadcasting service; the list gives no more detail.",
+        "payer": "Not given in the list."
+      },
+      "rate": { "kind": "varies", "headline": "Set by law", "details": [], "asOf": "2026-10-12" },
+      "explanation": "EUR 195.6 million in 2024.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet PT, D59F C01" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "pt-social-employers",
+      "parentId": "estado",
+      "levelId": "estado",
+      "category": "social-contribution",
+      "family": "social-security",
+      "status": "current",
+      "names": {
+        "official": "Employers’ social security contributions",
+        "native": "Contribuições das entidades empregadoras para a Segurança Social",
+        "common": "Employers’ contributions"
+      },
+      "taxes": { "base": "Gross pay, with no cap.", "payer": "Employers." },
+      "rate": {
+        "kind": "flat",
+        "headline": "23.75% of gross pay",
+        "details": [
+          "Employers make monthly contributions at the standard rate of 23.75% of employees’ gross pay, with no cap (PwC).",
+          "As summarised by PwC (reviews of July and October 2026), not checked against the Tax and Customs Authority."
+        ],
+        "asOf": "2026-07-24"
+      },
+      "explanation": "The National Tax List shows all of the actual employers’ contributions as pension contributions, EUR 19.4 billion.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "pwc-pt-other", "locator": "Social security contributions" }, { "sourceId": "ntl-2026", "locator": "sheet PT, D6111" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "pt-social-households",
+      "parentId": "estado",
+      "levelId": "estado",
+      "category": "social-contribution",
+      "family": "social-security",
+      "status": "current",
+      "names": {
+        "official": "Social security contributions of households (employees and the self-employed)",
+        "native": "Contribuições dos trabalhadores para a Segurança Social",
+        "common": "Employees’ contributions"
+      },
+      "taxes": {
+        "base": "Pay of employees and income of the self-employed: pension contributions (EUR 10.1 billion) and non-pension contributions (EUR 0.9 billion).",
+        "payer": "Employees and the self-employed."
+      },
+      "rate": {
+        "kind": "flat",
+        "headline": "Set by the Social Security Contributory Code",
+        "details": ["The employees’ rate is not extracted here."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "The households’ contributions.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet PT, D6131, D6132" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "pt-irs-local",
+      "parentId": "autarquias",
+      "levelId": "autarquias",
+      "category": "tax",
+      "family": "income-personal",
+      "status": "current",
+      "names": {
+        "official": "Personal income tax (IRS), part recorded under regional and local government",
+        "native": "IRS (parte das autarquias e regiões)",
+        "common": "Personal income tax: local part"
+      },
+      "taxes": { "base": "The same tax as the State’s share.", "payer": "Individuals." },
+      "rate": {
+        "kind": "progressive",
+        "headline": "Same rates as the State’s share",
+        "details": ["Eurostat’s accounts record this part under regional and local government (S.1313)."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "Municipalities receive a share of the personal income tax paid by their residents; the autonomous regions also keep part. Eurostat’s total is EUR 471 million.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "eurostat-taxag", "locator": "S.1313, D51A" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "pt-irc-local",
+      "parentId": "autarquias",
+      "levelId": "autarquias",
+      "category": "tax",
+      "family": "income-corporate",
+      "status": "current",
+      "names": {
+        "official": "Corporate income tax (IRC), part recorded under regional and local government",
+        "native": "IRC (parte das autarquias e regiões)",
+        "common": "Corporate income tax: local part"
+      },
+      "taxes": { "base": "The same tax as the State’s share; the list gives EUR 481.3 million as the local-government line.", "payer": "Companies." },
+      "rate": {
+        "kind": "flat",
+        "headline": "Same rates as the State’s share",
+        "details": [
+          "Eurostat’s accounts record EUR 799 million under regional and local government (S.1313), which is more than the list’s local-government line of EUR 481 million."
+        ],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "Municipalities receive a surcharge (derrama) on the profit taxed in their area and the autonomous regions receive part of the tax.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "eurostat-taxag", "locator": "S.1313, D51B" }, { "sourceId": "ntl-2026", "locator": "sheet PT, D51B C02" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "pt-vat-local",
+      "parentId": "autarquias",
+      "levelId": "autarquias",
+      "category": "tax",
+      "family": "general-consumption",
+      "status": "current",
+      "names": {
+        "official": "Value added tax (IVA), part recorded under regional and local government",
+        "native": "IVA (parte das regiões autónomas)",
+        "common": "VAT: regional part"
+      },
+      "taxes": { "base": "The same tax as the State’s share.", "payer": "Consumers." },
+      "rate": {
+        "kind": "range",
+        "headline": "Lower rates in Madeira and the Azores",
+        "details": ["Standard 22% in Madeira and 16% in the Azores, against 23% on the mainland (PwC)."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "Eurostat’s accounts record EUR 1,032 million of the VAT under regional and local government.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "eurostat-taxag", "locator": "S.1313, D211" }, { "sourceId": "pwc-pt-other", "locator": "Value-added tax" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "pt-imi",
+      "parentId": "autarquias",
+      "levelId": "autarquias",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": {
+        "official": "Municipal property tax (IMI)",
+        "native": "Imposto Municipal sobre Imóveis (IMI)",
+        "common": "Municipal property tax",
+        "abbreviation": "IMI"
+      },
+      "taxes": { "base": "The tax value of buildings and land, yearly.", "payer": "Owners." },
+      "rate": {
+        "kind": "range",
+        "headline": "Set by each municipality within a legal range",
+        "details": [
+          "The list does not give rates. Eurostat records EUR 1,489 million of land and building taxes under local government and EUR 185 million under the State."
+        ],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "The main own tax of the municipalities.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet PT, D29A C01" }, { "sourceId": "eurostat-taxag", "locator": "S.1313, D29A" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "pt-imt",
+      "parentId": "autarquias",
+      "levelId": "autarquias",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": {
+        "official": "Municipal tax on onerous transfers of real estate (IMT)",
+        "native": "Imposto Municipal sobre as Transmissões Onerosas de Imóveis (IMT)",
+        "common": "Real estate transfer tax",
+        "abbreviation": "IMT"
+      },
+      "taxes": { "base": "The price or tax value of real estate transferred for consideration.", "payer": "Buyers." },
+      "rate": {
+        "kind": "progressive",
+        "headline": "By value and use of the property",
+        "details": ["EUR 1,675.4 million in 2024; Eurostat books all of it under local government."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "The tax on buying a home or a business property; the proceeds go to the municipalities.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet PT, D214C C01" }, { "sourceId": "eurostat-taxag", "locator": "S.1313, D214C" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "pt-tourist-tax",
+      "parentId": "autarquias",
+      "levelId": "autarquias",
+      "category": "fee",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Municipal tax on tourists", "native": "Taxa municipal turística", "common": "Municipal tourist tax" },
+      "taxes": { "base": "Overnight stays of tourists, in the municipalities that levy it.", "payer": "Guests; the accommodation provider collects it." },
+      "rate": {
+        "kind": "specific",
+        "headline": "A set amount per night, by municipality",
+        "details": ["EUR 98.2 million in 2024; Eurostat books it under local government."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "The tourist tax of Lisbon, Porto and other municipalities.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet PT, D59B C01" }, { "sourceId": "eurostat-taxag", "locator": "S.1313, D59B" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "pt-other-fees",
+      "parentId": "estado",
+      "levelId": "estado",
+      "category": "fee",
+      "family": "other",
+      "status": "current",
+      "names": {
+        "official": "Regulatory, supervisory and licence fees and other small taxes of the list",
+        "native": "Taxas de regulação, supervisão e licenças, e outros impostos",
+        "common": "Regulatory fees and other small taxes"
+      },
+      "taxes": {
+        "base": "The 47 smaller lines of the list: regulator and supervisory fees (communications, medicines, water and waste, construction, vehicle inspections, media), licence fees, the pharmaceutical industry contribution, the municipal civil protection tax, noise and water-use fees, the golden-visa fee, the private copying levy, the promotion fees on wine and others.",
+        "payer": "Businesses and individuals."
+      },
+      "rate": { "kind": "varies", "headline": "Set by law", "details": [], "asOf": "2026-10-12" },
+      "explanation": "The lines are named in the locator of the revenue row.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet PT, 47 smaller lines" }],
+      "checkedOn": "2026-10-12"
+    }
+  ]
+}

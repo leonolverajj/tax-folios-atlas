@@ -1,0 +1,114 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "croatia": {
+      "x": 800,
+      "y": 500
+    },
+    "drzava": {
+      "x": 509,
+      "y": 432
+    },
+    "hr-cit": {
+      "x": 842,
+      "y": 819
+    },
+    "hr-excise-fuel": {
+      "x": 458,
+      "y": 736
+    },
+    "hr-excise-cars": {
+      "x": 289,
+      "y": 519
+    },
+    "hr-gambling": {
+      "x": 427,
+      "y": 274
+    },
+    "hr-hrt-fee": {
+      "x": 783,
+      "y": 170
+    },
+    "hr-small-state-fees": {
+      "x": 1164,
+      "y": 268
+    },
+    "hr-vat": {
+      "x": 567,
+      "y": 880
+    },
+    "hr-excise-tobacco": {
+      "x": 172,
+      "y": 691
+    },
+    "hr-renewable-fee": {
+      "x": 154,
+      "y": 336
+    },
+    "hr-insurance-tax": {
+      "x": 536,
+      "y": 86
+    },
+    "hr-maritime-forest": {
+      "x": 1059,
+      "y": 84
+    },
+    "hr-social-employers": {
+      "x": 1449,
+      "y": 341
+    },
+    "hr-customs": {
+      "x": 874,
+      "y": 926
+    },
+    "hr-excise-drinks": {
+      "x": 228,
+      "y": 926
+    },
+    "hr-waste-fees": {
+      "x": 110,
+      "y": 529
+    },
+    "hr-water-fees": {
+      "x": 159,
+      "y": 113
+    },
+    "hr-environmental-levies": {
+      "x": 770,
+      "y": 32
+    },
+    "hr-social-employees": {
+      "x": 1424,
+      "y": 102
+    },
+    "lokalne": {
+      "x": 1091,
+      "y": 568
+    },
+    "hr-pit": {
+      "x": 1058,
+      "y": 399
+    },
+    "hr-transfer-tax": {
+      "x": 1247,
+      "y": 427
+    },
+    "hr-communal-charges": {
+      "x": 1273,
+      "y": 609
+    },
+    "hr-local-vehicle-taxes": {
+      "x": 1195,
+      "y": 726
+    },
+    "hr-visitors-consumption-houses": {
+      "x": 963,
+      "y": 712
+    }
+  },
+  "radii": {}
+}

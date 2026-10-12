@@ -1,0 +1,150 @@
+{
+  "groups": [
+    {
+      "title": "State taxes 2024 – National Tax List (EUR million)",
+      "defaults": {
+        "denominatorId": "valstybe-taxes-2024",
+        "scale": "million",
+        "currency": "EUR",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "ESA tax revenue, general government and EU institutions",
+        "sourceId": "ntl-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        { "nodeId": "lt-pit-employment", "amount": 5521.5, "locator": "NTL 2026, sheet LT, row 90: D51A Tax on payroll and workforce, 2024" },
+        {
+          "nodeId": "lt-pit-self-employed",
+          "amount": 163.66,
+          "locator": "NTL 2026, sheet LT, row 91: D51A Tax on income from individual activities, 2024"
+        },
+        { "nodeId": "lt-pit-capital", "amount": 651.22, "locator": "NTL 2026, sheet LT, row 92: D51A Tax on capital income, 2024" },
+        { "nodeId": "lt-profit-tax", "amount": 1781.52, "locator": "NTL 2026, sheet LT, row 96: D51B Profit tax, 2024" },
+        { "nodeId": "lt-bank-solidarity-tax", "amount": 219.93, "locator": "NTL 2026, sheet LT, row 97: D51B Temporary bank solidarity tax, 2024" },
+        { "nodeId": "lt-vat", "amount": 6408.46, "locator": "NTL 2026, sheet LT, row 12: D211 Value added tax, 2024" },
+        {
+          "nodeId": "lt-customs",
+          "amount": 119.93,
+          "locator": "NTL 2026, sheet LT, row 15: D2121 Taxes on international trades and transactions, 2024"
+        },
+        {
+          "nodeId": "lt-excise-fuel",
+          "amount": 1060.13,
+          "locator": "NTL 2026, sheet LT, 2024: D214A Oil and other oil products (row 40); D2122C Oil and other oil products (row 23); D214A Electricity (row 41)",
+          "calculation": "1,056.49 + 1.19 + 2.45 = 1,060.13 (EUR million)"
+        },
+        {
+          "nodeId": "lt-excise-tobacco",
+          "amount": 419.76,
+          "locator": "NTL 2026, sheet LT, 2024: D214A Manufactured tobacco (row 39); D2122C Manufactured tobacco (row 22)",
+          "calculation": "409.35 + 10.41 = 419.76 (EUR million)"
+        },
+        {
+          "nodeId": "lt-excise-alcohol",
+          "amount": 510.26,
+          "locator": "NTL 2026, sheet LT, 2024: D214A Wine and sparkling wine (row 36); D214A Beer (row 37); D214A Other alcoholic beverages (row 38); D2122C Alcoholic beverages (row 21)",
+          "calculation": "67.95 + 119.3 + 316.73 + 6.29 = 510.26 (EUR million)"
+        },
+        { "nodeId": "lt-gambling", "amount": 73.95, "locator": "NTL 2026, sheet LT, row 53: D214F Tax on lotteries and gambling, 2024" },
+        {
+          "nodeId": "lt-vehicle-taxes",
+          "amount": 79.1,
+          "locator": "NTL 2026, sheet LT, 2024: D214D Car registration taxes (row 49); D214D Motor vehicle registration tax (row 50); D29B Conveyance taxes (row 70)",
+          "calculation": "19.05 + 37.1 + 22.95 = 79.1 (EUR million)"
+        },
+        {
+          "nodeId": "lt-environmental",
+          "amount": 107.64,
+          "locator": "NTL 2026, sheet LT, 2024: D29F Pollution taxes (row 80); D29F Modernisation Fund taxes (row 81)",
+          "calculation": "52.19 + 55.44 = 107.64 (EUR million)"
+        },
+        {
+          "nodeId": "lt-forestry-deductions",
+          "amount": 43.98,
+          "locator": "NTL 2026, sheet LT, row 59: D214I Deductions from revenue according to the RoL Forestry Law, 2024"
+        },
+        {
+          "nodeId": "lt-financial-levies",
+          "amount": 56.26,
+          "locator": "NTL 2026, sheet LT, 2024: D29E Deposit and investment insurance tax (row 76); D29E Resolution Fund (row 77); D29E Contributions from health care institutions (row 78)",
+          "calculation": "48.48 + 0 + 7.78 = 56.26 (EUR million)"
+        },
+        {
+          "nodeId": "lt-other-state",
+          "amount": 101.74,
+          "locator": "NTL 2026, sheet LT, 2024: D29H Other taxes on production n.e.c. (row 85); D214B State - imposed fees and charges (row 45); D214C Registration taxes (row 47); D214H Other taxes on specific services (row 56); D59D Payments by households for licences (not for business purposes ) (row 109)",
+          "calculation": "57.52 + 9.75 + 29.5 + 1.71 + 3.25 = 101.74 (EUR million)"
+        }
+      ]
+    },
+    {
+      "title": "Social contributions of households 2024 – National Tax List (EUR million)",
+      "defaults": {
+        "denominatorId": "valstybe-social-households-2024",
+        "scale": "million",
+        "currency": "EUR",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Actual compulsory contributions (subtotal)",
+        "sourceId": "ntl-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        {
+          "nodeId": "lt-social-employees",
+          "amount": 7770.14,
+          "locator": "NTL 2026, sheet LT, row 128: D613 Households' actual social contributions, 2024"
+        }
+      ]
+    },
+    {
+      "title": "Social contributions of employers 2024 – National Tax List (EUR million)",
+      "defaults": {
+        "denominatorId": "valstybe-social-employers-2024",
+        "scale": "million",
+        "currency": "EUR",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Actual compulsory contributions (subtotal)",
+        "sourceId": "ntl-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        {
+          "nodeId": "lt-social-employers",
+          "amount": 629.25,
+          "locator": "NTL 2026, sheet LT, row 119: D611 Employers' actual social contributions, 2024"
+        }
+      ]
+    },
+    {
+      "title": "Municipal taxes 2024 – National Tax List (EUR million)",
+      "defaults": {
+        "denominatorId": "savivaldybes-taxes-2024",
+        "scale": "million",
+        "currency": "EUR",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "ESA tax revenue",
+        "sourceId": "ntl-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        { "nodeId": "lt-real-estate-tax", "amount": 156.1, "locator": "NTL 2026, sheet LT, row 68: D29A Tax on immovable property, 2024" },
+        {
+          "nodeId": "lt-land-tax",
+          "amount": 76.85,
+          "locator": "NTL 2026, sheet LT, 2024: D29A Tax on land from corporations (row 67); D59A Tax on land from households (row 105)",
+          "calculation": "26.38 + 50.47 = 76.85 (EUR million)"
+        },
+        { "nodeId": "lt-inheritance-tax", "amount": 4.34, "locator": "NTL 2026, sheet LT, row 114: D91A Inheritance taxes, 2024" }
+      ]
+    }
+  ],
+  "unavailable": []
+}

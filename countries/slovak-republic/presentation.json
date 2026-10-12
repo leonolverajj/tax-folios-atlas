@@ -1,0 +1,30 @@
+{
+  "nodes": {
+    "slovak-republic": { "label": "Slovakia", "sublabel": "Slovensko · Fiscal folio", "glyph": "globe" },
+    "stat": { "label": "State", "sublabel": "Štát", "glyph": "landmark" },
+    "obce": { "label": "Local government", "sublabel": "Obce", "glyph": "town" },
+    "sk-pit-employment": { "label": "Income tax: wages", "sublabel": "19% · 25%", "glyph": "person" },
+    "sk-pit-business": { "label": "Income tax: business", "sublabel": "Self-employed", "glyph": "person" },
+    "sk-corporate-income-tax": { "label": "Corporate income tax", "sublabel": "21%", "glyph": "factory" },
+    "sk-special-levies": { "label": "Special levies", "sublabel": "Regulated industries", "glyph": "scale" },
+    "sk-withholding-tax": { "label": "Withholding taxes", "sublabel": "Dividends · interest", "glyph": "coin" },
+    "sk-social-employers": { "label": "Social: employers", "sublabel": "Pension · health", "glyph": "heart" },
+    "sk-social-employees": { "label": "Social: employees", "sublabel": "Pension · health", "glyph": "heart" },
+    "sk-social-others": { "label": "Non-employed contributions", "sublabel": "Health insurance", "glyph": "heart" },
+    "sk-vat": { "label": "VAT", "sublabel": "20% → 23%", "glyph": "cart" },
+    "sk-customs": { "label": "Customs duties", "sublabel": "EU tariff", "glyph": "ship" },
+    "sk-excise-mineral-oils": { "label": "Fuel excise", "sublabel": "Mineral oils", "glyph": "flame" },
+    "sk-excise-tobacco": { "label": "Tobacco excise", "sublabel": "Cigarettes", "glyph": "smoke" },
+    "sk-excise-alcohol": { "label": "Alcohol excise", "sublabel": "Spirits · beer · wine", "glyph": "wine" },
+    "sk-energy-taxes": { "label": "Energy taxes", "sublabel": "Electricity · gas", "glyph": "bolt" },
+    "sk-green-energy": { "label": "Green energy charge", "sublabel": "Energy", "glyph": "leaf" },
+    "sk-lottery-tax": { "label": "Lottery tax", "sublabel": "Gambling", "glyph": "dice" },
+    "sk-insurance-taxes": { "label": "Insurance taxes", "sublabel": "Premiums", "glyph": "shield" },
+    "sk-vehicle-taxes": { "label": "Vehicle taxes", "sublabel": "Road tax", "glyph": "car" },
+    "sk-environmental-charges": { "label": "Environmental charges", "sublabel": "Pollution · nuclear", "glyph": "leaf" },
+    "sk-administrative-fees": { "label": "Administrative fees", "sublabel": "Licences", "glyph": "stamp" },
+    "sk-other-state": { "label": "Other small taxes", "sublabel": "Deposits · windfall", "glyph": "stamp" },
+    "sk-property-tax": { "label": "Property tax", "sublabel": "Municipal", "glyph": "house" },
+    "sk-local-taxes": { "label": "Other local taxes", "sublabel": "Public space · dogs", "glyph": "town" }
+  }
+}

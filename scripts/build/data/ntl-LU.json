@@ -1,0 +1,2164 @@
+{
+ "country": "LU",
+ "source": "NTL edition 2026 web.xlsx (Commission, DG TAXUD / Eurostat)",
+ "unit": "million national currency",
+ "sector": "S.13 + S.212",
+ "totals": {
+  "D2": {
+   "name": "TAXES ON PRODUCTION AND IMPORTS",
+   "v2024": 9796.4665,
+   "v2023": 9351.4258,
+   "row": 9
+  },
+  "D21": {
+   "name": "Taxes on products",
+   "v2024": 8363.6255,
+   "v2023": 7757.8514,
+   "row": 10
+  },
+  "D211": {
+   "name": "Value added type taxes",
+   "v2024": 5734.1659,
+   "v2023": 5276.8027,
+   "row": 11
+  },
+  "D212": {
+   "name": "Taxes and duties on imports excluding VAT",
+   "v2024": 2128.2027,
+   "v2023": 1916.9297,
+   "row": 13
+  },
+  "D2121": {
+   "name": "Import duties",
+   "v2024": 18.8501,
+   "v2023": 19.9348,
+   "row": 14
+  },
+  "D2122": {
+   "name": "Taxes on imports, excluding VAT and import duties",
+   "v2024": 2109.3526,
+   "v2023": 1896.995,
+   "row": 16
+  },
+  "D2122A": {
+   "name": "Levies on imported agricultural products",
+   "v2024": 0.0468,
+   "v2023": 0.0672,
+   "row": 17
+  },
+  "D2122B": {
+   "name": "Monetary compensatory amounts on imports",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 19
+  },
+  "D2122C": {
+   "name": "Excise duties",
+   "v2024": 2109.3058,
+   "v2023": 1896.9277,
+   "row": 21
+  },
+  "D2122D": {
+   "name": "General sales taxes",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 38
+  },
+  "D2122E": {
+   "name": "Taxes on specific services",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 40
+  },
+  "D2122F": {
+   "name": "Profits of import monopolies",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 42
+  },
+  "D214": {
+   "name": "Taxes on products, except VAT and import taxes",
+   "v2024": 501.2569,
+   "v2023": 564.119,
+   "row": 44
+  },
+  "D214A": {
+   "name": "Excise duties and consumption taxes",
+   "v2024": 104.4371,
+   "v2023": 90.7883,
+   "row": 45
+  },
+  "D214B": {
+   "name": "Stamp taxes",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 50
+  },
+  "D214C": {
+   "name": "Taxes on financial and capital transactions",
+   "v2024": 210.9809,
+   "v2023": 295.7053,
+   "row": 52
+  },
+  "D214D": {
+   "name": "Car registration taxes",
+   "v2024": 10.1556,
+   "v2023": 9.5528,
+   "row": 57
+  },
+  "D214E": {
+   "name": "Taxes on entertainment",
+   "v2024": 0.937,
+   "v2023": 0.9637,
+   "row": 59
+  },
+  "D214F": {
+   "name": "Taxes on lotteries, gambling and betting",
+   "v2024": 25.2632,
+   "v2023": 24.2167,
+   "row": 61
+  },
+  "D214G": {
+   "name": "Taxes on insurance premiums",
+   "v2024": 89.6897,
+   "v2023": 97.8056,
+   "row": 66
+  },
+  "D214H": {
+   "name": "Other taxes on specific services",
+   "v2024": 6.2999,
+   "v2023": 6.0896,
+   "row": 69
+  },
+  "D214I": {
+   "name": "General sales or turnover taxes",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 74
+  },
+  "D214J": {
+   "name": "Profits of fiscal monopolies",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 76
+  },
+  "D214K": {
+   "name": "Export duties and monetary comp. amounts on exports",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 78
+  },
+  "D214L": {
+   "name": "Other taxes on products n.e.c.",
+   "v2024": 53.4935,
+   "v2023": 38.9972,
+   "row": 80
+  },
+  "D29": {
+   "name": "Other taxes on production",
+   "v2024": 1432.841,
+   "v2023": 1593.5744,
+   "row": 87
+  },
+  "D29A": {
+   "name": "Taxes on land, buildings or other structures",
+   "v2024": 41.1329,
+   "v2023": 41.0863,
+   "row": 88
+  },
+  "D29B": {
+   "name": "Taxes on the use of fixed assets",
+   "v2024": 28.5675,
+   "v2023": 28.4837,
+   "row": 91
+  },
+  "D29C": {
+   "name": "Total wage bill and payroll taxes",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 94
+  },
+  "D29D": {
+   "name": "Taxes on international transactions",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 96
+  },
+  "D29E": {
+   "name": "Business and professional licences",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 98
+  },
+  "D29F": {
+   "name": "Taxes on pollution",
+   "v2024": 13.4822,
+   "v2023": 18.5859,
+   "row": 100
+  },
+  "D29G": {
+   "name": "Under-compensation of VAT (flat rate system)",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 102
+  },
+  "D29H": {
+   "name": "Other taxes on production n.e.c.",
+   "v2024": 1349.6584,
+   "v2023": 1505.4185,
+   "row": 104
+  },
+  "D5": {
+   "name": "Current taxes on income wealth, etc.",
+   "v2024": 16467.7456,
+   "v2023": 14302.9566,
+   "row": 111
+  },
+  "D51": {
+   "name": "Taxes on income",
+   "v2024": 15301.0218,
+   "v2023": 13141.6405,
+   "row": 112
+  },
+  "D51M": {
+   "name": "Taxes on individual or household income including holding gains",
+   "v2024": 9728.1058,
+   "v2023": 9178.8664,
+   "row": 113
+  },
+  "D51A": {
+   "name": "Taxes on individual or household income",
+   "v2024": 9728.1058,
+   "v2023": 9178.8664,
+   "row": 115
+  },
+  "D51C1": {
+   "name": "Taxes on individual or household holding gains(1)",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 127
+  },
+  "D51O": {
+   "name": "Taxes on the income or profits of corporations including holding gains",
+   "v2024": 5572.9159,
+   "v2023": 3962.7741,
+   "row": 129
+  },
+  "D51B": {
+   "name": "Taxes on the income or profits of corporations",
+   "v2024": 5572.9159,
+   "v2023": 3962.7741,
+   "row": 131
+  },
+  "D51C2": {
+   "name": "Taxes on holding gains of corporations(1)",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 136
+  },
+  "D51C3": {
+   "name": "Other taxes on holding gains(1)",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 138
+  },
+  "D51C": {
+   "name": "Taxes on holding gains",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 140
+  },
+  "D51D": {
+   "name": "Taxes on winnings from lottery or gambling",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 141
+  },
+  "D51E": {
+   "name": "Other taxes on income n.e.c.",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 143
+  },
+  "D59": {
+   "name": "Other current taxes",
+   "v2024": 1166.7238,
+   "v2023": 1161.3161,
+   "row": 145
+  },
+  "D59A": {
+   "name": "Current taxes on capital",
+   "v2024": 1106.0205,
+   "v2023": 1102.5444,
+   "row": 146
+  },
+  "D59B": {
+   "name": "Poll taxes",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 149
+  },
+  "D59C": {
+   "name": "Expenditure taxes",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 151
+  },
+  "D59D": {
+   "name": "Payments by households for licences",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 153
+  },
+  "D59E": {
+   "name": "Taxes on international transactions",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 155
+  },
+  "D59F": {
+   "name": "Other current taxes n.e.c.",
+   "v2024": 60.7034,
+   "v2023": 58.7717,
+   "row": 157
+  },
+  "D91": {
+   "name": "Capital Taxes",
+   "v2024": 134.2788,
+   "v2023": 141.0581,
+   "row": 164
+  },
+  "D91A": {
+   "name": "Taxes on capital transfers",
+   "v2024": 134.2788,
+   "v2023": 141.0581,
+   "row": 165
+  },
+  "D91B": {
+   "name": "Capital levies",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 167
+  },
+  "D91C": {
+   "name": "Other capital taxes n.e.c.",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 169
+  },
+  "D61": {
+   "name": "Net social contributions",
+   "v2024": 10440.1471,
+   "v2023": 10238.6432,
+   "row": 172
+  },
+  "D611": {
+   "name": "Employers' actual social contributions",
+   "v2024": 3772.5346,
+   "v2023": 3748.2361,
+   "row": 173
+  },
+  "D611C": {
+   "name": "Compulsory employers' actual social contributions",
+   "v2024": 3772.5346,
+   "v2023": 3748.2361,
+   "row": 175
+  },
+  "D611V": {
+   "name": "Voluntary employers' actual social contributions",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 177
+  },
+  "D61SC": {
+   "name": "Social insurance scheme service charges(3)",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 179
+  },
+  "D6111": {
+   "name": "Employers' actual pension contributions (1)",
+   "v2024": 2404.0065,
+   "v2023": 2275.9788,
+   "row": 181
+  },
+  "D6112": {
+   "name": "Employers' actual non-pension contributions (1)",
+   "v2024": 1368.5281,
+   "v2023": 1472.2573,
+   "row": 183
+  },
+  "D612": {
+   "name": "Employers' imputed social contributions",
+   "v2024": 1101.3634,
+   "v2023": 1024.6129,
+   "row": 185
+  },
+  "D6121": {
+   "name": "Employers' imputed pension contributions (1)",
+   "v2024": 1101.3634,
+   "v2023": 1024.6129,
+   "row": 187
+  },
+  "D6122": {
+   "name": "Employers' imputed non-pension contributions (1)",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 189
+  },
+  "D613": {
+   "name": "Households' actual social contributions",
+   "v2024": 5566.249,
+   "v2023": 5465.7942,
+   "row": 191
+  },
+  "D6131": {
+   "name": "Households' actual pension contributions (1)",
+   "v2024": 3147.245,
+   "v2023": 3013.9965,
+   "row": 193
+  },
+  "D6132": {
+   "name": "Households' actual non-pension contributions (1)",
+   "v2024": 2419.004,
+   "v2023": 2451.7977,
+   "row": 195
+  },
+  "D613C": {
+   "name": "Compulsory households' actual social contributions",
+   "v2024": 5494.2279,
+   "v2023": 5386.8885,
+   "row": 197
+  },
+  "D613CE": {
+   "name": "Compulsory employees' actual social contributions",
+   "v2024": 4262.9869,
+   "v2023": 4233.6493,
+   "row": 199
+  },
+  "D613CS": {
+   "name": "Compulsory actual social contributions by the self-employed (1)",
+   "v2024": 3.8866,
+   "v2023": 3.8469,
+   "row": 201
+  },
+  "D613CN": {
+   "name": "Compulsory actual social contributions by the non-employed (1)",
+   "v2024": 1227.3544,
+   "v2023": 1149.3923,
+   "row": 203
+  },
+  "D613V": {
+   "name": "Voluntary households' actual social contributions",
+   "v2024": 72.0211,
+   "v2023": 78.9057,
+   "row": 205
+  },
+  "D614": {
+   "name": "Households' social contributions supplements(3)",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 207
+  },
+  "D6141": {
+   "name": "Households' pension contributions supplements (1)",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 209
+  },
+  "D6142": {
+   "name": "Households' non-pension contributions supplements (1)",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 211
+  },
+  "D995": {
+   "name": "Capital transfers from general government to relevant sectors representing taxes and social contributions assessed but unlikely to be collected (2)",
+   "v2024": 15.1233,
+   "v2023": 13.6045,
+   "row": 213
+  },
+  "D995A": {
+   "name": "Taxes on products assessed but unlikely to be collected (2)",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 214
+  },
+  "D995B": {
+   "name": "Other taxes on production assessed but unlikely to be collected (2)",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 216
+  },
+  "D995C": {
+   "name": "Taxes on income assessed but unlikely to be collected (2)",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 218
+  },
+  "D995D": {
+   "name": "Other current taxes assessed but unlikely to be collected (2)",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 220
+  },
+  "D995E": {
+   "name": "Employers' actual social contributions assessed but unlikely to be collected (2)",
+   "v2024": 13.0656,
+   "v2023": 11.6987,
+   "row": 222
+  },
+  "D995F": {
+   "name": "Households' actual social contributions assessed but unlikely to be collected (2)",
+   "v2024": 2.0577,
+   "v2023": 1.9057,
+   "row": 225
+  },
+  "D995FE": {
+   "name": "Employees' actual social contributions assessed but unlikely to be collected (2)",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 227
+  },
+  "D995FS": {
+   "name": "Actual social contributions by self-employed persons assessed but unlikely to be collected (1)",
+   "v2024": 0.1796,
+   "v2023": 0.1896,
+   "row": 229
+  },
+  "D995FN": {
+   "name": "Actual social contributions by non-employed persons assessed but unlikely to be collected (1)",
+   "v2024": 1.8781,
+   "v2023": 1.7161,
+   "row": 232
+  },
+  "D995G": {
+   "name": "Capital taxes assessed but unlikely to be collected (2)",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 235
+  }
+ },
+ "lines": [
+  {
+   "key": "D211:C01",
+   "code": "D211",
+   "sub": "C01",
+   "nat": "Taxe sur la valeur ajoutée",
+   "en": "Value added tax",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 5734.1659,
+   "v2023": 5276.8027,
+   "row": 12
+  },
+  {
+   "key": "D2121:C01",
+   "code": "D2121",
+   "sub": "C01",
+   "nat": "Droits sur les importations",
+   "en": "Import duties",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 18.8501,
+   "v2023": 19.9348,
+   "row": 15
+  },
+  {
+   "key": "D2122A:C01",
+   "code": "D2122A",
+   "sub": "C01",
+   "nat": "Prélèvements sur les produits agricoles importés",
+   "en": "Levies on imported agricultural products",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 0.0468,
+   "v2023": 0.0672,
+   "row": 18
+  },
+  {
+   "key": "D2122B:C01",
+   "code": "D2122B",
+   "sub": "C01",
+   "nat": "Montants compensatoires monétaires prélevés à l'importation",
+   "en": "Monetary compensatory amounts on imports",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 20
+  },
+  {
+   "key": "D2122C:C01",
+   "code": "D2122C",
+   "sub": "C01",
+   "nat": "Taxe de consommation à l'importation d'alcool",
+   "en": "Tax on the consumption of alcoholic beverages and spirits (part on imports)",
+   "fn": "C",
+   "at": "AT",
+   "v2024": 57.0405,
+   "v2023": 53.5275,
+   "row": 22
+  },
+  {
+   "key": "D2122C:C02",
+   "code": "D2122C",
+   "sub": "C02",
+   "nat": "Droits d'accises autonomes sur certaines huiles minérales",
+   "en": "Autonomous excise duties on mineral oils",
+   "fn": "C",
+   "at": "E",
+   "v2024": 150.0088,
+   "v2023": 157.8326,
+   "row": 23
+  },
+  {
+   "key": "D2122C:C03",
+   "code": "D2122C",
+   "sub": "C03",
+   "nat": "Droits d'accise sur les huiles minérales",
+   "en": "Excise duties on mineral oils",
+   "fn": "C",
+   "at": "E",
+   "v2024": 386.9877,
+   "v2023": 401.5852,
+   "row": 24
+  },
+  {
+   "key": "D2122C:C04",
+   "code": "D2122C",
+   "sub": "C04",
+   "nat": "Taxe complémentaire prélevée sur les carburants",
+   "en": "Supplementary tax on fuels",
+   "fn": "C",
+   "at": "E",
+   "v2024": 114.7753,
+   "v2023": 114.6183,
+   "row": 25
+  },
+  {
+   "key": "D2122C:C05",
+   "code": "D2122C",
+   "sub": "C05",
+   "nat": "Redevance de contrôle sur le fuel domestique",
+   "en": "Tax on control of domestic fuel",
+   "fn": "C",
+   "at": "E",
+   "v2024": 1.6258,
+   "v2023": 1.6227,
+   "row": 26
+  },
+  {
+   "key": "D2122C:C06",
+   "code": "D2122C",
+   "sub": "C06",
+   "nat": "Droits d'accises sur les gaz liquéfiés",
+   "en": "Excise duty on liquefied petroleum",
+   "fn": "C",
+   "at": "E",
+   "v2024": 0.2423,
+   "v2023": 0.2529,
+   "row": 27
+  },
+  {
+   "key": "D2122C:C07",
+   "code": "D2122C",
+   "sub": "C07",
+   "nat": "Droits d'accises sur les produits intermédiaires",
+   "en": "Excise duty on intermediary products",
+   "fn": "C",
+   "at": "AT",
+   "v2024": 0.9159,
+   "v2023": 0.9824,
+   "row": 28
+  },
+  {
+   "key": "D2122C:C08",
+   "code": "D2122C",
+   "sub": "C08",
+   "nat": "Droits d'accises sur les importations de tabacs",
+   "en": "Excise duties on imports of tobacco",
+   "fn": "C",
+   "at": "AT",
+   "v2024": 1152.2852,
+   "v2023": 935.9146,
+   "row": 29
+  },
+  {
+   "key": "D2122C:C09",
+   "code": "D2122C",
+   "sub": "C09",
+   "nat": "Droits d'accises sur les alcools étrangers",
+   "en": "Excise duties on imported alcoholic beverages",
+   "fn": "C",
+   "at": "AT",
+   "v2024": 14.584,
+   "v2023": 14.5987,
+   "row": 30
+  },
+  {
+   "key": "D2122C:C10",
+   "code": "D2122C",
+   "sub": "C10",
+   "nat": "Droits d'accises sur les importations de bières",
+   "en": "Excise duties on imports of beers",
+   "fn": "C",
+   "at": "AT",
+   "v2024": 2.8342,
+   "v2023": 2.6477,
+   "row": 31
+  },
+  {
+   "key": "D2122C:C11",
+   "code": "D2122C",
+   "sub": "C11",
+   "nat": "Droits d'accise boissons fermentées fruits",
+   "en": "Excise duty on fermented fruit beverages",
+   "fn": "C",
+   "at": "AT",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 32
+  },
+  {
+   "key": "D2122C:C12",
+   "code": "D2122C",
+   "sub": "C12",
+   "nat": "Droits d'accise boissons fermentées mousseuses",
+   "en": "Excise duties on fermented sparkling beverages",
+   "fn": "C",
+   "at": "AT",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 33
+  },
+  {
+   "key": "D2122C:C13",
+   "code": "D2122C",
+   "sub": "C13",
+   "nat": "Droits d'accises sur le sucre",
+   "en": "Excise duty on sugar",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 34
+  },
+  {
+   "key": "D2122C:C14",
+   "code": "D2122C",
+   "sub": "C14",
+   "nat": "Surtaxe sur les boissons confectionnées",
+   "en": "Excise duty on alcopops",
+   "fn": "C",
+   "at": "AT",
+   "v2024": 0.0063,
+   "v2023": 0.0228,
+   "row": 35
+  },
+  {
+   "key": "D2122C:C15",
+   "code": "D2122C",
+   "sub": "C15",
+   "nat": "Droits d'accise \"Kyoto\"",
+   "en": "Excise duty on Kyoto",
+   "fn": "C",
+   "at": "E",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 36
+  },
+  {
+   "key": "D2122C:C16",
+   "code": "D2122C",
+   "sub": "C16",
+   "nat": "Taxe CO2 (part carburants/combustibles)",
+   "en": "CO2 Tax (part fuels)",
+   "fn": "C",
+   "at": "E",
+   "v2024": 228,
+   "v2023": 213.3223,
+   "row": 37
+  },
+  {
+   "key": "D2122D:C01",
+   "code": "D2122D",
+   "sub": "C01",
+   "nat": "Impôts généraux sur les ventes",
+   "en": "General sales taxes",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 39
+  },
+  {
+   "key": "D2122E:C01",
+   "code": "D2122E",
+   "sub": "C01",
+   "nat": "Impôts sur des services déterminés",
+   "en": "Taxes on specific services",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 41
+  },
+  {
+   "key": "D2122F:C01",
+   "code": "D2122F",
+   "sub": "C01",
+   "nat": "Bénéfices sur monopoles à l'importation",
+   "en": "Profits of import monopolies",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 43
+  },
+  {
+   "key": "D214A:C01",
+   "code": "D214A",
+   "sub": "C01",
+   "nat": "Droits d'accises sur les alcools indigènes",
+   "en": "Excise duties on nationally produced alcoholic beverages",
+   "fn": "C",
+   "at": "AT",
+   "v2024": 0.0642,
+   "v2023": 0.0988,
+   "row": 46
+  },
+  {
+   "key": "D214A:C02",
+   "code": "D214A",
+   "sub": "C02",
+   "nat": "Taxe de consommation (partie sur la production nationale)",
+   "en": "Tax on the consumption of national alcoholic beverages and spirits",
+   "fn": "C",
+   "at": "AT",
+   "v2024": 0.1938,
+   "v2023": 0.3506,
+   "row": 47
+  },
+  {
+   "key": "D214A:C03",
+   "code": "D214A",
+   "sub": "C03",
+   "nat": "Droits d'accises sur les bières indigènes",
+   "en": "Excise duties on beers (part on national production)",
+   "fn": "C",
+   "at": "AT",
+   "v2024": 0.6597,
+   "v2023": 0.9703,
+   "row": 48
+  },
+  {
+   "key": "D214A:C04",
+   "code": "D214A",
+   "sub": "C04",
+   "nat": "Droits d'accise sur le tabac (partie sur la production nationale)",
+   "en": "Excise duties on tobacco (part on national production)",
+   "fn": "C",
+   "at": "AT",
+   "v2024": 103.5194,
+   "v2023": 89.3686,
+   "row": 49
+  },
+  {
+   "key": "D214B:C01",
+   "code": "D214B",
+   "sub": "C01",
+   "nat": "Impôt sur les billets de banque",
+   "en": "Tax on bank notes",
+   "fn": "KS",
+   "at": "O",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 51
+  },
+  {
+   "key": "D214C:C01",
+   "code": "D214C",
+   "sub": "C01",
+   "nat": "Surtaxe sur les mutations immobilières",
+   "en": "Tax on sale of real estate",
+   "fn": "KS",
+   "at": "O",
+   "v2024": 6.9041,
+   "v2023": 19.0283,
+   "row": 53
+  },
+  {
+   "key": "D214C:C02",
+   "code": "D214C",
+   "sub": "C02",
+   "nat": "Droits d'enregistrement",
+   "en": "Registration taxes",
+   "fn": "KS",
+   "at": "O",
+   "v2024": 170.2751,
+   "v2023": 233.8081,
+   "row": 54
+  },
+  {
+   "key": "D214C:C03",
+   "code": "D214C",
+   "sub": "C03",
+   "nat": "Droits d'hypothèques",
+   "en": "Mortgage taxes",
+   "fn": "KS",
+   "at": "O",
+   "v2024": 32.916,
+   "v2023": 41.9383,
+   "row": 55
+  },
+  {
+   "key": "D214C:C04",
+   "code": "D214C",
+   "sub": "C04",
+   "nat": "Hypothèques salaires",
+   "en": "Mortgage tax on salaries",
+   "fn": "KS",
+   "at": "O",
+   "v2024": 0.8857,
+   "v2023": 0.9306,
+   "row": 56
+  },
+  {
+   "key": "D214D:C01",
+   "code": "D214D",
+   "sub": "C01",
+   "nat": "Taxes à l'immatriculation de véhicules",
+   "en": "Car registration taxes",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 10.1556,
+   "v2023": 9.5528,
+   "row": 58
+  },
+  {
+   "key": "D214E:C01",
+   "code": "D214E",
+   "sub": "C01",
+   "nat": "Taxe sur les amusements publics (nuits blanches)",
+   "en": "Entertainment tax",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 0.937,
+   "v2023": 0.9637,
+   "row": 60
+  },
+  {
+   "key": "D214F:C01",
+   "code": "D214F",
+   "sub": "C01",
+   "nat": "Prélèvements sur les jeux de casino (partie État central)",
+   "en": "Tax on casino gambling (to central state)",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 20.1055,
+   "v2023": 19.2685,
+   "row": 62
+  },
+  {
+   "key": "D214F:C02",
+   "code": "D214F",
+   "sub": "C02",
+   "nat": "Prélèvements sur les jeux de casino (partie communes)",
+   "en": "Tax on casino gambling (to local government)",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 5.1577,
+   "v2023": 4.9482,
+   "row": 63
+  },
+  {
+   "key": "D214F:C03",
+   "code": "D214F",
+   "sub": "C03",
+   "nat": "Taxe sur le loto",
+   "en": "Tax on national lottery",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 64
+  },
+  {
+   "key": "D214F:C04",
+   "code": "D214F",
+   "sub": "C04",
+   "nat": "Taxes et prélèvement sur les paris relatifs aux épreuves sportives",
+   "en": "Tax on betting stakes on sporting events",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 65
+  },
+  {
+   "key": "D214G:C01",
+   "code": "D214G",
+   "sub": "C01",
+   "nat": "Taxe sur les assurances",
+   "en": "Tax on insurance",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 83.8049,
+   "v2023": 91.4141,
+   "row": 67
+  },
+  {
+   "key": "D214G:C02",
+   "code": "D214G",
+   "sub": "C02",
+   "nat": "Impôt spécial en charge des assureurs dans l'intérêt du service des secours",
+   "en": "Special tax for insurers in the interest of the rescue service",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 5.8848,
+   "v2023": 6.3915,
+   "row": 68
+  },
+  {
+   "key": "D214H:C01",
+   "code": "D214H",
+   "sub": "C01",
+   "nat": "Taxe due pour la construction dans les secteurs centraux",
+   "en": "Tax on construction in dense sectors",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 2.0004,
+   "v2023": 1.9645,
+   "row": 70
+  },
+  {
+   "key": "D214H:C02",
+   "code": "D214H",
+   "sub": "C02",
+   "nat": "Taxe de séjour",
+   "en": "Tourist tax",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 3.7559,
+   "v2023": 3.5535,
+   "row": 71
+  },
+  {
+   "key": "D214H:C03",
+   "code": "D214H",
+   "sub": "C03",
+   "nat": "Taxe sur les cabarets",
+   "en": "Tax on licenced premises",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 0.5436,
+   "v2023": 0.5716,
+   "row": 72
+  },
+  {
+   "key": "D214H:C04",
+   "code": "D214H",
+   "sub": "C04",
+   "nat": "Taxe sur les transports",
+   "en": "Tax on transport",
+   "fn": "C",
+   "at": "T",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 73
+  },
+  {
+   "key": "D214I:C01",
+   "code": "D214I",
+   "sub": "C01",
+   "nat": "Impôt sur le chiffre d'affaires",
+   "en": "Turnover tax",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 75
+  },
+  {
+   "key": "D214J:C01",
+   "code": "D214J",
+   "sub": "C01",
+   "nat": "Bénéfices des monopoles fiscaux",
+   "en": "Profits of fiscal monopolies",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 77
+  },
+  {
+   "key": "D214K:C01",
+   "code": "D214K",
+   "sub": "C01",
+   "nat": "Droits sur les exportations et les montants compensatoires monétaires",
+   "en": "Export duties and monetary comp. amounts on exports",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 79
+  },
+  {
+   "key": "D214L:C01",
+   "code": "D214L",
+   "sub": "C01",
+   "nat": "Taxe supplémentaire sur l'électricité",
+   "en": "Supplementary tax on electricity",
+   "fn": "C",
+   "at": "E",
+   "v2024": 1.6907,
+   "v2023": 1.836,
+   "row": 81
+  },
+  {
+   "key": "D214L:C02",
+   "code": "D214L",
+   "sub": "C02",
+   "nat": "Taxe sur la distribution d'électricité",
+   "en": "Tax on distribution of electricity",
+   "fn": "C",
+   "at": "E",
+   "v2024": 1.1959,
+   "v2023": 1.1554,
+   "row": 82
+  },
+  {
+   "key": "D214L:C03",
+   "code": "D214L",
+   "sub": "C03",
+   "nat": "Taxe sur la production d'électricité",
+   "en": "Tax on production of electricity",
+   "fn": "C",
+   "at": "E",
+   "v2024": 4.5906,
+   "v2023": 0,
+   "row": 83
+  },
+  {
+   "key": "D214L:C04",
+   "code": "D214L",
+   "sub": "C04",
+   "nat": "Taxe de consommation sur le gaz naturel",
+   "en": "Tax on natural gas consumption",
+   "fn": "C",
+   "at": "E",
+   "v2024": 3.9298,
+   "v2023": 3.8327,
+   "row": 84
+  },
+  {
+   "key": "D214L:C05",
+   "code": "D214L",
+   "sub": "C05",
+   "nat": "Taxe de prélèvement sur l'eau",
+   "en": "Tax on water",
+   "fn": "C",
+   "at": "RS",
+   "v2024": 13.3918,
+   "v2023": 8.4706,
+   "row": 85
+  },
+  {
+   "key": "D214L:C06",
+   "code": "D214L",
+   "sub": "C06",
+   "nat": "Taxe CO2 (part gaz)",
+   "en": "CO2 Tax (part gas)",
+   "fn": "C",
+   "at": "E",
+   "v2024": 28.6947,
+   "v2023": 23.7024,
+   "row": 86
+  },
+  {
+   "key": "D29A:C01",
+   "code": "D29A",
+   "sub": "C01",
+   "nat": "Impôt foncier",
+   "en": "Taxes on ownership of lands and buildings",
+   "fn": "KS",
+   "at": "RP",
+   "v2024": 40.6283,
+   "v2023": 40.6052,
+   "row": 89
+  },
+  {
+   "key": "D29A:C02",
+   "code": "D29A",
+   "sub": "C02",
+   "nat": "Taxe sur les résidences secondaires",
+   "en": "Tax on secondary residence",
+   "fn": "KS",
+   "at": "RP",
+   "v2024": 0.5046,
+   "v2023": 0.4811,
+   "row": 90
+  },
+  {
+   "key": "D29B:C01",
+   "code": "D29B",
+   "sub": "C01",
+   "nat": "Taxe sur véhicules automoteurs à charge des entreprises",
+   "en": "Motor vehicle duties paid by enterprises",
+   "fn": "KS",
+   "at": "T",
+   "v2024": 27.8467,
+   "v2023": 27.7949,
+   "row": 92
+  },
+  {
+   "key": "D29B:C02",
+   "code": "D29B",
+   "sub": "C02",
+   "nat": "Taxe d'immatriculation des navires",
+   "en": "Ship registration tax",
+   "fn": "KS",
+   "at": "T",
+   "v2024": 0.7208,
+   "v2023": 0.6888,
+   "row": 93
+  },
+  {
+   "key": "D29C:C01",
+   "code": "D29C",
+   "sub": "C01",
+   "nat": "Impôt sur la somme des salaires",
+   "en": "Payroll tax",
+   "fn": "LEYRS",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 95
+  },
+  {
+   "key": "D29D:C01",
+   "code": "D29D",
+   "sub": "C01",
+   "nat": "Impôts sur les transactions internationales",
+   "en": "Taxes on international transactions",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 97
+  },
+  {
+   "key": "D29E:C01",
+   "code": "D29E",
+   "sub": "C01",
+   "nat": "Taxe sur le colportage",
+   "en": "Tax on peddling",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 99
+  },
+  {
+   "key": "D29F:C01",
+   "code": "D29F",
+   "sub": "C01",
+   "nat": "Crédits d'émission",
+   "en": "Emission permits",
+   "fn": "KS",
+   "at": "E",
+   "v2024": 13.4822,
+   "v2023": 18.5859,
+   "row": 101
+  },
+  {
+   "key": "D29G:C01",
+   "code": "D29G",
+   "sub": "C01",
+   "nat": "Sous-compensation de la TVA",
+   "en": "Under-compensation of VAT (flat rate system)",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 103
+  },
+  {
+   "key": "D29H:C01",
+   "code": "D29H",
+   "sub": "C01",
+   "nat": "Registre aux firmes",
+   "en": "Tax on enterprise register",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 105
+  },
+  {
+   "key": "D29H:C02",
+   "code": "D29H",
+   "sub": "C02",
+   "nat": "Prélèvement CECA",
+   "en": "Levies to ECCS",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 106
+  },
+  {
+   "key": "D29H:C03",
+   "code": "D29H",
+   "sub": "C03",
+   "nat": "Taxe d'abonnement sur les titres de société",
+   "en": "Holding tax",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": 1317.2743,
+   "v2023": 1216.6782,
+   "row": 107
+  },
+  {
+   "key": "D29H:C04",
+   "code": "D29H",
+   "sub": "C04",
+   "nat": "TVA reclassée en autres impôts sur la production",
+   "en": "VAT reclassified as tax on production",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": 2.1584,
+   "v2023": 2.0792,
+   "row": 108
+  },
+  {
+   "key": "D29H:C05",
+   "code": "D29H",
+   "sub": "C05",
+   "nat": "Contributions au FGDL",
+   "en": "Contributions to FGDL",
+   "fn": "KS",
+   "at": "O",
+   "v2024": 30.1596,
+   "v2023": 43.2904,
+   "row": 109
+  },
+  {
+   "key": "D29H:C06",
+   "code": "D29H",
+   "sub": "C06",
+   "nat": "Contributions au FRL",
+   "en": "Contributions to FRL",
+   "fn": "KS",
+   "at": "O",
+   "v2024": 0.066,
+   "v2023": 243.3707,
+   "row": 110
+  },
+  {
+   "key": "D51M:C01",
+   "code": "D51M",
+   "sub": "C01",
+   "nat": "",
+   "en": "Taxes on individual or household income including holding gains",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 9728.1058,
+   "v2023": 9178.8664,
+   "row": 114
+  },
+  {
+   "key": "D51A:C01",
+   "code": "D51A",
+   "sub": "C01",
+   "nat": "Impôt retenu sur les traitements et salaires",
+   "en": "Tax on wages and salaries",
+   "fn": "SPLIT1",
+   "at": "_Z",
+   "v2024": 6518.9859,
+   "v2023": 6278.3464,
+   "row": 116
+  },
+  {
+   "key": "D51A:C02",
+   "code": "D51A",
+   "sub": "C02",
+   "nat": "Impôt retenu sur certains revenus échus à des contrib. non-résidents",
+   "en": "Tax on certain income of non-residents",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": 1.3282,
+   "v2023": 1.482,
+   "row": 117
+  },
+  {
+   "key": "D51A:C03",
+   "code": "D51A",
+   "sub": "C03",
+   "nat": "Impôt sur le revenu des personnes physiques fixé par voie d'assiette",
+   "en": "Personal income tax - fixed by assessment",
+   "fn": "SPLIT1",
+   "at": "_Z",
+   "v2024": 1295.6988,
+   "v2023": 1298.4341,
+   "row": 118
+  },
+  {
+   "key": "D51A:C04",
+   "code": "D51A",
+   "sub": "C04",
+   "nat": "Impôt solidarité majoration personnes physiques",
+   "en": "Supplementary solidarity income tax",
+   "fn": "SPLIT1",
+   "at": "_Z",
+   "v2024": 607.7699,
+   "v2023": 573.872,
+   "row": 119
+  },
+  {
+   "key": "D51A:C05",
+   "code": "D51A",
+   "sub": "C05",
+   "nat": "Impôt retenu sur les revenus de capitaux",
+   "en": "Withholding tax on income from capital",
+   "fn": "KIH",
+   "at": "_Z",
+   "v2024": 1052.604,
+   "v2023": 817.046,
+   "row": 120
+  },
+  {
+   "key": "D51A:C06",
+   "code": "D51A",
+   "sub": "C06",
+   "nat": "Impôt sur les tantièmes",
+   "en": "Special tax on company directors fees",
+   "fn": "KIH",
+   "at": "_Z",
+   "v2024": 74.2525,
+   "v2023": 73.5479,
+   "row": 121
+  },
+  {
+   "key": "D51A:C07",
+   "code": "D51A",
+   "sub": "C07",
+   "nat": "Impôt retenu sur revenus épargne (non résidents)",
+   "en": "Tax withheld on savings income (non residents)",
+   "fn": "KIH",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 122
+  },
+  {
+   "key": "D51A:C08",
+   "code": "D51A",
+   "sub": "C08",
+   "nat": "Retenu libératoire nationale sur les intérêts",
+   "en": "National withholding tax on interest",
+   "fn": "KIH",
+   "at": "_Z",
+   "v2024": 171.1294,
+   "v2023": 129.9773,
+   "row": 123
+  },
+  {
+   "key": "D51A:C09",
+   "code": "D51A",
+   "sub": "C09",
+   "nat": "Contribution à la crise",
+   "en": "Crisis Tax",
+   "fn": "KIH",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 124
+  },
+  {
+   "key": "D51A:C10",
+   "code": "D51A",
+   "sub": "C10",
+   "nat": "Impôt d'équilibrage budgétaire temporaire",
+   "en": "Temporary budgetary balance tax",
+   "fn": "KIH",
+   "at": "_Z",
+   "v2024": 0.0095,
+   "v2023": 0.0248,
+   "row": 125
+  },
+  {
+   "key": "D51A:C11",
+   "code": "D51A",
+   "sub": "C11",
+   "nat": "Impôt retenu sur les contributions versées à un régime complémentaire de pension agréé pour indépendants",
+   "en": "Tax withheld on contributions to a registered supplementary pension plan for self-employed persons",
+   "fn": "KIH",
+   "at": "_Z",
+   "v2024": 6.3275,
+   "v2023": 6.136,
+   "row": 126
+  },
+  {
+   "key": "D51C1:C01",
+   "code": "D51C1",
+   "sub": "C01",
+   "nat": "",
+   "en": "Taxes on individual or household holding gains(1)",
+   "fn": "SPLIT1",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 128
+  },
+  {
+   "key": "D51O:C01",
+   "code": "D51O",
+   "sub": "C01",
+   "nat": "",
+   "en": "Taxes on the income or profits of corporations including holding gains",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 5572.9159,
+   "v2023": 3962.7741,
+   "row": 130
+  },
+  {
+   "key": "D51B:C01",
+   "code": "D51B",
+   "sub": "C01",
+   "nat": "Impôt sur le revenu des collectivités",
+   "en": "Corporation tax",
+   "fn": "KIC",
+   "at": "_Z",
+   "v2024": 3669.8269,
+   "v2023": 2475.8216,
+   "row": 132
+  },
+  {
+   "key": "D51B:C02",
+   "code": "D51B",
+   "sub": "C02",
+   "nat": "Impôt de solidarité sur le revenu des collectivités",
+   "en": "Supplementary solidarity corporation tax",
+   "fn": "KIC",
+   "at": "_Z",
+   "v2024": 262.1287,
+   "v2023": 189.3814,
+   "row": 133
+  },
+  {
+   "key": "D51B:C03",
+   "code": "D51B",
+   "sub": "C03",
+   "nat": "Impôt commercial communal",
+   "en": "Trade tax",
+   "fn": "KIC",
+   "at": "_Z",
+   "v2024": 1633.3603,
+   "v2023": 1295.25,
+   "row": 134
+  },
+  {
+   "key": "D51B:C04",
+   "code": "D51B",
+   "sub": "C04",
+   "nat": "Prélèvement Immobilier",
+   "en": "Real estate levy",
+   "fn": "KIC",
+   "at": "_Z",
+   "v2024": 7.6,
+   "v2023": 2.3211,
+   "row": 135
+  },
+  {
+   "key": "D51C2:C01",
+   "code": "D51C2",
+   "sub": "C01",
+   "nat": "",
+   "en": "Taxes on holding gains of corporations(1)",
+   "fn": "KIC",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 137
+  },
+  {
+   "key": "D51C3:C01",
+   "code": "D51C3",
+   "sub": "C01",
+   "nat": "",
+   "en": "Other taxes on holding gains(1)",
+   "fn": "KIH",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 139
+  },
+  {
+   "key": "D51D:C01",
+   "code": "D51D",
+   "sub": "C01",
+   "nat": "Prélèvements sur gains dans paris",
+   "en": "Tax on betting gains",
+   "fn": "KIH",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 142
+  },
+  {
+   "key": "D51E:C01",
+   "code": "D51E",
+   "sub": "C01",
+   "nat": "Autres impôts sur le revenu non compris ailleurs",
+   "en": "Other taxes on income n.e.c.",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 144
+  },
+  {
+   "key": "D59A:C01",
+   "code": "D59A",
+   "sub": "C01",
+   "nat": "Impôt sur la fortune",
+   "en": "Wealth tax",
+   "fn": "KS",
+   "at": "O",
+   "v2024": 1101.5062,
+   "v2023": 1098.0328,
+   "row": 147
+  },
+  {
+   "key": "D59A:C02",
+   "code": "D59A",
+   "sub": "C02",
+   "nat": "Impôt foncier",
+   "en": "Tax on ownership of land without buildings",
+   "fn": "KS",
+   "at": "RP",
+   "v2024": 4.5143,
+   "v2023": 4.5117,
+   "row": 148
+  },
+  {
+   "key": "D59B:C01",
+   "code": "D59B",
+   "sub": "C01",
+   "nat": "Impôts de capitation",
+   "en": "Poll taxes",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 150
+  },
+  {
+   "key": "D59C:C01",
+   "code": "D59C",
+   "sub": "C01",
+   "nat": "Impôts sur la dépense",
+   "en": "Expenditure taxes",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 152
+  },
+  {
+   "key": "D59D:C01",
+   "code": "D59D",
+   "sub": "C01",
+   "nat": "Taxes acquittées par les ménages pour des licences",
+   "en": "Payments by households for licences",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 154
+  },
+  {
+   "key": "D59E:C01",
+   "code": "D59E",
+   "sub": "C01",
+   "nat": "Impôts sur les transactions internationales par les ménages",
+   "en": "Taxes on international transactions",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 156
+  },
+  {
+   "key": "D59F:C01",
+   "code": "D59F",
+   "sub": "C01",
+   "nat": "Droits de timbre",
+   "en": "Stamp duties",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": 10.62,
+   "v2023": 8.4484,
+   "row": 158
+  },
+  {
+   "key": "D59F:C02",
+   "code": "D59F",
+   "sub": "C02",
+   "nat": "Recettes concernant les départements des affaires étrangères",
+   "en": "Tax concerning foreign affair departments",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": 6.4949,
+   "v2023": 6.4541,
+   "row": 159
+  },
+  {
+   "key": "D59F:C03",
+   "code": "D59F",
+   "sub": "C03",
+   "nat": "Timbres de chancellerie",
+   "en": "Chancellery stamps",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": 0.9529,
+   "v2023": 1.2876,
+   "row": 160
+  },
+  {
+   "key": "D59F:C04",
+   "code": "D59F",
+   "sub": "C04",
+   "nat": "Taxe sur les chiens",
+   "en": "Dog tax",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 1.4994,
+   "v2023": 1.489,
+   "row": 161
+  },
+  {
+   "key": "D59F:C05",
+   "code": "D59F",
+   "sub": "C05",
+   "nat": "Taxe sur véhicules automoteurs à charge des ménages",
+   "en": "Motor vehicle duties paid by households",
+   "fn": "C",
+   "at": "T",
+   "v2024": 40.9877,
+   "v2023": 40.9115,
+   "row": 162
+  },
+  {
+   "key": "D59F:C06",
+   "code": "D59F",
+   "sub": "C06",
+   "nat": "Taxe bateaux ou navires de plaisance",
+   "en": "Tax on ships",
+   "fn": "C",
+   "at": "T",
+   "v2024": 0.1485,
+   "v2023": 0.1811,
+   "row": 163
+  },
+  {
+   "key": "D91A:C01",
+   "code": "D91A",
+   "sub": "C01",
+   "nat": "Droits de succession",
+   "en": "Inheritance duty",
+   "fn": "KS",
+   "at": "O",
+   "v2024": 134.2788,
+   "v2023": 141.0581,
+   "row": 166
+  },
+  {
+   "key": "D91B:C01",
+   "code": "D91B",
+   "sub": "C01",
+   "nat": "Prélèvements sur le capital",
+   "en": "Capital levies",
+   "fn": "KS",
+   "at": "O",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 168
+  },
+  {
+   "key": "D91C:C01",
+   "code": "D91C",
+   "sub": "C01",
+   "nat": "Autres impôts en capital non compris ailleurs",
+   "en": "Other capital taxes n.e.c.",
+   "fn": "KS",
+   "at": "O",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 170
+  },
+  {
+   "key": "D611:C01",
+   "code": "D611",
+   "sub": "C01",
+   "nat": "",
+   "en": "Employers' actual social contributions",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 3772.5346,
+   "v2023": 3748.2361,
+   "row": 174
+  },
+  {
+   "key": "D611C:C01",
+   "code": "D611C",
+   "sub": "C01",
+   "nat": "",
+   "en": "Compulsory employers' actual social contributions",
+   "fn": "LEYRS",
+   "at": "_Z",
+   "v2024": 3772.5346,
+   "v2023": 3748.2361,
+   "row": 176
+  },
+  {
+   "key": "D611V:C01",
+   "code": "D611V",
+   "sub": "C01",
+   "nat": "",
+   "en": "Voluntary employers' actual social contributions",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 178
+  },
+  {
+   "key": "D61SC:C01",
+   "code": "D61SC",
+   "sub": "C01",
+   "nat": "",
+   "en": "Social insurance scheme service charges(3)",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 180
+  },
+  {
+   "key": "D6111:C01",
+   "code": "D6111",
+   "sub": "C01",
+   "nat": "",
+   "en": "Employers' actual pension contributions (1)",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 2404.0065,
+   "v2023": 2275.9788,
+   "row": 182
+  },
+  {
+   "key": "D6112:C01",
+   "code": "D6112",
+   "sub": "C01",
+   "nat": "",
+   "en": "Employers' actual non-pension contributions (1)",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 1368.5281,
+   "v2023": 1472.2573,
+   "row": 184
+  },
+  {
+   "key": "D612:C01",
+   "code": "D612",
+   "sub": "C01",
+   "nat": "",
+   "en": "Employers' imputed social contributions",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 1101.3634,
+   "v2023": 1024.6129,
+   "row": 186
+  },
+  {
+   "key": "D6121:C01",
+   "code": "D6121",
+   "sub": "C01",
+   "nat": "",
+   "en": "Employers' imputed pension contributions (1)",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 1101.3634,
+   "v2023": 1024.6129,
+   "row": 188
+  },
+  {
+   "key": "D6122:C01",
+   "code": "D6122",
+   "sub": "C01",
+   "nat": "",
+   "en": "Employers' imputed non-pension contributions (1)",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 190
+  },
+  {
+   "key": "D613:C01",
+   "code": "D613",
+   "sub": "C01",
+   "nat": "",
+   "en": "Households' actual social contributions",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 5566.249,
+   "v2023": 5465.7942,
+   "row": 192
+  },
+  {
+   "key": "D6131:C01",
+   "code": "D6131",
+   "sub": "C01",
+   "nat": "",
+   "en": "Households' actual pension contributions (1)",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 3147.245,
+   "v2023": 3013.9965,
+   "row": 194
+  },
+  {
+   "key": "D6132:C01",
+   "code": "D6132",
+   "sub": "C01",
+   "nat": "",
+   "en": "Households' actual non-pension contributions (1)",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 2419.004,
+   "v2023": 2451.7977,
+   "row": 196
+  },
+  {
+   "key": "D613C:C01",
+   "code": "D613C",
+   "sub": "C01",
+   "nat": "",
+   "en": "Compulsory households' actual social contributions",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 5494.2279,
+   "v2023": 5386.8885,
+   "row": 198
+  },
+  {
+   "key": "D613CE:C01",
+   "code": "D613CE",
+   "sub": "C01",
+   "nat": "",
+   "en": "Compulsory employees' actual social contributions",
+   "fn": "LEES",
+   "at": "_Z",
+   "v2024": 4262.9869,
+   "v2023": 4233.6493,
+   "row": 200
+  },
+  {
+   "key": "D613CS:C01",
+   "code": "D613CS",
+   "sub": "C01",
+   "nat": "",
+   "en": "Compulsory actual social contributions by the self-employed (1)",
+   "fn": "KISE",
+   "at": "_Z",
+   "v2024": 3.8866,
+   "v2023": 3.8469,
+   "row": 202
+  },
+  {
+   "key": "D613CN:C01",
+   "code": "D613CN",
+   "sub": "C01",
+   "nat": "",
+   "en": "Compulsory actual social contributions by the non-employed (1)",
+   "fn": "LNON",
+   "at": "_Z",
+   "v2024": 1227.3544,
+   "v2023": 1149.3923,
+   "row": 204
+  },
+  {
+   "key": "D613V:C01",
+   "code": "D613V",
+   "sub": "C01",
+   "nat": "",
+   "en": "Voluntary households' actual social contributions",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 72.0211,
+   "v2023": 78.9057,
+   "row": 206
+  },
+  {
+   "key": "D614:C01",
+   "code": "D614",
+   "sub": "C01",
+   "nat": "",
+   "en": "Households' social contributions supplements(3)",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 208
+  },
+  {
+   "key": "D6141:C01",
+   "code": "D6141",
+   "sub": "C01",
+   "nat": "",
+   "en": "Households' pension contributions supplements (1)",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 210
+  },
+  {
+   "key": "D6142:C01",
+   "code": "D6142",
+   "sub": "C01",
+   "nat": "",
+   "en": "Households' non-pension contributions supplements (1)",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 212
+  },
+  {
+   "key": "D995A:C01",
+   "code": "D995A",
+   "sub": "C01",
+   "nat": "",
+   "en": "Taxes on products assessed but unlikely to be collected (2)",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 215
+  },
+  {
+   "key": "D995B:C01",
+   "code": "D995B",
+   "sub": "C01",
+   "nat": "",
+   "en": "Other taxes on production assessed but unlikely to be collected (2)",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 217
+  },
+  {
+   "key": "D995C:C01",
+   "code": "D995C",
+   "sub": "C01",
+   "nat": "",
+   "en": "Taxes on income assessed but unlikely to be collected (2)",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 219
+  },
+  {
+   "key": "D995D:C01",
+   "code": "D995D",
+   "sub": "C01",
+   "nat": "",
+   "en": "Other current taxes assessed but unlikely to be collected (2)",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 221
+  },
+  {
+   "key": "D995E:C01",
+   "code": "D995E",
+   "sub": "C01",
+   "nat": "",
+   "en": "Employers' actual social contributions assessed but unlikely to be collected (2)",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 13.0656,
+   "v2023": 11.6987,
+   "row": 223
+  },
+  {
+   "key": "D995F:C01",
+   "code": "D995F",
+   "sub": "C01",
+   "nat": "",
+   "en": "Households' actual social contributions assessed but unlikely to be collected (2)",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 2.0577,
+   "v2023": 1.9057,
+   "row": 226
+  },
+  {
+   "key": "D995FE:C01",
+   "code": "D995FE",
+   "sub": "C01",
+   "nat": "",
+   "en": "Employees' actual social contributions assessed but unlikely to be collected (2)",
+   "fn": "LEES",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 228
+  },
+  {
+   "key": "D995FS:C01",
+   "code": "D995FS",
+   "sub": "C01",
+   "nat": "",
+   "en": "Actual social contributions by self-employed persons assessed but unlikely to be collected (1)",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 0.1796,
+   "v2023": 0.1896,
+   "row": 230
+  },
+  {
+   "key": "D995FN:C01",
+   "code": "D995FN",
+   "sub": "C01",
+   "nat": "",
+   "en": "Actual social contributions by non-employed persons assessed but unlikely to be collected (1)",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 1.8781,
+   "v2023": 1.7161,
+   "row": 233
+  },
+  {
+   "key": "D995G:C01",
+   "code": "D995G",
+   "sub": "C01",
+   "nat": "",
+   "en": "Capital taxes assessed but unlikely to be collected (2)",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 236
+  }
+ ]
+}

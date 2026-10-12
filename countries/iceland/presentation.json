@@ -1,0 +1,33 @@
+{
+  "nodes": {
+    "iceland": { "label": "Iceland", "sublabel": "Ísland · Fiscal folio", "glyph": "globe" },
+    "rikid": { "label": "State", "sublabel": "Ríkið", "glyph": "landmark" },
+    "sveitarfelog": { "label": "Municipalities", "sublabel": "Sveitarfélög", "glyph": "town" },
+    "is-income-tax-state": { "label": "Income tax (State)", "sublabel": "31.5–46.3% withheld", "glyph": "person" },
+    "is-capital-income-tax": { "label": "Capital income tax", "sublabel": "22%", "glyph": "coin" },
+    "is-corporate-income-tax": { "label": "Corporate income tax", "sublabel": "21% (2024)", "glyph": "factory" },
+    "is-financial-income-tax": { "label": "Financial income tax", "sublabel": "Special", "glyph": "bank" },
+    "is-social-insurance-levy": { "label": "Social insurance levy", "sublabel": "6.35% of payroll", "glyph": "heart" },
+    "is-unemployment-levy": { "label": "Unemployment levy", "sublabel": "Payroll", "glyph": "bed" },
+    "is-social-other": { "label": "Other contributions", "sublabel": "Self-employed · sailors", "glyph": "heart" },
+    "is-payroll-taxes": { "label": "Payroll taxes", "sublabel": "Market levy · pensions", "glyph": "scroll" },
+    "is-vat": { "label": "VAT", "sublabel": "24%", "glyph": "cart" },
+    "is-customs": { "label": "Customs duties", "sublabel": "Imports", "glyph": "ship" },
+    "is-fuel-energy-excise": { "label": "Fuel and carbon excises", "sublabel": "Petrol · diesel · CO₂", "glyph": "flame" },
+    "is-excise-alcohol": { "label": "Alcohol excise", "sublabel": "Spirits · wine · beer", "glyph": "wine" },
+    "is-excise-tobacco": { "label": "Tobacco excise", "sublabel": "Cigarettes", "glyph": "smoke" },
+    "is-vehicle-taxes": { "label": "Vehicle taxes", "sublabel": "Excise · car tax · km fee", "glyph": "car" },
+    "is-other-excises": { "label": "Environmental excises", "sublabel": "Other duties", "glyph": "leaf" },
+    "is-financial-transactions": { "label": "Stamp duty", "sublabel": "Transactions", "glyph": "stamp" },
+    "is-poll-taxes": { "label": "Poll-tax fees", "sublabel": "Broadcasting · elderly", "glyph": "scroll" },
+    "is-bank-levies": { "label": "Bank levies", "sublabel": "Financial sector", "glyph": "bank" },
+    "is-accommodation-airport": { "label": "Tourism charges", "sublabel": "Hotel nights · airport", "glyph": "bed" },
+    "is-inheritance-tax": { "label": "Inheritance tax", "sublabel": "10%", "glyph": "gem" },
+    "is-building-fees": { "label": "Building charges", "sublabel": "Catastrophe · fire", "glyph": "house" },
+    "is-licences-small": { "label": "Licences and small taxes", "sublabel": "Fees", "glyph": "stamp" },
+    "is-income-tax-municipal": { "label": "Municipal income tax", "sublabel": "Útsvar", "glyph": "person" },
+    "is-property-tax": { "label": "Property tax", "sublabel": "Fasteignaskattur", "glyph": "house" },
+    "is-municipal-fees": { "label": "Municipal fees", "sublabel": "Waste · permits", "glyph": "town" },
+    "is-road-construction-fee": { "label": "Road construction charge", "sublabel": "One-off", "glyph": "town" }
+  }
+}

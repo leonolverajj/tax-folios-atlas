@@ -1,6 +1,6 @@
 # Update checklist – Japan
 
-Generated 2026-10-11 by `npm run checklist`. **Do not edit by hand** – edit the sources in `countries/japan/sources.json` and re-run it.
+Generated 2026-10-12 by `npm run checklist`. **Do not edit by hand** – edit the sources in `countries/japan/sources.json` and re-run it.
 
 Research status: **researched**. 2 source(s) to check or due, 0 coming up, 28 in total.
 

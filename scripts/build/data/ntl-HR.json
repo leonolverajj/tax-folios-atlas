@@ -1,0 +1,1828 @@
+{
+ "country": "HR",
+ "source": "NTL edition 2026 web.xlsx (Commission, DG TAXUD / Eurostat)",
+ "unit": "million national currency",
+ "sector": "S.13 + S.212",
+ "totals": {
+  "D2": {
+   "name": "TAXES ON PRODUCTION AND IMPORTS",
+   "v2024": 16556.6517,
+   "v2023": 15123.4024,
+   "row": 9
+  },
+  "D21": {
+   "name": "Taxes on products",
+   "v2024": 15463.0283,
+   "v2023": 14058.6812,
+   "row": 10
+  },
+  "D211": {
+   "name": "Value added type taxes",
+   "v2024": 11449.8075,
+   "v2023": 10491.7326,
+   "row": 11
+  },
+  "D212": {
+   "name": "Taxes and duties on imports excluding VAT",
+   "v2024": 83.9695,
+   "v2023": 79.6675,
+   "row": 15
+  },
+  "D2121": {
+   "name": "Import duties",
+   "v2024": 83.9695,
+   "v2023": 79.6675,
+   "row": 16
+  },
+  "D2122": {
+   "name": "Taxes on imports, excluding VAT and import duties",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 19
+  },
+  "D2122A": {
+   "name": "Levies on imported agricultural products",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 20
+  },
+  "D2122B": {
+   "name": "Monetary compensatory amounts on imports",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 21
+  },
+  "D2122C": {
+   "name": "Excise duties",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 22
+  },
+  "D2122D": {
+   "name": "General sales taxes",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 23
+  },
+  "D2122E": {
+   "name": "Taxes on specific services",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 24
+  },
+  "D2122F": {
+   "name": "Profits of import monopolies",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 25
+  },
+  "D214": {
+   "name": "Taxes on products, except VAT and import taxes",
+   "v2024": 3929.2513,
+   "v2023": 3487.2811,
+   "row": 26
+  },
+  "D214A": {
+   "name": "Excise duties and consumption taxes",
+   "v2024": 3238.9995,
+   "v2023": 2865.124,
+   "row": 27
+  },
+  "D214B": {
+   "name": "Stamp taxes",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 48
+  },
+  "D214C": {
+   "name": "Taxes on financial and capital transactions",
+   "v2024": 228.0094,
+   "v2023": 226.9791,
+   "row": 49
+  },
+  "D214D": {
+   "name": "Car registration taxes",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 51
+  },
+  "D214E": {
+   "name": "Taxes on entertainment",
+   "v2024": "L",
+   "v2023": "L",
+   "row": 54
+  },
+  "D214F": {
+   "name": "Taxes on lotteries, gambling and betting",
+   "v2024": 233.8342,
+   "v2023": 200.5921,
+   "row": 56
+  },
+  "D214G": {
+   "name": "Taxes on insurance premiums",
+   "v2024": 97.5848,
+   "v2023": 82.9147,
+   "row": 65
+  },
+  "D214H": {
+   "name": "Other taxes on specific services",
+   "v2024": 130.7645,
+   "v2023": 111.4314,
+   "row": 68
+  },
+  "D214I": {
+   "name": "General sales or turnover taxes",
+   "v2024": 0.0588,
+   "v2023": 0.2396,
+   "row": 73
+  },
+  "D214J": {
+   "name": "Profits of fiscal monopolies",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 76
+  },
+  "D214K": {
+   "name": "Export duties and monetary comp. amounts on exports",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 77
+  },
+  "D214L": {
+   "name": "Other taxes on products n.e.c.",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 78
+  },
+  "D29": {
+   "name": "Other taxes on production",
+   "v2024": 1093.6234,
+   "v2023": 1064.7212,
+   "row": 79
+  },
+  "D29A": {
+   "name": "Taxes on land, buildings or other structures",
+   "v2024": 556.3964,
+   "v2023": 506.9759,
+   "row": 80
+  },
+  "D29B": {
+   "name": "Taxes on the use of fixed assets",
+   "v2024": 56.8711,
+   "v2023": 53.421,
+   "row": 88
+  },
+  "D29C": {
+   "name": "Total wage bill and payroll taxes",
+   "v2024": 23.6611,
+   "v2023": 20.7143,
+   "row": 94
+  },
+  "D29D": {
+   "name": "Taxes on international transactions",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 96
+  },
+  "D29E": {
+   "name": "Business and professional licences",
+   "v2024": 55.1994,
+   "v2023": 52.5506,
+   "row": 97
+  },
+  "D29F": {
+   "name": "Taxes on pollution",
+   "v2024": 219.4846,
+   "v2023": 201.5937,
+   "row": 103
+  },
+  "D29G": {
+   "name": "Under-compensation of VAT (flat rate system)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 113
+  },
+  "D29H": {
+   "name": "Other taxes on production n.e.c.",
+   "v2024": 182.0108,
+   "v2023": 229.4656,
+   "row": 114
+  },
+  "D5": {
+   "name": "CURRENT TAXES ON INCOME, WEALTH, ETC.",
+   "v2024": 6763.6528,
+   "v2023": 5695.0149,
+   "row": 124
+  },
+  "D51": {
+   "name": "Taxes on income",
+   "v2024": 6146.1751,
+   "v2023": 5138.6239,
+   "row": 125
+  },
+  "D51M": {
+   "name": "Taxes on individual or household income including holding gains",
+   "v2024": 3388.5007,
+   "v2023": 2765.9959,
+   "row": 126
+  },
+  "D51A": {
+   "name": "Taxes on individual or household income excluding holding gains (1)",
+   "v2024": 3388.5007,
+   "v2023": 2765.9959,
+   "row": 127
+  },
+  "D51O": {
+   "name": "Taxes on the income or profits of corporations including holding gains",
+   "v2024": 2679.1041,
+   "v2023": 2297.615,
+   "row": 129
+  },
+  "D51B": {
+   "name": "Taxes on the income or profits of corporations excluding holding gains (1)",
+   "v2024": 2679.1041,
+   "v2023": 2297.615,
+   "row": 130
+  },
+  "D51C": {
+   "name": "Taxes on holding gains",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 133
+  },
+  "D51C1": {
+   "name": "Taxes on individual or household holding gains (1)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 134
+  },
+  "D51C2": {
+   "name": "Taxes on holding gains of corporations (1)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 135
+  },
+  "D51C3": {
+   "name": "Other taxes on holding gains (1)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 136
+  },
+  "D51D": {
+   "name": "Taxes on winnings from lottery or gambling",
+   "v2024": 78.4721,
+   "v2023": 75.0066,
+   "row": 137
+  },
+  "D51E": {
+   "name": "Other taxes on income n.e.c.",
+   "v2024": 0.0981,
+   "v2023": 0.0064,
+   "row": 140
+  },
+  "D59": {
+   "name": "Other current taxes",
+   "v2024": 617.4776,
+   "v2023": 556.391,
+   "row": 142
+  },
+  "D59A": {
+   "name": "Current taxes on capital",
+   "v2024": 52.2188,
+   "v2023": 24.0267,
+   "row": 143
+  },
+  "D59B": {
+   "name": "Poll taxes",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 148
+  },
+  "D59C": {
+   "name": "Expenditure taxes",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 149
+  },
+  "D59D": {
+   "name": "Payments by households for licences",
+   "v2024": 296.1469,
+   "v2023": 278.3188,
+   "row": 150
+  },
+  "D59E": {
+   "name": "Taxes on international transactions",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 156
+  },
+  "D59F": {
+   "name": "Other current taxes n.e.c.",
+   "v2024": 269.1119,
+   "v2023": 254.0454,
+   "row": 157
+  },
+  "D91": {
+   "name": "Capital Taxes",
+   "v2024": 2.7605,
+   "v2023": 1.7571,
+   "row": 164
+  },
+  "D91A": {
+   "name": "Taxes on capital transfers",
+   "v2024": 2.7605,
+   "v2023": 1.7571,
+   "row": 165
+  },
+  "D91B": {
+   "name": "Capital levies",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 167
+  },
+  "D91C": {
+   "name": "Other capital taxes n.e.c.",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 168
+  },
+  "D61": {
+   "name": "Net social contributions",
+   "v2024": 9835.1024,
+   "v2023": 8371.1272,
+   "row": 170
+  },
+  "D611": {
+   "name": "Employers' actual social contributions",
+   "v2024": 4831.7699,
+   "v2023": 4054.1542,
+   "row": 171
+  },
+  "D611C": {
+   "name": "Compulsory employers' actual social contributions",
+   "v2024": 4831.7699,
+   "v2023": 4054.1542,
+   "row": 172
+  },
+  "D611V": {
+   "name": "Voluntary employers' actual social contributions",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 174
+  },
+  "D61SC": {
+   "name": "Social insurance scheme service charges(3)",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 176
+  },
+  "D6111": {
+   "name": "Employers' actual pension contributions (1)",
+   "v2024": 225.3563,
+   "v2023": 195.6737,
+   "row": 177
+  },
+  "D6112": {
+   "name": "Employers' actual non-pension contributions (1)",
+   "v2024": 4606.4137,
+   "v2023": 3858.4805,
+   "row": 178
+  },
+  "D612": {
+   "name": "Employers' imputed social contributions",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 179
+  },
+  "D6121": {
+   "name": "Employers' imputed pension contributions (1)",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 180
+  },
+  "D6122": {
+   "name": "Employers' imputed non-pension contributions (1)",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 181
+  },
+  "D613": {
+   "name": "Households' actual social contributions",
+   "v2024": 5003.3325,
+   "v2023": 4316.973,
+   "row": 182
+  },
+  "D6131": {
+   "name": "Households' actual pension contributions (1)",
+   "v2024": 4626.7711,
+   "v2023": 4021.7963,
+   "row": 183
+  },
+  "D6132": {
+   "name": "Households' actual non-pension contributions (1)",
+   "v2024": 376.5614,
+   "v2023": 295.1767,
+   "row": 184
+  },
+  "D613C": {
+   "name": "Compulsory households' actual social contributions",
+   "v2024": 4855.1307,
+   "v2023": 4213.08,
+   "row": 185
+  },
+  "D613CE": {
+   "name": "Compulsory employees' actual social contributions",
+   "v2024": 4508.151,
+   "v2023": 3917.7033,
+   "row": 186
+  },
+  "D613CS": {
+   "name": "Compulsory actual social contributions by the self-employed (1)",
+   "v2024": 346.9797,
+   "v2023": 295.3767,
+   "row": 188
+  },
+  "D613CN": {
+   "name": "Compulsory actual social contributions by the non-employed (1)",
+   "v2024": "L",
+   "v2023": "L",
+   "row": 190
+  },
+  "D613V": {
+   "name": "Voluntary households' actual social contributions",
+   "v2024": 148.2018,
+   "v2023": 103.893,
+   "row": 191
+  },
+  "D614": {
+   "name": "Households' social contributions supplements(3)",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 192
+  },
+  "D6141": {
+   "name": "Households' pension contributions supplements (1)",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 193
+  },
+  "D6142": {
+   "name": "Households' non-pension contributions supplements (1)",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 194
+  },
+  "D995": {
+   "name": "Capital transfers from general government to relevant sectors representing taxes and social contributions assessed but unlikely to be collected (2)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 195
+  },
+  "D995A": {
+   "name": "Taxes on products assessed but unlikely to be collected (2)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 196
+  },
+  "D995B": {
+   "name": "Other taxes on production assessed but unlikely to be collected (2)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 197
+  },
+  "D995C": {
+   "name": "Taxes on income assessed but unlikely to be collected (2)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 198
+  },
+  "D995D": {
+   "name": "Other current taxes assessed but unlikely to be collected (2)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 199
+  },
+  "D995E": {
+   "name": "Employers' actual social contributions assessed but unlikely to be collected (2)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 200
+  },
+  "D995F": {
+   "name": "Households' actual social contributions assessed but unlikely to be collected (2)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 201
+  },
+  "D995FE": {
+   "name": "Employees' actual social contributions assessed but unlikely to be collected (2)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 202
+  },
+  "D995FS": {
+   "name": "Actual social contributions by self-employed persons assessed but unlikely to be collected (1)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 203
+  },
+  "D995FN": {
+   "name": "Actual social contributions by non-employed persons assessed but unlikely to be collected (1)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 204
+  },
+  "D995G": {
+   "name": "Capital taxes assessed but unlikely to be collected (2)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 205
+  }
+ },
+ "lines": [
+  {
+   "key": "D211:C01",
+   "code": "D211",
+   "sub": "C01",
+   "nat": "Porez na dodanu vrijednost",
+   "en": "Value added taxes",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 11157.9638,
+   "v2023": 10180.5833,
+   "row": 12
+  },
+  {
+   "key": "D211:C02",
+   "code": "D211",
+   "sub": "C02",
+   "nat": "Porez na dodanu vrijednost pri uvozu",
+   "en": "Value added taxes on import of goods inland",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 292.2324,
+   "v2023": 311.1242,
+   "row": 13
+  },
+  {
+   "key": "D211:C03",
+   "code": "D211",
+   "sub": "C03",
+   "nat": "Porez na dodanu vrijednost na usluge inozemnih poduzetnika",
+   "en": "Value added taxes on services of foreign entrepreneurs",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": -0.3887,
+   "v2023": 0.0251,
+   "row": 14
+  },
+  {
+   "key": "D2121:C01",
+   "code": "D2121",
+   "sub": "C01",
+   "nat": "Carina",
+   "en": "Customs",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 83.9695,
+   "v2023": 79.6675,
+   "row": 17
+  },
+  {
+   "key": "D2121:C02",
+   "code": "D2121",
+   "sub": "C02",
+   "nat": "Carinska pristojba",
+   "en": "Customs duties (fees)",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 18
+  },
+  {
+   "key": "D214A:C01",
+   "code": "D214A",
+   "sub": "C01",
+   "nat": "Poseban porez na osobne automobile, ostala motorna vozila, plovila i zrakoplove",
+   "en": "Excise taxes on passenger cars, other motor vehicles, vessels and aircraft",
+   "fn": "C",
+   "at": "T",
+   "v2024": 0.0115,
+   "v2023": 0.0418,
+   "row": 28
+  },
+  {
+   "key": "D214A:C02",
+   "code": "D214A",
+   "sub": "C02",
+   "nat": "Trošarina na energente",
+   "en": "Excise taxes on mineral oils",
+   "fn": "C",
+   "at": "E",
+   "v2024": 1401.7328,
+   "v2023": 1213.364,
+   "row": 29
+  },
+  {
+   "key": "D214A:C03",
+   "code": "D214A",
+   "sub": "C03",
+   "nat": "Poseban porez na alkohol",
+   "en": "Excise taxes on alcohol",
+   "fn": "C",
+   "at": "AT",
+   "v2024": 63.6805,
+   "v2023": 55.7936,
+   "row": 30
+  },
+  {
+   "key": "D214A:C04",
+   "code": "D214A",
+   "sub": "C04",
+   "nat": "Poseban porez na pivo",
+   "en": "Excise taxes on beer",
+   "fn": "C",
+   "at": "AT",
+   "v2024": 90.729,
+   "v2023": 89.4968,
+   "row": 31
+  },
+  {
+   "key": "D214A:C05",
+   "code": "D214A",
+   "sub": "C05",
+   "nat": "Poseban porez na bezalkoholna pića",
+   "en": "Excise taxes on non-alcoholic drinks",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 36.0694,
+   "v2023": 31.3708,
+   "row": 32
+  },
+  {
+   "key": "D214A:C06",
+   "code": "D214A",
+   "sub": "C06",
+   "nat": "Poseban porez na duhanske prerađevine",
+   "en": "Excise taxes on tobacco products",
+   "fn": "C",
+   "at": "AT",
+   "v2024": 1023.0866,
+   "v2023": 891.275,
+   "row": 33
+  },
+  {
+   "key": "D214A:C07",
+   "code": "D214A",
+   "sub": "C07",
+   "nat": "Poseban porez na kavu",
+   "en": "Excise taxes on coffee",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 16.8556,
+   "v2023": 16.2267,
+   "row": 34
+  },
+  {
+   "key": "D214A:C08",
+   "code": "D214A",
+   "sub": "C08",
+   "nat": "Poseban porez na luksuzne proizvode",
+   "en": "Excise taxes on luxury goods",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 35
+  },
+  {
+   "key": "D214A:C09",
+   "code": "D214A",
+   "sub": "C09",
+   "nat": "Porez na potrošnju",
+   "en": "Consumption taxes",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 29.1117,
+   "v2023": 25.9884,
+   "row": 36
+  },
+  {
+   "key": "D214A:C10",
+   "code": "D214A",
+   "sub": "C10",
+   "nat": "Naknada u cijeni goriva",
+   "en": "Fuel price fee",
+   "fn": "C",
+   "at": "E",
+   "v2024": "L",
+   "v2023": "L",
+   "row": 37
+  },
+  {
+   "key": "D214A:C11",
+   "code": "D214A",
+   "sub": "C11",
+   "nat": "Poseban porez na motorna vozila – od 01.07.2013. godine",
+   "en": "Excise taxes on motor vehicles - from 01.07.2013.",
+   "fn": "C",
+   "at": "T",
+   "v2024": 176.1723,
+   "v2023": 156.303,
+   "row": 38
+  },
+  {
+   "key": "D214A:C12",
+   "code": "D214A",
+   "sub": "C12",
+   "nat": "Trošarina na električnu energiju",
+   "en": "Excise taxes on electricity - from 01.07.2013.",
+   "fn": "C",
+   "at": "E",
+   "v2024": 4.9613,
+   "v2023": 4.7612,
+   "row": 39
+  },
+  {
+   "key": "D214A:C13",
+   "code": "D214A",
+   "sub": "C13",
+   "nat": "Trošarina na prirodni plin",
+   "en": "Excise taxes on natural gas - from 01.07.2013.",
+   "fn": "C",
+   "at": "E",
+   "v2024": 3.6931,
+   "v2023": 3.6851,
+   "row": 40
+  },
+  {
+   "key": "D214A:C14",
+   "code": "D214A",
+   "sub": "C14",
+   "nat": "Trošarina na kruta goriva",
+   "en": "Excise taxes on solid fuels - from 01.07.2013.",
+   "fn": "C",
+   "at": "E",
+   "v2024": 0.046,
+   "v2023": 0.0538,
+   "row": 41
+  },
+  {
+   "key": "D214A:C15",
+   "code": "D214A",
+   "sub": "C15",
+   "nat": "Naknada za poticanje el.en. Iz OIEIK",
+   "en": "Fee for Incentivizing Electricity Production from Renewable Energy Sources and Cogeneration",
+   "fn": "C",
+   "at": "E",
+   "v2024": 213.6956,
+   "v2023": 215.6896,
+   "row": 42
+  },
+  {
+   "key": "D214A:C16",
+   "code": "D214A",
+   "sub": "C16",
+   "nat": "Naknada gospodarenja otpadnom ambalažom i povratna naknada",
+   "en": "Waste packaging management fee and deposit fee",
+   "fn": "C",
+   "at": "P",
+   "v2024": 120.6799,
+   "v2023": 106.3516,
+   "row": 43
+  },
+  {
+   "key": "D214A:C17",
+   "code": "D214A",
+   "sub": "C17",
+   "nat": "Naknada gospodarenja EE otpadom",
+   "en": "WEEE management fee",
+   "fn": "C",
+   "at": "P",
+   "v2024": 31.1965,
+   "v2023": 29.6149,
+   "row": 44
+  },
+  {
+   "key": "D214A:C18",
+   "code": "D214A",
+   "sub": "C18",
+   "nat": "Naknada gospodarenja otpadnim vozilima",
+   "en": "End-of-life vehicle management fee",
+   "fn": "C",
+   "at": "P",
+   "v2024": 18.4613,
+   "v2023": 16.2505,
+   "row": 45
+  },
+  {
+   "key": "D214A:C19",
+   "code": "D214A",
+   "sub": "C19",
+   "nat": "Naknada gospodarenja otpadnim gumama",
+   "en": "Waste Tyres Management Fee",
+   "fn": "C",
+   "at": "P",
+   "v2024": 5.2822,
+   "v2023": 5.2126,
+   "row": 46
+  },
+  {
+   "key": "D214A:C20",
+   "code": "D214A",
+   "sub": "C20",
+   "nat": "Naknada zbrinjavanja otpadnih mazivih ulja",
+   "en": "Disposal fee for waste lubricating oils",
+   "fn": "C",
+   "at": "P",
+   "v2024": 3.5343,
+   "v2023": 3.6446,
+   "row": 47
+  },
+  {
+   "key": "D214C:C01",
+   "code": "D214C",
+   "sub": "C01",
+   "nat": "Porez na promet nekretnina",
+   "en": "Real estate transfer tax",
+   "fn": "KS",
+   "at": "O",
+   "v2024": 228.0094,
+   "v2023": 226.9791,
+   "row": 50
+  },
+  {
+   "key": "D214D:C01",
+   "code": "D214D",
+   "sub": "C01",
+   "nat": "Godišnja naknada za upo.jav.cesta pri registraciji motornih i priključ.",
+   "en": "Annual levy on public roads use (at motor vehicles registration)",
+   "fn": "C",
+   "at": "T",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 52
+  },
+  {
+   "key": "D214D:C02",
+   "code": "D214D",
+   "sub": "C02",
+   "nat": "Naknada za uporabu cesta koja se plaća na traktore i njihova priključna vozila",
+   "en": "Levy on public roads use for tractors",
+   "fn": "C",
+   "at": "T",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 53
+  },
+  {
+   "key": "D214E:C01",
+   "code": "D214E",
+   "sub": "C01",
+   "nat": "Porez na priređivanje zabavnih i športskih priredaba",
+   "en": "Taxes on entertainment and sporting events",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": "L",
+   "v2023": "L",
+   "row": 55
+  },
+  {
+   "key": "D214F:C01",
+   "code": "D214F",
+   "sub": "C01",
+   "nat": "Naknada za priređivanje prigodne jednokrat.lutrije,robnonovčane lutrije, ekspres lutrije, instant-lutrije i tombole",
+   "en": "Levy on the occasional and one-time organisation of lotteries",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 0.011,
+   "v2023": 0.008,
+   "row": 57
+  },
+  {
+   "key": "D214F:C02",
+   "code": "D214F",
+   "sub": "C02",
+   "nat": "Mjesečna naknada za priređivanje klađenja",
+   "en": "Monthly levy on the organising of the betting games",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 59.9741,
+   "v2023": 54.9001,
+   "row": 58
+  },
+  {
+   "key": "D214F:C03",
+   "code": "D214F",
+   "sub": "C03",
+   "nat": "Mjesečna naknada za priređivanje igara na sreću u automat klubu",
+   "en": "Monthly levy on the organisation of games of chance in coin operated machines",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 92.523,
+   "v2023": 79.0726,
+   "row": 59
+  },
+  {
+   "key": "D214F:C04",
+   "code": "D214F",
+   "sub": "C04",
+   "nat": "Mjesečna naknada za priređivanje igara na sreću u casinima",
+   "en": "Monthly levy on the organisation of games of chance - casinos",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 64.0276,
+   "v2023": 52.0535,
+   "row": 60
+  },
+  {
+   "key": "D214F:C05",
+   "code": "D214F",
+   "sub": "C05",
+   "nat": "Godišnja naknada za priređivanje igara na sreću u automat klubu",
+   "en": "Annual levy on the organisation of games of chance in coin operated machines",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 61
+  },
+  {
+   "key": "D214F:C06",
+   "code": "D214F",
+   "sub": "C06",
+   "nat": "Mjesečna naknada za priređivanje lutrijskih igara na sreću",
+   "en": "Monthly levy on the organisation of lottery games of chance",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 17.2985,
+   "v2023": 14.5579,
+   "row": 62
+  },
+  {
+   "key": "D214F:C07",
+   "code": "D214F",
+   "sub": "C07",
+   "nat": "Godišnja naknada za priređivanje igara na sreću u casnima",
+   "en": "Annual levy on the organisation of games of chance - casinos",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 63
+  },
+  {
+   "key": "D214F:C08",
+   "code": "D214F",
+   "sub": "C08",
+   "nat": "Godišnja naknada za priređvanje igara klađenja",
+   "en": "Annual levy on the organising of the betting games",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 64
+  },
+  {
+   "key": "D214G:C01",
+   "code": "D214G",
+   "sub": "C01",
+   "nat": "Porez na premije osiguranja od automobilske odgovornosti",
+   "en": "Taxes on liability road vehicles insurance premium",
+   "fn": "C",
+   "at": "T",
+   "v2024": 66.7761,
+   "v2023": 57.7973,
+   "row": 66
+  },
+  {
+   "key": "D214G:C02",
+   "code": "D214G",
+   "sub": "C02",
+   "nat": "Porez na premije kasko osiguranja cestovnih vozila",
+   "en": "Taxes on comprehensive road vehicles insurance premium",
+   "fn": "C",
+   "at": "T",
+   "v2024": 30.8088,
+   "v2023": 25.1174,
+   "row": 67
+  },
+  {
+   "key": "D214H:C01",
+   "code": "D214H",
+   "sub": "C01",
+   "nat": "Porez na reklame",
+   "en": "Advertising taxes",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 0.0227,
+   "v2023": 0.027,
+   "row": 69
+  },
+  {
+   "key": "D214H:C02",
+   "code": "D214H",
+   "sub": "C02",
+   "nat": "Boravišna pristojba",
+   "en": "Visitors' taxes (tourist taxes)",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 122.187,
+   "v2023": 104.2603,
+   "row": 70
+  },
+  {
+   "key": "D214H:C03",
+   "code": "D214H",
+   "sub": "C03",
+   "nat": "Naknada za pružanje usluga u pokretnim elektroničkim komunikacijskim mrežama",
+   "en": "Mobile telephony (on SMS, MMS and phone calls)",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 71
+  },
+  {
+   "key": "D214H:C04",
+   "code": "D214H",
+   "sub": "C04",
+   "nat": "HACZ putničke naknade",
+   "en": "HACZ passenger compensation",
+   "fn": "C",
+   "at": "T",
+   "v2024": 8.5547,
+   "v2023": 7.1442,
+   "row": 72
+  },
+  {
+   "key": "D214I:C01",
+   "code": "D214I",
+   "sub": "C01",
+   "nat": "Porez na promet proizvoda i usluga",
+   "en": "Taxes on the sale of goods and services",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 0.056,
+   "v2023": 0.3915,
+   "row": 74
+  },
+  {
+   "key": "D214I:C02",
+   "code": "D214I",
+   "sub": "C02",
+   "nat": "Poseban porez na promet upotrebljavanih osobnih automobila, ostalih mot.vozila, plovila i zrakoplova",
+   "en": "Special taxes on the sale of used passenger cars, other motor vehicles, boats and airplanes",
+   "fn": "C",
+   "at": "T",
+   "v2024": 0.0028,
+   "v2023": -0.1518,
+   "row": 75
+  },
+  {
+   "key": "D29A:C01",
+   "code": "D29A",
+   "sub": "C01",
+   "nat": "Porez na korištenje javnih površina",
+   "en": "Public land use taxes",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": 12.4182,
+   "v2023": 11.0772,
+   "row": 81
+  },
+  {
+   "key": "D29A:C02",
+   "code": "D29A",
+   "sub": "C02",
+   "nat": "Komunalne naknade",
+   "en": "Utility charges",
+   "fn": "KS",
+   "at": "RP",
+   "v2024": 407.51,
+   "v2023": 375.6478,
+   "row": 82
+  },
+  {
+   "key": "D29A:C03",
+   "code": "D29A",
+   "sub": "C03",
+   "nat": "Šumski doprinos",
+   "en": "Contributions for forest",
+   "fn": "KS",
+   "at": "RS",
+   "v2024": 35.6465,
+   "v2023": 25.6721,
+   "row": 83
+  },
+  {
+   "key": "D29A:C04",
+   "code": "D29A",
+   "sub": "C04",
+   "nat": "Vodni doprinos",
+   "en": "Water contribution (natural persons)",
+   "fn": "KS",
+   "at": "RS",
+   "v2024": 5.4931,
+   "v2023": 6.4458,
+   "row": 84
+  },
+  {
+   "key": "D29A:C05",
+   "code": "D29A",
+   "sub": "C05",
+   "nat": "Komunalni doprinos",
+   "en": "Municipal contribution (communal contribution) art.76 (natural persons)",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": 45.9989,
+   "v2023": 38.8484,
+   "row": 85
+  },
+  {
+   "key": "D29A:C06",
+   "code": "D29A",
+   "sub": "C06",
+   "nat": "Naknada za korištenje općekorisnih funkcija šuma",
+   "en": "Compensation for the use of the public-use functions of forests",
+   "fn": "KS",
+   "at": "RS",
+   "v2024": 35.1208,
+   "v2023": 36.1641,
+   "row": 86
+  },
+  {
+   "key": "D29A:C07",
+   "code": "D29A",
+   "sub": "C07",
+   "nat": "Spomenička renta",
+   "en": "Monumental annuity",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": 14.2089,
+   "v2023": 13.1203,
+   "row": 87
+  },
+  {
+   "key": "D29B:C01",
+   "code": "D29B",
+   "sub": "C01",
+   "nat": "Porez na cestovna motorna vozila (pravne osobe)",
+   "en": "Motor vehicle taxes (legal persons)",
+   "fn": "KS",
+   "at": "T",
+   "v2024": 12.8908,
+   "v2023": 11.618,
+   "row": 89
+  },
+  {
+   "key": "D29B:C02",
+   "code": "D29B",
+   "sub": "C02",
+   "nat": "Porez na plovila (pravne osobe)",
+   "en": "Boat taxes (legal persons)",
+   "fn": "KS",
+   "at": "T",
+   "v2024": 0.3722,
+   "v2023": 0.2476,
+   "row": 90
+  },
+  {
+   "key": "D29B:C03",
+   "code": "D29B",
+   "sub": "C03",
+   "nat": "Godišnja nak. za upo.jav.cesta pri regi. mot. i priključ.(pravne)",
+   "en": "Annual levy on public roads use (at motor vehicles registration) legal person",
+   "fn": "C",
+   "at": "T",
+   "v2024": 42.7863,
+   "v2023": 40.8728,
+   "row": 91
+  },
+  {
+   "key": "D29B:C04",
+   "code": "D29B",
+   "sub": "C04",
+   "nat": "Naknada za upotrebu cesta koja se plaća na traktore i njihova priključna vozila",
+   "en": "Levy on public roads use for tractors",
+   "fn": "C",
+   "at": "T",
+   "v2024": 0.2499,
+   "v2023": 0.2635,
+   "row": 92
+  },
+  {
+   "key": "D29B:C05",
+   "code": "D29B",
+   "sub": "C05",
+   "nat": "Naknada za sigurnost plovidbe (pravne)",
+   "en": "Maritime safety charge (legal persons)",
+   "fn": "C",
+   "at": "T",
+   "v2024": 0.5719,
+   "v2023": 0.4192,
+   "row": 93
+  },
+  {
+   "key": "D29C:C01",
+   "code": "D29C",
+   "sub": "C01",
+   "nat": "Novčana naknada zbog neispunjenja obveze kvotnog zapošljavanja osoba s invaliditetom",
+   "en": "Allowance for failure to comply with the obligation to employ persons with disabilities on a quota basis",
+   "fn": "LEYRS",
+   "at": "_Z",
+   "v2024": 23.6611,
+   "v2023": 20.7143,
+   "row": 95
+  },
+  {
+   "key": "D29E:C01",
+   "code": "D29E",
+   "sub": "C01",
+   "nat": "Porez na tvrtku ili naziv",
+   "en": "Trading name taxes",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": 0.0752,
+   "v2023": 0.0929,
+   "row": 98
+  },
+  {
+   "key": "D29E:C02",
+   "code": "D29E",
+   "sub": "C02",
+   "nat": "HRT pristojba (pravne osobe)",
+   "en": "HRT fee (legal persons)",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 24.1553,
+   "v2023": 22.6086,
+   "row": 99
+  },
+  {
+   "key": "D29E:C03",
+   "code": "D29E",
+   "sub": "C03",
+   "nat": "Godišnja naknada za priređivanje igara na sreću u automat-klubu",
+   "en": "Annual levy on the organisation of games of chance in coin operated machines",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 22.7416,
+   "v2023": 21.6236,
+   "row": 100
+  },
+  {
+   "key": "D29E:C04",
+   "code": "D29E",
+   "sub": "C04",
+   "nat": "Godišnja naknada za priređivanje igara na sreću u casinima",
+   "en": "Annual levy on the organisation of games of chance - casinos",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 5.0425,
+   "v2023": 5.8368,
+   "row": 101
+  },
+  {
+   "key": "D29E:C05",
+   "code": "D29E",
+   "sub": "C05",
+   "nat": "Godišnja naknada za priređivanje igara klađenja",
+   "en": "Annual levy on the organising of the betting games",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 3.1849,
+   "v2023": 2.3888,
+   "row": 102
+  },
+  {
+   "key": "D29F:C01",
+   "code": "D29F",
+   "sub": "C01",
+   "nat": "Naknada za neopasni industrijski otpad",
+   "en": "Levy for non-hazardous industrial waste",
+   "fn": "C",
+   "at": "P",
+   "v2024": 0.3843,
+   "v2023": 0.3826,
+   "row": 104
+  },
+  {
+   "key": "D29F:C02",
+   "code": "D29F",
+   "sub": "C02",
+   "nat": "Naknada za opasni otpad",
+   "en": "Levy for hazardous waste",
+   "fn": "C",
+   "at": "P",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 105
+  },
+  {
+   "key": "D29F:C03",
+   "code": "D29F",
+   "sub": "C03",
+   "nat": "Naknada za emisiju u okoliš CO2",
+   "en": "Levy for CO2 emissions into the environment",
+   "fn": "C",
+   "at": "E",
+   "v2024": 0.6835,
+   "v2023": 0.5087,
+   "row": 106
+  },
+  {
+   "key": "D29F:C04",
+   "code": "D29F",
+   "sub": "C04",
+   "nat": "Naknada za emisiju u okoliš SO2",
+   "en": "Levy for SO2 emissions into the environment",
+   "fn": "C",
+   "at": "P",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 107
+  },
+  {
+   "key": "D29F:C05",
+   "code": "D29F",
+   "sub": "C05",
+   "nat": "Naknada za emisiju u okoliš NO2",
+   "en": "Levy for NO2 emissions into the environment",
+   "fn": "C",
+   "at": "P",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 108
+  },
+  {
+   "key": "D29F:C06",
+   "code": "D29F",
+   "sub": "C06",
+   "nat": "Naknada korisnika okoliša",
+   "en": "Levy on the environmental user",
+   "fn": "C",
+   "at": "P",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 109
+  },
+  {
+   "key": "D29F:C07",
+   "code": "D29F",
+   "sub": "C07",
+   "nat": "Naknada za okoliš na motorna vozila",
+   "en": "Levy on the environment on motor vehicles (natural persons)",
+   "fn": "C",
+   "at": "T",
+   "v2024": 6.6442,
+   "v2023": 6.4297,
+   "row": 110
+  },
+  {
+   "key": "D29F:C08",
+   "code": "D29F",
+   "sub": "C08",
+   "nat": "Prihodi od predanih prava na emisiju",
+   "en": "Emission permits",
+   "fn": "C",
+   "at": "E",
+   "v2024": 197.0255,
+   "v2023": 180.3019,
+   "row": 111
+  },
+  {
+   "key": "D29F:C09",
+   "code": "D29F",
+   "sub": "C09",
+   "nat": "Naknada za zaštitu voda",
+   "en": "Water protection fee (natural persons)",
+   "fn": "C",
+   "at": "RS",
+   "v2024": 14.7471,
+   "v2023": 13.9708,
+   "row": 112
+  },
+  {
+   "key": "D29H:C01",
+   "code": "D29H",
+   "sub": "C01",
+   "nat": "Premija osiguranja depozita",
+   "en": "Deposit insurance premiums",
+   "fn": "KS",
+   "at": "O",
+   "v2024": 0,
+   "v2023": 46.7947,
+   "row": 115
+  },
+  {
+   "key": "D29H:C02",
+   "code": "D29H",
+   "sub": "C02",
+   "nat": "Premije prikupljene za sanaciju",
+   "en": "Premiums collected for resolution",
+   "fn": "KS",
+   "at": "O",
+   "v2024": 0,
+   "v2023": 0.719,
+   "row": 116
+  },
+  {
+   "key": "D29H:C03",
+   "code": "D29H",
+   "sub": "C03",
+   "nat": "Naknada za uređenje voda",
+   "en": "Water management fee (water regulation fee) (natural persons)",
+   "fn": "KS",
+   "at": "RS",
+   "v2024": 78.231,
+   "v2023": 76.3939,
+   "row": 117
+  },
+  {
+   "key": "D29H:C04",
+   "code": "D29H",
+   "sub": "C04",
+   "nat": "Naknada za korištenje voda",
+   "en": "Water use charge (water use fee) (natural persons)",
+   "fn": "KS",
+   "at": "RS",
+   "v2024": 31.734,
+   "v2023": 41.0088,
+   "row": 118
+  },
+  {
+   "key": "D29H:C05",
+   "code": "D29H",
+   "sub": "C05",
+   "nat": "Postotni iznos od ukupnog godišnjeg prihoda ostvarenog obavljanjem audiovizualnih djelatnosti",
+   "en": "Percentage of the total annual revenue generated by audio-visual activities activities",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": 5.1018,
+   "v2023": 4.5812,
+   "row": 119
+  },
+  {
+   "key": "D29H:C06",
+   "code": "D29H",
+   "sub": "C06",
+   "nat": "Naknada za obavljanje drugih poslova HAKOM-a u području elektroničkih komunikacija, u postotku od ukupnoga godišnjeg bruto prihoda koji su u prethodnoj kalendarskoj godini ostvarili operatori u obavljanju djelatnosti elektroničkih komunikacijskih mreža i usluga na tržištu",
+   "en": "Compensation for carrying out other tasks of HAKOM in the field of electronic communications, as a percentage of the total annual gross revenues generated by operators carrying out electronic communications networks and services activities in the previous calendar year",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": 6.3776,
+   "v2023": 6.0621,
+   "row": 120
+  },
+  {
+   "key": "D29H:C07",
+   "code": "D29H",
+   "sub": "C07",
+   "nat": "Naknada u postotku od ukupnoga godišnjeg bruto prihoda ostvarenoga od obavljanja poštanskih usluga u prethodnoj kalendarskoj godini",
+   "en": "Compensation as a percentage of the total annual gross revenue generated from the operation of postal services in the previous calendar year",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": 0.8274,
+   "v2023": 0.744,
+   "row": 121
+  },
+  {
+   "key": "D29H:C08",
+   "code": "D29H",
+   "sub": "C08",
+   "nat": "Članarina turističkim zajednicama",
+   "en": "Membership fee for tourism communities",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": 49.2359,
+   "v2023": 43.8168,
+   "row": 122
+  },
+  {
+   "key": "D29H:C09",
+   "code": "D29H",
+   "sub": "C09",
+   "nat": "Višak tržišnih prihoda",
+   "en": "Energy surtaxes - windfall taxes",
+   "fn": "KS",
+   "at": "E",
+   "v2024": 10.5031,
+   "v2023": 9.3451,
+   "row": 123
+  },
+  {
+   "key": "D51A:C01",
+   "code": "D51A",
+   "sub": "C01",
+   "nat": "Porez i prirez na dohodak",
+   "en": "Personal income taxes and local surtax",
+   "fn": "SPLIT1",
+   "at": "_Z",
+   "v2024": 3388.5007,
+   "v2023": 2765.9959,
+   "row": 128
+  },
+  {
+   "key": "D51B:C01",
+   "code": "D51B",
+   "sub": "C01",
+   "nat": "Porez na dobit",
+   "en": "Corporate income taxes",
+   "fn": "KIC",
+   "at": "_Z",
+   "v2024": 2679.1041,
+   "v2023": 2297.615,
+   "row": 131
+  },
+  {
+   "key": "D51B:C02",
+   "code": "D51B",
+   "sub": "C02",
+   "nat": "Dodatni porez na dobit",
+   "en": "Additional corporate income tax",
+   "fn": "KIC",
+   "at": "_Z",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 132
+  },
+  {
+   "key": "D51D:C01",
+   "code": "D51D",
+   "sub": "C01",
+   "nat": "Porez na dobitke od lutrijskih igara na sreću",
+   "en": "Tax on winnings from lottery games​",
+   "fn": "KIH",
+   "at": "_Z",
+   "v2024": 4.4078,
+   "v2023": 3.1589,
+   "row": 138
+  },
+  {
+   "key": "D51D:C02",
+   "code": "D51D",
+   "sub": "C02",
+   "nat": "Porez na dobitke od igara klađenja",
+   "en": "Tax on winnings from betting games",
+   "fn": "KIH",
+   "at": "_Z",
+   "v2024": 74.0643,
+   "v2023": 71.8477,
+   "row": 139
+  },
+  {
+   "key": "D51E:C01",
+   "code": "D51E",
+   "sub": "C01",
+   "nat": "Krizni porez",
+   "en": "Special taxes on income (due to financial crisis)",
+   "fn": "SPLIT1",
+   "at": "_Z",
+   "v2024": 0.0981,
+   "v2023": 0.0064,
+   "row": 141
+  },
+  {
+   "key": "D59A:C01",
+   "code": "D59A",
+   "sub": "C01",
+   "nat": "Porez na kuće za odmor",
+   "en": "Taxes on holiday houses",
+   "fn": "KS",
+   "at": "RP",
+   "v2024": 52.3601,
+   "v2023": 24.156,
+   "row": 144
+  },
+  {
+   "key": "D59A:C02",
+   "code": "D59A",
+   "sub": "C02",
+   "nat": "Porez na neobrađeno obradivo poljoprivredno zemljište",
+   "en": "Taxes on the uncultivated agricultural land",
+   "fn": "KS",
+   "at": "RP",
+   "v2024": 0,
+   "v2023": 0.0046,
+   "row": 145
+  },
+  {
+   "key": "D59A:C03",
+   "code": "D59A",
+   "sub": "C03",
+   "nat": "Porez na nekorištene poduzetničke nekretnine",
+   "en": "Taxes on the unused entrepreneurial real estate",
+   "fn": "KS",
+   "at": "RP",
+   "v2024": -0.1488,
+   "v2023": -0.1328,
+   "row": 146
+  },
+  {
+   "key": "D59A:C04",
+   "code": "D59A",
+   "sub": "C04",
+   "nat": "Porez na neizgrađeno građevinsko zemljište",
+   "en": "Taxes on the unused construction land",
+   "fn": "KS",
+   "at": "RP",
+   "v2024": 0.0075,
+   "v2023": -0.0011,
+   "row": 147
+  },
+  {
+   "key": "D59D:C01",
+   "code": "D59D",
+   "sub": "C01",
+   "nat": "Porez na cestovna motorna vozila (fizičke osobe)",
+   "en": "Motor vehicle taxes (natural persons)",
+   "fn": "C",
+   "at": "T",
+   "v2024": 30.0785,
+   "v2023": 27.1086,
+   "row": 151
+  },
+  {
+   "key": "D59D:C02",
+   "code": "D59D",
+   "sub": "C02",
+   "nat": "Porez na plovila (fizičke osobe)",
+   "en": "Boat taxes (natural persons)",
+   "fn": "C",
+   "at": "T",
+   "v2024": 0.8685,
+   "v2023": 0.5777,
+   "row": 152
+  },
+  {
+   "key": "D59D:C03",
+   "code": "D59D",
+   "sub": "C03",
+   "nat": "HRT pristojba (fizičke osobe)",
+   "en": "HRT fee (natural persons)",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 131.0643,
+   "v2023": 123.7799,
+   "row": 153
+  },
+  {
+   "key": "D59D:C04",
+   "code": "D59D",
+   "sub": "C04",
+   "nat": "Godišnja naknada za upo.jav.cesta pri registraciji motornih i priključ. (fizičke osobe)",
+   "en": "Annual levy on public roads use (at motor vehicles registration) natural person",
+   "fn": "C",
+   "at": "T",
+   "v2024": 128.3589,
+   "v2023": 122.6185,
+   "row": 154
+  },
+  {
+   "key": "D59D:C05",
+   "code": "D59D",
+   "sub": "C05",
+   "nat": "Naknada za sigurnost plovidbe (fizičke)",
+   "en": "Maritime safety charge (natural persons)",
+   "fn": "C",
+   "at": "T",
+   "v2024": 5.7768,
+   "v2023": 4.2341,
+   "row": 155
+  },
+  {
+   "key": "D59F:C01",
+   "code": "D59F",
+   "sub": "C01",
+   "nat": "Naknada za uređenje voda",
+   "en": "Water management fee (water regulation fee) (natural persons)",
+   "fn": "KS",
+   "at": "RS",
+   "v2024": 55.5731,
+   "v2023": 53.1021,
+   "row": 158
+  },
+  {
+   "key": "D59F:C02",
+   "code": "D59F",
+   "sub": "C02",
+   "nat": "Naknada za korištenje voda",
+   "en": "Water use charge (water use fee) (natural persons)",
+   "fn": "KS",
+   "at": "RS",
+   "v2024": 62.7938,
+   "v2023": 65.2755,
+   "row": 159
+  },
+  {
+   "key": "D59F:C03",
+   "code": "D59F",
+   "sub": "C03",
+   "nat": "Vodni doprinos",
+   "en": "Water contribution (natural persons)",
+   "fn": "KS",
+   "at": "RS",
+   "v2024": 3.3076,
+   "v2023": 4.2143,
+   "row": 160
+  },
+  {
+   "key": "D59F:C04",
+   "code": "D59F",
+   "sub": "C04",
+   "nat": "Komunalni doprinos",
+   "en": "Municipal contribution (communal contribution) art.76 (natural persons)",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": 107.3308,
+   "v2023": 90.6464,
+   "row": 161
+  },
+  {
+   "key": "D59F:C05",
+   "code": "D59F",
+   "sub": "C05",
+   "nat": "Naknada za zaštitu voda",
+   "en": "Water protection fee (natural persons)",
+   "fn": "C",
+   "at": "RS",
+   "v2024": 20.174,
+   "v2023": 21.5181,
+   "row": 162
+  },
+  {
+   "key": "D59F:C06",
+   "code": "D59F",
+   "sub": "C06",
+   "nat": "Naknada za okoliš na motorna vozila",
+   "en": "Levy on the environment on motor vehicles (natural persons)",
+   "fn": "C",
+   "at": "T",
+   "v2024": 19.9326,
+   "v2023": 19.289,
+   "row": 163
+  },
+  {
+   "key": "D91A:C01",
+   "code": "D91A",
+   "sub": "C01",
+   "nat": "Porez na nasljedstva i darove",
+   "en": "Inheritance and gift taxes",
+   "fn": "KS",
+   "at": "O",
+   "v2024": 2.7605,
+   "v2023": 1.7571,
+   "row": 166
+  },
+  {
+   "key": "D611C:C01",
+   "code": "D611C",
+   "sub": "C01",
+   "nat": "Obvezni stvarni doprinosi poslodavaca za socijalno osiguranje",
+   "en": "Compulsory employers' actual social contributions",
+   "fn": "LEYRS",
+   "at": "_Z",
+   "v2024": 4831.7699,
+   "v2023": 4054.1542,
+   "row": 173
+  },
+  {
+   "key": "D611V:C01",
+   "code": "D611V",
+   "sub": "C01",
+   "nat": "Dobrovoljni stvarni doprinosi poslodavaca za socijalno osiguranje",
+   "en": "Voluntary employers' actual social contributions",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 175
+  },
+  {
+   "key": "D613CE:C01",
+   "code": "D613CE",
+   "sub": "C01",
+   "nat": "Obvezni stvarni doprinosi zaposlenika za socijalno osiguranje",
+   "en": "Compulsory employees' actual social contributions",
+   "fn": "LEES",
+   "at": "_Z",
+   "v2024": 4508.151,
+   "v2023": 3917.7033,
+   "row": 187
+  },
+  {
+   "key": "D613CS:C01",
+   "code": "D613CS",
+   "sub": "C01",
+   "nat": "Obvezni stvarni doprinosi samozaposlenih za socijalno osiguranje",
+   "en": "Compulsory actual social contributions by the self-employed (1)",
+   "fn": "KISE",
+   "at": "_Z",
+   "v2024": 346.9797,
+   "v2023": 295.3767,
+   "row": 189
+  }
+ ]
+}

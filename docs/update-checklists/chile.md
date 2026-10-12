@@ -1,6 +1,6 @@
 # Update checklist – Chile
 
-Generated 2026-10-11 by `npm run checklist`. **Do not edit by hand** – edit the sources in `countries/chile/sources.json` and re-run it.
+Generated 2026-10-12 by `npm run checklist`. **Do not edit by hand** – edit the sources in `countries/chile/sources.json` and re-run it.
 
 Research status: **partial**. 1 source(s) to check or due, 0 coming up, 15 in total.
 

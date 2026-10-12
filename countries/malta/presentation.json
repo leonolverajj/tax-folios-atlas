@@ -1,0 +1,26 @@
+{
+  "nodes": {
+    "malta": { "label": "Malta", "sublabel": "Malta · Fiscal folio", "glyph": "globe" },
+    "gvern": { "label": "Government", "sublabel": "Gvern", "glyph": "landmark" },
+    "mt-income-tax-individuals": { "label": "Personal income tax", "sublabel": "0–35%", "glyph": "person" },
+    "mt-income-tax-companies": { "label": "Corporate income tax", "sublabel": "35%", "glyph": "factory" },
+    "mt-holding-gains-taxes": { "label": "Holding gains taxes", "sublabel": "Individuals · companies", "glyph": "coin" },
+    "mt-income-tax-penalties": { "label": "Income tax penalties", "sublabel": "Penalties", "glyph": "scale" },
+    "mt-investor-programme": { "label": "Investor Programme", "sublabel": "Citizenship fees", "glyph": "key" },
+    "mt-social-employers": { "label": "Social: employers", "sublabel": "10%", "glyph": "heart" },
+    "mt-social-employees": { "label": "Social: employees", "sublabel": "10%", "glyph": "heart" },
+    "mt-social-self-employed": { "label": "Social: self-employed", "sublabel": "15%", "glyph": "heart" },
+    "mt-vat": { "label": "VAT", "sublabel": "18%", "glyph": "cart" },
+    "mt-customs": { "label": "Customs duties", "sublabel": "EU tariff", "glyph": "ship" },
+    "mt-excise-petroleum": { "label": "Fuel excise", "sublabel": "Petroleum", "glyph": "flame" },
+    "mt-excise-tobacco": { "label": "Tobacco excise", "sublabel": "Cigarettes", "glyph": "smoke" },
+    "mt-excise-other": { "label": "Other excises", "sublabel": "Alcohol · cement · others", "glyph": "wine" },
+    "mt-duty-on-documents-property": { "label": "Duty on property documents", "sublabel": "Property", "glyph": "stamp" },
+    "mt-duty-on-documents-other": { "label": "Duty on other documents", "sublabel": "Insurance · shares", "glyph": "stamp" },
+    "mt-vehicle-taxes": { "label": "Vehicle taxes", "sublabel": "Registration · licence", "glyph": "car" },
+    "mt-gaming": { "label": "Gaming taxes", "sublabel": "Operators", "glyph": "dice" },
+    "mt-bunkering-environment": { "label": "Bunkering and environment", "sublabel": "Small", "glyph": "water" },
+    "mt-licences-fees": { "label": "Licences and concessions", "sublabel": "Fees", "glyph": "key" },
+    "mt-protection-funds": { "label": "Protection funds", "sublabel": "Contributions", "glyph": "shield" }
+  }
+}

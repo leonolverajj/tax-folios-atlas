@@ -1,0 +1,512 @@
+{
+  "instruments": [
+    {
+      "id": "lv-pit-state",
+      "parentId": "valsts",
+      "levelId": "valsts",
+      "category": "tax",
+      "family": "income-personal",
+      "status": "current",
+      "names": {
+        "official": "Personal income tax, share of the State",
+        "native": "Iedzīvotāju ienākuma nodoklis (valsts daļa)",
+        "common": "Personal income tax: State share"
+      },
+      "taxes": {
+        "base": "Wages, self-employment and other income of residents, and Latvian-source income of non-residents.",
+        "payer": "Individuals; employers withhold it."
+      },
+      "rate": {
+        "kind": "progressive",
+        "headline": "20% · 23% · 31% in 2024; 25.5% · 33% from 2025",
+        "details": [
+          "2024: 20% up to EUR 20,004 a year, 23% from EUR 20,004 to 78,100, 31% above.",
+          "From 2025 there are two rates: 25.5% up to EUR 105,300 and 33% above (Ministry of Finance table)."
+        ],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "The National Tax List gives the total tax of EUR 2,870 million; Eurostat’s accounts place EUR 2,167 million of it with local governments and the rest with the State. This row is the State’s part, the next the municipalities’.",
+      "exceptions": ["The Ministry’s table also shows a minimum not subject to tax and a solidarity tax of 25% above the ceiling of the social contributions."],
+      "legalRefs": [
+        { "sourceId": "fm-changes-2026", "locator": "Changes in labour taxes" },
+        { "sourceId": "ntl-2026", "locator": "sheet LV, D51A" },
+        { "sourceId": "eurostat-taxag", "locator": "S.1311 and S.1313, D51A" }
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "lv-cit",
+      "parentId": "valsts",
+      "levelId": "valsts",
+      "category": "tax",
+      "family": "income-corporate",
+      "status": "current",
+      "names": { "official": "Corporate income tax", "native": "Uzņēmumu ienākuma nodoklis", "common": "Corporate income tax" },
+      "taxes": {
+        "base": "Profit that a company distributes (dividends, deemed distributions) and certain non-business expenses, not the profit it keeps.",
+        "payer": "Companies."
+      },
+      "rate": {
+        "kind": "flat",
+        "headline": "20% of the gross amount (20/80 of the net)",
+        "details": [
+          "The standard rate; from 1 January 2026 an alternative 15% rate on dividends, with 6% personal income tax on them, is available to companies owned only by individuals (Ministry of Finance)."
+        ],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "Like Estonia, Latvia taxes company profit when it is distributed, not when it is earned. Revenue rose 46% in 2024.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "fm-changes-2026", "locator": "Corporate Income Tax" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "lv-social-employers",
+      "parentId": "valsts",
+      "levelId": "valsts",
+      "category": "social-contribution",
+      "family": "social-security",
+      "status": "current",
+      "names": {
+        "official": "Mandatory state social insurance contributions, employers’ part",
+        "native": "Darba devēju valsts sociālās apdrošināšanas obligātās iemaksas",
+        "common": "Employers’ social contributions"
+      },
+      "taxes": { "base": "Gross pay, up to an annual ceiling (EUR 78,100 in 2024, EUR 105,300 from 2025).", "payer": "Employers." },
+      "rate": {
+        "kind": "flat",
+        "headline": "23.59% of gross pay",
+        "details": ["Total rate 34.09% in 2024, 2025 and 2026: employer 23.59%, employee 10.5% (Ministry of Finance table)."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "The biggest social payment. The National Tax List splits it into pension (EUR 2,117 million) and non-pension (EUR 907 million) contributions.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "fm-changes-2026", "locator": "Changes in labour taxes" }, { "sourceId": "ntl-2026", "locator": "sheet LV, D611" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "lv-social-employees",
+      "parentId": "valsts",
+      "levelId": "valsts",
+      "category": "social-contribution",
+      "family": "social-security",
+      "status": "current",
+      "names": {
+        "official": "Mandatory state social insurance contributions, employees’ part",
+        "native": "Darba ņēmēju valsts sociālās apdrošināšanas obligātās iemaksas",
+        "common": "Employees’ social contributions"
+      },
+      "taxes": { "base": "Gross pay, up to the same annual ceiling.", "payer": "Employees; the employer withholds them." },
+      "rate": {
+        "kind": "flat",
+        "headline": "10.5% of gross pay",
+        "details": ["Employee rate 10.5% in 2024 to 2026 (Ministry of Finance table)."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "Pays for pensions, sickness, maternity, unemployment and other social insurance benefits.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "fm-changes-2026", "locator": "Changes in labour taxes" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "lv-social-self-employed",
+      "parentId": "valsts",
+      "levelId": "valsts",
+      "category": "social-contribution",
+      "family": "social-security",
+      "status": "current",
+      "names": {
+        "official": "Contributions of the self-employed and voluntary contributions",
+        "native": "Pašnodarbināto obligātās un brīvprātīgās iemaksas",
+        "common": "Self-employed and voluntary contributions"
+      },
+      "taxes": {
+        "base": "The income of self-employed people; voluntary contributions of persons who insure themselves.",
+        "payer": "Self-employed people and voluntary insured persons."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Set by the Law on State Social Insurance",
+        "details": ["The National Tax List separates EUR 62.3 million of compulsory contributions of the self-employed from EUR 0.3 million of voluntary ones."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "The remaining part of the households’ actual social contributions.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet LV, D613CS and D613V" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "lv-vat",
+      "parentId": "valsts",
+      "levelId": "valsts",
+      "category": "tax",
+      "family": "general-consumption",
+      "status": "current",
+      "names": { "official": "Value added tax", "native": "Pievienotās vērtības nodoklis", "common": "VAT", "abbreviation": "PVN" },
+      "taxes": {
+        "base": "Goods and services supplied in Latvia, intra-EU acquisitions and imports.",
+        "payer": "Consumers; businesses charge it and claim input credits."
+      },
+      "rate": {
+        "kind": "range",
+        "headline": "21% standard; 12% and 5% reduced",
+        "details": [
+          "The Ministry of Finance page names the 12% and 5% reduced rates (books and press 5%; a pilot 12% on certain foods from 1 July 2026 to 30 June 2027)."
+        ],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "The largest tax by far.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "fm-changes-2026", "locator": "Value added tax" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "lv-customs",
+      "parentId": "valsts",
+      "levelId": "valsts",
+      "category": "customs-duty",
+      "family": "trade",
+      "status": "current",
+      "names": { "official": "Customs duties", "native": "Muitas nodevas", "common": "Customs duties" },
+      "taxes": { "base": "Goods imported from outside the EU, by the Common Customs Tariff.", "payer": "Importers." },
+      "rate": {
+        "kind": "varies",
+        "headline": "EU Common Customs Tariff",
+        "details": ["An EU own resource; Eurostat records it under the EU institutions (sector S.212: EUR 63 million)."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "Collected by the State Revenue Service for the EU budget.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "eurostat-taxag", "locator": "S.212, D212" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "lv-excise-oil",
+      "parentId": "valsts",
+      "levelId": "valsts",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Excise duty on oil products", "native": "Akcīzes nodoklis naftas produktiem", "common": "Fuel excise" },
+      "taxes": { "base": "Petrol, diesel, heating oil and other oil products, by quantity.", "payer": "Producers and importers; passed on at the pump." },
+      "rate": {
+        "kind": "specific",
+        "headline": "Per 1,000 litres or per tonne",
+        "details": ["The rates are fixed in the Law on Excise Duties."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "The biggest excise.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet LV, D214A C02" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "lv-excise-tobacco",
+      "parentId": "valsts",
+      "levelId": "valsts",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Excise duty on tobacco", "native": "Akcīzes nodoklis tabakai", "common": "Tobacco excise" },
+      "taxes": { "base": "Cigarettes, cigars and other tobacco products.", "payer": "Producers and importers; passed on in the price." },
+      "rate": { "kind": "mechanism", "headline": "Fixed by the Law on Excise Duties", "details": [], "asOf": "2026-10-12" },
+      "explanation": "The second largest excise.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet LV, D214A C03" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "lv-excise-alcohol",
+      "parentId": "valsts",
+      "levelId": "valsts",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Excise duty on alcohol and on beer", "native": "Akcīzes nodoklis alkoholam un alum", "common": "Alcohol excise" },
+      "taxes": {
+        "base": "Spirits, wine, intermediate products, fermented drinks and beer, by volume or pure alcohol.",
+        "payer": "Producers and importers; passed on in the price."
+      },
+      "rate": {
+        "kind": "specific",
+        "headline": "Per 100 litres, rising each 1 March",
+        "details": [
+          "On 1 March 2026 the rate for wine rose from EUR 134 to EUR 148 per 100 litres and for other alcoholic drinks from EUR 1,955 to EUR 2,084 per 100 litres of absolute alcohol; further steps are fixed for 2027 and 2028 (Ministry of Finance)."
+        ],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "The National Tax List shows alcohol (EUR 210.5 million) and beer (EUR 53.9 million) as separate lines.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "fm-changes-2026", "locator": "Excise tax" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "lv-excise-other",
+      "parentId": "valsts",
+      "levelId": "valsts",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "Excise duty on natural gas, electricity and other excise goods; excise on imports",
+        "native": "Akcīzes nodoklis dabasgāzei, elektroenerģijai un pārējām precēm",
+        "common": "Other excises"
+      },
+      "taxes": {
+        "base": "Natural gas, electricity and the other excise goods, plus excise collected on imports released for free circulation.",
+        "payer": "Suppliers and importers."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Fixed by the Law on Excise Duties",
+        "details": ["EUR 41.1 million other excise goods, 13.2 million natural gas, 4.9 million electricity and 1.5 million excise on imports in 2024."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "Smaller lines of the excise family.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet LV, D214A C04, C06, C07 and D2122C C01" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "lv-gambling",
+      "parentId": "valsts",
+      "levelId": "valsts",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "Lottery and gambling tax and state duties on lotteries and gambling",
+        "native": "Loteriju un azartspēļu nodoklis un valsts nodevas",
+        "common": "Gambling taxes"
+      },
+      "taxes": { "base": "Gambling operators’ takings and the organising of lotteries.", "payer": "Gambling and lottery operators." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Set by the Gambling and Lotteries Law",
+        "details": [
+          "EUR 54.4 million lottery and gambling tax, EUR 3.4 million state duty on lotteries and gambling and EUR 0.4 million duty on lotteries of goods and services in 2024. The Ministry of Finance lists changes to the gambling tax from 2026."
+        ],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "Three lines in the National Tax List that tax the same activity.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "fm-changes-2026", "locator": "Gambling Tax" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "lv-vehicle-taxes",
+      "parentId": "valsts",
+      "levelId": "valsts",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "Vehicle operation tax (legal and natural persons) and company car tax",
+        "native": "Transportlīdzekļa ekspluatācijas nodoklis; uzņēmumu vieglo transportlīdzekļu nodoklis",
+        "common": "Vehicle taxes"
+      },
+      "taxes": { "base": "Registered road vehicles; passenger cars owned by companies.", "payer": "Vehicle owners, individuals and companies." },
+      "rate": {
+        "kind": "varies",
+        "headline": "By engine, mass and emissions",
+        "details": [
+          "EUR 71.4 million came from vehicles registered to natural persons, EUR 31.0 million from those registered to legal persons and EUR 28.5 million from the company car tax in 2024. The Ministry of Finance lists changes to the vehicle operation tax from 2026."
+        ],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "An annual tax on owning a vehicle.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "fm-changes-2026", "locator": "Vehicle Operation Tax (TEN)" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "lv-natural-resources",
+      "parentId": "valsts",
+      "levelId": "valsts",
+      "category": "tax",
+      "family": "resource",
+      "status": "current",
+      "names": { "official": "Natural resources tax", "native": "Dabas resursu nodoklis", "common": "Natural resources tax" },
+      "taxes": { "base": "Use of natural resources, pollution and waste disposal.", "payer": "Users and polluters." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Set by the Natural Resources Tax Law",
+        "details": ["Eurostat’s accounts place EUR 17 million of the permit and natural-resource revenue with local government."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "An environmental tax. The sale of emission permits (EUR 90.8 million) is not counted.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet LV, D29F C01" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "lv-oil-reserve-fee",
+      "parentId": "valsts",
+      "levelId": "valsts",
+      "category": "special-levy",
+      "family": "other",
+      "status": "current",
+      "names": { "official": "Security reserve service fee", "native": "Drošības rezervju pakalpojuma maksa", "common": "Oil security reserve fee" },
+      "taxes": {
+        "base": "As named in the National Tax List: the fee for the service of keeping security reserves (of oil products).",
+        "payer": "Not given in the list."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not given in the list",
+        "details": ["The list shows a \"state duty for keeping oil products’ security reserves\" of EUR 73.6 million in 2023 and the fee above in 2024."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "A compulsory charge that the statistician books as a tax on products.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet LV, D214L" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "lv-financial-levies",
+      "parentId": "valsts",
+      "levelId": "valsts",
+      "category": "special-levy",
+      "family": "other",
+      "status": "current",
+      "names": {
+        "official": "Contributions to the Deposit Guarantee Fund and the mortgage borrower protection duty",
+        "native": "Iemaksas noguldījumu garantiju fondā; hipotekārā kredīta ņēmēju aizsardzības nodeva",
+        "common": "Financial-sector levies"
+      },
+      "taxes": {
+        "base": "As named in the National Tax List (contributions to the Deposit Guarantee Fund; a duty described as protecting mortgage borrowers); the list gives no further detail.",
+        "payer": "Not given in the list."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Set by law",
+        "details": [
+          "EUR 97.5 million mortgage borrower protection duty (a new line in 2024), EUR 22.3 million Deposit Guarantee Fund; the Single Resolution Fund line is zero in 2024."
+        ],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "Compulsory levies on the financial sector.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet LV, D29H C03, C05 and C06" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "lv-register-duties",
+      "parentId": "valsts",
+      "levelId": "valsts",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "Land Register duties on transfers and pledges of property", "native": "Zemesgrāmatas nodevas", "common": "Land Register duties" },
+      "taxes": {
+        "base": "Registering a change of ownership or a pledge in the Land Register, other than by inheritance or gift.",
+        "payer": "Buyers and borrowers; legal and natural persons."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Set by the Law on Land Register Duties",
+        "details": [
+          "EUR 22.4 million from natural persons and EUR 19.9 million from legal persons for the duty on ownership and pledge registration, plus EUR 2.2 million of stamp duties."
+        ],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "The nearest thing to a property transfer tax.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet LV, D214C" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "lv-inheritance-gift",
+      "parentId": "valsts",
+      "levelId": "valsts",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": {
+        "official": "Duty on inheritances and gifts and the Land Register duties attached to them",
+        "native": "Nodeva par mantojumiem un dāvinājumiem",
+        "common": "Inheritance and gift duty"
+      },
+      "taxes": { "base": "Property received by inheritance or gift; the Land Register entries that record it.", "payer": "Heirs and recipients." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Set by law",
+        "details": ["EUR 9.4 million from the duty itself, EUR 3.6 million from the connected Land Register duties in 2024."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "The National Tax List calls these capital taxes.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet LV, D91A" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "lv-other-duties",
+      "parentId": "valsts",
+      "levelId": "valsts",
+      "category": "fee",
+      "family": "other",
+      "status": "current",
+      "names": { "official": "Other state duties and fees", "native": "Pārējās valsts nodevas", "common": "Other state duties" },
+      "taxes": {
+        "base": "The small lines: the business risk duty (EUR 3.2 million), other special-purpose state duties (EUR 9.8 million), the foreigners’ payment for a residence permit (EUR 2.3 million), numbering rights (EUR 0.5 million), fishing licences and cards (EUR 1.4 million) and the duty for keeping animals (EUR 0.07 million).",
+        "payer": "Businesses, foreigners and licence holders."
+      },
+      "rate": { "kind": "varies", "headline": "Fixed fees", "details": [], "asOf": "2026-10-12" },
+      "explanation": "Seven small lines of the National Tax List, together under 0.2% of the total.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet LV, D29C, D29H C01, D29E C06 and C07, D59D, D91B" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "lv-pit-municipal",
+      "parentId": "pasvaldibas",
+      "levelId": "pasvaldibas",
+      "category": "tax",
+      "family": "income-personal",
+      "status": "current",
+      "names": {
+        "official": "Personal income tax, share of the municipalities",
+        "native": "Iedzīvotāju ienākuma nodoklis (pašvaldību daļa)",
+        "common": "Personal income tax: municipal share"
+      },
+      "taxes": { "base": "The same tax as the State’s share: income of residents.", "payer": "Individuals; employers withhold it." },
+      "rate": {
+        "kind": "progressive",
+        "headline": "Same rates as the State’s share",
+        "details": ["Eurostat’s accounts record this part under local government (S.1313)."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "Most of the personal income tax goes to the municipalities, which makes it their main revenue. The rates are set by the Saeima and the State Revenue Service collects the tax.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "eurostat-taxag", "locator": "S.1313, D51A" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "lv-property-tax",
+      "parentId": "pasvaldibas",
+      "levelId": "pasvaldibas",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": {
+        "official": "Immovable property tax (land, buildings, engineering structures and dwellings)",
+        "native": "Nekustamā īpašuma nodoklis",
+        "common": "Property tax"
+      },
+      "taxes": {
+        "base": "The cadastral value of land, buildings and engineering structures; dwellings have their own line in the National Tax List.",
+        "payer": "Owners of the property."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Set within a range by the law and the municipality",
+        "details": ["EUR 193.9 million \"tax on property\" and EUR 43.4 million \"immovable property tax on dwellings\" in 2024 in the National Tax List."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "The only broad tax that municipalities levy themselves.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet LV, D29A C01 and C03" }],
+      "checkedOn": "2026-10-12"
+    }
+  ]
+}

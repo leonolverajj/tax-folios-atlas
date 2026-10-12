@@ -1,0 +1,106 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "bulgaria": {
+      "x": 800,
+      "y": 500
+    },
+    "darzhava": {
+      "x": 509,
+      "y": 432
+    },
+    "bg-pit-wages": {
+      "x": 841,
+      "y": 782
+    },
+    "bg-other-corporate-taxes": {
+      "x": 465,
+      "y": 750
+    },
+    "bg-social-self-employed": {
+      "x": 289,
+      "y": 517
+    },
+    "bg-excise-tobacco": {
+      "x": 421,
+      "y": 278
+    },
+    "bg-gambling-insurance": {
+      "x": 799,
+      "y": 170
+    },
+    "bg-bank-contributions": {
+      "x": 1166,
+      "y": 269
+    },
+    "bg-pit-other": {
+      "x": 574,
+      "y": 924
+    },
+    "bg-social-employers": {
+      "x": 172,
+      "y": 691
+    },
+    "bg-vat": {
+      "x": 224,
+      "y": 345
+    },
+    "bg-excise-fuel": {
+      "x": 537,
+      "y": 130
+    },
+    "bg-electric-power-fund": {
+      "x": 1074,
+      "y": 88
+    },
+    "bg-small-taxes": {
+      "x": 1447,
+      "y": 337
+    },
+    "bg-corporate-income-tax": {
+      "x": 888,
+      "y": 909
+    },
+    "bg-social-employees": {
+      "x": 109,
+      "y": 849
+    },
+    "bg-customs": {
+      "x": 81,
+      "y": 306
+    },
+    "bg-excise-alcohol-other": {
+      "x": 610,
+      "y": 32
+    },
+    "bg-environmental-fees": {
+      "x": 1424,
+      "y": 102
+    },
+    "obshtini": {
+      "x": 1091,
+      "y": 568
+    },
+    "bg-real-estate-tax": {
+      "x": 1163,
+      "y": 412
+    },
+    "bg-vehicle-tax": {
+      "x": 1273,
+      "y": 527
+    },
+    "bg-donations-inheritance": {
+      "x": 1232,
+      "y": 709
+    },
+    "bg-local-small-taxes": {
+      "x": 1077,
+      "y": 801
+    }
+  },
+  "radii": {}
+}

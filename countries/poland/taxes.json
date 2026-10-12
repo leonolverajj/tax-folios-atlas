@@ -1,0 +1,673 @@
+{
+  "instruments": [
+    {
+      "id": "pl-pit-state",
+      "parentId": "panstwo",
+      "levelId": "panstwo",
+      "category": "tax",
+      "family": "income-personal",
+      "status": "current",
+      "names": {
+        "official": "Personal income tax (PIT), State share",
+        "native": "Podatek dochodowy od osób fizycznych (część państwa)",
+        "common": "Personal income tax: State share"
+      },
+      "taxes": {
+        "base": "Employment income (PLN 85.2 billion), self-employment (58.8 billion), social benefits (28.3 billion), capital gains (9.0 billion) and the solidarity contribution (2.1 billion).",
+        "payer": "Individuals; employers and payers withhold it."
+      },
+      "rate": {
+        "kind": "progressive",
+        "headline": "12% · 32% above PLN 120,000",
+        "details": [
+          "12% of the base less a deduction of PLN 3,600 (tax-free amount PLN 30,000) up to PLN 120,000, then PLN 10,800 plus 32% of the excess (PwC).",
+          "As summarised by PwC (review of 11 August 2026), not checked against the National Revenue Administration."
+        ],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "The National Tax List gives one total for the personal income tax (PLN 183.5 billion); Eurostat’s accounts place PLN 101.8 billion of it with local government and the rest with the State. This row is the State’s part, the next the local governments’.",
+      "exceptions": [],
+      "legalRefs": [
+        { "sourceId": "pwc-pl-individual", "locator": "Personal income tax rates" },
+        { "sourceId": "eurostat-taxag", "locator": "S.1311 and S.1313, D51A" }
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "pl-cit-state",
+      "parentId": "panstwo",
+      "levelId": "panstwo",
+      "category": "tax",
+      "family": "income-corporate",
+      "status": "current",
+      "names": {
+        "official": "Corporate income tax (CIT), State share",
+        "native": "Podatek dochodowy od osób prawnych (część państwa)",
+        "common": "Corporate income tax: State share"
+      },
+      "taxes": { "base": "Profit of companies and other legal persons.", "payer": "Companies." },
+      "rate": {
+        "kind": "flat",
+        "headline": "19% standard; 9% for small taxpayers",
+        "details": [
+          "The standard CIT rate is 19% and a reduced 9% applies to small taxpayers; from 2026 banks pay 23% (PwC).",
+          "As summarised by PwC (review of 11 August 2026), not checked against the National Revenue Administration."
+        ],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "The National Tax List gives one total for the corporate income tax (PLN 87.5 billion); Eurostat places PLN 26.5 billion with local government and the rest with the State.",
+      "exceptions": [],
+      "legalRefs": [
+        { "sourceId": "pwc-pl-corporate", "locator": "Corporate income tax rates" },
+        { "sourceId": "eurostat-taxag", "locator": "S.1311 and S.1313, D51B" }
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "pl-winnings-tax",
+      "parentId": "panstwo",
+      "levelId": "panstwo",
+      "category": "tax",
+      "family": "income-personal",
+      "status": "current",
+      "names": {
+        "official": "Tax on winnings in contests, games and mutual bets",
+        "native": "Podatek od wygranych w konkursach, grach i zakładach wzajemnych",
+        "common": "Tax on winnings"
+      },
+      "taxes": { "base": "Prizes and winnings.", "payer": "Winners; the organiser withholds." },
+      "rate": { "kind": "varies", "headline": "Set by the Personal Income Tax Act", "details": [], "asOf": "2026-10-12" },
+      "explanation": "PLN 279 million.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet PL, D51D C01" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "pl-social-employers",
+      "parentId": "panstwo",
+      "levelId": "panstwo",
+      "category": "social-contribution",
+      "family": "social-security",
+      "status": "current",
+      "names": {
+        "official": "Employers’ compulsory social security contributions",
+        "native": "Składki na ubezpieczenia społeczne płacone przez pracodawców",
+        "common": "Employers’ contributions"
+      },
+      "taxes": { "base": "Gross pay. The list splits it into pension contributions (PLN 147.7 billion) and others (PLN 30.4 billion).", "payer": "Employers." },
+      "rate": { "kind": "flat", "headline": "Set by the Social Insurance System Act", "details": ["The rates are not extracted here."], "asOf": "2026-10-12" },
+      "explanation": "Collected by the Social Insurance Institution (ZUS).",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet PL, D611" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "pl-social-households",
+      "parentId": "panstwo",
+      "levelId": "panstwo",
+      "category": "social-contribution",
+      "family": "social-security",
+      "status": "current",
+      "names": {
+        "official": "Compulsory social security contributions of employees and of the self-employed, and voluntary contributions",
+        "native": "Składki na ubezpieczenia społeczne płacone przez gospodarstwa domowe",
+        "common": "Employees’ and self-employed contributions"
+      },
+      "taxes": {
+        "base": "Gross pay (employees, PLN 230.3 billion) and the income of the self-employed (PLN 111.5 billion); voluntary contributions PLN 0.06 billion.",
+        "payer": "Employees and the self-employed."
+      },
+      "rate": {
+        "kind": "flat",
+        "headline": "Set by the Social Insurance System Act and the Act on health care benefits",
+        "details": ["The rates are not extracted here."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "Pension, disability, sickness and health insurance contributions, collected by ZUS and KRUS.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet PL, D613CE, D613CS, D613V" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "pl-vat",
+      "parentId": "panstwo",
+      "levelId": "panstwo",
+      "category": "tax",
+      "family": "general-consumption",
+      "status": "current",
+      "names": { "official": "Value added tax", "native": "Podatek od towarów i usług (VAT)", "common": "VAT", "abbreviation": "VAT" },
+      "taxes": {
+        "base": "Goods and services supplied in Poland, intra-EU acquisitions and imports.",
+        "payer": "Consumers; businesses charge it and claim input credits."
+      },
+      "rate": {
+        "kind": "range",
+        "headline": "23% standard; 8% and 5% reduced",
+        "details": [
+          "23%, 8%, 5%, 0% and exemption (PwC).",
+          "As summarised by PwC (review of 11 August 2026), not checked against the National Revenue Administration."
+        ],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "The largest tax: PLN 290.7 billion.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "pwc-pl-other", "locator": "Value-added tax" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "pl-customs",
+      "parentId": "panstwo",
+      "levelId": "panstwo",
+      "category": "customs-duty",
+      "family": "trade",
+      "status": "current",
+      "names": { "official": "Import duties", "native": "Opłaty celne", "common": "Customs duties" },
+      "taxes": { "base": "Goods imported from outside the EU, by the Common Customs Tariff.", "payer": "Importers." },
+      "rate": {
+        "kind": "varies",
+        "headline": "EU Common Customs Tariff",
+        "details": ["An EU own resource; Eurostat records it under the EU institutions."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "Collected for the EU budget.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "eurostat-taxag", "locator": "S.212, D212" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "pl-excise-fuel",
+      "parentId": "panstwo",
+      "levelId": "panstwo",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "Excise duty on petrol and other motor fuels, and the fuel fee",
+        "native": "Podatek akcyzowy od paliw silnikowych; opłata paliwowa",
+        "common": "Fuel excise and fuel fee"
+      },
+      "taxes": {
+        "base": "Motor fuels by quantity (PLN 35.3 billion domestic and 1.5 billion on imports) and the fuel fee (PLN 11.7 billion and 0.5 billion).",
+        "payer": "Fuel producers and importers; passed on at the pump."
+      },
+      "rate": { "kind": "specific", "headline": "Per 1,000 litres, fixed by the Excise Duty Act", "details": [], "asOf": "2026-10-12" },
+      "explanation": "The biggest excise.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet PL, D214A C01 and C15, D2122C C01 and C16" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "pl-excise-tobacco",
+      "parentId": "panstwo",
+      "levelId": "panstwo",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "Excise duty on tobacco products, dried tobacco, e-cigarette liquid and novel products",
+        "native": "Podatek akcyzowy od wyrobów tytoniowych, suszu tytoniowego, płynu do e-papierosów i wyrobów nowatorskich",
+        "common": "Tobacco excise"
+      },
+      "taxes": {
+        "base": "Cigarettes and other tobacco products (PLN 30.7 billion), e-cigarette liquid (0.6 billion), novel products (1.3 billion) and dried tobacco leaf.",
+        "payer": "Producers and importers; passed on in the price."
+      },
+      "rate": { "kind": "mechanism", "headline": "Fixed by the Excise Duty Act", "details": [], "asOf": "2026-10-12" },
+      "explanation": "PLN 32.6 billion in 2024.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet PL, D214A C03, C13, C19, C20, D2122C C03, C17, C18" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "pl-excise-alcohol",
+      "parentId": "panstwo",
+      "levelId": "panstwo",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "Excise duty on spirits, beer, and wine and other fermented drinks",
+        "native": "Podatek akcyzowy od alkoholu etylowego, piwa i wina",
+        "common": "Alcohol excise"
+      },
+      "taxes": {
+        "base": "Spirits (PLN 9.7 billion), beer (3.5 billion), wine, other fermented beverages and intermediate products (0.3 billion).",
+        "payer": "Producers and importers; passed on in the price."
+      },
+      "rate": { "kind": "specific", "headline": "Per litre of pure alcohol or of product", "details": [], "asOf": "2026-10-12" },
+      "explanation": "Six lines.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet PL, D214A C02, C04, C05, D2122C C02, C04, C05" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "pl-excise-cars",
+      "parentId": "panstwo",
+      "levelId": "panstwo",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Excise duty on passenger cars", "native": "Podatek akcyzowy od samochodów osobowych", "common": "Car excise" },
+      "taxes": { "base": "Passenger cars on first registration in Poland, including imported used cars.", "payer": "Buyers and importers of cars." },
+      "rate": {
+        "kind": "varies",
+        "headline": "By engine capacity and emissions",
+        "details": ["PLN 4.5 billion in 2024, up from PLN 3.6 billion; almost all of it is booked on imports."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "A vehicle tax paid once, at registration.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet PL, D2122C C07, D214A C07" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "pl-excise-energy",
+      "parentId": "panstwo",
+      "levelId": "panstwo",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "Excise duty on electricity, fuel oils, gas, lubricants, coal products and gas products",
+        "native": "Podatek akcyzowy od energii elektrycznej, olejów opałowych, gazu, olejów smarowych i wyrobów węglowych",
+        "common": "Other energy excises"
+      },
+      "taxes": {
+        "base": "Gas for engines (PLN 0.9 billion), electricity (PLN 0.6 billion), lubricants (0.4 billion), fuel oils, coal products and gas products.",
+        "payer": "Suppliers; passed on in the price."
+      },
+      "rate": { "kind": "specific", "headline": "Per unit of energy", "details": [], "asOf": "2026-10-12" },
+      "explanation": "Eleven lines of the list.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet PL, D214A C06, C08, C09, C11, C12, C14, D2122C C06, C08, C09, C12, C13" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "pl-energy-fees",
+      "parentId": "panstwo",
+      "levelId": "panstwo",
+      "category": "special-levy",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "Power fee, emission fee, cogeneration fee, transitional fee and substitute fee",
+        "native": "Opłata mocowa; opłata emisyjna; opłata kogeneracyjna; opłata przejściowa; opłata zastępcza",
+        "common": "Energy-sector fees"
+      },
+      "taxes": {
+        "base": "Compulsory fees on electricity consumers, named in the list: the power (capacity market) fee PLN 6.9 billion, the emission fee 2.3 billion, the cogeneration fee 0.8 billion, the transitional fee 0.2 billion and the substitute fee 0.1 billion.",
+        "payer": "Electricity consumers."
+      },
+      "rate": { "kind": "varies", "headline": "Set by regulation", "details": [], "asOf": "2026-10-12" },
+      "explanation": "Booked by the statisticians as taxes on products.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet PL, D214A C16 to C18 and C22, D29F C06" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "pl-price-fund-write-offs",
+      "parentId": "panstwo",
+      "levelId": "panstwo",
+      "category": "special-levy",
+      "family": "other",
+      "status": "current",
+      "names": {
+        "official": "Gas and electricity write-offs to the Price Difference Payment Fund",
+        "native": "Odpis gazowy i elektryczny – Fundusz Wypłaty Różnicy Cen",
+        "common": "Price Difference Payment Fund write-offs"
+      },
+      "taxes": {
+        "base": "As named in the National Tax List: write-offs for gas (PLN 15.4 billion) and electricity (PLN 0.7 billion) to the Fund; no further detail.",
+        "payer": "Energy companies, as the list names it a write-off."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Set by the law on the Fund",
+        "details": ["The electricity line fell from PLN 16.2 billion in 2023 to PLN 0.7 billion in 2024 as the price caps ended."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "Compulsory payments that financed the energy price caps.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet PL, D29H C15 and C16" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "pl-retail-tax",
+      "parentId": "panstwo",
+      "levelId": "panstwo",
+      "category": "tax",
+      "family": "general-consumption",
+      "status": "current",
+      "names": { "official": "Retail sales tax", "native": "Podatek od sprzedaży detalicznej", "common": "Retail tax" },
+      "taxes": { "base": "Retail sales above a threshold.", "payer": "Retailers." },
+      "rate": { "kind": "varies", "headline": "Set by the Retail Tax Act", "details": [], "asOf": "2026-10-12" },
+      "explanation": "PLN 4.4 billion in 2024.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet PL, D214I C01" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "pl-gambling",
+      "parentId": "panstwo",
+      "levelId": "panstwo",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "Tax on games and the extra charges on stakes in State-monopoly games",
+        "native": "Podatek od gier; dopłaty do stawek w grach losowych",
+        "common": "Gambling tax and charges"
+      },
+      "taxes": { "base": "Gambling operators (PLN 5.2 billion) and stakes in the games of the State monopoly (PLN 1.6 billion).", "payer": "Operators." },
+      "rate": { "kind": "varies", "headline": "Set by the Gambling Act", "details": [], "asOf": "2026-10-12" },
+      "explanation": "Two lines.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet PL, D214F C01, D214L C01" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "pl-food-levy",
+      "parentId": "panstwo",
+      "levelId": "panstwo",
+      "category": "special-levy",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "Levy on foodstuffs and legal fees paid to State funds",
+        "native": "Opłata od środków spożywczych; wpływy państwowych funduszy",
+        "common": "Food levy"
+      },
+      "taxes": {
+        "base": "As named in the National Tax List: the levy on foodstuffs (PLN 1.5 billion) and receipts of State funds from statutory fees (PLN 25 million).",
+        "payer": "Producers and sellers of the foodstuffs covered."
+      },
+      "rate": { "kind": "varies", "headline": "Set by law", "details": [], "asOf": "2026-10-12" },
+      "explanation": "Two small lines.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet PL, D214L C03 and C04" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "pl-payroll-funds",
+      "parentId": "panstwo",
+      "levelId": "panstwo",
+      "category": "tax",
+      "family": "payroll",
+      "status": "current",
+      "names": {
+        "official": "Employers’ compulsory payments to the PFRON, the Guaranteed Employee Benefits Fund and the Solidarity Fund",
+        "native": "Wpłaty pracodawców na PFRON, FGŚP i Fundusz Solidarnościowy",
+        "common": "Employers’ payments to funds"
+      },
+      "taxes": {
+        "base": "The wage bill: PFRON (disabled persons’ rehabilitation fund) PLN 7.5 billion, the Solidarity Fund PLN 13.8 billion and the Guaranteed Employee Benefits Fund PLN 0.7 billion.",
+        "payer": "Employers."
+      },
+      "rate": { "kind": "varies", "headline": "Set by the laws of the funds", "details": [], "asOf": "2026-10-12" },
+      "explanation": "Payroll-based contributions that the list books apart from the social security contributions.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet PL, D29C" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "pl-financial-sector",
+      "parentId": "panstwo",
+      "levelId": "panstwo",
+      "category": "special-levy",
+      "family": "other",
+      "status": "current",
+      "names": {
+        "official": "Tax on certain financial institutions and the obligatory payments to guarantee funds",
+        "native": "Podatek od niektórych instytucji finansowych; wpłaty do Bankowego Funduszu Gwarancyjnego i innych funduszy",
+        "common": "Financial-sector levies"
+      },
+      "taxes": {
+        "base": "The tax on certain financial institutions (PLN 6.5 billion), the Bank Guarantee Fund (PLN 1.6 billion), the Insurance Guarantee Fund (0.2 billion), the Polish Motor Insurers’ Bureau (0.05 billion) and the fire services (0.04 billion).",
+        "payer": "Banks, insurers and other financial institutions."
+      },
+      "rate": { "kind": "varies", "headline": "Set by law", "details": ["Corporate income tax on banks rises to 23% from 2026 (PwC)."], "asOf": "2026-10-12" },
+      "explanation": "Five lines.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet PL, D29H C10, D29E C04, C05, C07, C09" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "pl-environmental",
+      "parentId": "panstwo",
+      "levelId": "panstwo",
+      "category": "fee",
+      "family": "resource",
+      "status": "current",
+      "names": {
+        "official": "Levies for the use of the environment, plastic bag fees and fees for ozone-depleting substances",
+        "native": "Opłaty za korzystanie ze środowiska; opłaty za torby z tworzywa sztucznego",
+        "common": "Environmental levies"
+      },
+      "taxes": {
+        "base": "Use of the environment (PLN 1.6 billion), plastic shopping bags (PLN 0.2 billion) and ozone-depleting substances.",
+        "payer": "Polluters and sellers of plastic bags."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Set by the Environmental Protection Law",
+        "details": [
+          "The sale of emission allowances (PLN 18.3 billion plus PLN 6.1 billion for the Indirect Emission Costs Compensation Fund) is not counted. Eurostat books PLN 0.9 billion of these levies with local government; the list does not say which lines."
+        ],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "Three lines.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet PL, D29F C01 and C03, D29H C12" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "pl-licences-and-funds",
+      "parentId": "panstwo",
+      "levelId": "panstwo",
+      "category": "fee",
+      "family": "other",
+      "status": "current",
+      "names": {
+        "official": "Licence and concession fees, public broadcasting fee, fees to State funds and agencies, and smaller levies",
+        "native": "Opłaty koncesyjne, abonament, wpłaty na fundusze i agencje",
+        "common": "Licences, fees to funds and others"
+      },
+      "taxes": {
+        "base": "Environmental fund fees (PLN 1.2 billion), frequency rights (0.3 and 0.05 billion), energy regulator concessions (0.3 billion), public broadcasting (0.4 and 0.2 billion), the Film Art Institute (0.4 billion), tourism organisers (0.2 billion), the Developer Guarantee Fund (0.1 billion), driving licences (0.1 billion), and other small lines including the part of the wholesale alcohol permit fee (0.6 billion).",
+        "payer": "Businesses and individuals."
+      },
+      "rate": { "kind": "varies", "headline": "Set by law", "details": [], "asOf": "2026-10-12" },
+      "explanation": "Seventeen lines that the list codes as taxes.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet PL, D29E, D29H, D59D, D214B C02, D91A C02" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "pl-pit-local",
+      "parentId": "jst",
+      "levelId": "jst",
+      "category": "tax",
+      "family": "income-personal",
+      "status": "current",
+      "names": {
+        "official": "Personal income tax (PIT), local government share",
+        "native": "Podatek dochodowy od osób fizycznych (część jednostek samorządu terytorialnego)",
+        "common": "Personal income tax: local share"
+      },
+      "taxes": {
+        "base": "The same income as the State’s share: wages, business income, benefits, capital gains.",
+        "payer": "Individuals; employers and payers withhold it."
+      },
+      "rate": {
+        "kind": "progressive",
+        "headline": "Same rates as the State’s share",
+        "details": ["Eurostat’s accounts record this part under local government (S.1313)."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "More than half of the personal income tax goes to local governments (municipalities, counties and voivodeships), which makes it their main revenue. The rates are set by Parliament; local governments do not choose them.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "eurostat-taxag", "locator": "S.1313, D51A" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "pl-cit-local",
+      "parentId": "jst",
+      "levelId": "jst",
+      "category": "tax",
+      "family": "income-corporate",
+      "status": "current",
+      "names": {
+        "official": "Corporate income tax (CIT), local government share",
+        "native": "Podatek dochodowy od osób prawnych (część jednostek samorządu terytorialnego)",
+        "common": "Corporate income tax: local share"
+      },
+      "taxes": { "base": "The same profit as the State’s share.", "payer": "Companies." },
+      "rate": {
+        "kind": "flat",
+        "headline": "Same rate as the State’s share",
+        "details": ["Eurostat’s accounts record this part under local government (S.1313)."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "About 30% of the corporate income tax goes to local governments.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "eurostat-taxag", "locator": "S.1313, D51B" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "pl-property-tax",
+      "parentId": "jst",
+      "levelId": "jst",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": {
+        "official": "Real estate tax (businesses and households), agricultural tax and forest tax",
+        "native": "Podatek od nieruchomości; podatek rolny; podatek leśny",
+        "common": "Property taxes"
+      },
+      "taxes": {
+        "base": "Land, buildings and structures (businesses PLN 26.0 billion, households PLN 8.9 billion), agricultural land (PLN 2.2 billion) and forests (PLN 0.5 billion).",
+        "payer": "Owners."
+      },
+      "rate": {
+        "kind": "range",
+        "headline": "Set by each municipality up to a statutory ceiling",
+        "details": ["The list does not give rates."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "The local governments’ main own tax.",
+      "exceptions": [],
+      "legalRefs": [
+        { "sourceId": "ntl-2026", "locator": "sheet PL, D29A C01, D59A C01 to C03" },
+        { "sourceId": "eurostat-taxag", "locator": "S.1313, D29A and D59A" }
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "pl-civil-law-transactions",
+      "parentId": "jst",
+      "levelId": "jst",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "Tax on civil-law transactions", "native": "Podatek od czynności cywilnoprawnych", "common": "Civil-law transactions tax" },
+      "taxes": {
+        "base": "Sales and exchanges of property and loans between individuals, and other civil-law transactions.",
+        "payer": "Parties to the transaction."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "By type of transaction",
+        "details": ["PLN 4.1 billion in 2024; Eurostat books it all under local government."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "The tax on transfers of property and similar deals.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet PL, D214C C01" }, { "sourceId": "eurostat-taxag", "locator": "S.1313, D214C" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "pl-vehicle-transport",
+      "parentId": "jst",
+      "levelId": "jst",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "Tax on means of transport and the transportation levy",
+        "native": "Podatek od środków transportu; opłata komunikacyjna",
+        "common": "Transport taxes"
+      },
+      "taxes": { "base": "Commercial vehicles (PLN 1.5 billion) and the transportation levy (PLN 0.8 billion).", "payer": "Owners of commercial vehicles." },
+      "rate": { "kind": "varies", "headline": "Set by each municipality up to a ceiling", "details": [], "asOf": "2026-10-12" },
+      "explanation": "Two local lines.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet PL, D29B C01, D214D C01" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "pl-alcohol-permits",
+      "parentId": "jst",
+      "levelId": "jst",
+      "category": "fee",
+      "family": "other",
+      "status": "current",
+      "names": { "official": "Fees for permits to sell alcohol", "native": "Opłaty za zezwolenia na sprzedaż alkoholu", "common": "Alcohol sales permit fees" },
+      "taxes": { "base": "Permits for retail and catering sale of alcohol.", "payer": "Sellers of alcohol." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Set by the Act on upbringing in sobriety",
+        "details": ["PLN 1.3 billion; Eurostat books it under local government."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "A fee that municipalities collect.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet PL, D29E C01" }, { "sourceId": "eurostat-taxag", "locator": "S.1313, D29E" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "pl-stamp-inheritance",
+      "parentId": "jst",
+      "levelId": "jst",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": {
+        "official": "Stamp duty and the tax on inheritance and gifts",
+        "native": "Opłata skarbowa; podatek od spadków i darowizn",
+        "common": "Stamp duty and inheritance tax"
+      },
+      "taxes": {
+        "base": "Official acts and documents (PLN 0.7 billion) and inherited or donated property (PLN 0.6 billion).",
+        "payer": "Applicants, heirs and donees."
+      },
+      "rate": { "kind": "varies", "headline": "Set by law", "details": [], "asOf": "2026-10-12" },
+      "explanation": "Eurostat books both under local government.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet PL, D214B C01, D91A C01" }, { "sourceId": "eurostat-taxag", "locator": "S.1313, D214B and D91" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "pl-local-fees",
+      "parentId": "jst",
+      "levelId": "jst",
+      "category": "fee",
+      "family": "other",
+      "status": "current",
+      "names": {
+        "official": "Local levies: other levies of local governments, location levy, health resort fee, dog tax, tree removal and product fees",
+        "native": "Opłaty lokalne; opłata miejscowa; opłata uzdrowiskowa; podatek od posiadania psów",
+        "common": "Local levies"
+      },
+      "taxes": {
+        "base": "Other local levies under separate acts (PLN 1.4 billion), the location levy (PLN 76 million), the health resort fee (PLN 125 million), the dog tax (PLN 4 million), fees for removing trees and shrubs (PLN 67 million) and the product fee (PLN 4 million).",
+        "payer": "Residents, visitors and businesses."
+      },
+      "rate": { "kind": "varies", "headline": "Set by each local government", "details": [], "asOf": "2026-10-12" },
+      "explanation": "Six small lines.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet PL, D59F, D59D C01 and C02, D29H C02 and C07" }],
+      "checkedOn": "2026-10-12"
+    }
+  ]
+}

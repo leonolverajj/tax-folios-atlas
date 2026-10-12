@@ -1,0 +1,154 @@
+{
+  "groups": [
+    {
+      "title": "Taxes of the State 2025 – Statistics Denmark table SKAT (DKK million)",
+      "defaults": {
+        "denominatorId": "state-taxes-2025",
+        "scale": "million",
+        "currency": "DKK",
+        "period": { "label": "2025", "kind": "calendar-year", "start": "2025-01-01", "end": "2025-12-31" },
+        "basis": "Receipts of taxes and duties by type",
+        "sourceId": "dst-skat-2025",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-11"
+      },
+      "observations": [
+        { "nodeId": "dk-state-income-tax", "amount": 282685.504, "locator": "Table SKAT 2025: 1.1.1 Central government income tax" },
+        { "nodeId": "dk-labour-market-contribution", "amount": 134757.28, "locator": "Table SKAT 2025: 1.1.17 Labour market contributions" },
+        {
+          "nodeId": "dk-pension-payout-tax",
+          "amount": 9775.56,
+          "locator": "Table SKAT 2025: 1.1.9 Taxes on pension schemes with lump sum disbursements"
+        },
+        { "nodeId": "dk-imputed-rent-tax", "amount": 14558, "locator": "Table SKAT 2025: 1.1.18 Tax on imputed income from owner-occupied dwelling" },
+        {
+          "nodeId": "dk-other-income-taxes",
+          "amount": 708.908,
+          "locator": "Table SKAT 2025: 1.1.12 Tax on winnings 243.616 + 1.1.15 index fund duty 19.971 + 1.2.5 hydrocarbon corporation tax 445.321",
+          "calculation": "243.616 + 19.971 + 445.321 = 708.908 (DKK million)"
+        },
+        { "nodeId": "dk-corporation-tax", "amount": 117652.198, "locator": "Table SKAT 2025: 1.2.1 Corporation tax" },
+        {
+          "nodeId": "dk-pension-yield-tax",
+          "amount": 46953.185,
+          "locator": "Table SKAT 2025: 1.3 Tax on yields of certain pension scheme assets (1.3.1 households 6,039.703 + 1.3.2 institutions 40,913.482)",
+          "calculation": "6,039.703 + 40,913.482 = 46,953.185 (DKK million)"
+        },
+        {
+          "nodeId": "dk-small-social-contributions",
+          "amount": 2128.245,
+          "locator": "Table SKAT 2025: 2. Social contributions, total (2.1.11 + 2.1.12 + 2.2.7 + 2.2.10 + 2.2.11)",
+          "calculation": "117.385 + 246.570 + 20.914 + 414.376 + 1,329.000 = 2,128.245 (DKK million)"
+        },
+        {
+          "nodeId": "dk-employer-labour-charges",
+          "amount": 9142.372,
+          "locator": "Table SKAT 2025: 3. Other labour market contributions, total",
+          "calculation": "5,808.588 + 2,353.412 + 980.372 = 9,142.372 (DKK million)"
+        },
+        { "nodeId": "dk-inheritance-duty", "amount": 8513.314, "locator": "Table SKAT 2025: 4.2.1 Inheritance duty" },
+        {
+          "nodeId": "dk-weight-duty",
+          "amount": 9235.186,
+          "locator": "Table SKAT 2025: 4.3.1 weight duty households 6,023.856 + 4.3.2 producers 3,211.330",
+          "calculation": "6,023.856 + 3,211.330 = 9,235.186 (DKK million)"
+        },
+        { "nodeId": "dk-km-toll", "amount": 1960.334, "locator": "Table SKAT 2025: 4.3.5 KmToll scheme" },
+        {
+          "nodeId": "dk-vat",
+          "amount": 285159.61,
+          "locator": "Table SKAT 2025: 5.1.1 VAT 278,234.077 + 5.1.6 One Stop VAT to Denmark 6,925.533",
+          "calculation": "278,234.077 + 6,925.533 = 285,159.610 (DKK million)"
+        },
+        { "nodeId": "dk-payroll-duty", "amount": 12235.501, "locator": "Table SKAT 2025: 5.1.5 Duty on wage and salary costs" },
+        { "nodeId": "dk-customs", "amount": 3989.927, "locator": "Table SKAT 2025: 5.2.1 Customs duties" },
+        {
+          "nodeId": "dk-mineral-oil-tax",
+          "amount": 10987.259,
+          "locator": "Table SKAT 2025: 5.3.1 Duty on petrol 5,452.693 + 5.3.39 Duty on certain oil products 5,534.566",
+          "calculation": "5,452.693 + 5,534.566 = 10,987.259 (DKK million)"
+        },
+        { "nodeId": "dk-co2-tax", "amount": 12600.47, "locator": "Table SKAT 2025: 5.3.53 Duty on carbon dioxide (CO2)" },
+        { "nodeId": "dk-electricity-tax", "amount": 8443.582, "locator": "Table SKAT 2025: 5.3.38 Duty on electricity" },
+        {
+          "nodeId": "dk-gas-coal-tax",
+          "amount": 1980.984,
+          "locator": "Table SKAT 2025: 5.3.61 Duty on natural gas 1,122.687 + 5.3.47 Duty on coal 858.297",
+          "calculation": "1,122.687 + 858.297 = 1,980.984 (DKK million)"
+        },
+        { "nodeId": "dk-registration-duty", "amount": 5097.112, "locator": "Table SKAT 2025: 5.3.2 Motor vehicle registration duty" },
+        {
+          "nodeId": "dk-tobacco-duties",
+          "amount": 7697.598,
+          "locator": "Table SKAT 2025: 5.3.5 cigarette and tobacco 6,821.503 + 5.3.6 cigars 36.043 + 5.3.54 cigarette paper 28.255 + 5.3.74 nicotine products 811.797",
+          "calculation": "6,821.503 + 36.043 + 28.255 + 811.797 = 7,697.598 (DKK million)"
+        },
+        {
+          "nodeId": "dk-alcohol-duties",
+          "amount": 3471.385,
+          "locator": "Table SKAT 2025: 5.3.15 beer 777.235 + 5.3.16 wine 1,544.889 + 5.3.17 spirits 1,149.261",
+          "calculation": "777.235 + 1,544.889 + 1,149.261 = 3,471.385 (DKK million)"
+        },
+        {
+          "nodeId": "dk-sweets-coffee-duties",
+          "amount": 2960.83,
+          "locator": "Table SKAT 2025: 5.3.8 chocolate and sugar 2,217.902 + 5.3.10 special tax 72.255 + 5.3.12 ice cream 397.637 + 5.3.13 coffee 273.036",
+          "calculation": "2,217.902 + 72.255 + 397.637 + 273.036 = 2,960.830 (DKK million)"
+        },
+        { "nodeId": "dk-water-tax", "amount": 1612.184, "locator": "Table SKAT 2025: 5.3.55 Duty on piped water" },
+        {
+          "nodeId": "dk-other-green-duties",
+          "amount": 2340.733,
+          "locator": "Table SKAT 2025: lines 5.3.27, 5.3.40, 5.3.43, 5.3.44, 5.3.45, 5.3.51, 5.3.52, 5.3.56–5.3.60, 5.3.63, 5.3.65, 5.3.66, 5.3.71",
+          "calculation": "Pesticides 811.565 + waste 232.949 + tableware 317.336 + raw material 206.434 + carrier bags 187.003 + NOx 164.836 + containers 128.217 + CFC 92.828 + tyres 80.379 + SO2 31.518 + nitrogen 29.966 + PVC film 20.662 + PVC 20.306 + bulbs 16.423 + batteries 0.261 + solvents 0.050 = 2,340.733 (DKK million)"
+        },
+        { "nodeId": "dk-stamp-duties", "amount": 8515.769, "locator": "Table SKAT 2025: 5.4.1 Stamp duties" },
+        {
+          "nodeId": "dk-insurance-duties",
+          "amount": 1747.247,
+          "locator": "Table SKAT 2025: 5.5.4 motor third-party liability 1,628.928 + 5.5.5 pleasure boats 118.319",
+          "calculation": "1,628.928 + 118.319 = 1,747.247 (DKK million)"
+        },
+        {
+          "nodeId": "dk-gambling-duties",
+          "amount": 2456.255,
+          "locator": "Table SKAT 2025: 5.5.9 casinos 197.902 + 5.5.11 state lottery 41.330 + 5.5.13 slot machines 474.821 + 5.5.14 gambling 575.963 + 5.5.15 online casinos 1,158.216 + 5.5.16 bingo 8.023",
+          "calculation": "197.902 + 41.330 + 474.821 + 575.963 + 1,158.216 + 8.023 = 2,456.255 (DKK million)"
+        },
+        { "nodeId": "dk-national-building-fund", "amount": 4461.853, "locator": "Table SKAT 2025: 6.4.1 Payments to The National Building Fund" },
+        {
+          "nodeId": "dk-other-small-taxes",
+          "amount": 4569.503,
+          "locator": "Table SKAT 2025: 6.2.5 CO2 emission tax 2,226.593 + 6.2.9 emission duty 686.568 + 6.1.1 effluent 270.691 + 5.5.17 passenger duty 800.133 + 4.3.4 recycling fee 268.058 + 6.2.1, 6.2.6, 6.3.2 126.750 + 5.4.3 land development 38.285 + 5.7 other 152.425",
+          "calculation": "2,226.593 + 686.568 + 270.691 + 800.133 + 268.058 + 126.750 + 38.285 + 152.425 = 4,569.503 (DKK million)"
+        }
+      ]
+    },
+    {
+      "title": "Municipal taxes 2025 – Statistics Denmark table SKAT (DKK million)",
+      "defaults": {
+        "denominatorId": "municipal-taxes-2025",
+        "scale": "million",
+        "currency": "DKK",
+        "period": { "label": "2025", "kind": "calendar-year", "start": "2025-01-01", "end": "2025-12-31" },
+        "basis": "Receipts of taxes and duties by type",
+        "sourceId": "dst-skat-2025",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-11"
+      },
+      "observations": [
+        { "nodeId": "dk-municipal-income-tax", "amount": 328059.897, "locator": "Table SKAT 2025: 1.1.3 Municipality income tax" },
+        { "nodeId": "dk-land-tax", "amount": 23705.399, "locator": "Table SKAT 2025: 4.4.3 Municipal tax on land" },
+        {
+          "nodeId": "dk-coverage-duty",
+          "amount": 3516.986,
+          "locator": "Table SKAT 2025: 4.4.9 public properties 813.896 + 4.4.15 business properties 2,703.090",
+          "calculation": "813.896 + 2,703.090 = 3,516.986 (DKK million)"
+        }
+      ]
+    }
+  ],
+  "unavailable": []
+}

@@ -1,0 +1,27 @@
+{
+  "nodes": {
+    "ireland": { "label": "Ireland", "sublabel": "Éire · Fiscal folio", "glyph": "globe" },
+    "state": { "label": "The State", "sublabel": "Central government", "glyph": "landmark" },
+    "councils": { "label": "Local authorities", "sublabel": "31 councils", "glyph": "town" },
+    "ie-income-tax": { "label": "Income tax", "sublabel": "20% · 40%", "glyph": "person" },
+    "ie-usc": { "label": "Universal social charge", "sublabel": "0.5%–8%", "glyph": "percent" },
+    "ie-dirt": { "label": "Deposit interest tax", "sublabel": "DIRT · 33%", "glyph": "coin" },
+    "ie-exit-tax": { "label": "Life assurance exit tax", "sublabel": "Exit tax", "glyph": "scroll" },
+    "ie-corporation-tax": { "label": "Corporation tax", "sublabel": "12.5% · 15%", "glyph": "factory" },
+    "ie-vat": { "label": "VAT", "sublabel": "23%", "glyph": "cart" },
+    "ie-stamp-duty": { "label": "Stamp duty", "sublabel": "Property · shares", "glyph": "stamp" },
+    "ie-cgt": { "label": "Capital gains tax", "sublabel": "33%", "glyph": "gem" },
+    "ie-cat": { "label": "Gift & inheritance tax", "sublabel": "33%", "glyph": "key" },
+    "ie-customs": { "label": "Customs duties", "sublabel": "EU tariff", "glyph": "ship" },
+    "ie-mineral-oil-tax": { "label": "Fuel excise", "sublabel": "Per litre", "glyph": "oil" },
+    "ie-carbon-tax": { "label": "Carbon tax", "sublabel": "Per tonne CO2", "glyph": "leaf" },
+    "ie-vrt": { "label": "Vehicle registration tax", "sublabel": "VRT", "glyph": "car" },
+    "ie-motor-tax": { "label": "Motor tax", "sublabel": "Annual", "glyph": "car" },
+    "ie-alcohol-tax": { "label": "Alcohol excise", "sublabel": "Beer · wine · spirits", "glyph": "wine" },
+    "ie-tobacco-tax": { "label": "Tobacco excise", "sublabel": "Cigarettes", "glyph": "smoke" },
+    "ie-other-excise": { "label": "Other excise duties", "sublabel": "Betting · drinks · vapes", "glyph": "dice" },
+    "ie-prsi": { "label": "PRSI", "sublabel": "Social insurance", "glyph": "heart" },
+    "ie-lpt": { "label": "Local property tax", "sublabel": "Homes", "glyph": "house" },
+    "ie-commercial-rates": { "label": "Commercial rates", "sublabel": "Business premises", "glyph": "town" }
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "groups": [
+    {
+      "title": "Taxes of the Rijk 2025 – CBS table 84120NED (EUR million)",
+      "defaults": {
+        "denominatorId": "rijk-taxes-2025",
+        "scale": "million",
+        "currency": "EUR",
+        "period": { "label": "2025 (provisional)", "kind": "calendar-year", "start": "2025-01-01", "end": "2025-12-31" },
+        "basis": "National accounts, tax receipts by type, provisional",
+        "sourceId": "cbs-84120ned",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-11"
+      },
+      "observations": [
+        {
+          "nodeId": "nl-income-tax",
+          "amount": 104774,
+          "locator": "Table 84120NED, 2025: Loonbelasting 89,308 + Inkomstenbelasting 15,466",
+          "calculation": "89,308 + 15,466 = 104,774 (EUR million)"
+        },
+        { "nodeId": "nl-corporate-tax", "amount": 49858, "locator": "Table 84120NED, 2025: Vennootschapsbelasting" },
+        { "nodeId": "nl-dividend-tax", "amount": 6709, "locator": "Table 84120NED, 2025: Dividendbelasting" },
+        { "nodeId": "nl-vat", "amount": 83215, "locator": "Table 84120NED, 2025: Belasting over toegevoegde waarde (BTW)" },
+        {
+          "nodeId": "nl-fuel-excise",
+          "amount": 7745,
+          "locator": "Table 84120NED, 2025: Accijns op benzine 4,540 + accijns op overige minerale oliën 3,205",
+          "calculation": "4,540 + 3,205 = 7,745 (EUR million)"
+        },
+        { "nodeId": "nl-tobacco-excise", "amount": 2549, "locator": "Table 84120NED, 2025: Accijns op tabak" },
+        {
+          "nodeId": "nl-alcohol-excise",
+          "amount": 1157,
+          "locator": "Table 84120NED, 2025: Accijns op alcohol 388 + bier 439 + tussenproducten 17 + wijn 313",
+          "calculation": "388 + 439 + 17 + 313 = 1,157 (EUR million)"
+        },
+        { "nodeId": "nl-soft-drinks-tax", "amount": 633, "locator": "Table 84120NED, 2025: Verbruiksbelasting op alcoholvrije dranken" },
+        { "nodeId": "nl-energy-tax", "amount": 10117, "locator": "Table 84120NED, 2025: Energiebelasting" },
+        { "nodeId": "nl-aviation-tax", "amount": 769, "locator": "Table 84120NED, 2025: Vliegbelasting" },
+        {
+          "nodeId": "nl-other-environmental-taxes",
+          "amount": 1103,
+          "locator": "Table 84120NED, 2025: Afvalstoffenbelasting 290 + verpakkingenbelasting 448 + leidingwaterbelasting 364 + kolenbelasting 1",
+          "calculation": "290 + 448 + 364 + 1 = 1,103 (EUR million)"
+        },
+        { "nodeId": "nl-motor-vehicle-tax", "amount": 7220, "locator": "Table 84120NED, 2025: Motorrijtuigenbelasting" },
+        { "nodeId": "nl-car-registration-tax", "amount": 1331, "locator": "Table 84120NED, 2025: Belasting personenauto's en motorrijwielen" },
+        { "nodeId": "nl-transfer-tax", "amount": 4691, "locator": "Table 84120NED, 2025: Overdrachtsbelasting" },
+        { "nodeId": "nl-insurance-tax", "amount": 4164, "locator": "Table 84120NED, 2025: Assurantiebelasting" },
+        { "nodeId": "nl-inheritance-gift-tax", "amount": 4100, "locator": "Table 84120NED, 2025: Erf- en schenkbelasting" },
+        { "nodeId": "nl-gambling-tax", "amount": 1012, "locator": "Table 84120NED, 2025: Kansspelbelasting" },
+        { "nodeId": "nl-bank-tax", "amount": 617, "locator": "Table 84120NED, 2025: Bankenbelasting (regulier) 617 + resolutieheffing 0" },
+        {
+          "nodeId": "nl-other-central-taxes",
+          "amount": 1702,
+          "locator": "Table 84120NED, 2025: Loonkostenheffing 755 + heffing op projectontwikkelaars 351 + Caribisch Nederland 236 + voorraadheffing aardolieproducten 105 + depositogarantiestelsel 89 + bronbelasting rente en royalty’s 84 + diergezondheidsheffing 28 + mestoverschotheffing 6 + geluidsheffing 1 + overige belastingen 47",
+          "calculation": "755 + 351 + 236 + 105 + 89 + 84 + 28 + 6 + 1 + 47 = 1,702 (EUR million)"
+        }
+      ]
+    },
+    {
+      "title": "Statutory premiums 2025 – CBS table 84120NED (EUR million)",
+      "defaults": {
+        "denominatorId": "social-premiums-2025",
+        "scale": "million",
+        "currency": "EUR",
+        "period": { "label": "2025 (provisional)", "kind": "calendar-year", "start": "2025-01-01", "end": "2025-12-31" },
+        "basis": "National accounts, premiums received by the social security funds, provisional",
+        "sourceId": "cbs-84120ned",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-11"
+      },
+      "observations": [
+        {
+          "nodeId": "nl-pension-premium",
+          "amount": 25791,
+          "locator": "Table 84120NED, 2025: Algemeen Ouderdomsfonds 25,619 + Algemeen Nabestaandenfonds 172",
+          "calculation": "25,619 + 172 = 25,791 (EUR million)"
+        },
+        { "nodeId": "nl-long-term-care-premium", "amount": 16612, "locator": "Table 84120NED, 2025: Fonds Langdurige Zorg" },
+        { "nodeId": "nl-health-premium", "amount": 60641, "locator": "Table 84120NED, 2025: Zorgverzekeringsfonds" },
+        { "nodeId": "nl-disability-premium", "amount": 26940, "locator": "Table 84120NED, 2025: Arbeidsongeschiktheidsfonds" },
+        { "nodeId": "nl-unemployment-premium", "amount": 11000, "locator": "Table 84120NED, 2025: Algemeen Werkloosheidsfonds" },
+        {
+          "nodeId": "nl-other-premiums",
+          "amount": 5372,
+          "locator": "Table 84120NED, 2025: Werkhervattingskas 2,813 + Wet Kinderopvang 1,814 + Uitvoeringsfonds voor de Overheid 745",
+          "calculation": "2,813 + 1,814 + 745 = 5,372 (EUR million)"
+        }
+      ]
+    },
+    {
+      "title": "Municipal taxes 2025 – CBS table 84120NED (EUR million)",
+      "defaults": {
+        "denominatorId": "municipal-taxes-2025",
+        "scale": "million",
+        "currency": "EUR",
+        "period": { "label": "2025 (provisional)", "kind": "calendar-year", "start": "2025-01-01", "end": "2025-12-31" },
+        "basis": "National accounts, provisional",
+        "sourceId": "cbs-84120ned",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-11"
+      },
+      "observations": [
+        { "nodeId": "nl-real-estate-tax", "amount": 6166, "locator": "Table 84120NED, 2025: Onroerendezaakbelasting" },
+        { "nodeId": "nl-tourist-tax", "amount": 676, "locator": "Table 84120NED, 2025: Toeristenbelasting" },
+        {
+          "nodeId": "nl-other-municipal-taxes",
+          "amount": 135,
+          "locator": "Table 84120NED, 2025: Hondenbelasting 31 + reclamebelasting 36 + woonforensenbelasting 48 + BIZ 20",
+          "calculation": "31 + 36 + 48 + 20 = 135 (EUR million)"
+        }
+      ]
+    },
+    {
+      "title": "Water board taxes 2025 – CBS table 84120NED (EUR million)",
+      "defaults": {
+        "denominatorId": "water-board-taxes-2025",
+        "scale": "million",
+        "currency": "EUR",
+        "period": { "label": "2025 (provisional)", "kind": "calendar-year", "start": "2025-01-01", "end": "2025-12-31" },
+        "basis": "National accounts, provisional",
+        "sourceId": "cbs-84120ned",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-11"
+      },
+      "observations": [
+        {
+          "nodeId": "nl-water-board-levy",
+          "amount": 4208,
+          "locator": "Table 84120NED, 2025: Omslagheffing waterschappen 2,288 + Heffingen op waterverontreiniging 1,920",
+          "calculation": "2,288 + 1,920 = 4,208 (EUR million)"
+        }
+      ]
+    }
+  ],
+  "unavailable": []
+}

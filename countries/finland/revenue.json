@@ -1,0 +1,91 @@
+{
+  "groups": [
+    {
+      "title": "State taxes 2025 – Statistics Finland national accounts (EUR million)",
+      "defaults": {
+        "denominatorId": "state-taxes-2025",
+        "scale": "million",
+        "currency": "EUR",
+        "period": { "label": "2025", "kind": "calendar-year", "start": "2025-01-01", "end": "2025-12-31" },
+        "basis": "National accounts, taxes by type",
+        "sourceId": "veronmaksajat-2025",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-11"
+      },
+      "observations": [
+        {
+          "nodeId": "fi-state-income-tax",
+          "amount": 26353,
+          "locator": "Verot ja veronluonteiset maksut 2025: Valtion ansio- ja pääomatulovero, yleisradiovero"
+        },
+        { "nodeId": "fi-corporate-tax", "amount": 7070, "locator": "Verot ja veronluonteiset maksut 2025: Yhteisöjen tulovero" },
+        { "nodeId": "fi-interest-withholding", "amount": 444, "locator": "Verot ja veronluonteiset maksut 2025: Korkotulojen lähdevero" },
+        { "nodeId": "fi-inheritance-gift-tax", "amount": 1057, "locator": "Verot ja veronluonteiset maksut 2025: Perintö- ja lahjavero" },
+        { "nodeId": "fi-transfer-tax", "amount": 653, "locator": "Verot ja veronluonteiset maksut 2025: Varainsiirtovero" },
+        { "nodeId": "fi-vat", "amount": 27108, "locator": "Verot ja veronluonteiset maksut 2025: Arvonlisävero" },
+        { "nodeId": "fi-energy-taxes", "amount": 3786, "locator": "Verot ja veronluonteiset maksut 2025: Energiaverot" },
+        { "nodeId": "fi-alcohol-tax", "amount": 1393, "locator": "Verot ja veronluonteiset maksut 2025: Alkoholijuomavero" },
+        { "nodeId": "fi-tobacco-tax", "amount": 1116, "locator": "Verot ja veronluonteiset maksut 2025: Tupakkavero" },
+        { "nodeId": "fi-insurance-premium-tax", "amount": 1063, "locator": "Verot ja veronluonteiset maksut 2025: Vakuutusmaksuvero" },
+        { "nodeId": "fi-vehicle-tax", "amount": 1014, "locator": "Verot ja veronluonteiset maksut 2025: Ajoneuvovero" },
+        { "nodeId": "fi-car-tax", "amount": 258, "locator": "Verot ja veronluonteiset maksut 2025: Auto- (ja moottoripyörä-) vero" },
+        { "nodeId": "fi-soft-drink-tax", "amount": 217, "locator": "Verot ja veronluonteiset maksut 2025: Virvoitusjuomavero" },
+        { "nodeId": "fi-lottery-tax", "amount": 127, "locator": "Verot ja veronluonteiset maksut 2025: Arpajaisvero (arpajaisten tuotosta)" },
+        {
+          "nodeId": "fi-small-taxes",
+          "amount": 415,
+          "locator": "Verot ja veronluonteiset maksut 2025: Apteekkimaksut 227 + varmuusvarastointimaksu 36 + kaivosmineraalivero 36 + rekisteröintimaksu 30 + talletussuojamaksut 20 + palosuojamaksu 15 + pakkausvero 12 + riista- 11 + kalastuksenhoitomaksut 9 + ydinenergiatutkimusmaksu 8 + ympäristövahinkomaksu 4 + hirvilupamaksut 4 + jätevero 3",
+          "calculation": "227 + 36 + 36 + 30 + 20 + 15 + 12 + 11 + 9 + 8 + 4 + 4 + 3 = 415 (EUR million)"
+        }
+      ]
+    },
+    {
+      "title": "Municipal taxes 2025 – Statistics Finland national accounts (EUR million)",
+      "defaults": {
+        "denominatorId": "municipal-taxes-2025",
+        "scale": "million",
+        "currency": "EUR",
+        "period": { "label": "2025", "kind": "calendar-year", "start": "2025-01-01", "end": "2025-12-31" },
+        "basis": "National accounts, taxes by type",
+        "sourceId": "veronmaksajat-2025",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-11"
+      },
+      "observations": [
+        { "nodeId": "fi-municipal-income-tax", "amount": 10058, "locator": "Verot ja veronluonteiset maksut 2025: Kunnallisvero" },
+        { "nodeId": "fi-property-tax", "amount": 2302, "locator": "Verot ja veronluonteiset maksut 2025: Kiinteistövero" }
+      ]
+    },
+    {
+      "title": "Social contributions 2025 – Statistics Finland national accounts (EUR million)",
+      "defaults": {
+        "denominatorId": "social-contributions-2025",
+        "scale": "million",
+        "currency": "EUR",
+        "period": { "label": "2025", "kind": "calendar-year", "start": "2025-01-01", "end": "2025-12-31" },
+        "basis": "National accounts, compulsory social security contributions",
+        "sourceId": "veronmaksajat-2025",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-11"
+      },
+      "observations": [
+        {
+          "nodeId": "fi-pension-contributions",
+          "amount": 28172,
+          "locator": "Verot ja veronluonteiset maksut 2025: Työnantajan työeläkemaksut 18,954 + vakuutettujen työeläkemaksut 9,218",
+          "calculation": "18,954 + 9,218 = 28,172 (EUR million)"
+        },
+        {
+          "nodeId": "fi-other-social-contributions",
+          "amount": 5700,
+          "locator": "Verot ja veronluonteiset maksut 2025: Työnantajan muut 2,649 + vakuutettujen muut sosiaaliturvamaksut 3,051",
+          "calculation": "2,649 + 3,051 = 5,700 (EUR million)"
+        }
+      ]
+    }
+  ],
+  "unavailable": []
+}

@@ -1,0 +1,201 @@
+{
+  "id": "romania",
+  "iso3": "ROU",
+  "isoNumeric": "642",
+  "names": { "en": "Romania", "native": "România", "nativeLang": "ro" },
+  "currency": { "code": "RON", "symbol": "lei", "name": "Romanian leu" },
+  "summary": "Romania is a unitary state with a flat 10% personal income tax, a 16% corporate profit tax and a standard VAT of 21% from 2025 (19% in 2024). Since a 2018 reform the social contributions are mostly paid by the insured persons, and in the National Tax List they are the largest flow, ahead of VAT. Local councils levy the building, land and vehicle taxes and receive a part of several State taxes. A set of sector taxes on banks, energy companies and others adds to the corporate tax.",
+  "structureNote": "The figures are the Commission’s National Tax List for 2024, in RON million. The list repeats the personal and corporate income tax lines under a parent code; only the leaf lines are used. Three lines shared by the State and local government (other taxes and fees, the transfer of real estate, licences) are split with Eurostat’s accounts of the same year. The sale of emission permits (RON 2,829 million) and the employers’ imputed social contributions (RON 14,962 million) are left out. The social contributions are drawn under the State. Romania is not an OECD member, so this folio has no harmonised OECD layer.",
+  "theme": {
+    "accent": "#fcd116",
+    "accent2": "#002b7f",
+    "motif": "topo",
+    "motifNote": "Topographic contour lines over the outline of Romania (the generic motif; no bespoke art yet).",
+    "mapLabel": { "lon": 25, "lat": 45.9 }
+  },
+  "levels": [
+    {
+      "id": "statul",
+      "branch": "national",
+      "names": { "official": "The State (Romania)", "native": "Statul", "common": "State" },
+      "description": "Parliament legislates the taxes (the Fiscal Code); the National Agency for Fiscal Administration (ANAF) collects them and the social contributions, which fund the pension and health insurance systems.",
+      "fiscalPower": "Taxes are set by the Fiscal Code and laws; local councils set rates only within the ranges that the Code allows.",
+      "legalRefs": [{ "sourceId": "ntl-2026" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "local",
+      "branch": "local",
+      "names": {
+        "official": "Local administrative-territorial units (communes, towns, municipalities and counties)",
+        "native": "Unitățile administrativ-teritoriale",
+        "common": "Local government"
+      },
+      "description": "The communes, towns, municipalities and counties. They levy the building, land and vehicle taxes and small local taxes within the ranges of the Fiscal Code.",
+      "fiscalPower": "Local councils set the rates of local taxes within the ranges of the Fiscal Code.",
+      "legalRefs": [{ "sourceId": "eurostat-taxag" }],
+      "checkedOn": "2026-10-12"
+    }
+  ],
+  "supportingSourceIds": [],
+  "denominators": [
+    {
+      "id": "statul-taxes-2024",
+      "label": "State taxes (National Tax List), 2024",
+      "definition": "The taxes on production and imports, on income and on capital that the National Tax List books to the State, the social security funds and the EU, other than the local lines and the sale of emission permits.",
+      "levelIds": ["statul"],
+      "amount": 283855.9,
+      "scale": "million",
+      "currency": "RON",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "ntl-2026",
+      "locator": "Sheet RO, 2024, the lines listed with each tax",
+      "calculation": "Sum of the 21 tax rows below (RON million)",
+      "caveat": "Calendar 2024; the list's cut-off was 30 October 2025. Vintage check against Eurostat's July 2026 accounts: D2: NTL 194,679.9, Eurostat July 2026 194,584.9; D5: NTL 105,346.1, Eurostat July 2026 105,361.2; D61: NTL 206,518.2, Eurostat July 2026 206,476.3. Eurostat also books RON 154.6 million of corporate income tax and RON 2.7 million of personal income tax under local government; the list does not say which lines, so they are drawn here.",
+      "accessed": "2026-10-12"
+    },
+    {
+      "id": "statul-social-employers-2024",
+      "label": "Social contributions paid by employers, 2024",
+      "definition": "The actual contributions of employers; imputed contributions are left out.",
+      "levelIds": ["statul"],
+      "amount": 16309.3,
+      "scale": "million",
+      "currency": "RON",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "ntl-2026",
+      "locator": "Sheet RO, 2024, lines D611 C01 to C13",
+      "caveat": "Calendar 2024, same list and cut-off as the taxes.",
+      "accessed": "2026-10-12"
+    },
+    {
+      "id": "statul-social-insured-2024",
+      "label": "Social contributions paid by the insured, 2024",
+      "definition": "The social security and health insurance contributions due by the insured persons.",
+      "levelIds": ["statul"],
+      "amount": 175246.6,
+      "scale": "million",
+      "currency": "RON",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "ntl-2026",
+      "locator": "Sheet RO, 2024, lines D613 C01, C02, C03 and C05",
+      "caveat": "Calendar 2024, same list and cut-off as the taxes.",
+      "accessed": "2026-10-12"
+    },
+    {
+      "id": "local-buildings-2024",
+      "label": "Building tax of local government, 2024",
+      "definition": "The tax on buildings held by legal persons and by individuals.",
+      "levelIds": ["local"],
+      "amount": 5715.8,
+      "scale": "million",
+      "currency": "RON",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "ntl-2026",
+      "locator": "Sheet RO, 2024, lines D29A C01 and C04, D59A C02",
+      "caveat": "Eurostat books RON 4,560.5 million of land and building taxes (D29A) and RON 3,165.9 million of other wealth taxes (D59A) under local government.",
+      "accessed": "2026-10-12"
+    },
+    {
+      "id": "local-land-2024",
+      "label": "Land tax of local government, 2024",
+      "definition": "The tax on land held by legal persons and by individuals, and on land out of town.",
+      "levelIds": ["local"],
+      "amount": 2011.8,
+      "scale": "million",
+      "currency": "RON",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "ntl-2026",
+      "locator": "Sheet RO, 2024, lines D29A C02, D59A C01 and C03",
+      "caveat": "Calendar 2024, same list and cut-off as the State taxes.",
+      "accessed": "2026-10-12"
+    },
+    {
+      "id": "local-vehicles-2024",
+      "label": "Vehicle taxes of local government, 2024",
+      "definition": "The motor vehicle taxes of individuals and legal persons.",
+      "levelIds": ["local"],
+      "amount": 2579.3,
+      "scale": "million",
+      "currency": "RON",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "ntl-2026",
+      "locator": "Sheet RO, 2024, lines D59D C01, D29B C01 and C03",
+      "caveat": "Eurostat books RON 2,577.4 million of vehicle taxes under local government.",
+      "accessed": "2026-10-12"
+    },
+    {
+      "id": "local-other-fees-2024",
+      "label": "Other taxes and fees recorded under local government, 2024",
+      "definition": "The part of the \"other taxes and fees\" lines that Eurostat’s accounts record under local government.",
+      "levelIds": ["local"],
+      "amount": 1538.4,
+      "scale": "million",
+      "currency": "RON",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "eurostat-taxag",
+      "locator": "gov_10a_taxag, 2024, S.1313, D214L, million RON",
+      "caveat": "Eurostat July 2026 vintage, a different release from the National Tax List.",
+      "accessed": "2026-10-12"
+    },
+    {
+      "id": "local-transfer-2024",
+      "label": "Real estate transfer tax recorded under local government, 2024",
+      "definition": "The part of the transfer tax that Eurostat’s accounts record under local government.",
+      "levelIds": ["local"],
+      "amount": 486.5,
+      "scale": "million",
+      "currency": "RON",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "eurostat-taxag",
+      "locator": "gov_10a_taxag, 2024, S.1313, D214C, million RON",
+      "caveat": "Eurostat July 2026 vintage, a different release from the National Tax List.",
+      "accessed": "2026-10-12"
+    },
+    {
+      "id": "local-licences-2024",
+      "label": "Licence fees recorded under local government, 2024",
+      "definition": "The part of the licence fees that Eurostat’s accounts record under local government.",
+      "levelIds": ["local"],
+      "amount": 362.6,
+      "scale": "million",
+      "currency": "RON",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "eurostat-taxag",
+      "locator": "gov_10a_taxag, 2024, S.1313, D29E, million RON",
+      "caveat": "Eurostat July 2026 vintage, a different release from the National Tax List.",
+      "accessed": "2026-10-12"
+    },
+    {
+      "id": "local-small-2024",
+      "label": "Stamp, hotel, entertainment and other small local taxes, 2024",
+      "definition": "The stamp taxes, taxes on specific services, hotel, entertainment and other local taxes.",
+      "levelIds": ["local"],
+      "amount": 646.7,
+      "scale": "million",
+      "currency": "RON",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "ntl-2026",
+      "locator": "Sheet RO, 2024, lines D214B C01 and C03, D214H C02 and C03, D214E C01, D59F C01",
+      "caveat": "Calendar 2024, same list and cut-off as the State taxes.",
+      "accessed": "2026-10-12"
+    }
+  ],
+  "sizing": {
+    "label": "Taxes and compulsory social contributions of all levels of government",
+    "definition": "The taxes of the State and of local government plus the actual social contributions, calendar 2024, as listed in the National Tax List and split by Eurostat. Excludes the sale of emission permits and imputed social contributions.",
+    "componentIds": [
+      "statul-taxes-2024",
+      "statul-social-employers-2024",
+      "statul-social-insured-2024",
+      "local-buildings-2024",
+      "local-land-2024",
+      "local-vehicles-2024",
+      "local-other-fees-2024",
+      "local-transfer-2024",
+      "local-licences-2024",
+      "local-small-2024"
+    ]
+  },
+  "researchStatus": "researched"
+}

@@ -1,0 +1,106 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "lithuania": {
+      "x": 800,
+      "y": 500
+    },
+    "valstybe": {
+      "x": 509,
+      "y": 432
+    },
+    "lt-pit-employment": {
+      "x": 844,
+      "y": 798
+    },
+    "lt-profit-tax": {
+      "x": 461,
+      "y": 747
+    },
+    "lt-social-employers": {
+      "x": 289,
+      "y": 513
+    },
+    "lt-excise-fuel": {
+      "x": 423,
+      "y": 277
+    },
+    "lt-gambling": {
+      "x": 785,
+      "y": 170
+    },
+    "lt-forestry-deductions": {
+      "x": 1160,
+      "y": 266
+    },
+    "lt-pit-self-employed": {
+      "x": 572,
+      "y": 923
+    },
+    "lt-bank-solidarity-tax": {
+      "x": 174,
+      "y": 694
+    },
+    "lt-vat": {
+      "x": 152,
+      "y": 340
+    },
+    "lt-excise-tobacco": {
+      "x": 527,
+      "y": 88
+    },
+    "lt-vehicle-taxes": {
+      "x": 1065,
+      "y": 86
+    },
+    "lt-financial-levies": {
+      "x": 1452,
+      "y": 346
+    },
+    "lt-pit-capital": {
+      "x": 880,
+      "y": 925
+    },
+    "lt-social-employees": {
+      "x": 234,
+      "y": 880
+    },
+    "lt-customs": {
+      "x": 81,
+      "y": 536
+    },
+    "lt-excise-alcohol": {
+      "x": 167,
+      "y": 108
+    },
+    "lt-environmental": {
+      "x": 791,
+      "y": 32
+    },
+    "lt-other-state": {
+      "x": 1431,
+      "y": 107
+    },
+    "savivaldybes": {
+      "x": 1091,
+      "y": 568
+    },
+    "lt-real-estate-tax": {
+      "x": 1232,
+      "y": 457
+    },
+    "lt-land-tax": {
+      "x": 1273,
+      "y": 610
+    },
+    "lt-inheritance-tax": {
+      "x": 1162,
+      "y": 726
+    }
+  },
+  "radii": {}
+}

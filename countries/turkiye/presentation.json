@@ -1,0 +1,15 @@
+{
+  "nodes": {
+    "turkiye": { "label": "Türkiye", "sublabel": "Fiscal folio · central budget", "glyph": "globe" },
+    "devlet": { "label": "Central government", "sublabel": "Devlet", "glyph": "landmark" },
+    "tr-income-tax": { "label": "Income tax", "sublabel": "15–40%", "glyph": "person" },
+    "tr-corporate-tax": { "label": "Corporate tax", "sublabel": "25%", "glyph": "factory" },
+    "tr-vat-domestic": { "label": "VAT: domestic", "sublabel": "20%", "glyph": "cart" },
+    "tr-vat-imports": { "label": "VAT: imports", "sublabel": "20%", "glyph": "ship" },
+    "tr-special-consumption-tax": { "label": "Special consumption tax", "sublabel": "Fuel · vehicles · tobacco", "glyph": "flame" },
+    "tr-banking-insurance-tax": { "label": "Banking and insurance tax", "sublabel": "BSMV", "glyph": "bank" },
+    "tr-stamp-duty": { "label": "Stamp duty", "sublabel": "Documents", "glyph": "stamp" },
+    "tr-fees": { "label": "Fees", "sublabel": "Harçlar", "glyph": "scroll" },
+    "tr-other-taxes": { "label": "Other taxes", "sublabel": "Not itemised", "glyph": "gear" }
+  }
+}

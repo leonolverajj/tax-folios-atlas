@@ -1,0 +1,129 @@
+{
+  "groups": [
+    {
+      "title": "Taxes collected by Revenue 2025 – net receipts by tax head (EUR million)",
+      "defaults": {
+        "denominatorId": "revenue-taxes-2025",
+        "scale": "million",
+        "currency": "EUR",
+        "period": { "label": "2025", "kind": "calendar-year", "start": "2025-01-01", "end": "2025-12-31" },
+        "basis": "Net receipts (cash) after refunds",
+        "sourceId": "revenue-taxhead-2025",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-11"
+      },
+      "observations": [
+        {
+          "nodeId": "ie-income-tax",
+          "amount": 30438,
+          "locator": "Net receipts 2025: PAYE income tax 25,795 + self-assessed 2,504 + professional services withholding 1,209 + dividend withholding 749 + non-resident landlord withholding 55 + other income taxes 126",
+          "calculation": "25,795 + 2,504 + 1,209 + 749 + 55 + 126 = 30,438 (EUR million)"
+        },
+        {
+          "nodeId": "ie-usc",
+          "amount": 5637,
+          "locator": "Net receipts 2025: PAYE USC 4,925 + self-assessed USC 712",
+          "calculation": "4,925 + 712 = 5,637 (EUR million)"
+        },
+        { "nodeId": "ie-dirt", "amount": 278, "locator": "Net receipts 2025: Deposit Interest Retention Tax" },
+        { "nodeId": "ie-exit-tax", "amount": 203, "locator": "Net receipts 2025: Life Assurance Exit Tax" },
+        { "nodeId": "ie-corporation-tax", "amount": 34667, "locator": "Net receipts 2025: Corporation Tax" },
+        {
+          "nodeId": "ie-vat",
+          "amount": 23007,
+          "locator": "Net receipts 2025: VAT on imports 1,285 + internal VAT 21,722",
+          "calculation": "1,285 + 21,722 = 23,007 (EUR million)"
+        },
+        {
+          "nodeId": "ie-stamp-duty",
+          "amount": 1897,
+          "locator": "Net receipts 2025: stamp duty on shares 540 + on property 821 + other 536",
+          "calculation": "540 + 821 + 536 = 1,897 (EUR million)"
+        },
+        { "nodeId": "ie-cgt", "amount": 2136, "locator": "Net receipts 2025: Capital Gains Tax" },
+        { "nodeId": "ie-cat", "amount": 1120, "locator": "Net receipts 2025: Capital Acquisitions Tax" },
+        { "nodeId": "ie-customs", "amount": 616, "locator": "Net receipts 2025: Customs" }
+      ]
+    },
+    {
+      "title": "Excise and vehicle taxes 2025 – Department of Finance Tax Strategy Group papers (EUR million)",
+      "defaults": {
+        "denominatorId": "excise-vehicle-2025",
+        "scale": "million",
+        "currency": "EUR",
+        "period": { "label": "2025", "kind": "calendar-year", "start": "2025-01-01", "end": "2025-12-31" },
+        "basis": "Annual yield by commodity (Revenue and Department of Transport data)",
+        "sourceId": "dof-tsg-26-08",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-11"
+      },
+      "observations": [
+        {
+          "nodeId": "ie-mineral-oil-tax",
+          "amount": 2089.3,
+          "locator": "TSG 26-09 Table 1: light oils 613.4 + heavy oils 1,475.8 + LPG 0.1",
+          "calculation": "613.4 + 1,475.8 + 0.1 = 2,089.3 (EUR million)"
+        },
+        { "nodeId": "ie-carbon-tax", "amount": 1176, "locator": "TSG 26-09 Table 1: Excise Carbon Tax 2025" },
+        { "nodeId": "ie-vrt", "amount": 938, "locator": "TSG 26-09 Table 2: Vehicle Registration Tax 2025" },
+        { "nodeId": "ie-motor-tax", "amount": 924, "locator": "TSG 26-09 Table 2: Motor Tax 2025" },
+        { "nodeId": "ie-alcohol-tax", "amount": 1236, "locator": "TSG 26-08 Table 1: Alcohol Products Tax 2025" },
+        { "nodeId": "ie-tobacco-tax", "amount": 1009, "locator": "TSG 26-08 Table 1: Tobacco Products Tax 2025" },
+        {
+          "nodeId": "ie-other-excise",
+          "amount": 155,
+          "locator": "TSG 26-08 Table 1 (betting 113.7, sugar drinks 30.5, e-liquid 5.6) + TSG 26-09 Table 1 (electricity 5.2)",
+          "calculation": "113.7 + 30.5 + 5.6 + 5.2 = 155.0 (EUR million)"
+        }
+      ]
+    },
+    {
+      "title": "PRSI 2025 – Revenue Headline Results (EUR million)",
+      "defaults": {
+        "denominatorId": "prsi-2025",
+        "scale": "million",
+        "currency": "EUR",
+        "period": { "label": "2025", "kind": "calendar-year", "start": "2025-01-01", "end": "2025-12-31" },
+        "basis": "Receipts collected on behalf of the Department of Social Protection",
+        "sourceId": "revenue-headline-2025",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-11"
+      },
+      "observations": [{ "nodeId": "ie-prsi", "amount": 19458, "locator": "Headline Results 2025: Pay Related Social Insurance (PRSI)" }]
+    },
+    {
+      "title": "Local property tax 2025 – Revenue (EUR million)",
+      "defaults": {
+        "denominatorId": "lpt-2025",
+        "scale": "million",
+        "currency": "EUR",
+        "period": { "label": "2025", "kind": "calendar-year", "start": "2025-01-01", "end": "2025-12-31" },
+        "basis": "Collected on behalf of the Local Government Fund",
+        "sourceId": "revenue-taxhead-2025",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-11"
+      },
+      "observations": [{ "nodeId": "ie-lpt", "amount": 670, "locator": "Net receipts 2025: Local Property Tax – collected on behalf of the Local Government Fund" }]
+    },
+    {
+      "title": "Commercial rates 2024 – Eurostat national accounts (EUR million)",
+      "defaults": {
+        "denominatorId": "rates-2024",
+        "scale": "million",
+        "currency": "EUR",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Taxes on production of local government (S1313, D2)",
+        "sourceId": "eurostat-taxag",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-11"
+      },
+      "observations": [{ "nodeId": "ie-commercial-rates", "amount": 1751.6, "locator": "gov_10a_taxag: Ireland, S1313, D2, 2024" }]
+    }
+  ],
+  "unavailable": []
+}

@@ -1,0 +1,606 @@
+{
+  "instruments": [
+    {
+      "id": "is-income-tax-state",
+      "parentId": "rikid",
+      "levelId": "rikid",
+      "category": "tax",
+      "family": "income-personal",
+      "status": "current",
+      "names": {
+        "official": "Income tax of individuals and withholding tax, State part",
+        "native": "Tekjuskattur einstaklinga og staðgreiðsla (ríkið)",
+        "common": "Personal income tax: State part"
+      },
+      "taxes": { "base": "Wages, pensions, business income of individuals; withheld by the payer.", "payer": "Individuals; employers withhold it." },
+      "rate": {
+        "kind": "progressive",
+        "headline": "31.48% · 37.98% · 46.28% withheld in 2024",
+        "details": [
+          "2024 withholding rates by monthly income: 31.48% to ISK 446,136; 37.98% to ISK 1,252,501; 46.28% above. Personal tax credit ISK 64,926 a month.",
+          "The Revenue’s page lists these as the withholding rates and refers to the municipal tax rates published by the Association of Local Authorities; the State part and the municipal part are collected together."
+        ],
+        "asOf": "2024-12-31"
+      },
+      "explanation": "The National Tax List gives one income-tax line for individuals (ISK 626 billion); Eurostat’s accounts place ISK 375 billion of it with the municipalities and the rest with the State. This row is the State’s part.",
+      "exceptions": [],
+      "legalRefs": [
+        { "sourceId": "skatturinn-key-rates-2024", "locator": "Individuals: withholding tax 2024" },
+        { "sourceId": "ntl-2026", "locator": "sheet IS, D51A" },
+        { "sourceId": "eurostat-taxag", "locator": "S.1311 and S.1313, D51A" }
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "is-capital-income-tax",
+      "parentId": "rikid",
+      "levelId": "rikid",
+      "category": "tax",
+      "family": "income-personal",
+      "status": "current",
+      "names": { "official": "Capital gains tax of individuals", "native": "Skattur á fjármagnstekjur einstaklinga", "common": "Capital income tax" },
+      "taxes": {
+        "base": "Interest, dividends, rents and gains from the sale of assets; half of the rent from up to two residential lettings is taxed.",
+        "payer": "Individuals."
+      },
+      "rate": {
+        "kind": "flat",
+        "headline": "22%",
+        "details": [
+          "22% on all capital gains such as sales profits, dividends and interest; tax-free limit of ISK 300,000 a person on interest and on dividends and gains from listed companies (Skatturinn)."
+        ],
+        "asOf": "2024-12-31"
+      },
+      "explanation": "A flat tax on investment income, separate from the progressive tax on earnings.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "skatturinn-key-rates-2024", "locator": "Capital gains tax" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "is-corporate-income-tax",
+      "parentId": "rikid",
+      "levelId": "rikid",
+      "category": "tax",
+      "family": "income-corporate",
+      "status": "current",
+      "names": {
+        "official": "Income tax of legal persons, including the tax on their capital income",
+        "native": "Tekjuskattur lögaðila",
+        "common": "Corporate income tax"
+      },
+      "taxes": {
+        "base": "Profit of companies and other legal persons; the list adds the tax on their capital income (ISK 4.0 billion).",
+        "payer": "Companies and other legal persons."
+      },
+      "rate": {
+        "kind": "flat",
+        "headline": "21% for companies in 2024; 38.4% for partnerships and estates",
+        "details": [
+          "2024: 21% in the general bracket (public and private limited companies and others) and 38.4% in the upper bracket (partnerships, estates, bankruptcy estates) (Skatturinn, Icelandic page).",
+          "The 21% rate is the one for 2024."
+        ],
+        "asOf": "2024-12-31"
+      },
+      "explanation": "The corporate tax; revenue was about the same in 2024 as in 2023.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "skatturinn-business-rates-2024", "locator": "Tekjuskattur lögaðila" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "is-financial-income-tax",
+      "parentId": "rikid",
+      "levelId": "rikid",
+      "category": "tax",
+      "family": "income-corporate",
+      "status": "current",
+      "names": {
+        "official": "Special income tax on financial institutions",
+        "native": "Sérstakur fjársýsluskattur",
+        "common": "Special tax on financial institutions"
+      },
+      "taxes": { "base": "As named in the National Tax List; no further detail.", "payer": "Financial institutions." },
+      "rate": { "kind": "varies", "headline": "Set by law", "details": ["ISK 7.0 billion in 2024 and ISK 6.1 billion in 2023."], "asOf": "2026-10-12" },
+      "explanation": "An additional income tax on the financial sector, separate from the general corporate income tax.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet IS, D51B C02" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "is-social-insurance-levy",
+      "parentId": "rikid",
+      "levelId": "rikid",
+      "category": "social-contribution",
+      "family": "social-security",
+      "status": "current",
+      "names": { "official": "Social insurance levy (general part)", "native": "Tryggingagjald, almennt", "common": "Social insurance levy" },
+      "taxes": { "base": "Employers’ payroll (wages paid).", "payer": "Employers." },
+      "rate": {
+        "kind": "flat",
+        "headline": "6.35% general payroll tax in 2024",
+        "details": [
+          "The Revenue gives the general payroll tax (tryggingagjald) as 6.35% in 2022, 2023 and 2024; the National Tax List shows the general part and the unemployment part (atvinnutryggingagjald) as two lines."
+        ],
+        "asOf": "2024-12-31"
+      },
+      "explanation": "The list shows no social contributions paid by employees to general government; the occupational pension funds are outside it. The employers’ levy is the main social contribution.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "skatturinn-key-rates-2024", "locator": "Payroll tax" }, { "sourceId": "ntl-2026", "locator": "sheet IS, D611 C01" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "is-unemployment-levy",
+      "parentId": "rikid",
+      "levelId": "rikid",
+      "category": "social-contribution",
+      "family": "social-security",
+      "status": "current",
+      "names": { "official": "Unemployment insurance levy", "native": "Atvinnutryggingagjald", "common": "Unemployment insurance levy" },
+      "taxes": { "base": "Employers’ payroll.", "payer": "Employers." },
+      "rate": {
+        "kind": "flat",
+        "headline": "Part of the payroll levy",
+        "details": [
+          "The Revenue’s 6.35% is the general payroll tax; how the National Tax List splits it between the general and the unemployment line is not given on the page."
+        ],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "The part of the employers’ levy that funds unemployment insurance.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet IS, D611 C02" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "is-social-other",
+      "parentId": "rikid",
+      "levelId": "rikid",
+      "category": "social-contribution",
+      "family": "social-security",
+      "status": "current",
+      "names": {
+        "official": "Wage-guarantee levy, sailors’ accident insurance levy and the social contributions of the self-employed",
+        "native": "Ábyrgðargjald; slysatryggingaiðgjald sjómanna; tryggingagjöld sjálfstætt starfandi",
+        "common": "Other social contributions"
+      },
+      "taxes": {
+        "base": "Wages (guarantee levy), sailors’ pay and catch share, and the income of the self-employed.",
+        "payer": "Employers, ship owners and the self-employed."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Set by law",
+        "details": ["ISK 1.2 billion wage guarantee levy for bankruptcies, ISK 0.3 billion for sailors and ISK 2.8 billion paid by the self-employed in 2024."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "The smaller social contribution lines.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet IS, D611 C03 and C04, D613CS" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "is-payroll-taxes",
+      "parentId": "rikid",
+      "levelId": "rikid",
+      "category": "tax",
+      "family": "payroll",
+      "status": "current",
+      "names": {
+        "official": "Market levy, pension-fund insurance levy and payroll tax on financial institutions",
+        "native": "Markaðsgjald; tryggingargjald lífeyrissjóðir; fjársýsluskattur",
+        "common": "Other payroll taxes"
+      },
+      "taxes": {
+        "base": "Employers’ wage bill: the market levy (ISK 1.2 billion), the insurance levy for pension funds (ISK 6.9 billion) and the payroll tax on financial institutions (ISK 3.8 billion).",
+        "payer": "Employers; financial institutions for the payroll tax."
+      },
+      "rate": { "kind": "varies", "headline": "Set by law", "details": [], "asOf": "2026-10-12" },
+      "explanation": "Three payroll-based levies that the National Tax List books apart from the social insurance levy.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet IS, D29C" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "is-vat",
+      "parentId": "rikid",
+      "levelId": "rikid",
+      "category": "tax",
+      "family": "general-consumption",
+      "status": "current",
+      "names": { "official": "Value added tax", "native": "Virðisaukaskattur", "common": "VAT", "abbreviation": "VSK" },
+      "taxes": { "base": "Goods and services supplied in Iceland and imports.", "payer": "Consumers; businesses charge it and claim input credits." },
+      "rate": { "kind": "range", "headline": "24% standard; 11% reduced", "details": ["VAT rates 24% and 11% in 2024 (Skatturinn)."], "asOf": "2024-12-31" },
+      "explanation": "The largest consumption tax and, with the income tax, one of the two big revenue sources of the State.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "skatturinn-key-rates-2024", "locator": "Value added tax" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "is-customs",
+      "parentId": "rikid",
+      "levelId": "rikid",
+      "category": "customs-duty",
+      "family": "trade",
+      "status": "current",
+      "names": { "official": "Import duties (general)", "native": "Tollar", "common": "Customs duties" },
+      "taxes": { "base": "Imported goods.", "payer": "Importers." },
+      "rate": { "kind": "varies", "headline": "Set by the Customs Act", "details": [], "asOf": "2026-10-12" },
+      "explanation": "Iceland, outside the EU, keeps its own customs revenue.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet IS, D2121" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "is-fuel-energy-excise",
+      "parentId": "rikid",
+      "levelId": "rikid",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "Excise duties on petrol and oil, oil (diesel) levy, transport equalisation, electricity and the carbon tax",
+        "native": "Vörugjald af bensíni og olíu; olíugjald; flutningsjöfnunargjald; vörugjald af rafmagni; kolefnisgjald",
+        "common": "Fuel and energy excises and carbon tax"
+      },
+      "taxes": {
+        "base": "Petrol, diesel and other fuels by volume, electricity, and fossil fuels by their carbon content.",
+        "payer": "Fuel importers and producers; passed on at the pump."
+      },
+      "rate": {
+        "kind": "specific",
+        "headline": "Per litre or per tonne, fixed by law",
+        "details": [
+          "ISK 12.5 billion diesel levy, 7.5 billion carbon tax, 7.2 billion specific petrol excise, 4.6 billion petrol and oil excise, 1.4 billion transport equalisation and 0.6 billion on electricity in 2024."
+        ],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "Six lines of the list that tax energy. The sale of emission allowances (ISK 1.6 billion) is not counted.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet IS, D214A C03 to C07, C10, C11" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "is-excise-alcohol",
+      "parentId": "rikid",
+      "levelId": "rikid",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Excise duty on alcohol", "native": "Vörugjöld af áfengi", "common": "Alcohol excise" },
+      "taxes": { "base": "Alcoholic drinks.", "payer": "Importers and producers; passed on in the price." },
+      "rate": { "kind": "specific", "headline": "Per litre of alcohol, fixed by law", "details": [], "asOf": "2026-10-12" },
+      "explanation": "The third largest of the excise groups drawn, after fuel and energy and vehicles.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet IS, D214B C01" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "is-excise-tobacco",
+      "parentId": "rikid",
+      "levelId": "rikid",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Excise duty on tobacco", "native": "Vörugjöld af tóbaki", "common": "Tobacco excise" },
+      "taxes": { "base": "Tobacco products.", "payer": "Importers; passed on in the price." },
+      "rate": { "kind": "specific", "headline": "Fixed by law", "details": [], "asOf": "2026-10-12" },
+      "explanation": "ISK 4.8 billion in 2024, slightly less than in 2023.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet IS, D214B C02" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "is-vehicle-taxes",
+      "parentId": "rikid",
+      "levelId": "rikid",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "Vehicle excise, car tax, kilometre fees and ship fees",
+        "native": "Vörugjald af ökutækjum; bifreiðagjöld; kílómetragjald; skipagjöld",
+        "common": "Vehicle taxes"
+      },
+      "taxes": {
+        "base": "New vehicles (excise), the ownership of cars (car tax), kilometres driven (kilometre fee, introduced for electric cars in 2024), and ships.",
+        "payer": "Vehicle owners."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Set by law",
+        "details": [
+          "ISK 12.9 billion car tax, ISK 10.3 billion vehicle excise, ISK 2.6 billion kilometre fee on electric cars, ISK 1.9 billion kilometre fee and ISK 0.8 billion ship fees in 2024."
+        ],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "The kilometre fee on electric cars is a new line in 2024.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet IS, D214A C02, D59D C01 and C03, D29B C03 and C04" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "is-other-excises",
+      "parentId": "rikid",
+      "levelId": "rikid",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "Environmental excise duties and other excise duties",
+        "native": "Vörugjöld, umhverfisskattar; vörugjald almennt",
+        "common": "Environmental and other excises"
+      },
+      "taxes": {
+        "base": "As named in the National Tax List: excise on environmental grounds (ISK 9.3 billion) and three small general and agricultural excise lines that net to about ISK –3 million.",
+        "payer": "Importers and producers."
+      },
+      "rate": { "kind": "varies", "headline": "Set by law", "details": [], "asOf": "2026-10-12" },
+      "explanation": "The list groups the environmental duties with the smaller excise lines.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet IS, D214A C01, C06, C08 and C09" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "is-financial-transactions",
+      "parentId": "rikid",
+      "levelId": "rikid",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": {
+        "official": "Stamp duty and the supervisory fee of the Financial Supervisory Authority",
+        "native": "Stimpilgjald; eftirlitsgjald Fjármálaeftirlits",
+        "common": "Stamp duty and financial supervision fee"
+      },
+      "taxes": {
+        "base": "Documents such as property deeds and mortgages (stamp duty) and the supervised financial institutions.",
+        "payer": "Parties to the transaction; supervised institutions."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Set by law",
+        "details": ["ISK 8.5 billion stamp duty and ISK 3.2 billion supervisory fee in 2024."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "The nearest thing to a property-transaction tax in the State’s list.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet IS, D214C" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "is-poll-taxes",
+      "parentId": "rikid",
+      "levelId": "rikid",
+      "category": "fee",
+      "family": "other",
+      "status": "current",
+      "names": {
+        "official": "Broadcasting fee and the Senior Citizens’ Construction Fund fee",
+        "native": "Útvarpsgjald; gjald í Framkvæmdasjóð aldraðra",
+        "common": "Broadcasting and Construction Fund fees"
+      },
+      "taxes": {
+        "base": "A fixed amount per person above an income threshold.",
+        "payer": "Individuals with income above the threshold (about ISK 2.28 million in the 2024 assessment)."
+      },
+      "rate": {
+        "kind": "specific",
+        "headline": "ISK 20,900 broadcasting fee; ISK 13,749 Construction Fund fee",
+        "details": ["Amounts in the 2024 assessment; income threshold ISK 2,276,569 (Skatturinn)."],
+        "asOf": "2024-12-31"
+      },
+      "explanation": "The National Tax List calls them poll taxes: a fixed amount per person rather than a rate on income.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "skatturinn-key-rates-2024", "locator": "Broadcasting fee; Senior Citizen’s Construction Fund fee" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "is-bank-levies",
+      "parentId": "rikid",
+      "levelId": "rikid",
+      "category": "special-levy",
+      "family": "other",
+      "status": "current",
+      "names": {
+        "official": "Bank tax and the levy on credit institutions for the Debtors’ Ombudsman",
+        "native": "Gjald af bankastarfsemi; gjald á lánastofnanir til umboðsmanns skuldara",
+        "common": "Bank levies"
+      },
+      "taxes": {
+        "base": "As named in the National Tax List: the banking activities (ISK 6.2 billion) and the credit institutions (ISK 0.3 billion); no further detail.",
+        "payer": "Banks and credit institutions."
+      },
+      "rate": { "kind": "varies", "headline": "Set by law", "details": [], "asOf": "2026-10-12" },
+      "explanation": "Levies on the financial sector.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet IS, D29H C08 and C09" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "is-accommodation-airport",
+      "parentId": "rikid",
+      "levelId": "rikid",
+      "category": "fee",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "Hotel accommodation tax and the airport fee",
+        "native": "Gistináttagjald; flugvallargjald",
+        "common": "Accommodation tax and airport fee"
+      },
+      "taxes": { "base": "Nights in accommodation, and passengers using the airports.", "payer": "Guests and passengers." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Set by law",
+        "details": ["ISK 2.9 billion accommodation tax and ISK 1.3 billion airport fee in 2024; the list shows no revenue from either in 2023."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "Tourism-related charges.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet IS, D214L C01 and D214H C02" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "is-inheritance-tax",
+      "parentId": "rikid",
+      "levelId": "rikid",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "Inheritance tax", "native": "Erfðafjárskattur", "common": "Inheritance tax" },
+      "taxes": { "base": "The estate of the deceased, after an exemption.", "payer": "Heirs." },
+      "rate": {
+        "kind": "flat",
+        "headline": "10%",
+        "details": ["10%; the first ISK 6,203,409 are exempt, regardless of the number of heirs (Skatturinn, Icelandic page)."],
+        "asOf": "2024-12-31"
+      },
+      "explanation": "The only wealth transfer tax.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "skatturinn-business-rates-2024", "locator": "Erfðafjárskattur" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "is-building-fees",
+      "parentId": "rikid",
+      "levelId": "rikid",
+      "category": "fee",
+      "family": "property",
+      "status": "current",
+      "names": {
+        "official": "Charges on buildings collected by State bodies: catastrophe prevention, fire protection, valuation, planning",
+        "native": "Forvarnargjald; brunavarnargjald; umsýslugjald; skipulagsgjald; brunabótamatsgjald",
+        "common": "Building charges to State bodies"
+      },
+      "taxes": {
+        "base": "Buildings and structures, for natural-catastrophe insurance (ISK 6.0 billion), fire protection (ISK 0.9 billion), property valuation (ISK 0.2 billion), planning (ISK 1.5 billion) and fire insurance valuation (ISK 0.4 billion).",
+        "payer": "Owners of buildings."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Set by law",
+        "details": [
+          "The list does not say which body receives each charge; they are drawn at the State level as the charges of national agencies. Eurostat books ISK 8.5 billion of the buildings taxes to the State and ISK 91.6 billion to the municipalities; the lines here and in the municipal part differ from that split by ISK 0.4 billion."
+        ],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "Five lines of the list that charge owners of buildings.",
+      "exceptions": [],
+      "legalRefs": [
+        { "sourceId": "ntl-2026", "locator": "sheet IS, D29A C01, C02, C03, C07, C09" },
+        { "sourceId": "eurostat-taxag", "locator": "S.1311 and S.1313, D29A" }
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "is-licences-small",
+      "parentId": "rikid",
+      "levelId": "rikid",
+      "category": "fee",
+      "family": "other",
+      "status": "current",
+      "names": {
+        "official": "Licences, registration and monitoring fees, aquaculture fees, wealth taxes and other small taxes",
+        "native": "Leyfisgjöld; skráningargjöld; eftirlitsgjöld; gjald rekstrarleyfishafa sjókvíaeldis",
+        "common": "Licences, monitoring fees and small taxes"
+      },
+      "taxes": {
+        "base": "Business and professional licences and registration (ISK 1.3 billion), monitoring fees (0.8 billion), other taxes on the use of goods (0.4 billion), aquaculture licence holders (0.4 billion), post and telecom operating fee (0.2 billion), pet licences, and the net wealth tax and corporate capital tax (under ISK 20 million).",
+        "payer": "Various."
+      },
+      "rate": { "kind": "varies", "headline": "Set by law", "details": [], "asOf": "2026-10-12" },
+      "explanation": "Eleven small lines of the list, together less than 0.2% of the total.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet IS, D29E, D29H C01, C02, C06, C10, D59D C02, D59A" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "is-income-tax-municipal",
+      "parentId": "sveitarfelog",
+      "levelId": "sveitarfelog",
+      "category": "tax",
+      "family": "income-personal",
+      "status": "current",
+      "names": { "official": "Municipal income tax (útsvar) on individuals", "native": "Útsvar", "common": "Municipal income tax" },
+      "taxes": {
+        "base": "The same income as the State income tax: wages, pensions and other income of residents.",
+        "payer": "Individuals; withheld together with the State tax."
+      },
+      "rate": {
+        "kind": "range",
+        "headline": "Set by each municipality within the legal range",
+        "details": [
+          "Skatturinn’s page refers to the list of municipal rates on the Association of Local Authorities’ website (in Icelandic). The brackets of the withholding tax are combined rates."
+        ],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "About 60% of the income tax of individuals goes to the municipalities, which makes it their main revenue. It is collected by the Revenue with the State tax.",
+      "exceptions": [],
+      "legalRefs": [
+        { "sourceId": "skatturinn-key-rates-2024", "locator": "Individuals: withholding tax 2024" },
+        { "sourceId": "eurostat-taxag", "locator": "S.1313, D51A" }
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "is-property-tax",
+      "parentId": "sveitarfelog",
+      "levelId": "sveitarfelog",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "Property tax on buildings (fasteignaskattur)", "native": "Fasteignaskattur", "common": "Property tax" },
+      "taxes": { "base": "The assessed value of land and buildings.", "payer": "Property owners." },
+      "rate": {
+        "kind": "range",
+        "headline": "Set by each municipality within the legal ceiling",
+        "details": ["The list does not give rates."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "The main own tax of the municipalities after the income tax.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet IS, D29A C04" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "is-municipal-fees",
+      "parentId": "sveitarfelog",
+      "levelId": "sveitarfelog",
+      "category": "fee",
+      "family": "other",
+      "status": "current",
+      "names": {
+        "official": "Waste-collection (sanitation) fees and building-permit fees",
+        "native": "Sorphreinsunargjald; byggingarleyfi",
+        "common": "Sanitation and building-permit fees"
+      },
+      "taxes": {
+        "base": "Waste collection (ISK 8.4 billion) and permits for the construction of buildings (ISK 10.7 billion).",
+        "payer": "Property owners and builders."
+      },
+      "rate": { "kind": "varies", "headline": "Set by each municipality", "details": [], "asOf": "2026-10-12" },
+      "explanation": "Fees that the National Tax List books as taxes on buildings.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet IS, D29A C06 and C08" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "is-road-construction-fee",
+      "parentId": "sveitarfelog",
+      "levelId": "sveitarfelog",
+      "category": "fee",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "Road construction charge on land and buildings", "native": "Gatnagerðargjöld", "common": "Road construction charge" },
+      "taxes": { "base": "Plots and buildings, to pay for the street system.", "payer": "Builders and owners." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Set by each municipality",
+        "details": ["Eurostat records the capital taxes of ISK 12.8 billion with local government."],
+        "asOf": "2026-10-12"
+      },
+      "explanation": "A one-off charge when land is built on, booked as a capital tax.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "ntl-2026", "locator": "sheet IS, D91B C02" }, { "sourceId": "eurostat-taxag", "locator": "S.1313, D91" }],
+      "checkedOn": "2026-10-12"
+    }
+  ]
+}

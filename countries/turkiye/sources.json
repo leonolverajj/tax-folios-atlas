@@ -1,0 +1,89 @@
+{
+  "sources": [
+    {
+      "id": "oecd-rs-2025-subsectors",
+      "org": "OECD",
+      "title": "Revenue Statistics 2025, Table 6.36: Türkiye, tax revenues by sub-sectors of government",
+      "url": "https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en/full-report/tax-revenues-by-subsectors-of-general-government_f9e88332.html",
+      "kind": "international",
+      "language": "en",
+      "publishedDate": "2025-12-09",
+      "periodCovered": "Calendar year 2023 (national currency)",
+      "accessed": "2026-09-29",
+      "note": "Harmonised OECD classification of taxes (1000–6000) split by collecting sub-sector of general government."
+    },
+    {
+      "id": "oecd-rs-2025-levels",
+      "org": "OECD",
+      "title": "Revenue Statistics 2025, Chapter 3: Tax levels and tax structures (Table 3.1)",
+      "url": "https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en/full-report/tax-levels-and-tax-structures-1965-2024_2033f3ea.html",
+      "kind": "international",
+      "language": "en",
+      "publishedDate": "2025-12-09",
+      "periodCovered": "Calendar year 2023",
+      "accessed": "2026-09-29",
+      "note": "Total tax revenue as % of GDP."
+    },
+    {
+      "id": "sng-wofi-profile",
+      "org": "OECD and United Cities and Local Governments (SNG-WOFI)",
+      "title": "World Observatory on Subnational Government Finance and Investment – country profile: Türkiye",
+      "url": "https://www.sng-wofi.org/country_profiles/republic_of_turkiye.html",
+      "kind": "international",
+      "language": "en",
+      "publishedDate": "2022-10-24",
+      "periodCovered": "2020",
+      "accessed": "2026-09-29",
+      "note": "Subnational government revenue by category as % of total subnational revenue, 2022 edition."
+    },
+    {
+      "id": "mtf-budget-2025-12",
+      "org": "Ministry of Treasury and Finance of Türkiye (Kamu Mali Yönetim ve Dönüşüm Genel Müdürlüğü)",
+      "title": "Aralık 2025 Aylık Bütçe Gerçekleşme Raporu (December 2025 monthly central government budget realisation report)",
+      "url": "https://ms.hmb.gov.tr/uploads/sites/23/2026/01/2025-Aralik-Aylik-Butce-Gerceklesme-Raporu_V2_14.01.2026-e6324968422ea9d9.pdf",
+      "kind": "budget-report",
+      "language": "tr",
+      "publishedDate": "2026-01-15",
+      "periodCovered": "Calendar year 2025 (cumulative January–December)",
+      "accessed": "2026-10-12",
+      "nextExpected": "2027-01",
+      "note": "Tax revenues 2025, TRY million: income tax 2,813,235; corporate tax 1,223,874; domestic VAT 1,555,932; special consumption tax 2,024,315; banking and insurance transactions tax 551,757; import VAT 1,724,197; stamp duty 225,943; fees 336,954; other 593,261; total 11,049,467. Announcement page: https://kmyd.hmb.gov.tr/duyuru/2025-aralik-merkezi-yonetim-butce-gerceklesmeleri"
+    },
+    {
+      "id": "pwc-tr-corporate",
+      "org": "PwC",
+      "title": "Worldwide Tax Summaries: Turkey – Corporate – Taxes on corporate income",
+      "url": "https://taxsummaries.pwc.com/turkey/corporate/taxes-on-corporate-income",
+      "kind": "guidance",
+      "language": "en",
+      "publishedDate": "2026-09-09",
+      "periodCovered": "Rates as of the review",
+      "accessed": "2026-10-12",
+      "note": "A professional firm’s summary, not an official source: corporate income tax 25%, 30% for financial sector companies; domestic minimum tax from 2025."
+    },
+    {
+      "id": "pwc-tr-individual",
+      "org": "PwC",
+      "title": "Worldwide Tax Summaries: Turkey – Individual – Taxes on personal income",
+      "url": "https://taxsummaries.pwc.com/turkey/individual/taxes-on-personal-income",
+      "kind": "guidance",
+      "language": "en",
+      "publishedDate": "2026-09-09",
+      "periodCovered": "Scale for 2026",
+      "accessed": "2026-10-12",
+      "note": "A professional firm’s summary: income tax scale 15%, 20%, 27%, 35% and 40%; no local taxes on personal income."
+    },
+    {
+      "id": "pwc-tr-other",
+      "org": "PwC",
+      "title": "Worldwide Tax Summaries: Turkey – Corporate – Other taxes",
+      "url": "https://taxsummaries.pwc.com/turkey/corporate/other-taxes",
+      "kind": "guidance",
+      "language": "en",
+      "publishedDate": "2026-09-09",
+      "periodCovered": "Rates as of the review",
+      "accessed": "2026-10-12",
+      "note": "A professional firm’s summary: VAT from 1% to 20%, general rate 20%; the four product groups of the special consumption tax."
+    }
+  ]
+}

@@ -1,0 +1,451 @@
+{
+  "instruments": [
+    {
+      "id": "ie-income-tax",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "income-personal",
+      "status": "current",
+      "names": {
+        "official": "Income tax (PAYE and self-assessment, with the withholding taxes on dividends, professional services and non-resident landlords)",
+        "native": "Cáin ioncaim",
+        "common": "Income tax"
+      },
+      "taxes": {
+        "base": "Income of individuals from employment, business, rents, investments and other sources; PAYE is deducted by employers each pay day.",
+        "payer": "Individuals; employers deduct PAYE and self-employed people file a return."
+      },
+      "rate": {
+        "kind": "progressive",
+        "headline": "20% and 40% with tax credits",
+        "details": [
+          "A single person pays 20% on the first EUR 44,000 of taxable income in 2025 and 40% above, less personal and earned-income credits.",
+          "Withholding taxes on dividends, on payments for professional services and to non-resident landlords are folded into the line."
+        ],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "The second largest tax in 2025, after corporation tax. PAYE (EUR 25.8 billion) is about 85% of the line; the Universal Social Charge is a separate tax and is drawn apart.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "tca-1997" }, { "sourceId": "revenue-taxhead-2025" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "ie-usc",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "income-personal",
+      "status": "current",
+      "names": { "official": "Universal Social Charge", "native": "An Muirear Sóisialach Uilíoch", "common": "Universal social charge", "abbreviation": "USC" },
+      "taxes": {
+        "base": "Gross income of individuals above a small threshold, with no allowance for reliefs.",
+        "payer": "Individuals; employers deduct it with PAYE."
+      },
+      "rate": {
+        "kind": "progressive",
+        "headline": "0.5% to 8%",
+        "details": [
+          "2025 rates: 0.5% on the first EUR 12,012, 2% up to EUR 28,700, 3% up to EUR 70,044 and 8% above.",
+          "Self-employed people with non-PAYE income over EUR 100,000 pay a further 3%."
+        ],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "A separate charge on top of income tax, introduced in 2011 to replace two earlier levies. Its name suggests social insurance, but it is a tax paid into the general Exchequer.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "tca-1997", "locator": "Part 18D" }, { "sourceId": "revenue-taxhead-2025" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "ie-dirt",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "income-personal",
+      "status": "current",
+      "names": {
+        "official": "Deposit interest retention tax",
+        "native": "Cáin choinneála úis taisce",
+        "common": "Tax on deposit interest",
+        "abbreviation": "DIRT"
+      },
+      "taxes": { "base": "Interest paid on deposits by banks and other deposit takers.", "payer": "Depositors; the bank deducts it." },
+      "rate": { "kind": "flat", "headline": "33% of the interest", "details": [], "asOf": "2026-10-11" },
+      "explanation": "Revenue rose by 44% in 2025 as deposit rates were higher.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "tca-1997" }, { "sourceId": "revenue-taxhead-2025" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "ie-exit-tax",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "income-personal",
+      "status": "current",
+      "names": { "official": "Exit tax on life assurance policies and investment funds", "native": "Cáin imeachta", "common": "Life assurance exit tax" },
+      "taxes": {
+        "base": "Gains on life assurance policies and on investment funds, taxed on payments and on each eighth anniversary.",
+        "payer": "The insurer or fund manager, on behalf of the investor."
+      },
+      "rate": {
+        "kind": "flat",
+        "headline": "A flat rate on the gain",
+        "details": ["The rate is set by the Act and applies to both policies and funds."],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "Taxes the return on pooled savings in place of income tax and capital gains tax.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "tca-1997" }, { "sourceId": "revenue-taxhead-2025" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "ie-corporation-tax",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "income-corporate",
+      "status": "current",
+      "names": { "official": "Corporation tax", "native": "Cáin chorparáide", "common": "Corporation tax" },
+      "taxes": { "base": "Profits of companies resident in Ireland and of branches of foreign companies.", "payer": "Companies." },
+      "rate": {
+        "kind": "varies",
+        "headline": "12.5% trading, 25% passive, 15% for large groups",
+        "details": [
+          "12.5% on trading income and 25% on non-trading income.",
+          "Groups with revenues of EUR 750 million or more pay a minimum of 15% under the global minimum tax rules."
+        ],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "Receipts of EUR 34.7 billion in 2025 include about EUR 1.8 billion of one-off money after the EU court ruling on Apple; underlying receipts were EUR 32.9 billion, and a small number of multinational groups pay a large part of them.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "tca-1997" }, { "sourceId": "revenue-taxhead-2025" }, { "sourceId": "revenue-headline-2025" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "ie-vat",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "general-consumption",
+      "status": "current",
+      "names": { "official": "Value-added tax", "native": "Cáin bhreisluacha", "common": "VAT", "abbreviation": "VAT" },
+      "taxes": {
+        "base": "Supplies of goods and services in Ireland and imports, with credit for tax paid on business purchases.",
+        "payer": "Consumers; businesses charge it and remit the balance."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "23% standard, 13.5% and 9% reduced",
+        "details": ["Most food, children’s clothing and books are zero-rated.", "Imports are charged at the border and appear in the same line."],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "About a fifth of net receipts in a year of high corporation tax. VAT collected on sales to other EU countries through the one-stop shop (EUR 13.4 billion) belongs to those states and is not counted.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "vatca-2010" }, { "sourceId": "revenue-taxhead-2025" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "ie-stamp-duty",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "Stamp duty", "native": "Dleacht stampála", "common": "Stamp duty" },
+      "taxes": {
+        "base": "Instruments that transfer property, shares and other assets, and some insurance policies.",
+        "payer": "The buyer or the person named in the instrument."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Residential 1%–2%, shares 1%, non-residential 7.5%",
+        "details": ["Residential property: 1% up to EUR 1 million and 2% above.", "Shares: 1%. Non-residential property: 7.5%."],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "One tax in law, three lines in the Revenue figures: property (EUR 821 million), shares (540) and other instruments (536).",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "sdca-1999" }, { "sourceId": "revenue-taxhead-2025" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "ie-cgt",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "income-personal",
+      "status": "current",
+      "names": { "official": "Capital gains tax", "native": "Cáin ghnóchan caipitil", "common": "Capital gains tax", "abbreviation": "CGT" },
+      "taxes": { "base": "Gains on the disposal of assets such as shares, land and business interests.", "payer": "The person who sells." },
+      "rate": {
+        "kind": "flat",
+        "headline": "33%",
+        "details": ["Reliefs apply to retirement relief and to disposals of the principal private residence."],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "Receipts rose by about a quarter in 2025.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "tca-1997", "locator": "Part 19" }, { "sourceId": "revenue-taxhead-2025" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "ie-cat",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": {
+        "official": "Capital acquisitions tax (gift and inheritance tax)",
+        "native": "Cáin éadálacha caipitil",
+        "common": "Gift and inheritance tax",
+        "abbreviation": "CAT"
+      },
+      "taxes": {
+        "base": "Gifts and inheritances received over a lifetime, above a threshold that depends on the relationship to the giver.",
+        "payer": "The person who receives the gift or inheritance."
+      },
+      "rate": {
+        "kind": "flat",
+        "headline": "33% above the threshold",
+        "details": ["The lifetime threshold for a child receiving from a parent (group A) is EUR 400,000 from October 2024."],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "Receipts rose by almost a third in 2025.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "cata-2003" }, { "sourceId": "revenue-taxhead-2025" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "ie-customs",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "customs-duty",
+      "family": "trade",
+      "status": "current",
+      "names": { "official": "Customs duties", "native": "Dleachtanna custaim", "common": "Customs duties" },
+      "taxes": { "base": "Goods imported from outside the European Union, at the common external tariff.", "payer": "Importers." },
+      "rate": {
+        "kind": "varies",
+        "headline": "EU common external tariff",
+        "details": ["Rates are set by the European Union for all member states."],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "Revenue collects the duty for the EU. It reports duty collected of EUR 616 million but does not say how much is passed to the EU budget.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "revenue-taxhead-2025" }, { "sourceId": "revenue-headline-2025" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "ie-mineral-oil-tax",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Mineral oil tax (non-carbon component)", "native": "Cáin ola mianraí", "common": "Fuel excise" },
+      "taxes": {
+        "base": "Petrol, auto diesel, marked gas oil and other mineral oils, per litre, at the point of release from an excise warehouse.",
+        "payer": "Fuel suppliers; passed on at the pump."
+      },
+      "rate": {
+        "kind": "specific",
+        "headline": "Per litre, temporarily reduced in 2026",
+        "details": [
+          "The Government cut the rates on auto fuels in 2026 and deferred the carbon tax increase to 14 October 2026; the Department of Finance estimates the cost at about EUR 432 million."
+        ],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "Light oils (petrol) yielded EUR 613 million in 2025 and heavy oils (mostly diesel) EUR 1,476 million.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "dof-tsg-26-09" }, { "sourceId": "revenue-energy-rates" }, { "sourceId": "finance-act-1999" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "ie-carbon-tax",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Carbon tax", "native": "Cáin charbóin", "common": "Carbon tax" },
+      "taxes": { "base": "The carbon content of mineral oils, solid fuels and natural gas.", "payer": "Suppliers of the fuels; passed on to consumers." },
+      "rate": {
+        "kind": "specific",
+        "headline": "EUR 71 per tonne of CO2 (from 8 October 2025)",
+        "details": ["The rate rose from EUR 63.50 on 8 October 2025."],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "Introduced in 2009 and raised every year; receipts more than doubled between 2020 and 2025.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "dof-tsg-26-09" }, { "sourceId": "revenue-energy-rates" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "ie-vrt",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Vehicle registration tax", "native": "Cáin chlárúcháin feithiclí", "common": "Vehicle registration tax", "abbreviation": "VRT" },
+      "taxes": { "base": "The open-market selling price of a vehicle at first registration in Ireland.", "payer": "The person who registers the vehicle." },
+      "rate": {
+        "kind": "varies",
+        "headline": "A percentage of the price, by CO2 band",
+        "details": ["Rates rise with the vehicle’s emissions; electric vehicles pay the lowest band."],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "Tied to new and imported car sales.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "dof-tsg-26-09" }, { "sourceId": "finance-act-1992" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "ie-motor-tax",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Motor tax", "native": "Cáin mótair", "common": "Motor tax" },
+      "taxes": {
+        "base": "The annual licence to keep a vehicle on the road, by CO2 emissions for cars and by engine size or weight for others.",
+        "payer": "Vehicle owners."
+      },
+      "rate": { "kind": "varies", "headline": "A fixed annual amount by CO2 band or engine size", "details": [], "asOf": "2026-10-11" },
+      "explanation": "A national tax whose proceeds go to the Local Government Fund.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "dof-tsg-26-09" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "ie-alcohol-tax",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Alcohol products tax", "native": "Cáin táirgí alcóil", "common": "Alcohol excise" },
+      "taxes": { "base": "Beer, wine, spirits and cider, by volume of alcohol or product.", "payer": "Producers and importers; passed on in the price." },
+      "rate": {
+        "kind": "specific",
+        "headline": "Per litre of pure alcohol or per product",
+        "details": ["Wine yielded EUR 402 million in 2025, beer 394, spirits 392 and cider 48."],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "Revenue is split almost equally between wine, beer and spirits.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "dof-tsg-26-08" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "ie-tobacco-tax",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Tobacco products tax", "native": "Cáin táirgí tobac", "common": "Tobacco excise" },
+      "taxes": { "base": "Cigarettes and other tobacco products.", "payer": "Manufacturers and importers; passed on in the price." },
+      "rate": { "kind": "varies", "headline": "A specific amount per cigarette plus a share of the price", "details": [], "asOf": "2026-10-11" },
+      "explanation": "Revenue rose from EUR 976 million in 2024 to EUR 1,009 million in 2025.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "dof-tsg-26-08" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "ie-other-excise",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": {
+        "official": "Betting duty, sugar-sweetened drinks tax, e-liquid products tax and electricity tax",
+        "native": "Dleachtanna eile cánach",
+        "common": "Other excise duties"
+      },
+      "taxes": {
+        "base": "Bets placed with bookmakers, sugar-sweetened drinks, e-liquids for vapes and electricity supplied.",
+        "payer": "Bookmakers, producers and importers, electricity suppliers."
+      },
+      "rate": { "kind": "varies", "headline": "By product", "details": ["Each tax has its own base and rate in its Act."], "asOf": "2026-10-11" },
+      "explanation": "Four small excise taxes grouped because each is below 0.1% of the national total: betting duty EUR 113.7 million, sugar-sweetened drinks tax 30.5, e-liquid tax 5.6 and electricity tax 5.2.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "dof-tsg-26-08" }, { "sourceId": "dof-tsg-26-09" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "ie-prsi",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "social-contribution",
+      "family": "social-security",
+      "status": "current",
+      "names": {
+        "official": "Pay Related Social Insurance contributions",
+        "native": "Árachas Sóisialach Gaolmhar le Pá",
+        "common": "PRSI",
+        "abbreviation": "PRSI"
+      },
+      "taxes": {
+        "base": "Earnings of employees and the income of self-employed people, by insurance class.",
+        "payer": "Employees, employers and the self-employed."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "A share of earnings, by class",
+        "details": ["The Social Welfare (Miscellaneous Provisions) Act 2024 raises the rates by 0.1 percentage point each October from 2024 to 2028."],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "Pays for the State pension, jobseeker’s and maternity benefits through the Social Insurance Fund. Revenue collects it with PAYE.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "swca-2005" }, { "sourceId": "revenue-headline-2025" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "ie-lpt",
+      "parentId": "councils",
+      "levelId": "councils",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "Local property tax", "native": "Cáin mhaoine áitiúil", "common": "Local property tax", "abbreviation": "LPT" },
+      "taxes": { "base": "The self-assessed market value of residential property, revalued every few years.", "payer": "Owners of residential property." },
+      "rate": {
+        "kind": "progressive",
+        "headline": "About 0.1% of the value, higher on very valuable homes",
+        "details": [
+          "Councils may raise or lower the basic rate by up to 15%.",
+          "Revenue pays the proceeds into the Local Government Fund, which funds councils; the Exchequer adds equalisation money."
+        ],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "Collected by Revenue, spent by councils, and the only recurring tax on homes in Ireland.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "lpt-act-2012" }, { "sourceId": "revenue-taxhead-2025" }],
+      "checkedOn": "2026-10-11"
+    },
+    {
+      "id": "ie-commercial-rates",
+      "parentId": "councils",
+      "levelId": "councils",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "Commercial rates", "native": "Rátaí tráchtála", "common": "Commercial rates" },
+      "taxes": { "base": "The valuation of commercial and industrial premises, set by Tailte Éireann.", "payer": "Occupiers of business premises." },
+      "rate": {
+        "kind": "varies",
+        "headline": "An annual rate on valuation set by each council",
+        "details": ["Each council sets its annual rate on valuation in its budget; for 2025 Mayo set 0.247 and Sligo 0.2536."],
+        "asOf": "2026-10-11"
+      },
+      "explanation": "The largest single income stream of local authorities, about a quarter of their funding on average.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "valuation-act-2001" }, { "sourceId": "lga-2001" }, { "sourceId": "eurostat-taxag" }],
+      "checkedOn": "2026-10-11"
+    }
+  ]
+}

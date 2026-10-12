@@ -1,0 +1,122 @@
+{
+  "groups": [
+    {
+      "title": "State taxes 2024 – National Tax List (EUR million)",
+      "defaults": {
+        "denominatorId": "riik-taxes-2024",
+        "scale": "million",
+        "currency": "EUR",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Accrual-based ESA tax revenue, general government and EU institutions",
+        "sourceId": "ntl-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        { "nodeId": "ee-income-tax-persons", "amount": 2595.54, "locator": "NTL 2026, sheet EE, row 73: D51M Personal income tax, 2024" },
+        {
+          "nodeId": "ee-corporate-income-tax-distributions",
+          "amount": 759.44,
+          "locator": "NTL 2026, sheet EE, row 81: D51C2 Corporate income tax on holding gains, 2024"
+        },
+        {
+          "nodeId": "ee-corporate-income-tax-benefits",
+          "amount": 203.39,
+          "locator": "NTL 2026, sheet EE, row 79: D51B Corporate income tax on other income, 2024"
+        },
+        { "nodeId": "ee-vat", "amount": 3834.11, "locator": "NTL 2026, sheet EE, row 12: D211 Value added tax, 2024" },
+        { "nodeId": "ee-customs-duty", "amount": 44.83, "locator": "NTL 2026, sheet EE, row 15: D2121 Customs duties, 2024" },
+        { "nodeId": "ee-excise-alcohol", "amount": 253.56, "locator": "NTL 2026, sheet EE, row 20: D2122C Alcohol excise, 2024" },
+        { "nodeId": "ee-excise-tobacco", "amount": 249.9, "locator": "NTL 2026, sheet EE, row 21: D2122C Tobacco excise, 2024" },
+        { "nodeId": "ee-excise-fuel", "amount": 516.32, "locator": "NTL 2026, sheet EE, row 22: D2122C Fuel excise, 2024" },
+        {
+          "nodeId": "ee-excise-other",
+          "amount": 15.49,
+          "locator": "NTL 2026, sheet EE, 2024: D2122C Electricity excise (row 26); D2122C Liquid fuel stockpiling fee (row 27); D2122C Package excise (row 24)",
+          "calculation": "9.93 + 5.33 + 0.23 = 15.49 (EUR million)"
+        },
+        { "nodeId": "ee-renewable-energy-charge", "amount": 82.17, "locator": "NTL 2026, sheet EE, row 34: D214A Renewable energy charge, 2024" },
+        { "nodeId": "ee-gambling-tax", "amount": 57.13, "locator": "NTL 2026, sheet EE, row 41: D214F Gambling tax, 2024" },
+        {
+          "nodeId": "ee-vehicle-taxes",
+          "amount": 12.42,
+          "locator": "NTL 2026, sheet EE, 2024: D214D Car registration fee (row 38); D29B Heavy Goods Vehicle Tax (row 54)",
+          "calculation": "7.67 + 4.75 = 12.42 (EUR million)"
+        },
+        {
+          "nodeId": "ee-environmental-charges",
+          "amount": 51.35,
+          "locator": "NTL 2026, sheet EE, 2024: D29F Pollution fee (row 60); D29H Water abstraction fee (row 64); D29H Fee on fishing (row 66)",
+          "calculation": "35.21 + 13.95 + 2.19 = 51.35 (EUR million)"
+        },
+        { "nodeId": "ee-guarantee-fund", "amount": 42.27, "locator": "NTL 2026, sheet EE, row 69: D29H Contributions to the Guarantee Fund, 2024" },
+        {
+          "nodeId": "ee-licences-other",
+          "amount": 4.93,
+          "locator": "NTL 2026, sheet EE, 2024: D29E Business and professional licences (row 58); D214H Postal service payment (row 44)",
+          "calculation": "4.9 + 0.03 = 4.93 (EUR million)"
+        }
+      ]
+    },
+    {
+      "title": "Social contributions 2024 – National Tax List (EUR million)",
+      "defaults": {
+        "denominatorId": "riik-social-2024",
+        "scale": "million",
+        "currency": "EUR",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Actual compulsory contributions, net of the funded-pension allotment",
+        "sourceId": "ntl-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        {
+          "nodeId": "ee-social-tax-pension",
+          "amount": 2521.71,
+          "locator": "NTL 2026, sheet EE, 2024: D6111 Pension insurance (20%) (row 108); D6111 Allotment for funded pension (4%) (minus) (row 109)",
+          "calculation": "2,845.84 − 324.13 = 2,521.71 (EUR million)"
+        },
+        { "nodeId": "ee-social-tax-health", "amount": 1849.59, "locator": "NTL 2026, sheet EE, row 111: D6112 Health insurance (13%), 2024" },
+        {
+          "nodeId": "ee-unemployment-insurance",
+          "amount": 308.78,
+          "locator": "NTL 2026, sheet EE, 2024: D6112 Employer's unemployment insurance payment (row 112); D613CE Employees´ unemployment insurance payment (row 123)",
+          "calculation": "106.81 + 201.97 = 308.78 (EUR million)"
+        },
+        {
+          "nodeId": "ee-social-contributions-others",
+          "amount": 193.87,
+          "locator": "NTL 2026, sheet EE, 2024: D613CS Social contributions by self-employed (row 125); D613CN Compulsory actual social contributions by the non-employed (1) (row 127)",
+          "calculation": "21.71 + 172.16 = 193.87 (EUR million)"
+        }
+      ]
+    },
+    {
+      "title": "Local taxes 2024 – National Tax List (EUR million)",
+      "defaults": {
+        "denominatorId": "kov-taxes-2024",
+        "scale": "million",
+        "currency": "EUR",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Accrual-based ESA tax revenue",
+        "sourceId": "ntl-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        { "nodeId": "ee-land-tax", "amount": 58.47, "locator": "NTL 2026, sheet EE, row 52: D29A Land tax, 2024" },
+        {
+          "nodeId": "ee-local-taxes",
+          "amount": 11.1,
+          "locator": "NTL 2026, sheet EE, 2024: D29H Advertising tax (row 68); D29H Fees on closure of roads, streets, squares (row 65)",
+          "calculation": "8.05 + 3.05 = 11.1 (EUR million)"
+        }
+      ]
+    }
+  ],
+  "unavailable": []
+}

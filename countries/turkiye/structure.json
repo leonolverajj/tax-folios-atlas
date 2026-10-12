@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "referenceYear": 2023,
+  "currency": "TRY",
+  "scale": "million",
+  "taxToGdp": 23.2,
+  "basis": "OECD attribution to sub-sectors of general government (Interpretative Guide, section A.12)",
+  "levels": [
+    {
+      "key": "central",
+      "label": "Central government",
+      "folioLevelIds": ["devlet"],
+      "total": 3974902,
+      "byType": { "income": 1314497, "socialSecurity": 0, "payroll": 0, "property": 134633, "goodsServices": 2497878, "other": 27895 }
+    },
+    {
+      "key": "local",
+      "label": "Local governments",
+      "folioLevelIds": [],
+      "total": 556749,
+      "byType": { "income": 165866, "socialSecurity": 0, "payroll": 0, "property": 49298, "goodsServices": 311653, "other": 29932 }
+    },
+    {
+      "key": "social-security",
+      "label": "Social security funds",
+      "folioLevelIds": [],
+      "total": 1631425,
+      "byType": { "income": 0, "socialSecurity": 1631425, "payroll": 0, "property": 0, "goodsServices": 0, "other": 0 }
+    }
+  ],
+  "sourceIds": ["oecd-rs-2025-subsectors", "oecd-rs-2025-levels"],
+  "subnational": {
+    "ownSourceTaxShareOfRevenue": 10.4,
+    "grantsShareOfRevenue": 75.2,
+    "year": 2020,
+    "sourceId": "sng-wofi-profile",
+    "note": "Tariffs and fees 11.3%, property income 1.4%, other 1.8% of subnational revenue."
+  },
+  "notes": ["The folio draws only the central government budget’s taxes (2025); the three levels of this table are the OECD’s figures for 2023."]
+}

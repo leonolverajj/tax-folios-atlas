@@ -1,0 +1,181 @@
+{
+  "id": "belgium",
+  "iso3": "BEL",
+  "isoNumeric": "056",
+  "names": { "en": "Belgium", "native": "België · Belgique · Belgien", "nativeLang": "nl" },
+  "currency": { "code": "EUR", "symbol": "€", "name": "Euro" },
+  "summary": "Belgium is a federation of three regions (Flanders, Wallonia and Brussels-Capital) and three communities, on top of which sit the municipalities and provinces. The federal government still collects most of the money: the personal and corporate income taxes, VAT, excises and the social contributions. The regions have their own taxes (the registration rights on property transfers, the inheritance and gift taxes, vehicle taxes, a green-certificate levy) and, since the 6th State reform, retain surcharges on the federal income tax. Municipalities levy surcharges on the personal income tax and the property tax.",
+  "structureNote": "The figures are the Commission’s National Tax List for 2024. Three lines of the list are shared between levels and are split with Eurostat’s accounts of the same year: the personal income tax (federal, regions, municipalities), the advance payments on property (regions, municipalities) and the \"other taxes on production\". The sale of emission permits (EUR 753.5 million) and the employers’ imputed social contributions (EUR 14.4 billion) are left out. The social contributions are drawn under the federal government, which collects them for the social security funds. The communities are drawn with the regions because Eurostat’s accounts record them together.",
+  "theme": {
+    "accent": "#ffcc00",
+    "accent2": "#d6001c",
+    "motif": "topo",
+    "motifNote": "Topographic contour lines over the outline of Belgium (the generic motif; no bespoke art yet).",
+    "mapLabel": { "lon": 4.6, "lat": 50.6 }
+  },
+  "levels": [
+    {
+      "id": "federal",
+      "branch": "national",
+      "names": { "official": "The federal state", "native": "Federale overheid · État fédéral", "common": "Federal government" },
+      "description": "The federal parliament sets the income taxes, VAT, excises and the social security contributions; the Federal Public Service Finance collects them, and the National Social Security Office (ONSS / RSZ) collects the contributions.",
+      "fiscalPower": "The federal level legislates most taxes; since the 6th State reform the regions can set surcharges and reductions on the personal income tax and fully control several regional taxes.",
+      "legalRefs": [{ "sourceId": "ntl-2026" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "regions",
+      "branch": "regional",
+      "names": {
+        "official": "Regions and communities (Flanders, Wallonia, Brussels-Capital; Flemish, French and German-speaking Communities)",
+        "native": "Gewesten en gemeenschappen · Régions et communautés",
+        "common": "Regions and communities"
+      },
+      "description": "The three regions have their own taxes (registration rights, inheritance and gift taxes, vehicle taxes, environmental taxes and the green-certificate levies) and a share of the personal income tax; the communities are financed mainly by federal transfers.",
+      "fiscalPower": "The special financing law lets the regions set the rates and bases of regional taxes and surcharges and reductions on the personal income tax.",
+      "legalRefs": [{ "sourceId": "pwc-be-individual", "locator": "Taxes on personal income" }, { "sourceId": "eurostat-taxag" }],
+      "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "local",
+      "branch": "local",
+      "names": { "official": "Municipalities and provinces", "native": "Gemeenten en provincies · Communes et provinces", "common": "Local government" },
+      "description": "The 581 municipalities and the provinces. They levy surcharges on the personal income tax and on the property tax and a few small taxes.",
+      "fiscalPower": "Municipal and provincial councils set the surcharge rates within the limits of the regional laws.",
+      "legalRefs": [{ "sourceId": "eurostat-taxag" }],
+      "checkedOn": "2026-10-12"
+    }
+  ],
+  "supportingSourceIds": [],
+  "denominators": [
+    {
+      "id": "federal-taxes-2024",
+      "label": "Federal taxes (National Tax List), 2024",
+      "definition": "The taxes on production and imports, on income and on capital that the National Tax List books to the federal government, the social security funds and the EU, other than the regional and local taxes and the sale of emission permits; includes the federal part of the personal income tax.",
+      "levelIds": ["federal"],
+      "amount": 145086,
+      "scale": "million",
+      "currency": "EUR",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "ntl-2026",
+      "locator": "Sheet BE, 2024, the lines listed with each tax",
+      "calculation": "Sum of the 19 tax rows below (EUR million)",
+      "caveat": "Calendar 2024; the list's cut-off was 30 October 2025. Vintage check against Eurostat's July 2026 accounts: D2: NTL 75,415.7, Eurostat July 2026 75,047.6; D5: NTL 105,081.3, Eurostat July 2026 105,282.3; D61: NTL 95,657.3, Eurostat July 2026 95,766.2.",
+      "accessed": "2026-10-12"
+    },
+    {
+      "id": "federal-social-employers-2024",
+      "label": "Social contributions paid by employers, 2024",
+      "definition": "The actual compulsory contributions of employers; imputed contributions are left out.",
+      "levelIds": ["federal"],
+      "amount": 48553.6,
+      "scale": "million",
+      "currency": "EUR",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "ntl-2026",
+      "locator": "Sheet BE, 2024, lines D611 C01 and C02",
+      "caveat": "Calendar 2024, same list and cut-off as the taxes.",
+      "accessed": "2026-10-12"
+    },
+    {
+      "id": "federal-social-households-2024",
+      "label": "Social contributions paid by households, 2024",
+      "definition": "The contributions of employees, the self-employed and the non-employed, voluntary contributions and small service charges.",
+      "levelIds": ["federal"],
+      "amount": 32719.2,
+      "scale": "million",
+      "currency": "EUR",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "ntl-2026",
+      "locator": "Sheet BE, 2024, lines D613CE, D613CS, D613CN, D613V, D61SC and D6141",
+      "caveat": "Calendar 2024, same list and cut-off as the taxes.",
+      "accessed": "2026-10-12"
+    },
+    {
+      "id": "regions-pit-2024",
+      "label": "Personal income tax received by the regions and communities, 2024",
+      "definition": "The part of the personal income tax that Eurostat’s accounts record under the regions and communities.",
+      "levelIds": ["regions"],
+      "amount": 13295.1,
+      "scale": "million",
+      "currency": "EUR",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "eurostat-taxag",
+      "locator": "gov_10a_taxag, 2024, S.1312, D51A, million EUR",
+      "caveat": "Eurostat July 2026 vintage, a different release from the National Tax List.",
+      "accessed": "2026-10-12"
+    },
+    {
+      "id": "regions-taxes-2024",
+      "label": "Taxes of the regions, 2024",
+      "definition": "The registration rights, the inheritance and gift taxes, the vehicle taxes, the green-certificate levies, the gambling tax, the environmental taxes and the regional part of the property tax.",
+      "levelIds": ["regions"],
+      "amount": 13506.9,
+      "scale": "million",
+      "currency": "EUR",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "ntl-2026",
+      "locator": "Sheet BE, 2024, the lines listed with each tax",
+      "calculation": "Sum of the 7 regional rows below (EUR million)",
+      "caveat": "Eurostat books EUR 9,187.2 million of taxes on production and EUR 3,800 million of capital taxes to the regions and communities; the National Tax List's regional lines differ from that by small amounts (for example EUR 4,865.6 million registration rights against EUR 4,703.3 million of transaction taxes).",
+      "accessed": "2026-10-12"
+    },
+    {
+      "id": "regions-other-production-2024",
+      "label": "Other taxes on production recorded under the regions, 2024",
+      "definition": "The part of the \"other taxes on production\" line that Eurostat’s accounts record under the regions.",
+      "levelIds": ["regions"],
+      "amount": 104.6,
+      "scale": "million",
+      "currency": "EUR",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "eurostat-taxag",
+      "locator": "gov_10a_taxag, 2024, S.1312, D29H, million EUR",
+      "caveat": "Eurostat July 2026 vintage; the allocation to the NTL line is an inference from the amounts.",
+      "accessed": "2026-10-12"
+    },
+    {
+      "id": "local-eurostat-2024",
+      "label": "Taxes recorded under local government by Eurostat, 2024",
+      "definition": "The personal income tax surcharges, the property tax surcharges and the part of the \"other taxes on production\" that Eurostat’s accounts record under local government.",
+      "levelIds": ["local"],
+      "amount": 11581.3,
+      "scale": "million",
+      "currency": "EUR",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "eurostat-taxag",
+      "locator": "gov_10a_taxag, 2024, S.1313: D51A, D29A and D29H, million EUR",
+      "caveat": "Eurostat July 2026 vintage, a different release from the National Tax List; the National Tax List has no sector split.",
+      "accessed": "2026-10-12"
+    },
+    {
+      "id": "local-patrimony-2024",
+      "label": "Patrimony and appliance taxes of local government, 2024",
+      "definition": "The taxes on patrimony (grounds and buildings) and on automatic recreation appliances.",
+      "levelIds": ["local"],
+      "amount": 427.4,
+      "scale": "million",
+      "currency": "EUR",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "ntl-2026",
+      "locator": "Sheet BE, 2024, lines D59A C01 and D29B C02",
+      "caveat": "Calendar 2024, same list and cut-off as the federal taxes.",
+      "accessed": "2026-10-12"
+    }
+  ],
+  "sizing": {
+    "label": "Taxes and compulsory social contributions of all levels of government",
+    "definition": "The taxes of the federal government, the regions and communities and local government plus the actual social contributions, calendar 2024, as listed in the National Tax List and split by Eurostat. Excludes the sale of emission permits and imputed social contributions.",
+    "componentIds": [
+      "federal-taxes-2024",
+      "federal-social-employers-2024",
+      "federal-social-households-2024",
+      "regions-pit-2024",
+      "regions-taxes-2024",
+      "regions-other-production-2024",
+      "local-eurostat-2024",
+      "local-patrimony-2024"
+    ]
+  },
+  "researchStatus": "researched"
+}

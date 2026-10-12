@@ -1,0 +1,2656 @@
+{
+ "country": "BE",
+ "source": "NTL edition 2026 web.xlsx (Commission, DG TAXUD / Eurostat)",
+ "unit": "million national currency",
+ "sector": "S.13 + S.212",
+ "totals": {
+  "D2": {
+   "name": "Taxes on production and imports",
+   "v2024": 75415.7,
+   "v2023": 75698.6,
+   "row": 9
+  },
+  "D21": {
+   "name": "Taxes on products",
+   "v2024": 62577.2,
+   "v2023": 61067.3,
+   "row": 10
+  },
+  "D211": {
+   "name": "Value added type taxes (VAT)",
+   "v2024": 38232.7,
+   "v2023": 37828.1,
+   "row": 11
+  },
+  "D212": {
+   "name": "Taxes and duties on imports excluding VAT",
+   "v2024": 2838.7,
+   "v2023": 3279.6,
+   "row": 13
+  },
+  "D2121": {
+   "name": "Import duties",
+   "v2024": 1797.2,
+   "v2023": 1881.9,
+   "row": 14
+  },
+  "D2122": {
+   "name": "Taxes on imports, excluding VAT and import duties",
+   "v2024": 1041.5,
+   "v2023": 1397.7,
+   "row": 16
+  },
+  "D2122A": {
+   "name": "Levies on imported agricultural products",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 17
+  },
+  "D2122B": {
+   "name": "Monetary compensatory amounts on imports",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 19
+  },
+  "D2122C": {
+   "name": "Excise duties",
+   "v2024": 1041.5,
+   "v2023": 1397.7,
+   "row": 21
+  },
+  "D2122D": {
+   "name": "General sales taxes",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 41
+  },
+  "D2122E": {
+   "name": "Taxes on specific services",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 43
+  },
+  "D2122F": {
+   "name": "Profits of import monopolies",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 44
+  },
+  "D214": {
+   "name": "Taxes on products, except VAT and import taxes",
+   "v2024": 21505.8,
+   "v2023": 19959.6,
+   "row": 45
+  },
+  "D214A": {
+   "name": "Excise duties and consumption taxes",
+   "v2024": 11421.7,
+   "v2023": 10878.5,
+   "row": 46
+  },
+  "D214B": {
+   "name": "Stamp taxes",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 82
+  },
+  "D214C": {
+   "name": "Taxes on financial and capital transactions",
+   "v2024": 5488.2,
+   "v2023": 4999.3,
+   "row": 84
+  },
+  "D214D": {
+   "name": "Car registration taxes",
+   "v2024": 471.9,
+   "v2023": 466.3,
+   "row": 91
+  },
+  "D214E": {
+   "name": "Taxes on entertainment",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 94
+  },
+  "D214F": {
+   "name": "Taxes on lotteries, gambling and betting",
+   "v2024": 151.1,
+   "v2023": 151.7,
+   "row": 95
+  },
+  "D214G": {
+   "name": "",
+   "v2024": 3111.4,
+   "v2023": 2944.5,
+   "row": 97
+  },
+  "D214H": {
+   "name": "Other taxes on specific services",
+   "v2024": 42.3,
+   "v2023": 40.3,
+   "row": 104
+  },
+  "D214I": {
+   "name": "General sales or turnover taxes",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 106
+  },
+  "D214J": {
+   "name": "Profits of fiscal monopolies",
+   "v2024": 220,
+   "v2023": 200,
+   "row": 108
+  },
+  "D214K": {
+   "name": "Export duties and monetary comp. amounts on exports",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 110
+  },
+  "D214L": {
+   "name": "Other taxes on products n.e.c.",
+   "v2024": 599.2,
+   "v2023": 279,
+   "row": 112
+  },
+  "D29": {
+   "name": "Other taxes on production",
+   "v2024": 12838.5,
+   "v2023": 14631.3,
+   "row": 117
+  },
+  "D29A": {
+   "name": "Taxes on land, buildings or other structures",
+   "v2024": 7284.7,
+   "v2023": 7201.8,
+   "row": 118
+  },
+  "D29B": {
+   "name": "Taxes on the use of fixed assets",
+   "v2024": 732.6,
+   "v2023": 734,
+   "row": 124
+  },
+  "D29C": {
+   "name": "Total wage bill and payroll taxes",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 129
+  },
+  "D29D": {
+   "name": "Taxes on international transactions",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 131
+  },
+  "D29E": {
+   "name": "Business and professional licences",
+   "v2024": 439.8,
+   "v2023": 789.5,
+   "row": 132
+  },
+  "D29F": {
+   "name": "Taxes on pollution",
+   "v2024": 1006,
+   "v2023": 923.4,
+   "row": 136
+  },
+  "D29G": {
+   "name": "Under-compensation of VAT (flat rate system)",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 141
+  },
+  "D29H": {
+   "name": "Other taxes on production n.e.c.",
+   "v2024": 3375.4,
+   "v2023": 4982.6,
+   "row": 143
+  },
+  "D5": {
+   "name": "Current taxes on income wealth, etc.",
+   "v2024": 105081.3,
+   "v2023": 97036.2,
+   "row": 160
+  },
+  "D51": {
+   "name": "Taxes on income",
+   "v2024": 102310.3,
+   "v2023": 94485.9,
+   "row": 161
+  },
+  "D51M": {
+   "name": "Taxes on individual or household income including holding gains",
+   "v2024": 74056.9,
+   "v2023": 69979.5,
+   "row": 162
+  },
+  "D51A": {
+   "name": "Taxes on individual or household income excluding holding gains(1)",
+   "v2024": 74056.9,
+   "v2023": 69979.5,
+   "row": 163
+  },
+  "D51C1": {
+   "name": "Taxes on individual or household holding gains(1)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 173
+  },
+  "D51O": {
+   "name": "Taxes on the income or profits of corporations including holding gains",
+   "v2024": 27026.6,
+   "v2023": 23264.1,
+   "row": 174
+  },
+  "D51B": {
+   "name": "Taxes on the income or profits of corporations excluding holding gains(1)",
+   "v2024": 27026.6,
+   "v2023": 23264.1,
+   "row": 175
+  },
+  "D51C2": {
+   "name": "Taxes on holding gains of corporations(1)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 181
+  },
+  "D51C3": {
+   "name": "Other taxes on holding gains(1)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 182
+  },
+  "D51C": {
+   "name": "Taxes on holding gains",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 183
+  },
+  "D51D": {
+   "name": "Taxes on winnings from lottery or gambling",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 184
+  },
+  "D51E": {
+   "name": "Other taxes on income n.e.c.",
+   "v2024": 1226.8,
+   "v2023": 1242.3,
+   "row": 185
+  },
+  "D59": {
+   "name": "Other current taxes",
+   "v2024": 2771,
+   "v2023": 2550.3,
+   "row": 189
+  },
+  "D59A": {
+   "name": "Current taxes on capital",
+   "v2024": 1358.9,
+   "v2023": 1152.1,
+   "row": 190
+  },
+  "D59B": {
+   "name": "Poll taxes",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 197
+  },
+  "D59C": {
+   "name": "Expenditure taxes",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 200
+  },
+  "D59D": {
+   "name": "Payments by households for licences",
+   "v2024": 1386.1,
+   "v2023": 1372.9,
+   "row": 201
+  },
+  "D59E": {
+   "name": "Taxes on international transactions",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 205
+  },
+  "D59F": {
+   "name": "Other current taxes n.e.c.",
+   "v2024": 26,
+   "v2023": 25.3,
+   "row": 206
+  },
+  "D91": {
+   "name": "Capital taxes",
+   "v2024": 4257.8,
+   "v2023": 3958.7,
+   "row": 208
+  },
+  "D91A": {
+   "name": "Taxes on capital transfers",
+   "v2024": 3792.6,
+   "v2023": 3601.9,
+   "row": 209
+  },
+  "D91B": {
+   "name": "Capital levies",
+   "v2024": 465.2,
+   "v2023": 356.8,
+   "row": 212
+  },
+  "D91C": {
+   "name": "Other capital taxes n.e.c.",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 219
+  },
+  "D61": {
+   "name": "Net social contributions",
+   "v2024": 95657.3,
+   "v2023": 91444.3,
+   "row": 221
+  },
+  "D611": {
+   "name": "Employers' actual social contributions",
+   "v2024": 48553.6,
+   "v2023": 46011.6,
+   "row": 222
+  },
+  "D611C": {
+   "name": "Compulsory employers' actual social contributions",
+   "v2024": 48553.6,
+   "v2023": 46011.6,
+   "row": 225
+  },
+  "D611V": {
+   "name": "Voluntary employers' actual social contributions",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 228
+  },
+  "D61SC": {
+   "name": "Social insurance scheme service charges(3)",
+   "v2024": 0.1,
+   "v2023": 0.1,
+   "row": 231
+  },
+  "D6111": {
+   "name": "Employers' actual pension contributions (1)",
+   "v2024": "L",
+   "v2023": "L",
+   "row": 233
+  },
+  "D6112": {
+   "name": "Employers' actual non-pension contributions (1)",
+   "v2024": "L",
+   "v2023": "L",
+   "row": 234
+  },
+  "D6121": {
+   "name": "Employers' imputed pension contributions (1)",
+   "v2024": 14384.8,
+   "v2023": 13774.7,
+   "row": 235
+  },
+  "D6122": {
+   "name": "Employers' imputed non-pension contributions (1)",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 237
+  },
+  "D6131": {
+   "name": "Households' actual pension contributions (1)",
+   "v2024": "L",
+   "v2023": "L",
+   "row": 239
+  },
+  "D6132": {
+   "name": "Households' actual non-pension contributions (1)",
+   "v2024": "L",
+   "v2023": "L",
+   "row": 240
+  },
+  "D6141": {
+   "name": "Households' pension contributions supplements (1)",
+   "v2024": 0.9,
+   "v2023": 0.7,
+   "row": 241
+  },
+  "D6142": {
+   "name": "Households' non-pension contributions supplements (1)",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 243
+  },
+  "D612": {
+   "name": "Employers' imputed social contributions",
+   "v2024": 14384.8,
+   "v2023": 13774.7,
+   "row": 245
+  },
+  "D613": {
+   "name": "Households' actual social contributions",
+   "v2024": 32718.2,
+   "v2023": 31657.4,
+   "row": 247
+  },
+  "D613C": {
+   "name": "Compulsory households' actual social contributions",
+   "v2024": 32649.3,
+   "v2023": 31583.5,
+   "row": 249
+  },
+  "D613CE": {
+   "name": "Compulsory employees' actual social contributions",
+   "v2024": 25188.9,
+   "v2023": 24271.3,
+   "row": 251
+  },
+  "D613CS": {
+   "name": "Compulsory actual social contributions by the self-employed (1)",
+   "v2024": 5322.3,
+   "v2023": 5047.2,
+   "row": 253
+  },
+  "D613CN": {
+   "name": "Compulsory actual social contributions by the non-employed (1)",
+   "v2024": 2138.1,
+   "v2023": 2265,
+   "row": 255
+  },
+  "D613V": {
+   "name": "Voluntary households' actual social contributions",
+   "v2024": 68.9,
+   "v2023": 74,
+   "row": 257
+  },
+  "D614": {
+   "name": "Households' social contributions supplements(3)",
+   "v2024": 0.9,
+   "v2023": 0.7,
+   "row": 259
+  },
+  "D995": {
+   "name": "Capital transfers from general government to relevant sectors representing taxes and social contributions assessed but unlikely to be collected (2)",
+   "v2024": 666.7,
+   "v2023": 547.4,
+   "row": 261
+  },
+  "D995A": {
+   "name": "Taxes on products assessed but unlikely to be collected (2)",
+   "v2024": 534.8,
+   "v2023": 414.7,
+   "row": 262
+  },
+  "D995B": {
+   "name": "Other taxes on production assessed but unlikely to be collected (2)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 265
+  },
+  "D995C": {
+   "name": "Taxes on income assessed but unlikely to be collected (2)",
+   "v2024": 31.9,
+   "v2023": 32.7,
+   "row": 266
+  },
+  "D995D": {
+   "name": "Other current taxes assessed but unlikely to be collected (2)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 269
+  },
+  "D995E": {
+   "name": "Employers' actual social contributions assessed but unlikely to be collected (2)",
+   "v2024": 100,
+   "v2023": 100,
+   "row": 270
+  },
+  "D995F": {
+   "name": "Households' actual social contributions assessed but unlikely to be collected (2)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 273
+  },
+  "D995FE": {
+   "name": "Employees' actual social contributions assessed but unlikely to be collected (2)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 274
+  },
+  "D995FS": {
+   "name": "Actual social contributions by self-employed persons assessed but unlikely to be collected (1)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 275
+  },
+  "D995FN": {
+   "name": "Actual social contributions by non-employed persons assessed but unlikely to be collected (1)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 276
+  },
+  "D995G": {
+   "name": "Capital taxes assessed but unlikely to be collected (2)",
+   "v2024": "M",
+   "v2023": "M",
+   "row": 277
+  }
+ },
+ "lines": [
+  {
+   "key": "D211:C01",
+   "code": "D211",
+   "sub": "C01",
+   "nat": "BTW op producten",
+   "en": "VAT on products",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 38232.7,
+   "v2023": 37828.1,
+   "row": 12
+  },
+  {
+   "key": "D2121:C01",
+   "code": "D2121",
+   "sub": "C01",
+   "nat": "Invoerrechten (EGKS rechten inbegrepen)",
+   "en": "Import duties including ECSC rights",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 1797.2,
+   "v2023": 1881.9,
+   "row": 15
+  },
+  {
+   "key": "D2122A:C01",
+   "code": "D2122A",
+   "sub": "C01",
+   "nat": "Landbouwheffingen",
+   "en": "Levies on agriculture",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 18
+  },
+  {
+   "key": "D2122B:C01",
+   "code": "D2122B",
+   "sub": "C01",
+   "nat": "Monetaire compenserende bedragen bij invoer",
+   "en": "Monetary compensatory amounts on imports",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 20
+  },
+  {
+   "key": "D2122C:C01",
+   "code": "D2122C",
+   "sub": "C01",
+   "nat": "Accijnzen op minerale olie",
+   "en": "Excise duties on mineral oil",
+   "fn": "C",
+   "at": "E",
+   "v2024": 60,
+   "v2023": 60,
+   "row": 22
+  },
+  {
+   "key": "D2122C:C02",
+   "code": "D2122C",
+   "sub": "C02",
+   "nat": "Accijnzen op vloeibaar aardgas en andere vloeibare koolwaterstofgassen en benzol",
+   "en": "Excise duties on liquefied natural gas and liquefied hydrocarbon and benzol",
+   "fn": "C",
+   "at": "E",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 23
+  },
+  {
+   "key": "D2122C:C03",
+   "code": "D2122C",
+   "sub": "C03",
+   "nat": "Accijnzen op tabak",
+   "en": "Excise duties on tobacco",
+   "fn": "C",
+   "at": "AT",
+   "v2024": 407.6,
+   "v2023": 436.7,
+   "row": 24
+  },
+  {
+   "key": "D2122C:C04",
+   "code": "D2122C",
+   "sub": "C04",
+   "nat": "Accijnzen op brandewijn",
+   "en": "Excise duties on brandy",
+   "fn": "C",
+   "at": "AT",
+   "v2024": 215.7,
+   "v2023": 226.5,
+   "row": 25
+  },
+  {
+   "key": "D2122C:C05",
+   "code": "D2122C",
+   "sub": "C05",
+   "nat": "Verbruikstaks op brandewijn en alcohol",
+   "en": "Taxes on consumption of alcohol and brandy",
+   "fn": "C",
+   "at": "AT",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 26
+  },
+  {
+   "key": "D2122C:C06",
+   "code": "D2122C",
+   "sub": "C06",
+   "nat": "accijnzen op mousserende gegiste dranken",
+   "en": "Excise duties on fermented sparkling drinks",
+   "fn": "C",
+   "at": "AT",
+   "v2024": 96.9,
+   "v2023": 99.9,
+   "row": 27
+  },
+  {
+   "key": "D2122C:C07",
+   "code": "D2122C",
+   "sub": "C07",
+   "nat": "accijnzen op gegiste vruchtendranken",
+   "en": "Excise duties on fermented fruit juices",
+   "fn": "C",
+   "at": "AT",
+   "v2024": 155.5,
+   "v2023": 161.6,
+   "row": 28
+  },
+  {
+   "key": "D2122C:C08",
+   "code": "D2122C",
+   "sub": "C08",
+   "nat": "Accijnzen op bier",
+   "en": "Excise duties on beer",
+   "fn": "C",
+   "at": "AT",
+   "v2024": 10,
+   "v2023": 10,
+   "row": 29
+  },
+  {
+   "key": "D2122C:C09",
+   "code": "D2122C",
+   "sub": "C09",
+   "nat": "Accijnzen op alcoholvrije dranken",
+   "en": "Excise duties on non-alcoholic beverages",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 82.2,
+   "v2023": 81.5,
+   "row": 30
+  },
+  {
+   "key": "D2122C:C10",
+   "code": "D2122C",
+   "sub": "C10",
+   "nat": "accijnzen op suiker en raffinagestroop",
+   "en": "Excise duties on sugar and refining syrup",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 31
+  },
+  {
+   "key": "D2122C:C11",
+   "code": "D2122C",
+   "sub": "C11",
+   "nat": "accijnzen op koffie",
+   "en": "Excise duties on coffee",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 13.6,
+   "v2023": 14.2,
+   "row": 32
+  },
+  {
+   "key": "D2122C:C12",
+   "code": "D2122C",
+   "sub": "C12",
+   "nat": "accijnzen op tussenproducten",
+   "en": "Excise duties on intermediary products",
+   "fn": "C",
+   "at": "AT",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 33
+  },
+  {
+   "key": "D2122C:C13",
+   "code": "D2122C",
+   "sub": "C13",
+   "nat": "Bijdrage voor controle op de huisbrandstookolie",
+   "en": "Contribution for the surveillance on domestic fuel oil",
+   "fn": "C",
+   "at": "E",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 34
+  },
+  {
+   "key": "D2122C:C14",
+   "code": "D2122C",
+   "sub": "C14",
+   "nat": "Bijdrage op de aardolieproducten aangewend voor verwarming (Verwamingsfonds)",
+   "en": "Contribution on oil product for heating",
+   "fn": "C",
+   "at": "E",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 35
+  },
+  {
+   "key": "D2122C:C15",
+   "code": "D2122C",
+   "sub": "C15",
+   "nat": "Bijdrage op de energie",
+   "en": "Contribution on energy",
+   "fn": "C",
+   "at": "E",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 36
+  },
+  {
+   "key": "D2122C:C16",
+   "code": "D2122C",
+   "sub": "C16",
+   "nat": "Verpakkingsheffing",
+   "en": "Packing contribution",
+   "fn": "C",
+   "at": "P",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 37
+  },
+  {
+   "key": "D2122C:C17",
+   "code": "D2122C",
+   "sub": "C17",
+   "nat": "Milieuheffing",
+   "en": "Environmental charge",
+   "fn": "C",
+   "at": "P",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 38
+  },
+  {
+   "key": "D2122C:C18",
+   "code": "D2122C",
+   "sub": "C18",
+   "nat": "Ecotaks",
+   "en": "Ecotax",
+   "fn": "C",
+   "at": "P",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 39
+  },
+  {
+   "key": "D2122C:C19",
+   "code": "D2122C",
+   "sub": "C19",
+   "nat": "Contribution du secteur pétrolier",
+   "en": "Contribution of the oil industry",
+   "fn": "KIC",
+   "at": "E",
+   "v2024": 0,
+   "v2023": 307.3,
+   "row": 40
+  },
+  {
+   "key": "D2122D:C01",
+   "code": "D2122D",
+   "sub": "C01",
+   "nat": "Met zegel gelijkgestelde taksen",
+   "en": "Taxes as tax stamps",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 42
+  },
+  {
+   "key": "D214A:C01",
+   "code": "D214A",
+   "sub": "C01",
+   "nat": "Accijnzen op minerale olie",
+   "en": "Excise duties on mineral oil",
+   "fn": "C",
+   "at": "E",
+   "v2024": 6768.7,
+   "v2023": 5857.9,
+   "row": 47
+  },
+  {
+   "key": "D214A:C02",
+   "code": "D214A",
+   "sub": "C02",
+   "nat": "Accijnzen op vloeibaar aardgas en andere vloeibare koolwaterstofgassen en benzol",
+   "en": "Excise duties on liquefied natural gas and liquefied hydrocarbon and benzol",
+   "fn": "C",
+   "at": "E",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 48
+  },
+  {
+   "key": "D214A:C03",
+   "code": "D214A",
+   "sub": "C03",
+   "nat": "Accijnzen op tabak",
+   "en": "Excise duties on tobacco",
+   "fn": "C",
+   "at": "AT",
+   "v2024": 2134.3,
+   "v2023": 2301.2,
+   "row": 49
+  },
+  {
+   "key": "D214A:C04",
+   "code": "D214A",
+   "sub": "C04",
+   "nat": "Accijnzen op brandewijn",
+   "en": "Excise duties on brandy",
+   "fn": "C",
+   "at": "AT",
+   "v2024": 81,
+   "v2023": 85,
+   "row": 50
+  },
+  {
+   "key": "D214A:C05",
+   "code": "D214A",
+   "sub": "C05",
+   "nat": "Verbruikstaks op brandewijn en alcohol",
+   "en": "Taxes on consumption of alcohol and brandy",
+   "fn": "C",
+   "at": "AT",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 51
+  },
+  {
+   "key": "D214A:C06",
+   "code": "D214A",
+   "sub": "C06",
+   "nat": "accijnzen op mousserende gegiste dranken",
+   "en": "Excise duties on fermented sparkling drinks",
+   "fn": "C",
+   "at": "AT",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 52
+  },
+  {
+   "key": "D214A:C07",
+   "code": "D214A",
+   "sub": "C07",
+   "nat": "accijnzen op gegiste vruchtendranken",
+   "en": "Excise duties on fermented fruit juices",
+   "fn": "C",
+   "at": "AT",
+   "v2024": 0.1,
+   "v2023": 0.1,
+   "row": 53
+  },
+  {
+   "key": "D214A:C08",
+   "code": "D214A",
+   "sub": "C08",
+   "nat": "Accijnzen op bier",
+   "en": "Excise duties on beer",
+   "fn": "C",
+   "at": "AT",
+   "v2024": 162,
+   "v2023": 169,
+   "row": 54
+  },
+  {
+   "key": "D214A:C09",
+   "code": "D214A",
+   "sub": "C09",
+   "nat": "Accijnzen op alcoholvrije dranken",
+   "en": "Excise duties on non-alcoholic beverages",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 100,
+   "v2023": 99.2,
+   "row": 55
+  },
+  {
+   "key": "D214A:C10",
+   "code": "D214A",
+   "sub": "C10",
+   "nat": "accijnzen op suiker en raffinagestroop",
+   "en": "Excise duties on sugar and refining syrup",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 56
+  },
+  {
+   "key": "D214A:C11",
+   "code": "D214A",
+   "sub": "C11",
+   "nat": "accijnzen op koffie",
+   "en": "Excise duties on coffee",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 57
+  },
+  {
+   "key": "D214A:C12",
+   "code": "D214A",
+   "sub": "C12",
+   "nat": "accijnzen op tussenproducten",
+   "en": "Excise duties on intermediary products",
+   "fn": "C",
+   "at": "AT",
+   "v2024": 19,
+   "v2023": 20.9,
+   "row": 58
+  },
+  {
+   "key": "D214A:C13",
+   "code": "D214A",
+   "sub": "C13",
+   "nat": "Bijdrage voor controle op de huisbrandstookolie",
+   "en": "Contribution for the surveillance on domestic fuel oil",
+   "fn": "C",
+   "at": "E",
+   "v2024": 24.8,
+   "v2023": 24.5,
+   "row": 59
+  },
+  {
+   "key": "D214A:C14",
+   "code": "D214A",
+   "sub": "C14",
+   "nat": "Bijdrage op de aardolieproducten aangewend voor verwarming (Verwamingsfonds)",
+   "en": "Contribution on oil product for heating",
+   "fn": "C",
+   "at": "E",
+   "v2024": 4.5,
+   "v2023": 4.9,
+   "row": 60
+  },
+  {
+   "key": "D214A:C15",
+   "code": "D214A",
+   "sub": "C15",
+   "nat": "Bijdrage op de energie",
+   "en": "Contribution on energy",
+   "fn": "C",
+   "at": "E",
+   "v2024": 360,
+   "v2023": 339.3,
+   "row": 61
+  },
+  {
+   "key": "D214A:C16",
+   "code": "D214A",
+   "sub": "C16",
+   "nat": "Federale bijdrage op de elektriciteit en de aardgas / Bijdrage aan het Energiefonds (VG)",
+   "en": "Federal contribution on electricity and natural gas / Contribution to the Energy Fund (FR)",
+   "fn": "C",
+   "at": "E",
+   "v2024": 160.5,
+   "v2023": 157.4,
+   "row": 62
+  },
+  {
+   "key": "D214A:C17",
+   "code": "D214A",
+   "sub": "C17",
+   "nat": "Waterheffingen (VG, WG en BHG)",
+   "en": "Taxes on water (FR, WR and BCR)",
+   "fn": "C",
+   "at": "P",
+   "v2024": 2.9,
+   "v2023": 2.9,
+   "row": 63
+  },
+  {
+   "key": "D214A:C18",
+   "code": "D214A",
+   "sub": "C18",
+   "nat": "Suikerbijdragen",
+   "en": "Contributions to sugar",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 64
+  },
+  {
+   "key": "D214A:C19",
+   "code": "D214A",
+   "sub": "C19",
+   "nat": "Medeverantwoordelijkheidstaks op melk",
+   "en": "Super levy on milk",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 65
+  },
+  {
+   "key": "D214A:C20",
+   "code": "D214A",
+   "sub": "C20",
+   "nat": "Medeverantwoordelijkheidstaks op granen",
+   "en": "Super levy on cereals",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 66
+  },
+  {
+   "key": "D214A:C21",
+   "code": "D214A",
+   "sub": "C21",
+   "nat": "Medeverantwoordelijkheidstaks op schapevlees",
+   "en": "Super levy on mutton",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 67
+  },
+  {
+   "key": "D214A:C22",
+   "code": "D214A",
+   "sub": "C22",
+   "nat": "Boete voor overschrijding van melkquota",
+   "en": "Penalty for exceeding the milk quota",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 68
+  },
+  {
+   "key": "D214A:C23",
+   "code": "D214A",
+   "sub": "C23",
+   "nat": "Verplichte bijdragen van de producenten van dieren en dierlijke produkten (SANITEL)",
+   "en": "Compulsory contributions from producers of animals and animal products (Sanitel)",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 12,
+   "v2023": 12,
+   "row": 69
+  },
+  {
+   "key": "D214A:C24",
+   "code": "D214A",
+   "sub": "C24",
+   "nat": "Heffing EGKS",
+   "en": "Levy ECSC",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 70
+  },
+  {
+   "key": "D214A:C25",
+   "code": "D214A",
+   "sub": "C25",
+   "nat": "Verpakkingsheffing",
+   "en": "Packing contribution",
+   "fn": "C",
+   "at": "P",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 71
+  },
+  {
+   "key": "D214A:C26",
+   "code": "D214A",
+   "sub": "C26",
+   "nat": "Milieuheffing",
+   "en": "Environmental charge",
+   "fn": "C",
+   "at": "P",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 72
+  },
+  {
+   "key": "D214A:C27",
+   "code": "D214A",
+   "sub": "C27",
+   "nat": "Ecotaks",
+   "en": "Ecotax",
+   "fn": "C",
+   "at": "P",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 73
+  },
+  {
+   "key": "D214A:C28",
+   "code": "D214A",
+   "sub": "C28",
+   "nat": "Bijdrage FAPETRO",
+   "en": "Contribution for FAPETRO",
+   "fn": "C",
+   "at": "E",
+   "v2024": 3.1,
+   "v2023": 3.5,
+   "row": 74
+  },
+  {
+   "key": "D214A:C29",
+   "code": "D214A",
+   "sub": "C29",
+   "nat": "Bijdrage APETRA",
+   "en": "Contribution for APETRA",
+   "fn": "C",
+   "at": "E",
+   "v2024": 206.7,
+   "v2023": 211.8,
+   "row": 75
+  },
+  {
+   "key": "D214A:C30",
+   "code": "D214A",
+   "sub": "C30",
+   "nat": "FED - toeslag transmissietarief voor offshore windenergie",
+   "en": "FED - surtax on transmission price for offshore wind energy",
+   "fn": "C",
+   "at": "E",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 76
+  },
+  {
+   "key": "D214A:C31",
+   "code": "D214A",
+   "sub": "C31",
+   "nat": "VG - inlevering groenestroomcertificaten",
+   "en": "FC - green certificates delivery",
+   "fn": "C",
+   "at": "E",
+   "v2024": 484,
+   "v2023": 706.7,
+   "row": 77
+  },
+  {
+   "key": "D214A:C32",
+   "code": "D214A",
+   "sub": "C32",
+   "nat": "VG - toeslag distributietarieven voor financiering groenestroomcertificaten",
+   "en": "FC - surtax on distribution prices to finance green certificates",
+   "fn": "C",
+   "at": "E",
+   "v2024": 387.6,
+   "v2023": 347.7,
+   "row": 78
+  },
+  {
+   "key": "D214A:C33",
+   "code": "D214A",
+   "sub": "C33",
+   "nat": "WG - inlevering groenestroomcertificaten",
+   "en": "WR - green certificates delivery",
+   "fn": "C",
+   "at": "E",
+   "v2024": 379.7,
+   "v2023": 380.9,
+   "row": 79
+  },
+  {
+   "key": "D214A:C34",
+   "code": "D214A",
+   "sub": "C34",
+   "nat": "WG - toeslag transmissietarieven voor financiering groenestroomcertificaten",
+   "en": "WR - surtax on transmission prices to finance green certificates",
+   "fn": "C",
+   "at": "E",
+   "v2024": 43.7,
+   "v2023": 100.8,
+   "row": 80
+  },
+  {
+   "key": "D214A:C35",
+   "code": "D214A",
+   "sub": "C35",
+   "nat": "BHG - inlevering groenestroomcertificaten",
+   "en": "BCR - green certificates delivery",
+   "fn": "C",
+   "at": "E",
+   "v2024": 87.1,
+   "v2023": 52.8,
+   "row": 81
+  },
+  {
+   "key": "D214B:C01",
+   "code": "D214B",
+   "sub": "C01",
+   "nat": "Zegelrechten",
+   "en": "Stamp taxes",
+   "fn": "KS",
+   "at": "O",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 83
+  },
+  {
+   "key": "D214C:C01",
+   "code": "D214C",
+   "sub": "C01",
+   "nat": "Registratierechten",
+   "en": "Registration rights",
+   "fn": "KS",
+   "at": "O",
+   "v2024": 4865.6,
+   "v2023": 4496.3,
+   "row": 85
+  },
+  {
+   "key": "D214C:C02",
+   "code": "D214C",
+   "sub": "C02",
+   "nat": "Hypotheekrechten",
+   "en": "Mortgage rights",
+   "fn": "KS",
+   "at": "O",
+   "v2024": 79.4,
+   "v2023": 67.5,
+   "row": 86
+  },
+  {
+   "key": "D214C:C03",
+   "code": "D214C",
+   "sub": "C03",
+   "nat": "Griffierechten",
+   "en": "Court rights",
+   "fn": "KS",
+   "at": "O",
+   "v2024": 30.2,
+   "v2023": 31.2,
+   "row": 87
+  },
+  {
+   "key": "D214C:C04",
+   "code": "D214C",
+   "sub": "C04",
+   "nat": "Taks op de beursverrichtingen",
+   "en": "Taxes on stock exchange business",
+   "fn": "KS",
+   "at": "O",
+   "v2024": 428.7,
+   "v2023": 332.1,
+   "row": 88
+  },
+  {
+   "key": "D214C:C05",
+   "code": "D214C",
+   "sub": "C05",
+   "nat": "Taks op de aflevering van effecten aan toonder",
+   "en": "Tax on delivery of securities to bearer",
+   "fn": "KS",
+   "at": "O",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 89
+  },
+  {
+   "key": "D214C:C06",
+   "code": "D214C",
+   "sub": "C06",
+   "nat": "Geschriften",
+   "en": "Duties on written documents",
+   "fn": "KS",
+   "at": "O",
+   "v2024": 84.3,
+   "v2023": 72.2,
+   "row": 90
+  },
+  {
+   "key": "D214D:C01",
+   "code": "D214D",
+   "sub": "C01",
+   "nat": "Inschrijvingstaks",
+   "en": "Taxes on registration",
+   "fn": "C",
+   "at": "T",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 92
+  },
+  {
+   "key": "D214D:C02",
+   "code": "D214D",
+   "sub": "C02",
+   "nat": "Belasting op de inverkeerstelling",
+   "en": "Taxes on traffic",
+   "fn": "C",
+   "at": "T",
+   "v2024": 471.9,
+   "v2023": 466.3,
+   "row": 93
+  },
+  {
+   "key": "D214F:C01",
+   "code": "D214F",
+   "sub": "C01",
+   "nat": "Belastingen op de spelen en de weddenschappen",
+   "en": "Taxes on gambling and bets",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 151.1,
+   "v2023": 151.7,
+   "row": 96
+  },
+  {
+   "key": "D214G:C01",
+   "code": "D214G",
+   "sub": "C01",
+   "nat": "Taks op de verzekeringscontracten",
+   "en": "Taxes on insurance contracts",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 1749.7,
+   "v2023": 1648.4,
+   "row": 98
+  },
+  {
+   "key": "D214G:C02",
+   "code": "D214G",
+   "sub": "C02",
+   "nat": "Bijkomende heffing op arbeidsongevallenpremies",
+   "en": "Additional levy on premiums for industrial accidents",
+   "fn": "LEYRS",
+   "at": "_Z",
+   "v2024": 40.5,
+   "v2023": 38.6,
+   "row": 99
+  },
+  {
+   "key": "D214G:C03",
+   "code": "D214G",
+   "sub": "C03",
+   "nat": "Bijkomende heffing op autoverzekeringspremies",
+   "en": "Additional levy on car insurance premiums",
+   "fn": "C",
+   "at": "T",
+   "v2024": 823.5,
+   "v2023": 796.8,
+   "row": 100
+  },
+  {
+   "key": "D214G:C04",
+   "code": "D214G",
+   "sub": "C04",
+   "nat": "Bijkomende heffing op brandverzekeringspremies",
+   "en": "Additional levy on fire insurance premiums",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 268.6,
+   "v2023": 255.8,
+   "row": 101
+  },
+  {
+   "key": "D214G:C05",
+   "code": "D214G",
+   "sub": "C05",
+   "nat": "Bijkomende heffing op ziekenhuisverzekeringspremies",
+   "en": "Additional levy on hospitalization insurance premiums",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 219.4,
+   "v2023": 198.2,
+   "row": 102
+  },
+  {
+   "key": "D214G:C06",
+   "code": "D214G",
+   "sub": "C06",
+   "nat": "Ontvangsten ten bate van het Rode Kruis van België",
+   "en": "Receipts for the benefit of the Belgian Red Cross",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 9.7,
+   "v2023": 6.7,
+   "row": 103
+  },
+  {
+   "key": "D214H:C01",
+   "code": "D214H",
+   "sub": "C01",
+   "nat": "La taxe sur l’embarquement dans un aéronef",
+   "en": "Tax on the embarkment of aircrafts",
+   "fn": "C",
+   "at": "T",
+   "v2024": 42.3,
+   "v2023": 40.3,
+   "row": 105
+  },
+  {
+   "key": "D214I:C01",
+   "code": "D214I",
+   "sub": "C01",
+   "nat": "Met zegel gelijkgestelde taksen",
+   "en": "Taxes as tax stamp",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 107
+  },
+  {
+   "key": "D214J:C01",
+   "code": "D214J",
+   "sub": "C01",
+   "nat": "Winsten van de nationale loterij",
+   "en": "Profits of the national lottery",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 220,
+   "v2023": 200,
+   "row": 109
+  },
+  {
+   "key": "D214K:C01",
+   "code": "D214K",
+   "sub": "C01",
+   "nat": "Monetaire compenserende bedragen bij uitvoer",
+   "en": "Monetary compensatory amounts on exports",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 111
+  },
+  {
+   "key": "D214L:C01",
+   "code": "D214L",
+   "sub": "C01",
+   "nat": "Belasting op aanplakkingen",
+   "en": "Taxes on poster advertising",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": 1.6,
+   "v2023": 2,
+   "row": 113
+  },
+  {
+   "key": "D214L:C02",
+   "code": "D214L",
+   "sub": "C02",
+   "nat": "Bijdrage op het zakencijfer van de farmaceutische industrie",
+   "en": "Contribution on the turnover of the pharmaceutical industry",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": 592.8,
+   "v2023": 271.8,
+   "row": 114
+  },
+  {
+   "key": "D214L:C03",
+   "code": "D214L",
+   "sub": "C03",
+   "nat": "Heffing op bepaalde farmaceutische producten",
+   "en": "Levy on particular pharmaceutical products",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": 4.8,
+   "v2023": 5.2,
+   "row": 115
+  },
+  {
+   "key": "D214L:C04",
+   "code": "D214L",
+   "sub": "C04",
+   "nat": "Overeenkomsten art. 81 geneesmiddelen",
+   "en": "Contracts art. 81 medicines",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 116
+  },
+  {
+   "key": "D29A:C01",
+   "code": "D29A",
+   "sub": "C01",
+   "nat": "Onroerende voorheffing (Nat P)",
+   "en": "Advance tax payment on property (PP)",
+   "fn": "KS",
+   "at": "RP",
+   "v2024": 4896.4,
+   "v2023": 4844.2,
+   "row": 119
+  },
+  {
+   "key": "D29A:C02",
+   "code": "D29A",
+   "sub": "C02",
+   "nat": "Onroerende voorheffing (Venn)",
+   "en": "Advance tax payment on property (Corp)",
+   "fn": "KS",
+   "at": "RP",
+   "v2024": 2279.2,
+   "v2023": 2254.1,
+   "row": 120
+  },
+  {
+   "key": "D29A:C03",
+   "code": "D29A",
+   "sub": "C03",
+   "nat": "Openningsbelasting",
+   "en": "Opening tax",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 121
+  },
+  {
+   "key": "D29A:C04",
+   "code": "D29A",
+   "sub": "C04",
+   "nat": "Vergunningsrecht",
+   "en": "Licence right",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 122
+  },
+  {
+   "key": "D29A:C05",
+   "code": "D29A",
+   "sub": "C05",
+   "nat": "Gewestelijke belasting (BHG) - Vanaf 2002, alleen gewestelijke belasting ten laste van de eigenaars van gebouwen",
+   "en": "Regional tax (Brussels Capital Region) - From 2002 onwards, only regional tax payable by the building owners",
+   "fn": "KS",
+   "at": "RP",
+   "v2024": 109.1,
+   "v2023": 103.5,
+   "row": 123
+  },
+  {
+   "key": "D29B:C01",
+   "code": "D29B",
+   "sub": "C01",
+   "nat": "Verkeersbelasting betaald door de bedrijven",
+   "en": "Traffic taxes paid by corporations",
+   "fn": "KS",
+   "at": "T",
+   "v2024": 682.6,
+   "v2023": 676.2,
+   "row": 125
+  },
+  {
+   "key": "D29B:C02",
+   "code": "D29B",
+   "sub": "C02",
+   "nat": "Belasting op de automatische ontspanningstoestellen",
+   "en": "Tax on automatically recreation appliances",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": 50,
+   "v2023": 57.8,
+   "row": 126
+  },
+  {
+   "key": "D29B:C03",
+   "code": "D29B",
+   "sub": "C03",
+   "nat": "Eurovignet",
+   "en": "Euro tax disc",
+   "fn": "KS",
+   "at": "T",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 127
+  },
+  {
+   "key": "D29B:C04",
+   "code": "D29B",
+   "sub": "C04",
+   "nat": "Met accijnsrecht gelijkgestelde belasting betaald door de bedrijven",
+   "en": "Taxes equal to excise rights paid by corporations",
+   "fn": "KS",
+   "at": "T",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 128
+  },
+  {
+   "key": "D29C:C01",
+   "code": "D29C",
+   "sub": "C01",
+   "nat": "Taks op coördinatiecentra",
+   "en": "Taxes on the co-ordinating centre",
+   "fn": "LEYRS",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 130
+  },
+  {
+   "key": "D29E:C01",
+   "code": "D29E",
+   "sub": "C01",
+   "nat": "Bijdrage aan het Beschermingsfonds voor deposito’s en financiële instrumenten",
+   "en": "Contribution to the Protection Fund for Deposits and Financial Instruments",
+   "fn": "KS",
+   "at": "O",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 133
+  },
+  {
+   "key": "D29E:C02",
+   "code": "D29E",
+   "sub": "C02",
+   "nat": "Bijdrage aan het Garantiefonds voor de financiële diensten (Vroeger Bijzonder Beschermingsfonds voor deposito’s, levensverzekeringen en kapitaal van erkende coöperatieve vennootschappen)",
+   "en": "Contribution to the Guarantee Fund for Financial Services (Formerly Special Protection Fund for deposits, life insurance contracts and the capital of approved cooperative societies)",
+   "fn": "KS",
+   "at": "O",
+   "v2024": 437.8,
+   "v2023": 459.3,
+   "row": 134
+  },
+  {
+   "key": "D29E:C03",
+   "code": "D29E",
+   "sub": "C03",
+   "nat": "Bijdrage voor de financiële stabiliteit aan het resolutiefonds / gemeenschappelijk afwikkelingsfonds",
+   "en": "Contribution for Financial Stability to the Resolution Funds / Single Resolution Fund",
+   "fn": "KS",
+   "at": "O",
+   "v2024": 2,
+   "v2023": 330.2,
+   "row": 135
+  },
+  {
+   "key": "D29F:C01",
+   "code": "D29F",
+   "sub": "C01",
+   "nat": "Afvalstoffenheffing (VG en WG)",
+   "en": "Tax on waste products (FR and WR)",
+   "fn": "C",
+   "at": "P",
+   "v2024": 104.5,
+   "v2023": 105.7,
+   "row": 137
+  },
+  {
+   "key": "D29F:C02",
+   "code": "D29F",
+   "sub": "C02",
+   "nat": "Heffing op mest (VG)",
+   "en": "Tax on manure (FR)",
+   "fn": "C",
+   "at": "P",
+   "v2024": 5,
+   "v2023": 4.9,
+   "row": 138
+  },
+  {
+   "key": "D29F:C03",
+   "code": "D29F",
+   "sub": "C03",
+   "nat": "Waterheffingen (VG, WG en BHG)",
+   "en": "Taxes on water (FR, WR and BCR)",
+   "fn": "C",
+   "at": "P",
+   "v2024": 143,
+   "v2023": 155.1,
+   "row": 139
+  },
+  {
+   "key": "D29F:C04",
+   "code": "D29F",
+   "sub": "C04",
+   "nat": "Emissierechten",
+   "en": "Emission permits",
+   "fn": "C",
+   "at": "E",
+   "v2024": 753.5,
+   "v2023": 657.7,
+   "row": 140
+  },
+  {
+   "key": "D29G:C01",
+   "code": "D29G",
+   "sub": "C01",
+   "nat": "Ondercompensatie van BTW",
+   "en": "Under-compensation of VAT",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 142
+  },
+  {
+   "key": "D29H:C01",
+   "code": "D29H",
+   "sub": "C01",
+   "nat": "Annuïteiten voor octrooien",
+   "en": "Annuities for patented entities",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": 13.1,
+   "v2023": 13.2,
+   "row": 144
+  },
+  {
+   "key": "D29H:C02",
+   "code": "D29H",
+   "sub": "C02",
+   "nat": "Monopolierente (Belgacom)",
+   "en": "Monopoly interest (Belgacom)",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 145
+  },
+  {
+   "key": "D29H:C03",
+   "code": "D29H",
+   "sub": "C03",
+   "nat": "Monopolierente (National Loterij)",
+   "en": "Monopoly interest (National lottery)",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 101.5,
+   "v2023": 101.5,
+   "row": 146
+  },
+  {
+   "key": "D29H:C04",
+   "code": "D29H",
+   "sub": "C04",
+   "nat": "Eenmalige bijdrage ten laste van de vennootschappen",
+   "en": "Contribution to the account of the corporations",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": 299.7,
+   "v2023": 281.1,
+   "row": 147
+  },
+  {
+   "key": "D29H:C05",
+   "code": "D29H",
+   "sub": "C05",
+   "nat": "Bijdrage voor publieke mandaten",
+   "en": "Contribution on public mandate",
+   "fn": "LEYRS",
+   "at": "_Z",
+   "v2024": 5.7,
+   "v2023": 5.5,
+   "row": 148
+  },
+  {
+   "key": "D29H:C06",
+   "code": "D29H",
+   "sub": "C06",
+   "nat": "Terugvordering klinische biologie en geneesmiddelen",
+   "en": "Reclamation clinical biology and pharmaceutical products",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 149
+  },
+  {
+   "key": "D29H:C07",
+   "code": "D29H",
+   "sub": "C07",
+   "nat": "Kijk- en luistergeld (FG, VG en DG) - partim",
+   "en": "Radio and television licences (WR, FR and GR) - partim",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 150
+  },
+  {
+   "key": "D29H:C08",
+   "code": "D29H",
+   "sub": "C08",
+   "nat": "Repartitiebijdrage ten laste van de kernexploitanten",
+   "en": "Contribution payable by the nuclear operators",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": 454.8,
+   "v2023": 866.6,
+   "row": 151
+  },
+  {
+   "key": "D29H:C09",
+   "code": "D29H",
+   "sub": "C09",
+   "nat": "Eenmalige bijdrage ten laste van de gassector",
+   "en": "One-off contribution payable by the gas sector",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 152
+  },
+  {
+   "key": "D29H:C10",
+   "code": "D29H",
+   "sub": "C10",
+   "nat": "Buitengewone bijdrage van de elektriciteitsproducenten",
+   "en": "Special contribution from the electricity corporations",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 153
+  },
+  {
+   "key": "D29H:C11",
+   "code": "D29H",
+   "sub": "C11",
+   "nat": "Eenmalige bijdrage ten laste van de petroleumsector",
+   "en": "One-off contribution payable by the oil sector",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 154
+  },
+  {
+   "key": "D29H:C12",
+   "code": "D29H",
+   "sub": "C12",
+   "nat": "jaarlijkse taks op de collectieve beleggingsinstellingen, op de kredietinstellingen en op de verzekeringsondernemingen",
+   "en": "Annual tax on unit trusts, credit companies and insurance companies",
+   "fn": "KS",
+   "at": "O",
+   "v2024": 223.2,
+   "v2023": 206.3,
+   "row": 155
+  },
+  {
+   "key": "D29H:C13",
+   "code": "D29H",
+   "sub": "C13",
+   "nat": "Jaarlijkse taks op de kredietinstellingen",
+   "en": "Annual tax on credit institution",
+   "fn": "KS",
+   "at": "O",
+   "v2024": 983,
+   "v2023": 896.7,
+   "row": 156
+  },
+  {
+   "key": "D29H:C14",
+   "code": "D29H",
+   "sub": "C14",
+   "nat": "Taxe sur les surprofits producteurs d'énergie",
+   "en": "Tax on the surprofits of electricity production",
+   "fn": "KIC",
+   "at": "E",
+   "v2024": 0,
+   "v2023": 708.3,
+   "row": 157
+  },
+  {
+   "key": "D29H:C15",
+   "code": "D29H",
+   "sub": "C15",
+   "nat": "Taxe sur les emballages",
+   "en": "Packing contribution",
+   "fn": "C",
+   "at": "P",
+   "v2024": 338.1,
+   "v2023": 339.5,
+   "row": 158
+  },
+  {
+   "key": "D29H:C16",
+   "code": "D29H",
+   "sub": "C16",
+   "nat": "Andere belastingen op productie",
+   "en": "Other taxes on production",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": 956.3,
+   "v2023": 1563.9,
+   "row": 159
+  },
+  {
+   "key": "D51A:C01",
+   "code": "D51A",
+   "sub": "C01",
+   "nat": "Roerende voorheffing (Nat P)",
+   "en": "Advance tax payment on movable property (PP)",
+   "fn": "KIH",
+   "at": "_Z",
+   "v2024": 6655.9,
+   "v2023": 4993.8,
+   "row": 164
+  },
+  {
+   "key": "D51A:C02",
+   "code": "D51A",
+   "sub": "C02",
+   "nat": "Bedrijfsvoorheffing (Nat P)",
+   "en": "Business' advance tax payment (PP)",
+   "fn": "SPLIT1",
+   "at": "_Z",
+   "v2024": 62975.7,
+   "v2023": 60874.8,
+   "row": 165
+  },
+  {
+   "key": "D51A:C03",
+   "code": "D51A",
+   "sub": "C03",
+   "nat": "Vooraf betalingen (Nat P)",
+   "en": "Advance payments (PP)",
+   "fn": "SPLIT1",
+   "at": "_Z",
+   "v2024": 1618.1,
+   "v2023": 1495.9,
+   "row": 166
+  },
+  {
+   "key": "D51A:C04",
+   "code": "D51A",
+   "sub": "C04",
+   "nat": "Inkohiering (Nat P)",
+   "en": "Assessments (PP)",
+   "fn": "SPLIT1",
+   "at": "_Z",
+   "v2024": 1342.6,
+   "v2023": 1176.2,
+   "row": 167
+  },
+  {
+   "key": "D51A:C05",
+   "code": "D51A",
+   "sub": "C05",
+   "nat": "Jaarlijkse taks op de winstdeelnemingen",
+   "en": "Annual tax on profit sharing",
+   "fn": "KIH",
+   "at": "_Z",
+   "v2024": 40.1,
+   "v2023": 37.4,
+   "row": 168
+  },
+  {
+   "key": "D51A:C06",
+   "code": "D51A",
+   "sub": "C06",
+   "nat": "Speciale sociale bijdragen",
+   "en": "Special social contributions",
+   "fn": "LEES",
+   "at": "_Z",
+   "v2024": 1370.5,
+   "v2023": 1366.4,
+   "row": 169
+  },
+  {
+   "key": "D51A:C07",
+   "code": "D51A",
+   "sub": "C07",
+   "nat": "Bijdrage hoge inkomens",
+   "en": "Contribution large incomes",
+   "fn": "LEES",
+   "at": "_Z",
+   "v2024": 0.1,
+   "v2023": 0.2,
+   "row": 170
+  },
+  {
+   "key": "D51A:C08",
+   "code": "D51A",
+   "sub": "C08",
+   "nat": "Belasting op de deelname van de werknemers in de winst of in het kapitaal van de vennootschap",
+   "en": "Tax on the worker's participation in the benefit or the capital of the company",
+   "fn": "KIH",
+   "at": "_Z",
+   "v2024": 11.7,
+   "v2023": 12.5,
+   "row": 171
+  },
+  {
+   "key": "D51A:C09",
+   "code": "D51A",
+   "sub": "C09",
+   "nat": "andere belastingen op het inkomen",
+   "en": "Other taxes on income",
+   "fn": "SPLIT1",
+   "at": "_Z",
+   "v2024": 42.2,
+   "v2023": 22.3,
+   "row": 172
+  },
+  {
+   "key": "D51B:C01",
+   "code": "D51B",
+   "sub": "C01",
+   "nat": "Roerende voorheffing (Venn)",
+   "en": "Advance tax payment on movable property (corp)",
+   "fn": "KIC",
+   "at": "_Z",
+   "v2024": 980.1,
+   "v2023": 480.2,
+   "row": 176
+  },
+  {
+   "key": "D51B:C02",
+   "code": "D51B",
+   "sub": "C02",
+   "nat": "Vooraf betalingen (Venn)",
+   "en": "Advance payments (corp)",
+   "fn": "KIC",
+   "at": "_Z",
+   "v2024": 22186.3,
+   "v2023": 20070.5,
+   "row": 177
+  },
+  {
+   "key": "D51B:C03",
+   "code": "D51B",
+   "sub": "C03",
+   "nat": "Beslasting van de niet-verblijhouders (Venn)",
+   "en": "Taxes from non-residents (corp)",
+   "fn": "KIC",
+   "at": "_Z",
+   "v2024": 73.4,
+   "v2023": 48.4,
+   "row": 178
+  },
+  {
+   "key": "D51B:C04",
+   "code": "D51B",
+   "sub": "C04",
+   "nat": "Inkohiering (Venn)",
+   "en": "Assessments (corp)",
+   "fn": "KIC",
+   "at": "_Z",
+   "v2024": 3785.7,
+   "v2023": 2652.6,
+   "row": 179
+  },
+  {
+   "key": "D51B:C05",
+   "code": "D51B",
+   "sub": "C05",
+   "nat": "andere belastingen op het inkomen",
+   "en": "Other taxes on income",
+   "fn": "KIC",
+   "at": "_Z",
+   "v2024": 1.1,
+   "v2023": 12.4,
+   "row": 180
+  },
+  {
+   "key": "D51E:C01",
+   "code": "D51E",
+   "sub": "C01",
+   "nat": "Vroegere belastingen op het inkomen",
+   "en": "Former taxes on income",
+   "fn": "KIH",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 186
+  },
+  {
+   "key": "D51E:C02",
+   "code": "D51E",
+   "sub": "C02",
+   "nat": "Belasting van de niet-verblijhouders (Nat P)",
+   "en": "Taxes from non-residents (PP)",
+   "fn": "LEES",
+   "at": "_Z",
+   "v2024": 1141.9,
+   "v2023": 1168.7,
+   "row": 187
+  },
+  {
+   "key": "D51E:C03",
+   "code": "D51E",
+   "sub": "C03",
+   "nat": "andere belastingen op het inkomen",
+   "en": "Other taxes on income",
+   "fn": "KIH",
+   "at": "_Z",
+   "v2024": 84.9,
+   "v2023": 73.6,
+   "row": 188
+  },
+  {
+   "key": "D59A:C01",
+   "code": "D59A",
+   "sub": "C01",
+   "nat": "Belastingen op patrimonium (grond en onroerende goederen)",
+   "en": "Taxes on patrimony (grounds and buildings)",
+   "fn": "KS",
+   "at": "RP",
+   "v2024": 377.4,
+   "v2023": 346.7,
+   "row": 191
+  },
+  {
+   "key": "D59A:C02",
+   "code": "D59A",
+   "sub": "C02",
+   "nat": "Taks op de VZW",
+   "en": "Taxes on the NPIs",
+   "fn": "KS",
+   "at": "O",
+   "v2024": 98.3,
+   "v2023": 54.8,
+   "row": 192
+  },
+  {
+   "key": "D59A:C03",
+   "code": "D59A",
+   "sub": "C03",
+   "nat": "Taks op de ter beurze genoteerde effecten",
+   "en": "Tax on quoted securities",
+   "fn": "KS",
+   "at": "O",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 193
+  },
+  {
+   "key": "D59A:C04",
+   "code": "D59A",
+   "sub": "C04",
+   "nat": "Heffing ter bestrijding van het niet benutten van een site voor de productie van elektriciteit door een producent",
+   "en": "Levy for fighting the non-use of an electric power production site by a producer",
+   "fn": "KS",
+   "at": "O",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 194
+  },
+  {
+   "key": "D59A:C05",
+   "code": "D59A",
+   "sub": "C05",
+   "nat": "Overdracht aan het Fonds voor Arbeidsongevallen van erkende private verzekeringsinstellingen",
+   "en": "Transfer to the Fund for Industrial Accidents of recognized private insurance corporations",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": 421,
+   "v2023": 365,
+   "row": 195
+  },
+  {
+   "key": "D59A:C06",
+   "code": "D59A",
+   "sub": "C06",
+   "nat": "Taks op de effectenrekeningen",
+   "en": "Tax on securities accounts",
+   "fn": "KS",
+   "at": "O",
+   "v2024": 462.2,
+   "v2023": 385.6,
+   "row": 196
+  },
+  {
+   "key": "D59B:C01",
+   "code": "D59B",
+   "sub": "C01",
+   "nat": "Belasting op huishoudelijk afval (WG)",
+   "en": "Tax on household waste (WR)",
+   "fn": "C",
+   "at": "P",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 198
+  },
+  {
+   "key": "D59B:C02",
+   "code": "D59B",
+   "sub": "C02",
+   "nat": "Forfaitaire gewestelijke belasting (BHG)",
+   "en": "Flat-rate regional tax (BCR)",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 199
+  },
+  {
+   "key": "D59D:C01",
+   "code": "D59D",
+   "sub": "C01",
+   "nat": "Verkeersbelasting betaald door de gezinnen",
+   "en": "Taxes on traffic paid by the households",
+   "fn": "C",
+   "at": "T",
+   "v2024": 1386.1,
+   "v2023": 1372.9,
+   "row": 202
+  },
+  {
+   "key": "D59D:C02",
+   "code": "D59D",
+   "sub": "C02",
+   "nat": "Met accijnsrecht gelijkgestelde belasting betaald door de gezinnen",
+   "en": "Taxes equal to excise rights paid by households",
+   "fn": "C",
+   "at": "T",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 203
+  },
+  {
+   "key": "D59D:C03",
+   "code": "D59D",
+   "sub": "C03",
+   "nat": "Kijk- en luistergeld (WG)",
+   "en": "Radio and television licences (WR)",
+   "fn": "C",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 204
+  },
+  {
+   "key": "D59F:C01",
+   "code": "D59F",
+   "sub": "C01",
+   "nat": "Andere belastingen",
+   "en": "Other taxes",
+   "fn": "KS",
+   "at": "_Z",
+   "v2024": 26,
+   "v2023": 25.3,
+   "row": 207
+  },
+  {
+   "key": "D91A:C01",
+   "code": "D91A",
+   "sub": "C01",
+   "nat": "Successierechten",
+   "en": "Death duties",
+   "fn": "KS",
+   "at": "O",
+   "v2024": 2933.1,
+   "v2023": 2906.3,
+   "row": 210
+  },
+  {
+   "key": "D91A:C02",
+   "code": "D91A",
+   "sub": "C02",
+   "nat": "Schenkingsrechten",
+   "en": "Gift taxes",
+   "fn": "KS",
+   "at": "O",
+   "v2024": 859.5,
+   "v2023": 695.6,
+   "row": 211
+  },
+  {
+   "key": "D91B:C01",
+   "code": "D91B",
+   "sub": "C01",
+   "nat": "Taks op het lange-termijnsparen",
+   "en": "Taxes on long-term savings",
+   "fn": "KS",
+   "at": "O",
+   "v2024": 234.1,
+   "v2023": 226.7,
+   "row": 213
+  },
+  {
+   "key": "D91B:C02",
+   "code": "D91B",
+   "sub": "C02",
+   "nat": "Eenmalige bevrijdende aangifte (EBA)",
+   "en": "One-off tax regulation",
+   "fn": "KS",
+   "at": "O",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 214
+  },
+  {
+   "key": "D91B:C03",
+   "code": "D91B",
+   "sub": "C03",
+   "nat": "Eenmalige bevrijdende aangifte diamantsector",
+   "en": "One-off tax regulation \"diamond sector",
+   "fn": "KS",
+   "at": "O",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 215
+  },
+  {
+   "key": "D91B:C04",
+   "code": "D91B",
+   "sub": "C04",
+   "nat": "Eenmalige bevrijdende aangifte (EBA bis)",
+   "en": "One-off tax regulation (bis)",
+   "fn": "KS",
+   "at": "O",
+   "v2024": 12.6,
+   "v2023": 12.8,
+   "row": 216
+  },
+  {
+   "key": "D91B:C05",
+   "code": "D91B",
+   "sub": "C05",
+   "nat": "Eenmalige bevrijdende aangifte (EBA ter)",
+   "en": "One-off tax regulation (ter)",
+   "fn": "KS",
+   "at": "O",
+   "v2024": 218.5,
+   "v2023": 117.3,
+   "row": 217
+  },
+  {
+   "key": "D91B:C06",
+   "code": "D91B",
+   "sub": "C06",
+   "nat": "Bijzondere bijdrage van kredietverenigingen bij uittreding uit het net van het Beroepskrediet",
+   "en": "Special contribution from credit associations in case of withdrawal from the credit professional network",
+   "fn": "KS",
+   "at": "O",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 218
+  },
+  {
+   "key": "D611:C01",
+   "code": "D611",
+   "sub": "C01",
+   "nat": ". ten laste van de overheid",
+   "en": "To the account of the general government",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 11229.1,
+   "v2023": 10882.6,
+   "row": 223
+  },
+  {
+   "key": "D611:C02",
+   "code": "D611",
+   "sub": "C02",
+   "nat": ". ten laste van de andere sectoren",
+   "en": "To the account of other sectors",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 37324.5,
+   "v2023": 35129,
+   "row": 224
+  },
+  {
+   "key": "D611C:C01",
+   "code": "D611C",
+   "sub": "C01",
+   "nat": ". ten laste van de overheid",
+   "en": "To the account of the general government",
+   "fn": "LEYRS",
+   "at": "_Z",
+   "v2024": 11229.1,
+   "v2023": 10882.6,
+   "row": 226
+  },
+  {
+   "key": "D611C:C02",
+   "code": "D611C",
+   "sub": "C02",
+   "nat": ". ten laste van de andere sectoren",
+   "en": "To the account of other sectors",
+   "fn": "LEYRS",
+   "at": "_Z",
+   "v2024": 37324.5,
+   "v2023": 35129,
+   "row": 227
+  },
+  {
+   "key": "D611V:C01",
+   "code": "D611V",
+   "sub": "C01",
+   "nat": ". ten laste van de overheid",
+   "en": "To the account of the general government",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 229
+  },
+  {
+   "key": "D611V:C02",
+   "code": "D611V",
+   "sub": "C02",
+   "nat": ". ten laste van de andere sectoren",
+   "en": "To the account of other sectors",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 230
+  },
+  {
+   "key": "D61SC:C01",
+   "code": "D61SC",
+   "sub": "C01",
+   "nat": "Vergoeding voor diensten in het kader van de sociale verzekeringsregeling",
+   "en": "Social insurance scheme service charges",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 0.1,
+   "v2023": 0.1,
+   "row": 232
+  },
+  {
+   "key": "D6121:C01",
+   "code": "D6121",
+   "sub": "C01",
+   "nat": "Toegerekende sociale premies voor pensioenen t.l.v. werkgevers",
+   "en": "Employers' imputed pension contributions (1)",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 14384.8,
+   "v2023": 13774.7,
+   "row": 236
+  },
+  {
+   "key": "D6122:C01",
+   "code": "D6122",
+   "sub": "C01",
+   "nat": "Toegerekende sociale premies andere dan voor pensioenen t.l.v. werkgevers",
+   "en": "Employers' imputed non-pension contributions (1)",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 238
+  },
+  {
+   "key": "D6141:C01",
+   "code": "D6141",
+   "sub": "C01",
+   "nat": "Aanvullende sociale premies voor pensioenen t.l.v. huishoudens",
+   "en": "Households' pension contributions supplements (1)",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 0.9,
+   "v2023": 0.7,
+   "row": 242
+  },
+  {
+   "key": "D6142:C01",
+   "code": "D6142",
+   "sub": "C01",
+   "nat": "Aanvullende sociale premies andere dan voor pensioenen t.l.v. huishoudens",
+   "en": "Households' non-pension contributions supplements (1)",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 0,
+   "v2023": 0,
+   "row": 244
+  },
+  {
+   "key": "D612:C01",
+   "code": "D612",
+   "sub": "C01",
+   "nat": "Toegerekende sociale premies t.l.v. werkgevers",
+   "en": "Employers' imputed social contributions",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 14384.8,
+   "v2023": 13774.7,
+   "row": 246
+  },
+  {
+   "key": "D613:C01",
+   "code": "D613",
+   "sub": "C01",
+   "nat": "Werkelijke sociale premies t.l.v. huishoudens",
+   "en": "Households' actual social contributions",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 32718.2,
+   "v2023": 31657.4,
+   "row": 248
+  },
+  {
+   "key": "D613C:C01",
+   "code": "D613C",
+   "sub": "C01",
+   "nat": "Cotisations sociales obligatoires à la charge des ménages",
+   "en": "Compulsory households' actual social contributions",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 32649.3,
+   "v2023": 31583.5,
+   "row": 250
+  },
+  {
+   "key": "D613CE:C01",
+   "code": "D613CE",
+   "sub": "C01",
+   "nat": "Verplichte sociale premies t.l.v. de werknemers",
+   "en": "Compulsory employees' actual social contributions",
+   "fn": "LEES",
+   "at": "_Z",
+   "v2024": 25188.9,
+   "v2023": 24271.3,
+   "row": 252
+  },
+  {
+   "key": "D613CS:C01",
+   "code": "D613CS",
+   "sub": "C01",
+   "nat": "Verplichte sociale premies t.l.v. de zelfstandigen",
+   "en": "Compulsory actual social contributions by the self-employed (1)",
+   "fn": "KISE",
+   "at": "_Z",
+   "v2024": 5322.3,
+   "v2023": 5047.2,
+   "row": 254
+  },
+  {
+   "key": "D613CN:C01",
+   "code": "D613CN",
+   "sub": "C01",
+   "nat": "Verplichte sociale premies t.l.v. de niet-werkenden",
+   "en": "Compulsory actual social contributions by the non-employed (1)",
+   "fn": "LNON",
+   "at": "_Z",
+   "v2024": 2138.1,
+   "v2023": 2265,
+   "row": 256
+  },
+  {
+   "key": "D613V:C01",
+   "code": "D613V",
+   "sub": "C01",
+   "nat": "Vrijwillige sociale premies t.l.v. de werknemers",
+   "en": "Voluntary households' actual social contributions",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 68.9,
+   "v2023": 74,
+   "row": 258
+  },
+  {
+   "key": "D614:C01",
+   "code": "D614",
+   "sub": "C01",
+   "nat": "Aanvullende sociale premies t.l.v. huishoudens",
+   "en": "Households' social contributions supplements(3)",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 0.9,
+   "v2023": 0.7,
+   "row": 260
+  },
+  {
+   "key": "D995A:C01",
+   "code": "D995A",
+   "sub": "C01",
+   "nat": "BTW op producten die is verschuldigd, maar waarschijnlijk niet zullen wordt geïnd",
+   "en": "VAT on products assessed but unlikely to be collected",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 534.8,
+   "v2023": 414.7,
+   "row": 263
+  },
+  {
+   "key": "D995C:C01",
+   "code": "D995C",
+   "sub": "C01",
+   "nat": "Bedrijfsvoorheffing die verschuldigd is, maar waarschijnlijk niet zullen wordt geïnd",
+   "en": "Business' advance tax payment assessed but unlikely to be collected",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 31.9,
+   "v2023": 32.7,
+   "row": 267
+  },
+  {
+   "key": "D995E:C01",
+   "code": "D995E",
+   "sub": "C01",
+   "nat": "Werkelijke sociale premies t.l.v. werkgevers, die verschuldigd zijn, maar waarschijnlijk niet zullen worden geïnd",
+   "en": "Employers' actual social contributions assessed but unlikely to be collected (2)",
+   "fn": "_Z",
+   "at": "_Z",
+   "v2024": 100,
+   "v2023": 100,
+   "row": 271
+  }
+ ]
+}

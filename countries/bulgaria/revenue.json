@@ -1,0 +1,229 @@
+{
+  "groups": [
+    {
+      "title": "State taxes 2024 – National Tax List (BGN million)",
+      "defaults": {
+        "denominatorId": "darzhava-taxes-2024",
+        "scale": "million",
+        "currency": "BGN",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "ESA tax revenue, general government and EU institutions",
+        "sourceId": "ntl-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        { "nodeId": "bg-pit-wages", "amount": 5949.28, "locator": "NTL 2026, sheet BG, row 96: D51A Personal income tax - wages and salaries, 2024" },
+        {
+          "nodeId": "bg-pit-other",
+          "amount": 1085.39,
+          "locator": "NTL 2026, sheet BG, 2024: D51A Personal income tax - sole traders, free professions, civil contracts etc. (row 97); D51C1 Final tax on local and foreign residents according to the Personal Income Tax Act (row 101); D51C1 Tax on dividends and liquidation dividends for local and foreign residents (row 102); D51A Final tax on the income from interest on deposit accounts in commercial banks of physical persons (row 99)",
+          "calculation": "437.11 + 29.92 + 618.35 + 0 = 1,085.39 (BGN million)"
+        },
+        { "nodeId": "bg-corporate-income-tax", "amount": 5417.5, "locator": "NTL 2026, sheet BG, row 107: D51B Corporate income tax, 2024" },
+        {
+          "nodeId": "bg-other-corporate-taxes",
+          "amount": 553.02,
+          "locator": "NTL 2026, sheet BG, 2024: D51B Top up tax from multinational enterprise groups and large-scale domestic groups (row 109); D51C2 Taxes on income and dividends of corporations (row 111); D51E Budgetary enterprises income tax (row 116)",
+          "calculation": "400 + 123.5 + 29.51 = 553.02 (BGN million)"
+        },
+        { "nodeId": "bg-vat", "amount": 19066.92, "locator": "NTL 2026, sheet BG, row 12: D211 Value added taxes, 2024" },
+        {
+          "nodeId": "bg-customs",
+          "amount": 363.59,
+          "locator": "NTL 2026, sheet BG, 2024: D2121 Import duties (row 15); D2122A veterinary levies (row 18); D2122A sanitary licenses (row 19); D2122C Tobacco products (row 22); D2122C Fuel (row 23); D2122C Alcohol (row 24); D2122C Beer (row 25); D2122C Other (row 28)",
+          "calculation": "329.65 + 2.85 + 20.07 + 2.73 + 5.48 + 1.14 + 1.15 + 0.52 = 363.59 (BGN million)"
+        },
+        { "nodeId": "bg-excise-tobacco", "amount": 3747.26, "locator": "NTL 2026, sheet BG, row 34: D214A Tobacco products, 2024" },
+        {
+          "nodeId": "bg-excise-fuel",
+          "amount": 2687.22,
+          "locator": "NTL 2026, sheet BG, 2024: D214A Fuel (row 35); D214A Electric power (row 39); D214A Coal and coke (row 40)",
+          "calculation": "2,647.01 + 34.68 + 5.52 = 2,687.22 (BGN million)"
+        },
+        {
+          "nodeId": "bg-excise-alcohol-other",
+          "amount": 424.55,
+          "locator": "NTL 2026, sheet BG, 2024: D214A Alcohol (row 36); D214A Beer (row 37); D214A Other (row 41)",
+          "calculation": "268.98 + 73.11 + 82.47 = 424.55 (BGN million)"
+        },
+        {
+          "nodeId": "bg-gambling-insurance",
+          "amount": 198.07,
+          "locator": "NTL 2026, sheet BG, 2024: D214F Taxes on lotteries, gambling and betting (row 51); D214G Taxes on insurance premiums (row 53); D214D State taxes on registration of motor vehicles (row 47)",
+          "calculation": "115 + 71.14 + 11.92 = 198.07 (BGN million)"
+        },
+        {
+          "nodeId": "bg-electric-power-fund",
+          "amount": 559.61,
+          "locator": "NTL 2026, sheet BG, row 56: D214H Contributions in Electric Power System fund, 2024"
+        },
+        {
+          "nodeId": "bg-environmental-fees",
+          "amount": 51.16,
+          "locator": "NTL 2026, sheet BG, 2024: D29F Water Act fees (row 76); D29F Waste Management Act fees (row 77); D29F Protected Areas Act fees (row 78); D29F Greenhouse gas emissions license fees (row 81)",
+          "calculation": "43.04 + 7.8 + 0.32 + 0.01 = 51.16 (BGN million)"
+        },
+        {
+          "nodeId": "bg-bank-contributions",
+          "amount": 217.33,
+          "locator": "NTL 2026, sheet BG, row 90: D29H Banks contributions to DGF and NRF, 2024"
+        },
+        {
+          "nodeId": "bg-small-taxes",
+          "amount": 74.92,
+          "locator": "NTL 2026, sheet BG, 2024: D29C Tax on social expenditures made by employers on behalf of their employees (row 68); D29H Taxes on corporate luxury expenditures (row 85); D29H Corporate vehicle expenditures tax (row 86); D29H Tax on the net tonnage of ships (row 88); D29E Fees for commercial fishing (row 74); D59D Hunting and fishing licenses (row 122); D59F Other (row 127)",
+          "calculation": "29.61 + 37.74 + 0.01 + 0.39 + 0.67 + 6.47 + 0.04 = 74.92 (BGN million)"
+        }
+      ]
+    },
+    {
+      "title": "Employers’ social contributions 2024 – National Tax List (BGN million)",
+      "defaults": {
+        "denominatorId": "darzhava-social-employers-2024",
+        "scale": "million",
+        "currency": "BGN",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Actual compulsory contributions",
+        "sourceId": "ntl-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        {
+          "nodeId": "bg-social-employers",
+          "amount": 11140.37,
+          "locator": "NTL 2026, sheet BG, row 137: D611 Employers' actual social contributions, 2024"
+        }
+      ]
+    },
+    {
+      "title": "Employees’ social contributions 2024 – National Tax List (BGN million)",
+      "defaults": {
+        "denominatorId": "darzhava-social-employees-2024",
+        "scale": "million",
+        "currency": "BGN",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Actual compulsory contributions",
+        "sourceId": "ntl-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        {
+          "nodeId": "bg-social-employees",
+          "amount": 6147.33,
+          "locator": "NTL 2026, sheet BG, 2024: D613CE Pensions Fund (row 164); D613CE Common disease and Maternity Fund (row 165); D613CE Unemployment Fund (row 166); D613CE Employees' health insurance contributions (row 167)",
+          "calculation": "3,516.42 + 729.51 + 208.41 + 1,693 = 6,147.33 (BGN million)"
+        }
+      ]
+    },
+    {
+      "title": "Self-employed contributions 2024 – National Tax List (BGN million)",
+      "defaults": {
+        "denominatorId": "darzhava-social-self-employed-2024",
+        "scale": "million",
+        "currency": "BGN",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Actual compulsory contributions",
+        "sourceId": "ntl-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        {
+          "nodeId": "bg-social-self-employed",
+          "amount": 871.61,
+          "locator": "NTL 2026, sheet BG, 2024: D613CS Pensions Fund (row 169); D613CS Common disease and Maternity Fund (row 170); D613CS Health insurance contributions by the self-employed (row 171)",
+          "calculation": "482.4 + 75.46 + 313.75 = 871.61 (BGN million)"
+        }
+      ]
+    },
+    {
+      "title": "Real estate tax 2024 – National Tax List (BGN million)",
+      "defaults": {
+        "denominatorId": "obshtini-real-estate-2024",
+        "scale": "million",
+        "currency": "BGN",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "ESA tax revenue",
+        "sourceId": "ntl-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [{ "nodeId": "bg-real-estate-tax", "amount": 424.83, "locator": "NTL 2026, sheet BG, row 64: D29A Real estate tax, 2024" }]
+    },
+    {
+      "title": "Vehicle tax 2024 – National Tax List (BGN million)",
+      "defaults": {
+        "denominatorId": "obshtini-vehicles-2024",
+        "scale": "million",
+        "currency": "BGN",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "ESA tax revenue",
+        "sourceId": "ntl-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        {
+          "nodeId": "bg-vehicle-tax",
+          "amount": 443.24,
+          "locator": "NTL 2026, sheet BG, 2024: D29B Motor vehicles tax paid by producers (row 66); D59F Vehicles tax paid by households (row 125)",
+          "calculation": "208.32 + 234.92 = 443.24 (BGN million)"
+        }
+      ]
+    },
+    {
+      "title": "Donation and transfer taxes 2024 – National Tax List (BGN million)",
+      "defaults": {
+        "denominatorId": "obshtini-transfers-2024",
+        "scale": "million",
+        "currency": "BGN",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "ESA tax revenue",
+        "sourceId": "ntl-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        {
+          "nodeId": "bg-donations-inheritance",
+          "amount": 645.18,
+          "locator": "NTL 2026, sheet BG, 2024: D91A Taxes on donations, taxes on sponsorships and taxes on acquisition of property (row 131); D91A Inheritance tax (row 130)",
+          "calculation": "644.32 + 0.86 = 645.18 (BGN million)"
+        }
+      ]
+    },
+    {
+      "title": "Patent, visitor and dog taxes 2024 – National Tax List (BGN million)",
+      "defaults": {
+        "denominatorId": "obshtini-small-2024",
+        "scale": "million",
+        "currency": "BGN",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "ESA tax revenue",
+        "sourceId": "ntl-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        {
+          "nodeId": "bg-local-small-taxes",
+          "amount": 44.52,
+          "locator": "NTL 2026, sheet BG, 2024: D51A Final annual tax (patent tax) (row 98); D214H Visitor tax (row 55); D59F Dog ownership tax (row 126)",
+          "calculation": "17.99 + 25.77 + 0.76 = 44.52 (BGN million)"
+        }
+      ]
+    }
+  ],
+  "unavailable": []
+}

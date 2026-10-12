@@ -1,0 +1,157 @@
+{
+  "groups": [
+    {
+      "title": "Taxes 2024 – National Tax List (EUR million)",
+      "defaults": {
+        "denominatorId": "gvern-taxes-2024",
+        "scale": "million",
+        "currency": "EUR",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "ESA tax revenue, general government and EU institutions",
+        "sourceId": "ntl-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        { "nodeId": "mt-income-tax-individuals", "amount": 1647.73, "locator": "NTL 2026, sheet MT, row 135: D51A Income Tax by Individuals, 2024" },
+        { "nodeId": "mt-income-tax-companies", "amount": 1298.89, "locator": "NTL 2026, sheet MT, row 141: D51B Income Tax by Companies, 2024" },
+        {
+          "nodeId": "mt-holding-gains-taxes",
+          "amount": 248.78,
+          "locator": "NTL 2026, sheet MT, 2024: D51C1 Holding Gains by Individuals (row 137); D51C2 Holding Gains by Companies (row 143)",
+          "calculation": "122.97 + 125.82 = 248.78 (EUR million)"
+        },
+        {
+          "nodeId": "mt-income-tax-penalties",
+          "amount": 11.45,
+          "locator": "NTL 2026, sheet MT, 2024: D51E Penalties paid by Individuals (row 151); D51E Penalties paid by Companies (row 152); D51E Penalties paid by Others (row 153)",
+          "calculation": "4.47 + 6.91 + 0.08 = 11.45 (EUR million)"
+        },
+        {
+          "nodeId": "mt-investor-programme",
+          "amount": 148.49,
+          "locator": "NTL 2026, sheet MT, row 169: D59F Individual (International) Investor Programme, 2024"
+        },
+        { "nodeId": "mt-vat", "amount": 1401.22, "locator": "NTL 2026, sheet MT, row 12: D211 Value Added Tax, 2024" },
+        { "nodeId": "mt-customs", "amount": 26.54, "locator": "NTL 2026, sheet MT, row 28: D2121 Import Duties paid to EU Institutions, 2024" },
+        { "nodeId": "mt-excise-petroleum", "amount": 105.14, "locator": "NTL 2026, sheet MT, row 42: D214A Excise Levies - Petroleum, 2024" },
+        {
+          "nodeId": "mt-excise-tobacco",
+          "amount": 103.74,
+          "locator": "NTL 2026, sheet MT, 2024: D214A Excise Levies - Machine Made Cigarettes (row 39); D214A Excise Levies - Tobacco (row 43)",
+          "calculation": "95.42 + 8.31 = 103.74 (EUR million)"
+        },
+        {
+          "nodeId": "mt-excise-other",
+          "amount": 65.42,
+          "locator": "NTL 2026, sheet MT, 2024: 14 lines of the list: D214A:C02, D214A:C03, D214A:C06, D214A:C07, D214A:C08, D214A:C10, D214A:C11, D214A:C13, D214A:C14, D214A:C15, D214A:C16, D214A:C18, D214A:C19, D214A:C09",
+          "calculation": "Sum of 14 lines of the list, named in the locator (EUR million)"
+        },
+        {
+          "nodeId": "mt-duty-on-documents-property",
+          "amount": 179.22,
+          "locator": "NTL 2026, sheet MT, 2024: D214C Duty on Documents - Immoveables (row 65); D91A Duty on Documents - Property Transfers (row 174)",
+          "calculation": "141.74 + 37.48 = 179.22 (EUR million)"
+        },
+        {
+          "nodeId": "mt-duty-on-documents-other",
+          "amount": 45.67,
+          "locator": "NTL 2026, sheet MT, 2024: D214G Duty on Documents - Insurance Policy (row 81); D214C Duty on Documents - Shares (row 66); D214B Duty on Documents - Legal fees (row 61)",
+          "calculation": "39.16 + 6.49 + 0.02 = 45.67 (EUR million)"
+        },
+        {
+          "nodeId": "mt-vehicle-taxes",
+          "amount": 122.53,
+          "locator": "NTL 2026, sheet MT, 2024: D214D Motor Vehicle Registration Tax (row 71); D59D Motor Vehicle License - Households (row 162); D29B Motor Vehicle Licence - Business (row 100); D214D Sale of number plates - Households (row 72); D214D Sale of number plates - Government (row 73); D29B Sale of Number Plates - Business (row 99); D214H Administration charge - Test Motor Vehicle (row 86)",
+          "calculation": "37.64 + 62.11 + 20.7 + 0.68 + 0.01 + 0.98 + 0.41 = 122.53 (EUR million)"
+        },
+        {
+          "nodeId": "mt-gaming",
+          "amount": 85.51,
+          "locator": "NTL 2026, sheet MT, 2024: D214F Gaming Taxes (row 78); D214F MGA - Authority Service (row 79)",
+          "calculation": "74.21 + 11.31 = 85.51 (EUR million)"
+        },
+        {
+          "nodeId": "mt-bunkering-environment",
+          "amount": 8.23,
+          "locator": "NTL 2026, sheet MT, 2024: D214H Bunkering Tax (row 87); D214H Environmental Contribution (row 88)",
+          "calculation": "2.15 + 6.08 = 8.23 (EUR million)"
+        },
+        {
+          "nodeId": "mt-licences-fees",
+          "amount": 33.43,
+          "locator": "NTL 2026, sheet MT, 2024: 13 lines of the list: D29E:C01, D29E:C02, D29E:C03, D29E:C05, D29E:C12, D29E:C15, D29E:C16, D29E:C17, D29E:C18, D29E:C19, D59D:C01, D59D:C02, D59D:C05",
+          "calculation": "Sum of 13 lines of the list, named in the locator (EUR million)"
+        },
+        { "nodeId": "mt-protection-funds", "amount": 20.72, "locator": "NTL 2026, sheet MT, row 128: D29H Contributions to Protection Funds, 2024" }
+      ]
+    },
+    {
+      "title": "Employers’ social contributions 2024 – National Tax List (EUR million)",
+      "defaults": {
+        "denominatorId": "gvern-social-employers-2024",
+        "scale": "million",
+        "currency": "EUR",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Actual contributions",
+        "sourceId": "ntl-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        {
+          "nodeId": "mt-social-employers",
+          "amount": 499.95,
+          "locator": "NTL 2026, sheet MT, 2024: D611 SSC - Employer's Social Contribution - Government (row 181); D611 SSC - Employer's Social Contribution - Private (row 182); D611 SSC - Penalties on Employers (row 183)",
+          "calculation": "84.29 + 410.6 + 5.06 = 499.95 (EUR million)"
+        }
+      ]
+    },
+    {
+      "title": "Employees’ social contributions 2024 – National Tax List (EUR million)",
+      "defaults": {
+        "denominatorId": "gvern-social-employees-2024",
+        "scale": "million",
+        "currency": "EUR",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Actual contributions",
+        "sourceId": "ntl-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        {
+          "nodeId": "mt-social-employees",
+          "amount": 494.87,
+          "locator": "NTL 2026, sheet MT, row 214: D613CE SSC - Employees' Social Contributions, 2024"
+        }
+      ]
+    },
+    {
+      "title": "Self-employed contributions 2024 – National Tax List (EUR million)",
+      "defaults": {
+        "denominatorId": "gvern-social-self-employed-2024",
+        "scale": "million",
+        "currency": "EUR",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Actual contributions",
+        "sourceId": "ntl-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        {
+          "nodeId": "mt-social-self-employed",
+          "amount": 71,
+          "locator": "NTL 2026, sheet MT, 2024: D613CS SSC - Self-Employed Social Contributions (row 216); D613CS SSC - Penalties on Self-Employed (row 217)",
+          "calculation": "70.84 + 0.16 = 71 (EUR million)"
+        }
+      ]
+    }
+  ],
+  "unavailable": []
+}

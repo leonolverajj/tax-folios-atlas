@@ -1,0 +1,226 @@
+{
+  "groups": [
+    {
+      "title": "State taxes 2024 – National Tax List (SEK million)",
+      "defaults": {
+        "denominatorId": "staten-taxes-2024",
+        "scale": "million",
+        "currency": "SEK",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "ESA tax revenue, general government and EU institutions",
+        "sourceId": "ntl-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        {
+          "nodeId": "se-income-tax-state",
+          "amount": 128209,
+          "locator": "NTL 2026, sheet SE, D51A Taxes on individual or household income excluding holding gain, 2024, less the local part from Eurostat gov_10a_taxag (S.1313, D51A)",
+          "calculation": "853,918 − 725,709 = 128,209 (SEK million)",
+          "caveat": "Different vintages of the two sources; Eurostat’s own State figure is SEK 124,795 million."
+        },
+        {
+          "nodeId": "se-pension-yield-taxes",
+          "amount": 32115,
+          "locator": "NTL 2026, sheet SE, 2024: D51C1 Occupational pensions, defined benefit (row 131); D51C1 Occupational pensions, defined contribution (row 132); D51C1 Occupational pensions, unit linked defined contribution (row 133); D51C1 Non occupational pensions, individual traditional life insurance (row 134); D51C1 Non occupational pensions, individual unit linked (row 135); D51C1 Non occupational pensions, individual pension saving (row 136)",
+          "calculation": "9,276 + 8,491 + 5,753 + 5,597 + 2,327 + 671 = 32,115 (SEK million)"
+        },
+        {
+          "nodeId": "se-corporate-income-tax",
+          "amount": 223538,
+          "locator": "NTL 2026, sheet SE, row 140: D51B Taxes on the income or profits of corporations excluding holding gains(1), 2024"
+        },
+        {
+          "nodeId": "se-vat",
+          "amount": 556212,
+          "locator": "NTL 2026, sheet SE, 2024: D211 Value added type taxes (VAT) - CG part (row 12); D211 Value added type taxes (VAT) - EU part (row 13)",
+          "calculation": "547,746 + 8,466 = 556,212 (SEK million)"
+        },
+        {
+          "nodeId": "se-customs",
+          "amount": 8482,
+          "locator": "NTL 2026, sheet SE, 2024: D2121 Import duties (row 16); D2122C Levies on imported alcoholic beverages (row 22)",
+          "calculation": "8,480 + 2 = 8,482 (SEK million)"
+        },
+        {
+          "nodeId": "se-energy-tax-fuels",
+          "amount": 40096,
+          "locator": "NTL 2026, sheet SE, 2024: D214A Other taxes on fuel (row 29); D214A Tax on sulphur (row 28)",
+          "calculation": "40,093 + 3 = 40,096 (SEK million)"
+        },
+        { "nodeId": "se-electricity-tax", "amount": 31244, "locator": "NTL 2026, sheet SE, row 30: D214A Taxes on electrical power, 2024" },
+        {
+          "nodeId": "se-alcohol-tobacco-taxes",
+          "amount": 32815,
+          "locator": "NTL 2026, sheet SE, 2024: D214A Taxes on alcoholic beverage (row 31); D214A Taxes on tobacco (row 32)",
+          "calculation": "18,004 + 14,811 = 32,815 (SEK million)"
+        },
+        {
+          "nodeId": "se-environmental-product-taxes",
+          "amount": 3585,
+          "locator": "NTL 2026, sheet SE, 2024: D214L Excise duty on chemicals (row 69); D214L Tax on pesticides (row 63); D214L Tax on chemicals (row 65); D214L Tax on waste (row 66); D214A Tax on plastic bags (row 33); D214A Tax on gravel (row 34); D214A Other excise duties (row 35)",
+          "calculation": "2,478 + 144 + 48 + 427 + 408 + 102 − 22 = 3,585 (SEK million)"
+        },
+        {
+          "nodeId": "se-stamp-duty",
+          "amount": 10628,
+          "locator": "NTL 2026, sheet SE, 2024: D214C Corporation mortgage/registration fee (row 38); D214C Mortgage for property and land (row 39); D214C Mortgage for aircraft and craft/ship/vessel (row 40)",
+          "calculation": "167 + 10,450 + 11 = 10,628 (SEK million)"
+        },
+        {
+          "nodeId": "se-gambling-monopolies",
+          "amount": 6808,
+          "locator": "NTL 2026, sheet SE, 2024: D214F Tax on gambling (row 47); D214J Surplus from gambling (row 57); D214J Profits of fiscal monopoly, alcoholic beverages (row 56); D29E Licenses for lottery (row 105)",
+          "calculation": "4,803 + 1,600 + 360 + 45 = 6,808 (SEK million)"
+        },
+        {
+          "nodeId": "se-traffic-insurance-flight",
+          "amount": 4461,
+          "locator": "NTL 2026, sheet SE, 2024: D214G Taxes on traffic insurance premiums (row 49); D214H Flight tax (row 52)",
+          "calculation": "2,768 + 1,693 = 4,461 (SEK million)"
+        },
+        {
+          "nodeId": "se-vehicle-taxes",
+          "amount": 18891,
+          "locator": "NTL 2026, sheet SE, 2024: D59D Tax on motor vehicles paid by households (row 154); D59D Road tax paid by households (row 155); D29B Tax on motor-vehicle paid by enterprises (row 74); D29F Road tax paid by enterprises (row 112); D29E Fee for lorries (row 107); D29B Electricity capacity fees (rerouted thru CG) (row 76)",
+          "calculation": "9,628 + 1,498 + 4,953 + 1,346 + 1,454 + 12 = 18,891 (SEK million)"
+        },
+        { "nodeId": "se-property-tax", "amount": 41380, "locator": "NTL 2026, sheet SE, row 72: D29A Tax on real-estate, 2024" },
+        {
+          "nodeId": "se-public-service-fee",
+          "amount": 8899,
+          "locator": "NTL 2026, sheet SE, row 156: D59D Public service fee, paid by households, 2024"
+        },
+        {
+          "nodeId": "se-financial-sector-fees",
+          "amount": 14123,
+          "locator": "NTL 2026, sheet SE, 2024: D29H Risk tax (row 123); D29H Resolution fee (row 120); D29H Deposit insurance fee (row 118); D29H Fee for discharge of nitrogen (row 122); D29H Fee for telecommunication (row 121); D29F Waste incineration (row 114)",
+          "calculation": "6,724 + 4,328 + 2,348 + 596 + 132 − 5 = 14,123 (SEK million)"
+        }
+      ]
+    },
+    {
+      "title": "Payroll taxes and employers’ fees 2024 – National Tax List (SEK million)",
+      "defaults": {
+        "denominatorId": "staten-payroll-2024",
+        "scale": "million",
+        "currency": "SEK",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "ESA taxes on the wage bill",
+        "sourceId": "ntl-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        { "nodeId": "se-general-payroll-tax", "amount": 273837, "locator": "NTL 2026, sheet SE, row 78: D29C General payroll tax, 2024" },
+        {
+          "nodeId": "se-employers-earmarked-fees",
+          "amount": 217033,
+          "locator": "NTL 2026, sheet SE, 2024: 10 lines of the list: D29C:C06, D29C:C08, D29C:C09, D29C:C14, D29C:C07, D29C:C16, D29C:C17, D29C:C19, D29C:C22, D29C:C11",
+          "calculation": "Sum of 10 lines of the list, named in the locator (SEK million)"
+        },
+        {
+          "nodeId": "se-pension-fee-to-state-budget",
+          "amount": 27615,
+          "locator": "NTL 2026, sheet SE, row 79: D29C Part of pension fee to state budget, 2024"
+        },
+        {
+          "nodeId": "se-special-payroll-tax",
+          "amount": 65410,
+          "locator": "NTL 2026, sheet SE, 2024: D29C Special payroll tax (row 81); D29C Tax on salaried employees life insurance (row 80)",
+          "calculation": "64,861 + 549 = 65,410 (SEK million)"
+        }
+      ]
+    },
+    {
+      "title": "Compulsory pension fees 2024 – National Tax List (SEK million)",
+      "defaults": {
+        "denominatorId": "staten-pension-fees-2024",
+        "scale": "million",
+        "currency": "SEK",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Actual compulsory contributions",
+        "sourceId": "ntl-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        {
+          "nodeId": "se-compulsory-pension-fees",
+          "amount": 165370,
+          "locator": "NTL 2026, sheet SE, row 169: D611C Compulsory employers' actual social contributions, 2024"
+        }
+      ]
+    },
+    {
+      "title": "Occupational pension premiums 2024 – National Tax List (SEK million)",
+      "defaults": {
+        "denominatorId": "staten-occupational-pensions-2024",
+        "scale": "million",
+        "currency": "SEK",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Actual voluntary contributions",
+        "sourceId": "ntl-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        {
+          "nodeId": "se-occupational-pension-premiums",
+          "amount": 52259,
+          "locator": "NTL 2026, sheet SE, 2024: D611V Voluntary employers' pensions fees (row 171); D611V Other voluntary employers' actual social contributions (row 172)",
+          "calculation": "52,130 + 129 = 52,259 (SEK million)"
+        }
+      ]
+    },
+    {
+      "title": "Self-employed pension contributions 2024 – National Tax List (SEK million)",
+      "defaults": {
+        "denominatorId": "staten-self-employed-pension-2024",
+        "scale": "million",
+        "currency": "SEK",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Actual compulsory contributions",
+        "sourceId": "ntl-2026",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        {
+          "nodeId": "se-self-employed-pension",
+          "amount": 3236,
+          "locator": "NTL 2026, sheet SE, row 197: D613CS Compulsory actual social contributions by the self-employed (1), 2024"
+        }
+      ]
+    },
+    {
+      "title": "Municipal and regional income tax 2024 – Eurostat (SEK million)",
+      "defaults": {
+        "denominatorId": "kommuner-income-tax-2024",
+        "scale": "million",
+        "currency": "SEK",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "ESA taxes received by local government",
+        "sourceId": "eurostat-taxag",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-12"
+      },
+      "observations": [
+        {
+          "nodeId": "se-income-tax-municipal",
+          "amount": 725709,
+          "locator": "Eurostat gov_10a_taxag, 2024: S.1313 local government, D51A taxes on individual or household income, SEK million",
+          "caveat": "Eurostat July 2026 vintage; the National Tax List has no sector split."
+        }
+      ]
+    }
+  ],
+  "unavailable": []
+}

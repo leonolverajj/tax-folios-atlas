@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "referenceYear": 2023,
+  "currency": "ISK",
+  "scale": "million",
+  "taxToGdp": 35.9,
+  "basis": "OECD attribution to sub-sectors of general government (Interpretative Guide, section A.12)",
+  "levels": [
+    {
+      "key": "central",
+      "label": "Central government",
+      "folioLevelIds": ["rikid"],
+      "total": 1130230,
+      "byType": { "income": 463737, "socialSecurity": 131613, "payroll": 11563, "property": 13670, "goodsServices": 493843, "other": 15804 },
+      "note": "The OECD shows the social security funds separately; the folio draws the employers’ levy under the State."
+    },
+    {
+      "key": "local",
+      "label": "Local governments",
+      "folioLevelIds": ["sveitarfelog"],
+      "total": 437335,
+      "byType": { "income": 344990, "socialSecurity": 0, "payroll": 0, "property": 82302, "goodsServices": 10042, "other": 0 }
+    }
+  ],
+  "sourceIds": ["oecd-rs-2025-subsectors", "oecd-rs-2025-levels"],
+  "subnational": {
+    "ownSourceTaxShareOfRevenue": 77.9,
+    "grantsShareOfRevenue": 10.1,
+    "year": 2020,
+    "sourceId": "sng-wofi-profile",
+    "note": "Tariffs and fees 8.5%, property income 3.5%, other 0% of subnational revenue."
+  },
+  "notes": []
+}

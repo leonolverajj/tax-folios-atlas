@@ -309,7 +309,7 @@ export async function mountTrees(root: HTMLElement, first: { focus?: string }, o
         return `<li class="tcard" data-id="${esc(e.id)}" style="--a:${e.accent}">
           <button type="button" class="tcard-hit" data-open="${esc(e.id)}" aria-label="${esc(label)}">${treeSvg(e, sizeMode, extent)}</button>
           <div class="tcard-foot">
-            <h3>${esc(e.name)}${e.partial ? ' <abbr class="tag" title="Some subnational taxes are not itemised in this folio">partial</abbr>' : ''}</h3>
+            <h3>${esc(e.name)}${e.partial ? ' <abbr class="tag" title="Part of the country’s taxes or contributions is not itemised in this folio (see its note)">partial</abbr>' : ''}</h3>
             <div class="facts">
               <div><b>${m.charges}</b><span>charges</span></div>
               <div><b>${reach}</b><span>for ${pct(REACH)} of revenue</span></div>
@@ -383,7 +383,7 @@ export async function mountTrees(root: HTMLElement, first: { focus?: string }, o
       return `<th scope="col" ${on ? `aria-sort="${tableSort.dir === 1 ? 'ascending' : 'descending'}"` : ''}><button type="button" data-sort="${c.key}">${esc(c.label)}${on ? (tableSort.dir === 1 ? ' ▲' : ' ▼') : ''}</button></th>`;
     }).join('')}</tr></thead>
     <tbody>${rows
-      .map((e) => `<tr><th scope="row"><button type="button" class="link" data-open="${esc(e.id)}">${esc(e.name)}</button></th>${COLS.slice(1).map((c) => `<td>${esc(c.fmt(c.get(e)))}</td>`).join('')}</tr>`)
+      .map((e) => `<tr><th scope="row"><button type="button" class="link" data-open="${esc(e.id)}">${esc(e.name)}</button>${e.partial ? ' <abbr class="tag" title="Partial folio: part of the taxes or contributions is not itemised">partial</abbr>' : ''}</th>${COLS.slice(1).map((c) => `<td>${esc(c.fmt(c.get(e)))}</td>`).join('')}</tr>`)
       .join('')}</tbody>`;
   };
 
@@ -425,7 +425,7 @@ export async function mountTrees(root: HTMLElement, first: { focus?: string }, o
             )
             .join('')}</ol>
           ${unsized.length ? `<p class="muted">${unsized.length} further ${unsized.length === 1 ? 'charge is' : 'charges are'} drawn without a share of their own (no separate figure, or outside the tax total).</p>` : ''}
-          ${e.partial ? `<p class="muted"><b>Partial folio.</b> Some subnational taxes are not itemised, so counts for those levels are lower bounds.</p>` : ''}
+          ${e.partial ? `<p class="muted"><b>Partial folio.</b> Part of the country’s taxes or contributions is not itemised (the folio’s note says which), so the counts are lower bounds and “itemised” is measured against what the folio does include.</p>` : ''}
           <p class="dlg-actions"><a class="btn primary" href="#/${esc(e.id)}">Open the ${esc(e.name)} folio →</a></p>
         </div>
       </div>`;

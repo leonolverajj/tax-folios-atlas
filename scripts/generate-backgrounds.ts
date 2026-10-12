@@ -99,10 +99,24 @@ const GEO: Record<string, GeoSpec> = {
     keep: (p) => geoCentroid(p)[0] > -76, // continental Chile; Easter Island and Juan Fernández are left out
   },
   'south-korea': { projection: () => geoMercator(), keep: (_p, rel) => rel > 0.002 },
+  ireland: { projection: () => geoMercator(), keep: (_p, rel) => rel > 0.003 },
+  finland: { projection: () => geoConicConformal().parallels([60, 68]).rotate([-26, 0]).center([0, 64.5]), keep: (_p, rel) => rel > 0.003 },
+  netherlands: { projection: () => geoMercator(), keep: (p) => geoCentroid(p)[1] > 40 }, // Europe only; the Caribbean parts lie far away
+  austria: { projection: () => geoMercator() },
+  denmark: { projection: () => geoMercator(), keep: (_p, rel) => rel > 0.003 },
   'new-zealand': {
     projection: () => geoMercator(),
     keep: (p) => geoCentroid(p)[0] > 160, // North and South Island and neighbours; the Chatham Islands lie across the date line
   },
+  // Added with the third batch of folios (2026-10): outlines only, the generic topographic motif.
+  norway: { projection: () => geoMercator(), keep: (p) => geoCentroid(p)[1] < 72 && geoCentroid(p)[1] > 57 }, // the mainland; Svalbard, Jan Mayen and Bouvet are left out
+  portugal: { projection: () => geoMercator(), keep: (p) => geoCentroid(p)[0] > -10 }, // the mainland; the Azores and Madeira are left out
+  sweden: { projection: () => geoMercator(), keep: (_p, rel) => rel > 0.002 },
+  iceland: { projection: () => geoMercator(), keep: (_p, rel) => rel > 0.003 },
+  estonia: { projection: () => geoMercator(), keep: (_p, rel) => rel > 0.003 },
+  greece: { projection: () => geoMercator(), keep: (_p, rel) => rel > 0.002 },
+  croatia: { projection: () => geoMercator(), keep: (_p, rel) => rel > 0.002 },
+  turkiye: { projection: () => geoMercator(), keep: (_p, rel) => rel > 0.003 },
 };
 
 /* --------------------------------------------------------------- motifs */

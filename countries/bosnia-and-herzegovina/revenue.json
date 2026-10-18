@@ -1,0 +1,111 @@
+{
+  "groups": [
+    {
+      "title": "Central government and social security: lines of the IMF series, 2024",
+      "defaults": {
+        "denominatorId": "central-2024",
+        "scale": "million",
+        "currency": "BAM",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Accrual basis, as reported to the IMF (flag AC)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        {
+          "nodeId": "ba-central-g11411",
+          "amount": 8467.868948,
+          "locator": "Series BIH.S1311 + S1314.G1.G11411_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (BAM million)"
+        },
+        {
+          "nodeId": "ba-central-g1211",
+          "amount": 8122.709642,
+          "locator": "Series BIH.S1311 + S1314.G1.G1211_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (BAM million)"
+        },
+        {
+          "nodeId": "ba-central-g1112",
+          "amount": 1136.195408,
+          "locator": "Series BIH.S1311 + S1314.G1.G1112_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (BAM million)"
+        },
+        {
+          "nodeId": "ba-central-g1111",
+          "amount": 874.884404,
+          "locator": "Series BIH.S1311 + S1314.G1.G1111_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (BAM million)"
+        },
+        {
+          "nodeId": "ba-central-g1144",
+          "amount": 135.868937,
+          "locator": "Series BIH.S1311 + S1314.G1.G1144_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (BAM million)"
+        },
+        {
+          "nodeId": "ba-central-g11452",
+          "amount": 110.50103,
+          "locator": "Series BIH.S1311 + S1314.G1.G11452_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (BAM million)"
+        },
+        {
+          "nodeId": "ba-central-g116",
+          "amount": 58.049124,
+          "locator": "Series BIH.S1311 + S1314.G1.G116_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (BAM million)"
+        },
+        {
+          "nodeId": "ba-central-small-social",
+          "amount": 49.585066,
+          "locator": "Series BIH.S1311 + S1314.G1, indicators G1212_T, G1213_T, G121_T:other, XDC, annual, 2024",
+          "calculation": "Sum of 3 lines, each below 0.15% of the total (BAM million)"
+        },
+        {
+          "nodeId": "ba-central-small-tax",
+          "amount": 49.443971,
+          "locator": "Series BIH.S1311 + S1314.G1, indicators G1113_T, G1131_T, G1133_T, G113_T:other, G11413_T, G11414_T, G1143_T, G1146_T, G1151_T, XDC, annual, 2024",
+          "calculation": "Sum of 9 lines, each below 0.15% of the total (BAM million)"
+        },
+        {
+          "nodeId": "ba-central-g11451",
+          "amount": 36.642534,
+          "locator": "Series BIH.S1311 + S1314.G1.G11451_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (BAM million)"
+        }
+      ]
+    },
+    {
+      "title": "Local governments: lines of the IMF series, 2024",
+      "defaults": {
+        "denominatorId": "local-2024",
+        "scale": "million",
+        "currency": "BAM",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Accrual basis, as reported to the IMF (flag AC)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        { "nodeId": "ba-local-g11411", "amount": 958.650859, "locator": "Series BIH.S1313MIXED.G1.G11411_T.XDC.A, 2024" },
+        { "nodeId": "ba-local-g1111", "amount": 283.967784, "locator": "Series BIH.S1313MIXED.G1.G1111_T.XDC.A, 2024" },
+        {
+          "nodeId": "ba-local-g113-other",
+          "amount": 157.907348,
+          "locator": "Series BIH.S1313MIXED.G1.G113_T.XDC.A, 2024, less its reported sub-lines",
+          "calculation": "G113_T less the sum of its reported sub-lines (BAM million)"
+        },
+        {
+          "nodeId": "ba-local-small-tax",
+          "amount": 30.733878,
+          "locator": "Series BIH.S1313MIXED.G1, indicators G1112_T, G1133_T, G11412_T, G11413_T, G11414_T, G1142_T, G11452_T, G116_T, XDC, annual, 2024",
+          "calculation": "Sum of 8 lines, each below 0.15% of the total (BAM million)"
+        }
+      ]
+    }
+  ],
+  "unavailable": []
+}

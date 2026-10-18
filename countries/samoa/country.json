@@ -1,0 +1,52 @@
+{
+  "id": "samoa",
+  "iso3": "WSM",
+  "isoNumeric": "882",
+  "names": { "en": "Samoa", "native": "Samoa", "nativeLang": "en" },
+  "currency": { "code": "WST", "symbol": "T", "name": "Samoan tālā" },
+  "summary": "Samoa is shown at the grain of the IMF’s Government Finance Statistics: the central government and its social security funds, 10 lines of taxes and social contributions for 2023, in WST. The largest line is value added tax (40%), then excises (23%) and customs and other import duties (12%). Taxes on goods and services (VAT, sales taxes, excises, vehicle and similar taxes) make 66% of the total and income taxes 20%; social contributions are 2%. The folio records what each line raised; it does not describe the country’s tax laws, rates or the names of its individual taxes.",
+  "structureNote": "This folio is built from one source, the IMF’s Government Finance Statistics (Statement of Operations), for 2023: the IMFâ€™s general-government series equals its central-government series, so no taxes of sub-national governments are reported. Sub-national governments are not drawn: the IMF series does not report taxes for them in this year. Lines below 0.15% of the total are folded into one “small lines” core per level; lines that the IMF reports only as a parent are drawn as the parent. Rates, legal bases and the names of the individual taxes are not recorded. The IMF labels the series 2023; where the country’s fiscal year is not the calendar year, this is the fiscal year the IMF assigns to 2023. The figures are the IMF’s and have not been compared with the country’s own statistics. There is no OECD level layer for this country in the atlas.",
+  "theme": {
+    "accent": "#d449b4",
+    "accent2": "#ebc2c6",
+    "motif": "topo",
+    "motifNote": "Topographic contour lines over the outline of Samoa (the generic motif).",
+    "mapLabel": { "lon": -172.33333333, "lat": -13.58333333 }
+  },
+  "levels": [
+    {
+      "id": "central",
+      "branch": "national",
+      "names": { "official": "Central government and social security funds", "common": "Central government and social security" },
+      "description": "Central government and social security funds as the IMF’s Government Finance Statistics classify them (sector S1311 + S1314).",
+      "fiscalPower": "This folio records what each line of the IMF’s classification raised; it does not describe which taxes this level may set or keep.",
+      "legalRefs": [{ "sourceId": "imf-gfs-api", "locator": "sector S1311 + S1314" }],
+      "checkedOn": "2026-10-17"
+    }
+  ],
+  "supportingSourceIds": ["imf-gfs-soo"],
+  "denominators": [
+    {
+      "id": "central-2023",
+      "label": "Taxes and social contributions of the central government together with its social security funds, 2023",
+      "definition": "The taxes (GFS 11) and actual social contributions (GFS 12) of the central government together with its social security funds that the IMF reports for 2023, in WST; imputed social contributions are left out.",
+      "levelIds": ["central"],
+      "amount": 697.109046,
+      "scale": "million",
+      "currency": "WST",
+      "period": { "label": "2023", "kind": "calendar-year", "start": "2023-01-01", "end": "2023-12-31" },
+      "sourceId": "imf-gfs-api",
+      "locator": "Series WSM.S1311 + S1314.G1, indicators G11_T and G12_T and their sub-lines, XDC, annual, 2023",
+      "calculation": "Sum of the 10 lines drawn (WST million). The IMF reports 697.109 million for the sector; the lines drawn differ from it by -0 million (rounding between levels of the classification).",
+      "caveat": "The IMF flags the figures for this year as actual. The IMF labels the series 2023; where the country’s fiscal year is not the calendar year, this is the fiscal year the IMF assigns to 2023.",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "sizing": {
+    "label": "Taxes and actual social contributions reported to the IMF, 2023",
+    "definition": "The taxes (GFS 11) and actual social contributions (GFS 12) of the central government together with its social security funds for 2023, as the IMF’s Government Finance Statistics report them in WST. Imputed social contributions are left out; sectors that the IMF series does not report in detail for 2023 are not included.",
+    "componentIds": ["central-2023"]
+  },
+  "researchStatus": "partial",
+  "grain": "harmonised"
+}

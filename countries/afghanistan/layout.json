@@ -1,0 +1,74 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "afghanistan": {
+      "x": 800,
+      "y": 500
+    },
+    "central": {
+      "x": 509,
+      "y": 432
+    },
+    "local": {
+      "x": 1091,
+      "y": 568
+    },
+    "af-central-g1151": {
+      "x": 848,
+      "y": 829
+    },
+    "af-central-g11413": {
+      "x": 573,
+      "y": 885
+    },
+    "af-central-g1111": {
+      "x": 469,
+      "y": 732
+    },
+    "af-central-g1112": {
+      "x": 175,
+      "y": 695
+    },
+    "af-central-g11451": {
+      "x": 289,
+      "y": 519
+    },
+    "af-central-g11452": {
+      "x": 155,
+      "y": 334
+    },
+    "af-central-g1221": {
+      "x": 431,
+      "y": 271
+    },
+    "af-central-g1144": {
+      "x": 528,
+      "y": 88
+    },
+    "af-central-g1113": {
+      "x": 794,
+      "y": 170
+    },
+    "af-central-g1152": {
+      "x": 1072,
+      "y": 88
+    },
+    "af-central-g11414": {
+      "x": 1165,
+      "y": 269
+    },
+    "af-central-small-tax": {
+      "x": 1450,
+      "y": 343
+    },
+    "af-local-small-tax": {
+      "x": 1290,
+      "y": 606
+    }
+  },
+  "radii": {}
+}

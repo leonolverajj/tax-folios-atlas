@@ -1,0 +1,135 @@
+{
+  "groups": [
+    {
+      "title": "Central government and social security: lines of the IMF series, 2024",
+      "defaults": {
+        "denominatorId": "central-2024",
+        "scale": "million",
+        "currency": "ZAR",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Accrual basis, as reported to the IMF (flag AC)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        {
+          "nodeId": "za-central-g1111",
+          "amount": 733176.83984,
+          "locator": "Series ZAF.S1311 + S1314.G1.G1111_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (ZAR million)"
+        },
+        {
+          "nodeId": "za-central-g11411",
+          "amount": 457788.790281,
+          "locator": "Series ZAF.S1311 + S1314.G1.G11411_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (ZAR million)"
+        },
+        {
+          "nodeId": "za-central-g1112",
+          "amount": 367353.065693,
+          "locator": "Series ZAF.S1311 + S1314.G1.G1112_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (ZAR million)"
+        },
+        {
+          "nodeId": "za-central-g1142",
+          "amount": 203134.024934,
+          "locator": "Series ZAF.S1311 + S1314.G1.G1142_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (ZAR million)"
+        },
+        {
+          "nodeId": "za-central-g1151",
+          "amount": 74874.158615,
+          "locator": "Series ZAF.S1311 + S1314.G1.G1151_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (ZAR million)"
+        },
+        {
+          "nodeId": "za-central-g112",
+          "amount": 24447.98914,
+          "locator": "Series ZAF.S1311 + S1314.G1.G112_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (ZAR million)"
+        },
+        {
+          "nodeId": "za-central-g1211",
+          "amount": 23262.447401,
+          "locator": "Series ZAF.S1311 + S1314.G1.G1211_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (ZAR million)"
+        },
+        {
+          "nodeId": "za-central-g11414",
+          "amount": 17324.730845,
+          "locator": "Series ZAF.S1311 + S1314.G1.G11414_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (ZAR million)"
+        },
+        {
+          "nodeId": "za-central-g11452",
+          "amount": 16128.783813,
+          "locator": "Series ZAF.S1311 + S1314.G1.G11452_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (ZAR million)"
+        },
+        {
+          "nodeId": "za-central-g1212",
+          "amount": 15508.298268,
+          "locator": "Series ZAF.S1311 + S1314.G1.G1212_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (ZAR million)"
+        },
+        {
+          "nodeId": "za-central-g1133",
+          "amount": 5180.358436,
+          "locator": "Series ZAF.S1311 + S1314.G1.G1133_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (ZAR million)"
+        },
+        {
+          "nodeId": "za-central-small-tax",
+          "amount": 3239.987617,
+          "locator": "Series ZAF.S1311 + S1314.G1, indicators G1146_T, G1152_T, G1156_T, XDC, annual, 2024",
+          "calculation": "Sum of 3 lines, each below 0.15% of the total (ZAR million)"
+        }
+      ]
+    },
+    {
+      "title": "Regional governments: lines of the IMF series, 2024",
+      "defaults": {
+        "denominatorId": "state-2024",
+        "scale": "million",
+        "currency": "ZAR",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Accrual basis, as reported to the IMF (flag AC)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        { "nodeId": "za-state-g11451", "amount": 18254.433046, "locator": "Series ZAF.S1312MIXED.G1.G11451_T.XDC.A, 2024" },
+        { "nodeId": "za-state-g1144", "amount": 4843.665, "locator": "Series ZAF.S1312MIXED.G1.G1144_T.XDC.A, 2024" },
+        { "nodeId": "za-state-g1142", "amount": 131.707, "locator": "Series ZAF.S1312MIXED.G1.G1142_T.XDC.A, 2024" }
+      ]
+    },
+    {
+      "title": "Local governments: lines of the IMF series, 2024",
+      "defaults": {
+        "denominatorId": "local-2024",
+        "scale": "million",
+        "currency": "ZAR",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Accrual basis, as reported to the IMF (flag AC)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        {
+          "nodeId": "za-local-g113-other",
+          "amount": 100922.041183,
+          "locator": "Series ZAF.S1313MIXED.G1.G113_T.XDC.A, 2024, less its reported sub-lines",
+          "calculation": "G113_T less the sum of its reported sub-lines (ZAR million)"
+        },
+        { "nodeId": "za-local-g11452", "amount": 875.871014, "locator": "Series ZAF.S1313MIXED.G1.G11452_T.XDC.A, 2024" }
+      ]
+    }
+  ],
+  "unavailable": []
+}

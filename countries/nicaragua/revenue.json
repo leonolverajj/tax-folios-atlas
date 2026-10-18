@@ -1,0 +1,27 @@
+{
+  "groups": [
+    {
+      "title": "Budgetary central government: lines of the IMF series, 2024",
+      "defaults": {
+        "denominatorId": "central-2024",
+        "scale": "million",
+        "currency": "NIO",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        { "nodeId": "ni-central-g111", "amount": 64465.8, "locator": "Series NIC.S1311B.G1.G111_T.XDC.A, 2024" },
+        { "nodeId": "ni-central-g11411", "amount": 52121.6, "locator": "Series NIC.S1311B.G1.G11411_T.XDC.A, 2024" },
+        { "nodeId": "ni-central-g1142", "amount": 21970.9, "locator": "Series NIC.S1311B.G1.G1142_T.XDC.A, 2024" },
+        { "nodeId": "ni-central-g1151", "amount": 5589.2, "locator": "Series NIC.S1311B.G1.G1151_T.XDC.A, 2024" },
+        { "nodeId": "ni-central-g116", "amount": 755.7, "locator": "Series NIC.S1311B.G1.G116_T.XDC.A, 2024" },
+        { "nodeId": "ni-central-g1156", "amount": 19.2, "locator": "Series NIC.S1311B.G1.G1156_T.XDC.A, 2024" }
+      ]
+    }
+  ],
+  "unavailable": []
+}

@@ -1,0 +1,60 @@
+{
+  "groups": [
+    {
+      "title": "Central government: lines of the IMF series, 2017",
+      "defaults": {
+        "denominatorId": "central-2017",
+        "scale": "million",
+        "currency": "AFN",
+        "period": { "label": "2017", "kind": "calendar-year", "start": "2017-01-01", "end": "2017-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        { "nodeId": "af-central-g1151", "amount": 44792.708916, "locator": "Series AFG.S1311.G1.G1151_T.XDC.A, 2017" },
+        { "nodeId": "af-central-g11413", "amount": 33071.25086, "locator": "Series AFG.S1311.G1.G11413_T.XDC.A, 2017" },
+        { "nodeId": "af-central-g1111", "amount": 14461.557602, "locator": "Series AFG.S1311.G1.G1111_T.XDC.A, 2017" },
+        { "nodeId": "af-central-g1112", "amount": 12443.491361, "locator": "Series AFG.S1311.G1.G1112_T.XDC.A, 2017" },
+        { "nodeId": "af-central-g11451", "amount": 9984.924198, "locator": "Series AFG.S1311.G1.G11451_T.XDC.A, 2017" },
+        { "nodeId": "af-central-g11452", "amount": 7879.152529, "locator": "Series AFG.S1311.G1.G11452_T.XDC.A, 2017" },
+        { "nodeId": "af-central-g1221", "amount": 3717.293733, "locator": "Series AFG.S1311.G1.G1221_T.XDC.A, 2017" },
+        { "nodeId": "af-central-g1144", "amount": 1758.658895, "locator": "Series AFG.S1311.G1.G1144_T.XDC.A, 2017" },
+        { "nodeId": "af-central-g1113", "amount": 1121.340622, "locator": "Series AFG.S1311.G1.G1113_T.XDC.A, 2017" },
+        { "nodeId": "af-central-g1152", "amount": 1111.620566, "locator": "Series AFG.S1311.G1.G1152_T.XDC.A, 2017" },
+        { "nodeId": "af-central-g11414", "amount": 439.254877, "locator": "Series AFG.S1311.G1.G11414_T.XDC.A, 2017" },
+        {
+          "nodeId": "af-central-small-tax",
+          "amount": 176.698791,
+          "locator": "Series AFG.S1311.G1, indicators G113_T:other, G1146_T, G1155_T, G116_T, XDC, annual, 2017",
+          "calculation": "Sum of 4 lines, each below 0.15% of the total (AFN million)"
+        }
+      ]
+    },
+    {
+      "title": "Local governments: lines of the IMF series, 2017",
+      "defaults": {
+        "denominatorId": "local-2017",
+        "scale": "million",
+        "currency": "AFN",
+        "period": { "label": "2017", "kind": "calendar-year", "start": "2017-01-01", "end": "2017-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        {
+          "nodeId": "af-local-small-tax",
+          "amount": 150.056352,
+          "locator": "Series AFG.S1313MIXED.G1, indicators G1111_T, G113_T:other, G11412_T, G11451_T, G1146_T, G116_T, XDC, annual, 2017",
+          "calculation": "Sum of 6 lines, each below 0.15% of the total (AFN million)"
+        }
+      ]
+    }
+  ],
+  "unavailable": []
+}

@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "republic-of-the-congo": {
+      "x": 800,
+      "y": 500
+    },
+    "central": {
+      "x": 509,
+      "y": 432
+    },
+    "cg-central-g11411": {
+      "x": 849,
+      "y": 742
+    },
+    "cg-central-g1151": {
+      "x": 399,
+      "y": 705
+    },
+    "cg-central-g11414": {
+      "x": 277,
+      "y": 386
+    },
+    "cg-central-g1144": {
+      "x": 697,
+      "y": 177
+    },
+    "cg-central-g113-other": {
+      "x": 1160,
+      "y": 265
+    },
+    "cg-central-g1111": {
+      "x": 518,
+      "y": 898
+    },
+    "cg-central-g121-other": {
+      "x": 127,
+      "y": 561
+    },
+    "cg-central-g112": {
+      "x": 361,
+      "y": 153
+    },
+    "cg-central-g1152": {
+      "x": 1009,
+      "y": 73
+    },
+    "cg-central-g11451": {
+      "x": 1470,
+      "y": 383
+    },
+    "cg-central-g1112": {
+      "x": 870,
+      "y": 899
+    },
+    "cg-central-g122-other": {
+      "x": 127,
+      "y": 845
+    },
+    "cg-central-g1142": {
+      "x": 51,
+      "y": 305
+    },
+    "cg-central-g116": {
+      "x": 622,
+      "y": 32
+    },
+    "cg-central-small-tax": {
+      "x": 1421,
+      "y": 100
+    },
+    "local": {
+      "x": 1091,
+      "y": 568
+    },
+    "cg-local-g11452": {
+      "x": 1232,
+      "y": 427
+    },
+    "cg-local-small-tax": {
+      "x": 1290,
+      "y": 606
+    },
+    "cg-local-g113-other": {
+      "x": 1162,
+      "y": 726
+    }
+  },
+  "radii": {}
+}

@@ -1,0 +1,23 @@
+{
+  "nodes": {
+    "uzbekistan": { "label": "Uzbekistan", "sublabel": "Fiscal folio · IMF lines", "glyph": "globe" },
+    "central": { "label": "Central govt and social funds", "sublabel": "IMF S1311 + S1314", "glyph": "landmark" },
+    "state": { "label": "Regional governments", "sublabel": "IMF S1312", "glyph": "city" },
+    "uz-central-g11411": { "label": "VAT", "sublabel": "Value added", "glyph": "cart" },
+    "uz-central-g1212": { "label": "Social: employers", "sublabel": "Contributions", "glyph": "shield" },
+    "uz-central-g1112": { "label": "Corporate income tax", "sublabel": "Companies", "glyph": "factory" },
+    "uz-central-g1146": { "label": "Other goods and services", "sublabel": "Not elsewhere classified", "glyph": "gear" },
+    "uz-central-g1151": { "label": "Customs duties", "sublabel": "Imports", "glyph": "ship" },
+    "uz-central-g1111": { "label": "Personal income tax", "sublabel": "Individuals", "glyph": "person" },
+    "uz-central-g1142": { "label": "Excises", "sublabel": "Specific goods", "glyph": "flame" },
+    "uz-central-g11452": { "label": "Licences and use taxes", "sublabel": "Permissions", "glyph": "stamp" },
+    "uz-central-g1222": { "label": "Other social: employers", "sublabel": "Government schemes", "glyph": "heart" },
+    "uz-central-g116": { "label": "Other taxes", "sublabel": "Not elsewhere classified", "glyph": "gear" },
+    "uz-state-g1111": { "label": "Personal income tax", "sublabel": "Individuals", "glyph": "person" },
+    "uz-state-g113-other": { "label": "Other property taxes", "sublabel": "Not itemised", "glyph": "house" },
+    "uz-state-g1112": { "label": "Corporate income tax", "sublabel": "Companies", "glyph": "factory" },
+    "uz-state-g1142": { "label": "Excises", "sublabel": "Specific goods", "glyph": "flame" },
+    "uz-state-g11411": { "label": "VAT", "sublabel": "Value added", "glyph": "cart" },
+    "uz-state-g1131": { "label": "Property tax", "sublabel": "Land and buildings", "glyph": "house" }
+  }
+}

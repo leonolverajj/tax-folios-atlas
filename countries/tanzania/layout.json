@@ -1,0 +1,70 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "tanzania": {
+      "x": 800,
+      "y": 500
+    },
+    "central": {
+      "x": 509,
+      "y": 432
+    },
+    "tz-central-g11411": {
+      "x": 849,
+      "y": 728
+    },
+    "tz-central-g1111": {
+      "x": 399,
+      "y": 705
+    },
+    "tz-central-g112": {
+      "x": 317,
+      "y": 391
+    },
+    "tz-central-g1156": {
+      "x": 695,
+      "y": 177
+    },
+    "tz-central-small-tax": {
+      "x": 1160,
+      "y": 266
+    },
+    "tz-central-g1112": {
+      "x": 406,
+      "y": 869
+    },
+    "tz-central-g1142": {
+      "x": 156,
+      "y": 332
+    },
+    "tz-central-g1144": {
+      "x": 898,
+      "y": 56
+    },
+    "tz-central-g1152": {
+      "x": 1492,
+      "y": 461
+    },
+    "tz-central-g1151": {
+      "x": 882,
+      "y": 892
+    },
+    "tz-central-g116": {
+      "x": 68,
+      "y": 673
+    },
+    "tz-central-g11451": {
+      "x": 335,
+      "y": 32
+    },
+    "tz-central-g113-other": {
+      "x": 1425,
+      "y": 103
+    }
+  },
+  "radii": {}
+}

@@ -1,0 +1,30 @@
+{
+  "groups": [
+    {
+      "title": "Budgetary central government: lines of the IMF series, 2023",
+      "defaults": {
+        "denominatorId": "central-2023",
+        "scale": "million",
+        "currency": "GHS",
+        "period": { "label": "2023", "kind": "calendar-year", "start": "2023-01-01", "end": "2023-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        { "nodeId": "gh-central-g1112", "amount": 30127.240265, "locator": "Series GHA.S1311B.G1.G1112_T.XDC.A, 2023" },
+        { "nodeId": "gh-central-g11411", "amount": 25547.2, "locator": "Series GHA.S1311B.G1.G11411_T.XDC.A, 2023" },
+        { "nodeId": "gh-central-g1111", "amount": 16967, "locator": "Series GHA.S1311B.G1.G1111_T.XDC.A, 2023" },
+        { "nodeId": "gh-central-g1151", "amount": 13933.2, "locator": "Series GHA.S1311B.G1.G1151_T.XDC.A, 2023" },
+        { "nodeId": "gh-central-g1146", "amount": 11330.488375, "locator": "Series GHA.S1311B.G1.G1146_T.XDC.A, 2023" },
+        { "nodeId": "gh-central-g1113", "amount": 6600.992672, "locator": "Series GHA.S1311B.G1.G1113_T.XDC.A, 2023" },
+        { "nodeId": "gh-central-g1142", "amount": 5586.8, "locator": "Series GHA.S1311B.G1.G1142_T.XDC.A, 2023" },
+        { "nodeId": "gh-central-g11414", "amount": 1150.9, "locator": "Series GHA.S1311B.G1.G11414_T.XDC.A, 2023" },
+        { "nodeId": "gh-central-g1144", "amount": 663.2, "locator": "Series GHA.S1311B.G1.G1144_T.XDC.A, 2023" }
+      ]
+    }
+  ],
+  "unavailable": []
+}

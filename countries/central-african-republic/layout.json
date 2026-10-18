@@ -1,0 +1,66 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "central-african-republic": {
+      "x": 800,
+      "y": 500
+    },
+    "central": {
+      "x": 509,
+      "y": 432
+    },
+    "cf-central-g11411": {
+      "x": 842,
+      "y": 829
+    },
+    "cf-central-g1142": {
+      "x": 460,
+      "y": 747
+    },
+    "cf-central-g1112": {
+      "x": 289,
+      "y": 518
+    },
+    "cf-central-g11414": {
+      "x": 427,
+      "y": 274
+    },
+    "cf-central-g1144": {
+      "x": 793,
+      "y": 170
+    },
+    "cf-central-g1152": {
+      "x": 1160,
+      "y": 266
+    },
+    "cf-central-g1151": {
+      "x": 586,
+      "y": 883
+    },
+    "cf-central-g1111": {
+      "x": 172,
+      "y": 692
+    },
+    "cf-central-g11452": {
+      "x": 150,
+      "y": 343
+    },
+    "cf-central-g1131": {
+      "x": 530,
+      "y": 87
+    },
+    "cf-central-g1146": {
+      "x": 1080,
+      "y": 90
+    },
+    "cf-central-small-tax": {
+      "x": 1447,
+      "y": 338
+    }
+  },
+  "radii": {}
+}

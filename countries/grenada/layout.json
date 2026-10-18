@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "grenada": {
+      "x": 800,
+      "y": 500
+    },
+    "central": {
+      "x": 509,
+      "y": 432
+    },
+    "gd-central-g11411": {
+      "x": 843,
+      "y": 829
+    },
+    "gd-central-g1112": {
+      "x": 393,
+      "y": 700
+    },
+    "gd-central-g1111": {
+      "x": 315,
+      "y": 387
+    },
+    "gd-central-g113-other": {
+      "x": 694,
+      "y": 177
+    },
+    "gd-central-g1144": {
+      "x": 1166,
+      "y": 270
+    },
+    "gd-central-g1155": {
+      "x": 505,
+      "y": 901
+    },
+    "gd-central-g1151": {
+      "x": 112,
+      "y": 561
+    },
+    "gd-central-g1156": {
+      "x": 360,
+      "y": 154
+    },
+    "gd-central-g1146": {
+      "x": 1011,
+      "y": 73
+    },
+    "gd-central-g116": {
+      "x": 1474,
+      "y": 392
+    }
+  },
+  "radii": {}
+}

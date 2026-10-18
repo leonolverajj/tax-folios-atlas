@@ -1,0 +1,286 @@
+{
+  "instruments": [
+    {
+      "id": "pw-central-g121-other",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "social-contribution",
+      "family": "social-security",
+      "status": "current",
+      "names": { "official": "Social security contributions, not itemised in the IMF series", "common": "Other social security contributions (not itemised)" },
+      "taxes": {
+        "base": "The part of the line “Social security contributions” (GFS G121) that the IMF series does not itemise: the line itself minus its reported sub-lines.",
+        "payer": "Various."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "USD 26.5 million in 2019: 31% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [
+        { "sourceId": "imf-gfs-codes", "locator": "G121" },
+        { "sourceId": "imf-gfs-api", "locator": "Series PLW.S1311 + S1314.G1.G121_T.XDC.A, 2019, less its reported sub-lines" }
+      ],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "pw-central-g11413",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "general-consumption",
+      "status": "current",
+      "names": { "official": "Turnover and other general taxes on goods and services", "common": "Turnover and other general taxes" },
+      "taxes": { "base": "Turnover taxes and other general taxes on goods and services (GFS 11413).", "payer": "Businesses." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "USD 14.1 million in 2019: 16% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [
+        { "sourceId": "imf-gfs-codes", "locator": "G11413" },
+        { "sourceId": "imf-gfs-api", "locator": "Series PLW.S1311 + S1314.G1.G11413_T.XDC.A, 2019" }
+      ],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "pw-central-g1151",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "customs-duty",
+      "family": "trade",
+      "status": "current",
+      "names": { "official": "Customs and other import duties", "common": "Customs and other import duties" },
+      "taxes": { "base": "Duties on imported goods (GFS 1151).", "payer": "Importers." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "USD 12.9 million in 2019: 15% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [
+        { "sourceId": "imf-gfs-codes", "locator": "G1151" },
+        { "sourceId": "imf-gfs-api", "locator": "Series PLW.S1311 + S1314.G1.G1151_T.XDC.A, 2019" }
+      ],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "pw-central-g1111",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "income-personal",
+      "status": "current",
+      "names": { "official": "Taxes on income, profits and capital gains payable by individuals", "common": "Personal income tax" },
+      "taxes": { "base": "Income, profits and capital gains of individuals (GFS 1111).", "payer": "Individuals." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "USD 10.9 million in 2019: 13% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [
+        { "sourceId": "imf-gfs-codes", "locator": "G1111" },
+        { "sourceId": "imf-gfs-api", "locator": "Series PLW.S1311 + S1314.G1.G1111_T.XDC.A, 2019" }
+      ],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "pw-central-g1221",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "social-contribution",
+      "family": "social-security",
+      "status": "current",
+      "names": { "official": "Other social contributions: employee contributions", "common": "Other social contributions of employees" },
+      "taxes": { "base": "Contributions of employees to government employee schemes outside social security (GFS 1221).", "payer": "Government employees." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "USD 8.21 million in 2019: 9.5% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [
+        { "sourceId": "imf-gfs-codes", "locator": "G1221" },
+        { "sourceId": "imf-gfs-api", "locator": "Series PLW.S1311 + S1314.G1.G1221_T.XDC.A, 2019" }
+      ],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "pw-central-g1144",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Taxes on specific services", "common": "Taxes on specific services" },
+      "taxes": {
+        "base": "Taxes on specific services such as insurance, entertainment, lodging and gambling (GFS 1144).",
+        "payer": "Providers of the services."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "USD 7.32 million in 2019: 8.4% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [
+        { "sourceId": "imf-gfs-codes", "locator": "G1144" },
+        { "sourceId": "imf-gfs-api", "locator": "Series PLW.S1311 + S1314.G1.G1144_T.XDC.A, 2019" }
+      ],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "pw-central-g11452",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "other",
+      "status": "current",
+      "names": { "official": "Other taxes on the use of goods and on permission to use goods or perform activities", "common": "Licences and other use taxes" },
+      "taxes": {
+        "base": "Other taxes on the use of goods and on permission to use goods or perform activities (GFS 11452).",
+        "payer": "Holders of the licences."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "USD 1.9 million in 2019: 2.2% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [
+        { "sourceId": "imf-gfs-codes", "locator": "G11452" },
+        { "sourceId": "imf-gfs-api", "locator": "Series PLW.S1311 + S1314.G1.G11452_T.XDC.A, 2019" }
+      ],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "pw-central-g11451",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Motor vehicle taxes", "common": "Motor vehicle taxes" },
+      "taxes": { "base": "Taxes on the ownership or use of motor vehicles (GFS 11451).", "payer": "Vehicle owners and users." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "USD 1.9 million in 2019: 2.2% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [
+        { "sourceId": "imf-gfs-codes", "locator": "G11451" },
+        { "sourceId": "imf-gfs-api", "locator": "Series PLW.S1311 + S1314.G1.G11451_T.XDC.A, 2019" }
+      ],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "pw-central-g112",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "payroll",
+      "status": "current",
+      "names": { "official": "Taxes on payroll and workforce", "common": "Payroll taxes" },
+      "taxes": { "base": "Taxes levied on the wages and salaries paid or on the number of workers (GFS 112).", "payer": "Employers or employees." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "USD 1.44 million in 2019: 1.7% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "imf-gfs-codes", "locator": "G112" }, { "sourceId": "imf-gfs-api", "locator": "Series PLW.S1311 + S1314.G1.G112_T.XDC.A, 2019" }],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "pw-central-g116",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "other",
+      "status": "current",
+      "names": { "official": "Other taxes", "common": "Other taxes" },
+      "taxes": { "base": "Taxes that the classification does not place elsewhere (GFS 116).", "payer": "Various." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "USD 731 thousand in 2019: 0.8% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "imf-gfs-codes", "locator": "G116" }, { "sourceId": "imf-gfs-api", "locator": "Series PLW.S1311 + S1314.G1.G116_T.XDC.A, 2019" }],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "pw-central-g1156",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "trade",
+      "status": "current",
+      "names": { "official": "Other taxes on international trade and transactions", "common": "Other taxes on international trade" },
+      "taxes": { "base": "Other taxes on international trade and transactions (GFS 1156).", "payer": "Importers and exporters." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "USD 585 thousand in 2019: 0.7% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [
+        { "sourceId": "imf-gfs-codes", "locator": "G1156" },
+        { "sourceId": "imf-gfs-api", "locator": "Series PLW.S1311 + S1314.G1.G1156_T.XDC.A, 2019" }
+      ],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "pw-state-small-tax",
+      "parentId": "state",
+      "levelId": "state",
+      "category": "tax",
+      "family": "other",
+      "status": "current",
+      "names": { "official": "Other taxes (small lines)", "common": "Other taxes (small lines)" },
+      "taxes": {
+        "base": "3 lines of the IMF series that are each below 0.15% of the total, folded together: G113:other G113_T:other; G11451 Motor vehicle taxes; G116 Other taxes.",
+        "payer": "Various."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "USD 190 thousand in 2019: 0.2% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [
+        { "sourceId": "imf-gfs-codes", "locator": "small-tax" },
+        { "sourceId": "imf-gfs-api", "locator": "Series PLW.S1312MIXED.G1, indicators G113_T:other, G11451_T, G116_T, XDC, annual, 2019" }
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  ]
+}

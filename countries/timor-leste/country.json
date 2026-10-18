@@ -1,0 +1,52 @@
+{
+  "id": "timor-leste",
+  "iso3": "TLS",
+  "isoNumeric": "626",
+  "names": { "en": "Timor-Leste", "native": "Timor-Leste", "nativeLang": "pt" },
+  "currency": { "code": "USD", "symbol": "$", "name": "United States dollar" },
+  "summary": "Timor-Leste is shown at the grain of the IMF’s Government Finance Statistics: the central government and its social security funds, 9 lines of taxes and social contributions for 2022, in USD. The largest line is corporate income tax (78%), then excises (8.8%) and personal income tax (4.2%). Taxes on goods and services (VAT, sales taxes, excises, vehicle and similar taxes) make 14% of the total and income taxes 82%; the IMF series reports no actual social contributions for this sector. The folio records what each line raised; it does not describe the country’s tax laws, rates or the names of its individual taxes.",
+  "structureNote": "This folio is built from one source, the IMF’s Government Finance Statistics (Statement of Operations), for 2022: the IMFâ€™s general-government series equals its central-government series, so no taxes of sub-national governments are reported. Sub-national governments are not drawn: the IMF series does not report taxes for them in this year. Lines below 0.15% of the total are folded into one “small lines” core per level; lines that the IMF reports only as a parent are drawn as the parent. Rates, legal bases and the names of the individual taxes are not recorded. The IMF labels the series 2022; where the country’s fiscal year is not the calendar year, this is the fiscal year the IMF assigns to 2022. The figures are the IMF’s and have not been compared with the country’s own statistics. There is no OECD level layer for this country in the atlas.",
+  "theme": {
+    "accent": "#78d449",
+    "accent2": "#c2ebcf",
+    "motif": "topo",
+    "motifNote": "Topographic contour lines over the outline of Timor-Leste (the generic motif).",
+    "mapLabel": { "lon": 125.91666666, "lat": -8.83333333 }
+  },
+  "levels": [
+    {
+      "id": "central",
+      "branch": "national",
+      "names": { "official": "Central government", "common": "Central government" },
+      "description": "Central government as the IMF’s Government Finance Statistics classify them (sector S1311).",
+      "fiscalPower": "This folio records what each line of the IMF’s classification raised; it does not describe which taxes this level may set or keep.",
+      "legalRefs": [{ "sourceId": "imf-gfs-api", "locator": "sector S1311" }],
+      "checkedOn": "2026-10-17"
+    }
+  ],
+  "supportingSourceIds": ["imf-gfs-soo"],
+  "denominators": [
+    {
+      "id": "central-2022",
+      "label": "Taxes and social contributions of the central government, 2022",
+      "definition": "The taxes (GFS 11) and actual social contributions (GFS 12) of the central government that the IMF reports for 2022, in USD; imputed social contributions are left out.",
+      "levelIds": ["central"],
+      "amount": 694.441701,
+      "scale": "million",
+      "currency": "USD",
+      "period": { "label": "2022", "kind": "calendar-year", "start": "2022-01-01", "end": "2022-12-31" },
+      "sourceId": "imf-gfs-api",
+      "locator": "Series TLS.S1311.G1, indicators G11_T and G12_T and their sub-lines, XDC, annual, 2022",
+      "calculation": "Sum of the 9 lines drawn (USD million). The IMF reports 694.442 million for the sector; the lines drawn differ from it by -0 million (rounding between levels of the classification).",
+      "caveat": "The IMF flags the figures for this year as actual. The IMF labels the series 2022; where the country’s fiscal year is not the calendar year, this is the fiscal year the IMF assigns to 2022.",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "sizing": {
+    "label": "Taxes and actual social contributions reported to the IMF, 2022",
+    "definition": "The taxes (GFS 11) and actual social contributions (GFS 12) of the central government for 2022, as the IMF’s Government Finance Statistics report them in USD. Imputed social contributions are left out; sectors that the IMF series does not report in detail for 2022 are not included.",
+    "componentIds": ["central-2022"]
+  },
+  "researchStatus": "partial",
+  "grain": "harmonised"
+}

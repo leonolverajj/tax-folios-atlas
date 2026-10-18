@@ -1,0 +1,32 @@
+{
+  "groups": [
+    {
+      "title": "Budgetary central government: lines of the IMF series, 2023",
+      "defaults": {
+        "denominatorId": "central-2023",
+        "scale": "million",
+        "currency": "BWP",
+        "period": { "label": "2023", "kind": "calendar-year", "start": "2023-01-01", "end": "2023-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        { "nodeId": "bw-central-g1151", "amount": 24212.740566, "locator": "Series BWA.S1311B.G1.G1151_T.XDC.A, 2023" },
+        { "nodeId": "bw-central-g1112", "amount": 19317.15, "locator": "Series BWA.S1311B.G1.G1112_T.XDC.A, 2023" },
+        { "nodeId": "bw-central-g11411", "amount": 10126.46, "locator": "Series BWA.S1311B.G1.G11411_T.XDC.A, 2023" },
+        { "nodeId": "bw-central-g1113", "amount": 4773.77, "locator": "Series BWA.S1311B.G1.G1113_T.XDC.A, 2023" },
+        { "nodeId": "bw-central-g11451", "amount": 638.75, "locator": "Series BWA.S1311B.G1.G11451_T.XDC.A, 2023" },
+        {
+          "nodeId": "bw-central-small-tax",
+          "amount": 109.55,
+          "locator": "Series BWA.S1311B.G1, indicators G113_T:other, G11452_T, G1152_T, XDC, annual, 2023",
+          "calculation": "Sum of 3 lines, each below 0.15% of the total (BWP million)"
+        }
+      ]
+    }
+  ],
+  "unavailable": []
+}

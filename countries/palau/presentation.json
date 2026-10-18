@@ -1,0 +1,19 @@
+{
+  "nodes": {
+    "palau": { "label": "Palau", "sublabel": "Fiscal folio · IMF lines", "glyph": "globe" },
+    "central": { "label": "Central govt and social funds", "sublabel": "IMF S1311 + S1314", "glyph": "landmark" },
+    "state": { "label": "Regional governments", "sublabel": "IMF S1312", "glyph": "city" },
+    "pw-central-g121-other": { "label": "Other social security contrib…", "sublabel": "Not itemised", "glyph": "shield" },
+    "pw-central-g11413": { "label": "Turnover taxes", "sublabel": "Other general taxes", "glyph": "percent" },
+    "pw-central-g1151": { "label": "Customs duties", "sublabel": "Imports", "glyph": "ship" },
+    "pw-central-g1111": { "label": "Personal income tax", "sublabel": "Individuals", "glyph": "person" },
+    "pw-central-g1221": { "label": "Other social: employees", "sublabel": "Government schemes", "glyph": "heart" },
+    "pw-central-g1144": { "label": "Taxes on services", "sublabel": "Insurance · lodging · gambling", "glyph": "bed" },
+    "pw-central-g11452": { "label": "Licences and use taxes", "sublabel": "Permissions", "glyph": "stamp" },
+    "pw-central-g11451": { "label": "Motor vehicle taxes", "sublabel": "Ownership · use", "glyph": "car" },
+    "pw-central-g112": { "label": "Payroll taxes", "sublabel": "Wage bill", "glyph": "ledger" },
+    "pw-central-g116": { "label": "Other taxes", "sublabel": "Not elsewhere classified", "glyph": "gear" },
+    "pw-central-g1156": { "label": "Other trade taxes", "sublabel": "Not elsewhere classified", "glyph": "gear" },
+    "pw-state-small-tax": { "label": "Other taxes (small lines)", "sublabel": "3 lines", "glyph": "gear" }
+  }
+}

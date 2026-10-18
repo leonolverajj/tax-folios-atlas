@@ -1,0 +1,130 @@
+{
+  "groups": [
+    {
+      "title": "Central government and social security: lines of the IMF series, 2022",
+      "defaults": {
+        "denominatorId": "central-2022",
+        "scale": "million",
+        "currency": "RSD",
+        "period": { "label": "2022", "kind": "calendar-year", "start": "2022-01-01", "end": "2022-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        {
+          "nodeId": "rs-central-g11411",
+          "amount": 775010.367,
+          "locator": "Series SRB.S1311 + S1314.G1.G11411_T.XDC.A, 2022",
+          "calculation": "Sum of the sectors S1311 + S1314 (RSD million)"
+        },
+        {
+          "nodeId": "rs-central-g1211",
+          "amount": 488786.95,
+          "locator": "Series SRB.S1311 + S1314.G1.G1211_T.XDC.A, 2022",
+          "calculation": "Sum of the sectors S1311 + S1314 (RSD million)"
+        },
+        {
+          "nodeId": "rs-central-g1212",
+          "amount": 373967.251,
+          "locator": "Series SRB.S1311 + S1314.G1.G1212_T.XDC.A, 2022",
+          "calculation": "Sum of the sectors S1311 + S1314 (RSD million)"
+        },
+        {
+          "nodeId": "rs-central-g1142",
+          "amount": 348561.197,
+          "locator": "Series SRB.S1311 + S1314.G1.G1142_T.XDC.A, 2022",
+          "calculation": "Sum of the sectors S1311 + S1314 (RSD million)"
+        },
+        {
+          "nodeId": "rs-central-g1111",
+          "amount": 301090.292,
+          "locator": "Series SRB.S1311 + S1314.G1.G1111_T.XDC.A, 2022",
+          "calculation": "Sum of the sectors S1311 + S1314 (RSD million)"
+        },
+        {
+          "nodeId": "rs-central-g1112",
+          "amount": 209262.711,
+          "locator": "Series SRB.S1311 + S1314.G1.G1112_T.XDC.A, 2022",
+          "calculation": "Sum of the sectors S1311 + S1314 (RSD million)"
+        },
+        {
+          "nodeId": "rs-central-g1151",
+          "amount": 79023.134,
+          "locator": "Series SRB.S1311 + S1314.G1.G1151_T.XDC.A, 2022",
+          "calculation": "Sum of the sectors S1311 + S1314 (RSD million)"
+        },
+        {
+          "nodeId": "rs-central-g1144",
+          "amount": 22844.831,
+          "locator": "Series SRB.S1311 + S1314.G1.G1144_T.XDC.A, 2022",
+          "calculation": "Sum of the sectors S1311 + S1314 (RSD million)"
+        },
+        {
+          "nodeId": "rs-central-g11452",
+          "amount": 14546.229,
+          "locator": "Series SRB.S1311 + S1314.G1.G11452_T.XDC.A, 2022",
+          "calculation": "Sum of the sectors S1311 + S1314 (RSD million)"
+        },
+        {
+          "nodeId": "rs-central-g1146",
+          "amount": 12809.419,
+          "locator": "Series SRB.S1311 + S1314.G1.G1146_T.XDC.A, 2022",
+          "calculation": "Sum of the sectors S1311 + S1314 (RSD million)"
+        },
+        {
+          "nodeId": "rs-central-g11451",
+          "amount": 12241.378,
+          "locator": "Series SRB.S1311 + S1314.G1.G11451_T.XDC.A, 2022",
+          "calculation": "Sum of the sectors S1311 + S1314 (RSD million)"
+        },
+        {
+          "nodeId": "rs-central-g11414",
+          "amount": 4349.509,
+          "locator": "Series SRB.S1311 + S1314.G1.G11414_T.XDC.A, 2022",
+          "calculation": "Sum of the sectors S1311 + S1314 (RSD million)"
+        },
+        {
+          "nodeId": "rs-central-small-tax",
+          "amount": 2711.594,
+          "locator": "Series SRB.S1311 + S1314.G1, indicators G1113_T, G1135_T, XDC, annual, 2022",
+          "calculation": "Sum of 2 lines, each below 0.15% of the total (RSD million)"
+        }
+      ]
+    },
+    {
+      "title": "Local governments: lines of the IMF series, 2022",
+      "defaults": {
+        "denominatorId": "local-2022",
+        "scale": "million",
+        "currency": "RSD",
+        "period": { "label": "2022", "kind": "calendar-year", "start": "2022-01-01", "end": "2022-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        {
+          "nodeId": "rs-local-g113-other",
+          "amount": 52123.951,
+          "locator": "Series SRB.S1313MIXED.G1.G113_T.XDC.A, 2022, less its reported sub-lines",
+          "calculation": "G113_T less the sum of its reported sub-lines (RSD million)"
+        },
+        { "nodeId": "rs-local-g11414", "amount": 13823.49, "locator": "Series SRB.S1313MIXED.G1.G11414_T.XDC.A, 2022" },
+        { "nodeId": "rs-local-g11452", "amount": 9360.089, "locator": "Series SRB.S1313MIXED.G1.G11452_T.XDC.A, 2022" },
+        { "nodeId": "rs-local-g11451", "amount": 4884.398, "locator": "Series SRB.S1313MIXED.G1.G11451_T.XDC.A, 2022" },
+        {
+          "nodeId": "rs-local-small-tax",
+          "amount": 2479.198,
+          "locator": "Series SRB.S1313MIXED.G1, indicators G1133_T, G1135_T, G1144_T, XDC, annual, 2022",
+          "calculation": "Sum of 3 lines, each below 0.15% of the total (RSD million)"
+        }
+      ]
+    }
+  ],
+  "unavailable": []
+}

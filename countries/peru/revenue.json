@@ -1,0 +1,99 @@
+{
+  "groups": [
+    {
+      "title": "Central government and social security: lines of the IMF series, 2021",
+      "defaults": {
+        "denominatorId": "central-2021",
+        "scale": "million",
+        "currency": "PEN",
+        "period": { "label": "2021", "kind": "calendar-year", "start": "2021-01-01", "end": "2021-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        {
+          "nodeId": "pe-central-g11411",
+          "amount": 58274.07653,
+          "locator": "Series PER.S1311 + S1314.G1.G11411_T.XDC.A, 2021",
+          "calculation": "Sum of the sectors S1311 + S1314 (PEN million)"
+        },
+        {
+          "nodeId": "pe-central-g1112",
+          "amount": 38112.264827,
+          "locator": "Series PER.S1311 + S1314.G1.G1112_T.XDC.A, 2021",
+          "calculation": "Sum of the sectors S1311 + S1314 (PEN million)"
+        },
+        {
+          "nodeId": "pe-central-g1111",
+          "amount": 16764.723937,
+          "locator": "Series PER.S1311 + S1314.G1.G1111_T.XDC.A, 2021",
+          "calculation": "Sum of the sectors S1311 + S1314 (PEN million)"
+        },
+        {
+          "nodeId": "pe-central-g116",
+          "amount": 15835.777646,
+          "locator": "Series PER.S1311 + S1314.G1.G116_T.XDC.A, 2021",
+          "calculation": "Sum of the sectors S1311 + S1314 (PEN million)"
+        },
+        {
+          "nodeId": "pe-central-g1212",
+          "amount": 12833.293624,
+          "locator": "Series PER.S1311 + S1314.G1.G1212_T.XDC.A, 2021",
+          "calculation": "Sum of the sectors S1311 + S1314 (PEN million)"
+        },
+        {
+          "nodeId": "pe-central-g1142",
+          "amount": 9138.399452,
+          "locator": "Series PER.S1311 + S1314.G1.G1142_T.XDC.A, 2021",
+          "calculation": "Sum of the sectors S1311 + S1314 (PEN million)"
+        },
+        {
+          "nodeId": "pe-central-g1211",
+          "amount": 5220.8872,
+          "locator": "Series PER.S1311 + S1314.G1.G1211_T.XDC.A, 2021",
+          "calculation": "Sum of the sectors S1311 + S1314 (PEN million)"
+        },
+        {
+          "nodeId": "pe-central-g1151",
+          "amount": 1464.137971,
+          "locator": "Series PER.S1311 + S1314.G1.G1151_T.XDC.A, 2021",
+          "calculation": "Sum of the sectors S1311 + S1314 (PEN million)"
+        },
+        {
+          "nodeId": "pe-central-g11414",
+          "amount": 271.068049,
+          "locator": "Series PER.S1311 + S1314.G1.G11414_T.XDC.A, 2021",
+          "calculation": "Sum of the sectors S1311 + S1314 (PEN million)"
+        }
+      ]
+    },
+    {
+      "title": "Local governments: lines of the IMF series, 2021",
+      "defaults": {
+        "denominatorId": "local-2021",
+        "scale": "million",
+        "currency": "PEN",
+        "period": { "label": "2021", "kind": "calendar-year", "start": "2021-01-01", "end": "2021-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        {
+          "nodeId": "pe-local-g113-other",
+          "amount": 2264.236935,
+          "locator": "Series PER.S1313MIXED.G1.G113_T.XDC.A, 2021, less its reported sub-lines",
+          "calculation": "G113_T less the sum of its reported sub-lines (PEN million)"
+        },
+        { "nodeId": "pe-local-g116", "amount": 738.079246, "locator": "Series PER.S1313MIXED.G1.G116_T.XDC.A, 2021" },
+        { "nodeId": "pe-local-g1131", "amount": 283.768455, "locator": "Series PER.S1313MIXED.G1.G1131_T.XDC.A, 2021" }
+      ]
+    }
+  ],
+  "unavailable": []
+}

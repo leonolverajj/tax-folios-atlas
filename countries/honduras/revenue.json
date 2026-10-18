@@ -1,0 +1,37 @@
+{
+  "groups": [
+    {
+      "title": "Central government and social security: lines of the IMF series, 2020",
+      "defaults": {
+        "denominatorId": "central-2020",
+        "scale": "million",
+        "currency": "HNL",
+        "period": { "label": "2020", "kind": "calendar-year", "start": "2020-01-01", "end": "2020-12-31" },
+        "basis": "Accrual basis, as reported to the IMF (flag AC)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        { "nodeId": "hn-central-g11411", "amount": 35815.291988, "locator": "Series HND.S1321.G1.G11411_T.XDC.A, 2020" },
+        { "nodeId": "hn-central-g1142", "amount": 15901.45041, "locator": "Series HND.S1321.G1.G1142_T.XDC.A, 2020" },
+        { "nodeId": "hn-central-g1112", "amount": 14355.355788, "locator": "Series HND.S1321.G1.G1112_T.XDC.A, 2020" },
+        { "nodeId": "hn-central-g1111", "amount": 11219.041616, "locator": "Series HND.S1321.G1.G1111_T.XDC.A, 2020" },
+        { "nodeId": "hn-central-g1212", "amount": 9372.107981, "locator": "Series HND.S1321.G1.G1212_T.XDC.A, 2020" },
+        { "nodeId": "hn-central-g1222", "amount": 7634.493385, "locator": "Series HND.S1321.G1.G1222_T.XDC.A, 2020" },
+        { "nodeId": "hn-central-g1221", "amount": 3682.14207, "locator": "Series HND.S1321.G1.G1221_T.XDC.A, 2020" },
+        { "nodeId": "hn-central-g1151", "amount": 3436.963191, "locator": "Series HND.S1321.G1.G1151_T.XDC.A, 2020" },
+        { "nodeId": "hn-central-g1211", "amount": 3369.666818, "locator": "Series HND.S1321.G1.G1211_T.XDC.A, 2020" },
+        { "nodeId": "hn-central-g11451", "amount": 2559.723507, "locator": "Series HND.S1321.G1.G11451_T.XDC.A, 2020" },
+        { "nodeId": "hn-central-g11414", "amount": 2343.900945, "locator": "Series HND.S1321.G1.G11414_T.XDC.A, 2020" },
+        { "nodeId": "hn-central-g1132", "amount": 327.505095, "locator": "Series HND.S1321.G1.G1132_T.XDC.A, 2020" },
+        { "nodeId": "hn-central-g1133", "amount": 282.378968, "locator": "Series HND.S1321.G1.G1133_T.XDC.A, 2020" },
+        { "nodeId": "hn-central-g1144", "amount": 243.91249, "locator": "Series HND.S1321.G1.G1144_T.XDC.A, 2020" },
+        { "nodeId": "hn-central-g11452", "amount": 0.368756, "locator": "Series HND.S1321.G1.G11452_T.XDC.A, 2020" },
+        { "nodeId": "hn-central-g1213", "amount": 0.005038, "locator": "Series HND.S1321.G1.G1213_T.XDC.A, 2020" }
+      ]
+    }
+  ],
+  "unavailable": []
+}

@@ -1,0 +1,110 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "burkina-faso": {
+      "x": 800,
+      "y": 500
+    },
+    "central": {
+      "x": 509,
+      "y": 432
+    },
+    "bf-central-g11411": {
+      "x": 847,
+      "y": 746
+    },
+    "bf-central-g1111": {
+      "x": 470,
+      "y": 752
+    },
+    "bf-central-g1113": {
+      "x": 304,
+      "y": 514
+    },
+    "bf-central-g1144": {
+      "x": 426,
+      "y": 275
+    },
+    "bf-central-g113-other": {
+      "x": 794,
+      "y": 170
+    },
+    "bf-central-small-tax": {
+      "x": 1166,
+      "y": 270
+    },
+    "bf-central-g1112": {
+      "x": 513,
+      "y": 900
+    },
+    "bf-central-g1153": {
+      "x": 114,
+      "y": 515
+    },
+    "bf-central-g11414": {
+      "x": 361,
+      "y": 153
+    },
+    "bf-central-g11413": {
+      "x": 1000,
+      "y": 123
+    },
+    "bf-central-g11452": {
+      "x": 1470,
+      "y": 401
+    },
+    "bf-central-g1151": {
+      "x": 880,
+      "y": 903
+    },
+    "bf-central-g1146": {
+      "x": 123,
+      "y": 845
+    },
+    "bf-central-g1211": {
+      "x": 93,
+      "y": 310
+    },
+    "bf-central-g1135": {
+      "x": 619,
+      "y": 32
+    },
+    "bf-central-g1213": {
+      "x": 1428,
+      "y": 105
+    },
+    "bf-central-g1142": {
+      "x": 367,
+      "y": 908
+    },
+    "bf-central-g1212": {
+      "x": 93,
+      "y": 622
+    },
+    "bf-central-g112": {
+      "x": 110,
+      "y": 32
+    },
+    "bf-central-g1143": {
+      "x": 1117,
+      "y": 32
+    },
+    "bf-central-g11412": {
+      "x": 1532,
+      "y": 309
+    },
+    "local": {
+      "x": 1091,
+      "y": 568
+    },
+    "bf-local-small-tax": {
+      "x": 1290,
+      "y": 608
+    }
+  },
+  "radii": {}
+}

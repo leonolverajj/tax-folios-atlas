@@ -1,0 +1,18 @@
+{
+  "nodes": {
+    "togo": { "label": "Togo", "sublabel": "Fiscal folio · IMF lines", "glyph": "globe" },
+    "central": { "label": "Budgetary central govt", "sublabel": "IMF S1311B", "glyph": "landmark" },
+    "tg-central-g11411": { "label": "VAT", "sublabel": "Value added", "glyph": "cart" },
+    "tg-central-g1151": { "label": "Customs duties", "sublabel": "Imports", "glyph": "ship" },
+    "tg-central-g1112": { "label": "Corporate income tax", "sublabel": "Companies", "glyph": "factory" },
+    "tg-central-g1142": { "label": "Excises", "sublabel": "Specific goods", "glyph": "flame" },
+    "tg-central-g1111": { "label": "Personal income tax", "sublabel": "Individuals", "glyph": "person" },
+    "tg-central-g11414": { "label": "Financial transaction taxes", "sublabel": "Transfers · securities", "glyph": "stamp" },
+    "tg-central-g11452": { "label": "Licences and use taxes", "sublabel": "Permissions", "glyph": "stamp" },
+    "tg-central-g1144": { "label": "Taxes on services", "sublabel": "Insurance · lodging · gambling", "glyph": "bed" },
+    "tg-central-g112": { "label": "Payroll taxes", "sublabel": "Wage bill", "glyph": "ledger" },
+    "tg-central-g11451": { "label": "Motor vehicle taxes", "sublabel": "Ownership · use", "glyph": "car" },
+    "tg-central-small-tax": { "label": "Other taxes (small lines)", "sublabel": "4 lines", "glyph": "gear" },
+    "tg-central-g11412": { "label": "Sales taxes", "sublabel": "Single stage", "glyph": "cart" }
+  }
+}

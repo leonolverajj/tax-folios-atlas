@@ -1,0 +1,23 @@
+{
+  "nodes": {
+    "kazakhstan": { "label": "Kazakhstan", "sublabel": "Fiscal folio · IMF lines", "glyph": "globe" },
+    "central": { "label": "Central govt and social funds", "sublabel": "IMF S1311 + S1314", "glyph": "landmark" },
+    "local": { "label": "Local governments", "sublabel": "IMF S1313", "glyph": "town" },
+    "kz-central-g11411": { "label": "VAT", "sublabel": "Value added", "glyph": "cart" },
+    "kz-central-g1112": { "label": "Corporate income tax", "sublabel": "Companies", "glyph": "factory" },
+    "kz-central-g1152": { "label": "Export taxes", "sublabel": "Exports", "glyph": "plane" },
+    "kz-central-g1212": { "label": "Social: employers", "sublabel": "Contributions", "glyph": "shield" },
+    "kz-central-g1151": { "label": "Customs duties", "sublabel": "Imports", "glyph": "ship" },
+    "kz-central-g11452": { "label": "Licences and use taxes", "sublabel": "Permissions", "glyph": "stamp" },
+    "kz-central-g1142": { "label": "Excises", "sublabel": "Specific goods", "glyph": "flame" },
+    "kz-central-small-tax": { "label": "Other taxes (small lines)", "sublabel": "3 lines", "glyph": "gear" },
+    "kz-local-g1111": { "label": "Personal income tax", "sublabel": "Individuals", "glyph": "person" },
+    "kz-local-g112": { "label": "Payroll taxes", "sublabel": "Wage bill", "glyph": "ledger" },
+    "kz-local-g1112": { "label": "Corporate income tax", "sublabel": "Companies", "glyph": "factory" },
+    "kz-local-g1142": { "label": "Excises", "sublabel": "Specific goods", "glyph": "flame" },
+    "kz-local-g113-other": { "label": "Other property taxes", "sublabel": "Not itemised", "glyph": "house" },
+    "kz-local-g11452": { "label": "Licences and use taxes", "sublabel": "Permissions", "glyph": "stamp" },
+    "kz-local-g11451": { "label": "Motor vehicle taxes", "sublabel": "Ownership · use", "glyph": "car" },
+    "kz-local-g116": { "label": "Other taxes", "sublabel": "Not elsewhere classified", "glyph": "gear" }
+  }
+}

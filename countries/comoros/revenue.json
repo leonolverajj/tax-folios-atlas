@@ -1,0 +1,38 @@
+{
+  "groups": [
+    {
+      "title": "Budgetary central government: lines of the IMF series, 2024",
+      "defaults": {
+        "denominatorId": "central-2024",
+        "scale": "million",
+        "currency": "KMF",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        { "nodeId": "km-central-g1142", "amount": 20830.657, "locator": "Series COM.S1311B.G1.G1142_T.XDC.A, 2024" },
+        { "nodeId": "km-central-g1151", "amount": 14863.26, "locator": "Series COM.S1311B.G1.G1151_T.XDC.A, 2024" },
+        { "nodeId": "km-central-g1144", "amount": 6238.8, "locator": "Series COM.S1311B.G1.G1144_T.XDC.A, 2024" },
+        { "nodeId": "km-central-g11412", "amount": 4752.46, "locator": "Series COM.S1311B.G1.G11412_T.XDC.A, 2024" },
+        { "nodeId": "km-central-g1111", "amount": 4228, "locator": "Series COM.S1311B.G1.G1111_T.XDC.A, 2024" },
+        { "nodeId": "km-central-g1112", "amount": 3743, "locator": "Series COM.S1311B.G1.G1112_T.XDC.A, 2024" },
+        {
+          "nodeId": "km-central-g113-other",
+          "amount": 1354.4,
+          "locator": "Series COM.S1311B.G1.G113_T.XDC.A, 2024, less its reported sub-lines",
+          "calculation": "G113_T less the sum of its reported sub-lines (KMF million)"
+        },
+        { "nodeId": "km-central-g11451", "amount": 564.65, "locator": "Series COM.S1311B.G1.G11451_T.XDC.A, 2024" },
+        { "nodeId": "km-central-g1113", "amount": 348, "locator": "Series COM.S1311B.G1.G1113_T.XDC.A, 2024" },
+        { "nodeId": "km-central-g11452", "amount": 237.97, "locator": "Series COM.S1311B.G1.G11452_T.XDC.A, 2024" },
+        { "nodeId": "km-central-g1152", "amount": 226.59, "locator": "Series COM.S1311B.G1.G1152_T.XDC.A, 2024" },
+        { "nodeId": "km-central-g116", "amount": 220.13, "locator": "Series COM.S1311B.G1.G116_T.XDC.A, 2024" }
+      ]
+    }
+  ],
+  "unavailable": []
+}

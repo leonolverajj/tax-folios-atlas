@@ -1,0 +1,40 @@
+{
+  "groups": [
+    {
+      "title": "Central government: lines of the IMF series, 2024",
+      "defaults": {
+        "denominatorId": "central-2024",
+        "scale": "million",
+        "currency": "SCR",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        { "nodeId": "sc-central-g11411", "amount": 3132, "locator": "Series SYC.S1311.G1.G11411_T.XDC.A, 2024" },
+        { "nodeId": "sc-central-g1112", "amount": 2004, "locator": "Series SYC.S1311.G1.G1112_T.XDC.A, 2024" },
+        { "nodeId": "sc-central-g1142", "amount": 1522, "locator": "Series SYC.S1311.G1.G1142_T.XDC.A, 2024" },
+        { "nodeId": "sc-central-g1111", "amount": 1431, "locator": "Series SYC.S1311.G1.G1111_T.XDC.A, 2024" },
+        { "nodeId": "sc-central-g11452", "amount": 390, "locator": "Series SYC.S1311.G1.G11452_T.XDC.A, 2024" },
+        { "nodeId": "sc-central-g1151", "amount": 389, "locator": "Series SYC.S1311.G1.G1151_T.XDC.A, 2024" },
+        { "nodeId": "sc-central-g11414", "amount": 97, "locator": "Series SYC.S1311.G1.G11414_T.XDC.A, 2024" },
+        {
+          "nodeId": "sc-central-g113-other",
+          "amount": 50,
+          "locator": "Series SYC.S1311.G1.G113_T.XDC.A, 2024, less its reported sub-lines",
+          "calculation": "G113_T less the sum of its reported sub-lines (SCR million)"
+        },
+        {
+          "nodeId": "sc-central-small-tax",
+          "amount": 21,
+          "locator": "Series SYC.S1311.G1, indicators G1135_T, G11451_T, XDC, annual, 2024",
+          "calculation": "Sum of 2 lines, each below 0.15% of the total (SCR million)"
+        }
+      ]
+    }
+  ],
+  "unavailable": []
+}

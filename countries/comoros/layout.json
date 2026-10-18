@@ -1,0 +1,66 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "comoros": {
+      "x": 800,
+      "y": 500
+    },
+    "central": {
+      "x": 509,
+      "y": 432
+    },
+    "km-central-g1142": {
+      "x": 844,
+      "y": 829
+    },
+    "km-central-g1144": {
+      "x": 465,
+      "y": 731
+    },
+    "km-central-g1111": {
+      "x": 289,
+      "y": 513
+    },
+    "km-central-g113-other": {
+      "x": 425,
+      "y": 275
+    },
+    "km-central-g1113": {
+      "x": 799,
+      "y": 170
+    },
+    "km-central-g1152": {
+      "x": 1168,
+      "y": 271
+    },
+    "km-central-g1151": {
+      "x": 568,
+      "y": 885
+    },
+    "km-central-g11412": {
+      "x": 168,
+      "y": 685
+    },
+    "km-central-g1112": {
+      "x": 150,
+      "y": 342
+    },
+    "km-central-g11451": {
+      "x": 529,
+      "y": 88
+    },
+    "km-central-g11452": {
+      "x": 1069,
+      "y": 87
+    },
+    "km-central-g116": {
+      "x": 1448,
+      "y": 338
+    }
+  },
+  "radii": {}
+}

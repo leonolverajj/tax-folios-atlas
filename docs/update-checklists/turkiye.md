@@ -1,6 +1,6 @@
 # Update checklist – Türkiye
 
-Generated 2026-10-12 by `npm run checklist`. **Do not edit by hand** – edit the sources in `countries/turkiye/sources.json` and re-run it.
+Generated 2026-10-18 by `npm run checklist`. **Do not edit by hand** – edit the sources in `countries/turkiye/sources.json` and re-run it.
 
 Research status: **partial**. 0 source(s) to check or due, 0 coming up, 7 in total.
 

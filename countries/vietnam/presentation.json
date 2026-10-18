@@ -1,0 +1,14 @@
+{
+  "nodes": {
+    "vietnam": { "label": "Vietnam", "sublabel": "Fiscal folio · IMF lines", "glyph": "globe" },
+    "central": { "label": "Budgetary central govt", "sublabel": "IMF S1311B", "glyph": "landmark" },
+    "vn-central-g1141": { "label": "General consumption taxes", "sublabel": "One line", "glyph": "cart" },
+    "vn-central-g1112": { "label": "Corporate income tax", "sublabel": "Companies", "glyph": "factory" },
+    "vn-central-g1111": { "label": "Personal income tax", "sublabel": "Individuals", "glyph": "person" },
+    "vn-central-g1142": { "label": "Excises", "sublabel": "Specific goods", "glyph": "flame" },
+    "vn-central-g115": { "label": "International trade taxes", "sublabel": "One line", "glyph": "ship" },
+    "vn-central-g1145": { "label": "Use-of-goods taxes", "sublabel": "One line", "glyph": "car" },
+    "vn-central-g1146": { "label": "Other goods and services", "sublabel": "Not elsewhere classified", "glyph": "gear" },
+    "vn-central-g113-other": { "label": "Other property taxes", "sublabel": "Not itemised", "glyph": "house" }
+  }
+}

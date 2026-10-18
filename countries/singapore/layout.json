@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "singapore": {
+      "x": 800,
+      "y": 500
+    },
+    "central": {
+      "x": 509,
+      "y": 432
+    },
+    "sg-central-g1112": {
+      "x": 850,
+      "y": 828
+    },
+    "sg-central-g1111": {
+      "x": 399,
+      "y": 705
+    },
+    "sg-central-g113-other": {
+      "x": 320,
+      "y": 385
+    },
+    "sg-central-g1144": {
+      "x": 684,
+      "y": 179
+    },
+    "sg-central-g1133": {
+      "x": 1160,
+      "y": 266
+    },
+    "sg-central-g1141": {
+      "x": 410,
+      "y": 871
+    },
+    "sg-central-g116": {
+      "x": 152,
+      "y": 338
+    },
+    "sg-central-g1142": {
+      "x": 895,
+      "y": 56
+    },
+    "sg-central-g11451": {
+      "x": 1492,
+      "y": 461
+    }
+  },
+  "radii": {}
+}

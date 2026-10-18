@@ -1,0 +1,66 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "el-salvador": {
+      "x": 800,
+      "y": 500
+    },
+    "central": {
+      "x": 509,
+      "y": 432
+    },
+    "sv-central-g11411": {
+      "x": 833,
+      "y": 829
+    },
+    "sv-central-g1212": {
+      "x": 390,
+      "y": 697
+    },
+    "sv-central-g1151": {
+      "x": 320,
+      "y": 386
+    },
+    "sv-central-g113-other": {
+      "x": 679,
+      "y": 179
+    },
+    "sv-central-g1146": {
+      "x": 1148,
+      "y": 258
+    },
+    "sv-central-g1112": {
+      "x": 401,
+      "y": 867
+    },
+    "sv-central-g1111": {
+      "x": 156,
+      "y": 332
+    },
+    "sv-central-g1142": {
+      "x": 894,
+      "y": 56
+    },
+    "sv-central-g11452": {
+      "x": 1486,
+      "y": 445
+    },
+    "local": {
+      "x": 1091,
+      "y": 568
+    },
+    "sv-local-g1131": {
+      "x": 1261,
+      "y": 498
+    },
+    "sv-local-g1142": {
+      "x": 1214,
+      "y": 700
+    }
+  },
+  "radii": {}
+}

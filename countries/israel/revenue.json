@@ -1,0 +1,135 @@
+{
+  "groups": [
+    {
+      "title": "Central government and social security: lines of the IMF series, 2024",
+      "defaults": {
+        "denominatorId": "central-2024",
+        "scale": "million",
+        "currency": "ILS",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Accrual basis, as reported to the IMF (flag AC)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        {
+          "nodeId": "il-central-g11411",
+          "amount": 143275.8,
+          "locator": "Series ISR.S1311 + S1314.G1.G11411_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (ILS million)"
+        },
+        {
+          "nodeId": "il-central-g1111",
+          "amount": 135248,
+          "locator": "Series ISR.S1311 + S1314.G1.G1111_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (ILS million)"
+        },
+        {
+          "nodeId": "il-central-g1112",
+          "amount": 74495,
+          "locator": "Series ISR.S1311 + S1314.G1.G1112_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (ILS million)"
+        },
+        {
+          "nodeId": "il-central-g1211",
+          "amount": 55112.991767,
+          "locator": "Series ISR.S1311 + S1314.G1.G1211_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (ILS million)"
+        },
+        {
+          "nodeId": "il-central-g1212",
+          "amount": 30628.107233,
+          "locator": "Series ISR.S1311 + S1314.G1.G1212_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (ILS million)"
+        },
+        {
+          "nodeId": "il-central-g11412",
+          "amount": 26669,
+          "locator": "Series ISR.S1311 + S1314.G1.G11412_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (ILS million)"
+        },
+        {
+          "nodeId": "il-central-g1142",
+          "amount": 24385,
+          "locator": "Series ISR.S1311 + S1314.G1.G1142_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (ILS million)"
+        },
+        {
+          "nodeId": "il-central-g1113",
+          "amount": 23258,
+          "locator": "Series ISR.S1311 + S1314.G1.G1113_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (ILS million)"
+        },
+        {
+          "nodeId": "il-central-g112",
+          "amount": 19610,
+          "locator": "Series ISR.S1311 + S1314.G1.G112_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (ILS million)"
+        },
+        {
+          "nodeId": "il-central-g1213",
+          "amount": 13357.3,
+          "locator": "Series ISR.S1311 + S1314.G1.G1213_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (ILS million)"
+        },
+        {
+          "nodeId": "il-central-g11414",
+          "amount": 10200,
+          "locator": "Series ISR.S1311 + S1314.G1.G11414_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (ILS million)"
+        },
+        {
+          "nodeId": "il-central-g11451",
+          "amount": 5931.4,
+          "locator": "Series ISR.S1311 + S1314.G1.G11451_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (ILS million)"
+        },
+        {
+          "nodeId": "il-central-g1151",
+          "amount": 1753,
+          "locator": "Series ISR.S1311 + S1314.G1.G1151_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (ILS million)"
+        },
+        {
+          "nodeId": "il-central-g1146",
+          "amount": 1454.7,
+          "locator": "Series ISR.S1311 + S1314.G1.G1146_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (ILS million)"
+        },
+        {
+          "nodeId": "il-central-g113-other",
+          "amount": 23,
+          "locator": "Series ISR.S1311 + S1314.G1.G113_T.XDC.A, 2024, less its reported sub-lines",
+          "calculation": "G113_T less the sum of its reported sub-lines (ILS million)"
+        }
+      ]
+    },
+    {
+      "title": "Local governments: lines of the IMF series, 2024",
+      "defaults": {
+        "denominatorId": "local-2024",
+        "scale": "million",
+        "currency": "ILS",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Accrual basis, as reported to the IMF (flag AC)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        {
+          "nodeId": "il-local-g113-other",
+          "amount": 34654.696477,
+          "locator": "Series ISR.S1313MIXED.G1.G113_T.XDC.A, 2024, less its reported sub-lines",
+          "calculation": "G113_T less the sum of its reported sub-lines (ILS million)"
+        },
+        { "nodeId": "il-local-g11414", "amount": 9708.767338, "locator": "Series ISR.S1313MIXED.G1.G11414_T.XDC.A, 2024" },
+        { "nodeId": "il-local-g11452", "amount": 2138.136426, "locator": "Series ISR.S1313MIXED.G1.G11452_T.XDC.A, 2024" }
+      ]
+    }
+  ],
+  "unavailable": []
+}

@@ -1,0 +1,25 @@
+{
+  "nodes": {
+    "indonesia": { "label": "Indonesia", "sublabel": "Fiscal folio · IMF lines", "glyph": "globe" },
+    "central": { "label": "Central government", "sublabel": "IMF S1311", "glyph": "landmark" },
+    "state": { "label": "Regional governments", "sublabel": "IMF S1312", "glyph": "city" },
+    "local": { "label": "Local governments", "sublabel": "IMF S1313", "glyph": "town" },
+    "id-central-g11411": { "label": "VAT", "sublabel": "Value added", "glyph": "cart" },
+    "id-central-g1112": { "label": "Corporate income tax", "sublabel": "Companies", "glyph": "factory" },
+    "id-central-g1111": { "label": "Personal income tax", "sublabel": "Individuals", "glyph": "person" },
+    "id-central-g1142": { "label": "Excises", "sublabel": "Specific goods", "glyph": "flame" },
+    "id-central-g1151": { "label": "Customs duties", "sublabel": "Imports", "glyph": "ship" },
+    "id-central-g113-other": { "label": "Other property taxes", "sublabel": "Not itemised", "glyph": "house" },
+    "id-central-g1152": { "label": "Export taxes", "sublabel": "Exports", "glyph": "plane" },
+    "id-central-g116": { "label": "Other taxes", "sublabel": "Not elsewhere classified", "glyph": "gear" },
+    "id-central-g111-other": { "label": "Other income taxes", "sublabel": "Not itemised", "glyph": "coin" },
+    "id-state-g11451": { "label": "Motor vehicle taxes", "sublabel": "Ownership · use", "glyph": "car" },
+    "id-state-g1146": { "label": "Other goods and services", "sublabel": "Not elsewhere classified", "glyph": "gear" },
+    "id-state-g1142": { "label": "Excises", "sublabel": "Specific goods", "glyph": "flame" },
+    "id-state-g1131": { "label": "Property tax", "sublabel": "Land and buildings", "glyph": "house" },
+    "id-state-g1144": { "label": "Taxes on services", "sublabel": "Insurance · lodging · gambling", "glyph": "bed" },
+    "id-local-g1144": { "label": "Taxes on services", "sublabel": "Insurance · lodging · gambling", "glyph": "bed" },
+    "id-local-g1131": { "label": "Property tax", "sublabel": "Land and buildings", "glyph": "house" },
+    "id-local-g1146": { "label": "Other goods and services", "sublabel": "Not elsewhere classified", "glyph": "gear" }
+  }
+}

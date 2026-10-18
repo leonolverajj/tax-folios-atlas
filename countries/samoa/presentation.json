@@ -1,0 +1,16 @@
+{
+  "nodes": {
+    "samoa": { "label": "Samoa", "sublabel": "Fiscal folio · IMF lines", "glyph": "globe" },
+    "central": { "label": "Central govt and social funds", "sublabel": "IMF S1311 + S1314", "glyph": "landmark" },
+    "ws-central-g11411": { "label": "VAT", "sublabel": "Value added", "glyph": "cart" },
+    "ws-central-g1142": { "label": "Excises", "sublabel": "Specific goods", "glyph": "flame" },
+    "ws-central-g1151": { "label": "Customs duties", "sublabel": "Imports", "glyph": "ship" },
+    "ws-central-g1111": { "label": "Personal income tax", "sublabel": "Individuals", "glyph": "person" },
+    "ws-central-g1112": { "label": "Corporate income tax", "sublabel": "Companies", "glyph": "factory" },
+    "ws-central-g1144": { "label": "Taxes on services", "sublabel": "Insurance · lodging · gambling", "glyph": "bed" },
+    "ws-central-g1211": { "label": "Social: employees", "sublabel": "Contributions", "glyph": "shield" },
+    "ws-central-g1212": { "label": "Social: employers", "sublabel": "Contributions", "glyph": "shield" },
+    "ws-central-g121-other": { "label": "Other social security contrib…", "sublabel": "Not itemised", "glyph": "shield" },
+    "ws-central-g1135": { "label": "Capital levies", "sublabel": "One-off", "glyph": "key" }
+  }
+}

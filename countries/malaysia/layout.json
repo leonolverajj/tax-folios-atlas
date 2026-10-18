@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "malaysia": {
+      "x": 800,
+      "y": 500
+    },
+    "central": {
+      "x": 509,
+      "y": 432
+    },
+    "my-central-g1112": {
+      "x": 841,
+      "y": 829
+    },
+    "my-central-g1144": {
+      "x": 397,
+      "y": 703
+    },
+    "my-central-g1142": {
+      "x": 318,
+      "y": 390
+    },
+    "my-central-g116": {
+      "x": 695,
+      "y": 177
+    },
+    "my-central-g1151": {
+      "x": 1158,
+      "y": 264
+    },
+    "my-central-g1111": {
+      "x": 504,
+      "y": 896
+    },
+    "my-central-g11412": {
+      "x": 111,
+      "y": 558
+    },
+    "my-central-g11414": {
+      "x": 360,
+      "y": 154
+    },
+    "my-central-g1146": {
+      "x": 1017,
+      "y": 74
+    },
+    "my-central-g1152": {
+      "x": 1470,
+      "y": 382
+    }
+  },
+  "radii": {}
+}

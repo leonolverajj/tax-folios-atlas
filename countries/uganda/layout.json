@@ -1,0 +1,66 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "uganda": {
+      "x": 800,
+      "y": 500
+    },
+    "central": {
+      "x": 509,
+      "y": 432
+    },
+    "ug-central-g11411": {
+      "x": 852,
+      "y": 828
+    },
+    "ug-central-g1111": {
+      "x": 396,
+      "y": 702
+    },
+    "ug-central-g1151": {
+      "x": 319,
+      "y": 389
+    },
+    "ug-central-g11451": {
+      "x": 697,
+      "y": 177
+    },
+    "ug-central-g1144": {
+      "x": 1163,
+      "y": 268
+    },
+    "ug-central-g1142": {
+      "x": 514,
+      "y": 889
+    },
+    "ug-central-g1112": {
+      "x": 110,
+      "y": 553
+    },
+    "ug-central-g116": {
+      "x": 348,
+      "y": 160
+    },
+    "ug-central-g1113": {
+      "x": 1019,
+      "y": 75
+    },
+    "ug-central-g1152": {
+      "x": 1470,
+      "y": 382
+    },
+    "local": {
+      "x": 1091,
+      "y": 568
+    },
+    "ug-local-small-tax": {
+      "x": 1289,
+      "y": 611
+    }
+  },
+  "radii": {}
+}

@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "bangladesh": {
+      "x": 800,
+      "y": 500
+    },
+    "central": {
+      "x": 509,
+      "y": 432
+    },
+    "bd-central-g11411": {
+      "x": 843,
+      "y": 829
+    },
+    "bd-central-g1151": {
+      "x": 392,
+      "y": 699
+    },
+    "bd-central-g116": {
+      "x": 322,
+      "y": 383
+    },
+    "bd-central-g11451": {
+      "x": 687,
+      "y": 178
+    },
+    "bd-central-small-tax": {
+      "x": 1159,
+      "y": 265
+    },
+    "bd-central-g1112": {
+      "x": 398,
+      "y": 865
+    },
+    "bd-central-g1111": {
+      "x": 152,
+      "y": 338
+    },
+    "bd-central-g1142": {
+      "x": 904,
+      "y": 57
+    },
+    "bd-central-g113-other": {
+      "x": 1492,
+      "y": 459
+    }
+  },
+  "radii": {}
+}

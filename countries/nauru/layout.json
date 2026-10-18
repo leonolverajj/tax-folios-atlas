@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "nauru": {
+      "x": 800,
+      "y": 500
+    },
+    "central": {
+      "x": 509,
+      "y": 432
+    },
+    "nr-central-g1112": {
+      "x": 847,
+      "y": 829
+    },
+    "nr-central-g1151": {
+      "x": 470,
+      "y": 752
+    },
+    "nr-central-g1111": {
+      "x": 289,
+      "y": 518
+    },
+    "nr-central-g11452": {
+      "x": 421,
+      "y": 276
+    },
+    "nr-central-g1144": {
+      "x": 791,
+      "y": 170
+    },
+    "nr-central-g11413": {
+      "x": 1163,
+      "y": 268
+    }
+  },
+  "radii": {}
+}

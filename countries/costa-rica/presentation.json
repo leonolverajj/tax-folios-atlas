@@ -1,0 +1,27 @@
+{
+  "nodes": {
+    "costa-rica": { "label": "Costa Rica", "sublabel": "Fiscal folio · IMF lines", "glyph": "globe" },
+    "central": { "label": "Central govt and social funds", "sublabel": "IMF S1311 + S1314", "glyph": "landmark" },
+    "local": { "label": "Local governments", "sublabel": "IMF S1313", "glyph": "town" },
+    "cr-central-g1212": { "label": "Social: employers", "sublabel": "Contributions", "glyph": "shield" },
+    "cr-central-g11412": { "label": "Sales taxes", "sublabel": "Single stage", "glyph": "cart" },
+    "cr-central-g1211": { "label": "Social: employees", "sublabel": "Contributions", "glyph": "shield" },
+    "cr-central-g1112": { "label": "Corporate income tax", "sublabel": "Companies", "glyph": "factory" },
+    "cr-central-g1142": { "label": "Excises", "sublabel": "Specific goods", "glyph": "flame" },
+    "cr-central-g1111": { "label": "Personal income tax", "sublabel": "Individuals", "glyph": "person" },
+    "cr-central-g1213": { "label": "Social: self-employed", "sublabel": "Contributions", "glyph": "shield" },
+    "cr-central-g1155": { "label": "Exchange taxes", "sublabel": "Foreign exchange", "glyph": "coin" },
+    "cr-central-g1132": { "label": "Net wealth tax", "sublabel": "Wealth", "glyph": "gem" },
+    "cr-central-g1151": { "label": "Customs duties", "sublabel": "Imports", "glyph": "ship" },
+    "cr-central-g121-other": { "label": "Other social security contrib…", "sublabel": "Not itemised", "glyph": "shield" },
+    "cr-central-g1156": { "label": "Other trade taxes", "sublabel": "Not elsewhere classified", "glyph": "gear" },
+    "cr-central-g116": { "label": "Other taxes", "sublabel": "Not elsewhere classified", "glyph": "gear" },
+    "cr-central-g11414": { "label": "Financial transaction taxes", "sublabel": "Transfers · securities", "glyph": "stamp" },
+    "cr-central-g1144": { "label": "Taxes on services", "sublabel": "Insurance · lodging · gambling", "glyph": "bed" },
+    "cr-central-small-tax": { "label": "Other taxes (small lines)", "sublabel": "2 lines", "glyph": "gear" },
+    "cr-local-g113-other": { "label": "Other property taxes", "sublabel": "Not itemised", "glyph": "house" },
+    "cr-local-g1143": { "label": "Fiscal monopoly profits", "sublabel": "State monopolies", "glyph": "bank" },
+    "cr-local-g1144": { "label": "Taxes on services", "sublabel": "Insurance · lodging · gambling", "glyph": "bed" },
+    "cr-local-small-tax": { "label": "Other taxes (small lines)", "sublabel": "7 lines", "glyph": "gear" }
+  }
+}

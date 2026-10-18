@@ -1,0 +1,10 @@
+{
+  "nodes": {
+    "belize": { "label": "Belize", "sublabel": "Fiscal folio · IMF lines", "glyph": "globe" },
+    "central": { "label": "Budgetary central govt", "sublabel": "IMF S1311B", "glyph": "landmark" },
+    "bz-central-g114": { "label": "Goods and services taxes", "sublabel": "One line", "glyph": "cart" },
+    "bz-central-g111": { "label": "Income taxes", "sublabel": "Persons and companies", "glyph": "coin" },
+    "bz-central-g115": { "label": "International trade taxes", "sublabel": "One line", "glyph": "ship" },
+    "bz-central-g113": { "label": "Property taxes", "sublabel": "Land · wealth · estates", "glyph": "house" }
+  }
+}

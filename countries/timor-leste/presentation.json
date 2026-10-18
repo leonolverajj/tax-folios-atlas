@@ -1,0 +1,15 @@
+{
+  "nodes": {
+    "timor-leste": { "label": "Timor-Leste", "sublabel": "Fiscal folio · IMF lines", "glyph": "globe" },
+    "central": { "label": "Central government", "sublabel": "IMF S1311", "glyph": "landmark" },
+    "tl-central-g1112": { "label": "Corporate income tax", "sublabel": "Companies", "glyph": "factory" },
+    "tl-central-g1142": { "label": "Excises", "sublabel": "Specific goods", "glyph": "flame" },
+    "tl-central-g1111": { "label": "Personal income tax", "sublabel": "Individuals", "glyph": "person" },
+    "tl-central-g1151": { "label": "Customs duties", "sublabel": "Imports", "glyph": "ship" },
+    "tl-central-g11412": { "label": "Sales taxes", "sublabel": "Single stage", "glyph": "cart" },
+    "tl-central-g1144": { "label": "Taxes on services", "sublabel": "Insurance · lodging · gambling", "glyph": "bed" },
+    "tl-central-g11411": { "label": "VAT", "sublabel": "Value added", "glyph": "cart" },
+    "tl-central-g11452": { "label": "Licences and use taxes", "sublabel": "Permissions", "glyph": "stamp" },
+    "tl-central-g116": { "label": "Other taxes", "sublabel": "Not elsewhere classified", "glyph": "gear" }
+  }
+}

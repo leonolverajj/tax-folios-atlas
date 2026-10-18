@@ -1,0 +1,52 @@
+{
+  "id": "palestine",
+  "iso3": "PSE",
+  "isoNumeric": "275",
+  "names": { "en": "Palestine", "native": "فلسطين", "nativeLang": "ar" },
+  "currency": { "code": "ILS", "symbol": "₪", "name": "Israeli new shekel" },
+  "summary": "Palestine is shown at the grain of the IMF’s Government Finance Statistics: the central government, 9 lines of taxes and social contributions for 2021, in ILS. The largest line is customs and other import duties (44%), then value added tax (24%) and excises (22%). Taxes on goods and services (VAT, sales taxes, excises, vehicle and similar taxes) make 47% of the total and income taxes 5.8%; the IMF series reports no actual social contributions for this sector. The folio records what each line raised; it does not describe the country’s tax laws, rates or the names of its individual taxes.",
+  "structureNote": "This folio is built from one source, the IMF’s Government Finance Statistics (Statement of Operations), for 2021: central government (S1311). Taxes of regional and local governments and of social security funds that are not in this sector are not drawn, so the folio is partial and every line’s share is a share of this sector’s total only. Lines below 0.15% of the total are folded into one “small lines” core per level; lines that the IMF reports only as a parent are drawn as the parent. Rates, legal bases and the names of the individual taxes are not recorded. The IMF labels the series 2021; where the country’s fiscal year is not the calendar year, this is the fiscal year the IMF assigns to 2021. The figures are the IMF’s and have not been compared with the country’s own statistics. There is no OECD level layer for this country in the atlas.",
+  "theme": {
+    "accent": "#d4d249",
+    "accent2": "#d0ebc2",
+    "motif": "topo",
+    "motifNote": "Topographic contour lines over the outline of Palestine (the generic motif).",
+    "mapLabel": { "lon": 35.2, "lat": 31.9 }
+  },
+  "levels": [
+    {
+      "id": "central",
+      "branch": "national",
+      "names": { "official": "Central government", "common": "Central government" },
+      "description": "Central government as the IMF’s Government Finance Statistics classify them (sector S1311).",
+      "fiscalPower": "This folio records what each line of the IMF’s classification raised; it does not describe which taxes this level may set or keep.",
+      "legalRefs": [{ "sourceId": "imf-gfs-api", "locator": "sector S1311" }],
+      "checkedOn": "2026-10-17"
+    }
+  ],
+  "supportingSourceIds": ["imf-gfs-soo"],
+  "denominators": [
+    {
+      "id": "central-2021",
+      "label": "Taxes and social contributions of the central government, 2021",
+      "definition": "The taxes (GFS 11) and actual social contributions (GFS 12) of the central government that the IMF reports for 2021, in ILS; imputed social contributions are left out.",
+      "levelIds": ["central"],
+      "amount": 3888.830973,
+      "scale": "million",
+      "currency": "ILS",
+      "period": { "label": "2021", "kind": "calendar-year", "start": "2021-01-01", "end": "2021-12-31" },
+      "sourceId": "imf-gfs-api",
+      "locator": "Series WBG.S1311.G1, indicators G11_T and G12_T and their sub-lines, XDC, annual, 2021",
+      "calculation": "Sum of the 9 lines drawn (ILS million). The IMF reports 3,888.831 million for the sector; the lines drawn differ from it by -0 million (rounding between levels of the classification).",
+      "caveat": "The IMF flags the figures for this year as actual. The IMF labels the series 2021; where the country’s fiscal year is not the calendar year, this is the fiscal year the IMF assigns to 2021.",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "sizing": {
+    "label": "Taxes and actual social contributions reported to the IMF, 2021",
+    "definition": "The taxes (GFS 11) and actual social contributions (GFS 12) of the central government for 2021, as the IMF’s Government Finance Statistics report them in ILS. Imputed social contributions are left out; sectors that the IMF series does not report in detail for 2021 are not included.",
+    "componentIds": ["central-2021"]
+  },
+  "researchStatus": "partial",
+  "grain": "harmonised"
+}

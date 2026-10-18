@@ -1,0 +1,156 @@
+{
+  "groups": [
+    {
+      "title": "Central government and social security: lines of the IMF series, 2024",
+      "defaults": {
+        "denominatorId": "central-2024",
+        "scale": "million",
+        "currency": "RUB",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Accrual basis, as reported to the IMF (flag AC)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        {
+          "nodeId": "ru-central-g11411",
+          "amount": 13733820,
+          "locator": "Series RUS.S1311 + S1314.G1.G11411_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (RUB million)"
+        },
+        {
+          "nodeId": "ru-central-g1212",
+          "amount": 12633087,
+          "locator": "Series RUS.S1311 + S1314.G1.G1212_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (RUB million)"
+        },
+        {
+          "nodeId": "ru-central-g1112",
+          "amount": 2630912,
+          "locator": "Series RUS.S1311 + S1314.G1.G1112_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (RUB million)"
+        },
+        {
+          "nodeId": "ru-central-g1151",
+          "amount": 1636271,
+          "locator": "Series RUS.S1311 + S1314.G1.G1151_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (RUB million)"
+        },
+        {
+          "nodeId": "ru-central-g1142",
+          "amount": 1453812,
+          "locator": "Series RUS.S1311 + S1314.G1.G1142_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (RUB million)"
+        },
+        {
+          "nodeId": "ru-central-g11452",
+          "amount": 1093463,
+          "locator": "Series RUS.S1311 + S1314.G1.G11452_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (RUB million)"
+        },
+        {
+          "nodeId": "ru-central-g1152",
+          "amount": 882285,
+          "locator": "Series RUS.S1311 + S1314.G1.G1152_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (RUB million)"
+        },
+        {
+          "nodeId": "ru-central-g1111",
+          "amount": 409912,
+          "locator": "Series RUS.S1311 + S1314.G1.G1111_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (RUB million)"
+        },
+        {
+          "nodeId": "ru-central-g1213",
+          "amount": 289775,
+          "locator": "Series RUS.S1311 + S1314.G1.G1213_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (RUB million)"
+        },
+        {
+          "nodeId": "ru-central-g1113",
+          "amount": 129010,
+          "locator": "Series RUS.S1311 + S1314.G1.G1113_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (RUB million)"
+        },
+        {
+          "nodeId": "ru-central-small-tax",
+          "amount": 26494,
+          "locator": "Series RUS.S1311 + S1314.G1, indicators G11414_T, G11451_T, G1146_T, G1156_T, G116_T, XDC, annual, 2024",
+          "calculation": "Sum of 5 lines, each below 0.15% of the total (RUB million)"
+        },
+        {
+          "nodeId": "ru-central-g1211",
+          "amount": 3357,
+          "locator": "Series RUS.S1311 + S1314.G1.G1211_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (RUB million)"
+        }
+      ]
+    },
+    {
+      "title": "Regional governments: lines of the IMF series, 2024",
+      "defaults": {
+        "denominatorId": "state-2024",
+        "scale": "million",
+        "currency": "RUB",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Accrual basis, as reported to the IMF (flag AC)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        { "nodeId": "ru-state-g1111", "amount": 6244553, "locator": "Series RUS.S1312MIXED.G1.G1111_T.XDC.A, 2024" },
+        { "nodeId": "ru-state-g1112", "amount": 5995781, "locator": "Series RUS.S1312MIXED.G1.G1112_T.XDC.A, 2024" },
+        {
+          "nodeId": "ru-state-g113-other",
+          "amount": 1448106,
+          "locator": "Series RUS.S1312MIXED.G1.G113_T.XDC.A, 2024, less its reported sub-lines",
+          "calculation": "G113_T less the sum of its reported sub-lines (RUB million)"
+        },
+        { "nodeId": "ru-state-g1142", "amount": 1198508, "locator": "Series RUS.S1312MIXED.G1.G1142_T.XDC.A, 2024" },
+        { "nodeId": "ru-state-g1113", "amount": 973940, "locator": "Series RUS.S1312MIXED.G1.G1113_T.XDC.A, 2024" },
+        { "nodeId": "ru-state-g11451", "amount": 206236, "locator": "Series RUS.S1312MIXED.G1.G11451_T.XDC.A, 2024" },
+        {
+          "nodeId": "ru-state-small-tax",
+          "amount": 16282,
+          "locator": "Series RUS.S1312MIXED.G1, indicators G11412_T, G1144_T, G11452_T, G116_T, XDC, annual, 2024",
+          "calculation": "Sum of 4 lines, each below 0.15% of the total (RUB million)"
+        }
+      ]
+    },
+    {
+      "title": "Local governments: lines of the IMF series, 2024",
+      "defaults": {
+        "denominatorId": "local-2024",
+        "scale": "million",
+        "currency": "RUB",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Accrual basis, as reported to the IMF (flag AC)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        { "nodeId": "ru-local-g1111", "amount": 1663125, "locator": "Series RUS.S1313MIXED.G1.G1111_T.XDC.A, 2024" },
+        { "nodeId": "ru-local-g1113", "amount": 347067, "locator": "Series RUS.S1313MIXED.G1.G1113_T.XDC.A, 2024" },
+        {
+          "nodeId": "ru-local-g113-other",
+          "amount": 287615,
+          "locator": "Series RUS.S1313MIXED.G1.G113_T.XDC.A, 2024, less its reported sub-lines",
+          "calculation": "G113_T less the sum of its reported sub-lines (RUB million)"
+        },
+        {
+          "nodeId": "ru-local-small-tax",
+          "amount": 123535,
+          "locator": "Series RUS.S1313MIXED.G1, indicators G1112_T, G11411_T, G1142_T, G1144_T, G11451_T, G11452_T, XDC, annual, 2024",
+          "calculation": "Sum of 6 lines, each below 0.15% of the total (RUB million)"
+        }
+      ]
+    }
+  ],
+  "unavailable": []
+}

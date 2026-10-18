@@ -1,0 +1,20 @@
+{
+  "nodes": {
+    "lebanon": { "label": "Lebanon", "sublabel": "Fiscal folio · IMF lines", "glyph": "globe" },
+    "central": { "label": "Budgetary central govt", "sublabel": "IMF S1311B", "glyph": "landmark" },
+    "lb-central-g11411": { "label": "VAT", "sublabel": "Value added", "glyph": "cart" },
+    "lb-central-g1151": { "label": "Customs duties", "sublabel": "Imports", "glyph": "ship" },
+    "lb-central-g116": { "label": "Other taxes", "sublabel": "Not elsewhere classified", "glyph": "gear" },
+    "lb-central-g1112": { "label": "Corporate income tax", "sublabel": "Companies", "glyph": "factory" },
+    "lb-central-g1142": { "label": "Excises", "sublabel": "Specific goods", "glyph": "flame" },
+    "lb-central-g1143": { "label": "Fiscal monopoly profits", "sublabel": "State monopolies", "glyph": "bank" },
+    "lb-central-g112": { "label": "Payroll taxes", "sublabel": "Wage bill", "glyph": "ledger" },
+    "lb-central-g1131": { "label": "Property tax", "sublabel": "Land and buildings", "glyph": "house" },
+    "lb-central-g1144": { "label": "Taxes on services", "sublabel": "Insurance · lodging · gambling", "glyph": "bed" },
+    "lb-central-g1113": { "label": "Other income taxes", "sublabel": "Not split by payer", "glyph": "coin" },
+    "lb-central-g1133": { "label": "Estate and gift taxes", "sublabel": "Transfers of wealth", "glyph": "scroll" },
+    "lb-central-g113-other": { "label": "Other property taxes", "sublabel": "Not itemised", "glyph": "house" },
+    "lb-central-small-tax": { "label": "Other taxes (small lines)", "sublabel": "2 lines", "glyph": "gear" },
+    "lb-central-g1221": { "label": "Other social: employees", "sublabel": "Government schemes", "glyph": "heart" }
+  }
+}

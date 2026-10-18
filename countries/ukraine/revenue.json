@@ -1,0 +1,125 @@
+{
+  "groups": [
+    {
+      "title": "Central government and social security: lines of the IMF series, 2024",
+      "defaults": {
+        "denominatorId": "central-2024",
+        "scale": "million",
+        "currency": "UAH",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        {
+          "nodeId": "ua-central-g11411",
+          "amount": 734455.4,
+          "locator": "Series UKR.S1311 + S1314.G1.G11411_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (UAH million)"
+        },
+        {
+          "nodeId": "ua-central-g1212",
+          "amount": 541854.5,
+          "locator": "Series UKR.S1311 + S1314.G1.G1212_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (UAH million)"
+        },
+        {
+          "nodeId": "ua-central-g1111",
+          "amount": 326094.9,
+          "locator": "Series UKR.S1311 + S1314.G1.G1111_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (UAH million)"
+        },
+        {
+          "nodeId": "ua-central-g1112",
+          "amount": 271137.4,
+          "locator": "Series UKR.S1311 + S1314.G1.G1112_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (UAH million)"
+        },
+        {
+          "nodeId": "ua-central-g1142",
+          "amount": 210406.4,
+          "locator": "Series UKR.S1311 + S1314.G1.G1142_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (UAH million)"
+        },
+        {
+          "nodeId": "ua-central-g1151",
+          "amount": 47592.4,
+          "locator": "Series UKR.S1311 + S1314.G1.G1151_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (UAH million)"
+        },
+        {
+          "nodeId": "ua-central-g1213",
+          "amount": 12912.3,
+          "locator": "Series UKR.S1311 + S1314.G1.G1213_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (UAH million)"
+        },
+        {
+          "nodeId": "ua-central-g11414",
+          "amount": 9037.8,
+          "locator": "Series UKR.S1311 + S1314.G1.G11414_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (UAH million)"
+        },
+        {
+          "nodeId": "ua-central-g11452",
+          "amount": 5877.6,
+          "locator": "Series UKR.S1311 + S1314.G1.G11452_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (UAH million)"
+        },
+        {
+          "nodeId": "ua-central-g1144",
+          "amount": 4539.8,
+          "locator": "Series UKR.S1311 + S1314.G1.G1144_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (UAH million)"
+        },
+        {
+          "nodeId": "ua-central-small-tax",
+          "amount": 1318.7,
+          "locator": "Series UKR.S1311 + S1314.G1, indicators G1152_T, G1156_T, G116_T, XDC, annual, 2024",
+          "calculation": "Sum of 3 lines, each below 0.15% of the total (UAH million)"
+        },
+        {
+          "nodeId": "ua-central-small-social",
+          "amount": 473.8,
+          "locator": "Series UKR.S1311 + S1314.G1, indicators G1211_T, G121_T:other, XDC, annual, 2024",
+          "calculation": "Sum of 2 lines, each below 0.15% of the total (UAH million)"
+        }
+      ]
+    },
+    {
+      "title": "Local governments: lines of the IMF series, 2024",
+      "defaults": {
+        "denominatorId": "local-2024",
+        "scale": "million",
+        "currency": "UAH",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        { "nodeId": "ua-local-g1111", "amount": 257530.8, "locator": "Series UKR.S1313MIXED.G1.G1111_T.XDC.A, 2024" },
+        { "nodeId": "ua-local-g116", "amount": 69129.2, "locator": "Series UKR.S1313MIXED.G1.G116_T.XDC.A, 2024" },
+        { "nodeId": "ua-local-g1142", "amount": 27838.2, "locator": "Series UKR.S1313MIXED.G1.G1142_T.XDC.A, 2024" },
+        { "nodeId": "ua-local-g1112", "amount": 27834.8, "locator": "Series UKR.S1313MIXED.G1.G1112_T.XDC.A, 2024" },
+        {
+          "nodeId": "ua-local-g113-other",
+          "amount": 23740.9,
+          "locator": "Series UKR.S1313MIXED.G1.G113_T.XDC.A, 2024, less its reported sub-lines",
+          "calculation": "G113_T less the sum of its reported sub-lines (UAH million)"
+        },
+        {
+          "nodeId": "ua-local-small-tax",
+          "amount": 3564.3,
+          "locator": "Series UKR.S1313MIXED.G1, indicators G1113_T, G1131_T, G1144_T, G11451_T, G11452_T, XDC, annual, 2024",
+          "calculation": "Sum of 5 lines, each below 0.15% of the total (UAH million)"
+        }
+      ]
+    }
+  ],
+  "unavailable": []
+}

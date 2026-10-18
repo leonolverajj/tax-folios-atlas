@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "tuvalu": {
+      "x": 800,
+      "y": 500
+    },
+    "central": {
+      "x": 509,
+      "y": 432
+    },
+    "tv-central-g11452": {
+      "x": 847,
+      "y": 829
+    },
+    "tv-central-g1112": {
+      "x": 316,
+      "y": 607
+    },
+    "tv-central-g11411": {
+      "x": 536,
+      "y": 217
+    },
+    "tv-central-g1144": {
+      "x": 1159,
+      "y": 265
+    },
+    "tv-central-g1111": {
+      "x": 229,
+      "y": 755
+    },
+    "tv-central-g1151": {
+      "x": 690,
+      "y": 58
+    },
+    "tv-central-g1142": {
+      "x": 1472,
+      "y": 612
+    }
+  },
+  "radii": {}
+}

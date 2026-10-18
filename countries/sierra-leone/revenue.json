@@ -1,0 +1,27 @@
+{
+  "groups": [
+    {
+      "title": "Budgetary central government: lines of the IMF series, 2018",
+      "defaults": {
+        "denominatorId": "central-2018",
+        "scale": "million",
+        "currency": "SLL",
+        "period": { "label": "2018", "kind": "calendar-year", "start": "2018-01-01", "end": "2018-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        { "nodeId": "sl-central-g1111", "amount": 2263836, "locator": "Series SLE.S1311B.G1.G1111_T.XDC.A, 2018" },
+        { "nodeId": "sl-central-g11412", "amount": 886384, "locator": "Series SLE.S1311B.G1.G11412_T.XDC.A, 2018" },
+        { "nodeId": "sl-central-g1151", "amount": 650486, "locator": "Series SLE.S1311B.G1.G1151_T.XDC.A, 2018" },
+        { "nodeId": "sl-central-g1112", "amount": 438331, "locator": "Series SLE.S1311B.G1.G1112_T.XDC.A, 2018" },
+        { "nodeId": "sl-central-g1142", "amount": 358033, "locator": "Series SLE.S1311B.G1.G1142_T.XDC.A, 2018" },
+        { "nodeId": "sl-central-g11451", "amount": 54194, "locator": "Series SLE.S1311B.G1.G11451_T.XDC.A, 2018" }
+      ]
+    }
+  ],
+  "unavailable": []
+}

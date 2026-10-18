@@ -1,0 +1,118 @@
+{
+  "groups": [
+    {
+      "title": "Central government and social security: lines of the IMF series, 2024",
+      "defaults": {
+        "denominatorId": "central-2024",
+        "scale": "million",
+        "currency": "PYG",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        {
+          "nodeId": "py-central-g11411",
+          "amount": 19384768.103231,
+          "locator": "Series PRY.S1311 + S1314.G1.G11411_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (PYG million)"
+        },
+        {
+          "nodeId": "py-central-g1112",
+          "amount": 10083287.445997,
+          "locator": "Series PRY.S1311 + S1314.G1.G1112_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (PYG million)"
+        },
+        {
+          "nodeId": "py-central-g1212",
+          "amount": 5615748.240748,
+          "locator": "Series PRY.S1311 + S1314.G1.G1212_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (PYG million)"
+        },
+        {
+          "nodeId": "py-central-g1211",
+          "amount": 4508342.473253,
+          "locator": "Series PRY.S1311 + S1314.G1.G1211_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (PYG million)"
+        },
+        {
+          "nodeId": "py-central-g1142",
+          "amount": 3720980.29912,
+          "locator": "Series PRY.S1311 + S1314.G1.G1142_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (PYG million)"
+        },
+        {
+          "nodeId": "py-central-g1151",
+          "amount": 3679576.058189,
+          "locator": "Series PRY.S1311 + S1314.G1.G1151_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (PYG million)"
+        },
+        {
+          "nodeId": "py-central-g1221",
+          "amount": 3170339.024969,
+          "locator": "Series PRY.S1311 + S1314.G1.G1221_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (PYG million)"
+        },
+        {
+          "nodeId": "py-central-g116",
+          "amount": 757690.780603,
+          "locator": "Series PRY.S1311 + S1314.G1.G116_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (PYG million)"
+        },
+        {
+          "nodeId": "py-central-g1111",
+          "amount": 498885.555321,
+          "locator": "Series PRY.S1311 + S1314.G1.G1111_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (PYG million)"
+        },
+        {
+          "nodeId": "py-central-g11412",
+          "amount": 159480.219489,
+          "locator": "Series PRY.S1311 + S1314.G1.G11412_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (PYG million)"
+        },
+        {
+          "nodeId": "py-central-g1113",
+          "amount": 48710.289303,
+          "locator": "Series PRY.S1311 + S1314.G1.G1113_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (PYG million)"
+        }
+      ]
+    },
+    {
+      "title": "Local governments: lines of the IMF series, 2024",
+      "defaults": {
+        "denominatorId": "local-2024",
+        "scale": "million",
+        "currency": "PYG",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        {
+          "nodeId": "py-local-g113-other",
+          "amount": 559358.75325,
+          "locator": "Series PRY.S1313MIXED.G1.G113_T.XDC.A, 2024, less its reported sub-lines",
+          "calculation": "G113_T less the sum of its reported sub-lines (PYG million)"
+        },
+        { "nodeId": "py-local-g11452", "amount": 379274.739897, "locator": "Series PRY.S1313MIXED.G1.G11452_T.XDC.A, 2024" },
+        { "nodeId": "py-local-g11451", "amount": 128429.030515, "locator": "Series PRY.S1313MIXED.G1.G11451_T.XDC.A, 2024" },
+        {
+          "nodeId": "py-local-small-tax",
+          "amount": 109590.892359,
+          "locator": "Series PRY.S1313MIXED.G1, indicators G1131_T, G1135_T, G1142_T, G1144_T, G1146_T, XDC, annual, 2024",
+          "calculation": "Sum of 5 lines, each below 0.15% of the total (PYG million)"
+        },
+        { "nodeId": "py-local-g116", "amount": 104465.116483, "locator": "Series PRY.S1313MIXED.G1.G116_T.XDC.A, 2024" }
+      ]
+    }
+  ],
+  "unavailable": []
+}

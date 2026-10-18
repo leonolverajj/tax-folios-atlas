@@ -1,0 +1,13 @@
+{
+  "nodes": {
+    "ethiopia": { "label": "Ethiopia", "sublabel": "Fiscal folio · IMF lines", "glyph": "globe" },
+    "central": { "label": "Budgetary central govt", "sublabel": "IMF S1311B", "glyph": "landmark" },
+    "et-central-g11411": { "label": "VAT", "sublabel": "Value added", "glyph": "cart" },
+    "et-central-g1151": { "label": "Customs duties", "sublabel": "Imports", "glyph": "ship" },
+    "et-central-g1112": { "label": "Corporate income tax", "sublabel": "Companies", "glyph": "factory" },
+    "et-central-g1111": { "label": "Personal income tax", "sublabel": "Individuals", "glyph": "person" },
+    "et-central-g1142": { "label": "Excises", "sublabel": "Specific goods", "glyph": "flame" },
+    "et-central-g116": { "label": "Other taxes", "sublabel": "Not elsewhere classified", "glyph": "gear" },
+    "et-central-small-tax": { "label": "Other taxes (small lines)", "sublabel": "3 lines", "glyph": "gear" }
+  }
+}

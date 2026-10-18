@@ -1,0 +1,53 @@
+{
+  "groups": [
+    {
+      "title": "Central government: lines of the IMF series, 2024",
+      "defaults": {
+        "denominatorId": "central-2024",
+        "scale": "million",
+        "currency": "UGX",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        { "nodeId": "ug-central-g11411", "amount": 7209608.509892, "locator": "Series UGA.S1311.G1.G11411_T.XDC.A, 2024" },
+        { "nodeId": "ug-central-g1142", "amount": 5617271.553308, "locator": "Series UGA.S1311.G1.G1142_T.XDC.A, 2024" },
+        { "nodeId": "ug-central-g1111", "amount": 4959742.536313, "locator": "Series UGA.S1311.G1.G1111_T.XDC.A, 2024" },
+        { "nodeId": "ug-central-g1112", "amount": 4915931.25516, "locator": "Series UGA.S1311.G1.G1112_T.XDC.A, 2024" },
+        { "nodeId": "ug-central-g1151", "amount": 2559760.974298, "locator": "Series UGA.S1311.G1.G1151_T.XDC.A, 2024" },
+        { "nodeId": "ug-central-g116", "amount": 121014.416485, "locator": "Series UGA.S1311.G1.G116_T.XDC.A, 2024" },
+        { "nodeId": "ug-central-g11451", "amount": 116379.119196, "locator": "Series UGA.S1311.G1.G11451_T.XDC.A, 2024" },
+        { "nodeId": "ug-central-g1113", "amount": 103564.843699, "locator": "Series UGA.S1311.G1.G1113_T.XDC.A, 2024" },
+        { "nodeId": "ug-central-g1144", "amount": 98307.133398, "locator": "Series UGA.S1311.G1.G1144_T.XDC.A, 2024" },
+        { "nodeId": "ug-central-g1152", "amount": 17657.855049, "locator": "Series UGA.S1311.G1.G1152_T.XDC.A, 2024" }
+      ]
+    },
+    {
+      "title": "Local governments: lines of the IMF series, 2024",
+      "defaults": {
+        "denominatorId": "local-2024",
+        "scale": "million",
+        "currency": "UGX",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        {
+          "nodeId": "ug-local-small-tax",
+          "amount": 76284.147375,
+          "locator": "Series UGA.S1313MIXED.G1, indicators G1131_T, G11413_T, G116_T, XDC, annual, 2024",
+          "calculation": "Sum of 3 lines, each below 0.15% of the total (UGX million)"
+        }
+      ]
+    }
+  ],
+  "unavailable": []
+}

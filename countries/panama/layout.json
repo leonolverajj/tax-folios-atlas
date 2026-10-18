@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "panama": {
+      "x": 800,
+      "y": 500
+    },
+    "central": {
+      "x": 509,
+      "y": 432
+    },
+    "pa-central-g1112": {
+      "x": 846,
+      "y": 829
+    },
+    "pa-central-g1144": {
+      "x": 467,
+      "y": 743
+    },
+    "pa-central-g1151": {
+      "x": 289,
+      "y": 518
+    },
+    "pa-central-g113-other": {
+      "x": 427,
+      "y": 274
+    },
+    "pa-central-g11414": {
+      "x": 790,
+      "y": 170
+    },
+    "pa-central-g116": {
+      "x": 1158,
+      "y": 264
+    },
+    "pa-central-g11411": {
+      "x": 502,
+      "y": 891
+    },
+    "pa-central-g1142": {
+      "x": 112,
+      "y": 563
+    },
+    "pa-central-g1113": {
+      "x": 352,
+      "y": 158
+    },
+    "pa-central-g11452": {
+      "x": 1001,
+      "y": 71
+    },
+    "pa-central-g1111": {
+      "x": 1471,
+      "y": 386
+    }
+  },
+  "radii": {}
+}

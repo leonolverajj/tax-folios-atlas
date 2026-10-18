@@ -1,0 +1,12 @@
+{
+  "nodes": {
+    "micronesia": { "label": "Micronesia", "sublabel": "Fiscal folio · IMF lines", "glyph": "globe" },
+    "central": { "label": "Budgetary central govt", "sublabel": "IMF S1311B", "glyph": "landmark" },
+    "fm-central-g1112": { "label": "Corporate income tax", "sublabel": "Companies", "glyph": "factory" },
+    "fm-central-g1151": { "label": "Customs duties", "sublabel": "Imports", "glyph": "ship" },
+    "fm-central-g1111": { "label": "Personal income tax", "sublabel": "Individuals", "glyph": "person" },
+    "fm-central-g11413": { "label": "Turnover taxes", "sublabel": "Other general taxes", "glyph": "percent" },
+    "fm-central-g116": { "label": "Other taxes", "sublabel": "Not elsewhere classified", "glyph": "gear" },
+    "fm-central-g11452": { "label": "Licences and use taxes", "sublabel": "Permissions", "glyph": "stamp" }
+  }
+}

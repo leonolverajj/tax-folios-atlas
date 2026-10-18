@@ -1,0 +1,74 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "lebanon": {
+      "x": 800,
+      "y": 500
+    },
+    "central": {
+      "x": 509,
+      "y": 432
+    },
+    "lb-central-g11411": {
+      "x": 840,
+      "y": 752
+    },
+    "lb-central-g1112": {
+      "x": 393,
+      "y": 700
+    },
+    "lb-central-g112": {
+      "x": 319,
+      "y": 387
+    },
+    "lb-central-g1113": {
+      "x": 689,
+      "y": 178
+    },
+    "lb-central-small-tax": {
+      "x": 1161,
+      "y": 266
+    },
+    "lb-central-g1151": {
+      "x": 506,
+      "y": 905
+    },
+    "lb-central-g1142": {
+      "x": 111,
+      "y": 556
+    },
+    "lb-central-g1131": {
+      "x": 357,
+      "y": 155
+    },
+    "lb-central-g1133": {
+      "x": 1010,
+      "y": 73
+    },
+    "lb-central-g1221": {
+      "x": 1472,
+      "y": 387
+    },
+    "lb-central-g116": {
+      "x": 874,
+      "y": 907
+    },
+    "lb-central-g1143": {
+      "x": 119,
+      "y": 681
+    },
+    "lb-central-g1144": {
+      "x": 349,
+      "y": 36
+    },
+    "lb-central-g113-other": {
+      "x": 1424,
+      "y": 102
+    }
+  },
+  "radii": {}
+}

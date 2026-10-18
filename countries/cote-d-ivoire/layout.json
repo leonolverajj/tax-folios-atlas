@@ -1,0 +1,106 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "cote-d-ivoire": {
+      "x": 800,
+      "y": 500
+    },
+    "central": {
+      "x": 509,
+      "y": 432
+    },
+    "ci-central-g11411": {
+      "x": 841,
+      "y": 748
+    },
+    "ci-central-g1111": {
+      "x": 395,
+      "y": 702
+    },
+    "ci-central-g1144": {
+      "x": 310,
+      "y": 384
+    },
+    "ci-central-g11452": {
+      "x": 692,
+      "y": 177
+    },
+    "ci-central-g112": {
+      "x": 1159,
+      "y": 265
+    },
+    "ci-central-g1112": {
+      "x": 514,
+      "y": 898
+    },
+    "ci-central-g1142": {
+      "x": 112,
+      "y": 522
+    },
+    "ci-central-g11413": {
+      "x": 353,
+      "y": 157
+    },
+    "ci-central-g11414": {
+      "x": 977,
+      "y": 72
+    },
+    "ci-central-g1143": {
+      "x": 1469,
+      "y": 401
+    },
+    "ci-central-g1152": {
+      "x": 875,
+      "y": 900
+    },
+    "ci-central-g1211": {
+      "x": 103,
+      "y": 844
+    },
+    "ci-central-g1212": {
+      "x": 93,
+      "y": 306
+    },
+    "ci-central-g11451": {
+      "x": 618,
+      "y": 32
+    },
+    "ci-central-g1146": {
+      "x": 1421,
+      "y": 101
+    },
+    "ci-central-g1151": {
+      "x": 346,
+      "y": 905
+    },
+    "ci-central-g113-other": {
+      "x": 106,
+      "y": 632
+    },
+    "ci-central-g1113": {
+      "x": 111,
+      "y": 32
+    },
+    "ci-central-g116": {
+      "x": 1150,
+      "y": 32
+    },
+    "ci-central-g11412": {
+      "x": 1532,
+      "y": 310
+    },
+    "local": {
+      "x": 1091,
+      "y": 568
+    },
+    "ci-local-small-tax": {
+      "x": 1290,
+      "y": 609
+    }
+  },
+  "radii": {}
+}

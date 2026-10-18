@@ -1,0 +1,13 @@
+{
+  "nodes": {
+    "tuvalu": { "label": "Tuvalu", "sublabel": "Fiscal folio · IMF lines", "glyph": "globe" },
+    "central": { "label": "Budgetary central govt", "sublabel": "IMF S1311B", "glyph": "landmark" },
+    "tv-central-g11452": { "label": "Licences and use taxes", "sublabel": "Permissions", "glyph": "stamp" },
+    "tv-central-g1111": { "label": "Personal income tax", "sublabel": "Individuals", "glyph": "person" },
+    "tv-central-g1112": { "label": "Corporate income tax", "sublabel": "Companies", "glyph": "factory" },
+    "tv-central-g1151": { "label": "Customs duties", "sublabel": "Imports", "glyph": "ship" },
+    "tv-central-g11411": { "label": "VAT", "sublabel": "Value added", "glyph": "cart" },
+    "tv-central-g1142": { "label": "Excises", "sublabel": "Specific goods", "glyph": "flame" },
+    "tv-central-g1144": { "label": "Taxes on services", "sublabel": "Insurance · lodging · gambling", "glyph": "bed" }
+  }
+}

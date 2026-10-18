@@ -1,0 +1,36 @@
+{
+  "groups": [
+    {
+      "title": "Budgetary central government: lines of the IMF series, 2020",
+      "defaults": {
+        "denominatorId": "central-2020",
+        "scale": "million",
+        "currency": "BTN",
+        "period": { "label": "2020", "kind": "calendar-year", "start": "2020-01-01", "end": "2020-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        { "nodeId": "bt-central-g1112", "amount": 8650.586, "locator": "Series BTN.S1311B.G1.G1112_T.XDC.A, 2020" },
+        { "nodeId": "bt-central-g11412", "amount": 4921.765, "locator": "Series BTN.S1311B.G1.G11412_T.XDC.A, 2020" },
+        { "nodeId": "bt-central-g11452", "amount": 3854.719, "locator": "Series BTN.S1311B.G1.G11452_T.XDC.A, 2020" },
+        { "nodeId": "bt-central-g1111", "amount": 2290.702, "locator": "Series BTN.S1311B.G1.G1111_T.XDC.A, 2020" },
+        { "nodeId": "bt-central-g1156", "amount": 1108.213, "locator": "Series BTN.S1311B.G1.G1156_T.XDC.A, 2020" },
+        { "nodeId": "bt-central-g1142", "amount": 802.988, "locator": "Series BTN.S1311B.G1.G1142_T.XDC.A, 2020" },
+        { "nodeId": "bt-central-g1151", "amount": 467.997, "locator": "Series BTN.S1311B.G1.G1151_T.XDC.A, 2020" },
+        { "nodeId": "bt-central-g1221", "amount": 287.621, "locator": "Series BTN.S1311B.G1.G1221_T.XDC.A, 2020" },
+        { "nodeId": "bt-central-g11451", "amount": 227.452, "locator": "Series BTN.S1311B.G1.G11451_T.XDC.A, 2020" },
+        {
+          "nodeId": "bt-central-small-tax",
+          "amount": 46.812,
+          "locator": "Series BTN.S1311B.G1, indicators G113_T:other, G11414_T, G116_T, XDC, annual, 2020",
+          "calculation": "Sum of 3 lines, each below 0.15% of the total (BTN million)"
+        }
+      ]
+    }
+  ],
+  "unavailable": []
+}

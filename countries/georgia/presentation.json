@@ -1,0 +1,14 @@
+{
+  "nodes": {
+    "georgia": { "label": "Georgia", "sublabel": "Fiscal folio · IMF lines", "glyph": "globe" },
+    "central": { "label": "Central government", "sublabel": "IMF S1311", "glyph": "landmark" },
+    "local": { "label": "Local governments", "sublabel": "IMF S1313", "glyph": "town" },
+    "ge-central-g11411": { "label": "VAT", "sublabel": "Value added", "glyph": "cart" },
+    "ge-central-g1111": { "label": "Personal income tax", "sublabel": "Individuals", "glyph": "person" },
+    "ge-central-g1112": { "label": "Corporate income tax", "sublabel": "Companies", "glyph": "factory" },
+    "ge-central-g1142": { "label": "Excises", "sublabel": "Specific goods", "glyph": "flame" },
+    "ge-central-g1151": { "label": "Customs duties", "sublabel": "Imports", "glyph": "ship" },
+    "ge-central-g116": { "label": "Other taxes", "sublabel": "Not elsewhere classified", "glyph": "gear" },
+    "ge-local-g113-other": { "label": "Other property taxes", "sublabel": "Not itemised", "glyph": "house" }
+  }
+}

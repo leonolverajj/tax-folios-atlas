@@ -1,0 +1,62 @@
+{
+  "groups": [
+    {
+      "title": "Central government: lines of the IMF series, 2024",
+      "defaults": {
+        "denominatorId": "central-2024",
+        "scale": "million",
+        "currency": "SOS",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        { "nodeId": "so-central-g1151", "amount": 167.672584, "locator": "Series SOM.S1311.G1.G1151_T.XDC.A, 2024" },
+        { "nodeId": "so-central-g11412", "amount": 46.827283, "locator": "Series SOM.S1311.G1.G11412_T.XDC.A, 2024" },
+        { "nodeId": "so-central-g1111", "amount": 31.869032, "locator": "Series SOM.S1311.G1.G1111_T.XDC.A, 2024" },
+        { "nodeId": "so-central-g116", "amount": 10.297947, "locator": "Series SOM.S1311.G1.G116_T.XDC.A, 2024" },
+        { "nodeId": "so-central-g1112", "amount": 4.301643, "locator": "Series SOM.S1311.G1.G1112_T.XDC.A, 2024" },
+        { "nodeId": "so-central-g11452", "amount": 3.129333, "locator": "Series SOM.S1311.G1.G11452_T.XDC.A, 2024" },
+        { "nodeId": "so-central-g11451", "amount": 2.60334, "locator": "Series SOM.S1311.G1.G11451_T.XDC.A, 2024" },
+        { "nodeId": "so-central-g1152", "amount": 1.202766, "locator": "Series SOM.S1311.G1.G1152_T.XDC.A, 2024" },
+        { "nodeId": "so-central-g1142", "amount": 0.000397, "locator": "Series SOM.S1311.G1.G1142_T.XDC.A, 2024" }
+      ]
+    },
+    {
+      "title": "Regional governments: lines of the IMF series, 2024",
+      "defaults": {
+        "denominatorId": "state-2024",
+        "scale": "million",
+        "currency": "SOS",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        { "nodeId": "so-state-g1151", "amount": 63.224745, "locator": "Series SOM.S1312MIXED.G1.G1151_T.XDC.A, 2024" },
+        { "nodeId": "so-state-g1111", "amount": 14.906026, "locator": "Series SOM.S1312MIXED.G1.G1111_T.XDC.A, 2024" },
+        { "nodeId": "so-state-g11451", "amount": 14.861392, "locator": "Series SOM.S1312MIXED.G1.G11451_T.XDC.A, 2024" },
+        { "nodeId": "so-state-g11412", "amount": 14.497352, "locator": "Series SOM.S1312MIXED.G1.G11412_T.XDC.A, 2024" },
+        { "nodeId": "so-state-g1152", "amount": 8.995849, "locator": "Series SOM.S1312MIXED.G1.G1152_T.XDC.A, 2024" },
+        { "nodeId": "so-state-g11413", "amount": 3.966615, "locator": "Series SOM.S1312MIXED.G1.G11413_T.XDC.A, 2024" },
+        { "nodeId": "so-state-g116", "amount": 3.492264, "locator": "Series SOM.S1312MIXED.G1.G116_T.XDC.A, 2024" },
+        { "nodeId": "so-state-g1211", "amount": 1.448451, "locator": "Series SOM.S1312MIXED.G1.G1211_T.XDC.A, 2024" },
+        { "nodeId": "so-state-g1142", "amount": 1.144954, "locator": "Series SOM.S1312MIXED.G1.G1142_T.XDC.A, 2024" },
+        {
+          "nodeId": "so-state-small-tax",
+          "amount": 1.081944,
+          "locator": "Series SOM.S1312MIXED.G1, indicators G1133_T, G113_T:other, G11411_T, G11452_T, G1154_T, G1156_T, XDC, annual, 2024",
+          "calculation": "Sum of 6 lines, each below 0.15% of the total (SOS million)"
+        },
+        { "nodeId": "so-state-g1112", "amount": 0.636194, "locator": "Series SOM.S1312MIXED.G1.G1112_T.XDC.A, 2024" }
+      ]
+    }
+  ],
+  "unavailable": []
+}

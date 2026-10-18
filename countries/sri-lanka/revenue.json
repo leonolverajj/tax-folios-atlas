@@ -1,0 +1,36 @@
+{
+  "groups": [
+    {
+      "title": "Budgetary central government: lines of the IMF series, 2023",
+      "defaults": {
+        "denominatorId": "central-2023",
+        "scale": "million",
+        "currency": "LKR",
+        "period": { "label": "2023", "kind": "calendar-year", "start": "2023-01-01", "end": "2023-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        { "nodeId": "lk-central-g11411", "amount": 694460.22973, "locator": "Series LKA.S1311B.G1.G11411_T.XDC.A, 2023" },
+        { "nodeId": "lk-central-g1112", "amount": 559709.94479, "locator": "Series LKA.S1311B.G1.G1112_T.XDC.A, 2023" },
+        { "nodeId": "lk-central-g1142", "amount": 469621.661724, "locator": "Series LKA.S1311B.G1.G1142_T.XDC.A, 2023" },
+        { "nodeId": "lk-central-g1151", "amount": 390221.48748, "locator": "Series LKA.S1311B.G1.G1151_T.XDC.A, 2023" },
+        { "nodeId": "lk-central-g11452", "amount": 235043.759081, "locator": "Series LKA.S1311B.G1.G11452_T.XDC.A, 2023" },
+        { "nodeId": "lk-central-g1111", "amount": 193487.859146, "locator": "Series LKA.S1311B.G1.G1111_T.XDC.A, 2023" },
+        { "nodeId": "lk-central-g1113", "amount": 157910.83073, "locator": "Series LKA.S1311B.G1.G1113_T.XDC.A, 2023" },
+        { "nodeId": "lk-central-g1212", "amount": 36258.42482, "locator": "Series LKA.S1311B.G1.G1212_T.XDC.A, 2023" },
+        { "nodeId": "lk-central-g1144", "amount": 17304.005581, "locator": "Series LKA.S1311B.G1.G1144_T.XDC.A, 2023" },
+        {
+          "nodeId": "lk-central-small-tax",
+          "amount": 2803.275074,
+          "locator": "Series LKA.S1311B.G1, indicators G11412_T, G11413_T, G1152_T, G116_T, XDC, annual, 2023",
+          "calculation": "Sum of 4 lines, each below 0.15% of the total (LKR million)"
+        }
+      ]
+    }
+  ],
+  "unavailable": []
+}

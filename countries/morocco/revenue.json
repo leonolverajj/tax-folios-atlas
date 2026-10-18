@@ -1,0 +1,38 @@
+{
+  "groups": [
+    {
+      "title": "Budgetary central government: lines of the IMF series, 2025",
+      "defaults": {
+        "denominatorId": "central-2025",
+        "scale": "million",
+        "currency": "MAD",
+        "period": { "label": "2025", "kind": "calendar-year", "start": "2025-01-01", "end": "2025-12-31" },
+        "basis": "Accrual basis, as reported to the IMF (flag AC)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        { "nodeId": "ma-central-g11411", "amount": 143607.035294, "locator": "Series MAR.S1311B.G1.G11411_T.XDC.A, 2025" },
+        { "nodeId": "ma-central-g1112", "amount": 96175.789474, "locator": "Series MAR.S1311B.G1.G1112_T.XDC.A, 2025" },
+        { "nodeId": "ma-central-g1111", "amount": 68816.842105, "locator": "Series MAR.S1311B.G1.G1111_T.XDC.A, 2025" },
+        { "nodeId": "ma-central-g1142", "amount": 43742.314317, "locator": "Series MAR.S1311B.G1.G1142_T.XDC.A, 2025" },
+        { "nodeId": "ma-central-g11414", "amount": 19612, "locator": "Series MAR.S1311B.G1.G11414_T.XDC.A, 2025" },
+        { "nodeId": "ma-central-g1151", "amount": 17343.760099, "locator": "Series MAR.S1311B.G1.G1151_T.XDC.A, 2025" },
+        { "nodeId": "ma-central-g116", "amount": 14367.715323, "locator": "Series MAR.S1311B.G1.G116_T.XDC.A, 2025" },
+        { "nodeId": "ma-central-g1113", "amount": 10049, "locator": "Series MAR.S1311B.G1.G1113_T.XDC.A, 2025" },
+        { "nodeId": "ma-central-g11451", "amount": 4228, "locator": "Series MAR.S1311B.G1.G11451_T.XDC.A, 2025" },
+        { "nodeId": "ma-central-g1144", "amount": 1552, "locator": "Series MAR.S1311B.G1.G1144_T.XDC.A, 2025" },
+        { "nodeId": "ma-central-g1154", "amount": 762, "locator": "Series MAR.S1311B.G1.G1154_T.XDC.A, 2025" },
+        {
+          "nodeId": "ma-central-small-tax",
+          "amount": 73,
+          "locator": "Series MAR.S1311B.G1, indicators G1143_T, G11452_T, XDC, annual, 2025",
+          "calculation": "Sum of 2 lines, each below 0.15% of the total (MAD million)"
+        }
+      ]
+    }
+  ],
+  "unavailable": []
+}

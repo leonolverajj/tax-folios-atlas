@@ -1,0 +1,120 @@
+{
+  "groups": [
+    {
+      "title": "Central government and social security: lines of the IMF series, 2024",
+      "defaults": {
+        "denominatorId": "central-2024",
+        "scale": "million",
+        "currency": "THB",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Accrual basis, as reported to the IMF (flag AC)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        {
+          "nodeId": "th-central-g1112",
+          "amount": 760377.425525,
+          "locator": "Series THA.S1311 + S1314.G1.G1112_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (THB million)"
+        },
+        {
+          "nodeId": "th-central-g11411",
+          "amount": 758098.29212,
+          "locator": "Series THA.S1311 + S1314.G1.G11411_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (THB million)"
+        },
+        {
+          "nodeId": "th-central-g1142",
+          "amount": 629565.509094,
+          "locator": "Series THA.S1311 + S1314.G1.G1142_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (THB million)"
+        },
+        {
+          "nodeId": "th-central-g1111",
+          "amount": 370256.413447,
+          "locator": "Series THA.S1311 + S1314.G1.G1111_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (THB million)"
+        },
+        {
+          "nodeId": "th-central-g1144",
+          "amount": 161449.564948,
+          "locator": "Series THA.S1311 + S1314.G1.G1144_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (THB million)"
+        },
+        {
+          "nodeId": "th-central-g1151",
+          "amount": 106531.62235,
+          "locator": "Series THA.S1311 + S1314.G1.G1151_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (THB million)"
+        },
+        {
+          "nodeId": "th-central-g1212",
+          "amount": 91589.55,
+          "locator": "Series THA.S1311 + S1314.G1.G1212_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (THB million)"
+        },
+        {
+          "nodeId": "th-central-g1211",
+          "amount": 87316.19,
+          "locator": "Series THA.S1311 + S1314.G1.G1211_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (THB million)"
+        },
+        {
+          "nodeId": "th-central-g11452",
+          "amount": 23966.727728,
+          "locator": "Series THA.S1311 + S1314.G1.G11452_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (THB million)"
+        },
+        {
+          "nodeId": "th-central-g116",
+          "amount": 19740.843939,
+          "locator": "Series THA.S1311 + S1314.G1.G116_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (THB million)"
+        },
+        {
+          "nodeId": "th-central-g1213",
+          "amount": 11427.53,
+          "locator": "Series THA.S1311 + S1314.G1.G1213_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (THB million)"
+        },
+        {
+          "nodeId": "th-central-small-tax",
+          "amount": 5296.8229,
+          "locator": "Series THA.S1311 + S1314.G1, indicators G1133_T, G1143_T, G11451_T, G1152_T, XDC, annual, 2024",
+          "calculation": "Sum of 4 lines, each below 0.15% of the total (THB million)"
+        }
+      ]
+    },
+    {
+      "title": "Local governments: lines of the IMF series, 2024",
+      "defaults": {
+        "denominatorId": "local-2024",
+        "scale": "million",
+        "currency": "THB",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Accrual basis, as reported to the IMF (flag AC)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        {
+          "nodeId": "th-local-g113-other",
+          "amount": 46879,
+          "locator": "Series THA.S1313MIXED.G1.G113_T.XDC.A, 2024, less its reported sub-lines",
+          "calculation": "G113_T less the sum of its reported sub-lines (THB million)"
+        },
+        { "nodeId": "th-local-g11451", "amount": 40500, "locator": "Series THA.S1313MIXED.G1.G11451_T.XDC.A, 2024" },
+        { "nodeId": "th-local-g11414", "amount": 30053, "locator": "Series THA.S1313MIXED.G1.G11414_T.XDC.A, 2024" },
+        { "nodeId": "th-local-g11452", "amount": 5558.4, "locator": "Series THA.S1313MIXED.G1.G11452_T.XDC.A, 2024" },
+        { "nodeId": "th-local-g1142", "amount": 4892, "locator": "Series THA.S1313MIXED.G1.G1142_T.XDC.A, 2024" },
+        { "nodeId": "th-local-g1144", "amount": 288, "locator": "Series THA.S1313MIXED.G1.G1144_T.XDC.A, 2024" }
+      ]
+    }
+  ],
+  "unavailable": []
+}

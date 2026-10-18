@@ -1,0 +1,35 @@
+{
+  "groups": [
+    {
+      "title": "Central government: lines of the IMF series, 2024",
+      "defaults": {
+        "denominatorId": "central-2024",
+        "scale": "million",
+        "currency": "SGD",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        { "nodeId": "sg-central-g1112", "amount": 33864.527562, "locator": "Series SGP.S1311.G1.G1112_T.XDC.A, 2024" },
+        { "nodeId": "sg-central-g1141", "amount": 20044.28523, "locator": "Series SGP.S1311.G1.G1141_T.XDC.A, 2024" },
+        { "nodeId": "sg-central-g1111", "amount": 19058.223819, "locator": "Series SGP.S1311.G1.G1111_T.XDC.A, 2024" },
+        { "nodeId": "sg-central-g116", "amount": 15118.153408, "locator": "Series SGP.S1311.G1.G116_T.XDC.A, 2024" },
+        {
+          "nodeId": "sg-central-g113-other",
+          "amount": 6639.237055,
+          "locator": "Series SGP.S1311.G1.G113_T.XDC.A, 2024, less its reported sub-lines",
+          "calculation": "G113_T less the sum of its reported sub-lines (SGD million)"
+        },
+        { "nodeId": "sg-central-g1142", "amount": 3425.137473, "locator": "Series SGP.S1311.G1.G1142_T.XDC.A, 2024" },
+        { "nodeId": "sg-central-g1144", "amount": 3228.864892, "locator": "Series SGP.S1311.G1.G1144_T.XDC.A, 2024" },
+        { "nodeId": "sg-central-g11451", "amount": 2424.821623, "locator": "Series SGP.S1311.G1.G11451_T.XDC.A, 2024" },
+        { "nodeId": "sg-central-g1133", "amount": 0.265356, "locator": "Series SGP.S1311.G1.G1133_T.XDC.A, 2024" }
+      ]
+    }
+  ],
+  "unavailable": []
+}

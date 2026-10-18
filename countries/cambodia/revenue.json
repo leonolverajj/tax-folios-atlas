@@ -1,0 +1,101 @@
+{
+  "groups": [
+    {
+      "title": "Central government and social security: lines of the IMF series, 2023",
+      "defaults": {
+        "denominatorId": "central-2023",
+        "scale": "million",
+        "currency": "KHR",
+        "period": { "label": "2023", "kind": "calendar-year", "start": "2023-01-01", "end": "2023-12-31" },
+        "basis": "Accrual basis, as reported to the IMF (flag AC)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        {
+          "nodeId": "kh-central-g11411",
+          "amount": 7107659.921787,
+          "locator": "Series KHM.S1311 + S1314.G1.G11411_T.XDC.A, 2023",
+          "calculation": "Sum of the sectors S1311 + S1314 (KHR million)"
+        },
+        {
+          "nodeId": "kh-central-g1112",
+          "amount": 6449502.342617,
+          "locator": "Series KHM.S1311 + S1314.G1.G1112_T.XDC.A, 2023",
+          "calculation": "Sum of the sectors S1311 + S1314 (KHR million)"
+        },
+        {
+          "nodeId": "kh-central-g1142",
+          "amount": 3759056.457646,
+          "locator": "Series KHM.S1311 + S1314.G1.G1142_T.XDC.A, 2023",
+          "calculation": "Sum of the sectors S1311 + S1314 (KHR million)"
+        },
+        {
+          "nodeId": "kh-central-g1151",
+          "amount": 2385755.997353,
+          "locator": "Series KHM.S1311 + S1314.G1.G1151_T.XDC.A, 2023",
+          "calculation": "Sum of the sectors S1311 + S1314 (KHR million)"
+        },
+        {
+          "nodeId": "kh-central-g1111",
+          "amount": 1403905.496331,
+          "locator": "Series KHM.S1311 + S1314.G1.G1111_T.XDC.A, 2023",
+          "calculation": "Sum of the sectors S1311 + S1314 (KHR million)"
+        },
+        {
+          "nodeId": "kh-central-g1211",
+          "amount": 1337880.649279,
+          "locator": "Series KHM.S1311 + S1314.G1.G1211_T.XDC.A, 2023",
+          "calculation": "Sum of the sectors S1311 + S1314 (KHR million)"
+        },
+        {
+          "nodeId": "kh-central-g1152",
+          "amount": 131578.922044,
+          "locator": "Series KHM.S1311 + S1314.G1.G1152_T.XDC.A, 2023",
+          "calculation": "Sum of the sectors S1311 + S1314 (KHR million)"
+        },
+        {
+          "nodeId": "kh-central-g11413",
+          "amount": 16.465625,
+          "locator": "Series KHM.S1311 + S1314.G1.G11413_T.XDC.A, 2023",
+          "calculation": "Sum of the sectors S1311 + S1314 (KHR million)"
+        }
+      ]
+    },
+    {
+      "title": "Local governments: lines of the IMF series, 2023",
+      "defaults": {
+        "denominatorId": "local-2023",
+        "scale": "million",
+        "currency": "KHR",
+        "period": { "label": "2023", "kind": "calendar-year", "start": "2023-01-01", "end": "2023-12-31" },
+        "basis": "Accrual basis, as reported to the IMF (flag AC)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        { "nodeId": "kh-local-g11414", "amount": 665079.294693, "locator": "Series KHM.S1313MIXED.G1.G11414_T.XDC.A, 2023" },
+        { "nodeId": "kh-local-g11452", "amount": 482678.915021, "locator": "Series KHM.S1313MIXED.G1.G11452_T.XDC.A, 2023" },
+        { "nodeId": "kh-local-g1111", "amount": 361945.771779, "locator": "Series KHM.S1313MIXED.G1.G1111_T.XDC.A, 2023" },
+        {
+          "nodeId": "kh-local-g113-other",
+          "amount": 216858.570596,
+          "locator": "Series KHM.S1313MIXED.G1.G113_T.XDC.A, 2023, less its reported sub-lines",
+          "calculation": "G113_T less the sum of its reported sub-lines (KHR million)"
+        },
+        { "nodeId": "kh-local-g1142", "amount": 163314.307747, "locator": "Series KHM.S1313MIXED.G1.G1142_T.XDC.A, 2023" },
+        {
+          "nodeId": "kh-local-small-tax",
+          "amount": 48807.648686,
+          "locator": "Series KHM.S1313MIXED.G1, indicators G1112_T, G1144_T, G116_T, XDC, annual, 2023",
+          "calculation": "Sum of 3 lines, each below 0.15% of the total (KHR million)"
+        }
+      ]
+    }
+  ],
+  "unavailable": []
+}

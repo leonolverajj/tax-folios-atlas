@@ -1,0 +1,36 @@
+{
+  "groups": [
+    {
+      "title": "Budgetary central government: lines of the IMF series, 2017",
+      "defaults": {
+        "denominatorId": "central-2017",
+        "scale": "million",
+        "currency": "XCD",
+        "period": { "label": "2017", "kind": "calendar-year", "start": "2017-01-01", "end": "2017-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        { "nodeId": "gd-central-g11411", "amount": 235.52, "locator": "Series GRD.S1311B.G1.G11411_T.XDC.A, 2017" },
+        { "nodeId": "gd-central-g1155", "amount": 91.55, "locator": "Series GRD.S1311B.G1.G1155_T.XDC.A, 2017" },
+        { "nodeId": "gd-central-g1112", "amount": 79.997013, "locator": "Series GRD.S1311B.G1.G1112_T.XDC.A, 2017" },
+        { "nodeId": "gd-central-g1151", "amount": 76.51, "locator": "Series GRD.S1311B.G1.G1151_T.XDC.A, 2017" },
+        { "nodeId": "gd-central-g1111", "amount": 60.604579, "locator": "Series GRD.S1311B.G1.G1111_T.XDC.A, 2017" },
+        { "nodeId": "gd-central-g1156", "amount": 55.02, "locator": "Series GRD.S1311B.G1.G1156_T.XDC.A, 2017" },
+        {
+          "nodeId": "gd-central-g113-other",
+          "amount": 24.28,
+          "locator": "Series GRD.S1311B.G1.G113_T.XDC.A, 2017, less its reported sub-lines",
+          "calculation": "G113_T less the sum of its reported sub-lines (XCD million)"
+        },
+        { "nodeId": "gd-central-g1146", "amount": 23.27, "locator": "Series GRD.S1311B.G1.G1146_T.XDC.A, 2017" },
+        { "nodeId": "gd-central-g1144", "amount": 18.22, "locator": "Series GRD.S1311B.G1.G1144_T.XDC.A, 2017" },
+        { "nodeId": "gd-central-g116", "amount": 5.07, "locator": "Series GRD.S1311B.G1.G116_T.XDC.A, 2017" }
+      ]
+    }
+  ],
+  "unavailable": []
+}

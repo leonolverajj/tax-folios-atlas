@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "dominican-republic": {
+      "x": 800,
+      "y": 500
+    },
+    "central": {
+      "x": 509,
+      "y": 432
+    },
+    "do-central-g11411": {
+      "x": 844,
+      "y": 744
+    },
+    "do-central-g1111": {
+      "x": 465,
+      "y": 750
+    },
+    "do-central-g1144": {
+      "x": 290,
+      "y": 521
+    },
+    "do-central-g11451": {
+      "x": 429,
+      "y": 273
+    },
+    "do-central-g1132": {
+      "x": 799,
+      "y": 170
+    },
+    "do-central-small-tax": {
+      "x": 1165,
+      "y": 269
+    },
+    "do-central-g1112": {
+      "x": 515,
+      "y": 896
+    },
+    "do-central-g1113": {
+      "x": 113,
+      "y": 566
+    },
+    "do-central-g1212": {
+      "x": 349,
+      "y": 159
+    },
+    "do-central-g1211": {
+      "x": 1008,
+      "y": 72
+    },
+    "do-central-g113-other": {
+      "x": 1469,
+      "y": 379
+    },
+    "do-central-g1142": {
+      "x": 876,
+      "y": 903
+    },
+    "do-central-g1151": {
+      "x": 113,
+      "y": 852
+    },
+    "do-central-g11414": {
+      "x": 127,
+      "y": 313
+    },
+    "do-central-g1156": {
+      "x": 619,
+      "y": 32
+    },
+    "do-central-g11452": {
+      "x": 1421,
+      "y": 100
+    },
+    "local": {
+      "x": 1091,
+      "y": 568
+    },
+    "do-local-g1144": {
+      "x": 1274,
+      "y": 604
+    }
+  },
+  "radii": {}
+}

@@ -1,0 +1,113 @@
+{
+  "groups": [
+    {
+      "title": "Central government and social security: lines of the IMF series, 2024",
+      "defaults": {
+        "denominatorId": "central-2024",
+        "scale": "million",
+        "currency": "MDL",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        {
+          "nodeId": "md-central-g11411",
+          "amount": 33312.9,
+          "locator": "Series MDA.S1311 + S1314.G1.G11411_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (MDL million)"
+        },
+        {
+          "nodeId": "md-central-g1212",
+          "amount": 33025.9,
+          "locator": "Series MDA.S1311 + S1314.G1.G1212_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (MDL million)"
+        },
+        {
+          "nodeId": "md-central-g1142",
+          "amount": 11447.4,
+          "locator": "Series MDA.S1311 + S1314.G1.G1142_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (MDL million)"
+        },
+        {
+          "nodeId": "md-central-g1112",
+          "amount": 8872.1,
+          "locator": "Series MDA.S1311 + S1314.G1.G1112_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (MDL million)"
+        },
+        {
+          "nodeId": "md-central-g1111",
+          "amount": 2973.3,
+          "locator": "Series MDA.S1311 + S1314.G1.G1111_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (MDL million)"
+        },
+        {
+          "nodeId": "md-central-g1151",
+          "amount": 2466.9,
+          "locator": "Series MDA.S1311 + S1314.G1.G1151_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (MDL million)"
+        },
+        {
+          "nodeId": "md-central-g1146",
+          "amount": 1223.2,
+          "locator": "Series MDA.S1311 + S1314.G1.G1146_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (MDL million)"
+        },
+        {
+          "nodeId": "md-central-g1211",
+          "amount": 538.3,
+          "locator": "Series MDA.S1311 + S1314.G1.G1211_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (MDL million)"
+        },
+        {
+          "nodeId": "md-central-g11452",
+          "amount": 417.5,
+          "locator": "Series MDA.S1311 + S1314.G1.G11452_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (MDL million)"
+        },
+        {
+          "nodeId": "md-central-small-tax",
+          "amount": 155.7,
+          "locator": "Series MDA.S1311 + S1314.G1, indicators G1131_T, G1133_T, G1144_T, G1156_T, XDC, annual, 2024",
+          "calculation": "Sum of 4 lines, each below 0.15% of the total (MDL million)"
+        }
+      ]
+    },
+    {
+      "title": "Local governments: lines of the IMF series, 2024",
+      "defaults": {
+        "denominatorId": "local-2024",
+        "scale": "million",
+        "currency": "MDL",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        { "nodeId": "md-local-g1111", "amount": 5696.5, "locator": "Series MDA.S1313MIXED.G1.G1111_T.XDC.A, 2024" },
+        { "nodeId": "md-local-g1144", "amount": 762.9, "locator": "Series MDA.S1313MIXED.G1.G1144_T.XDC.A, 2024" },
+        { "nodeId": "md-local-g1132", "amount": 553.4, "locator": "Series MDA.S1313MIXED.G1.G1132_T.XDC.A, 2024" },
+        {
+          "nodeId": "md-local-g113-other",
+          "amount": 247.9,
+          "locator": "Series MDA.S1313MIXED.G1.G113_T.XDC.A, 2024, less its reported sub-lines",
+          "calculation": "G113_T less the sum of its reported sub-lines (MDL million)"
+        },
+        { "nodeId": "md-local-g1112", "amount": 192.8, "locator": "Series MDA.S1313MIXED.G1.G1112_T.XDC.A, 2024" },
+        {
+          "nodeId": "md-local-small-tax",
+          "amount": 158.8,
+          "locator": "Series MDA.S1313MIXED.G1, indicators G1133_T, G11411_T, G1142_T, G11452_T, G1146_T, XDC, annual, 2024",
+          "calculation": "Sum of 5 lines, each below 0.15% of the total (MDL million)"
+        }
+      ]
+    }
+  ],
+  "unavailable": []
+}

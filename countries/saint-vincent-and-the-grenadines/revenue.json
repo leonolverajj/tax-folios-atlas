@@ -1,0 +1,39 @@
+{
+  "groups": [
+    {
+      "title": "Budgetary central government: lines of the IMF series, 2017",
+      "defaults": {
+        "denominatorId": "central-2017",
+        "scale": "million",
+        "currency": "XCD",
+        "period": { "label": "2017", "kind": "calendar-year", "start": "2017-01-01", "end": "2017-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        { "nodeId": "vc-central-g11411", "amount": 149.29, "locator": "Series VCT.S1311B.G1.G11411_T.XDC.A, 2017" },
+        { "nodeId": "vc-central-g1111", "amount": 81.07, "locator": "Series VCT.S1311B.G1.G1111_T.XDC.A, 2017" },
+        { "nodeId": "vc-central-g1151", "amount": 70.26, "locator": "Series VCT.S1311B.G1.G1151_T.XDC.A, 2017" },
+        { "nodeId": "vc-central-g1112", "amount": 56.08, "locator": "Series VCT.S1311B.G1.G1112_T.XDC.A, 2017" },
+        { "nodeId": "vc-central-g11414", "amount": 45.29, "locator": "Series VCT.S1311B.G1.G11414_T.XDC.A, 2017" },
+        { "nodeId": "vc-central-g1142", "amount": 41.42, "locator": "Series VCT.S1311B.G1.G1142_T.XDC.A, 2017" },
+        { "nodeId": "vc-central-g1156", "amount": 37.53, "locator": "Series VCT.S1311B.G1.G1156_T.XDC.A, 2017" },
+        {
+          "nodeId": "vc-central-g113-other",
+          "amount": 17.91,
+          "locator": "Series VCT.S1311B.G1.G113_T.XDC.A, 2017, less its reported sub-lines",
+          "calculation": "G113_T less the sum of its reported sub-lines (XCD million)"
+        },
+        { "nodeId": "vc-central-g1113", "amount": 13.78, "locator": "Series VCT.S1311B.G1.G1113_T.XDC.A, 2017" },
+        { "nodeId": "vc-central-g11451", "amount": 13.66, "locator": "Series VCT.S1311B.G1.G11451_T.XDC.A, 2017" },
+        { "nodeId": "vc-central-g1144", "amount": 10.76, "locator": "Series VCT.S1311B.G1.G1144_T.XDC.A, 2017" },
+        { "nodeId": "vc-central-g11452", "amount": 5.23, "locator": "Series VCT.S1311B.G1.G11452_T.XDC.A, 2017" },
+        { "nodeId": "vc-central-g1135", "amount": 0.09, "locator": "Series VCT.S1311B.G1.G1135_T.XDC.A, 2017" }
+      ]
+    }
+  ],
+  "unavailable": []
+}

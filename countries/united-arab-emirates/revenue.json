@@ -1,0 +1,98 @@
+{
+  "groups": [
+    {
+      "title": "Central government and social security: lines of the IMF series, 2024",
+      "defaults": {
+        "denominatorId": "central-2024",
+        "scale": "million",
+        "currency": "AED",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Accrual basis, as reported to the IMF (flag AC)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        {
+          "nodeId": "ae-central-g11411",
+          "amount": 11325.728126,
+          "locator": "Series ARE.S1311 + S1314.G1.G11411_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (AED million)"
+        },
+        {
+          "nodeId": "ae-central-g1222",
+          "amount": 8812.547989,
+          "locator": "Series ARE.S1311 + S1314.G1.G1222_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (AED million)"
+        },
+        {
+          "nodeId": "ae-central-g1212",
+          "amount": 3983.406866,
+          "locator": "Series ARE.S1311 + S1314.G1.G1212_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (AED million)"
+        },
+        {
+          "nodeId": "ae-central-g1211",
+          "amount": 2412.628476,
+          "locator": "Series ARE.S1311 + S1314.G1.G1211_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (AED million)"
+        },
+        {
+          "nodeId": "ae-central-g1221",
+          "amount": 2388.324468,
+          "locator": "Series ARE.S1311 + S1314.G1.G1221_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (AED million)"
+        },
+        {
+          "nodeId": "ae-central-g1142",
+          "amount": 1018.08807,
+          "locator": "Series ARE.S1311 + S1314.G1.G1142_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (AED million)"
+        },
+        {
+          "nodeId": "ae-central-g11452",
+          "amount": 758.571451,
+          "locator": "Series ARE.S1311 + S1314.G1.G11452_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (AED million)"
+        },
+        {
+          "nodeId": "ae-central-small-tax",
+          "amount": 31.914587,
+          "locator": "Series ARE.S1311 + S1314.G1, indicators G1151_T, G1154_T, XDC, annual, 2024",
+          "calculation": "Sum of 2 lines, each below 0.15% of the total (AED million)"
+        }
+      ]
+    },
+    {
+      "title": "Regional governments: lines of the IMF series, 2024",
+      "defaults": {
+        "denominatorId": "state-2024",
+        "scale": "million",
+        "currency": "AED",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Accrual basis, as reported to the IMF (flag AC)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        { "nodeId": "ae-state-g1112", "amount": 306108.211042, "locator": "Series ARE.S1312MIXED.G1.G1112_T.XDC.A, 2024" },
+        { "nodeId": "ae-state-g11411", "amount": 26426.698961, "locator": "Series ARE.S1312MIXED.G1.G11411_T.XDC.A, 2024" },
+        { "nodeId": "ae-state-g1151", "amount": 11530.880946, "locator": "Series ARE.S1312MIXED.G1.G1151_T.XDC.A, 2024" },
+        { "nodeId": "ae-state-g11452", "amount": 8820.031775, "locator": "Series ARE.S1312MIXED.G1.G11452_T.XDC.A, 2024" },
+        { "nodeId": "ae-state-g1142", "amount": 1745.138582, "locator": "Series ARE.S1312MIXED.G1.G1142_T.XDC.A, 2024" },
+        {
+          "nodeId": "ae-state-small-tax",
+          "amount": 702.290417,
+          "locator": "Series ARE.S1312MIXED.G1, indicators G113_T:other, G1144_T, G11451_T, XDC, annual, 2024",
+          "calculation": "Sum of 3 lines, each below 0.15% of the total (AED million)"
+        },
+        { "nodeId": "ae-state-g116", "amount": 638.501779, "locator": "Series ARE.S1312MIXED.G1.G116_T.XDC.A, 2024" },
+        { "nodeId": "ae-state-g1211", "amount": 80.656321, "locator": "Series ARE.S1312MIXED.G1.G1211_T.XDC.A, 2024" }
+      ]
+    }
+  ],
+  "unavailable": []
+}

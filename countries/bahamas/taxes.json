@@ -1,0 +1,245 @@
+{
+  "instruments": [
+    {
+      "id": "bs-central-g11411",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "general-consumption",
+      "status": "current",
+      "names": { "official": "Value added taxes", "common": "Value added tax" },
+      "taxes": {
+        "base": "Taxes charged on the value added at each stage of production and distribution (GFS 11411).",
+        "payer": "Final consumers, through the businesses that collect it."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "BSD 1.35 billion in 2024: 49% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "imf-gfs-codes", "locator": "G11411" }, { "sourceId": "imf-gfs-api", "locator": "Series BHS.S1311B.G1.G11411_T.XDC.A, 2024" }],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "bs-central-g1151",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "customs-duty",
+      "family": "trade",
+      "status": "current",
+      "names": { "official": "Customs and other import duties", "common": "Customs and other import duties" },
+      "taxes": { "base": "Duties on imported goods (GFS 1151).", "payer": "Importers." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "BSD 258 million in 2024: 9.4% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "imf-gfs-codes", "locator": "G1151" }, { "sourceId": "imf-gfs-api", "locator": "Series BHS.S1311B.G1.G1151_T.XDC.A, 2024" }],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "bs-central-g11452",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "other",
+      "status": "current",
+      "names": { "official": "Other taxes on the use of goods and on permission to use goods or perform activities", "common": "Licences and other use taxes" },
+      "taxes": {
+        "base": "Other taxes on the use of goods and on permission to use goods or perform activities (GFS 11452).",
+        "payer": "Holders of the licences."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "BSD 247 million in 2024: 9% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "imf-gfs-codes", "locator": "G11452" }, { "sourceId": "imf-gfs-api", "locator": "Series BHS.S1311B.G1.G11452_T.XDC.A, 2024" }],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "bs-central-g1152",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "trade",
+      "status": "current",
+      "names": { "official": "Taxes on exports", "common": "Taxes on exports" },
+      "taxes": { "base": "Duties on exported goods (GFS 1152).", "payer": "Exporters." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "BSD 247 million in 2024: 9% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "imf-gfs-codes", "locator": "G1152" }, { "sourceId": "imf-gfs-api", "locator": "Series BHS.S1311B.G1.G1152_T.XDC.A, 2024" }],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "bs-central-g1156",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "trade",
+      "status": "current",
+      "names": { "official": "Other taxes on international trade and transactions", "common": "Other taxes on international trade" },
+      "taxes": { "base": "Other taxes on international trade and transactions (GFS 1156).", "payer": "Importers and exporters." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "BSD 220 million in 2024: 8% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "imf-gfs-codes", "locator": "G1156" }, { "sourceId": "imf-gfs-api", "locator": "Series BHS.S1311B.G1.G1156_T.XDC.A, 2024" }],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "bs-central-g113-other",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "Taxes on property, not itemised in the IMF series", "common": "Other property taxes (not itemised)" },
+      "taxes": {
+        "base": "The part of the line “Taxes on property” (GFS G113) that the IMF series does not itemise: the line itself minus its reported sub-lines.",
+        "payer": "Various."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "BSD 203 million in 2024: 7.4% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [
+        { "sourceId": "imf-gfs-codes", "locator": "G113" },
+        { "sourceId": "imf-gfs-api", "locator": "Series BHS.S1311B.G1.G113_T.XDC.A, 2024, less its reported sub-lines" }
+      ],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "bs-central-g11414",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "Taxes on financial and capital transactions", "common": "Taxes on financial and capital transactions" },
+      "taxes": {
+        "base": "Taxes on the purchase and sale of financial and capital assets, such as securities and property (GFS 11414).",
+        "payer": "Parties to the transactions."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "BSD 109 million in 2024: 4% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "imf-gfs-codes", "locator": "G11414" }, { "sourceId": "imf-gfs-api", "locator": "Series BHS.S1311B.G1.G11414_T.XDC.A, 2024" }],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "bs-central-g1144",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Taxes on specific services", "common": "Taxes on specific services" },
+      "taxes": {
+        "base": "Taxes on specific services such as insurance, entertainment, lodging and gambling (GFS 1144).",
+        "payer": "Providers of the services."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "BSD 45.4 million in 2024: 1.7% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "imf-gfs-codes", "locator": "G1144" }, { "sourceId": "imf-gfs-api", "locator": "Series BHS.S1311B.G1.G1144_T.XDC.A, 2024" }],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "bs-central-g11451",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Motor vehicle taxes", "common": "Motor vehicle taxes" },
+      "taxes": { "base": "Taxes on the ownership or use of motor vehicles (GFS 11451).", "payer": "Vehicle owners and users." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "BSD 34.7 million in 2024: 1.3% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "imf-gfs-codes", "locator": "G11451" }, { "sourceId": "imf-gfs-api", "locator": "Series BHS.S1311B.G1.G11451_T.XDC.A, 2024" }],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "bs-central-g1142",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Excises", "common": "Excises" },
+      "taxes": {
+        "base": "Taxes on specific goods or services, such as alcohol, tobacco and fuel (GFS 1142).",
+        "payer": "Producers and importers; passed on in prices."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "BSD 18.7 million in 2024: 0.7% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "imf-gfs-codes", "locator": "G1142" }, { "sourceId": "imf-gfs-api", "locator": "Series BHS.S1311B.G1.G1142_T.XDC.A, 2024" }],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "bs-central-g116",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "other",
+      "status": "current",
+      "names": { "official": "Other taxes", "common": "Other taxes" },
+      "taxes": { "base": "Taxes that the classification does not place elsewhere (GFS 116).", "payer": "Various." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "BSD 7.08 million in 2024: 0.3% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "imf-gfs-codes", "locator": "G116" }, { "sourceId": "imf-gfs-api", "locator": "Series BHS.S1311B.G1.G116_T.XDC.A, 2024" }],
+      "checkedOn": "2026-10-17"
+    }
+  ]
+}

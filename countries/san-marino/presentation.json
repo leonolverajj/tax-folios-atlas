@@ -1,0 +1,20 @@
+{
+  "nodes": {
+    "san-marino": { "label": "San Marino", "sublabel": "Fiscal folio · IMF lines", "glyph": "globe" },
+    "central": { "label": "Central govt and social funds", "sublabel": "IMF S1311 + S1314", "glyph": "landmark" },
+    "sm-central-g1211": { "label": "Social: employees", "sublabel": "Contributions", "glyph": "shield" },
+    "sm-central-g1112": { "label": "Corporate income tax", "sublabel": "Companies", "glyph": "factory" },
+    "sm-central-g1111": { "label": "Personal income tax", "sublabel": "Individuals", "glyph": "person" },
+    "sm-central-g11413": { "label": "Turnover taxes", "sublabel": "Other general taxes", "glyph": "percent" },
+    "sm-central-g1142": { "label": "Excises", "sublabel": "Specific goods", "glyph": "flame" },
+    "sm-central-g1144": { "label": "Taxes on services", "sublabel": "Insurance · lodging · gambling", "glyph": "bed" },
+    "sm-central-g116": { "label": "Other taxes", "sublabel": "Not elsewhere classified", "glyph": "gear" },
+    "sm-central-g113-other": { "label": "Other property taxes", "sublabel": "Not itemised", "glyph": "house" },
+    "sm-central-g11451": { "label": "Motor vehicle taxes", "sublabel": "Ownership · use", "glyph": "car" },
+    "sm-central-g11452": { "label": "Licences and use taxes", "sublabel": "Permissions", "glyph": "stamp" },
+    "sm-central-g1135": { "label": "Capital levies", "sublabel": "One-off", "glyph": "key" },
+    "sm-central-g1221": { "label": "Other social: employees", "sublabel": "Government schemes", "glyph": "heart" },
+    "sm-central-g1151": { "label": "Customs duties", "sublabel": "Imports", "glyph": "ship" },
+    "sm-central-g1133": { "label": "Estate and gift taxes", "sublabel": "Transfers of wealth", "glyph": "scroll" }
+  }
+}

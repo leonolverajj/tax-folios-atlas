@@ -1,6 +1,6 @@
 # Update checklist – United States
 
-Generated 2026-10-12 by `npm run checklist`. **Do not edit by hand** – edit the sources in `countries/united-states/sources.json` and re-run it.
+Generated 2026-10-18 by `npm run checklist`. **Do not edit by hand** – edit the sources in `countries/united-states/sources.json` and re-run it.
 
 Research status: **researched**. 2 source(s) to check or due, 1 coming up, 36 in total.
 
@@ -113,16 +113,16 @@ When you have worked through a row: update the data, set its `accessed` date, ru
   - Note: Defines T01 Property, T09 General sales, T10–T19 selective sales, T20–T29 licenses, T40 Individual income, T41 Corporation net income, T50 Death and gift, T51 Documentary and stock transfer, T53 Severance, T99 NEC.
 
 - [ ] **United States Code, Title 26 – Internal Revenue Code** – Office of the Law Revision Counsel, U.S. House of Representatives
-  - URL: https://uscode.house.gov/browse/prelim@title26
+  - URL: https://uscode.house.gov/view.xhtml?path=/prelim@title26&edition=prelim
   - Feeds: legal/rate basis of 7 node(s)
-  - Status: current – last checked 2026-09-28. Published n/a, accessed 2026-09-28.
+  - Status: current – last checked 2026-09-28. Published n/a, accessed 2026-10-17.
   - To do: Check for amendments since the last check (new law, court ruling, repeal). Update the instruments listed, their `status` and `checkedOn`.
   - Note: Cited by section: §1 (individual rates), §11 (corporate rate), §§3101, 3111, 1401 (FICA/SECA), §§3301–3302 (FUTA), §4081 (fuels), Subtitle E (alcohol, tobacco), §2001 (estate tax), §2502 (gift tax).
 
 - [ ] **United States Code, Title 19 – Customs Duties** – Office of the Law Revision Counsel, U.S. House of Representatives
-  - URL: https://uscode.house.gov/browse/prelim@title19
+  - URL: https://uscode.house.gov/view.xhtml?path=/prelim@title19&edition=prelim
   - Feeds: legal/rate basis of 1 node(s)
-  - Status: current – last checked 2026-09-28. Published n/a, accessed 2026-09-28.
+  - Status: current – last checked 2026-09-28. Published n/a, accessed 2026-10-17.
   - To do: Check for amendments since the last check (new law, court ruling, repeal). Update the instruments listed, their `status` and `checkedOn`.
   - Note: Includes §1202 (Harmonized Tariff Schedule), §1862 (Section 232), §2132 (Section 122), §2411 (Section 301).
 

@@ -1,0 +1,52 @@
+{
+  "id": "lesotho",
+  "iso3": "LSO",
+  "isoNumeric": "426",
+  "names": { "en": "Lesotho", "native": "Lesotho", "nativeLang": "en" },
+  "currency": { "code": "LSL", "symbol": "L", "name": "Lesotho loti" },
+  "summary": "Lesotho is shown at the grain of the IMF’s Government Finance Statistics: the budgetary central government, 8 lines of taxes and social contributions for 2024, in LSL. The largest line is excises (24%), then value added tax (24%) and customs and other import duties (20%). Taxes on goods and services (VAT, sales taxes, excises, vehicle and similar taxes) make 50% of the total and income taxes 31%; the IMF series reports no actual social contributions for this sector. The folio records what each line raised; it does not describe the country’s tax laws, rates or the names of its individual taxes.",
+  "structureNote": "This folio is built from one source, the IMF’s Government Finance Statistics (Statement of Operations), for 2024: budgetary central government (S1311B). Taxes of regional and local governments and of social security funds that are not in this sector are not drawn, so the folio is partial and every line’s share is a share of this sector’s total only. Lines below 0.15% of the total are folded into one “small lines” core per level; lines that the IMF reports only as a parent are drawn as the parent. Rates, legal bases and the names of the individual taxes are not recorded. The IMF labels the series 2024; where the country’s fiscal year is not the calendar year, this is the fiscal year the IMF assigns to 2024. The figures are the IMF’s and have not been compared with the country’s own statistics. There is no OECD level layer for this country in the atlas.",
+  "theme": {
+    "accent": "#49c9d4",
+    "accent2": "#c2cceb",
+    "motif": "topo",
+    "motifNote": "Topographic contour lines over the outline of Lesotho (the generic motif).",
+    "mapLabel": { "lon": 28.5, "lat": -29.5 }
+  },
+  "levels": [
+    {
+      "id": "central",
+      "branch": "national",
+      "names": { "official": "Budgetary central government", "common": "Budgetary central government" },
+      "description": "Budgetary central government as the IMF’s Government Finance Statistics classify them (sector S1311B).",
+      "fiscalPower": "This folio records what each line of the IMF’s classification raised; it does not describe which taxes this level may set or keep.",
+      "legalRefs": [{ "sourceId": "imf-gfs-api", "locator": "sector S1311B" }],
+      "checkedOn": "2026-10-17"
+    }
+  ],
+  "supportingSourceIds": ["imf-gfs-soo"],
+  "denominators": [
+    {
+      "id": "central-2024",
+      "label": "Taxes and social contributions of the budgetary central government (the units that the national budget covers), 2024",
+      "definition": "The taxes (GFS 11) and actual social contributions (GFS 12) of the budgetary central government (the units that the national budget covers) that the IMF reports for 2024, in LSL; imputed social contributions are left out.",
+      "levelIds": ["central"],
+      "amount": 15524,
+      "scale": "million",
+      "currency": "LSL",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "imf-gfs-api",
+      "locator": "Series LSO.S1311B.G1, indicators G11_T and G12_T and their sub-lines, XDC, annual, 2024",
+      "calculation": "Sum of the 8 lines drawn (LSL million). The IMF reports 15,524 million for the sector; the lines drawn differ from it by 0 million (rounding between levels of the classification).",
+      "caveat": "The IMF flags the figures for this year as preliminary. The IMF labels the series 2024; where the country’s fiscal year is not the calendar year, this is the fiscal year the IMF assigns to 2024.",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "sizing": {
+    "label": "Taxes and actual social contributions reported to the IMF, 2024",
+    "definition": "The taxes (GFS 11) and actual social contributions (GFS 12) of the budgetary central government (the units that the national budget covers) for 2024, as the IMF’s Government Finance Statistics report them in LSL. Imputed social contributions are left out; sectors that the IMF series does not report in detail for 2024 are not included.",
+    "componentIds": ["central-2024"]
+  },
+  "researchStatus": "partial",
+  "grain": "harmonised"
+}

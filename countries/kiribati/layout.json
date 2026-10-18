@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "kiribati": {
+      "x": 800,
+      "y": 500
+    },
+    "central": {
+      "x": 509,
+      "y": 432
+    },
+    "ki-central-g11411": {
+      "x": 682,
+      "y": 821
+    },
+    "ki-central-g1111": {
+      "x": 394,
+      "y": 701
+    },
+    "ki-central-g1112": {
+      "x": 289,
+      "y": 497
+    },
+    "ki-central-g11452": {
+      "x": 405,
+      "y": 278
+    },
+    "ki-central-g1142": {
+      "x": 699,
+      "y": 177
+    },
+    "ki-central-g1151": {
+      "x": 1026,
+      "y": 204
+    },
+    "local": {
+      "x": 1091,
+      "y": 568
+    },
+    "ki-local-g11452": {
+      "x": 1235,
+      "y": 427
+    },
+    "ki-local-g1111": {
+      "x": 1274,
+      "y": 605
+    },
+    "ki-local-small-tax": {
+      "x": 1164,
+      "y": 725
+    }
+  },
+  "radii": {}
+}

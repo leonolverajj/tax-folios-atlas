@@ -1,0 +1,42 @@
+{
+  "groups": [
+    {
+      "title": "Budgetary central government: lines of the IMF series, 2017",
+      "defaults": {
+        "denominatorId": "central-2017",
+        "scale": "million",
+        "currency": "XCD",
+        "period": { "label": "2017", "kind": "calendar-year", "start": "2017-01-01", "end": "2017-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        { "nodeId": "lc-central-g1156", "amount": 320.82, "locator": "Series LCA.S1311B.G1.G1156_T.XDC.A, 2017" },
+        { "nodeId": "lc-central-g11411", "amount": 312.83, "locator": "Series LCA.S1311B.G1.G11411_T.XDC.A, 2017" },
+        { "nodeId": "lc-central-g1111", "amount": 104.63, "locator": "Series LCA.S1311B.G1.G1111_T.XDC.A, 2017" },
+        { "nodeId": "lc-central-g1112", "amount": 95.86, "locator": "Series LCA.S1311B.G1.G1112_T.XDC.A, 2017" },
+        { "nodeId": "lc-central-g1113", "amount": 53.66, "locator": "Series LCA.S1311B.G1.G1113_T.XDC.A, 2017" },
+        { "nodeId": "lc-central-g1146", "amount": 36.7, "locator": "Series LCA.S1311B.G1.G1146_T.XDC.A, 2017" },
+        { "nodeId": "lc-central-g11452", "amount": 27.55, "locator": "Series LCA.S1311B.G1.G11452_T.XDC.A, 2017" },
+        {
+          "nodeId": "lc-central-g113-other",
+          "amount": 12.72,
+          "locator": "Series LCA.S1311B.G1.G113_T.XDC.A, 2017, less its reported sub-lines",
+          "calculation": "G113_T less the sum of its reported sub-lines (XCD million)"
+        },
+        { "nodeId": "lc-central-g1144", "amount": 12.51, "locator": "Series LCA.S1311B.G1.G1144_T.XDC.A, 2017" },
+        { "nodeId": "lc-central-g1151", "amount": 6, "locator": "Series LCA.S1311B.G1.G1151_T.XDC.A, 2017" },
+        {
+          "nodeId": "lc-central-small-tax",
+          "amount": 0.18611,
+          "locator": "Series LCA.S1311B.G1, indicators G11413_T, G1142_T, XDC, annual, 2017",
+          "calculation": "Sum of 2 lines, each below 0.15% of the total (XCD million)"
+        }
+      ]
+    }
+  ],
+  "unavailable": []
+}

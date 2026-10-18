@@ -1,0 +1,18 @@
+{
+  "nodes": {
+    "uganda": { "label": "Uganda", "sublabel": "Fiscal folio · IMF lines", "glyph": "globe" },
+    "central": { "label": "Central government", "sublabel": "IMF S1311", "glyph": "landmark" },
+    "local": { "label": "Local governments", "sublabel": "IMF S1313", "glyph": "town" },
+    "ug-central-g11411": { "label": "VAT", "sublabel": "Value added", "glyph": "cart" },
+    "ug-central-g1142": { "label": "Excises", "sublabel": "Specific goods", "glyph": "flame" },
+    "ug-central-g1111": { "label": "Personal income tax", "sublabel": "Individuals", "glyph": "person" },
+    "ug-central-g1112": { "label": "Corporate income tax", "sublabel": "Companies", "glyph": "factory" },
+    "ug-central-g1151": { "label": "Customs duties", "sublabel": "Imports", "glyph": "ship" },
+    "ug-central-g116": { "label": "Other taxes", "sublabel": "Not elsewhere classified", "glyph": "gear" },
+    "ug-central-g11451": { "label": "Motor vehicle taxes", "sublabel": "Ownership · use", "glyph": "car" },
+    "ug-central-g1113": { "label": "Other income taxes", "sublabel": "Not split by payer", "glyph": "coin" },
+    "ug-central-g1144": { "label": "Taxes on services", "sublabel": "Insurance · lodging · gambling", "glyph": "bed" },
+    "ug-central-g1152": { "label": "Export taxes", "sublabel": "Exports", "glyph": "plane" },
+    "ug-local-small-tax": { "label": "Other taxes (small lines)", "sublabel": "3 lines", "glyph": "gear" }
+  }
+}

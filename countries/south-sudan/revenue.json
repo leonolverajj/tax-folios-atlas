@@ -1,0 +1,26 @@
+{
+  "groups": [
+    {
+      "title": "Budgetary central government: lines of the IMF series, 2025",
+      "defaults": {
+        "denominatorId": "central-2025",
+        "scale": "million",
+        "currency": "SSP",
+        "period": { "label": "2025", "kind": "calendar-year", "start": "2025-01-01", "end": "2025-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        { "nodeId": "ss-central-g1111", "amount": 394665.739194, "locator": "Series SSD.S1311B.G1.G1111_T.XDC.A, 2025" },
+        { "nodeId": "ss-central-g1151", "amount": 372918.875115, "locator": "Series SSD.S1311B.G1.G1151_T.XDC.A, 2025" },
+        { "nodeId": "ss-central-g1112", "amount": 48306.358458, "locator": "Series SSD.S1311B.G1.G1112_T.XDC.A, 2025" },
+        { "nodeId": "ss-central-g1142", "amount": 29177.561469, "locator": "Series SSD.S1311B.G1.G1142_T.XDC.A, 2025" },
+        { "nodeId": "ss-central-g11412", "amount": 17979.836768, "locator": "Series SSD.S1311B.G1.G11412_T.XDC.A, 2025" }
+      ]
+    }
+  ],
+  "unavailable": []
+}

@@ -1,0 +1,33 @@
+{
+  "groups": [
+    {
+      "title": "Budgetary central government: lines of the IMF series, 2020",
+      "defaults": {
+        "denominatorId": "central-2020",
+        "scale": "million",
+        "currency": "JMD",
+        "period": { "label": "2020", "kind": "calendar-year", "start": "2020-01-01", "end": "2020-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        { "nodeId": "jm-central-g11411", "amount": 167265.472078, "locator": "Series JAM.S1311B.G1.G11411_T.XDC.A, 2020" },
+        { "nodeId": "jm-central-g1111", "amount": 102866.528669, "locator": "Series JAM.S1311B.G1.G1111_T.XDC.A, 2020" },
+        { "nodeId": "jm-central-g1142", "amount": 71404.696032, "locator": "Series JAM.S1311B.G1.G1142_T.XDC.A, 2020" },
+        { "nodeId": "jm-central-g1112", "amount": 66049.194866, "locator": "Series JAM.S1311B.G1.G1112_T.XDC.A, 2020" },
+        { "nodeId": "jm-central-g1151", "amount": 45449.546948, "locator": "Series JAM.S1311B.G1.G1151_T.XDC.A, 2020" },
+        { "nodeId": "jm-central-g1113", "amount": 22339.583565, "locator": "Series JAM.S1311B.G1.G1113_T.XDC.A, 2020" },
+        { "nodeId": "jm-central-g1144", "amount": 12546.039295, "locator": "Series JAM.S1311B.G1.G1144_T.XDC.A, 2020" },
+        { "nodeId": "jm-central-g1156", "amount": 5379.814487, "locator": "Series JAM.S1311B.G1.G1156_T.XDC.A, 2020" },
+        { "nodeId": "jm-central-g11414", "amount": 4934.97898, "locator": "Series JAM.S1311B.G1.G11414_T.XDC.A, 2020" },
+        { "nodeId": "jm-central-g11451", "amount": 4548.013368, "locator": "Series JAM.S1311B.G1.G11451_T.XDC.A, 2020" },
+        { "nodeId": "jm-central-g11452", "amount": 2303.440871, "locator": "Series JAM.S1311B.G1.G11452_T.XDC.A, 2020" },
+        { "nodeId": "jm-central-g11412", "amount": 599.370261, "locator": "Series JAM.S1311B.G1.G11412_T.XDC.A, 2020" }
+      ]
+    }
+  ],
+  "unavailable": []
+}

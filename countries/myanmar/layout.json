@@ -1,0 +1,70 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "myanmar": {
+      "x": 800,
+      "y": 500
+    },
+    "central": {
+      "x": 509,
+      "y": 432
+    },
+    "mm-central-g11413": {
+      "x": 841,
+      "y": 829
+    },
+    "mm-central-g1142": {
+      "x": 394,
+      "y": 701
+    },
+    "mm-central-g11451": {
+      "x": 302,
+      "y": 388
+    },
+    "mm-central-g121-other": {
+      "x": 694,
+      "y": 177
+    },
+    "mm-central-g116": {
+      "x": 1167,
+      "y": 270
+    },
+    "mm-central-g1113": {
+      "x": 508,
+      "y": 880
+    },
+    "mm-central-g1151": {
+      "x": 112,
+      "y": 560
+    },
+    "mm-central-g1144": {
+      "x": 356,
+      "y": 156
+    },
+    "mm-central-g1112": {
+      "x": 1009,
+      "y": 73
+    },
+    "mm-central-small-tax": {
+      "x": 1471,
+      "y": 385
+    },
+    "local": {
+      "x": 1091,
+      "y": 568
+    },
+    "mm-local-g11452": {
+      "x": 1277,
+      "y": 497
+    },
+    "mm-local-g113-other": {
+      "x": 1211,
+      "y": 710
+    }
+  },
+  "radii": {}
+}

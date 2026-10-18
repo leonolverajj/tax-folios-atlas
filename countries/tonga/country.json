@@ -1,0 +1,52 @@
+{
+  "id": "tonga",
+  "iso3": "TON",
+  "isoNumeric": "776",
+  "names": { "en": "Tonga", "native": "Tonga", "nativeLang": "en" },
+  "currency": { "code": "TOP", "symbol": "T$", "name": "Tongan paʻanga" },
+  "summary": "Tonga is shown at the grain of the IMF’s Government Finance Statistics: the budgetary central government, 9 lines of taxes and social contributions for 2023, in TOP. The largest line is value added tax (45%), then excises (21%) and corporate income tax (13%). Taxes on goods and services (VAT, sales taxes, excises, vehicle and similar taxes) make 68% of the total and income taxes 20%; the IMF series reports no actual social contributions for this sector. The folio records what each line raised; it does not describe the country’s tax laws, rates or the names of its individual taxes.",
+  "structureNote": "This folio is built from one source, the IMF’s Government Finance Statistics (Statement of Operations), for 2023: budgetary central government (S1311B). Taxes of regional and local governments and of social security funds that are not in this sector are not drawn, so the folio is partial and every line’s share is a share of this sector’s total only. Lines below 0.15% of the total are folded into one “small lines” core per level; lines that the IMF reports only as a parent are drawn as the parent. Rates, legal bases and the names of the individual taxes are not recorded. The IMF labels the series 2023; where the country’s fiscal year is not the calendar year, this is the fiscal year the IMF assigns to 2023. The figures are the IMF’s and have not been compared with the country’s own statistics. There is no OECD level layer for this country in the atlas.",
+  "theme": {
+    "accent": "#49c2d4",
+    "accent2": "#c2caeb",
+    "motif": "topo",
+    "motifNote": "Topographic contour lines over the outline of Tonga (the generic motif).",
+    "mapLabel": { "lon": -175, "lat": -20 }
+  },
+  "levels": [
+    {
+      "id": "central",
+      "branch": "national",
+      "names": { "official": "Budgetary central government", "common": "Budgetary central government" },
+      "description": "Budgetary central government as the IMF’s Government Finance Statistics classify them (sector S1311B).",
+      "fiscalPower": "This folio records what each line of the IMF’s classification raised; it does not describe which taxes this level may set or keep.",
+      "legalRefs": [{ "sourceId": "imf-gfs-api", "locator": "sector S1311B" }],
+      "checkedOn": "2026-10-17"
+    }
+  ],
+  "supportingSourceIds": ["imf-gfs-soo"],
+  "denominators": [
+    {
+      "id": "central-2023",
+      "label": "Taxes and social contributions of the budgetary central government (the units that the national budget covers), 2023",
+      "definition": "The taxes (GFS 11) and actual social contributions (GFS 12) of the budgetary central government (the units that the national budget covers) that the IMF reports for 2023, in TOP; imputed social contributions are left out.",
+      "levelIds": ["central"],
+      "amount": 285.545838,
+      "scale": "million",
+      "currency": "TOP",
+      "period": { "label": "2023", "kind": "calendar-year", "start": "2023-01-01", "end": "2023-12-31" },
+      "sourceId": "imf-gfs-api",
+      "locator": "Series TON.S1311B.G1, indicators G11_T and G12_T and their sub-lines, XDC, annual, 2023",
+      "calculation": "Sum of the 9 lines drawn (TOP million). The IMF reports 285.546 million for the sector; the lines drawn differ from it by -0 million (rounding between levels of the classification).",
+      "caveat": "The IMF flags the figures for this year as actual. The IMF labels the series 2023; where the country’s fiscal year is not the calendar year, this is the fiscal year the IMF assigns to 2023.",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "sizing": {
+    "label": "Taxes and actual social contributions reported to the IMF, 2023",
+    "definition": "The taxes (GFS 11) and actual social contributions (GFS 12) of the budgetary central government (the units that the national budget covers) for 2023, as the IMF’s Government Finance Statistics report them in TOP. Imputed social contributions are left out; sectors that the IMF series does not report in detail for 2023 are not included.",
+    "componentIds": ["central-2023"]
+  },
+  "researchStatus": "partial",
+  "grain": "harmonised"
+}

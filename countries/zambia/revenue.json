@@ -1,0 +1,36 @@
+{
+  "groups": [
+    {
+      "title": "Budgetary central government: lines of the IMF series, 2024",
+      "defaults": {
+        "denominatorId": "central-2024",
+        "scale": "million",
+        "currency": "ZMW",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        { "nodeId": "zm-central-g11411", "amount": 41116.022478, "locator": "Series ZMB.S1311B.G1.G11411_T.XDC.A, 2024" },
+        { "nodeId": "zm-central-g1111", "amount": 38652.932508, "locator": "Series ZMB.S1311B.G1.G1111_T.XDC.A, 2024" },
+        { "nodeId": "zm-central-g1112", "amount": 19984.017602, "locator": "Series ZMB.S1311B.G1.G1112_T.XDC.A, 2024" },
+        { "nodeId": "zm-central-g1142", "amount": 9431.172255, "locator": "Series ZMB.S1311B.G1.G1142_T.XDC.A, 2024" },
+        { "nodeId": "zm-central-g1151", "amount": 8494.176298, "locator": "Series ZMB.S1311B.G1.G1151_T.XDC.A, 2024" },
+        { "nodeId": "zm-central-g116", "amount": 4099.181666, "locator": "Series ZMB.S1311B.G1.G116_T.XDC.A, 2024" },
+        { "nodeId": "zm-central-g11452", "amount": 1591.511369, "locator": "Series ZMB.S1311B.G1.G11452_T.XDC.A, 2024" },
+        { "nodeId": "zm-central-g11414", "amount": 802.28949, "locator": "Series ZMB.S1311B.G1.G11414_T.XDC.A, 2024" },
+        { "nodeId": "zm-central-g1152", "amount": 364.754631, "locator": "Series ZMB.S1311B.G1.G1152_T.XDC.A, 2024" },
+        {
+          "nodeId": "zm-central-small-tax",
+          "amount": 139.438985,
+          "locator": "Series ZMB.S1311B.G1, indicators G1144_T, G11451_T, XDC, annual, 2024",
+          "calculation": "Sum of 2 lines, each below 0.15% of the total (ZMW million)"
+        }
+      ]
+    }
+  ],
+  "unavailable": []
+}

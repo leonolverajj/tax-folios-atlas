@@ -1,0 +1,70 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "palau": {
+      "x": 800,
+      "y": 500
+    },
+    "central": {
+      "x": 509,
+      "y": 432
+    },
+    "pw-central-g121-other": {
+      "x": 854,
+      "y": 828
+    },
+    "pw-central-g1151": {
+      "x": 460,
+      "y": 747
+    },
+    "pw-central-g1221": {
+      "x": 293,
+      "y": 516
+    },
+    "pw-central-g11452": {
+      "x": 429,
+      "y": 273
+    },
+    "pw-central-g112": {
+      "x": 786,
+      "y": 170
+    },
+    "pw-central-g1156": {
+      "x": 1165,
+      "y": 269
+    },
+    "pw-central-g11413": {
+      "x": 518,
+      "y": 897
+    },
+    "pw-central-g1111": {
+      "x": 102,
+      "y": 560
+    },
+    "pw-central-g1144": {
+      "x": 353,
+      "y": 157
+    },
+    "pw-central-g11451": {
+      "x": 1018,
+      "y": 75
+    },
+    "pw-central-g116": {
+      "x": 1469,
+      "y": 381
+    },
+    "state": {
+      "x": 1091,
+      "y": 568
+    },
+    "pw-state-small-tax": {
+      "x": 1302,
+      "y": 605
+    }
+  },
+  "radii": {}
+}

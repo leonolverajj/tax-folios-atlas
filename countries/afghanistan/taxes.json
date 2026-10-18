@@ -1,0 +1,294 @@
+{
+  "instruments": [
+    {
+      "id": "af-central-g1151",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "customs-duty",
+      "family": "trade",
+      "status": "current",
+      "names": { "official": "Customs and other import duties", "common": "Customs and other import duties" },
+      "taxes": { "base": "Duties on imported goods (GFS 1151).", "payer": "Importers." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "AFN 44.8 billion in 2017: 34% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "imf-gfs-codes", "locator": "G1151" }, { "sourceId": "imf-gfs-api", "locator": "Series AFG.S1311.G1.G1151_T.XDC.A, 2017" }],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "af-central-g11413",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "general-consumption",
+      "status": "current",
+      "names": { "official": "Turnover and other general taxes on goods and services", "common": "Turnover and other general taxes" },
+      "taxes": { "base": "Turnover taxes and other general taxes on goods and services (GFS 11413).", "payer": "Businesses." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "AFN 33.1 billion in 2017: 25% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "imf-gfs-codes", "locator": "G11413" }, { "sourceId": "imf-gfs-api", "locator": "Series AFG.S1311.G1.G11413_T.XDC.A, 2017" }],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "af-central-g1111",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "income-personal",
+      "status": "current",
+      "names": { "official": "Taxes on income, profits and capital gains payable by individuals", "common": "Personal income tax" },
+      "taxes": { "base": "Income, profits and capital gains of individuals (GFS 1111).", "payer": "Individuals." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "AFN 14.5 billion in 2017: 11% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "imf-gfs-codes", "locator": "G1111" }, { "sourceId": "imf-gfs-api", "locator": "Series AFG.S1311.G1.G1111_T.XDC.A, 2017" }],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "af-central-g1112",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "income-corporate",
+      "status": "current",
+      "names": { "official": "Taxes on income, profits and capital gains payable by corporations and other enterprises", "common": "Corporate income tax" },
+      "taxes": {
+        "base": "Income, profits and capital gains of corporations and other enterprises (GFS 1112).",
+        "payer": "Corporations and other enterprises."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "AFN 12.4 billion in 2017: 9.5% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "imf-gfs-codes", "locator": "G1112" }, { "sourceId": "imf-gfs-api", "locator": "Series AFG.S1311.G1.G1112_T.XDC.A, 2017" }],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "af-central-g11451",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Motor vehicle taxes", "common": "Motor vehicle taxes" },
+      "taxes": { "base": "Taxes on the ownership or use of motor vehicles (GFS 11451).", "payer": "Vehicle owners and users." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "AFN 9.98 billion in 2017: 7.6% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "imf-gfs-codes", "locator": "G11451" }, { "sourceId": "imf-gfs-api", "locator": "Series AFG.S1311.G1.G11451_T.XDC.A, 2017" }],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "af-central-g11452",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "other",
+      "status": "current",
+      "names": { "official": "Other taxes on the use of goods and on permission to use goods or perform activities", "common": "Licences and other use taxes" },
+      "taxes": {
+        "base": "Other taxes on the use of goods and on permission to use goods or perform activities (GFS 11452).",
+        "payer": "Holders of the licences."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "AFN 7.88 billion in 2017: 6% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "imf-gfs-codes", "locator": "G11452" }, { "sourceId": "imf-gfs-api", "locator": "Series AFG.S1311.G1.G11452_T.XDC.A, 2017" }],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "af-central-g1221",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "social-contribution",
+      "family": "social-security",
+      "status": "current",
+      "names": { "official": "Other social contributions: employee contributions", "common": "Other social contributions of employees" },
+      "taxes": { "base": "Contributions of employees to government employee schemes outside social security (GFS 1221).", "payer": "Government employees." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "AFN 3.72 billion in 2017: 2.8% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "imf-gfs-codes", "locator": "G1221" }, { "sourceId": "imf-gfs-api", "locator": "Series AFG.S1311.G1.G1221_T.XDC.A, 2017" }],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "af-central-g1144",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Taxes on specific services", "common": "Taxes on specific services" },
+      "taxes": {
+        "base": "Taxes on specific services such as insurance, entertainment, lodging and gambling (GFS 1144).",
+        "payer": "Providers of the services."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "AFN 1.76 billion in 2017: 1.3% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "imf-gfs-codes", "locator": "G1144" }, { "sourceId": "imf-gfs-api", "locator": "Series AFG.S1311.G1.G1144_T.XDC.A, 2017" }],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "af-central-g1113",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "income-mixed",
+      "status": "current",
+      "names": { "official": "Other taxes on income, profits and capital gains", "common": "Other income taxes" },
+      "taxes": {
+        "base": "Taxes on income, profits and capital gains that the country does not attribute to individuals or to enterprises (GFS 1113).",
+        "payer": "Individuals or enterprises."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "AFN 1.12 billion in 2017: 0.9% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "imf-gfs-codes", "locator": "G1113" }, { "sourceId": "imf-gfs-api", "locator": "Series AFG.S1311.G1.G1113_T.XDC.A, 2017" }],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "af-central-g1152",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "trade",
+      "status": "current",
+      "names": { "official": "Taxes on exports", "common": "Taxes on exports" },
+      "taxes": { "base": "Duties on exported goods (GFS 1152).", "payer": "Exporters." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "AFN 1.11 billion in 2017: 0.8% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "imf-gfs-codes", "locator": "G1152" }, { "sourceId": "imf-gfs-api", "locator": "Series AFG.S1311.G1.G1152_T.XDC.A, 2017" }],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "af-central-g11414",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "Taxes on financial and capital transactions", "common": "Taxes on financial and capital transactions" },
+      "taxes": {
+        "base": "Taxes on the purchase and sale of financial and capital assets, such as securities and property (GFS 11414).",
+        "payer": "Parties to the transactions."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "AFN 439 million in 2017: 0.3% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "imf-gfs-codes", "locator": "G11414" }, { "sourceId": "imf-gfs-api", "locator": "Series AFG.S1311.G1.G11414_T.XDC.A, 2017" }],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "af-central-small-tax",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "other",
+      "status": "current",
+      "names": { "official": "Other taxes (small lines)", "common": "Other taxes (small lines)" },
+      "taxes": {
+        "base": "4 lines of the IMF series that are each below 0.15% of the total, folded together: G113:other G113_T:other; G1146 Other taxes on goods and services; G1155 Exchange taxes; G116 Other taxes.",
+        "payer": "Various."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "AFN 177 million in 2017: 0.1% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [
+        { "sourceId": "imf-gfs-codes", "locator": "small-tax" },
+        { "sourceId": "imf-gfs-api", "locator": "Series AFG.S1311.G1, indicators G113_T:other, G1146_T, G1155_T, G116_T, XDC, annual, 2017" }
+      ],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "af-local-small-tax",
+      "parentId": "local",
+      "levelId": "local",
+      "category": "tax",
+      "family": "other",
+      "status": "current",
+      "names": { "official": "Other taxes (small lines)", "common": "Other taxes (small lines)" },
+      "taxes": {
+        "base": "6 lines of the IMF series that are each below 0.15% of the total, folded together: G1111 Taxes on income, profits and capital gains payable by individuals; G113:other G113_T:other; G11412 Sales taxes; G11451 Motor vehicle taxes; G1146 Other taxes on goods and services; G116 Other taxes.",
+        "payer": "Various."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "AFN 150 million in 2017: 0.1% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [
+        { "sourceId": "imf-gfs-codes", "locator": "small-tax" },
+        {
+          "sourceId": "imf-gfs-api",
+          "locator": "Series AFG.S1313MIXED.G1, indicators G1111_T, G113_T:other, G11412_T, G11451_T, G1146_T, G116_T, XDC, annual, 2017"
+        }
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  ]
+}

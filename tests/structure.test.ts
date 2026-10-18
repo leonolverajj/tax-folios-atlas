@@ -3,12 +3,13 @@ import { listCountryIds, listProfileIds, loadBundle, loadProfileFile } from '../
 import { HEADINGS, levelShares, mixOf } from '../src/data/structureMath';
 import { collectedBy } from '../src/trees/metrics';
 import type { Structure } from '../src/data/schema';
+import { OECD_ISO3, OECD_LAC_ISO3 } from './oecd';
 
 const folioIds = listCountryIds();
 const profileIds = listProfileIds();
-/** Folios of countries that are not OECD members: no OECD level layer, by design (the Trees table shows n/a). */
-const NON_OECD = ['bulgaria', 'croatia', 'malta', 'romania'];
-const withStructure = [...folioIds.filter((id) => !NON_OECD.includes(id)), ...profileIds];
+/** Folios that carry the OECD level layer; the others (countries outside the OECD) have none, by design: the Trees table shows n/a. */
+const withStructure = [...folioIds.filter((id) => !!loadBundle(id).structure), ...profileIds];
+const iso3Of = (id: string) => loadBundle(id).meta.iso3;
 const sum = (xs: number[]) => xs.reduce((a, b) => a + b, 0);
 
 /** The harmonised layer of any country, whether it has a folio or only a profile. */
@@ -29,8 +30,11 @@ describe.each(withStructure)('%s harmonised layer', (id) => {
 });
 
 describe('the harmonised layer as a set', () => {
-  it('is missing only for the four folios of countries outside the OECD', () => {
-    expect(folioIds.filter((id) => !loadBundle(id).structure).sort()).toEqual([...NON_OECD].sort());
+  it('is present for every OECD member, and for no other country except the two of the OECD Latin America edition', () => {
+    const have = new Set(withStructure.map((id) => (folioIds.includes(id) ? iso3Of(id) : loadProfileFile(id).iso3)));
+    for (const c of OECD_ISO3) expect(have.has(c), `${c} has an OECD layer`).toBe(true);
+    const others = [...have].filter((c) => !(OECD_ISO3 as readonly string[]).includes(c)).sort();
+    expect(others).toEqual([...OECD_LAC_ISO3].sort());
   });
 
   it('uses the same reference year for every country', () => {

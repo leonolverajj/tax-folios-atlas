@@ -1,0 +1,105 @@
+{
+  "groups": [
+    {
+      "title": "Central government and social security: lines of the IMF series, 2024",
+      "defaults": {
+        "denominatorId": "central-2024",
+        "scale": "million",
+        "currency": "EUR",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Accrual basis, as reported to the IMF (flag AC)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        {
+          "nodeId": "sm-central-g1211",
+          "amount": 237.930216,
+          "locator": "Series SMR.S1311 + S1314.G1.G1211_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (EUR million)"
+        },
+        {
+          "nodeId": "sm-central-g1112",
+          "amount": 96.085862,
+          "locator": "Series SMR.S1311 + S1314.G1.G1112_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (EUR million)"
+        },
+        {
+          "nodeId": "sm-central-g1111",
+          "amount": 74.434754,
+          "locator": "Series SMR.S1311 + S1314.G1.G1111_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (EUR million)"
+        },
+        {
+          "nodeId": "sm-central-g11413",
+          "amount": 61.3783,
+          "locator": "Series SMR.S1311 + S1314.G1.G11413_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (EUR million)"
+        },
+        {
+          "nodeId": "sm-central-g1142",
+          "amount": 49.082877,
+          "locator": "Series SMR.S1311 + S1314.G1.G1142_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (EUR million)"
+        },
+        {
+          "nodeId": "sm-central-g1144",
+          "amount": 27.9087,
+          "locator": "Series SMR.S1311 + S1314.G1.G1144_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (EUR million)"
+        },
+        {
+          "nodeId": "sm-central-g116",
+          "amount": 8.104941,
+          "locator": "Series SMR.S1311 + S1314.G1.G116_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (EUR million)"
+        },
+        {
+          "nodeId": "sm-central-g113-other",
+          "amount": 6.147129,
+          "locator": "Series SMR.S1311 + S1314.G1.G113_T.XDC.A, 2024, less its reported sub-lines",
+          "calculation": "G113_T less the sum of its reported sub-lines (EUR million)"
+        },
+        {
+          "nodeId": "sm-central-g11451",
+          "amount": 5.142956,
+          "locator": "Series SMR.S1311 + S1314.G1.G11451_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (EUR million)"
+        },
+        {
+          "nodeId": "sm-central-g11452",
+          "amount": 3.813129,
+          "locator": "Series SMR.S1311 + S1314.G1.G11452_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (EUR million)"
+        },
+        {
+          "nodeId": "sm-central-g1135",
+          "amount": 3.514904,
+          "locator": "Series SMR.S1311 + S1314.G1.G1135_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (EUR million)"
+        },
+        {
+          "nodeId": "sm-central-g1221",
+          "amount": 2.795845,
+          "locator": "Series SMR.S1311 + S1314.G1.G1221_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (EUR million)"
+        },
+        {
+          "nodeId": "sm-central-g1151",
+          "amount": 2.330943,
+          "locator": "Series SMR.S1311 + S1314.G1.G1151_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (EUR million)"
+        },
+        {
+          "nodeId": "sm-central-g1133",
+          "amount": 0.48475,
+          "locator": "Series SMR.S1311 + S1314.G1.G1133_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (EUR million)"
+        }
+      ]
+    }
+  ],
+  "unavailable": []
+}

@@ -1,0 +1,66 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "gambia": {
+      "x": 800,
+      "y": 500
+    },
+    "central": {
+      "x": 509,
+      "y": 432
+    },
+    "gm-central-g11411": {
+      "x": 853,
+      "y": 828
+    },
+    "gm-central-g1112": {
+      "x": 470,
+      "y": 729
+    },
+    "gm-central-g1111": {
+      "x": 289,
+      "y": 513
+    },
+    "gm-central-g1152": {
+      "x": 425,
+      "y": 276
+    },
+    "gm-central-g11451": {
+      "x": 790,
+      "y": 170
+    },
+    "gm-central-g112": {
+      "x": 1158,
+      "y": 264
+    },
+    "gm-central-g1151": {
+      "x": 581,
+      "y": 885
+    },
+    "gm-central-g1142": {
+      "x": 172,
+      "y": 691
+    },
+    "gm-central-g11452": {
+      "x": 150,
+      "y": 343
+    },
+    "gm-central-g1113": {
+      "x": 529,
+      "y": 88
+    },
+    "gm-central-g11414": {
+      "x": 1072,
+      "y": 88
+    },
+    "gm-central-g1156": {
+      "x": 1450,
+      "y": 342
+    }
+  },
+  "radii": {}
+}

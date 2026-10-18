@@ -1,0 +1,66 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "fiji": {
+      "x": 800,
+      "y": 500
+    },
+    "central": {
+      "x": 509,
+      "y": 432
+    },
+    "fj-central-g11411": {
+      "x": 849,
+      "y": 828
+    },
+    "fj-central-g1151": {
+      "x": 470,
+      "y": 752
+    },
+    "fj-central-g1113": {
+      "x": 289,
+      "y": 520
+    },
+    "fj-central-g1156": {
+      "x": 431,
+      "y": 272
+    },
+    "fj-central-g11451": {
+      "x": 789,
+      "y": 170
+    },
+    "fj-central-g1152": {
+      "x": 1158,
+      "y": 264
+    },
+    "fj-central-g1112": {
+      "x": 570,
+      "y": 896
+    },
+    "fj-central-g1111": {
+      "x": 172,
+      "y": 691
+    },
+    "fj-central-g1142": {
+      "x": 154,
+      "y": 336
+    },
+    "fj-central-g1146": {
+      "x": 533,
+      "y": 86
+    },
+    "fj-central-g11452": {
+      "x": 1078,
+      "y": 90
+    },
+    "fj-central-small-tax": {
+      "x": 1446,
+      "y": 336
+    }
+  },
+  "radii": {}
+}

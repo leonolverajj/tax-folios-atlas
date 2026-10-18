@@ -1,0 +1,33 @@
+{
+  "groups": [
+    {
+      "title": "Budgetary central government: lines of the IMF series, 2024",
+      "defaults": {
+        "denominatorId": "central-2024",
+        "scale": "million",
+        "currency": "MWK",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        { "nodeId": "mw-central-g1112", "amount": 842105.985907, "locator": "Series MWI.S1311B.G1.G1112_T.XDC.A, 2024" },
+        { "nodeId": "mw-central-g11411", "amount": 826860.688153, "locator": "Series MWI.S1311B.G1.G11411_T.XDC.A, 2024" },
+        { "nodeId": "mw-central-g1111", "amount": 730050.725416, "locator": "Series MWI.S1311B.G1.G1111_T.XDC.A, 2024" },
+        { "nodeId": "mw-central-g1142", "amount": 384823.082442, "locator": "Series MWI.S1311B.G1.G1142_T.XDC.A, 2024" },
+        { "nodeId": "mw-central-g1151", "amount": 272364.571951, "locator": "Series MWI.S1311B.G1.G1151_T.XDC.A, 2024" },
+        { "nodeId": "mw-central-g11451", "amount": 8981.785296, "locator": "Series MWI.S1311B.G1.G11451_T.XDC.A, 2024" },
+        {
+          "nodeId": "mw-central-small-tax",
+          "amount": 1981.343856,
+          "locator": "Series MWI.S1311B.G1, indicators G11413_T, G116_T, XDC, annual, 2024",
+          "calculation": "Sum of 2 lines, each below 0.15% of the total (MWK million)"
+        }
+      ]
+    }
+  ],
+  "unavailable": []
+}

@@ -91,7 +91,7 @@ export class DetailPanel {
       <header>
         <div class="chips"><span class="chip chip-branch">Country</span><span class="chip">${esc(m.currency.code)}</span>${
           m.researchStatus !== 'researched' ? `<span class="chip chip-warn">Research: ${esc(m.researchStatus)}</span>` : ''
-        }</div>
+        }${m.grain === 'harmonised' ? '<span class="chip chip-warn" title="Each core is a line of the IMF classification of taxes, not a separately legislated tax">IMF classification lines</span>' : ''}</div>
         <h2 id="detail-title" tabindex="-1">${esc(m.names.en)}</h2>
         ${m.names.native !== m.names.en ? `<p class="official" lang="${esc(m.names.nativeLang)}">${esc(m.names.native)}</p>` : ''}
       </header>

@@ -6,6 +6,7 @@
  *   node scripts/verify.mjs a11y      [--base=...] [--only=...]
  *   node scripts/verify.mjs layout    [--base=...] [--only=...]        (drag / save / reload; needs `npm run dev`)
  *   node scripts/verify.mjs all
+ *   (screenshots of the folios at the IMF's grain are skipped unless --shots-all or --only=<id>; see the note above shotCountries)
  *
  * Uses the system Chrome (playwright-core, no browser download).
  */
@@ -28,6 +29,10 @@ const countries = fs
   .filter((d) => d.isDirectory() && fs.existsSync(path.join(ROOT, 'countries', d.name, 'country.json')))
   .map((d) => d.name)
   .filter((c) => !ONLY.length || ONLY.includes(c));
+// Folios at the grain of the IMF's classification are checked like the others, but their screenshots (1 MB each) are not
+// written unless asked for with --shots-all or named with --only: the images would outweigh the rest of the repository.
+const harmonised = new Set(countries.filter((c) => JSON.parse(fs.readFileSync(path.join(ROOT, 'countries', c, 'country.json'), 'utf8')).grain === 'harmonised'));
+const shotCountries = countries.filter((c) => !harmonised.has(c) || args.includes('--shots-all') || ONLY.includes(c));
 
 const SIZES = {
   desktop: { width: 1440, height: 900, deviceScaleFactor: 1 },
@@ -164,7 +169,7 @@ async function shots(browser) {
     if (page.__logs.length) page.__logs.forEach((l) => note(`map-${sz} console: ${l}`));
     await page.__ctx.close();
   }
-  for (const c of countries) {
+  for (const c of shotCountries) {
     for (const sz of ['desktop', 'mobile']) {
       const page = await newPage(browser, SIZES[sz], `${BASE}/?debug=1#/${c}`);
       await waitFolio(page);
@@ -359,17 +364,20 @@ async function trees(browser) {
   const views = await page.$$eval('.tcard svg.tree', (s) => [...new Set(s.map((x) => x.getAttribute('viewBox')))]);
   views.length === 1 ? ok(`all trees share one scale (viewBox ${views[0]})`) : note(`trees use different scales: ${views.join(' | ')}`);
   const labels = await page.$$eval('.tcard-hit', (b) => b.map((x) => x.getAttribute('aria-label') ?? ''));
-  labels.every((l) => /charges across \d+ levels/.test(l)) ? ok('every tree has a text description with its counts') : note('a tree lacks its text description');
+  labels.every((l) => /(charges|classification lines) across \d+ levels/.test(l)) ? ok('every tree has a text description with its counts') : note('a tree lacks its text description');
   // each tree draws one dot per node of its folio
   const dots = await page.$$eval('.tcard', (cs) => cs.map((c) => ({ id: c.dataset.id, n: c.querySelectorAll('.tn').length, e: c.querySelectorAll('.te').length })));
   dots.every((d) => d.e === d.n - 1) ? ok('every dot is joined to a parent (edges = dots − 1)') : note(`edges and dots disagree: ${JSON.stringify(dots.filter((d) => d.e !== d.n - 1))}`);
   // sort
   await page.selectOption('#tr-sort', 'charges-desc');
-  const counts = await page.$$eval('.tcard .facts div:first-child b', (b) => b.map((x) => Number(x.textContent)));
-  counts.every((c, i) => i === 0 || counts[i - 1] >= c) ? ok(`sorting by charges works (${counts.slice(0, 4).join(', ')} …)`) : note(`sort by charges is not descending: ${counts.join(',')}`);
+  // the detailed folios and the folios at the IMF's grain are two lists, each sorted on its own
+  for (const grid of ['#tr-grid', '#tr-grid-h']) {
+    const counts = await page.$$eval(`${grid} .tcard .facts div:first-child b`, (b) => b.map((x) => Number(x.textContent)));
+    counts.every((c, i) => i === 0 || counts[i - 1] >= c) ? ok(`sorting by charges works in ${grid} (${counts.slice(0, 4).join(', ')} …)`) : note(`sort by charges is not descending in ${grid}: ${counts.join(',')}`);
+  }
   // equal-size mode: every charge has the same radius
   await page.click('[data-size="equal"]');
-  const radii = await page.$$eval('.tcard:first-child .tn-charge .tn-body', (c) => [...new Set(c.map((x) => x.getAttribute('r')))]);
+  const radii = await page.$$eval('#tr-grid .tcard:first-child .tn-charge .tn-body', (c) => [...new Set(c.map((x) => x.getAttribute('r')))]);
   radii.length === 1 ? ok('"every charge equal" draws one dot size') : note(`equal mode has several radii: ${radii.join(',')}`);
   await page.click('[data-size="revenue"]');
   // colour by kind changes charge colours, not the structure

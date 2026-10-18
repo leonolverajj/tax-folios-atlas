@@ -1,0 +1,14 @@
+{
+  "nodes": {
+    "dominica": { "label": "Dominica", "sublabel": "Fiscal folio · IMF lines", "glyph": "globe" },
+    "central": { "label": "Budgetary central govt", "sublabel": "IMF S1311B", "glyph": "landmark" },
+    "dm-central-g1141": { "label": "General consumption taxes", "sublabel": "One line", "glyph": "cart" },
+    "dm-central-g111": { "label": "Income taxes", "sublabel": "Persons and companies", "glyph": "coin" },
+    "dm-central-g114-other": { "label": "Other goods and services taxes", "sublabel": "Not itemised", "glyph": "gear" },
+    "dm-central-g1151": { "label": "Customs duties", "sublabel": "Imports", "glyph": "ship" },
+    "dm-central-g11452": { "label": "Licences and use taxes", "sublabel": "Permissions", "glyph": "stamp" },
+    "dm-central-g1156": { "label": "Other trade taxes", "sublabel": "Not elsewhere classified", "glyph": "gear" },
+    "dm-central-g1155": { "label": "Exchange taxes", "sublabel": "Foreign exchange", "glyph": "coin" },
+    "dm-central-g113-other": { "label": "Other property taxes", "sublabel": "Not itemised", "glyph": "house" }
+  }
+}

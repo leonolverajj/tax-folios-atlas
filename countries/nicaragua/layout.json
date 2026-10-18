@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "nicaragua": {
+      "x": 800,
+      "y": 500
+    },
+    "central": {
+      "x": 509,
+      "y": 432
+    },
+    "ni-central-g111": {
+      "x": 851,
+      "y": 828
+    },
+    "ni-central-g11411": {
+      "x": 469,
+      "y": 752
+    },
+    "ni-central-g1142": {
+      "x": 289,
+      "y": 513
+    },
+    "ni-central-g1151": {
+      "x": 421,
+      "y": 278
+    },
+    "ni-central-g116": {
+      "x": 790,
+      "y": 170
+    },
+    "ni-central-g1156": {
+      "x": 1164,
+      "y": 268
+    }
+  },
+  "radii": {}
+}

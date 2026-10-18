@@ -117,6 +117,8 @@ export interface CountrySpec {
   denominators: DenSpec[];
   sizing: { label: string; definition: string; componentIds: string[]; neutralRadius?: number };
   researchStatus?: 'researched' | 'partial' | 'draft';
+  /** 'harmonised' for folios drawn from an international classification (IMF GFS lines) instead of the country's own taxes. */
+  grain?: 'detailed' | 'harmonised';
   rootLabel?: { label: string; sub?: string };
   sources: Source[];
   groups: Record<string, GroupSpec>;
@@ -208,6 +210,7 @@ export function buildCountry(spec: CountrySpec): void {
     })),
     sizing: spec.sizing,
     researchStatus: spec.researchStatus ?? 'researched',
+    ...(spec.grain && spec.grain !== 'detailed' ? { grain: spec.grain } : {}),
   });
 
   /* ---- taxes.json ---- */

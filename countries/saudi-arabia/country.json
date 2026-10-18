@@ -1,0 +1,52 @@
+{
+  "id": "saudi-arabia",
+  "iso3": "SAU",
+  "isoNumeric": "682",
+  "names": { "en": "Saudi Arabia", "native": "السعودية", "nativeLang": "ar" },
+  "currency": { "code": "SAR", "symbol": "ر.س", "name": "Saudi riyal" },
+  "summary": "Saudi Arabia is shown at the grain of the IMF’s Government Finance Statistics: the central government and its social security funds, 11 lines of taxes and social contributions for 2024, in SAR. The largest line is value added tax (37%), then social security contributions of employees (24%) and licences and other use taxes (13%). Taxes on goods and services (VAT, sales taxes, excises, vehicle and similar taxes) make 42% of the total and income taxes 6.3%; social contributions are 24%. The folio records what each line raised; it does not describe the country’s tax laws, rates or the names of its individual taxes.",
+  "structureNote": "This folio is built from one source, the IMF’s Government Finance Statistics (Statement of Operations), for 2024: the IMFâ€™s general-government series equals its central-government series, so no taxes of sub-national governments are reported. Sub-national governments are not drawn: the IMF series does not report taxes for them in this year. Lines below 0.15% of the total are folded into one “small lines” core per level; lines that the IMF reports only as a parent are drawn as the parent. Rates, legal bases and the names of the individual taxes are not recorded. The IMF labels the series 2024; where the country’s fiscal year is not the calendar year, this is the fiscal year the IMF assigns to 2024. The figures are the IMF’s and have not been compared with the country’s own statistics. There is no OECD level layer for this country in the atlas.",
+  "theme": {
+    "accent": "#4949d4",
+    "accent2": "#ddc2eb",
+    "motif": "topo",
+    "motifNote": "Topographic contour lines over the outline of Saudi Arabia (the generic motif).",
+    "mapLabel": { "lon": 45, "lat": 25 }
+  },
+  "levels": [
+    {
+      "id": "central",
+      "branch": "national",
+      "names": { "official": "Central government and social security funds", "common": "Central government and social security" },
+      "description": "Central government and social security funds as the IMF’s Government Finance Statistics classify them (sector S1311 + S1314).",
+      "fiscalPower": "This folio records what each line of the IMF’s classification raised; it does not describe which taxes this level may set or keep.",
+      "legalRefs": [{ "sourceId": "imf-gfs-api", "locator": "sector S1311 + S1314" }],
+      "checkedOn": "2026-10-17"
+    }
+  ],
+  "supportingSourceIds": ["imf-gfs-soo"],
+  "denominators": [
+    {
+      "id": "central-2024",
+      "label": "Taxes and social contributions of the central government together with its social security funds, 2024",
+      "definition": "The taxes (GFS 11) and actual social contributions (GFS 12) of the central government together with its social security funds that the IMF reports for 2024, in SAR; imputed social contributions are left out.",
+      "levelIds": ["central"],
+      "amount": 502655.695807,
+      "scale": "million",
+      "currency": "SAR",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "imf-gfs-api",
+      "locator": "Series SAU.S1311 + S1314.G1, indicators G11_T and G12_T and their sub-lines, XDC, annual, 2024",
+      "calculation": "Sum of the 11 lines drawn (SAR million). The IMF reports 502,655.696 million for the sector; the lines drawn differ from it by 0 million (rounding between levels of the classification).",
+      "caveat": "The IMF flags the figures for this year as actual. The IMF labels the series 2024; where the country’s fiscal year is not the calendar year, this is the fiscal year the IMF assigns to 2024.",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "sizing": {
+    "label": "Taxes and actual social contributions reported to the IMF, 2024",
+    "definition": "The taxes (GFS 11) and actual social contributions (GFS 12) of the central government together with its social security funds for 2024, as the IMF’s Government Finance Statistics report them in SAR. Imputed social contributions are left out; sectors that the IMF series does not report in detail for 2024 are not included.",
+    "componentIds": ["central-2024"]
+  },
+  "researchStatus": "partial",
+  "grain": "harmonised"
+}

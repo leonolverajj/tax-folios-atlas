@@ -1,0 +1,134 @@
+{
+  "groups": [
+    {
+      "title": "Central government and social security: lines of the IMF series, 2024",
+      "defaults": {
+        "denominatorId": "central-2024",
+        "scale": "million",
+        "currency": "AZN",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        {
+          "nodeId": "az-central-g11411",
+          "amount": 8894.256,
+          "locator": "Series AZE.S1311 + S1314.G1.G11411_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (AZN million)"
+        },
+        {
+          "nodeId": "az-central-g1211",
+          "amount": 8103.342,
+          "locator": "Series AZE.S1311 + S1314.G1.G1211_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (AZN million)"
+        },
+        {
+          "nodeId": "az-central-g1112",
+          "amount": 6786.901,
+          "locator": "Series AZE.S1311 + S1314.G1.G1112_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (AZN million)"
+        },
+        {
+          "nodeId": "az-central-g1111",
+          "amount": 1839.247,
+          "locator": "Series AZE.S1311 + S1314.G1.G1111_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (AZN million)"
+        },
+        {
+          "nodeId": "az-central-g1151",
+          "amount": 1751.421,
+          "locator": "Series AZE.S1311 + S1314.G1.G1151_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (AZN million)"
+        },
+        {
+          "nodeId": "az-central-g1142",
+          "amount": 1555.693,
+          "locator": "Series AZE.S1311 + S1314.G1.G1142_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (AZN million)"
+        },
+        {
+          "nodeId": "az-central-g113-other",
+          "amount": 392.771,
+          "locator": "Series AZE.S1311 + S1314.G1.G113_T.XDC.A, 2024, less its reported sub-lines",
+          "calculation": "G113_T less the sum of its reported sub-lines (AZN million)"
+        },
+        {
+          "nodeId": "az-central-g11412",
+          "amount": 382.868,
+          "locator": "Series AZE.S1311 + S1314.G1.G11412_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (AZN million)"
+        },
+        {
+          "nodeId": "az-central-g1156",
+          "amount": 149.271,
+          "locator": "Series AZE.S1311 + S1314.G1.G1156_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (AZN million)"
+        },
+        {
+          "nodeId": "az-central-g11451",
+          "amount": 135.905,
+          "locator": "Series AZE.S1311 + S1314.G1.G11451_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (AZN million)"
+        },
+        {
+          "nodeId": "az-central-g1152",
+          "amount": 2.176,
+          "locator": "Series AZE.S1311 + S1314.G1.G1152_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (AZN million)"
+        }
+      ]
+    },
+    {
+      "title": "Regional governments: lines of the IMF series, 2024",
+      "defaults": {
+        "denominatorId": "state-2024",
+        "scale": "million",
+        "currency": "AZN",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        { "nodeId": "az-state-g1142", "amount": 77.088, "locator": "Series AZE.S1312MIXED.G1.G1142_T.XDC.A, 2024" },
+        { "nodeId": "az-state-g11411", "amount": 57.988, "locator": "Series AZE.S1312MIXED.G1.G11411_T.XDC.A, 2024" },
+        {
+          "nodeId": "az-state-small-tax",
+          "amount": 53.231,
+          "locator": "Series AZE.S1312MIXED.G1, indicators G1112_T, G113_T:other, G11412_T, G11451_T, XDC, annual, 2024",
+          "calculation": "Sum of 4 lines, each below 0.15% of the total (AZN million)"
+        },
+        { "nodeId": "az-state-g1111", "amount": 48.66, "locator": "Series AZE.S1312MIXED.G1.G1111_T.XDC.A, 2024" }
+      ]
+    },
+    {
+      "title": "Local governments: lines of the IMF series, 2024",
+      "defaults": {
+        "denominatorId": "local-2024",
+        "scale": "million",
+        "currency": "AZN",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        {
+          "nodeId": "az-local-g113-other",
+          "amount": 27.217,
+          "locator": "Series AZE.S1313MIXED.G1.G113_T.XDC.A, 2024, less its reported sub-lines",
+          "calculation": "G113_T less the sum of its reported sub-lines (AZN million)"
+        }
+      ]
+    }
+  ],
+  "unavailable": []
+}

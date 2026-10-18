@@ -1,0 +1,14 @@
+{
+  "nodes": {
+    "vanuatu": { "label": "Vanuatu", "sublabel": "Fiscal folio · IMF lines", "glyph": "globe" },
+    "central": { "label": "Budgetary central govt", "sublabel": "IMF S1311B", "glyph": "landmark" },
+    "vu-central-g11411": { "label": "VAT", "sublabel": "Value added", "glyph": "cart" },
+    "vu-central-g1151": { "label": "Customs duties", "sublabel": "Imports", "glyph": "ship" },
+    "vu-central-g1142": { "label": "Excises", "sublabel": "Specific goods", "glyph": "flame" },
+    "vu-central-g11452": { "label": "Licences and use taxes", "sublabel": "Permissions", "glyph": "stamp" },
+    "vu-central-g11451": { "label": "Motor vehicle taxes", "sublabel": "Ownership · use", "glyph": "car" },
+    "vu-central-g1144": { "label": "Taxes on services", "sublabel": "Insurance · lodging · gambling", "glyph": "bed" },
+    "vu-central-g113-other": { "label": "Other property taxes", "sublabel": "Not itemised", "glyph": "house" },
+    "vu-central-g1152": { "label": "Export taxes", "sublabel": "Exports", "glyph": "plane" }
+  }
+}

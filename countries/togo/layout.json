@@ -1,0 +1,66 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "togo": {
+      "x": 800,
+      "y": 500
+    },
+    "central": {
+      "x": 509,
+      "y": 432
+    },
+    "tg-central-g11411": {
+      "x": 845,
+      "y": 829
+    },
+    "tg-central-g1112": {
+      "x": 461,
+      "y": 734
+    },
+    "tg-central-g1111": {
+      "x": 290,
+      "y": 521
+    },
+    "tg-central-g11452": {
+      "x": 425,
+      "y": 276
+    },
+    "tg-central-g112": {
+      "x": 797,
+      "y": 170
+    },
+    "tg-central-small-tax": {
+      "x": 1161,
+      "y": 266
+    },
+    "tg-central-g1151": {
+      "x": 571,
+      "y": 891
+    },
+    "tg-central-g1142": {
+      "x": 175,
+      "y": 695
+    },
+    "tg-central-g11414": {
+      "x": 155,
+      "y": 334
+    },
+    "tg-central-g1144": {
+      "x": 523,
+      "y": 89
+    },
+    "tg-central-g11451": {
+      "x": 1068,
+      "y": 87
+    },
+    "tg-central-g11412": {
+      "x": 1452,
+      "y": 346
+    }
+  },
+  "radii": {}
+}

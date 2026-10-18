@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "zambia": {
+      "x": 800,
+      "y": 500
+    },
+    "central": {
+      "x": 509,
+      "y": 432
+    },
+    "zm-central-g11411": {
+      "x": 852,
+      "y": 828
+    },
+    "zm-central-g1112": {
+      "x": 397,
+      "y": 703
+    },
+    "zm-central-g1151": {
+      "x": 321,
+      "y": 383
+    },
+    "zm-central-g11452": {
+      "x": 684,
+      "y": 179
+    },
+    "zm-central-g1152": {
+      "x": 1160,
+      "y": 266
+    },
+    "zm-central-g1111": {
+      "x": 506,
+      "y": 880
+    },
+    "zm-central-g1142": {
+      "x": 111,
+      "y": 553
+    },
+    "zm-central-g116": {
+      "x": 346,
+      "y": 161
+    },
+    "zm-central-g11414": {
+      "x": 1020,
+      "y": 75
+    },
+    "zm-central-small-tax": {
+      "x": 1471,
+      "y": 385
+    }
+  },
+  "radii": {}
+}

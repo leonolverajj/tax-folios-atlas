@@ -1,0 +1,40 @@
+{
+  "groups": [
+    {
+      "title": "Budgetary central government: lines of the IMF series, 2020",
+      "defaults": {
+        "denominatorId": "central-2020",
+        "scale": "million",
+        "currency": "XAF",
+        "period": { "label": "2020", "kind": "calendar-year", "start": "2020-01-01", "end": "2020-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        { "nodeId": "td-central-g1112", "amount": 372593.713526, "locator": "Series TCD.S1311B.G1.G1112_T.XDC.A, 2020" },
+        { "nodeId": "td-central-g1111", "amount": 128467.083199, "locator": "Series TCD.S1311B.G1.G1111_T.XDC.A, 2020" },
+        { "nodeId": "td-central-g11411", "amount": 103448.768566, "locator": "Series TCD.S1311B.G1.G11411_T.XDC.A, 2020" },
+        { "nodeId": "td-central-g1151", "amount": 91278.933664, "locator": "Series TCD.S1311B.G1.G1151_T.XDC.A, 2020" },
+        { "nodeId": "td-central-g11452", "amount": 27658.203509, "locator": "Series TCD.S1311B.G1.G11452_T.XDC.A, 2020" },
+        { "nodeId": "td-central-g1152", "amount": 23546.938227, "locator": "Series TCD.S1311B.G1.G1152_T.XDC.A, 2020" },
+        { "nodeId": "td-central-g116", "amount": 15839.552891, "locator": "Series TCD.S1311B.G1.G116_T.XDC.A, 2020" },
+        { "nodeId": "td-central-g11414", "amount": 15633.500709, "locator": "Series TCD.S1311B.G1.G11414_T.XDC.A, 2020" },
+        { "nodeId": "td-central-g1142", "amount": 15052.185873, "locator": "Series TCD.S1311B.G1.G1142_T.XDC.A, 2020" },
+        { "nodeId": "td-central-g112", "amount": 12217.883083, "locator": "Series TCD.S1311B.G1.G112_T.XDC.A, 2020" },
+        { "nodeId": "td-central-g1155", "amount": 4591.816492, "locator": "Series TCD.S1311B.G1.G1155_T.XDC.A, 2020" },
+        { "nodeId": "td-central-g1113", "amount": 1537.444079, "locator": "Series TCD.S1311B.G1.G1113_T.XDC.A, 2020" },
+        { "nodeId": "td-central-g1146", "amount": 1322.166415, "locator": "Series TCD.S1311B.G1.G1146_T.XDC.A, 2020" },
+        {
+          "nodeId": "td-central-small-tax",
+          "amount": 1120.388044,
+          "locator": "Series TCD.S1311B.G1, indicators G1135_T, G1144_T, G11451_T, XDC, annual, 2020",
+          "calculation": "Sum of 3 lines, each below 0.15% of the total (XAF million)"
+        }
+      ]
+    }
+  ],
+  "unavailable": []
+}

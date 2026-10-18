@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "albania": {
+      "x": 800,
+      "y": 500
+    },
+    "central": {
+      "x": 509,
+      "y": 432
+    },
+    "al-central-g11411": {
+      "x": 822,
+      "y": 753
+    },
+    "al-central-g1112": {
+      "x": 385,
+      "y": 693
+    },
+    "al-central-g11451": {
+      "x": 302,
+      "y": 387
+    },
+    "al-central-g1151": {
+      "x": 680,
+      "y": 179
+    },
+    "al-central-g1144": {
+      "x": 1144,
+      "y": 256
+    },
+    "al-central-g1212": {
+      "x": 491,
+      "y": 900
+    },
+    "al-central-g1211": {
+      "x": 110,
+      "y": 544
+    },
+    "al-central-g11452": {
+      "x": 349,
+      "y": 159
+    },
+    "al-central-g11412": {
+      "x": 991,
+      "y": 69
+    },
+    "al-central-small-tax": {
+      "x": 1460,
+      "y": 360
+    },
+    "al-central-g1142": {
+      "x": 848,
+      "y": 907
+    },
+    "al-central-g1111": {
+      "x": 102,
+      "y": 669
+    },
+    "al-central-g1213": {
+      "x": 325,
+      "y": 32
+    },
+    "al-central-g11414": {
+      "x": 1396,
+      "y": 84
+    },
+    "local": {
+      "x": 1091,
+      "y": 568
+    },
+    "al-local-g11452": {
+      "x": 1162,
+      "y": 411
+    },
+    "al-local-g113-other": {
+      "x": 1272,
+      "y": 526
+    },
+    "al-local-small-tax": {
+      "x": 1236,
+      "y": 709
+    },
+    "al-local-g1146": {
+      "x": 1082,
+      "y": 801
+    }
+  },
+  "radii": {}
+}

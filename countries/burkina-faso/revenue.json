@@ -1,0 +1,169 @@
+{
+  "groups": [
+    {
+      "title": "Central government and social security: lines of the IMF series, 2024",
+      "defaults": {
+        "denominatorId": "central-2024",
+        "scale": "million",
+        "currency": "XOF",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Accrual basis, as reported to the IMF (flag AC)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        {
+          "nodeId": "bf-central-g11411",
+          "amount": 787058.387867,
+          "locator": "Series BFA.S1311 + S1314.G1.G11411_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (XOF million)"
+        },
+        {
+          "nodeId": "bf-central-g1112",
+          "amount": 397298.139503,
+          "locator": "Series BFA.S1311 + S1314.G1.G1112_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (XOF million)"
+        },
+        {
+          "nodeId": "bf-central-g1151",
+          "amount": 343665.903773,
+          "locator": "Series BFA.S1311 + S1314.G1.G1151_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (XOF million)"
+        },
+        {
+          "nodeId": "bf-central-g1142",
+          "amount": 270928.976285,
+          "locator": "Series BFA.S1311 + S1314.G1.G1142_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (XOF million)"
+        },
+        {
+          "nodeId": "bf-central-g1111",
+          "amount": 222633.074882,
+          "locator": "Series BFA.S1311 + S1314.G1.G1111_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (XOF million)"
+        },
+        {
+          "nodeId": "bf-central-g1153",
+          "amount": 181755.142858,
+          "locator": "Series BFA.S1311 + S1314.G1.G1153_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (XOF million)"
+        },
+        {
+          "nodeId": "bf-central-g1146",
+          "amount": 147054.551489,
+          "locator": "Series BFA.S1311 + S1314.G1.G1146_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (XOF million)"
+        },
+        {
+          "nodeId": "bf-central-g1212",
+          "amount": 99128.129142,
+          "locator": "Series BFA.S1311 + S1314.G1.G1212_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (XOF million)"
+        },
+        {
+          "nodeId": "bf-central-g1113",
+          "amount": 89460.753369,
+          "locator": "Series BFA.S1311 + S1314.G1.G1113_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (XOF million)"
+        },
+        {
+          "nodeId": "bf-central-g11414",
+          "amount": 71656.440998,
+          "locator": "Series BFA.S1311 + S1314.G1.G11414_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (XOF million)"
+        },
+        {
+          "nodeId": "bf-central-g1211",
+          "amount": 46301.730631,
+          "locator": "Series BFA.S1311 + S1314.G1.G1211_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (XOF million)"
+        },
+        {
+          "nodeId": "bf-central-g112",
+          "amount": 20130.394092,
+          "locator": "Series BFA.S1311 + S1314.G1.G112_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (XOF million)"
+        },
+        {
+          "nodeId": "bf-central-g1144",
+          "amount": 16919.77568,
+          "locator": "Series BFA.S1311 + S1314.G1.G1144_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (XOF million)"
+        },
+        {
+          "nodeId": "bf-central-g11413",
+          "amount": 15371.831701,
+          "locator": "Series BFA.S1311 + S1314.G1.G11413_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (XOF million)"
+        },
+        {
+          "nodeId": "bf-central-g1135",
+          "amount": 14372.061017,
+          "locator": "Series BFA.S1311 + S1314.G1.G1135_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (XOF million)"
+        },
+        {
+          "nodeId": "bf-central-g1143",
+          "amount": 13524.373716,
+          "locator": "Series BFA.S1311 + S1314.G1.G1143_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (XOF million)"
+        },
+        {
+          "nodeId": "bf-central-g113-other",
+          "amount": 11282.34112,
+          "locator": "Series BFA.S1311 + S1314.G1.G113_T.XDC.A, 2024, less its reported sub-lines",
+          "calculation": "G113_T less the sum of its reported sub-lines (XOF million)"
+        },
+        {
+          "nodeId": "bf-central-g11452",
+          "amount": 7889.789671,
+          "locator": "Series BFA.S1311 + S1314.G1.G11452_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (XOF million)"
+        },
+        {
+          "nodeId": "bf-central-g1213",
+          "amount": 6480.535226,
+          "locator": "Series BFA.S1311 + S1314.G1.G1213_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (XOF million)"
+        },
+        {
+          "nodeId": "bf-central-g11412",
+          "amount": 5498.3756,
+          "locator": "Series BFA.S1311 + S1314.G1.G11412_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (XOF million)"
+        },
+        {
+          "nodeId": "bf-central-small-tax",
+          "amount": 4433.995721,
+          "locator": "Series BFA.S1311 + S1314.G1, indicators G1133_T, G11451_T, G1152_T, G1156_T, G116_T, XDC, annual, 2024",
+          "calculation": "Sum of 5 lines, each below 0.15% of the total (XOF million)"
+        }
+      ]
+    },
+    {
+      "title": "Local governments: lines of the IMF series, 2024",
+      "defaults": {
+        "denominatorId": "local-2024",
+        "scale": "million",
+        "currency": "XOF",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Accrual basis, as reported to the IMF (flag AC)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        {
+          "nodeId": "bf-local-small-tax",
+          "amount": 5021.435765,
+          "locator": "Series BFA.S1313MIXED.G1, indicators G1131_T, G1135_T, G11413_T, G1142_T, G1144_T, G11452_T, G116_T, XDC, annual, 2024",
+          "calculation": "Sum of 7 lines, each below 0.15% of the total (XOF million)"
+        }
+      ]
+    }
+  ],
+  "unavailable": []
+}

@@ -1,0 +1,205 @@
+{
+  "instruments": [
+    {
+      "id": "mg-central-g11411",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "general-consumption",
+      "status": "current",
+      "names": { "official": "Value added taxes", "common": "Value added tax" },
+      "taxes": {
+        "base": "Taxes charged on the value added at each stage of production and distribution (GFS 11411).",
+        "payer": "Final consumers, through the businesses that collect it."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "MGA 3.99 trillion in 2024: 43% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "imf-gfs-codes", "locator": "G11411" }, { "sourceId": "imf-gfs-api", "locator": "Series MDG.S1311B.G1.G11411_T.XDC.A, 2024" }],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "mg-central-g111",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "income-mixed",
+      "status": "current",
+      "names": { "official": "Taxes on income, profits and capital gains", "common": "Income taxes" },
+      "taxes": {
+        "base": "Taxes on income, profits and capital gains, which the country reports as one line (GFS 111).",
+        "payer": "Individuals and enterprises."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "MGA 2.28 trillion in 2024: 25% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "imf-gfs-codes", "locator": "G111" }, { "sourceId": "imf-gfs-api", "locator": "Series MDG.S1311B.G1.G111_T.XDC.A, 2024" }],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "mg-central-g1151",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "customs-duty",
+      "family": "trade",
+      "status": "current",
+      "names": { "official": "Customs and other import duties", "common": "Customs and other import duties" },
+      "taxes": { "base": "Duties on imported goods (GFS 1151).", "payer": "Importers." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "MGA 1.68 trillion in 2024: 18% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "imf-gfs-codes", "locator": "G1151" }, { "sourceId": "imf-gfs-api", "locator": "Series MDG.S1311B.G1.G1151_T.XDC.A, 2024" }],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "mg-central-g1142",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Excises", "common": "Excises" },
+      "taxes": {
+        "base": "Taxes on specific goods or services, such as alcohol, tobacco and fuel (GFS 1142).",
+        "payer": "Producers and importers; passed on in prices."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "MGA 660 billion in 2024: 7.1% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "imf-gfs-codes", "locator": "G1142" }, { "sourceId": "imf-gfs-api", "locator": "Series MDG.S1311B.G1.G1142_T.XDC.A, 2024" }],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "mg-central-g1222",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "social-contribution",
+      "family": "social-security",
+      "status": "current",
+      "names": { "official": "Other social contributions: employer contributions", "common": "Other social contributions of employers" },
+      "taxes": {
+        "base": "Actual contributions of government as employer to its employee schemes (GFS 1222); imputed contributions are left out.",
+        "payer": "Government as employer."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "MGA 411 billion in 2024: 4.4% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "imf-gfs-codes", "locator": "G1222" }, { "sourceId": "imf-gfs-api", "locator": "Series MDG.S1311B.G1.G1222_T.XDC.A, 2024" }],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "mg-central-g1221",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "social-contribution",
+      "family": "social-security",
+      "status": "current",
+      "names": { "official": "Other social contributions: employee contributions", "common": "Other social contributions of employees" },
+      "taxes": { "base": "Contributions of employees to government employee schemes outside social security (GFS 1221).", "payer": "Government employees." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "MGA 152 billion in 2024: 1.6% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "imf-gfs-codes", "locator": "G1221" }, { "sourceId": "imf-gfs-api", "locator": "Series MDG.S1311B.G1.G1221_T.XDC.A, 2024" }],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "mg-central-g11414",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "Taxes on financial and capital transactions", "common": "Taxes on financial and capital transactions" },
+      "taxes": {
+        "base": "Taxes on the purchase and sale of financial and capital assets, such as securities and property (GFS 11414).",
+        "payer": "Parties to the transactions."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "MGA 51.9 billion in 2024: 0.6% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "imf-gfs-codes", "locator": "G11414" }, { "sourceId": "imf-gfs-api", "locator": "Series MDG.S1311B.G1.G11414_T.XDC.A, 2024" }],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "mg-central-g1146",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "other",
+      "status": "current",
+      "names": { "official": "Other taxes on goods and services", "common": "Other taxes on goods and services" },
+      "taxes": { "base": "Other taxes on goods and services (GFS 1146).", "payer": "Producers and traders." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "MGA 29.2 billion in 2024: 0.3% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "imf-gfs-codes", "locator": "G1146" }, { "sourceId": "imf-gfs-api", "locator": "Series MDG.S1311B.G1.G1146_T.XDC.A, 2024" }],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "mg-central-small-tax",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "other",
+      "status": "current",
+      "names": { "official": "Other taxes (small lines)", "common": "Other taxes (small lines)" },
+      "taxes": {
+        "base": "2 lines of the IMF series that are each below 0.15% of the total, folded together: G1144 Taxes on specific services; G116 Other taxes.",
+        "payer": "Various."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "MGA 23.7 billion in 2024: 0.3% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [
+        { "sourceId": "imf-gfs-codes", "locator": "small-tax" },
+        { "sourceId": "imf-gfs-api", "locator": "Series MDG.S1311B.G1, indicators G1144_T, G116_T, XDC, annual, 2024" }
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  ]
+}

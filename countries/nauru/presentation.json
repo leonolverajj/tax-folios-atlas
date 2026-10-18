@@ -1,0 +1,12 @@
+{
+  "nodes": {
+    "nauru": { "label": "Nauru", "sublabel": "Fiscal folio · IMF lines", "glyph": "globe" },
+    "central": { "label": "Central government", "sublabel": "IMF S1311", "glyph": "landmark" },
+    "nr-central-g1112": { "label": "Corporate income tax", "sublabel": "Companies", "glyph": "factory" },
+    "nr-central-g1151": { "label": "Customs duties", "sublabel": "Imports", "glyph": "ship" },
+    "nr-central-g1111": { "label": "Personal income tax", "sublabel": "Individuals", "glyph": "person" },
+    "nr-central-g11452": { "label": "Licences and use taxes", "sublabel": "Permissions", "glyph": "stamp" },
+    "nr-central-g1144": { "label": "Taxes on services", "sublabel": "Insurance · lodging · gambling", "glyph": "bed" },
+    "nr-central-g11413": { "label": "Turnover taxes", "sublabel": "Other general taxes", "glyph": "percent" }
+  }
+}

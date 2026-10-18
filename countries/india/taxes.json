@@ -1,0 +1,208 @@
+{
+  "instruments": [
+    {
+      "id": "in-central-g11412",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "general-consumption",
+      "status": "current",
+      "names": { "official": "Sales taxes", "common": "Sales taxes" },
+      "taxes": {
+        "base": "Taxes charged at a single stage, generally on the sale of goods and services to the final buyer (GFS 11412).",
+        "payer": "Buyers, through the sellers."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "INR 4.51 trillion in 2022: 25% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "imf-gfs-codes", "locator": "G11412" }, { "sourceId": "imf-gfs-api", "locator": "Series IND.S1311B.G1.G11412_T.XDC.A, 2022" }],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "in-central-g1112",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "income-corporate",
+      "status": "current",
+      "names": { "official": "Taxes on income, profits and capital gains payable by corporations and other enterprises", "common": "Corporate income tax" },
+      "taxes": {
+        "base": "Income, profits and capital gains of corporations and other enterprises (GFS 1112).",
+        "payer": "Corporations and other enterprises."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "INR 4.44 trillion in 2022: 24% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "imf-gfs-codes", "locator": "G1112" }, { "sourceId": "imf-gfs-api", "locator": "Series IND.S1311B.G1.G1112_T.XDC.A, 2022" }],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "in-central-g1111",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "income-personal",
+      "status": "current",
+      "names": { "official": "Taxes on income, profits and capital gains payable by individuals", "common": "Personal income tax" },
+      "taxes": { "base": "Income, profits and capital gains of individuals (GFS 1111).", "payer": "Individuals." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "INR 4.1 trillion in 2022: 22% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "imf-gfs-codes", "locator": "G1111" }, { "sourceId": "imf-gfs-api", "locator": "Series IND.S1311B.G1.G1111_T.XDC.A, 2022" }],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "in-central-g1142",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Excises", "common": "Excises" },
+      "taxes": {
+        "base": "Taxes on specific goods or services, such as alcohol, tobacco and fuel (GFS 1142).",
+        "payer": "Producers and importers; passed on in prices."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "INR 3.56 trillion in 2022: 20% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "imf-gfs-codes", "locator": "G1142" }, { "sourceId": "imf-gfs-api", "locator": "Series IND.S1311B.G1.G1142_T.XDC.A, 2022" }],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "in-central-g1151",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "customs-duty",
+      "family": "trade",
+      "status": "current",
+      "names": { "official": "Customs and other import duties", "common": "Customs and other import duties" },
+      "taxes": { "base": "Duties on imported goods (GFS 1151).", "payer": "Importers." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "INR 1.35 trillion in 2022: 7.4% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "imf-gfs-codes", "locator": "G1151" }, { "sourceId": "imf-gfs-api", "locator": "Series IND.S1311B.G1.G1151_T.XDC.A, 2022" }],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "in-central-g1132",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "Recurrent taxes on net wealth", "common": "Net wealth tax" },
+      "taxes": { "base": "Recurrent taxes on the net wealth of individuals or enterprises (GFS 1132).", "payer": "Owners of wealth." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "INR 231 billion in 2022: 1.3% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "imf-gfs-codes", "locator": "G1132" }, { "sourceId": "imf-gfs-api", "locator": "Series IND.S1311B.G1.G1132_T.XDC.A, 2022" }],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "in-central-g1146",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "other",
+      "status": "current",
+      "names": { "official": "Other taxes on goods and services", "common": "Other taxes on goods and services" },
+      "taxes": { "base": "Other taxes on goods and services (GFS 1146).", "payer": "Producers and traders." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "INR 29.3 billion in 2022: 0.2% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "imf-gfs-codes", "locator": "G1146" }, { "sourceId": "imf-gfs-api", "locator": "Series IND.S1311B.G1.G1146_T.XDC.A, 2022" }],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "in-central-small-social",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "social-contribution",
+      "family": "social-security",
+      "status": "current",
+      "names": { "official": "Other social contributions (small lines)", "common": "Other social contributions (small lines)" },
+      "taxes": {
+        "base": "2 lines of the IMF series that are each below 0.15% of the total, folded together: G1211 Social security contributions: employee contributions; G1212 Social security contributions: employer contributions.",
+        "payer": "Various."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "INR 24.3 billion in 2022: 0.1% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [
+        { "sourceId": "imf-gfs-codes", "locator": "small-social" },
+        { "sourceId": "imf-gfs-api", "locator": "Series IND.S1311B.G1, indicators G1211_T, G1212_T, XDC, annual, 2022" }
+      ],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "in-central-small-tax",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "other",
+      "status": "current",
+      "names": { "official": "Other taxes (small lines)", "common": "Other taxes (small lines)" },
+      "taxes": {
+        "base": "7 lines of the IMF series that are each below 0.15% of the total, folded together: G1131 Recurrent taxes on immovable property; G1133 Estate, inheritance and gift taxes; G113:other G113_T:other; G11414 Taxes on financial and capital transactions; G1144 Taxes on specific services; G11451 Motor vehicle taxes; G11452 Other taxes on the use of goods and on permission to use goods or perform activities.",
+        "payer": "Various."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "INR 6.69 billion in 2022: 0% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [
+        { "sourceId": "imf-gfs-codes", "locator": "small-tax" },
+        {
+          "sourceId": "imf-gfs-api",
+          "locator": "Series IND.S1311B.G1, indicators G1131_T, G1133_T, G113_T:other, G11414_T, G1144_T, G11451_T, G11452_T, XDC, annual, 2022"
+        }
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  ]
+}

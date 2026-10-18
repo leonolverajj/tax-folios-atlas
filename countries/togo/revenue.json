@@ -1,0 +1,38 @@
+{
+  "groups": [
+    {
+      "title": "Budgetary central government: lines of the IMF series, 2023",
+      "defaults": {
+        "denominatorId": "central-2023",
+        "scale": "million",
+        "currency": "XOF",
+        "period": { "label": "2023", "kind": "calendar-year", "start": "2023-01-01", "end": "2023-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        { "nodeId": "tg-central-g11411", "amount": 339635.185142, "locator": "Series TGO.S1311B.G1.G11411_T.XDC.A, 2023" },
+        { "nodeId": "tg-central-g1151", "amount": 166389.574088, "locator": "Series TGO.S1311B.G1.G1151_T.XDC.A, 2023" },
+        { "nodeId": "tg-central-g1112", "amount": 145223.296519, "locator": "Series TGO.S1311B.G1.G1112_T.XDC.A, 2023" },
+        { "nodeId": "tg-central-g1142", "amount": 59199.80666, "locator": "Series TGO.S1311B.G1.G1142_T.XDC.A, 2023" },
+        { "nodeId": "tg-central-g1111", "amount": 51518.808179, "locator": "Series TGO.S1311B.G1.G1111_T.XDC.A, 2023" },
+        { "nodeId": "tg-central-g11414", "amount": 32226.644917, "locator": "Series TGO.S1311B.G1.G11414_T.XDC.A, 2023" },
+        { "nodeId": "tg-central-g11452", "amount": 8984.374068, "locator": "Series TGO.S1311B.G1.G11452_T.XDC.A, 2023" },
+        { "nodeId": "tg-central-g1144", "amount": 8634.982326, "locator": "Series TGO.S1311B.G1.G1144_T.XDC.A, 2023" },
+        { "nodeId": "tg-central-g112", "amount": 3025.660494, "locator": "Series TGO.S1311B.G1.G112_T.XDC.A, 2023" },
+        { "nodeId": "tg-central-g11451", "amount": 2425.494455, "locator": "Series TGO.S1311B.G1.G11451_T.XDC.A, 2023" },
+        {
+          "nodeId": "tg-central-small-tax",
+          "amount": 2257.474895,
+          "locator": "Series TGO.S1311B.G1, indicators G1132_T, G113_T:other, G11413_T, G1152_T, XDC, annual, 2023",
+          "calculation": "Sum of 4 lines, each below 0.15% of the total (XOF million)"
+        },
+        { "nodeId": "tg-central-g11412", "amount": 1545.980266, "locator": "Series TGO.S1311B.G1.G11412_T.XDC.A, 2023" }
+      ]
+    }
+  ],
+  "unavailable": []
+}

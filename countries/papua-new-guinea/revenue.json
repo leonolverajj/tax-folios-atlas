@@ -1,0 +1,36 @@
+{
+  "groups": [
+    {
+      "title": "Budgetary central government: lines of the IMF series, 2025",
+      "defaults": {
+        "denominatorId": "central-2025",
+        "scale": "million",
+        "currency": "PGK",
+        "period": { "label": "2025", "kind": "calendar-year", "start": "2025-01-01", "end": "2025-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        { "nodeId": "pg-central-g1112", "amount": 7584.2, "locator": "Series PNG.S1311B.G1.G1112_T.XDC.A, 2025" },
+        { "nodeId": "pg-central-g1111", "amount": 4750.4, "locator": "Series PNG.S1311B.G1.G1111_T.XDC.A, 2025" },
+        { "nodeId": "pg-central-g11411", "amount": 3557.8, "locator": "Series PNG.S1311B.G1.G11411_T.XDC.A, 2025" },
+        { "nodeId": "pg-central-g1142", "amount": 1900.8, "locator": "Series PNG.S1311B.G1.G1142_T.XDC.A, 2025" },
+        { "nodeId": "pg-central-g1113", "amount": 790.2, "locator": "Series PNG.S1311B.G1.G1113_T.XDC.A, 2025" },
+        { "nodeId": "pg-central-g1151", "amount": 504.8, "locator": "Series PNG.S1311B.G1.G1151_T.XDC.A, 2025" },
+        { "nodeId": "pg-central-g1144", "amount": 422.2, "locator": "Series PNG.S1311B.G1.G1144_T.XDC.A, 2025" },
+        { "nodeId": "pg-central-g1152", "amount": 280, "locator": "Series PNG.S1311B.G1.G1152_T.XDC.A, 2025" },
+        { "nodeId": "pg-central-g11414", "amount": 99.5, "locator": "Series PNG.S1311B.G1.G11414_T.XDC.A, 2025" },
+        {
+          "nodeId": "pg-central-small-tax",
+          "amount": 11.4,
+          "locator": "Series PNG.S1311B.G1, indicators G112_T, G11451_T, G11452_T, G1146_T, XDC, annual, 2025",
+          "calculation": "Sum of 4 lines, each below 0.15% of the total (PGK million)"
+        }
+      ]
+    }
+  ],
+  "unavailable": []
+}

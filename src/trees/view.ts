@@ -18,6 +18,8 @@ interface Entry {
   native: string;
   accent: string;
   partial: boolean;
+  /** harmonised = one dot per line of the IMF classification, not per legislated charge (not comparable by count). */
+  grain: 'detailed' | 'harmonised';
   model: FolioModel;
   metrics: TreeMetrics;
   collected: CollectedBy | null;
@@ -161,6 +163,7 @@ export async function mountTrees(root: HTMLElement, first: { focus?: string }, o
             native: meta.names.native,
             accent: meta.theme.accent,
             partial: meta.researchStatus !== 'researched',
+            grain: meta.grain,
             model,
             metrics: treeMetrics(model),
             collected: collectedBy(bundle.structure),
@@ -226,6 +229,12 @@ export async function mountTrees(root: HTMLElement, first: { focus?: string }, o
 
       <ul class="trees-grid" id="tr-grid"></ul>
 
+      <section class="trees-h" id="tr-h" aria-labelledby="tr-h-title" hidden>
+        <h2 id="tr-h-title">Folios at the grain of the IMF’s classification</h2>
+        <p class="muted" id="tr-h-text"></p>
+        <ul class="trees-grid" id="tr-grid-h"></ul>
+      </section>
+
       <section class="trees-numbers" aria-labelledby="tr-num-title">
         <h2 id="tr-num-title">The numbers behind the trees</h2>
         <p class="muted">Click a column heading to sort. All figures come from the folios (the same documented numbers that size the cores) except the last four columns, which are the OECD's harmonised split of revenue by level of government.</p>
@@ -262,6 +271,8 @@ export async function mountTrees(root: HTMLElement, first: { focus?: string }, o
   const q = <T extends HTMLElement>(sel: string) => root.querySelector(sel) as T;
   const trees = q<HTMLElement>('.trees');
   const grid = q<HTMLUListElement>('#tr-grid');
+  const gridH = q<HTMLUListElement>('#tr-grid-h');
+  const sectionH = q<HTMLElement>('#tr-h');
   const dialog = q<HTMLDialogElement>('#tr-dialog');
   const hlNote = q<HTMLElement>('#tr-hl-note');
 
@@ -301,38 +312,42 @@ export async function mountTrees(root: HTMLElement, first: { focus?: string }, o
   };
   const renderGrid = () => {
     const extent = extentOf(sizeMode);
-    grid.innerHTML = sorted()
-      .map((e) => {
-        const m = e.metrics;
-        const reach = m.toReach !== null ? `${m.toReach}` : 'n/a';
-        const label = `${e.name}: ${m.charges} charges across ${m.levels} levels${m.toReach !== null ? `; ${m.toReach} of them make up ${pct(REACH)} of revenue` : ''}. Open details.`;
-        return `<li class="tcard" data-id="${esc(e.id)}" style="--a:${e.accent}">
-          <button type="button" class="tcard-hit" data-open="${esc(e.id)}" aria-label="${esc(label)}">${treeSvg(e, sizeMode, extent)}</button>
-          <div class="tcard-foot">
-            <h3>${esc(e.name)}${e.partial ? ' <abbr class="tag" title="Part of the country’s taxes or contributions is not itemised in this folio (see its note)">partial</abbr>' : ''}</h3>
-            <div class="facts">
-              <div><b>${m.charges}</b><span>charges</span></div>
-              <div><b>${reach}</b><span>for ${pct(REACH)} of revenue</span></div>
-              <div><b>${m.levels}</b><span>levels</span></div>
-            </div>
-            ${levelBar(m)}
-            <p class="hl-count" data-count="${esc(e.id)}"></p>
+    const card = (e: Entry) => {
+      const m = e.metrics;
+      const reach = m.toReach !== null ? `${m.toReach}` : 'n/a';
+      const label = `${e.name}: ${m.charges} ${e.grain === 'harmonised' ? 'classification lines' : 'charges'} across ${m.levels} levels${m.toReach !== null ? `; ${m.toReach} of them make up ${pct(REACH)} of revenue` : ''}. Open details.`;
+      return `<li class="tcard" data-id="${esc(e.id)}" style="--a:${e.accent}">
+        <button type="button" class="tcard-hit" data-open="${esc(e.id)}" aria-label="${esc(label)}">${treeSvg(e, sizeMode, extent)}</button>
+        <div class="tcard-foot">
+          <h3>${esc(e.name)}${e.partial ? ' <abbr class="tag" title="Part of the country’s taxes or contributions is not itemised in this folio (see its note)">partial</abbr>' : ''}${e.grain === 'harmonised' ? ' <abbr class="tag tag-grain" title="One dot per line of the IMF classification of taxes, not per legislated tax">IMF lines</abbr>' : ''}</h3>
+          <div class="facts">
+            <div><b>${m.charges}</b><span>${e.grain === 'harmonised' ? 'lines' : 'charges'}</span></div>
+            <div><b>${reach}</b><span>for ${pct(REACH)} of revenue</span></div>
+            <div><b>${m.levels}</b><span>levels</span></div>
           </div>
-        </li>`;
-      })
-      .join('');
+          ${levelBar(m)}
+          <p class="hl-count" data-count="${esc(e.id)}"></p>
+        </div>
+      </li>`;
+    };
+    const all = sorted();
+    grid.innerHTML = all.filter((e) => e.grain === 'detailed').map(card).join('');
+    const harm = all.filter((e) => e.grain === 'harmonised');
+    gridH.innerHTML = harm.map(card).join('');
+    sectionH.hidden = !harm.length;
+    q('#tr-h-text').innerHTML = `${harm.length} countries whose folios are built from one source, the IMF’s Government Finance Statistics. Each dot is a <strong>line of the IMF’s classification</strong> of taxes and social contributions (personal income tax, VAT, excises, customs duties, employer contributions …), not a separately legislated tax. <strong>Do not compare their number of dots with the trees above:</strong> one line can be several taxes, and the IMF reports some countries in more detail than others. The dot area is still the share of what the folio draws. Many of these cover only the central government (marked “partial”), and no rates or legal bases are recorded.`;
     applyHighlight();
   };
 
   const applyHighlight = () => {
-    grid.querySelectorAll<SVGGElement>('.tn').forEach((g) => {
+    root.querySelectorAll<SVGGElement>('.trees-grid .tn').forEach((g) => {
       const node = g.dataset;
       let on = true;
       if (hl && g.classList.contains('tn-charge')) on = hl.kind === 'family' ? node.fam === hl.value : node.br === hl.value;
       g.classList.toggle('is-dim', !on);
     });
     trees.toggleAttribute('data-hl', !!hl);
-    grid.querySelectorAll<HTMLElement>('[data-count]').forEach((p) => {
+    root.querySelectorAll<HTMLElement>('.trees-grid [data-count]').forEach((p) => {
       const e = byId.get(p.dataset.count!)!;
       if (!hl) {
         p.textContent = '';
@@ -354,6 +369,7 @@ export async function mountTrees(root: HTMLElement, first: { focus?: string }, o
   /* --------------------------------------------------------------- table */
   const COLS: { key: string; label: string; get: (e: Entry) => number | string | null; fmt: (v: number | string | null) => string }[] = [
     { key: 'name', label: 'Country', get: (e) => e.name, fmt: (v) => String(v) },
+    { key: 'grain', label: 'Dots are', get: (e) => (e.grain === 'harmonised' ? 'IMF lines' : 'Legal charges'), fmt: (v) => String(v) },
     { key: 'charges', label: 'Charges drawn', get: (e) => e.metrics.charges, fmt: (v) => String(v) },
     { key: 'main', label: `Main charges (≥ ${pct(MAIN_SHARE)})`, get: (e) => e.metrics.main, fmt: (v) => String(v) },
     { key: 'reach', label: `For ${pct(REACH)} of revenue`, get: (e) => e.metrics.toReach, fmt: (v) => (v === null ? 'n/a' : String(v)) },
@@ -425,6 +441,7 @@ export async function mountTrees(root: HTMLElement, first: { focus?: string }, o
             )
             .join('')}</ol>
           ${unsized.length ? `<p class="muted">${unsized.length} further ${unsized.length === 1 ? 'charge is' : 'charges are'} drawn without a share of their own (no separate figure, or outside the tax total).</p>` : ''}
+          ${e.grain === 'harmonised' ? `<p class="muted"><b>IMF classification lines.</b> Each dot is a line of the IMF’s classification of taxes and social contributions for one year, not a separately legislated tax, so the number of dots is not comparable with the detailed folios.</p>` : ''}
           ${e.partial ? `<p class="muted"><b>Partial folio.</b> Part of the country’s taxes or contributions is not itemised (the folio’s note says which), so the counts are lower bounds and “itemised” is measured against what the folio does include.</p>` : ''}
           <p class="dlg-actions"><a class="btn primary" href="#/${esc(e.id)}">Open the ${esc(e.name)} folio →</a></p>
         </div>

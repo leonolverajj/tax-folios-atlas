@@ -1,6 +1,6 @@
 # Update checklist – Finland
 
-Generated 2026-10-12 by `npm run checklist`. **Do not edit by hand** – edit the sources in `countries/finland/sources.json` and re-run it.
+Generated 2026-10-18 by `npm run checklist`. **Do not edit by hand** – edit the sources in `countries/finland/sources.json` and re-run it.
 
 Research status: **researched**. 0 source(s) to check or due, 0 coming up, 22 in total.
 

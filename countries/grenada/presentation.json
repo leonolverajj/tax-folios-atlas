@@ -1,0 +1,16 @@
+{
+  "nodes": {
+    "grenada": { "label": "Grenada", "sublabel": "Fiscal folio · IMF lines", "glyph": "globe" },
+    "central": { "label": "Budgetary central govt", "sublabel": "IMF S1311B", "glyph": "landmark" },
+    "gd-central-g11411": { "label": "VAT", "sublabel": "Value added", "glyph": "cart" },
+    "gd-central-g1155": { "label": "Exchange taxes", "sublabel": "Foreign exchange", "glyph": "coin" },
+    "gd-central-g1112": { "label": "Corporate income tax", "sublabel": "Companies", "glyph": "factory" },
+    "gd-central-g1151": { "label": "Customs duties", "sublabel": "Imports", "glyph": "ship" },
+    "gd-central-g1111": { "label": "Personal income tax", "sublabel": "Individuals", "glyph": "person" },
+    "gd-central-g1156": { "label": "Other trade taxes", "sublabel": "Not elsewhere classified", "glyph": "gear" },
+    "gd-central-g113-other": { "label": "Other property taxes", "sublabel": "Not itemised", "glyph": "house" },
+    "gd-central-g1146": { "label": "Other goods and services", "sublabel": "Not elsewhere classified", "glyph": "gear" },
+    "gd-central-g1144": { "label": "Taxes on services", "sublabel": "Insurance · lodging · gambling", "glyph": "bed" },
+    "gd-central-g116": { "label": "Other taxes", "sublabel": "Not elsewhere classified", "glyph": "gear" }
+  }
+}

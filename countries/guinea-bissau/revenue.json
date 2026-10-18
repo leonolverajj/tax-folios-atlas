@@ -1,0 +1,40 @@
+{
+  "groups": [
+    {
+      "title": "Budgetary central government: lines of the IMF series, 2024",
+      "defaults": {
+        "denominatorId": "central-2024",
+        "scale": "million",
+        "currency": "XOF",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        { "nodeId": "gw-central-g11411", "amount": 37983.454494, "locator": "Series GNB.S1311B.G1.G11411_T.XDC.A, 2024" },
+        { "nodeId": "gw-central-g1111", "amount": 16969.092802, "locator": "Series GNB.S1311B.G1.G1111_T.XDC.A, 2024" },
+        { "nodeId": "gw-central-g1112", "amount": 15669.363193, "locator": "Series GNB.S1311B.G1.G1112_T.XDC.A, 2024" },
+        { "nodeId": "gw-central-g1152", "amount": 13963.97269, "locator": "Series GNB.S1311B.G1.G1152_T.XDC.A, 2024" },
+        { "nodeId": "gw-central-g1151", "amount": 13546.22571, "locator": "Series GNB.S1311B.G1.G1151_T.XDC.A, 2024" },
+        { "nodeId": "gw-central-g1142", "amount": 6218.000352, "locator": "Series GNB.S1311B.G1.G1142_T.XDC.A, 2024" },
+        { "nodeId": "gw-central-g116", "amount": 5608.323735, "locator": "Series GNB.S1311B.G1.G116_T.XDC.A, 2024" },
+        {
+          "nodeId": "gw-central-g113-other",
+          "amount": 526.147138,
+          "locator": "Series GNB.S1311B.G1.G113_T.XDC.A, 2024, less its reported sub-lines",
+          "calculation": "G113_T less the sum of its reported sub-lines (XOF million)"
+        },
+        {
+          "nodeId": "gw-central-small-tax",
+          "amount": 173.458917,
+          "locator": "Series GNB.S1311B.G1, indicators G1133_T, G11414_T, G1144_T, XDC, annual, 2024",
+          "calculation": "Sum of 3 lines, each below 0.15% of the total (XOF million)"
+        }
+      ]
+    }
+  ],
+  "unavailable": []
+}

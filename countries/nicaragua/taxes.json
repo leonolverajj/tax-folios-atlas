@@ -1,0 +1,133 @@
+{
+  "instruments": [
+    {
+      "id": "ni-central-g111",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "income-mixed",
+      "status": "current",
+      "names": { "official": "Taxes on income, profits and capital gains", "common": "Income taxes" },
+      "taxes": {
+        "base": "Taxes on income, profits and capital gains, which the country reports as one line (GFS 111).",
+        "payer": "Individuals and enterprises."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "NIO 64.5 billion in 2024: 44% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "imf-gfs-codes", "locator": "G111" }, { "sourceId": "imf-gfs-api", "locator": "Series NIC.S1311B.G1.G111_T.XDC.A, 2024" }],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "ni-central-g11411",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "general-consumption",
+      "status": "current",
+      "names": { "official": "Value added taxes", "common": "Value added tax" },
+      "taxes": {
+        "base": "Taxes charged on the value added at each stage of production and distribution (GFS 11411).",
+        "payer": "Final consumers, through the businesses that collect it."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "NIO 52.1 billion in 2024: 36% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "imf-gfs-codes", "locator": "G11411" }, { "sourceId": "imf-gfs-api", "locator": "Series NIC.S1311B.G1.G11411_T.XDC.A, 2024" }],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "ni-central-g1142",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Excises", "common": "Excises" },
+      "taxes": {
+        "base": "Taxes on specific goods or services, such as alcohol, tobacco and fuel (GFS 1142).",
+        "payer": "Producers and importers; passed on in prices."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "NIO 22 billion in 2024: 15% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "imf-gfs-codes", "locator": "G1142" }, { "sourceId": "imf-gfs-api", "locator": "Series NIC.S1311B.G1.G1142_T.XDC.A, 2024" }],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "ni-central-g1151",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "customs-duty",
+      "family": "trade",
+      "status": "current",
+      "names": { "official": "Customs and other import duties", "common": "Customs and other import duties" },
+      "taxes": { "base": "Duties on imported goods (GFS 1151).", "payer": "Importers." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "NIO 5.59 billion in 2024: 3.9% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "imf-gfs-codes", "locator": "G1151" }, { "sourceId": "imf-gfs-api", "locator": "Series NIC.S1311B.G1.G1151_T.XDC.A, 2024" }],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "ni-central-g116",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "other",
+      "status": "current",
+      "names": { "official": "Other taxes", "common": "Other taxes" },
+      "taxes": { "base": "Taxes that the classification does not place elsewhere (GFS 116).", "payer": "Various." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "NIO 756 million in 2024: 0.5% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "imf-gfs-codes", "locator": "G116" }, { "sourceId": "imf-gfs-api", "locator": "Series NIC.S1311B.G1.G116_T.XDC.A, 2024" }],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "ni-central-g1156",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "trade",
+      "status": "current",
+      "names": { "official": "Other taxes on international trade and transactions", "common": "Other taxes on international trade" },
+      "taxes": { "base": "Other taxes on international trade and transactions (GFS 1156).", "payer": "Importers and exporters." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "NIO 19.2 million in 2024: 0% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "imf-gfs-codes", "locator": "G1156" }, { "sourceId": "imf-gfs-api", "locator": "Series NIC.S1311B.G1.G1156_T.XDC.A, 2024" }],
+      "checkedOn": "2026-10-17"
+    }
+  ]
+}

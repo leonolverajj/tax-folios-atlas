@@ -1,0 +1,26 @@
+{
+  "nodes": {
+    "belarus": { "label": "Belarus", "sublabel": "Fiscal folio · IMF lines", "glyph": "globe" },
+    "central": { "label": "Central govt and social funds", "sublabel": "IMF S1311 + S1314", "glyph": "landmark" },
+    "local": { "label": "Local governments", "sublabel": "IMF S1313", "glyph": "town" },
+    "by-central-g1212": { "label": "Social: employers", "sublabel": "Contributions", "glyph": "shield" },
+    "by-central-g11411": { "label": "VAT", "sublabel": "Value added", "glyph": "cart" },
+    "by-central-g1151": { "label": "Customs duties", "sublabel": "Imports", "glyph": "ship" },
+    "by-central-g1142": { "label": "Excises", "sublabel": "Specific goods", "glyph": "flame" },
+    "by-central-g1112": { "label": "Corporate income tax", "sublabel": "Companies", "glyph": "factory" },
+    "by-central-g1152": { "label": "Export taxes", "sublabel": "Exports", "glyph": "plane" },
+    "by-central-g1156": { "label": "Other trade taxes", "sublabel": "Not elsewhere classified", "glyph": "gear" },
+    "by-central-g11452": { "label": "Licences and use taxes", "sublabel": "Permissions", "glyph": "stamp" },
+    "by-central-g116": { "label": "Other taxes", "sublabel": "Not elsewhere classified", "glyph": "gear" },
+    "by-central-g1213": { "label": "Social: self-employed", "sublabel": "Contributions", "glyph": "shield" },
+    "by-central-small-tax": { "label": "Other taxes (small lines)", "sublabel": "2 lines", "glyph": "gear" },
+    "by-local-g1111": { "label": "Personal income tax", "sublabel": "Individuals", "glyph": "person" },
+    "by-local-g1112": { "label": "Corporate income tax", "sublabel": "Companies", "glyph": "factory" },
+    "by-local-g11411": { "label": "VAT", "sublabel": "Value added", "glyph": "cart" },
+    "by-local-g1132": { "label": "Net wealth tax", "sublabel": "Wealth", "glyph": "gem" },
+    "by-local-g11413": { "label": "Turnover taxes", "sublabel": "Other general taxes", "glyph": "percent" },
+    "by-local-g113-other": { "label": "Other property taxes", "sublabel": "Not itemised", "glyph": "house" },
+    "by-local-g11452": { "label": "Licences and use taxes", "sublabel": "Permissions", "glyph": "stamp" },
+    "by-local-small-tax": { "label": "Other taxes (small lines)", "sublabel": "3 lines", "glyph": "gear" }
+  }
+}

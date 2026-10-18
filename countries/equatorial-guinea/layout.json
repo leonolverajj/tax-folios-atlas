@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "equatorial-guinea": {
+      "x": 800,
+      "y": 500
+    },
+    "central": {
+      "x": 509,
+      "y": 432
+    },
+    "gq-central-g1112": {
+      "x": 843,
+      "y": 829
+    },
+    "gq-central-g11411": {
+      "x": 391,
+      "y": 698
+    },
+    "gq-central-g1151": {
+      "x": 319,
+      "y": 388
+    },
+    "gq-central-g1152": {
+      "x": 688,
+      "y": 178
+    },
+    "gq-central-small-tax": {
+      "x": 1162,
+      "y": 267
+    },
+    "gq-central-g1111": {
+      "x": 504,
+      "y": 905
+    },
+    "gq-central-g1144": {
+      "x": 111,
+      "y": 556
+    },
+    "gq-central-g11452": {
+      "x": 351,
+      "y": 158
+    },
+    "gq-central-g116": {
+      "x": 1002,
+      "y": 71
+    },
+    "gq-central-g1142": {
+      "x": 1471,
+      "y": 384
+    }
+  },
+  "radii": {}
+}

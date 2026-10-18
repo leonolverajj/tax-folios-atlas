@@ -1,0 +1,12 @@
+{
+  "nodes": {
+    "sierra-leone": { "label": "Sierra Leone", "sublabel": "Fiscal folio · IMF lines", "glyph": "globe" },
+    "central": { "label": "Budgetary central govt", "sublabel": "IMF S1311B", "glyph": "landmark" },
+    "sl-central-g1111": { "label": "Personal income tax", "sublabel": "Individuals", "glyph": "person" },
+    "sl-central-g11412": { "label": "Sales taxes", "sublabel": "Single stage", "glyph": "cart" },
+    "sl-central-g1151": { "label": "Customs duties", "sublabel": "Imports", "glyph": "ship" },
+    "sl-central-g1112": { "label": "Corporate income tax", "sublabel": "Companies", "glyph": "factory" },
+    "sl-central-g1142": { "label": "Excises", "sublabel": "Specific goods", "glyph": "flame" },
+    "sl-central-g11451": { "label": "Motor vehicle taxes", "sublabel": "Ownership · use", "glyph": "car" }
+  }
+}

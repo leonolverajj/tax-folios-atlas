@@ -1,0 +1,249 @@
+{
+  "instruments": [
+    {
+      "id": "ws-central-g11411",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "general-consumption",
+      "status": "current",
+      "names": { "official": "Value added taxes", "common": "Value added tax" },
+      "taxes": {
+        "base": "Taxes charged on the value added at each stage of production and distribution (GFS 11411).",
+        "payer": "Final consumers, through the businesses that collect it."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "WST 281 million in 2023: 40% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [
+        { "sourceId": "imf-gfs-codes", "locator": "G11411" },
+        { "sourceId": "imf-gfs-api", "locator": "Series WSM.S1311 + S1314.G1.G11411_T.XDC.A, 2023" }
+      ],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "ws-central-g1142",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Excises", "common": "Excises" },
+      "taxes": {
+        "base": "Taxes on specific goods or services, such as alcohol, tobacco and fuel (GFS 1142).",
+        "payer": "Producers and importers; passed on in prices."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "WST 159 million in 2023: 23% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [
+        { "sourceId": "imf-gfs-codes", "locator": "G1142" },
+        { "sourceId": "imf-gfs-api", "locator": "Series WSM.S1311 + S1314.G1.G1142_T.XDC.A, 2023" }
+      ],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "ws-central-g1151",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "customs-duty",
+      "family": "trade",
+      "status": "current",
+      "names": { "official": "Customs and other import duties", "common": "Customs and other import duties" },
+      "taxes": { "base": "Duties on imported goods (GFS 1151).", "payer": "Importers." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "WST 83.9 million in 2023: 12% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [
+        { "sourceId": "imf-gfs-codes", "locator": "G1151" },
+        { "sourceId": "imf-gfs-api", "locator": "Series WSM.S1311 + S1314.G1.G1151_T.XDC.A, 2023" }
+      ],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "ws-central-g1111",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "income-personal",
+      "status": "current",
+      "names": { "official": "Taxes on income, profits and capital gains payable by individuals", "common": "Personal income tax" },
+      "taxes": { "base": "Income, profits and capital gains of individuals (GFS 1111).", "payer": "Individuals." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "WST 75.7 million in 2023: 11% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [
+        { "sourceId": "imf-gfs-codes", "locator": "G1111" },
+        { "sourceId": "imf-gfs-api", "locator": "Series WSM.S1311 + S1314.G1.G1111_T.XDC.A, 2023" }
+      ],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "ws-central-g1112",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "income-corporate",
+      "status": "current",
+      "names": { "official": "Taxes on income, profits and capital gains payable by corporations and other enterprises", "common": "Corporate income tax" },
+      "taxes": {
+        "base": "Income, profits and capital gains of corporations and other enterprises (GFS 1112).",
+        "payer": "Corporations and other enterprises."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "WST 64.4 million in 2023: 9.2% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [
+        { "sourceId": "imf-gfs-codes", "locator": "G1112" },
+        { "sourceId": "imf-gfs-api", "locator": "Series WSM.S1311 + S1314.G1.G1112_T.XDC.A, 2023" }
+      ],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "ws-central-g1144",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Taxes on specific services", "common": "Taxes on specific services" },
+      "taxes": {
+        "base": "Taxes on specific services such as insurance, entertainment, lodging and gambling (GFS 1144).",
+        "payer": "Providers of the services."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "WST 19.3 million in 2023: 2.8% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [
+        { "sourceId": "imf-gfs-codes", "locator": "G1144" },
+        { "sourceId": "imf-gfs-api", "locator": "Series WSM.S1311 + S1314.G1.G1144_T.XDC.A, 2023" }
+      ],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "ws-central-g1211",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "social-contribution",
+      "family": "social-security",
+      "status": "current",
+      "names": { "official": "Social security contributions: employee contributions", "common": "Social security contributions of employees" },
+      "taxes": { "base": "Compulsory social security contributions paid by employees (GFS 1211).", "payer": "Employees." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "WST 6.35 million in 2023: 0.9% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [
+        { "sourceId": "imf-gfs-codes", "locator": "G1211" },
+        { "sourceId": "imf-gfs-api", "locator": "Series WSM.S1311 + S1314.G1.G1211_T.XDC.A, 2023" }
+      ],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "ws-central-g1212",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "social-contribution",
+      "family": "social-security",
+      "status": "current",
+      "names": { "official": "Social security contributions: employer contributions", "common": "Social security contributions of employers" },
+      "taxes": { "base": "Compulsory social security contributions paid by employers on behalf of employees (GFS 1212).", "payer": "Employers." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "WST 6.34 million in 2023: 0.9% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [
+        { "sourceId": "imf-gfs-codes", "locator": "G1212" },
+        { "sourceId": "imf-gfs-api", "locator": "Series WSM.S1311 + S1314.G1.G1212_T.XDC.A, 2023" }
+      ],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "ws-central-g121-other",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "social-contribution",
+      "family": "social-security",
+      "status": "current",
+      "names": { "official": "Social security contributions, not itemised in the IMF series", "common": "Other social security contributions (not itemised)" },
+      "taxes": {
+        "base": "The part of the line “Social security contributions” (GFS G121) that the IMF series does not itemise: the line itself minus its reported sub-lines.",
+        "payer": "Various."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "WST 914 thousand in 2023: 0.1% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [
+        { "sourceId": "imf-gfs-codes", "locator": "G121" },
+        { "sourceId": "imf-gfs-api", "locator": "Series WSM.S1311 + S1314.G1.G121_T.XDC.A, 2023, less its reported sub-lines" }
+      ],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "ws-central-g1135",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "Capital levies", "common": "Capital levies" },
+      "taxes": { "base": "Occasional taxes on the value of assets or net worth (GFS 1135).", "payer": "Owners of assets." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "WST 165 thousand in 2023: 0% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [
+        { "sourceId": "imf-gfs-codes", "locator": "G1135" },
+        { "sourceId": "imf-gfs-api", "locator": "Series WSM.S1311 + S1314.G1.G1135_T.XDC.A, 2023" }
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  ]
+}

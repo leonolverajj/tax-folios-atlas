@@ -1,0 +1,105 @@
+{
+  "groups": [
+    {
+      "title": "Central government and social security: lines of the IMF series, 2024",
+      "defaults": {
+        "denominatorId": "central-2024",
+        "scale": "million",
+        "currency": "TJS",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        {
+          "nodeId": "tj-central-g11411",
+          "amount": 10371.512956,
+          "locator": "Series TJK.S1311 + S1314.G1.G11411_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (TJS million)"
+        },
+        {
+          "nodeId": "tj-central-g1212",
+          "amount": 4914.662496,
+          "locator": "Series TJK.S1311 + S1314.G1.G1212_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (TJS million)"
+        },
+        {
+          "nodeId": "tj-central-g1112",
+          "amount": 1642.246651,
+          "locator": "Series TJK.S1311 + S1314.G1.G1112_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (TJS million)"
+        },
+        {
+          "nodeId": "tj-central-g1151",
+          "amount": 1456.444865,
+          "locator": "Series TJK.S1311 + S1314.G1.G1151_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (TJS million)"
+        },
+        {
+          "nodeId": "tj-central-g1111",
+          "amount": 1097.111026,
+          "locator": "Series TJK.S1311 + S1314.G1.G1111_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (TJS million)"
+        },
+        {
+          "nodeId": "tj-central-g11452",
+          "amount": 1072.468807,
+          "locator": "Series TJK.S1311 + S1314.G1.G11452_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (TJS million)"
+        },
+        {
+          "nodeId": "tj-central-g1142",
+          "amount": 1016.84945,
+          "locator": "Series TJK.S1311 + S1314.G1.G1142_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (TJS million)"
+        },
+        {
+          "nodeId": "tj-central-small-tax",
+          "amount": 29.497224,
+          "locator": "Series TJK.S1311 + S1314.G1, indicators G113_T:other, G11412_T, G1144_T, XDC, annual, 2024",
+          "calculation": "Sum of 3 lines, each below 0.15% of the total (TJS million)"
+        },
+        {
+          "nodeId": "tj-central-g1211",
+          "amount": 0.660599,
+          "locator": "Series TJK.S1311 + S1314.G1.G1211_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (TJS million)"
+        }
+      ]
+    },
+    {
+      "title": "Local governments: lines of the IMF series, 2024",
+      "defaults": {
+        "denominatorId": "local-2024",
+        "scale": "million",
+        "currency": "TJS",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        { "nodeId": "tj-local-g1112", "amount": 2891.611281, "locator": "Series TJK.S1313MIXED.G1.G1112_T.XDC.A, 2024" },
+        { "nodeId": "tj-local-g1111", "amount": 2335.135278, "locator": "Series TJK.S1313MIXED.G1.G1111_T.XDC.A, 2024" },
+        { "nodeId": "tj-local-g11411", "amount": 1788.141722, "locator": "Series TJK.S1313MIXED.G1.G11411_T.XDC.A, 2024" },
+        {
+          "nodeId": "tj-local-g113-other",
+          "amount": 932.701831,
+          "locator": "Series TJK.S1313MIXED.G1.G113_T.XDC.A, 2024, less its reported sub-lines",
+          "calculation": "G113_T less the sum of its reported sub-lines (TJS million)"
+        },
+        { "nodeId": "tj-local-g11451", "amount": 396.046019, "locator": "Series TJK.S1313MIXED.G1.G11451_T.XDC.A, 2024" },
+        { "nodeId": "tj-local-g1142", "amount": 164.927397, "locator": "Series TJK.S1313MIXED.G1.G1142_T.XDC.A, 2024" },
+        { "nodeId": "tj-local-g1144", "amount": 77.608751, "locator": "Series TJK.S1313MIXED.G1.G1144_T.XDC.A, 2024" },
+        { "nodeId": "tj-local-g1113", "amount": 27.57057, "locator": "Series TJK.S1313MIXED.G1.G1113_T.XDC.A, 2024" },
+        { "nodeId": "tj-local-g1211", "amount": 0.001435, "locator": "Series TJK.S1313MIXED.G1.G1211_T.XDC.A, 2024" }
+      ]
+    }
+  ],
+  "unavailable": []
+}

@@ -1,0 +1,105 @@
+{
+  "groups": [
+    {
+      "title": "Central government and social security: lines of the IMF series, 2025",
+      "defaults": {
+        "denominatorId": "central-2025",
+        "scale": "million",
+        "currency": "UYU",
+        "period": { "label": "2025", "kind": "calendar-year", "start": "2025-01-01", "end": "2025-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        {
+          "nodeId": "uy-central-g11411",
+          "amount": 254267.751357,
+          "locator": "Series URY.S1311 + S1314.G1.G11411_T.XDC.A, 2025",
+          "calculation": "Sum of the sectors S1311 + S1314 (UYU million)"
+        },
+        {
+          "nodeId": "uy-central-g1211",
+          "amount": 217564.38,
+          "locator": "Series URY.S1311 + S1314.G1.G1211_T.XDC.A, 2025",
+          "calculation": "Sum of the sectors S1311 + S1314 (UYU million)"
+        },
+        {
+          "nodeId": "uy-central-g1111",
+          "amount": 155301.623157,
+          "locator": "Series URY.S1311 + S1314.G1.G1111_T.XDC.A, 2025",
+          "calculation": "Sum of the sectors S1311 + S1314 (UYU million)"
+        },
+        {
+          "nodeId": "uy-central-g1212",
+          "amount": 145042.92,
+          "locator": "Series URY.S1311 + S1314.G1.G1212_T.XDC.A, 2025",
+          "calculation": "Sum of the sectors S1311 + S1314 (UYU million)"
+        },
+        {
+          "nodeId": "uy-central-g1112",
+          "amount": 79871.059735,
+          "locator": "Series URY.S1311 + S1314.G1.G1112_T.XDC.A, 2025",
+          "calculation": "Sum of the sectors S1311 + S1314 (UYU million)"
+        },
+        {
+          "nodeId": "uy-central-g1142",
+          "amount": 49346.840648,
+          "locator": "Series URY.S1311 + S1314.G1.G1142_T.XDC.A, 2025",
+          "calculation": "Sum of the sectors S1311 + S1314 (UYU million)"
+        },
+        {
+          "nodeId": "uy-central-g1151",
+          "amount": 39824.31477,
+          "locator": "Series URY.S1311 + S1314.G1.G1151_T.XDC.A, 2025",
+          "calculation": "Sum of the sectors S1311 + S1314 (UYU million)"
+        },
+        {
+          "nodeId": "uy-central-g1132",
+          "amount": 29745.553994,
+          "locator": "Series URY.S1311 + S1314.G1.G1132_T.XDC.A, 2025",
+          "calculation": "Sum of the sectors S1311 + S1314 (UYU million)"
+        },
+        {
+          "nodeId": "uy-central-g116",
+          "amount": 15317.734306,
+          "locator": "Series URY.S1311 + S1314.G1.G116_T.XDC.A, 2025",
+          "calculation": "Sum of the sectors S1311 + S1314 (UYU million)"
+        },
+        {
+          "nodeId": "uy-central-g11451",
+          "amount": 6964.76735,
+          "locator": "Series URY.S1311 + S1314.G1.G11451_T.XDC.A, 2025",
+          "calculation": "Sum of the sectors S1311 + S1314 (UYU million)"
+        },
+        {
+          "nodeId": "uy-central-g113-other",
+          "amount": 5319.085207,
+          "locator": "Series URY.S1311 + S1314.G1.G113_T.XDC.A, 2025, less its reported sub-lines",
+          "calculation": "G113_T less the sum of its reported sub-lines (UYU million)"
+        },
+        {
+          "nodeId": "uy-central-g11414",
+          "amount": 4207.879742,
+          "locator": "Series URY.S1311 + S1314.G1.G11414_T.XDC.A, 2025",
+          "calculation": "Sum of the sectors S1311 + S1314 (UYU million)"
+        },
+        {
+          "nodeId": "uy-central-g11413",
+          "amount": 3276.403838,
+          "locator": "Series URY.S1311 + S1314.G1.G11413_T.XDC.A, 2025",
+          "calculation": "Sum of the sectors S1311 + S1314 (UYU million)"
+        },
+        {
+          "nodeId": "uy-central-g1146",
+          "amount": 420.17409,
+          "locator": "Series URY.S1311 + S1314.G1.G1146_T.XDC.A, 2025",
+          "calculation": "Sum of the sectors S1311 + S1314 (UYU million)"
+        }
+      ]
+    }
+  ],
+  "unavailable": []
+}

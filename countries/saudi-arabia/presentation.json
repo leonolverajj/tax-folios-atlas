@@ -1,0 +1,17 @@
+{
+  "nodes": {
+    "saudi-arabia": { "label": "Saudi Arabia", "sublabel": "Fiscal folio · IMF lines", "glyph": "globe" },
+    "central": { "label": "Central govt and social funds", "sublabel": "IMF S1311 + S1314", "glyph": "landmark" },
+    "sa-central-g11411": { "label": "VAT", "sublabel": "Value added", "glyph": "cart" },
+    "sa-central-g1211": { "label": "Social: employees", "sublabel": "Contributions", "glyph": "shield" },
+    "sa-central-g11452": { "label": "Licences and use taxes", "sublabel": "Permissions", "glyph": "stamp" },
+    "sa-central-g116": { "label": "Other taxes", "sublabel": "Not elsewhere classified", "glyph": "gear" },
+    "sa-central-g1112": { "label": "Corporate income tax", "sublabel": "Companies", "glyph": "factory" },
+    "sa-central-g1151": { "label": "Customs duties", "sublabel": "Imports", "glyph": "ship" },
+    "sa-central-g1142": { "label": "Excises", "sublabel": "Specific goods", "glyph": "flame" },
+    "sa-central-g11414": { "label": "Financial transaction taxes", "sublabel": "Transfers · securities", "glyph": "stamp" },
+    "sa-central-g1212": { "label": "Social: employers", "sublabel": "Contributions", "glyph": "shield" },
+    "sa-central-g1144": { "label": "Taxes on services", "sublabel": "Insurance · lodging · gambling", "glyph": "bed" },
+    "sa-central-g121-other": { "label": "Other social security contrib…", "sublabel": "Not itemised", "glyph": "shield" }
+  }
+}

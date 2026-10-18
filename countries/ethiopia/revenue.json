@@ -1,0 +1,33 @@
+{
+  "groups": [
+    {
+      "title": "Budgetary central government: lines of the IMF series, 2024",
+      "defaults": {
+        "denominatorId": "central-2024",
+        "scale": "million",
+        "currency": "ETB",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Accrual basis, as reported to the IMF (flag AC)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        { "nodeId": "et-central-g11411", "amount": 138593.636426, "locator": "Series ETH.S1311B.G1.G11411_T.XDC.A, 2024" },
+        { "nodeId": "et-central-g1151", "amount": 101983.248765, "locator": "Series ETH.S1311B.G1.G1151_T.XDC.A, 2024" },
+        { "nodeId": "et-central-g1112", "amount": 64200.187554, "locator": "Series ETH.S1311B.G1.G1112_T.XDC.A, 2024" },
+        { "nodeId": "et-central-g1111", "amount": 54140.565884, "locator": "Series ETH.S1311B.G1.G1111_T.XDC.A, 2024" },
+        { "nodeId": "et-central-g1142", "amount": 37855.88931, "locator": "Series ETH.S1311B.G1.G1142_T.XDC.A, 2024" },
+        { "nodeId": "et-central-g116", "amount": 3121.86591, "locator": "Series ETH.S1311B.G1.G116_T.XDC.A, 2024" },
+        {
+          "nodeId": "et-central-small-tax",
+          "amount": 566.700933,
+          "locator": "Series ETH.S1311B.G1, indicators G11413_T, G11451_T, G1152_T, XDC, annual, 2024",
+          "calculation": "Sum of 3 lines, each below 0.15% of the total (ETB million)"
+        }
+      ]
+    }
+  ],
+  "unavailable": []
+}

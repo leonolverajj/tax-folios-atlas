@@ -1,0 +1,35 @@
+{
+  "groups": [
+    {
+      "title": "Budgetary central government: lines of the IMF series, 2024",
+      "defaults": {
+        "denominatorId": "central-2024",
+        "scale": "million",
+        "currency": "MGA",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Accrual basis, as reported to the IMF (flag AC)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        { "nodeId": "mg-central-g11411", "amount": 3987630.426014, "locator": "Series MDG.S1311B.G1.G11411_T.XDC.A, 2024" },
+        { "nodeId": "mg-central-g111", "amount": 2282285.024347, "locator": "Series MDG.S1311B.G1.G111_T.XDC.A, 2024" },
+        { "nodeId": "mg-central-g1151", "amount": 1678665.304196, "locator": "Series MDG.S1311B.G1.G1151_T.XDC.A, 2024" },
+        { "nodeId": "mg-central-g1142", "amount": 660339.484556, "locator": "Series MDG.S1311B.G1.G1142_T.XDC.A, 2024" },
+        { "nodeId": "mg-central-g1222", "amount": 410850.921941, "locator": "Series MDG.S1311B.G1.G1222_T.XDC.A, 2024" },
+        { "nodeId": "mg-central-g1221", "amount": 152096.54111, "locator": "Series MDG.S1311B.G1.G1221_T.XDC.A, 2024" },
+        { "nodeId": "mg-central-g11414", "amount": 51863.320902, "locator": "Series MDG.S1311B.G1.G11414_T.XDC.A, 2024" },
+        { "nodeId": "mg-central-g1146", "amount": 29159.08192, "locator": "Series MDG.S1311B.G1.G1146_T.XDC.A, 2024" },
+        {
+          "nodeId": "mg-central-small-tax",
+          "amount": 23664.566503,
+          "locator": "Series MDG.S1311B.G1, indicators G1144_T, G116_T, XDC, annual, 2024",
+          "calculation": "Sum of 2 lines, each below 0.15% of the total (MGA million)"
+        }
+      ]
+    }
+  ],
+  "unavailable": []
+}

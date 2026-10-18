@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "belize": {
+      "x": 800,
+      "y": 500
+    },
+    "central": {
+      "x": 509,
+      "y": 432
+    },
+    "bz-central-g114": {
+      "x": 441,
+      "y": 623
+    },
+    "bz-central-g111": {
+      "x": 328,
+      "y": 442
+    },
+    "bz-central-g115": {
+      "x": 353,
+      "y": 261
+    },
+    "bz-central-g113": {
+      "x": 538,
+      "y": 262
+    }
+  },
+  "radii": {}
+}

@@ -1,0 +1,86 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "moldova": {
+      "x": 800,
+      "y": 500
+    },
+    "central": {
+      "x": 509,
+      "y": 432
+    },
+    "md-central-g11411": {
+      "x": 649,
+      "y": 818
+    },
+    "md-central-g1142": {
+      "x": 343,
+      "y": 648
+    },
+    "md-central-g1111": {
+      "x": 302,
+      "y": 387
+    },
+    "md-central-g1146": {
+      "x": 602,
+      "y": 196
+    },
+    "md-central-g11452": {
+      "x": 1009,
+      "y": 185
+    },
+    "md-central-g1212": {
+      "x": 353,
+      "y": 843
+    },
+    "md-central-g1112": {
+      "x": 107,
+      "y": 527
+    },
+    "md-central-g1151": {
+      "x": 305,
+      "y": 185
+    },
+    "md-central-g1211": {
+      "x": 814,
+      "y": 52
+    },
+    "md-central-small-tax": {
+      "x": 1319,
+      "y": 186
+    },
+    "local": {
+      "x": 1091,
+      "y": 568
+    },
+    "md-local-g1111": {
+      "x": 1150,
+      "y": 287
+    },
+    "md-local-g1144": {
+      "x": 1280,
+      "y": 388
+    },
+    "md-local-g1132": {
+      "x": 1308,
+      "y": 538
+    },
+    "md-local-g113-other": {
+      "x": 1240,
+      "y": 710
+    },
+    "md-local-g1112": {
+      "x": 1050,
+      "y": 789
+    },
+    "md-local-small-tax": {
+      "x": 839,
+      "y": 829
+    }
+  },
+  "radii": {}
+}

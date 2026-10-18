@@ -1,0 +1,108 @@
+{
+  "groups": [
+    {
+      "title": "Central government and social security: lines of the IMF series, 2024",
+      "defaults": {
+        "denominatorId": "central-2024",
+        "scale": "million",
+        "currency": "EUR",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Accrual basis, as reported to the IMF (flag AC)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        {
+          "nodeId": "ad-central-g1212",
+          "amount": 231.101671,
+          "locator": "Series AND.S1311 + S1314.G1.G1212_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (EUR million)"
+        },
+        {
+          "nodeId": "ad-central-g11411",
+          "amount": 190.253901,
+          "locator": "Series AND.S1311 + S1314.G1.G11411_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (EUR million)"
+        },
+        {
+          "nodeId": "ad-central-g1151",
+          "amount": 112.713902,
+          "locator": "Series AND.S1311 + S1314.G1.G1151_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (EUR million)"
+        },
+        {
+          "nodeId": "ad-central-g1111",
+          "amount": 108.357315,
+          "locator": "Series AND.S1311 + S1314.G1.G1111_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (EUR million)"
+        },
+        {
+          "nodeId": "ad-central-g1112",
+          "amount": 107.266712,
+          "locator": "Series AND.S1311 + S1314.G1.G1112_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (EUR million)"
+        },
+        {
+          "nodeId": "ad-central-g1211",
+          "amount": 96.913604,
+          "locator": "Series AND.S1311 + S1314.G1.G1211_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (EUR million)"
+        },
+        {
+          "nodeId": "ad-central-g1213",
+          "amount": 56.47051,
+          "locator": "Series AND.S1311 + S1314.G1.G1213_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (EUR million)"
+        },
+        {
+          "nodeId": "ad-central-g1142",
+          "amount": 48.671671,
+          "locator": "Series AND.S1311 + S1314.G1.G1142_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (EUR million)"
+        },
+        {
+          "nodeId": "ad-central-g11452",
+          "amount": 13.582712,
+          "locator": "Series AND.S1311 + S1314.G1.G11452_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (EUR million)"
+        },
+        {
+          "nodeId": "ad-central-small-tax",
+          "amount": 0.892604,
+          "locator": "Series AND.S1311 + S1314.G1, indicators G113_T:other, G1143_T, XDC, annual, 2024",
+          "calculation": "Sum of 2 lines, each below 0.15% of the total (EUR million)"
+        }
+      ]
+    },
+    {
+      "title": "Local governments: lines of the IMF series, 2024",
+      "defaults": {
+        "denominatorId": "local-2024",
+        "scale": "million",
+        "currency": "EUR",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Accrual basis, as reported to the IMF (flag AC)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        { "nodeId": "ad-local-g11452", "amount": 19.979187, "locator": "Series AND.S1313MIXED.G1.G11452_T.XDC.A, 2024" },
+        { "nodeId": "ad-local-g1111", "amount": 11.94332, "locator": "Series AND.S1313MIXED.G1.G1111_T.XDC.A, 2024" },
+        { "nodeId": "ad-local-g1112", "amount": 11.865935, "locator": "Series AND.S1313MIXED.G1.G1112_T.XDC.A, 2024" },
+        { "nodeId": "ad-local-g11411", "amount": 8.891348, "locator": "Series AND.S1313MIXED.G1.G11411_T.XDC.A, 2024" },
+        {
+          "nodeId": "ad-local-g113-other",
+          "amount": 6.388608,
+          "locator": "Series AND.S1313MIXED.G1.G113_T.XDC.A, 2024, less its reported sub-lines",
+          "calculation": "G113_T less the sum of its reported sub-lines (EUR million)"
+        },
+        { "nodeId": "ad-local-g116", "amount": 1.842227, "locator": "Series AND.S1313MIXED.G1.G116_T.XDC.A, 2024" }
+      ]
+    }
+  ],
+  "unavailable": []
+}

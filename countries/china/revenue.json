@@ -1,0 +1,113 @@
+{
+  "groups": [
+    {
+      "title": "Central government and social security: lines of the IMF series, 2024",
+      "defaults": {
+        "denominatorId": "central-2024",
+        "scale": "million",
+        "currency": "CNY",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        {
+          "nodeId": "cn-central-g121-other",
+          "amount": 8826348,
+          "locator": "Series CHN.S1311 + S1314.G1.G121_T.XDC.A, 2024, less its reported sub-lines",
+          "calculation": "G121_T less the sum of its reported sub-lines (CNY million)"
+        },
+        {
+          "nodeId": "cn-central-g11411",
+          "amount": 3227687.02,
+          "locator": "Series CHN.S1311 + S1314.G1.G11411_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (CNY million)"
+        },
+        {
+          "nodeId": "cn-central-g1112",
+          "amount": 2643602.15,
+          "locator": "Series CHN.S1311 + S1314.G1.G1112_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (CNY million)"
+        },
+        {
+          "nodeId": "cn-central-g1142",
+          "amount": 2164797.92,
+          "locator": "Series CHN.S1311 + S1314.G1.G1142_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (CNY million)"
+        },
+        {
+          "nodeId": "cn-central-g1111",
+          "amount": 871318.78,
+          "locator": "Series CHN.S1311 + S1314.G1.G1111_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (CNY million)"
+        },
+        {
+          "nodeId": "cn-central-g1151",
+          "amount": 250936.31,
+          "locator": "Series CHN.S1311 + S1314.G1.G1151_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (CNY million)"
+        },
+        {
+          "nodeId": "cn-central-g11414",
+          "amount": 129000.56,
+          "locator": "Series CHN.S1311 + S1314.G1.G11414_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (CNY million)"
+        },
+        {
+          "nodeId": "cn-central-g1144",
+          "amount": 100247.47,
+          "locator": "Series CHN.S1311 + S1314.G1.G1144_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (CNY million)"
+        },
+        {
+          "nodeId": "cn-central-small-tax",
+          "amount": 73220.55,
+          "locator": "Series CHN.S1311 + S1314.G1, indicators G11413_T, G11452_T, G1146_T, G116_T, XDC, annual, 2024",
+          "calculation": "Sum of 4 lines, each below 0.15% of the total (CNY million)"
+        }
+      ]
+    },
+    {
+      "title": "Local governments: lines of the IMF series, 2024",
+      "defaults": {
+        "denominatorId": "local-2024",
+        "scale": "million",
+        "currency": "CNY",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        { "nodeId": "cn-local-g11411", "amount": 3345052.88, "locator": "Series CHN.S1313MIXED.G1.G11411_T.XDC.A, 2024" },
+        { "nodeId": "cn-local-g1112", "amount": 1446157.63, "locator": "Series CHN.S1313MIXED.G1.G1112_T.XDC.A, 2024" },
+        { "nodeId": "cn-local-g11413", "amount": 865969.86, "locator": "Series CHN.S1313MIXED.G1.G11413_T.XDC.A, 2024" },
+        { "nodeId": "cn-local-g11414", "amount": 732018.84, "locator": "Series CHN.S1313MIXED.G1.G11414_T.XDC.A, 2024" },
+        {
+          "nodeId": "cn-local-g113-other",
+          "amount": 713008.78,
+          "locator": "Series CHN.S1313MIXED.G1.G113_T.XDC.A, 2024, less its reported sub-lines",
+          "calculation": "G113_T less the sum of its reported sub-lines (CNY million)"
+        },
+        { "nodeId": "cn-local-g1135", "amount": 623686.29, "locator": "Series CHN.S1313MIXED.G1.G1135_T.XDC.A, 2024" },
+        { "nodeId": "cn-local-g1111", "amount": 580862.14, "locator": "Series CHN.S1313MIXED.G1.G1111_T.XDC.A, 2024" },
+        { "nodeId": "cn-local-g11452", "amount": 442120.54, "locator": "Series CHN.S1313MIXED.G1.G11452_T.XDC.A, 2024" },
+        { "nodeId": "cn-local-g116", "amount": 298689.31, "locator": "Series CHN.S1313MIXED.G1.G116_T.XDC.A, 2024" },
+        { "nodeId": "cn-local-g1144", "amount": 159290.21, "locator": "Series CHN.S1313MIXED.G1.G1144_T.XDC.A, 2024" },
+        { "nodeId": "cn-local-g1131", "amount": 114168.51, "locator": "Series CHN.S1313MIXED.G1.G1131_T.XDC.A, 2024" },
+        {
+          "nodeId": "cn-local-small-tax",
+          "amount": 43735.86,
+          "locator": "Series CHN.S1313MIXED.G1, indicators G1142_T, G1146_T, XDC, annual, 2024",
+          "calculation": "Sum of 2 lines, each below 0.15% of the total (CNY million)"
+        }
+      ]
+    }
+  ],
+  "unavailable": []
+}

@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "india": {
+      "x": 800,
+      "y": 500
+    },
+    "central": {
+      "x": 509,
+      "y": 432
+    },
+    "in-central-g11412": {
+      "x": 841,
+      "y": 829
+    },
+    "in-central-g1111": {
+      "x": 392,
+      "y": 697
+    },
+    "in-central-g1151": {
+      "x": 320,
+      "y": 385
+    },
+    "in-central-g1146": {
+      "x": 685,
+      "y": 178
+    },
+    "in-central-small-tax": {
+      "x": 1164,
+      "y": 268
+    },
+    "in-central-g1112": {
+      "x": 398,
+      "y": 866
+    },
+    "in-central-g1142": {
+      "x": 155,
+      "y": 334
+    },
+    "in-central-g1132": {
+      "x": 904,
+      "y": 57
+    },
+    "in-central-small-social": {
+      "x": 1492,
+      "y": 466
+    }
+  },
+  "radii": {}
+}

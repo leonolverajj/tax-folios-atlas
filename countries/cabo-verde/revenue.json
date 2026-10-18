@@ -1,0 +1,31 @@
+{
+  "groups": [
+    {
+      "title": "Budgetary central government: lines of the IMF series, 2020",
+      "defaults": {
+        "denominatorId": "central-2020",
+        "scale": "million",
+        "currency": "CVE",
+        "period": { "label": "2020", "kind": "calendar-year", "start": "2020-01-01", "end": "2020-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        { "nodeId": "cv-central-g11411", "amount": 12589.04915, "locator": "Series CPV.S1311B.G1.G11411_T.XDC.A, 2020" },
+        { "nodeId": "cv-central-g1151", "amount": 6593.093626, "locator": "Series CPV.S1311B.G1.G1151_T.XDC.A, 2020" },
+        { "nodeId": "cv-central-g1111", "amount": 6547.360386, "locator": "Series CPV.S1311B.G1.G1111_T.XDC.A, 2020" },
+        { "nodeId": "cv-central-g1112", "amount": 3409.770948, "locator": "Series CPV.S1311B.G1.G1112_T.XDC.A, 2020" },
+        { "nodeId": "cv-central-g1142", "amount": 1702.201172, "locator": "Series CPV.S1311B.G1.G1142_T.XDC.A, 2020" },
+        { "nodeId": "cv-central-g11414", "amount": 654.336278, "locator": "Series CPV.S1311B.G1.G11414_T.XDC.A, 2020" },
+        { "nodeId": "cv-central-g11412", "amount": 592.764608, "locator": "Series CPV.S1311B.G1.G11412_T.XDC.A, 2020" },
+        { "nodeId": "cv-central-g1144", "amount": 326.514649, "locator": "Series CPV.S1311B.G1.G1144_T.XDC.A, 2020" },
+        { "nodeId": "cv-central-g1211", "amount": 78.056278, "locator": "Series CPV.S1311B.G1.G1211_T.XDC.A, 2020" },
+        { "nodeId": "cv-central-g1146", "amount": 2.543907, "locator": "Series CPV.S1311B.G1.G1146_T.XDC.A, 2020" }
+      ]
+    }
+  ],
+  "unavailable": []
+}

@@ -1,0 +1,119 @@
+{
+  "groups": [
+    {
+      "title": "Central government and social security: lines of the IMF series, 2024",
+      "defaults": {
+        "denominatorId": "central-2024",
+        "scale": "million",
+        "currency": "MKD",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        {
+          "nodeId": "mk-central-g1211",
+          "amount": 88447.952847,
+          "locator": "Series MKD.S1311 + S1314.G1.G1211_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (MKD million)"
+        },
+        {
+          "nodeId": "mk-central-g11411",
+          "amount": 81203.258827,
+          "locator": "Series MKD.S1311 + S1314.G1.G11411_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (MKD million)"
+        },
+        {
+          "nodeId": "mk-central-g1111",
+          "amount": 32097.356472,
+          "locator": "Series MKD.S1311 + S1314.G1.G1111_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (MKD million)"
+        },
+        {
+          "nodeId": "mk-central-g1142",
+          "amount": 29294.896411,
+          "locator": "Series MKD.S1311 + S1314.G1.G1142_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (MKD million)"
+        },
+        {
+          "nodeId": "mk-central-g1112",
+          "amount": 20065.391008,
+          "locator": "Series MKD.S1311 + S1314.G1.G1112_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (MKD million)"
+        },
+        {
+          "nodeId": "mk-central-g1151",
+          "amount": 12904.89316,
+          "locator": "Series MKD.S1311 + S1314.G1.G1151_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (MKD million)"
+        },
+        {
+          "nodeId": "mk-central-g1213",
+          "amount": 11456.674829,
+          "locator": "Series MKD.S1311 + S1314.G1.G1213_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (MKD million)"
+        },
+        {
+          "nodeId": "mk-central-g1144",
+          "amount": 4350.860147,
+          "locator": "Series MKD.S1311 + S1314.G1.G1144_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (MKD million)"
+        },
+        {
+          "nodeId": "mk-central-g1212",
+          "amount": 1440.716872,
+          "locator": "Series MKD.S1311 + S1314.G1.G1212_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (MKD million)"
+        },
+        {
+          "nodeId": "mk-central-g116",
+          "amount": 709.82709,
+          "locator": "Series MKD.S1311 + S1314.G1.G116_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (MKD million)"
+        },
+        {
+          "nodeId": "mk-central-small-tax",
+          "amount": 208.558472,
+          "locator": "Series MKD.S1311 + S1314.G1, indicators G11412_T, G11414_T, G11452_T, G1146_T, XDC, annual, 2024",
+          "calculation": "Sum of 4 lines, each below 0.15% of the total (MKD million)"
+        }
+      ]
+    },
+    {
+      "title": "Local governments: lines of the IMF series, 2024",
+      "defaults": {
+        "denominatorId": "local-2024",
+        "scale": "million",
+        "currency": "MKD",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        { "nodeId": "mk-local-g11452", "amount": 4832.309133, "locator": "Series MKD.S1313MIXED.G1.G11452_T.XDC.A, 2024" },
+        { "nodeId": "mk-local-g11414", "amount": 2390.397574, "locator": "Series MKD.S1313MIXED.G1.G11414_T.XDC.A, 2024" },
+        {
+          "nodeId": "mk-local-g113-other",
+          "amount": 2014.472697,
+          "locator": "Series MKD.S1313MIXED.G1.G113_T.XDC.A, 2024, less its reported sub-lines",
+          "calculation": "G113_T less the sum of its reported sub-lines (MKD million)"
+        },
+        { "nodeId": "mk-local-g116", "amount": 1932.163602, "locator": "Series MKD.S1313MIXED.G1.G116_T.XDC.A, 2024" },
+        { "nodeId": "mk-local-g1111", "amount": 1270.487858, "locator": "Series MKD.S1313MIXED.G1.G1111_T.XDC.A, 2024" },
+        {
+          "nodeId": "mk-local-small-tax",
+          "amount": 509.580722,
+          "locator": "Series MKD.S1313MIXED.G1, indicators G1133_T, G11451_T, G1146_T, XDC, annual, 2024",
+          "calculation": "Sum of 3 lines, each below 0.15% of the total (MKD million)"
+        }
+      ]
+    }
+  ],
+  "unavailable": []
+}

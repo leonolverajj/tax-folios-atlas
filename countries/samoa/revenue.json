@@ -1,0 +1,81 @@
+{
+  "groups": [
+    {
+      "title": "Central government and social security: lines of the IMF series, 2023",
+      "defaults": {
+        "denominatorId": "central-2023",
+        "scale": "million",
+        "currency": "WST",
+        "period": { "label": "2023", "kind": "calendar-year", "start": "2023-01-01", "end": "2023-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        {
+          "nodeId": "ws-central-g11411",
+          "amount": 281.481012,
+          "locator": "Series WSM.S1311 + S1314.G1.G11411_T.XDC.A, 2023",
+          "calculation": "Sum of the sectors S1311 + S1314 (WST million)"
+        },
+        {
+          "nodeId": "ws-central-g1142",
+          "amount": 158.585625,
+          "locator": "Series WSM.S1311 + S1314.G1.G1142_T.XDC.A, 2023",
+          "calculation": "Sum of the sectors S1311 + S1314 (WST million)"
+        },
+        {
+          "nodeId": "ws-central-g1151",
+          "amount": 83.861115,
+          "locator": "Series WSM.S1311 + S1314.G1.G1151_T.XDC.A, 2023",
+          "calculation": "Sum of the sectors S1311 + S1314 (WST million)"
+        },
+        {
+          "nodeId": "ws-central-g1111",
+          "amount": 75.748791,
+          "locator": "Series WSM.S1311 + S1314.G1.G1111_T.XDC.A, 2023",
+          "calculation": "Sum of the sectors S1311 + S1314 (WST million)"
+        },
+        {
+          "nodeId": "ws-central-g1112",
+          "amount": 64.353358,
+          "locator": "Series WSM.S1311 + S1314.G1.G1112_T.XDC.A, 2023",
+          "calculation": "Sum of the sectors S1311 + S1314 (WST million)"
+        },
+        {
+          "nodeId": "ws-central-g1144",
+          "amount": 19.306794,
+          "locator": "Series WSM.S1311 + S1314.G1.G1144_T.XDC.A, 2023",
+          "calculation": "Sum of the sectors S1311 + S1314 (WST million)"
+        },
+        {
+          "nodeId": "ws-central-g1211",
+          "amount": 6.348343,
+          "locator": "Series WSM.S1311 + S1314.G1.G1211_T.XDC.A, 2023",
+          "calculation": "Sum of the sectors S1311 + S1314 (WST million)"
+        },
+        {
+          "nodeId": "ws-central-g1212",
+          "amount": 6.344742,
+          "locator": "Series WSM.S1311 + S1314.G1.G1212_T.XDC.A, 2023",
+          "calculation": "Sum of the sectors S1311 + S1314 (WST million)"
+        },
+        {
+          "nodeId": "ws-central-g121-other",
+          "amount": 0.913834,
+          "locator": "Series WSM.S1311 + S1314.G1.G121_T.XDC.A, 2023, less its reported sub-lines",
+          "calculation": "G121_T less the sum of its reported sub-lines (WST million)"
+        },
+        {
+          "nodeId": "ws-central-g1135",
+          "amount": 0.165432,
+          "locator": "Series WSM.S1311 + S1314.G1.G1135_T.XDC.A, 2023",
+          "calculation": "Sum of the sectors S1311 + S1314 (WST million)"
+        }
+      ]
+    }
+  ],
+  "unavailable": []
+}

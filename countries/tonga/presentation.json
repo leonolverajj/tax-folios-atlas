@@ -1,0 +1,15 @@
+{
+  "nodes": {
+    "tonga": { "label": "Tonga", "sublabel": "Fiscal folio · IMF lines", "glyph": "globe" },
+    "central": { "label": "Budgetary central govt", "sublabel": "IMF S1311B", "glyph": "landmark" },
+    "to-central-g11411": { "label": "VAT", "sublabel": "Value added", "glyph": "cart" },
+    "to-central-g1142": { "label": "Excises", "sublabel": "Specific goods", "glyph": "flame" },
+    "to-central-g1112": { "label": "Corporate income tax", "sublabel": "Companies", "glyph": "factory" },
+    "to-central-g1151": { "label": "Customs duties", "sublabel": "Imports", "glyph": "ship" },
+    "to-central-g1111": { "label": "Personal income tax", "sublabel": "Individuals", "glyph": "person" },
+    "to-central-g1153": { "label": "Trade monopoly profits", "sublabel": "State monopolies", "glyph": "bank" },
+    "to-central-g11451": { "label": "Motor vehicle taxes", "sublabel": "Ownership · use", "glyph": "car" },
+    "to-central-g11452": { "label": "Licences and use taxes", "sublabel": "Permissions", "glyph": "stamp" },
+    "to-central-g113-other": { "label": "Other property taxes", "sublabel": "Not itemised", "glyph": "house" }
+  }
+}

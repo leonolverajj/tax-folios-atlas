@@ -31,6 +31,17 @@ import { Noise2D, contours, glint, hashString, mulberry32, f1, ridgeField, smoot
 const require = createRequire(import.meta.url);
 const topo = JSON.parse(fs.readFileSync(require.resolve('world-atlas/countries-50m.json'), 'utf8'));
 const collection = feature(topo, topo.objects.countries) as unknown as { features: Feature<Polygon | MultiPolygon>[] };
+// A few very small states (Tuvalu) are missing from the 50m file; the 10m file has them.
+let collection10: { features: Feature<Polygon | MultiPolygon>[] } | null = null;
+function findCountry(numeric: string): Feature<Polygon | MultiPolygon> | undefined {
+  const hit = collection.features.find((f) => String(f.id).padStart(3, '0') === numeric);
+  if (hit) return hit;
+  if (!collection10) {
+    const t10 = JSON.parse(fs.readFileSync(require.resolve('world-atlas/countries-10m.json'), 'utf8'));
+    collection10 = feature(t10, t10.objects.countries) as unknown as { features: Feature<Polygon | MultiPolygon>[] };
+  }
+  return collection10.features.find((f) => String(f.id).padStart(3, '0') === numeric);
+}
 const SCALE = 1.5; // raster pixels per canvas unit
 
 interface Ctx {
@@ -117,6 +128,25 @@ const GEO: Record<string, GeoSpec> = {
   greece: { projection: () => geoMercator(), keep: (_p, rel) => rel > 0.002 },
   croatia: { projection: () => geoMercator(), keep: (_p, rel) => rel > 0.002 },
   turkiye: { projection: () => geoMercator(), keep: (_p, rel) => rel > 0.003 },
+  // Folios built from the IMF series (October 2026): projections only where the default Mercator fit breaks or a far territory would shrink the country.
+  russia: { projection: () => geoConicEqualArea().parallels([52, 66]).rotate([-100, 0]).center([0, 62]) },
+  china: { projection: () => geoConicEqualArea().parallels([25, 47]).rotate([-105, 0]).center([0, 36]), keep: (_p, rel) => rel > 0.0008 },
+  india: { projection: () => geoConicConformal().parallels([12, 28]).rotate([-80, 0]).center([0, 21]), keep: (_p, rel) => rel > 0.002 },
+  indonesia: { projection: () => geoMercator(), keep: (_p, rel) => rel > 0.004 },
+  kiribati: { projection: () => geoMercator().rotate([165, 0]) },
+  fiji: { projection: () => geoMercator().rotate([-178, 0]) },
+  ecuador: { projection: () => geoMercator(), keep: (p) => geoCentroid(p)[0] > -85 }, // the mainland; the Galápagos are left out
+  'costa-rica': { projection: () => geoMercator(), keep: (p) => geoCentroid(p)[0] > -86 }, // the mainland; Cocos Island is left out
+  'south-africa': { projection: () => geoMercator(), keep: (p) => geoCentroid(p)[1] > -36 }, // the mainland; the Prince Edward Islands are left out
+  mauritius: { projection: () => geoMercator(), keep: (_p, rel) => rel > 0.03 },
+  seychelles: { projection: () => geoMercator(), keep: (_p, rel) => rel > 0.02 },
+  argentina: { projection: () => geoMercator(), keep: (p) => geoCentroid(p)[1] > -56 },
+  malaysia: { projection: () => geoMercator() },
+  philippines: { projection: () => geoMercator(), keep: (_p, rel) => rel > 0.001 },
+  'papua-new-guinea': { projection: () => geoMercator(), keep: (_p, rel) => rel > 0.002 },
+  'solomon-islands': { projection: () => geoMercator(), keep: (_p, rel) => rel > 0.01 },
+  palau: { projection: () => geoMercator(), keep: (_p, rel) => rel > 0.02 },
+  tanzania: { projection: () => geoMercator() },
 };
 
 /* --------------------------------------------------------------- motifs */
@@ -457,7 +487,7 @@ async function render(id: string) {
   const motifFn = MOTIFS[meta.theme.motif] ?? MOTIFS.topo;
   if (!motifFn) throw new Error(`No motif "${meta.theme.motif}" for ${id}. Known: ${Object.keys(MOTIFS).join(', ')}`);
 
-  const feat = collection.features.find((f) => String(f.id).padStart(3, '0') === meta.isoNumeric);
+  const feat = findCountry(meta.isoNumeric);
   if (!feat) throw new Error(`Natural Earth has no country with numeric code ${meta.isoNumeric}`);
   const geom = spec.keep ? keepPolygons(feat, spec.keep) : (feat as Feature<Polygon | MultiPolygon>);
   const projection = spec.projection();
@@ -558,9 +588,11 @@ async function render(id: string) {
   const buf = await sharp(Buffer.from(svg), { density: 72 }).resize(W * SCALE, H * SCALE).webp({ quality: 82, alphaQuality: 90, effort: 5 }).toBuffer();
   fs.writeFileSync(path.join(outDir, 'background.webp'), buf);
   // Flat PNG preview (on the app's dark backdrop) for the documentation.
-  const previewDir = path.join(countryDir(id), '..', '..', 'docs', 'workflow');
-  fs.mkdirSync(previewDir, { recursive: true });
-  await sharp(buf).flatten({ background: '#04060d' }).resize(1200).png({ compressionLevel: 9 }).toFile(path.join(previewDir, `${id}-2-background.png`));
+  if (meta.grain !== 'harmonised') {
+    const previewDir = path.join(countryDir(id), '..', '..', 'docs', 'workflow');
+    fs.mkdirSync(previewDir, { recursive: true });
+    await sharp(buf).flatten({ background: '#04060d' }).resize(1200).png({ compressionLevel: 9 }).toFile(path.join(previewDir, `${id}-2-background.png`));
+  }
   console.log(`wrote countries/${id}/background.webp (${(buf.length / 1024).toFixed(0)} KB)`);
 }
 

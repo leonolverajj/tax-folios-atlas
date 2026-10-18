@@ -1,0 +1,121 @@
+{
+  "groups": [
+    {
+      "title": "Central government and social security: lines of the IMF series, 2024",
+      "defaults": {
+        "denominatorId": "central-2024",
+        "scale": "million",
+        "currency": "BYN",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        {
+          "nodeId": "by-central-g1212",
+          "amount": 28035.595893,
+          "locator": "Series BLR.S1311 + S1314.G1.G1212_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (BYN million)"
+        },
+        {
+          "nodeId": "by-central-g11411",
+          "amount": 17289.621153,
+          "locator": "Series BLR.S1311 + S1314.G1.G11411_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (BYN million)"
+        },
+        {
+          "nodeId": "by-central-g1151",
+          "amount": 5133.761722,
+          "locator": "Series BLR.S1311 + S1314.G1.G1151_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (BYN million)"
+        },
+        {
+          "nodeId": "by-central-g1142",
+          "amount": 3933.386471,
+          "locator": "Series BLR.S1311 + S1314.G1.G1142_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (BYN million)"
+        },
+        {
+          "nodeId": "by-central-g1112",
+          "amount": 2431.856572,
+          "locator": "Series BLR.S1311 + S1314.G1.G1112_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (BYN million)"
+        },
+        {
+          "nodeId": "by-central-g1152",
+          "amount": 1746.044476,
+          "locator": "Series BLR.S1311 + S1314.G1.G1152_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (BYN million)"
+        },
+        {
+          "nodeId": "by-central-g1156",
+          "amount": 1147.955621,
+          "locator": "Series BLR.S1311 + S1314.G1.G1156_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (BYN million)"
+        },
+        {
+          "nodeId": "by-central-g11452",
+          "amount": 1008.238665,
+          "locator": "Series BLR.S1311 + S1314.G1.G11452_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (BYN million)"
+        },
+        {
+          "nodeId": "by-central-g116",
+          "amount": 474.922782,
+          "locator": "Series BLR.S1311 + S1314.G1.G116_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (BYN million)"
+        },
+        {
+          "nodeId": "by-central-g1213",
+          "amount": 300.37807,
+          "locator": "Series BLR.S1311 + S1314.G1.G1213_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (BYN million)"
+        },
+        {
+          "nodeId": "by-central-small-tax",
+          "amount": 101.01222,
+          "locator": "Series BLR.S1311 + S1314.G1, indicators G1143_T, G1144_T, XDC, annual, 2024",
+          "calculation": "Sum of 2 lines, each below 0.15% of the total (BYN million)"
+        }
+      ]
+    },
+    {
+      "title": "Local governments: lines of the IMF series, 2024",
+      "defaults": {
+        "denominatorId": "local-2024",
+        "scale": "million",
+        "currency": "BYN",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        { "nodeId": "by-local-g1111", "amount": 13366.008862, "locator": "Series BLR.S1313MIXED.G1.G1111_T.XDC.A, 2024" },
+        { "nodeId": "by-local-g1112", "amount": 6775.131023, "locator": "Series BLR.S1313MIXED.G1.G1112_T.XDC.A, 2024" },
+        { "nodeId": "by-local-g11411", "amount": 5628.478517, "locator": "Series BLR.S1313MIXED.G1.G11411_T.XDC.A, 2024" },
+        { "nodeId": "by-local-g1132", "amount": 1775.127897, "locator": "Series BLR.S1313MIXED.G1.G1132_T.XDC.A, 2024" },
+        { "nodeId": "by-local-g11413", "amount": 1103.027412, "locator": "Series BLR.S1313MIXED.G1.G11413_T.XDC.A, 2024" },
+        {
+          "nodeId": "by-local-g113-other",
+          "amount": 693.575945,
+          "locator": "Series BLR.S1313MIXED.G1.G113_T.XDC.A, 2024, less its reported sub-lines",
+          "calculation": "G113_T less the sum of its reported sub-lines (BYN million)"
+        },
+        { "nodeId": "by-local-g11452", "amount": 269.620967, "locator": "Series BLR.S1313MIXED.G1.G11452_T.XDC.A, 2024" },
+        {
+          "nodeId": "by-local-small-tax",
+          "amount": 146.876065,
+          "locator": "Series BLR.S1313MIXED.G1, indicators G1143_T, G1144_T, G116_T, XDC, annual, 2024",
+          "calculation": "Sum of 3 lines, each below 0.15% of the total (BYN million)"
+        }
+      ]
+    }
+  ],
+  "unavailable": []
+}

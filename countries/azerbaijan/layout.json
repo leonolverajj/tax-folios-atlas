@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "azerbaijan": {
+      "x": 800,
+      "y": 500
+    },
+    "central": {
+      "x": 509,
+      "y": 432
+    },
+    "az-central-g11411": {
+      "x": 604,
+      "y": 805
+    },
+    "az-central-g1112": {
+      "x": 366,
+      "y": 661
+    },
+    "az-central-g1151": {
+      "x": 289,
+      "y": 485
+    },
+    "az-central-g113-other": {
+      "x": 398,
+      "y": 290
+    },
+    "az-central-g1156": {
+      "x": 651,
+      "y": 184
+    },
+    "az-central-g1152": {
+      "x": 951,
+      "y": 185
+    },
+    "az-central-g1211": {
+      "x": 312,
+      "y": 833
+    },
+    "az-central-g1111": {
+      "x": 106,
+      "y": 513
+    },
+    "az-central-g1142": {
+      "x": 285,
+      "y": 189
+    },
+    "az-central-g11412": {
+      "x": 767,
+      "y": 52
+    },
+    "az-central-g11451": {
+      "x": 1244,
+      "y": 155
+    },
+    "state": {
+      "x": 1105,
+      "y": 465
+    },
+    "az-state-g1142": {
+      "x": 1115,
+      "y": 295
+    },
+    "az-state-g11411": {
+      "x": 1263,
+      "y": 374
+    },
+    "az-state-small-tax": {
+      "x": 1316,
+      "y": 527
+    },
+    "az-state-g1111": {
+      "x": 1156,
+      "y": 628
+    },
+    "local": {
+      "x": 892,
+      "y": 691
+    },
+    "az-local-g113-other": {
+      "x": 971,
+      "y": 845
+    }
+  },
+  "radii": {}
+}

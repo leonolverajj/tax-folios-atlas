@@ -1,0 +1,16 @@
+{
+  "nodes": {
+    "equatorial-guinea": { "label": "Equatorial Guinea", "sublabel": "Fiscal folio · IMF lines", "glyph": "globe" },
+    "central": { "label": "Budgetary central govt", "sublabel": "IMF S1311B", "glyph": "landmark" },
+    "gq-central-g1112": { "label": "Corporate income tax", "sublabel": "Companies", "glyph": "factory" },
+    "gq-central-g1111": { "label": "Personal income tax", "sublabel": "Individuals", "glyph": "person" },
+    "gq-central-g11411": { "label": "VAT", "sublabel": "Value added", "glyph": "cart" },
+    "gq-central-g1144": { "label": "Taxes on services", "sublabel": "Insurance · lodging · gambling", "glyph": "bed" },
+    "gq-central-g1151": { "label": "Customs duties", "sublabel": "Imports", "glyph": "ship" },
+    "gq-central-g11452": { "label": "Licences and use taxes", "sublabel": "Permissions", "glyph": "stamp" },
+    "gq-central-g1152": { "label": "Export taxes", "sublabel": "Exports", "glyph": "plane" },
+    "gq-central-g116": { "label": "Other taxes", "sublabel": "Not elsewhere classified", "glyph": "gear" },
+    "gq-central-small-tax": { "label": "Other taxes (small lines)", "sublabel": "3 lines", "glyph": "gear" },
+    "gq-central-g1142": { "label": "Excises", "sublabel": "Specific goods", "glyph": "flame" }
+  }
+}

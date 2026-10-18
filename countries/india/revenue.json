@@ -1,0 +1,40 @@
+{
+  "groups": [
+    {
+      "title": "Budgetary central government: lines of the IMF series, 2022",
+      "defaults": {
+        "denominatorId": "central-2022",
+        "scale": "million",
+        "currency": "INR",
+        "period": { "label": "2022", "kind": "calendar-year", "start": "2022-01-01", "end": "2022-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        { "nodeId": "in-central-g11412", "amount": 4505918.7, "locator": "Series IND.S1311B.G1.G11412_T.XDC.A, 2022" },
+        { "nodeId": "in-central-g1112", "amount": 4436517.6, "locator": "Series IND.S1311B.G1.G1112_T.XDC.A, 2022" },
+        { "nodeId": "in-central-g1111", "amount": 4102074.5, "locator": "Series IND.S1311B.G1.G1111_T.XDC.A, 2022" },
+        { "nodeId": "in-central-g1142", "amount": 3560650.6, "locator": "Series IND.S1311B.G1.G1142_T.XDC.A, 2022" },
+        { "nodeId": "in-central-g1151", "amount": 1346487.3, "locator": "Series IND.S1311B.G1.G1151_T.XDC.A, 2022" },
+        { "nodeId": "in-central-g1132", "amount": 231434.2, "locator": "Series IND.S1311B.G1.G1132_T.XDC.A, 2022" },
+        { "nodeId": "in-central-g1146", "amount": 29292, "locator": "Series IND.S1311B.G1.G1146_T.XDC.A, 2022" },
+        {
+          "nodeId": "in-central-small-social",
+          "amount": 24307.6,
+          "locator": "Series IND.S1311B.G1, indicators G1211_T, G1212_T, XDC, annual, 2022",
+          "calculation": "Sum of 2 lines, each below 0.15% of the total (INR million)"
+        },
+        {
+          "nodeId": "in-central-small-tax",
+          "amount": 6690.3,
+          "locator": "Series IND.S1311B.G1, indicators G1131_T, G1133_T, G113_T:other, G11414_T, G1144_T, G11451_T, G11452_T, XDC, annual, 2022",
+          "calculation": "Sum of 7 lines, each below 0.15% of the total (INR million)"
+        }
+      ]
+    }
+  ],
+  "unavailable": []
+}

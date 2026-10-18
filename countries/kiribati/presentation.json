@@ -1,0 +1,16 @@
+{
+  "nodes": {
+    "kiribati": { "label": "Kiribati", "sublabel": "Fiscal folio · IMF lines", "glyph": "globe" },
+    "central": { "label": "Central government", "sublabel": "IMF S1311", "glyph": "landmark" },
+    "local": { "label": "Local governments", "sublabel": "IMF S1313", "glyph": "town" },
+    "ki-central-g11411": { "label": "VAT", "sublabel": "Value added", "glyph": "cart" },
+    "ki-central-g1111": { "label": "Personal income tax", "sublabel": "Individuals", "glyph": "person" },
+    "ki-central-g1112": { "label": "Corporate income tax", "sublabel": "Companies", "glyph": "factory" },
+    "ki-central-g11452": { "label": "Licences and use taxes", "sublabel": "Permissions", "glyph": "stamp" },
+    "ki-central-g1142": { "label": "Excises", "sublabel": "Specific goods", "glyph": "flame" },
+    "ki-central-g1151": { "label": "Customs duties", "sublabel": "Imports", "glyph": "ship" },
+    "ki-local-g11452": { "label": "Licences and use taxes", "sublabel": "Permissions", "glyph": "stamp" },
+    "ki-local-g1111": { "label": "Personal income tax", "sublabel": "Individuals", "glyph": "person" },
+    "ki-local-small-tax": { "label": "Other taxes (small lines)", "sublabel": "2 lines", "glyph": "gear" }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "uruguay": {
+      "x": 800,
+      "y": 500
+    },
+    "central": {
+      "x": 509,
+      "y": 432
+    },
+    "uy-central-g11411": {
+      "x": 852,
+      "y": 740
+    },
+    "uy-central-g1212": {
+      "x": 393,
+      "y": 700
+    },
+    "uy-central-g1151": {
+      "x": 318,
+      "y": 389
+    },
+    "uy-central-g11451": {
+      "x": 684,
+      "y": 179
+    },
+    "uy-central-g11413": {
+      "x": 1163,
+      "y": 268
+    },
+    "uy-central-g1211": {
+      "x": 515,
+      "y": 890
+    },
+    "uy-central-g1112": {
+      "x": 111,
+      "y": 556
+    },
+    "uy-central-g1132": {
+      "x": 353,
+      "y": 157
+    },
+    "uy-central-g113-other": {
+      "x": 1007,
+      "y": 72
+    },
+    "uy-central-g1146": {
+      "x": 1470,
+      "y": 382
+    },
+    "uy-central-g1111": {
+      "x": 890,
+      "y": 898
+    },
+    "uy-central-g1142": {
+      "x": 51,
+      "y": 683
+    },
+    "uy-central-g116": {
+      "x": 349,
+      "y": 32
+    },
+    "uy-central-g11414": {
+      "x": 1428,
+      "y": 105
+    }
+  },
+  "radii": {}
+}

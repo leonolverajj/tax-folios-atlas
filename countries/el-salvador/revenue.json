@@ -1,0 +1,93 @@
+{
+  "groups": [
+    {
+      "title": "Central government and social security: lines of the IMF series, 2024",
+      "defaults": {
+        "denominatorId": "central-2024",
+        "scale": "million",
+        "currency": "USD",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Accrual basis, as reported to the IMF (flag AC)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        {
+          "nodeId": "sv-central-g11411",
+          "amount": 3498.6,
+          "locator": "Series SLV.S1311 + S1314.G1.G11411_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (USD million)"
+        },
+        {
+          "nodeId": "sv-central-g1112",
+          "amount": 2520.3,
+          "locator": "Series SLV.S1311 + S1314.G1.G1112_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (USD million)"
+        },
+        {
+          "nodeId": "sv-central-g1212",
+          "amount": 947,
+          "locator": "Series SLV.S1311 + S1314.G1.G1212_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (USD million)"
+        },
+        {
+          "nodeId": "sv-central-g1111",
+          "amount": 535.8,
+          "locator": "Series SLV.S1311 + S1314.G1.G1111_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (USD million)"
+        },
+        {
+          "nodeId": "sv-central-g1151",
+          "amount": 507.6,
+          "locator": "Series SLV.S1311 + S1314.G1.G1151_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (USD million)"
+        },
+        {
+          "nodeId": "sv-central-g1142",
+          "amount": 430.8,
+          "locator": "Series SLV.S1311 + S1314.G1.G1142_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (USD million)"
+        },
+        {
+          "nodeId": "sv-central-g113-other",
+          "amount": 59,
+          "locator": "Series SLV.S1311 + S1314.G1.G113_T.XDC.A, 2024, less its reported sub-lines",
+          "calculation": "G113_T less the sum of its reported sub-lines (USD million)"
+        },
+        {
+          "nodeId": "sv-central-g11452",
+          "amount": 28,
+          "locator": "Series SLV.S1311 + S1314.G1.G11452_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (USD million)"
+        },
+        {
+          "nodeId": "sv-central-g1146",
+          "amount": 22.3,
+          "locator": "Series SLV.S1311 + S1314.G1.G1146_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (USD million)"
+        }
+      ]
+    },
+    {
+      "title": "Local governments: lines of the IMF series, 2024",
+      "defaults": {
+        "denominatorId": "local-2024",
+        "scale": "million",
+        "currency": "USD",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Accrual basis, as reported to the IMF (flag AC)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        { "nodeId": "sv-local-g1131", "amount": 44.4, "locator": "Series SLV.S1313MIXED.G1.G1131_T.XDC.A, 2024" },
+        { "nodeId": "sv-local-g1142", "amount": 1.4, "locator": "Series SLV.S1313MIXED.G1.G1142_T.XDC.A, 2024" }
+      ]
+    }
+  ],
+  "unavailable": []
+}

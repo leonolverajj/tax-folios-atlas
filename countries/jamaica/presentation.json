@@ -1,0 +1,18 @@
+{
+  "nodes": {
+    "jamaica": { "label": "Jamaica", "sublabel": "Fiscal folio · IMF lines", "glyph": "globe" },
+    "central": { "label": "Budgetary central govt", "sublabel": "IMF S1311B", "glyph": "landmark" },
+    "jm-central-g11411": { "label": "VAT", "sublabel": "Value added", "glyph": "cart" },
+    "jm-central-g1111": { "label": "Personal income tax", "sublabel": "Individuals", "glyph": "person" },
+    "jm-central-g1142": { "label": "Excises", "sublabel": "Specific goods", "glyph": "flame" },
+    "jm-central-g1112": { "label": "Corporate income tax", "sublabel": "Companies", "glyph": "factory" },
+    "jm-central-g1151": { "label": "Customs duties", "sublabel": "Imports", "glyph": "ship" },
+    "jm-central-g1113": { "label": "Other income taxes", "sublabel": "Not split by payer", "glyph": "coin" },
+    "jm-central-g1144": { "label": "Taxes on services", "sublabel": "Insurance · lodging · gambling", "glyph": "bed" },
+    "jm-central-g1156": { "label": "Other trade taxes", "sublabel": "Not elsewhere classified", "glyph": "gear" },
+    "jm-central-g11414": { "label": "Financial transaction taxes", "sublabel": "Transfers · securities", "glyph": "stamp" },
+    "jm-central-g11451": { "label": "Motor vehicle taxes", "sublabel": "Ownership · use", "glyph": "car" },
+    "jm-central-g11452": { "label": "Licences and use taxes", "sublabel": "Permissions", "glyph": "stamp" },
+    "jm-central-g11412": { "label": "Sales taxes", "sublabel": "Single stage", "glyph": "cart" }
+  }
+}

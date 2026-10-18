@@ -1,0 +1,19 @@
+{
+  "nodes": {
+    "myanmar": { "label": "Myanmar", "sublabel": "Fiscal folio · IMF lines", "glyph": "globe" },
+    "central": { "label": "Central govt and social funds", "sublabel": "IMF S1311 + S1314", "glyph": "landmark" },
+    "local": { "label": "Local governments", "sublabel": "IMF S1313", "glyph": "town" },
+    "mm-central-g11413": { "label": "Turnover taxes", "sublabel": "Other general taxes", "glyph": "percent" },
+    "mm-central-g1113": { "label": "Other income taxes", "sublabel": "Not split by payer", "glyph": "coin" },
+    "mm-central-g1142": { "label": "Excises", "sublabel": "Specific goods", "glyph": "flame" },
+    "mm-central-g1151": { "label": "Customs duties", "sublabel": "Imports", "glyph": "ship" },
+    "mm-central-g11451": { "label": "Motor vehicle taxes", "sublabel": "Ownership · use", "glyph": "car" },
+    "mm-central-g1144": { "label": "Taxes on services", "sublabel": "Insurance · lodging · gambling", "glyph": "bed" },
+    "mm-central-g121-other": { "label": "Other social security contrib…", "sublabel": "Not itemised", "glyph": "shield" },
+    "mm-central-g1112": { "label": "Corporate income tax", "sublabel": "Companies", "glyph": "factory" },
+    "mm-central-g116": { "label": "Other taxes", "sublabel": "Not elsewhere classified", "glyph": "gear" },
+    "mm-central-small-tax": { "label": "Other taxes (small lines)", "sublabel": "3 lines", "glyph": "gear" },
+    "mm-local-g11452": { "label": "Licences and use taxes", "sublabel": "Permissions", "glyph": "stamp" },
+    "mm-local-g113-other": { "label": "Other property taxes", "sublabel": "Not itemised", "glyph": "house" }
+  }
+}

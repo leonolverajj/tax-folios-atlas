@@ -1,0 +1,14 @@
+{
+  "nodes": {
+    "lesotho": { "label": "Lesotho", "sublabel": "Fiscal folio · IMF lines", "glyph": "globe" },
+    "central": { "label": "Budgetary central govt", "sublabel": "IMF S1311B", "glyph": "landmark" },
+    "ls-central-g1142": { "label": "Excises", "sublabel": "Specific goods", "glyph": "flame" },
+    "ls-central-g11411": { "label": "VAT", "sublabel": "Value added", "glyph": "cart" },
+    "ls-central-g1151": { "label": "Customs duties", "sublabel": "Imports", "glyph": "ship" },
+    "ls-central-g1113": { "label": "Other income taxes", "sublabel": "Not split by payer", "glyph": "coin" },
+    "ls-central-g1111": { "label": "Personal income tax", "sublabel": "Individuals", "glyph": "person" },
+    "ls-central-g1112": { "label": "Corporate income tax", "sublabel": "Companies", "glyph": "factory" },
+    "ls-central-g1143": { "label": "Fiscal monopoly profits", "sublabel": "State monopolies", "glyph": "bank" },
+    "ls-central-g1144": { "label": "Taxes on services", "sublabel": "Insurance · lodging · gambling", "glyph": "bed" }
+  }
+}

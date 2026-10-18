@@ -1,0 +1,49 @@
+{
+  "groups": [
+    {
+      "title": "Central government: lines of the IMF series, 2024",
+      "defaults": {
+        "denominatorId": "central-2024",
+        "scale": "million",
+        "currency": "GEL",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        { "nodeId": "ge-central-g11411", "amount": 9483.8, "locator": "Series GEO.S1311.G1.G11411_T.XDC.A, 2024" },
+        { "nodeId": "ge-central-g1111", "amount": 7250.5, "locator": "Series GEO.S1311.G1.G1111_T.XDC.A, 2024" },
+        { "nodeId": "ge-central-g1112", "amount": 3117.5, "locator": "Series GEO.S1311.G1.G1112_T.XDC.A, 2024" },
+        { "nodeId": "ge-central-g1142", "amount": 2488, "locator": "Series GEO.S1311.G1.G1142_T.XDC.A, 2024" },
+        { "nodeId": "ge-central-g1151", "amount": 138.9, "locator": "Series GEO.S1311.G1.G1151_T.XDC.A, 2024" },
+        { "nodeId": "ge-central-g116", "amount": 86.8, "locator": "Series GEO.S1311.G1.G116_T.XDC.A, 2024" }
+      ]
+    },
+    {
+      "title": "Local governments: lines of the IMF series, 2024",
+      "defaults": {
+        "denominatorId": "local-2024",
+        "scale": "million",
+        "currency": "GEL",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        {
+          "nodeId": "ge-local-g113-other",
+          "amount": 697.7,
+          "locator": "Series GEO.S1313MIXED.G1.G113_T.XDC.A, 2024, less its reported sub-lines",
+          "calculation": "G113_T less the sum of its reported sub-lines (GEL million)"
+        }
+      ]
+    }
+  ],
+  "unavailable": []
+}

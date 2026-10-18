@@ -1,0 +1,31 @@
+{
+  "nodes": {
+    "nepal": { "label": "Nepal", "sublabel": "Fiscal folio · IMF lines", "glyph": "globe" },
+    "central": { "label": "Central government", "sublabel": "IMF S1311", "glyph": "landmark" },
+    "state": { "label": "Regional governments", "sublabel": "IMF S1312", "glyph": "city" },
+    "local": { "label": "Local governments", "sublabel": "IMF S1313", "glyph": "town" },
+    "np-central-g11411": { "label": "VAT", "sublabel": "Value added", "glyph": "cart" },
+    "np-central-g1151": { "label": "Customs duties", "sublabel": "Imports", "glyph": "ship" },
+    "np-central-g1142": { "label": "Excises", "sublabel": "Specific goods", "glyph": "flame" },
+    "np-central-g1112": { "label": "Corporate income tax", "sublabel": "Companies", "glyph": "factory" },
+    "np-central-g1111": { "label": "Personal income tax", "sublabel": "Individuals", "glyph": "person" },
+    "np-central-g11452": { "label": "Licences and use taxes", "sublabel": "Permissions", "glyph": "stamp" },
+    "np-central-g1113": { "label": "Other income taxes", "sublabel": "Not split by payer", "glyph": "coin" },
+    "np-central-g1156": { "label": "Other trade taxes", "sublabel": "Not elsewhere classified", "glyph": "gear" },
+    "np-central-g112": { "label": "Payroll taxes", "sublabel": "Wage bill", "glyph": "ledger" },
+    "np-central-g1146": { "label": "Other goods and services", "sublabel": "Not elsewhere classified", "glyph": "gear" },
+    "np-central-small-tax": { "label": "Other taxes (small lines)", "sublabel": "6 lines", "glyph": "gear" },
+    "np-state-g11411": { "label": "VAT", "sublabel": "Value added", "glyph": "cart" },
+    "np-state-g1142": { "label": "Excises", "sublabel": "Specific goods", "glyph": "flame" },
+    "np-state-g113-other": { "label": "Other property taxes", "sublabel": "Not itemised", "glyph": "house" },
+    "np-state-g11452": { "label": "Licences and use taxes", "sublabel": "Permissions", "glyph": "stamp" },
+    "np-state-small-tax": { "label": "Other taxes (small lines)", "sublabel": "4 lines", "glyph": "gear" },
+    "np-local-g11411": { "label": "VAT", "sublabel": "Value added", "glyph": "cart" },
+    "np-local-g113-other": { "label": "Other property taxes", "sublabel": "Not itemised", "glyph": "house" },
+    "np-local-g1132": { "label": "Net wealth tax", "sublabel": "Wealth", "glyph": "gem" },
+    "np-local-g11451": { "label": "Motor vehicle taxes", "sublabel": "Ownership · use", "glyph": "car" },
+    "np-local-g116": { "label": "Other taxes", "sublabel": "Not elsewhere classified", "glyph": "gear" },
+    "np-local-g1142": { "label": "Excises", "sublabel": "Specific goods", "glyph": "flame" },
+    "np-local-small-tax": { "label": "Other taxes (small lines)", "sublabel": "3 lines", "glyph": "gear" }
+  }
+}

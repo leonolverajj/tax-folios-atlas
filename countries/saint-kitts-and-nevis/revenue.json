@@ -1,0 +1,38 @@
+{
+  "groups": [
+    {
+      "title": "Budgetary central government: lines of the IMF series, 2020",
+      "defaults": {
+        "denominatorId": "central-2020",
+        "scale": "million",
+        "currency": "XCD",
+        "period": { "label": "2020", "kind": "calendar-year", "start": "2020-01-01", "end": "2020-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        { "nodeId": "kn-central-g11411", "amount": 101.6, "locator": "Series KNA.S1311B.G1.G11411_T.XDC.A, 2020" },
+        { "nodeId": "kn-central-g1151", "amount": 84.6, "locator": "Series KNA.S1311B.G1.G1151_T.XDC.A, 2020" },
+        { "nodeId": "kn-central-g1112", "amount": 68.6, "locator": "Series KNA.S1311B.G1.G1112_T.XDC.A, 2020" },
+        { "nodeId": "kn-central-g1111", "amount": 41, "locator": "Series KNA.S1311B.G1.G1111_T.XDC.A, 2020" },
+        { "nodeId": "kn-central-g11414", "amount": 12.6, "locator": "Series KNA.S1311B.G1.G11414_T.XDC.A, 2020" },
+        { "nodeId": "kn-central-g1142", "amount": 10, "locator": "Series KNA.S1311B.G1.G1142_T.XDC.A, 2020" },
+        { "nodeId": "kn-central-g11452", "amount": 10, "locator": "Series KNA.S1311B.G1.G11452_T.XDC.A, 2020" },
+        {
+          "nodeId": "kn-central-g113-other",
+          "amount": 9.2,
+          "locator": "Series KNA.S1311B.G1.G113_T.XDC.A, 2020, less its reported sub-lines",
+          "calculation": "G113_T less the sum of its reported sub-lines (XCD million)"
+        },
+        { "nodeId": "kn-central-g1144", "amount": 7.1, "locator": "Series KNA.S1311B.G1.G1144_T.XDC.A, 2020" },
+        { "nodeId": "kn-central-g1156", "amount": 7, "locator": "Series KNA.S1311B.G1.G1156_T.XDC.A, 2020" },
+        { "nodeId": "kn-central-g11451", "amount": 6.7, "locator": "Series KNA.S1311B.G1.G11451_T.XDC.A, 2020" },
+        { "nodeId": "kn-central-g11412", "amount": 0.6, "locator": "Series KNA.S1311B.G1.G11412_T.XDC.A, 2020" }
+      ]
+    }
+  ],
+  "unavailable": []
+}

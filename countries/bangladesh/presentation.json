@@ -1,0 +1,15 @@
+{
+  "nodes": {
+    "bangladesh": { "label": "Bangladesh", "sublabel": "Fiscal folio · IMF lines", "glyph": "globe" },
+    "central": { "label": "Budgetary central govt", "sublabel": "IMF S1311B", "glyph": "landmark" },
+    "bd-central-g11411": { "label": "VAT", "sublabel": "Value added", "glyph": "cart" },
+    "bd-central-g1112": { "label": "Corporate income tax", "sublabel": "Companies", "glyph": "factory" },
+    "bd-central-g1151": { "label": "Customs duties", "sublabel": "Imports", "glyph": "ship" },
+    "bd-central-g1111": { "label": "Personal income tax", "sublabel": "Individuals", "glyph": "person" },
+    "bd-central-g116": { "label": "Other taxes", "sublabel": "Not elsewhere classified", "glyph": "gear" },
+    "bd-central-g1142": { "label": "Excises", "sublabel": "Specific goods", "glyph": "flame" },
+    "bd-central-g11451": { "label": "Motor vehicle taxes", "sublabel": "Ownership · use", "glyph": "car" },
+    "bd-central-g113-other": { "label": "Other property taxes", "sublabel": "Not itemised", "glyph": "house" },
+    "bd-central-small-tax": { "label": "Other taxes (small lines)", "sublabel": "4 lines", "glyph": "gear" }
+  }
+}

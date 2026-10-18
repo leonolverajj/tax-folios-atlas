@@ -1,0 +1,101 @@
+{
+  "groups": [
+    {
+      "title": "Central government: lines of the IMF series, 2021",
+      "defaults": {
+        "denominatorId": "central-2021",
+        "scale": "million",
+        "currency": "NPR",
+        "period": { "label": "2021", "kind": "calendar-year", "start": "2021-01-01", "end": "2021-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        { "nodeId": "np-central-g11411", "amount": 197340.16, "locator": "Series NPL.S1311.G1.G11411_T.XDC.A, 2021" },
+        { "nodeId": "np-central-g1151", "amount": 168185.22, "locator": "Series NPL.S1311.G1.G1151_T.XDC.A, 2021" },
+        { "nodeId": "np-central-g1142", "amount": 113334.87, "locator": "Series NPL.S1311.G1.G1142_T.XDC.A, 2021" },
+        { "nodeId": "np-central-g1112", "amount": 104646.66, "locator": "Series NPL.S1311.G1.G1112_T.XDC.A, 2021" },
+        { "nodeId": "np-central-g1111", "amount": 83491.6, "locator": "Series NPL.S1311.G1.G1111_T.XDC.A, 2021" },
+        { "nodeId": "np-central-g11452", "amount": 40852.36, "locator": "Series NPL.S1311.G1.G11452_T.XDC.A, 2021" },
+        { "nodeId": "np-central-g1113", "amount": 33345.25, "locator": "Series NPL.S1311.G1.G1113_T.XDC.A, 2021" },
+        { "nodeId": "np-central-g1156", "amount": 10479.57, "locator": "Series NPL.S1311.G1.G1156_T.XDC.A, 2021" },
+        { "nodeId": "np-central-g112", "amount": 6883.56, "locator": "Series NPL.S1311.G1.G112_T.XDC.A, 2021" },
+        { "nodeId": "np-central-g1146", "amount": 1705.47, "locator": "Series NPL.S1311.G1.G1146_T.XDC.A, 2021" },
+        {
+          "nodeId": "np-central-small-tax",
+          "amount": 791.89,
+          "locator": "Series NPL.S1311.G1, indicators G113_T:other, G11414_T, G1144_T, G11451_T, G1152_T, G116_T, XDC, annual, 2021",
+          "calculation": "Sum of 6 lines, each below 0.15% of the total (NPR million)"
+        }
+      ]
+    },
+    {
+      "title": "Regional governments: lines of the IMF series, 2021",
+      "defaults": {
+        "denominatorId": "state-2021",
+        "scale": "million",
+        "currency": "NPR",
+        "period": { "label": "2021", "kind": "calendar-year", "start": "2021-01-01", "end": "2021-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        { "nodeId": "np-state-g11411", "amount": 41673.7, "locator": "Series NPL.S1312MIXED.G1.G11411_T.XDC.A, 2021" },
+        { "nodeId": "np-state-g1142", "amount": 13000.385568, "locator": "Series NPL.S1312MIXED.G1.G1142_T.XDC.A, 2021" },
+        {
+          "nodeId": "np-state-g113-other",
+          "amount": 11105.64,
+          "locator": "Series NPL.S1312MIXED.G1.G113_T.XDC.A, 2021, less its reported sub-lines",
+          "calculation": "G113_T less the sum of its reported sub-lines (NPR million)"
+        },
+        { "nodeId": "np-state-g11452", "amount": 9786.579647, "locator": "Series NPL.S1312MIXED.G1.G11452_T.XDC.A, 2021" },
+        {
+          "nodeId": "np-state-small-tax",
+          "amount": 193.756242,
+          "locator": "Series NPL.S1312MIXED.G1, indicators G1111_T, G11451_T, G1146_T, G116_T, XDC, annual, 2021",
+          "calculation": "Sum of 4 lines, each below 0.15% of the total (NPR million)"
+        }
+      ]
+    },
+    {
+      "title": "Local governments: lines of the IMF series, 2021",
+      "defaults": {
+        "denominatorId": "local-2021",
+        "scale": "million",
+        "currency": "NPR",
+        "period": { "label": "2021", "kind": "calendar-year", "start": "2021-01-01", "end": "2021-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        { "nodeId": "np-local-g11411", "amount": 53211.24, "locator": "Series NPL.S1313MIXED.G1.G11411_T.XDC.A, 2021" },
+        {
+          "nodeId": "np-local-g113-other",
+          "amount": 19671.86,
+          "locator": "Series NPL.S1313MIXED.G1.G113_T.XDC.A, 2021, less its reported sub-lines",
+          "calculation": "G113_T less the sum of its reported sub-lines (NPR million)"
+        },
+        { "nodeId": "np-local-g1132", "amount": 6220.28, "locator": "Series NPL.S1313MIXED.G1.G1132_T.XDC.A, 2021" },
+        { "nodeId": "np-local-g11451", "amount": 5589.84, "locator": "Series NPL.S1313MIXED.G1.G11451_T.XDC.A, 2021" },
+        { "nodeId": "np-local-g116", "amount": 3503.96, "locator": "Series NPL.S1313MIXED.G1.G116_T.XDC.A, 2021" },
+        { "nodeId": "np-local-g1142", "amount": 1430.66, "locator": "Series NPL.S1313MIXED.G1.G1142_T.XDC.A, 2021" },
+        {
+          "nodeId": "np-local-small-tax",
+          "amount": 1062.45,
+          "locator": "Series NPL.S1313MIXED.G1, indicators G1113_T, G11452_T, G1146_T, XDC, annual, 2021",
+          "calculation": "Sum of 3 lines, each below 0.15% of the total (NPR million)"
+        }
+      ]
+    }
+  ],
+  "unavailable": []
+}

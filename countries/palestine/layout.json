@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "palestine": {
+      "x": 800,
+      "y": 500
+    },
+    "central": {
+      "x": 509,
+      "y": 432
+    },
+    "ps-central-g1151": {
+      "x": 852,
+      "y": 828
+    },
+    "ps-central-g1142": {
+      "x": 392,
+      "y": 699
+    },
+    "ps-central-g1111": {
+      "x": 330,
+      "y": 387
+    },
+    "ps-central-g11451": {
+      "x": 687,
+      "y": 178
+    },
+    "ps-central-g1131": {
+      "x": 1163,
+      "y": 268
+    },
+    "ps-central-g11411": {
+      "x": 405,
+      "y": 868
+    },
+    "ps-central-g1112": {
+      "x": 144,
+      "y": 334
+    },
+    "ps-central-g112": {
+      "x": 903,
+      "y": 57
+    },
+    "ps-central-g11452": {
+      "x": 1486,
+      "y": 458
+    }
+  },
+  "radii": {}
+}

@@ -1,0 +1,24 @@
+{
+  "nodes": {
+    "dominican-republic": { "label": "Dominican Republic", "sublabel": "Fiscal folio · IMF lines", "glyph": "globe" },
+    "central": { "label": "Central govt and social funds", "sublabel": "IMF S1311 + S1314", "glyph": "landmark" },
+    "local": { "label": "Local governments", "sublabel": "IMF S1313", "glyph": "town" },
+    "do-central-g11411": { "label": "VAT", "sublabel": "Value added", "glyph": "cart" },
+    "do-central-g1112": { "label": "Corporate income tax", "sublabel": "Companies", "glyph": "factory" },
+    "do-central-g1142": { "label": "Excises", "sublabel": "Specific goods", "glyph": "flame" },
+    "do-central-g1111": { "label": "Personal income tax", "sublabel": "Individuals", "glyph": "person" },
+    "do-central-g1113": { "label": "Other income taxes", "sublabel": "Not split by payer", "glyph": "coin" },
+    "do-central-g1151": { "label": "Customs duties", "sublabel": "Imports", "glyph": "ship" },
+    "do-central-g1144": { "label": "Taxes on services", "sublabel": "Insurance · lodging · gambling", "glyph": "bed" },
+    "do-central-g1212": { "label": "Social: employers", "sublabel": "Contributions", "glyph": "shield" },
+    "do-central-g11414": { "label": "Financial transaction taxes", "sublabel": "Transfers · securities", "glyph": "stamp" },
+    "do-central-g11451": { "label": "Motor vehicle taxes", "sublabel": "Ownership · use", "glyph": "car" },
+    "do-central-g1211": { "label": "Social: employees", "sublabel": "Contributions", "glyph": "shield" },
+    "do-central-g1156": { "label": "Other trade taxes", "sublabel": "Not elsewhere classified", "glyph": "gear" },
+    "do-central-g1132": { "label": "Net wealth tax", "sublabel": "Wealth", "glyph": "gem" },
+    "do-central-g113-other": { "label": "Other property taxes", "sublabel": "Not itemised", "glyph": "house" },
+    "do-central-g11452": { "label": "Licences and use taxes", "sublabel": "Permissions", "glyph": "stamp" },
+    "do-central-small-tax": { "label": "Other taxes (small lines)", "sublabel": "2 lines", "glyph": "gear" },
+    "do-local-g1144": { "label": "Taxes on services", "sublabel": "Insurance · lodging · gambling", "glyph": "bed" }
+  }
+}

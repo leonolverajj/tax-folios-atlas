@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "laos": {
+      "x": 800,
+      "y": 500
+    },
+    "central": {
+      "x": 509,
+      "y": 432
+    },
+    "la-central-g111": {
+      "x": 840,
+      "y": 829
+    },
+    "la-central-g1142": {
+      "x": 314,
+      "y": 604
+    },
+    "la-central-g11452": {
+      "x": 535,
+      "y": 218
+    },
+    "la-central-g1152": {
+      "x": 1168,
+      "y": 270
+    },
+    "la-central-g11411": {
+      "x": 412,
+      "y": 872
+    },
+    "la-central-g1146": {
+      "x": 156,
+      "y": 332
+    },
+    "la-central-g1151": {
+      "x": 903,
+      "y": 57
+    },
+    "la-central-g113-other": {
+      "x": 1492,
+      "y": 462
+    }
+  },
+  "radii": {}
+}

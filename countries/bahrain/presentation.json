@@ -1,0 +1,10 @@
+{
+  "nodes": {
+    "bahrain": { "label": "Bahrain", "sublabel": "Fiscal folio · IMF lines", "glyph": "globe" },
+    "central": { "label": "Budgetary central govt", "sublabel": "IMF S1311B", "glyph": "landmark" },
+    "bh-central-g11411": { "label": "VAT", "sublabel": "Value added", "glyph": "cart" },
+    "bh-central-g115": { "label": "International trade taxes", "sublabel": "One line", "glyph": "ship" },
+    "bh-central-g1142": { "label": "Excises", "sublabel": "Specific goods", "glyph": "flame" },
+    "bh-central-g1112": { "label": "Corporate income tax", "sublabel": "Companies", "glyph": "factory" }
+  }
+}

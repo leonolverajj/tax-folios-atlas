@@ -1,0 +1,20 @@
+{
+  "nodes": {
+    "uruguay": { "label": "Uruguay", "sublabel": "Fiscal folio · IMF lines", "glyph": "globe" },
+    "central": { "label": "Central govt and social funds", "sublabel": "IMF S1311 + S1314", "glyph": "landmark" },
+    "uy-central-g11411": { "label": "VAT", "sublabel": "Value added", "glyph": "cart" },
+    "uy-central-g1211": { "label": "Social: employees", "sublabel": "Contributions", "glyph": "shield" },
+    "uy-central-g1111": { "label": "Personal income tax", "sublabel": "Individuals", "glyph": "person" },
+    "uy-central-g1212": { "label": "Social: employers", "sublabel": "Contributions", "glyph": "shield" },
+    "uy-central-g1112": { "label": "Corporate income tax", "sublabel": "Companies", "glyph": "factory" },
+    "uy-central-g1142": { "label": "Excises", "sublabel": "Specific goods", "glyph": "flame" },
+    "uy-central-g1151": { "label": "Customs duties", "sublabel": "Imports", "glyph": "ship" },
+    "uy-central-g1132": { "label": "Net wealth tax", "sublabel": "Wealth", "glyph": "gem" },
+    "uy-central-g116": { "label": "Other taxes", "sublabel": "Not elsewhere classified", "glyph": "gear" },
+    "uy-central-g11451": { "label": "Motor vehicle taxes", "sublabel": "Ownership · use", "glyph": "car" },
+    "uy-central-g113-other": { "label": "Other property taxes", "sublabel": "Not itemised", "glyph": "house" },
+    "uy-central-g11414": { "label": "Financial transaction taxes", "sublabel": "Transfers · securities", "glyph": "stamp" },
+    "uy-central-g11413": { "label": "Turnover taxes", "sublabel": "Other general taxes", "glyph": "percent" },
+    "uy-central-g1146": { "label": "Other goods and services", "sublabel": "Not elsewhere classified", "glyph": "gear" }
+  }
+}

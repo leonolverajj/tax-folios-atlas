@@ -1,0 +1,28 @@
+{
+  "groups": [
+    {
+      "title": "Budgetary central government: lines of the IMF series, 2023",
+      "defaults": {
+        "denominatorId": "central-2023",
+        "scale": "million",
+        "currency": "AUD",
+        "period": { "label": "2023", "kind": "calendar-year", "start": "2023-01-01", "end": "2023-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        { "nodeId": "tv-central-g11452", "amount": 9.075, "locator": "Series TUV.S1311B.G1.G11452_T.XDC.A, 2023" },
+        { "nodeId": "tv-central-g1111", "amount": 3.67, "locator": "Series TUV.S1311B.G1.G1111_T.XDC.A, 2023" },
+        { "nodeId": "tv-central-g1112", "amount": 2.78, "locator": "Series TUV.S1311B.G1.G1112_T.XDC.A, 2023" },
+        { "nodeId": "tv-central-g1151", "amount": 2.46, "locator": "Series TUV.S1311B.G1.G1151_T.XDC.A, 2023" },
+        { "nodeId": "tv-central-g11411", "amount": 2.01, "locator": "Series TUV.S1311B.G1.G11411_T.XDC.A, 2023" },
+        { "nodeId": "tv-central-g1142", "amount": 1.549, "locator": "Series TUV.S1311B.G1.G1142_T.XDC.A, 2023" },
+        { "nodeId": "tv-central-g1144", "amount": 0.224, "locator": "Series TUV.S1311B.G1.G1144_T.XDC.A, 2023" }
+      ]
+    }
+  ],
+  "unavailable": []
+}

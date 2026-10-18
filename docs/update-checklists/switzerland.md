@@ -1,6 +1,6 @@
 # Update checklist – Switzerland
 
-Generated 2026-10-12 by `npm run checklist`. **Do not edit by hand** – edit the sources in `countries/switzerland/sources.json` and re-run it.
+Generated 2026-10-18 by `npm run checklist`. **Do not edit by hand** – edit the sources in `countries/switzerland/sources.json` and re-run it.
 
 Research status: **researched**. 1 source(s) to check or due, 2 coming up, 16 in total.
 

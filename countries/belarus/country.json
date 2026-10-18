@@ -1,0 +1,76 @@
+{
+  "id": "belarus",
+  "iso3": "BLR",
+  "isoNumeric": "112",
+  "names": { "en": "Belarus", "native": "Беларусь", "nativeLang": "be" },
+  "currency": { "code": "BYN", "symbol": "Br", "name": "Belarusian ruble" },
+  "summary": "Belarus is shown at the grain of the IMF’s Government Finance Statistics: the general government, 19 lines of taxes and social contributions for 2024, in BYN. The largest line is social security contributions of employers (31%), then value added tax (19%) and personal income tax (15%). Taxes on goods and services (VAT, sales taxes, excises, vehicle and similar taxes) make 31% of the total and income taxes 25%; social contributions are 31%. The folio records what each line raised; it does not describe the country’s tax laws, rates or the names of its individual taxes.",
+  "structureNote": "This folio is built from one source, the IMF’s Government Finance Statistics (Statement of Operations), for 2024: general government (S13), split by the IMF into central, state and local government. Every level that the IMF series reports with detail in this year is drawn; the sum of the levels equals the general-government total within 1.5%. Lines below 0.15% of the total are folded into one “small lines” core per level; lines that the IMF reports only as a parent are drawn as the parent. Rates, legal bases and the names of the individual taxes are not recorded. The IMF labels the series 2024; where the country’s fiscal year is not the calendar year, this is the fiscal year the IMF assigns to 2024. The figures are the IMF’s and have not been compared with the country’s own statistics. There is no OECD level layer for this country in the atlas.",
+  "theme": {
+    "accent": "#a4d449",
+    "accent2": "#c2ebc2",
+    "motif": "topo",
+    "motifNote": "Topographic contour lines over the outline of Belarus (the generic motif).",
+    "mapLabel": { "lon": 28, "lat": 53 }
+  },
+  "levels": [
+    {
+      "id": "central",
+      "branch": "national",
+      "names": { "official": "Central government and social security funds", "common": "Central government and social security" },
+      "description": "Central government and social security funds as the IMF’s Government Finance Statistics classify them (sector S1311 + S1314).",
+      "fiscalPower": "This folio records what each line of the IMF’s classification raised; it does not describe which taxes this level may set or keep.",
+      "legalRefs": [{ "sourceId": "imf-gfs-api", "locator": "sector S1311 + S1314" }],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "local",
+      "branch": "local",
+      "names": { "official": "Local governments", "common": "Local governments" },
+      "description": "Local governments as the IMF’s Government Finance Statistics classify them (sector S1313MIXED).",
+      "fiscalPower": "This folio records what each line of the IMF’s classification raised; it does not describe which taxes this level may set or keep.",
+      "legalRefs": [{ "sourceId": "imf-gfs-api", "locator": "sector S1313MIXED" }],
+      "checkedOn": "2026-10-17"
+    }
+  ],
+  "supportingSourceIds": ["imf-gfs-soo"],
+  "denominators": [
+    {
+      "id": "central-2024",
+      "label": "Taxes and social contributions of the central government together with its social security funds, 2024",
+      "definition": "The taxes (GFS 11) and actual social contributions (GFS 12) of the central government together with its social security funds that the IMF reports for 2024, in BYN; imputed social contributions are left out.",
+      "levelIds": ["central"],
+      "amount": 61602.773645,
+      "scale": "million",
+      "currency": "BYN",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "imf-gfs-api",
+      "locator": "Series BLR.S1311 + S1314.G1, indicators G11_T and G12_T and their sub-lines, XDC, annual, 2024",
+      "calculation": "Sum of the 11 lines drawn (BYN million). The IMF reports 61,602.774 million for the sector; the lines drawn differ from it by 0 million (rounding between levels of the classification).",
+      "caveat": "The IMF flags the figures for this year as actual. The IMF labels the series 2024; where the country’s fiscal year is not the calendar year, this is the fiscal year the IMF assigns to 2024.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "local-2024",
+      "label": "Taxes and social contributions of the local governments, 2024",
+      "definition": "The taxes (GFS 11) and actual social contributions (GFS 12) of the local governments that the IMF reports for 2024, in BYN; imputed social contributions are left out.",
+      "levelIds": ["local"],
+      "amount": 29757.846688,
+      "scale": "million",
+      "currency": "BYN",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "imf-gfs-api",
+      "locator": "Series BLR.S1313MIXED.G1, indicators G11_T and G12_T and their sub-lines, XDC, annual, 2024",
+      "calculation": "Sum of the 8 lines drawn (BYN million). The IMF reports 29,757.847 million for the sector; the lines drawn differ from it by 0 million (rounding between levels of the classification).",
+      "caveat": "The IMF flags the figures for this year as actual. The IMF labels the series 2024; where the country’s fiscal year is not the calendar year, this is the fiscal year the IMF assigns to 2024.",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "sizing": {
+    "label": "Taxes and actual social contributions reported to the IMF, 2024",
+    "definition": "The taxes (GFS 11) and actual social contributions (GFS 12) of the central government together with its social security funds, the local governments for 2024, as the IMF’s Government Finance Statistics report them in BYN. Imputed social contributions are left out; sectors that the IMF series does not report in detail for 2024 are not included.",
+    "componentIds": ["central-2024", "local-2024"]
+  },
+  "researchStatus": "researched",
+  "grain": "harmonised"
+}

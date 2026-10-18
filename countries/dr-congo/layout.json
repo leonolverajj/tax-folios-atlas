@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "dr-congo": {
+      "x": 800,
+      "y": 500
+    },
+    "central": {
+      "x": 509,
+      "y": 432
+    },
+    "cd-central-g1112": {
+      "x": 847,
+      "y": 829
+    },
+    "cd-central-g1151": {
+      "x": 399,
+      "y": 705
+    },
+    "cd-central-g1142": {
+      "x": 320,
+      "y": 387
+    },
+    "cd-central-g1144": {
+      "x": 687,
+      "y": 178
+    },
+    "cd-central-g1152": {
+      "x": 1166,
+      "y": 269
+    },
+    "cd-central-g11411": {
+      "x": 518,
+      "y": 888
+    },
+    "cd-central-g1111": {
+      "x": 113,
+      "y": 563
+    },
+    "cd-central-g11452": {
+      "x": 359,
+      "y": 154
+    },
+    "cd-central-g1156": {
+      "x": 1019,
+      "y": 75
+    },
+    "cd-central-small-tax": {
+      "x": 1469,
+      "y": 380
+    }
+  },
+  "radii": {}
+}

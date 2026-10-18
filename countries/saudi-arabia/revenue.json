@@ -1,0 +1,87 @@
+{
+  "groups": [
+    {
+      "title": "Central government and social security: lines of the IMF series, 2024",
+      "defaults": {
+        "denominatorId": "central-2024",
+        "scale": "million",
+        "currency": "SAR",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Accrual basis, as reported to the IMF (flag AC)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        {
+          "nodeId": "sa-central-g11411",
+          "amount": 186343.523398,
+          "locator": "Series SAU.S1311 + S1314.G1.G11411_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (SAR million)"
+        },
+        {
+          "nodeId": "sa-central-g1211",
+          "amount": 120240.806802,
+          "locator": "Series SAU.S1311 + S1314.G1.G1211_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (SAR million)"
+        },
+        {
+          "nodeId": "sa-central-g11452",
+          "amount": 65856.625993,
+          "locator": "Series SAU.S1311 + S1314.G1.G11452_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (SAR million)"
+        },
+        {
+          "nodeId": "sa-central-g116",
+          "amount": 35645.881881,
+          "locator": "Series SAU.S1311 + S1314.G1.G116_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (SAR million)"
+        },
+        {
+          "nodeId": "sa-central-g1112",
+          "amount": 31575.624066,
+          "locator": "Series SAU.S1311 + S1314.G1.G1112_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (SAR million)"
+        },
+        {
+          "nodeId": "sa-central-g1151",
+          "amount": 24498.603514,
+          "locator": "Series SAU.S1311 + S1314.G1.G1151_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (SAR million)"
+        },
+        {
+          "nodeId": "sa-central-g1142",
+          "amount": 23233.563946,
+          "locator": "Series SAU.S1311 + S1314.G1.G1142_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (SAR million)"
+        },
+        {
+          "nodeId": "sa-central-g11414",
+          "amount": 12143.700213,
+          "locator": "Series SAU.S1311 + S1314.G1.G11414_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (SAR million)"
+        },
+        {
+          "nodeId": "sa-central-g1212",
+          "amount": 1858.026102,
+          "locator": "Series SAU.S1311 + S1314.G1.G1212_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (SAR million)"
+        },
+        {
+          "nodeId": "sa-central-g1144",
+          "amount": 1231.803479,
+          "locator": "Series SAU.S1311 + S1314.G1.G1144_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (SAR million)"
+        },
+        {
+          "nodeId": "sa-central-g121-other",
+          "amount": 27.536413,
+          "locator": "Series SAU.S1311 + S1314.G1.G121_T.XDC.A, 2024, less its reported sub-lines",
+          "calculation": "G121_T less the sum of its reported sub-lines (SAR million)"
+        }
+      ]
+    }
+  ],
+  "unavailable": []
+}

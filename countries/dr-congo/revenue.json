@@ -1,0 +1,36 @@
+{
+  "groups": [
+    {
+      "title": "Budgetary central government: lines of the IMF series, 2022",
+      "defaults": {
+        "denominatorId": "central-2022",
+        "scale": "million",
+        "currency": "CDF",
+        "period": { "label": "2022", "kind": "calendar-year", "start": "2022-01-01", "end": "2022-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        { "nodeId": "cd-central-g1112", "amount": 7564577.19458, "locator": "Series COD.S1311B.G1.G1112_T.XDC.A, 2022" },
+        { "nodeId": "cd-central-g11411", "amount": 3403662.420065, "locator": "Series COD.S1311B.G1.G11411_T.XDC.A, 2022" },
+        { "nodeId": "cd-central-g1151", "amount": 1450227.84598, "locator": "Series COD.S1311B.G1.G1151_T.XDC.A, 2022" },
+        { "nodeId": "cd-central-g1111", "amount": 1448626.252639, "locator": "Series COD.S1311B.G1.G1111_T.XDC.A, 2022" },
+        { "nodeId": "cd-central-g1142", "amount": 948660.978037, "locator": "Series COD.S1311B.G1.G1142_T.XDC.A, 2022" },
+        { "nodeId": "cd-central-g11452", "amount": 104956.093915, "locator": "Series COD.S1311B.G1.G11452_T.XDC.A, 2022" },
+        { "nodeId": "cd-central-g1144", "amount": 76531.736877, "locator": "Series COD.S1311B.G1.G1144_T.XDC.A, 2022" },
+        { "nodeId": "cd-central-g1156", "amount": 36721.841281, "locator": "Series COD.S1311B.G1.G1156_T.XDC.A, 2022" },
+        { "nodeId": "cd-central-g1152", "amount": 31659.137384, "locator": "Series COD.S1311B.G1.G1152_T.XDC.A, 2022" },
+        {
+          "nodeId": "cd-central-small-tax",
+          "amount": 4195.833436,
+          "locator": "Series COD.S1311B.G1, indicators G11412_T, G11414_T, G11451_T, XDC, annual, 2022",
+          "calculation": "Sum of 3 lines, each below 0.15% of the total (CDF million)"
+        }
+      ]
+    }
+  ],
+  "unavailable": []
+}

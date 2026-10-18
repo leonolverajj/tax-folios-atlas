@@ -1,0 +1,28 @@
+{
+  "nodes": {
+    "china": { "label": "China", "sublabel": "Fiscal folio · IMF lines", "glyph": "globe" },
+    "central": { "label": "Central govt and social funds", "sublabel": "IMF S1311 + S1314", "glyph": "landmark" },
+    "local": { "label": "Local governments", "sublabel": "IMF S1313", "glyph": "town" },
+    "cn-central-g121-other": { "label": "Other social security contrib…", "sublabel": "Not itemised", "glyph": "shield" },
+    "cn-central-g11411": { "label": "VAT", "sublabel": "Value added", "glyph": "cart" },
+    "cn-central-g1112": { "label": "Corporate income tax", "sublabel": "Companies", "glyph": "factory" },
+    "cn-central-g1142": { "label": "Excises", "sublabel": "Specific goods", "glyph": "flame" },
+    "cn-central-g1111": { "label": "Personal income tax", "sublabel": "Individuals", "glyph": "person" },
+    "cn-central-g1151": { "label": "Customs duties", "sublabel": "Imports", "glyph": "ship" },
+    "cn-central-g11414": { "label": "Financial transaction taxes", "sublabel": "Transfers · securities", "glyph": "stamp" },
+    "cn-central-g1144": { "label": "Taxes on services", "sublabel": "Insurance · lodging · gambling", "glyph": "bed" },
+    "cn-central-small-tax": { "label": "Other taxes (small lines)", "sublabel": "4 lines", "glyph": "gear" },
+    "cn-local-g11411": { "label": "VAT", "sublabel": "Value added", "glyph": "cart" },
+    "cn-local-g1112": { "label": "Corporate income tax", "sublabel": "Companies", "glyph": "factory" },
+    "cn-local-g11413": { "label": "Turnover taxes", "sublabel": "Other general taxes", "glyph": "percent" },
+    "cn-local-g11414": { "label": "Financial transaction taxes", "sublabel": "Transfers · securities", "glyph": "stamp" },
+    "cn-local-g113-other": { "label": "Other property taxes", "sublabel": "Not itemised", "glyph": "house" },
+    "cn-local-g1135": { "label": "Capital levies", "sublabel": "One-off", "glyph": "key" },
+    "cn-local-g1111": { "label": "Personal income tax", "sublabel": "Individuals", "glyph": "person" },
+    "cn-local-g11452": { "label": "Licences and use taxes", "sublabel": "Permissions", "glyph": "stamp" },
+    "cn-local-g116": { "label": "Other taxes", "sublabel": "Not elsewhere classified", "glyph": "gear" },
+    "cn-local-g1144": { "label": "Taxes on services", "sublabel": "Insurance · lodging · gambling", "glyph": "bed" },
+    "cn-local-g1131": { "label": "Property tax", "sublabel": "Land and buildings", "glyph": "house" },
+    "cn-local-small-tax": { "label": "Other taxes (small lines)", "sublabel": "2 lines", "glyph": "gear" }
+  }
+}

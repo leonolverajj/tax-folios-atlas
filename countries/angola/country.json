@@ -1,0 +1,52 @@
+{
+  "id": "angola",
+  "iso3": "AGO",
+  "isoNumeric": "024",
+  "names": { "en": "Angola", "native": "Angola", "nativeLang": "pt" },
+  "currency": { "code": "AOA", "symbol": "Kz", "name": "Angolan kwanza" },
+  "summary": "Angola is shown at the grain of the IMF’s Government Finance Statistics: the central government, 12 lines of taxes and social contributions for 2023, in AOA. The largest line is corporate income tax (51%), then value added tax (17%) and personal income tax (16%). Taxes on goods and services (VAT, sales taxes, excises, vehicle and similar taxes) make 18% of the total and income taxes 67%; the IMF series reports no actual social contributions for this sector. The folio records what each line raised; it does not describe the country’s tax laws, rates or the names of its individual taxes.",
+  "structureNote": "This folio is built from one source, the IMF’s Government Finance Statistics (Statement of Operations), for 2023: central government (S1311). Taxes of regional and local governments and of social security funds that are not in this sector are not drawn, so the folio is partial and every line’s share is a share of this sector’s total only. Lines below 0.15% of the total are folded into one “small lines” core per level; lines that the IMF reports only as a parent are drawn as the parent. Rates, legal bases and the names of the individual taxes are not recorded. The IMF labels the series 2023; where the country’s fiscal year is not the calendar year, this is the fiscal year the IMF assigns to 2023. The figures are the IMF’s and have not been compared with the country’s own statistics. There is no OECD level layer for this country in the atlas.",
+  "theme": {
+    "accent": "#d4ab49",
+    "accent2": "#dcebc2",
+    "motif": "topo",
+    "motifNote": "Topographic contour lines over the outline of Angola (the generic motif).",
+    "mapLabel": { "lon": 18.5, "lat": -12.5 }
+  },
+  "levels": [
+    {
+      "id": "central",
+      "branch": "national",
+      "names": { "official": "Central government", "common": "Central government" },
+      "description": "Central government as the IMF’s Government Finance Statistics classify them (sector S1311).",
+      "fiscalPower": "This folio records what each line of the IMF’s classification raised; it does not describe which taxes this level may set or keep.",
+      "legalRefs": [{ "sourceId": "imf-gfs-api", "locator": "sector S1311" }],
+      "checkedOn": "2026-10-17"
+    }
+  ],
+  "supportingSourceIds": ["imf-gfs-soo"],
+  "denominators": [
+    {
+      "id": "central-2023",
+      "label": "Taxes and social contributions of the central government, 2023",
+      "definition": "The taxes (GFS 11) and actual social contributions (GFS 12) of the central government that the IMF reports for 2023, in AOA; imputed social contributions are left out.",
+      "levelIds": ["central"],
+      "amount": 6946510.332661,
+      "scale": "million",
+      "currency": "AOA",
+      "period": { "label": "2023", "kind": "calendar-year", "start": "2023-01-01", "end": "2023-12-31" },
+      "sourceId": "imf-gfs-api",
+      "locator": "Series AGO.S1311.G1, indicators G11_T and G12_T and their sub-lines, XDC, annual, 2023",
+      "calculation": "Sum of the 12 lines drawn (AOA million). The IMF reports 6,946,510.333 million for the sector; the lines drawn differ from it by 0 million (rounding between levels of the classification).",
+      "caveat": "The IMF flags the figures for this year as actual. The IMF labels the series 2023; where the country’s fiscal year is not the calendar year, this is the fiscal year the IMF assigns to 2023.",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "sizing": {
+    "label": "Taxes and actual social contributions reported to the IMF, 2023",
+    "definition": "The taxes (GFS 11) and actual social contributions (GFS 12) of the central government for 2023, as the IMF’s Government Finance Statistics report them in AOA. Imputed social contributions are left out; sectors that the IMF series does not report in detail for 2023 are not included.",
+    "componentIds": ["central-2023"]
+  },
+  "researchStatus": "partial",
+  "grain": "harmonised"
+}

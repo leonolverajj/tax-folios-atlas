@@ -1,0 +1,159 @@
+{
+  "instruments": [
+    {
+      "id": "et-central-g11411",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "general-consumption",
+      "status": "current",
+      "names": { "official": "Value added taxes", "common": "Value added tax" },
+      "taxes": {
+        "base": "Taxes charged on the value added at each stage of production and distribution (GFS 11411).",
+        "payer": "Final consumers, through the businesses that collect it."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "ETB 139 billion in 2024: 35% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "imf-gfs-codes", "locator": "G11411" }, { "sourceId": "imf-gfs-api", "locator": "Series ETH.S1311B.G1.G11411_T.XDC.A, 2024" }],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "et-central-g1151",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "customs-duty",
+      "family": "trade",
+      "status": "current",
+      "names": { "official": "Customs and other import duties", "common": "Customs and other import duties" },
+      "taxes": { "base": "Duties on imported goods (GFS 1151).", "payer": "Importers." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "ETB 102 billion in 2024: 25% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "imf-gfs-codes", "locator": "G1151" }, { "sourceId": "imf-gfs-api", "locator": "Series ETH.S1311B.G1.G1151_T.XDC.A, 2024" }],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "et-central-g1112",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "income-corporate",
+      "status": "current",
+      "names": { "official": "Taxes on income, profits and capital gains payable by corporations and other enterprises", "common": "Corporate income tax" },
+      "taxes": {
+        "base": "Income, profits and capital gains of corporations and other enterprises (GFS 1112).",
+        "payer": "Corporations and other enterprises."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "ETB 64.2 billion in 2024: 16% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "imf-gfs-codes", "locator": "G1112" }, { "sourceId": "imf-gfs-api", "locator": "Series ETH.S1311B.G1.G1112_T.XDC.A, 2024" }],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "et-central-g1111",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "income-personal",
+      "status": "current",
+      "names": { "official": "Taxes on income, profits and capital gains payable by individuals", "common": "Personal income tax" },
+      "taxes": { "base": "Income, profits and capital gains of individuals (GFS 1111).", "payer": "Individuals." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "ETB 54.1 billion in 2024: 14% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "imf-gfs-codes", "locator": "G1111" }, { "sourceId": "imf-gfs-api", "locator": "Series ETH.S1311B.G1.G1111_T.XDC.A, 2024" }],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "et-central-g1142",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Excises", "common": "Excises" },
+      "taxes": {
+        "base": "Taxes on specific goods or services, such as alcohol, tobacco and fuel (GFS 1142).",
+        "payer": "Producers and importers; passed on in prices."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "ETB 37.9 billion in 2024: 9.5% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "imf-gfs-codes", "locator": "G1142" }, { "sourceId": "imf-gfs-api", "locator": "Series ETH.S1311B.G1.G1142_T.XDC.A, 2024" }],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "et-central-g116",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "other",
+      "status": "current",
+      "names": { "official": "Other taxes", "common": "Other taxes" },
+      "taxes": { "base": "Taxes that the classification does not place elsewhere (GFS 116).", "payer": "Various." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "ETB 3.12 billion in 2024: 0.8% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "imf-gfs-codes", "locator": "G116" }, { "sourceId": "imf-gfs-api", "locator": "Series ETH.S1311B.G1.G116_T.XDC.A, 2024" }],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "et-central-small-tax",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "other",
+      "status": "current",
+      "names": { "official": "Other taxes (small lines)", "common": "Other taxes (small lines)" },
+      "taxes": {
+        "base": "3 lines of the IMF series that are each below 0.15% of the total, folded together: G11413 Turnover and other general taxes on goods and services; G11451 Motor vehicle taxes; G1152 Taxes on exports.",
+        "payer": "Various."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "ETB 567 million in 2024: 0.1% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [
+        { "sourceId": "imf-gfs-codes", "locator": "small-tax" },
+        { "sourceId": "imf-gfs-api", "locator": "Series ETH.S1311B.G1, indicators G11413_T, G11451_T, G1152_T, XDC, annual, 2024" }
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "nodes": {
+    "iraq": { "label": "Iraq", "sublabel": "Fiscal folio · IMF lines", "glyph": "globe" },
+    "central": { "label": "Budgetary central govt", "sublabel": "IMF S1311B", "glyph": "landmark" },
+    "iq-central-g1112": { "label": "Corporate income tax", "sublabel": "Companies", "glyph": "factory" },
+    "iq-central-g1151": { "label": "Customs duties", "sublabel": "Imports", "glyph": "ship" },
+    "iq-central-g1111": { "label": "Personal income tax", "sublabel": "Individuals", "glyph": "person" },
+    "iq-central-g113-other": { "label": "Other property taxes", "sublabel": "Not itemised", "glyph": "house" },
+    "iq-central-g11451": { "label": "Motor vehicle taxes", "sublabel": "Ownership · use", "glyph": "car" },
+    "iq-central-g1142": { "label": "Excises", "sublabel": "Specific goods", "glyph": "flame" },
+    "iq-central-g11452": { "label": "Licences and use taxes", "sublabel": "Permissions", "glyph": "stamp" },
+    "iq-central-g1144": { "label": "Taxes on services", "sublabel": "Insurance · lodging · gambling", "glyph": "bed" },
+    "iq-central-g1221": { "label": "Other social: employees", "sublabel": "Government schemes", "glyph": "heart" }
+  }
+}

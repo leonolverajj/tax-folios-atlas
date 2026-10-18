@@ -1,0 +1,129 @@
+{
+  "groups": [
+    {
+      "title": "Central government and social security: lines of the IMF series, 2023",
+      "defaults": {
+        "denominatorId": "central-2023",
+        "scale": "million",
+        "currency": "XOF",
+        "period": { "label": "2023", "kind": "calendar-year", "start": "2023-01-01", "end": "2023-12-31" },
+        "basis": "Accrual basis, as reported to the IMF (flag AC)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        {
+          "nodeId": "sn-central-g11411",
+          "amount": 1183423.025758,
+          "locator": "Series SEN.S1311 + S1314.G1.G11411_T.XDC.A, 2023",
+          "calculation": "Sum of the sectors S1311 + S1314 (XOF million)"
+        },
+        {
+          "nodeId": "sn-central-g1111",
+          "amount": 641568.566339,
+          "locator": "Series SEN.S1311 + S1314.G1.G1111_T.XDC.A, 2023",
+          "calculation": "Sum of the sectors S1311 + S1314 (XOF million)"
+        },
+        {
+          "nodeId": "sn-central-g1112",
+          "amount": 508976.546399,
+          "locator": "Series SEN.S1311 + S1314.G1.G1112_T.XDC.A, 2023",
+          "calculation": "Sum of the sectors S1311 + S1314 (XOF million)"
+        },
+        {
+          "nodeId": "sn-central-g1151",
+          "amount": 470359.627711,
+          "locator": "Series SEN.S1311 + S1314.G1.G1151_T.XDC.A, 2023",
+          "calculation": "Sum of the sectors S1311 + S1314 (XOF million)"
+        },
+        {
+          "nodeId": "sn-central-g1142",
+          "amount": 323875.493853,
+          "locator": "Series SEN.S1311 + S1314.G1.G1142_T.XDC.A, 2023",
+          "calculation": "Sum of the sectors S1311 + S1314 (XOF million)"
+        },
+        {
+          "nodeId": "sn-central-g121-other",
+          "amount": 171142.467479,
+          "locator": "Series SEN.S1311 + S1314.G1.G121_T.XDC.A, 2023, less its reported sub-lines",
+          "calculation": "G121_T less the sum of its reported sub-lines (XOF million)"
+        },
+        {
+          "nodeId": "sn-central-g11452",
+          "amount": 160942.185544,
+          "locator": "Series SEN.S1311 + S1314.G1.G11452_T.XDC.A, 2023",
+          "calculation": "Sum of the sectors S1311 + S1314 (XOF million)"
+        },
+        {
+          "nodeId": "sn-central-g1144",
+          "amount": 136873.880427,
+          "locator": "Series SEN.S1311 + S1314.G1.G1144_T.XDC.A, 2023",
+          "calculation": "Sum of the sectors S1311 + S1314 (XOF million)"
+        },
+        {
+          "nodeId": "sn-central-g11414",
+          "amount": 58217.789018,
+          "locator": "Series SEN.S1311 + S1314.G1.G11414_T.XDC.A, 2023",
+          "calculation": "Sum of the sectors S1311 + S1314 (XOF million)"
+        },
+        {
+          "nodeId": "sn-central-g116",
+          "amount": 50010.958063,
+          "locator": "Series SEN.S1311 + S1314.G1.G116_T.XDC.A, 2023",
+          "calculation": "Sum of the sectors S1311 + S1314 (XOF million)"
+        },
+        {
+          "nodeId": "sn-central-g112",
+          "amount": 41193.873606,
+          "locator": "Series SEN.S1311 + S1314.G1.G112_T.XDC.A, 2023",
+          "calculation": "Sum of the sectors S1311 + S1314 (XOF million)"
+        },
+        {
+          "nodeId": "sn-central-g11413",
+          "amount": 40247.843888,
+          "locator": "Series SEN.S1311 + S1314.G1.G11413_T.XDC.A, 2023",
+          "calculation": "Sum of the sectors S1311 + S1314 (XOF million)"
+        },
+        {
+          "nodeId": "sn-central-g1113",
+          "amount": 10189.544057,
+          "locator": "Series SEN.S1311 + S1314.G1.G1113_T.XDC.A, 2023",
+          "calculation": "Sum of the sectors S1311 + S1314 (XOF million)"
+        },
+        {
+          "nodeId": "sn-central-g1133",
+          "amount": 6909.938235,
+          "locator": "Series SEN.S1311 + S1314.G1.G1133_T.XDC.A, 2023",
+          "calculation": "Sum of the sectors S1311 + S1314 (XOF million)"
+        },
+        {
+          "nodeId": "sn-central-small-tax",
+          "amount": 4910.509335,
+          "locator": "Series SEN.S1311 + S1314.G1, indicators G113_T:other, G11451_T, XDC, annual, 2023",
+          "calculation": "Sum of 2 lines, each below 0.15% of the total (XOF million)"
+        }
+      ]
+    },
+    {
+      "title": "Local governments: lines of the IMF series, 2023",
+      "defaults": {
+        "denominatorId": "local-2023",
+        "scale": "million",
+        "currency": "XOF",
+        "period": { "label": "2023", "kind": "calendar-year", "start": "2023-01-01", "end": "2023-12-31" },
+        "basis": "Accrual basis, as reported to the IMF (flag AC)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        { "nodeId": "sn-local-g11452", "amount": 6432.057844, "locator": "Series SEN.S1313MIXED.G1.G11452_T.XDC.A, 2023" },
+        { "nodeId": "sn-local-g1142", "amount": 3862.113444, "locator": "Series SEN.S1313MIXED.G1.G1142_T.XDC.A, 2023" }
+      ]
+    }
+  ],
+  "unavailable": []
+}

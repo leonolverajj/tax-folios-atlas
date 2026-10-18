@@ -1,0 +1,34 @@
+{
+  "groups": [
+    {
+      "title": "Budgetary central government: lines of the IMF series, 2023",
+      "defaults": {
+        "denominatorId": "central-2023",
+        "scale": "million",
+        "currency": "VUV",
+        "period": { "label": "2023", "kind": "calendar-year", "start": "2023-01-01", "end": "2023-12-31" },
+        "basis": "Accrual basis, as reported to the IMF (flag AC)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        { "nodeId": "vu-central-g11411", "amount": 10682.042259, "locator": "Series VUT.S1311B.G1.G11411_T.XDC.A, 2023" },
+        { "nodeId": "vu-central-g1151", "amount": 4899.992221, "locator": "Series VUT.S1311B.G1.G1151_T.XDC.A, 2023" },
+        { "nodeId": "vu-central-g1142", "amount": 4152.062678, "locator": "Series VUT.S1311B.G1.G1142_T.XDC.A, 2023" },
+        { "nodeId": "vu-central-g11452", "amount": 1761.846501, "locator": "Series VUT.S1311B.G1.G11452_T.XDC.A, 2023" },
+        { "nodeId": "vu-central-g11451", "amount": 698.03531, "locator": "Series VUT.S1311B.G1.G11451_T.XDC.A, 2023" },
+        { "nodeId": "vu-central-g1144", "amount": 673.257273, "locator": "Series VUT.S1311B.G1.G1144_T.XDC.A, 2023" },
+        {
+          "nodeId": "vu-central-g113-other",
+          "amount": 489.375192,
+          "locator": "Series VUT.S1311B.G1.G113_T.XDC.A, 2023, less its reported sub-lines",
+          "calculation": "G113_T less the sum of its reported sub-lines (VUV million)"
+        },
+        { "nodeId": "vu-central-g1152", "amount": 1.978365, "locator": "Series VUT.S1311B.G1.G1152_T.XDC.A, 2023" }
+      ]
+    }
+  ],
+  "unavailable": []
+}

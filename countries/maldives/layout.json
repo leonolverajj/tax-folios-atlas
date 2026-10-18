@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "maldives": {
+      "x": 800,
+      "y": 500
+    },
+    "central": {
+      "x": 509,
+      "y": 432
+    },
+    "mv-central-g11411": {
+      "x": 852,
+      "y": 828
+    },
+    "mv-central-g1112": {
+      "x": 393,
+      "y": 700
+    },
+    "mv-central-g1144": {
+      "x": 322,
+      "y": 383
+    },
+    "mv-central-g11451": {
+      "x": 697,
+      "y": 177
+    },
+    "mv-central-g1152": {
+      "x": 1160,
+      "y": 265
+    },
+    "mv-central-g1151": {
+      "x": 502,
+      "y": 894
+    },
+    "mv-central-g1156": {
+      "x": 112,
+      "y": 559
+    },
+    "mv-central-g11452": {
+      "x": 353,
+      "y": 157
+    },
+    "mv-central-g1146": {
+      "x": 1010,
+      "y": 73
+    },
+    "mv-central-g11414": {
+      "x": 1469,
+      "y": 379
+    }
+  },
+  "radii": {}
+}

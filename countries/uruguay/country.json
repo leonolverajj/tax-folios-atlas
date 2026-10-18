@@ -1,0 +1,52 @@
+{
+  "id": "uruguay",
+  "iso3": "URY",
+  "isoNumeric": "858",
+  "names": { "en": "Uruguay", "native": "Uruguay", "nativeLang": "es" },
+  "currency": { "code": "UYU", "symbol": "$", "name": "Uruguayan peso" },
+  "summary": "Uruguay is shown at the grain of the IMF’s Government Finance Statistics: the central government, 14 lines of taxes and social contributions for 2025, in UYU. The largest line is value added tax (25%), then social security contributions of employees (22%) and personal income tax (15%). Taxes on goods and services (VAT, sales taxes, excises, vehicle and similar taxes) make 31% of the total and income taxes 23%; social contributions are 36%. The folio records what each line raised; it does not describe the country’s tax laws, rates or the names of its individual taxes.",
+  "structureNote": "This folio is built from one source, the IMF’s Government Finance Statistics (Statement of Operations), for 2025: central government (S1311). Taxes of regional and local governments and of social security funds that are not in this sector are not drawn, so the folio is partial and every line’s share is a share of this sector’s total only. Lines below 0.15% of the total are folded into one “small lines” core per level; lines that the IMF reports only as a parent are drawn as the parent. Rates, legal bases and the names of the individual taxes are not recorded. The IMF labels the series 2025; where the country’s fiscal year is not the calendar year, this is the fiscal year the IMF assigns to 2025. The figures are the IMF’s and have not been compared with the country’s own statistics. There is no OECD level layer for this country in the atlas.",
+  "theme": {
+    "accent": "#49d4c4",
+    "accent2": "#c2d4eb",
+    "motif": "topo",
+    "motifNote": "Topographic contour lines over the outline of Uruguay (the generic motif).",
+    "mapLabel": { "lon": -56, "lat": -33 }
+  },
+  "levels": [
+    {
+      "id": "central",
+      "branch": "national",
+      "names": { "official": "Central government and social security funds", "common": "Central government and social security" },
+      "description": "Central government and social security funds as the IMF’s Government Finance Statistics classify them (sector S1311 + S1314).",
+      "fiscalPower": "This folio records what each line of the IMF’s classification raised; it does not describe which taxes this level may set or keep.",
+      "legalRefs": [{ "sourceId": "imf-gfs-api", "locator": "sector S1311 + S1314" }],
+      "checkedOn": "2026-10-17"
+    }
+  ],
+  "supportingSourceIds": ["imf-gfs-soo"],
+  "denominators": [
+    {
+      "id": "central-2025",
+      "label": "Taxes and social contributions of the central government together with its social security funds, 2025",
+      "definition": "The taxes (GFS 11) and actual social contributions (GFS 12) of the central government together with its social security funds that the IMF reports for 2025, in UYU; imputed social contributions are left out.",
+      "levelIds": ["central"],
+      "amount": 1006470.488194,
+      "scale": "million",
+      "currency": "UYU",
+      "period": { "label": "2025", "kind": "calendar-year", "start": "2025-01-01", "end": "2025-12-31" },
+      "sourceId": "imf-gfs-api",
+      "locator": "Series URY.S1311 + S1314.G1, indicators G11_T and G12_T and their sub-lines, XDC, annual, 2025",
+      "calculation": "Sum of the 14 lines drawn (UYU million). The IMF reports 1,006,470.488 million for the sector; the lines drawn differ from it by 0 million (rounding between levels of the classification).",
+      "caveat": "The IMF flags the figures for this year as preliminary. The IMF labels the series 2025; where the country’s fiscal year is not the calendar year, this is the fiscal year the IMF assigns to 2025.",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "sizing": {
+    "label": "Taxes and actual social contributions reported to the IMF, 2025",
+    "definition": "The taxes (GFS 11) and actual social contributions (GFS 12) of the central government together with its social security funds for 2025, as the IMF’s Government Finance Statistics report them in UYU. Imputed social contributions are left out; sectors that the IMF series does not report in detail for 2025 are not included.",
+    "componentIds": ["central-2025"]
+  },
+  "researchStatus": "partial",
+  "grain": "harmonised"
+}

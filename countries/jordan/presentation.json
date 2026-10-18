@@ -1,0 +1,18 @@
+{
+  "nodes": {
+    "jordan": { "label": "Jordan", "sublabel": "Fiscal folio · IMF lines", "glyph": "globe" },
+    "central": { "label": "Central govt and social funds", "sublabel": "IMF S1311 + S1314", "glyph": "landmark" },
+    "local": { "label": "Local governments", "sublabel": "IMF S1313", "glyph": "town" },
+    "jo-central-g11412": { "label": "Sales taxes", "sublabel": "Single stage", "glyph": "cart" },
+    "jo-central-g1211": { "label": "Social: employees", "sublabel": "Contributions", "glyph": "shield" },
+    "jo-central-g11414": { "label": "Financial transaction taxes", "sublabel": "Transfers · securities", "glyph": "stamp" },
+    "jo-central-g1112": { "label": "Corporate income tax", "sublabel": "Companies", "glyph": "factory" },
+    "jo-central-g1111": { "label": "Personal income tax", "sublabel": "Individuals", "glyph": "person" },
+    "jo-central-g1151": { "label": "Customs duties", "sublabel": "Imports", "glyph": "ship" },
+    "jo-central-g1113": { "label": "Other income taxes", "sublabel": "Not split by payer", "glyph": "coin" },
+    "jo-central-g113-other": { "label": "Other property taxes", "sublabel": "Not itemised", "glyph": "house" },
+    "jo-central-small-tax": { "label": "Other taxes (small lines)", "sublabel": "2 lines", "glyph": "gear" },
+    "jo-local-g1113": { "label": "Other income taxes", "sublabel": "Not split by payer", "glyph": "coin" },
+    "jo-local-g1211": { "label": "Social: employees", "sublabel": "Contributions", "glyph": "shield" }
+  }
+}

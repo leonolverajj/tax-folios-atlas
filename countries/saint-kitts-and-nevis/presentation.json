@@ -1,0 +1,18 @@
+{
+  "nodes": {
+    "saint-kitts-and-nevis": { "label": "Saint Kitts and Nevis", "sublabel": "Fiscal folio · IMF lines", "glyph": "globe" },
+    "central": { "label": "Budgetary central govt", "sublabel": "IMF S1311B", "glyph": "landmark" },
+    "kn-central-g11411": { "label": "VAT", "sublabel": "Value added", "glyph": "cart" },
+    "kn-central-g1151": { "label": "Customs duties", "sublabel": "Imports", "glyph": "ship" },
+    "kn-central-g1112": { "label": "Corporate income tax", "sublabel": "Companies", "glyph": "factory" },
+    "kn-central-g1111": { "label": "Personal income tax", "sublabel": "Individuals", "glyph": "person" },
+    "kn-central-g11414": { "label": "Financial transaction taxes", "sublabel": "Transfers · securities", "glyph": "stamp" },
+    "kn-central-g1142": { "label": "Excises", "sublabel": "Specific goods", "glyph": "flame" },
+    "kn-central-g11452": { "label": "Licences and use taxes", "sublabel": "Permissions", "glyph": "stamp" },
+    "kn-central-g113-other": { "label": "Other property taxes", "sublabel": "Not itemised", "glyph": "house" },
+    "kn-central-g1144": { "label": "Taxes on services", "sublabel": "Insurance · lodging · gambling", "glyph": "bed" },
+    "kn-central-g1156": { "label": "Other trade taxes", "sublabel": "Not elsewhere classified", "glyph": "gear" },
+    "kn-central-g11451": { "label": "Motor vehicle taxes", "sublabel": "Ownership · use", "glyph": "car" },
+    "kn-central-g11412": { "label": "Sales taxes", "sublabel": "Single stage", "glyph": "cart" }
+  }
+}

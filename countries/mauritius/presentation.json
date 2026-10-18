@@ -1,0 +1,27 @@
+{
+  "nodes": {
+    "mauritius": { "label": "Mauritius", "sublabel": "Fiscal folio · IMF lines", "glyph": "globe" },
+    "central": { "label": "Central govt and social funds", "sublabel": "IMF S1311 + S1314", "glyph": "landmark" },
+    "state": { "label": "Regional governments", "sublabel": "IMF S1312", "glyph": "city" },
+    "local": { "label": "Local governments", "sublabel": "IMF S1313", "glyph": "town" },
+    "mu-central-g11411": { "label": "VAT", "sublabel": "Value added", "glyph": "cart" },
+    "mu-central-g1112": { "label": "Corporate income tax", "sublabel": "Companies", "glyph": "factory" },
+    "mu-central-g1142": { "label": "Excises", "sublabel": "Specific goods", "glyph": "flame" },
+    "mu-central-g1111": { "label": "Personal income tax", "sublabel": "Individuals", "glyph": "person" },
+    "mu-central-g11414": { "label": "Financial transaction taxes", "sublabel": "Transfers · securities", "glyph": "stamp" },
+    "mu-central-g1212": { "label": "Social: employers", "sublabel": "Contributions", "glyph": "shield" },
+    "mu-central-g116": { "label": "Other taxes", "sublabel": "Not elsewhere classified", "glyph": "gear" },
+    "mu-central-g1144": { "label": "Taxes on services", "sublabel": "Insurance · lodging · gambling", "glyph": "bed" },
+    "mu-central-g1211": { "label": "Social: employees", "sublabel": "Contributions", "glyph": "shield" },
+    "mu-central-g1113": { "label": "Other income taxes", "sublabel": "Not split by payer", "glyph": "coin" },
+    "mu-central-g1151": { "label": "Customs duties", "sublabel": "Imports", "glyph": "ship" },
+    "mu-central-g11451": { "label": "Motor vehicle taxes", "sublabel": "Ownership · use", "glyph": "car" },
+    "mu-central-g11452": { "label": "Licences and use taxes", "sublabel": "Permissions", "glyph": "stamp" },
+    "mu-central-g112": { "label": "Payroll taxes", "sublabel": "Wage bill", "glyph": "ledger" },
+    "mu-central-g1221": { "label": "Other social: employees", "sublabel": "Government schemes", "glyph": "heart" },
+    "mu-central-g1213": { "label": "Social: self-employed", "sublabel": "Contributions", "glyph": "shield" },
+    "mu-central-small-tax": { "label": "Other taxes (small lines)", "sublabel": "3 lines", "glyph": "gear" },
+    "mu-state-g11452": { "label": "Licences and use taxes", "sublabel": "Permissions", "glyph": "stamp" },
+    "mu-local-g113-other": { "label": "Other property taxes", "sublabel": "Not itemised", "glyph": "house" }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "groups": [
+    {
+      "title": "Budgetary central government: lines of the IMF series, 2022",
+      "defaults": {
+        "denominatorId": "central-2022",
+        "scale": "million",
+        "currency": "STN",
+        "period": { "label": "2022", "kind": "calendar-year", "start": "2022-01-01", "end": "2022-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        { "nodeId": "st-central-g1151", "amount": 483.557916, "locator": "Series STP.S1311B.G1.G1151_T.XDC.A, 2022" },
+        { "nodeId": "st-central-g1111", "amount": 396.491859, "locator": "Series STP.S1311B.G1.G1111_T.XDC.A, 2022" },
+        { "nodeId": "st-central-g11412", "amount": 144.004785, "locator": "Series STP.S1311B.G1.G11412_T.XDC.A, 2022" },
+        { "nodeId": "st-central-g1142", "amount": 113.763095, "locator": "Series STP.S1311B.G1.G1142_T.XDC.A, 2022" },
+        { "nodeId": "st-central-g1112", "amount": 90.914809, "locator": "Series STP.S1311B.G1.G1112_T.XDC.A, 2022" },
+        { "nodeId": "st-central-g116", "amount": 78.351651, "locator": "Series STP.S1311B.G1.G116_T.XDC.A, 2022" },
+        { "nodeId": "st-central-g1144", "amount": 10.618404, "locator": "Series STP.S1311B.G1.G1144_T.XDC.A, 2022" },
+        { "nodeId": "st-central-g1133", "amount": 9.617432, "locator": "Series STP.S1311B.G1.G1133_T.XDC.A, 2022" },
+        { "nodeId": "st-central-g1146", "amount": 7.337902, "locator": "Series STP.S1311B.G1.G1146_T.XDC.A, 2022" },
+        { "nodeId": "st-central-g11451", "amount": 4.381529, "locator": "Series STP.S1311B.G1.G11451_T.XDC.A, 2022" },
+        {
+          "nodeId": "st-central-g113-other",
+          "amount": 3.648559,
+          "locator": "Series STP.S1311B.G1.G113_T.XDC.A, 2022, less its reported sub-lines",
+          "calculation": "G113_T less the sum of its reported sub-lines (STN million)"
+        },
+        {
+          "nodeId": "st-central-small-tax",
+          "amount": 1.54045,
+          "locator": "Series STP.S1311B.G1, indicators G11452_T, G1145_T:other, G1152_T, XDC, annual, 2022",
+          "calculation": "Sum of 3 lines, each below 0.15% of the total (STN million)"
+        },
+        { "nodeId": "st-central-g1222", "amount": 0.337489, "locator": "Series STP.S1311B.G1.G1222_T.XDC.A, 2022" }
+      ]
+    }
+  ],
+  "unavailable": []
+}

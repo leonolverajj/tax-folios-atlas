@@ -1,0 +1,76 @@
+{
+  "id": "el-salvador",
+  "iso3": "SLV",
+  "isoNumeric": "222",
+  "names": { "en": "El Salvador", "native": "El Salvador", "nativeLang": "es" },
+  "currency": { "code": "USD", "symbol": "$", "name": "United States dollar" },
+  "summary": "El Salvador is shown at the grain of the IMF’s Government Finance Statistics: the general government, 11 lines of taxes and social contributions for 2024, in USD. The largest line is value added tax (41%), then corporate income tax (29%) and social security contributions of employers (11%). Taxes on goods and services (VAT, sales taxes, excises, vehicle and similar taxes) make 46% of the total and income taxes 36%; social contributions are 11%. The folio records what each line raised; it does not describe the country’s tax laws, rates or the names of its individual taxes.",
+  "structureNote": "This folio is built from one source, the IMF’s Government Finance Statistics (Statement of Operations), for 2024: general government (S13), split by the IMF into central, state and local government. Every level that the IMF series reports with detail in this year is drawn; the sum of the levels equals the general-government total within 1.5%. Lines below 0.15% of the total are folded into one “small lines” core per level; lines that the IMF reports only as a parent are drawn as the parent. Rates, legal bases and the names of the individual taxes are not recorded. The IMF labels the series 2024; where the country’s fiscal year is not the calendar year, this is the fiscal year the IMF assigns to 2024. The figures are the IMF’s and have not been compared with the country’s own statistics. There is no OECD level layer for this country in the atlas.",
+  "theme": {
+    "accent": "#4973d4",
+    "accent2": "#d1c2eb",
+    "motif": "topo",
+    "motifNote": "Topographic contour lines over the outline of El Salvador (the generic motif).",
+    "mapLabel": { "lon": -88.91666666, "lat": 13.83333333 }
+  },
+  "levels": [
+    {
+      "id": "central",
+      "branch": "national",
+      "names": { "official": "Central government and social security funds", "common": "Central government and social security" },
+      "description": "Central government and social security funds as the IMF’s Government Finance Statistics classify them (sector S1311 + S1314).",
+      "fiscalPower": "This folio records what each line of the IMF’s classification raised; it does not describe which taxes this level may set or keep.",
+      "legalRefs": [{ "sourceId": "imf-gfs-api", "locator": "sector S1311 + S1314" }],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "local",
+      "branch": "local",
+      "names": { "official": "Local governments", "common": "Local governments" },
+      "description": "Local governments as the IMF’s Government Finance Statistics classify them (sector S1313MIXED).",
+      "fiscalPower": "This folio records what each line of the IMF’s classification raised; it does not describe which taxes this level may set or keep.",
+      "legalRefs": [{ "sourceId": "imf-gfs-api", "locator": "sector S1313MIXED" }],
+      "checkedOn": "2026-10-17"
+    }
+  ],
+  "supportingSourceIds": ["imf-gfs-soo"],
+  "denominators": [
+    {
+      "id": "central-2024",
+      "label": "Taxes and social contributions of the central government together with its social security funds, 2024",
+      "definition": "The taxes (GFS 11) and actual social contributions (GFS 12) of the central government together with its social security funds that the IMF reports for 2024, in USD; imputed social contributions are left out.",
+      "levelIds": ["central"],
+      "amount": 8549.4,
+      "scale": "million",
+      "currency": "USD",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "imf-gfs-api",
+      "locator": "Series SLV.S1311 + S1314.G1, indicators G11_T and G12_T and their sub-lines, XDC, annual, 2024",
+      "calculation": "Sum of the 9 lines drawn (USD million). The IMF reports 8,549.4 million for the sector; the lines drawn differ from it by 0 million (rounding between levels of the classification).",
+      "caveat": "The IMF flags the figures for this year as actual. The IMF labels the series 2024; where the country’s fiscal year is not the calendar year, this is the fiscal year the IMF assigns to 2024.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "local-2024",
+      "label": "Taxes and social contributions of the local governments, 2024",
+      "definition": "The taxes (GFS 11) and actual social contributions (GFS 12) of the local governments that the IMF reports for 2024, in USD; imputed social contributions are left out.",
+      "levelIds": ["local"],
+      "amount": 45.8,
+      "scale": "million",
+      "currency": "USD",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "imf-gfs-api",
+      "locator": "Series SLV.S1313MIXED.G1, indicators G11_T and G12_T and their sub-lines, XDC, annual, 2024",
+      "calculation": "Sum of the 2 lines drawn (USD million). The IMF reports 45.8 million for the sector; the lines drawn differ from it by 0 million (rounding between levels of the classification).",
+      "caveat": "The IMF flags the figures for this year as actual. The IMF labels the series 2024; where the country’s fiscal year is not the calendar year, this is the fiscal year the IMF assigns to 2024.",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "sizing": {
+    "label": "Taxes and actual social contributions reported to the IMF, 2024",
+    "definition": "The taxes (GFS 11) and actual social contributions (GFS 12) of the central government together with its social security funds, the local governments for 2024, as the IMF’s Government Finance Statistics report them in USD. Imputed social contributions are left out; sectors that the IMF series does not report in detail for 2024 are not included.",
+    "componentIds": ["central-2024", "local-2024"]
+  },
+  "researchStatus": "researched",
+  "grain": "harmonised"
+}

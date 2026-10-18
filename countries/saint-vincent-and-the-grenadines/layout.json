@@ -1,0 +1,70 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "saint-vincent-and-the-grenadines": {
+      "x": 800,
+      "y": 500
+    },
+    "central": {
+      "x": 509,
+      "y": 432
+    },
+    "vc-central-g11411": {
+      "x": 849,
+      "y": 745
+    },
+    "vc-central-g1112": {
+      "x": 392,
+      "y": 699
+    },
+    "vc-central-g1156": {
+      "x": 324,
+      "y": 389
+    },
+    "vc-central-g11451": {
+      "x": 696,
+      "y": 177
+    },
+    "vc-central-g1135": {
+      "x": 1161,
+      "y": 266
+    },
+    "vc-central-g1111": {
+      "x": 407,
+      "y": 869
+    },
+    "vc-central-g11414": {
+      "x": 127,
+      "y": 339
+    },
+    "vc-central-g113-other": {
+      "x": 897,
+      "y": 56
+    },
+    "vc-central-g1144": {
+      "x": 1493,
+      "y": 467
+    },
+    "vc-central-g1151": {
+      "x": 871,
+      "y": 902
+    },
+    "vc-central-g1142": {
+      "x": 54,
+      "y": 681
+    },
+    "vc-central-g1113": {
+      "x": 332,
+      "y": 33
+    },
+    "vc-central-g11452": {
+      "x": 1427,
+      "y": 104
+    }
+  },
+  "radii": {}
+}

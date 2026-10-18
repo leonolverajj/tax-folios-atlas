@@ -1,0 +1,21 @@
+{
+  "nodes": {
+    "argentina": { "label": "Argentina", "sublabel": "Fiscal folio · IMF lines", "glyph": "globe" },
+    "central": { "label": "Central govt and social funds", "sublabel": "IMF S1311 + S1314", "glyph": "landmark" },
+    "ar-central-g11411": { "label": "VAT", "sublabel": "Value added", "glyph": "cart" },
+    "ar-central-g1212": { "label": "Social: employers", "sublabel": "Contributions", "glyph": "shield" },
+    "ar-central-g1211": { "label": "Social: employees", "sublabel": "Contributions", "glyph": "shield" },
+    "ar-central-g11414": { "label": "Financial transaction taxes", "sublabel": "Transfers · securities", "glyph": "stamp" },
+    "ar-central-g1112": { "label": "Corporate income tax", "sublabel": "Companies", "glyph": "factory" },
+    "ar-central-g1152": { "label": "Export taxes", "sublabel": "Exports", "glyph": "plane" },
+    "ar-central-g1155": { "label": "Exchange taxes", "sublabel": "Foreign exchange", "glyph": "coin" },
+    "ar-central-g116": { "label": "Other taxes", "sublabel": "Not elsewhere classified", "glyph": "gear" },
+    "ar-central-g12-other": { "label": "Other social contributions", "sublabel": "Not itemised", "glyph": "shield" },
+    "ar-central-g1151": { "label": "Customs duties", "sublabel": "Imports", "glyph": "ship" },
+    "ar-central-g1142": { "label": "Excises", "sublabel": "Specific goods", "glyph": "flame" },
+    "ar-central-g1111": { "label": "Personal income tax", "sublabel": "Individuals", "glyph": "person" },
+    "ar-central-g1132": { "label": "Net wealth tax", "sublabel": "Wealth", "glyph": "gem" },
+    "ar-central-small-tax": { "label": "Other taxes (small lines)", "sublabel": "5 lines", "glyph": "gear" },
+    "ar-central-g122": { "label": "Other social contributions", "sublabel": "Government employee schemes", "glyph": "heart" }
+  }
+}

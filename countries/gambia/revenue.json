@@ -1,0 +1,33 @@
+{
+  "groups": [
+    {
+      "title": "Budgetary central government: lines of the IMF series, 2018",
+      "defaults": {
+        "denominatorId": "central-2018",
+        "scale": "million",
+        "currency": "GMD",
+        "period": { "label": "2018", "kind": "calendar-year", "start": "2018-01-01", "end": "2018-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        { "nodeId": "gm-central-g11411", "amount": 3021.432924, "locator": "Series GMB.S1311B.G1.G11411_T.XDC.A, 2018" },
+        { "nodeId": "gm-central-g1151", "amount": 2250.147803, "locator": "Series GMB.S1311B.G1.G1151_T.XDC.A, 2018" },
+        { "nodeId": "gm-central-g1112", "amount": 1069.238251, "locator": "Series GMB.S1311B.G1.G1112_T.XDC.A, 2018" },
+        { "nodeId": "gm-central-g1142", "amount": 851.472268, "locator": "Series GMB.S1311B.G1.G1142_T.XDC.A, 2018" },
+        { "nodeId": "gm-central-g1111", "amount": 760.002047, "locator": "Series GMB.S1311B.G1.G1111_T.XDC.A, 2018" },
+        { "nodeId": "gm-central-g11452", "amount": 332.857598, "locator": "Series GMB.S1311B.G1.G11452_T.XDC.A, 2018" },
+        { "nodeId": "gm-central-g1152", "amount": 120.25, "locator": "Series GMB.S1311B.G1.G1152_T.XDC.A, 2018" },
+        { "nodeId": "gm-central-g1113", "amount": 100.602631, "locator": "Series GMB.S1311B.G1.G1113_T.XDC.A, 2018" },
+        { "nodeId": "gm-central-g11451", "amount": 97.26903, "locator": "Series GMB.S1311B.G1.G11451_T.XDC.A, 2018" },
+        { "nodeId": "gm-central-g11414", "amount": 52.86304, "locator": "Series GMB.S1311B.G1.G11414_T.XDC.A, 2018" },
+        { "nodeId": "gm-central-g112", "amount": 44.351577, "locator": "Series GMB.S1311B.G1.G112_T.XDC.A, 2018" },
+        { "nodeId": "gm-central-g1156", "amount": 20.361987, "locator": "Series GMB.S1311B.G1.G1156_T.XDC.A, 2018" }
+      ]
+    }
+  ],
+  "unavailable": []
+}

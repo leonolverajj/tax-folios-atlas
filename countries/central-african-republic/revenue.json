@@ -1,0 +1,38 @@
+{
+  "groups": [
+    {
+      "title": "Budgetary central government: lines of the IMF series, 2021",
+      "defaults": {
+        "denominatorId": "central-2021",
+        "scale": "million",
+        "currency": "XAF",
+        "period": { "label": "2021", "kind": "calendar-year", "start": "2021-01-01", "end": "2021-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        { "nodeId": "cf-central-g11411", "amount": 35479.153998, "locator": "Series CAF.S1311B.G1.G11411_T.XDC.A, 2021" },
+        { "nodeId": "cf-central-g1151", "amount": 31292.172331, "locator": "Series CAF.S1311B.G1.G1151_T.XDC.A, 2021" },
+        { "nodeId": "cf-central-g1142", "amount": 15526.668584, "locator": "Series CAF.S1311B.G1.G1142_T.XDC.A, 2021" },
+        { "nodeId": "cf-central-g1111", "amount": 13327.765851, "locator": "Series CAF.S1311B.G1.G1111_T.XDC.A, 2021" },
+        { "nodeId": "cf-central-g1112", "amount": 8133.00567, "locator": "Series CAF.S1311B.G1.G1112_T.XDC.A, 2021" },
+        { "nodeId": "cf-central-g11452", "amount": 4305.173116, "locator": "Series CAF.S1311B.G1.G11452_T.XDC.A, 2021" },
+        { "nodeId": "cf-central-g11414", "amount": 2953.516474, "locator": "Series CAF.S1311B.G1.G11414_T.XDC.A, 2021" },
+        { "nodeId": "cf-central-g1131", "amount": 944.710006, "locator": "Series CAF.S1311B.G1.G1131_T.XDC.A, 2021" },
+        { "nodeId": "cf-central-g1144", "amount": 938.891211, "locator": "Series CAF.S1311B.G1.G1144_T.XDC.A, 2021" },
+        { "nodeId": "cf-central-g1146", "amount": 914.26869, "locator": "Series CAF.S1311B.G1.G1146_T.XDC.A, 2021" },
+        { "nodeId": "cf-central-g1152", "amount": 416.788706, "locator": "Series CAF.S1311B.G1.G1152_T.XDC.A, 2021" },
+        {
+          "nodeId": "cf-central-small-tax",
+          "amount": 284.689022,
+          "locator": "Series CAF.S1311B.G1, indicators G1135_T, G11451_T, XDC, annual, 2021",
+          "calculation": "Sum of 2 lines, each below 0.15% of the total (XAF million)"
+        }
+      ]
+    }
+  ],
+  "unavailable": []
+}

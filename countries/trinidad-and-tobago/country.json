@@ -1,0 +1,52 @@
+{
+  "id": "trinidad-and-tobago",
+  "iso3": "TTO",
+  "isoNumeric": "780",
+  "names": { "en": "Trinidad and Tobago", "native": "Trinidad and Tobago", "nativeLang": "en" },
+  "currency": { "code": "TTD", "symbol": "$", "name": "Trinidad and Tobago dollar" },
+  "summary": "Trinidad and Tobago is shown at the grain of the IMF’s Government Finance Statistics: the central government and its social security funds, 16 lines of taxes and social contributions for 2019, in TTD. The largest line is corporate income tax (31%), then value added tax (21%) and payroll taxes (19%). Taxes on goods and services (VAT, sales taxes, excises, vehicle and similar taxes) make 25% of the total and income taxes 32%; social contributions are 15%. The folio records what each line raised; it does not describe the country’s tax laws, rates or the names of its individual taxes.",
+  "structureNote": "This folio is built from one source, the IMF’s Government Finance Statistics (Statement of Operations), for 2019: central government including social security funds (S1321). Sub-national governments are not drawn: the IMF series does not report taxes for them in this year. Lines below 0.15% of the total are folded into one “small lines” core per level; lines that the IMF reports only as a parent are drawn as the parent. Rates, legal bases and the names of the individual taxes are not recorded. The IMF labels the series 2019; where the country’s fiscal year is not the calendar year, this is the fiscal year the IMF assigns to 2019. The figures are the IMF’s and have not been compared with the country’s own statistics. There is no OECD level layer for this country in the atlas.",
+  "theme": {
+    "accent": "#d4496e",
+    "accent2": "#ebd2c2",
+    "motif": "topo",
+    "motifNote": "Topographic contour lines over the outline of Trinidad and Tobago (the generic motif).",
+    "mapLabel": { "lon": -61, "lat": 11 }
+  },
+  "levels": [
+    {
+      "id": "central",
+      "branch": "national",
+      "names": { "official": "Central government including social security funds", "common": "Central government and social security" },
+      "description": "Central government including social security funds as the IMF’s Government Finance Statistics classify them (sector S1321).",
+      "fiscalPower": "This folio records what each line of the IMF’s classification raised; it does not describe which taxes this level may set or keep.",
+      "legalRefs": [{ "sourceId": "imf-gfs-api", "locator": "sector S1321" }],
+      "checkedOn": "2026-10-17"
+    }
+  ],
+  "supportingSourceIds": ["imf-gfs-soo"],
+  "denominators": [
+    {
+      "id": "central-2019",
+      "label": "Taxes and social contributions of the central government, 2019",
+      "definition": "The taxes (GFS 11) and actual social contributions (GFS 12) of the central government that the IMF reports for 2019, in TTD; imputed social contributions are left out.",
+      "levelIds": ["central"],
+      "amount": 31273.2,
+      "scale": "million",
+      "currency": "TTD",
+      "period": { "label": "2019", "kind": "calendar-year", "start": "2019-01-01", "end": "2019-12-31" },
+      "sourceId": "imf-gfs-api",
+      "locator": "Series TTO.S1321.G1, indicators G11_T and G12_T and their sub-lines, XDC, annual, 2019",
+      "calculation": "Sum of the 16 lines drawn (TTD million). The IMF reports 31,273.2 million for the sector; the lines drawn differ from it by 0 million (rounding between levels of the classification).",
+      "caveat": "The IMF flags the figures for this year as actual. The IMF labels the series 2019; where the country’s fiscal year is not the calendar year, this is the fiscal year the IMF assigns to 2019.",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "sizing": {
+    "label": "Taxes and actual social contributions reported to the IMF, 2019",
+    "definition": "The taxes (GFS 11) and actual social contributions (GFS 12) of the central government for 2019, as the IMF’s Government Finance Statistics report them in TTD. Imputed social contributions are left out; sectors that the IMF series does not report in detail for 2019 are not included.",
+    "componentIds": ["central-2019"]
+  },
+  "researchStatus": "partial",
+  "grain": "harmonised"
+}

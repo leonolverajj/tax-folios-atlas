@@ -1,0 +1,34 @@
+{
+  "groups": [
+    {
+      "title": "Budgetary central government: lines of the IMF series, 2020",
+      "defaults": {
+        "denominatorId": "central-2020",
+        "scale": "million",
+        "currency": "XOF",
+        "period": { "label": "2020", "kind": "calendar-year", "start": "2020-01-01", "end": "2020-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        { "nodeId": "ml-central-g11411", "amount": 363373.25459, "locator": "Series MLI.S1311B.G1.G11411_T.XDC.A, 2020" },
+        { "nodeId": "ml-central-g1112", "amount": 335088.432506, "locator": "Series MLI.S1311B.G1.G1112_T.XDC.A, 2020" },
+        { "nodeId": "ml-central-g1151", "amount": 175125.911975, "locator": "Series MLI.S1311B.G1.G1151_T.XDC.A, 2020" },
+        { "nodeId": "ml-central-g1111", "amount": 129886.848629, "locator": "Series MLI.S1311B.G1.G1111_T.XDC.A, 2020" },
+        { "nodeId": "ml-central-g1142", "amount": 128463.384407, "locator": "Series MLI.S1311B.G1.G1142_T.XDC.A, 2020" },
+        { "nodeId": "ml-central-g1113", "amount": 113894.942798, "locator": "Series MLI.S1311B.G1.G1113_T.XDC.A, 2020" },
+        { "nodeId": "ml-central-g11414", "amount": 71584.013962, "locator": "Series MLI.S1311B.G1.G11414_T.XDC.A, 2020" },
+        { "nodeId": "ml-central-g11413", "amount": 40164.622815, "locator": "Series MLI.S1311B.G1.G11413_T.XDC.A, 2020" },
+        { "nodeId": "ml-central-g11452", "amount": 25687.728195, "locator": "Series MLI.S1311B.G1.G11452_T.XDC.A, 2020" },
+        { "nodeId": "ml-central-g116", "amount": 21932.322859, "locator": "Series MLI.S1311B.G1.G116_T.XDC.A, 2020" },
+        { "nodeId": "ml-central-g1144", "amount": 9151.669267, "locator": "Series MLI.S1311B.G1.G1144_T.XDC.A, 2020" },
+        { "nodeId": "ml-central-g112", "amount": 5724.37455, "locator": "Series MLI.S1311B.G1.G112_T.XDC.A, 2020" },
+        { "nodeId": "ml-central-g11451", "amount": 3860.405967, "locator": "Series MLI.S1311B.G1.G11451_T.XDC.A, 2020" }
+      ]
+    }
+  ],
+  "unavailable": []
+}

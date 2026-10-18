@@ -1,0 +1,38 @@
+{
+  "groups": [
+    {
+      "title": "Budgetary central government: lines of the IMF series, 2024",
+      "defaults": {
+        "denominatorId": "central-2024",
+        "scale": "million",
+        "currency": "FJD",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        { "nodeId": "fj-central-g11411", "amount": 1385.398737, "locator": "Series FJI.S1311B.G1.G11411_T.XDC.A, 2024" },
+        { "nodeId": "fj-central-g1112", "amount": 538.061236, "locator": "Series FJI.S1311B.G1.G1112_T.XDC.A, 2024" },
+        { "nodeId": "fj-central-g1151", "amount": 380.092651, "locator": "Series FJI.S1311B.G1.G1151_T.XDC.A, 2024" },
+        { "nodeId": "fj-central-g1111", "amount": 261.541592, "locator": "Series FJI.S1311B.G1.G1111_T.XDC.A, 2024" },
+        { "nodeId": "fj-central-g1113", "amount": 256.804457, "locator": "Series FJI.S1311B.G1.G1113_T.XDC.A, 2024" },
+        { "nodeId": "fj-central-g1142", "amount": 185.614514, "locator": "Series FJI.S1311B.G1.G1142_T.XDC.A, 2024" },
+        { "nodeId": "fj-central-g1156", "amount": 104.911817, "locator": "Series FJI.S1311B.G1.G1156_T.XDC.A, 2024" },
+        { "nodeId": "fj-central-g1146", "amount": 91.168641, "locator": "Series FJI.S1311B.G1.G1146_T.XDC.A, 2024" },
+        { "nodeId": "fj-central-g11451", "amount": 16.961901, "locator": "Series FJI.S1311B.G1.G11451_T.XDC.A, 2024" },
+        { "nodeId": "fj-central-g11452", "amount": 10.813619, "locator": "Series FJI.S1311B.G1.G11452_T.XDC.A, 2024" },
+        { "nodeId": "fj-central-g1152", "amount": 10.104018, "locator": "Series FJI.S1311B.G1.G1152_T.XDC.A, 2024" },
+        {
+          "nodeId": "fj-central-small-tax",
+          "amount": 0.275346,
+          "locator": "Series FJI.S1311B.G1, indicators G11413_T, G11414_T, XDC, annual, 2024",
+          "calculation": "Sum of 2 lines, each below 0.15% of the total (FJD million)"
+        }
+      ]
+    }
+  ],
+  "unavailable": []
+}

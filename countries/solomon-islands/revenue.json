@@ -1,0 +1,29 @@
+{
+  "groups": [
+    {
+      "title": "Budgetary central government: lines of the IMF series, 2024",
+      "defaults": {
+        "denominatorId": "central-2024",
+        "scale": "million",
+        "currency": "SBD",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        { "nodeId": "sb-central-g1111", "amount": 896.535836, "locator": "Series SLB.S1311B.G1.G1111_T.XDC.A, 2024" },
+        { "nodeId": "sb-central-g11412", "amount": 871.078877, "locator": "Series SLB.S1311B.G1.G11412_T.XDC.A, 2024" },
+        { "nodeId": "sb-central-g1152", "amount": 347.596083, "locator": "Series SLB.S1311B.G1.G1152_T.XDC.A, 2024" },
+        { "nodeId": "sb-central-g1142", "amount": 327.215892, "locator": "Series SLB.S1311B.G1.G1142_T.XDC.A, 2024" },
+        { "nodeId": "sb-central-g1151", "amount": 324.025496, "locator": "Series SLB.S1311B.G1.G1151_T.XDC.A, 2024" },
+        { "nodeId": "sb-central-g1112", "amount": 233.805868, "locator": "Series SLB.S1311B.G1.G1112_T.XDC.A, 2024" },
+        { "nodeId": "sb-central-g11413", "amount": 93.28458, "locator": "Series SLB.S1311B.G1.G11413_T.XDC.A, 2024" },
+        { "nodeId": "sb-central-g11414", "amount": 23.328289, "locator": "Series SLB.S1311B.G1.G11414_T.XDC.A, 2024" }
+      ]
+    }
+  ],
+  "unavailable": []
+}

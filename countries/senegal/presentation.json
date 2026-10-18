@@ -1,0 +1,24 @@
+{
+  "nodes": {
+    "senegal": { "label": "Senegal", "sublabel": "Fiscal folio · IMF lines", "glyph": "globe" },
+    "central": { "label": "Central govt and social funds", "sublabel": "IMF S1311 + S1314", "glyph": "landmark" },
+    "local": { "label": "Local governments", "sublabel": "IMF S1313", "glyph": "town" },
+    "sn-central-g11411": { "label": "VAT", "sublabel": "Value added", "glyph": "cart" },
+    "sn-central-g1111": { "label": "Personal income tax", "sublabel": "Individuals", "glyph": "person" },
+    "sn-central-g1112": { "label": "Corporate income tax", "sublabel": "Companies", "glyph": "factory" },
+    "sn-central-g1151": { "label": "Customs duties", "sublabel": "Imports", "glyph": "ship" },
+    "sn-central-g1142": { "label": "Excises", "sublabel": "Specific goods", "glyph": "flame" },
+    "sn-central-g121-other": { "label": "Other social security contrib…", "sublabel": "Not itemised", "glyph": "shield" },
+    "sn-central-g11452": { "label": "Licences and use taxes", "sublabel": "Permissions", "glyph": "stamp" },
+    "sn-central-g1144": { "label": "Taxes on services", "sublabel": "Insurance · lodging · gambling", "glyph": "bed" },
+    "sn-central-g11414": { "label": "Financial transaction taxes", "sublabel": "Transfers · securities", "glyph": "stamp" },
+    "sn-central-g116": { "label": "Other taxes", "sublabel": "Not elsewhere classified", "glyph": "gear" },
+    "sn-central-g112": { "label": "Payroll taxes", "sublabel": "Wage bill", "glyph": "ledger" },
+    "sn-central-g11413": { "label": "Turnover taxes", "sublabel": "Other general taxes", "glyph": "percent" },
+    "sn-central-g1113": { "label": "Other income taxes", "sublabel": "Not split by payer", "glyph": "coin" },
+    "sn-central-g1133": { "label": "Estate and gift taxes", "sublabel": "Transfers of wealth", "glyph": "scroll" },
+    "sn-central-small-tax": { "label": "Other taxes (small lines)", "sublabel": "2 lines", "glyph": "gear" },
+    "sn-local-g11452": { "label": "Licences and use taxes", "sublabel": "Permissions", "glyph": "stamp" },
+    "sn-local-g1142": { "label": "Excises", "sublabel": "Specific goods", "glyph": "flame" }
+  }
+}

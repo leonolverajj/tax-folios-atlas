@@ -1,0 +1,99 @@
+{
+  "groups": [
+    {
+      "title": "Central government and social security: lines of the IMF series, 2024",
+      "defaults": {
+        "denominatorId": "central-2024",
+        "scale": "million",
+        "currency": "RWF",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Accrual basis, as reported to the IMF (flag AC)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        {
+          "nodeId": "rw-central-g11411",
+          "amount": 792761.112148,
+          "locator": "Series RWA.S1311 + S1314.G1.G11411_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (RWF million)"
+        },
+        {
+          "nodeId": "rw-central-g1111",
+          "amount": 787864.967903,
+          "locator": "Series RWA.S1311 + S1314.G1.G1111_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (RWF million)"
+        },
+        {
+          "nodeId": "rw-central-g1211",
+          "amount": 388330,
+          "locator": "Series RWA.S1311 + S1314.G1.G1211_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (RWF million)"
+        },
+        {
+          "nodeId": "rw-central-g1142",
+          "amount": 378527.049081,
+          "locator": "Series RWA.S1311 + S1314.G1.G1142_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (RWF million)"
+        },
+        {
+          "nodeId": "rw-central-g1112",
+          "amount": 357112.172969,
+          "locator": "Series RWA.S1311 + S1314.G1.G1112_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (RWF million)"
+        },
+        {
+          "nodeId": "rw-central-g1151",
+          "amount": 194475.151366,
+          "locator": "Series RWA.S1311 + S1314.G1.G1151_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (RWF million)"
+        },
+        {
+          "nodeId": "rw-central-small-tax",
+          "amount": 6696.153058,
+          "locator": "Series RWA.S1311 + S1314.G1, indicators G113_T:other, G11414_T, G1144_T, G11452_T, G1146_T, G1152_T, XDC, annual, 2024",
+          "calculation": "Sum of 6 lines, each below 0.15% of the total (RWF million)"
+        },
+        {
+          "nodeId": "rw-central-g1131",
+          "amount": 6073.836664,
+          "locator": "Series RWA.S1311 + S1314.G1.G1131_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (RWF million)"
+        },
+        {
+          "nodeId": "rw-central-g1113",
+          "amount": 4617.922727,
+          "locator": "Series RWA.S1311 + S1314.G1.G1113_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (RWF million)"
+        }
+      ]
+    },
+    {
+      "title": "Local governments: lines of the IMF series, 2024",
+      "defaults": {
+        "denominatorId": "local-2024",
+        "scale": "million",
+        "currency": "RWF",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Accrual basis, as reported to the IMF (flag AC)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        {
+          "nodeId": "rw-local-g113-other",
+          "amount": 24582.955443,
+          "locator": "Series RWA.S1313MIXED.G1.G113_T.XDC.A, 2024, less its reported sub-lines",
+          "calculation": "G113_T less the sum of its reported sub-lines (RWF million)"
+        },
+        { "nodeId": "rw-local-g1111", "amount": 15137.519266, "locator": "Series RWA.S1313MIXED.G1.G1111_T.XDC.A, 2024" },
+        { "nodeId": "rw-local-g11452", "amount": 10751.543502, "locator": "Series RWA.S1313MIXED.G1.G11452_T.XDC.A, 2024" }
+      ]
+    }
+  ],
+  "unavailable": []
+}

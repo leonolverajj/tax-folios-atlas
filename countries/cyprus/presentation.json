@@ -1,0 +1,27 @@
+{
+  "nodes": {
+    "cyprus": { "label": "Cyprus", "sublabel": "Fiscal folio · IMF lines", "glyph": "globe" },
+    "central": { "label": "Central govt and social funds", "sublabel": "IMF S1311 + S1314", "glyph": "landmark" },
+    "local": { "label": "Local governments", "sublabel": "IMF S1313", "glyph": "town" },
+    "cy-central-g11411": { "label": "VAT", "sublabel": "Value added", "glyph": "cart" },
+    "cy-central-g1212": { "label": "Social: employers", "sublabel": "Contributions", "glyph": "shield" },
+    "cy-central-g1112": { "label": "Corporate income tax", "sublabel": "Companies", "glyph": "factory" },
+    "cy-central-g1211": { "label": "Social: employees", "sublabel": "Contributions", "glyph": "shield" },
+    "cy-central-g1111": { "label": "Personal income tax", "sublabel": "Individuals", "glyph": "person" },
+    "cy-central-g1142": { "label": "Excises", "sublabel": "Specific goods", "glyph": "flame" },
+    "cy-central-g112": { "label": "Payroll taxes", "sublabel": "Wage bill", "glyph": "ledger" },
+    "cy-central-g11452": { "label": "Licences and use taxes", "sublabel": "Permissions", "glyph": "stamp" },
+    "cy-central-g1213": { "label": "Social: self-employed", "sublabel": "Contributions", "glyph": "shield" },
+    "cy-central-g116": { "label": "Other taxes", "sublabel": "Not elsewhere classified", "glyph": "gear" },
+    "cy-central-g1146": { "label": "Other goods and services", "sublabel": "Not elsewhere classified", "glyph": "gear" },
+    "cy-central-g1144": { "label": "Taxes on services", "sublabel": "Insurance · lodging · gambling", "glyph": "bed" },
+    "cy-central-g1221": { "label": "Other social: employees", "sublabel": "Government schemes", "glyph": "heart" },
+    "cy-central-g1222": { "label": "Other social: employers", "sublabel": "Government schemes", "glyph": "heart" },
+    "cy-central-g1113": { "label": "Other income taxes", "sublabel": "Not split by payer", "glyph": "coin" },
+    "cy-central-g11414": { "label": "Financial transaction taxes", "sublabel": "Transfers · securities", "glyph": "stamp" },
+    "cy-central-small-tax": { "label": "Other taxes (small lines)", "sublabel": "4 lines", "glyph": "gear" },
+    "cy-local-g113-other": { "label": "Other property taxes", "sublabel": "Not itemised", "glyph": "house" },
+    "cy-local-small-tax": { "label": "Other taxes (small lines)", "sublabel": "3 lines", "glyph": "gear" },
+    "cy-local-g112": { "label": "Payroll taxes", "sublabel": "Wage bill", "glyph": "ledger" }
+  }
+}

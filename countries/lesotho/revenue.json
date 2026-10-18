@@ -1,0 +1,29 @@
+{
+  "groups": [
+    {
+      "title": "Budgetary central government: lines of the IMF series, 2024",
+      "defaults": {
+        "denominatorId": "central-2024",
+        "scale": "million",
+        "currency": "LSL",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        { "nodeId": "ls-central-g1142", "amount": 3771.6, "locator": "Series LSO.S1311B.G1.G1142_T.XDC.A, 2024" },
+        { "nodeId": "ls-central-g11411", "amount": 3715.1, "locator": "Series LSO.S1311B.G1.G11411_T.XDC.A, 2024" },
+        { "nodeId": "ls-central-g1151", "amount": 3044.6, "locator": "Series LSO.S1311B.G1.G1151_T.XDC.A, 2024" },
+        { "nodeId": "ls-central-g1113", "amount": 2731, "locator": "Series LSO.S1311B.G1.G1113_T.XDC.A, 2024" },
+        { "nodeId": "ls-central-g1111", "amount": 1772.8, "locator": "Series LSO.S1311B.G1.G1111_T.XDC.A, 2024" },
+        { "nodeId": "ls-central-g1112", "amount": 287.5, "locator": "Series LSO.S1311B.G1.G1112_T.XDC.A, 2024" },
+        { "nodeId": "ls-central-g1143", "amount": 194.2, "locator": "Series LSO.S1311B.G1.G1143_T.XDC.A, 2024" },
+        { "nodeId": "ls-central-g1144", "amount": 7.2, "locator": "Series LSO.S1311B.G1.G1144_T.XDC.A, 2024" }
+      ]
+    }
+  ],
+  "unavailable": []
+}

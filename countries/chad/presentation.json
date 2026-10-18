@@ -1,0 +1,20 @@
+{
+  "nodes": {
+    "chad": { "label": "Chad", "sublabel": "Fiscal folio · IMF lines", "glyph": "globe" },
+    "central": { "label": "Budgetary central govt", "sublabel": "IMF S1311B", "glyph": "landmark" },
+    "td-central-g1112": { "label": "Corporate income tax", "sublabel": "Companies", "glyph": "factory" },
+    "td-central-g1111": { "label": "Personal income tax", "sublabel": "Individuals", "glyph": "person" },
+    "td-central-g11411": { "label": "VAT", "sublabel": "Value added", "glyph": "cart" },
+    "td-central-g1151": { "label": "Customs duties", "sublabel": "Imports", "glyph": "ship" },
+    "td-central-g11452": { "label": "Licences and use taxes", "sublabel": "Permissions", "glyph": "stamp" },
+    "td-central-g1152": { "label": "Export taxes", "sublabel": "Exports", "glyph": "plane" },
+    "td-central-g116": { "label": "Other taxes", "sublabel": "Not elsewhere classified", "glyph": "gear" },
+    "td-central-g11414": { "label": "Financial transaction taxes", "sublabel": "Transfers · securities", "glyph": "stamp" },
+    "td-central-g1142": { "label": "Excises", "sublabel": "Specific goods", "glyph": "flame" },
+    "td-central-g112": { "label": "Payroll taxes", "sublabel": "Wage bill", "glyph": "ledger" },
+    "td-central-g1155": { "label": "Exchange taxes", "sublabel": "Foreign exchange", "glyph": "coin" },
+    "td-central-g1113": { "label": "Other income taxes", "sublabel": "Not split by payer", "glyph": "coin" },
+    "td-central-g1146": { "label": "Other goods and services", "sublabel": "Not elsewhere classified", "glyph": "gear" },
+    "td-central-small-tax": { "label": "Other taxes (small lines)", "sublabel": "3 lines", "glyph": "gear" }
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "groups": [
+    {
+      "title": "Central government and social security: lines of the IMF series, 2024",
+      "defaults": {
+        "denominatorId": "central-2024",
+        "scale": "million",
+        "currency": "ARS",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        {
+          "nodeId": "ar-central-g11411",
+          "amount": 18678941.351324,
+          "locator": "Series ARG.S1311 + S1314.G1.G11411_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (ARS million)"
+        },
+        {
+          "nodeId": "ar-central-g1212",
+          "amount": 16125190.309276,
+          "locator": "Series ARG.S1311 + S1314.G1.G1212_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (ARS million)"
+        },
+        {
+          "nodeId": "ar-central-g1211",
+          "amount": 9374320.738747,
+          "locator": "Series ARG.S1311 + S1314.G1.G1211_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (ARS million)"
+        },
+        {
+          "nodeId": "ar-central-g11414",
+          "amount": 9291414.000804,
+          "locator": "Series ARG.S1311 + S1314.G1.G11414_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (ARS million)"
+        },
+        {
+          "nodeId": "ar-central-g1112",
+          "amount": 6250516.08209,
+          "locator": "Series ARG.S1311 + S1314.G1.G1112_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (ARS million)"
+        },
+        {
+          "nodeId": "ar-central-g1152",
+          "amount": 5694978.645461,
+          "locator": "Series ARG.S1311 + S1314.G1.G1152_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (ARS million)"
+        },
+        {
+          "nodeId": "ar-central-g1155",
+          "amount": 5451532.174052,
+          "locator": "Series ARG.S1311 + S1314.G1.G1155_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (ARS million)"
+        },
+        {
+          "nodeId": "ar-central-g116",
+          "amount": 4892823.00617,
+          "locator": "Series ARG.S1311 + S1314.G1.G116_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (ARS million)"
+        },
+        {
+          "nodeId": "ar-central-g12-other",
+          "amount": 4043907.032592,
+          "locator": "Series ARG.S1311 + S1314.G1.G12_T.XDC.A, 2024, less its reported sub-lines",
+          "calculation": "G12_T less the sum of its reported sub-lines (ARS million)"
+        },
+        {
+          "nodeId": "ar-central-g1151",
+          "amount": 3640358.653077,
+          "locator": "Series ARG.S1311 + S1314.G1.G1151_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (ARS million)"
+        },
+        {
+          "nodeId": "ar-central-g1142",
+          "amount": 3321470.214984,
+          "locator": "Series ARG.S1311 + S1314.G1.G1142_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (ARS million)"
+        },
+        {
+          "nodeId": "ar-central-g1111",
+          "amount": 2701785.103863,
+          "locator": "Series ARG.S1311 + S1314.G1.G1111_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (ARS million)"
+        },
+        {
+          "nodeId": "ar-central-g1132",
+          "amount": 866205.215493,
+          "locator": "Series ARG.S1311 + S1314.G1.G1132_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (ARS million)"
+        },
+        {
+          "nodeId": "ar-central-small-tax",
+          "amount": 107747.976404,
+          "locator": "Series ARG.S1311 + S1314.G1, indicators G1131_T, G1135_T, G113_T:other, G11452_T, G1146_T, XDC, annual, 2024",
+          "calculation": "Sum of 5 lines, each below 0.15% of the total (ARS million)"
+        },
+        {
+          "nodeId": "ar-central-g122",
+          "amount": 36.350564,
+          "locator": "Series ARG.S1311 + S1314.G1.G122_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (ARS million)"
+        }
+      ]
+    }
+  ],
+  "unavailable": []
+}

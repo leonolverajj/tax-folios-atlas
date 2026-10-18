@@ -1,0 +1,70 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "rwanda": {
+      "x": 800,
+      "y": 500
+    },
+    "central": {
+      "x": 509,
+      "y": 432
+    },
+    "rw-central-g11411": {
+      "x": 773,
+      "y": 830
+    },
+    "rw-central-g1211": {
+      "x": 373,
+      "y": 681
+    },
+    "rw-central-g1112": {
+      "x": 298,
+      "y": 384
+    },
+    "rw-central-small-tax": {
+      "x": 651,
+      "y": 184
+    },
+    "rw-central-g1113": {
+      "x": 1102,
+      "y": 234
+    },
+    "rw-central-g1111": {
+      "x": 346,
+      "y": 840
+    },
+    "rw-central-g1142": {
+      "x": 150,
+      "y": 342
+    },
+    "rw-central-g1151": {
+      "x": 830,
+      "y": 52
+    },
+    "rw-central-g1131": {
+      "x": 1464,
+      "y": 369
+    },
+    "local": {
+      "x": 1091,
+      "y": 568
+    },
+    "rw-local-g113-other": {
+      "x": 1232,
+      "y": 427
+    },
+    "rw-local-g1111": {
+      "x": 1273,
+      "y": 608
+    },
+    "rw-local-g11452": {
+      "x": 1163,
+      "y": 725
+    }
+  },
+  "radii": {}
+}

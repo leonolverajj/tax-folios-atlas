@@ -1,0 +1,37 @@
+{
+  "groups": [
+    {
+      "title": "Budgetary central government: lines of the IMF series, 2021",
+      "defaults": {
+        "denominatorId": "central-2021",
+        "scale": "million",
+        "currency": "XAF",
+        "period": { "label": "2021", "kind": "calendar-year", "start": "2021-01-01", "end": "2021-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        { "nodeId": "ga-central-g115", "amount": 323227.386806, "locator": "Series GAB.S1311B.G1.G115_T.XDC.A, 2021" },
+        { "nodeId": "ga-central-g1112", "amount": 270815.028825, "locator": "Series GAB.S1311B.G1.G1112_T.XDC.A, 2021" },
+        { "nodeId": "ga-central-g11411", "amount": 134386.340391, "locator": "Series GAB.S1311B.G1.G11411_T.XDC.A, 2021" },
+        { "nodeId": "ga-central-g1111", "amount": 119108.450654, "locator": "Series GAB.S1311B.G1.G1111_T.XDC.A, 2021" },
+        { "nodeId": "ga-central-g116", "amount": 72585.716398, "locator": "Series GAB.S1311B.G1.G116_T.XDC.A, 2021" },
+        { "nodeId": "ga-central-g1142", "amount": 40883.829362, "locator": "Series GAB.S1311B.G1.G1142_T.XDC.A, 2021" },
+        { "nodeId": "ga-central-g11413", "amount": 33188.175249, "locator": "Series GAB.S1311B.G1.G11413_T.XDC.A, 2021" },
+        { "nodeId": "ga-central-g1221", "amount": 25924.148622, "locator": "Series GAB.S1311B.G1.G1221_T.XDC.A, 2021" },
+        { "nodeId": "ga-central-g1144", "amount": 13860.170814, "locator": "Series GAB.S1311B.G1.G1144_T.XDC.A, 2021" },
+        {
+          "nodeId": "ga-central-g113-other",
+          "amount": 10206.758162,
+          "locator": "Series GAB.S1311B.G1.G113_T.XDC.A, 2021, less its reported sub-lines",
+          "calculation": "G113_T less the sum of its reported sub-lines (XAF million)"
+        },
+        { "nodeId": "ga-central-g11452", "amount": 5062.198466, "locator": "Series GAB.S1311B.G1.G11452_T.XDC.A, 2021" }
+      ]
+    }
+  ],
+  "unavailable": []
+}

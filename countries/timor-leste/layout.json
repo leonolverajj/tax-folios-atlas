@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "timor-leste": {
+      "x": 800,
+      "y": 500
+    },
+    "central": {
+      "x": 509,
+      "y": 432
+    },
+    "tl-central-g1112": {
+      "x": 853,
+      "y": 828
+    },
+    "tl-central-g1111": {
+      "x": 398,
+      "y": 704
+    },
+    "tl-central-g11412": {
+      "x": 319,
+      "y": 387
+    },
+    "tl-central-g11411": {
+      "x": 697,
+      "y": 177
+    },
+    "tl-central-g116": {
+      "x": 1165,
+      "y": 269
+    },
+    "tl-central-g1142": {
+      "x": 402,
+      "y": 867
+    },
+    "tl-central-g1151": {
+      "x": 152,
+      "y": 339
+    },
+    "tl-central-g1144": {
+      "x": 906,
+      "y": 57
+    },
+    "tl-central-g11452": {
+      "x": 1486,
+      "y": 466
+    }
+  },
+  "radii": {}
+}

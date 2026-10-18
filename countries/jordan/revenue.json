@@ -1,0 +1,93 @@
+{
+  "groups": [
+    {
+      "title": "Central government and social security: lines of the IMF series, 2022",
+      "defaults": {
+        "denominatorId": "central-2022",
+        "scale": "million",
+        "currency": "JOD",
+        "period": { "label": "2022", "kind": "calendar-year", "start": "2022-01-01", "end": "2022-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        {
+          "nodeId": "jo-central-g11412",
+          "amount": 2954.6,
+          "locator": "Series JOR.S1311 + S1314.G1.G11412_T.XDC.A, 2022",
+          "calculation": "Sum of the sectors S1311 + S1314 (JOD million)"
+        },
+        {
+          "nodeId": "jo-central-g1211",
+          "amount": 2101,
+          "locator": "Series JOR.S1311 + S1314.G1.G1211_T.XDC.A, 2022",
+          "calculation": "Sum of the sectors S1311 + S1314 (JOD million)"
+        },
+        {
+          "nodeId": "jo-central-g11414",
+          "amount": 1213.6,
+          "locator": "Series JOR.S1311 + S1314.G1.G11414_T.XDC.A, 2022",
+          "calculation": "Sum of the sectors S1311 + S1314 (JOD million)"
+        },
+        {
+          "nodeId": "jo-central-g1112",
+          "amount": 1098.1,
+          "locator": "Series JOR.S1311 + S1314.G1.G1112_T.XDC.A, 2022",
+          "calculation": "Sum of the sectors S1311 + S1314 (JOD million)"
+        },
+        {
+          "nodeId": "jo-central-g1111",
+          "amount": 331.7,
+          "locator": "Series JOR.S1311 + S1314.G1.G1111_T.XDC.A, 2022",
+          "calculation": "Sum of the sectors S1311 + S1314 (JOD million)"
+        },
+        {
+          "nodeId": "jo-central-g1151",
+          "amount": 232.7,
+          "locator": "Series JOR.S1311 + S1314.G1.G1151_T.XDC.A, 2022",
+          "calculation": "Sum of the sectors S1311 + S1314 (JOD million)"
+        },
+        {
+          "nodeId": "jo-central-g1113",
+          "amount": 125.3,
+          "locator": "Series JOR.S1311 + S1314.G1.G1113_T.XDC.A, 2022",
+          "calculation": "Sum of the sectors S1311 + S1314 (JOD million)"
+        },
+        {
+          "nodeId": "jo-central-g113-other",
+          "amount": 99.5,
+          "locator": "Series JOR.S1311 + S1314.G1.G113_T.XDC.A, 2022, less its reported sub-lines",
+          "calculation": "G113_T less the sum of its reported sub-lines (JOD million)"
+        },
+        {
+          "nodeId": "jo-central-small-tax",
+          "amount": 2.7,
+          "locator": "Series JOR.S1311 + S1314.G1, indicators G11411_T, G11413_T, XDC, annual, 2022",
+          "calculation": "Sum of 2 lines, each below 0.15% of the total (JOD million)"
+        }
+      ]
+    },
+    {
+      "title": "Local governments: lines of the IMF series, 2022",
+      "defaults": {
+        "denominatorId": "local-2022",
+        "scale": "million",
+        "currency": "JOD",
+        "period": { "label": "2022", "kind": "calendar-year", "start": "2022-01-01", "end": "2022-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        { "nodeId": "jo-local-g1113", "amount": 244.3, "locator": "Series JOR.S1313MIXED.G1.G1113_T.XDC.A, 2022" },
+        { "nodeId": "jo-local-g1211", "amount": 0.4, "locator": "Series JOR.S1313MIXED.G1.G1211_T.XDC.A, 2022" }
+      ]
+    }
+  ],
+  "unavailable": []
+}

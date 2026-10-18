@@ -1,0 +1,44 @@
+{
+  "groups": [
+    {
+      "title": "Budgetary central government: lines of the IMF series, 2024",
+      "defaults": {
+        "denominatorId": "central-2024",
+        "scale": "million",
+        "currency": "TZS",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        { "nodeId": "tz-central-g11411", "amount": 6571405.200521, "locator": "Series TZA.S1311B.G1.G11411_T.XDC.A, 2024" },
+        { "nodeId": "tz-central-g1112", "amount": 4973997.953388, "locator": "Series TZA.S1311B.G1.G1112_T.XDC.A, 2024" },
+        { "nodeId": "tz-central-g1151", "amount": 4927575.605872, "locator": "Series TZA.S1311B.G1.G1151_T.XDC.A, 2024" },
+        { "nodeId": "tz-central-g1111", "amount": 3846941.707335, "locator": "Series TZA.S1311B.G1.G1111_T.XDC.A, 2024" },
+        { "nodeId": "tz-central-g1142", "amount": 3473961.06907, "locator": "Series TZA.S1311B.G1.G1142_T.XDC.A, 2024" },
+        { "nodeId": "tz-central-g116", "amount": 413007.930602, "locator": "Series TZA.S1311B.G1.G116_T.XDC.A, 2024" },
+        { "nodeId": "tz-central-g112", "amount": 358544.780828, "locator": "Series TZA.S1311B.G1.G112_T.XDC.A, 2024" },
+        { "nodeId": "tz-central-g1144", "amount": 214533.981659, "locator": "Series TZA.S1311B.G1.G1144_T.XDC.A, 2024" },
+        { "nodeId": "tz-central-g11451", "amount": 160811.463981, "locator": "Series TZA.S1311B.G1.G11451_T.XDC.A, 2024" },
+        { "nodeId": "tz-central-g1156", "amount": 112280.838535, "locator": "Series TZA.S1311B.G1.G1156_T.XDC.A, 2024" },
+        { "nodeId": "tz-central-g1152", "amount": 97508.509604, "locator": "Series TZA.S1311B.G1.G1152_T.XDC.A, 2024" },
+        {
+          "nodeId": "tz-central-g113-other",
+          "amount": 70153.647273,
+          "locator": "Series TZA.S1311B.G1.G113_T.XDC.A, 2024, less its reported sub-lines",
+          "calculation": "G113_T less the sum of its reported sub-lines (TZS million)"
+        },
+        {
+          "nodeId": "tz-central-small-tax",
+          "amount": 17970.181021,
+          "locator": "Series TZA.S1311B.G1, indicators G11414_T, G11452_T, XDC, annual, 2024",
+          "calculation": "Sum of 2 lines, each below 0.15% of the total (TZS million)"
+        }
+      ]
+    }
+  ],
+  "unavailable": []
+}

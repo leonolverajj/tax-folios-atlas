@@ -1,0 +1,27 @@
+{
+  "groups": [
+    {
+      "title": "Budgetary central government: lines of the IMF series, 2020",
+      "defaults": {
+        "denominatorId": "central-2020",
+        "scale": "million",
+        "currency": "USD",
+        "period": { "label": "2020", "kind": "calendar-year", "start": "2020-01-01", "end": "2020-12-31" },
+        "basis": "Accrual basis, as reported to the IMF (flag AC)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        { "nodeId": "fm-central-g1112", "amount": 9.898892, "locator": "Series FSM.S1311B.G1.G1112_T.XDC.A, 2020" },
+        { "nodeId": "fm-central-g1151", "amount": 6.195976, "locator": "Series FSM.S1311B.G1.G1151_T.XDC.A, 2020" },
+        { "nodeId": "fm-central-g1111", "amount": 5.169112, "locator": "Series FSM.S1311B.G1.G1111_T.XDC.A, 2020" },
+        { "nodeId": "fm-central-g11413", "amount": 4.551933, "locator": "Series FSM.S1311B.G1.G11413_T.XDC.A, 2020" },
+        { "nodeId": "fm-central-g116", "amount": 0.267719, "locator": "Series FSM.S1311B.G1.G116_T.XDC.A, 2020" },
+        { "nodeId": "fm-central-g11452", "amount": 0.135733, "locator": "Series FSM.S1311B.G1.G11452_T.XDC.A, 2020" }
+      ]
+    }
+  ],
+  "unavailable": []
+}

@@ -1,0 +1,17 @@
+{
+  "nodes": {
+    "saint-lucia": { "label": "Saint Lucia", "sublabel": "Fiscal folio · IMF lines", "glyph": "globe" },
+    "central": { "label": "Budgetary central govt", "sublabel": "IMF S1311B", "glyph": "landmark" },
+    "lc-central-g1156": { "label": "Other trade taxes", "sublabel": "Not elsewhere classified", "glyph": "gear" },
+    "lc-central-g11411": { "label": "VAT", "sublabel": "Value added", "glyph": "cart" },
+    "lc-central-g1111": { "label": "Personal income tax", "sublabel": "Individuals", "glyph": "person" },
+    "lc-central-g1112": { "label": "Corporate income tax", "sublabel": "Companies", "glyph": "factory" },
+    "lc-central-g1113": { "label": "Other income taxes", "sublabel": "Not split by payer", "glyph": "coin" },
+    "lc-central-g1146": { "label": "Other goods and services", "sublabel": "Not elsewhere classified", "glyph": "gear" },
+    "lc-central-g11452": { "label": "Licences and use taxes", "sublabel": "Permissions", "glyph": "stamp" },
+    "lc-central-g113-other": { "label": "Other property taxes", "sublabel": "Not itemised", "glyph": "house" },
+    "lc-central-g1144": { "label": "Taxes on services", "sublabel": "Insurance · lodging · gambling", "glyph": "bed" },
+    "lc-central-g1151": { "label": "Customs duties", "sublabel": "Imports", "glyph": "ship" },
+    "lc-central-small-tax": { "label": "Other taxes (small lines)", "sublabel": "2 lines", "glyph": "gear" }
+  }
+}

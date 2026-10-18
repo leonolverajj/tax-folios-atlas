@@ -1,0 +1,30 @@
+{
+  "groups": [
+    {
+      "title": "Central government: lines of the IMF series, 2022",
+      "defaults": {
+        "denominatorId": "central-2022",
+        "scale": "million",
+        "currency": "USD",
+        "period": { "label": "2022", "kind": "calendar-year", "start": "2022-01-01", "end": "2022-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        { "nodeId": "tl-central-g1112", "amount": 538.635664, "locator": "Series TLS.S1311.G1.G1112_T.XDC.A, 2022" },
+        { "nodeId": "tl-central-g1142", "amount": 60.83003, "locator": "Series TLS.S1311.G1.G1142_T.XDC.A, 2022" },
+        { "nodeId": "tl-central-g1111", "amount": 29.087382, "locator": "Series TLS.S1311.G1.G1111_T.XDC.A, 2022" },
+        { "nodeId": "tl-central-g1151", "amount": 24.251363, "locator": "Series TLS.S1311.G1.G1151_T.XDC.A, 2022" },
+        { "nodeId": "tl-central-g11412", "amount": 23.292126, "locator": "Series TLS.S1311.G1.G11412_T.XDC.A, 2022" },
+        { "nodeId": "tl-central-g1144", "amount": 9.006404, "locator": "Series TLS.S1311.G1.G1144_T.XDC.A, 2022" },
+        { "nodeId": "tl-central-g11411", "amount": 5.805901, "locator": "Series TLS.S1311.G1.G11411_T.XDC.A, 2022" },
+        { "nodeId": "tl-central-g11452", "amount": 2.04308, "locator": "Series TLS.S1311.G1.G11452_T.XDC.A, 2022" },
+        { "nodeId": "tl-central-g116", "amount": 1.489751, "locator": "Series TLS.S1311.G1.G116_T.XDC.A, 2022" }
+      ]
+    }
+  ],
+  "unavailable": []
+}

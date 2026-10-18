@@ -1,0 +1,28 @@
+{
+  "nodes": {
+    "cote-d-ivoire": { "label": "Côte d’Ivoire", "sublabel": "Fiscal folio · IMF lines", "glyph": "globe" },
+    "central": { "label": "Central govt and social funds", "sublabel": "IMF S1311 + S1314", "glyph": "landmark" },
+    "local": { "label": "Local governments", "sublabel": "IMF S1313", "glyph": "town" },
+    "ci-central-g11411": { "label": "VAT", "sublabel": "Value added", "glyph": "cart" },
+    "ci-central-g1112": { "label": "Corporate income tax", "sublabel": "Companies", "glyph": "factory" },
+    "ci-central-g1152": { "label": "Export taxes", "sublabel": "Exports", "glyph": "plane" },
+    "ci-central-g1151": { "label": "Customs duties", "sublabel": "Imports", "glyph": "ship" },
+    "ci-central-g1111": { "label": "Personal income tax", "sublabel": "Individuals", "glyph": "person" },
+    "ci-central-g1142": { "label": "Excises", "sublabel": "Specific goods", "glyph": "flame" },
+    "ci-central-g1211": { "label": "Social: employees", "sublabel": "Contributions", "glyph": "shield" },
+    "ci-central-g113-other": { "label": "Other property taxes", "sublabel": "Not itemised", "glyph": "house" },
+    "ci-central-g1144": { "label": "Taxes on services", "sublabel": "Insurance · lodging · gambling", "glyph": "bed" },
+    "ci-central-g11413": { "label": "Turnover taxes", "sublabel": "Other general taxes", "glyph": "percent" },
+    "ci-central-g1212": { "label": "Social: employers", "sublabel": "Contributions", "glyph": "shield" },
+    "ci-central-g1113": { "label": "Other income taxes", "sublabel": "Not split by payer", "glyph": "coin" },
+    "ci-central-g11452": { "label": "Licences and use taxes", "sublabel": "Permissions", "glyph": "stamp" },
+    "ci-central-g11414": { "label": "Financial transaction taxes", "sublabel": "Transfers · securities", "glyph": "stamp" },
+    "ci-central-g11451": { "label": "Motor vehicle taxes", "sublabel": "Ownership · use", "glyph": "car" },
+    "ci-central-g116": { "label": "Other taxes", "sublabel": "Not elsewhere classified", "glyph": "gear" },
+    "ci-central-g112": { "label": "Payroll taxes", "sublabel": "Wage bill", "glyph": "ledger" },
+    "ci-central-g1143": { "label": "Fiscal monopoly profits", "sublabel": "State monopolies", "glyph": "bank" },
+    "ci-central-g1146": { "label": "Other goods and services", "sublabel": "Not elsewhere classified", "glyph": "gear" },
+    "ci-central-g11412": { "label": "Sales taxes", "sublabel": "Single stage", "glyph": "cart" },
+    "ci-local-small-tax": { "label": "Other taxes (small lines)", "sublabel": "6 lines", "glyph": "gear" }
+  }
+}

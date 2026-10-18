@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "vietnam": {
+      "x": 800,
+      "y": 500
+    },
+    "central": {
+      "x": 509,
+      "y": 432
+    },
+    "vn-central-g1141": {
+      "x": 842,
+      "y": 829
+    },
+    "vn-central-g1111": {
+      "x": 314,
+      "y": 603
+    },
+    "vn-central-g115": {
+      "x": 534,
+      "y": 218
+    },
+    "vn-central-g1146": {
+      "x": 1167,
+      "y": 270
+    },
+    "vn-central-g1112": {
+      "x": 402,
+      "y": 867
+    },
+    "vn-central-g1142": {
+      "x": 154,
+      "y": 336
+    },
+    "vn-central-g1145": {
+      "x": 902,
+      "y": 57
+    },
+    "vn-central-g113-other": {
+      "x": 1492,
+      "y": 466
+    }
+  },
+  "radii": {}
+}

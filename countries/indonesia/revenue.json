@@ -1,0 +1,80 @@
+{
+  "groups": [
+    {
+      "title": "Central government: lines of the IMF series, 2024",
+      "defaults": {
+        "denominatorId": "central-2024",
+        "scale": "million",
+        "currency": "IDR",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        { "nodeId": "id-central-g11411", "amount": 808758613.97884, "locator": "Series IDN.S1311.G1.G11411_T.XDC.A, 2024" },
+        { "nodeId": "id-central-g1112", "amount": 803980355.300489, "locator": "Series IDN.S1311.G1.G1112_T.XDC.A, 2024" },
+        { "nodeId": "id-central-g1111", "amount": 257960170.900116, "locator": "Series IDN.S1311.G1.G1111_T.XDC.A, 2024" },
+        { "nodeId": "id-central-g1142", "amount": 226537134.347371, "locator": "Series IDN.S1311.G1.G1142_T.XDC.A, 2024" },
+        { "nodeId": "id-central-g1151", "amount": 71406188.202359, "locator": "Series IDN.S1311.G1.G1151_T.XDC.A, 2024" },
+        {
+          "nodeId": "id-central-g113-other",
+          "amount": 32491020.191825,
+          "locator": "Series IDN.S1311.G1.G113_T.XDC.A, 2024, less its reported sub-lines",
+          "calculation": "G113_T less the sum of its reported sub-lines (IDR million)"
+        },
+        { "nodeId": "id-central-g1152", "amount": 20892327.119277, "locator": "Series IDN.S1311.G1.G1152_T.XDC.A, 2024" },
+        { "nodeId": "id-central-g116", "amount": 6804917.919211, "locator": "Series IDN.S1311.G1.G116_T.XDC.A, 2024" },
+        {
+          "nodeId": "id-central-g111-other",
+          "amount": 0.000005,
+          "locator": "Series IDN.S1311.G1.G111_T.XDC.A, 2024, less its reported sub-lines",
+          "calculation": "G111_T less the sum of its reported sub-lines (IDR million)"
+        }
+      ]
+    },
+    {
+      "title": "Regional governments: lines of the IMF series, 2024",
+      "defaults": {
+        "denominatorId": "state-2024",
+        "scale": "million",
+        "currency": "IDR",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        { "nodeId": "id-state-g11451", "amount": 96547899.558358, "locator": "Series IDN.S1312MIXED.G1.G11451_T.XDC.A, 2024" },
+        { "nodeId": "id-state-g1146", "amount": 37075508.222373, "locator": "Series IDN.S1312MIXED.G1.G1146_T.XDC.A, 2024" },
+        { "nodeId": "id-state-g1142", "amount": 21285871.570385, "locator": "Series IDN.S1312MIXED.G1.G1142_T.XDC.A, 2024" },
+        { "nodeId": "id-state-g1131", "amount": 16114728.169704, "locator": "Series IDN.S1312MIXED.G1.G1131_T.XDC.A, 2024" },
+        { "nodeId": "id-state-g1144", "amount": 9270539.241899, "locator": "Series IDN.S1312MIXED.G1.G1144_T.XDC.A, 2024" }
+      ]
+    },
+    {
+      "title": "Local governments: lines of the IMF series, 2024",
+      "defaults": {
+        "denominatorId": "local-2024",
+        "scale": "million",
+        "currency": "IDR",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        { "nodeId": "id-local-g1144", "amount": 47299103.36, "locator": "Series IDN.S1313MIXED.G1.G1144_T.XDC.A, 2024" },
+        { "nodeId": "id-local-g1131", "amount": 41824560.752894, "locator": "Series IDN.S1313MIXED.G1.G1131_T.XDC.A, 2024" },
+        { "nodeId": "id-local-g1146", "amount": 3694189.792049, "locator": "Series IDN.S1313MIXED.G1.G1146_T.XDC.A, 2024" }
+      ]
+    }
+  ],
+  "unavailable": []
+}

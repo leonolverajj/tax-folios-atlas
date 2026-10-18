@@ -1,0 +1,35 @@
+{
+  "groups": [
+    {
+      "title": "Budgetary central government: lines of the IMF series, 2019",
+      "defaults": {
+        "denominatorId": "central-2019",
+        "scale": "million",
+        "currency": "IQD",
+        "period": { "label": "2019", "kind": "calendar-year", "start": "2019-01-01", "end": "2019-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        { "nodeId": "iq-central-g1112", "amount": 1269617.21171, "locator": "Series IRQ.S1311B.G1.G1112_T.XDC.A, 2019" },
+        { "nodeId": "iq-central-g1151", "amount": 952680.08591, "locator": "Series IRQ.S1311B.G1.G1151_T.XDC.A, 2019" },
+        { "nodeId": "iq-central-g1111", "amount": 854921.250255, "locator": "Series IRQ.S1311B.G1.G1111_T.XDC.A, 2019" },
+        {
+          "nodeId": "iq-central-g113-other",
+          "amount": 261551.25849,
+          "locator": "Series IRQ.S1311B.G1.G113_T.XDC.A, 2019, less its reported sub-lines",
+          "calculation": "G113_T less the sum of its reported sub-lines (IQD million)"
+        },
+        { "nodeId": "iq-central-g11451", "amount": 220727.197362, "locator": "Series IRQ.S1311B.G1.G11451_T.XDC.A, 2019" },
+        { "nodeId": "iq-central-g1142", "amount": 72313.687786, "locator": "Series IRQ.S1311B.G1.G1142_T.XDC.A, 2019" },
+        { "nodeId": "iq-central-g11452", "amount": 42752.657358, "locator": "Series IRQ.S1311B.G1.G11452_T.XDC.A, 2019" },
+        { "nodeId": "iq-central-g1144", "amount": 38637.714769, "locator": "Series IRQ.S1311B.G1.G1144_T.XDC.A, 2019" },
+        { "nodeId": "iq-central-g1221", "amount": 481.868351, "locator": "Series IRQ.S1311B.G1.G1221_T.XDC.A, 2019" }
+      ]
+    }
+  ],
+  "unavailable": []
+}

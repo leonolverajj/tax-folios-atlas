@@ -1,0 +1,102 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "costa-rica": {
+      "x": 800,
+      "y": 500
+    },
+    "central": {
+      "x": 509,
+      "y": 432
+    },
+    "cr-central-g1212": {
+      "x": 840,
+      "y": 749
+    },
+    "cr-central-g1112": {
+      "x": 461,
+      "y": 742
+    },
+    "cr-central-g1213": {
+      "x": 290,
+      "y": 522
+    },
+    "cr-central-g1151": {
+      "x": 424,
+      "y": 276
+    },
+    "cr-central-g116": {
+      "x": 787,
+      "y": 170
+    },
+    "cr-central-small-tax": {
+      "x": 1163,
+      "y": 268
+    },
+    "cr-central-g11412": {
+      "x": 512,
+      "y": 891
+    },
+    "cr-central-g1142": {
+      "x": 112,
+      "y": 559
+    },
+    "cr-central-g1155": {
+      "x": 353,
+      "y": 157
+    },
+    "cr-central-g121-other": {
+      "x": 1020,
+      "y": 75
+    },
+    "cr-central-g11414": {
+      "x": 1473,
+      "y": 389
+    },
+    "cr-central-g1211": {
+      "x": 879,
+      "y": 903
+    },
+    "cr-central-g1111": {
+      "x": 112,
+      "y": 851
+    },
+    "cr-central-g1132": {
+      "x": 81,
+      "y": 311
+    },
+    "cr-central-g1156": {
+      "x": 614,
+      "y": 32
+    },
+    "cr-central-g1144": {
+      "x": 1420,
+      "y": 99
+    },
+    "local": {
+      "x": 1091,
+      "y": 568
+    },
+    "cr-local-g113-other": {
+      "x": 1165,
+      "y": 412
+    },
+    "cr-local-g1143": {
+      "x": 1281,
+      "y": 529
+    },
+    "cr-local-g1144": {
+      "x": 1257,
+      "y": 677
+    },
+    "cr-local-small-tax": {
+      "x": 1059,
+      "y": 738
+    }
+  },
+  "radii": {}
+}

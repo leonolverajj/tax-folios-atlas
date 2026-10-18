@@ -1,0 +1,104 @@
+{
+  "groups": [
+    {
+      "title": "Central government and social security: lines of the IMF series, 2019",
+      "defaults": {
+        "denominatorId": "central-2019",
+        "scale": "million",
+        "currency": "MMK",
+        "period": { "label": "2019", "kind": "calendar-year", "start": "2019-01-01", "end": "2019-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        {
+          "nodeId": "mm-central-g11413",
+          "amount": 2256770.202,
+          "locator": "Series MMR.S1311 + S1314.G1.G11413_T.XDC.A, 2019",
+          "calculation": "Sum of the sectors S1311 + S1314 (MMK million)"
+        },
+        {
+          "nodeId": "mm-central-g1113",
+          "amount": 2133587.113,
+          "locator": "Series MMR.S1311 + S1314.G1.G1113_T.XDC.A, 2019",
+          "calculation": "Sum of the sectors S1311 + S1314 (MMK million)"
+        },
+        {
+          "nodeId": "mm-central-g1142",
+          "amount": 1429120.747,
+          "locator": "Series MMR.S1311 + S1314.G1.G1142_T.XDC.A, 2019",
+          "calculation": "Sum of the sectors S1311 + S1314 (MMK million)"
+        },
+        {
+          "nodeId": "mm-central-g1151",
+          "amount": 463812.828,
+          "locator": "Series MMR.S1311 + S1314.G1.G1151_T.XDC.A, 2019",
+          "calculation": "Sum of the sectors S1311 + S1314 (MMK million)"
+        },
+        {
+          "nodeId": "mm-central-g11451",
+          "amount": 218362.093,
+          "locator": "Series MMR.S1311 + S1314.G1.G11451_T.XDC.A, 2019",
+          "calculation": "Sum of the sectors S1311 + S1314 (MMK million)"
+        },
+        {
+          "nodeId": "mm-central-g1144",
+          "amount": 144028.025,
+          "locator": "Series MMR.S1311 + S1314.G1.G1144_T.XDC.A, 2019",
+          "calculation": "Sum of the sectors S1311 + S1314 (MMK million)"
+        },
+        {
+          "nodeId": "mm-central-g121-other",
+          "amount": 130234.265,
+          "locator": "Series MMR.S1311 + S1314.G1.G121_T.XDC.A, 2019, less its reported sub-lines",
+          "calculation": "G121_T less the sum of its reported sub-lines (MMK million)"
+        },
+        {
+          "nodeId": "mm-central-g1112",
+          "amount": 64556.375,
+          "locator": "Series MMR.S1311 + S1314.G1.G1112_T.XDC.A, 2019",
+          "calculation": "Sum of the sectors S1311 + S1314 (MMK million)"
+        },
+        {
+          "nodeId": "mm-central-g116",
+          "amount": 59356.256,
+          "locator": "Series MMR.S1311 + S1314.G1.G116_T.XDC.A, 2019",
+          "calculation": "Sum of the sectors S1311 + S1314 (MMK million)"
+        },
+        {
+          "nodeId": "mm-central-small-tax",
+          "amount": 8288.403,
+          "locator": "Series MMR.S1311 + S1314.G1, indicators G113_T:other, G11452_T, G1146_T, XDC, annual, 2019",
+          "calculation": "Sum of 3 lines, each below 0.15% of the total (MMK million)"
+        }
+      ]
+    },
+    {
+      "title": "Local governments: lines of the IMF series, 2019",
+      "defaults": {
+        "denominatorId": "local-2019",
+        "scale": "million",
+        "currency": "MMK",
+        "period": { "label": "2019", "kind": "calendar-year", "start": "2019-01-01", "end": "2019-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        { "nodeId": "mm-local-g11452", "amount": 98167.748, "locator": "Series MMR.S1313MIXED.G1.G11452_T.XDC.A, 2019" },
+        {
+          "nodeId": "mm-local-g113-other",
+          "amount": 35667.257,
+          "locator": "Series MMR.S1313MIXED.G1.G113_T.XDC.A, 2019, less its reported sub-lines",
+          "calculation": "G113_T less the sum of its reported sub-lines (MMK million)"
+        }
+      ]
+    }
+  ],
+  "unavailable": []
+}

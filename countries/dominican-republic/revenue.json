@@ -1,0 +1,132 @@
+{
+  "groups": [
+    {
+      "title": "Central government and social security: lines of the IMF series, 2024",
+      "defaults": {
+        "denominatorId": "central-2024",
+        "scale": "million",
+        "currency": "DOP",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        {
+          "nodeId": "do-central-g11411",
+          "amount": 375087.637196,
+          "locator": "Series DOM.S1311 + S1314.G1.G11411_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (DOP million)"
+        },
+        {
+          "nodeId": "do-central-g1112",
+          "amount": 193330.128819,
+          "locator": "Series DOM.S1311 + S1314.G1.G1112_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (DOP million)"
+        },
+        {
+          "nodeId": "do-central-g1142",
+          "amount": 142534.78164,
+          "locator": "Series DOM.S1311 + S1314.G1.G1142_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (DOP million)"
+        },
+        {
+          "nodeId": "do-central-g1111",
+          "amount": 117251.637735,
+          "locator": "Series DOM.S1311 + S1314.G1.G1111_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (DOP million)"
+        },
+        {
+          "nodeId": "do-central-g1113",
+          "amount": 69589.695801,
+          "locator": "Series DOM.S1311 + S1314.G1.G1113_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (DOP million)"
+        },
+        {
+          "nodeId": "do-central-g1151",
+          "amount": 60110.456998,
+          "locator": "Series DOM.S1311 + S1314.G1.G1151_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (DOP million)"
+        },
+        {
+          "nodeId": "do-central-g1144",
+          "amount": 40021.039269,
+          "locator": "Series DOM.S1311 + S1314.G1.G1144_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (DOP million)"
+        },
+        {
+          "nodeId": "do-central-g1212",
+          "amount": 36767.101427,
+          "locator": "Series DOM.S1311 + S1314.G1.G1212_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (DOP million)"
+        },
+        {
+          "nodeId": "do-central-g11414",
+          "amount": 34538.341025,
+          "locator": "Series DOM.S1311 + S1314.G1.G11414_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (DOP million)"
+        },
+        {
+          "nodeId": "do-central-g11451",
+          "amount": 25230.623821,
+          "locator": "Series DOM.S1311 + S1314.G1.G11451_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (DOP million)"
+        },
+        {
+          "nodeId": "do-central-g1211",
+          "amount": 16033.279094,
+          "locator": "Series DOM.S1311 + S1314.G1.G1211_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (DOP million)"
+        },
+        {
+          "nodeId": "do-central-g1156",
+          "amount": 10626.741066,
+          "locator": "Series DOM.S1311 + S1314.G1.G1156_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (DOP million)"
+        },
+        {
+          "nodeId": "do-central-g1132",
+          "amount": 9989.980997,
+          "locator": "Series DOM.S1311 + S1314.G1.G1132_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (DOP million)"
+        },
+        {
+          "nodeId": "do-central-g113-other",
+          "amount": 5348.774815,
+          "locator": "Series DOM.S1311 + S1314.G1.G113_T.XDC.A, 2024, less its reported sub-lines",
+          "calculation": "G113_T less the sum of its reported sub-lines (DOP million)"
+        },
+        {
+          "nodeId": "do-central-g11452",
+          "amount": 3491.564606,
+          "locator": "Series DOM.S1311 + S1314.G1.G11452_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (DOP million)"
+        },
+        {
+          "nodeId": "do-central-small-tax",
+          "amount": 1327.994085,
+          "locator": "Series DOM.S1311 + S1314.G1, indicators G1133_T, G116_T, XDC, annual, 2024",
+          "calculation": "Sum of 2 lines, each below 0.15% of the total (DOP million)"
+        }
+      ]
+    },
+    {
+      "title": "Local governments: lines of the IMF series, 2024",
+      "defaults": {
+        "denominatorId": "local-2024",
+        "scale": "million",
+        "currency": "DOP",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [{ "nodeId": "do-local-g1144", "amount": 3714.778239, "locator": "Series DOM.S1313MIXED.G1.G1144_T.XDC.A, 2024" }]
+    }
+  ],
+  "unavailable": []
+}

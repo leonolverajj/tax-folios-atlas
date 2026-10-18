@@ -1,0 +1,16 @@
+{
+  "nodes": {
+    "sri-lanka": { "label": "Sri Lanka", "sublabel": "Fiscal folio · IMF lines", "glyph": "globe" },
+    "central": { "label": "Budgetary central govt", "sublabel": "IMF S1311B", "glyph": "landmark" },
+    "lk-central-g11411": { "label": "VAT", "sublabel": "Value added", "glyph": "cart" },
+    "lk-central-g1112": { "label": "Corporate income tax", "sublabel": "Companies", "glyph": "factory" },
+    "lk-central-g1142": { "label": "Excises", "sublabel": "Specific goods", "glyph": "flame" },
+    "lk-central-g1151": { "label": "Customs duties", "sublabel": "Imports", "glyph": "ship" },
+    "lk-central-g11452": { "label": "Licences and use taxes", "sublabel": "Permissions", "glyph": "stamp" },
+    "lk-central-g1111": { "label": "Personal income tax", "sublabel": "Individuals", "glyph": "person" },
+    "lk-central-g1113": { "label": "Other income taxes", "sublabel": "Not split by payer", "glyph": "coin" },
+    "lk-central-g1212": { "label": "Social: employers", "sublabel": "Contributions", "glyph": "shield" },
+    "lk-central-g1144": { "label": "Taxes on services", "sublabel": "Insurance · lodging · gambling", "glyph": "bed" },
+    "lk-central-small-tax": { "label": "Other taxes (small lines)", "sublabel": "4 lines", "glyph": "gear" }
+  }
+}

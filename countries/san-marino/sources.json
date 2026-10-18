@@ -1,0 +1,38 @@
+{
+  "sources": [
+    {
+      "id": "imf-gfs-api",
+      "org": "International Monetary Fund",
+      "title": "Government Finance Statistics, Statement of Operations (GFS_SOO): revenue series of San Marino, domestic currency, annual",
+      "url": "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/SMR.*.G1.*.XDC.A?startPeriod=2016",
+      "kind": "statistics",
+      "language": "en",
+      "publishedDate": "2026-10-17",
+      "periodCovered": "2024",
+      "accessed": "2026-10-17",
+      "note": "The series used, as the IMF’s SDMX interface returns them (XML). The values are in units of domestic currency."
+    },
+    {
+      "id": "imf-gfs-soo",
+      "org": "International Monetary Fund",
+      "title": "IMF Data: GFS Statement of Operations (GFS_SOO), dataset page",
+      "url": "https://data.imf.org/en/datasets/IMF.STA:GFS_SOO",
+      "kind": "statistics",
+      "language": "en",
+      "publishedDate": null,
+      "accessed": "2026-10-17",
+      "note": "The dataset page: description, metadata and download."
+    },
+    {
+      "id": "imf-gfs-codes",
+      "org": "International Monetary Fund",
+      "title": "Codelist CL_GFS_INDICATOR (names of the classification lines of GFS_SOO)",
+      "url": "https://api.imf.org/external/sdmx/2.1/codelist/IMF.STA/CL_GFS_INDICATOR/12.0.0",
+      "kind": "statistics",
+      "language": "en",
+      "publishedDate": null,
+      "accessed": "2026-10-17",
+      "note": "Gives the name of each line (for example G1111_T, taxes on income, profits and capital gains payable by individuals), which follow the Government Finance Statistics Manual 2014."
+    }
+  ]
+}

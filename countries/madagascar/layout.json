@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "madagascar": {
+      "x": 800,
+      "y": 500
+    },
+    "central": {
+      "x": 509,
+      "y": 432
+    },
+    "mg-central-g11411": {
+      "x": 853,
+      "y": 828
+    },
+    "mg-central-g1151": {
+      "x": 398,
+      "y": 703
+    },
+    "mg-central-g1222": {
+      "x": 298,
+      "y": 383
+    },
+    "mg-central-g11414": {
+      "x": 689,
+      "y": 178
+    },
+    "mg-central-small-tax": {
+      "x": 1160,
+      "y": 265
+    },
+    "mg-central-g111": {
+      "x": 401,
+      "y": 867
+    },
+    "mg-central-g1142": {
+      "x": 148,
+      "y": 330
+    },
+    "mg-central-g1221": {
+      "x": 894,
+      "y": 56
+    },
+    "mg-central-g1146": {
+      "x": 1477,
+      "y": 469
+    }
+  },
+  "radii": {}
+}

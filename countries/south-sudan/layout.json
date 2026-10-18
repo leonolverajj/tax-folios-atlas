@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "south-sudan": {
+      "x": 800,
+      "y": 500
+    },
+    "central": {
+      "x": 509,
+      "y": 432
+    },
+    "ss-central-g1111": {
+      "x": 520,
+      "y": 619
+    },
+    "ss-central-g1151": {
+      "x": 331,
+      "y": 540
+    },
+    "ss-central-g1112": {
+      "x": 310,
+      "y": 393
+    },
+    "ss-central-g1142": {
+      "x": 439,
+      "y": 274
+    },
+    "ss-central-g11412": {
+      "x": 605,
+      "y": 286
+    }
+  },
+  "radii": {}
+}

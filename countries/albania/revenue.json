@@ -1,0 +1,135 @@
+{
+  "groups": [
+    {
+      "title": "Central government and social security: lines of the IMF series, 2024",
+      "defaults": {
+        "denominatorId": "central-2024",
+        "scale": "million",
+        "currency": "ALL",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        {
+          "nodeId": "al-central-g11411",
+          "amount": 213999,
+          "locator": "Series ALB.S1311 + S1314.G1.G11411_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (ALL million)"
+        },
+        {
+          "nodeId": "al-central-g1212",
+          "amount": 90573.09,
+          "locator": "Series ALB.S1311 + S1314.G1.G1212_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (ALL million)"
+        },
+        {
+          "nodeId": "al-central-g1142",
+          "amount": 63437.2,
+          "locator": "Series ALB.S1311 + S1314.G1.G1142_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (ALL million)"
+        },
+        {
+          "nodeId": "al-central-g1112",
+          "amount": 63128.44,
+          "locator": "Series ALB.S1311 + S1314.G1.G1112_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (ALL million)"
+        },
+        {
+          "nodeId": "al-central-g1211",
+          "amount": 59121.9,
+          "locator": "Series ALB.S1311 + S1314.G1.G1211_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (ALL million)"
+        },
+        {
+          "nodeId": "al-central-g1111",
+          "amount": 54438.82,
+          "locator": "Series ALB.S1311 + S1314.G1.G1111_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (ALL million)"
+        },
+        {
+          "nodeId": "al-central-g11451",
+          "amount": 21965.98,
+          "locator": "Series ALB.S1311 + S1314.G1.G11451_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (ALL million)"
+        },
+        {
+          "nodeId": "al-central-g11452",
+          "amount": 12923.98,
+          "locator": "Series ALB.S1311 + S1314.G1.G11452_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (ALL million)"
+        },
+        {
+          "nodeId": "al-central-g1213",
+          "amount": 9214.32,
+          "locator": "Series ALB.S1311 + S1314.G1.G1213_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (ALL million)"
+        },
+        {
+          "nodeId": "al-central-g1151",
+          "amount": 8972.74,
+          "locator": "Series ALB.S1311 + S1314.G1.G1151_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (ALL million)"
+        },
+        {
+          "nodeId": "al-central-g11412",
+          "amount": 6491.2,
+          "locator": "Series ALB.S1311 + S1314.G1.G11412_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (ALL million)"
+        },
+        {
+          "nodeId": "al-central-g11414",
+          "amount": 5534.68,
+          "locator": "Series ALB.S1311 + S1314.G1.G11414_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (ALL million)"
+        },
+        {
+          "nodeId": "al-central-g1144",
+          "amount": 2545.11,
+          "locator": "Series ALB.S1311 + S1314.G1.G1144_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (ALL million)"
+        },
+        {
+          "nodeId": "al-central-small-tax",
+          "amount": 155.46,
+          "locator": "Series ALB.S1311 + S1314.G1, indicators G113_T, G1143_T, G1146_T, G1156_T, G116_T, XDC, annual, 2024",
+          "calculation": "Sum of 5 lines, each below 0.15% of the total (ALL million)"
+        }
+      ]
+    },
+    {
+      "title": "Local governments: lines of the IMF series, 2024",
+      "defaults": {
+        "denominatorId": "local-2024",
+        "scale": "million",
+        "currency": "ALL",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        { "nodeId": "al-local-g11452", "amount": 21344.66, "locator": "Series ALB.S1313MIXED.G1.G11452_T.XDC.A, 2024" },
+        {
+          "nodeId": "al-local-g113-other",
+          "amount": 9333.9,
+          "locator": "Series ALB.S1313MIXED.G1.G113_T.XDC.A, 2024, less its reported sub-lines",
+          "calculation": "G113_T less the sum of its reported sub-lines (ALL million)"
+        },
+        {
+          "nodeId": "al-local-small-tax",
+          "amount": 1843.04,
+          "locator": "Series ALB.S1313MIXED.G1, indicators G1112_T, G11412_T, G11414_T, G1144_T, G11451_T, G116_T, XDC, annual, 2024",
+          "calculation": "Sum of 6 lines, each below 0.15% of the total (ALL million)"
+        },
+        { "nodeId": "al-local-g1146", "amount": 1061.8, "locator": "Series ALB.S1313MIXED.G1.G1146_T.XDC.A, 2024" }
+      ]
+    }
+  ],
+  "unavailable": []
+}

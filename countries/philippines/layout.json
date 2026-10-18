@@ -1,0 +1,78 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "philippines": {
+      "x": 800,
+      "y": 500
+    },
+    "central": {
+      "x": 509,
+      "y": 432
+    },
+    "ph-central-g1151": {
+      "x": 817,
+      "y": 830
+    },
+    "ph-central-g121-other": {
+      "x": 456,
+      "y": 744
+    },
+    "ph-central-g11411": {
+      "x": 289,
+      "y": 513
+    },
+    "ph-central-g116": {
+      "x": 426,
+      "y": 275
+    },
+    "ph-central-g1144": {
+      "x": 777,
+      "y": 170
+    },
+    "ph-central-g11451": {
+      "x": 1143,
+      "y": 255
+    },
+    "ph-central-g1111": {
+      "x": 478,
+      "y": 897
+    },
+    "ph-central-g1112": {
+      "x": 112,
+      "y": 559
+    },
+    "ph-central-g1142": {
+      "x": 345,
+      "y": 162
+    },
+    "ph-central-g1113": {
+      "x": 980,
+      "y": 67
+    },
+    "ph-central-g11452": {
+      "x": 1456,
+      "y": 353
+    },
+    "local": {
+      "x": 1091,
+      "y": 568
+    },
+    "ph-local-g11413": {
+      "x": 1243,
+      "y": 457
+    },
+    "ph-local-g113-other": {
+      "x": 1274,
+      "y": 607
+    },
+    "ph-local-g116": {
+      "x": 1161,
+      "y": 726
+    }
+  },
+  "radii": {}
+}

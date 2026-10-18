@@ -1,0 +1,141 @@
+{
+  "groups": [
+    {
+      "title": "Central government and social security: lines of the IMF series, 2022",
+      "defaults": {
+        "denominatorId": "central-2022",
+        "scale": "million",
+        "currency": "USD",
+        "period": { "label": "2022", "kind": "calendar-year", "start": "2022-01-01", "end": "2022-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        {
+          "nodeId": "ec-central-g11411",
+          "amount": 6440.095344,
+          "locator": "Series ECU.S1311 + S1314.G1.G11411_T.XDC.A, 2022",
+          "calculation": "Sum of the sectors S1311 + S1314 (USD million)"
+        },
+        {
+          "nodeId": "ec-central-g1112",
+          "amount": 2974.596965,
+          "locator": "Series ECU.S1311 + S1314.G1.G1112_T.XDC.A, 2022",
+          "calculation": "Sum of the sectors S1311 + S1314 (USD million)"
+        },
+        {
+          "nodeId": "ec-central-g1212",
+          "amount": 2894.273859,
+          "locator": "Series ECU.S1311 + S1314.G1.G1212_T.XDC.A, 2022",
+          "calculation": "Sum of the sectors S1311 + S1314 (USD million)"
+        },
+        {
+          "nodeId": "ec-central-g1211",
+          "amount": 2113.74643,
+          "locator": "Series ECU.S1311 + S1314.G1.G1211_T.XDC.A, 2022",
+          "calculation": "Sum of the sectors S1311 + S1314 (USD million)"
+        },
+        {
+          "nodeId": "ec-central-g1111",
+          "amount": 1377.7,
+          "locator": "Series ECU.S1311 + S1314.G1.G1111_T.XDC.A, 2022",
+          "calculation": "Sum of the sectors S1311 + S1314 (USD million)"
+        },
+        {
+          "nodeId": "ec-central-g1151",
+          "amount": 1266.972438,
+          "locator": "Series ECU.S1311 + S1314.G1.G1151_T.XDC.A, 2022",
+          "calculation": "Sum of the sectors S1311 + S1314 (USD million)"
+        },
+        {
+          "nodeId": "ec-central-g1156",
+          "amount": 1035.739813,
+          "locator": "Series ECU.S1311 + S1314.G1.G1156_T.XDC.A, 2022",
+          "calculation": "Sum of the sectors S1311 + S1314 (USD million)"
+        },
+        {
+          "nodeId": "ec-central-g1142",
+          "amount": 851.645922,
+          "locator": "Series ECU.S1311 + S1314.G1.G1142_T.XDC.A, 2022",
+          "calculation": "Sum of the sectors S1311 + S1314 (USD million)"
+        },
+        {
+          "nodeId": "ec-central-g1221",
+          "amount": 699.342692,
+          "locator": "Series ECU.S1311 + S1314.G1.G1221_T.XDC.A, 2022",
+          "calculation": "Sum of the sectors S1311 + S1314 (USD million)"
+        },
+        {
+          "nodeId": "ec-central-g1135",
+          "amount": 664.581868,
+          "locator": "Series ECU.S1311 + S1314.G1.G1135_T.XDC.A, 2022",
+          "calculation": "Sum of the sectors S1311 + S1314 (USD million)"
+        },
+        {
+          "nodeId": "ec-central-g11451",
+          "amount": 239.936881,
+          "locator": "Series ECU.S1311 + S1314.G1.G11451_T.XDC.A, 2022",
+          "calculation": "Sum of the sectors S1311 + S1314 (USD million)"
+        },
+        {
+          "nodeId": "ec-central-g116",
+          "amount": 207.503587,
+          "locator": "Series ECU.S1311 + S1314.G1.G116_T.XDC.A, 2022",
+          "calculation": "Sum of the sectors S1311 + S1314 (USD million)"
+        },
+        {
+          "nodeId": "ec-central-g1113",
+          "amount": 87.280498,
+          "locator": "Series ECU.S1311 + S1314.G1.G1113_T.XDC.A, 2022",
+          "calculation": "Sum of the sectors S1311 + S1314 (USD million)"
+        },
+        {
+          "nodeId": "ec-central-g1213",
+          "amount": 66.037117,
+          "locator": "Series ECU.S1311 + S1314.G1.G1213_T.XDC.A, 2022",
+          "calculation": "Sum of the sectors S1311 + S1314 (USD million)"
+        },
+        {
+          "nodeId": "ec-central-g11452",
+          "amount": 44.370425,
+          "locator": "Series ECU.S1311 + S1314.G1.G11452_T.XDC.A, 2022",
+          "calculation": "Sum of the sectors S1311 + S1314 (USD million)"
+        },
+        {
+          "nodeId": "ec-central-g1133",
+          "amount": 10.470617,
+          "locator": "Series ECU.S1311 + S1314.G1.G1133_T.XDC.A, 2022",
+          "calculation": "Sum of the sectors S1311 + S1314 (USD million)"
+        }
+      ]
+    },
+    {
+      "title": "Regional governments: lines of the IMF series, 2022",
+      "defaults": {
+        "denominatorId": "state-2022",
+        "scale": "million",
+        "currency": "USD",
+        "period": { "label": "2022", "kind": "calendar-year", "start": "2022-01-01", "end": "2022-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        {
+          "nodeId": "ec-state-g113-other",
+          "amount": 549.764987,
+          "locator": "Series ECU.S1312MIXED.G1.G113_T.XDC.A, 2022, less its reported sub-lines",
+          "calculation": "G113_T less the sum of its reported sub-lines (USD million)"
+        },
+        { "nodeId": "ec-state-g116", "amount": 139.946199, "locator": "Series ECU.S1312MIXED.G1.G116_T.XDC.A, 2022" },
+        { "nodeId": "ec-state-g1146", "amount": 5.769762, "locator": "Series ECU.S1312MIXED.G1.G1146_T.XDC.A, 2022" }
+      ]
+    }
+  ],
+  "unavailable": []
+}

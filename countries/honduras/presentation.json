@@ -1,0 +1,22 @@
+{
+  "nodes": {
+    "honduras": { "label": "Honduras", "sublabel": "Fiscal folio · IMF lines", "glyph": "globe" },
+    "central": { "label": "Central govt and social funds", "sublabel": "IMF S1321", "glyph": "landmark" },
+    "hn-central-g11411": { "label": "VAT", "sublabel": "Value added", "glyph": "cart" },
+    "hn-central-g1142": { "label": "Excises", "sublabel": "Specific goods", "glyph": "flame" },
+    "hn-central-g1112": { "label": "Corporate income tax", "sublabel": "Companies", "glyph": "factory" },
+    "hn-central-g1111": { "label": "Personal income tax", "sublabel": "Individuals", "glyph": "person" },
+    "hn-central-g1212": { "label": "Social: employers", "sublabel": "Contributions", "glyph": "shield" },
+    "hn-central-g1222": { "label": "Other social: employers", "sublabel": "Government schemes", "glyph": "heart" },
+    "hn-central-g1221": { "label": "Other social: employees", "sublabel": "Government schemes", "glyph": "heart" },
+    "hn-central-g1151": { "label": "Customs duties", "sublabel": "Imports", "glyph": "ship" },
+    "hn-central-g1211": { "label": "Social: employees", "sublabel": "Contributions", "glyph": "shield" },
+    "hn-central-g11451": { "label": "Motor vehicle taxes", "sublabel": "Ownership · use", "glyph": "car" },
+    "hn-central-g11414": { "label": "Financial transaction taxes", "sublabel": "Transfers · securities", "glyph": "stamp" },
+    "hn-central-g1132": { "label": "Net wealth tax", "sublabel": "Wealth", "glyph": "gem" },
+    "hn-central-g1133": { "label": "Estate and gift taxes", "sublabel": "Transfers of wealth", "glyph": "scroll" },
+    "hn-central-g1144": { "label": "Taxes on services", "sublabel": "Insurance · lodging · gambling", "glyph": "bed" },
+    "hn-central-g11452": { "label": "Licences and use taxes", "sublabel": "Permissions", "glyph": "stamp" },
+    "hn-central-g1213": { "label": "Social: self-employed", "sublabel": "Contributions", "glyph": "shield" }
+  }
+}

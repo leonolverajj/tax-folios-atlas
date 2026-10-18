@@ -1,0 +1,76 @@
+{
+  "id": "somalia",
+  "iso3": "SOM",
+  "isoNumeric": "706",
+  "names": { "en": "Somalia", "native": "Soomaaliya", "nativeLang": "so" },
+  "currency": { "code": "SOS", "symbol": "Sh", "name": "Somali shilling" },
+  "summary": "Somalia is shown at the grain of the IMF’s Government Finance Statistics: the general government, 20 lines of taxes and social contributions for 2024, in SOS. The largest line is customs and other import duties (42%), then customs and other import duties (16%) and sales taxes (12%). Taxes on goods and services (VAT, sales taxes, excises, vehicle and similar taxes) make 21% of the total and income taxes 13%; social contributions are 0.4%. The folio records what each line raised; it does not describe the country’s tax laws, rates or the names of its individual taxes.",
+  "structureNote": "This folio is built from one source, the IMF’s Government Finance Statistics (Statement of Operations), for 2024: general government (S13), split by the IMF into central, state and local government. Every level that the IMF series reports with detail in this year is drawn; the sum of the levels equals the general-government total within 1.5%. Lines below 0.15% of the total are folded into one “small lines” core per level; lines that the IMF reports only as a parent are drawn as the parent. Rates, legal bases and the names of the individual taxes are not recorded. The IMF labels the series 2024; where the country’s fiscal year is not the calendar year, this is the fiscal year the IMF assigns to 2024. The figures are the IMF’s and have not been compared with the country’s own statistics. There is no OECD level layer for this country in the atlas.",
+  "theme": {
+    "accent": "#d449c6",
+    "accent2": "#ebc2cb",
+    "motif": "topo",
+    "motifNote": "Topographic contour lines over the outline of Somalia (the generic motif).",
+    "mapLabel": { "lon": 49, "lat": 10 }
+  },
+  "levels": [
+    {
+      "id": "central",
+      "branch": "national",
+      "names": { "official": "Central government", "common": "Central government" },
+      "description": "Central government as the IMF’s Government Finance Statistics classify them (sector S1311).",
+      "fiscalPower": "This folio records what each line of the IMF’s classification raised; it does not describe which taxes this level may set or keep.",
+      "legalRefs": [{ "sourceId": "imf-gfs-api", "locator": "sector S1311" }],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "state",
+      "branch": "regional",
+      "names": { "official": "State, provincial or regional governments", "common": "Regional governments" },
+      "description": "State, provincial or regional governments as the IMF’s Government Finance Statistics classify them (sector S1312MIXED).",
+      "fiscalPower": "This folio records what each line of the IMF’s classification raised; it does not describe which taxes this level may set or keep.",
+      "legalRefs": [{ "sourceId": "imf-gfs-api", "locator": "sector S1312MIXED" }],
+      "checkedOn": "2026-10-17"
+    }
+  ],
+  "supportingSourceIds": ["imf-gfs-soo"],
+  "denominators": [
+    {
+      "id": "central-2024",
+      "label": "Taxes and social contributions of the central government, 2024",
+      "definition": "The taxes (GFS 11) and actual social contributions (GFS 12) of the central government that the IMF reports for 2024, in SOS; imputed social contributions are left out.",
+      "levelIds": ["central"],
+      "amount": 267.904325,
+      "scale": "million",
+      "currency": "SOS",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "imf-gfs-api",
+      "locator": "Series SOM.S1311.G1, indicators G11_T and G12_T and their sub-lines, XDC, annual, 2024",
+      "calculation": "Sum of the 9 lines drawn (SOS million). The IMF reports 267.904 million for the sector; the lines drawn differ from it by -0 million (rounding between levels of the classification).",
+      "caveat": "The IMF flags the figures for this year as actual. The IMF labels the series 2024; where the country’s fiscal year is not the calendar year, this is the fiscal year the IMF assigns to 2024.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "state-2024",
+      "label": "Taxes and social contributions of the state, provincial or regional governments, 2024",
+      "definition": "The taxes (GFS 11) and actual social contributions (GFS 12) of the state, provincial or regional governments that the IMF reports for 2024, in SOS; imputed social contributions are left out.",
+      "levelIds": ["state"],
+      "amount": 128.255786,
+      "scale": "million",
+      "currency": "SOS",
+      "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+      "sourceId": "imf-gfs-api",
+      "locator": "Series SOM.S1312MIXED.G1, indicators G11_T and G12_T and their sub-lines, XDC, annual, 2024",
+      "calculation": "Sum of the 11 lines drawn (SOS million). The IMF reports 128.256 million for the sector; the lines drawn differ from it by 0 million (rounding between levels of the classification).",
+      "caveat": "The IMF flags the figures for this year as actual. The IMF labels the series 2024; where the country’s fiscal year is not the calendar year, this is the fiscal year the IMF assigns to 2024.",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "sizing": {
+    "label": "Taxes and actual social contributions reported to the IMF, 2024",
+    "definition": "The taxes (GFS 11) and actual social contributions (GFS 12) of the central government, the state, provincial or regional governments for 2024, as the IMF’s Government Finance Statistics report them in SOS. Imputed social contributions are left out; sectors that the IMF series does not report in detail for 2024 are not included.",
+    "componentIds": ["central-2024", "state-2024"]
+  },
+  "researchStatus": "researched",
+  "grain": "harmonised"
+}

@@ -1,0 +1,34 @@
+{
+  "groups": [
+    {
+      "title": "Budgetary central government: lines of the IMF series, 2022",
+      "defaults": {
+        "denominatorId": "central-2022",
+        "scale": "million",
+        "currency": "VND",
+        "period": { "label": "2022", "kind": "calendar-year", "start": "2022-01-01", "end": "2022-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        { "nodeId": "vn-central-g1141", "amount": 457467000, "locator": "Series VNM.S1311B.G1.G1141_T.XDC.A, 2022" },
+        { "nodeId": "vn-central-g1112", "amount": 351793000, "locator": "Series VNM.S1311B.G1.G1112_T.XDC.A, 2022" },
+        { "nodeId": "vn-central-g1111", "amount": 162944000, "locator": "Series VNM.S1311B.G1.G1111_T.XDC.A, 2022" },
+        { "nodeId": "vn-central-g1142", "amount": 151581000, "locator": "Series VNM.S1311B.G1.G1142_T.XDC.A, 2022" },
+        { "nodeId": "vn-central-g115", "amount": 114304000, "locator": "Series VNM.S1311B.G1.G115_T.XDC.A, 2022" },
+        { "nodeId": "vn-central-g1145", "amount": 50264000, "locator": "Series VNM.S1311B.G1.G1145_T.XDC.A, 2022" },
+        { "nodeId": "vn-central-g1146", "amount": 43653000, "locator": "Series VNM.S1311B.G1.G1146_T.XDC.A, 2022" },
+        {
+          "nodeId": "vn-central-g113-other",
+          "amount": 3215000,
+          "locator": "Series VNM.S1311B.G1.G113_T.XDC.A, 2022, less its reported sub-lines",
+          "calculation": "G113_T less the sum of its reported sub-lines (VND million)"
+        }
+      ]
+    }
+  ],
+  "unavailable": []
+}

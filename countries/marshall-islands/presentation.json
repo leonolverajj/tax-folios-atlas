@@ -1,0 +1,17 @@
+{
+  "nodes": {
+    "marshall-islands": { "label": "Marshall Islands", "sublabel": "Fiscal folio · IMF lines", "glyph": "globe" },
+    "central": { "label": "Central govt and social funds", "sublabel": "IMF S1311 + S1314", "glyph": "landmark" },
+    "mh-central-g1111": { "label": "Personal income tax", "sublabel": "Individuals", "glyph": "person" },
+    "mh-central-g1211": { "label": "Social: employees", "sublabel": "Contributions", "glyph": "shield" },
+    "mh-central-g1213": { "label": "Social: self-employed", "sublabel": "Contributions", "glyph": "shield" },
+    "mh-central-g1151": { "label": "Customs duties", "sublabel": "Imports", "glyph": "ship" },
+    "mh-central-g11452": { "label": "Licences and use taxes", "sublabel": "Permissions", "glyph": "stamp" },
+    "mh-central-g11413": { "label": "Turnover taxes", "sublabel": "Other general taxes", "glyph": "percent" },
+    "mh-central-g113-other": { "label": "Other property taxes", "sublabel": "Not itemised", "glyph": "house" },
+    "mh-central-g112": { "label": "Payroll taxes", "sublabel": "Wage bill", "glyph": "ledger" },
+    "mh-central-g116": { "label": "Other taxes", "sublabel": "Not elsewhere classified", "glyph": "gear" },
+    "mh-central-g1144": { "label": "Taxes on services", "sublabel": "Insurance · lodging · gambling", "glyph": "bed" },
+    "mh-central-small-tax": { "label": "Other taxes (small lines)", "sublabel": "2 lines", "glyph": "gear" }
+  }
+}

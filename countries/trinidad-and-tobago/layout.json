@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "trinidad-and-tobago": {
+      "x": 800,
+      "y": 500
+    },
+    "central": {
+      "x": 509,
+      "y": 432
+    },
+    "tt-central-g1112": {
+      "x": 847,
+      "y": 725
+    },
+    "tt-central-g1212": {
+      "x": 470,
+      "y": 743
+    },
+    "tt-central-g1142": {
+      "x": 289,
+      "y": 514
+    },
+    "tt-central-g11451": {
+      "x": 421,
+      "y": 278
+    },
+    "tt-central-g11414": {
+      "x": 798,
+      "y": 170
+    },
+    "tt-central-small-tax": {
+      "x": 1163,
+      "y": 268
+    },
+    "tt-central-g11411": {
+      "x": 508,
+      "y": 890
+    },
+    "tt-central-g1151": {
+      "x": 113,
+      "y": 565
+    },
+    "tt-central-g116": {
+      "x": 358,
+      "y": 155
+    },
+    "tt-central-g1144": {
+      "x": 1010,
+      "y": 73
+    },
+    "tt-central-g1221": {
+      "x": 1474,
+      "y": 392
+    },
+    "tt-central-g112": {
+      "x": 875,
+      "y": 893
+    },
+    "tt-central-g1211": {
+      "x": 97,
+      "y": 839
+    },
+    "tt-central-g1111": {
+      "x": 102,
+      "y": 307
+    },
+    "tt-central-g1146": {
+      "x": 609,
+      "y": 32
+    },
+    "tt-central-g11452": {
+      "x": 1416,
+      "y": 97
+    }
+  },
+  "radii": {}
+}

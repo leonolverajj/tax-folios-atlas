@@ -1,0 +1,78 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "bosnia-and-herzegovina": {
+      "x": 800,
+      "y": 500
+    },
+    "central": {
+      "x": 509,
+      "y": 432
+    },
+    "ba-central-g11411": {
+      "x": 739,
+      "y": 828
+    },
+    "ba-central-g1112": {
+      "x": 368,
+      "y": 677
+    },
+    "ba-central-g1144": {
+      "x": 310,
+      "y": 388
+    },
+    "ba-central-g116": {
+      "x": 637,
+      "y": 187
+    },
+    "ba-central-small-tax": {
+      "x": 1085,
+      "y": 226
+    },
+    "ba-central-g1211": {
+      "x": 417,
+      "y": 874
+    },
+    "ba-central-g1111": {
+      "x": 108,
+      "y": 538
+    },
+    "ba-central-g11452": {
+      "x": 321,
+      "y": 175
+    },
+    "ba-central-small-social": {
+      "x": 914,
+      "y": 58
+    },
+    "ba-central-g11451": {
+      "x": 1411,
+      "y": 287
+    },
+    "local": {
+      "x": 1091,
+      "y": 568
+    },
+    "ba-local-g11411": {
+      "x": 1161,
+      "y": 411
+    },
+    "ba-local-g1111": {
+      "x": 1273,
+      "y": 529
+    },
+    "ba-local-g113-other": {
+      "x": 1262,
+      "y": 710
+    },
+    "ba-local-small-tax": {
+      "x": 1051,
+      "y": 738
+    }
+  },
+  "radii": {}
+}

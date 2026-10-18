@@ -1,0 +1,36 @@
+{
+  "groups": [
+    {
+      "title": "Budgetary central government: lines of the IMF series, 2021",
+      "defaults": {
+        "denominatorId": "central-2021",
+        "scale": "million",
+        "currency": "SZL",
+        "period": { "label": "2021", "kind": "calendar-year", "start": "2021-01-01", "end": "2021-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        { "nodeId": "sz-central-g1151", "amount": 6384.123681, "locator": "Series SWZ.S1311B.G1.G1151_T.XDC.A, 2021" },
+        { "nodeId": "sz-central-g1111", "amount": 3815.009419, "locator": "Series SWZ.S1311B.G1.G1111_T.XDC.A, 2021" },
+        { "nodeId": "sz-central-g11411", "amount": 3134.23828, "locator": "Series SWZ.S1311B.G1.G11411_T.XDC.A, 2021" },
+        { "nodeId": "sz-central-g1112", "amount": 1837.254141, "locator": "Series SWZ.S1311B.G1.G1112_T.XDC.A, 2021" },
+        { "nodeId": "sz-central-g1142", "amount": 1333.584141, "locator": "Series SWZ.S1311B.G1.G1142_T.XDC.A, 2021" },
+        { "nodeId": "sz-central-g1113", "amount": 533.049057, "locator": "Series SWZ.S1311B.G1.G1113_T.XDC.A, 2021" },
+        { "nodeId": "sz-central-g11452", "amount": 146.400403, "locator": "Series SWZ.S1311B.G1.G11452_T.XDC.A, 2021" },
+        { "nodeId": "sz-central-g116", "amount": 50.077665, "locator": "Series SWZ.S1311B.G1.G116_T.XDC.A, 2021" },
+        { "nodeId": "sz-central-g113", "amount": 45.140584, "locator": "Series SWZ.S1311B.G1.G113_T.XDC.A, 2021" },
+        {
+          "nodeId": "sz-central-small-tax",
+          "amount": 23.817323,
+          "locator": "Series SWZ.S1311B.G1, indicators G112_T, G11412_T, G1144_T, G11451_T, XDC, annual, 2021",
+          "calculation": "Sum of 4 lines, each below 0.15% of the total (SZL million)"
+        }
+      ]
+    }
+  ],
+  "unavailable": []
+}

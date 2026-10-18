@@ -1,0 +1,311 @@
+{
+  "instruments": [
+    {
+      "id": "lb-central-g11411",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "general-consumption",
+      "status": "current",
+      "names": { "official": "Value added taxes", "common": "Value added tax" },
+      "taxes": {
+        "base": "Taxes charged on the value added at each stage of production and distribution (GFS 11411).",
+        "payer": "Final consumers, through the businesses that collect it."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "LBP 115 trillion in 2024: 44% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "imf-gfs-codes", "locator": "G11411" }, { "sourceId": "imf-gfs-api", "locator": "Series LBN.S1311B.G1.G11411_T.XDC.A, 2024" }],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "lb-central-g1151",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "customs-duty",
+      "family": "trade",
+      "status": "current",
+      "names": { "official": "Customs and other import duties", "common": "Customs and other import duties" },
+      "taxes": { "base": "Duties on imported goods (GFS 1151).", "payer": "Importers." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "LBP 28.9 trillion in 2024: 11% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "imf-gfs-codes", "locator": "G1151" }, { "sourceId": "imf-gfs-api", "locator": "Series LBN.S1311B.G1.G1151_T.XDC.A, 2024" }],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "lb-central-g116",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "other",
+      "status": "current",
+      "names": { "official": "Other taxes", "common": "Other taxes" },
+      "taxes": { "base": "Taxes that the classification does not place elsewhere (GFS 116).", "payer": "Various." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "LBP 26.2 trillion in 2024: 10% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "imf-gfs-codes", "locator": "G116" }, { "sourceId": "imf-gfs-api", "locator": "Series LBN.S1311B.G1.G116_T.XDC.A, 2024" }],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "lb-central-g1112",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "income-corporate",
+      "status": "current",
+      "names": { "official": "Taxes on income, profits and capital gains payable by corporations and other enterprises", "common": "Corporate income tax" },
+      "taxes": {
+        "base": "Income, profits and capital gains of corporations and other enterprises (GFS 1112).",
+        "payer": "Corporations and other enterprises."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "LBP 18.8 trillion in 2024: 7.3% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "imf-gfs-codes", "locator": "G1112" }, { "sourceId": "imf-gfs-api", "locator": "Series LBN.S1311B.G1.G1112_T.XDC.A, 2024" }],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "lb-central-g1142",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Excises", "common": "Excises" },
+      "taxes": {
+        "base": "Taxes on specific goods or services, such as alcohol, tobacco and fuel (GFS 1142).",
+        "payer": "Producers and importers; passed on in prices."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "LBP 17.5 trillion in 2024: 6.8% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "imf-gfs-codes", "locator": "G1142" }, { "sourceId": "imf-gfs-api", "locator": "Series LBN.S1311B.G1.G1142_T.XDC.A, 2024" }],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "lb-central-g1143",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Profits of fiscal monopolies", "common": "Profits of fiscal monopolies" },
+      "taxes": { "base": "Profits transferred to the government by monopolies set up to raise revenue (GFS 1143).", "payer": "The monopoly." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "LBP 10.3 trillion in 2024: 4% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "imf-gfs-codes", "locator": "G1143" }, { "sourceId": "imf-gfs-api", "locator": "Series LBN.S1311B.G1.G1143_T.XDC.A, 2024" }],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "lb-central-g112",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "payroll",
+      "status": "current",
+      "names": { "official": "Taxes on payroll and workforce", "common": "Payroll taxes" },
+      "taxes": { "base": "Taxes levied on the wages and salaries paid or on the number of workers (GFS 112).", "payer": "Employers or employees." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "LBP 10.3 trillion in 2024: 4% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "imf-gfs-codes", "locator": "G112" }, { "sourceId": "imf-gfs-api", "locator": "Series LBN.S1311B.G1.G112_T.XDC.A, 2024" }],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "lb-central-g1131",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "Recurrent taxes on immovable property", "common": "Recurrent property tax" },
+      "taxes": { "base": "Recurrent taxes on immovable property: land and buildings (GFS 1131).", "payer": "Owners or users of the property." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "LBP 9.99 trillion in 2024: 3.9% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "imf-gfs-codes", "locator": "G1131" }, { "sourceId": "imf-gfs-api", "locator": "Series LBN.S1311B.G1.G1131_T.XDC.A, 2024" }],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "lb-central-g1144",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Taxes on specific services", "common": "Taxes on specific services" },
+      "taxes": {
+        "base": "Taxes on specific services such as insurance, entertainment, lodging and gambling (GFS 1144).",
+        "payer": "Providers of the services."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "LBP 8.97 trillion in 2024: 3.5% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "imf-gfs-codes", "locator": "G1144" }, { "sourceId": "imf-gfs-api", "locator": "Series LBN.S1311B.G1.G1144_T.XDC.A, 2024" }],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "lb-central-g1113",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "income-mixed",
+      "status": "current",
+      "names": { "official": "Other taxes on income, profits and capital gains", "common": "Other income taxes" },
+      "taxes": {
+        "base": "Taxes on income, profits and capital gains that the country does not attribute to individuals or to enterprises (GFS 1113).",
+        "payer": "Individuals or enterprises."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "LBP 5.7 trillion in 2024: 2.2% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "imf-gfs-codes", "locator": "G1113" }, { "sourceId": "imf-gfs-api", "locator": "Series LBN.S1311B.G1.G1113_T.XDC.A, 2024" }],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "lb-central-g1133",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "Estate, inheritance and gift taxes", "common": "Estate, inheritance and gift taxes" },
+      "taxes": { "base": "Taxes on the transfer of wealth by inheritance, bequest or gift (GFS 1133).", "payer": "Heirs, estates and recipients of gifts." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "LBP 5.63 trillion in 2024: 2.2% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "imf-gfs-codes", "locator": "G1133" }, { "sourceId": "imf-gfs-api", "locator": "Series LBN.S1311B.G1.G1133_T.XDC.A, 2024" }],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "lb-central-g113-other",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "Taxes on property, not itemised in the IMF series", "common": "Other property taxes (not itemised)" },
+      "taxes": {
+        "base": "The part of the line “Taxes on property” (GFS G113) that the IMF series does not itemise: the line itself minus its reported sub-lines.",
+        "payer": "Various."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "LBP 1.96 trillion in 2024: 0.8% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [
+        { "sourceId": "imf-gfs-codes", "locator": "G113" },
+        { "sourceId": "imf-gfs-api", "locator": "Series LBN.S1311B.G1.G113_T.XDC.A, 2024, less its reported sub-lines" }
+      ],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "lb-central-small-tax",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "other",
+      "status": "current",
+      "names": { "official": "Other taxes (small lines)", "common": "Other taxes (small lines)" },
+      "taxes": {
+        "base": "2 lines of the IMF series that are each below 0.15% of the total, folded together: G11451 Motor vehicle taxes; G1146 Other taxes on goods and services.",
+        "payer": "Various."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "LBP 35 billion in 2024: 0% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [
+        { "sourceId": "imf-gfs-codes", "locator": "small-tax" },
+        { "sourceId": "imf-gfs-api", "locator": "Series LBN.S1311B.G1, indicators G11451_T, G1146_T, XDC, annual, 2024" }
+      ],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "lb-central-g1221",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "social-contribution",
+      "family": "social-security",
+      "status": "current",
+      "names": { "official": "Other social contributions: employee contributions", "common": "Other social contributions of employees" },
+      "taxes": { "base": "Contributions of employees to government employee schemes outside social security (GFS 1221).", "payer": "Government employees." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "LBP 24 billion in 2024: 0% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "imf-gfs-codes", "locator": "G1221" }, { "sourceId": "imf-gfs-api", "locator": "Series LBN.S1311B.G1.G1221_T.XDC.A, 2024" }],
+      "checkedOn": "2026-10-17"
+    }
+  ]
+}

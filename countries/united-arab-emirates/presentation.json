@@ -1,0 +1,23 @@
+{
+  "nodes": {
+    "united-arab-emirates": { "label": "United Arab Emirates", "sublabel": "Fiscal folio · IMF lines", "glyph": "globe" },
+    "central": { "label": "Central govt and social funds", "sublabel": "IMF S1311 + S1314", "glyph": "landmark" },
+    "state": { "label": "Regional governments", "sublabel": "IMF S1312", "glyph": "city" },
+    "ae-central-g11411": { "label": "VAT", "sublabel": "Value added", "glyph": "cart" },
+    "ae-central-g1222": { "label": "Other social: employers", "sublabel": "Government schemes", "glyph": "heart" },
+    "ae-central-g1212": { "label": "Social: employers", "sublabel": "Contributions", "glyph": "shield" },
+    "ae-central-g1211": { "label": "Social: employees", "sublabel": "Contributions", "glyph": "shield" },
+    "ae-central-g1221": { "label": "Other social: employees", "sublabel": "Government schemes", "glyph": "heart" },
+    "ae-central-g1142": { "label": "Excises", "sublabel": "Specific goods", "glyph": "flame" },
+    "ae-central-g11452": { "label": "Licences and use taxes", "sublabel": "Permissions", "glyph": "stamp" },
+    "ae-central-small-tax": { "label": "Other taxes (small lines)", "sublabel": "2 lines", "glyph": "gear" },
+    "ae-state-g1112": { "label": "Corporate income tax", "sublabel": "Companies", "glyph": "factory" },
+    "ae-state-g11411": { "label": "VAT", "sublabel": "Value added", "glyph": "cart" },
+    "ae-state-g1151": { "label": "Customs duties", "sublabel": "Imports", "glyph": "ship" },
+    "ae-state-g11452": { "label": "Licences and use taxes", "sublabel": "Permissions", "glyph": "stamp" },
+    "ae-state-g1142": { "label": "Excises", "sublabel": "Specific goods", "glyph": "flame" },
+    "ae-state-small-tax": { "label": "Other taxes (small lines)", "sublabel": "3 lines", "glyph": "gear" },
+    "ae-state-g116": { "label": "Other taxes", "sublabel": "Not elsewhere classified", "glyph": "gear" },
+    "ae-state-g1211": { "label": "Social: employees", "sublabel": "Contributions", "glyph": "shield" }
+  }
+}

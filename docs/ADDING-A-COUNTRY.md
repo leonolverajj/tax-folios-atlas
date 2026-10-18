@@ -58,6 +58,18 @@ npm run roadmap && npm run checklist
 
 `npm run links` writes `docs/LINK-REPORT.md`. Sites that refuse the checker are listed as blocked: open each one in a browser and, if it is right, record how in `scripts/link-verified.json`. Pages that need a challenge (CAPTCHA, bot check) stay "unverified"; do not bypass them.
 
+## C. A folio at the grain of the IMF's classification (minutes per country)
+
+For a country without a usable national source, the IMF's *Government Finance Statistics* give one line per class of tax and social contribution, for general or central government, in a uniform way. This is how 119 countries were added; the folio is tagged `grain: harmonised` and is **not** a detailed folio (no rates, no legal bases, no names of the country's own taxes; see METHODOLOGY for the rules and the checks).
+
+```bash
+node scripts/extract-gfs.cjs <cache-dir> KEN                  # downloads the IMF series once into <cache-dir>, writes scripts/build/data/gfs-KEN.json
+node scripts/extract-country-meta.cjs <cache-dir> KEN         # ISO codes, names, currency, coordinates
+npx tsx scripts/build/gfs-countries.ts KEN                   # writes countries/kenya/*
+npm run layouts:init && npm run backgrounds -- kenya && npm run validate
+```n
+If the dataset lists several currencies for the country, add it to `CURRENCY_OVERRIDE` in `scripts/build/gfs-countries.ts` (and check the currency against the World Bank as described in METHODOLOGY); if its English or native name needs correcting, to `NAME_OVERRIDE` or `NATIVE_OVERRIDE`. If the folio has to be a *detailed* one later, write `scripts/build/<id>.ts` as in section B: the IMF folio is replaced.
+
 ## Rules that keep countries comparable
 
 - One reference year for the harmonised layer, all countries together.

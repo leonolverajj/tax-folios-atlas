@@ -1,0 +1,114 @@
+{
+  "groups": [
+    {
+      "title": "Central government and social security: lines of the IMF series, 2024",
+      "defaults": {
+        "denominatorId": "central-2024",
+        "scale": "million",
+        "currency": "NAD",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Accrual basis, as reported to the IMF (flag AC)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        {
+          "nodeId": "na-central-g1151",
+          "amount": 28058.011168,
+          "locator": "Series NAM.S1311 + S1314.G1.G1151_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (NAD million)"
+        },
+        {
+          "nodeId": "na-central-g11411",
+          "amount": 19707.688402,
+          "locator": "Series NAM.S1311 + S1314.G1.G11411_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (NAD million)"
+        },
+        {
+          "nodeId": "na-central-g1111",
+          "amount": 19286.845165,
+          "locator": "Series NAM.S1311 + S1314.G1.G1111_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (NAD million)"
+        },
+        {
+          "nodeId": "na-central-g1112",
+          "amount": 12598.544936,
+          "locator": "Series NAM.S1311 + S1314.G1.G1112_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (NAD million)"
+        },
+        {
+          "nodeId": "na-central-g11414",
+          "amount": 1605.643045,
+          "locator": "Series NAM.S1311 + S1314.G1.G11414_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (NAD million)"
+        },
+        {
+          "nodeId": "na-central-g1212",
+          "amount": 1256.949001,
+          "locator": "Series NAM.S1311 + S1314.G1.G1212_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (NAD million)"
+        },
+        {
+          "nodeId": "na-central-g1142",
+          "amount": 1035.626073,
+          "locator": "Series NAM.S1311 + S1314.G1.G1142_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (NAD million)"
+        },
+        {
+          "nodeId": "na-central-g1113",
+          "amount": 803.317386,
+          "locator": "Series NAM.S1311 + S1314.G1.G1113_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (NAD million)"
+        },
+        {
+          "nodeId": "na-central-g1152",
+          "amount": 560.046022,
+          "locator": "Series NAM.S1311 + S1314.G1.G1152_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (NAD million)"
+        },
+        {
+          "nodeId": "na-central-g1156",
+          "amount": 465.227818,
+          "locator": "Series NAM.S1311 + S1314.G1.G1156_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (NAD million)"
+        },
+        {
+          "nodeId": "na-central-g113-other",
+          "amount": 354.699982,
+          "locator": "Series NAM.S1311 + S1314.G1.G113_T.XDC.A, 2024, less its reported sub-lines",
+          "calculation": "G113_T less the sum of its reported sub-lines (NAD million)"
+        },
+        {
+          "nodeId": "na-central-g11452",
+          "amount": 211.488129,
+          "locator": "Series NAM.S1311 + S1314.G1.G11452_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (NAD million)"
+        },
+        {
+          "nodeId": "na-central-g1155",
+          "amount": 0.05742,
+          "locator": "Series NAM.S1311 + S1314.G1.G1155_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (NAD million)"
+        }
+      ]
+    },
+    {
+      "title": "Local governments: lines of the IMF series, 2024",
+      "defaults": {
+        "denominatorId": "local-2024",
+        "scale": "million",
+        "currency": "NAD",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Accrual basis, as reported to the IMF (flag AC)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [{ "nodeId": "na-local-g1111", "amount": 609.643917, "locator": "Series NAM.S1313MIXED.G1.G1111_T.XDC.A, 2024" }]
+    }
+  ],
+  "unavailable": []
+}

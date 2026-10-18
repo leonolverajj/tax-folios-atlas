@@ -1,0 +1,87 @@
+{
+  "groups": [
+    {
+      "title": "Central government and social security: lines of the IMF series, 2018",
+      "defaults": {
+        "denominatorId": "central-2018",
+        "scale": "million",
+        "currency": "USD",
+        "period": { "label": "2018", "kind": "calendar-year", "start": "2018-01-01", "end": "2018-12-31" },
+        "basis": "Accrual basis, as reported to the IMF (flag AC)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        {
+          "nodeId": "mh-central-g1111",
+          "amount": 15.066,
+          "locator": "Series MHL.S1311 + S1314.G1.G1111_T.XDC.A, 2018",
+          "calculation": "Sum of the sectors S1311 + S1314 (USD million)"
+        },
+        {
+          "nodeId": "mh-central-g1211",
+          "amount": 14.746947,
+          "locator": "Series MHL.S1311 + S1314.G1.G1211_T.XDC.A, 2018",
+          "calculation": "Sum of the sectors S1311 + S1314 (USD million)"
+        },
+        {
+          "nodeId": "mh-central-g1213",
+          "amount": 12.788369,
+          "locator": "Series MHL.S1311 + S1314.G1.G1213_T.XDC.A, 2018",
+          "calculation": "Sum of the sectors S1311 + S1314 (USD million)"
+        },
+        {
+          "nodeId": "mh-central-g1151",
+          "amount": 8.391,
+          "locator": "Series MHL.S1311 + S1314.G1.G1151_T.XDC.A, 2018",
+          "calculation": "Sum of the sectors S1311 + S1314 (USD million)"
+        },
+        {
+          "nodeId": "mh-central-g11452",
+          "amount": 7.279,
+          "locator": "Series MHL.S1311 + S1314.G1.G11452_T.XDC.A, 2018",
+          "calculation": "Sum of the sectors S1311 + S1314 (USD million)"
+        },
+        {
+          "nodeId": "mh-central-g11413",
+          "amount": 7.090105,
+          "locator": "Series MHL.S1311 + S1314.G1.G11413_T.XDC.A, 2018",
+          "calculation": "Sum of the sectors S1311 + S1314 (USD million)"
+        },
+        {
+          "nodeId": "mh-central-g113-other",
+          "amount": 0.709,
+          "locator": "Series MHL.S1311 + S1314.G1.G113_T.XDC.A, 2018, less its reported sub-lines",
+          "calculation": "G113_T less the sum of its reported sub-lines (USD million)"
+        },
+        {
+          "nodeId": "mh-central-g112",
+          "amount": 0.584,
+          "locator": "Series MHL.S1311 + S1314.G1.G112_T.XDC.A, 2018",
+          "calculation": "Sum of the sectors S1311 + S1314 (USD million)"
+        },
+        {
+          "nodeId": "mh-central-g116",
+          "amount": 0.131,
+          "locator": "Series MHL.S1311 + S1314.G1.G116_T.XDC.A, 2018",
+          "calculation": "Sum of the sectors S1311 + S1314 (USD million)"
+        },
+        {
+          "nodeId": "mh-central-g1144",
+          "amount": 0.11663,
+          "locator": "Series MHL.S1311 + S1314.G1.G1144_T.XDC.A, 2018",
+          "calculation": "Sum of the sectors S1311 + S1314 (USD million)"
+        },
+        {
+          "nodeId": "mh-central-small-tax",
+          "amount": 0.058,
+          "locator": "Series MHL.S1311 + S1314.G1, indicators G11451_T, G1146_T, XDC, annual, 2018",
+          "calculation": "Sum of 2 lines, each below 0.15% of the total (USD million)"
+        }
+      ]
+    }
+  ],
+  "unavailable": []
+}

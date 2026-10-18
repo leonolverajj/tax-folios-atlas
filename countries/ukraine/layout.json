@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "ukraine": {
+      "x": 800,
+      "y": 500
+    },
+    "central": {
+      "x": 509,
+      "y": 432
+    },
+    "ua-central-g11411": {
+      "x": 684,
+      "y": 824
+    },
+    "ua-central-g1111": {
+      "x": 407,
+      "y": 711
+    },
+    "ua-central-g1142": {
+      "x": 289,
+      "y": 496
+    },
+    "ua-central-g1213": {
+      "x": 405,
+      "y": 290
+    },
+    "ua-central-g11452": {
+      "x": 704,
+      "y": 176
+    },
+    "ua-central-small-tax": {
+      "x": 1050,
+      "y": 195
+    },
+    "ua-central-g1212": {
+      "x": 441,
+      "y": 884
+    },
+    "ua-central-g1112": {
+      "x": 144,
+      "y": 646
+    },
+    "ua-central-g1151": {
+      "x": 154,
+      "y": 336
+    },
+    "ua-central-g11414": {
+      "x": 459,
+      "y": 110
+    },
+    "ua-central-g1144": {
+      "x": 923,
+      "y": 59
+    },
+    "ua-central-small-social": {
+      "x": 1335,
+      "y": 195
+    },
+    "local": {
+      "x": 1091,
+      "y": 568
+    },
+    "ua-local-g1111": {
+      "x": 1180,
+      "y": 305
+    },
+    "ua-local-g116": {
+      "x": 1290,
+      "y": 417
+    },
+    "ua-local-g1142": {
+      "x": 1307,
+      "y": 544
+    },
+    "ua-local-g1112": {
+      "x": 1268,
+      "y": 675
+    },
+    "ua-local-g113-other": {
+      "x": 1084,
+      "y": 779
+    },
+    "ua-local-small-tax": {
+      "x": 873,
+      "y": 827
+    }
+  },
+  "radii": {}
+}

@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "guinea-bissau": {
+      "x": 800,
+      "y": 500
+    },
+    "central": {
+      "x": 509,
+      "y": 432
+    },
+    "gw-central-g11411": {
+      "x": 848,
+      "y": 829
+    },
+    "gw-central-g1112": {
+      "x": 398,
+      "y": 704
+    },
+    "gw-central-g1151": {
+      "x": 321,
+      "y": 385
+    },
+    "gw-central-g116": {
+      "x": 683,
+      "y": 179
+    },
+    "gw-central-small-tax": {
+      "x": 1165,
+      "y": 269
+    },
+    "gw-central-g1111": {
+      "x": 399,
+      "y": 866
+    },
+    "gw-central-g1152": {
+      "x": 156,
+      "y": 332
+    },
+    "gw-central-g1142": {
+      "x": 902,
+      "y": 57
+    },
+    "gw-central-g113-other": {
+      "x": 1492,
+      "y": 465
+    }
+  },
+  "radii": {}
+}

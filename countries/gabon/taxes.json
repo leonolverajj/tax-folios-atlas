@@ -1,0 +1,245 @@
+{
+  "instruments": [
+    {
+      "id": "ga-central-g115",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "trade",
+      "status": "current",
+      "names": { "official": "Taxes on international trade and transactions", "common": "Taxes on international trade" },
+      "taxes": { "base": "Taxes on international trade and transactions (GFS 115), reported as one line.", "payer": "Importers and exporters." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "XAF 323 billion in 2021: 31% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "imf-gfs-codes", "locator": "G115" }, { "sourceId": "imf-gfs-api", "locator": "Series GAB.S1311B.G1.G115_T.XDC.A, 2021" }],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "ga-central-g1112",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "income-corporate",
+      "status": "current",
+      "names": { "official": "Taxes on income, profits and capital gains payable by corporations and other enterprises", "common": "Corporate income tax" },
+      "taxes": {
+        "base": "Income, profits and capital gains of corporations and other enterprises (GFS 1112).",
+        "payer": "Corporations and other enterprises."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "XAF 271 billion in 2021: 26% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "imf-gfs-codes", "locator": "G1112" }, { "sourceId": "imf-gfs-api", "locator": "Series GAB.S1311B.G1.G1112_T.XDC.A, 2021" }],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "ga-central-g11411",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "general-consumption",
+      "status": "current",
+      "names": { "official": "Value added taxes", "common": "Value added tax" },
+      "taxes": {
+        "base": "Taxes charged on the value added at each stage of production and distribution (GFS 11411).",
+        "payer": "Final consumers, through the businesses that collect it."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "XAF 134 billion in 2021: 13% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "imf-gfs-codes", "locator": "G11411" }, { "sourceId": "imf-gfs-api", "locator": "Series GAB.S1311B.G1.G11411_T.XDC.A, 2021" }],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "ga-central-g1111",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "income-personal",
+      "status": "current",
+      "names": { "official": "Taxes on income, profits and capital gains payable by individuals", "common": "Personal income tax" },
+      "taxes": { "base": "Income, profits and capital gains of individuals (GFS 1111).", "payer": "Individuals." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "XAF 119 billion in 2021: 11% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "imf-gfs-codes", "locator": "G1111" }, { "sourceId": "imf-gfs-api", "locator": "Series GAB.S1311B.G1.G1111_T.XDC.A, 2021" }],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "ga-central-g116",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "other",
+      "status": "current",
+      "names": { "official": "Other taxes", "common": "Other taxes" },
+      "taxes": { "base": "Taxes that the classification does not place elsewhere (GFS 116).", "payer": "Various." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "XAF 72.6 billion in 2021: 6.9% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "imf-gfs-codes", "locator": "G116" }, { "sourceId": "imf-gfs-api", "locator": "Series GAB.S1311B.G1.G116_T.XDC.A, 2021" }],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "ga-central-g1142",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Excises", "common": "Excises" },
+      "taxes": {
+        "base": "Taxes on specific goods or services, such as alcohol, tobacco and fuel (GFS 1142).",
+        "payer": "Producers and importers; passed on in prices."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "XAF 40.9 billion in 2021: 3.9% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "imf-gfs-codes", "locator": "G1142" }, { "sourceId": "imf-gfs-api", "locator": "Series GAB.S1311B.G1.G1142_T.XDC.A, 2021" }],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "ga-central-g11413",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "general-consumption",
+      "status": "current",
+      "names": { "official": "Turnover and other general taxes on goods and services", "common": "Turnover and other general taxes" },
+      "taxes": { "base": "Turnover taxes and other general taxes on goods and services (GFS 11413).", "payer": "Businesses." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "XAF 33.2 billion in 2021: 3.2% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "imf-gfs-codes", "locator": "G11413" }, { "sourceId": "imf-gfs-api", "locator": "Series GAB.S1311B.G1.G11413_T.XDC.A, 2021" }],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "ga-central-g1221",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "social-contribution",
+      "family": "social-security",
+      "status": "current",
+      "names": { "official": "Other social contributions: employee contributions", "common": "Other social contributions of employees" },
+      "taxes": { "base": "Contributions of employees to government employee schemes outside social security (GFS 1221).", "payer": "Government employees." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "XAF 25.9 billion in 2021: 2.5% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "imf-gfs-codes", "locator": "G1221" }, { "sourceId": "imf-gfs-api", "locator": "Series GAB.S1311B.G1.G1221_T.XDC.A, 2021" }],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "ga-central-g1144",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "specific-consumption",
+      "status": "current",
+      "names": { "official": "Taxes on specific services", "common": "Taxes on specific services" },
+      "taxes": {
+        "base": "Taxes on specific services such as insurance, entertainment, lodging and gambling (GFS 1144).",
+        "payer": "Providers of the services."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "XAF 13.9 billion in 2021: 1.3% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "imf-gfs-codes", "locator": "G1144" }, { "sourceId": "imf-gfs-api", "locator": "Series GAB.S1311B.G1.G1144_T.XDC.A, 2021" }],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "ga-central-g113-other",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "Taxes on property, not itemised in the IMF series", "common": "Other property taxes (not itemised)" },
+      "taxes": {
+        "base": "The part of the line “Taxes on property” (GFS G113) that the IMF series does not itemise: the line itself minus its reported sub-lines.",
+        "payer": "Various."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "XAF 10.2 billion in 2021: 1% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [
+        { "sourceId": "imf-gfs-codes", "locator": "G113" },
+        { "sourceId": "imf-gfs-api", "locator": "Series GAB.S1311B.G1.G113_T.XDC.A, 2021, less its reported sub-lines" }
+      ],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "ga-central-g11452",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "other",
+      "status": "current",
+      "names": { "official": "Other taxes on the use of goods and on permission to use goods or perform activities", "common": "Licences and other use taxes" },
+      "taxes": {
+        "base": "Other taxes on the use of goods and on permission to use goods or perform activities (GFS 11452).",
+        "payer": "Holders of the licences."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "XAF 5.06 billion in 2021: 0.5% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "imf-gfs-codes", "locator": "G11452" }, { "sourceId": "imf-gfs-api", "locator": "Series GAB.S1311B.G1.G11452_T.XDC.A, 2021" }],
+      "checkedOn": "2026-10-17"
+    }
+  ]
+}

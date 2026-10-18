@@ -1,0 +1,55 @@
+{
+  "groups": [
+    {
+      "title": "Central government: lines of the IMF series, 2024",
+      "defaults": {
+        "denominatorId": "central-2024",
+        "scale": "million",
+        "currency": "AMD",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        { "nodeId": "am-central-g11411", "amount": 748221.98986, "locator": "Series ARM.S1311.G1.G11411_T.XDC.A, 2024" },
+        { "nodeId": "am-central-g1111", "amount": 650069.907883, "locator": "Series ARM.S1311.G1.G1111_T.XDC.A, 2024" },
+        { "nodeId": "am-central-g1112", "amount": 335710.591698, "locator": "Series ARM.S1311.G1.G1112_T.XDC.A, 2024" },
+        { "nodeId": "am-central-g11452", "amount": 228632.989842, "locator": "Series ARM.S1311.G1.G11452_T.XDC.A, 2024" },
+        { "nodeId": "am-central-g1142", "amount": 146547.71774, "locator": "Series ARM.S1311.G1.G1142_T.XDC.A, 2024" },
+        { "nodeId": "am-central-g1151", "amount": 76166.02767, "locator": "Series ARM.S1311.G1.G1151_T.XDC.A, 2024" },
+        { "nodeId": "am-central-g11413", "amount": 61062.299698, "locator": "Series ARM.S1311.G1.G11413_T.XDC.A, 2024" },
+        { "nodeId": "am-central-g116", "amount": 17403.22762, "locator": "Series ARM.S1311.G1.G116_T.XDC.A, 2024" },
+        { "nodeId": "am-central-g1146", "amount": 9867.83542, "locator": "Series ARM.S1311.G1.G1146_T.XDC.A, 2024" },
+        { "nodeId": "am-central-g11451", "amount": 6180.31525, "locator": "Series ARM.S1311.G1.G11451_T.XDC.A, 2024" }
+      ]
+    },
+    {
+      "title": "Local governments: lines of the IMF series, 2024",
+      "defaults": {
+        "denominatorId": "local-2024",
+        "scale": "million",
+        "currency": "AMD",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        { "nodeId": "am-local-g1131", "amount": 26392.834366, "locator": "Series ARM.S1313MIXED.G1.G1131_T.XDC.A, 2024" },
+        { "nodeId": "am-local-g11451", "amount": 23815.565536, "locator": "Series ARM.S1313MIXED.G1.G11451_T.XDC.A, 2024" },
+        {
+          "nodeId": "am-local-g113-other",
+          "amount": 22434.553295,
+          "locator": "Series ARM.S1313MIXED.G1.G113_T.XDC.A, 2024, less its reported sub-lines",
+          "calculation": "G113_T less the sum of its reported sub-lines (AMD million)"
+        }
+      ]
+    }
+  ],
+  "unavailable": []
+}

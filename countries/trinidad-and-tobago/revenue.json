@@ -1,0 +1,42 @@
+{
+  "groups": [
+    {
+      "title": "Central government and social security: lines of the IMF series, 2019",
+      "defaults": {
+        "denominatorId": "central-2019",
+        "scale": "million",
+        "currency": "TTD",
+        "period": { "label": "2019", "kind": "calendar-year", "start": "2019-01-01", "end": "2019-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        { "nodeId": "tt-central-g1112", "amount": 9812.1, "locator": "Series TTO.S1321.G1.G1112_T.XDC.A, 2019" },
+        { "nodeId": "tt-central-g11411", "amount": 6682.3, "locator": "Series TTO.S1321.G1.G11411_T.XDC.A, 2019" },
+        { "nodeId": "tt-central-g112", "amount": 5947.8, "locator": "Series TTO.S1321.G1.G112_T.XDC.A, 2019" },
+        { "nodeId": "tt-central-g1212", "amount": 3094.7, "locator": "Series TTO.S1321.G1.G1212_T.XDC.A, 2019" },
+        { "nodeId": "tt-central-g1151", "amount": 2300.7, "locator": "Series TTO.S1321.G1.G1151_T.XDC.A, 2019" },
+        { "nodeId": "tt-central-g1211", "amount": 1547.3, "locator": "Series TTO.S1321.G1.G1211_T.XDC.A, 2019" },
+        { "nodeId": "tt-central-g1142", "amount": 658.4, "locator": "Series TTO.S1321.G1.G1142_T.XDC.A, 2019" },
+        { "nodeId": "tt-central-g116", "amount": 257.9, "locator": "Series TTO.S1321.G1.G116_T.XDC.A, 2019" },
+        { "nodeId": "tt-central-g1111", "amount": 229, "locator": "Series TTO.S1321.G1.G1111_T.XDC.A, 2019" },
+        { "nodeId": "tt-central-g11451", "amount": 221.1, "locator": "Series TTO.S1321.G1.G11451_T.XDC.A, 2019" },
+        { "nodeId": "tt-central-g1144", "amount": 159.3, "locator": "Series TTO.S1321.G1.G1144_T.XDC.A, 2019" },
+        { "nodeId": "tt-central-g1146", "amount": 111.1, "locator": "Series TTO.S1321.G1.G1146_T.XDC.A, 2019" },
+        { "nodeId": "tt-central-g11414", "amount": 92.5, "locator": "Series TTO.S1321.G1.G11414_T.XDC.A, 2019" },
+        { "nodeId": "tt-central-g1221", "amount": 58.8, "locator": "Series TTO.S1321.G1.G1221_T.XDC.A, 2019" },
+        { "nodeId": "tt-central-g11452", "amount": 52.8, "locator": "Series TTO.S1321.G1.G11452_T.XDC.A, 2019" },
+        {
+          "nodeId": "tt-central-small-tax",
+          "amount": 47.4,
+          "locator": "Series TTO.S1321.G1, indicators G113_T:other, G1143_T, G1156_T, XDC, annual, 2019",
+          "calculation": "Sum of 3 lines, each below 0.15% of the total (TTD million)"
+        }
+      ]
+    }
+  ],
+  "unavailable": []
+}

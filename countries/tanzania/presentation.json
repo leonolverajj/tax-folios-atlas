@@ -1,0 +1,19 @@
+{
+  "nodes": {
+    "tanzania": { "label": "Tanzania", "sublabel": "Fiscal folio · IMF lines", "glyph": "globe" },
+    "central": { "label": "Budgetary central govt", "sublabel": "IMF S1311B", "glyph": "landmark" },
+    "tz-central-g11411": { "label": "VAT", "sublabel": "Value added", "glyph": "cart" },
+    "tz-central-g1112": { "label": "Corporate income tax", "sublabel": "Companies", "glyph": "factory" },
+    "tz-central-g1151": { "label": "Customs duties", "sublabel": "Imports", "glyph": "ship" },
+    "tz-central-g1111": { "label": "Personal income tax", "sublabel": "Individuals", "glyph": "person" },
+    "tz-central-g1142": { "label": "Excises", "sublabel": "Specific goods", "glyph": "flame" },
+    "tz-central-g116": { "label": "Other taxes", "sublabel": "Not elsewhere classified", "glyph": "gear" },
+    "tz-central-g112": { "label": "Payroll taxes", "sublabel": "Wage bill", "glyph": "ledger" },
+    "tz-central-g1144": { "label": "Taxes on services", "sublabel": "Insurance · lodging · gambling", "glyph": "bed" },
+    "tz-central-g11451": { "label": "Motor vehicle taxes", "sublabel": "Ownership · use", "glyph": "car" },
+    "tz-central-g1156": { "label": "Other trade taxes", "sublabel": "Not elsewhere classified", "glyph": "gear" },
+    "tz-central-g1152": { "label": "Export taxes", "sublabel": "Exports", "glyph": "plane" },
+    "tz-central-g113-other": { "label": "Other property taxes", "sublabel": "Not itemised", "glyph": "house" },
+    "tz-central-small-tax": { "label": "Other taxes (small lines)", "sublabel": "2 lines", "glyph": "gear" }
+  }
+}

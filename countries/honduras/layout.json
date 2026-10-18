@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "honduras": {
+      "x": 800,
+      "y": 500
+    },
+    "central": {
+      "x": 509,
+      "y": 432
+    },
+    "hn-central-g11411": {
+      "x": 851,
+      "y": 742
+    },
+    "hn-central-g1111": {
+      "x": 461,
+      "y": 747
+    },
+    "hn-central-g1221": {
+      "x": 285,
+      "y": 517
+    },
+    "hn-central-g11451": {
+      "x": 429,
+      "y": 273
+    },
+    "hn-central-g1133": {
+      "x": 799,
+      "y": 170
+    },
+    "hn-central-g1213": {
+      "x": 1162,
+      "y": 267
+    },
+    "hn-central-g1142": {
+      "x": 513,
+      "y": 900
+    },
+    "hn-central-g1212": {
+      "x": 95,
+      "y": 555
+    },
+    "hn-central-g1151": {
+      "x": 355,
+      "y": 156
+    },
+    "hn-central-g11414": {
+      "x": 1006,
+      "y": 72
+    },
+    "hn-central-g1144": {
+      "x": 1471,
+      "y": 384
+    },
+    "hn-central-g1112": {
+      "x": 866,
+      "y": 902
+    },
+    "hn-central-g1222": {
+      "x": 119,
+      "y": 840
+    },
+    "hn-central-g1211": {
+      "x": 93,
+      "y": 307
+    },
+    "hn-central-g1132": {
+      "x": 600,
+      "y": 32
+    },
+    "hn-central-g11452": {
+      "x": 1421,
+      "y": 100
+    }
+  },
+  "radii": {}
+}

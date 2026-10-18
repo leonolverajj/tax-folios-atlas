@@ -1,0 +1,25 @@
+{
+  "nodes": {
+    "republic-of-the-congo": { "label": "Republic of the Congo", "sublabel": "Fiscal folio · IMF lines", "glyph": "globe" },
+    "central": { "label": "Central govt and social funds", "sublabel": "IMF S1311 + S1314", "glyph": "landmark" },
+    "local": { "label": "Local governments", "sublabel": "IMF S1313", "glyph": "town" },
+    "cg-central-g11411": { "label": "VAT", "sublabel": "Value added", "glyph": "cart" },
+    "cg-central-g1111": { "label": "Personal income tax", "sublabel": "Individuals", "glyph": "person" },
+    "cg-central-g1112": { "label": "Corporate income tax", "sublabel": "Companies", "glyph": "factory" },
+    "cg-central-g1151": { "label": "Customs duties", "sublabel": "Imports", "glyph": "ship" },
+    "cg-central-g121-other": { "label": "Other social security contrib…", "sublabel": "Not itemised", "glyph": "shield" },
+    "cg-central-g122-other": { "label": "Other social contributions (o…", "sublabel": "Not itemised", "glyph": "heart" },
+    "cg-central-g11414": { "label": "Financial transaction taxes", "sublabel": "Transfers · securities", "glyph": "stamp" },
+    "cg-central-g112": { "label": "Payroll taxes", "sublabel": "Wage bill", "glyph": "ledger" },
+    "cg-central-g1142": { "label": "Excises", "sublabel": "Specific goods", "glyph": "flame" },
+    "cg-central-g1144": { "label": "Taxes on services", "sublabel": "Insurance · lodging · gambling", "glyph": "bed" },
+    "cg-central-g1152": { "label": "Export taxes", "sublabel": "Exports", "glyph": "plane" },
+    "cg-central-g116": { "label": "Other taxes", "sublabel": "Not elsewhere classified", "glyph": "gear" },
+    "cg-central-g113-other": { "label": "Other property taxes", "sublabel": "Not itemised", "glyph": "house" },
+    "cg-central-g11451": { "label": "Motor vehicle taxes", "sublabel": "Ownership · use", "glyph": "car" },
+    "cg-central-small-tax": { "label": "Other taxes (small lines)", "sublabel": "2 lines", "glyph": "gear" },
+    "cg-local-g11452": { "label": "Licences and use taxes", "sublabel": "Permissions", "glyph": "stamp" },
+    "cg-local-small-tax": { "label": "Other taxes (small lines)", "sublabel": "6 lines", "glyph": "gear" },
+    "cg-local-g113-other": { "label": "Other property taxes", "sublabel": "Not itemised", "glyph": "house" }
+  }
+}

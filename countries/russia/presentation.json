@@ -1,0 +1,31 @@
+{
+  "nodes": {
+    "russia": { "label": "Russia", "sublabel": "Fiscal folio · IMF lines", "glyph": "globe" },
+    "central": { "label": "Central govt and social funds", "sublabel": "IMF S1311 + S1314", "glyph": "landmark" },
+    "state": { "label": "Regional governments", "sublabel": "IMF S1312", "glyph": "city" },
+    "local": { "label": "Local governments", "sublabel": "IMF S1313", "glyph": "town" },
+    "ru-central-g11411": { "label": "VAT", "sublabel": "Value added", "glyph": "cart" },
+    "ru-central-g1212": { "label": "Social: employers", "sublabel": "Contributions", "glyph": "shield" },
+    "ru-central-g1112": { "label": "Corporate income tax", "sublabel": "Companies", "glyph": "factory" },
+    "ru-central-g1151": { "label": "Customs duties", "sublabel": "Imports", "glyph": "ship" },
+    "ru-central-g1142": { "label": "Excises", "sublabel": "Specific goods", "glyph": "flame" },
+    "ru-central-g11452": { "label": "Licences and use taxes", "sublabel": "Permissions", "glyph": "stamp" },
+    "ru-central-g1152": { "label": "Export taxes", "sublabel": "Exports", "glyph": "plane" },
+    "ru-central-g1111": { "label": "Personal income tax", "sublabel": "Individuals", "glyph": "person" },
+    "ru-central-g1213": { "label": "Social: self-employed", "sublabel": "Contributions", "glyph": "shield" },
+    "ru-central-g1113": { "label": "Other income taxes", "sublabel": "Not split by payer", "glyph": "coin" },
+    "ru-central-small-tax": { "label": "Other taxes (small lines)", "sublabel": "5 lines", "glyph": "gear" },
+    "ru-central-g1211": { "label": "Social: employees", "sublabel": "Contributions", "glyph": "shield" },
+    "ru-state-g1111": { "label": "Personal income tax", "sublabel": "Individuals", "glyph": "person" },
+    "ru-state-g1112": { "label": "Corporate income tax", "sublabel": "Companies", "glyph": "factory" },
+    "ru-state-g113-other": { "label": "Other property taxes", "sublabel": "Not itemised", "glyph": "house" },
+    "ru-state-g1142": { "label": "Excises", "sublabel": "Specific goods", "glyph": "flame" },
+    "ru-state-g1113": { "label": "Other income taxes", "sublabel": "Not split by payer", "glyph": "coin" },
+    "ru-state-g11451": { "label": "Motor vehicle taxes", "sublabel": "Ownership · use", "glyph": "car" },
+    "ru-state-small-tax": { "label": "Other taxes (small lines)", "sublabel": "4 lines", "glyph": "gear" },
+    "ru-local-g1111": { "label": "Personal income tax", "sublabel": "Individuals", "glyph": "person" },
+    "ru-local-g1113": { "label": "Other income taxes", "sublabel": "Not split by payer", "glyph": "coin" },
+    "ru-local-g113-other": { "label": "Other property taxes", "sublabel": "Not itemised", "glyph": "house" },
+    "ru-local-small-tax": { "label": "Other taxes (small lines)", "sublabel": "6 lines", "glyph": "gear" }
+  }
+}

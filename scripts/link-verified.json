@@ -130,5 +130,517 @@
   "https://peo.gov.au/understand-our-parliament/how-parliament-works/the-australian-constitution/the-australian-constitution-online": {
     "on": "2026-10-11",
     "how": "opened in the built-in browser (the checker gets HTTP 403); the page loaded with the title \"The Australian Constitution online - Parliamentary Education Office\""
+  },
+  "https://data.imf.org/en/datasets/IMF.STA:GFS_SOO": {
+    "on": "2026-10-17",
+    "how": "opened in the built-in browser (the checker gets HTTP 403 from data.imf.org); the page loaded with the title \"GFS_SOO\" and the description \"GFS Statement of Operations\""
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/AFG.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/codelist/IMF.STA/CL_GFS_INDICATOR/12.0.0": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/ALB.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/AND.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/AGO.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/ARG.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/ARM.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/AZE.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/BHS.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/BHR.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/BGD.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/BLR.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/BLZ.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/BTN.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://www.impuestos.gob.bo/index.php/nota_prensa/la-recaudacion-de-impuestos-crecio-106-el-ano-2025/": {
+    "on": "2026-10-17",
+    "how": "opened with a browser-like fetch client (curl.exe, not the checker): HTTP 200 and a page of the expected kind was returned"
+  },
+  "https://www.impuestos.gob.bo/wp-content/uploads/2025/11/105409f7900.pdf": {
+    "on": "2026-10-17",
+    "how": "opened with a browser-like fetch client (curl.exe, not the checker): HTTP 200 and a page of the expected kind was returned"
+  },
+  "https://www.impuestos.gob.bo/wp-content/uploads/2025/10/8580c1ef52.pdf": {
+    "on": "2026-10-17",
+    "how": "opened with a browser-like fetch client (curl.exe, not the checker): HTTP 200 and a page of the expected kind was returned"
+  },
+  "https://www.impuestos.gob.bo/index.php/nota_prensa/proyecto-de-ley-transparenta-el-iva-y-fija-tasa-efectiva-real-del-13/": {
+    "on": "2026-10-17",
+    "how": "opened with a browser-like fetch client (curl.exe, not the checker): HTTP 200 and a page of the expected kind was returned"
+  },
+  "https://www.impuestos.gob.bo/index.php/nota_prensa/impuestos-ratifica-eliminacion-del-itf-en-beneficio-de-la-economia-de-los-bolivianos/": {
+    "on": "2026-10-17",
+    "how": "opened with a browser-like fetch client (curl.exe, not the checker): HTTP 200 and a page of the expected kind was returned"
+  },
+  "https://www.impuestos.gob.bo/wp-content/uploads/2025/11/LEY154.pdf": {
+    "on": "2026-10-17",
+    "how": "opened with a browser-like fetch client (curl.exe, not the checker): HTTP 200 and a page of the expected kind was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/BIH.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/BWA.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/BFA.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/BDI.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/CPV.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/KHM.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/CMR.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/CAF.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/TCD.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/CHN.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/COM.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/CRI.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/CIV.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/CYP.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/DMA.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/DOM.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/COD.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/ECU.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/SLV.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/GNQ.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/SWZ.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/ETH.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/FJI.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/GAB.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/GMB.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/GEO.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/GHA.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/GRD.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/GTM.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/GIN.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/GNB.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/HND.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/IND.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/IDN.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/IRQ.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/ISR.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/JAM.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/JOR.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/KAZ.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/KEN.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/KIR.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/KGZ.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/LAO.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/LBN.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/LSO.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/MDG.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/MWI.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/MYS.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/MDV.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/MLI.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/MHL.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/MUS.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://www.cuentapublica.hacienda.gob.mx/work/models/CP/2025/tomo/I/I50.06.IPP.pdf": {
+    "on": "2026-10-17",
+    "how": "opened with a browser-like fetch client (curl.exe, not the checker): HTTP 200 and a page of the expected kind was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/FSM.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/MDA.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/MNG.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/MAR.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/MOZ.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/MMR.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/NAM.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/NRU.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/NPL.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/NIC.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/MKD.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/PLW.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/WBG.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/PAN.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/PNG.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/PRY.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/PER.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/PHL.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/COG.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/RUS.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/RWA.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/KNA.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/LCA.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/VCT.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/WSM.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/SMR.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/STP.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/SAU.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/SEN.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/SRB.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/SYC.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/SLE.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/SGP.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/SLB.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/SOM.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/ZAF.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/SSD.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/LKA.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/TJK.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/TZA.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/THA.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/TLS.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/TGO.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/TON.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/TTO.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/TUV.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/UGA.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/UKR.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/ARE.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/URY.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/UZB.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/VUT.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/VNM.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
+  },
+  "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,GFS_SOO/ZMB.*.G1.*.XDC.A?startPeriod=2016": {
+    "on": "2026-10-17",
+    "how": "fetched with curl.exe, which uses the Windows certificate store (Node cannot verify the IMF’s certificate chain, and verification is not switched off): HTTP 200 and the expected IMF series or codelist was returned"
   }
 }

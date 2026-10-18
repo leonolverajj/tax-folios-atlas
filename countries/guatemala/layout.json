@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "guatemala": {
+      "x": 800,
+      "y": 500
+    },
+    "central": {
+      "x": 509,
+      "y": 432
+    },
+    "gt-central-g11411": {
+      "x": 849,
+      "y": 757
+    },
+    "gt-central-g1142": {
+      "x": 396,
+      "y": 702
+    },
+    "gt-central-g1151": {
+      "x": 318,
+      "y": 389
+    },
+    "gt-central-g112": {
+      "x": 689,
+      "y": 178
+    },
+    "gt-central-g1156": {
+      "x": 1160,
+      "y": 265
+    },
+    "gt-central-g1112": {
+      "x": 500,
+      "y": 884
+    },
+    "gt-central-g1211": {
+      "x": 112,
+      "y": 561
+    },
+    "gt-central-g1221": {
+      "x": 348,
+      "y": 160
+    },
+    "gt-central-g116": {
+      "x": 1015,
+      "y": 74
+    },
+    "gt-central-g11452": {
+      "x": 1469,
+      "y": 381
+    },
+    "gt-central-g1212": {
+      "x": 872,
+      "y": 910
+    },
+    "gt-central-g1111": {
+      "x": 112,
+      "y": 851
+    },
+    "gt-central-g11451": {
+      "x": 102,
+      "y": 309
+    },
+    "gt-central-g1222": {
+      "x": 605,
+      "y": 32
+    },
+    "gt-central-small-tax": {
+      "x": 1429,
+      "y": 105
+    },
+    "local": {
+      "x": 1091,
+      "y": 568
+    },
+    "gt-local-g11452": {
+      "x": 1233,
+      "y": 427
+    },
+    "gt-local-g113-other": {
+      "x": 1274,
+      "y": 604
+    },
+    "gt-local-small-tax": {
+      "x": 1164,
+      "y": 725
+    }
+  },
+  "radii": {}
+}

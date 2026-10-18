@@ -1,0 +1,4435 @@
+{
+ "AGO": {
+  "cca2": "AO",
+  "ccn3": "024",
+  "unMember": true,
+  "name": {
+   "common": "Angola",
+   "official": "Republic of Angola",
+   "native": {
+    "por": {
+     "official": "República de Angola",
+     "common": "Angola"
+    }
+   }
+  },
+  "currencies": {
+   "AOA": {
+    "name": "Angolan kwanza",
+    "symbol": "Kz"
+   }
+  },
+  "latlng": [
+   -12.5,
+   18.5
+  ],
+  "capital": [
+   "Luanda"
+  ],
+  "region": "Africa",
+  "subregion": "Middle Africa",
+  "languages": {
+   "por": "Portuguese"
+  }
+ },
+ "ALB": {
+  "cca2": "AL",
+  "ccn3": "008",
+  "unMember": true,
+  "name": {
+   "common": "Albania",
+   "official": "Republic of Albania",
+   "native": {
+    "sqi": {
+     "official": "Republika e Shqipërisë",
+     "common": "Shqipëria"
+    }
+   }
+  },
+  "currencies": {
+   "ALL": {
+    "name": "Albanian lek",
+    "symbol": "L"
+   }
+  },
+  "latlng": [
+   41,
+   20
+  ],
+  "capital": [
+   "Tirana"
+  ],
+  "region": "Europe",
+  "subregion": "Southeast Europe",
+  "languages": {
+   "sqi": "Albanian"
+  }
+ },
+ "AND": {
+  "cca2": "AD",
+  "ccn3": "020",
+  "unMember": true,
+  "name": {
+   "common": "Andorra",
+   "official": "Principality of Andorra",
+   "native": {
+    "cat": {
+     "official": "Principat d'Andorra",
+     "common": "Andorra"
+    }
+   }
+  },
+  "currencies": {
+   "EUR": {
+    "name": "Euro",
+    "symbol": "€"
+   }
+  },
+  "latlng": [
+   42.5,
+   1.5
+  ],
+  "capital": [
+   "Andorra la Vella"
+  ],
+  "region": "Europe",
+  "subregion": "Southern Europe",
+  "languages": {
+   "cat": "Catalan"
+  }
+ },
+ "ARE": {
+  "cca2": "AE",
+  "ccn3": "784",
+  "unMember": true,
+  "name": {
+   "common": "United Arab Emirates",
+   "official": "United Arab Emirates",
+   "native": {
+    "ara": {
+     "official": "الإمارات العربية المتحدة",
+     "common": "الإمارات"
+    }
+   }
+  },
+  "currencies": {
+   "AED": {
+    "name": "United Arab Emirates dirham",
+    "symbol": "د.إ"
+   }
+  },
+  "latlng": [
+   24,
+   54
+  ],
+  "capital": [
+   "Abu Dhabi"
+  ],
+  "region": "Asia",
+  "subregion": "Western Asia",
+  "languages": {
+   "ara": "Arabic"
+  }
+ },
+ "ARG": {
+  "cca2": "AR",
+  "ccn3": "032",
+  "unMember": true,
+  "name": {
+   "common": "Argentina",
+   "official": "Argentine Republic",
+   "native": {
+    "grn": {
+     "official": "Argentine Republic",
+     "common": "Argentina"
+    },
+    "spa": {
+     "official": "República Argentina",
+     "common": "Argentina"
+    }
+   }
+  },
+  "currencies": {
+   "ARS": {
+    "name": "Argentine peso",
+    "symbol": "$"
+   }
+  },
+  "latlng": [
+   -34,
+   -64
+  ],
+  "capital": [
+   "Buenos Aires"
+  ],
+  "region": "Americas",
+  "subregion": "South America",
+  "languages": {
+   "grn": "Guaraní",
+   "spa": "Spanish"
+  }
+ },
+ "ARM": {
+  "cca2": "AM",
+  "ccn3": "051",
+  "unMember": true,
+  "name": {
+   "common": "Armenia",
+   "official": "Republic of Armenia",
+   "native": {
+    "hye": {
+     "official": "Հայաստանի Հանրապետություն",
+     "common": "Հայաստան"
+    }
+   }
+  },
+  "currencies": {
+   "AMD": {
+    "name": "Armenian dram",
+    "symbol": "֏"
+   }
+  },
+  "latlng": [
+   40,
+   45
+  ],
+  "capital": [
+   "Yerevan"
+  ],
+  "region": "Asia",
+  "subregion": "Western Asia",
+  "languages": {
+   "hye": "Armenian"
+  }
+ },
+ "AZE": {
+  "cca2": "AZ",
+  "ccn3": "031",
+  "unMember": true,
+  "name": {
+   "common": "Azerbaijan",
+   "official": "Republic of Azerbaijan",
+   "native": {
+    "aze": {
+     "official": "Azərbaycan Respublikası",
+     "common": "Azərbaycan"
+    },
+    "rus": {
+     "official": "Азербайджанская Республика",
+     "common": "Азербайджан"
+    }
+   }
+  },
+  "currencies": {
+   "AZN": {
+    "name": "Azerbaijani manat",
+    "symbol": "₼"
+   }
+  },
+  "latlng": [
+   40.5,
+   47.5
+  ],
+  "capital": [
+   "Baku"
+  ],
+  "region": "Asia",
+  "subregion": "Western Asia",
+  "languages": {
+   "aze": "Azerbaijani",
+   "rus": "Russian"
+  }
+ },
+ "BDI": {
+  "cca2": "BI",
+  "ccn3": "108",
+  "unMember": true,
+  "name": {
+   "common": "Burundi",
+   "official": "Republic of Burundi",
+   "native": {
+    "fra": {
+     "official": "République du Burundi",
+     "common": "Burundi"
+    },
+    "run": {
+     "official": "Republika y'Uburundi ",
+     "common": "Uburundi"
+    }
+   }
+  },
+  "currencies": {
+   "BIF": {
+    "name": "Burundian franc",
+    "symbol": "Fr"
+   }
+  },
+  "latlng": [
+   -3.5,
+   30
+  ],
+  "capital": [
+   "Gitega"
+  ],
+  "region": "Africa",
+  "subregion": "Eastern Africa",
+  "languages": {
+   "fra": "French",
+   "run": "Kirundi"
+  }
+ },
+ "BFA": {
+  "cca2": "BF",
+  "ccn3": "854",
+  "unMember": true,
+  "name": {
+   "common": "Burkina Faso",
+   "official": "Burkina Faso",
+   "native": {
+    "fra": {
+     "official": "République du Burkina",
+     "common": "Burkina Faso"
+    }
+   }
+  },
+  "currencies": {
+   "XOF": {
+    "name": "West African CFA franc",
+    "symbol": "Fr"
+   }
+  },
+  "latlng": [
+   13,
+   -2
+  ],
+  "capital": [
+   "Ouagadougou"
+  ],
+  "region": "Africa",
+  "subregion": "Western Africa",
+  "languages": {
+   "fra": "French"
+  }
+ },
+ "BGD": {
+  "cca2": "BD",
+  "ccn3": "050",
+  "unMember": true,
+  "name": {
+   "common": "Bangladesh",
+   "official": "People's Republic of Bangladesh",
+   "native": {
+    "ben": {
+     "official": "বাংলাদেশ গণপ্রজাতন্ত্রী",
+     "common": "বাংলাদেশ"
+    }
+   }
+  },
+  "currencies": {
+   "BDT": {
+    "name": "Bangladeshi taka",
+    "symbol": "৳"
+   }
+  },
+  "latlng": [
+   24,
+   90
+  ],
+  "capital": [
+   "Dhaka"
+  ],
+  "region": "Asia",
+  "subregion": "Southern Asia",
+  "languages": {
+   "ben": "Bengali"
+  }
+ },
+ "BHR": {
+  "cca2": "BH",
+  "ccn3": "048",
+  "unMember": true,
+  "name": {
+   "common": "Bahrain",
+   "official": "Kingdom of Bahrain",
+   "native": {
+    "ara": {
+     "official": "مملكة البحرين",
+     "common": "البحرين"
+    }
+   }
+  },
+  "currencies": {
+   "BHD": {
+    "name": "Bahraini dinar",
+    "symbol": ".د.ب"
+   }
+  },
+  "latlng": [
+   26,
+   50.55
+  ],
+  "capital": [
+   "Manama"
+  ],
+  "region": "Asia",
+  "subregion": "Western Asia",
+  "languages": {
+   "ara": "Arabic"
+  }
+ },
+ "BHS": {
+  "cca2": "BS",
+  "ccn3": "044",
+  "unMember": true,
+  "name": {
+   "common": "Bahamas",
+   "official": "Commonwealth of the Bahamas",
+   "native": {
+    "eng": {
+     "official": "Commonwealth of the Bahamas",
+     "common": "Bahamas"
+    }
+   }
+  },
+  "currencies": {
+   "BSD": {
+    "name": "Bahamian dollar",
+    "symbol": "$"
+   },
+   "USD": {
+    "name": "United States dollar",
+    "symbol": "$"
+   }
+  },
+  "latlng": [
+   24.25,
+   -76
+  ],
+  "capital": [
+   "Nassau"
+  ],
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "languages": {
+   "eng": "English"
+  }
+ },
+ "BIH": {
+  "cca2": "BA",
+  "ccn3": "070",
+  "unMember": true,
+  "name": {
+   "common": "Bosnia and Herzegovina",
+   "official": "Bosnia and Herzegovina",
+   "native": {
+    "bos": {
+     "official": "Bosna i Hercegovina",
+     "common": "Bosna i Hercegovina"
+    },
+    "hrv": {
+     "official": "Bosna i Hercegovina",
+     "common": "Bosna i Hercegovina"
+    },
+    "srp": {
+     "official": "Боснa и Херцеговина",
+     "common": "Боснa и Херцеговина"
+    }
+   }
+  },
+  "currencies": {
+   "BAM": {
+    "name": "Bosnia and Herzegovina convertible mark",
+    "symbol": "KM"
+   }
+  },
+  "latlng": [
+   44,
+   18
+  ],
+  "capital": [
+   "Sarajevo"
+  ],
+  "region": "Europe",
+  "subregion": "Southeast Europe",
+  "languages": {
+   "bos": "Bosnian",
+   "hrv": "Croatian",
+   "srp": "Serbian"
+  }
+ },
+ "BLR": {
+  "cca2": "BY",
+  "ccn3": "112",
+  "unMember": true,
+  "name": {
+   "common": "Belarus",
+   "official": "Republic of Belarus",
+   "native": {
+    "bel": {
+     "official": "Рэспубліка Беларусь",
+     "common": "Белару́сь"
+    },
+    "rus": {
+     "official": "Республика Беларусь",
+     "common": "Беларусь"
+    }
+   }
+  },
+  "currencies": {
+   "BYN": {
+    "name": "Belarusian ruble",
+    "symbol": "Br"
+   }
+  },
+  "latlng": [
+   53,
+   28
+  ],
+  "capital": [
+   "Minsk"
+  ],
+  "region": "Europe",
+  "subregion": "Eastern Europe",
+  "languages": {
+   "bel": "Belarusian",
+   "rus": "Russian"
+  }
+ },
+ "BTN": {
+  "cca2": "BT",
+  "ccn3": "064",
+  "unMember": true,
+  "name": {
+   "common": "Bhutan",
+   "official": "Kingdom of Bhutan",
+   "native": {
+    "dzo": {
+     "official": "འབྲུག་རྒྱལ་ཁབ་",
+     "common": "འབྲུག་ཡུལ་"
+    }
+   }
+  },
+  "currencies": {
+   "BTN": {
+    "name": "Bhutanese ngultrum",
+    "symbol": "Nu."
+   },
+   "INR": {
+    "name": "Indian rupee",
+    "symbol": "₹"
+   }
+  },
+  "latlng": [
+   27.5,
+   90.5
+  ],
+  "capital": [
+   "Thimphu"
+  ],
+  "region": "Asia",
+  "subregion": "Southern Asia",
+  "languages": {
+   "dzo": "Dzongkha"
+  }
+ },
+ "BWA": {
+  "cca2": "BW",
+  "ccn3": "072",
+  "unMember": true,
+  "name": {
+   "common": "Botswana",
+   "official": "Republic of Botswana",
+   "native": {
+    "eng": {
+     "official": "Republic of Botswana",
+     "common": "Botswana"
+    },
+    "tsn": {
+     "official": "Lefatshe la Botswana",
+     "common": "Botswana"
+    }
+   }
+  },
+  "currencies": {
+   "BWP": {
+    "name": "Botswana pula",
+    "symbol": "P"
+   }
+  },
+  "latlng": [
+   -22,
+   24
+  ],
+  "capital": [
+   "Gaborone"
+  ],
+  "region": "Africa",
+  "subregion": "Southern Africa",
+  "languages": {
+   "eng": "English",
+   "tsn": "Tswana"
+  }
+ },
+ "CAF": {
+  "cca2": "CF",
+  "ccn3": "140",
+  "unMember": true,
+  "name": {
+   "common": "Central African Republic",
+   "official": "Central African Republic",
+   "native": {
+    "fra": {
+     "official": "République centrafricaine",
+     "common": "République centrafricaine"
+    },
+    "sag": {
+     "official": "Ködörösêse tî Bêafrîka",
+     "common": "Bêafrîka"
+    }
+   }
+  },
+  "currencies": {
+   "XAF": {
+    "name": "Central African CFA franc",
+    "symbol": "Fr"
+   }
+  },
+  "latlng": [
+   7,
+   21
+  ],
+  "capital": [
+   "Bangui"
+  ],
+  "region": "Africa",
+  "subregion": "Middle Africa",
+  "languages": {
+   "fra": "French",
+   "sag": "Sango"
+  }
+ },
+ "CHN": {
+  "cca2": "CN",
+  "ccn3": "156",
+  "unMember": true,
+  "name": {
+   "common": "China",
+   "official": "People's Republic of China",
+   "native": {
+    "zho": {
+     "official": "中华人民共和国",
+     "common": "中国"
+    }
+   }
+  },
+  "currencies": {
+   "CNY": {
+    "name": "Chinese yuan",
+    "symbol": "¥"
+   }
+  },
+  "latlng": [
+   35,
+   105
+  ],
+  "capital": [
+   "Beijing"
+  ],
+  "region": "Asia",
+  "subregion": "Eastern Asia",
+  "languages": {
+   "zho": "Chinese"
+  }
+ },
+ "CIV": {
+  "cca2": "CI",
+  "ccn3": "384",
+  "unMember": true,
+  "name": {
+   "common": "Ivory Coast",
+   "official": "Republic of Côte d'Ivoire",
+   "native": {
+    "fra": {
+     "official": "République de Côte d'Ivoire",
+     "common": "Côte d'Ivoire"
+    }
+   }
+  },
+  "currencies": {
+   "XOF": {
+    "name": "West African CFA franc",
+    "symbol": "Fr"
+   }
+  },
+  "latlng": [
+   8,
+   -5
+  ],
+  "capital": [
+   "Yamoussoukro"
+  ],
+  "region": "Africa",
+  "subregion": "Western Africa",
+  "languages": {
+   "fra": "French"
+  }
+ },
+ "CMR": {
+  "cca2": "CM",
+  "ccn3": "120",
+  "unMember": true,
+  "name": {
+   "common": "Cameroon",
+   "official": "Republic of Cameroon",
+   "native": {
+    "eng": {
+     "official": "Republic of Cameroon",
+     "common": "Cameroon"
+    },
+    "fra": {
+     "official": "République du Cameroun",
+     "common": "Cameroun"
+    }
+   }
+  },
+  "currencies": {
+   "XAF": {
+    "name": "Central African CFA franc",
+    "symbol": "Fr"
+   }
+  },
+  "latlng": [
+   6,
+   12
+  ],
+  "capital": [
+   "Yaoundé"
+  ],
+  "region": "Africa",
+  "subregion": "Middle Africa",
+  "languages": {
+   "eng": "English",
+   "fra": "French"
+  }
+ },
+ "COD": {
+  "cca2": "CD",
+  "ccn3": "180",
+  "unMember": true,
+  "name": {
+   "common": "DR Congo",
+   "official": "Democratic Republic of the Congo",
+   "native": {
+    "fra": {
+     "official": "République démocratique du Congo",
+     "common": "RD Congo"
+    },
+    "kon": {
+     "official": "Repubilika ya Kongo Demokratiki",
+     "common": "Repubilika ya Kongo Demokratiki"
+    },
+    "lin": {
+     "official": "Republiki ya Kongó Demokratiki",
+     "common": "Republiki ya Kongó Demokratiki"
+    },
+    "lua": {
+     "official": "Ditunga dia Kongu wa Mungalaata",
+     "common": "Ditunga dia Kongu wa Mungalaata"
+    },
+    "swa": {
+     "official": "Jamhuri ya Kidemokrasia ya Kongo",
+     "common": "Jamhuri ya Kidemokrasia ya Kongo"
+    }
+   }
+  },
+  "currencies": {
+   "CDF": {
+    "name": "Congolese franc",
+    "symbol": "FC"
+   }
+  },
+  "latlng": [
+   0,
+   25
+  ],
+  "capital": [
+   "Kinshasa"
+  ],
+  "region": "Africa",
+  "subregion": "Middle Africa",
+  "languages": {
+   "fra": "French",
+   "kon": "Kikongo",
+   "lin": "Lingala",
+   "lua": "Tshiluba",
+   "swa": "Swahili"
+  }
+ },
+ "COG": {
+  "cca2": "CG",
+  "ccn3": "178",
+  "unMember": true,
+  "name": {
+   "common": "Congo",
+   "official": "Republic of the Congo",
+   "native": {
+    "fra": {
+     "official": "République du Congo",
+     "common": "République du Congo"
+    },
+    "kon": {
+     "official": "Repubilika ya Kongo",
+     "common": "Repubilika ya Kongo"
+    },
+    "lin": {
+     "official": "Republíki ya Kongó",
+     "common": "Republíki ya Kongó"
+    }
+   }
+  },
+  "currencies": {
+   "XAF": {
+    "name": "Central African CFA franc",
+    "symbol": "Fr"
+   }
+  },
+  "latlng": [
+   -1,
+   15
+  ],
+  "capital": [
+   "Brazzaville"
+  ],
+  "region": "Africa",
+  "subregion": "Middle Africa",
+  "languages": {
+   "fra": "French",
+   "kon": "Kikongo",
+   "lin": "Lingala"
+  }
+ },
+ "COM": {
+  "cca2": "KM",
+  "ccn3": "174",
+  "unMember": true,
+  "name": {
+   "common": "Comoros",
+   "official": "Union of the Comoros",
+   "native": {
+    "ara": {
+     "official": "الاتحاد القمري",
+     "common": "جزر القمر"
+    },
+    "fra": {
+     "official": "Union des Comores",
+     "common": "Comores"
+    },
+    "zdj": {
+     "official": "Udzima wa Komori",
+     "common": "Komori"
+    }
+   }
+  },
+  "currencies": {
+   "KMF": {
+    "name": "Comorian franc",
+    "symbol": "Fr"
+   }
+  },
+  "latlng": [
+   -12.16666666,
+   44.25
+  ],
+  "capital": [
+   "Moroni"
+  ],
+  "region": "Africa",
+  "subregion": "Eastern Africa",
+  "languages": {
+   "ara": "Arabic",
+   "fra": "French",
+   "zdj": "Comorian"
+  }
+ },
+ "CPV": {
+  "cca2": "CV",
+  "ccn3": "132",
+  "unMember": true,
+  "name": {
+   "common": "Cape Verde",
+   "official": "Republic of Cabo Verde",
+   "native": {
+    "por": {
+     "official": "República de Cabo Verde",
+     "common": "Cabo Verde"
+    }
+   }
+  },
+  "currencies": {
+   "CVE": {
+    "name": "Cape Verdean escudo",
+    "symbol": "Esc"
+   }
+  },
+  "latlng": [
+   16,
+   -24
+  ],
+  "capital": [
+   "Praia"
+  ],
+  "region": "Africa",
+  "subregion": "Western Africa",
+  "languages": {
+   "por": "Portuguese"
+  }
+ },
+ "CRI": {
+  "cca2": "CR",
+  "ccn3": "188",
+  "unMember": true,
+  "name": {
+   "common": "Costa Rica",
+   "official": "Republic of Costa Rica",
+   "native": {
+    "spa": {
+     "official": "República de Costa Rica",
+     "common": "Costa Rica"
+    }
+   }
+  },
+  "currencies": {
+   "CRC": {
+    "name": "Costa Rican colón",
+    "symbol": "₡"
+   }
+  },
+  "latlng": [
+   10,
+   -84
+  ],
+  "capital": [
+   "San José"
+  ],
+  "region": "Americas",
+  "subregion": "Central America",
+  "languages": {
+   "spa": "Spanish"
+  }
+ },
+ "CYP": {
+  "cca2": "CY",
+  "ccn3": "196",
+  "unMember": true,
+  "name": {
+   "common": "Cyprus",
+   "official": "Republic of Cyprus",
+   "native": {
+    "ell": {
+     "official": "Δημοκρατία της Κύπρος",
+     "common": "Κύπρος"
+    },
+    "tur": {
+     "official": "Kıbrıs Cumhuriyeti",
+     "common": "Kıbrıs"
+    }
+   }
+  },
+  "currencies": {
+   "EUR": {
+    "name": "Euro",
+    "symbol": "€"
+   }
+  },
+  "latlng": [
+   35,
+   33
+  ],
+  "capital": [
+   "Nicosia"
+  ],
+  "region": "Europe",
+  "subregion": "Southern Europe",
+  "languages": {
+   "ell": "Greek",
+   "tur": "Turkish"
+  }
+ },
+ "DOM": {
+  "cca2": "DO",
+  "ccn3": "214",
+  "unMember": true,
+  "name": {
+   "common": "Dominican Republic",
+   "official": "Dominican Republic",
+   "native": {
+    "spa": {
+     "official": "República Dominicana",
+     "common": "República Dominicana"
+    }
+   }
+  },
+  "currencies": {
+   "DOP": {
+    "name": "Dominican peso",
+    "symbol": "$"
+   }
+  },
+  "latlng": [
+   19,
+   -70.66666666
+  ],
+  "capital": [
+   "Santo Domingo"
+  ],
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "languages": {
+   "spa": "Spanish"
+  }
+ },
+ "ECU": {
+  "cca2": "EC",
+  "ccn3": "218",
+  "unMember": true,
+  "name": {
+   "common": "Ecuador",
+   "official": "Republic of Ecuador",
+   "native": {
+    "spa": {
+     "official": "República del Ecuador",
+     "common": "Ecuador"
+    }
+   }
+  },
+  "currencies": {
+   "USD": {
+    "name": "United States dollar",
+    "symbol": "$"
+   }
+  },
+  "latlng": [
+   -2,
+   -77.5
+  ],
+  "capital": [
+   "Quito"
+  ],
+  "region": "Americas",
+  "subregion": "South America",
+  "languages": {
+   "spa": "Spanish"
+  }
+ },
+ "ETH": {
+  "cca2": "ET",
+  "ccn3": "231",
+  "unMember": true,
+  "name": {
+   "common": "Ethiopia",
+   "official": "Federal Democratic Republic of Ethiopia",
+   "native": {
+    "amh": {
+     "official": "የኢትዮጵያ ፌዴራላዊ ዲሞክራሲያዊ ሪፐብሊክ",
+     "common": "ኢትዮጵያ"
+    }
+   }
+  },
+  "currencies": {
+   "ETB": {
+    "name": "Ethiopian birr",
+    "symbol": "Br"
+   }
+  },
+  "latlng": [
+   8,
+   38
+  ],
+  "capital": [
+   "Addis Ababa"
+  ],
+  "region": "Africa",
+  "subregion": "Eastern Africa",
+  "languages": {
+   "amh": "Amharic"
+  }
+ },
+ "FJI": {
+  "cca2": "FJ",
+  "ccn3": "242",
+  "unMember": true,
+  "name": {
+   "common": "Fiji",
+   "official": "Republic of Fiji",
+   "native": {
+    "eng": {
+     "official": "Republic of Fiji",
+     "common": "Fiji"
+    },
+    "fij": {
+     "official": "Matanitu Tugalala o Viti",
+     "common": "Viti"
+    },
+    "hif": {
+     "official": "रिपब्लिक ऑफ फीजी",
+     "common": "फिजी"
+    }
+   }
+  },
+  "currencies": {
+   "FJD": {
+    "name": "Fijian dollar",
+    "symbol": "$"
+   }
+  },
+  "latlng": [
+   -18,
+   175
+  ],
+  "capital": [
+   "Suva"
+  ],
+  "region": "Oceania",
+  "subregion": "Melanesia",
+  "languages": {
+   "eng": "English",
+   "fij": "Fijian",
+   "hif": "Fiji Hindi"
+  }
+ },
+ "FSM": {
+  "cca2": "FM",
+  "ccn3": "583",
+  "unMember": true,
+  "name": {
+   "common": "Micronesia",
+   "official": "Federated States of Micronesia",
+   "native": {
+    "eng": {
+     "official": "Federated States of Micronesia",
+     "common": "Micronesia"
+    }
+   }
+  },
+  "currencies": {},
+  "latlng": [
+   6.91666666,
+   158.25
+  ],
+  "capital": [
+   "Palikir"
+  ],
+  "region": "Oceania",
+  "subregion": "Micronesia",
+  "languages": {
+   "eng": "English"
+  }
+ },
+ "GAB": {
+  "cca2": "GA",
+  "ccn3": "266",
+  "unMember": true,
+  "name": {
+   "common": "Gabon",
+   "official": "Gabonese Republic",
+   "native": {
+    "fra": {
+     "official": "République gabonaise",
+     "common": "Gabon"
+    }
+   }
+  },
+  "currencies": {
+   "XAF": {
+    "name": "Central African CFA franc",
+    "symbol": "Fr"
+   }
+  },
+  "latlng": [
+   -1,
+   11.75
+  ],
+  "capital": [
+   "Libreville"
+  ],
+  "region": "Africa",
+  "subregion": "Middle Africa",
+  "languages": {
+   "fra": "French"
+  }
+ },
+ "GEO": {
+  "cca2": "GE",
+  "ccn3": "268",
+  "unMember": true,
+  "name": {
+   "common": "Georgia",
+   "official": "Georgia",
+   "native": {
+    "kat": {
+     "official": "საქართველო",
+     "common": "საქართველო"
+    }
+   }
+  },
+  "currencies": {
+   "GEL": {
+    "name": "lari",
+    "symbol": "₾"
+   }
+  },
+  "latlng": [
+   42,
+   43.5
+  ],
+  "capital": [
+   "Tbilisi"
+  ],
+  "region": "Asia",
+  "subregion": "Western Asia",
+  "languages": {
+   "kat": "Georgian"
+  }
+ },
+ "GIN": {
+  "cca2": "GN",
+  "ccn3": "324",
+  "unMember": true,
+  "name": {
+   "common": "Guinea",
+   "official": "Republic of Guinea",
+   "native": {
+    "fra": {
+     "official": "République de Guinée",
+     "common": "Guinée"
+    }
+   }
+  },
+  "currencies": {
+   "GNF": {
+    "name": "Guinean franc",
+    "symbol": "Fr"
+   }
+  },
+  "latlng": [
+   11,
+   -10
+  ],
+  "capital": [
+   "Conakry"
+  ],
+  "region": "Africa",
+  "subregion": "Western Africa",
+  "languages": {
+   "fra": "French"
+  }
+ },
+ "GNB": {
+  "cca2": "GW",
+  "ccn3": "624",
+  "unMember": true,
+  "name": {
+   "common": "Guinea-Bissau",
+   "official": "Republic of Guinea-Bissau",
+   "native": {
+    "por": {
+     "official": "República da Guiné-Bissau",
+     "common": "Guiné-Bissau"
+    },
+    "pov": {
+     "official": "República da Guiné-Bissau",
+     "common": "Guiné-Bissau"
+    }
+   }
+  },
+  "currencies": {
+   "XOF": {
+    "name": "West African CFA franc",
+    "symbol": "Fr"
+   }
+  },
+  "latlng": [
+   12,
+   -15
+  ],
+  "capital": [
+   "Bissau"
+  ],
+  "region": "Africa",
+  "subregion": "Western Africa",
+  "languages": {
+   "por": "Portuguese",
+   "pov": "Upper Guinea Creole"
+  }
+ },
+ "GNQ": {
+  "cca2": "GQ",
+  "ccn3": "226",
+  "unMember": true,
+  "name": {
+   "common": "Equatorial Guinea",
+   "official": "Republic of Equatorial Guinea",
+   "native": {
+    "fra": {
+     "official": "République de la Guinée Équatoriale",
+     "common": "Guinée équatoriale"
+    },
+    "por": {
+     "official": "República da Guiné Equatorial",
+     "common": "Guiné Equatorial"
+    },
+    "spa": {
+     "official": "República de Guinea Ecuatorial",
+     "common": "Guinea Ecuatorial"
+    }
+   }
+  },
+  "currencies": {
+   "XAF": {
+    "name": "Central African CFA franc",
+    "symbol": "Fr"
+   }
+  },
+  "latlng": [
+   2,
+   10
+  ],
+  "capital": [
+   "Malabo"
+  ],
+  "region": "Africa",
+  "subregion": "Middle Africa",
+  "languages": {
+   "fra": "French",
+   "por": "Portuguese",
+   "spa": "Spanish"
+  }
+ },
+ "GTM": {
+  "cca2": "GT",
+  "ccn3": "320",
+  "unMember": true,
+  "name": {
+   "common": "Guatemala",
+   "official": "Republic of Guatemala",
+   "native": {
+    "spa": {
+     "official": "República de Guatemala",
+     "common": "Guatemala"
+    }
+   }
+  },
+  "currencies": {
+   "GTQ": {
+    "name": "Guatemalan quetzal",
+    "symbol": "Q"
+   }
+  },
+  "latlng": [
+   15.5,
+   -90.25
+  ],
+  "capital": [
+   "Guatemala City"
+  ],
+  "region": "Americas",
+  "subregion": "Central America",
+  "languages": {
+   "spa": "Spanish"
+  }
+ },
+ "HND": {
+  "cca2": "HN",
+  "ccn3": "340",
+  "unMember": true,
+  "name": {
+   "common": "Honduras",
+   "official": "Republic of Honduras",
+   "native": {
+    "spa": {
+     "official": "República de Honduras",
+     "common": "Honduras"
+    }
+   }
+  },
+  "currencies": {
+   "HNL": {
+    "name": "Honduran lempira",
+    "symbol": "L"
+   }
+  },
+  "latlng": [
+   15,
+   -86.5
+  ],
+  "capital": [
+   "Tegucigalpa"
+  ],
+  "region": "Americas",
+  "subregion": "Central America",
+  "languages": {
+   "spa": "Spanish"
+  }
+ },
+ "IDN": {
+  "cca2": "ID",
+  "ccn3": "360",
+  "unMember": true,
+  "name": {
+   "common": "Indonesia",
+   "official": "Republic of Indonesia",
+   "native": {
+    "ind": {
+     "official": "Republik Indonesia",
+     "common": "Indonesia"
+    }
+   }
+  },
+  "currencies": {
+   "IDR": {
+    "name": "Indonesian rupiah",
+    "symbol": "Rp"
+   }
+  },
+  "latlng": [
+   -5,
+   120
+  ],
+  "capital": [
+   "Jakarta"
+  ],
+  "region": "Asia",
+  "subregion": "South-Eastern Asia",
+  "languages": {
+   "ind": "Indonesian"
+  }
+ },
+ "IND": {
+  "cca2": "IN",
+  "ccn3": "356",
+  "unMember": true,
+  "name": {
+   "common": "India",
+   "official": "Republic of India",
+   "native": {
+    "eng": {
+     "official": "Republic of India",
+     "common": "India"
+    },
+    "hin": {
+     "official": "भारत गणराज्य",
+     "common": "भारत"
+    },
+    "tam": {
+     "official": "இந்தியக் குடியரசு",
+     "common": "இந்தியா"
+    }
+   }
+  },
+  "currencies": {
+   "INR": {
+    "name": "Indian rupee",
+    "symbol": "₹"
+   }
+  },
+  "latlng": [
+   20,
+   77
+  ],
+  "capital": [
+   "New Delhi"
+  ],
+  "region": "Asia",
+  "subregion": "Southern Asia",
+  "languages": {
+   "eng": "English",
+   "hin": "Hindi",
+   "tam": "Tamil"
+  }
+ },
+ "IRQ": {
+  "cca2": "IQ",
+  "ccn3": "368",
+  "unMember": true,
+  "name": {
+   "common": "Iraq",
+   "official": "Republic of Iraq",
+   "native": {
+    "ara": {
+     "official": "جمهورية العراق",
+     "common": "العراق"
+    },
+    "arc": {
+     "official": "ܩܘܼܛܢܵܐ ܐܝܼܪܲܩ",
+     "common": "ܩܘܼܛܢܵܐ"
+    },
+    "ckb": {
+     "official": "کۆماری عێراق",
+     "common": "کۆماری"
+    }
+   }
+  },
+  "currencies": {
+   "IQD": {
+    "name": "Iraqi dinar",
+    "symbol": "ع.د"
+   }
+  },
+  "latlng": [
+   33,
+   44
+  ],
+  "capital": [
+   "Baghdad"
+  ],
+  "region": "Asia",
+  "subregion": "Western Asia",
+  "languages": {
+   "ara": "Arabic",
+   "arc": "Aramaic",
+   "ckb": "Sorani"
+  }
+ },
+ "ISR": {
+  "cca2": "IL",
+  "ccn3": "376",
+  "unMember": true,
+  "name": {
+   "common": "Israel",
+   "official": "State of Israel",
+   "native": {
+    "ara": {
+     "official": "دولة إسرائيل",
+     "common": "إسرائيل"
+    },
+    "heb": {
+     "official": "מדינת ישראל",
+     "common": "ישראל"
+    }
+   }
+  },
+  "currencies": {
+   "ILS": {
+    "name": "Israeli new shekel",
+    "symbol": "₪"
+   }
+  },
+  "latlng": [
+   31.47,
+   35.13
+  ],
+  "capital": [
+   "Jerusalem"
+  ],
+  "region": "Asia",
+  "subregion": "Western Asia",
+  "languages": {
+   "ara": "Arabic",
+   "heb": "Hebrew"
+  }
+ },
+ "JAM": {
+  "cca2": "JM",
+  "ccn3": "388",
+  "unMember": true,
+  "name": {
+   "common": "Jamaica",
+   "official": "Jamaica",
+   "native": {
+    "eng": {
+     "official": "Jamaica",
+     "common": "Jamaica"
+    },
+    "jam": {
+     "official": "Jamaica",
+     "common": "Jamaica"
+    }
+   }
+  },
+  "currencies": {
+   "JMD": {
+    "name": "Jamaican dollar",
+    "symbol": "$"
+   }
+  },
+  "latlng": [
+   18.25,
+   -77.5
+  ],
+  "capital": [
+   "Kingston"
+  ],
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "languages": {
+   "eng": "English",
+   "jam": "Jamaican Patois"
+  }
+ },
+ "JOR": {
+  "cca2": "JO",
+  "ccn3": "400",
+  "unMember": true,
+  "name": {
+   "common": "Jordan",
+   "official": "Hashemite Kingdom of Jordan",
+   "native": {
+    "ara": {
+     "official": "المملكة الأردنية الهاشمية",
+     "common": "الأردن"
+    }
+   }
+  },
+  "currencies": {
+   "JOD": {
+    "name": "Jordanian dinar",
+    "symbol": "د.ا"
+   }
+  },
+  "latlng": [
+   31,
+   36
+  ],
+  "capital": [
+   "Amman"
+  ],
+  "region": "Asia",
+  "subregion": "Western Asia",
+  "languages": {
+   "ara": "Arabic"
+  }
+ },
+ "KAZ": {
+  "cca2": "KZ",
+  "ccn3": "398",
+  "unMember": true,
+  "name": {
+   "common": "Kazakhstan",
+   "official": "Republic of Kazakhstan",
+   "native": {
+    "kaz": {
+     "official": "Қазақстан Республикасы",
+     "common": "Қазақстан"
+    },
+    "rus": {
+     "official": "Республика Казахстан",
+     "common": "Казахстан"
+    }
+   }
+  },
+  "currencies": {
+   "KZT": {
+    "name": "Kazakhstani tenge",
+    "symbol": "₸"
+   }
+  },
+  "latlng": [
+   48,
+   68
+  ],
+  "capital": [
+   "Astana"
+  ],
+  "region": "Asia",
+  "subregion": "Central Asia",
+  "languages": {
+   "kaz": "Kazakh",
+   "rus": "Russian"
+  }
+ },
+ "KEN": {
+  "cca2": "KE",
+  "ccn3": "404",
+  "unMember": true,
+  "name": {
+   "common": "Kenya",
+   "official": "Republic of Kenya",
+   "native": {
+    "eng": {
+     "official": "Republic of Kenya",
+     "common": "Kenya"
+    },
+    "swa": {
+     "official": "Republic of Kenya",
+     "common": "Kenya"
+    }
+   }
+  },
+  "currencies": {
+   "KES": {
+    "name": "Kenyan shilling",
+    "symbol": "Sh"
+   }
+  },
+  "latlng": [
+   1,
+   38
+  ],
+  "capital": [
+   "Nairobi"
+  ],
+  "region": "Africa",
+  "subregion": "Eastern Africa",
+  "languages": {
+   "eng": "English",
+   "swa": "Swahili"
+  }
+ },
+ "KGZ": {
+  "cca2": "KG",
+  "ccn3": "417",
+  "unMember": true,
+  "name": {
+   "common": "Kyrgyzstan",
+   "official": "Kyrgyz Republic",
+   "native": {
+    "kir": {
+     "official": "Кыргыз Республикасы",
+     "common": "Кыргызстан"
+    },
+    "rus": {
+     "official": "Кыргызская Республика",
+     "common": "Киргизия"
+    }
+   }
+  },
+  "currencies": {
+   "KGS": {
+    "name": "Kyrgyzstani som",
+    "symbol": "с"
+   }
+  },
+  "latlng": [
+   41,
+   75
+  ],
+  "capital": [
+   "Bishkek"
+  ],
+  "region": "Asia",
+  "subregion": "Central Asia",
+  "languages": {
+   "kir": "Kyrgyz",
+   "rus": "Russian"
+  }
+ },
+ "KHM": {
+  "cca2": "KH",
+  "ccn3": "116",
+  "unMember": true,
+  "name": {
+   "common": "Cambodia",
+   "official": "Kingdom of Cambodia",
+   "native": {
+    "khm": {
+     "official": "ព្រះរាជាណាចក្រកម្ពុជា",
+     "common": "Kâmpŭchéa"
+    }
+   }
+  },
+  "currencies": {
+   "KHR": {
+    "name": "Cambodian riel",
+    "symbol": "៛"
+   },
+   "USD": {
+    "name": "United States dollar",
+    "symbol": "$"
+   }
+  },
+  "latlng": [
+   13,
+   105
+  ],
+  "capital": [
+   "Phnom Penh"
+  ],
+  "region": "Asia",
+  "subregion": "South-Eastern Asia",
+  "languages": {
+   "khm": "Khmer"
+  }
+ },
+ "KIR": {
+  "cca2": "KI",
+  "ccn3": "296",
+  "unMember": true,
+  "name": {
+   "common": "Kiribati",
+   "official": "Independent and Sovereign Republic of Kiribati",
+   "native": {
+    "eng": {
+     "official": "Independent and Sovereign Republic of Kiribati",
+     "common": "Kiribati"
+    },
+    "gil": {
+     "official": "Ribaberiki Kiribati",
+     "common": "Kiribati"
+    }
+   }
+  },
+  "currencies": {
+   "AUD": {
+    "name": "Australian dollar",
+    "symbol": "$"
+   },
+   "KID": {
+    "name": "Kiribati dollar",
+    "symbol": "$"
+   }
+  },
+  "latlng": [
+   1.41666666,
+   173
+  ],
+  "capital": [
+   "South Tarawa"
+  ],
+  "region": "Oceania",
+  "subregion": "Micronesia",
+  "languages": {
+   "eng": "English",
+   "gil": "Gilbertese"
+  }
+ },
+ "KNA": {
+  "cca2": "KN",
+  "ccn3": "659",
+  "unMember": true,
+  "name": {
+   "common": "Saint Kitts and Nevis",
+   "official": "Federation of Saint Christopher and Nevis",
+   "native": {
+    "eng": {
+     "official": "Federation of Saint Christopher and Nevis",
+     "common": "Saint Kitts and Nevis"
+    }
+   }
+  },
+  "currencies": {
+   "XCD": {
+    "name": "Eastern Caribbean dollar",
+    "symbol": "$"
+   }
+  },
+  "latlng": [
+   17.33333333,
+   -62.75
+  ],
+  "capital": [
+   "Basseterre"
+  ],
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "languages": {
+   "eng": "English"
+  }
+ },
+ "LAO": {
+  "cca2": "LA",
+  "ccn3": "418",
+  "unMember": true,
+  "name": {
+   "common": "Laos",
+   "official": "Lao People's Democratic Republic",
+   "native": {
+    "lao": {
+     "official": "ສາທາລະນະ ຊາທິປະໄຕ ຄົນລາວ ຂອງ",
+     "common": "ສປປລາວ"
+    }
+   }
+  },
+  "currencies": {
+   "LAK": {
+    "name": "Lao kip",
+    "symbol": "₭"
+   }
+  },
+  "latlng": [
+   18,
+   105
+  ],
+  "capital": [
+   "Vientiane"
+  ],
+  "region": "Asia",
+  "subregion": "South-Eastern Asia",
+  "languages": {
+   "lao": "Lao"
+  }
+ },
+ "LBN": {
+  "cca2": "LB",
+  "ccn3": "422",
+  "unMember": true,
+  "name": {
+   "common": "Lebanon",
+   "official": "Lebanese Republic",
+   "native": {
+    "ara": {
+     "official": "الجمهورية اللبنانية",
+     "common": "لبنان"
+    },
+    "fra": {
+     "official": "République libanaise",
+     "common": "Liban"
+    }
+   }
+  },
+  "currencies": {
+   "LBP": {
+    "name": "Lebanese pound",
+    "symbol": "ل.ل"
+   }
+  },
+  "latlng": [
+   33.83333333,
+   35.83333333
+  ],
+  "capital": [
+   "Beirut"
+  ],
+  "region": "Asia",
+  "subregion": "Western Asia",
+  "languages": {
+   "ara": "Arabic",
+   "fra": "French"
+  }
+ },
+ "LKA": {
+  "cca2": "LK",
+  "ccn3": "144",
+  "unMember": true,
+  "name": {
+   "common": "Sri Lanka",
+   "official": "Democratic Socialist Republic of Sri Lanka",
+   "native": {
+    "sin": {
+     "official": "ශ්‍රී ලංකා ප්‍රජාතාන්ත්‍රික සමාජවාදී ජනරජය",
+     "common": "ශ්‍රී ලංකාව"
+    },
+    "tam": {
+     "official": "இலங்கை சனநாயக சோசலிசக் குடியரசு",
+     "common": "இலங்கை"
+    }
+   }
+  },
+  "currencies": {
+   "LKR": {
+    "name": "Sri Lankan rupee",
+    "symbol": "Rs රු"
+   }
+  },
+  "latlng": [
+   7,
+   81
+  ],
+  "capital": [
+   "Colombo"
+  ],
+  "region": "Asia",
+  "subregion": "Southern Asia",
+  "languages": {
+   "sin": "Sinhala",
+   "tam": "Tamil"
+  }
+ },
+ "LSO": {
+  "cca2": "LS",
+  "ccn3": "426",
+  "unMember": true,
+  "name": {
+   "common": "Lesotho",
+   "official": "Kingdom of Lesotho",
+   "native": {
+    "eng": {
+     "official": "Kingdom of Lesotho",
+     "common": "Lesotho"
+    },
+    "sot": {
+     "official": "Kingdom of Lesotho",
+     "common": "Lesotho"
+    }
+   }
+  },
+  "currencies": {
+   "LSL": {
+    "name": "Lesotho loti",
+    "symbol": "L"
+   },
+   "ZAR": {
+    "name": "South African rand",
+    "symbol": "R"
+   }
+  },
+  "latlng": [
+   -29.5,
+   28.5
+  ],
+  "capital": [
+   "Maseru"
+  ],
+  "region": "Africa",
+  "subregion": "Southern Africa",
+  "languages": {
+   "eng": "English",
+   "sot": "Sotho"
+  }
+ },
+ "MAR": {
+  "cca2": "MA",
+  "ccn3": "504",
+  "unMember": true,
+  "name": {
+   "common": "Morocco",
+   "official": "Kingdom of Morocco",
+   "native": {
+    "ara": {
+     "official": "المملكة المغربية",
+     "common": "المغرب"
+    },
+    "ber": {
+     "official": "ⵜⴰⴳⵍⴷⵉⵜ ⵏ ⵍⵎⵖⵔⵉⴱ",
+     "common": "ⵍⵎⴰⵖⵔⵉⴱ"
+    }
+   }
+  },
+  "currencies": {
+   "MAD": {
+    "name": "Moroccan dirham",
+    "symbol": "د.م."
+   }
+  },
+  "latlng": [
+   32,
+   -5
+  ],
+  "capital": [
+   "Rabat"
+  ],
+  "region": "Africa",
+  "subregion": "Northern Africa",
+  "languages": {
+   "ara": "Arabic",
+   "ber": "Berber"
+  }
+ },
+ "MDA": {
+  "cca2": "MD",
+  "ccn3": "498",
+  "unMember": true,
+  "name": {
+   "common": "Moldova",
+   "official": "Republic of Moldova",
+   "native": {
+    "ron": {
+     "official": "Republica Moldova",
+     "common": "Moldova"
+    }
+   }
+  },
+  "currencies": {
+   "MDL": {
+    "name": "Moldovan leu",
+    "symbol": "L"
+   }
+  },
+  "latlng": [
+   47,
+   29
+  ],
+  "capital": [
+   "Chișinău"
+  ],
+  "region": "Europe",
+  "subregion": "Eastern Europe",
+  "languages": {
+   "ron": "Moldavian"
+  }
+ },
+ "MDG": {
+  "cca2": "MG",
+  "ccn3": "450",
+  "unMember": true,
+  "name": {
+   "common": "Madagascar",
+   "official": "Republic of Madagascar",
+   "native": {
+    "fra": {
+     "official": "République de Madagascar",
+     "common": "Madagascar"
+    },
+    "mlg": {
+     "official": "Repoblikan'i Madagasikara",
+     "common": "Madagasikara"
+    }
+   }
+  },
+  "currencies": {
+   "MGA": {
+    "name": "Malagasy ariary",
+    "symbol": "Ar"
+   }
+  },
+  "latlng": [
+   -20,
+   47
+  ],
+  "capital": [
+   "Antananarivo"
+  ],
+  "region": "Africa",
+  "subregion": "Eastern Africa",
+  "languages": {
+   "fra": "French",
+   "mlg": "Malagasy"
+  }
+ },
+ "MDV": {
+  "cca2": "MV",
+  "ccn3": "462",
+  "unMember": true,
+  "name": {
+   "common": "Maldives",
+   "official": "Republic of the Maldives",
+   "native": {
+    "div": {
+     "official": "ދިވެހިރާއްޖޭގެ ޖުމްހޫރިއްޔާ",
+     "common": "ދިވެހިރާއްޖޭގެ"
+    }
+   }
+  },
+  "currencies": {
+   "MVR": {
+    "name": "Maldivian rufiyaa",
+    "symbol": ".ރ"
+   }
+  },
+  "latlng": [
+   3.25,
+   73
+  ],
+  "capital": [
+   "Malé"
+  ],
+  "region": "Asia",
+  "subregion": "Southern Asia",
+  "languages": {
+   "div": "Maldivian"
+  }
+ },
+ "MHL": {
+  "cca2": "MH",
+  "ccn3": "584",
+  "unMember": true,
+  "name": {
+   "common": "Marshall Islands",
+   "official": "Republic of the Marshall Islands",
+   "native": {
+    "eng": {
+     "official": "Republic of the Marshall Islands",
+     "common": "Marshall Islands"
+    },
+    "mah": {
+     "official": "Republic of the Marshall Islands",
+     "common": "M̧ajeļ"
+    }
+   }
+  },
+  "currencies": {
+   "USD": {
+    "name": "United States dollar",
+    "symbol": "$"
+   }
+  },
+  "latlng": [
+   9,
+   168
+  ],
+  "capital": [
+   "Majuro"
+  ],
+  "region": "Oceania",
+  "subregion": "Micronesia",
+  "languages": {
+   "eng": "English",
+   "mah": "Marshallese"
+  }
+ },
+ "MKD": {
+  "cca2": "MK",
+  "ccn3": "807",
+  "unMember": true,
+  "name": {
+   "common": "North Macedonia",
+   "official": "Republic of North Macedonia",
+   "native": {
+    "mkd": {
+     "official": "Република Северна Македонија",
+     "common": "Македонија"
+    }
+   }
+  },
+  "currencies": {
+   "MKD": {
+    "name": "denar",
+    "symbol": "den"
+   }
+  },
+  "latlng": [
+   41.83333333,
+   22
+  ],
+  "capital": [
+   "Skopje"
+  ],
+  "region": "Europe",
+  "subregion": "Southeast Europe",
+  "languages": {
+   "mkd": "Macedonian"
+  }
+ },
+ "MLI": {
+  "cca2": "ML",
+  "ccn3": "466",
+  "unMember": true,
+  "name": {
+   "common": "Mali",
+   "official": "Republic of Mali",
+   "native": {
+    "fra": {
+     "official": "République du Mali",
+     "common": "Mali"
+    }
+   }
+  },
+  "currencies": {
+   "XOF": {
+    "name": "West African CFA franc",
+    "symbol": "Fr"
+   }
+  },
+  "latlng": [
+   17,
+   -4
+  ],
+  "capital": [
+   "Bamako"
+  ],
+  "region": "Africa",
+  "subregion": "Western Africa",
+  "languages": {
+   "fra": "French"
+  }
+ },
+ "MMR": {
+  "cca2": "MM",
+  "ccn3": "104",
+  "unMember": true,
+  "name": {
+   "common": "Myanmar",
+   "official": "Republic of the Union of Myanmar",
+   "native": {
+    "mya": {
+     "official": "ပြည်ထောင်စု သမ္မတ မြန်မာနိုင်ငံတော်",
+     "common": "မြန်မာ"
+    }
+   }
+  },
+  "currencies": {
+   "MMK": {
+    "name": "Burmese kyat",
+    "symbol": "Ks"
+   }
+  },
+  "latlng": [
+   22,
+   98
+  ],
+  "capital": [
+   "Naypyidaw"
+  ],
+  "region": "Asia",
+  "subregion": "South-Eastern Asia",
+  "languages": {
+   "mya": "Burmese"
+  }
+ },
+ "MNG": {
+  "cca2": "MN",
+  "ccn3": "496",
+  "unMember": true,
+  "name": {
+   "common": "Mongolia",
+   "official": "Mongolia",
+   "native": {
+    "mon": {
+     "official": "Монгол улс",
+     "common": "Монгол улс"
+    }
+   }
+  },
+  "currencies": {
+   "MNT": {
+    "name": "Mongolian tögrög",
+    "symbol": "₮"
+   }
+  },
+  "latlng": [
+   46,
+   105
+  ],
+  "capital": [
+   "Ulan Bator"
+  ],
+  "region": "Asia",
+  "subregion": "Eastern Asia",
+  "languages": {
+   "mon": "Mongolian"
+  }
+ },
+ "MOZ": {
+  "cca2": "MZ",
+  "ccn3": "508",
+  "unMember": true,
+  "name": {
+   "common": "Mozambique",
+   "official": "Republic of Mozambique",
+   "native": {
+    "por": {
+     "official": "República de Moçambique",
+     "common": "Moçambique"
+    }
+   }
+  },
+  "currencies": {
+   "MZN": {
+    "name": "Mozambican metical",
+    "symbol": "MT"
+   }
+  },
+  "latlng": [
+   -18.25,
+   35
+  ],
+  "capital": [
+   "Maputo"
+  ],
+  "region": "Africa",
+  "subregion": "Eastern Africa",
+  "languages": {
+   "por": "Portuguese"
+  }
+ },
+ "MUS": {
+  "cca2": "MU",
+  "ccn3": "480",
+  "unMember": true,
+  "name": {
+   "common": "Mauritius",
+   "official": "Republic of Mauritius",
+   "native": {
+    "eng": {
+     "official": "Republic of Mauritius",
+     "common": "Mauritius"
+    },
+    "fra": {
+     "official": "République de Maurice",
+     "common": "Maurice"
+    },
+    "mfe": {
+     "official": "Republik Moris",
+     "common": "Moris"
+    }
+   }
+  },
+  "currencies": {
+   "MUR": {
+    "name": "Mauritian rupee",
+    "symbol": "₨"
+   }
+  },
+  "latlng": [
+   -20.28333333,
+   57.55
+  ],
+  "capital": [
+   "Port Louis"
+  ],
+  "region": "Africa",
+  "subregion": "Eastern Africa",
+  "languages": {
+   "eng": "English",
+   "fra": "French",
+   "mfe": "Mauritian Creole"
+  }
+ },
+ "MWI": {
+  "cca2": "MW",
+  "ccn3": "454",
+  "unMember": true,
+  "name": {
+   "common": "Malawi",
+   "official": "Republic of Malawi",
+   "native": {
+    "eng": {
+     "official": "Republic of Malawi",
+     "common": "Malawi"
+    },
+    "nya": {
+     "official": "Chalo cha Malawi, Dziko la Malaŵi",
+     "common": "Malaŵi"
+    }
+   }
+  },
+  "currencies": {
+   "MWK": {
+    "name": "Malawian kwacha",
+    "symbol": "MK"
+   }
+  },
+  "latlng": [
+   -13.5,
+   34
+  ],
+  "capital": [
+   "Lilongwe"
+  ],
+  "region": "Africa",
+  "subregion": "Eastern Africa",
+  "languages": {
+   "eng": "English",
+   "nya": "Chewa"
+  }
+ },
+ "MYS": {
+  "cca2": "MY",
+  "ccn3": "458",
+  "unMember": true,
+  "name": {
+   "common": "Malaysia",
+   "official": "Malaysia",
+   "native": {
+    "eng": {
+     "official": "Malaysia",
+     "common": "Malaysia"
+    },
+    "msa": {
+     "official": "مليسيا",
+     "common": "مليسيا"
+    }
+   }
+  },
+  "currencies": {
+   "MYR": {
+    "name": "Malaysian ringgit",
+    "symbol": "RM"
+   }
+  },
+  "latlng": [
+   2.5,
+   112.5
+  ],
+  "capital": [
+   "Kuala Lumpur"
+  ],
+  "region": "Asia",
+  "subregion": "South-Eastern Asia",
+  "languages": {
+   "eng": "English",
+   "msa": "Malay"
+  }
+ },
+ "NAM": {
+  "cca2": "NA",
+  "ccn3": "516",
+  "unMember": true,
+  "name": {
+   "common": "Namibia",
+   "official": "Republic of Namibia",
+   "native": {
+    "afr": {
+     "official": "Republiek van Namibië",
+     "common": "Namibië"
+    },
+    "deu": {
+     "official": "Republik Namibia",
+     "common": "Namibia"
+    },
+    "eng": {
+     "official": "Republic of Namibia",
+     "common": "Namibia"
+    },
+    "her": {
+     "official": "Republic of Namibia",
+     "common": "Namibia"
+    },
+    "hgm": {
+     "official": "Republic of Namibia",
+     "common": "Namibia"
+    },
+    "kwn": {
+     "official": "Republic of Namibia",
+     "common": "Namibia"
+    },
+    "loz": {
+     "official": "Republic of Namibia",
+     "common": "Namibia"
+    },
+    "ndo": {
+     "official": "Republic of Namibia",
+     "common": "Namibia"
+    },
+    "tsn": {
+     "official": "Lefatshe la Namibia",
+     "common": "Namibia"
+    }
+   }
+  },
+  "currencies": {
+   "NAD": {
+    "name": "Namibian dollar",
+    "symbol": "$"
+   },
+   "ZAR": {
+    "name": "South African rand",
+    "symbol": "R"
+   }
+  },
+  "latlng": [
+   -22,
+   17
+  ],
+  "capital": [
+   "Windhoek"
+  ],
+  "region": "Africa",
+  "subregion": "Southern Africa",
+  "languages": {
+   "afr": "Afrikaans",
+   "deu": "German",
+   "eng": "English",
+   "her": "Herero",
+   "hgm": "Khoekhoe",
+   "kwn": "Kwangali",
+   "loz": "Lozi",
+   "ndo": "Ndonga",
+   "tsn": "Tswana"
+  }
+ },
+ "NIC": {
+  "cca2": "NI",
+  "ccn3": "558",
+  "unMember": true,
+  "name": {
+   "common": "Nicaragua",
+   "official": "Republic of Nicaragua",
+   "native": {
+    "spa": {
+     "official": "República de Nicaragua",
+     "common": "Nicaragua"
+    }
+   }
+  },
+  "currencies": {
+   "NIO": {
+    "name": "Nicaraguan córdoba",
+    "symbol": "C$"
+   }
+  },
+  "latlng": [
+   13,
+   -85
+  ],
+  "capital": [
+   "Managua"
+  ],
+  "region": "Americas",
+  "subregion": "Central America",
+  "languages": {
+   "spa": "Spanish"
+  }
+ },
+ "NPL": {
+  "cca2": "NP",
+  "ccn3": "524",
+  "unMember": true,
+  "name": {
+   "common": "Nepal",
+   "official": "Federal Democratic Republic of Nepal",
+   "native": {
+    "nep": {
+     "official": "नेपाल संघीय लोकतान्त्रिक गणतन्त्र",
+     "common": "नेपाल"
+    }
+   }
+  },
+  "currencies": {
+   "NPR": {
+    "name": "Nepalese rupee",
+    "symbol": "₨"
+   }
+  },
+  "latlng": [
+   28,
+   84
+  ],
+  "capital": [
+   "Kathmandu"
+  ],
+  "region": "Asia",
+  "subregion": "Southern Asia",
+  "languages": {
+   "nep": "Nepali"
+  }
+ },
+ "NRU": {
+  "cca2": "NR",
+  "ccn3": "520",
+  "unMember": true,
+  "name": {
+   "common": "Nauru",
+   "official": "Republic of Nauru",
+   "native": {
+    "eng": {
+     "official": "Republic of Nauru",
+     "common": "Nauru"
+    },
+    "nau": {
+     "official": "Republic of Nauru",
+     "common": "Nauru"
+    }
+   }
+  },
+  "currencies": {
+   "AUD": {
+    "name": "Australian dollar",
+    "symbol": "$"
+   }
+  },
+  "latlng": [
+   -0.53333333,
+   166.91666666
+  ],
+  "capital": [
+   "Yaren"
+  ],
+  "region": "Oceania",
+  "subregion": "Micronesia",
+  "languages": {
+   "eng": "English",
+   "nau": "Nauru"
+  }
+ },
+ "PAN": {
+  "cca2": "PA",
+  "ccn3": "591",
+  "unMember": true,
+  "name": {
+   "common": "Panama",
+   "official": "Republic of Panama",
+   "native": {
+    "spa": {
+     "official": "República de Panamá",
+     "common": "Panamá"
+    }
+   }
+  },
+  "currencies": {
+   "PAB": {
+    "name": "Panamanian balboa",
+    "symbol": "B/."
+   },
+   "USD": {
+    "name": "United States dollar",
+    "symbol": "$"
+   }
+  },
+  "latlng": [
+   9,
+   -80
+  ],
+  "capital": [
+   "Panama City"
+  ],
+  "region": "Americas",
+  "subregion": "Central America",
+  "languages": {
+   "spa": "Spanish"
+  }
+ },
+ "PER": {
+  "cca2": "PE",
+  "ccn3": "604",
+  "unMember": true,
+  "name": {
+   "common": "Peru",
+   "official": "Republic of Peru",
+   "native": {
+    "aym": {
+     "official": "Piruw Suyu",
+     "common": "Piruw"
+    },
+    "que": {
+     "official": "Piruw Ripuwlika",
+     "common": "Piruw"
+    },
+    "spa": {
+     "official": "República del Perú",
+     "common": "Perú"
+    }
+   }
+  },
+  "currencies": {
+   "PEN": {
+    "name": "Peruvian sol",
+    "symbol": "S/."
+   }
+  },
+  "latlng": [
+   -10,
+   -76
+  ],
+  "capital": [
+   "Lima"
+  ],
+  "region": "Americas",
+  "subregion": "South America",
+  "languages": {
+   "aym": "Aymara",
+   "que": "Quechua",
+   "spa": "Spanish"
+  }
+ },
+ "PHL": {
+  "cca2": "PH",
+  "ccn3": "608",
+  "unMember": true,
+  "name": {
+   "common": "Philippines",
+   "official": "Republic of the Philippines",
+   "native": {
+    "eng": {
+     "official": "Republic of the Philippines",
+     "common": "Philippines"
+    },
+    "fil": {
+     "official": "Republika ng Pilipinas",
+     "common": "Pilipinas"
+    }
+   }
+  },
+  "currencies": {
+   "PHP": {
+    "name": "Philippine peso",
+    "symbol": "₱"
+   }
+  },
+  "latlng": [
+   13,
+   122
+  ],
+  "capital": [
+   "Manila"
+  ],
+  "region": "Asia",
+  "subregion": "South-Eastern Asia",
+  "languages": {
+   "eng": "English",
+   "fil": "Filipino"
+  }
+ },
+ "PLW": {
+  "cca2": "PW",
+  "ccn3": "585",
+  "unMember": true,
+  "name": {
+   "common": "Palau",
+   "official": "Republic of Palau",
+   "native": {
+    "eng": {
+     "official": "Republic of Palau",
+     "common": "Palau"
+    },
+    "pau": {
+     "official": "Beluu er a Belau",
+     "common": "Belau"
+    }
+   }
+  },
+  "currencies": {
+   "USD": {
+    "name": "United States dollar",
+    "symbol": "$"
+   }
+  },
+  "latlng": [
+   7.5,
+   134.5
+  ],
+  "capital": [
+   "Ngerulmud"
+  ],
+  "region": "Oceania",
+  "subregion": "Micronesia",
+  "languages": {
+   "eng": "English",
+   "pau": "Palauan"
+  }
+ },
+ "PNG": {
+  "cca2": "PG",
+  "ccn3": "598",
+  "unMember": true,
+  "name": {
+   "common": "Papua New Guinea",
+   "official": "Independent State of Papua New Guinea",
+   "native": {
+    "eng": {
+     "official": "Independent State of Papua New Guinea",
+     "common": "Papua New Guinea"
+    },
+    "hmo": {
+     "official": "Independen Stet bilong Papua Niugini",
+     "common": "Papua Niu Gini"
+    },
+    "tpi": {
+     "official": "Independen Stet bilong Papua Niugini",
+     "common": "Papua Niugini"
+    }
+   }
+  },
+  "currencies": {
+   "PGK": {
+    "name": "Papua New Guinean kina",
+    "symbol": "K"
+   }
+  },
+  "latlng": [
+   -6,
+   147
+  ],
+  "capital": [
+   "Port Moresby"
+  ],
+  "region": "Oceania",
+  "subregion": "Melanesia",
+  "languages": {
+   "eng": "English",
+   "hmo": "Hiri Motu",
+   "tpi": "Tok Pisin"
+  }
+ },
+ "PRY": {
+  "cca2": "PY",
+  "ccn3": "600",
+  "unMember": true,
+  "name": {
+   "common": "Paraguay",
+   "official": "Republic of Paraguay",
+   "native": {
+    "grn": {
+     "official": "Tetã Paraguái",
+     "common": "Paraguái"
+    },
+    "spa": {
+     "official": "República de Paraguay",
+     "common": "Paraguay"
+    }
+   }
+  },
+  "currencies": {
+   "PYG": {
+    "name": "Paraguayan guaraní",
+    "symbol": "₲"
+   }
+  },
+  "latlng": [
+   -23,
+   -58
+  ],
+  "capital": [
+   "Asunción"
+  ],
+  "region": "Americas",
+  "subregion": "South America",
+  "languages": {
+   "grn": "Guaraní",
+   "spa": "Spanish"
+  }
+ },
+ "RUS": {
+  "cca2": "RU",
+  "ccn3": "643",
+  "unMember": true,
+  "name": {
+   "common": "Russia",
+   "official": "Russian Federation",
+   "native": {
+    "rus": {
+     "official": "Российская Федерация",
+     "common": "Россия"
+    }
+   }
+  },
+  "currencies": {
+   "RUB": {
+    "name": "Russian ruble",
+    "symbol": "₽"
+   }
+  },
+  "latlng": [
+   60,
+   100
+  ],
+  "capital": [
+   "Moscow"
+  ],
+  "region": "Europe",
+  "subregion": "Eastern Europe",
+  "languages": {
+   "rus": "Russian"
+  }
+ },
+ "RWA": {
+  "cca2": "RW",
+  "ccn3": "646",
+  "unMember": true,
+  "name": {
+   "common": "Rwanda",
+   "official": "Republic of Rwanda",
+   "native": {
+    "eng": {
+     "official": "Republic of Rwanda",
+     "common": "Rwanda"
+    },
+    "fra": {
+     "official": "République rwandaise",
+     "common": "Rwanda"
+    },
+    "kin": {
+     "official": "Repubulika y'u Rwanda",
+     "common": "Rwanda"
+    }
+   }
+  },
+  "currencies": {
+   "RWF": {
+    "name": "Rwandan franc",
+    "symbol": "Fr"
+   }
+  },
+  "latlng": [
+   -2,
+   30
+  ],
+  "capital": [
+   "Kigali"
+  ],
+  "region": "Africa",
+  "subregion": "Eastern Africa",
+  "languages": {
+   "eng": "English",
+   "fra": "French",
+   "kin": "Kinyarwanda"
+  }
+ },
+ "SAU": {
+  "cca2": "SA",
+  "ccn3": "682",
+  "unMember": true,
+  "name": {
+   "common": "Saudi Arabia",
+   "official": "Kingdom of Saudi Arabia",
+   "native": {
+    "ara": {
+     "official": "المملكة العربية السعودية",
+     "common": "السعودية"
+    }
+   }
+  },
+  "currencies": {
+   "SAR": {
+    "name": "Saudi riyal",
+    "symbol": "ر.س"
+   }
+  },
+  "latlng": [
+   25,
+   45
+  ],
+  "capital": [
+   "Riyadh"
+  ],
+  "region": "Asia",
+  "subregion": "Western Asia",
+  "languages": {
+   "ara": "Arabic"
+  }
+ },
+ "SEN": {
+  "cca2": "SN",
+  "ccn3": "686",
+  "unMember": true,
+  "name": {
+   "common": "Senegal",
+   "official": "Republic of Senegal",
+   "native": {
+    "fra": {
+     "official": "République du Sénégal",
+     "common": "Sénégal"
+    }
+   }
+  },
+  "currencies": {
+   "XOF": {
+    "name": "West African CFA franc",
+    "symbol": "Fr"
+   }
+  },
+  "latlng": [
+   14,
+   -14
+  ],
+  "capital": [
+   "Dakar"
+  ],
+  "region": "Africa",
+  "subregion": "Western Africa",
+  "languages": {
+   "fra": "French"
+  }
+ },
+ "SGP": {
+  "cca2": "SG",
+  "ccn3": "702",
+  "unMember": true,
+  "name": {
+   "common": "Singapore",
+   "official": "Republic of Singapore",
+   "native": {
+    "eng": {
+     "official": "Republic of Singapore",
+     "common": "Singapore"
+    },
+    "msa": {
+     "official": "Republik Singapura",
+     "common": "Singapura"
+    },
+    "tam": {
+     "official": "சிங்கப்பூர் குடியரசு",
+     "common": "சிங்கப்பூர்"
+    },
+    "zho": {
+     "official": "新加坡共和国",
+     "common": "新加坡"
+    }
+   }
+  },
+  "currencies": {
+   "SGD": {
+    "name": "Singapore dollar",
+    "symbol": "$"
+   }
+  },
+  "latlng": [
+   1.36666666,
+   103.8
+  ],
+  "capital": [
+   "Singapore"
+  ],
+  "region": "Asia",
+  "subregion": "South-Eastern Asia",
+  "languages": {
+   "eng": "English",
+   "msa": "Malay",
+   "tam": "Tamil",
+   "zho": "Chinese"
+  }
+ },
+ "SLB": {
+  "cca2": "SB",
+  "ccn3": "090",
+  "unMember": true,
+  "name": {
+   "common": "Solomon Islands",
+   "official": "Solomon Islands",
+   "native": {
+    "eng": {
+     "official": "Solomon Islands",
+     "common": "Solomon Islands"
+    }
+   }
+  },
+  "currencies": {
+   "SBD": {
+    "name": "Solomon Islands dollar",
+    "symbol": "$"
+   }
+  },
+  "latlng": [
+   -8,
+   159
+  ],
+  "capital": [
+   "Honiara"
+  ],
+  "region": "Oceania",
+  "subregion": "Melanesia",
+  "languages": {
+   "eng": "English"
+  }
+ },
+ "SLV": {
+  "cca2": "SV",
+  "ccn3": "222",
+  "unMember": true,
+  "name": {
+   "common": "El Salvador",
+   "official": "Republic of El Salvador",
+   "native": {
+    "spa": {
+     "official": "República de El Salvador",
+     "common": "El Salvador"
+    }
+   }
+  },
+  "currencies": {
+   "USD": {
+    "name": "United States dollar",
+    "symbol": "$"
+   }
+  },
+  "latlng": [
+   13.83333333,
+   -88.91666666
+  ],
+  "capital": [
+   "San Salvador"
+  ],
+  "region": "Americas",
+  "subregion": "Central America",
+  "languages": {
+   "spa": "Spanish"
+  }
+ },
+ "SMR": {
+  "cca2": "SM",
+  "ccn3": "674",
+  "unMember": true,
+  "name": {
+   "common": "San Marino",
+   "official": "Most Serene Republic of San Marino",
+   "native": {
+    "ita": {
+     "official": "Serenissima Repubblica di San Marino",
+     "common": "San Marino"
+    }
+   }
+  },
+  "currencies": {
+   "EUR": {
+    "name": "Euro",
+    "symbol": "€"
+   }
+  },
+  "latlng": [
+   43.76666666,
+   12.41666666
+  ],
+  "capital": [
+   "City of San Marino"
+  ],
+  "region": "Europe",
+  "subregion": "Southern Europe",
+  "languages": {
+   "ita": "Italian"
+  }
+ },
+ "SOM": {
+  "cca2": "SO",
+  "ccn3": "706",
+  "unMember": true,
+  "name": {
+   "common": "Somalia",
+   "official": "Federal Republic of Somalia",
+   "native": {
+    "ara": {
+     "official": "جمهورية الصومال الفيدرالية",
+     "common": "الصومال"
+    },
+    "som": {
+     "official": "Jamhuuriyadda Federaalka Soomaaliya",
+     "common": "Soomaaliya"
+    }
+   }
+  },
+  "currencies": {
+   "SOS": {
+    "name": "Somali shilling",
+    "symbol": "Sh"
+   }
+  },
+  "latlng": [
+   10,
+   49
+  ],
+  "capital": [
+   "Mogadishu"
+  ],
+  "region": "Africa",
+  "subregion": "Eastern Africa",
+  "languages": {
+   "ara": "Arabic",
+   "som": "Somali"
+  }
+ },
+ "SRB": {
+  "cca2": "RS",
+  "ccn3": "688",
+  "unMember": true,
+  "name": {
+   "common": "Serbia",
+   "official": "Republic of Serbia",
+   "native": {
+    "srp": {
+     "official": "Република Србија",
+     "common": "Србија"
+    }
+   }
+  },
+  "currencies": {
+   "RSD": {
+    "name": "Serbian dinar",
+    "symbol": "дин."
+   }
+  },
+  "latlng": [
+   44,
+   21
+  ],
+  "capital": [
+   "Belgrade"
+  ],
+  "region": "Europe",
+  "subregion": "Southeast Europe",
+  "languages": {
+   "srp": "Serbian"
+  }
+ },
+ "SSD": {
+  "cca2": "SS",
+  "ccn3": "728",
+  "unMember": true,
+  "name": {
+   "common": "South Sudan",
+   "official": "Republic of South Sudan",
+   "native": {
+    "eng": {
+     "official": "Republic of South Sudan",
+     "common": "South Sudan"
+    }
+   }
+  },
+  "currencies": {
+   "SSP": {
+    "name": "South Sudanese pound",
+    "symbol": "£"
+   }
+  },
+  "latlng": [
+   7,
+   30
+  ],
+  "capital": [
+   "Juba"
+  ],
+  "region": "Africa",
+  "subregion": "Middle Africa",
+  "languages": {
+   "eng": "English"
+  }
+ },
+ "STP": {
+  "cca2": "ST",
+  "ccn3": "678",
+  "unMember": true,
+  "name": {
+   "common": "São Tomé and Príncipe",
+   "official": "Democratic Republic of São Tomé and Príncipe",
+   "native": {
+    "por": {
+     "official": "República Democrática do São Tomé e Príncipe",
+     "common": "São Tomé e Príncipe"
+    }
+   }
+  },
+  "currencies": {
+   "STN": {
+    "name": "São Tomé and Príncipe dobra",
+    "symbol": "Db"
+   }
+  },
+  "latlng": [
+   1,
+   7
+  ],
+  "capital": [
+   "São Tomé"
+  ],
+  "region": "Africa",
+  "subregion": "Middle Africa",
+  "languages": {
+   "por": "Portuguese"
+  }
+ },
+ "SWZ": {
+  "cca2": "SZ",
+  "ccn3": "748",
+  "unMember": true,
+  "name": {
+   "common": "Eswatini",
+   "official": "Kingdom of Eswatini",
+   "native": {
+    "eng": {
+     "official": "Kingdom of Eswatini",
+     "common": "Eswatini"
+    },
+    "ssw": {
+     "official": "Umbuso weSwatini",
+     "common": "eSwatini"
+    }
+   }
+  },
+  "currencies": {
+   "SZL": {
+    "name": "Swazi lilangeni",
+    "symbol": "L"
+   },
+   "ZAR": {
+    "name": "South African rand",
+    "symbol": "R"
+   }
+  },
+  "latlng": [
+   -26.5,
+   31.5
+  ],
+  "capital": [
+   "Lobamba"
+  ],
+  "region": "Africa",
+  "subregion": "Southern Africa",
+  "languages": {
+   "eng": "English",
+   "ssw": "Swazi"
+  }
+ },
+ "SYC": {
+  "cca2": "SC",
+  "ccn3": "690",
+  "unMember": true,
+  "name": {
+   "common": "Seychelles",
+   "official": "Republic of Seychelles",
+   "native": {
+    "crs": {
+     "official": "Repiblik Sesel",
+     "common": "Sesel"
+    },
+    "eng": {
+     "official": "Republic of Seychelles",
+     "common": "Seychelles"
+    },
+    "fra": {
+     "official": "République des Seychelles",
+     "common": "Seychelles"
+    }
+   }
+  },
+  "currencies": {
+   "SCR": {
+    "name": "Seychellois rupee",
+    "symbol": "₨"
+   }
+  },
+  "latlng": [
+   -4.58333333,
+   55.66666666
+  ],
+  "capital": [
+   "Victoria"
+  ],
+  "region": "Africa",
+  "subregion": "Eastern Africa",
+  "languages": {
+   "crs": "Seychellois Creole",
+   "eng": "English",
+   "fra": "French"
+  }
+ },
+ "TCD": {
+  "cca2": "TD",
+  "ccn3": "148",
+  "unMember": true,
+  "name": {
+   "common": "Chad",
+   "official": "Republic of Chad",
+   "native": {
+    "ara": {
+     "official": "جمهورية تشاد",
+     "common": "تشاد"
+    },
+    "fra": {
+     "official": "République du Tchad",
+     "common": "Tchad"
+    }
+   }
+  },
+  "currencies": {
+   "XAF": {
+    "name": "Central African CFA franc",
+    "symbol": "Fr"
+   }
+  },
+  "latlng": [
+   15,
+   19
+  ],
+  "capital": [
+   "N'Djamena"
+  ],
+  "region": "Africa",
+  "subregion": "Middle Africa",
+  "languages": {
+   "ara": "Arabic",
+   "fra": "French"
+  }
+ },
+ "TGO": {
+  "cca2": "TG",
+  "ccn3": "768",
+  "unMember": true,
+  "name": {
+   "common": "Togo",
+   "official": "Togolese Republic",
+   "native": {
+    "fra": {
+     "official": "République togolaise",
+     "common": "Togo"
+    }
+   }
+  },
+  "currencies": {
+   "XOF": {
+    "name": "West African CFA franc",
+    "symbol": "Fr"
+   }
+  },
+  "latlng": [
+   8,
+   1.16666666
+  ],
+  "capital": [
+   "Lomé"
+  ],
+  "region": "Africa",
+  "subregion": "Western Africa",
+  "languages": {
+   "fra": "French"
+  }
+ },
+ "THA": {
+  "cca2": "TH",
+  "ccn3": "764",
+  "unMember": true,
+  "name": {
+   "common": "Thailand",
+   "official": "Kingdom of Thailand",
+   "native": {
+    "tha": {
+     "official": "ราชอาณาจักรไทย",
+     "common": "ประเทศไทย"
+    }
+   }
+  },
+  "currencies": {
+   "THB": {
+    "name": "Thai baht",
+    "symbol": "฿"
+   }
+  },
+  "latlng": [
+   15,
+   100
+  ],
+  "capital": [
+   "Bangkok"
+  ],
+  "region": "Asia",
+  "subregion": "South-Eastern Asia",
+  "languages": {
+   "tha": "Thai"
+  }
+ },
+ "TJK": {
+  "cca2": "TJ",
+  "ccn3": "762",
+  "unMember": true,
+  "name": {
+   "common": "Tajikistan",
+   "official": "Republic of Tajikistan",
+   "native": {
+    "rus": {
+     "official": "Республика Таджикистан",
+     "common": "Таджикистан"
+    },
+    "tgk": {
+     "official": "Ҷумҳурии Тоҷикистон",
+     "common": "Тоҷикистон"
+    }
+   }
+  },
+  "currencies": {
+   "TJS": {
+    "name": "Tajikistani somoni",
+    "symbol": "ЅМ"
+   }
+  },
+  "latlng": [
+   39,
+   71
+  ],
+  "capital": [
+   "Dushanbe"
+  ],
+  "region": "Asia",
+  "subregion": "Central Asia",
+  "languages": {
+   "rus": "Russian",
+   "tgk": "Tajik"
+  }
+ },
+ "TLS": {
+  "cca2": "TL",
+  "ccn3": "626",
+  "unMember": true,
+  "name": {
+   "common": "Timor-Leste",
+   "official": "Democratic Republic of Timor-Leste",
+   "native": {
+    "por": {
+     "official": "República Democrática de Timor-Leste",
+     "common": "Timor-Leste"
+    },
+    "tet": {
+     "official": "Repúblika Demokrátika Timór-Leste",
+     "common": "Timór-Leste"
+    }
+   }
+  },
+  "currencies": {
+   "USD": {
+    "name": "United States dollar",
+    "symbol": "$"
+   }
+  },
+  "latlng": [
+   -8.83333333,
+   125.91666666
+  ],
+  "capital": [
+   "Dili"
+  ],
+  "region": "Asia",
+  "subregion": "South-Eastern Asia",
+  "languages": {
+   "por": "Portuguese",
+   "tet": "Tetum"
+  }
+ },
+ "TON": {
+  "cca2": "TO",
+  "ccn3": "776",
+  "unMember": true,
+  "name": {
+   "common": "Tonga",
+   "official": "Kingdom of Tonga",
+   "native": {
+    "eng": {
+     "official": "Kingdom of Tonga",
+     "common": "Tonga"
+    },
+    "ton": {
+     "official": "Kingdom of Tonga",
+     "common": "Tonga"
+    }
+   }
+  },
+  "currencies": {
+   "TOP": {
+    "name": "Tongan paʻanga",
+    "symbol": "T$"
+   }
+  },
+  "latlng": [
+   -20,
+   -175
+  ],
+  "capital": [
+   "Nuku'alofa"
+  ],
+  "region": "Oceania",
+  "subregion": "Polynesia",
+  "languages": {
+   "eng": "English",
+   "ton": "Tongan"
+  }
+ },
+ "TTO": {
+  "cca2": "TT",
+  "ccn3": "780",
+  "unMember": true,
+  "name": {
+   "common": "Trinidad and Tobago",
+   "official": "Republic of Trinidad and Tobago",
+   "native": {
+    "eng": {
+     "official": "Republic of Trinidad and Tobago",
+     "common": "Trinidad and Tobago"
+    }
+   }
+  },
+  "currencies": {
+   "TTD": {
+    "name": "Trinidad and Tobago dollar",
+    "symbol": "$"
+   }
+  },
+  "latlng": [
+   11,
+   -61
+  ],
+  "capital": [
+   "Port of Spain"
+  ],
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "languages": {
+   "eng": "English"
+  }
+ },
+ "TUV": {
+  "cca2": "TV",
+  "ccn3": "798",
+  "unMember": true,
+  "name": {
+   "common": "Tuvalu",
+   "official": "Tuvalu",
+   "native": {
+    "eng": {
+     "official": "Tuvalu",
+     "common": "Tuvalu"
+    },
+    "tvl": {
+     "official": "Tuvalu",
+     "common": "Tuvalu"
+    }
+   }
+  },
+  "currencies": {
+   "AUD": {
+    "name": "Australian dollar",
+    "symbol": "$"
+   },
+   "TVD": {
+    "name": "Tuvaluan dollar",
+    "symbol": "$"
+   }
+  },
+  "latlng": [
+   -8,
+   178
+  ],
+  "capital": [
+   "Funafuti"
+  ],
+  "region": "Oceania",
+  "subregion": "Polynesia",
+  "languages": {
+   "eng": "English",
+   "tvl": "Tuvaluan"
+  }
+ },
+ "TZA": {
+  "cca2": "TZ",
+  "ccn3": "834",
+  "unMember": true,
+  "name": {
+   "common": "Tanzania",
+   "official": "United Republic of Tanzania",
+   "native": {
+    "eng": {
+     "official": "United Republic of Tanzania",
+     "common": "Tanzania"
+    },
+    "swa": {
+     "official": "Jamhuri ya Muungano wa Tanzania",
+     "common": "Tanzania"
+    }
+   }
+  },
+  "currencies": {
+   "TZS": {
+    "name": "Tanzanian shilling",
+    "symbol": "Sh"
+   }
+  },
+  "latlng": [
+   -6,
+   35
+  ],
+  "capital": [
+   "Dodoma"
+  ],
+  "region": "Africa",
+  "subregion": "Eastern Africa",
+  "languages": {
+   "eng": "English",
+   "swa": "Swahili"
+  }
+ },
+ "UGA": {
+  "cca2": "UG",
+  "ccn3": "800",
+  "unMember": true,
+  "name": {
+   "common": "Uganda",
+   "official": "Republic of Uganda",
+   "native": {
+    "eng": {
+     "official": "Republic of Uganda",
+     "common": "Uganda"
+    },
+    "swa": {
+     "official": "Republic of Uganda",
+     "common": "Uganda"
+    }
+   }
+  },
+  "currencies": {
+   "UGX": {
+    "name": "Ugandan shilling",
+    "symbol": "Sh"
+   }
+  },
+  "latlng": [
+   1,
+   32
+  ],
+  "capital": [
+   "Kampala"
+  ],
+  "region": "Africa",
+  "subregion": "Eastern Africa",
+  "languages": {
+   "eng": "English",
+   "swa": "Swahili"
+  }
+ },
+ "UKR": {
+  "cca2": "UA",
+  "ccn3": "804",
+  "unMember": true,
+  "name": {
+   "common": "Ukraine",
+   "official": "Ukraine",
+   "native": {
+    "ukr": {
+     "official": "Україна",
+     "common": "Україна"
+    }
+   }
+  },
+  "currencies": {
+   "UAH": {
+    "name": "Ukrainian hryvnia",
+    "symbol": "₴"
+   }
+  },
+  "latlng": [
+   49,
+   32
+  ],
+  "capital": [
+   "Kyiv"
+  ],
+  "region": "Europe",
+  "subregion": "Eastern Europe",
+  "languages": {
+   "ukr": "Ukrainian"
+  }
+ },
+ "URY": {
+  "cca2": "UY",
+  "ccn3": "858",
+  "unMember": true,
+  "name": {
+   "common": "Uruguay",
+   "official": "Oriental Republic of Uruguay",
+   "native": {
+    "spa": {
+     "official": "República Oriental del Uruguay",
+     "common": "Uruguay"
+    }
+   }
+  },
+  "currencies": {
+   "UYU": {
+    "name": "Uruguayan peso",
+    "symbol": "$"
+   }
+  },
+  "latlng": [
+   -33,
+   -56
+  ],
+  "capital": [
+   "Montevideo"
+  ],
+  "region": "Americas",
+  "subregion": "South America",
+  "languages": {
+   "spa": "Spanish"
+  }
+ },
+ "UZB": {
+  "cca2": "UZ",
+  "ccn3": "860",
+  "unMember": true,
+  "name": {
+   "common": "Uzbekistan",
+   "official": "Republic of Uzbekistan",
+   "native": {
+    "rus": {
+     "official": "Республика Узбекистан",
+     "common": "Узбекистан"
+    },
+    "uzb": {
+     "official": "O'zbekiston Respublikasi",
+     "common": "O‘zbekiston"
+    }
+   }
+  },
+  "currencies": {
+   "UZS": {
+    "name": "Uzbekistani soʻm",
+    "symbol": "so'm"
+   }
+  },
+  "latlng": [
+   41,
+   64
+  ],
+  "capital": [
+   "Tashkent"
+  ],
+  "region": "Asia",
+  "subregion": "Central Asia",
+  "languages": {
+   "rus": "Russian",
+   "uzb": "Uzbek"
+  }
+ },
+ "VNM": {
+  "cca2": "VN",
+  "ccn3": "704",
+  "unMember": true,
+  "name": {
+   "common": "Vietnam",
+   "official": "Socialist Republic of Vietnam",
+   "native": {
+    "vie": {
+     "official": "Cộng hòa xã hội chủ nghĩa Việt Nam",
+     "common": "Việt Nam"
+    }
+   }
+  },
+  "currencies": {
+   "VND": {
+    "name": "Vietnamese đồng",
+    "symbol": "₫"
+   }
+  },
+  "latlng": [
+   16.16666666,
+   107.83333333
+  ],
+  "capital": [
+   "Hanoi"
+  ],
+  "region": "Asia",
+  "subregion": "South-Eastern Asia",
+  "languages": {
+   "vie": "Vietnamese"
+  }
+ },
+ "VUT": {
+  "cca2": "VU",
+  "ccn3": "548",
+  "unMember": true,
+  "name": {
+   "common": "Vanuatu",
+   "official": "Republic of Vanuatu",
+   "native": {
+    "bis": {
+     "official": "Ripablik blong Vanuatu",
+     "common": "Vanuatu"
+    },
+    "eng": {
+     "official": "Republic of Vanuatu",
+     "common": "Vanuatu"
+    },
+    "fra": {
+     "official": "République de Vanuatu",
+     "common": "Vanuatu"
+    }
+   }
+  },
+  "currencies": {
+   "VUV": {
+    "name": "Vanuatu vatu",
+    "symbol": "Vt"
+   }
+  },
+  "latlng": [
+   -16,
+   167
+  ],
+  "capital": [
+   "Port Vila"
+  ],
+  "region": "Oceania",
+  "subregion": "Melanesia",
+  "languages": {
+   "bis": "Bislama",
+   "eng": "English",
+   "fra": "French"
+  }
+ },
+ "WSM": {
+  "cca2": "WS",
+  "ccn3": "882",
+  "unMember": true,
+  "name": {
+   "common": "Samoa",
+   "official": "Independent State of Samoa",
+   "native": {
+    "eng": {
+     "official": "Independent State of Samoa",
+     "common": "Samoa"
+    },
+    "smo": {
+     "official": "Malo Saʻoloto Tutoʻatasi o Sāmoa",
+     "common": "Sāmoa"
+    }
+   }
+  },
+  "currencies": {
+   "WST": {
+    "name": "Samoan tālā",
+    "symbol": "T"
+   }
+  },
+  "latlng": [
+   -13.58333333,
+   -172.33333333
+  ],
+  "capital": [
+   "Apia"
+  ],
+  "region": "Oceania",
+  "subregion": "Polynesia",
+  "languages": {
+   "eng": "English",
+   "smo": "Samoan"
+  }
+ },
+ "ZAF": {
+  "cca2": "ZA",
+  "ccn3": "710",
+  "unMember": true,
+  "name": {
+   "common": "South Africa",
+   "official": "Republic of South Africa",
+   "native": {
+    "afr": {
+     "official": "Republiek van Suid-Afrika",
+     "common": "South Africa"
+    },
+    "eng": {
+     "official": "Republic of South Africa",
+     "common": "South Africa"
+    },
+    "nbl": {
+     "official": "IRiphabliki yeSewula Afrika",
+     "common": "Sewula Afrika"
+    },
+    "nso": {
+     "official": "Rephaboliki ya Afrika-Borwa ",
+     "common": "Afrika-Borwa"
+    },
+    "sot": {
+     "official": "Rephaboliki ya Afrika Borwa",
+     "common": "Afrika Borwa"
+    },
+    "ssw": {
+     "official": "IRiphabhulikhi yeNingizimu Afrika",
+     "common": "Ningizimu Afrika"
+    },
+    "tsn": {
+     "official": "Rephaboliki ya Aforika Borwa",
+     "common": "Aforika Borwa"
+    },
+    "tso": {
+     "official": "Riphabliki ra Afrika Dzonga",
+     "common": "Afrika Dzonga"
+    },
+    "ven": {
+     "official": "Riphabuḽiki ya Afurika Tshipembe",
+     "common": "Afurika Tshipembe"
+    },
+    "xho": {
+     "official": "IRiphabliki yaseMzantsi Afrika",
+     "common": "Mzantsi Afrika"
+    },
+    "zul": {
+     "official": "IRiphabliki yaseNingizimu Afrika",
+     "common": "Ningizimu Afrika"
+    }
+   }
+  },
+  "currencies": {
+   "ZAR": {
+    "name": "South African rand",
+    "symbol": "R"
+   }
+  },
+  "latlng": [
+   -29,
+   24
+  ],
+  "capital": [
+   "Pretoria",
+   "Bloemfontein",
+   "Cape Town"
+  ],
+  "region": "Africa",
+  "subregion": "Southern Africa",
+  "languages": {
+   "afr": "Afrikaans",
+   "eng": "English",
+   "nbl": "Southern Ndebele",
+   "nso": "Northern Sotho",
+   "sot": "Southern Sotho",
+   "ssw": "Swazi",
+   "tsn": "Tswana",
+   "tso": "Tsonga",
+   "ven": "Venda",
+   "xho": "Xhosa",
+   "zul": "Zulu"
+  }
+ },
+ "ZMB": {
+  "cca2": "ZM",
+  "ccn3": "894",
+  "unMember": true,
+  "name": {
+   "common": "Zambia",
+   "official": "Republic of Zambia",
+   "native": {
+    "eng": {
+     "official": "Republic of Zambia",
+     "common": "Zambia"
+    }
+   }
+  },
+  "currencies": {
+   "ZMW": {
+    "name": "Zambian kwacha",
+    "symbol": "ZK"
+   }
+  },
+  "latlng": [
+   -15,
+   30
+  ],
+  "capital": [
+   "Lusaka"
+  ],
+  "region": "Africa",
+  "subregion": "Eastern Africa",
+  "languages": {
+   "eng": "English"
+  }
+ },
+ "GHA": {
+  "cca2": "GH",
+  "ccn3": "288",
+  "unMember": true,
+  "name": {
+   "common": "Ghana",
+   "official": "Republic of Ghana",
+   "native": {
+    "eng": {
+     "official": "Republic of Ghana",
+     "common": "Ghana"
+    }
+   }
+  },
+  "currencies": {
+   "GHS": {
+    "name": "Ghanaian cedi",
+    "symbol": "₵"
+   }
+  },
+  "latlng": [
+   8,
+   -2
+  ],
+  "capital": [
+   "Accra"
+  ],
+  "region": "Africa",
+  "subregion": "Western Africa",
+  "languages": {
+   "eng": "English"
+  }
+ },
+ "AFG": {
+  "cca2": "AF",
+  "ccn3": "004",
+  "unMember": true,
+  "name": {
+   "common": "Afghanistan",
+   "official": "Islamic Republic of Afghanistan",
+   "native": {
+    "prs": {
+     "official": "جمهوری اسلامی افغانستان",
+     "common": "افغانستان"
+    },
+    "pus": {
+     "official": "د افغانستان اسلامي جمهوریت",
+     "common": "افغانستان"
+    },
+    "tuk": {
+     "official": "Owganystan Yslam Respublikasy",
+     "common": "Owganystan"
+    }
+   }
+  },
+  "currencies": {
+   "AFN": {
+    "name": "Afghan afghani",
+    "symbol": "؋"
+   }
+  },
+  "latlng": [
+   33,
+   65
+  ],
+  "capital": [
+   "Kabul"
+  ],
+  "region": "Asia",
+  "subregion": "Southern Asia",
+  "languages": {
+   "prs": "Dari",
+   "pus": "Pashto",
+   "tuk": "Turkmen"
+  }
+ },
+ "BLZ": {
+  "cca2": "BZ",
+  "ccn3": "084",
+  "unMember": true,
+  "name": {
+   "common": "Belize",
+   "official": "Belize",
+   "native": {
+    "bjz": {
+     "official": "Belize",
+     "common": "Belize"
+    },
+    "eng": {
+     "official": "Belize",
+     "common": "Belize"
+    },
+    "spa": {
+     "official": "Belice",
+     "common": "Belice"
+    }
+   }
+  },
+  "currencies": {
+   "BZD": {
+    "name": "Belize dollar",
+    "symbol": "$"
+   }
+  },
+  "latlng": [
+   17.25,
+   -88.75
+  ],
+  "capital": [
+   "Belmopan"
+  ],
+  "region": "Americas",
+  "subregion": "Central America",
+  "languages": {
+   "bjz": "Belizean Creole",
+   "eng": "English",
+   "spa": "Spanish"
+  }
+ },
+ "DMA": {
+  "cca2": "DM",
+  "ccn3": "212",
+  "unMember": true,
+  "name": {
+   "common": "Dominica",
+   "official": "Commonwealth of Dominica",
+   "native": {
+    "eng": {
+     "official": "Commonwealth of Dominica",
+     "common": "Dominica"
+    }
+   }
+  },
+  "currencies": {
+   "XCD": {
+    "name": "Eastern Caribbean dollar",
+    "symbol": "$"
+   }
+  },
+  "latlng": [
+   15.41666666,
+   -61.33333333
+  ],
+  "capital": [
+   "Roseau"
+  ],
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "languages": {
+   "eng": "English"
+  }
+ },
+ "GMB": {
+  "cca2": "GM",
+  "ccn3": "270",
+  "unMember": true,
+  "name": {
+   "common": "Gambia",
+   "official": "Republic of the Gambia",
+   "native": {
+    "eng": {
+     "official": "Republic of the Gambia",
+     "common": "Gambia"
+    }
+   }
+  },
+  "currencies": {
+   "GMD": {
+    "name": "dalasi",
+    "symbol": "D"
+   }
+  },
+  "latlng": [
+   13.46666666,
+   -16.56666666
+  ],
+  "capital": [
+   "Banjul"
+  ],
+  "region": "Africa",
+  "subregion": "Western Africa",
+  "languages": {
+   "eng": "English"
+  }
+ },
+ "GRD": {
+  "cca2": "GD",
+  "ccn3": "308",
+  "unMember": true,
+  "name": {
+   "common": "Grenada",
+   "official": "Grenada",
+   "native": {
+    "eng": {
+     "official": "Grenada",
+     "common": "Grenada"
+    }
+   }
+  },
+  "currencies": {
+   "XCD": {
+    "name": "Eastern Caribbean dollar",
+    "symbol": "$"
+   }
+  },
+  "latlng": [
+   12.11666666,
+   -61.66666666
+  ],
+  "capital": [
+   "St. George's"
+  ],
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "languages": {
+   "eng": "English"
+  }
+ },
+ "LCA": {
+  "cca2": "LC",
+  "ccn3": "662",
+  "unMember": true,
+  "name": {
+   "common": "Saint Lucia",
+   "official": "Saint Lucia",
+   "native": {
+    "eng": {
+     "official": "Saint Lucia",
+     "common": "Saint Lucia"
+    }
+   }
+  },
+  "currencies": {
+   "XCD": {
+    "name": "Eastern Caribbean dollar",
+    "symbol": "$"
+   }
+  },
+  "latlng": [
+   13.88333333,
+   -60.96666666
+  ],
+  "capital": [
+   "Castries"
+  ],
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "languages": {
+   "eng": "English"
+  }
+ },
+ "PSE": {
+  "cca2": "PS",
+  "ccn3": "275",
+  "unMember": false,
+  "name": {
+   "common": "Palestine",
+   "official": "State of Palestine",
+   "native": {
+    "ara": {
+     "official": "دولة فلسطين",
+     "common": "فلسطين"
+    }
+   }
+  },
+  "currencies": {
+   "EGP": {
+    "name": "Egyptian pound",
+    "symbol": "E£"
+   },
+   "ILS": {
+    "name": "Israeli new shekel",
+    "symbol": "₪"
+   },
+   "JOD": {
+    "name": "Jordanian dinar",
+    "symbol": "JD"
+   }
+  },
+  "latlng": [
+   31.9,
+   35.2
+  ],
+  "capital": [
+   "Ramallah"
+  ],
+  "region": "Asia",
+  "subregion": "Western Asia",
+  "languages": {
+   "ara": "Arabic"
+  }
+ },
+ "SLE": {
+  "cca2": "SL",
+  "ccn3": "694",
+  "unMember": true,
+  "name": {
+   "common": "Sierra Leone",
+   "official": "Republic of Sierra Leone",
+   "native": {
+    "eng": {
+     "official": "Republic of Sierra Leone",
+     "common": "Sierra Leone"
+    }
+   }
+  },
+  "currencies": {
+   "SLE": {
+    "name": "Sierra Leonean leone",
+    "symbol": "Le"
+   }
+  },
+  "latlng": [
+   8.5,
+   -11.5
+  ],
+  "capital": [
+   "Freetown"
+  ],
+  "region": "Africa",
+  "subregion": "Western Africa",
+  "languages": {
+   "eng": "English"
+  }
+ },
+ "VCT": {
+  "cca2": "VC",
+  "ccn3": "670",
+  "unMember": true,
+  "name": {
+   "common": "Saint Vincent and the Grenadines",
+   "official": "Saint Vincent and the Grenadines",
+   "native": {
+    "eng": {
+     "official": "Saint Vincent and the Grenadines",
+     "common": "Saint Vincent and the Grenadines"
+    }
+   }
+  },
+  "currencies": {
+   "XCD": {
+    "name": "Eastern Caribbean dollar",
+    "symbol": "$"
+   }
+  },
+  "latlng": [
+   13.25,
+   -61.2
+  ],
+  "capital": [
+   "Kingstown"
+  ],
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "languages": {
+   "eng": "English"
+  }
+ }
+}

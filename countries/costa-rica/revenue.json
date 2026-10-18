@@ -1,0 +1,147 @@
+{
+  "groups": [
+    {
+      "title": "Central government and social security: lines of the IMF series, 2024",
+      "defaults": {
+        "denominatorId": "central-2024",
+        "scale": "million",
+        "currency": "CRC",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        {
+          "nodeId": "cr-central-g1212",
+          "amount": 3036821.189272,
+          "locator": "Series CRI.S1311 + S1314.G1.G1212_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (CRC million)"
+        },
+        {
+          "nodeId": "cr-central-g11412",
+          "amount": 2419493.040107,
+          "locator": "Series CRI.S1311 + S1314.G1.G11412_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (CRC million)"
+        },
+        {
+          "nodeId": "cr-central-g1211",
+          "amount": 1485170.758206,
+          "locator": "Series CRI.S1311 + S1314.G1.G1211_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (CRC million)"
+        },
+        {
+          "nodeId": "cr-central-g1112",
+          "amount": 1449968.526306,
+          "locator": "Series CRI.S1311 + S1314.G1.G1112_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (CRC million)"
+        },
+        {
+          "nodeId": "cr-central-g1142",
+          "amount": 1094314.784272,
+          "locator": "Series CRI.S1311 + S1314.G1.G1142_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (CRC million)"
+        },
+        {
+          "nodeId": "cr-central-g1111",
+          "amount": 732266.973615,
+          "locator": "Series CRI.S1311 + S1314.G1.G1111_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (CRC million)"
+        },
+        {
+          "nodeId": "cr-central-g1213",
+          "amount": 253261,
+          "locator": "Series CRI.S1311 + S1314.G1.G1213_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (CRC million)"
+        },
+        {
+          "nodeId": "cr-central-g1155",
+          "amount": 241015.404546,
+          "locator": "Series CRI.S1311 + S1314.G1.G1155_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (CRC million)"
+        },
+        {
+          "nodeId": "cr-central-g1132",
+          "amount": 194143.965224,
+          "locator": "Series CRI.S1311 + S1314.G1.G1132_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (CRC million)"
+        },
+        {
+          "nodeId": "cr-central-g1151",
+          "amount": 187492.144611,
+          "locator": "Series CRI.S1311 + S1314.G1.G1151_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (CRC million)"
+        },
+        {
+          "nodeId": "cr-central-g121-other",
+          "amount": 156202.977334,
+          "locator": "Series CRI.S1311 + S1314.G1.G121_T.XDC.A, 2024, less its reported sub-lines",
+          "calculation": "G121_T less the sum of its reported sub-lines (CRC million)"
+        },
+        {
+          "nodeId": "cr-central-g1156",
+          "amount": 125229.647709,
+          "locator": "Series CRI.S1311 + S1314.G1.G1156_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (CRC million)"
+        },
+        {
+          "nodeId": "cr-central-g116",
+          "amount": 105185.919019,
+          "locator": "Series CRI.S1311 + S1314.G1.G116_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (CRC million)"
+        },
+        {
+          "nodeId": "cr-central-g11414",
+          "amount": 95007.572002,
+          "locator": "Series CRI.S1311 + S1314.G1.G11414_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (CRC million)"
+        },
+        {
+          "nodeId": "cr-central-g1144",
+          "amount": 45005.535303,
+          "locator": "Series CRI.S1311 + S1314.G1.G1144_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (CRC million)"
+        },
+        {
+          "nodeId": "cr-central-small-tax",
+          "amount": 16416.100901,
+          "locator": "Series CRI.S1311 + S1314.G1, indicators G113_T:other, G1152_T, XDC, annual, 2024",
+          "calculation": "Sum of 2 lines, each below 0.15% of the total (CRC million)"
+        }
+      ]
+    },
+    {
+      "title": "Local governments: lines of the IMF series, 2024",
+      "defaults": {
+        "denominatorId": "local-2024",
+        "scale": "million",
+        "currency": "CRC",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        {
+          "nodeId": "cr-local-g113-other",
+          "amount": 162441.333632,
+          "locator": "Series CRI.S1313MIXED.G1.G113_T.XDC.A, 2024, less its reported sub-lines",
+          "calculation": "G113_T less the sum of its reported sub-lines (CRC million)"
+        },
+        { "nodeId": "cr-local-g1143", "amount": 143748.712383, "locator": "Series CRI.S1313MIXED.G1.G1143_T.XDC.A, 2024" },
+        { "nodeId": "cr-local-g1144", "amount": 25160.096739, "locator": "Series CRI.S1313MIXED.G1.G1144_T.XDC.A, 2024" },
+        {
+          "nodeId": "cr-local-small-tax",
+          "amount": 14072.862821,
+          "locator": "Series CRI.S1313MIXED.G1, indicators G1112_T, G1131_T, G1132_T, G11412_T, G11414_T, G1152_T, G116_T, XDC, annual, 2024",
+          "calculation": "Sum of 7 lines, each below 0.15% of the total (CRC million)"
+        }
+      ]
+    }
+  ],
+  "unavailable": []
+}

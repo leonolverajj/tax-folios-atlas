@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "eswatini": {
+      "x": 800,
+      "y": 500
+    },
+    "central": {
+      "x": 509,
+      "y": 432
+    },
+    "sz-central-g1151": {
+      "x": 851,
+      "y": 828
+    },
+    "sz-central-g11411": {
+      "x": 391,
+      "y": 698
+    },
+    "sz-central-g1142": {
+      "x": 319,
+      "y": 387
+    },
+    "sz-central-g11452": {
+      "x": 695,
+      "y": 177
+    },
+    "sz-central-g113": {
+      "x": 1167,
+      "y": 270
+    },
+    "sz-central-g1111": {
+      "x": 510,
+      "y": 889
+    },
+    "sz-central-g1112": {
+      "x": 112,
+      "y": 562
+    },
+    "sz-central-g1113": {
+      "x": 359,
+      "y": 154
+    },
+    "sz-central-g116": {
+      "x": 1012,
+      "y": 73
+    },
+    "sz-central-small-tax": {
+      "x": 1470,
+      "y": 383
+    }
+  },
+  "radii": {}
+}

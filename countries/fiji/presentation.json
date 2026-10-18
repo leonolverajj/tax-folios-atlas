@@ -1,0 +1,18 @@
+{
+  "nodes": {
+    "fiji": { "label": "Fiji", "sublabel": "Fiscal folio · IMF lines", "glyph": "globe" },
+    "central": { "label": "Budgetary central govt", "sublabel": "IMF S1311B", "glyph": "landmark" },
+    "fj-central-g11411": { "label": "VAT", "sublabel": "Value added", "glyph": "cart" },
+    "fj-central-g1112": { "label": "Corporate income tax", "sublabel": "Companies", "glyph": "factory" },
+    "fj-central-g1151": { "label": "Customs duties", "sublabel": "Imports", "glyph": "ship" },
+    "fj-central-g1111": { "label": "Personal income tax", "sublabel": "Individuals", "glyph": "person" },
+    "fj-central-g1113": { "label": "Other income taxes", "sublabel": "Not split by payer", "glyph": "coin" },
+    "fj-central-g1142": { "label": "Excises", "sublabel": "Specific goods", "glyph": "flame" },
+    "fj-central-g1156": { "label": "Other trade taxes", "sublabel": "Not elsewhere classified", "glyph": "gear" },
+    "fj-central-g1146": { "label": "Other goods and services", "sublabel": "Not elsewhere classified", "glyph": "gear" },
+    "fj-central-g11451": { "label": "Motor vehicle taxes", "sublabel": "Ownership · use", "glyph": "car" },
+    "fj-central-g11452": { "label": "Licences and use taxes", "sublabel": "Permissions", "glyph": "stamp" },
+    "fj-central-g1152": { "label": "Export taxes", "sublabel": "Exports", "glyph": "plane" },
+    "fj-central-small-tax": { "label": "Other taxes (small lines)", "sublabel": "2 lines", "glyph": "gear" }
+  }
+}

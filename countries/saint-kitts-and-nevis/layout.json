@@ -1,0 +1,66 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "saint-kitts-and-nevis": {
+      "x": 800,
+      "y": 500
+    },
+    "central": {
+      "x": 509,
+      "y": 432
+    },
+    "kn-central-g11411": {
+      "x": 850,
+      "y": 828
+    },
+    "kn-central-g1112": {
+      "x": 462,
+      "y": 724
+    },
+    "kn-central-g11414": {
+      "x": 289,
+      "y": 518
+    },
+    "kn-central-g11452": {
+      "x": 428,
+      "y": 274
+    },
+    "kn-central-g1144": {
+      "x": 798,
+      "y": 170
+    },
+    "kn-central-g11451": {
+      "x": 1163,
+      "y": 268
+    },
+    "kn-central-g1151": {
+      "x": 579,
+      "y": 887
+    },
+    "kn-central-g1111": {
+      "x": 172,
+      "y": 691
+    },
+    "kn-central-g1142": {
+      "x": 148,
+      "y": 345
+    },
+    "kn-central-g113-other": {
+      "x": 523,
+      "y": 89
+    },
+    "kn-central-g1156": {
+      "x": 1064,
+      "y": 86
+    },
+    "kn-central-g11412": {
+      "x": 1447,
+      "y": 337
+    }
+  },
+  "radii": {}
+}

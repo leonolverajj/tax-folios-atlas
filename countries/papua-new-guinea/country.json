@@ -1,0 +1,52 @@
+{
+  "id": "papua-new-guinea",
+  "iso3": "PNG",
+  "isoNumeric": "598",
+  "names": { "en": "Papua New Guinea", "native": "Papua New Guinea", "nativeLang": "en" },
+  "currency": { "code": "PGK", "symbol": "K", "name": "Papua New Guinean kina" },
+  "summary": "Papua New Guinea is shown at the grain of the IMF’s Government Finance Statistics: the budgetary central government, 10 lines of taxes and social contributions for 2025, in PGK. The largest line is corporate income tax (38%), then personal income tax (24%) and value added tax (18%). Taxes on goods and services (VAT, sales taxes, excises, vehicle and similar taxes) make 30% of the total and income taxes 66%; the IMF series reports no actual social contributions for this sector. The folio records what each line raised; it does not describe the country’s tax laws, rates or the names of its individual taxes.",
+  "structureNote": "This folio is built from one source, the IMF’s Government Finance Statistics (Statement of Operations), for 2025: budgetary central government (S1311B). Taxes of regional and local governments and of social security funds that are not in this sector are not drawn, so the folio is partial and every line’s share is a share of this sector’s total only. Lines below 0.15% of the total are folded into one “small lines” core per level; lines that the IMF reports only as a parent are drawn as the parent. Rates, legal bases and the names of the individual taxes are not recorded. The IMF labels the series 2025; where the country’s fiscal year is not the calendar year, this is the fiscal year the IMF assigns to 2025. The figures are the IMF’s and have not been compared with the country’s own statistics. There is no OECD level layer for this country in the atlas.",
+  "theme": {
+    "accent": "#8649d4",
+    "accent2": "#ebc2e7",
+    "motif": "topo",
+    "motifNote": "Topographic contour lines over the outline of Papua New Guinea (the generic motif).",
+    "mapLabel": { "lon": 147, "lat": -6 }
+  },
+  "levels": [
+    {
+      "id": "central",
+      "branch": "national",
+      "names": { "official": "Budgetary central government", "common": "Budgetary central government" },
+      "description": "Budgetary central government as the IMF’s Government Finance Statistics classify them (sector S1311B).",
+      "fiscalPower": "This folio records what each line of the IMF’s classification raised; it does not describe which taxes this level may set or keep.",
+      "legalRefs": [{ "sourceId": "imf-gfs-api", "locator": "sector S1311B" }],
+      "checkedOn": "2026-10-17"
+    }
+  ],
+  "supportingSourceIds": ["imf-gfs-soo"],
+  "denominators": [
+    {
+      "id": "central-2025",
+      "label": "Taxes and social contributions of the budgetary central government (the units that the national budget covers), 2025",
+      "definition": "The taxes (GFS 11) and actual social contributions (GFS 12) of the budgetary central government (the units that the national budget covers) that the IMF reports for 2025, in PGK; imputed social contributions are left out.",
+      "levelIds": ["central"],
+      "amount": 19901.3,
+      "scale": "million",
+      "currency": "PGK",
+      "period": { "label": "2025", "kind": "calendar-year", "start": "2025-01-01", "end": "2025-12-31" },
+      "sourceId": "imf-gfs-api",
+      "locator": "Series PNG.S1311B.G1, indicators G11_T and G12_T and their sub-lines, XDC, annual, 2025",
+      "calculation": "Sum of the 10 lines drawn (PGK million). The IMF reports 19,901.3 million for the sector; the lines drawn differ from it by 0 million (rounding between levels of the classification).",
+      "caveat": "The IMF flags the figures for this year as actual. The IMF labels the series 2025; where the country’s fiscal year is not the calendar year, this is the fiscal year the IMF assigns to 2025.",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "sizing": {
+    "label": "Taxes and actual social contributions reported to the IMF, 2025",
+    "definition": "The taxes (GFS 11) and actual social contributions (GFS 12) of the budgetary central government (the units that the national budget covers) for 2025, as the IMF’s Government Finance Statistics report them in PGK. Imputed social contributions are left out; sectors that the IMF series does not report in detail for 2025 are not included.",
+    "componentIds": ["central-2025"]
+  },
+  "researchStatus": "partial",
+  "grain": "harmonised"
+}

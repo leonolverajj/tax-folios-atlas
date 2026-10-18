@@ -1,0 +1,86 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "paraguay": {
+      "x": 800,
+      "y": 500
+    },
+    "central": {
+      "x": 509,
+      "y": 432
+    },
+    "py-central-g11411": {
+      "x": 722,
+      "y": 826
+    },
+    "py-central-g1212": {
+      "x": 408,
+      "y": 712
+    },
+    "py-central-g1142": {
+      "x": 289,
+      "y": 506
+    },
+    "py-central-g1221": {
+      "x": 413,
+      "y": 279
+    },
+    "py-central-g1111": {
+      "x": 720,
+      "y": 174
+    },
+    "py-central-g1113": {
+      "x": 1061,
+      "y": 216
+    },
+    "py-central-g1112": {
+      "x": 399,
+      "y": 866
+    },
+    "py-central-g1211": {
+      "x": 108,
+      "y": 540
+    },
+    "py-central-g1151": {
+      "x": 325,
+      "y": 164
+    },
+    "py-central-g116": {
+      "x": 880,
+      "y": 55
+    },
+    "py-central-g11412": {
+      "x": 1385,
+      "y": 258
+    },
+    "local": {
+      "x": 1091,
+      "y": 568
+    },
+    "py-local-g113-other": {
+      "x": 1054,
+      "y": 399
+    },
+    "py-local-g11452": {
+      "x": 1252,
+      "y": 427
+    },
+    "py-local-g11451": {
+      "x": 1274,
+      "y": 607
+    },
+    "py-local-small-tax": {
+      "x": 1165,
+      "y": 725
+    },
+    "py-local-g116": {
+      "x": 992,
+      "y": 713
+    }
+  },
+  "radii": {}
+}

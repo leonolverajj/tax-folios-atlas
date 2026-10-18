@@ -1,0 +1,13 @@
+{
+  "nodes": {
+    "malawi": { "label": "Malawi", "sublabel": "Fiscal folio · IMF lines", "glyph": "globe" },
+    "central": { "label": "Budgetary central govt", "sublabel": "IMF S1311B", "glyph": "landmark" },
+    "mw-central-g1112": { "label": "Corporate income tax", "sublabel": "Companies", "glyph": "factory" },
+    "mw-central-g11411": { "label": "VAT", "sublabel": "Value added", "glyph": "cart" },
+    "mw-central-g1111": { "label": "Personal income tax", "sublabel": "Individuals", "glyph": "person" },
+    "mw-central-g1142": { "label": "Excises", "sublabel": "Specific goods", "glyph": "flame" },
+    "mw-central-g1151": { "label": "Customs duties", "sublabel": "Imports", "glyph": "ship" },
+    "mw-central-g11451": { "label": "Motor vehicle taxes", "sublabel": "Ownership · use", "glyph": "car" },
+    "mw-central-small-tax": { "label": "Other taxes (small lines)", "sublabel": "2 lines", "glyph": "gear" }
+  }
+}

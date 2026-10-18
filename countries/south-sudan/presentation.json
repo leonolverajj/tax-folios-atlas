@@ -1,0 +1,11 @@
+{
+  "nodes": {
+    "south-sudan": { "label": "South Sudan", "sublabel": "Fiscal folio · IMF lines", "glyph": "globe" },
+    "central": { "label": "Budgetary central govt", "sublabel": "IMF S1311B", "glyph": "landmark" },
+    "ss-central-g1111": { "label": "Personal income tax", "sublabel": "Individuals", "glyph": "person" },
+    "ss-central-g1151": { "label": "Customs duties", "sublabel": "Imports", "glyph": "ship" },
+    "ss-central-g1112": { "label": "Corporate income tax", "sublabel": "Companies", "glyph": "factory" },
+    "ss-central-g1142": { "label": "Excises", "sublabel": "Specific goods", "glyph": "flame" },
+    "ss-central-g11412": { "label": "Sales taxes", "sublabel": "Single stage", "glyph": "cart" }
+  }
+}

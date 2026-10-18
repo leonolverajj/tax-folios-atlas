@@ -1,0 +1,29 @@
+{
+  "nodes": {
+    "burkina-faso": { "label": "Burkina Faso", "sublabel": "Fiscal folio · IMF lines", "glyph": "globe" },
+    "central": { "label": "Central govt and social funds", "sublabel": "IMF S1311 + S1314", "glyph": "landmark" },
+    "local": { "label": "Local governments", "sublabel": "IMF S1313", "glyph": "town" },
+    "bf-central-g11411": { "label": "VAT", "sublabel": "Value added", "glyph": "cart" },
+    "bf-central-g1112": { "label": "Corporate income tax", "sublabel": "Companies", "glyph": "factory" },
+    "bf-central-g1151": { "label": "Customs duties", "sublabel": "Imports", "glyph": "ship" },
+    "bf-central-g1142": { "label": "Excises", "sublabel": "Specific goods", "glyph": "flame" },
+    "bf-central-g1111": { "label": "Personal income tax", "sublabel": "Individuals", "glyph": "person" },
+    "bf-central-g1153": { "label": "Trade monopoly profits", "sublabel": "State monopolies", "glyph": "bank" },
+    "bf-central-g1146": { "label": "Other goods and services", "sublabel": "Not elsewhere classified", "glyph": "gear" },
+    "bf-central-g1212": { "label": "Social: employers", "sublabel": "Contributions", "glyph": "shield" },
+    "bf-central-g1113": { "label": "Other income taxes", "sublabel": "Not split by payer", "glyph": "coin" },
+    "bf-central-g11414": { "label": "Financial transaction taxes", "sublabel": "Transfers · securities", "glyph": "stamp" },
+    "bf-central-g1211": { "label": "Social: employees", "sublabel": "Contributions", "glyph": "shield" },
+    "bf-central-g112": { "label": "Payroll taxes", "sublabel": "Wage bill", "glyph": "ledger" },
+    "bf-central-g1144": { "label": "Taxes on services", "sublabel": "Insurance · lodging · gambling", "glyph": "bed" },
+    "bf-central-g11413": { "label": "Turnover taxes", "sublabel": "Other general taxes", "glyph": "percent" },
+    "bf-central-g1135": { "label": "Capital levies", "sublabel": "One-off", "glyph": "key" },
+    "bf-central-g1143": { "label": "Fiscal monopoly profits", "sublabel": "State monopolies", "glyph": "bank" },
+    "bf-central-g113-other": { "label": "Other property taxes", "sublabel": "Not itemised", "glyph": "house" },
+    "bf-central-g11452": { "label": "Licences and use taxes", "sublabel": "Permissions", "glyph": "stamp" },
+    "bf-central-g1213": { "label": "Social: self-employed", "sublabel": "Contributions", "glyph": "shield" },
+    "bf-central-g11412": { "label": "Sales taxes", "sublabel": "Single stage", "glyph": "cart" },
+    "bf-central-small-tax": { "label": "Other taxes (small lines)", "sublabel": "5 lines", "glyph": "gear" },
+    "bf-local-small-tax": { "label": "Other taxes (small lines)", "sublabel": "7 lines", "glyph": "gear" }
+  }
+}

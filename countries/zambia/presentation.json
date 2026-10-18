@@ -1,0 +1,16 @@
+{
+  "nodes": {
+    "zambia": { "label": "Zambia", "sublabel": "Fiscal folio · IMF lines", "glyph": "globe" },
+    "central": { "label": "Budgetary central govt", "sublabel": "IMF S1311B", "glyph": "landmark" },
+    "zm-central-g11411": { "label": "VAT", "sublabel": "Value added", "glyph": "cart" },
+    "zm-central-g1111": { "label": "Personal income tax", "sublabel": "Individuals", "glyph": "person" },
+    "zm-central-g1112": { "label": "Corporate income tax", "sublabel": "Companies", "glyph": "factory" },
+    "zm-central-g1142": { "label": "Excises", "sublabel": "Specific goods", "glyph": "flame" },
+    "zm-central-g1151": { "label": "Customs duties", "sublabel": "Imports", "glyph": "ship" },
+    "zm-central-g116": { "label": "Other taxes", "sublabel": "Not elsewhere classified", "glyph": "gear" },
+    "zm-central-g11452": { "label": "Licences and use taxes", "sublabel": "Permissions", "glyph": "stamp" },
+    "zm-central-g11414": { "label": "Financial transaction taxes", "sublabel": "Transfers · securities", "glyph": "stamp" },
+    "zm-central-g1152": { "label": "Export taxes", "sublabel": "Exports", "glyph": "plane" },
+    "zm-central-small-tax": { "label": "Other taxes (small lines)", "sublabel": "2 lines", "glyph": "gear" }
+  }
+}

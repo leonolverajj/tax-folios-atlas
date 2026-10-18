@@ -1,0 +1,15 @@
+{
+  "nodes": {
+    "palestine": { "label": "Palestine", "sublabel": "Fiscal folio · IMF lines", "glyph": "globe" },
+    "central": { "label": "Central government", "sublabel": "IMF S1311", "glyph": "landmark" },
+    "ps-central-g1151": { "label": "Customs duties", "sublabel": "Imports", "glyph": "ship" },
+    "ps-central-g11411": { "label": "VAT", "sublabel": "Value added", "glyph": "cart" },
+    "ps-central-g1142": { "label": "Excises", "sublabel": "Specific goods", "glyph": "flame" },
+    "ps-central-g1112": { "label": "Corporate income tax", "sublabel": "Companies", "glyph": "factory" },
+    "ps-central-g1111": { "label": "Personal income tax", "sublabel": "Individuals", "glyph": "person" },
+    "ps-central-g112": { "label": "Payroll taxes", "sublabel": "Wage bill", "glyph": "ledger" },
+    "ps-central-g11451": { "label": "Motor vehicle taxes", "sublabel": "Ownership · use", "glyph": "car" },
+    "ps-central-g11452": { "label": "Licences and use taxes", "sublabel": "Permissions", "glyph": "stamp" },
+    "ps-central-g1131": { "label": "Property tax", "sublabel": "Land and buildings", "glyph": "house" }
+  }
+}

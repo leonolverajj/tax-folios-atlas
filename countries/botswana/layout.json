@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "botswana": {
+      "x": 800,
+      "y": 500
+    },
+    "central": {
+      "x": 509,
+      "y": 432
+    },
+    "bw-central-g1151": {
+      "x": 846,
+      "y": 829
+    },
+    "bw-central-g1112": {
+      "x": 463,
+      "y": 748
+    },
+    "bw-central-g11411": {
+      "x": 289,
+      "y": 519
+    },
+    "bw-central-g1113": {
+      "x": 426,
+      "y": 274
+    },
+    "bw-central-g11451": {
+      "x": 798,
+      "y": 170
+    },
+    "bw-central-small-tax": {
+      "x": 1165,
+      "y": 269
+    }
+  },
+  "radii": {}
+}

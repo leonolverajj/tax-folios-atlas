@@ -1,0 +1,36 @@
+{
+  "groups": [
+    {
+      "title": "Budgetary central government: lines of the IMF series, 2021",
+      "defaults": {
+        "denominatorId": "central-2021",
+        "scale": "million",
+        "currency": "BIF",
+        "period": { "label": "2021", "kind": "calendar-year", "start": "2021-01-01", "end": "2021-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        { "nodeId": "bi-central-g11411", "amount": 376740.451853, "locator": "Series BDI.S1311B.G1.G11411_T.XDC.A, 2021" },
+        { "nodeId": "bi-central-g1142", "amount": 270281.282371, "locator": "Series BDI.S1311B.G1.G1142_T.XDC.A, 2021" },
+        { "nodeId": "bi-central-g1112", "amount": 136567.718651, "locator": "Series BDI.S1311B.G1.G1112_T.XDC.A, 2021" },
+        { "nodeId": "bi-central-g1151", "amount": 134031.642903, "locator": "Series BDI.S1311B.G1.G1151_T.XDC.A, 2021" },
+        { "nodeId": "bi-central-g1111", "amount": 86566.007133, "locator": "Series BDI.S1311B.G1.G1111_T.XDC.A, 2021" },
+        { "nodeId": "bi-central-g116", "amount": 15156.819764, "locator": "Series BDI.S1311B.G1.G116_T.XDC.A, 2021" },
+        { "nodeId": "bi-central-g1156", "amount": 6646.023343, "locator": "Series BDI.S1311B.G1.G1156_T.XDC.A, 2021" },
+        { "nodeId": "bi-central-g1146", "amount": 3964.648739, "locator": "Series BDI.S1311B.G1.G1146_T.XDC.A, 2021" },
+        { "nodeId": "bi-central-g11451", "amount": 2743.130253, "locator": "Series BDI.S1311B.G1.G11451_T.XDC.A, 2021" },
+        {
+          "nodeId": "bi-central-small-tax",
+          "amount": 1294.770661,
+          "locator": "Series BDI.S1311B.G1, indicators G1113_T, G112_T, G11413_T, G11452_T, G1152_T, XDC, annual, 2021",
+          "calculation": "Sum of 5 lines, each below 0.15% of the total (BIF million)"
+        }
+      ]
+    }
+  ],
+  "unavailable": []
+}

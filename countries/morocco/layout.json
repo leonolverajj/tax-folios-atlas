@@ -1,0 +1,66 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "morocco": {
+      "x": 800,
+      "y": 500
+    },
+    "central": {
+      "x": 509,
+      "y": 432
+    },
+    "ma-central-g11411": {
+      "x": 849,
+      "y": 829
+    },
+    "ma-central-g1111": {
+      "x": 461,
+      "y": 729
+    },
+    "ma-central-g11414": {
+      "x": 289,
+      "y": 517
+    },
+    "ma-central-g116": {
+      "x": 426,
+      "y": 275
+    },
+    "ma-central-g11451": {
+      "x": 789,
+      "y": 170
+    },
+    "ma-central-g1154": {
+      "x": 1162,
+      "y": 267
+    },
+    "ma-central-g1112": {
+      "x": 586,
+      "y": 888
+    },
+    "ma-central-g1142": {
+      "x": 171,
+      "y": 690
+    },
+    "ma-central-g1151": {
+      "x": 149,
+      "y": 345
+    },
+    "ma-central-g1113": {
+      "x": 522,
+      "y": 90
+    },
+    "ma-central-g1144": {
+      "x": 1074,
+      "y": 88
+    },
+    "ma-central-small-tax": {
+      "x": 1448,
+      "y": 340
+    }
+  },
+  "radii": {}
+}

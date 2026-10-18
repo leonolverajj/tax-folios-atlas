@@ -202,6 +202,10 @@ export const countrySchema = z.object({
     neutralRadius: z.number().positive().optional(),
   }),
   researchStatus: z.enum(['researched', 'partial', 'draft']).default('researched'),
+  grain: z
+    .enum(['detailed', 'harmonised'])
+    .default('detailed')
+    .describe('detailed = one core per separately legislated charge; harmonised = one core per line of an international classification (IMF GFS), so charge counts are not comparable with detailed folios'),
 });
 export type CountryMeta = z.infer<typeof countrySchema>;
 

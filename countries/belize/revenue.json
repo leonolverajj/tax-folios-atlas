@@ -1,0 +1,25 @@
+{
+  "groups": [
+    {
+      "title": "Budgetary central government: lines of the IMF series, 2017",
+      "defaults": {
+        "denominatorId": "central-2017",
+        "scale": "million",
+        "currency": "BZD",
+        "period": { "label": "2017", "kind": "calendar-year", "start": "2017-01-01", "end": "2017-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        { "nodeId": "bz-central-g114", "amount": 533.029416, "locator": "Series BLZ.S1311B.G1.G114_T.XDC.A, 2017" },
+        { "nodeId": "bz-central-g111", "amount": 270.222939, "locator": "Series BLZ.S1311B.G1.G111_T.XDC.A, 2017" },
+        { "nodeId": "bz-central-g115", "amount": 157.807938, "locator": "Series BLZ.S1311B.G1.G115_T.XDC.A, 2017" },
+        { "nodeId": "bz-central-g113", "amount": 6.383939, "locator": "Series BLZ.S1311B.G1.G113_T.XDC.A, 2017" }
+      ]
+    }
+  ],
+  "unavailable": []
+}

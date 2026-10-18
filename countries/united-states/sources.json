@@ -119,22 +119,22 @@
       "id": "usc-title-26",
       "org": "Office of the Law Revision Counsel, U.S. House of Representatives",
       "title": "United States Code, Title 26 – Internal Revenue Code",
-      "url": "https://uscode.house.gov/browse/prelim@title26",
+      "url": "https://uscode.house.gov/view.xhtml?path=/prelim@title26&edition=prelim",
       "kind": "legal",
       "language": "en",
       "publishedDate": null,
-      "accessed": "2026-09-28",
+      "accessed": "2026-10-17",
       "note": "Cited by section: §1 (individual rates), §11 (corporate rate), §§3101, 3111, 1401 (FICA/SECA), §§3301–3302 (FUTA), §4081 (fuels), Subtitle E (alcohol, tobacco), §2001 (estate tax), §2502 (gift tax)."
     },
     {
       "id": "usc-title-19",
       "org": "Office of the Law Revision Counsel, U.S. House of Representatives",
       "title": "United States Code, Title 19 – Customs Duties",
-      "url": "https://uscode.house.gov/browse/prelim@title19",
+      "url": "https://uscode.house.gov/view.xhtml?path=/prelim@title19&edition=prelim",
       "kind": "legal",
       "language": "en",
       "publishedDate": null,
-      "accessed": "2026-09-28",
+      "accessed": "2026-10-17",
       "note": "Includes §1202 (Harmonized Tariff Schedule), §1862 (Section 232), §2132 (Section 122), §2411 (Section 301)."
     },
     {

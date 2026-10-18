@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "bhutan": {
+      "x": 800,
+      "y": 500
+    },
+    "central": {
+      "x": 509,
+      "y": 432
+    },
+    "bt-central-g1112": {
+      "x": 847,
+      "y": 829
+    },
+    "bt-central-g11452": {
+      "x": 393,
+      "y": 700
+    },
+    "bt-central-g1156": {
+      "x": 320,
+      "y": 385
+    },
+    "bt-central-g1151": {
+      "x": 687,
+      "y": 178
+    },
+    "bt-central-g11451": {
+      "x": 1166,
+      "y": 270
+    },
+    "bt-central-g11412": {
+      "x": 502,
+      "y": 890
+    },
+    "bt-central-g1111": {
+      "x": 113,
+      "y": 566
+    },
+    "bt-central-g1142": {
+      "x": 350,
+      "y": 159
+    },
+    "bt-central-g1221": {
+      "x": 1016,
+      "y": 74
+    },
+    "bt-central-small-tax": {
+      "x": 1469,
+      "y": 381
+    }
+  },
+  "radii": {}
+}

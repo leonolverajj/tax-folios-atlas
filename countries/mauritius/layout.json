@@ -1,0 +1,102 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "mauritius": {
+      "x": 800,
+      "y": 500
+    },
+    "central": {
+      "x": 509,
+      "y": 432
+    },
+    "mu-central-g11411": {
+      "x": 825,
+      "y": 739
+    },
+    "mu-central-g1111": {
+      "x": 452,
+      "y": 742
+    },
+    "mu-central-g116": {
+      "x": 289,
+      "y": 512
+    },
+    "mu-central-g1113": {
+      "x": 427,
+      "y": 274
+    },
+    "mu-central-g11452": {
+      "x": 781,
+      "y": 170
+    },
+    "mu-central-g1213": {
+      "x": 1148,
+      "y": 258
+    },
+    "mu-central-g1112": {
+      "x": 549,
+      "y": 896
+    },
+    "mu-central-g11414": {
+      "x": 165,
+      "y": 681
+    },
+    "mu-central-g1144": {
+      "x": 155,
+      "y": 369
+    },
+    "mu-central-g1151": {
+      "x": 511,
+      "y": 123
+    },
+    "mu-central-g112": {
+      "x": 1049,
+      "y": 82
+    },
+    "mu-central-small-tax": {
+      "x": 1435,
+      "y": 318
+    },
+    "mu-central-g1142": {
+      "x": 833,
+      "y": 901
+    },
+    "mu-central-g1212": {
+      "x": 98,
+      "y": 840
+    },
+    "mu-central-g1211": {
+      "x": 93,
+      "y": 274
+    },
+    "mu-central-g11451": {
+      "x": 585,
+      "y": 32
+    },
+    "mu-central-g1221": {
+      "x": 1394,
+      "y": 83
+    },
+    "state": {
+      "x": 1107,
+      "y": 471
+    },
+    "mu-state-g11452": {
+      "x": 1305,
+      "y": 454
+    },
+    "local": {
+      "x": 1006,
+      "y": 649
+    },
+    "mu-local-g113-other": {
+      "x": 1184,
+      "y": 749
+    }
+  },
+  "radii": {}
+}

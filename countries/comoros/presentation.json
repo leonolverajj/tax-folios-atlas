@@ -1,0 +1,18 @@
+{
+  "nodes": {
+    "comoros": { "label": "Comoros", "sublabel": "Fiscal folio · IMF lines", "glyph": "globe" },
+    "central": { "label": "Budgetary central govt", "sublabel": "IMF S1311B", "glyph": "landmark" },
+    "km-central-g1142": { "label": "Excises", "sublabel": "Specific goods", "glyph": "flame" },
+    "km-central-g1151": { "label": "Customs duties", "sublabel": "Imports", "glyph": "ship" },
+    "km-central-g1144": { "label": "Taxes on services", "sublabel": "Insurance · lodging · gambling", "glyph": "bed" },
+    "km-central-g11412": { "label": "Sales taxes", "sublabel": "Single stage", "glyph": "cart" },
+    "km-central-g1111": { "label": "Personal income tax", "sublabel": "Individuals", "glyph": "person" },
+    "km-central-g1112": { "label": "Corporate income tax", "sublabel": "Companies", "glyph": "factory" },
+    "km-central-g113-other": { "label": "Other property taxes", "sublabel": "Not itemised", "glyph": "house" },
+    "km-central-g11451": { "label": "Motor vehicle taxes", "sublabel": "Ownership · use", "glyph": "car" },
+    "km-central-g1113": { "label": "Other income taxes", "sublabel": "Not split by payer", "glyph": "coin" },
+    "km-central-g11452": { "label": "Licences and use taxes", "sublabel": "Permissions", "glyph": "stamp" },
+    "km-central-g1152": { "label": "Export taxes", "sublabel": "Exports", "glyph": "plane" },
+    "km-central-g116": { "label": "Other taxes", "sublabel": "Not elsewhere classified", "glyph": "gear" }
+  }
+}

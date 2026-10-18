@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "micronesia": {
+      "x": 800,
+      "y": 500
+    },
+    "central": {
+      "x": 509,
+      "y": 432
+    },
+    "fm-central-g1112": {
+      "x": 851,
+      "y": 828
+    },
+    "fm-central-g1151": {
+      "x": 469,
+      "y": 751
+    },
+    "fm-central-g1111": {
+      "x": 289,
+      "y": 516
+    },
+    "fm-central-g11413": {
+      "x": 428,
+      "y": 259
+    },
+    "fm-central-g116": {
+      "x": 795,
+      "y": 170
+    },
+    "fm-central-g11452": {
+      "x": 1162,
+      "y": 267
+    }
+  },
+  "radii": {}
+}

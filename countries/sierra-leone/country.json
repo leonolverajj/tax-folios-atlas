@@ -1,0 +1,52 @@
+{
+  "id": "sierra-leone",
+  "iso3": "SLE",
+  "isoNumeric": "694",
+  "names": { "en": "Sierra Leone", "native": "Sierra Leone", "nativeLang": "en" },
+  "currency": { "code": "SLL", "symbol": "Le", "name": "Sierra Leonean leone (before the 2022 redenomination)" },
+  "summary": "Sierra Leone is shown at the grain of the IMF’s Government Finance Statistics: the budgetary central government, 6 lines of taxes and social contributions for 2018, in SLL. The largest line is personal income tax (49%), then sales taxes (19%) and customs and other import duties (14%). Taxes on goods and services (VAT, sales taxes, excises, vehicle and similar taxes) make 28% of the total and income taxes 58%; the IMF series reports no actual social contributions for this sector. The folio records what each line raised; it does not describe the country’s tax laws, rates or the names of its individual taxes.",
+  "structureNote": "This folio is built from one source, the IMF’s Government Finance Statistics (Statement of Operations), for 2018: budgetary central government (S1311B). Taxes of regional and local governments and of social security funds that are not in this sector are not drawn, so the folio is partial and every line’s share is a share of this sector’s total only. Lines below 0.15% of the total are folded into one “small lines” core per level; lines that the IMF reports only as a parent are drawn as the parent. Rates, legal bases and the names of the individual taxes are not recorded. The IMF labels the series 2018; where the country’s fiscal year is not the calendar year, this is the fiscal year the IMF assigns to 2018. The figures are the IMF’s and have not been compared with the country’s own statistics. There is no OECD level layer for this country in the atlas.",
+  "theme": {
+    "accent": "#499ad4",
+    "accent2": "#c5c2eb",
+    "motif": "topo",
+    "motifNote": "Topographic contour lines over the outline of Sierra Leone (the generic motif).",
+    "mapLabel": { "lon": -11.5, "lat": 8.5 }
+  },
+  "levels": [
+    {
+      "id": "central",
+      "branch": "national",
+      "names": { "official": "Budgetary central government", "common": "Budgetary central government" },
+      "description": "Budgetary central government as the IMF’s Government Finance Statistics classify them (sector S1311B).",
+      "fiscalPower": "This folio records what each line of the IMF’s classification raised; it does not describe which taxes this level may set or keep.",
+      "legalRefs": [{ "sourceId": "imf-gfs-api", "locator": "sector S1311B" }],
+      "checkedOn": "2026-10-17"
+    }
+  ],
+  "supportingSourceIds": ["imf-gfs-soo"],
+  "denominators": [
+    {
+      "id": "central-2018",
+      "label": "Taxes and social contributions of the budgetary central government (the units that the national budget covers), 2018",
+      "definition": "The taxes (GFS 11) and actual social contributions (GFS 12) of the budgetary central government (the units that the national budget covers) that the IMF reports for 2018, in SLL; imputed social contributions are left out.",
+      "levelIds": ["central"],
+      "amount": 4651264,
+      "scale": "million",
+      "currency": "SLL",
+      "period": { "label": "2018", "kind": "calendar-year", "start": "2018-01-01", "end": "2018-12-31" },
+      "sourceId": "imf-gfs-api",
+      "locator": "Series SLE.S1311B.G1, indicators G11_T and G12_T and their sub-lines, XDC, annual, 2018",
+      "calculation": "Sum of the 6 lines drawn (SLL million). The IMF reports 4,651,264 million for the sector; the lines drawn differ from it by 0 million (rounding between levels of the classification).",
+      "caveat": "The IMF flags the figures for this year as preliminary. The IMF labels the series 2018; where the country’s fiscal year is not the calendar year, this is the fiscal year the IMF assigns to 2018.",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "sizing": {
+    "label": "Taxes and actual social contributions reported to the IMF, 2018",
+    "definition": "The taxes (GFS 11) and actual social contributions (GFS 12) of the budgetary central government (the units that the national budget covers) for 2018, as the IMF’s Government Finance Statistics report them in SLL. Imputed social contributions are left out; sectors that the IMF series does not report in detail for 2018 are not included.",
+    "componentIds": ["central-2018"]
+  },
+  "researchStatus": "partial",
+  "grain": "harmonised"
+}

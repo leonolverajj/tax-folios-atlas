@@ -1,0 +1,17 @@
+{
+  "nodes": {
+    "gabon": { "label": "Gabon", "sublabel": "Fiscal folio · IMF lines", "glyph": "globe" },
+    "central": { "label": "Budgetary central govt", "sublabel": "IMF S1311B", "glyph": "landmark" },
+    "ga-central-g115": { "label": "International trade taxes", "sublabel": "One line", "glyph": "ship" },
+    "ga-central-g1112": { "label": "Corporate income tax", "sublabel": "Companies", "glyph": "factory" },
+    "ga-central-g11411": { "label": "VAT", "sublabel": "Value added", "glyph": "cart" },
+    "ga-central-g1111": { "label": "Personal income tax", "sublabel": "Individuals", "glyph": "person" },
+    "ga-central-g116": { "label": "Other taxes", "sublabel": "Not elsewhere classified", "glyph": "gear" },
+    "ga-central-g1142": { "label": "Excises", "sublabel": "Specific goods", "glyph": "flame" },
+    "ga-central-g11413": { "label": "Turnover taxes", "sublabel": "Other general taxes", "glyph": "percent" },
+    "ga-central-g1221": { "label": "Other social: employees", "sublabel": "Government schemes", "glyph": "heart" },
+    "ga-central-g1144": { "label": "Taxes on services", "sublabel": "Insurance · lodging · gambling", "glyph": "bed" },
+    "ga-central-g113-other": { "label": "Other property taxes", "sublabel": "Not itemised", "glyph": "house" },
+    "ga-central-g11452": { "label": "Licences and use taxes", "sublabel": "Permissions", "glyph": "stamp" }
+  }
+}

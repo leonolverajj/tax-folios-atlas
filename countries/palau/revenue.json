@@ -1,0 +1,109 @@
+{
+  "groups": [
+    {
+      "title": "Central government and social security: lines of the IMF series, 2019",
+      "defaults": {
+        "denominatorId": "central-2019",
+        "scale": "million",
+        "currency": "USD",
+        "period": { "label": "2019", "kind": "calendar-year", "start": "2019-01-01", "end": "2019-12-31" },
+        "basis": "Accrual basis, as reported to the IMF (flag AC)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        {
+          "nodeId": "pw-central-g121-other",
+          "amount": 26.509694,
+          "locator": "Series PLW.S1311 + S1314.G1.G121_T.XDC.A, 2019, less its reported sub-lines",
+          "calculation": "G121_T less the sum of its reported sub-lines (USD million)"
+        },
+        {
+          "nodeId": "pw-central-g11413",
+          "amount": 14.110933,
+          "locator": "Series PLW.S1311 + S1314.G1.G11413_T.XDC.A, 2019",
+          "calculation": "Sum of the sectors S1311 + S1314 (USD million)"
+        },
+        {
+          "nodeId": "pw-central-g1151",
+          "amount": 12.888593,
+          "locator": "Series PLW.S1311 + S1314.G1.G1151_T.XDC.A, 2019",
+          "calculation": "Sum of the sectors S1311 + S1314 (USD million)"
+        },
+        {
+          "nodeId": "pw-central-g1111",
+          "amount": 10.899157,
+          "locator": "Series PLW.S1311 + S1314.G1.G1111_T.XDC.A, 2019",
+          "calculation": "Sum of the sectors S1311 + S1314 (USD million)"
+        },
+        {
+          "nodeId": "pw-central-g1221",
+          "amount": 8.20547,
+          "locator": "Series PLW.S1311 + S1314.G1.G1221_T.XDC.A, 2019",
+          "calculation": "Sum of the sectors S1311 + S1314 (USD million)"
+        },
+        {
+          "nodeId": "pw-central-g1144",
+          "amount": 7.317649,
+          "locator": "Series PLW.S1311 + S1314.G1.G1144_T.XDC.A, 2019",
+          "calculation": "Sum of the sectors S1311 + S1314 (USD million)"
+        },
+        {
+          "nodeId": "pw-central-g11452",
+          "amount": 1.904785,
+          "locator": "Series PLW.S1311 + S1314.G1.G11452_T.XDC.A, 2019",
+          "calculation": "Sum of the sectors S1311 + S1314 (USD million)"
+        },
+        {
+          "nodeId": "pw-central-g11451",
+          "amount": 1.904302,
+          "locator": "Series PLW.S1311 + S1314.G1.G11451_T.XDC.A, 2019",
+          "calculation": "Sum of the sectors S1311 + S1314 (USD million)"
+        },
+        {
+          "nodeId": "pw-central-g112",
+          "amount": 1.442548,
+          "locator": "Series PLW.S1311 + S1314.G1.G112_T.XDC.A, 2019",
+          "calculation": "Sum of the sectors S1311 + S1314 (USD million)"
+        },
+        {
+          "nodeId": "pw-central-g116",
+          "amount": 0.731,
+          "locator": "Series PLW.S1311 + S1314.G1.G116_T.XDC.A, 2019",
+          "calculation": "Sum of the sectors S1311 + S1314 (USD million)"
+        },
+        {
+          "nodeId": "pw-central-g1156",
+          "amount": 0.584544,
+          "locator": "Series PLW.S1311 + S1314.G1.G1156_T.XDC.A, 2019",
+          "calculation": "Sum of the sectors S1311 + S1314 (USD million)"
+        }
+      ]
+    },
+    {
+      "title": "Regional governments: lines of the IMF series, 2019",
+      "defaults": {
+        "denominatorId": "state-2019",
+        "scale": "million",
+        "currency": "USD",
+        "period": { "label": "2019", "kind": "calendar-year", "start": "2019-01-01", "end": "2019-12-31" },
+        "basis": "Accrual basis, as reported to the IMF (flag AC)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        {
+          "nodeId": "pw-state-small-tax",
+          "amount": 0.189535,
+          "locator": "Series PLW.S1312MIXED.G1, indicators G113_T:other, G11451_T, G116_T, XDC, annual, 2019",
+          "calculation": "Sum of 3 lines, each below 0.15% of the total (USD million)"
+        }
+      ]
+    }
+  ],
+  "unavailable": []
+}

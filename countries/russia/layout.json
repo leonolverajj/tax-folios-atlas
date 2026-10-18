@@ -1,0 +1,118 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "russia": {
+      "x": 800,
+      "y": 500
+    },
+    "central": {
+      "x": 509,
+      "y": 432
+    },
+    "ru-central-g11411": {
+      "x": 485,
+      "y": 761
+    },
+    "ru-central-g1112": {
+      "x": 320,
+      "y": 631
+    },
+    "ru-central-g1142": {
+      "x": 291,
+      "y": 467
+    },
+    "ru-central-g1152": {
+      "x": 379,
+      "y": 290
+    },
+    "ru-central-g1213": {
+      "x": 569,
+      "y": 206
+    },
+    "ru-central-small-tax": {
+      "x": 792,
+      "y": 170
+    },
+    "ru-central-g1212": {
+      "x": 250,
+      "y": 774
+    },
+    "ru-central-g1151": {
+      "x": 112,
+      "y": 563
+    },
+    "ru-central-g11452": {
+      "x": 148,
+      "y": 346
+    },
+    "ru-central-g1111": {
+      "x": 342,
+      "y": 164
+    },
+    "ru-central-g1113": {
+      "x": 651,
+      "y": 62
+    },
+    "ru-central-g1211": {
+      "x": 1010,
+      "y": 73
+    },
+    "state": {
+      "x": 1088,
+      "y": 427
+    },
+    "ru-state-g1111": {
+      "x": 998,
+      "y": 190
+    },
+    "ru-state-g113-other": {
+      "x": 1206,
+      "y": 284
+    },
+    "ru-state-g1113": {
+      "x": 1309,
+      "y": 468
+    },
+    "ru-state-small-tax": {
+      "x": 1258,
+      "y": 650
+    },
+    "ru-state-g1112": {
+      "x": 1291,
+      "y": 169
+    },
+    "ru-state-g1142": {
+      "x": 1493,
+      "y": 526
+    },
+    "ru-state-g11451": {
+      "x": 1217,
+      "y": 858
+    },
+    "local": {
+      "x": 869,
+      "y": 695
+    },
+    "ru-local-g1111": {
+      "x": 1051,
+      "y": 668
+    },
+    "ru-local-g1113": {
+      "x": 1014,
+      "y": 837
+    },
+    "ru-local-g113-other": {
+      "x": 832,
+      "y": 866
+    },
+    "ru-local-small-tax": {
+      "x": 671,
+      "y": 774
+    }
+  },
+  "radii": {}
+}

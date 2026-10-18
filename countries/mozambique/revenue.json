@@ -1,0 +1,38 @@
+{
+  "groups": [
+    {
+      "title": "Budgetary central government: lines of the IMF series, 2024",
+      "defaults": {
+        "denominatorId": "central-2024",
+        "scale": "million",
+        "currency": "MZN",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        { "nodeId": "mz-central-g1112", "amount": 92972.75215, "locator": "Series MOZ.S1311B.G1.G1112_T.XDC.A, 2024" },
+        { "nodeId": "mz-central-g11411", "amount": 81643.1, "locator": "Series MOZ.S1311B.G1.G11411_T.XDC.A, 2024" },
+        { "nodeId": "mz-central-g1111", "amount": 62727.2, "locator": "Series MOZ.S1311B.G1.G1111_T.XDC.A, 2024" },
+        { "nodeId": "mz-central-g1142", "amount": 21883.7, "locator": "Series MOZ.S1311B.G1.G1142_T.XDC.A, 2024" },
+        { "nodeId": "mz-central-g1151", "amount": 21228.1, "locator": "Series MOZ.S1311B.G1.G1151_T.XDC.A, 2024" },
+        { "nodeId": "mz-central-g116", "amount": 18639.75632, "locator": "Series MOZ.S1311B.G1.G116_T.XDC.A, 2024" },
+        { "nodeId": "mz-central-g1146", "amount": 13675.26202, "locator": "Series MOZ.S1311B.G1.G1146_T.XDC.A, 2024" },
+        { "nodeId": "mz-central-g11452", "amount": 3756.56905, "locator": "Series MOZ.S1311B.G1.G11452_T.XDC.A, 2024" },
+        { "nodeId": "mz-central-g1211", "amount": 1256.62258, "locator": "Series MOZ.S1311B.G1.G1211_T.XDC.A, 2024" },
+        { "nodeId": "mz-central-g1144", "amount": 750.16877, "locator": "Series MOZ.S1311B.G1.G1144_T.XDC.A, 2024" },
+        { "nodeId": "mz-central-g1221", "amount": 597.73458, "locator": "Series MOZ.S1311B.G1.G1221_T.XDC.A, 2024" },
+        {
+          "nodeId": "mz-central-small-tax",
+          "amount": 358.49883,
+          "locator": "Series MOZ.S1311B.G1, indicators G1133_T, G1135_T, G11451_T, XDC, annual, 2024",
+          "calculation": "Sum of 3 lines, each below 0.15% of the total (MZN million)"
+        }
+      ]
+    }
+  ],
+  "unavailable": []
+}

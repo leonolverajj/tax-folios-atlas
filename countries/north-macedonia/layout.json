@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "north-macedonia": {
+      "x": 800,
+      "y": 500
+    },
+    "central": {
+      "x": 509,
+      "y": 432
+    },
+    "mk-central-g1211": {
+      "x": 667,
+      "y": 822
+    },
+    "mk-central-g1111": {
+      "x": 396,
+      "y": 700
+    },
+    "mk-central-g1112": {
+      "x": 289,
+      "y": 494
+    },
+    "mk-central-g1213": {
+      "x": 407,
+      "y": 285
+    },
+    "mk-central-g1212": {
+      "x": 698,
+      "y": 177
+    },
+    "mk-central-small-tax": {
+      "x": 1036,
+      "y": 192
+    },
+    "mk-central-g11411": {
+      "x": 375,
+      "y": 856
+    },
+    "mk-central-g1142": {
+      "x": 106,
+      "y": 519
+    },
+    "mk-central-g1151": {
+      "x": 306,
+      "y": 181
+    },
+    "mk-central-g1144": {
+      "x": 846,
+      "y": 53
+    },
+    "mk-central-g116": {
+      "x": 1351,
+      "y": 227
+    },
+    "local": {
+      "x": 1091,
+      "y": 568
+    },
+    "mk-local-g11452": {
+      "x": 1165,
+      "y": 284
+    },
+    "mk-local-g11414": {
+      "x": 1286,
+      "y": 398
+    },
+    "mk-local-g113-other": {
+      "x": 1308,
+      "y": 537
+    },
+    "mk-local-g116": {
+      "x": 1231,
+      "y": 679
+    },
+    "mk-local-g1111": {
+      "x": 1072,
+      "y": 781
+    },
+    "mk-local-small-tax": {
+      "x": 865,
+      "y": 829
+    }
+  },
+  "radii": {}
+}

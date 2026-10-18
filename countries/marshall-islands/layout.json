@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "marshall-islands": {
+      "x": 800,
+      "y": 500
+    },
+    "central": {
+      "x": 509,
+      "y": 432
+    },
+    "mh-central-g1111": {
+      "x": 840,
+      "y": 829
+    },
+    "mh-central-g1213": {
+      "x": 464,
+      "y": 728
+    },
+    "mh-central-g11452": {
+      "x": 289,
+      "y": 519
+    },
+    "mh-central-g113-other": {
+      "x": 431,
+      "y": 272
+    },
+    "mh-central-g116": {
+      "x": 797,
+      "y": 170
+    },
+    "mh-central-small-tax": {
+      "x": 1165,
+      "y": 269
+    },
+    "mh-central-g1211": {
+      "x": 503,
+      "y": 889
+    },
+    "mh-central-g1151": {
+      "x": 111,
+      "y": 557
+    },
+    "mh-central-g11413": {
+      "x": 351,
+      "y": 158
+    },
+    "mh-central-g112": {
+      "x": 1014,
+      "y": 74
+    },
+    "mh-central-g1144": {
+      "x": 1469,
+      "y": 381
+    }
+  },
+  "radii": {}
+}

@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "tonga": {
+      "x": 800,
+      "y": 500
+    },
+    "central": {
+      "x": 509,
+      "y": 432
+    },
+    "to-central-g11411": {
+      "x": 841,
+      "y": 829
+    },
+    "to-central-g1112": {
+      "x": 396,
+      "y": 702
+    },
+    "to-central-g1111": {
+      "x": 315,
+      "y": 385
+    },
+    "to-central-g11451": {
+      "x": 685,
+      "y": 178
+    },
+    "to-central-g113-other": {
+      "x": 1165,
+      "y": 269
+    },
+    "to-central-g1142": {
+      "x": 411,
+      "y": 871
+    },
+    "to-central-g1151": {
+      "x": 154,
+      "y": 333
+    },
+    "to-central-g1153": {
+      "x": 904,
+      "y": 57
+    },
+    "to-central-g11452": {
+      "x": 1486,
+      "y": 461
+    }
+  },
+  "radii": {}
+}

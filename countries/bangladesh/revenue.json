@@ -1,0 +1,40 @@
+{
+  "groups": [
+    {
+      "title": "Budgetary central government: lines of the IMF series, 2021",
+      "defaults": {
+        "denominatorId": "central-2021",
+        "scale": "million",
+        "currency": "BDT",
+        "period": { "label": "2021", "kind": "calendar-year", "start": "2021-01-01", "end": "2021-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        { "nodeId": "bd-central-g11411", "amount": 1419221.728709, "locator": "Series BGD.S1311B.G1.G11411_T.XDC.A, 2021" },
+        { "nodeId": "bd-central-g1112", "amount": 585421.176867, "locator": "Series BGD.S1311B.G1.G1112_T.XDC.A, 2021" },
+        { "nodeId": "bd-central-g1151", "amount": 315917.10078, "locator": "Series BGD.S1311B.G1.G1151_T.XDC.A, 2021" },
+        { "nodeId": "bd-central-g1111", "amount": 287977.645927, "locator": "Series BGD.S1311B.G1.G1111_T.XDC.A, 2021" },
+        { "nodeId": "bd-central-g116", "amount": 34156.777669, "locator": "Series BGD.S1311B.G1.G116_T.XDC.A, 2021" },
+        { "nodeId": "bd-central-g1142", "amount": 25691.916348, "locator": "Series BGD.S1311B.G1.G1142_T.XDC.A, 2021" },
+        { "nodeId": "bd-central-g11451", "amount": 15041.857135, "locator": "Series BGD.S1311B.G1.G11451_T.XDC.A, 2021" },
+        {
+          "nodeId": "bd-central-g113-other",
+          "amount": 9169.93457,
+          "locator": "Series BGD.S1311B.G1.G113_T.XDC.A, 2021, less its reported sub-lines",
+          "calculation": "G113_T less the sum of its reported sub-lines (BDT million)"
+        },
+        {
+          "nodeId": "bd-central-small-tax",
+          "amount": 5297.235457,
+          "locator": "Series BGD.S1311B.G1, indicators G11413_T, G1144_T, G11452_T, G1152_T, XDC, annual, 2021",
+          "calculation": "Sum of 4 lines, each below 0.15% of the total (BDT million)"
+        }
+      ]
+    }
+  ],
+  "unavailable": []
+}

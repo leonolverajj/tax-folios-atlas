@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "sierra-leone": {
+      "x": 800,
+      "y": 500
+    },
+    "central": {
+      "x": 509,
+      "y": 432
+    },
+    "sl-central-g1111": {
+      "x": 847,
+      "y": 829
+    },
+    "sl-central-g11412": {
+      "x": 470,
+      "y": 752
+    },
+    "sl-central-g1151": {
+      "x": 290,
+      "y": 521
+    },
+    "sl-central-g1112": {
+      "x": 425,
+      "y": 272
+    },
+    "sl-central-g1142": {
+      "x": 788,
+      "y": 170
+    },
+    "sl-central-g11451": {
+      "x": 1160,
+      "y": 266
+    }
+  },
+  "radii": {}
+}

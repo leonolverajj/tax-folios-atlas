@@ -48,7 +48,14 @@ app.innerHTML = `
         <h1>Tax Folios <em>Atlas</em></h1>
         <p>Select an illuminated country to open its tax folio.</p>
       </div>
-      <nav class="atlas-index" aria-label="Countries with a tax folio"><ul id="atlas-list"></ul></nav>
+      <nav class="atlas-index" aria-label="Countries with a tax folio">
+        <button type="button" class="atlas-toggle" id="atlas-toggle" aria-expanded="false" aria-controls="atlas-panel"><span class="pip" aria-hidden="true"></span>Countries <b id="atlas-count"></b></button>
+        <div class="atlas-panel" id="atlas-panel" hidden>
+          <input type="search" id="atlas-search" class="atlas-search" placeholder="Find a country" aria-label="Find a country" autocomplete="off" />
+          <ul id="atlas-list"></ul>
+          <p class="atlas-none muted" id="atlas-none" hidden>No country matches.</p>
+        </div>
+      </nav>
       <div class="zoom-controls" id="map-zoom" role="group" aria-label="Map zoom">
         <button type="button" data-z="in" aria-label="Zoom in">+</button>
         <button type="button" data-z="out" aria-label="Zoom out">−</button>
@@ -93,9 +100,49 @@ const folioStage = $('folio-stage');
 const topCenter = $('topbar-center');
 
 /* -------------------------------------------------------------- map index */
-$('atlas-list').innerHTML = registry
-  .map((c) => `<li><a href="#/${esc(c.id)}" style="--a:${c.theme.accent}"><span class="pip" aria-hidden="true"></span>${esc(c.names.en)}</a></li>`)
+const atlasPanel = $('atlas-panel');
+const atlasToggle = $('atlas-toggle');
+const atlasSearch = $<HTMLInputElement>('atlas-search');
+$('atlas-count').textContent = String(registry.length);
+$('atlas-list').innerHTML = [...registry]
+  .sort((a, b) => a.names.en.localeCompare(b.names.en))
+  .map(
+    (c) =>
+      `<li data-name="${esc(`${c.names.en} ${c.names.native}`.toLowerCase())}"><a href="#/${esc(c.id)}" style="--a:${c.theme.accent}"><span class="pip" aria-hidden="true"></span>${esc(c.names.en)}${
+        c.grain === 'harmonised' ? ' <small title="Built from the IMF classification lines, not from the country’s own list of taxes">IMF lines</small>' : ''
+      }</a></li>`,
+  )
   .join('');
+const setAtlasPanel = (open: boolean) => {
+  atlasPanel.hidden = !open;
+  atlasToggle.setAttribute('aria-expanded', String(open));
+  if (open) {
+    atlasSearch.value = '';
+    filterAtlas();
+    atlasSearch.focus();
+  }
+};
+function filterAtlas() {
+  const q = atlasSearch.value.trim().toLowerCase();
+  let shown = 0;
+  $('atlas-list').querySelectorAll<HTMLElement>('li').forEach((li) => {
+    const on = !q || li.dataset.name!.includes(q);
+    li.hidden = !on;
+    if (on) shown++;
+  });
+  $('atlas-none').hidden = shown > 0;
+}
+atlasToggle.addEventListener('click', () => setAtlasPanel(atlasPanel.hidden));
+atlasSearch.addEventListener('input', filterAtlas);
+atlasPanel.addEventListener('click', (ev) => {
+  if ((ev.target as Element).closest('a')) setAtlasPanel(false);
+});
+document.addEventListener('keydown', (ev) => {
+  if (ev.key === 'Escape' && !atlasPanel.hidden) {
+    setAtlasPanel(false);
+    atlasToggle.focus();
+  }
+});
 
 /* ------------------------------------------------------------------ state */
 interface Session {

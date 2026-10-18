@@ -1,0 +1,18 @@
+{
+  "nodes": {
+    "angola": { "label": "Angola", "sublabel": "Fiscal folio · IMF lines", "glyph": "globe" },
+    "central": { "label": "Central government", "sublabel": "IMF S1311", "glyph": "landmark" },
+    "ao-central-g1112": { "label": "Corporate income tax", "sublabel": "Companies", "glyph": "factory" },
+    "ao-central-g11411": { "label": "VAT", "sublabel": "Value added", "glyph": "cart" },
+    "ao-central-g1111": { "label": "Personal income tax", "sublabel": "Individuals", "glyph": "person" },
+    "ao-central-g1146": { "label": "Other goods and services", "sublabel": "Not elsewhere classified", "glyph": "gear" },
+    "ao-central-g1151": { "label": "Customs duties", "sublabel": "Imports", "glyph": "ship" },
+    "ao-central-g113-other": { "label": "Other property taxes", "sublabel": "Not itemised", "glyph": "house" },
+    "ao-central-g1142": { "label": "Excises", "sublabel": "Specific goods", "glyph": "flame" },
+    "ao-central-g116": { "label": "Other taxes", "sublabel": "Not elsewhere classified", "glyph": "gear" },
+    "ao-central-g11412": { "label": "Sales taxes", "sublabel": "Single stage", "glyph": "cart" },
+    "ao-central-g1152": { "label": "Export taxes", "sublabel": "Exports", "glyph": "plane" },
+    "ao-central-g1133": { "label": "Estate and gift taxes", "sublabel": "Transfers of wealth", "glyph": "scroll" },
+    "ao-central-g1131": { "label": "Property tax", "sublabel": "Land and buildings", "glyph": "house" }
+  }
+}

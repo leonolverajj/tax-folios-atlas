@@ -1,0 +1,51 @@
+{
+  "groups": [
+    {
+      "title": "Central government: lines of the IMF series, 2023",
+      "defaults": {
+        "denominatorId": "central-2023",
+        "scale": "million",
+        "currency": "AUD",
+        "period": { "label": "2023", "kind": "calendar-year", "start": "2023-01-01", "end": "2023-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        { "nodeId": "ki-central-g11411", "amount": 39.007927, "locator": "Series KIR.S1311.G1.G11411_T.XDC.A, 2023" },
+        { "nodeId": "ki-central-g1111", "amount": 15.03201, "locator": "Series KIR.S1311.G1.G1111_T.XDC.A, 2023" },
+        { "nodeId": "ki-central-g1112", "amount": 14.070125, "locator": "Series KIR.S1311.G1.G1112_T.XDC.A, 2023" },
+        { "nodeId": "ki-central-g11452", "amount": 5.122102, "locator": "Series KIR.S1311.G1.G11452_T.XDC.A, 2023" },
+        { "nodeId": "ki-central-g1142", "amount": 1.947473, "locator": "Series KIR.S1311.G1.G1142_T.XDC.A, 2023" },
+        { "nodeId": "ki-central-g1151", "amount": 1.785472, "locator": "Series KIR.S1311.G1.G1151_T.XDC.A, 2023" }
+      ]
+    },
+    {
+      "title": "Local governments: lines of the IMF series, 2023",
+      "defaults": {
+        "denominatorId": "local-2023",
+        "scale": "million",
+        "currency": "AUD",
+        "period": { "label": "2023", "kind": "calendar-year", "start": "2023-01-01", "end": "2023-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        { "nodeId": "ki-local-g11452", "amount": 0.760153, "locator": "Series KIR.S1313MIXED.G1.G11452_T.XDC.A, 2023" },
+        { "nodeId": "ki-local-g1111", "amount": 0.135414, "locator": "Series KIR.S1313MIXED.G1.G1111_T.XDC.A, 2023" },
+        {
+          "nodeId": "ki-local-small-tax",
+          "amount": 0.05848,
+          "locator": "Series KIR.S1313MIXED.G1, indicators G1112_T, G11451_T, XDC, annual, 2023",
+          "calculation": "Sum of 2 lines, each below 0.15% of the total (AUD million)"
+        }
+      ]
+    }
+  ],
+  "unavailable": []
+}

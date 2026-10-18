@@ -1,0 +1,107 @@
+{
+  "groups": [
+    {
+      "title": "Central government and social security: lines of the IMF series, 2024",
+      "defaults": {
+        "denominatorId": "central-2024",
+        "scale": "million",
+        "currency": "KGS",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        {
+          "nodeId": "kg-central-g11411",
+          "amount": 151997.4,
+          "locator": "Series KGZ.S1311 + S1314.G1.G11411_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (KGS million)"
+        },
+        {
+          "nodeId": "kg-central-g1212",
+          "amount": 72128.2,
+          "locator": "Series KGZ.S1311 + S1314.G1.G1212_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (KGS million)"
+        },
+        {
+          "nodeId": "kg-central-g1112",
+          "amount": 68331.8,
+          "locator": "Series KGZ.S1311 + S1314.G1.G1112_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (KGS million)"
+        },
+        {
+          "nodeId": "kg-central-g1151",
+          "amount": 38775.4,
+          "locator": "Series KGZ.S1311 + S1314.G1.G1151_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (KGS million)"
+        },
+        {
+          "nodeId": "kg-central-g11412",
+          "amount": 25103.4,
+          "locator": "Series KGZ.S1311 + S1314.G1.G11412_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (KGS million)"
+        },
+        {
+          "nodeId": "kg-central-g1142",
+          "amount": 19417.9,
+          "locator": "Series KGZ.S1311 + S1314.G1.G1142_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (KGS million)"
+        },
+        {
+          "nodeId": "kg-central-g1111",
+          "amount": 3626.6,
+          "locator": "Series KGZ.S1311 + S1314.G1.G1111_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (KGS million)"
+        },
+        {
+          "nodeId": "kg-central-g1156",
+          "amount": 3176.7,
+          "locator": "Series KGZ.S1311 + S1314.G1.G1156_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (KGS million)"
+        },
+        {
+          "nodeId": "kg-central-g1211",
+          "amount": 1652.7,
+          "locator": "Series KGZ.S1311 + S1314.G1.G1211_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (KGS million)"
+        },
+        {
+          "nodeId": "kg-central-g1152",
+          "amount": 39.6,
+          "locator": "Series KGZ.S1311 + S1314.G1.G1152_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (KGS million)"
+        }
+      ]
+    },
+    {
+      "title": "Local governments: lines of the IMF series, 2024",
+      "defaults": {
+        "denominatorId": "local-2024",
+        "scale": "million",
+        "currency": "KGS",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        { "nodeId": "kg-local-g1111", "amount": 26477.3, "locator": "Series KGZ.S1313MIXED.G1.G1111_T.XDC.A, 2024" },
+        {
+          "nodeId": "kg-local-g113-other",
+          "amount": 3137,
+          "locator": "Series KGZ.S1313MIXED.G1.G113_T.XDC.A, 2024, less its reported sub-lines",
+          "calculation": "G113_T less the sum of its reported sub-lines (KGS million)"
+        },
+        { "nodeId": "kg-local-g1112", "amount": 1785.9, "locator": "Series KGZ.S1313MIXED.G1.G1112_T.XDC.A, 2024" },
+        { "nodeId": "kg-local-g1132", "amount": 1526.5, "locator": "Series KGZ.S1313MIXED.G1.G1132_T.XDC.A, 2024" },
+        { "nodeId": "kg-local-g1156", "amount": 0.6, "locator": "Series KGZ.S1313MIXED.G1.G1156_T.XDC.A, 2024" }
+      ]
+    }
+  ],
+  "unavailable": []
+}

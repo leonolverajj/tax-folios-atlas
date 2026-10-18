@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "ethiopia": {
+      "x": 800,
+      "y": 500
+    },
+    "central": {
+      "x": 509,
+      "y": 432
+    },
+    "et-central-g11411": {
+      "x": 842,
+      "y": 829
+    },
+    "et-central-g1112": {
+      "x": 316,
+      "y": 602
+    },
+    "et-central-g1142": {
+      "x": 526,
+      "y": 221
+    },
+    "et-central-small-tax": {
+      "x": 1158,
+      "y": 264
+    },
+    "et-central-g1151": {
+      "x": 231,
+      "y": 764
+    },
+    "et-central-g1111": {
+      "x": 677,
+      "y": 59
+    },
+    "et-central-g116": {
+      "x": 1470,
+      "y": 617
+    }
+  },
+  "radii": {}
+}

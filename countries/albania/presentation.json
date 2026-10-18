@@ -1,0 +1,25 @@
+{
+  "nodes": {
+    "albania": { "label": "Albania", "sublabel": "Fiscal folio · IMF lines", "glyph": "globe" },
+    "central": { "label": "Central govt and social funds", "sublabel": "IMF S1311 + S1314", "glyph": "landmark" },
+    "local": { "label": "Local governments", "sublabel": "IMF S1313", "glyph": "town" },
+    "al-central-g11411": { "label": "VAT", "sublabel": "Value added", "glyph": "cart" },
+    "al-central-g1212": { "label": "Social: employers", "sublabel": "Contributions", "glyph": "shield" },
+    "al-central-g1142": { "label": "Excises", "sublabel": "Specific goods", "glyph": "flame" },
+    "al-central-g1112": { "label": "Corporate income tax", "sublabel": "Companies", "glyph": "factory" },
+    "al-central-g1211": { "label": "Social: employees", "sublabel": "Contributions", "glyph": "shield" },
+    "al-central-g1111": { "label": "Personal income tax", "sublabel": "Individuals", "glyph": "person" },
+    "al-central-g11451": { "label": "Motor vehicle taxes", "sublabel": "Ownership · use", "glyph": "car" },
+    "al-central-g11452": { "label": "Licences and use taxes", "sublabel": "Permissions", "glyph": "stamp" },
+    "al-central-g1213": { "label": "Social: self-employed", "sublabel": "Contributions", "glyph": "shield" },
+    "al-central-g1151": { "label": "Customs duties", "sublabel": "Imports", "glyph": "ship" },
+    "al-central-g11412": { "label": "Sales taxes", "sublabel": "Single stage", "glyph": "cart" },
+    "al-central-g11414": { "label": "Financial transaction taxes", "sublabel": "Transfers · securities", "glyph": "stamp" },
+    "al-central-g1144": { "label": "Taxes on services", "sublabel": "Insurance · lodging · gambling", "glyph": "bed" },
+    "al-central-small-tax": { "label": "Other taxes (small lines)", "sublabel": "5 lines", "glyph": "gear" },
+    "al-local-g11452": { "label": "Licences and use taxes", "sublabel": "Permissions", "glyph": "stamp" },
+    "al-local-g113-other": { "label": "Other property taxes", "sublabel": "Not itemised", "glyph": "house" },
+    "al-local-small-tax": { "label": "Other taxes (small lines)", "sublabel": "6 lines", "glyph": "gear" },
+    "al-local-g1146": { "label": "Other goods and services", "sublabel": "Not elsewhere classified", "glyph": "gear" }
+  }
+}

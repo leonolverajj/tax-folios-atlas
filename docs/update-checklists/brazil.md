@@ -1,6 +1,6 @@
 # Update checklist – Brazil
 
-Generated 2026-10-12 by `npm run checklist`. **Do not edit by hand** – edit the sources in `countries/brazil/sources.json` and re-run it.
+Generated 2026-10-18 by `npm run checklist`. **Do not edit by hand** – edit the sources in `countries/brazil/sources.json` and re-run it.
 
 Research status: **researched**. 1 source(s) to check or due, 0 coming up, 30 in total.
 
@@ -180,10 +180,10 @@ When you have worked through a row: update the data, set its `accessed` date, ru
   - Status: current – last checked 2026-09-28. Published 1996-09-13, accessed 2026-09-28.
   - To do: Check for amendments since the last check (new law, court ruling, repeal). Update the instruments listed, their `status` and `checkedOn`.
 
-- [ ] **Lei (SP) nº 13.296/2008 – Imposto sobre a Propriedade de Veículos Automotores (IPVA) – exemplo estadual** – Assembleia Legislativa do Estado de São Paulo
-  - URL: https://www.al.sp.gov.br/repositorio/legislacao/lei/2008/lei-13296-23.12.2008.html
+- [ ] **Lei (SP) nº 13.296/2008 – Imposto sobre a Propriedade de Veículos Automotores (IPVA) – exemplo estadual (texto consolidado)** – Secretaria da Fazenda e Planejamento do Estado de São Paulo
+  - URL: https://legislacao.fazenda.sp.gov.br/Paginas/lei13296.aspx
   - Feeds: legal/rate basis of 1 node(s)
-  - Status: current – last checked 2026-09-28. Published 2008-12-23, accessed 2026-09-28.
+  - Status: current – last checked 2026-09-28. Published 2008-12-23, accessed 2026-10-17.
   - To do: Check for amendments since the last check (new law, court ruling, repeal). Update the instruments listed, their `status` and `checkedOn`.
 
 - [ ] **Lei Complementar nº 116/2003 – Imposto sobre Serviços de Qualquer Natureza (ISS)** – Presidência da República (Planalto)

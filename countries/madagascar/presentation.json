@@ -1,0 +1,15 @@
+{
+  "nodes": {
+    "madagascar": { "label": "Madagascar", "sublabel": "Fiscal folio · IMF lines", "glyph": "globe" },
+    "central": { "label": "Budgetary central govt", "sublabel": "IMF S1311B", "glyph": "landmark" },
+    "mg-central-g11411": { "label": "VAT", "sublabel": "Value added", "glyph": "cart" },
+    "mg-central-g111": { "label": "Income taxes", "sublabel": "Persons and companies", "glyph": "coin" },
+    "mg-central-g1151": { "label": "Customs duties", "sublabel": "Imports", "glyph": "ship" },
+    "mg-central-g1142": { "label": "Excises", "sublabel": "Specific goods", "glyph": "flame" },
+    "mg-central-g1222": { "label": "Other social: employers", "sublabel": "Government schemes", "glyph": "heart" },
+    "mg-central-g1221": { "label": "Other social: employees", "sublabel": "Government schemes", "glyph": "heart" },
+    "mg-central-g11414": { "label": "Financial transaction taxes", "sublabel": "Transfers · securities", "glyph": "stamp" },
+    "mg-central-g1146": { "label": "Other goods and services", "sublabel": "Not elsewhere classified", "glyph": "gear" },
+    "mg-central-small-tax": { "label": "Other taxes (small lines)", "sublabel": "2 lines", "glyph": "gear" }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "namibia": {
+      "x": 800,
+      "y": 500
+    },
+    "central": {
+      "x": 509,
+      "y": 432
+    },
+    "na-central-g1151": {
+      "x": 853,
+      "y": 718
+    },
+    "na-central-g1112": {
+      "x": 394,
+      "y": 701
+    },
+    "na-central-g1142": {
+      "x": 320,
+      "y": 385
+    },
+    "na-central-g1156": {
+      "x": 688,
+      "y": 178
+    },
+    "na-central-g1155": {
+      "x": 1167,
+      "y": 270
+    },
+    "na-central-g11411": {
+      "x": 410,
+      "y": 871
+    },
+    "na-central-g11414": {
+      "x": 158,
+      "y": 330
+    },
+    "na-central-g1113": {
+      "x": 908,
+      "y": 57
+    },
+    "na-central-g113-other": {
+      "x": 1493,
+      "y": 468
+    },
+    "na-central-g1111": {
+      "x": 889,
+      "y": 889
+    },
+    "na-central-g1212": {
+      "x": 93,
+      "y": 681
+    },
+    "na-central-g1152": {
+      "x": 341,
+      "y": 32
+    },
+    "na-central-g11452": {
+      "x": 1416,
+      "y": 97
+    },
+    "local": {
+      "x": 1091,
+      "y": 568
+    },
+    "na-local-g1111": {
+      "x": 1273,
+      "y": 608
+    }
+  },
+  "radii": {}
+}

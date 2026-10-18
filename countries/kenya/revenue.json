@@ -1,0 +1,96 @@
+{
+  "groups": [
+    {
+      "title": "Central government and social security: lines of the IMF series, 2023",
+      "defaults": {
+        "denominatorId": "central-2023",
+        "scale": "million",
+        "currency": "KES",
+        "period": { "label": "2023", "kind": "calendar-year", "start": "2023-01-01", "end": "2023-12-31" },
+        "basis": "Accrual basis, as reported to the IMF (flag AC)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        {
+          "nodeId": "ke-central-g11411",
+          "amount": 550439.764218,
+          "locator": "Series KEN.S1311 + S1314.G1.G11411_T.XDC.A, 2023",
+          "calculation": "Sum of the sectors S1311 + S1314 (KES million)"
+        },
+        {
+          "nodeId": "ke-central-g1111",
+          "amount": 494904.356074,
+          "locator": "Series KEN.S1311 + S1314.G1.G1111_T.XDC.A, 2023",
+          "calculation": "Sum of the sectors S1311 + S1314 (KES million)"
+        },
+        {
+          "nodeId": "ke-central-g1112",
+          "amount": 446671.395392,
+          "locator": "Series KEN.S1311 + S1314.G1.G1112_T.XDC.A, 2023",
+          "calculation": "Sum of the sectors S1311 + S1314 (KES million)"
+        },
+        {
+          "nodeId": "ke-central-g1142",
+          "amount": 266053.816342,
+          "locator": "Series KEN.S1311 + S1314.G1.G1142_T.XDC.A, 2023",
+          "calculation": "Sum of the sectors S1311 + S1314 (KES million)"
+        },
+        {
+          "nodeId": "ke-central-g1151",
+          "amount": 130122.579569,
+          "locator": "Series KEN.S1311 + S1314.G1.G1151_T.XDC.A, 2023",
+          "calculation": "Sum of the sectors S1311 + S1314 (KES million)"
+        },
+        {
+          "nodeId": "ke-central-g1146",
+          "amount": 110058.114289,
+          "locator": "Series KEN.S1311 + S1314.G1.G1146_T.XDC.A, 2023",
+          "calculation": "Sum of the sectors S1311 + S1314 (KES million)"
+        },
+        {
+          "nodeId": "ke-central-g1211",
+          "amount": 108811.264023,
+          "locator": "Series KEN.S1311 + S1314.G1.G1211_T.XDC.A, 2023",
+          "calculation": "Sum of the sectors S1311 + S1314 (KES million)"
+        },
+        {
+          "nodeId": "ke-central-g1156",
+          "amount": 95865.621208,
+          "locator": "Series KEN.S1311 + S1314.G1.G1156_T.XDC.A, 2023",
+          "calculation": "Sum of the sectors S1311 + S1314 (KES million)"
+        },
+        {
+          "nodeId": "ke-central-g11414",
+          "amount": 18065.671603,
+          "locator": "Series KEN.S1311 + S1314.G1.G11414_T.XDC.A, 2023",
+          "calculation": "Sum of the sectors S1311 + S1314 (KES million)"
+        },
+        {
+          "nodeId": "ke-central-g11452",
+          "amount": 2012,
+          "locator": "Series KEN.S1311 + S1314.G1.G11452_T.XDC.A, 2023",
+          "calculation": "Sum of the sectors S1311 + S1314 (KES million)"
+        }
+      ]
+    },
+    {
+      "title": "Local governments: lines of the IMF series, 2023",
+      "defaults": {
+        "denominatorId": "local-2023",
+        "scale": "million",
+        "currency": "KES",
+        "period": { "label": "2023", "kind": "calendar-year", "start": "2023-01-01", "end": "2023-12-31" },
+        "basis": "Accrual basis, as reported to the IMF (flag AC)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [{ "nodeId": "ke-local-g1112", "amount": 11171.905435, "locator": "Series KEN.S1313MIXED.G1.G1112_T.XDC.A, 2023" }]
+    }
+  ],
+  "unavailable": []
+}

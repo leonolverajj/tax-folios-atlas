@@ -1,0 +1,96 @@
+{
+  "groups": [
+    {
+      "title": "Central government and social security: lines of the IMF series, 2024",
+      "defaults": {
+        "denominatorId": "central-2024",
+        "scale": "million",
+        "currency": "MNT",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        {
+          "nodeId": "mn-central-g11411",
+          "amount": 5866759.274844,
+          "locator": "Series MNG.S1311 + S1314.G1.G11411_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (MNT million)"
+        },
+        {
+          "nodeId": "mn-central-g121-other",
+          "amount": 5276778.102496,
+          "locator": "Series MNG.S1311 + S1314.G1.G121_T.XDC.A, 2024, less its reported sub-lines",
+          "calculation": "G121_T less the sum of its reported sub-lines (MNT million)"
+        },
+        {
+          "nodeId": "mn-central-g1112",
+          "amount": 4451937.275164,
+          "locator": "Series MNG.S1311 + S1314.G1.G1112_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (MNT million)"
+        },
+        {
+          "nodeId": "mn-central-g1151",
+          "amount": 1792319.960729,
+          "locator": "Series MNG.S1311 + S1314.G1.G1151_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (MNT million)"
+        },
+        {
+          "nodeId": "mn-central-g1142",
+          "amount": 1133821.527687,
+          "locator": "Series MNG.S1311 + S1314.G1.G1142_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (MNT million)"
+        },
+        {
+          "nodeId": "mn-central-g116",
+          "amount": 260811.557013,
+          "locator": "Series MNG.S1311 + S1314.G1.G116_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (MNT million)"
+        },
+        {
+          "nodeId": "mn-central-g11452",
+          "amount": 89982.482423,
+          "locator": "Series MNG.S1311 + S1314.G1.G11452_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (MNT million)"
+        },
+        {
+          "nodeId": "mn-central-g1152",
+          "amount": 21.799428,
+          "locator": "Series MNG.S1311 + S1314.G1.G1152_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (MNT million)"
+        }
+      ]
+    },
+    {
+      "title": "Local governments: lines of the IMF series, 2024",
+      "defaults": {
+        "denominatorId": "local-2024",
+        "scale": "million",
+        "currency": "MNT",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        { "nodeId": "mn-local-g1111", "amount": 2551518.680332, "locator": "Series MNG.S1313MIXED.G1.G1111_T.XDC.A, 2024" },
+        { "nodeId": "mn-local-g1112", "amount": 2111465.658795, "locator": "Series MNG.S1313MIXED.G1.G1112_T.XDC.A, 2024" },
+        { "nodeId": "mn-local-g11452", "amount": 365222.447364, "locator": "Series MNG.S1313MIXED.G1.G11452_T.XDC.A, 2024" },
+        {
+          "nodeId": "mn-local-g113-other",
+          "amount": 361188.68066,
+          "locator": "Series MNG.S1313MIXED.G1.G113_T.XDC.A, 2024, less its reported sub-lines",
+          "calculation": "G113_T less the sum of its reported sub-lines (MNT million)"
+        },
+        { "nodeId": "mn-local-g1131", "amount": 98264.014863, "locator": "Series MNG.S1313MIXED.G1.G1131_T.XDC.A, 2024" },
+        { "nodeId": "mn-local-g116", "amount": 30706.730768, "locator": "Series MNG.S1313MIXED.G1.G116_T.XDC.A, 2024" }
+      ]
+    }
+  ],
+  "unavailable": []
+}

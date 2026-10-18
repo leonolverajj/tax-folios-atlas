@@ -1,0 +1,21 @@
+{
+  "nodes": {
+    "bosnia-and-herzegovina": { "label": "Bosnia and Herzegovina", "sublabel": "Fiscal folio · IMF lines", "glyph": "globe" },
+    "central": { "label": "Central govt and social funds", "sublabel": "IMF S1311 + S1314", "glyph": "landmark" },
+    "local": { "label": "Local governments", "sublabel": "IMF S1313", "glyph": "town" },
+    "ba-central-g11411": { "label": "VAT", "sublabel": "Value added", "glyph": "cart" },
+    "ba-central-g1211": { "label": "Social: employees", "sublabel": "Contributions", "glyph": "shield" },
+    "ba-central-g1112": { "label": "Corporate income tax", "sublabel": "Companies", "glyph": "factory" },
+    "ba-central-g1111": { "label": "Personal income tax", "sublabel": "Individuals", "glyph": "person" },
+    "ba-central-g1144": { "label": "Taxes on services", "sublabel": "Insurance · lodging · gambling", "glyph": "bed" },
+    "ba-central-g11452": { "label": "Licences and use taxes", "sublabel": "Permissions", "glyph": "stamp" },
+    "ba-central-g116": { "label": "Other taxes", "sublabel": "Not elsewhere classified", "glyph": "gear" },
+    "ba-central-small-social": { "label": "Other social (small)", "sublabel": "3 lines", "glyph": "heart" },
+    "ba-central-small-tax": { "label": "Other taxes (small lines)", "sublabel": "9 lines", "glyph": "gear" },
+    "ba-central-g11451": { "label": "Motor vehicle taxes", "sublabel": "Ownership · use", "glyph": "car" },
+    "ba-local-g11411": { "label": "VAT", "sublabel": "Value added", "glyph": "cart" },
+    "ba-local-g1111": { "label": "Personal income tax", "sublabel": "Individuals", "glyph": "person" },
+    "ba-local-g113-other": { "label": "Other property taxes", "sublabel": "Not itemised", "glyph": "house" },
+    "ba-local-small-tax": { "label": "Other taxes (small lines)", "sublabel": "8 lines", "glyph": "gear" }
+  }
+}

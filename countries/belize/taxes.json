@@ -1,0 +1,93 @@
+{
+  "instruments": [
+    {
+      "id": "bz-central-g114",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "general-consumption",
+      "status": "current",
+      "names": { "official": "Taxes on goods and services", "common": "Taxes on goods and services" },
+      "taxes": {
+        "base": "Taxes on the production, sale, transfer, leasing and delivery of goods and the rendering of services, and on the use of goods (GFS 114), reported as one line.",
+        "payer": "Producers and traders; usually passed on in prices."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "BZD 533 million in 2017: 55% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "imf-gfs-codes", "locator": "G114" }, { "sourceId": "imf-gfs-api", "locator": "Series BLZ.S1311B.G1.G114_T.XDC.A, 2017" }],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "bz-central-g111",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "income-mixed",
+      "status": "current",
+      "names": { "official": "Taxes on income, profits and capital gains", "common": "Income taxes" },
+      "taxes": {
+        "base": "Taxes on income, profits and capital gains, which the country reports as one line (GFS 111).",
+        "payer": "Individuals and enterprises."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "BZD 270 million in 2017: 28% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "imf-gfs-codes", "locator": "G111" }, { "sourceId": "imf-gfs-api", "locator": "Series BLZ.S1311B.G1.G111_T.XDC.A, 2017" }],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "bz-central-g115",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "trade",
+      "status": "current",
+      "names": { "official": "Taxes on international trade and transactions", "common": "Taxes on international trade" },
+      "taxes": { "base": "Taxes on international trade and transactions (GFS 115), reported as one line.", "payer": "Importers and exporters." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "BZD 158 million in 2017: 16% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "imf-gfs-codes", "locator": "G115" }, { "sourceId": "imf-gfs-api", "locator": "Series BLZ.S1311B.G1.G115_T.XDC.A, 2017" }],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "bz-central-g113",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "Taxes on property", "common": "Property taxes" },
+      "taxes": {
+        "base": "Taxes on property: recurrent taxes on land, buildings and net wealth, and taxes on estates, inheritances and gifts (GFS 113), reported as one line.",
+        "payer": "Owners of property."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "BZD 6.38 million in 2017: 0.7% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "imf-gfs-codes", "locator": "G113" }, { "sourceId": "imf-gfs-api", "locator": "Series BLZ.S1311B.G1.G113_T.XDC.A, 2017" }],
+      "checkedOn": "2026-10-17"
+    }
+  ]
+}

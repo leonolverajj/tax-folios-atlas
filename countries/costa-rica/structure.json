@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "referenceYear": 2023,
+  "currency": "CRC",
+  "scale": "million",
+  "taxToGdp": 24.9,
+  "basis": "OECD attribution to sub-sectors of general government (Interpretative Guide, section A.12)",
+  "levels": [
+    {
+      "key": "central",
+      "label": "Central government",
+      "folioLevelIds": ["central"],
+      "total": 7075402,
+      "byType": { "income": 2486519, "socialSecurity": 554243, "payroll": 0, "property": 65393, "goodsServices": 3746704, "other": 222541 }
+    },
+    {
+      "key": "local",
+      "label": "Local governments",
+      "folioLevelIds": ["local"],
+      "total": 325429,
+      "byType": { "income": 0, "socialSecurity": 0, "payroll": 0, "property": 155404, "goodsServices": 169947, "other": 78 }
+    },
+    {
+      "key": "social-security",
+      "label": "Social security funds",
+      "folioLevelIds": [],
+      "total": 4331455,
+      "byType": { "income": 0, "socialSecurity": 3637837, "payroll": 693618, "property": 0, "goodsServices": 0, "other": 0 }
+    }
+  ],
+  "sourceIds": ["oecd-rs-2025-subsectors", "oecd-rs-2025-levels"],
+  "subnational": {
+    "ownSourceTaxShareOfRevenue": 39.5,
+    "grantsShareOfRevenue": 24,
+    "year": 2020,
+    "sourceId": "sng-wofi-profile",
+    "note": "Tariffs and fees 32.6%, property income 2.6%, other 1.3% of subnational revenue."
+  },
+  "notes": ["This is a unitary state: the source reports no regional tax collection."]
+}

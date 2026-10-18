@@ -1,0 +1,15 @@
+{
+  "nodes": {
+    "singapore": { "label": "Singapore", "sublabel": "Fiscal folio · IMF lines", "glyph": "globe" },
+    "central": { "label": "Central government", "sublabel": "IMF S1311", "glyph": "landmark" },
+    "sg-central-g1112": { "label": "Corporate income tax", "sublabel": "Companies", "glyph": "factory" },
+    "sg-central-g1141": { "label": "General consumption taxes", "sublabel": "One line", "glyph": "cart" },
+    "sg-central-g1111": { "label": "Personal income tax", "sublabel": "Individuals", "glyph": "person" },
+    "sg-central-g116": { "label": "Other taxes", "sublabel": "Not elsewhere classified", "glyph": "gear" },
+    "sg-central-g113-other": { "label": "Other property taxes", "sublabel": "Not itemised", "glyph": "house" },
+    "sg-central-g1142": { "label": "Excises", "sublabel": "Specific goods", "glyph": "flame" },
+    "sg-central-g1144": { "label": "Taxes on services", "sublabel": "Insurance · lodging · gambling", "glyph": "bed" },
+    "sg-central-g11451": { "label": "Motor vehicle taxes", "sublabel": "Ownership · use", "glyph": "car" },
+    "sg-central-g1133": { "label": "Estate and gift taxes", "sublabel": "Transfers of wealth", "glyph": "scroll" }
+  }
+}

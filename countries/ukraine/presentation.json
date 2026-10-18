@@ -1,0 +1,25 @@
+{
+  "nodes": {
+    "ukraine": { "label": "Ukraine", "sublabel": "Fiscal folio · IMF lines", "glyph": "globe" },
+    "central": { "label": "Central govt and social funds", "sublabel": "IMF S1311 + S1314", "glyph": "landmark" },
+    "local": { "label": "Local governments", "sublabel": "IMF S1313", "glyph": "town" },
+    "ua-central-g11411": { "label": "VAT", "sublabel": "Value added", "glyph": "cart" },
+    "ua-central-g1212": { "label": "Social: employers", "sublabel": "Contributions", "glyph": "shield" },
+    "ua-central-g1111": { "label": "Personal income tax", "sublabel": "Individuals", "glyph": "person" },
+    "ua-central-g1112": { "label": "Corporate income tax", "sublabel": "Companies", "glyph": "factory" },
+    "ua-central-g1142": { "label": "Excises", "sublabel": "Specific goods", "glyph": "flame" },
+    "ua-central-g1151": { "label": "Customs duties", "sublabel": "Imports", "glyph": "ship" },
+    "ua-central-g1213": { "label": "Social: self-employed", "sublabel": "Contributions", "glyph": "shield" },
+    "ua-central-g11414": { "label": "Financial transaction taxes", "sublabel": "Transfers · securities", "glyph": "stamp" },
+    "ua-central-g11452": { "label": "Licences and use taxes", "sublabel": "Permissions", "glyph": "stamp" },
+    "ua-central-g1144": { "label": "Taxes on services", "sublabel": "Insurance · lodging · gambling", "glyph": "bed" },
+    "ua-central-small-tax": { "label": "Other taxes (small lines)", "sublabel": "3 lines", "glyph": "gear" },
+    "ua-central-small-social": { "label": "Other social (small)", "sublabel": "2 lines", "glyph": "heart" },
+    "ua-local-g1111": { "label": "Personal income tax", "sublabel": "Individuals", "glyph": "person" },
+    "ua-local-g116": { "label": "Other taxes", "sublabel": "Not elsewhere classified", "glyph": "gear" },
+    "ua-local-g1142": { "label": "Excises", "sublabel": "Specific goods", "glyph": "flame" },
+    "ua-local-g1112": { "label": "Corporate income tax", "sublabel": "Companies", "glyph": "factory" },
+    "ua-local-g113-other": { "label": "Other property taxes", "sublabel": "Not itemised", "glyph": "house" },
+    "ua-local-small-tax": { "label": "Other taxes (small lines)", "sublabel": "5 lines", "glyph": "gear" }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "nodes": {
+    "gambia": { "label": "Gambia", "sublabel": "Fiscal folio · IMF lines", "glyph": "globe" },
+    "central": { "label": "Budgetary central govt", "sublabel": "IMF S1311B", "glyph": "landmark" },
+    "gm-central-g11411": { "label": "VAT", "sublabel": "Value added", "glyph": "cart" },
+    "gm-central-g1151": { "label": "Customs duties", "sublabel": "Imports", "glyph": "ship" },
+    "gm-central-g1112": { "label": "Corporate income tax", "sublabel": "Companies", "glyph": "factory" },
+    "gm-central-g1142": { "label": "Excises", "sublabel": "Specific goods", "glyph": "flame" },
+    "gm-central-g1111": { "label": "Personal income tax", "sublabel": "Individuals", "glyph": "person" },
+    "gm-central-g11452": { "label": "Licences and use taxes", "sublabel": "Permissions", "glyph": "stamp" },
+    "gm-central-g1152": { "label": "Export taxes", "sublabel": "Exports", "glyph": "plane" },
+    "gm-central-g1113": { "label": "Other income taxes", "sublabel": "Not split by payer", "glyph": "coin" },
+    "gm-central-g11451": { "label": "Motor vehicle taxes", "sublabel": "Ownership · use", "glyph": "car" },
+    "gm-central-g11414": { "label": "Financial transaction taxes", "sublabel": "Transfers · securities", "glyph": "stamp" },
+    "gm-central-g112": { "label": "Payroll taxes", "sublabel": "Wage bill", "glyph": "ledger" },
+    "gm-central-g1156": { "label": "Other trade taxes", "sublabel": "Not elsewhere classified", "glyph": "gear" }
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "groups": [
+    {
+      "title": "Central government and social security: lines of the IMF series, 2024",
+      "defaults": {
+        "denominatorId": "central-2024",
+        "scale": "million",
+        "currency": "GTQ",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        {
+          "nodeId": "gt-central-g11411",
+          "amount": 48622.304596,
+          "locator": "Series GTM.S1311 + S1314.G1.G11411_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (GTQ million)"
+        },
+        {
+          "nodeId": "gt-central-g1112",
+          "amount": 33454.751098,
+          "locator": "Series GTM.S1311 + S1314.G1.G1112_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (GTQ million)"
+        },
+        {
+          "nodeId": "gt-central-g1212",
+          "amount": 11153.520227,
+          "locator": "Series GTM.S1311 + S1314.G1.G1212_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (GTQ million)"
+        },
+        {
+          "nodeId": "gt-central-g1142",
+          "amount": 6424.966596,
+          "locator": "Series GTM.S1311 + S1314.G1.G1142_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (GTQ million)"
+        },
+        {
+          "nodeId": "gt-central-g1211",
+          "amount": 5451.002346,
+          "locator": "Series GTM.S1311 + S1314.G1.G1211_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (GTQ million)"
+        },
+        {
+          "nodeId": "gt-central-g1111",
+          "amount": 4643.071364,
+          "locator": "Series GTM.S1311 + S1314.G1.G1111_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (GTQ million)"
+        },
+        {
+          "nodeId": "gt-central-g1151",
+          "amount": 4610.751687,
+          "locator": "Series GTM.S1311 + S1314.G1.G1151_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (GTQ million)"
+        },
+        {
+          "nodeId": "gt-central-g1221",
+          "amount": 3332.855196,
+          "locator": "Series GTM.S1311 + S1314.G1.G1221_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (GTQ million)"
+        },
+        {
+          "nodeId": "gt-central-g11451",
+          "amount": 3004.547538,
+          "locator": "Series GTM.S1311 + S1314.G1.G11451_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (GTQ million)"
+        },
+        {
+          "nodeId": "gt-central-g112",
+          "amount": 1399.595654,
+          "locator": "Series GTM.S1311 + S1314.G1.G112_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (GTQ million)"
+        },
+        {
+          "nodeId": "gt-central-g116",
+          "amount": 666.55719,
+          "locator": "Series GTM.S1311 + S1314.G1.G116_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (GTQ million)"
+        },
+        {
+          "nodeId": "gt-central-g1222",
+          "amount": 567.128291,
+          "locator": "Series GTM.S1311 + S1314.G1.G1222_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (GTQ million)"
+        },
+        {
+          "nodeId": "gt-central-g1156",
+          "amount": 458.110134,
+          "locator": "Series GTM.S1311 + S1314.G1.G1156_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (GTQ million)"
+        },
+        {
+          "nodeId": "gt-central-g11452",
+          "amount": 433.087751,
+          "locator": "Series GTM.S1311 + S1314.G1.G11452_T.XDC.A, 2024",
+          "calculation": "Sum of the sectors S1311 + S1314 (GTQ million)"
+        },
+        {
+          "nodeId": "gt-central-small-tax",
+          "amount": 68.964547,
+          "locator": "Series GTM.S1311 + S1314.G1, indicators G1133_T, G113_T:other, G11414_T, G1152_T, XDC, annual, 2024",
+          "calculation": "Sum of 4 lines, each below 0.15% of the total (GTQ million)"
+        }
+      ]
+    },
+    {
+      "title": "Local governments: lines of the IMF series, 2024",
+      "defaults": {
+        "denominatorId": "local-2024",
+        "scale": "million",
+        "currency": "GTQ",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        { "nodeId": "gt-local-g11452", "amount": 1894.454378, "locator": "Series GTM.S1313MIXED.G1.G11452_T.XDC.A, 2024" },
+        {
+          "nodeId": "gt-local-g113-other",
+          "amount": 1686.956647,
+          "locator": "Series GTM.S1313MIXED.G1.G113_T.XDC.A, 2024, less its reported sub-lines",
+          "calculation": "G113_T less the sum of its reported sub-lines (GTQ million)"
+        },
+        {
+          "nodeId": "gt-local-small-tax",
+          "amount": 137.95751,
+          "locator": "Series GTM.S1313MIXED.G1, indicators G1135_T, G1152_T, G116_T, XDC, annual, 2024",
+          "calculation": "Sum of 3 lines, each below 0.15% of the total (GTQ million)"
+        }
+      ]
+    }
+  ],
+  "unavailable": []
+}

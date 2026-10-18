@@ -1,0 +1,70 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "sao-tome-and-principe": {
+      "x": 800,
+      "y": 500
+    },
+    "central": {
+      "x": 509,
+      "y": 432
+    },
+    "st-central-g1151": {
+      "x": 851,
+      "y": 749
+    },
+    "st-central-g1142": {
+      "x": 396,
+      "y": 703
+    },
+    "st-central-g1144": {
+      "x": 323,
+      "y": 386
+    },
+    "st-central-g11451": {
+      "x": 686,
+      "y": 178
+    },
+    "st-central-g1222": {
+      "x": 1165,
+      "y": 268
+    },
+    "st-central-g1111": {
+      "x": 405,
+      "y": 868
+    },
+    "st-central-g1112": {
+      "x": 146,
+      "y": 331
+    },
+    "st-central-g1133": {
+      "x": 908,
+      "y": 57
+    },
+    "st-central-g113-other": {
+      "x": 1493,
+      "y": 469
+    },
+    "st-central-g11412": {
+      "x": 877,
+      "y": 906
+    },
+    "st-central-g116": {
+      "x": 68,
+      "y": 682
+    },
+    "st-central-g1146": {
+      "x": 335,
+      "y": 32
+    },
+    "st-central-small-tax": {
+      "x": 1416,
+      "y": 97
+    }
+  },
+  "radii": {}
+}

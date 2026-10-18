@@ -1,0 +1,24 @@
+{
+  "nodes": {
+    "azerbaijan": { "label": "Azerbaijan", "sublabel": "Fiscal folio · IMF lines", "glyph": "globe" },
+    "central": { "label": "Central govt and social funds", "sublabel": "IMF S1311 + S1314", "glyph": "landmark" },
+    "state": { "label": "Regional governments", "sublabel": "IMF S1312", "glyph": "city" },
+    "local": { "label": "Local governments", "sublabel": "IMF S1313", "glyph": "town" },
+    "az-central-g11411": { "label": "VAT", "sublabel": "Value added", "glyph": "cart" },
+    "az-central-g1211": { "label": "Social: employees", "sublabel": "Contributions", "glyph": "shield" },
+    "az-central-g1112": { "label": "Corporate income tax", "sublabel": "Companies", "glyph": "factory" },
+    "az-central-g1111": { "label": "Personal income tax", "sublabel": "Individuals", "glyph": "person" },
+    "az-central-g1151": { "label": "Customs duties", "sublabel": "Imports", "glyph": "ship" },
+    "az-central-g1142": { "label": "Excises", "sublabel": "Specific goods", "glyph": "flame" },
+    "az-central-g113-other": { "label": "Other property taxes", "sublabel": "Not itemised", "glyph": "house" },
+    "az-central-g11412": { "label": "Sales taxes", "sublabel": "Single stage", "glyph": "cart" },
+    "az-central-g1156": { "label": "Other trade taxes", "sublabel": "Not elsewhere classified", "glyph": "gear" },
+    "az-central-g11451": { "label": "Motor vehicle taxes", "sublabel": "Ownership · use", "glyph": "car" },
+    "az-central-g1152": { "label": "Export taxes", "sublabel": "Exports", "glyph": "plane" },
+    "az-state-g1142": { "label": "Excises", "sublabel": "Specific goods", "glyph": "flame" },
+    "az-state-g11411": { "label": "VAT", "sublabel": "Value added", "glyph": "cart" },
+    "az-state-small-tax": { "label": "Other taxes (small lines)", "sublabel": "4 lines", "glyph": "gear" },
+    "az-state-g1111": { "label": "Personal income tax", "sublabel": "Individuals", "glyph": "person" },
+    "az-local-g113-other": { "label": "Other property taxes", "sublabel": "Not itemised", "glyph": "house" }
+  }
+}

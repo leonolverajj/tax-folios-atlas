@@ -1,0 +1,25 @@
+{
+  "groups": [
+    {
+      "title": "Budgetary central government: lines of the IMF series, 2020",
+      "defaults": {
+        "denominatorId": "central-2020",
+        "scale": "million",
+        "currency": "BHD",
+        "period": { "label": "2020", "kind": "calendar-year", "start": "2020-01-01", "end": "2020-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        { "nodeId": "bh-central-g11411", "amount": 233.543861, "locator": "Series BHR.S1311B.G1.G11411_T.XDC.A, 2020" },
+        { "nodeId": "bh-central-g115", "amount": 85.107473, "locator": "Series BHR.S1311B.G1.G115_T.XDC.A, 2020" },
+        { "nodeId": "bh-central-g1142", "amount": 55.132768, "locator": "Series BHR.S1311B.G1.G1142_T.XDC.A, 2020" },
+        { "nodeId": "bh-central-g1112", "amount": 6.637382, "locator": "Series BHR.S1311B.G1.G1112_T.XDC.A, 2020" }
+      ]
+    }
+  ],
+  "unavailable": []
+}

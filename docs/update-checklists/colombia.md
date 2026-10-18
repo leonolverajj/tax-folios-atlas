@@ -1,6 +1,6 @@
 # Update checklist – Colombia
 
-Generated 2026-10-12 by `npm run checklist`. **Do not edit by hand** – edit the sources in `countries/colombia/sources.json` and re-run it.
+Generated 2026-10-18 by `npm run checklist`. **Do not edit by hand** – edit the sources in `countries/colombia/sources.json` and re-run it.
 
 Research status: **partial**. 1 source(s) to check or due, 0 coming up, 23 in total.
 

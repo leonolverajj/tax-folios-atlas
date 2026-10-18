@@ -51,49 +51,67 @@ const OECD: { name: string; id: string; wave: 0 | 1 | 2 | 3 | 4; why: string }[]
   { name: 'United States', id: 'united-states', wave: 0, why: 'Done.' },
 ];
 
-const WAVE_TEXT: Record<number, string> = {
-  1: 'Wave 1 – large economies and the main tax-system archetypes (all built)',
-  2: 'Wave 2 – the next folios: high-tax and Nordic/Benelux contrasts',
-  3: 'Wave 3 – emerging and mid-size OECD members',
-  4: 'Wave 4 – the remaining small economies',
+interface UnRow {
+  iso3: string;
+  name: string;
+  status: 'member' | 'observer';
+  reason?: string;
+}
+const un = JSON.parse(fs.readFileSync(path.join(ROOT, 'scripts', 'build', 'data', 'un-members.json'), 'utf8')) as UnRow[];
+
+const metas = new Map(listCountryIds().map((id) => [id, loadBundle(id).meta]));
+const byIso = new Map([...metas.values()].map((m) => [m.iso3, m]));
+const profile = new Set(listProfileIds());
+const kind = (m: { grain: string }) => (m.grain === 'harmonised' ? 'IMF lines' : 'detailed');
+const status = (id: string) => {
+  const m = metas.get(id);
+  return m ? `Folio (${kind(m)}, ${m.researchStatus})` : profile.has(id) ? 'Profile only' : 'Not started';
 };
 
-const folio = new Map(listCountryIds().map((id) => [id, loadBundle(id).meta.researchStatus]));
-const profile = new Set(listProfileIds());
-const status = (id: string) => (folio.has(id) ? `Folio (${folio.get(id)})` : profile.has(id) ? 'Profile only' : 'Not started');
-
-const rows = OECD.map((c) => `| ${c.name} | ${status(c.id)} | ${c.wave || '–'} | ${c.why} |`);
-const done = OECD.filter((c) => folio.has(c.id)).length;
-const prof = OECD.filter((c) => !folio.has(c.id) && profile.has(c.id)).length;
+const rows = OECD.map((c) => `| ${c.name} | ${status(c.id)} |`);
+const done = OECD.filter((c) => metas.has(c.id)).length;
+const prof = OECD.filter((c) => !metas.has(c.id) && profile.has(c.id)).length;
+const detailed = [...metas.values()].filter((m) => m.grain !== 'harmonised');
+const imf = [...metas.values()].filter((m) => m.grain === 'harmonised');
+const members = un.filter((u) => u.status === 'member');
+const coveredMembers = members.filter((u) => byIso.has(u.iso3));
+const unRows = un.map((u) => {
+  const m = byIso.get(u.iso3);
+  const cover = m ? `Folio (${kind(m)}, ${m.researchStatus}${m.grain === 'harmonised' ? `, ${m.denominators[0].period.label}` : ''})` : 'None';
+  return `| ${u.name}${u.status === 'observer' ? ' (observer state)' : ''} | ${cover} | ${m ? '' : u.reason ?? ''} |`;
+});
 const out: string[] = [
   '# Country roadmap',
   '',
-  `Generated ${new Date().toISOString().slice(0, 10)} by \`npm run roadmap\` from the data folders. **${done}** of the 38 OECD members have a full folio, **${prof}** have the harmonised profile only (listed at the bottom of the Trees page), ${38 - done - prof} are not started. Brazil, Bolivia, Bulgaria, Croatia, Malta and Romania are also built (outside the OECD).`,
+  `Generated ${new Date().toISOString().slice(0, 10)} by \`npm run roadmap\` from the data folders. **${metas.size} folios**: ${detailed.length} detailed (one core per legislated tax) and ${imf.length} at the grain of the IMF's classification (one core per line of the IMF's Government Finance Statistics; see [METHODOLOGY](METHODOLOGY.md)). They cover **${coveredMembers.length} of the ${members.length} UN member states**, and Palestine, an observer state; ${members.length - coveredMembers.length} members have no folio (table below). **${done}** of the 38 OECD members have a folio, ${prof} have the harmonised profile only, ${38 - done - prof} are not started.`,
   '',
-  '## Two levels of coverage',
+  '## Kinds of coverage',
   '',
-  '1. **Profile only** – `profiles/<id>.json`: the OECD 2023 tax mix, the split by level of government, the tax-to-GDP ratio and the subnational revenue structure. It takes minutes per country; it is the starting point of the folio and puts the country in the "Next to be drawn" list of the Trees page.',
-  '2. **Folio** – `countries/<id>/`: every tax and levy with its legal basis, rate and latest revenue, laid out as a folio. It takes days of research per country. Building a folio does not lose the profile: its `structure.json` replaces `profiles/<id>.json`.',
-  '',
-  'The profile layer is what makes covering *all* countries realistic: the OECD publishes the same tables for every member (and for Latin America and the Caribbean, Asia-Pacific and Africa), so the harmonised figures can be collected for a hundred countries long before every folio exists.',
+  '1. **Detailed folio**: `countries/<id>/` built from the country\'s own statistics (or the European Commission\'s National Tax Lists), one core per separately legislated charge, with legal basis, rate and latest revenue. It takes days of research per country (hours with the National Tax Lists).',
+  '2. **IMF lines**: the same folder, built by `scripts/build/gfs-countries.ts` from the IMF\'s Government Finance Statistics. Minutes per country; no rates or legal bases; central government only unless the IMF reports sub-national taxes. Tagged `grain: harmonised`.',
+  '3. **Profile only**: `profiles/<id>.json`, the OECD 2023 tax mix and level split of a country that has no folio yet. None is left.',
   '',
   '## The 38 OECD members',
   '',
-  '| Country | Status | Folio wave | Why this wave |',
-  '|---|---|---|---|',
+  '| Country | Status |',
+  '|---|---|',
   ...rows,
   '',
-  ...[1, 2, 3, 4].filter((w) => OECD.some((c) => c.wave === w)).flatMap((w) => [`### ${WAVE_TEXT[w]}`, '', OECD.filter((c) => c.wave === w).map((c) => `- ${c.name} (${status(c.id).toLowerCase()})`).join('\n'), '']),
-  '## Beyond the OECD',
+  '## The 193 UN member states and the two observer states',
   '',
-  'Already built: **Brazil**, **Bolivia**, **Bulgaria**, **Croatia**, **Malta**, **Romania** (the last four from the European Commission’s National Tax Lists and Eurostat, without an OECD level layer). Cyprus, also on that list, is not built because the list gives its lines no names. Suggested next, because the same OECD publications cover them (Latin America and the Caribbean, Asia-Pacific, Africa editions), so their profile can be added the same way: Argentina, Peru, Uruguay, Ecuador, India, Indonesia, South Africa, China, Saudi Arabia.',
+  'A country without a folio is not covered because the IMF series does not give usable taxes by line for it (reasons below); a detailed folio would need that country\'s own statistics.',
+  '',
+  '| Country | Coverage | Why none |',
+  '|---|---|---|',
+  ...unRows,
   '',
   '## How to add one',
   '',
+  '- An IMF-lines folio: [ADDING-A-COUNTRY.md](ADDING-A-COUNTRY.md), section C.',
+  '- A detailed folio: write a builder script `scripts/build/<id>.ts` (or scaffold with `npm run new-country`), then follow section B of the same guide. A detailed folio replaces the IMF-lines folio of the same country.',
   '- A profile: copy an existing `profiles/<id>.json`, replace the numbers with those of the OECD table, `npm run validate`.',
-  '- A folio: write a builder script `scripts/build/<id>.ts` (or scaffold with `npm run new-country`), then follow [ADDING-A-COUNTRY.md](ADDING-A-COUNTRY.md).',
   '',
 ];
 fs.writeFileSync(path.join(ROOT, 'docs', 'COUNTRY-ROADMAP.md'), out.join('\n'), 'utf8');
 void loadProfileFile;
-console.log(`roadmap written: ${done} folios, ${prof} profile-only, ${38 - done - prof} not started`);
+console.log(`roadmap written: ${metas.size} folios (${detailed.length} detailed, ${imf.length} IMF lines); ${coveredMembers.length} of ${members.length} UN members covered`);

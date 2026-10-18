@@ -1,0 +1,18 @@
+{
+  "nodes": {
+    "el-salvador": { "label": "El Salvador", "sublabel": "Fiscal folio · IMF lines", "glyph": "globe" },
+    "central": { "label": "Central govt and social funds", "sublabel": "IMF S1311 + S1314", "glyph": "landmark" },
+    "local": { "label": "Local governments", "sublabel": "IMF S1313", "glyph": "town" },
+    "sv-central-g11411": { "label": "VAT", "sublabel": "Value added", "glyph": "cart" },
+    "sv-central-g1112": { "label": "Corporate income tax", "sublabel": "Companies", "glyph": "factory" },
+    "sv-central-g1212": { "label": "Social: employers", "sublabel": "Contributions", "glyph": "shield" },
+    "sv-central-g1111": { "label": "Personal income tax", "sublabel": "Individuals", "glyph": "person" },
+    "sv-central-g1151": { "label": "Customs duties", "sublabel": "Imports", "glyph": "ship" },
+    "sv-central-g1142": { "label": "Excises", "sublabel": "Specific goods", "glyph": "flame" },
+    "sv-central-g113-other": { "label": "Other property taxes", "sublabel": "Not itemised", "glyph": "house" },
+    "sv-central-g11452": { "label": "Licences and use taxes", "sublabel": "Permissions", "glyph": "stamp" },
+    "sv-central-g1146": { "label": "Other goods and services", "sublabel": "Not elsewhere classified", "glyph": "gear" },
+    "sv-local-g1131": { "label": "Property tax", "sublabel": "Land and buildings", "glyph": "house" },
+    "sv-local-g1142": { "label": "Excises", "sublabel": "Specific goods", "glyph": "flame" }
+  }
+}

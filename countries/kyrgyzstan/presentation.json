@@ -1,0 +1,22 @@
+{
+  "nodes": {
+    "kyrgyzstan": { "label": "Kyrgyzstan", "sublabel": "Fiscal folio · IMF lines", "glyph": "globe" },
+    "central": { "label": "Central govt and social funds", "sublabel": "IMF S1311 + S1314", "glyph": "landmark" },
+    "local": { "label": "Local governments", "sublabel": "IMF S1313", "glyph": "town" },
+    "kg-central-g11411": { "label": "VAT", "sublabel": "Value added", "glyph": "cart" },
+    "kg-central-g1212": { "label": "Social: employers", "sublabel": "Contributions", "glyph": "shield" },
+    "kg-central-g1112": { "label": "Corporate income tax", "sublabel": "Companies", "glyph": "factory" },
+    "kg-central-g1151": { "label": "Customs duties", "sublabel": "Imports", "glyph": "ship" },
+    "kg-central-g11412": { "label": "Sales taxes", "sublabel": "Single stage", "glyph": "cart" },
+    "kg-central-g1142": { "label": "Excises", "sublabel": "Specific goods", "glyph": "flame" },
+    "kg-central-g1111": { "label": "Personal income tax", "sublabel": "Individuals", "glyph": "person" },
+    "kg-central-g1156": { "label": "Other trade taxes", "sublabel": "Not elsewhere classified", "glyph": "gear" },
+    "kg-central-g1211": { "label": "Social: employees", "sublabel": "Contributions", "glyph": "shield" },
+    "kg-central-g1152": { "label": "Export taxes", "sublabel": "Exports", "glyph": "plane" },
+    "kg-local-g1111": { "label": "Personal income tax", "sublabel": "Individuals", "glyph": "person" },
+    "kg-local-g113-other": { "label": "Other property taxes", "sublabel": "Not itemised", "glyph": "house" },
+    "kg-local-g1112": { "label": "Corporate income tax", "sublabel": "Companies", "glyph": "factory" },
+    "kg-local-g1132": { "label": "Net wealth tax", "sublabel": "Wealth", "glyph": "gem" },
+    "kg-local-g1156": { "label": "Other trade taxes", "sublabel": "Not elsewhere classified", "glyph": "gear" }
+  }
+}

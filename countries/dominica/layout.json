@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "dominica": {
+      "x": 800,
+      "y": 500
+    },
+    "central": {
+      "x": 509,
+      "y": 432
+    },
+    "dm-central-g1141": {
+      "x": 841,
+      "y": 829
+    },
+    "dm-central-g114-other": {
+      "x": 316,
+      "y": 607
+    },
+    "dm-central-g11452": {
+      "x": 537,
+      "y": 217
+    },
+    "dm-central-g1155": {
+      "x": 1160,
+      "y": 266
+    },
+    "dm-central-g111": {
+      "x": 398,
+      "y": 865
+    },
+    "dm-central-g1151": {
+      "x": 153,
+      "y": 338
+    },
+    "dm-central-g1156": {
+      "x": 892,
+      "y": 56
+    },
+    "dm-central-g113-other": {
+      "x": 1492,
+      "y": 465
+    }
+  },
+  "radii": {}
+}

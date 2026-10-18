@@ -1,6 +1,6 @@
 # Update checklist – Canada
 
-Generated 2026-10-12 by `npm run checklist`. **Do not edit by hand** – edit the sources in `countries/canada/sources.json` and re-run it.
+Generated 2026-10-18 by `npm run checklist`. **Do not edit by hand** – edit the sources in `countries/canada/sources.json` and re-run it.
 
 Research status: **researched**. 4 source(s) to check or due, 0 coming up, 45 in total.
 

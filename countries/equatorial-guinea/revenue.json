@@ -1,0 +1,36 @@
+{
+  "groups": [
+    {
+      "title": "Budgetary central government: lines of the IMF series, 2022",
+      "defaults": {
+        "denominatorId": "central-2022",
+        "scale": "million",
+        "currency": "XAF",
+        "period": { "label": "2022", "kind": "calendar-year", "start": "2022-01-01", "end": "2022-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        { "nodeId": "gq-central-g1112", "amount": 388012.11078, "locator": "Series GNQ.S1311B.G1.G1112_T.XDC.A, 2022" },
+        { "nodeId": "gq-central-g1111", "amount": 58071.153624, "locator": "Series GNQ.S1311B.G1.G1111_T.XDC.A, 2022" },
+        { "nodeId": "gq-central-g11411", "amount": 48691.160527, "locator": "Series GNQ.S1311B.G1.G11411_T.XDC.A, 2022" },
+        { "nodeId": "gq-central-g1144", "amount": 25733.090314, "locator": "Series GNQ.S1311B.G1.G1144_T.XDC.A, 2022" },
+        { "nodeId": "gq-central-g1151", "amount": 22446.893717, "locator": "Series GNQ.S1311B.G1.G1151_T.XDC.A, 2022" },
+        { "nodeId": "gq-central-g11452", "amount": 13085.575152, "locator": "Series GNQ.S1311B.G1.G11452_T.XDC.A, 2022" },
+        { "nodeId": "gq-central-g1152", "amount": 3159.050822, "locator": "Series GNQ.S1311B.G1.G1152_T.XDC.A, 2022" },
+        { "nodeId": "gq-central-g116", "amount": 1485.06743, "locator": "Series GNQ.S1311B.G1.G116_T.XDC.A, 2022" },
+        {
+          "nodeId": "gq-central-small-tax",
+          "amount": 1408.15969,
+          "locator": "Series GNQ.S1311B.G1, indicators G1133_T, G113_T:other, G11451_T, XDC, annual, 2022",
+          "calculation": "Sum of 3 lines, each below 0.15% of the total (XAF million)"
+        },
+        { "nodeId": "gq-central-g1142", "amount": 1059.926006, "locator": "Series GNQ.S1311B.G1.G1142_T.XDC.A, 2022" }
+      ]
+    }
+  ],
+  "unavailable": []
+}

@@ -1,0 +1,25 @@
+{
+  "nodes": {
+    "guatemala": { "label": "Guatemala", "sublabel": "Fiscal folio · IMF lines", "glyph": "globe" },
+    "central": { "label": "Central govt and social funds", "sublabel": "IMF S1311 + S1314", "glyph": "landmark" },
+    "local": { "label": "Local governments", "sublabel": "IMF S1313", "glyph": "town" },
+    "gt-central-g11411": { "label": "VAT", "sublabel": "Value added", "glyph": "cart" },
+    "gt-central-g1112": { "label": "Corporate income tax", "sublabel": "Companies", "glyph": "factory" },
+    "gt-central-g1212": { "label": "Social: employers", "sublabel": "Contributions", "glyph": "shield" },
+    "gt-central-g1142": { "label": "Excises", "sublabel": "Specific goods", "glyph": "flame" },
+    "gt-central-g1211": { "label": "Social: employees", "sublabel": "Contributions", "glyph": "shield" },
+    "gt-central-g1111": { "label": "Personal income tax", "sublabel": "Individuals", "glyph": "person" },
+    "gt-central-g1151": { "label": "Customs duties", "sublabel": "Imports", "glyph": "ship" },
+    "gt-central-g1221": { "label": "Other social: employees", "sublabel": "Government schemes", "glyph": "heart" },
+    "gt-central-g11451": { "label": "Motor vehicle taxes", "sublabel": "Ownership · use", "glyph": "car" },
+    "gt-central-g112": { "label": "Payroll taxes", "sublabel": "Wage bill", "glyph": "ledger" },
+    "gt-central-g116": { "label": "Other taxes", "sublabel": "Not elsewhere classified", "glyph": "gear" },
+    "gt-central-g1222": { "label": "Other social: employers", "sublabel": "Government schemes", "glyph": "heart" },
+    "gt-central-g1156": { "label": "Other trade taxes", "sublabel": "Not elsewhere classified", "glyph": "gear" },
+    "gt-central-g11452": { "label": "Licences and use taxes", "sublabel": "Permissions", "glyph": "stamp" },
+    "gt-central-small-tax": { "label": "Other taxes (small lines)", "sublabel": "4 lines", "glyph": "gear" },
+    "gt-local-g11452": { "label": "Licences and use taxes", "sublabel": "Permissions", "glyph": "stamp" },
+    "gt-local-g113-other": { "label": "Other property taxes", "sublabel": "Not itemised", "glyph": "house" },
+    "gt-local-small-tax": { "label": "Other taxes (small lines)", "sublabel": "3 lines", "glyph": "gear" }
+  }
+}

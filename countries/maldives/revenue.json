@@ -1,0 +1,31 @@
+{
+  "groups": [
+    {
+      "title": "Budgetary central government: lines of the IMF series, 2021",
+      "defaults": {
+        "denominatorId": "central-2021",
+        "scale": "million",
+        "currency": "MVR",
+        "period": { "label": "2021", "kind": "calendar-year", "start": "2021-01-01", "end": "2021-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        { "nodeId": "mv-central-g11411", "amount": 7649.96212, "locator": "Series MDV.S1311B.G1.G11411_T.XDC.A, 2021" },
+        { "nodeId": "mv-central-g1151", "amount": 2836.808244, "locator": "Series MDV.S1311B.G1.G1151_T.XDC.A, 2021" },
+        { "nodeId": "mv-central-g1112", "amount": 2739.119167, "locator": "Series MDV.S1311B.G1.G1112_T.XDC.A, 2021" },
+        { "nodeId": "mv-central-g1156", "amount": 956.541675, "locator": "Series MDV.S1311B.G1.G1156_T.XDC.A, 2021" },
+        { "nodeId": "mv-central-g1144", "amount": 802.111899, "locator": "Series MDV.S1311B.G1.G1144_T.XDC.A, 2021" },
+        { "nodeId": "mv-central-g11452", "amount": 527.339803, "locator": "Series MDV.S1311B.G1.G11452_T.XDC.A, 2021" },
+        { "nodeId": "mv-central-g11451", "amount": 109.739571, "locator": "Series MDV.S1311B.G1.G11451_T.XDC.A, 2021" },
+        { "nodeId": "mv-central-g1146", "amount": 45.717212, "locator": "Series MDV.S1311B.G1.G1146_T.XDC.A, 2021" },
+        { "nodeId": "mv-central-g1152", "amount": 33.524918, "locator": "Series MDV.S1311B.G1.G1152_T.XDC.A, 2021" },
+        { "nodeId": "mv-central-g11414", "amount": 6.55195, "locator": "Series MDV.S1311B.G1.G11414_T.XDC.A, 2021" }
+      ]
+    }
+  ],
+  "unavailable": []
+}

@@ -1,0 +1,30 @@
+{
+  "groups": [
+    {
+      "title": "Central government: lines of the IMF series, 2021",
+      "defaults": {
+        "denominatorId": "central-2021",
+        "scale": "million",
+        "currency": "ILS",
+        "period": { "label": "2021", "kind": "calendar-year", "start": "2021-01-01", "end": "2021-12-31" },
+        "basis": "Accrual basis, as reported to the IMF (flag AC)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        { "nodeId": "ps-central-g1151", "amount": 1711.542259, "locator": "Series WBG.S1311.G1.G1151_T.XDC.A, 2021" },
+        { "nodeId": "ps-central-g11411", "amount": 920.892627, "locator": "Series WBG.S1311.G1.G11411_T.XDC.A, 2021" },
+        { "nodeId": "ps-central-g1142", "amount": 851.376041, "locator": "Series WBG.S1311.G1.G1142_T.XDC.A, 2021" },
+        { "nodeId": "ps-central-g1112", "amount": 143.057021, "locator": "Series WBG.S1311.G1.G1112_T.XDC.A, 2021" },
+        { "nodeId": "ps-central-g1111", "amount": 82.827737, "locator": "Series WBG.S1311.G1.G1111_T.XDC.A, 2021" },
+        { "nodeId": "ps-central-g112", "amount": 72.953583, "locator": "Series WBG.S1311.G1.G112_T.XDC.A, 2021" },
+        { "nodeId": "ps-central-g11451", "amount": 52.839364, "locator": "Series WBG.S1311.G1.G11451_T.XDC.A, 2021" },
+        { "nodeId": "ps-central-g11452", "amount": 48.974208, "locator": "Series WBG.S1311.G1.G11452_T.XDC.A, 2021" },
+        { "nodeId": "ps-central-g1131", "amount": 4.368133, "locator": "Series WBG.S1311.G1.G1131_T.XDC.A, 2021" }
+      ]
+    }
+  ],
+  "unavailable": []
+}

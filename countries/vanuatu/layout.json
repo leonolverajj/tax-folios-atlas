@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "vanuatu": {
+      "x": 800,
+      "y": 500
+    },
+    "central": {
+      "x": 509,
+      "y": 432
+    },
+    "vu-central-g11411": {
+      "x": 850,
+      "y": 828
+    },
+    "vu-central-g1142": {
+      "x": 313,
+      "y": 601
+    },
+    "vu-central-g11451": {
+      "x": 527,
+      "y": 221
+    },
+    "vu-central-g113-other": {
+      "x": 1159,
+      "y": 265
+    },
+    "vu-central-g1151": {
+      "x": 410,
+      "y": 871
+    },
+    "vu-central-g11452": {
+      "x": 151,
+      "y": 340
+    },
+    "vu-central-g1144": {
+      "x": 908,
+      "y": 57
+    },
+    "vu-central-g1152": {
+      "x": 1491,
+      "y": 459
+    }
+  },
+  "radii": {}
+}

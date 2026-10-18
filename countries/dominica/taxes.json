@@ -1,0 +1,185 @@
+{
+  "instruments": [
+    {
+      "id": "dm-central-g1141",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "general-consumption",
+      "status": "current",
+      "names": { "official": "General taxes on goods and services", "common": "General taxes on goods and services" },
+      "taxes": {
+        "base": "General taxes on goods and services (VAT, sales and turnover taxes), reported as one line (GFS 1141).",
+        "payer": "Businesses that collect it; borne by buyers."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "XCD 122 million in 2017: 38% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "imf-gfs-codes", "locator": "G1141" }, { "sourceId": "imf-gfs-api", "locator": "Series DMA.S1311B.G1.G1141_T.XDC.A, 2017" }],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "dm-central-g111",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "income-mixed",
+      "status": "current",
+      "names": { "official": "Taxes on income, profits and capital gains", "common": "Income taxes" },
+      "taxes": {
+        "base": "Taxes on income, profits and capital gains, which the country reports as one line (GFS 111).",
+        "payer": "Individuals and enterprises."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "XCD 62.6 million in 2017: 19% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "imf-gfs-codes", "locator": "G111" }, { "sourceId": "imf-gfs-api", "locator": "Series DMA.S1311B.G1.G111_T.XDC.A, 2017" }],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "dm-central-g114-other",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "general-consumption",
+      "status": "current",
+      "names": { "official": "Taxes on goods and services, not itemised in the IMF series", "common": "Other goods and services taxes (not itemised)" },
+      "taxes": {
+        "base": "The part of the line “Taxes on goods and services” (GFS G114) that the IMF series does not itemise: the line itself minus its reported sub-lines.",
+        "payer": "Various."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "XCD 43.2 million in 2017: 13% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [
+        { "sourceId": "imf-gfs-codes", "locator": "G114" },
+        { "sourceId": "imf-gfs-api", "locator": "Series DMA.S1311B.G1.G114_T.XDC.A, 2017, less its reported sub-lines" }
+      ],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "dm-central-g1151",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "customs-duty",
+      "family": "trade",
+      "status": "current",
+      "names": { "official": "Customs and other import duties", "common": "Customs and other import duties" },
+      "taxes": { "base": "Duties on imported goods (GFS 1151).", "payer": "Importers." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "XCD 32.7 million in 2017: 10% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "imf-gfs-codes", "locator": "G1151" }, { "sourceId": "imf-gfs-api", "locator": "Series DMA.S1311B.G1.G1151_T.XDC.A, 2017" }],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "dm-central-g11452",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "other",
+      "status": "current",
+      "names": { "official": "Other taxes on the use of goods and on permission to use goods or perform activities", "common": "Licences and other use taxes" },
+      "taxes": {
+        "base": "Other taxes on the use of goods and on permission to use goods or perform activities (GFS 11452).",
+        "payer": "Holders of the licences."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "XCD 21.3 million in 2017: 6.6% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "imf-gfs-codes", "locator": "G11452" }, { "sourceId": "imf-gfs-api", "locator": "Series DMA.S1311B.G1.G11452_T.XDC.A, 2017" }],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "dm-central-g1156",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "trade",
+      "status": "current",
+      "names": { "official": "Other taxes on international trade and transactions", "common": "Other taxes on international trade" },
+      "taxes": { "base": "Other taxes on international trade and transactions (GFS 1156).", "payer": "Importers and exporters." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "XCD 18.4 million in 2017: 5.6% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "imf-gfs-codes", "locator": "G1156" }, { "sourceId": "imf-gfs-api", "locator": "Series DMA.S1311B.G1.G1156_T.XDC.A, 2017" }],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "dm-central-g1155",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "trade",
+      "status": "current",
+      "names": { "official": "Exchange taxes", "common": "Exchange taxes" },
+      "taxes": { "base": "Taxes on foreign exchange transactions (GFS 1155).", "payer": "Users of foreign exchange." },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "XCD 15.9 million in 2017: 4.9% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [{ "sourceId": "imf-gfs-codes", "locator": "G1155" }, { "sourceId": "imf-gfs-api", "locator": "Series DMA.S1311B.G1.G1155_T.XDC.A, 2017" }],
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "dm-central-g113-other",
+      "parentId": "central",
+      "levelId": "central",
+      "category": "tax",
+      "family": "property",
+      "status": "current",
+      "names": { "official": "Taxes on property, not itemised in the IMF series", "common": "Other property taxes (not itemised)" },
+      "taxes": {
+        "base": "The part of the line “Taxes on property” (GFS G113) that the IMF series does not itemise: the line itself minus its reported sub-lines.",
+        "payer": "Various."
+      },
+      "rate": {
+        "kind": "varies",
+        "headline": "Not recorded in this folio",
+        "details": ["This folio records what the line raised. Rates, brackets and exemptions are set by the country’s tax laws and are not recorded here."],
+        "asOf": "2026-10-17"
+      },
+      "explanation": "XCD 8.69 million in 2017: 2.7% of the taxes and social contributions drawn in this folio.",
+      "exceptions": [],
+      "legalRefs": [
+        { "sourceId": "imf-gfs-codes", "locator": "G113" },
+        { "sourceId": "imf-gfs-api", "locator": "Series DMA.S1311B.G1.G113_T.XDC.A, 2017, less its reported sub-lines" }
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  ]
+}

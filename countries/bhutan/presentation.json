@@ -1,0 +1,16 @@
+{
+  "nodes": {
+    "bhutan": { "label": "Bhutan", "sublabel": "Fiscal folio · IMF lines", "glyph": "globe" },
+    "central": { "label": "Budgetary central govt", "sublabel": "IMF S1311B", "glyph": "landmark" },
+    "bt-central-g1112": { "label": "Corporate income tax", "sublabel": "Companies", "glyph": "factory" },
+    "bt-central-g11412": { "label": "Sales taxes", "sublabel": "Single stage", "glyph": "cart" },
+    "bt-central-g11452": { "label": "Licences and use taxes", "sublabel": "Permissions", "glyph": "stamp" },
+    "bt-central-g1111": { "label": "Personal income tax", "sublabel": "Individuals", "glyph": "person" },
+    "bt-central-g1156": { "label": "Other trade taxes", "sublabel": "Not elsewhere classified", "glyph": "gear" },
+    "bt-central-g1142": { "label": "Excises", "sublabel": "Specific goods", "glyph": "flame" },
+    "bt-central-g1151": { "label": "Customs duties", "sublabel": "Imports", "glyph": "ship" },
+    "bt-central-g1221": { "label": "Other social: employees", "sublabel": "Government schemes", "glyph": "heart" },
+    "bt-central-g11451": { "label": "Motor vehicle taxes", "sublabel": "Ownership · use", "glyph": "car" },
+    "bt-central-small-tax": { "label": "Other taxes (small lines)", "sublabel": "3 lines", "glyph": "gear" }
+  }
+}

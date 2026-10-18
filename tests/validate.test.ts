@@ -2,6 +2,7 @@ import { describe, expect, it } from 'vitest';
 import { listCountryIds, loadBundle } from '../scripts/lib/load';
 import { validateBundle } from '../scripts/validate-data';
 import type { CountryBundle } from '../src/data/schema';
+import { OECD_ISO3, OECD_LAC_ISO3 } from './oecd';
 
 const fresh = (id = 'japan'): CountryBundle => structuredClone(loadBundle(id));
 const errorsOf = (b: CountryBundle) => validateBundle(b).errors;
@@ -174,7 +175,7 @@ describe('validator enforces the national-total rules', () => {
 });
 
 describe('validator checks the harmonised structure layer', () => {
-  it.each(listCountryIds().filter((id) => !['bulgaria', 'croatia', 'malta', 'romania'].includes(id)))('%s has a structure.json', (id) => {
+  it.each(listCountryIds().filter((id) => [...OECD_ISO3, ...OECD_LAC_ISO3].includes(loadBundle(id).meta.iso3 as never)))('%s has a structure.json', (id) => {
     expect(loadBundle(id).structure).toBeDefined();
   });
 

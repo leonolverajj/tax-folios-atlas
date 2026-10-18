@@ -1,0 +1,19 @@
+{
+  "nodes": {
+    "saint-vincent-and-the-grenadines": { "label": "St Vincent & the Grenadines", "sublabel": "Fiscal folio · IMF lines", "glyph": "globe" },
+    "central": { "label": "Budgetary central govt", "sublabel": "IMF S1311B", "glyph": "landmark" },
+    "vc-central-g11411": { "label": "VAT", "sublabel": "Value added", "glyph": "cart" },
+    "vc-central-g1111": { "label": "Personal income tax", "sublabel": "Individuals", "glyph": "person" },
+    "vc-central-g1151": { "label": "Customs duties", "sublabel": "Imports", "glyph": "ship" },
+    "vc-central-g1112": { "label": "Corporate income tax", "sublabel": "Companies", "glyph": "factory" },
+    "vc-central-g11414": { "label": "Financial transaction taxes", "sublabel": "Transfers · securities", "glyph": "stamp" },
+    "vc-central-g1142": { "label": "Excises", "sublabel": "Specific goods", "glyph": "flame" },
+    "vc-central-g1156": { "label": "Other trade taxes", "sublabel": "Not elsewhere classified", "glyph": "gear" },
+    "vc-central-g113-other": { "label": "Other property taxes", "sublabel": "Not itemised", "glyph": "house" },
+    "vc-central-g1113": { "label": "Other income taxes", "sublabel": "Not split by payer", "glyph": "coin" },
+    "vc-central-g11451": { "label": "Motor vehicle taxes", "sublabel": "Ownership · use", "glyph": "car" },
+    "vc-central-g1144": { "label": "Taxes on services", "sublabel": "Insurance · lodging · gambling", "glyph": "bed" },
+    "vc-central-g11452": { "label": "Licences and use taxes", "sublabel": "Permissions", "glyph": "stamp" },
+    "vc-central-g1135": { "label": "Capital levies", "sublabel": "One-off", "glyph": "key" }
+  }
+}

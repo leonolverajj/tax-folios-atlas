@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "solomon-islands": {
+      "x": 800,
+      "y": 500
+    },
+    "central": {
+      "x": 509,
+      "y": 432
+    },
+    "sb-central-g1111": {
+      "x": 854,
+      "y": 828
+    },
+    "sb-central-g1152": {
+      "x": 314,
+      "y": 602
+    },
+    "sb-central-g1151": {
+      "x": 538,
+      "y": 216
+    },
+    "sb-central-g11413": {
+      "x": 1159,
+      "y": 265
+    },
+    "sb-central-g11412": {
+      "x": 405,
+      "y": 869
+    },
+    "sb-central-g1142": {
+      "x": 158,
+      "y": 330
+    },
+    "sb-central-g1112": {
+      "x": 908,
+      "y": 57
+    },
+    "sb-central-g11414": {
+      "x": 1473,
+      "y": 465
+    }
+  },
+  "radii": {}
+}

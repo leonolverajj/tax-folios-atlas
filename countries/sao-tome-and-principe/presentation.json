@@ -1,0 +1,19 @@
+{
+  "nodes": {
+    "sao-tome-and-principe": { "label": "São Tomé and Príncipe", "sublabel": "Fiscal folio · IMF lines", "glyph": "globe" },
+    "central": { "label": "Budgetary central govt", "sublabel": "IMF S1311B", "glyph": "landmark" },
+    "st-central-g1151": { "label": "Customs duties", "sublabel": "Imports", "glyph": "ship" },
+    "st-central-g1111": { "label": "Personal income tax", "sublabel": "Individuals", "glyph": "person" },
+    "st-central-g11412": { "label": "Sales taxes", "sublabel": "Single stage", "glyph": "cart" },
+    "st-central-g1142": { "label": "Excises", "sublabel": "Specific goods", "glyph": "flame" },
+    "st-central-g1112": { "label": "Corporate income tax", "sublabel": "Companies", "glyph": "factory" },
+    "st-central-g116": { "label": "Other taxes", "sublabel": "Not elsewhere classified", "glyph": "gear" },
+    "st-central-g1144": { "label": "Taxes on services", "sublabel": "Insurance · lodging · gambling", "glyph": "bed" },
+    "st-central-g1133": { "label": "Estate and gift taxes", "sublabel": "Transfers of wealth", "glyph": "scroll" },
+    "st-central-g1146": { "label": "Other goods and services", "sublabel": "Not elsewhere classified", "glyph": "gear" },
+    "st-central-g11451": { "label": "Motor vehicle taxes", "sublabel": "Ownership · use", "glyph": "car" },
+    "st-central-g113-other": { "label": "Other property taxes", "sublabel": "Not itemised", "glyph": "house" },
+    "st-central-small-tax": { "label": "Other taxes (small lines)", "sublabel": "3 lines", "glyph": "gear" },
+    "st-central-g1222": { "label": "Other social: employers", "sublabel": "Government schemes", "glyph": "heart" }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "saint-lucia": {
+      "x": 800,
+      "y": 500
+    },
+    "central": {
+      "x": 509,
+      "y": 432
+    },
+    "lc-central-g1156": {
+      "x": 848,
+      "y": 829
+    },
+    "lc-central-g1111": {
+      "x": 465,
+      "y": 723
+    },
+    "lc-central-g1113": {
+      "x": 291,
+      "y": 517
+    },
+    "lc-central-g11452": {
+      "x": 423,
+      "y": 277
+    },
+    "lc-central-g1144": {
+      "x": 786,
+      "y": 170
+    },
+    "lc-central-small-tax": {
+      "x": 1158,
+      "y": 264
+    },
+    "lc-central-g11411": {
+      "x": 504,
+      "y": 880
+    },
+    "lc-central-g1112": {
+      "x": 109,
+      "y": 555
+    },
+    "lc-central-g1146": {
+      "x": 354,
+      "y": 157
+    },
+    "lc-central-g113-other": {
+      "x": 1007,
+      "y": 72
+    },
+    "lc-central-g1151": {
+      "x": 1472,
+      "y": 387
+    }
+  },
+  "radii": {}
+}

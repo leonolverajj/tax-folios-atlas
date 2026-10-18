@@ -1,0 +1,45 @@
+{
+  "groups": [
+    {
+      "title": "Budgetary central government: lines of the IMF series, 2024",
+      "defaults": {
+        "denominatorId": "central-2024",
+        "scale": "million",
+        "currency": "LBP",
+        "period": { "label": "2024", "kind": "calendar-year", "start": "2024-01-01", "end": "2024-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        { "nodeId": "lb-central-g11411", "amount": 114526494.349, "locator": "Series LBN.S1311B.G1.G11411_T.XDC.A, 2024" },
+        { "nodeId": "lb-central-g1151", "amount": 28919000, "locator": "Series LBN.S1311B.G1.G1151_T.XDC.A, 2024" },
+        { "nodeId": "lb-central-g116", "amount": 26222000, "locator": "Series LBN.S1311B.G1.G116_T.XDC.A, 2024" },
+        { "nodeId": "lb-central-g1112", "amount": 18829000, "locator": "Series LBN.S1311B.G1.G1112_T.XDC.A, 2024" },
+        { "nodeId": "lb-central-g1142", "amount": 17548000, "locator": "Series LBN.S1311B.G1.G1142_T.XDC.A, 2024" },
+        { "nodeId": "lb-central-g1143", "amount": 10316000, "locator": "Series LBN.S1311B.G1.G1143_T.XDC.A, 2024" },
+        { "nodeId": "lb-central-g112", "amount": 10283000, "locator": "Series LBN.S1311B.G1.G112_T.XDC.A, 2024" },
+        { "nodeId": "lb-central-g1131", "amount": 9991000, "locator": "Series LBN.S1311B.G1.G1131_T.XDC.A, 2024" },
+        { "nodeId": "lb-central-g1144", "amount": 8970000, "locator": "Series LBN.S1311B.G1.G1144_T.XDC.A, 2024" },
+        { "nodeId": "lb-central-g1113", "amount": 5697000, "locator": "Series LBN.S1311B.G1.G1113_T.XDC.A, 2024" },
+        { "nodeId": "lb-central-g1133", "amount": 5628000, "locator": "Series LBN.S1311B.G1.G1133_T.XDC.A, 2024" },
+        {
+          "nodeId": "lb-central-g113-other",
+          "amount": 1956000,
+          "locator": "Series LBN.S1311B.G1.G113_T.XDC.A, 2024, less its reported sub-lines",
+          "calculation": "G113_T less the sum of its reported sub-lines (LBP million)"
+        },
+        {
+          "nodeId": "lb-central-small-tax",
+          "amount": 35000,
+          "locator": "Series LBN.S1311B.G1, indicators G11451_T, G1146_T, XDC, annual, 2024",
+          "calculation": "Sum of 2 lines, each below 0.15% of the total (LBP million)"
+        },
+        { "nodeId": "lb-central-g1221", "amount": 24000, "locator": "Series LBN.S1311B.G1.G1221_T.XDC.A, 2024" }
+      ]
+    }
+  ],
+  "unavailable": []
+}

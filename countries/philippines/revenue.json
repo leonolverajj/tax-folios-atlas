@@ -1,0 +1,111 @@
+{
+  "groups": [
+    {
+      "title": "Central government and social security: lines of the IMF series, 2023",
+      "defaults": {
+        "denominatorId": "central-2023",
+        "scale": "million",
+        "currency": "PHP",
+        "period": { "label": "2023", "kind": "calendar-year", "start": "2023-01-01", "end": "2023-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        {
+          "nodeId": "ph-central-g1151",
+          "amount": 883214,
+          "locator": "Series PHL.S1311 + S1314.G1.G1151_T.XDC.A, 2023",
+          "calculation": "Sum of the sectors S1311 + S1314 (PHP million)"
+        },
+        {
+          "nodeId": "ph-central-g1111",
+          "amount": 699521,
+          "locator": "Series PHL.S1311 + S1314.G1.G1111_T.XDC.A, 2023",
+          "calculation": "Sum of the sectors S1311 + S1314 (PHP million)"
+        },
+        {
+          "nodeId": "ph-central-g121-other",
+          "amount": 606875.09,
+          "locator": "Series PHL.S1311 + S1314.G1.G121_T.XDC.A, 2023, less its reported sub-lines",
+          "calculation": "G121_T less the sum of its reported sub-lines (PHP million)"
+        },
+        {
+          "nodeId": "ph-central-g1112",
+          "amount": 550926.8,
+          "locator": "Series PHL.S1311 + S1314.G1.G1112_T.XDC.A, 2023",
+          "calculation": "Sum of the sectors S1311 + S1314 (PHP million)"
+        },
+        {
+          "nodeId": "ph-central-g11411",
+          "amount": 475253,
+          "locator": "Series PHL.S1311 + S1314.G1.G11411_T.XDC.A, 2023",
+          "calculation": "Sum of the sectors S1311 + S1314 (PHP million)"
+        },
+        {
+          "nodeId": "ph-central-g1142",
+          "amount": 292981,
+          "locator": "Series PHL.S1311 + S1314.G1.G1142_T.XDC.A, 2023",
+          "calculation": "Sum of the sectors S1311 + S1314 (PHP million)"
+        },
+        {
+          "nodeId": "ph-central-g116",
+          "amount": 215382,
+          "locator": "Series PHL.S1311 + S1314.G1.G116_T.XDC.A, 2023",
+          "calculation": "Sum of the sectors S1311 + S1314 (PHP million)"
+        },
+        {
+          "nodeId": "ph-central-g1113",
+          "amount": 153825.1,
+          "locator": "Series PHL.S1311 + S1314.G1.G1113_T.XDC.A, 2023",
+          "calculation": "Sum of the sectors S1311 + S1314 (PHP million)"
+        },
+        {
+          "nodeId": "ph-central-g1144",
+          "amount": 70004,
+          "locator": "Series PHL.S1311 + S1314.G1.G1144_T.XDC.A, 2023",
+          "calculation": "Sum of the sectors S1311 + S1314 (PHP million)"
+        },
+        {
+          "nodeId": "ph-central-g11452",
+          "amount": 65716,
+          "locator": "Series PHL.S1311 + S1314.G1.G11452_T.XDC.A, 2023",
+          "calculation": "Sum of the sectors S1311 + S1314 (PHP million)"
+        },
+        {
+          "nodeId": "ph-central-g11451",
+          "amount": 22454,
+          "locator": "Series PHL.S1311 + S1314.G1.G11451_T.XDC.A, 2023",
+          "calculation": "Sum of the sectors S1311 + S1314 (PHP million)"
+        }
+      ]
+    },
+    {
+      "title": "Local governments: lines of the IMF series, 2023",
+      "defaults": {
+        "denominatorId": "local-2023",
+        "scale": "million",
+        "currency": "PHP",
+        "period": { "label": "2023", "kind": "calendar-year", "start": "2023-01-01", "end": "2023-12-31" },
+        "basis": "Cash basis, as reported to the IMF (flag CA)",
+        "sourceId": "imf-gfs-api",
+        "role": "sizing",
+        "coverage": "exact",
+        "accessed": "2026-10-17"
+      },
+      "observations": [
+        { "nodeId": "ph-local-g11413", "amount": 132326.41, "locator": "Series PHL.S1313MIXED.G1.G11413_T.XDC.A, 2023" },
+        {
+          "nodeId": "ph-local-g113-other",
+          "amount": 94808.04,
+          "locator": "Series PHL.S1313MIXED.G1.G113_T.XDC.A, 2023, less its reported sub-lines",
+          "calculation": "G113_T less the sum of its reported sub-lines (PHP million)"
+        },
+        { "nodeId": "ph-local-g116", "amount": 14722.28, "locator": "Series PHL.S1313MIXED.G1.G116_T.XDC.A, 2023" }
+      ]
+    }
+  ],
+  "unavailable": []
+}

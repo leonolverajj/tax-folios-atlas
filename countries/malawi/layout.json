@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1600,
+    "height": 1000
+  },
+  "positions": {
+    "malawi": {
+      "x": 800,
+      "y": 500
+    },
+    "central": {
+      "x": 509,
+      "y": 432
+    },
+    "mw-central-g1112": {
+      "x": 854,
+      "y": 828
+    },
+    "mw-central-g1111": {
+      "x": 315,
+      "y": 596
+    },
+    "mw-central-g1151": {
+      "x": 538,
+      "y": 216
+    },
+    "mw-central-small-tax": {
+      "x": 1164,
+      "y": 268
+    },
+    "mw-central-g11411": {
+      "x": 231,
+      "y": 769
+    },
+    "mw-central-g1142": {
+      "x": 675,
+      "y": 59
+    },
+    "mw-central-g11451": {
+      "x": 1470,
+      "y": 619
+    }
+  },
+  "radii": {}
+}

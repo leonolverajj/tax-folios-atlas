@@ -1,0 +1,25 @@
+{
+  "nodes": {
+    "serbia": { "label": "Serbia", "sublabel": "Fiscal folio · IMF lines", "glyph": "globe" },
+    "central": { "label": "Central govt and social funds", "sublabel": "IMF S1311 + S1314", "glyph": "landmark" },
+    "local": { "label": "Local governments", "sublabel": "IMF S1313", "glyph": "town" },
+    "rs-central-g11411": { "label": "VAT", "sublabel": "Value added", "glyph": "cart" },
+    "rs-central-g1211": { "label": "Social: employees", "sublabel": "Contributions", "glyph": "shield" },
+    "rs-central-g1212": { "label": "Social: employers", "sublabel": "Contributions", "glyph": "shield" },
+    "rs-central-g1142": { "label": "Excises", "sublabel": "Specific goods", "glyph": "flame" },
+    "rs-central-g1111": { "label": "Personal income tax", "sublabel": "Individuals", "glyph": "person" },
+    "rs-central-g1112": { "label": "Corporate income tax", "sublabel": "Companies", "glyph": "factory" },
+    "rs-central-g1151": { "label": "Customs duties", "sublabel": "Imports", "glyph": "ship" },
+    "rs-central-g1144": { "label": "Taxes on services", "sublabel": "Insurance · lodging · gambling", "glyph": "bed" },
+    "rs-central-g11452": { "label": "Licences and use taxes", "sublabel": "Permissions", "glyph": "stamp" },
+    "rs-central-g1146": { "label": "Other goods and services", "sublabel": "Not elsewhere classified", "glyph": "gear" },
+    "rs-central-g11451": { "label": "Motor vehicle taxes", "sublabel": "Ownership · use", "glyph": "car" },
+    "rs-central-g11414": { "label": "Financial transaction taxes", "sublabel": "Transfers · securities", "glyph": "stamp" },
+    "rs-central-small-tax": { "label": "Other taxes (small lines)", "sublabel": "2 lines", "glyph": "gear" },
+    "rs-local-g113-other": { "label": "Other property taxes", "sublabel": "Not itemised", "glyph": "house" },
+    "rs-local-g11414": { "label": "Financial transaction taxes", "sublabel": "Transfers · securities", "glyph": "stamp" },
+    "rs-local-g11452": { "label": "Licences and use taxes", "sublabel": "Permissions", "glyph": "stamp" },
+    "rs-local-g11451": { "label": "Motor vehicle taxes", "sublabel": "Ownership · use", "glyph": "car" },
+    "rs-local-small-tax": { "label": "Other taxes (small lines)", "sublabel": "3 lines", "glyph": "gear" }
+  }
+}
